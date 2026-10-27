@@ -3069,6 +3069,55 @@
           "url": "https://www.medcalc.org/en/book/kaplan-meier.php"
         }
       ]
+    },
+    {
+      "id": "endo-17-hydroxylase-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "Endocrine",
+      "topic": "Steroidogenesis: 17α-hydroxylase deficiency",
+      "difficulty": 3,
+      "stem": "A 16-year-old girl is evaluated because she has not started puberty. She has female external genitalia, no breast development, and no pubic or axillary hair. Blood pressure is 165/100 mm Hg. Serum potassium is 2.9 mEq/L, and she has a metabolic alkalosis. Karyotype is 46,XX. Serum deoxycorticosterone (DOC) and corticosterone are high, and sex steroids are low.",
+      "leadIn": "A deficiency of which of the following enzymes is the most likely cause?",
+      "options": [
+        {
+          "id": "a",
+          "text": "17α-hydroxylase"
+        },
+        {
+          "id": "b",
+          "text": "21-hydroxylase"
+        },
+        {
+          "id": "c",
+          "text": "11β-hydroxylase"
+        },
+        {
+          "id": "d",
+          "text": "3β-hydroxysteroid dehydrogenase"
+        },
+        {
+          "id": "e",
+          "text": "Steroidogenic acute regulatory (StAR) protein"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: 17α-hydroxylase deficiency. Why: 17α-hydroxylase is needed to make cortisol and sex steroids. When it is blocked, precursors are pushed down the mineralocorticoid pathway, so DOC and corticosterone build up. DOC binds mineralocorticoid receptors and acts like aldosterone: hypertension, hypokalemia, and metabolic alkalosis. Corticosterone has cortisol-like activity. Sex steroids are low, so puberty does not progress; the absence of puberty plus hypertension often leads to diagnosis in adolescence. Lab clues: high DOC and corticosterone, a high progesterone-to-17-hydroxyprogesterone ratio, and low sex steroids. Memory hook: of the CAH forms, two cause hypertension (17α and 11β); only 11β also causes androgen excess.",
+      "whyWrong": {
+        "b": "21-hydroxylase deficiency causes androgen excess that virilizes 46,XX infants, and about 75% of classic cases are salt wasting. It does not cause hypertension with absent puberty.",
+        "c": "11β-hydroxylase deficiency also causes hypertension and hypokalemia from DOC, but it causes androgen excess with early virilization, not absent puberty.",
+        "d": "3β-HSD deficiency blocks cortisol, aldosterone, and androgen synthesis, so it is a salt-wasting form of CAH, not a cause of hypertension.",
+        "e": "StAR defects (lipoid CAH) present with adrenal insufficiency in early infancy and are a salt-wasting form of CAH, not a cause of hypertension."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Congenital Adrenal Hyperplasia",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK448098/"
+        }
+      ]
     }
   ]
 }
