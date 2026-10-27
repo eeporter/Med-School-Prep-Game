@@ -55,7 +55,7 @@ export function review(card, { correct, confidence }, todayStr, { examDate = nul
     else interval = Math.max(prev.interval + 1, Math.round(prev.interval * ease));
   }
   const daysToExam = examDate ? daysBetween(todayStr, examDate) : null;
-  if (daysToExam !== null && daysToExam > 1) interval = Math.min(interval, Math.max(1, Math.floor(daysToExam / 2)));
+  if (daysToExam !== null && daysToExam >= 1) interval = Math.min(interval, Math.max(1, Math.floor(daysToExam / 2)));
   return {
     reps,
     interval,

@@ -105,12 +105,12 @@ test('with an exam date, no review is scheduled on or after the exam', () => {
     r = review(r, { correct: true, confidence: 'sure' }, r.due, { examDate: '2026-03-11' });
   }
   assert.deepEqual(days, ['2026-03-06', '2026-03-08', '2026-03-09', '2026-03-10']);
-  // Short intervals are untouched, and a past or imminent exam is ignored.
+  // Short intervals are untouched, and a past exam is ignored.
   assert.equal(review(newCard(), { correct: true, confidence: 'sure' }, D, { examDate: '2026-03-11' }).interval, 1);
   assert.equal(review(c, { correct: true, confidence: 'sure' }, D, { examDate: '2026-02-01' }).interval,
     review(c, { correct: true, confidence: 'sure' }, D).interval);
-  assert.equal(review(c, { correct: true, confidence: 'sure' }, D, { examDate: '2026-03-02' }).interval,
-    review(c, { correct: true, confidence: 'sure' }, D).interval);
+  // Exam tomorrow: the minimum gap of 1 day lands on exam day, never after it.
+  assert.equal(review(c, { correct: true, confidence: 'sure' }, D, { examDate: '2026-03-02' }).interval, 1);
 });
 
 test('only the first answer of a day counts as a review', () => {
