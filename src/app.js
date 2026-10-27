@@ -4,10 +4,10 @@ import { usableQuestions, DISCIPLINES, SYSTEMS } from './bank.js';
 import { review, isDue, isMastered, newCard, reviewedOn } from './scheduler.js';
 import { presentQuestion, isCorrect, xpFor, levelFor, interleave, shuffle, updateStreak, needsRelearning, sureAccuracy } from './quiz.js';
 import { load, save, isDayString } from './storage.js';
-import { today, daysBetween } from './dates.js';
+import { EXAM_TYPES, SUBJECT_EXAMS, SECONDS_PER_QUESTION, examLabel, examFormat, examScope, nextExam, weightedSample } from './exams.js';
+import { today, daysBetween, parseDayString } from './dates.js';
 
 const NEW_PER_ROUNDS = 10;
-const SECONDS_PER_BLOCK_QUESTION = 90;
 // A question missed again and again is re-asked at most this many extra times
 // per session, so one stubborn item cannot trap the learner.
 const MAX_RELEARN_TRIES = 3;
@@ -52,11 +52,7 @@ function renderHome() {
   const unseen = questions.filter((q) => !state.cards[q.id]).length;
   $('due-summary').textContent = `${due} due for review, ${unseen} not yet seen.`;
 
-  $('exam-date').value = state.examDate || '';
-  const left = state.examDate ? daysBetween(t, state.examDate) : null;
-  $('exam-countdown').textContent = left === null ? 'Set your exam date so every question gets final reviews before the test.'
-    : left > 0 ? `${left} day${left === 1 ? '' : 's'} to go. Reviews are spaced to land before then.`
-      : 'Exam date has passed. Clear it or set the next one.';
+  renderExams(t);
 
   const sel = $('focus-select');
   if (!sel.options.length) {
@@ -102,13 +98,75 @@ function renderHome() {
   show('home');
 }
 
+// The soonest upcoming exam whose content includes this question, so each
+// question's reviews are aimed at the test it will appear on.
+function examFor(q, t) {
+  const upcoming = state.exams.filter((e) => daysBetween(t, e.date) >= 0).sort((a, b) => (a.date < b.date ? -1 : 1));
+  return upcoming.find((e) => examScope(e).inScope(q)) ?? null;
+}
+
+function renderExams(t) {
+  const list = $('exam-list');
+  list.replaceChildren();
+  const sorted = [...state.exams].sort((a, b) => (a.date < b.date ? -1 : 1));
+  for (const e of sorted) {
+    const left = daysBetween(t, e.date);
+    const li = el('li');
+    const when = parseDayString(e.date).toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' });
+    li.appendChild(el('span', `${examLabel(e)}, ${when}`));
+    li.appendChild(el('span', left > 0 ? `${left} day${left === 1 ? '' : 's'}` : left === 0 ? 'today' : 'done', 'meta'));
+    const rm = el('button', 'Remove', 'small');
+    rm.setAttribute('aria-label', `Remove ${examLabel(e)} on ${e.date}`);
+    rm.addEventListener('click', () => {
+      state.exams = state.exams.filter((x) => x !== e);
+      persist();
+      renderHome();
+    });
+    li.appendChild(rm);
+    list.appendChild(li);
+  }
+
+  const target = nextExam(state.exams, t);
+  // Safari ignores `hidden` on <option>, so the option is added and removed.
+  const sel = $('exam-select');
+  let blockOpt = sel.querySelector('option[value="next"]');
+  if (target && !blockOpt) {
+    blockOpt = el('option');
+    blockOpt.value = 'next';
+    sel.prepend(blockOpt);
+  } else if (!target && blockOpt) {
+    const wasNext = sel.value === 'next';
+    blockOpt.remove();
+    if (wasNext) sel.value = 'usmle-step1';
+  }
+  if (target) {
+    const f = examFormat(target);
+    const scope = examScope(target);
+    $('exam-focus').textContent = `Next up: ${examLabel(target)}. The real test is ${f.summary}. New questions in Daily Rounds ${scope.focus}, and Exam Block practices its pace.`;
+    blockOpt.textContent = `My next exam (${examLabel(target)})`;
+  } else {
+    $('exam-focus').textContent = 'Add the exams you are preparing for. The game aims new questions, practice blocks, and review timing at the next one.';
+  }
+  $('exam-subject-row').hidden = $('exam-type').value !== 'nbme-subject';
+}
+
 function buildQueue(mode) {
   const t = today();
   if (mode === 'rounds') {
     const due = questions.filter((q) => isDue(state.cards[q.id], t));
     const misses = due.filter((q) => state.cards[q.id].misconception);
     const rest = due.filter((q) => !state.cards[q.id].misconception);
-    const fresh = shuffle(questions.filter((q) => !state.cards[q.id])).slice(0, NEW_PER_ROUNDS);
+    const unseen = questions.filter((q) => !state.cards[q.id]);
+    const target = nextExam(state.exams, t);
+    let fresh;
+    if (target) {
+      // New material for the next exam first, weighted like its content outline.
+      const scope = examScope(target);
+      fresh = weightedSample(unseen.filter(scope.inScope), NEW_PER_ROUNDS, scope.weight);
+      fresh.push(...shuffle(unseen.filter((q) => !scope.inScope(q))).slice(0, NEW_PER_ROUNDS - fresh.length));
+    } else {
+      fresh = shuffle(unseen).slice(0, NEW_PER_ROUNDS);
+    }
     // Confident misses come first (interleaved among themselves), then the rest.
     return [...interleave(misses), ...interleave([...rest, ...fresh])];
   }
@@ -116,9 +174,21 @@ function buildQueue(mode) {
     const [field, value] = $('focus-select').value.split(/:(.*)/s);
     return shuffle(questions.filter((q) => q[field] === value));
   }
-  const exam = $('exam-select').value;
+  const choice = $('exam-select').value;
   const size = Number($('block-size').value);
-  return interleave(questions.filter((q) => q.exams.includes(exam))).slice(0, size);
+  const target = choice === 'next' ? nextExam(state.exams, t) : null;
+  if (target) {
+    const scope = examScope(target);
+    return interleave(weightedSample(questions.filter(scope.inScope), size, scope.weight));
+  }
+  return interleave(questions.filter((q) => q.exams.includes(choice))).slice(0, size);
+}
+
+// When Exam Block targets the next exam, default its length to that exam's
+// real block or section size.
+function syncBlockSize() {
+  const target = $('exam-select').value === 'next' ? nextExam(state.exams, today()) : null;
+  if (target) $('block-size').value = String(examFormat(target).blockSize);
 }
 
 function startSession(mode) {
@@ -129,7 +199,7 @@ function startSession(mode) {
   }
   session = {
     mode, queue, index: 0, answers: [], xpEarned: 0, tries: new Map(), relearned: new Set(),
-    deadline: mode === 'block' ? Date.now() + queue.length * SECONDS_PER_BLOCK_QUESTION * 1000 : null,
+    deadline: mode === 'block' ? Date.now() + queue.length * SECONDS_PER_QUESTION * 1000 : null,
   };
   if (session.deadline) tickTimer();
   showQuestion();
@@ -193,7 +263,7 @@ function answer(confidence) {
     const card = state.cards[cur.q.id] || newCard();
     const wasDueReview = isDue(card, t);
     gained = xpFor({ correct, confidence, wasDueReview });
-    state.cards[cur.q.id] = review(card, { correct, confidence }, t, { examDate: state.examDate });
+    state.cards[cur.q.id] = review(card, { correct, confidence }, t, { examDate: examFor(cur.q, t)?.date ?? null });
     state.xp += gained;
     state.streak = updateStreak(state.streak, t, daysBetween);
     state.history.push({ id: cur.q.id, day: t, correct, confidence });
@@ -335,11 +405,38 @@ function wire() {
   for (const b of document.querySelectorAll('[data-confidence]')) b.addEventListener('click', () => answer(b.dataset.confidence));
   $('next-btn').addEventListener('click', advance);
   $('sum-home').addEventListener('click', renderHome);
-  $('exam-date').addEventListener('change', (e) => {
-    state.examDate = isDayString(e.target.value) ? e.target.value : null;
+  const typeSel = $('exam-type');
+  for (const [id, { name }] of Object.entries(EXAM_TYPES)) {
+    const o = el('option', name);
+    o.value = id;
+    typeSel.appendChild(o);
+  }
+  for (const s of Object.keys(SUBJECT_EXAMS)) {
+    const o = el('option', s);
+    o.value = s;
+    $('exam-subject').appendChild(o);
+  }
+  typeSel.addEventListener('change', () => { $('exam-subject-row').hidden = typeSel.value !== 'nbme-subject'; });
+  $('exam-add').addEventListener('click', () => {
+    const date = $('exam-date').value;
+    if (!isDayString(date)) {
+      $('exam-date').focus();
+      $('exam-focus').textContent = 'Pick the test date first.';
+      return;
+    }
+    const exam = typeSel.value === 'nbme-subject'
+      ? { type: 'nbme-subject', subject: $('exam-subject').value, date }
+      : { type: typeSel.value, date };
+    state.exams.push(exam);
     persist();
+    $('exam-date').value = '';
     renderHome();
+    if (nextExam(state.exams, today())) {
+      $('exam-select').value = 'next';
+      syncBlockSize();
+    }
   });
+  $('exam-select').addEventListener('change', syncBlockSize);
   $('home-link').addEventListener('click', (e) => {
     e.preventDefault();
     if (session && !confirm('Leave this session? Answers so far are saved.')) return;
@@ -374,6 +471,10 @@ async function main() {
     $('due-summary').textContent = 'Could not load the question bank. If you opened this file directly, serve it over HTTP (see README).';
   }
   renderHome();
+  if (nextExam(state.exams, today())) {
+    $('exam-select').value = 'next';
+    syncBlockSize();
+  }
 }
 
 main();

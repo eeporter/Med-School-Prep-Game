@@ -1,11 +1,13 @@
 // Progress persistence. Every read and write is wrapped so a missing,
 // blocked, or corrupt localStorage never crashes the app.
 
+import { isValidExam } from './exams.js';
+
 export const STORAGE_KEY = 'med-study-game:v1';
 export const SCHEMA_VERSION = 1;
 
 export function emptyState() {
-  return { version: SCHEMA_VERSION, cards: {}, xp: 0, streak: { count: 0, lastDay: null }, history: [], examDate: null };
+  return { version: SCHEMA_VERSION, cards: {}, xp: 0, streak: { count: 0, lastDay: null }, history: [], exams: [] };
 }
 
 const isObj = (v) => v !== null && typeof v === 'object' && !Array.isArray(v);
@@ -46,7 +48,10 @@ export function sanitize(raw) {
     xp: Number.isFinite(raw.xp) && raw.xp >= 0 ? raw.xp : 0,
     streak: streakOk ? raw.streak : base.streak,
     history: Array.isArray(raw.history) ? raw.history.slice(-500) : [],
-    examDate: isDayString(raw.examDate) ? raw.examDate : null,
+    exams: Array.isArray(raw.exams)
+      ? raw.exams.filter((e) => isValidExam(e) && isDayString(e.date)).slice(0, 20)
+        .map((e) => (e.type === 'nbme-subject' ? { type: e.type, subject: e.subject, date: e.date } : { type: e.type, date: e.date }))
+      : [],
   };
 }
 

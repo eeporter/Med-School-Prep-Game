@@ -128,11 +128,21 @@ test('corrupt date strings are repaired instead of crashing the scheduler', asyn
   assert.equal(isDue(out.cards.c, '2026-03-01'), false);
 });
 
-test('exam date is kept when valid and dropped when corrupt', () => {
-  assert.equal(sanitize({ version: 1, examDate: '2026-06-15' }).examDate, '2026-06-15');
-  assert.equal(sanitize({ version: 1, examDate: '2026-02-30' }).examDate, null);
-  assert.equal(sanitize({ version: 1, examDate: 42 }).examDate, null);
-  assert.equal(sanitize({ version: 1 }).examDate, null);
+test('saved exams are kept when valid and dropped when corrupt', () => {
+  const out = sanitize({ version: 1, exams: [
+    { type: 'usmle-step1', date: '2027-06-15', extra: 'x' },
+    { type: 'nbme-subject', subject: 'Pathology', date: '2026-12-01' },
+    { type: 'nbme-subject', subject: 'Cooking', date: '2026-12-01' },
+    { type: 'usmle-step1', date: '2026-02-30' },
+    { type: 'mcat', date: '2026-12-01' },
+    null,
+  ] });
+  assert.deepEqual(out.exams, [
+    { type: 'usmle-step1', date: '2027-06-15' },
+    { type: 'nbme-subject', subject: 'Pathology', date: '2026-12-01' },
+  ]);
+  assert.deepEqual(sanitize({ version: 1, exams: 'nope' }).exams, []);
+  assert.deepEqual(sanitize({ version: 1 }).exams, []);
 });
 
 test('load survives a stored state with corrupt dates', () => {

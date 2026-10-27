@@ -35,13 +35,26 @@ This is a short summary of the evidence behind each mechanic. It draws on genera
 | More practice questions and more spaced-repetition flashcards go with higher Step 1 scores. | Deng, Gluckstein & Larsen 2015, *Perspect Med Educ* 4:308–313 (doi:10.1007/s40037-015-0220-x). This is an observational study, so it shows a link, not cause and effect. | Daily Rounds brings back each question on an expanding schedule (SM-2). |
 | Most gamification studies in medical education measure recall, and few show gains in deeper reasoning. | Huang, Loid & Sung 2024, *BMC Med Educ* 24:20 (doi:10.1186/s12909-023-04955-1): 18 of 23 studies targeted low-level outcomes. | Questions are clinical vignettes that require two-step reasoning, not bare fact recall. |
 
+## Exam profiles (official formats)
+
+Elissa can add each test she is preparing for, with its date. The soonest upcoming one sets the focus. All of these exams use the same single-best-answer item style: NBME writes its subject exam items "with the same rigor used to create USMLE Step 1 and Step 2 items", and the CBSE "uses the same item formats" as Step 1. So what differs between them is content scope, length, and pacing.
+
+| Exam | Official format | What the game does |
+|---|---|---|
+| USMLE Step 1 | On or after 2026-05-14: fourteen 30-minute blocks of up to 20 questions in one 8-hour session. Before that: seven 60-minute blocks of up to 40 (usmle.org, Step 1 exam content). Content outline by system, e.g. Reproductive & Endocrine 12–16%, Respiratory & Renal 11–15%, Human Development 1–3% (usmle.org, Step 1 content outline and specifications). | Exam Block defaults to 20 or 40 questions depending on the test date. New questions in Daily Rounds are drawn so each organ system's share follows the midpoint of its outline range, not how many questions the bank happens to have. |
+| NBME CBSE | 200 items in 5 h 15 min, including an optional 15-minute break (NBME Subject Exam Timing Chart). It has the same system outline as Step 1 (NBME CBSE content outline). | Same weighting as Step 1, using questions tagged NBME. |
+| NBME CBSSA | Four sections of 50 questions, 1 h 15 min each at standard pace. Prepares for Step 1 (nbme.org, CBSSA page). | 50-question blocks with Step 1 content weighting. |
+| NBME basic science subject exams | 125 items in 3 h 8 min. Anatomy & Embryology is 145 items in 3 h 38 min, and Microbiology & Immunology is 150 items in 3 h 45 min (NBME Subject Exam Timing Chart). | New questions and Exam Blocks come from that subject first. |
+
+Each of these works out to about 90 seconds per question, which is the Exam Block pace. With exams set, each question's review gaps are capped against the soonest exam that covers it (see the spacing row above).
+
 ## Design rules that follow
 
 1. **Feedback right away, with reasons.** After each question (outside Exam Block), show the answer, why it is right, and why each wrong option is wrong, starting with the one the learner picked.
 2. **Relearn to criterion, then space it out.** A question missed or guessed today comes back later in the same session until she answers it right with confidence. It also returns on later days on the spaced schedule.
 3. **Reward accuracy and spacing, not speed or guessing.** Correct and sure = 10 XP, correct and unsure = 8, correct guess = 4, wrong = 0, plus 5 XP for a question that was due for review. Relearning repeats earn no XP, so repeating a question can't be used to farm points.
 4. **Low stakes, private progress.** Nothing is lost for a wrong answer, and nothing is compared with other people.
-5. **Aim the schedule at the exam.** With an exam date set, gaps shrink as the test approaches (capped at half the days left), and every review lands before the test.
+5. **Aim at the next exam.** Add each test and its date. New questions, Exam Block length, and review timing follow the soonest one, and gaps shrink as it approaches (capped at half the days left).
 6. **Exam realism when it matters.** Exam Block mimics the real test (timed, no feedback until the end) so she practices pacing, then reviews everything.
 
 ## Considered next

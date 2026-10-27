@@ -40,7 +40,7 @@
 
         <article class="mode">
           <h2>Exam Block</h2>
-          <p>Timed block with no feedback until the end, like the real test (about 90 seconds per question). Review every answer afterward.</p>
+          <p>Timed block with no feedback until the end, like the real test (about 90 seconds per question). Pick "My next exam" to match its content and block length. Review every answer afterward.</p>
           <label>Exam
             <select id="exam-select">
               <option value="usmle-step1">USMLE Step 1</option>
@@ -52,17 +52,29 @@
               <option value="10">10</option>
               <option value="20" selected>20</option>
               <option value="40">40</option>
+              <option value="50">50</option>
             </select>
           </label>
           <button data-mode="block">Start block</button>
         </article>
       </div>
 
-      <section class="exam-date">
-        <label>Exam date
-          <input type="date" id="exam-date">
-        </label>
-        <p class="meta" id="exam-countdown"></p>
+      <section class="exams" aria-labelledby="exams-head">
+        <h2 id="exams-head">My exams</h2>
+        <p class="meta" id="exam-focus"></p>
+        <ul id="exam-list"></ul>
+        <div class="exam-form">
+          <label>Test
+            <select id="exam-type"></select>
+          </label>
+          <label id="exam-subject-row" hidden>Subject
+            <select id="exam-subject"></select>
+          </label>
+          <label>Date
+            <input type="date" id="exam-date">
+          </label>
+          <button id="exam-add">Add exam</button>
+        </div>
       </section>
 
       <section class="mastery">
