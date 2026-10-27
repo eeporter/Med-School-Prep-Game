@@ -3224,6 +3224,562 @@
           "url": "https://www.aafp.org/pubs/afp/issues/1999/1015/p1821.html"
         }
       ]
+    },
+    {
+      "id": "neuro-wallenberg-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Nervous System & Special Senses",
+      "topic": "Lateral medullary (Wallenberg) syndrome",
+      "difficulty": 2,
+      "stem": "A 67-year-old man has sudden vertigo, nausea, hoarseness, and difficulty swallowing. Examination shows nystagmus, a drooping left eyelid with a small left pupil, reduced pain sensation over the left side of his face, and reduced pain and temperature sensation over his right arm and leg. Strength is normal in all limbs. MRI shows an acute infarct in the left lateral medulla.",
+      "leadIn": "Damage to which of the following structures best explains his hoarseness and difficulty swallowing?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nucleus ambiguus"
+        },
+        {
+          "id": "b",
+          "text": "Spinal (descending) trigeminal tract and nucleus"
+        },
+        {
+          "id": "c",
+          "text": "Lateral spinothalamic tract"
+        },
+        {
+          "id": "d",
+          "text": "Descending sympathetic fibers"
+        },
+        {
+          "id": "e",
+          "text": "Inferior vestibular nucleus"
+        }
+      ],
+      "answer": "a",
+      "explanation": "This is lateral medullary (Wallenberg) syndrome. Its signature is crossed sensory loss: the face on the side of the lesion and the arm and leg on the opposite side. The nucleus ambiguus holds the motor neurons of cranial nerves IX and X, which run the throat and voice box. Damage causes difficulty swallowing (dysphagia), hoarseness (dysphonia), and slurred speech on the same side as the lesion. About 80% of cases come from vertebral artery occlusion. The infarcted area is supplied by the posterior inferior cerebellar artery (PICA). Limb weakness is minimal or absent.",
+      "whyWrong": {
+        "b": "The descending trigeminal tract carries pain sensation from the face on the same side. Damage explains his left facial sensory loss, not his swallowing problem.",
+        "c": "The spinothalamic tract has already crossed, so damage causes pain and temperature loss in the opposite (right) arm and leg.",
+        "d": "Descending sympathetic fibers cause Horner syndrome on the same side: ptosis, a small pupil (miosis), and loss of sweating.",
+        "e": "Inferior vestibular nucleus damage causes his vertigo and nystagmus."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Wallenberg Syndrome",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK470174/"
+        }
+      ]
+    },
+    {
+      "id": "anat-epidural-hematoma-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Nervous System & Special Senses",
+      "topic": "Epidural vs subdural hematoma",
+      "difficulty": 1,
+      "stem": "A 19-year-old baseball player is struck on the right side of the head by a pitch. He is briefly unconscious, then wakes and talks normally in the emergency department. Two hours later he becomes drowsy and his right pupil is dilated. CT of the head shows a fracture of the squamous part of the right temporal bone and a biconvex (lens-shaped) hyperdense collection beneath it that does not cross the suture lines.",
+      "leadIn": "Bleeding from which of the following is the most likely cause of this collection?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A branch of the middle meningeal artery"
+        },
+        {
+          "id": "b",
+          "text": "Torn bridging veins"
+        },
+        {
+          "id": "c",
+          "text": "A ruptured saccular (berry) aneurysm"
+        },
+        {
+          "id": "d",
+          "text": "Charcot-Bouchard microaneurysms of small penetrating arteries"
+        },
+        {
+          "id": "e",
+          "text": "Cortical vessels weakened by amyloid deposits"
+        }
+      ],
+      "answer": "a",
+      "explanation": "This is an epidural hematoma (EDH). Most EDHs are arterial bleeds from a branch of the middle meningeal artery, usually under a skull fracture over the squamous temporal bone. On CT the clot is biconvex (lentiform) and rarely crosses suture lines. The classic lucid interval (knocked out, awake, then worse) occurs in only about 14% to 21% of patients with EDH. His new dilated pupil on the same side warns of uncal herniation compressing cranial nerve III. Symptomatic acute EDH is treated with craniotomy and evacuation of the hematoma.",
+      "whyWrong": {
+        "b": "Torn bridging veins cause a subdural hematoma, which is crescent-shaped and often crosses suture lines.",
+        "c": "A ruptured intracranial aneurysm causes subarachnoid hemorrhage (about 85% of nontraumatic cases), with a sudden severe 'worst headache of my life.'",
+        "d": "Charcot-Bouchard aneurysms form in small deep arterioles damaged by chronic hypertension. They cause bleeding inside the brain tissue (intracerebral hemorrhage), often in the basal ganglia, thalamus, or pons.",
+        "e": "Amyloid angiopathy causes lobar intracerebral hemorrhages in older patients, not a traumatic bleed outside the dura."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Epidural Hematoma",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK518982/"
+        },
+        {
+          "title": "StatPearls: Intracerebral Hemorrhagic Stroke",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK553103/"
+        },
+        {
+          "title": "StatPearls: Transtentorial Herniation",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK560536/"
+        },
+        {
+          "title": "StatPearls: Subarachnoid Hemorrhage",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK441958/"
+        }
+      ]
+    },
+    {
+      "id": "path-sah-aneurysm-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Nervous System & Special Senses",
+      "topic": "Subarachnoid hemorrhage",
+      "difficulty": 2,
+      "stem": "A 42-year-old woman with autosomal dominant polycystic kidney disease (ADPKD) had a sudden, severe headache while lifting a box 4 days ago. She calls it the worst headache of her life. She vomited and has had a stiff neck since. She waited to come in because the pain slowly eased. Noncontrast CT of the head shows no blood. Lumbar puncture shows xanthochromic (yellow-tinged) cerebrospinal fluid.",
+      "leadIn": "Which of the following is the most likely cause of her bleeding?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rupture of a saccular (berry) aneurysm"
+        },
+        {
+          "id": "b",
+          "text": "Tearing of bridging veins"
+        },
+        {
+          "id": "c",
+          "text": "Laceration of the middle meningeal artery"
+        },
+        {
+          "id": "d",
+          "text": "Hypertensive rupture of small penetrating arterioles"
+        },
+        {
+          "id": "e",
+          "text": "Amyloid deposition in cortical vessels"
+        }
+      ],
+      "answer": "a",
+      "explanation": "A sudden 'worst headache of my life' with vomiting and a stiff neck is subarachnoid hemorrhage (SAH) until proven otherwise. About 85% of nontraumatic SAH comes from a ruptured intracranial aneurysm, and ADPKD raises the risk of aneurysm rupture. Head CT is the first test. It is very sensitive early, but its sensitivity drops over the following days as blood in the cerebrospinal fluid breaks down. That is why her CT on day 4 was normal. When CT is negative and suspicion is strong, a lumbar puncture looks for xanthochromia, the yellow color left by broken-down blood.",
+      "whyWrong": {
+        "b": "Torn bridging veins cause a subdural hematoma, usually after trauma.",
+        "c": "Middle meningeal artery bleeding causes an epidural hematoma after a skull fracture, not a spontaneous bleed into the cerebrospinal fluid.",
+        "d": "Chronic hypertension damages small penetrating arterioles (lipohyalinosis, Charcot-Bouchard aneurysms) and causes deep intracerebral hemorrhage, not subarachnoid blood.",
+        "e": "Amyloid angiopathy causes lobar hemorrhages in older patients."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Subarachnoid Hemorrhage",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK441958/"
+        },
+        {
+          "title": "StatPearls: Epidural Hematoma",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK518982/"
+        },
+        {
+          "title": "StatPearls: Intracerebral Hemorrhagic Stroke",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK553103/"
+        }
+      ]
+    },
+    {
+      "id": "biochem-scd-b12-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "Nervous System & Special Senses",
+      "topic": "Subacute combined degeneration (vitamin B12)",
+      "difficulty": 2,
+      "stem": "A 58-year-old woman with type 2 diabetes has taken metformin for 10 years. For 6 months she has had tingling in her feet and feels unsteady walking in the dark. Examination shows loss of vibration and position sense in both legs, a positive Romberg sign, spastic leg weakness, extensor plantar responses (Babinski signs), and absent ankle reflexes. Hemoglobin and mean corpuscular volume are normal.",
+      "leadIn": "Which of the following laboratory findings is most likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Elevated methylmalonic acid and elevated homocysteine"
+        },
+        {
+          "id": "b",
+          "text": "Elevated homocysteine with normal methylmalonic acid"
+        },
+        {
+          "id": "c",
+          "text": "Normal methylmalonic acid and homocysteine, since her blood count is normal"
+        },
+        {
+          "id": "d",
+          "text": "Positive acetylcholine receptor antibodies"
+        }
+      ],
+      "answer": "a",
+      "explanation": "This is subacute combined degeneration from vitamin B12 deficiency. It damages two parts of the spinal cord. The dorsal columns carry vibration and position sense, so damage causes sensory ataxia and a positive Romberg sign. The lateral corticospinal tracts carry movement signals, so damage causes spastic weakness and Babinski signs (ankle reflexes are usually absent). Metformin causes B12 deficiency in about 10% to 30% of patients. B12 is the cofactor for two enzymes: methylmalonyl-CoA mutase and homocysteine methyltransferase (which turns homocysteine into methionine). So B12 deficiency raises both methylmalonic acid (MMA) and homocysteine. MMA is a more accurate marker than the serum B12 level. Patients with neurologic signs are best treated with B12 by injection at first, and some deficits may be permanent.",
+      "whyWrong": {
+        "b": "High homocysteine with normal MMA points to folate deficiency. MMA rises only in B12 deficiency.",
+        "c": "Subacute combined degeneration can occur without anemia or macrocytosis, and nerve symptoms may come before blood changes. A normal blood count does not rule out B12 deficiency.",
+        "d": "Acetylcholine receptor antibodies cause myasthenia gravis, which gives fatigable muscle weakness without sensory loss."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Subacute Combined Degeneration",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK559316/"
+        },
+        {
+          "title": "StatPearls: Myasthenia Gravis",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK559331/"
+        }
+      ]
+    },
+    {
+      "id": "pharm-absence-ethosuximide-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Nervous System & Special Senses",
+      "topic": "Absence seizures",
+      "difficulty": 1,
+      "stem": "A 7-year-old girl's teacher reports that she stares blankly many times a day, often stopping mid-sentence for about 10 seconds and then carrying on as if nothing happened. She is not confused afterward. In the clinic, an episode starts when she is asked to breathe fast for 3 minutes. EEG shows 3-Hz spike-and-wave discharges in both hemispheres that start and stop abruptly.",
+      "leadIn": "Which of the following is the most appropriate first-line drug?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ethosuximide"
+        },
+        {
+          "id": "b",
+          "text": "Carbamazepine"
+        },
+        {
+          "id": "c",
+          "text": "Phenytoin"
+        },
+        {
+          "id": "d",
+          "text": "Gabapentin"
+        },
+        {
+          "id": "e",
+          "text": "Vigabatrin"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Brief staring spells with no confusion afterward, set off by hyperventilation, with 3-Hz spike-and-wave on EEG are absence seizures. Ethosuximide is the first-line treatment. It is preferred over valproate (which did worse on attention measures in a 2010 trial) and lamotrigine. Ethosuximide suppresses T-type calcium channels in thalamic neurons, part of the cortex-thalamus-cortex circuit behind absence seizures. Its most common side effects are abdominal pain and nausea, so it is taken with meals. Valproate should be avoided in women of childbearing age who are not using contraception.",
+      "whyWrong": {
+        "b": "Carbamazepine is a sodium channel blocker. Drugs in this class can make absence seizures worse.",
+        "c": "Phenytoin is also a sodium channel blocker and can worsen absence seizures.",
+        "d": "Gabapentin is on the list of drugs that can worsen absence seizures.",
+        "e": "Vigabatrin raises GABA activity, including at GABA-B receptors, and can increase absence seizure frequency."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Absence Seizure",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK499867/"
+        }
+      ]
+    },
+    {
+      "id": "path-myasthenia-gravis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Nervous System & Special Senses",
+      "topic": "Myasthenia gravis",
+      "difficulty": 1,
+      "stem": "A 32-year-old woman has 2 months of double vision and drooping eyelids that are mild in the morning and worse by evening. Her jaw tires toward the end of meals. Pupils, sensation, and reflexes are normal. After an ice pack is held over her drooping eyelid for 2 minutes, the ptosis improves.",
+      "leadIn": "Autoantibodies against which of the following are most likely causing her symptoms?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Postsynaptic nicotinic acetylcholine receptors"
+        },
+        {
+          "id": "b",
+          "text": "Presynaptic voltage-gated calcium channels"
+        },
+        {
+          "id": "c",
+          "text": "Muscle-specific kinase (MuSK)"
+        },
+        {
+          "id": "d",
+          "text": "Acetylcholinesterase"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Fluctuating, fatigable weakness that is worse later in the day, with ptosis and double vision, is myasthenia gravis (MG). Eye muscle weakness is the first sign in about 85% of patients. Antibodies against the acetylcholine receptor are found in about 80% of generalized MG, making them the most likely cause. The ice pack test (2 to 5 minutes over the eye) improves ptosis in MG. Repetitive nerve stimulation at 2 to 3 Hz shows a falling (decremental) response. About 10% of patients have a thymoma. First-line symptom treatment is pyridostigmine, an acetylcholinesterase inhibitor that raises acetylcholine at the neuromuscular junction.",
+      "whyWrong": {
+        "b": "Antibodies to presynaptic voltage-gated calcium channels cause Lambert-Eaton syndrome, where weakness improves with exercise.",
+        "c": "MuSK antibodies cause a smaller share of MG, about 5% to 10% of patients without acetylcholine receptor antibodies.",
+        "d": "Acetylcholinesterase breaks down acetylcholine. Blocking it with pyridostigmine is the treatment, not the cause."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Myasthenia Gravis",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK559331/"
+        }
+      ]
+    },
+    {
+      "id": "pharm-angle-closure-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Nervous System & Special Senses",
+      "topic": "Acute angle-closure glaucoma",
+      "difficulty": 2,
+      "stem": "A 64-year-old farsighted woman has an eye exam with dilating drops. That evening she develops severe pain in the left eye, headache, nausea, vomiting, blurred vision, and rainbow-colored halos around lights. The left eye is red and the pupil is fixed and mid-dilated. Intraocular pressure is markedly elevated. Drugs are given to lower the pressure.",
+      "leadIn": "Which of the following is the definitive treatment for this condition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Laser peripheral iridotomy"
+        },
+        {
+          "id": "b",
+          "text": "Topical timolol alone"
+        },
+        {
+          "id": "c",
+          "text": "Oral acetazolamide alone"
+        },
+        {
+          "id": "d",
+          "text": "Topical pilocarpine alone"
+        },
+        {
+          "id": "e",
+          "text": "Topical atropine"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Sudden eye pain, headache, nausea and vomiting, halos around lights, and a fixed mid-dilated pupil after pupil dilation is acute angle-closure glaucoma. Farsighted (hyperopic) eyes are at higher risk. In pupillary block, fluid trapped behind the iris pushes the outer iris forward against the trabecular meshwork, closing the drainage angle. Drugs such as acetazolamide, mannitol, timolol, apraclonidine, and pilocarpine lower the pressure quickly, but laser peripheral iridotomy is the treatment of choice. The other eye usually gets a preventive iridotomy too.",
+      "whyWrong": {
+        "b": "Timolol lowers pressure quickly and is part of first aid, but it does not remove the pupillary block.",
+        "c": "Acetazolamide lowers pressure fast, but it is a bridge to iridotomy, not the definitive fix.",
+        "d": "Pilocarpine is part of medical treatment, usually once pressure is below 40 mm Hg. It does not remove the block for good.",
+        "e": "Atropine is an anticholinergic pupil dilator. Dilators like this are linked to triggering angle closure."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Acute Angle-Closure Glaucoma",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK430857/"
+        }
+      ]
+    },
+    {
+      "id": "neuro-uncal-herniation-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Nervous System & Special Senses",
+      "topic": "Uncal (transtentorial) herniation",
+      "difficulty": 2,
+      "stem": "A 55-year-old man is admitted with a large right temporal lobe hemorrhage. Over several hours he becomes harder to wake. His right pupil is now dilated and does not react to light. He has new weakness of the left arm and leg.",
+      "leadIn": "Compression of which of the following structures best explains the right pupil finding?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Right oculomotor nerve (cranial nerve III)"
+        },
+        {
+          "id": "b",
+          "text": "Left oculomotor nerve (cranial nerve III)"
+        },
+        {
+          "id": "c",
+          "text": "Right cerebral peduncle"
+        },
+        {
+          "id": "d",
+          "text": "Right descending sympathetic pathway"
+        },
+        {
+          "id": "e",
+          "text": "Dorsal midbrain"
+        }
+      ],
+      "answer": "a",
+      "explanation": "This is uncal (transtentorial) herniation. The uncus, the inner part of the temporal lobe, is pushed down through the opening in the tentorium cerebelli. The hallmark is a fixed, dilated pupil on the same side as the mass, from compression of the oculomotor nerve. Pressure on the same-side cerebral peduncle in the midbrain injures the corticospinal tract and causes weakness on the opposite side (his left). If the midbrain is pushed so far that the opposite peduncle hits the tentorial edge (Kernohan notch), weakness can appear on the same side as the mass. This is a false localizing sign. The posterior cerebral artery can also be compressed against the tentorium, causing occipital infarction.",
+      "whyWrong": {
+        "b": "In uncal herniation, the oculomotor nerve on the same side as the mass is compressed, so the right pupil points to the right nerve.",
+        "c": "Pressure on the right cerebral peduncle explains his left-sided weakness, not the pupil change.",
+        "d": "Damage to the sympathetic pathway causes Horner syndrome, with a small (miotic) pupil, not a dilated one.",
+        "e": "Dorsal midbrain compression (Parinaud syndrome) causes 'sun-setting' eyes with forced downgaze."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Transtentorial Herniation",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK560536/"
+        },
+        {
+          "title": "StatPearls: Wallenberg Syndrome",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK470174/"
+        }
+      ]
+    },
+    {
+      "id": "anat-anencephaly-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Nervous System & Special Senses",
+      "topic": "Neural tube defects",
+      "difficulty": 1,
+      "stem": "A 24-year-old woman at 17 weeks' gestation has a markedly elevated maternal serum alpha-fetoprotein (AFP). She takes valproic acid for epilepsy and took no supplements before pregnancy. Ultrasound shows the top of the fetal skull is missing and there is no brain tissue where the cerebral hemispheres should be.",
+      "leadIn": "This malformation results from failure of which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Closure of the rostral end of the neural tube during week 4"
+        },
+        {
+          "id": "b",
+          "text": "Closure of the caudal end of the neural tube during week 4"
+        },
+        {
+          "id": "c",
+          "text": "Closure of the rostral end of the neural tube during week 8"
+        },
+        {
+          "id": "d",
+          "text": "Secondary neurulation from the tail bud"
+        }
+      ],
+      "answer": "a",
+      "explanation": "This is anencephaly. The neural tube closes in the fourth week, and anencephaly results when its rostral (head) end fails to close, around days 23 to 26. Without closure, the skull vault and most of the brain do not form, and the condition is not compatible with life. Maternal serum AFP is markedly raised in about 90% of cases, and amniotic fluid shows high AFP plus acetylcholinesterase. Folic acid at 0.4 mg a day or more before conception lowers the risk, especially in women taking antiseizure drugs. Valproate is the most teratogenic antiseizure drug and interferes with folate absorption.",
+      "whyWrong": {
+        "b": "Failure to close the caudal (tail) end causes spina bifida, the other main type of neural tube defect.",
+        "c": "The neural tube closes in week 4, not week 8.",
+        "d": "Secondary neurulation from the tail bud forms the lowest (sacral and coccygeal) part of the cord, not the brain."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Embryology, Anencephaly",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK545244/"
+        }
+      ]
+    },
+    {
+      "id": "pharm-carbidopa-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Nervous System & Special Senses",
+      "topic": "Parkinson disease drugs",
+      "difficulty": 1,
+      "stem": "A 68-year-old man has a slow, coarse tremor of his right hand that is worst at rest, eases when he reaches for objects, and stops during sleep. He moves slowly and has trouble getting out of chairs. He is started on levodopa combined with carbidopa.",
+      "leadIn": "What is the main reason for adding carbidopa?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It blocks peripheral decarboxylation of levodopa, so less levodopa is needed and peripheral side effects fall"
+        },
+        {
+          "id": "b",
+          "text": "It directly activates dopamine receptors in the basal ganglia"
+        },
+        {
+          "id": "c",
+          "text": "It inhibits monoamine oxidase B, which breaks down dopamine in the brain"
+        },
+        {
+          "id": "d",
+          "text": "It inhibits catechol-O-methyltransferase (COMT) to treat end-of-dose wearing off"
+        },
+        {
+          "id": "e",
+          "text": "It blocks muscarinic receptors to reduce tremor"
+        }
+      ],
+      "answer": "a",
+      "explanation": "A resting tremor of one hand with slowness is typical of Parkinson disease. Pigmented dopamine neurons in the substantia nigra degenerate, and Lewy bodies filled with alpha-synuclein form. Levodopa crosses the blood-brain barrier and is turned into dopamine in the brain. Outside the brain, the enzyme aromatic L-amino acid decarboxylase converts it early. Carbidopa is a peripheral decarboxylase inhibitor. It stops that early conversion, which lowers the levodopa dose needed to reach the brain. If peripheral side effects such as nausea, vomiting, or light-headedness on standing dominate, more carbidopa can help.",
+      "whyWrong": {
+        "b": "Dopamine agonists such as pramipexole and ropinirole directly activate dopamine receptors.",
+        "c": "MAO-B inhibitors such as selegiline and rasagiline block dopamine breakdown in the brain.",
+        "d": "COMT inhibitors such as entacapone block breakdown of levodopa and dopamine and are added when doses wear off early.",
+        "e": "Anticholinergic drugs such as benztropine and trihexyphenidyl work best on tremor. Because of side effects in older adults, they are mostly used in younger patients."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Parkinson Disease",
+          "url": "https://www.msdmanuals.com/professional/neurologic-disorders/movement-and-cerebellar-disorders/parkinson-disease"
+        },
+        {
+          "title": "LiverTox (NCBI Bookshelf): Levodopa",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK548734/"
+        }
+      ]
+    },
+    {
+      "id": "neuro-aca-stroke-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Nervous System & Special Senses",
+      "topic": "Stroke syndromes by artery",
+      "difficulty": 1,
+      "stem": "A 71-year-old woman suddenly develops weakness of her left leg, much worse than in her left arm. Her face is not affected. Her family says she has become apathetic and confused, and she has had urinary incontinence since the event. Language is normal.",
+      "leadIn": "Occlusion of which of the following arteries is most likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Right anterior cerebral artery"
+        },
+        {
+          "id": "b",
+          "text": "Right middle cerebral artery"
+        },
+        {
+          "id": "c",
+          "text": "Left anterior cerebral artery"
+        },
+        {
+          "id": "d",
+          "text": "Right posterior cerebral artery"
+        },
+        {
+          "id": "e",
+          "text": "A lenticulostriate branch"
+        }
+      ],
+      "answer": "a",
+      "explanation": "An anterior cerebral artery (ACA) stroke causes weakness on the opposite side that is worst in the leg, plus urinary incontinence, apathy, confusion, poor judgment, and sometimes a grasp reflex or gait apraxia. Her left-sided weakness points to the right hemisphere.",
+      "whyWrong": {
+        "b": "Middle cerebral artery strokes cause opposite-side weakness worse in the face and arm than the leg, with aphasia (dominant side) or neglect (nondominant side).",
+        "c": "A left ACA stroke would weaken the right leg.",
+        "d": "Posterior cerebral artery strokes cause an opposite-side homonymous hemianopia and memory loss.",
+        "e": "Lenticulostriate (lacunar) strokes cause pure motor or pure sensory syndromes with no cortical signs such as apathy or incontinence."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Overview of Stroke",
+          "url": "https://www.msdmanuals.com/professional/neurologic-disorders/stroke/overview-of-stroke"
+        }
+      ]
     }
   ]
 }
