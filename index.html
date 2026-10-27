@@ -30,15 +30,6 @@
         </article>
 
         <article class="mode">
-          <h2>Focus</h2>
-          <p>Drill one NBME subject or organ system. Good for a weak area, but mixed practice in Daily Rounds builds longer-lasting memory.</p>
-          <label>Subject or system
-            <select id="focus-select"></select>
-          </label>
-          <button data-mode="focus">Start focus</button>
-        </article>
-
-        <article class="mode">
           <h2>Exam Block</h2>
           <p>Timed block with no feedback until the end, like the real test (about 90 seconds per question). Pick "My next exam" to match its content and block length. Review every answer afterward.</p>
           <label>Exam
@@ -56,6 +47,27 @@
             </select>
           </label>
           <button data-mode="block">Start block</button>
+        </article>
+        <article class="mode wide" id="focus-card">
+          <h2>Focus on specific topics</h2>
+          <p>Tick the subjects, organ systems, or single topics you want to work on, then start. Good for a weak spot; mixed practice in Daily Rounds still builds the longest-lasting memory.</p>
+          <label class="check"><input type="checkbox" id="focus-missed"> <span id="focus-missed-label">Questions I have missed and not yet mastered</span></label>
+          <details>
+            <summary>By NBME subject</summary>
+            <div id="focus-subjects" class="checks"></div>
+          </details>
+          <details id="focus-systems-box">
+            <summary>By organ system or topic</summary>
+            <label>Find a topic
+              <input type="search" id="focus-search" placeholder="e.g. acid-base, anemia, murmurs" autocomplete="off">
+            </label>
+            <div id="focus-systems"></div>
+          </details>
+          <p class="meta" id="focus-count" aria-live="polite"></p>
+          <div class="row">
+            <button class="primary" data-mode="focus" id="focus-start">Start focus</button>
+            <button type="button" id="focus-clear">Clear choices</button>
+          </div>
         </article>
       </div>
 

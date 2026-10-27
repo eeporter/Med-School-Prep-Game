@@ -7,7 +7,7 @@ A free, open-source study game for **USMLE Step 1** and **NBME** exams. It runs 
 ## How it works
 
 - **Daily Rounds**: questions due for review plus a few new ones, mixed across organ systems. Do this every day.
-- **Focus**: drill one NBME subject (Pathology, Pharmacology, ...) or one organ system.
+- **Focus**: tick any mix of NBME subjects (Pathology, Pharmacology, ...), whole organ systems, single topics (with a "Find a topic" search box), or "questions I have missed", then drill just those. Picks are remembered on that device.
 - **Exam Block**: timed, no feedback until the end, like the real test. Then review every answer.
 
 Before you see the answer, you rate your confidence (Guess / Unsure / Sure). That rating sets when the question comes back (spaced repetition, SM-2) and flags confident mistakes, which are the most valuable ones to fix.
