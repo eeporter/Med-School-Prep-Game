@@ -2486,6 +2486,455 @@
           "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK507807/"
         }
       ]
+    },
+    {
+      "id": "micro-tb-reactivation-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Respiratory",
+      "topic": "Tuberculosis",
+      "difficulty": 2,
+      "stem": "A 62-year-old man who emigrated from a country with high tuberculosis rates has had 2 months of cough, night sweats, low-grade fevers, and a 6-kg weight loss. He had a positive tuberculin skin test years ago that was never treated. He recently started high-dose prednisone for another condition. Chest x-ray shows a cavitary lesion in the apex of the right upper lobe.",
+      "leadIn": "Which of the following best explains the location of this lesion?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Reactivation of latent infection, which favors the apical-posterior lung segments"
+        },
+        {
+          "id": "b",
+          "text": "Primary infection, which favors the middle and lower lung zones"
+        },
+        {
+          "id": "c",
+          "text": "Aspiration while unconscious, which favors dependent lung segments"
+        },
+        {
+          "id": "d",
+          "text": "Hematogenous spread from a distant site, which produces a single apical cavity"
+        },
+        {
+          "id": "e",
+          "text": "Inhalation of fungal spores from bird or bat droppings"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: reactivation (secondary) tuberculosis. Why: in someone with an old positive skin test, weakened immunity (here, high-dose steroids) lets latent Mycobacterium tuberculosis reactivate. Reactivation TB favors the apical-posterior segments of the upper lobes and often cavitates, because granulomas can undergo caseous necrosis and erode into an airway. M. tuberculosis is acid-fast because of the high lipid content of its cell wall, and culture is the gold standard for diagnosing active disease.",
+      "whyWrong": {
+        "b": "Primary TB usually causes an infiltrate in the middle and lower lung zones, not an apical cavity, and this patient was infected years ago.",
+        "c": "Aspiration affects dependent segments and does not explain years of latent TB followed by reactivation on steroids.",
+        "d": "Hematogenous (miliary) spread causes many tiny nodules throughout both lungs, not a single apical cavity.",
+        "e": "Histoplasmosis from bird or bat droppings can mimic TB, but this patient's untreated positive TB skin test and steroid use point to reactivation TB."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Tuberculosis Overview",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK441916/"
+        }
+      ]
+    },
+    {
+      "id": "pharm-methimazole-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Endocrine",
+      "topic": "Thyroid hormone synthesis and antithyroid drugs",
+      "difficulty": 1,
+      "stem": "A 30-year-old woman has heat intolerance, palpitations, weight loss, a diffuse goiter, and bulging eyes. TSH is suppressed and free T4 is high. She is started on methimazole. Two months later she develops fever and a severe sore throat, and her absolute neutrophil count is very low.",
+      "leadIn": "Methimazole lowers thyroid hormone production by inhibiting which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Thyroid peroxidase"
+        },
+        {
+          "id": "b",
+          "text": "The sodium-iodide symporter"
+        },
+        {
+          "id": "c",
+          "text": "Release of stored hormone from thyroglobulin"
+        },
+        {
+          "id": "d",
+          "text": "TSH receptor stimulation by antibodies"
+        },
+        {
+          "id": "e",
+          "text": "Thyroid hormone receptors in target tissues"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: thyroid peroxidase. Why: methimazole inhibits thyroid peroxidase, the enzyme that attaches iodine to tyrosine residues on thyroglobulin and couples them to form T4 and T3. Her fever and sore throat with very low neutrophils is agranulocytosis, a serious adverse effect of methimazole. Methimazole is also avoided in the first trimester because of birth defects (e.g., aplasia cutis), while propylthiouracil (PTU) carries a risk of severe liver injury.",
+      "whyWrong": {
+        "b": "The sodium-iodide symporter brings iodide into the thyroid; it is blocked by anions such as perchlorate, not by methimazole.",
+        "c": "Blocking release of stored hormone is an effect of large doses of iodide, not methimazole.",
+        "d": "Methimazole does not block the stimulating antibodies of Graves disease; it blocks hormone synthesis downstream of them.",
+        "e": "Methimazole does not act on thyroid hormone receptors; beta-blockers are used to control symptoms at the tissue level."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Methimazole",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK545223/"
+        }
+      ]
+    },
+    {
+      "id": "cardio-fmd-renovascular-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Cardiovascular",
+      "topic": "Secondary hypertension",
+      "difficulty": 2,
+      "stem": "A 27-year-old woman has new hypertension of 168/104 mm Hg found at a routine visit. She does not smoke and has no family history of hypertension. A bruit is heard in the right upper abdomen. Renal angiography shows alternating narrowing and dilation of the middle portion of the right renal artery.",
+      "leadIn": "Which of the following is the most likely cause of this patient's hypertension?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Fibromuscular dysplasia"
+        },
+        {
+          "id": "b",
+          "text": "Atherosclerotic renal artery stenosis"
+        },
+        {
+          "id": "c",
+          "text": "Primary hyperaldosteronism"
+        },
+        {
+          "id": "d",
+          "text": "Pheochromocytoma"
+        },
+        {
+          "id": "e",
+          "text": "Coarctation of the aorta"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: fibromuscular dysplasia (FMD). Why: FMD most often affects women younger than 50, and onset of hypertension before age 30 strongly suggests it. It typically involves the middle and distal renal artery and gives a classic \"string-of-beads\" look on angiography. The narrowed artery lowers perfusion to that kidney, which releases renin and drives renovascular hypertension. In contrast, atherosclerosis causes about 90% of renovascular hypertension overall but affects older patients and the origin (first 2 cm) of the artery.",
+      "whyWrong": {
+        "b": "Atherosclerotic stenosis affects patients older than 45 and narrows the renal artery origin, not the middle segment in a beaded pattern.",
+        "c": "Primary hyperaldosteronism causes hypertension with low renin and often low potassium, but not an abnormal renal angiogram.",
+        "d": "Pheochromocytoma causes episodic headaches, sweating, and palpitations and would not explain a beaded renal artery.",
+        "e": "Coarctation causes higher blood pressure in the arms than the legs with delayed femoral pulses, not a renal artery lesion."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Renovascular Hypertension",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK551587/"
+        }
+      ]
+    },
+    {
+      "id": "pharm-azole-antifungal-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "General Principles",
+      "topic": "Antifungal drugs",
+      "difficulty": 2,
+      "stem": "A 45-year-old man with HIV infection and a CD4+ count of 90/mm3 has painful swallowing. Endoscopy shows white plaques on the esophageal mucosa, and biopsy shows yeast with pseudohyphae. He is started on oral fluconazole.",
+      "leadIn": "This drug acts by inhibiting which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lanosterol 14-alpha-demethylase in ergosterol synthesis"
+        },
+        {
+          "id": "b",
+          "text": "Beta-(1,3)-D-glucan synthase in the cell wall"
+        },
+        {
+          "id": "c",
+          "text": "Squalene epoxidase"
+        },
+        {
+          "id": "d",
+          "text": "Fungal RNA synthesis after conversion to 5-fluorouracil"
+        },
+        {
+          "id": "e",
+          "text": "Membrane integrity by binding ergosterol and forming pores"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: lanosterol 14-alpha-demethylase. Why: azoles such as fluconazole inhibit this enzyme, a key step in making ergosterol, the main sterol of fungal cell membranes. Without ergosterol the membrane does not work properly. Esophageal candidiasis in advanced HIV is commonly treated with fluconazole.",
+      "whyWrong": {
+        "b": "Inhibiting beta-glucan synthase is the mechanism of echinocandins (caspofungin, micafungin).",
+        "c": "Inhibiting squalene epoxidase is the mechanism of terbinafine, used for nail and skin fungal infections.",
+        "d": "Conversion to 5-fluorouracil, which interferes with fungal RNA synthesis, is the mechanism of flucytosine.",
+        "e": "Binding ergosterol to form membrane pores is the mechanism of amphotericin B, which is nephrotoxic."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Antifungal Agents",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK538168/"
+        }
+      ]
+    },
+    {
+      "id": "peds-croup-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Respiratory",
+      "topic": "Pediatric respiratory distress",
+      "difficulty": 1,
+      "stem": "An 18-month-old boy has had a runny nose and low-grade fever for 2 days. Tonight he developed a barking, seal-like cough and a high-pitched noise when breathing in. He is not drooling and is not toxic appearing. A neck x-ray shows narrowing of the airway just below the vocal cords.",
+      "leadIn": "Which of the following is the most likely cause?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Parainfluenza virus"
+        },
+        {
+          "id": "b",
+          "text": "Respiratory syncytial virus"
+        },
+        {
+          "id": "c",
+          "text": "Haemophilus influenzae type b"
+        },
+        {
+          "id": "d",
+          "text": "Streptococcus pyogenes"
+        },
+        {
+          "id": "e",
+          "text": "Corynebacterium diphtheriae"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: parainfluenza virus. Why: a barking cough and inspiratory stridor after cold symptoms in a toddler is croup (laryngotracheobronchitis), most commonly caused by parainfluenza viruses. It occurs from 6 months to 6 years of age, peaking between 1 and 2 years. Subglottic narrowing produces the \"steeple sign\" on x-ray.",
+      "whyWrong": {
+        "b": "RSV classically causes bronchiolitis in infants, with wheezing and crackles rather than a barking cough and stridor.",
+        "c": "Hib causes epiglottitis: drooling, difficulty swallowing, and a child sitting in a tripod position. Epiglottitis is rare in vaccinated children.",
+        "d": "Group A strep causes pharyngitis and can cause peritonsillar abscess, not subglottic narrowing with a barking cough.",
+        "e": "Diphtheria causes a gray pseudomembrane over the pharynx and is rare where children are vaccinated."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Laryngotracheobronchitis (Croup)",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK519531/"
+        }
+      ]
+    },
+    {
+      "id": "gi-fobt-guaiac-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "Gastrointestinal",
+      "topic": "Fecal occult blood testing",
+      "difficulty": 2,
+      "stem": "A 56-year-old man has a positive guaiac-based fecal occult blood test on routine screening. He has no GI symptoms. Colonoscopy is completely normal. He mentions that he ate steak several times in the days before collecting the samples.",
+      "leadIn": "Which of the following best explains the positive guaiac test?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Peroxidase activity of heme from dietary red meat"
+        },
+        {
+          "id": "b",
+          "text": "Cross-reactivity of the test with human globin from upper GI bleeding only"
+        },
+        {
+          "id": "c",
+          "text": "Vitamin C in the diet"
+        },
+        {
+          "id": "d",
+          "text": "Antibodies to human hemoglobin binding animal hemoglobin"
+        },
+        {
+          "id": "e",
+          "text": "Bilirubin breakdown products in stool"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: peroxidase activity of heme from red meat. Why: the guaiac test detects the pseudoperoxidase activity of heme, which turns the guaiac reagent blue. It cannot tell human heme from animal heme, so red meat (and raw fruits and vegetables rich in peroxidases) can cause false positives. The fecal immunochemical test (FIT) detects human globin, needs no diet changes, and is more specific for lower GI bleeding.",
+      "whyWrong": {
+        "b": "Detecting human globin is how FIT works, not guaiac tests, and globin from upper GI bleeding is mostly digested.",
+        "c": "Large doses of vitamin C cause false-negative guaiac results, not false positives.",
+        "d": "Guaiac tests use a chemical reaction, not antibodies; antibody-based testing is FIT, which is specific to human globin.",
+        "e": "Bilirubin breakdown products do not have peroxidase activity and do not cause positive guaiac tests."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Fecal Occult Blood Test",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK537138/"
+        }
+      ]
+    },
+    {
+      "id": "gi-misoprostol-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Gastrointestinal",
+      "topic": "Mucosal protection",
+      "difficulty": 1,
+      "stem": "A 70-year-old man with severe osteoarthritis needs long-term high-dose NSAID therapy. He had a bleeding gastric ulcer 2 years ago. His physician adds a drug to reduce his risk of another NSAID-induced ulcer. A few days later he develops loose stools.",
+      "leadIn": "Which of the following best describes the added drug?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Prostaglandin E1 analog that increases gastric mucus and bicarbonate secretion"
+        },
+        {
+          "id": "b",
+          "text": "Proton pump inhibitor that irreversibly blocks the H+/K+ ATPase"
+        },
+        {
+          "id": "c",
+          "text": "Histamine H2 receptor antagonist"
+        },
+        {
+          "id": "d",
+          "text": "Agent that forms a protective coat over ulcer bases in acid"
+        },
+        {
+          "id": "e",
+          "text": "Antacid that neutralizes gastric acid"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: misoprostol, a prostaglandin E1 analog. Why: prostaglandins made by COX-1 help protect the stomach lining, which NSAIDs undermine. Misoprostol replaces that protection: it increases mucus and bicarbonate secretion and reduces acid secretion, lowering the risk of NSAID-induced ulcers. Diarrhea is one of its most common adverse effects. It should not be used for this purpose in pregnancy because it can cause abortion, premature birth, and birth defects.",
+      "whyWrong": {
+        "b": "PPIs (e.g., omeprazole) also prevent NSAID ulcers, but they cause diarrhea less often, and they act by blocking the proton pump, not by replacing prostaglandins.",
+        "c": "H2 blockers (e.g., famotidine) reduce acid secretion but do not replace prostaglandins.",
+        "d": "Sucralfate coats ulcer bases; it is not a prostaglandin and causes constipation rather than diarrhea.",
+        "e": "Antacids neutralize acid briefly and do not replace prostaglandins."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Misoprostol",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK539873/"
+        },
+        {
+          "title": "StatPearls: Prostaglandins",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK553155/"
+        }
+      ]
+    },
+    {
+      "id": "neuro-delirium-elderly-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Behavioral Science",
+      "system": "Behavioral Health",
+      "topic": "Acute mental status change in the elderly",
+      "difficulty": 1,
+      "stem": "An 84-year-old woman is brought to the emergency department because she has been confused since yesterday. Her daughter says she was living independently and managing her own finances last week. Today she is drowsy one hour and agitated the next, cannot keep track of a conversation, and cannot recite the months backward. She has a temperature of 38.2°C (100.8°F) and dysuria. Urinalysis shows many leukocytes and nitrites.",
+      "leadIn": "Which of the following is the most likely diagnosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Delirium"
+        },
+        {
+          "id": "b",
+          "text": "Alzheimer disease"
+        },
+        {
+          "id": "c",
+          "text": "Major depressive disorder with pseudodementia"
+        },
+        {
+          "id": "d",
+          "text": "Vascular dementia"
+        },
+        {
+          "id": "e",
+          "text": "Lewy body dementia"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: delirium. Why: delirium develops acutely and fluctuates in severity, and its core feature is inattention (here, losing track of conversation and failing months-backward) with a fluctuating level of consciousness. Urinary tract infection is a common trigger in older adults, as are anticholinergic drugs and benzodiazepines. Delirium is often reversible when the cause is treated. Dementia, by contrast, develops gradually, and patients are usually awake and alert with fixed deficits.",
+      "whyWrong": {
+        "b": "Alzheimer disease develops gradually over months to years, not overnight, and does not cause a fluctuating level of alertness.",
+        "c": "Depression can mimic dementia, but it does not cause acute fluctuating drowsiness and agitation with an infection.",
+        "d": "Vascular dementia progresses in steps over time and would not explain a one-day change with fever.",
+        "e": "Lewy body dementia can fluctuate, but it is a chronic progressive dementia, and this patient was fully independent a week ago."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Differentiating Delirium Versus Dementia in Older Adults",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK570594/"
+        }
+      ]
+    },
+    {
+      "id": "pharm-penciclovir-tk-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Antiviral drugs",
+      "difficulty": 2,
+      "stem": "A 68-year-old woman has a painful band of vesicles on the left side of her chest in one dermatome. She is treated with famciclovir, a prodrug that is converted to penciclovir. The drug inhibits viral replication in infected cells but has little effect on uninfected cells.",
+      "leadIn": "Which of the following best explains this drug's selectivity for infected cells?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It is first phosphorylated by a virus-encoded thymidine kinase"
+        },
+        {
+          "id": "b",
+          "text": "It binds a viral surface glycoprotein to block entry"
+        },
+        {
+          "id": "c",
+          "text": "It is activated only by host cell kinases that are overexpressed in infected cells"
+        },
+        {
+          "id": "d",
+          "text": "It inhibits viral neuraminidase"
+        },
+        {
+          "id": "e",
+          "text": "It inhibits viral protease"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: first phosphorylation by viral thymidine kinase. Why: famciclovir is converted to penciclovir, which the herpesvirus thymidine kinase phosphorylates to a monophosphate. Uninfected cells cannot do this first step, so the drug is activated mainly in infected cells. Host enzymes then make the triphosphate, which inhibits herpesvirus DNA polymerase and terminates the growing DNA chain. Acyclovir is a related nucleoside analog that is also activated to a triphosphate and blocks viral DNA synthesis.",
+      "whyWrong": {
+        "b": "Blocking viral entry by binding a surface glycoprotein is how fusion and entry inhibitors work (e.g., enfuvirtide for HIV), not herpes antivirals.",
+        "c": "Host kinases add the later phosphates, but the selective first step depends on the viral enzyme.",
+        "d": "Neuraminidase inhibitors (oseltamivir) treat influenza.",
+        "e": "Protease inhibitors treat HIV and hepatitis C, not herpes zoster."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Famciclovir",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK557563/"
+        },
+        {
+          "title": "StatPearls: Acyclovir",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK542180/"
+        }
+      ]
     }
   ]
 }
