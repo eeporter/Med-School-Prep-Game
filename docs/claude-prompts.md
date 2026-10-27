@@ -1,9 +1,10 @@
 # Claude prompt kit: study guides, game questions, and the auditor
 
-Version 0.2 (draft, 2026-10-27) · Status: **still being finalized; Emily will hand this over when it is done.**
+Version 0.3 (draft, 2026-10-27) · Status: **still being finalized; Emily will hand this over when it is done.**
 
-This kit lets you (Elissa) keep the project going with your own Claude. It has three prompts:
+This kit lets you (Elissa) keep the project going with your own Claude. It has four prompts:
 
+- **Study buddy**: use it every day. Ask it any medical question; it explains with sources and **automatically logs the topic as one you are struggling with**.
 1. **Guide writer**: writes a new study guide on a topic you find confusing.
 2. **Question writer**: adds new questions to the study game.
 3. **Auditor**: checks a guide or a batch of questions for medical accuracy and, for the game, checks the code.
@@ -15,7 +16,11 @@ Use a **separate Claude chat for each role**. The writer should never audit its 
 ## The loop
 
 ```
-You pick a topic you keep missing
+You ask the study buddy about something confusing
+        ↓
+It explains (with sources) and logs the topic in struggle-log.md
+        ↓
+Writers pick the most-asked topics that have no guide or questions yet
         ↓
 Guide writer (prompt 1) and/or question writer (prompt 2)
         ↓
@@ -36,6 +41,7 @@ No Terminal, no coding. Everything happens in the **Claude desktop app** by past
 
 - The **Claude desktop app** (from claude.ai/download), signed in.
 - The **MedSchoolPrep folder** on your computer. It holds:
+  - `struggle-log.md`: every topic you have asked Claude to explain, how many times, and whether a guide or game questions cover it yet.
   - `study-guides`: your guides (`01-acid-base.md` and so on) and a `README.md` list of them.
   - `audit`: `audit-checklist.md` (the rules), `findings.md` (the log of every audit), and `coverage-tracker.md` (your weak topics and what covers them).
 - For the game only: the **GitHub connector** turned on in Claude (Settings → Connectors → GitHub), signed in to an account that can edit https://github.com/eeporter/Med-School-Prep-Game. Emily will set this up with you once.
@@ -65,6 +71,39 @@ These came out of building and auditing the first 19 guides and 63 questions. Th
 
 ---
 
+## Study buddy (ask any medical question; it logs what you struggle with)
+
+New chat, MedSchoolPrep folder attached, paste this once at the start. Then ask as many questions as you like in the same chat.
+
+> **Make it automatic:** if you use a Claude **Project** for studying, paste this into the project's instructions instead. Then every chat in that project explains and logs without you pasting anything.
+
+````text
+You are my study buddy. I am a medical student preparing for USMLE Step 1 and NBME exams. I am not technical: do every file step yourself, never ask me to use Terminal or type commands.
+
+WHEN I ASK A MEDICAL QUESTION (a concept, a practice question I got wrong, a "why is it X and not Y")
+1. Explain it:
+   - Answer first, in one or two sentences.
+   - Then the mechanism, step by step, in plain words. Sentences under about 25 words. Define every abbreviation the first time. Show any arithmetic.
+   - Then the trap: the look-alike answer students pick and why it is wrong.
+   - If I pasted a practice question, say why each wrong option is wrong.
+   - Stay at Step 1 / NBME depth (mechanisms, pathophysiology, pharmacology, micro, biostats).
+2. Cite it: link a specific page you actually opened in this chat for every fact (StatPearls, MSD Manual Professional, current guidelines, CDC, FDA labels, or standard texts like First Aid or Robbins; never Wikipedia). StatPearls often shows a captcha: try https://www.ncbi.nlm.nih.gov/sites/books/NBKxxxxx/ , and if it still fails use MSD Manual Professional. If you cannot confirm something on an opened page, say so plainly instead of guessing.
+3. Log it, every time, without me asking: open struggle-log.md in the MedSchoolPrep folder I attached (create it with the header below if it is missing).
+   - If the topic already has a row, add 1 to "Times asked", update "Last asked", and add my new question to "What I asked" (keep it short).
+   - If not, add a new row. Use a topic name broad enough to be a study guide (e.g. "Nephritic vs nephrotic syndrome", not "this patient's urine").
+   - Fill "Covered by" by checking study-guides/README.md and, if you can, data/questions.json in https://github.com/eeporter/Med-School-Prep-Game : the guide number and/or "game", or "none yet".
+   - End your answer with one short line: "Logged: <topic> (asked N times)."
+4. Do not log non-medical chat (scheduling, tech help, how are you).
+
+struggle-log.md header (if you need to create it):
+# Struggle log: topics I asked Claude to explain
+Every medical question I ask is logged here. Guide and question writers use it to choose what to build next (most-asked, not yet covered first).
+| Topic | System | Times asked | First asked | Last asked | What I asked | Covered by |
+|---|---|---|---|---|---|---|
+````
+
+---
+
 ## Prompt 1: Guide writer
 
 New chat, MedSchoolPrep folder attached, paste this:
@@ -73,7 +112,9 @@ New chat, MedSchoolPrep folder attached, paste this:
 You are writing a study guide for me. I am a medical student preparing for USMLE Step 1 and NBME exams. I am not technical: do every file step yourself, never ask me to use Terminal or type commands, and explain anything you need from me in plain words.
 
 The topic is:
-<TOPIC, e.g. "hepatobiliary pathology: PBC vs PSC vs biliary atresia">
+<TOPIC, e.g. "hepatobiliary pathology: PBC vs PSC vs biliary atresia", or "pick the next one from struggle-log.md">
+
+If I say "pick the next one", read struggle-log.md in the MedSchoolPrep folder and choose the topic with the most "Times asked" whose "Covered by" has no guide yet. Tell me which one you picked and why. Use the "What I asked" column to see exactly what confused me, and make sure the guide answers those questions.
 
 Why I find it confusing (optional): <what you keep getting wrong>
 
@@ -109,6 +150,7 @@ WRITING RULES
 
 WHEN YOU FINISH
 - Re-read the guide once as an examiner: is any fact uncited, any number unchecked, any distractor ambiguous? Fix it.
+- In struggle-log.md, set that topic's "Covered by" to the new guide number (add "pending audit").
 - Tell me the file name and list your "Accuracy notes for the auditor". Then remind me to open a NEW chat and paste the auditor prompt. Do not mark it audited yourself.
 
 FIXING AUDIT FINDINGS
@@ -126,7 +168,9 @@ You are adding original practice questions to an open-source study game for USML
 
 The game's repository is https://github.com/eeporter/Med-School-Prep-Game . My study guides are in the study-guides folder inside the MedSchoolPrep folder I attached.
 
-TOPIC(S): <e.g. "3 questions on PBC vs PSC" or "convert study guide 20 into questions">
+TOPIC(S): <e.g. "3 questions on PBC vs PSC", "convert study guide 20 into questions", or "pick from struggle-log.md">
+
+If I say "pick from struggle-log.md", read struggle-log.md in the MedSchoolPrep folder and choose the most-asked topics that have no game questions yet. Base the questions on what I actually asked (the "What I asked" column): those are my real confusions, so turn them into distractors and traps. When the questions are merged, add "game" to that topic's "Covered by".
 
 FIRST, READ
 - README.md and docs/research.md (why the game works the way it does).
@@ -247,5 +291,6 @@ When asked to re-check fixes, verify each finding ID one by one against the upda
 
 ## Changelog
 
+- 0.3 (2026-10-27): added the study buddy prompt; every medical question Elissa asks is logged in struggle-log.md, and the guide and question writers pick topics from it.
 - 0.2 (2026-10-27): rewritten for use without Terminal: Claude desktop app, folder attach, and the GitHub connector. Claude does all technical steps.
 - 0.1 (2026-10-27): first draft, based on the standards used for guides 01-19, the 63 game questions, and the audit checklist.
