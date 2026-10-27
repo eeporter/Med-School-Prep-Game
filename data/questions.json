@@ -449,7 +449,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Confusion, ophthalmoplegia, and ataxia in a patient with alcohol use disorder is Wernicke encephalopathy from thiamine (B1) deficiency. Thiamine pyrophosphate is the cofactor for pyruvate dehydrogenase, alpha-ketoglutarate dehydrogenase, branched-chain alpha-ketoacid dehydrogenase, and transketolase (pentose phosphate pathway). Transketolase activity (measured before and after adding thiamine pyrophosphate) is a functional test of thiamine status. Give thiamine before glucose to avoid precipitating or worsening Wernicke encephalopathy.",
+      "explanation": "Confusion, ophthalmoplegia, and ataxia in a patient with alcohol use disorder is Wernicke encephalopathy from thiamine (B1) deficiency. Thiamine pyrophosphate is the cofactor for pyruvate dehydrogenase, alpha-ketoglutarate dehydrogenase, branched-chain alpha-ketoacid dehydrogenase, and transketolase (pentose phosphate pathway). Transketolase activity (measured before and after adding thiamine pyrophosphate) is a functional test of thiamine status. Give thiamine before or together with glucose, because glucose metabolism uses up thiamine and can worsen Wernicke encephalopathy. Note: older teaching said \"thiamine always before glucose\", but current guidance says never delay treatment of low blood sugar while waiting for thiamine.",
       "whyWrong": {
         "b": "Pyruvate carboxylase requires biotin (B7), not thiamine.",
         "c": "Glycogen phosphorylase uses pyridoxal phosphate (B6).",
@@ -460,6 +460,10 @@
         {
           "title": "StatPearls: Vitamin B1 (Thiamine) Deficiency",
           "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK537204/"
+        },
+        {
+          "title": "StatPearls: Wernicke-Korsakoff Syndrome",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK470344/"
         }
       ]
     },
@@ -596,7 +600,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Resistant hypertension with hypokalemia, metabolic alkalosis, high aldosterone, and low renin is primary hyperaldosteronism (Conn syndrome). The two most common causes are bilateral adrenal hyperplasia and an aldosterone-producing adenoma; of the options listed, only the adenoma fits. Aldosterone excess suppresses renin through volume expansion. Note: only a minority of patients have low potassium, so a normal potassium does not rule it out.",
+      "explanation": "Resistant hypertension with hypokalemia, metabolic alkalosis, high aldosterone, and low renin is primary hyperaldosteronism (Conn syndrome). The two most common causes are bilateral adrenal hyperplasia and an aldosterone-producing adenoma; of the options listed, only the adenoma fits. Aldosterone excess suppresses renin through volume expansion. Note: only a minority of patients have low potassium, so a normal potassium does not rule it out. Recent change: a 2025 Endocrine Society guideline suggests screening everyone with hypertension for primary aldosteronism (aldosterone and renin), not only patients with resistant hypertension or low potassium.",
       "whyWrong": {
         "b": "Renal artery stenosis causes secondary hyperaldosteronism, in which renin is high.",
         "c": "Pheochromocytoma causes episodic hypertension, headache, sweating, and palpitations; it does not raise aldosterone with low renin.",
@@ -607,6 +611,10 @@
         {
           "title": "StatPearls: Hyperaldosteronism",
           "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK499983/"
+        },
+        {
+          "title": "Endocrine Society Clinical Practice Guideline: Primary Aldosteronism (Adler et al., J Clin Endocrinol Metab 2025)",
+          "url": "https://www.endocrine.org/clinical-practice-guidelines/primary-aldosteronism-2"
         }
       ]
     },
@@ -849,7 +857,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Lancet-shaped, optochin-sensitive, alpha-hemolytic gram-positive diplococci causing lobar pneumonia are Streptococcus pneumoniae. Its polysaccharide capsule is the main virulence factor and blocks opsonization and phagocytosis; the vaccines target capsular polysaccharides, and asplenic patients are at high risk.",
+      "explanation": "Lancet-shaped, optochin-sensitive, alpha-hemolytic gram-positive diplococci causing lobar pneumonia are Streptococcus pneumoniae. Its polysaccharide capsule is the main virulence factor and blocks opsonization and phagocytosis; the vaccines target capsular polysaccharides, and asplenic patients are at high risk. Recent change: the older adult schedule of PCV13 plus PPSV23 has been replaced. CDC now recommends PCV20 or PCV21 alone, or PCV15 followed by PPSV23, and since October 2024 routine adult vaccination starts at age 50. PCV13 is no longer recommended for adults.",
       "whyWrong": {
         "b": "M protein is the antiphagocytic factor of Streptococcus pyogenes (group A strep).",
         "c": "Protein A, which binds the Fc region of IgG, belongs to Staphylococcus aureus.",
@@ -864,6 +872,14 @@
         {
           "title": "StatPearls: Pneumococcal Pneumonia",
           "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK470537/"
+        },
+        {
+          "title": "CDC: Summary of Risk-based Pneumococcal Vaccination Recommendations",
+          "url": "https://www.cdc.gov/pneumococcal/hcp/vaccine-recommendations/risk-indications.html"
+        },
+        {
+          "title": "Immunize.org Ask the Experts: Pneumococcal recommendations for adults",
+          "url": "https://www.immunize.org/ask-experts/topic/pneumococcal/recommendations-adults/"
         }
       ]
     },
@@ -1151,7 +1167,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Left ventricular free wall rupture usually happens 3 to 5 days after an MI, while inflammatory cells are clearing dead myocardium and the wall is weakest. Risk factors include a first, anterior, transmural infarct. Blood fills the pericardium and causes cardiac tamponade: low blood pressure, distended neck veins, and muffled heart sounds (Beck triad), often progressing to pulseless electrical activity.",
+      "explanation": "Left ventricular free wall rupture usually happens 3 to 5 days after an MI, while inflammatory cells are clearing dead myocardium and the wall is weakest. Risk factors include a first, anterior, transmural infarct. Blood fills the pericardium and causes cardiac tamponade: low blood pressure, distended neck veins, and muffled heart sounds (Beck triad), often progressing to pulseless electrical activity. Note: some review books give a wider window, about 3 to 7 days or up to 2 weeks, but StatPearls puts most ruptures at 3 to 5 days. Female sex and age over 70 are also risk factors.",
       "whyWrong": {
         "b": "Dressler syndrome (autoimmune pericarditis) occurs weeks after MI, with fever and pleuritic pain, not sudden collapse at day 5.",
         "c": "True ventricular aneurysms form over 2 weeks to months as scar bulges outward.",
@@ -1555,7 +1571,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: proximal convoluted tubule. Why: empagliflozin blocks the sodium-glucose cotransporter 2 (SGLT2) in the proximal tubule, so glucose that was filtered is not taken back and is lost in urine (glucosuria). More sodium then reaches the distal nephron, which triggers tubuloglomerular feedback: the afferent arteriole constricts and pressure inside the glomerulus falls. Lower glomerular pressure is the main way SGLT2 inhibitors protect the kidney. Key side effects are genital yeast infections, urinary tract infections, volume depletion, and euglycemic diabetic ketoacidosis.",
+      "explanation": "Answer: proximal convoluted tubule. Why: empagliflozin blocks the sodium-glucose cotransporter 2 (SGLT2) in the proximal tubule, so glucose that was filtered is not taken back and is lost in urine (glucosuria). More sodium then reaches the distal nephron, which triggers tubuloglomerular feedback: the afferent arteriole constricts and pressure inside the glomerulus falls. Lower glomerular pressure is the main way SGLT2 inhibitors protect the kidney. Key side effects are genital yeast infections, urinary tract infections, volume depletion, and euglycemic diabetic ketoacidosis. Recent change: SGLT2 inhibitors are no longer just diabetes drugs. Dapagliflozin and empagliflozin are FDA-approved to lower cardiovascular death and heart failure hospitalization in adults with heart failure (reduced or preserved ejection fraction) and to slow chronic kidney disease, whether or not the patient has diabetes.",
       "whyWrong": {
         "b": "The thick ascending limb holds the Na-K-2Cl cotransporter, the target of loop diuretics like furosemide.",
         "c": "The distal convoluted tubule holds the Na-Cl cotransporter, the target of thiazide diuretics.",
@@ -2571,7 +2587,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: thyroid peroxidase. Why: methimazole inhibits thyroid peroxidase, the enzyme that attaches iodine to tyrosine residues on thyroglobulin and couples them to form T4 and T3. Her fever and sore throat with very low neutrophils is agranulocytosis, a serious adverse effect of methimazole. Methimazole is also avoided in the first trimester because of birth defects (e.g., aplasia cutis), while propylthiouracil (PTU) carries a risk of severe liver injury.",
+      "explanation": "Answer: thyroid peroxidase. Why: methimazole inhibits thyroid peroxidase, the enzyme that attaches iodine to tyrosine residues on thyroglobulin and couples them to form T4 and T3. Her fever and sore throat with very low neutrophils is agranulocytosis, a serious adverse effect of methimazole. Methimazole is also avoided in the first trimester because of birth defects (e.g., aplasia cutis), while propylthiouracil (PTU) carries a risk of severe liver injury. Recent change: many review notes call PTU the drug of choice in pregnancy. Current guidance limits PTU to the first trimester and switches to methimazole for the second and third trimesters, because PTU carries a boxed warning for acute liver failure.",
       "whyWrong": {
         "b": "The sodium-iodide symporter carries iodide into thyroid cells; it is inhibited by perchlorate, not by methimazole.",
         "c": "Methimazole does not affect hormone already stored in the thyroid. It blocks new synthesis, so hormone levels fall only as the stored supply in thyroglobulin is used up.",
@@ -2586,6 +2602,10 @@
         {
           "title": "StatPearls: Physiology, Thyroid Hormone",
           "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK500006/"
+        },
+        {
+          "title": "StatPearls: Propylthiouracil (PTU)",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK549828/"
         }
       ]
     },
@@ -3003,7 +3023,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: primary biliary cholangitis (PBC). Why: about 95% of patients are women, usually aged 40 to 70. Itching and fatigue are common early symptoms (up to 80%), and dry mouth and eyes can come months or years before other symptoms; PBC is associated with Sjögren syndrome, systemic sclerosis, and autoimmune thyroiditis. Labs show a cholestatic pattern with a high alkaline phosphatase. Imaging is done first to exclude bile duct obstruction. The next test is antimitochondrial antibody (AMA), which is positive in 90-95%; serum IgM is also raised. Pathology: T cells destroy the small bile ducts inside the liver. Treatment: ursodeoxycholic acid. Contrast with PSC: mostly men, linked to ulcerative colitis, with \"beaded\" strictures of the large ducts.",
+      "explanation": "Answer: primary biliary cholangitis (PBC). Why: about 95% of patients are women, usually aged 40 to 70. Itching and fatigue are common early symptoms (up to 80%), and dry mouth and eyes can come months or years before other symptoms; PBC is associated with Sjögren syndrome, systemic sclerosis, and autoimmune thyroiditis. Labs show a cholestatic pattern with a high alkaline phosphatase. Imaging is done first to exclude bile duct obstruction. The next test is antimitochondrial antibody (AMA), which is positive in 90-95%; serum IgM is also raised. Pathology: T cells destroy the small bile ducts inside the liver. Treatment: ursodeoxycholic acid (UDCA) first line. Contrast with PSC: mostly men, linked to ulcerative colitis, with \"beaded\" strictures of the large ducts. Recent change: older books call it primary biliary cirrhosis. The current name is primary biliary cholangitis, and cirrhosis develops only late in the disease. For second-line treatment, obeticholic acid was voluntarily withdrawn, and the PPAR agonists seladelpar and elafibranor are now used with UDCA.",
       "whyWrong": {
         "b": "PSC mostly affects men (60-71%), usually aged 25 to 45, is linked to ulcerative colitis in 60-80%, and shows multifocal strictures with a \"beaded\" appearance of the bile ducts inside and outside the liver.",
         "c": "Extrahepatic obstruction such as a common bile duct stone must be excluded with imaging; this ultrasound shows no stones and no dilated ducts.",
