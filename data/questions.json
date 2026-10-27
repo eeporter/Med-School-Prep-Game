@@ -1,0 +1,1218 @@
+{
+  "version": 1,
+  "notice": "Original practice questions written for this project. Study material only, not patient-care guidance. Not affiliated with or copied from NBME, USMLE, UWorld, or First Aid.",
+  "questions": [
+    {
+      "id": "renal-siadh-sclc-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Renal & Urinary",
+      "topic": "SIADH",
+      "difficulty": 2,
+      "stem": "A 63-year-old man with a 50-pack-year smoking history is evaluated for fatigue and mild confusion. He appears euvolemic, with no edema and normal skin turgor. Serum sodium is 123 mEq/L and serum osmolality is 255 mOsm/kg. Urine osmolality is 520 mOsm/kg and urine sodium is 48 mEq/L. Chest CT shows a central hilar mass.",
+      "leadIn": "Which of the following is the most likely mechanism of this patient's hyponatremia?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Excess ADH acting on V2 receptors, increasing aquaporin-2 insertion in collecting duct principal cells"
+        },
+        {
+          "id": "b",
+          "text": "Decreased aldosterone secretion from destruction of the adrenal cortex"
+        },
+        {
+          "id": "c",
+          "text": "Free-water intake exceeding renal excretory capacity with appropriately suppressed ADH"
+        },
+        {
+          "id": "d",
+          "text": "Collecting duct resistance to the action of ADH"
+        },
+        {
+          "id": "e",
+          "text": "Increased atrial natriuretic peptide release from volume overload"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Euvolemic hyponatremia with low serum osmolality and an inappropriately concentrated urine (urine osm > 100 mOsm/kg, urine Na > 40 mEq/L) is SIADH. A central lung mass in a heavy smoker suggests small cell lung cancer producing ectopic ADH. ADH binds V2 receptors on principal cells, raising cAMP and inserting aquaporin-2 channels, so free water is retained.",
+      "whyWrong": {
+        "b": "Primary adrenal insufficiency can cause hyponatremia, but it typically comes with hypotension/volume depletion and hyperkalemia; nothing here suggests it.",
+        "c": "Primary polydipsia suppresses ADH, so urine is maximally dilute (urine osm < 100 mOsm/kg), not 520.",
+        "d": "ADH resistance (nephrogenic DI) causes loss of free water and a tendency toward hypernatremia with dilute urine.",
+        "e": "The patient is euvolemic, and ANP excess is not the mechanism of paraneoplastic hyponatremia."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Syndrome of Inappropriate Antidiuretic Hormone Secretion",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK507777/"
+        },
+        {
+          "title": "First Aid for the USMLE Step 1 2025, Endocrine: SIADH"
+        }
+      ]
+    },
+    {
+      "id": "renal-psgn-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Renal & Urinary",
+      "topic": "Nephritic syndrome",
+      "difficulty": 1,
+      "stem": "A 7-year-old boy is brought to the physician because of dark, cola-colored urine and puffy eyes for 2 days. Two weeks ago he had a sore throat and fever that resolved without treatment. Blood pressure is 138/88 mm Hg. Urinalysis shows red blood cell casts and mild proteinuria. Serum C3 is decreased.",
+      "leadIn": "Electron microscopy of a renal biopsy specimen is most likely to show which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Subepithelial immune complex humps"
+        },
+        {
+          "id": "b",
+          "text": "Diffuse podocyte foot process effacement with no immune deposits"
+        },
+        {
+          "id": "c",
+          "text": "Mesangial IgA immune complex deposits"
+        },
+        {
+          "id": "d",
+          "text": "Subepithelial deposits separated by basement membrane spikes"
+        },
+        {
+          "id": "e",
+          "text": "Splitting and lamination of the glomerular basement membrane"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Nephritic syndrome (hematuria with RBC casts, hypertension, edema) 1 to 3 weeks after group A streptococcal pharyngitis with low C3 is poststreptococcal glomerulonephritis. EM shows subepithelial immune complex 'humps'; light microscopy shows hypercellular glomeruli, and immunofluorescence is granular ('starry sky').",
+      "whyWrong": {
+        "b": "Foot process effacement without deposits is minimal change disease, a nephrotic syndrome with normal complement.",
+        "c": "IgA nephropathy presents 1 to 3 days after a mucosal infection (synpharyngitic) and complement is usually normal.",
+        "d": "'Spike and dome' subepithelial deposits are membranous nephropathy, a nephrotic syndrome in adults.",
+        "e": "GBM splitting is Alport syndrome (type IV collagen defect), which presents with hearing loss and eye findings."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Infection-Related Glomerulonephritis",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK538255/"
+        },
+        {
+          "title": "First Aid for the USMLE Step 1 2025, Renal: Nephritic syndrome"
+        }
+      ]
+    },
+    {
+      "id": "pharm-acei-cough-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Cardiovascular",
+      "topic": "ACE inhibitors",
+      "difficulty": 1,
+      "stem": "A 55-year-old woman with hypertension and type 2 diabetes mellitus was started on lisinopril 6 weeks ago. She now has a persistent, nonproductive cough. She has no fever, dyspnea, or wheezing, and the lungs are clear on auscultation. Chest x-ray is normal.",
+      "leadIn": "Which of the following best explains this patient's cough?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Decreased degradation of bradykinin"
+        },
+        {
+          "id": "b",
+          "text": "Increased angiotensin II activity in airway smooth muscle"
+        },
+        {
+          "id": "c",
+          "text": "Blockade of beta-2 adrenergic receptors in bronchial smooth muscle"
+        },
+        {
+          "id": "d",
+          "text": "IgE-mediated mast cell degranulation"
+        },
+        {
+          "id": "e",
+          "text": "Increased aldosterone secretion"
+        }
+      ],
+      "answer": "a",
+      "explanation": "ACE (kininase II) both converts angiotensin I to angiotensin II and degrades bradykinin. ACE inhibitors raise bradykinin levels, which causes dry cough and angioedema. Switching to an angiotensin II receptor blocker (e.g., losartan), which does not affect bradykinin, usually resolves the cough.",
+      "whyWrong": {
+        "b": "ACE inhibitors decrease angiotensin II production, not increase it.",
+        "c": "Bronchospasm from beta-2 blockade is a side effect of nonselective beta-blockers, not ACE inhibitors.",
+        "d": "Lisinopril cough is not IgE mediated; angioedema from ACE inhibitors is also bradykinin mediated.",
+        "e": "ACE inhibitors decrease aldosterone (via less angiotensin II), which is why they can cause hyperkalemia."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Physiology, Bradykinin",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK537187/"
+        },
+        {
+          "title": "StatPearls: Angiotensin-Converting Enzyme Inhibitors (ACEI)",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK431051/"
+        }
+      ]
+    },
+    {
+      "id": "micro-cdiff-toxin-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Gastrointestinal",
+      "topic": "Bacterial toxins",
+      "difficulty": 2,
+      "stem": "A 70-year-old woman develops profuse watery diarrhea, crampy lower abdominal pain, and a temperature of 38.3°C (101°F) 5 days after starting clindamycin for a dental abscess. Leukocyte count is 18,000/mm3. Colonoscopy shows yellow-white plaques adherent to the colonic mucosa.",
+      "leadIn": "The toxins responsible for this condition act through which of the following mechanisms?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Glucosylation of Rho-family GTPases, disrupting the enterocyte actin cytoskeleton"
+        },
+        {
+          "id": "b",
+          "text": "ADP-ribosylation of the Gs alpha subunit, increasing intracellular cAMP"
+        },
+        {
+          "id": "c",
+          "text": "Cleavage of 28S rRNA in the 60S ribosomal subunit"
+        },
+        {
+          "id": "d",
+          "text": "ADP-ribosylation of elongation factor 2"
+        },
+        {
+          "id": "e",
+          "text": "Activation of guanylate cyclase, increasing intracellular cGMP"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Antibiotic-associated diarrhea with pseudomembranes is Clostridioides difficile colitis. Toxin A (enterotoxin) and toxin B (cytotoxin) glucosylate Rho-family GTPases, causing actin depolymerization, loss of tight junctions, and mucosal cell death that forms pseudomembranes.",
+      "whyWrong": {
+        "b": "ADP-ribosylation of Gs (permanently activating it) is cholera toxin and E. coli heat-labile toxin, which cause watery diarrhea without pseudomembranes.",
+        "c": "Inactivating the 60S ribosome is Shiga toxin and Shiga-like toxin (EHEC).",
+        "d": "ADP-ribosylation of EF-2 is diphtheria toxin and Pseudomonas exotoxin A.",
+        "e": "Activating guanylate cyclase is the E. coli heat-stable toxin."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Clostridioides difficile Infection",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK431054/"
+        },
+        {
+          "title": "First Aid for the USMLE Step 1 2025, Microbiology: Bacterial toxins"
+        }
+      ]
+    },
+    {
+      "id": "biostats-ppv-calc-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biostatistics & Epidemiology",
+      "system": "General Principles",
+      "topic": "Positive predictive value",
+      "difficulty": 2,
+      "stem": "A new serum test for pancreatic cancer is evaluated in 1000 patients with abdominal pain. Of 100 patients who have pancreatic cancer confirmed by biopsy, 90 test positive. Of the 900 patients without pancreatic cancer, 45 test positive.",
+      "leadIn": "What is the positive predictive value of this test in this population?",
+      "options": [
+        {
+          "id": "a",
+          "text": "67%"
+        },
+        {
+          "id": "b",
+          "text": "90%"
+        },
+        {
+          "id": "c",
+          "text": "95%"
+        },
+        {
+          "id": "d",
+          "text": "99%"
+        },
+        {
+          "id": "e",
+          "text": "10%"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Build the 2x2 table: TP = 90, FN = 10, FP = 45, TN = 855. PPV = TP / (TP + FP) = 90 / 135 = 0.67, so 67% of patients with a positive test truly have cancer.",
+      "whyWrong": {
+        "b": "90% is the sensitivity: TP / (TP + FN) = 90 / 100.",
+        "c": "95% is the specificity: TN / (TN + FP) = 855 / 900.",
+        "d": "About 99% is the negative predictive value: TN / (TN + FN) = 855 / 865 = 98.8%.",
+        "e": "10% is the prevalence (100 / 1000), which is not a property of the test result."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Diagnostic Testing Accuracy: Sensitivity, Specificity, Predictive Values and Likelihood Ratios",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK557491/"
+        }
+      ]
+    },
+    {
+      "id": "biostats-prevalence-ppv-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biostatistics & Epidemiology",
+      "system": "General Principles",
+      "topic": "Prevalence and predictive values",
+      "difficulty": 2,
+      "stem": "A rapid antigen test for influenza with a fixed sensitivity and specificity is validated in a primary care clinic during the summer. The same test is then used in the same clinic at the peak of winter influenza season, when the proportion of tested patients who have influenza is much higher.",
+      "leadIn": "Compared with the summer, which of the following is most likely to occur when the test is used in winter?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Increased positive predictive value"
+        },
+        {
+          "id": "b",
+          "text": "Increased sensitivity"
+        },
+        {
+          "id": "c",
+          "text": "Increased negative predictive value"
+        },
+        {
+          "id": "d",
+          "text": "Decreased specificity"
+        },
+        {
+          "id": "e",
+          "text": "Decreased positive predictive value"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Sensitivity and specificity are properties of the test and do not change with prevalence. Predictive values do: as pretest probability (prevalence) rises, PPV rises and NPV falls.",
+      "whyWrong": {
+        "b": "Sensitivity is intrinsic to the test and does not depend on prevalence.",
+        "c": "Higher prevalence lowers NPV, because more of the negatives are false negatives.",
+        "d": "Specificity is intrinsic to the test and does not depend on prevalence.",
+        "e": "PPV moves in the same direction as prevalence, so it rises, not falls."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Diagnostic Testing Accuracy: Sensitivity, Specificity, Predictive Values and Likelihood Ratios",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK557491/"
+        },
+        {
+          "title": "First Aid for the USMLE Step 1 2025, Public Health Sciences: Evaluation of diagnostic tests"
+        }
+      ]
+    },
+    {
+      "id": "immuno-type4-nickel-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Immunology",
+      "system": "Immune System",
+      "topic": "Hypersensitivity reactions",
+      "difficulty": 1,
+      "stem": "A 24-year-old woman has an itchy, red, vesicular rash on her earlobes that appeared 2 days after she began wearing a new pair of inexpensive metal earrings. The rash is sharply limited to the areas in contact with the earrings.",
+      "leadIn": "Which of the following is the primary mediator of this reaction?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sensitized T lymphocytes"
+        },
+        {
+          "id": "b",
+          "text": "IgE bound to mast cells"
+        },
+        {
+          "id": "c",
+          "text": "IgG and IgM directed against cell-surface antigens"
+        },
+        {
+          "id": "d",
+          "text": "Circulating antigen-antibody complexes"
+        },
+        {
+          "id": "e",
+          "text": "Neutrophil release of reactive oxygen species after complement activation by IgA"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Allergic contact dermatitis (here, to nickel) is a type IV, delayed-type hypersensitivity reaction. Previously sensitized CD4+ and CD8+ T cells react to hapten-modified skin proteins, with onset typically 48 to 72 hours after exposure. Type IV is the only hypersensitivity type that is not antibody mediated.",
+      "whyWrong": {
+        "b": "IgE crosslinking on mast cells is type I hypersensitivity, which occurs within minutes (urticaria, anaphylaxis).",
+        "c": "Antibodies against cell-surface antigens define type II hypersensitivity (e.g., autoimmune hemolytic anemia).",
+        "d": "Immune complex deposition is type III hypersensitivity (e.g., serum sickness, Arthus reaction).",
+        "e": "This is not a recognized mechanism of contact dermatitis, and the reaction is not antibody mediated."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Type IV Hypersensitivity Reaction",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK562228/"
+        }
+      ]
+    },
+    {
+      "id": "genetics-dmd-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Genetics",
+      "system": "Musculoskeletal",
+      "topic": "Muscular dystrophies",
+      "difficulty": 2,
+      "stem": "A 5-year-old boy has frequent falls and difficulty climbing stairs. To stand up from the floor, he pushes on his thighs with his hands. His calves are enlarged and firm. Serum creatine kinase is markedly elevated. His mother's brother used a wheelchair by age 12 and died of cardiomyopathy at age 20.",
+      "leadIn": "Which of the following is the most likely underlying genetic defect?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Frameshift deletion in the dystrophin gene"
+        },
+        {
+          "id": "b",
+          "text": "In-frame deletion in the dystrophin gene"
+        },
+        {
+          "id": "c",
+          "text": "CTG trinucleotide repeat expansion in the DMPK gene"
+        },
+        {
+          "id": "d",
+          "text": "Homozygous deletion of the SMN1 gene"
+        },
+        {
+          "id": "e",
+          "text": "Missense mutation in the fibrillin-1 gene"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Early-onset proximal weakness, Gowers sign, calf pseudohypertrophy, very high CK, and an affected maternal uncle indicate X-linked recessive Duchenne muscular dystrophy. Frameshift (out-of-frame) deletions in DMD truncate dystrophin and lead to essentially absent protein.",
+      "whyWrong": {
+        "b": "In-frame deletions produce a shorter but partially functional dystrophin, causing the milder Becker muscular dystrophy with later onset.",
+        "c": "CTG repeat expansion in DMPK causes myotonic dystrophy type 1 (autosomal dominant): myotonia, distal weakness, cataracts, frontal balding.",
+        "d": "SMN1 deletion causes spinal muscular atrophy (autosomal recessive), a lower motor neuron disease with hypotonia and fasciculations, not calf pseudohypertrophy.",
+        "e": "Fibrillin-1 mutations cause Marfan syndrome (autosomal dominant), a connective tissue disorder."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Duchenne Muscular Dystrophy",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK482346/"
+        },
+        {
+          "title": "StatPearls: Becker Muscular Dystrophy",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK556092/"
+        }
+      ]
+    },
+    {
+      "id": "biochem-thiamine-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "Nervous System & Special Senses",
+      "topic": "Vitamin B1 (thiamine)",
+      "difficulty": 2,
+      "stem": "A 48-year-old man with long-standing alcohol use disorder is brought to the emergency department confused and unable to walk steadily. Examination shows horizontal nystagmus, bilateral lateral rectus palsies, and a wide-based gait. A red blood cell enzyme assay is ordered to confirm deficiency of the vitamin involved.",
+      "leadIn": "The activity of which of the following enzymes is most likely decreased in this patient's erythrocytes?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Transketolase"
+        },
+        {
+          "id": "b",
+          "text": "Pyruvate carboxylase"
+        },
+        {
+          "id": "c",
+          "text": "Glycogen phosphorylase"
+        },
+        {
+          "id": "d",
+          "text": "Methylmalonyl-CoA mutase"
+        },
+        {
+          "id": "e",
+          "text": "Glucose-6-phosphate dehydrogenase"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Confusion, ophthalmoplegia, and ataxia in a patient with alcohol use disorder is Wernicke encephalopathy from thiamine (B1) deficiency. Thiamine pyrophosphate is the cofactor for pyruvate dehydrogenase, alpha-ketoglutarate dehydrogenase, branched-chain alpha-ketoacid dehydrogenase, and transketolase (pentose phosphate pathway). Transketolase activity (measured before and after adding thiamine pyrophosphate) is a functional test of thiamine status. Give thiamine before glucose to avoid precipitating or worsening Wernicke encephalopathy.",
+      "whyWrong": {
+        "b": "Pyruvate carboxylase requires biotin (B7), not thiamine.",
+        "c": "Glycogen phosphorylase uses pyridoxal phosphate (B6).",
+        "d": "Methylmalonyl-CoA mutase requires vitamin B12 (adenosylcobalamin).",
+        "e": "G6PD is the rate-limiting oxidative pentose phosphate enzyme and uses NADP+; it does not require thiamine."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Vitamin B1 (Thiamine) Deficiency",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK537204/"
+        }
+      ]
+    },
+    {
+      "id": "cardio-aortic-stenosis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Cardiovascular",
+      "topic": "Heart murmurs",
+      "difficulty": 1,
+      "stem": "A 78-year-old man has had exertional chest pain and lightheadedness while climbing stairs for 3 months. Auscultation shows a harsh crescendo-decrescendo systolic murmur best heard at the right upper sternal border, radiating to both carotid arteries.",
+      "leadIn": "Which of the following additional findings is most likely in this patient?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Weak and delayed carotid upstroke"
+        },
+        {
+          "id": "b",
+          "text": "Wide pulse pressure with bounding peripheral pulses"
+        },
+        {
+          "id": "c",
+          "text": "Opening snap followed by a diastolic rumble"
+        },
+        {
+          "id": "d",
+          "text": "Holosystolic murmur at the apex radiating to the axilla"
+        },
+        {
+          "id": "e",
+          "text": "Murmur that becomes louder during inspiration"
+        }
+      ],
+      "answer": "a",
+      "explanation": "An elderly patient with angina, presyncope, and a crescendo-decrescendo systolic ejection murmur at the right upper sternal border radiating to the carotids has aortic stenosis (most often age-related calcific). The fixed outflow obstruction produces pulsus parvus et tardus: a weak, delayed carotid upstroke.",
+      "whyWrong": {
+        "b": "Wide pulse pressure and bounding pulses are signs of aortic regurgitation.",
+        "c": "An opening snap with a diastolic rumble is mitral stenosis.",
+        "d": "A holosystolic apical murmur radiating to the axilla is mitral regurgitation.",
+        "e": "Inspiration increases venous return to the right heart, so right-sided murmurs (e.g., tricuspid regurgitation) get louder; aortic stenosis is left sided."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Aortic Stenosis",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK557628/"
+        }
+      ]
+    },
+    {
+      "id": "pharm-warfarin-moa-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Anticoagulants",
+      "difficulty": 1,
+      "stem": "A 68-year-old woman with atrial fibrillation is started on an oral anticoagulant to prevent stroke. Her dose is adjusted over the next weeks using the prothrombin time, reported as the INR. The drug takes several days to reach its full effect.",
+      "leadIn": "This drug acts by inhibiting which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vitamin K epoxide reductase"
+        },
+        {
+          "id": "b",
+          "text": "Thrombin, through activation of antithrombin"
+        },
+        {
+          "id": "c",
+          "text": "Factor Xa, by direct binding"
+        },
+        {
+          "id": "d",
+          "text": "Thrombin, by direct binding"
+        },
+        {
+          "id": "e",
+          "text": "The P2Y12 ADP receptor on platelets"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Warfarin inhibits vitamin K epoxide reductase (VKORC1). Without it, the liver cannot recycle vitamin K, which is needed to activate (gamma-carboxylate) factors II, VII, IX, and X and proteins C and S. Warfarin is monitored with PT/INR. Its full effect takes about 5 to 7 days because clotting factors already in the blood must be used up first.",
+      "whyWrong": {
+        "b": "Activating antithrombin is the mechanism of heparin (monitored with PTT for unfractionated heparin), which is given parenterally.",
+        "c": "Direct factor Xa inhibitors (rivaroxaban, apixaban) bind factor Xa directly and do not need INR monitoring.",
+        "d": "Direct thrombin inhibitors (dabigatran orally; argatroban, bivalirudin IV) are not monitored with INR.",
+        "e": "P2Y12 blockers (clopidogrel, prasugrel, ticagrelor) are antiplatelet drugs, not anticoagulants."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Warfarin",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK470313/"
+        }
+      ]
+    },
+    {
+      "id": "endo-conn-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Endocrine",
+      "topic": "Hyperaldosteronism",
+      "difficulty": 2,
+      "stem": "A 42-year-old woman has hypertension that remains uncontrolled despite three antihypertensive medications. She reports muscle weakness. Serum potassium is 2.9 mEq/L and bicarbonate is 31 mEq/L. Plasma aldosterone is elevated, and plasma renin activity is suppressed.",
+      "leadIn": "Which of the following is the most likely cause of this patient's findings?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Aldosterone-secreting adrenal adenoma"
+        },
+        {
+          "id": "b",
+          "text": "Renal artery stenosis"
+        },
+        {
+          "id": "c",
+          "text": "Catecholamine-secreting tumor of the adrenal medulla"
+        },
+        {
+          "id": "d",
+          "text": "Autoimmune destruction of the adrenal cortex"
+        },
+        {
+          "id": "e",
+          "text": "Renin-secreting juxtaglomerular cell tumor"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Resistant hypertension with hypokalemia, metabolic alkalosis, high aldosterone, and low renin is primary hyperaldosteronism (Conn syndrome). The two most common causes are bilateral adrenal hyperplasia and an aldosterone-producing adenoma; of the options listed, only the adenoma fits. Aldosterone excess suppresses renin through volume expansion. Note: only a minority of patients have low potassium, so a normal potassium does not rule it out.",
+      "whyWrong": {
+        "b": "Renal artery stenosis causes secondary hyperaldosteronism, in which renin is high.",
+        "c": "Pheochromocytoma causes episodic hypertension, headache, sweating, and palpitations; it does not raise aldosterone with low renin.",
+        "d": "Primary adrenal insufficiency causes low aldosterone, hypotension, and hyperkalemia.",
+        "e": "A reninoma causes secondary hyperaldosteronism with high renin."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Hyperaldosteronism",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK499983/"
+        }
+      ]
+    },
+    {
+      "id": "neuro-broca-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Nervous System & Special Senses",
+      "topic": "Aphasias",
+      "difficulty": 1,
+      "stem": "A 66-year-old right-handed man has sudden difficulty speaking. His speech is slow, effortful, and limited to short phrases, and he is visibly frustrated. He follows multistep commands correctly but cannot repeat a simple sentence. He also has weakness of the right lower face and right arm.",
+      "leadIn": "A lesion in which of the following locations most likely explains this patient's language deficit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Left inferior frontal gyrus"
+        },
+        {
+          "id": "b",
+          "text": "Left superior temporal gyrus"
+        },
+        {
+          "id": "c",
+          "text": "Left arcuate fasciculus only"
+        },
+        {
+          "id": "d",
+          "text": "Right inferior frontal gyrus"
+        },
+        {
+          "id": "e",
+          "text": "Left occipital lobe"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Nonfluent, effortful speech with intact comprehension and impaired repetition is Broca (expressive) aphasia, from a lesion of the inferior frontal gyrus of the dominant (usually left) hemisphere, often a superior division left MCA stroke. Nearby motor cortex involvement explains the right face and arm weakness, and patients are typically aware of and frustrated by their deficit.",
+      "whyWrong": {
+        "b": "The left superior temporal gyrus (Wernicke area) causes fluent but nonsensical speech with impaired comprehension.",
+        "c": "An isolated arcuate fasciculus lesion causes conduction aphasia: fluent speech, intact comprehension, poor repetition.",
+        "d": "In a right-handed patient the right hemisphere is nondominant; a right frontal lesion would not cause aphasia.",
+        "e": "Occipital lesions cause visual field deficits, not expressive aphasia."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Aphasia",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK559315/"
+        }
+      ]
+    },
+    {
+      "id": "heme-iron-deficiency-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Microcytic anemias",
+      "difficulty": 1,
+      "stem": "A 34-year-old woman has fatigue and shortness of breath on exertion. She reports very heavy menstrual periods for the past year. Hemoglobin is 9.1 g/dL and mean corpuscular volume is 72 fL. A peripheral smear shows small, pale red blood cells with increased central pallor.",
+      "leadIn": "Which of the following sets of iron studies is most likely in this patient?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Decreased ferritin, increased TIBC, decreased transferrin saturation"
+        },
+        {
+          "id": "b",
+          "text": "Increased ferritin, decreased TIBC, decreased transferrin saturation"
+        },
+        {
+          "id": "c",
+          "text": "Increased ferritin, decreased TIBC, increased transferrin saturation"
+        },
+        {
+          "id": "d",
+          "text": "Normal ferritin, normal TIBC, normal transferrin saturation"
+        },
+        {
+          "id": "e",
+          "text": "Increased ferritin, increased TIBC, increased transferrin saturation"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Chronic menstrual blood loss causes iron deficiency anemia: microcytic, hypochromic red cells. Iron stores are depleted (low ferritin, the most specific marker), the liver makes more transferrin (high TIBC), and serum iron and transferrin saturation fall.",
+      "whyWrong": {
+        "b": "High ferritin with low TIBC fits anemia of chronic disease, where hepcidin traps iron inside macrophages so stores are full but unavailable.",
+        "c": "Iron overload (e.g., hereditary hemochromatosis) raises ferritin and transferrin saturation and lowers TIBC.",
+        "d": "Normal iron studies with microcytosis suggest thalassemia trait, which does not fit a year of heavy blood loss.",
+        "e": "Ferritin and TIBC usually move in opposite directions; this combination does not match a typical anemia."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Iron-Deficiency Anemia",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK448065/"
+        },
+        {
+          "title": "StatPearls: Physiology, Hepcidin",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK538257/"
+        }
+      ]
+    },
+    {
+      "id": "resp-hypoventilation-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Respiratory",
+      "topic": "Hypoxemia and the A-a gradient",
+      "difficulty": 3,
+      "stem": "A 24-year-old man is found unresponsive at sea level with pinpoint pupils and a respiratory rate of 6/min. Arterial blood gas on room air shows pH 7.18, PaCO2 70 mm Hg, and PaO2 55 mm Hg. Assume FiO2 = 0.21, PIO2 = 150 mm Hg, and a respiratory quotient of 0.8.",
+      "leadIn": "Which of the following is the most likely mechanism of this patient's hypoxemia?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Alveolar hypoventilation"
+        },
+        {
+          "id": "b",
+          "text": "Right-to-left shunt"
+        },
+        {
+          "id": "c",
+          "text": "Ventilation-perfusion mismatch"
+        },
+        {
+          "id": "d",
+          "text": "Diffusion limitation across the alveolar membrane"
+        },
+        {
+          "id": "e",
+          "text": "Decreased inspired oxygen tension"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Opioid overdose (pinpoint pupils, bradypnea) suppresses the respiratory drive. Alveolar PO2 = 150 - 70/0.8 = 62.5 mm Hg, so the A-a gradient is 62.5 - 55 = 7.5 mm Hg, which is normal. Hypoxemia with a high PaCO2 and a normal A-a gradient indicates hypoventilation; the lungs themselves exchange gas normally.",
+      "whyWrong": {
+        "b": "A shunt widens the A-a gradient and does not correct with supplemental oxygen.",
+        "c": "V/Q mismatch widens the A-a gradient.",
+        "d": "Diffusion limitation (e.g., pulmonary fibrosis) widens the A-a gradient.",
+        "e": "Low inspired O2 (high altitude) gives a normal A-a gradient but causes hyperventilation and a low PaCO2; this patient is at sea level with a high PaCO2."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Physiology, Alveolar to Arterial Oxygen Gradient",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK545153/"
+        }
+      ]
+    },
+    {
+      "id": "pharm-lithium-ndi-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Behavioral Health",
+      "topic": "Lithium adverse effects",
+      "difficulty": 2,
+      "stem": "A 36-year-old woman with bipolar I disorder that has been stable on medication for 8 years reports drinking and urinating large amounts, including several times each night. Serum sodium is 146 mEq/L and glucose is normal. Urine osmolality stays low after water deprivation and does not increase after desmopressin administration.",
+      "leadIn": "Which of the following is the most likely cause of this patient's polyuria?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lithium-induced collecting duct resistance to ADH"
+        },
+        {
+          "id": "b",
+          "text": "Decreased ADH release from the posterior pituitary"
+        },
+        {
+          "id": "c",
+          "text": "Compulsive water drinking"
+        },
+        {
+          "id": "d",
+          "text": "Osmotic diuresis"
+        },
+        {
+          "id": "e",
+          "text": "Ectopic ADH secretion"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Lithium is a leading cause of acquired nephrogenic diabetes insipidus: the collecting duct stops responding to ADH, so the kidney cannot concentrate urine. The key test result is that urine stays dilute after water deprivation and barely changes after desmopressin (synthetic ADH). In central DI, desmopressin raises urine osmolality a lot.",
+      "whyWrong": {
+        "b": "In central DI, urine osmolality rises substantially after desmopressin.",
+        "c": "In primary polydipsia, urine concentrates with water deprivation and serum sodium tends to be low, not high.",
+        "d": "Osmotic diuresis (e.g., from hyperglycemia) is excluded by the normal glucose.",
+        "e": "Ectopic ADH causes SIADH with concentrated urine and hyponatremia."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Arginine Vasopressin Disorder (Diabetes Insipidus)",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK470458/"
+        },
+        {
+          "title": "StatPearls: Lithium Toxicity",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK499992/"
+        }
+      ]
+    },
+    {
+      "id": "micro-pneumococcus-capsule-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Respiratory",
+      "topic": "Streptococcus pneumoniae",
+      "difficulty": 1,
+      "stem": "A 71-year-old man has had fever, productive cough with rust-colored sputum, and right-sided pleuritic chest pain for 2 days. Chest x-ray shows right lower lobe consolidation. Sputum Gram stain shows lancet-shaped gram-positive diplococci. The organism is alpha-hemolytic and optochin sensitive.",
+      "leadIn": "Which of the following virulence factors is most important in allowing this organism to evade phagocytosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Polysaccharide capsule"
+        },
+        {
+          "id": "b",
+          "text": "M protein"
+        },
+        {
+          "id": "c",
+          "text": "Protein A"
+        },
+        {
+          "id": "d",
+          "text": "Lipooligosaccharide"
+        },
+        {
+          "id": "e",
+          "text": "Coagulase"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Lancet-shaped, optochin-sensitive, alpha-hemolytic gram-positive diplococci causing lobar pneumonia are Streptococcus pneumoniae. Its polysaccharide capsule is the main virulence factor and blocks opsonization and phagocytosis; the vaccines target capsular polysaccharides, and asplenic patients are at high risk.",
+      "whyWrong": {
+        "b": "M protein is the antiphagocytic factor of Streptococcus pyogenes (group A strep).",
+        "c": "Protein A, which binds the Fc region of IgG, belongs to Staphylococcus aureus.",
+        "d": "Lipooligosaccharide is an endotoxin of gram-negative Neisseria species; gram-positive bacteria lack it.",
+        "e": "Coagulase is produced by Staphylococcus aureus."
+      },
+      "sources": [
+        {
+          "title": "Baron S, ed. Medical Microbiology, 4th ed., Chapter 13: Streptococcus",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK7611/"
+        },
+        {
+          "title": "StatPearls: Pneumococcal Pneumonia",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK470537/"
+        }
+      ]
+    },
+    {
+      "id": "ethics-refusal-transfusion-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Behavioral Science",
+      "system": "General Principles",
+      "topic": "Informed refusal and capacity",
+      "difficulty": 1,
+      "stem": "A 45-year-old man is admitted with a bleeding gastric ulcer. His hemoglobin is 7.0 g/dL and falling. He is alert and oriented, understands that he could die without a blood transfusion, can explain the risks and alternatives in his own words, and consistently refuses transfusion because of his religious beliefs. His wife asks the team to transfuse him anyway.",
+      "leadIn": "Which of the following is the most appropriate next step?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Respect the patient's refusal and pursue alternatives to transfusion"
+        },
+        {
+          "id": "b",
+          "text": "Transfuse the patient because his condition is life threatening"
+        },
+        {
+          "id": "c",
+          "text": "Obtain consent for transfusion from his wife"
+        },
+        {
+          "id": "d",
+          "text": "Seek a court order to transfuse the patient"
+        },
+        {
+          "id": "e",
+          "text": "Request a psychiatric evaluation before honoring the refusal"
+        }
+      ],
+      "answer": "a",
+      "explanation": "An adult who has decision-making capacity (understands, appreciates, reasons, and communicates a consistent choice) may refuse any treatment, including life-saving treatment. Respect for autonomy means the team honors the refusal and uses alternatives such as endoscopic hemostasis and iron or other blood-sparing measures.",
+      "whyWrong": {
+        "b": "Transfusing a capacitated adult against his informed refusal is battery, even in an emergency.",
+        "c": "Surrogates decide only when the patient lacks capacity; this patient has capacity.",
+        "d": "Courts are sometimes involved for minors, but not to override a capacitated adult's informed refusal.",
+        "e": "Disagreeing with the medical team does not by itself suggest impaired capacity, and capacity is already clearly demonstrated."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Refusal of Care",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK560886/"
+        },
+        {
+          "title": "StatPearls: Informed Consent",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK430827/"
+        }
+      ]
+    },
+    {
+      "id": "anat-radial-nerve-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Musculoskeletal",
+      "topic": "Upper limb nerve injuries",
+      "difficulty": 1,
+      "stem": "A 30-year-old man falls from a ladder and sustains a midshaft fracture of the right humerus. After the fracture is splinted, he cannot extend his wrist or fingers at the metacarpophalangeal joints, and he has decreased sensation over the back of the hand on the thumb side.",
+      "leadIn": "Injury to which of the following nerves is most likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Radial nerve"
+        },
+        {
+          "id": "b",
+          "text": "Axillary nerve"
+        },
+        {
+          "id": "c",
+          "text": "Median nerve"
+        },
+        {
+          "id": "d",
+          "text": "Ulnar nerve"
+        },
+        {
+          "id": "e",
+          "text": "Musculocutaneous nerve"
+        }
+      ],
+      "answer": "a",
+      "explanation": "The radial nerve runs in the radial (spiral) groove of the humerus with the deep brachial artery, so a fracture of the humeral shaft can injure it. The result is wrist drop (loss of wrist and finger extension) and numbness over the lateral back of the hand.",
+      "whyWrong": {
+        "b": "The axillary nerve is injured with surgical neck fractures or anterior shoulder dislocation (deltoid weakness, lateral shoulder numbness).",
+        "c": "The median nerve is classically injured with supracondylar fractures or at the carpal tunnel.",
+        "d": "The ulnar nerve is injured at the medial epicondyle or hook of hamate (claw hand).",
+        "e": "Musculocutaneous injury weakens elbow flexion and causes lateral forearm numbness."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Anatomy, Shoulder and Upper Limb, Radial Nerve",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK534840/"
+        }
+      ]
+    },
+    {
+      "id": "pharm-organophosphate-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Nervous System & Special Senses",
+      "topic": "Cholinesterase inhibitor poisoning",
+      "difficulty": 1,
+      "stem": "A 38-year-old farmer is brought to the emergency department after spraying crops. He has profuse sweating, drooling, tearing, vomiting, diarrhea, and urinary incontinence. Pupils are pinpoint, heart rate is 44/min, and there are diffuse wheezes with copious bronchial secretions. Muscle fasciculations are visible.",
+      "leadIn": "Which of the following is the mechanism of the toxin responsible for these findings?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Inhibition of acetylcholinesterase"
+        },
+        {
+          "id": "b",
+          "text": "Competitive blockade of muscarinic receptors"
+        },
+        {
+          "id": "c",
+          "text": "Inhibition of presynaptic acetylcholine release"
+        },
+        {
+          "id": "d",
+          "text": "Blockade of nicotinic receptors at the neuromuscular junction"
+        },
+        {
+          "id": "e",
+          "text": "Inhibition of norepinephrine reuptake"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Organophosphate insecticides bind and inhibit acetylcholinesterase; over time the bond becomes permanent (\"aging\"). Acetylcholine builds up at muscarinic and nicotinic synapses. Muscarinic excess causes DUMBELS (diarrhea/diaphoresis, urination, miosis, bronchospasm/bronchorrhea, emesis, lacrimation, salivation) plus bradycardia; nicotinic excess causes fasciculations and then weakness. Treatment is atropine first, plus pralidoxime, which only works if given before aging.",
+      "whyWrong": {
+        "b": "Muscarinic blockade causes the opposite picture: dry skin, mydriasis, tachycardia, urinary retention.",
+        "c": "Blocking ACh release (botulinum toxin) causes descending flaccid paralysis with dilated pupils, not cholinergic excess.",
+        "d": "Nicotinic blockade causes paralysis without the muscarinic signs and without fasciculations.",
+        "e": "Norepinephrine reuptake inhibition causes sympathomimetic signs: tachycardia, hypertension, mydriasis."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Organophosphate Toxicity",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK470430/"
+        }
+      ]
+    },
+    {
+      "id": "gi-celiac-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Gastrointestinal",
+      "topic": "Malabsorption syndromes",
+      "difficulty": 1,
+      "stem": "A 28-year-old woman has had bloating, chronic diarrhea, and a 5-kg weight loss over 6 months. She has iron deficiency anemia. She also has intensely itchy, grouped vesicles on her elbows and knees. Serum IgA anti-tissue transglutaminase antibodies are elevated.",
+      "leadIn": "A duodenal biopsy specimen is most likely to show which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Villous atrophy, crypt hyperplasia, and increased intraepithelial lymphocytes"
+        },
+        {
+          "id": "b",
+          "text": "PAS-positive foamy macrophages in the lamina propria"
+        },
+        {
+          "id": "c",
+          "text": "Transmural inflammation with noncaseating granulomas"
+        },
+        {
+          "id": "d",
+          "text": "Crypt abscesses and inflammation limited to the mucosa and submucosa"
+        },
+        {
+          "id": "e",
+          "text": "Enterocytes with clear, lipid-filled cytoplasm and normal villi"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Malabsorption, iron deficiency, dermatitis herpetiformis (itchy blisters on extensor surfaces, which is pathognomonic), and IgA anti-tissue transglutaminase antibodies indicate celiac disease. Gluten triggers an immune response in the small bowel that causes villous atrophy, crypt hyperplasia, and increased intraepithelial lymphocytes. Diagnosis is confirmed by duodenal biopsy.",
+      "whyWrong": {
+        "b": "PAS-positive foamy macrophages are Whipple disease (Tropheryma whipplei), usually in older men with arthralgias.",
+        "c": "Transmural inflammation with noncaseating granulomas is Crohn disease.",
+        "d": "Crypt abscesses with mucosal and submucosal inflammation are typical of ulcerative colitis, a disease of the colon.",
+        "e": "Lipid-filled enterocytes are abetalipoproteinemia, which presents in infancy with acanthocytes and fat-soluble vitamin deficiency."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Celiac Disease",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK441900/"
+        }
+      ]
+    },
+    {
+      "id": "renal-dka-potassium-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Endocrine",
+      "topic": "Diabetic ketoacidosis",
+      "difficulty": 3,
+      "stem": "A 19-year-old woman with type 1 diabetes mellitus has had vomiting, abdominal pain, and deep, rapid breathing for 1 day after running out of insulin. Glucose is 520 mg/dL, sodium 132 mEq/L, chloride 96 mEq/L, bicarbonate 10 mEq/L, and potassium 5.8 mEq/L. Arterial pH is 7.15. Serum beta-hydroxybutyrate is elevated.",
+      "leadIn": "Which of the following best describes this patient's total body potassium?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Depleted, with potassium shifted from cells into the extracellular fluid"
+        },
+        {
+          "id": "b",
+          "text": "Increased, because of decreased renal potassium excretion"
+        },
+        {
+          "id": "c",
+          "text": "Normal, with the elevated serum level caused by hemolysis"
+        },
+        {
+          "id": "d",
+          "text": "Increased, because of excess dietary potassium intake"
+        },
+        {
+          "id": "e",
+          "text": "Normal, with the serum level accurately reflecting body stores"
+        }
+      ],
+      "answer": "a",
+      "explanation": "In DKA, insulin deficiency and plasma hyperosmolality shift potassium out of cells, so serum potassium is often normal or high. Meanwhile osmotic diuresis and vomiting cause large urinary and GI potassium losses, so total body potassium is depleted. Insulin therapy drives potassium back into cells and can cause dangerous hypokalemia, so potassium is monitored and replaced. (Anion gap here = 132 - (96 + 10) = 26.)",
+      "whyWrong": {
+        "b": "Osmotic diuresis increases, not decreases, renal potassium loss.",
+        "c": "Nothing suggests a hemolyzed sample; the high serum K reflects transcellular shift.",
+        "d": "Dietary intake does not explain the finding, and this patient has been vomiting.",
+        "e": "Serum potassium is a poor guide to total body stores in DKA because of the transcellular shift."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Adult Diabetic Ketoacidosis",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK560723/"
+        }
+      ]
+    },
+    {
+      "id": "cardio-mi-free-wall-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Cardiovascular",
+      "topic": "Myocardial infarction complications",
+      "difficulty": 2,
+      "stem": "A 67-year-old man was admitted 5 days ago with his first myocardial infarction, a large transmural anterior ST-elevation MI. He suddenly becomes hypotensive and pulseless. Before the arrest, he had jugular venous distention and muffled heart sounds.",
+      "leadIn": "Which of the following is the most likely cause of this patient's decompensation?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rupture of the left ventricular free wall"
+        },
+        {
+          "id": "b",
+          "text": "Autoimmune fibrinous pericarditis"
+        },
+        {
+          "id": "c",
+          "text": "True ventricular aneurysm"
+        },
+        {
+          "id": "d",
+          "text": "Early fibrinous pericarditis over the infarct"
+        },
+        {
+          "id": "e",
+          "text": "Rupture of the posteromedial papillary muscle"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Left ventricular free wall rupture usually happens 3 to 5 days after an MI, while inflammatory cells are clearing dead myocardium and the wall is weakest. Risk factors include a first, anterior, transmural infarct. Blood fills the pericardium and causes cardiac tamponade: low blood pressure, distended neck veins, and muffled heart sounds (Beck triad), often progressing to pulseless electrical activity.",
+      "whyWrong": {
+        "b": "Dressler syndrome (autoimmune pericarditis) occurs weeks after MI, with fever and pleuritic pain, not sudden collapse at day 5.",
+        "c": "True ventricular aneurysms form over 2 weeks to months as scar bulges outward.",
+        "d": "Early fibrinous pericarditis occurs 1 to 3 days after transmural MI and causes a friction rub, not tamponade with collapse.",
+        "e": "Papillary muscle rupture causes acute mitral regurgitation with a new murmur and pulmonary edema, not JVD with muffled heart sounds. It is also more often posteromedial in inferior MI."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Left Ventricular Rupture",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK559271/"
+        }
+      ]
+    },
+    {
+      "id": "pharm-vancomycin-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "General Principles",
+      "topic": "Cell wall synthesis inhibitors",
+      "difficulty": 2,
+      "stem": "A 59-year-old man receiving hemodialysis develops fever and bacteremia. Blood cultures grow gram-positive cocci in clusters that are coagulase positive and resistant to oxacillin. He is started on an intravenous glycopeptide antibiotic. Enterococci that are resistant to this drug have replaced a terminal amino acid in their peptidoglycan precursors.",
+      "leadIn": "This antibiotic acts by which of the following mechanisms?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Binding the D-alanyl-D-alanine terminus of cell wall precursors"
+        },
+        {
+          "id": "b",
+          "text": "Covalently binding penicillin-binding proteins (transpeptidases)"
+        },
+        {
+          "id": "c",
+          "text": "Binding the 30S ribosomal subunit and causing mRNA misreading"
+        },
+        {
+          "id": "d",
+          "text": "Inhibiting DNA gyrase (topoisomerase II)"
+        },
+        {
+          "id": "e",
+          "text": "Inhibiting dihydropteroate synthase"
+        }
+      ],
+      "answer": "a",
+      "explanation": "MRSA bacteremia is treated with vancomycin, a glycopeptide that binds the D-Ala-D-Ala terminus of peptidoglycan precursors and blocks their polymerization and cross-linking. Vancomycin-resistant enterococci replace D-Ala-D-Ala with D-Ala-D-Lac, which vancomycin binds poorly.",
+      "whyWrong": {
+        "b": "Binding penicillin-binding proteins is the mechanism of beta-lactams; MRSA resists them through the altered PBP2a encoded by mecA.",
+        "c": "Binding 30S and causing misreading is the mechanism of aminoglycosides.",
+        "d": "DNA gyrase inhibition is the mechanism of fluoroquinolones.",
+        "e": "Dihydropteroate synthase inhibition is the mechanism of sulfonamides."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Vancomycin-Resistant Enterococci",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK513233/"
+        }
+      ]
+    }
+  ]
+}

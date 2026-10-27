@@ -1,0 +1,15 @@
+{
+  "name": "med-school-prep-game",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Spaced-repetition study game for USMLE Step 1 and NBME exams",
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "validate": "node scripts/validate-bank.mjs data/questions.json",
+    "check": "npm run validate && npm test",
+    "serve": "python3 -m http.server 8000"
+  }
+}

@@ -1,0 +1,74 @@
+// Pure quiz logic: option shuffling, answer checking, XP, and interleaving.
+
+export function shuffle(items, rng = Math.random) {
+  const a = items.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(rng() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+// Shuffle a question's options for display. Each displayed option keeps its
+// original id, so grading always compares ids, never display positions.
+export function presentQuestion(question, rng = Math.random) {
+  const options = shuffle(question.options, rng);
+  return {
+    id: question.id,
+    options: options.map((o, i) => ({ id: o.id, text: o.text, label: String.fromCharCode(65 + i) })),
+  };
+}
+
+export function isCorrect(question, chosenOptionId) {
+  return chosenOptionId === question.answer;
+}
+
+// XP rewards accuracy and spacing, never speed. Guesses that happen to be
+// right earn less than confident knowledge, so guessing is not a strategy.
+export const XP = Object.freeze({ sure: 10, unsure: 8, guess: 4, reviewBonus: 5 });
+
+export function xpFor({ correct, confidence, wasDueReview }) {
+  if (!correct) return 0;
+  return XP[confidence] + (wasDueReview ? XP.reviewBonus : 0);
+}
+
+export const LEVELS = Object.freeze([
+  { name: 'MS1', xp: 0 },
+  { name: 'MS2', xp: 250 },
+  { name: 'MS3', xp: 750 },
+  { name: 'MS4', xp: 1500 },
+  { name: 'Intern', xp: 3000 },
+  { name: 'Resident', xp: 6000 },
+  { name: 'Chief Resident', xp: 10000 },
+  { name: 'Attending', xp: 16000 },
+]);
+
+export function levelFor(xp) {
+  let current = LEVELS[0];
+  for (const l of LEVELS) if (xp >= l.xp) current = l;
+  const idx = LEVELS.indexOf(current);
+  const next = LEVELS[idx + 1] || null;
+  return { name: current.name, index: idx, next };
+}
+
+// Order questions so consecutive items come from different organ systems
+// whenever possible (interleaved practice). Greedy: repeatedly take a random
+// question whose system differs from the previous one.
+export function interleave(questions, key = (q) => q.system, rng = Math.random) {
+  const pool = shuffle(questions, rng);
+  const out = [];
+  while (pool.length) {
+    const prev = out.length ? key(out[out.length - 1]) : undefined;
+    let idx = pool.findIndex((q) => key(q) !== prev);
+    if (idx === -1) idx = 0;
+    out.push(pool.splice(idx, 1)[0]);
+  }
+  return out;
+}
+
+export function updateStreak(streak, todayStr, daysBetweenFn) {
+  const s = { count: 0, lastDay: null, ...streak };
+  if (s.lastDay === todayStr) return s;
+  const gap = s.lastDay ? daysBetweenFn(s.lastDay, todayStr) : null;
+  return { count: gap === 1 ? s.count + 1 : 1, lastDay: todayStr };
+}
