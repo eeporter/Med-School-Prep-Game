@@ -2192,6 +2192,259 @@
           "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK532918/"
         }
       ]
+    },
+    {
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Renal & Urinary",
+      "id": "acidbase-dka-winters-001",
+      "topic": "Acid-base: compensation",
+      "difficulty": 2,
+      "stem": "A 19-year-old woman with type 1 diabetes mellitus has had vomiting for 2 days and is now breathing deeply and rapidly. Arterial blood gas: pH 7.26, PaCO2 23 mm Hg, HCO3 10 mEq/L. Serum sodium is 140 mEq/L and chloride is 100 mEq/L.",
+      "leadIn": "Which of the following best describes this patient's acid-base status?",
+      "options": [
+        {
+          "id": "a",
+          "text": "High anion gap metabolic acidosis with appropriate respiratory compensation"
+        },
+        {
+          "id": "b",
+          "text": "High anion gap metabolic acidosis with a concurrent respiratory acidosis"
+        },
+        {
+          "id": "c",
+          "text": "High anion gap metabolic acidosis with a concurrent respiratory alkalosis"
+        },
+        {
+          "id": "d",
+          "text": "Normal anion gap metabolic acidosis with appropriate respiratory compensation"
+        },
+        {
+          "id": "e",
+          "text": "Primary respiratory alkalosis with metabolic compensation"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: high anion gap metabolic acidosis (from diabetic ketoacidosis) with appropriate compensation and no second disorder. Show the math: pH is low and HCO3 is low, so the primary problem is metabolic acidosis. Anion gap (AG) = Na - (Cl + HCO3) = 140 - (100 + 10) = 30, high (normal about 8 to 12). Winters formula: expected PaCO2 = 1.5 x HCO3 + 8 +/- 2 = 1.5 x 10 + 8 = 23, range 21 to 25. Measured PaCO2 is 23, so the lungs compensated exactly as expected.",
+      "whyWrong": {
+        "b": "A concurrent respiratory acidosis would leave PaCO2 above the Winters range (above 25).",
+        "c": "A concurrent respiratory alkalosis would push PaCO2 below the Winters range (below 21).",
+        "d": "The anion gap is 30, which is high, not normal.",
+        "e": "The pH is low (acidemia), so the primary disorder cannot be an alkalosis."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Anion Gap and Non-Anion Gap Metabolic Acidosis",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK448090/"
+        },
+        {
+          "title": "StatPearls: Physiology, Acid Base Balance",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK507807/"
+        }
+      ]
+    },
+    {
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Renal & Urinary",
+      "id": "acidbase-vomiting-alkalosis-001",
+      "topic": "Acid-base: compensation",
+      "difficulty": 2,
+      "stem": "A 30-year-old man has had repeated vomiting for 1 week from a gastric outlet obstruction. Arterial blood gas: pH 7.50, PaCO2 46 mm Hg, HCO3 34 mEq/L.",
+      "leadIn": "Which of the following best describes this patient's acid-base status?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Metabolic alkalosis with appropriate respiratory compensation"
+        },
+        {
+          "id": "b",
+          "text": "Metabolic alkalosis with a concurrent respiratory acidosis"
+        },
+        {
+          "id": "c",
+          "text": "Metabolic alkalosis with a concurrent respiratory alkalosis"
+        },
+        {
+          "id": "d",
+          "text": "Respiratory acidosis with metabolic compensation"
+        },
+        {
+          "id": "e",
+          "text": "Respiratory alkalosis with metabolic compensation"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: metabolic alkalosis, appropriately compensated. Why: vomiting removes stomach acid, so HCO3 rises and the pH goes up. The lungs compensate by breathing less to hold on to CO2. Show the math: expected PaCO2 = 40 + 0.6 x (HCO3 - 24) = 40 + 0.6 x (34 - 24) = 46, which matches the measured value. (Some review books use about 0.7 instead of 0.6; both are approximate.)",
+      "whyWrong": {
+        "b": "The high PaCO2 is exactly what compensation predicts (46), so it is not a second respiratory acidosis. This is the classic trap.",
+        "c": "A concurrent respiratory alkalosis would make PaCO2 lower than expected, not 46.",
+        "d": "Respiratory acidosis would make the pH low; this pH is high.",
+        "e": "Respiratory alkalosis would make PaCO2 low; here it is high."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Alkalosis",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK545269/"
+        }
+      ]
+    },
+    {
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Renal & Urinary",
+      "id": "acidbase-diarrhea-nagma-001",
+      "topic": "Anion gap",
+      "difficulty": 1,
+      "stem": "A 40-year-old woman has had profuse watery diarrhea for 4 days. Serum sodium is 138 mEq/L, chloride is 114 mEq/L, and bicarbonate is 14 mEq/L. Arterial pH is 7.30.",
+      "leadIn": "Which of the following best describes this patient's anion gap and type of acidosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "10 mEq/L; normal anion gap metabolic acidosis"
+        },
+        {
+          "id": "b",
+          "text": "24 mEq/L; high anion gap metabolic acidosis"
+        },
+        {
+          "id": "c",
+          "text": "10 mEq/L; high anion gap metabolic acidosis"
+        },
+        {
+          "id": "d",
+          "text": "38 mEq/L; high anion gap metabolic acidosis"
+        },
+        {
+          "id": "e",
+          "text": "24 mEq/L; normal anion gap metabolic acidosis"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: anion gap 10, normal anion gap (hyperchloremic) metabolic acidosis. Show the math: AG = Na - (Cl + HCO3) = 138 - (114 + 14) = 10, inside the normal 8 to 12. Why: stool is rich in bicarbonate, and chloride rises to replace the lost bicarbonate, so the gap stays normal. Diarrhea and renal tubular acidosis are the main causes of normal anion gap acidosis.",
+      "whyWrong": {
+        "b": "24 is Na - Cl only; it forgets to subtract HCO3.",
+        "c": "An anion gap of 10 is normal, not high.",
+        "d": "38 comes from adding HCO3 instead of subtracting it.",
+        "e": "24 is Na - Cl only, and a gap of 24 would be high, not normal."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Anion Gap and Non-Anion Gap Metabolic Acidosis",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK448090/"
+        }
+      ]
+    },
+    {
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Respiratory",
+      "id": "acidbase-copd-chronic-001",
+      "topic": "Acid-base: compensation",
+      "difficulty": 2,
+      "stem": "A 68-year-old man with long-standing chronic obstructive pulmonary disease (COPD) comes for a routine visit. He feels at his baseline. His arterial PaCO2 has been stable at 60 mm Hg for months.",
+      "leadIn": "Which of the following serum bicarbonate concentrations is most consistent with appropriate compensation?",
+      "options": [
+        {
+          "id": "a",
+          "text": "32 mEq/L"
+        },
+        {
+          "id": "b",
+          "text": "26 mEq/L"
+        },
+        {
+          "id": "c",
+          "text": "24 mEq/L"
+        },
+        {
+          "id": "d",
+          "text": "18 mEq/L"
+        },
+        {
+          "id": "e",
+          "text": "40 mEq/L"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: about 32 mEq/L. Why: this is chronic respiratory acidosis, and over days the kidneys retain about 4 mEq/L of HCO3 for every 10 mm Hg rise in PaCO2. Show the math: PaCO2 is 20 above 40, so HCO3 = 24 + 2 x 4 = 32.",
+      "whyWrong": {
+        "b": "26 uses the acute rule (+1 per 10 mm Hg). Using it here would make a normal COPD gas look like an added metabolic alkalosis.",
+        "c": "24 means no compensation at all, which does not fit months of stable CO2 retention.",
+        "d": "A low HCO3 would mean a concurrent metabolic acidosis.",
+        "e": "40 is more than compensation predicts and would suggest an added metabolic alkalosis."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Respiratory Acidosis",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK482430/"
+        }
+      ]
+    },
+    {
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Renal & Urinary",
+      "id": "acidbase-salicylate-mixed-001",
+      "topic": "Mixed acid-base disorders",
+      "difficulty": 3,
+      "stem": "A 24-year-old woman is brought to the emergency department 6 hours after taking a large number of aspirin tablets. She has ringing in her ears and is breathing fast. Arterial blood gas: pH 7.47, PaCO2 20 mm Hg, HCO3 14 mEq/L. Serum sodium is 140 mEq/L and chloride is 102 mEq/L.",
+      "leadIn": "Which of the following best describes this patient's acid-base status?",
+      "options": [
+        {
+          "id": "a",
+          "text": "High anion gap metabolic acidosis and primary respiratory alkalosis"
+        },
+        {
+          "id": "b",
+          "text": "Primary respiratory alkalosis with appropriate metabolic compensation only"
+        },
+        {
+          "id": "c",
+          "text": "High anion gap metabolic acidosis with appropriate respiratory compensation only"
+        },
+        {
+          "id": "d",
+          "text": "Normal anion gap metabolic acidosis and primary respiratory alkalosis"
+        },
+        {
+          "id": "e",
+          "text": "Metabolic alkalosis and primary respiratory acidosis"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: mixed disorder, high anion gap metabolic acidosis plus primary respiratory alkalosis. Why: salicylates stimulate the brain's breathing center (respiratory alkalosis) and also add acid (metabolic acidosis). Show the math: AG = 140 - (102 + 14) = 24, high. If the acidosis were alone, Winters predicts PaCO2 = 1.5 x 14 + 8 = 29 +/- 2 (27 to 31). The measured PaCO2 of 20 is far lower, so there is extra hyperventilation: a second, primary respiratory alkalosis.",
+      "whyWrong": {
+        "b": "A pure respiratory alkalosis would not create a high anion gap of 24.",
+        "c": "PaCO2 of 20 is well below the Winters range of 27 to 31, so compensation alone does not explain it. The near-normal pH is the trap.",
+        "d": "The anion gap is 24, which is high, not normal.",
+        "e": "HCO3 is low, not high, and PaCO2 is low, not high."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Anion Gap and Non-Anion Gap Metabolic Acidosis",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK448090/"
+        },
+        {
+          "title": "StatPearls: Physiology, Acid Base Balance",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK507807/"
+        }
+      ]
     }
   ]
 }
