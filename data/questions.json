@@ -3118,6 +3118,112 @@
           "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK448098/"
         }
       ]
+    },
+    {
+      "id": "renal-clearance-inulin-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Renal & Urinary",
+      "topic": "Renal clearance and GFR (inulin vs creatinine)",
+      "difficulty": 2,
+      "stem": "In a renal physiology study, a healthy volunteer receives a continuous IV infusion of inulin. At steady state, urine flow is 2 mL/min, urine inulin concentration is 30 mg/mL, and plasma inulin concentration is 0.5 mg/mL. Creatinine clearance measured at the same time is 130 mL/min.",
+      "leadIn": "Which of the following is the best estimate of this person’s glomerular filtration rate (GFR)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "120 mL/min"
+        },
+        {
+          "id": "b",
+          "text": "130 mL/min"
+        },
+        {
+          "id": "c",
+          "text": "60 mL/min"
+        },
+        {
+          "id": "d",
+          "text": "30 mL/min"
+        },
+        {
+          "id": "e",
+          "text": "7.5 mL/min"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: 120 mL/min. Why: clearance is the volume of plasma cleared of a substance per minute: C = (U × V) / P, where U is urine concentration, V is urine flow rate, and P is plasma concentration. Inulin clearance = (30 mg/mL × 2 mL/min) / 0.5 mg/mL = 120 mL/min. Inulin measures GFR accurately because it is freely filtered and is neither reabsorbed nor secreted. The same formula with para-aminohippuric acid (PAH) estimates renal plasma flow (RPF), and filtration fraction = GFR / RPF, normally about 20%.",
+      "whyWrong": {
+        "b": "Creatinine is also secreted by the tubules, so creatinine clearance overestimates GFR, especially when GFR is low. Inulin is the more accurate marker.",
+        "c": "60 is U / P (30 / 0.5), which leaves out the urine flow rate. Clearance is (U × V) / P.",
+        "d": "30 is U × V × P; the plasma concentration belongs in the denominator, not the numerator.",
+        "e": "7.5 is (U × P) / V, which swaps urine flow and plasma concentration. Clearance is (U × V) / P."
+      },
+      "sources": [
+        {
+          "title": "LITFL Part One: Measurement of GFR (citing Guyton and Hall Textbook of Medical Physiology)",
+          "url": "https://partone.litfl.com/creatinine_clearance.html"
+        },
+        {
+          "title": "StatPearls: Physiology, Renal Blood Flow and Filtration",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK482248/"
+        }
+      ]
+    },
+    {
+      "id": "renal-corrected-sodium-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Renal & Urinary",
+      "topic": "Sodium correction for hyperglycemia",
+      "difficulty": 2,
+      "stem": "A 45-year-old man with poorly controlled type 2 diabetes is brought to the emergency department with polyuria and confusion. Serum sodium is 128 mEq/L and serum glucose is 700 mg/dL.",
+      "leadIn": "Which of the following is the best estimate of his serum sodium after correcting for the hyperglycemia?",
+      "options": [
+        {
+          "id": "a",
+          "text": "About 138 to 142 mEq/L"
+        },
+        {
+          "id": "b",
+          "text": "128 mEq/L"
+        },
+        {
+          "id": "c",
+          "text": "About 134 mEq/L"
+        },
+        {
+          "id": "d",
+          "text": "About 118 mEq/L"
+        },
+        {
+          "id": "e",
+          "text": "It cannot be estimated without measuring plasma osmolality"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: about 138 to 142 mEq/L, which is normal. Why: high glucose lowers the measured sodium. The most commonly used correction is 1.6 mEq/L for every 100 mg/dL rise in glucose. Glucose has risen about 600 mg/dL above normal (700 - 100), so 6 × 1.6 = 9.6, and the corrected sodium is 128 + 9.6 ≈ 138 mEq/L. Some sources use about 2.4 mEq/L per 100 mg/dL instead (Hillier 1999), especially when glucose is above about 440 mg/dL; that gives 128 + 14.4 ≈ 142 mEq/L. Either way, the corrected sodium is normal. Mechanism: glucose raises plasma osmolality and pulls water out of cells, diluting the sodium (translocational hyponatremia). As the glucose is treated, the water moves back into cells and the sodium rises. Do not confuse this with pseudohyponatremia, where severe hyperlipidemia or extreme hyperproteinemia (e.g., multiple myeloma) takes up space in the sample: the sodium in the serum itself and the osmolality are normal.",
+      "whyWrong": {
+        "b": "128 is the measured value. The correction estimates what the sodium will be once the glucose, and the water it pulled out of cells, return to normal.",
+        "c": "134 adds only 1 mEq/L per 100 mg/dL. The factor is about 1.6 mEq/L per 100 mg/dL rise in glucose (or about 2.4 in some sources), not 1.",
+        "d": "118 subtracts the correction. Hyperglycemia lowers the measured sodium, so the correction is added.",
+        "e": "No osmolality is needed: the correction is calculated from the glucose alone, at about 1.6 mEq/L for every 100 mg/dL rise."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Hyponatremia",
+          "url": "https://www.msdmanuals.com/professional/nephrology/electrolyte-disorders/hyponatremia"
+        },
+        {
+          "title": "Huffman GB. Adjusting Sodium Levels in Patients with Hyperglycemia. Am Fam Physician 1999;60(6):1821 (summary of Hillier TA et al., Am J Med 1999;106:399-403)",
+          "url": "https://www.aafp.org/pubs/afp/issues/1999/1015/p1821.html"
+        }
+      ]
     }
   ]
 }
