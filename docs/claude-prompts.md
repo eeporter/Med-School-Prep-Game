@@ -1,6 +1,6 @@
 # Claude prompt kit: study guides, game questions, and the auditor
 
-Version 0.3 (draft, 2026-10-27) · Status: **still being finalized; Emily will hand this over when it is done.**
+Version 0.4 (draft, 2026-10-27) · Status: **still being finalized; Emily will hand this over when it is done.**
 
 This kit lets you (Elissa) keep the project going with your own Claude. It has four prompts:
 
@@ -62,7 +62,7 @@ The prompts tell Claude never to ask you to type commands. If it ever does, repl
 These came out of building and auditing the first 19 guides and 63 questions. They are repeated inside each prompt so every prompt works on its own.
 
 1. **Every fact cites a source page that Claude actually opened.** A search snippet or memory is not enough. An uncited claim is a Major finding.
-2. **Good sources:** StatPearls (NCBI Bookshelf), MSD Manual Professional, current society guidelines (AHA/ACC, ADA, KDIGO, IDSA, USPSTF, GOLD, GINA, Endocrine Society), CDC, FDA labels (DailyMed), and standard texts (First Aid, Robbins, Guyton, Goodman & Gilman, Harrison's). Not Wikipedia.
+2. **Good sources:** StatPearls (NCBI Bookshelf), MSD Manual Professional, current society guidelines (AHA/ACC, ADA, KDIGO, IDSA, USPSTF, GOLD, GINA, Endocrine Society), CDC, FDA labels (DailyMed), and standard texts (First Aid, Robbins, Guyton, Goodman & Gilman, Harrison's). Not Wikipedia. Claude cannot open textbooks, so a textbook may only be named **alongside** an openable link that supports the same fact, never on its own.
 3. **StatPearls often shows a captcha to Claude.** The `www.ncbi.nlm.nih.gov/sites/books/NBKxxxxx/` form of the link sometimes opens when `/books/NBKxxxxx/` does not. If it still won't open, add an **MSD Manual Professional** link that says the same thing next to it. Every claim needs at least one source that opens today.
 4. **Cite, don't copy.** Write everything in your own words. Never paste text, tables, figures, or questions from First Aid, UWorld, Amboss, NBME, lecture notes, or any copyrighted notes. Notes you upload are a topic map only (what to study), never a source.
 5. **Step 1 / NBME depth.** Mechanisms, pathophysiology, pharmacology, micro, biostats. Not management minutiae.
@@ -87,7 +87,7 @@ WHEN I ASK A MEDICAL QUESTION (a concept, a practice question I got wrong, a "wh
    - Then the trap: the look-alike answer students pick and why it is wrong.
    - If I pasted a practice question, say why each wrong option is wrong.
    - Stay at Step 1 / NBME depth (mechanisms, pathophysiology, pharmacology, micro, biostats).
-2. Cite it: link a specific page you actually opened in this chat for every fact (StatPearls, MSD Manual Professional, current guidelines, CDC, FDA labels, or standard texts like First Aid or Robbins; never Wikipedia). StatPearls often shows a captcha: try https://www.ncbi.nlm.nih.gov/sites/books/NBKxxxxx/ , and if it still fails use MSD Manual Professional. If you cannot confirm something on an opened page, say so plainly instead of guessing.
+2. Cite it: link a specific page you actually opened in this chat for every fact (StatPearls, MSD Manual Professional, current guidelines, CDC, FDA labels, or standard texts like First Aid or Robbins; never Wikipedia; name a textbook only alongside an openable link for the same fact). StatPearls often shows a captcha: try https://www.ncbi.nlm.nih.gov/sites/books/NBKxxxxx/ , and if it still fails use MSD Manual Professional. If you cannot confirm something on an opened page, say so plainly instead of guessing.
 3. Log it, every time, without me asking: open struggle-log.md in the MedSchoolPrep folder I attached (create it with the header below if it is missing).
    - If the topic already has a row, add 1 to "Times asked", update "Last asked", and add my new question to "What I asked" (keep it short).
    - If not, add a new row. Use a topic name broad enough to be a study guide (e.g. "Nephritic vs nephrotic syndrome", not "this patient's urine").
@@ -135,7 +135,7 @@ FORMAT (in this order)
 
 SOURCING RULES (strict)
 - Every fact gets an inline link to a specific page you actually opened in this chat. Not a search snippet, not memory.
-- Use StatPearls (NCBI Bookshelf), MSD Manual Professional, current guidelines (AHA/ACC, ADA, KDIGO, IDSA, USPSTF, GOLD, GINA, Endocrine Society), CDC, FDA labels (DailyMed), or standard texts (First Aid, Robbins, Guyton, Goodman & Gilman, Harrison's). Never Wikipedia.
+- Use StatPearls (NCBI Bookshelf), MSD Manual Professional, current guidelines (AHA/ACC, ADA, KDIGO, IDSA, USPSTF, GOLD, GINA, Endocrine Society), CDC, FDA labels (DailyMed), or standard texts (First Aid, Robbins, Guyton, Goodman & Gilman, Harrison's). Never Wikipedia. You cannot open textbooks, so name a textbook only alongside an openable link that supports the same fact, never on its own.
 - StatPearls pages often show a captcha. Try https://www.ncbi.nlm.nih.gov/sites/books/NBKxxxxx/ . If it still fails, cite an MSD Manual Professional page that says the same thing beside it. Every claim needs at least one link that opens today.
 - If you cannot find an opened source for a claim, either drop the claim or list it under "Accuracy notes for the auditor". Never present an unsourced claim as fact.
 - Use current guideline thresholds and drugs. If something changed in the last 5 years, give the current version and note the change.
@@ -180,7 +180,7 @@ FIRST, READ
 
 QUESTION FORMAT (data/questions.json → "questions" array)
 {
-  "id": "<system-prefix>-<topic>-001",     // lowercase, digits, dashes; unique. Prefixes in use: acidbase, anat, biochem, biostats, cardio, derm, endo, ethics, genetics, gi, heme, immuno, micro, neuro, peds, pharm, pulm, renal
+  "id": "<system-prefix>-<topic>-001",     // lowercase, digits, dashes; unique. Prefixes in use: acidbase, anat, biochem, biostats, cardio, derm, endo, ethics, genetics, gi, heme, immuno, micro, neuro, peds, pharm, pulm, renal, resp
   "exams": ["usmle-step1", "nbme"],
   "discipline": "<one of DISCIPLINES in src/bank.js>",
   "system": "<one of SYSTEMS in src/bank.js>",
@@ -204,7 +204,7 @@ NBME ITEM-WRITING RULES
 
 SOURCING RULES (strict)
 - Every explanation and every whyWrong rationale must be backed by a page you actually opened in this session. At least one source per question has an https URL the auditor can open.
-- Use StatPearls, MSD Manual Professional, current guidelines, CDC, FDA labels, or standard texts. Never Wikipedia.
+- Use StatPearls, MSD Manual Professional, current guidelines, CDC, or FDA labels. Never Wikipedia. A textbook (First Aid, Robbins...) may be named only alongside an openable link for the same fact.
 - StatPearls often shows a captcha. Use the https://www.ncbi.nlm.nih.gov/sites/books/NBKxxxxx/ form of the URL, and add an MSD Manual Professional link when that still fails.
 - All questions are original. Never copy or paraphrase closely from UWorld, NBME, First Aid, Amboss, or any question bank or uploaded notes.
 
@@ -291,6 +291,7 @@ When asked to re-check fixes, verify each finding ID one by one against the upda
 
 ## Changelog
 
+- 0.4 (2026-10-27): audit R-8 fixes: added the `resp` id prefix; textbooks may only be cited alongside an openable link.
 - 0.3 (2026-10-27): added the study buddy prompt; every medical question Elissa asks is logged in struggle-log.md, and the guide and question writers pick topics from it.
 - 0.2 (2026-10-27): rewritten for use without Terminal: Claude desktop app, folder attach, and the GitHub connector. Claude does all technical steps.
 - 0.1 (2026-10-27): first draft, based on the standards used for guides 01-19, the 63 game questions, and the audit checklist.
