@@ -3260,7 +3260,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "This is lateral medullary (Wallenberg) syndrome. Its signature is crossed sensory loss: the face on the side of the lesion and the arm and leg on the opposite side. The nucleus ambiguus holds the motor neurons of cranial nerves IX and X, which run the throat and voice box. Damage causes difficulty swallowing (dysphagia), hoarseness (dysphonia), and slurred speech on the same side as the lesion. About 80% of cases come from vertebral artery occlusion. The infarcted area is supplied by the posterior inferior cerebellar artery (PICA). Limb weakness is minimal or absent.",
+      "explanation": "This is lateral medullary (Wallenberg) syndrome. Its signature is crossed sensory loss: the face on the side of the lesion and the arm and leg on the opposite side. The nucleus ambiguus holds the motor neurons of cranial nerves IX and X, which run the throat and voice box. Damage causes difficulty swallowing (dysphagia), hoarseness (dysphonia), and slurred speech on the same side as the lesion. The usual cause is occlusion of the vertebral artery or its branch, the posterior inferior cerebellar artery (PICA), which supplies the lateral medulla. An older StatPearls review put vertebral artery occlusion at about 80% of cases. Limb weakness is minimal or absent.",
       "whyWrong": {
         "b": "The descending trigeminal tract carries pain sensation from the face on the same side. Damage explains his left facial sensory loss, not his swallowing problem.",
         "c": "The spinothalamic tract has already crossed, so damage causes pain and temperature loss in the opposite (right) arm and leg.",
@@ -3269,7 +3269,15 @@
       },
       "sources": [
         {
-          "title": "StatPearls: Wallenberg Syndrome",
+          "title": "StatPearls: Neuroanatomy, Nucleus Ambiguus",
+          "url": "https://www.statpearls.com/point-of-care/26017"
+        },
+        {
+          "title": "MSD Manual Professional: Overview of Stroke",
+          "url": "https://www.msdmanuals.com/professional/neurologic-disorders/stroke/overview-of-stroke"
+        },
+        {
+          "title": "StatPearls (archived): Wallenberg Syndrome",
           "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK470174/"
         }
       ]
@@ -3415,11 +3423,15 @@
         },
         {
           "id": "c",
-          "text": "Normal methylmalonic acid and homocysteine, since her blood count is normal"
+          "text": "Normal methylmalonic acid and normal homocysteine"
         },
         {
           "id": "d",
           "text": "Positive acetylcholine receptor antibodies"
+        },
+        {
+          "id": "e",
+          "text": "Elevated methylmalonic acid with normal homocysteine"
         }
       ],
       "answer": "a",
@@ -3427,7 +3439,8 @@
       "whyWrong": {
         "b": "High homocysteine with normal MMA points to folate deficiency. MMA rises only in B12 deficiency.",
         "c": "Subacute combined degeneration can occur without anemia or macrocytosis, and nerve symptoms may come before blood changes. A normal blood count does not rule out B12 deficiency.",
-        "d": "Acetylcholine receptor antibodies cause myasthenia gravis, which gives fatigable muscle weakness without sensory loss."
+        "d": "Acetylcholine receptor antibodies cause myasthenia gravis, which gives fatigable muscle weakness without sensory loss.",
+        "e": "B12 is also the cofactor for homocysteine methyltransferase, which turns homocysteine into methionine, so B12 deficiency raises homocysteine as well as MMA."
       },
       "sources": [
         {
@@ -3517,14 +3530,19 @@
         {
           "id": "d",
           "text": "Acetylcholinesterase"
+        },
+        {
+          "id": "e",
+          "text": "Low-density lipoprotein receptor-related protein 4 (LRP4)"
         }
       ],
       "answer": "a",
       "explanation": "Fluctuating, fatigable weakness that is worse later in the day, with ptosis and double vision, is myasthenia gravis (MG). Eye muscle weakness is the first sign in about 85% of patients. Antibodies against the acetylcholine receptor are found in about 80% of generalized MG, making them the most likely cause. The ice pack test (2 to 5 minutes over the eye) improves ptosis in MG. Repetitive nerve stimulation at 2 to 3 Hz shows a falling (decremental) response. About 10% of patients have a thymoma. First-line symptom treatment is pyridostigmine, an acetylcholinesterase inhibitor that raises acetylcholine at the neuromuscular junction.",
       "whyWrong": {
         "b": "Antibodies to presynaptic voltage-gated calcium channels cause Lambert-Eaton syndrome, where weakness improves with exercise.",
-        "c": "MuSK antibodies cause a smaller share of MG, about 5% to 10% of patients without acetylcholine receptor antibodies.",
-        "d": "Acetylcholinesterase breaks down acetylcholine. Blocking it with pyridostigmine is the treatment, not the cause."
+        "c": "MuSK antibodies are much less common, found in about 5% to 10% of patients with MG, mainly those without acetylcholine receptor antibodies.",
+        "d": "Acetylcholinesterase breaks down acetylcholine. Blocking it with pyridostigmine is the treatment, not the cause.",
+        "e": "LRP4 is another, less common antibody target in MG. Acetylcholine receptor antibodies are far more common."
       },
       "sources": [
         {
@@ -3552,15 +3570,15 @@
         },
         {
           "id": "b",
-          "text": "Topical timolol alone"
+          "text": "Topical timolol"
         },
         {
           "id": "c",
-          "text": "Oral acetazolamide alone"
+          "text": "Oral acetazolamide"
         },
         {
           "id": "d",
-          "text": "Topical pilocarpine alone"
+          "text": "Topical pilocarpine"
         },
         {
           "id": "e",
@@ -3630,8 +3648,12 @@
           "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK560536/"
         },
         {
-          "title": "StatPearls: Wallenberg Syndrome",
-          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK470174/"
+          "title": "MSD Manual Professional: Effects of Brain Herniation (table)",
+          "url": "https://www.msdmanuals.com/professional/multimedia/table/effects-of-brain-herniation"
+        },
+        {
+          "title": "StatPearls: Neuroanatomy, Nucleus Ambiguus",
+          "url": "https://www.statpearls.com/point-of-care/26017"
         }
       ]
     },
@@ -3663,6 +3685,10 @@
         {
           "id": "d",
           "text": "Secondary neurulation from the tail bud"
+        },
+        {
+          "id": "e",
+          "text": "Formation of the skull vault after normal neural tube closure"
         }
       ],
       "answer": "a",
@@ -3670,7 +3696,8 @@
       "whyWrong": {
         "b": "Failure to close the caudal (tail) end causes spina bifida, the other main type of neural tube defect.",
         "c": "The neural tube closes in week 4, not week 8.",
-        "d": "Secondary neurulation from the tail bud forms the lowest (sacral and coccygeal) part of the cord, not the brain."
+        "d": "Secondary neurulation from the tail bud forms the lowest (sacral and coccygeal) part of the cord, not the brain.",
+        "e": "Anencephaly starts with failed closure of the rostral neural tube. The missing skull vault comes with missing brain tissue, so the problem is not the skull alone."
       },
       "sources": [
         {
