@@ -1213,6 +1213,985 @@
           "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK513233/"
         }
       ]
+    },
+    {
+      "id": "endo-cah-21oh-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "Endocrine",
+      "topic": "Congenital adrenal hyperplasia",
+      "difficulty": 2,
+      "stem": "A 10-day-old infant with ambiguous genitalia (enlarged clitoris and fused labioscrotal folds) is brought to the emergency department because of vomiting and poor feeding. Karyotype is 46,XX. Blood pressure is low. Serum sodium is 127 mEq/L and potassium is 6.9 mEq/L. Pelvic ultrasound shows a uterus and ovaries.",
+      "leadIn": "The serum concentration of which of the following is most likely increased in this infant?",
+      "options": [
+        {
+          "id": "a",
+          "text": "17-Hydroxyprogesterone"
+        },
+        {
+          "id": "b",
+          "text": "Cortisol"
+        },
+        {
+          "id": "c",
+          "text": "Aldosterone"
+        },
+        {
+          "id": "d",
+          "text": "Deoxycorticosterone"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: 17-hydroxyprogesterone (17-OHP). This is classic salt-wasting congenital adrenal hyperplasia (CAH) from 21-hydroxylase deficiency, which causes about 95% of CAH. The blocked enzyme cannot convert 17-OHP to 11-deoxycortisol or progesterone to deoxycorticosterone, so cortisol and aldosterone are both low. Low aldosterone causes salt wasting (low sodium, high potassium, low blood pressure). The built-up precursors are shunted into androgens, which virilize a 46,XX baby, so this is a common cause of ambiguous genitalia in genetic females. Very high 17-OHP confirms the diagnosis.",
+      "whyWrong": {
+        "b": "Cortisol cannot be made without 21-hydroxylase, so it is low. Low cortisol is what drives ACTH up and the adrenals to enlarge.",
+        "c": "Aldosterone is also downstream of 21-hydroxylase, so it is low. That is why this baby is losing salt.",
+        "d": "Deoxycorticosterone is the product of 21-hydroxylase acting on progesterone, so it is low here. It is high in 11-beta-hydroxylase deficiency, which causes hypertension instead of salt wasting."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Congenital Adrenal Hyperplasia",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK448098/"
+        }
+      ]
+    },
+    {
+      "id": "endo-cah-11b-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "Endocrine",
+      "topic": "Congenital adrenal hyperplasia",
+      "difficulty": 3,
+      "stem": "A 4-year-old boy is brought to the physician because of pubic hair and rapid growth over the past year. He is at the 97th percentile for height. Blood pressure is 132/86 mm Hg, which is high for his age. Serum potassium is 3.1 mEq/L, bicarbonate is 30 mEq/L, and plasma renin activity is suppressed.",
+      "leadIn": "Deficiency of which of the following best explains these findings?",
+      "options": [
+        {
+          "id": "a",
+          "text": "11-Beta-hydroxylase"
+        },
+        {
+          "id": "b",
+          "text": "21-Hydroxylase"
+        },
+        {
+          "id": "c",
+          "text": "17-Alpha-hydroxylase"
+        },
+        {
+          "id": "d",
+          "text": "None; an aldosterone-secreting adrenal adenoma is present"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: 11-beta-hydroxylase deficiency. Why: it is the form of congenital adrenal hyperplasia (CAH) that combines virilization with hypertension. Without 11-beta-hydroxylase, the precursor deoxycorticosterone (DOC) builds up. DOC acts like a mineralocorticoid, so it causes hypertension, low potassium, and metabolic alkalosis, and it suppresses renin. Extra precursors are also shunted into androgens, causing early pubic hair and fast growth in either sex.",
+      "whyWrong": {
+        "b": "21-Hydroxylase deficiency also causes virilization, but DOC and aldosterone are low, so it causes salt wasting with low blood pressure, not hypertension.",
+        "c": "17-Alpha-hydroxylase deficiency causes hypertension and low potassium too, but androgens cannot be made, so it causes undervirilization and sexual infantilism, not early puberty.",
+        "d": "An aldosterone-secreting adenoma causes hypertension, low potassium, and low renin, but it does not produce androgens, so it would not explain the pubic hair and rapid growth."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Congenital Adrenal Hyperplasia",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK448098/"
+        },
+        {
+          "title": "StatPearls: Hyperaldosteronism",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK499983/"
+        }
+      ]
+    },
+    {
+      "id": "endo-men2b-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Endocrine",
+      "topic": "Multiple endocrine neoplasia",
+      "difficulty": 2,
+      "stem": "A 22-year-old man has a firm thyroid nodule. He also reports episodes of pounding headache, sweating, and palpitations. He is tall and thin with long arms and legs. There are multiple small bumps on his lips and the front of his tongue. Serum calcitonin is markedly elevated, and 24-hour urine metanephrines are increased. Serum calcium is normal.",
+      "leadIn": "Which of the following is the most likely diagnosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Multiple endocrine neoplasia type 2B"
+        },
+        {
+          "id": "b",
+          "text": "Multiple endocrine neoplasia type 2A"
+        },
+        {
+          "id": "c",
+          "text": "Multiple endocrine neoplasia type 1"
+        },
+        {
+          "id": "d",
+          "text": "Marfan syndrome"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: MEN2B. Why: medullary thyroid carcinoma (high calcitonin) plus pheochromocytoma (episodic headache, sweating, palpitations, high metanephrines) plus mucosal neuromas (bumps on lips and tongue) and a marfanoid body habitus is MEN2B. Both MEN2A and MEN2B are caused by germline gain-of-function mutations in the RET proto-oncogene. Medullary thyroid cancer develops in nearly everyone with MEN2.",
+      "whyWrong": {
+        "b": "MEN2A shares medullary thyroid cancer and pheochromocytoma, but adds primary hyperparathyroidism and does not cause mucosal neuromas or a marfanoid habitus. Hyperparathyroidism is rare in MEN2B, and this patient's calcium is normal.",
+        "c": "MEN1 is a different syndrome (parathyroid, pituitary, and pancreatic tumors) and does not include medullary thyroid cancer or pheochromocytoma.",
+        "d": "Marfan syndrome causes a similar tall, long-limbed build, but not endocrine tumors, high calcitonin, or high metanephrines."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Multiple Endocrine Neoplasia Type 2",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK519054/"
+        }
+      ]
+    },
+    {
+      "id": "endo-myxedema-coma-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Endocrine",
+      "topic": "Hypothyroidism and myxedema coma",
+      "difficulty": 2,
+      "stem": "A 76-year-old woman is brought to the emergency department in January because her family found her drowsy and confused. She was treated for pneumonia last week. Temperature is 33.6°C (92.5°F), pulse is 46/min, and respirations are 8/min. Her skin is dry and cool, and she has puffiness of the face and hands. Serum sodium is 125 mEq/L, glucose is 56 mg/dL, and arterial PaCO2 is 60 mm Hg.",
+      "leadIn": "Which of the following sets of thyroid laboratory results is most likely in this patient?",
+      "options": [
+        {
+          "id": "a",
+          "text": "High TSH, low free T4"
+        },
+        {
+          "id": "b",
+          "text": "Low TSH, high free T4"
+        },
+        {
+          "id": "c",
+          "text": "Low TSH, low free T4"
+        },
+        {
+          "id": "d",
+          "text": "High TSH, high free T4"
+        },
+        {
+          "id": "e",
+          "text": "Normal TSH, normal free T4"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: high TSH (thyroid-stimulating hormone) with low free T4 (thyroxine). Why: this is myxedema coma, the most severe form of hypothyroidism, and primary hypothyroidism is the usual cause, so the pituitary responds to low T4 by raising TSH. The hallmark is altered mental status; other typical findings are low body temperature, slow heart rate, slow breathing with CO2 retention, low sodium, and low glucose. Infection is the most common trigger, and cold weather and sedating drugs also precipitate it. Most patients are women over 60.",
+      "whyWrong": {
+        "b": "Low TSH with high free T4 is hyperthyroidism, which causes fever, fast heart rate, and agitation, the opposite of this picture.",
+        "c": "Low TSH with low T4 is central (pituitary or hypothalamic) hypothyroidism. It can cause myxedema coma, but it is much less common than primary hypothyroidism.",
+        "d": "High TSH with high T4 suggests a TSH-secreting pituitary tumor or thyroid hormone resistance, which do not cause this hypothyroid emergency.",
+        "e": "Normal thyroid tests would not explain severe hypothermia, bradycardia, and hypoventilation with puffy dry skin."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Myxedema Coma",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK545193/"
+        }
+      ]
+    },
+    {
+      "id": "endo-addison-pigment-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Endocrine",
+      "topic": "Adrenal insufficiency",
+      "difficulty": 2,
+      "stem": "A 35-year-old woman has had fatigue, weight loss, salt craving, and lightheadedness on standing for 4 months. Her skin creases, knuckles, and gums have darkened. Blood pressure is 88/56 mm Hg. Serum sodium is 129 mEq/L and potassium is 5.8 mEq/L. Morning cortisol is low and plasma ACTH is markedly elevated.",
+      "leadIn": "Which of the following best explains this patient's skin changes?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Increased melanocyte-stimulating hormone from cleavage of pro-opiomelanocortin"
+        },
+        {
+          "id": "b",
+          "text": "Direct stimulation of melanocytes by low aldosterone"
+        },
+        {
+          "id": "c",
+          "text": "Iron deposition in the skin"
+        },
+        {
+          "id": "d",
+          "text": "Excess cortisol stimulating melanin synthesis"
+        },
+        {
+          "id": "e",
+          "text": "Increased thyroid hormone stimulating melanocytes"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: increased melanocyte-stimulating hormone (MSH). Why: in primary adrenal insufficiency (Addison disease), low cortisol removes negative feedback, so the pituitary makes more pro-opiomelanocortin (POMC). POMC is cut into ACTH and MSH, and the extra MSH darkens the skin and gums. Losing aldosterone (mineralocorticoid) as well explains the low sodium, high potassium, and low blood pressure. In central (secondary) adrenal insufficiency, ACTH is low and aldosterone is preserved, so these two clues are absent.",
+      "whyWrong": {
+        "b": "Low aldosterone causes the low sodium and high potassium, but it does not affect skin pigment.",
+        "c": "Iron deposition causes bronze skin in hemochromatosis, which would not explain low cortisol and high ACTH.",
+        "d": "Cortisol is low here, not high.",
+        "e": "Nothing suggests hyperthyroidism, and thyroid hormone is not the cause of Addison pigmentation."
+      },
+      "sources": [
+        {
+          "title": "Endotext: Adrenal Insufficiency in Children (NCBI Bookshelf)",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK608067/"
+        },
+        {
+          "title": "StatPearls: Physiology, Adrenocorticotropic Hormone (ACTH)",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK500031/"
+        }
+      ]
+    },
+    {
+      "id": "renal-acei-bilateral-ras-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Renal & Urinary",
+      "topic": "ACE inhibitors and renal artery stenosis",
+      "difficulty": 2,
+      "stem": "A 72-year-old man with long-standing hypertension, peripheral artery disease, and a 60-pack-year smoking history has bruits heard over both flanks. He is started on lisinopril. One week later his serum creatinine has risen from 1.1 to 2.4 mg/dL. Renal artery imaging shows severe atherosclerotic narrowing of both renal arteries.",
+      "leadIn": "Which of the following best explains the decrease in this patient's glomerular filtration rate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Loss of angiotensin II-mediated constriction of the efferent arterioles"
+        },
+        {
+          "id": "b",
+          "text": "Angiotensin II-mediated constriction of the afferent arterioles"
+        },
+        {
+          "id": "c",
+          "text": "Drug-induced allergic interstitial nephritis"
+        },
+        {
+          "id": "d",
+          "text": "Bradykinin-mediated injury to the proximal tubule"
+        },
+        {
+          "id": "e",
+          "text": "Increased aldosterone causing sodium retention"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: loss of efferent arteriolar constriction. Why: when both renal arteries are narrowed (or the only kidney's artery is narrowed), blood flow into the glomerulus is low, and the kidney keeps filtering by using angiotensin II to squeeze the efferent (outflow) arteriole, which holds glomerular pressure up. GFR (glomerular filtration rate) becomes dependent on that efferent tone. An ACE inhibitor removes angiotensin II, the efferent arteriole relaxes, glomerular pressure falls, and GFR drops, so creatinine rises. This is why a creatinine jump after starting an ACE inhibitor or ARB should raise suspicion for bilateral renal artery stenosis.",
+      "whyWrong": {
+        "b": "ACE inhibitors lower angiotensin II, and angiotensin II mainly constricts the efferent, not the afferent, arteriole.",
+        "c": "Allergic interstitial nephritis comes with fever, rash, or urine eosinophils and is not explained by bilateral renal artery narrowing.",
+        "d": "Extra bradykinin explains ACE inhibitor cough and angioedema, not a hemodynamic drop in GFR.",
+        "e": "ACE inhibitors lower aldosterone, and aldosterone would not lower GFR."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Renovascular Hypertension",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK551587/"
+        },
+        {
+          "title": "StatPearls: Physiology, Renal Blood Flow and Filtration",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK482248/"
+        }
+      ]
+    },
+    {
+      "id": "pharm-sglt2-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Renal & Urinary",
+      "topic": "SGLT2 inhibitors",
+      "difficulty": 2,
+      "stem": "A 58-year-old man with type 2 diabetes mellitus and chronic kidney disease with proteinuria is started on empagliflozin. Three months later his hemoglobin A1c has decreased, and he has had one episode of genital yeast infection. Urinalysis shows marked glucosuria despite a blood glucose of 140 mg/dL.",
+      "leadIn": "This drug acts on a transporter located in which part of the nephron?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Proximal convoluted tubule"
+        },
+        {
+          "id": "b",
+          "text": "Thick ascending limb of the loop of Henle"
+        },
+        {
+          "id": "c",
+          "text": "Distal convoluted tubule"
+        },
+        {
+          "id": "d",
+          "text": "Collecting duct principal cells"
+        },
+        {
+          "id": "e",
+          "text": "Glomerular capillary endothelium"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: proximal convoluted tubule. Why: empagliflozin blocks the sodium-glucose cotransporter 2 (SGLT2) in the proximal tubule, so glucose that was filtered is not taken back and is lost in urine (glucosuria). More sodium then reaches the distal nephron, which triggers tubuloglomerular feedback: the afferent arteriole constricts and pressure inside the glomerulus falls. Lower glomerular pressure is the main way SGLT2 inhibitors protect the kidney. Key side effects are genital yeast infections, urinary tract infections, volume depletion, and euglycemic diabetic ketoacidosis.",
+      "whyWrong": {
+        "b": "The thick ascending limb holds the Na-K-2Cl cotransporter, the target of loop diuretics like furosemide.",
+        "c": "The distal convoluted tubule holds the Na-Cl cotransporter, the target of thiazide diuretics.",
+        "d": "Principal cells hold ENaC sodium channels and aldosterone receptors, targets of amiloride and spironolactone.",
+        "e": "The glomerulus filters glucose but does not reabsorb it; there is no glucose transporter drug target there."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Sodium-Glucose Transport 2 (SGLT2) Inhibitors",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK576405/"
+        }
+      ]
+    },
+    {
+      "id": "pharm-statin-ldl-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Cardiovascular",
+      "topic": "Statins",
+      "difficulty": 1,
+      "stem": "A 54-year-old man with an LDL cholesterol of 190 mg/dL is started on atorvastatin. Eight weeks later his LDL cholesterol has fallen to 95 mg/dL. He reports mild muscle aches.",
+      "leadIn": "Which of the following is the main reason this drug lowered his plasma LDL cholesterol?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Increased hepatic LDL receptor expression after reduced hepatic cholesterol synthesis"
+        },
+        {
+          "id": "b",
+          "text": "Binding of bile acids in the intestine"
+        },
+        {
+          "id": "c",
+          "text": "Inhibition of intestinal cholesterol absorption at the brush border"
+        },
+        {
+          "id": "d",
+          "text": "Activation of lipoprotein lipase through PPAR-alpha"
+        },
+        {
+          "id": "e",
+          "text": "Direct removal of LDL particles by the kidneys"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: more LDL receptors on liver cells. Why: statins competitively inhibit HMG-CoA reductase, the enzyme that turns HMG-CoA into mevalonate in cholesterol synthesis. With less cholesterol made inside the liver, liver cells put more LDL receptors on their surface and pull more LDL out of the blood. Main adverse effects are muscle problems (myalgia, myopathy, and rarely rhabdomyolysis) and liver enzyme elevation.",
+      "whyWrong": {
+        "b": "Binding bile acids in the gut is how bile acid sequestrants (cholestyramine, colesevelam) work.",
+        "c": "Blocking cholesterol absorption at the brush border is how ezetimibe works.",
+        "d": "PPAR-alpha activation is the mechanism of fibrates, which mainly lower triglycerides.",
+        "e": "LDL is cleared by the liver through LDL receptors, not by the kidneys."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Statin Medications",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK430940/"
+        }
+      ]
+    },
+    {
+      "id": "renal-ethylene-glycol-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "Renal & Urinary",
+      "topic": "Anion gap and osmolal gap",
+      "difficulty": 3,
+      "stem": "A 45-year-old man is brought to the emergency department confused after drinking from a container in his garage. Serum sodium is 140 mEq/L, chloride 102 mEq/L, and bicarbonate 10 mEq/L. Measured serum osmolality is 330 mOsm/kg, and the calculated osmolality is 290 mOsm/kg. Serum creatinine rises over the next day, and urine microscopy shows calcium oxalate crystals.",
+      "leadIn": "Which of the following is the most likely cause of this patient's kidney injury?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Deposition of calcium oxalate in the renal tubules"
+        },
+        {
+          "id": "b",
+          "text": "Formic acid injury to the renal tubules"
+        },
+        {
+          "id": "c",
+          "text": "Accumulation of acetone"
+        },
+        {
+          "id": "d",
+          "text": "Rhabdomyolysis with myoglobin casts"
+        },
+        {
+          "id": "e",
+          "text": "Ketoacid accumulation from starvation"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: calcium oxalate deposition. Why: this is ethylene glycol (antifreeze) poisoning. Show the math: anion gap = Na - (Cl + HCO3) = 140 - (102 + 10) = 28, which is high (normal is roughly 8 to 12). Osmolal gap = measured - calculated = 330 - 290 = 40, also high, because the unmetabolized alcohol is osmotically active. Alcohol dehydrogenase converts ethylene glycol to glycolic acid (the main cause of the acidosis) and eventually oxalic acid, which binds calcium and deposits in the proximal tubules, causing acute kidney injury. Fomepizole, which blocks alcohol dehydrogenase, is the antidote.",
+      "whyWrong": {
+        "b": "Formic acid is the toxic metabolite of methanol, which classically damages the retina and causes vision loss, not oxalate crystals.",
+        "c": "Acetone comes from isopropyl alcohol, which raises the osmolal gap but does not cause a high anion gap acidosis.",
+        "d": "Nothing suggests muscle injury, and myoglobin would not explain an osmolal gap or oxalate crystals.",
+        "e": "Starvation ketosis causes a mild anion gap acidosis without a large osmolal gap or oxalate crystals."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Ethylene Glycol Toxicity",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK537009/"
+        }
+      ]
+    },
+    {
+      "id": "renal-iga-nephropathy-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Renal & Urinary",
+      "topic": "IgA nephropathy",
+      "difficulty": 2,
+      "stem": "A 22-year-old man notices cola-colored urine on the second day of a sore throat and runny nose. He had a similar episode with a cold last year. Blood pressure is 124/78 mm Hg. Urinalysis shows red blood cells and red blood cell casts with mild proteinuria. A renal biopsy is performed.",
+      "leadIn": "Immunofluorescence microscopy is most likely to show which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Granular IgA deposits in the mesangium"
+        },
+        {
+          "id": "b",
+          "text": "Linear IgG deposits along the glomerular basement membrane"
+        },
+        {
+          "id": "c",
+          "text": "Granular IgG and C3 deposits in a 'starry sky' pattern"
+        },
+        {
+          "id": "d",
+          "text": "No immune deposits"
+        },
+        {
+          "id": "e",
+          "text": "Granular IgG, IgA, IgM, C3, and C1q deposits"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: granular mesangial IgA. Why: blood in the urine that starts during (or right after) an upper respiratory infection, and recurs, is IgA nephropathy (Berger disease), the most common glomerulonephritis. Abnormal galactose-deficient IgA1 forms immune complexes that lodge in the mesangium. C3 often deposits alongside the IgA, while C1q is usually absent.",
+      "whyWrong": {
+        "b": "Linear IgG along the basement membrane is anti-GBM disease (Goodpasture syndrome), often with lung hemorrhage.",
+        "c": "Granular IgG and C3 'starry sky' is poststreptococcal glomerulonephritis, which appears 2 to 3 weeks after the infection, not during it.",
+        "d": "No deposits fits minimal change disease or pauci-immune vasculitis, not hematuria during an infection.",
+        "e": "This 'full house' pattern, including C1q, is typical of lupus nephritis."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: IgA Nephropathy (Berger Disease)",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK538214/"
+        }
+      ]
+    },
+    {
+      "id": "micro-q-fever-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Respiratory",
+      "topic": "Coxiella burnetii (Q fever)",
+      "difficulty": 2,
+      "stem": "A 34-year-old woman who works on a sheep farm develops fever, chills, severe headache, fatigue, and muscle aches 3 weeks after helping with the spring lambing. She has a dry cough. She has no rash and does not recall any tick or insect bites. Serologic testing confirms infection with an obligate intracellular gram-negative bacterium.",
+      "leadIn": "This patient most likely acquired the infection by which of the following routes?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Inhaling dust contaminated with birth products of infected animals"
+        },
+        {
+          "id": "b",
+          "text": "Bite of an infected tick"
+        },
+        {
+          "id": "c",
+          "text": "Eating undercooked pork"
+        },
+        {
+          "id": "d",
+          "text": "Bite of an infected mosquito"
+        },
+        {
+          "id": "e",
+          "text": "Respiratory droplets from an infected coworker"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: inhaling contaminated dust. Why: this is Q fever, caused by Coxiella burnetii. People are infected by breathing in dust contaminated with the birth products, urine, feces, or milk of infected goats, sheep, and cattle, so lambing and calving season is high risk. Illness is flu-like (fever, chills, fatigue, muscle pain). A small number of people develop chronic Q fever, and having heart valve disease raises that risk.",
+      "whyWrong": {
+        "b": "Tick-borne rickettsial diseases such as Rocky Mountain spotted fever typically cause a rash; this patient has none and recalls no bite, and her exposure is to birthing sheep.",
+        "c": "Undercooked pork transmits Trichinella and Taenia solium, not this infection.",
+        "d": "Mosquitoes transmit malaria and arboviruses, which do not fit this farm exposure.",
+        "e": "Person-to-person spread is not how Q fever is acquired; the source is infected animals."
+      },
+      "sources": [
+        {
+          "title": "CDC: About Q Fever",
+          "url": "https://www.cdc.gov/q-fever/about/index.html"
+        }
+      ]
+    },
+    {
+      "id": "micro-mrsa-pbp2a-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "General Principles",
+      "topic": "Antibiotic resistance mechanisms",
+      "difficulty": 2,
+      "stem": "A 40-year-old man has a large, painful skin abscess on his thigh. Culture of the drainage grows gram-positive cocci in clusters that are catalase positive and coagulase positive. The isolate is resistant to oxacillin and to all cephalosporins tested but is susceptible to vancomycin.",
+      "leadIn": "Which of the following is the most likely mechanism of this organism's resistance to oxacillin?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Production of an altered penicillin-binding protein encoded by mecA"
+        },
+        {
+          "id": "b",
+          "text": "Production of a penicillinase that hydrolyzes oxacillin"
+        },
+        {
+          "id": "c",
+          "text": "Substitution of D-alanyl-D-lactate in cell wall precursors"
+        },
+        {
+          "id": "d",
+          "text": "Loss of outer membrane porin channels"
+        },
+        {
+          "id": "e",
+          "text": "Methylation of the 23S ribosomal RNA binding site"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: altered penicillin-binding protein (PBP2a) from the mecA gene. Why: this is methicillin-resistant Staphylococcus aureus (MRSA). Beta-lactam drugs kill bacteria by binding penicillin-binding proteins (PBPs), the enzymes that cross-link the cell wall. MRSA carries mecA, which makes PBP2a, a PBP that beta-lactams cannot effectively block, so the cell keeps building its wall. That is why MRSA is resistant to essentially all beta-lactams and is treated with drugs like vancomycin.",
+      "whyWrong": {
+        "b": "Oxacillin and methicillin were designed to resist staphylococcal penicillinase, so penicillinase does not explain oxacillin resistance.",
+        "c": "Replacing D-Ala-D-Ala with D-Ala-D-Lac is how enterococci resist vancomycin, and this isolate is vancomycin susceptible.",
+        "d": "Porin loss is a resistance mechanism of gram-negative bacteria, which have an outer membrane; staphylococci do not.",
+        "e": "23S rRNA methylation causes resistance to macrolides and clindamycin, not to beta-lactams."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Staphylococcal Pneumonia",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK559152/"
+        },
+        {
+          "title": "StatPearls: Vancomycin-Resistant Enterococci",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK513233/"
+        }
+      ]
+    },
+    {
+      "id": "micro-klebsiella-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Respiratory",
+      "topic": "Klebsiella pneumoniae",
+      "difficulty": 1,
+      "stem": "A 58-year-old man with alcohol use disorder has had high fever and cough for 3 days. He is coughing up thick, dark red, jelly-like sputum. Chest x-ray shows dense consolidation of the right upper lobe.",
+      "leadIn": "A Gram stain of the sputum is most likely to show which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Encapsulated gram-negative rods"
+        },
+        {
+          "id": "b",
+          "text": "Lancet-shaped gram-positive diplococci"
+        },
+        {
+          "id": "c",
+          "text": "Gram-positive cocci in clusters"
+        },
+        {
+          "id": "d",
+          "text": "Small gram-negative coccobacilli"
+        },
+        {
+          "id": "e",
+          "text": "Gram-negative diplococci"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: encapsulated gram-negative rods. Why: 'currant jelly' sputum with upper lobe pneumonia in a person with alcohol use disorder (or diabetes) is classic for Klebsiella pneumoniae. It is a gram-negative, non-motile, encapsulated rod, and its polysaccharide capsule is its most important virulence factor.",
+      "whyWrong": {
+        "b": "Lancet-shaped gram-positive diplococci are Streptococcus pneumoniae, which classically causes rust-colored sputum.",
+        "c": "Gram-positive cocci in clusters are Staphylococcus aureus, which can cause pneumonia (often after influenza) but not currant jelly sputum.",
+        "d": "Small gram-negative coccobacilli fit Haemophilus influenzae, a common cause of pneumonia in COPD, without currant jelly sputum.",
+        "e": "Gram-negative diplococci are Neisseria or Moraxella; Moraxella causes bronchitis in COPD, not this picture."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Klebsiella Pneumonia",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK519004/"
+        }
+      ]
+    },
+    {
+      "id": "pulm-pft-restrictive-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Respiratory",
+      "topic": "Pulmonary function tests",
+      "difficulty": 2,
+      "stem": "A 64-year-old man has had slowly worsening shortness of breath and a dry cough for 18 months. He has fine 'Velcro-like' crackles at both lung bases and clubbing of the fingers. High-resolution CT shows reticular opacities and honeycombing at the lung bases.",
+      "leadIn": "Which of the following pulmonary function test patterns is most likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Normal FEV1/FVC ratio and decreased total lung capacity"
+        },
+        {
+          "id": "b",
+          "text": "Decreased FEV1/FVC ratio and increased total lung capacity"
+        },
+        {
+          "id": "c",
+          "text": "Decreased FEV1/FVC ratio and decreased total lung capacity"
+        },
+        {
+          "id": "d",
+          "text": "Normal FEV1/FVC ratio and increased total lung capacity"
+        },
+        {
+          "id": "e",
+          "text": "Normal FEV1/FVC ratio and normal total lung capacity"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: normal FEV1/FVC with low total lung capacity (TLC). Why: this is pulmonary fibrosis, a restrictive lung disease. Stiff lungs cannot fill fully, so TLC and FVC (forced vital capacity) fall. FEV1 (air blown out in 1 second) falls about as much as FVC, so the FEV1/FVC ratio stays normal (above 0.70). A restrictive pattern is defined by a normal ratio with TLC below 80% of predicted. An obstructive pattern is the opposite: FEV1/FVC below 0.70, often with air trapping.",
+      "whyWrong": {
+        "b": "A low ratio with high TLC is obstructive disease with hyperinflation, such as emphysema.",
+        "c": "A low ratio means obstruction; combined with low TLC it suggests a mixed defect, which does not fit isolated fibrosis.",
+        "d": "High TLC means air trapping or hyperinflation, the opposite of a stiff fibrotic lung.",
+        "e": "With honeycombing and crackles, lung volumes would not be normal."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Pulmonary Function Tests",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK482339/"
+        }
+      ]
+    },
+    {
+      "id": "derm-bullous-pemphigoid-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Immunology",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Autoimmune blistering diseases",
+      "difficulty": 2,
+      "stem": "A 79-year-old man has had very itchy skin for 2 months and now has many large, tense blisters on his inner thighs, groin, and lower abdomen. Rubbing normal-looking skin next to a blister does not cause it to peel. His mouth is not involved. Biopsy shows a subepidermal blister with many eosinophils.",
+      "leadIn": "Direct immunofluorescence of perilesional skin is most likely to show which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Linear IgG and C3 along the basement membrane zone"
+        },
+        {
+          "id": "b",
+          "text": "Net-like (chicken-wire) IgG between keratinocytes in the epidermis"
+        },
+        {
+          "id": "c",
+          "text": "No immunoreactants"
+        },
+        {
+          "id": "d",
+          "text": "IgE bound to dermal mast cells only"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: linear IgG and C3 along the basement membrane. Why: tense, itchy blisters in an elderly patient with a negative Nikolsky sign and a subepidermal split with eosinophils is bullous pemphigoid. Autoantibodies target hemidesmosome proteins BP180 and BP230, which anchor the epidermis to the basement membrane, so antibody and complement line up along the basement membrane zone. Because the split is below the epidermis, the blister roof is thick and the blisters are tense.",
+      "whyWrong": {
+        "b": "A net-like intraepidermal pattern is pemphigus vulgaris, caused by antibodies to desmogleins 1 and 3. It shows suprabasal acantholysis ('tombstone' basal cells), a positive Nikolsky sign, easily ruptured blisters, and starts in the mouth in about 80% of cases.",
+        "c": "Bullous pemphigoid is antibody mediated, so deposits are expected.",
+        "d": "IgE on mast cells is type I hypersensitivity (hives), which does not form subepidermal blisters."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Bullous Pemphigoid",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK535374/"
+        },
+        {
+          "title": "StatPearls: Pemphigus Vulgaris",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK560860/"
+        }
+      ]
+    },
+    {
+      "id": "pharm-mycophenolate-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Immune System",
+      "topic": "Immunosuppressants",
+      "difficulty": 2,
+      "stem": "A 45-year-old woman receives a kidney transplant. Her maintenance immunosuppression includes a drug that is a prodrug of mycophenolic acid. Over the next months she has frequent diarrhea, and her leukocyte count falls to 3,200/mm3.",
+      "leadIn": "This drug suppresses lymphocyte proliferation by inhibiting which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Inosine monophosphate dehydrogenase"
+        },
+        {
+          "id": "b",
+          "text": "Calcineurin"
+        },
+        {
+          "id": "c",
+          "text": "Mammalian target of rapamycin (mTOR)"
+        },
+        {
+          "id": "d",
+          "text": "Dihydrofolate reductase"
+        },
+        {
+          "id": "e",
+          "text": "Thymidylate synthase via incorporation of a fluorinated pyrimidine"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: inosine monophosphate dehydrogenase (IMPDH). Why: mycophenolate mofetil is converted to mycophenolic acid, which inhibits IMPDH and blocks the de novo pathway for making guanosine nucleotides. Proliferating lymphocytes are starved of guanine nucleotides and cannot divide. Common adverse effects are GI upset (especially diarrhea) and low blood counts (leukopenia). The boxed warning lists pregnancy loss and birth defects, lymphoma and skin cancer, and serious infections.",
+      "whyWrong": {
+        "b": "Calcineurin inhibition (blocking IL-2 transcription) is the mechanism of tacrolimus and cyclosporine, which are nephrotoxic.",
+        "c": "mTOR inhibition (blocking the response to IL-2) is the mechanism of sirolimus and everolimus.",
+        "d": "Dihydrofolate reductase inhibition is the mechanism of methotrexate.",
+        "e": "Thymidylate synthase inhibition via a fluorinated pyrimidine is 5-fluorouracil, a chemotherapy drug, not a transplant immunosuppressant."
+      },
+      "sources": [
+        {
+          "title": "FDA prescribing information: CellCept (mycophenolate mofetil), via DailyMed",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=37241e87-4af4-4dc3-a1aa-ea6f20d8dc40"
+        }
+      ]
+    },
+    {
+      "id": "biostats-nnt-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biostatistics & Epidemiology",
+      "system": "General Principles",
+      "topic": "NNT, ARR, and RRR",
+      "difficulty": 2,
+      "stem": "In a randomized controlled trial, 2000 adults with atrial fibrillation receive either a new anticoagulant or placebo for 5 years. Stroke occurs in 100 of 1000 patients (10%) in the placebo group and in 60 of 1000 patients (6%) in the drug group.",
+      "leadIn": "How many patients must be treated with the new drug for 5 years to prevent one stroke?",
+      "options": [
+        {
+          "id": "a",
+          "text": "25"
+        },
+        {
+          "id": "b",
+          "text": "17"
+        },
+        {
+          "id": "c",
+          "text": "10"
+        },
+        {
+          "id": "d",
+          "text": "40"
+        },
+        {
+          "id": "e",
+          "text": "3"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: 25. Why: number needed to treat (NNT) = 1 / absolute risk reduction (ARR). ARR = control event rate - treatment event rate = 0.10 - 0.06 = 0.04. NNT = 1 / 0.04 = 25. (If the answer is not a whole number, round up.) For comparison, relative risk (RR) = 0.06 / 0.10 = 0.6, and relative risk reduction (RRR) = 1 - 0.6 = 0.4, or 40%.",
+      "whyWrong": {
+        "b": "17 comes from 1 / 0.06, which uses the treatment group's event rate instead of the difference between groups.",
+        "c": "10 comes from 1 / 0.10, which uses the placebo group's event rate instead of the difference.",
+        "d": "40 is the relative risk reduction expressed as a percentage, not the NNT.",
+        "e": "3 comes from 1 / 0.4, which wrongly uses the relative risk reduction instead of the absolute risk reduction."
+      },
+      "sources": [
+        {
+          "title": "Centre for Evidence-Based Medicine (Oxford): Number Needed to Treat (NNT)",
+          "url": "https://www.cebm.ox.ac.uk/resources/ebm-tools/number-needed-to-treat-nnt"
+        }
+      ]
+    },
+    {
+      "id": "neuro-umn-facial-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Nervous System & Special Senses",
+      "topic": "Central vs peripheral facial weakness",
+      "difficulty": 2,
+      "stem": "A 70-year-old right-handed man has sudden weakness of his right arm. When asked to smile, the right corner of his mouth droops. He can wrinkle his forehead and close both eyes tightly on both sides.",
+      "leadIn": "A lesion at which of the following sites best explains his facial findings?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Left corticobulbar tract"
+        },
+        {
+          "id": "b",
+          "text": "Right facial nerve in the facial canal"
+        },
+        {
+          "id": "c",
+          "text": "Left facial nerve at the stylomastoid foramen"
+        },
+        {
+          "id": "d",
+          "text": "Right primary motor cortex"
+        },
+        {
+          "id": "e",
+          "text": "Right facial nucleus in the pons"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: left corticobulbar tract (an upper motor neuron lesion). Why: weakness of only the lower face on the side opposite the lesion, with the forehead spared, means an upper motor neuron (central) lesion. The forehead muscles receive input from both sides of the brain, so one damaged side cannot paralyze them. Damage at or below the facial nucleus (a lower motor neuron lesion, such as Bell palsy) weakens the whole face on the same side, forehead included. The right arm weakness also points to the left hemisphere.",
+      "whyWrong": {
+        "b": "A right facial nerve lesion would weaken the whole right face, including the forehead.",
+        "c": "A left facial nerve lesion would weaken the whole left face, not the right lower face.",
+        "d": "A right cortical lesion would cause left-sided weakness.",
+        "e": "A facial nucleus lesion is a lower motor neuron lesion and would weaken the entire face on the same side, forehead included."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Neuroanatomy, Lower Motor Neuron Lesion",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK539814/"
+        }
+      ]
+    },
+    {
+      "id": "cardio-cardiogenic-shock-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Cardiovascular",
+      "topic": "Shock hemodynamics",
+      "difficulty": 2,
+      "stem": "A 66-year-old man is admitted with a large anterior myocardial infarction. Six hours later he becomes confused. Blood pressure is 78/50 mm Hg and pulse is 118/min. His hands and feet are cold and clammy, and there are crackles over both lung fields. A pulmonary artery catheter is placed.",
+      "leadIn": "Which of the following sets of measurements is most likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Low cardiac index, high pulmonary capillary wedge pressure"
+        },
+        {
+          "id": "b",
+          "text": "Low cardiac index, low pulmonary capillary wedge pressure"
+        },
+        {
+          "id": "c",
+          "text": "High cardiac index, low pulmonary capillary wedge pressure"
+        },
+        {
+          "id": "d",
+          "text": "Normal cardiac index, normal pulmonary capillary wedge pressure"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: low cardiac index with high wedge pressure. Why: this is cardiogenic shock, and acute MI is its most common cause. The damaged left ventricle cannot pump, so cardiac output falls (cardiac index 2.2 L/min/m2 or less) and blood backs up into the lungs, raising the pulmonary capillary wedge pressure (PCWP, above 15 mm Hg) and causing crackles. A PCWP above 15 mm Hg separates cardiogenic from non-cardiogenic shock. The body responds with sympathetic vasoconstriction, which is why the skin is cold and clammy.",
+      "whyWrong": {
+        "b": "Low output with low filling pressure fits hypovolemic shock (blood or fluid loss), where the lungs would be clear.",
+        "c": "High output with low filling pressure fits early septic (distributive) shock, where the skin is often warm.",
+        "d": "Normal values would not explain hypotension, confusion, and pulmonary congestion."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Cardiogenic Shock",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK482255/"
+        },
+        {
+          "title": "StatPearls: Pulmonary Capillary Wedge Pressure",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK557748/"
+        }
+      ]
+    },
+    {
+      "id": "pharm-thiazide-calcium-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Renal & Urinary",
+      "topic": "Diuretics and electrolytes",
+      "difficulty": 2,
+      "stem": "A 52-year-old woman has had three calcium-containing kidney stones in 2 years. A 24-hour urine collection shows high urinary calcium. Her serum calcium and parathyroid hormone are normal. Her physician prescribes a diuretic to reduce urinary calcium excretion.",
+      "leadIn": "This drug most likely acts by inhibiting which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Na-Cl cotransporter in the distal convoluted tubule"
+        },
+        {
+          "id": "b",
+          "text": "Na-K-2Cl cotransporter in the thick ascending limb"
+        },
+        {
+          "id": "c",
+          "text": "Carbonic anhydrase in the proximal tubule"
+        },
+        {
+          "id": "d",
+          "text": "Aldosterone receptor in the collecting duct"
+        },
+        {
+          "id": "e",
+          "text": "Water reabsorption by acting as an osmotic agent"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the Na-Cl cotransporter in the distal convoluted tubule. Why: thiazide diuretics (e.g., hydrochlorothiazide, chlorthalidone) block this transporter and increase calcium reabsorption, which lowers urine calcium and helps prevent calcium stones. Because of this, thiazides can cause high serum calcium. Other key thiazide side effects are low potassium, low sodium, high uric acid (gout), high glucose, and high lipids.",
+      "whyWrong": {
+        "b": "Loop diuretics (furosemide) block Na-K-2Cl in the thick ascending limb and increase calcium loss in urine, the opposite of what she needs.",
+        "c": "Carbonic anhydrase inhibitors (acetazolamide) alkalinize the urine, which favors calcium phosphate stones, and do not lower urine calcium.",
+        "d": "Aldosterone antagonists (spironolactone) are potassium-sparing diuretics and are not used to lower urine calcium.",
+        "e": "Osmotic diuretics (mannitol) are used for raised intracranial pressure, not to prevent kidney stones."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Thiazide Diuretics",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK532918/"
+        }
+      ]
     }
   ]
 }
