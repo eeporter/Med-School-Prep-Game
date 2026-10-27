@@ -34,10 +34,11 @@ export function nextEase(ease, q) {
 }
 
 // Returns a new card state; never mutates the input.
-// With an exam date set, the next review is never scheduled on or after the
-// exam, so every card gets a final review shortly before the test instead of
-// drifting past it (spacing is judged against the test delay; Cepeda et al.,
-// 2008).
+// With an exam date set, the next gap is capped at half the days left, so a
+// card keeps coming back on a shrinking schedule that converges on the test
+// instead of drifting past it. The best gap is a fraction of the time until
+// the test (about 20-40% for a 1-week delay; Cepeda et al., 2008), and capping
+// at a fraction rather than "the day before" spreads reviews across days.
 export function review(card, { correct, confidence }, todayStr, { examDate = null } = {}) {
   const q = gradeFor(correct, confidence);
   const prev = { ...newCard(), ...card };
@@ -54,7 +55,7 @@ export function review(card, { correct, confidence }, todayStr, { examDate = nul
     else interval = Math.max(prev.interval + 1, Math.round(prev.interval * ease));
   }
   const daysToExam = examDate ? daysBetween(todayStr, examDate) : null;
-  if (daysToExam !== null && daysToExam > 1) interval = Math.min(interval, daysToExam - 1);
+  if (daysToExam !== null && daysToExam > 1) interval = Math.min(interval, Math.max(1, Math.floor(daysToExam / 2)));
   return {
     reps,
     interval,
@@ -73,6 +74,12 @@ export function isDue(card, todayStr) {
   if (!card) return false;
   if (!card.due) return true;
   return daysBetween(card.due, todayStr) >= 0;
+}
+
+// Only the first answer on a given day updates the schedule; later answers the
+// same day (another session, or Focus after Rounds) are practice.
+export function reviewedOn(card, todayStr) {
+  return Boolean(card) && card.lastReviewed === todayStr;
 }
 
 export function isMastered(card) {

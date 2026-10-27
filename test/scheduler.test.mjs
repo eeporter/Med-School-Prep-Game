@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { review, newCard, gradeFor, nextEase, isDue, isMastered, MIN_EASE } from '../src/scheduler.js';
+import { review, newCard, gradeFor, nextEase, isDue, isMastered, reviewedOn, MIN_EASE } from '../src/scheduler.js';
 import { addDays, daysBetween, toDayString } from '../src/dates.js';
 
 const D = '2026-03-01';
@@ -95,12 +95,28 @@ test('with an exam date, no review is scheduled on or after the exam', () => {
   for (let i = 0; i < 5; i++) c = review(c, { correct: true, confidence: 'sure' }, D);
   assert.ok(c.interval > 10, 'without an exam date the interval keeps growing');
   const capped = review(c, { correct: true, confidence: 'sure' }, D, { examDate: '2026-03-11' });
-  assert.equal(capped.interval, 9);
-  assert.equal(capped.due, '2026-03-10', 'last review lands the day before the exam');
+  assert.equal(capped.interval, 5, 'gap is capped at half the 10 days left');
+  assert.equal(capped.due, '2026-03-06');
+  // Repeated reviews converge on the exam without passing it.
+  let r = capped;
+  const days = [];
+  while (r.due < '2026-03-11' && days.length < 10) {
+    days.push(r.due);
+    r = review(r, { correct: true, confidence: 'sure' }, r.due, { examDate: '2026-03-11' });
+  }
+  assert.deepEqual(days, ['2026-03-06', '2026-03-08', '2026-03-09', '2026-03-10']);
   // Short intervals are untouched, and a past or imminent exam is ignored.
   assert.equal(review(newCard(), { correct: true, confidence: 'sure' }, D, { examDate: '2026-03-11' }).interval, 1);
   assert.equal(review(c, { correct: true, confidence: 'sure' }, D, { examDate: '2026-02-01' }).interval,
     review(c, { correct: true, confidence: 'sure' }, D).interval);
   assert.equal(review(c, { correct: true, confidence: 'sure' }, D, { examDate: '2026-03-02' }).interval,
     review(c, { correct: true, confidence: 'sure' }, D).interval);
+});
+
+test('only the first answer of a day counts as a review', () => {
+  const c = review(newCard(), { correct: true, confidence: 'sure' }, D);
+  assert.equal(reviewedOn(c, D), true);
+  assert.equal(reviewedOn(c, '2026-03-02'), false);
+  assert.equal(reviewedOn(undefined, D), false);
+  assert.equal(reviewedOn(newCard(), D), false);
 });

@@ -1,7 +1,7 @@
 // Browser UI. All question text is rendered with textContent, never innerHTML.
 
 import { usableQuestions, DISCIPLINES, SYSTEMS } from './bank.js';
-import { review, isDue, isMastered, newCard } from './scheduler.js';
+import { review, isDue, isMastered, newCard, reviewedOn } from './scheduler.js';
 import { presentQuestion, isCorrect, xpFor, levelFor, interleave, shuffle, updateStreak, needsRelearning, sureAccuracy } from './quiz.js';
 import { load, save, isDayString } from './storage.js';
 import { today, daysBetween } from './dates.js';
@@ -54,8 +54,8 @@ function renderHome() {
 
   $('exam-date').value = state.examDate || '';
   const left = state.examDate ? daysBetween(t, state.examDate) : null;
-  $('exam-countdown').textContent = left === null ? 'Set your exam date so every question gets a final review before the test.'
-    : left > 0 ? `${left} day${left === 1 ? '' : 's'} to go. Reviews are scheduled to finish before then.`
+  $('exam-countdown').textContent = left === null ? 'Set your exam date so every question gets final reviews before the test.'
+    : left > 0 ? `${left} day${left === 1 ? '' : 's'} to go. Reviews are spaced to land before then.`
       : 'Exam date has passed. Clear it or set the next one.';
 
   const sel = $('focus-select');
@@ -188,8 +188,8 @@ function answer(confidence) {
   const tries = session.tries.get(cur.q.id);
   let gained = 0;
 
-  if (tries === undefined) {
-    // First attempt this session: this one sets the schedule and earns XP.
+  if (tries === undefined && !reviewedOn(state.cards[cur.q.id], t)) {
+    // First answer today: this one sets the schedule and earns XP.
     const card = state.cards[cur.q.id] || newCard();
     const wasDueReview = isDue(card, t);
     gained = xpFor({ correct, confidence, wasDueReview });
@@ -200,8 +200,9 @@ function answer(confidence) {
     persist();
     session.xpEarned += gained;
     session.answers.push({ q: cur.q, presented: cur.presented, choice: cur.choice, correct, confidence });
-  } else if (!needsRelearning(correct, confidence)) {
-    session.relearned.add(cur.q.id);
+  } else {
+    if (tries === undefined) session.answers.push({ q: cur.q, presented: cur.presented, choice: cur.choice, correct, confidence });
+    if (tries !== undefined && !needsRelearning(correct, confidence)) session.relearned.add(cur.q.id);
   }
 
   // Missed or guessed questions come back at the end of this session until
@@ -216,6 +217,8 @@ function answer(confidence) {
     }
   } else if (tries !== undefined) {
     note = 'Relearned. Your review schedule was set by your first answer today.';
+  } else if (!gained && correct) {
+    note = 'Practice only: you already answered this today, so the schedule stays as set.';
   }
 
   $('q-options').disabled = true;
