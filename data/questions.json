@@ -3224,6 +3224,483 @@
           "url": "https://www.aafp.org/pubs/afp/issues/1999/1015/p1821.html"
         }
       ]
+    },
+    {
+      "id": "pharm-gonorrhea-tx-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Reproductive",
+      "topic": "Neisseria gonorrhoeae",
+      "difficulty": 2,
+      "stem": "A 24-year-old man has had painful urination and a thick yellow discharge from the penis for 3 days. He has had two new sexual partners in the past month. A Gram stain of the discharge shows gram-negative diplococci inside neutrophils. A nucleic acid test for Chlamydia trachomatis has been sent, and the result will not be back for several days. He weighs 80 kg and has no drug allergies.",
+      "leadIn": "Which of the following is the most appropriate treatment?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ceftriaxone 250 mg IM once plus azithromycin 1 g orally once"
+        },
+        {
+          "id": "b",
+          "text": "Doxycycline 100 mg orally twice daily for 7 days alone"
+        },
+        {
+          "id": "c",
+          "text": "Ceftriaxone 500 mg IM once plus doxycycline 100 mg orally twice daily for 7 days"
+        },
+        {
+          "id": "d",
+          "text": "Ceftriaxone 500 mg IM once alone"
+        },
+        {
+          "id": "e",
+          "text": "Metronidazole 500 mg orally twice daily for 7 days"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Answer: ceftriaxone 500 mg IM once, plus doxycycline because chlamydia has not been ruled out. Why: gram-negative diplococci inside neutrophils point to Neisseria gonorrhoeae. The 2021 CDC STI guidelines treat gonorrhea with a single 500 mg intramuscular dose of ceftriaxone (a higher dose is used for patients with high body weight). If chlamydia has not been excluded, doxycycline 100 mg twice daily for 7 days is added, and doxycycline is now the preferred drug for chlamydia. Recent change: her clinical bacteriology table lists azithromycin among the drugs for gonorrhea, and older review books teach ceftriaxone plus azithromycin dual therapy. Since 2021, CDC no longer requires azithromycin or doxycycline co-treatment for gonorrhea itself, for antibiotic stewardship reasons. Azithromycin is now an alternative for chlamydia, and it is the recommended chlamydia treatment in pregnancy.",
+      "whyWrong": {
+        "a": "This is the older dual-therapy regimen. The 2021 CDC guidelines use 500 mg of ceftriaxone and no longer require azithromycin co-treatment.",
+        "b": "Doxycycline covers chlamydia, but gonorrhea needs ceftriaxone.",
+        "d": "Ceftriaxone 500 mg alone is right once chlamydia has been excluded. Here the chlamydia test is still pending, so doxycycline is added.",
+        "e": "Metronidazole is added to the regimen for pelvic inflammatory disease; it does not replace ceftriaxone for gonorrhea."
+      },
+      "sources": [
+        {
+          "title": "AAFP: STI Treatment Guidelines, 2021 (summary of the CDC guidelines, 2022)",
+          "url": "https://www.aafp.org/pubs/afp/issues/2022/0500/p514.html"
+        }
+      ]
+    },
+    {
+      "id": "pharm-hpylori-tx-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Gastrointestinal",
+      "topic": "Helicobacter pylori",
+      "difficulty": 2,
+      "stem": "A 45-year-old woman has had burning epigastric pain for 2 months. Upper endoscopy shows a duodenal ulcer, and a biopsy urease test is positive for Helicobacter pylori. She has never been treated for H. pylori and has no drug allergies. Antibiotic susceptibility testing was not done.",
+      "leadIn": "Which of the following is the most appropriate first-line treatment?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A proton pump inhibitor, clarithromycin, and amoxicillin for 7 days"
+        },
+        {
+          "id": "b",
+          "text": "A proton pump inhibitor, bismuth, tetracycline, and metronidazole for 14 days"
+        },
+        {
+          "id": "c",
+          "text": "A proton pump inhibitor alone for 8 weeks"
+        },
+        {
+          "id": "d",
+          "text": "A proton pump inhibitor, levofloxacin, and amoxicillin for 14 days"
+        },
+        {
+          "id": "e",
+          "text": "A proton pump inhibitor, bismuth, doxycycline, and metronidazole for 14 days"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Answer: optimized bismuth quadruple therapy for 14 days. Why: the 2024 American College of Gastroenterology (ACG) guideline keeps bismuth quadruple therapy as a recommended first-line treatment: a proton pump inhibitor (PPI), bismuth, a nitroimidazole such as metronidazole, and tetracycline, given for 14 days. Recent change: her microbiology notes say the most common initial treatment is triple therapy (PPI, clarithromycin, and amoxicillin or metronidazole). The 2024 ACG guideline removed clarithromycin triple therapy as a first-line option. It also says clarithromycin- and levofloxacin-based regimens should be avoided in later treatment rounds unless susceptibility testing shows they will work, because resistance to these drugs is rising.",
+      "whyWrong": {
+        "a": "Clarithromycin triple therapy was removed as a first-line option in the 2024 ACG guideline.",
+        "c": "A PPI alone contains no antibiotic, so it cannot clear the infection.",
+        "d": "The ACG advises against levofloxacin-based regimens unless susceptibility testing shows the strain is sensitive.",
+        "e": "Doxycycline should not replace tetracycline. The guideline summary notes that the swap lowers eradication rates by about 10 to 17 percent."
+      },
+      "sources": [
+        {
+          "title": "University of Minnesota College of Pharmacy: 2024 ACG H. pylori guideline (Chey et al., Am J Gastroenterol 2024;119:1730-1753)",
+          "url": "https://www.pharmacy.umn.edu/2024-american-college-gastroenterology-h-pylori-guidelines"
+        }
+      ]
+    },
+    {
+      "id": "micro-listeria-pregnancy-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Reproductive",
+      "topic": "Listeria monocytogenes",
+      "difficulty": 2,
+      "stem": "A 28-year-old woman at 30 weeks' gestation has had fever, muscle aches, and fatigue for 2 days. Last week she ate several meals with a soft Mexican-style cheese (queso fresco). Blood cultures grow gram-positive rods. She has no drug allergies.",
+      "leadIn": "Which of the following is the most appropriate antibiotic?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Intravenous ampicillin"
+        },
+        {
+          "id": "b",
+          "text": "Intravenous ceftriaxone alone"
+        },
+        {
+          "id": "c",
+          "text": "Trimethoprim-sulfamethoxazole"
+        },
+        {
+          "id": "d",
+          "text": "Oral metronidazole"
+        },
+        {
+          "id": "e",
+          "text": "No antibiotic, because the illness is mild and self-limited"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: IV ampicillin. Why: a flu-like fever in a pregnant woman after eating soft cheese, with gram-positive rods in the blood, points to Listeria monocytogenes. Listeria is a gram-positive, intracellular rod that can grow at refrigerator temperature. It is linked to deli meats, soft cheeses, and unpasteurized milk. Pregnant people, newborns, older adults, and immunocompromised patients are at highest risk of invasive disease. In pregnancy the mother may only seem to have the flu, but infection often causes miscarriage, stillbirth, or severe newborn sepsis. Treatment is IV ampicillin or amoxicillin. Note: her documents list ampicillin with or without gentamicin, or penicillin plus gentamicin. StatPearls calls adding an aminoglycoside controversial, because studies have not shown better outcomes with combination therapy. Ampicillin is the core drug either way.",
+      "whyWrong": {
+        "b": "Listeria is uniformly resistant to cephalosporins. That is why ampicillin is added to empiric meningitis treatment when Listeria is a concern.",
+        "c": "TMP-SMX is the preferred alternative only for patients with a penicillin allergy, and she has none.",
+        "d": "Metronidazole is not a Listeria treatment. StatPearls names ampicillin, with TMP-SMX as the alternative.",
+        "e": "Listeria in pregnancy often leads to miscarriage, stillbirth, or newborn sepsis, so it must be treated even when the mother seems only mildly ill."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Listeria monocytogenes",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK534838/"
+        }
+      ]
+    },
+    {
+      "id": "pharm-severe-malaria-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Malaria",
+      "difficulty": 2,
+      "stem": "A 35-year-old man returned 10 days ago from a 3-week trip to Nigeria. He did not take malaria prophylaxis. He now has high fevers and has become confused. A blood smear shows many ring forms and a few crescent-shaped gametocytes, with 8% of red cells infected.",
+      "leadIn": "Which of the following is the most appropriate initial treatment?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Oral chloroquine"
+        },
+        {
+          "id": "b",
+          "text": "Intravenous quinidine gluconate"
+        },
+        {
+          "id": "c",
+          "text": "Oral artemether-lumefantrine"
+        },
+        {
+          "id": "d",
+          "text": "Intravenous artesunate"
+        },
+        {
+          "id": "e",
+          "text": "Oral primaquine"
+        }
+      ],
+      "answer": "d",
+      "explanation": "Answer: IV artesunate. Why: crescent-shaped gametocytes point to Plasmodium falciparum. Parasitemia of 5% or more meets the CDC definition of severe malaria, and his confusion is another warning sign. CDC says to treat severe malaria with IV artesunate as soon as possible, whatever the species. A full oral course (for example, artemether-lumefantrine) must always follow the IV artesunate. Recent change: her microbiology notes say to use quinidine for life-threatening malaria in the US. IV artesunate became the first-line US treatment in April 2019, when IV quinidine stopped being available because its maker discontinued it.",
+      "whyWrong": {
+        "a": "P. falciparum is resistant to chloroquine in most parts of the world, and severe malaria needs IV treatment.",
+        "b": "Quinidine was the old US treatment. Its maker discontinued it, and IV artesunate replaced it in 2019.",
+        "c": "Artemether-lumefantrine is the preferred drug for uncomplicated malaria and is the usual oral course after IV artesunate, but severe malaria starts with IV artesunate.",
+        "e": "Primaquine targets the dormant liver stage (hypnozoites) of P. vivax and P. ovale. It does not treat severe falciparum malaria."
+      },
+      "sources": [
+        {
+          "title": "CDC: Treatment of Severe Malaria (updated Aug 2026)",
+          "url": "https://cdc.gov/malaria/hcp/clinical-guidance/treatment-of-severe-malaria-1.html"
+        },
+        {
+          "title": "CDC archive: Artesunate Now First-Line Treatment for Severe Malaria in the United States (2019)",
+          "url": "https://archive.cdc.gov/www_cdc_gov/globalhealth/newsroom/artesunate.html"
+        },
+        {
+          "title": "CDC DPDx: Malaria",
+          "url": "https://www.cdc.gov/dpdx/malaria/index.html"
+        }
+      ]
+    },
+    {
+      "id": "pharm-malaria-pregnancy-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Reproductive",
+      "topic": "Malaria",
+      "difficulty": 3,
+      "stem": "A 29-year-old woman at 20 weeks' gestation returned from visiting family in Ghana 2 weeks ago. She has fever and chills but is alert, eating, and drinking, and her kidney function is normal. A blood smear shows Plasmodium falciparum ring forms in 1% of red cells.",
+      "leadIn": "Which of the following is the most appropriate treatment?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chloroquine"
+        },
+        {
+          "id": "b",
+          "text": "Primaquine"
+        },
+        {
+          "id": "c",
+          "text": "Quinine plus doxycycline"
+        },
+        {
+          "id": "d",
+          "text": "Mefloquine"
+        },
+        {
+          "id": "e",
+          "text": "Artemether-lumefantrine"
+        }
+      ],
+      "answer": "e",
+      "explanation": "Answer: artemether-lumefantrine. Why: this is uncomplicated P. falciparum malaria; she can take pills and parasitemia is under 5%. CDC lists artemether-lumefantrine as the preferred treatment for uncomplicated malaria acquired anywhere, including chloroquine-resistant areas. It can be used in all trimesters of pregnancy, based on a WHO evidence review. Recent change: her parasitology table lists chloroquine for falciparum and quinine or mefloquine in pregnancy. P. falciparum is now resistant to chloroquine in most of the world, CDC prefers artemether-lumefantrine in pregnancy, and mefloquine is used only if no other option is available. As of August 2026, CDC also gives artemether-lumefantrine for P. falciparum as an extended 5-day (10-dose) course.",
+      "whyWrong": {
+        "a": "P. falciparum is resistant to chloroquine in most parts of the world. Chloroquine is used only for infections from the few chloroquine-sensitive areas, such as Central America west of the Panama Canal, Haiti, and the Dominican Republic.",
+        "b": "Primaquine must not be used in pregnancy. It targets the dormant liver stage of P. vivax and P. ovale, not the blood stage of P. falciparum.",
+        "c": "For pregnant patients, CDC pairs quinine with clindamycin, not doxycycline.",
+        "d": "CDC lists mefloquine only if no other option is available."
+      },
+      "sources": [
+        {
+          "title": "CDC: Malaria Treatment Tables (Appendix A)",
+          "url": "https://www.cdc.gov/malaria/hcp/clinical-guidance/appendix-a-treatment-tables.html"
+        },
+        {
+          "title": "CDC: Treatment of Uncomplicated Malaria (updated Aug 2026)",
+          "url": "https://cdc.gov/malaria/hcp/clinical-guidance/treatment-of-uncomplicated-malaria.html"
+        }
+      ]
+    },
+    {
+      "id": "micro-vivax-relapse-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Malaria",
+      "difficulty": 2,
+      "stem": "A 40-year-old man who lives in the United States had malaria diagnosed 5 months ago after a trip to India. He was treated with chloroquine alone, and his fever went away. He has not traveled since. He now has fever and chills again. A blood smear shows enlarged red cells containing parasites, with fine pink stippling (Schüffner dots).",
+      "leadIn": "Which of the following best explains the return of his illness?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Gametocytes that persisted in his blood"
+        },
+        {
+          "id": "b",
+          "text": "Dormant liver-stage parasites (hypnozoites)"
+        },
+        {
+          "id": "c",
+          "text": "A new mosquito bite at home"
+        },
+        {
+          "id": "d",
+          "text": "Sporozoites that stayed in his bloodstream"
+        },
+        {
+          "id": "e",
+          "text": "A Plasmodium falciparum infection missed on the first smear"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Answer: hypnozoites. Why: enlarged red cells with Schüffner dots point to P. vivax. In P. vivax and P. ovale, a dormant liver stage called the hypnozoite can persist and cause relapses weeks or even years later. Chloroquine treats only the blood stage, so these infections also need anti-relapse treatment with primaquine or tafenoquine, which target the liver hypnozoites. Before either drug, CDC calls for quantitative G6PD testing to confirm normal enzyme activity, because some malaria drugs can trigger hemolytic anemia in G6PD deficiency. Neither drug is used in pregnancy. Note: her parasitology table names primaquine for hypnozoites. CDC also lists tafenoquine as a single-dose option, used only when G6PD activity is normal and given together with chloroquine.",
+      "whyWrong": {
+        "a": "Gametocytes are taken up by a mosquito during a blood meal to continue the life cycle. They do not cause relapse.",
+        "c": "He has not traveled to a malaria area since his trip, so a new infection is unlikely.",
+        "d": "Sporozoites from a mosquito bite go to the liver. The dormant liver form, not a blood form, causes relapse.",
+        "e": "Only P. vivax and P. ovale form hypnozoites, and enlarged red cells with Schüffner dots are features of P. vivax."
+      },
+      "sources": [
+        {
+          "title": "CDC DPDx: Malaria",
+          "url": "https://www.cdc.gov/dpdx/malaria/index.html"
+        },
+        {
+          "title": "CDC: Treatment of Uncomplicated Malaria (updated Aug 2026)",
+          "url": "https://cdc.gov/malaria/hcp/clinical-guidance/treatment-of-uncomplicated-malaria.html"
+        },
+        {
+          "title": "CDC: Malaria Treatment Tables (Appendix A)",
+          "url": "https://www.cdc.gov/malaria/hcp/clinical-guidance/appendix-a-treatment-tables.html"
+        },
+        {
+          "title": "MedlinePlus Genetics: Glucose-6-phosphate dehydrogenase deficiency",
+          "url": "https://medlineplus.gov/genetics/condition/glucose-6-phosphate-dehydrogenase-deficiency/"
+        }
+      ]
+    },
+    {
+      "id": "micro-neurocysticercosis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Nervous System & Special Senses",
+      "topic": "Taenia solium (neurocysticercosis)",
+      "difficulty": 2,
+      "stem": "A 32-year-old woman has her first seizure. She moved from a rural area of Central America 2 years ago. She has been vegetarian all her life and has never eaten pork. Her brother, who lives with her, was recently found to have an intestinal tapeworm. Brain MRI shows several small cysts in the brain tissue.",
+      "leadIn": "How did she most likely acquire this infection?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eating undercooked pork containing larval cysts"
+        },
+        {
+          "id": "b",
+          "text": "Eating undercooked beef"
+        },
+        {
+          "id": "c",
+          "text": "Swallowing tapeworm eggs from food contaminated by a tapeworm carrier's stool"
+        },
+        {
+          "id": "d",
+          "text": "Larvae entering through the skin while wading in fresh water"
+        },
+        {
+          "id": "e",
+          "text": "A bite from an infected mosquito"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Answer: swallowing Taenia solium eggs. Why: brain cysts and a seizure in someone from an area where the pork tapeworm is common suggest neurocysticercosis. CDC explains that cysticercosis comes only from swallowing T. solium eggs (the fecal-oral route), for example in food or water contaminated by the stool of a person who carries the adult tapeworm, often a household member. The eggs hatch, and the larvae form cysts in tissues such as the brain and muscle. Eating undercooked pork that contains cysts causes something different: the intestinal tapeworm (taeniasis). That is why someone who has never eaten pork can still get neurocysticercosis. Treatment (IDSA/ASTMH 2017): antiepileptic drugs for anyone with seizures; for viable cysts in the brain tissue, albendazole for 10 to 14 days (adding praziquantel when there are more than 2 cysts), with corticosteroids started before the antiparasitic drugs; and an eye (funduscopic) exam before antiparasitic treatment.",
+      "whyWrong": {
+        "a": "Undercooked pork with cysts causes the intestinal tapeworm (taeniasis), not cysticercosis, and she has never eaten pork.",
+        "b": "She is vegetarian, and CDC ties cysticercosis only to swallowing T. solium eggs, not to eating meat.",
+        "d": "CDC describes cysticercosis as spread only by swallowing eggs. Skin entry in fresh water is not a tapeworm route.",
+        "e": "Mosquitoes do not spread tapeworms. Cysticercosis comes from swallowing eggs."
+      },
+      "sources": [
+        {
+          "title": "CDC: How Cysticercosis Spreads",
+          "url": "https://www.cdc.gov/cysticercosis/spreads/index.html"
+        },
+        {
+          "title": "CDC DPDx: Cysticercosis",
+          "url": "https://www.cdc.gov/dpdx/cysticercosis/"
+        },
+        {
+          "title": "IDSA/ASTMH 2017 guideline: Diagnosis and Treatment of Neurocysticercosis (White et al., Clin Infect Dis 2018;66:e49)",
+          "url": "https://academic.oup.com/cid/article/66/8/e49/4885412"
+        }
+      ]
+    },
+    {
+      "id": "micro-amebic-abscess-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Gastrointestinal",
+      "topic": "Entamoeba histolytica",
+      "difficulty": 2,
+      "stem": "A 38-year-old man has had fever and dull right upper quadrant pain for 10 days. He returned 2 months ago from 6 months of work in rural Mexico. Ultrasound shows a single 4-cm abscess in the right lobe of the liver. Serology for Entamoeba histolytica is positive. He is treated with metronidazole, and his fever and pain improve within a few days.",
+      "leadIn": "Which of the following is the most appropriate next step in treatment?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Paromomycin"
+        },
+        {
+          "id": "b",
+          "text": "Albendazole"
+        },
+        {
+          "id": "c",
+          "text": "No further treatment, because the abscess is responding"
+        },
+        {
+          "id": "d",
+          "text": "Praziquantel"
+        },
+        {
+          "id": "e",
+          "text": "Surgical removal of the abscess"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: follow metronidazole with a luminal agent such as paromomycin. Why: an amebic liver abscess is treated with a nitroimidazole, preferably metronidazole for 7 to 10 days (tinidazole is an alternative). Intestinal colonization persists in 40% to 60% of cases, so nitroimidazole therapy must always be followed by a luminal agent, such as paromomycin or iodoquinol. StatPearls advises against giving metronidazole and paromomycin at the same time. Clues to the diagnosis: travel to an endemic area (symptoms can start months to years later), fever, and dull right upper quadrant pain; if aspirated, the fluid is thick, odorless, and chocolate-brown ('anchovy paste'). Note: her parasitology table names diloxanide for cyst carriers. StatPearls names paromomycin or iodoquinol as the luminal agent, but the principle is the same.",
+      "whyWrong": {
+        "b": "Albendazole treats worm (helminth) infections, not amebae.",
+        "c": "Intestinal colonization persists in 40% to 60% of cases, so a luminal agent must always follow metronidazole.",
+        "d": "Praziquantel treats tapeworms and flukes, not amebae.",
+        "e": "StatPearls reserves surgery for cases such as multiple loculated abscesses, failed drainage, or rupture. This abscess is single, small, and responding to medicine."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Amebic Liver Abscess",
+          "url": "https://www.statpearls.com/point-of-care/17436"
+        }
+      ]
+    },
+    {
+      "id": "pharm-pcp-tx-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Respiratory",
+      "topic": "Pneumocystis jirovecii pneumonia",
+      "difficulty": 2,
+      "stem": "A 34-year-old man with HIV who stopped antiretroviral therapy a year ago has had 3 weeks of fever, worsening shortness of breath, and a dry cough. His CD4 count is 60/µL. Room-air PaO2 is 62 mm Hg. Chest x-ray shows diffuse bilateral perihilar infiltrates. A silver stain of bronchoalveolar lavage fluid shows cysts.",
+      "leadIn": "Which of the following is the most appropriate treatment?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Trimethoprim-sulfamethoxazole alone"
+        },
+        {
+          "id": "b",
+          "text": "Intravenous amphotericin B"
+        },
+        {
+          "id": "c",
+          "text": "Azithromycin"
+        },
+        {
+          "id": "d",
+          "text": "Trimethoprim-sulfamethoxazole plus prednisone"
+        },
+        {
+          "id": "e",
+          "text": "Ganciclovir"
+        }
+      ],
+      "answer": "d",
+      "explanation": "Answer: TMP-SMX plus prednisone. Why: a patient with HIV and a CD4 count below 200, fever, breathlessness, dry cough, and diffuse bilateral perihilar infiltrates most likely has Pneumocystis jirovecii pneumonia (PCP). Silver stains show the organism's cyst walls. First-line treatment is TMP-SMX. Adjunctive corticosteroids (oral prednisone, tapered over 21 days) are recommended when room-air PaO2 is below 70 mm Hg or the A-a gradient is 35 mm Hg or more. His PaO2 is 62, so he needs both. Note: some of her documents use the old name Pneumocystis carinii. The human organism is now called P. jirovecii, and it was reclassified from a protozoan to a fungus based on molecular analysis.",
+      "whyWrong": {
+        "a": "TMP-SMX is right, but his PaO2 is below 70 mm Hg, so prednisone should be added.",
+        "b": "Pneumocystis is classed as a fungus, but its first-line treatment is TMP-SMX, not amphotericin.",
+        "c": "Azithromycin is not a PCP treatment. MSD lists TMP-SMX first, with alternatives such as clindamycin plus primaquine, pentamidine, and atovaquone.",
+        "e": "Ganciclovir treats cytomegalovirus, not Pneumocystis."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Pneumocystis jirovecii Pneumonia",
+          "url": "https://www.msdmanuals.com/professional/pulmonary-disorders/pneumonia/pneumocystis-jirovecii-pneumonia"
+        },
+        {
+          "title": "CDC DPDx: Pneumocystis",
+          "url": "https://www.cdc.gov/dpdx/pneumocystis"
+        }
+      ]
     }
   ]
 }
