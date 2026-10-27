@@ -30,13 +30,14 @@ export const SUBJECT_EXAMS = Object.freeze({
 });
 
 // Step 1 system specifications (midpoint of each published % range), mapped
-// onto the bank's systems. The CBSE uses the same outline. Biostatistics and
-// social sciences are tagged General Principles or Behavioral Health in the
-// bank, so their weight goes with those systems.
+// onto the bank's systems. The CBSE uses the same outline. Combined outline
+// categories are split evenly between the bank's systems. The bank tags
+// biostatistics, ethics and communication (social sciences) and human
+// development as General Principles, so those weights go there.
 const STEP1_WEIGHTS = Object.freeze({
   'Blood & Lymphoreticular': 11 / 2,
   'Immune System': 11 / 2,
-  'Behavioral Health': 12 / 2 + 7.5,
+  'Behavioral Health': 12 / 2,
   'Nervous System & Special Senses': 12 / 2,
   'Musculoskeletal': 10 / 2,
   'Skin & Subcutaneous Tissue': 10 / 2,
@@ -47,7 +48,7 @@ const STEP1_WEIGHTS = Object.freeze({
   'Reproductive': 14 / 2,
   'Endocrine': 14 / 2,
   'Multisystem': 10,
-  'General Principles': 5 + 2,
+  'General Principles': 5 + 7.5 + 2,
 });
 
 export const EXAM_TYPES = Object.freeze({

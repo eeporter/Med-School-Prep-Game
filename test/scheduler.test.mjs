@@ -90,13 +90,14 @@ test('day arithmetic survives month, year, leap-day, and DST boundaries', () => 
   assert.throws(() => addDays('03/01/2026', 1));
 });
 
-test('with an exam date, no review is scheduled on or after the exam', () => {
+test('with an exam date, review dates converge on the exam and never pass it', () => {
   let c = newCard();
   for (let i = 0; i < 5; i++) c = review(c, { correct: true, confidence: 'sure' }, D);
   assert.ok(c.interval > 10, 'without an exam date the interval keeps growing');
   const capped = review(c, { correct: true, confidence: 'sure' }, D, { examDate: '2026-03-11' });
-  assert.equal(capped.interval, 5, 'gap is capped at half the 10 days left');
-  assert.equal(capped.due, '2026-03-06');
+  assert.equal(capped.due, '2026-03-06', 'gap is capped at half the 10 days left');
+  assert.equal(capped.interval, review(c, { correct: true, confidence: 'sure' }, D).interval,
+    'the SM-2 interval itself is not capped');
   // Repeated reviews converge on the exam without passing it.
   let r = capped;
   const days = [];
@@ -105,12 +106,24 @@ test('with an exam date, no review is scheduled on or after the exam', () => {
     r = review(r, { correct: true, confidence: 'sure' }, r.due, { examDate: '2026-03-11' });
   }
   assert.deepEqual(days, ['2026-03-06', '2026-03-08', '2026-03-09', '2026-03-10']);
-  // Short intervals are untouched, and a past exam is ignored.
-  assert.equal(review(newCard(), { correct: true, confidence: 'sure' }, D, { examDate: '2026-03-11' }).interval, 1);
-  assert.equal(review(c, { correct: true, confidence: 'sure' }, D, { examDate: '2026-02-01' }).interval,
-    review(c, { correct: true, confidence: 'sure' }, D).interval);
+  // Short gaps are untouched, and a past exam is ignored.
+  assert.equal(review(newCard(), { correct: true, confidence: 'sure' }, D, { examDate: '2026-03-11' }).due, '2026-03-02');
+  assert.equal(review(c, { correct: true, confidence: 'sure' }, D, { examDate: '2026-02-01' }).due,
+    review(c, { correct: true, confidence: 'sure' }, D).due);
   // Exam tomorrow: the minimum gap of 1 day lands on exam day, never after it.
-  assert.equal(review(c, { correct: true, confidence: 'sure' }, D, { examDate: '2026-03-02' }).interval, 1);
+  assert.equal(review(c, { correct: true, confidence: 'sure' }, D, { examDate: '2026-03-02' }).due, '2026-03-02');
+});
+
+test('mastery can still be reached while an exam is close', () => {
+  let c = newCard();
+  let day = D;
+  const exam = '2026-03-31';
+  for (let i = 0; i < 6 && !isMastered(c); i++) {
+    c = review(c, { correct: true, confidence: 'sure' }, day, { examDate: exam });
+    day = c.due;
+  }
+  assert.ok(isMastered(c), `interval ${c.interval}`);
+  assert.ok(c.due <= exam);
 });
 
 test('only the first answer of a day counts as a review', () => {

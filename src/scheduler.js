@@ -54,13 +54,15 @@ export function review(card, { correct, confidence }, todayStr, { examDate = nul
     else if (reps === 2) interval = 6;
     else interval = Math.max(prev.interval + 1, Math.round(prev.interval * ease));
   }
+  // Only the due date is capped; the SM-2 interval (which also drives mastery)
+  // keeps growing normally.
   const daysToExam = examDate ? daysBetween(todayStr, examDate) : null;
-  if (daysToExam !== null && daysToExam >= 1) interval = Math.min(interval, Math.max(1, Math.floor(daysToExam / 2)));
+  const gap = daysToExam !== null && daysToExam >= 1 ? Math.min(interval, Math.max(1, Math.floor(daysToExam / 2))) : interval;
   return {
     reps,
     interval,
     ease,
-    due: addDays(todayStr, interval),
+    due: addDays(todayStr, gap),
     lapses: prev.lapses + (correct ? 0 : 1),
     seen: prev.seen + 1,
     misconception: !correct && confidence === 'sure' ? true : correct ? false : prev.misconception,

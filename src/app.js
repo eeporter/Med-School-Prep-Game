@@ -261,7 +261,8 @@ function answer(confidence) {
   if (tries === undefined && !reviewedOn(state.cards[cur.q.id], t)) {
     // First answer today: this one sets the schedule and earns XP.
     const card = state.cards[cur.q.id] || newCard();
-    const wasDueReview = isDue(card, t);
+    // A first exposure is not a review, so it earns no review bonus.
+    const wasDueReview = Boolean(state.cards[cur.q.id]) && isDue(card, t);
     gained = xpFor({ correct, confidence, wasDueReview });
     state.cards[cur.q.id] = review(card, { correct, confidence }, t, { examDate: examFor(cur.q, t)?.date ?? null });
     state.xp += gained;
