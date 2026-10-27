@@ -3396,7 +3396,7 @@
       "answer": "a",
       "explanation": "Symptoms that start only when fruit and juice enter the diet are hereditary fructose intolerance. It is an autosomal recessive lack of aldolase B (from the ALDOB gene). Fructose-1-phosphate then builds up in liver cells, which is toxic and kills liver cells over time. After fructose, patients have nausea, bloating, abdominal pain, vomiting, diarrhea, and low blood sugar. Liver damage causes jaundice. Most affected people learn to dislike fruit, juice, and other fructose-containing foods.",
       "whyWrong": {
-        "b": "GALT deficiency (classic galactosemia) causes feeding problems, lethargy, jaundice, liver damage, sepsis, and cataracts within days of birth, Lactose, the sugar that contains galactose, is in dairy products and many baby formulas. His symptoms started with fruit, not milk.",
+        "b": "GALT deficiency (classic galactosemia) causes feeding problems, lethargy, jaundice, liver damage, and sepsis within days of birth; cataracts can follow. Lactose, the sugar that contains galactose, is in dairy products and many baby formulas. His symptoms started with fruit, not milk.",
         "c": "Galactokinase deficiency mainly causes cataracts, with few other problems.",
         "d": "Glucose-6-phosphatase deficiency (von Gierke) causes fasting hypoglycemia from about 3 to 4 months of age, regardless of what the infant eats.",
         "e": "Acid alpha-glucosidase deficiency (Pompe) stores glycogen in lysosomes and causes heart problems and hypotonia in infants."
