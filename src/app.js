@@ -2,12 +2,15 @@
 
 import { usableQuestions, DISCIPLINES, SYSTEMS } from './bank.js';
 import { review, isDue, isMastered, newCard } from './scheduler.js';
-import { presentQuestion, isCorrect, xpFor, levelFor, interleave, shuffle, updateStreak } from './quiz.js';
-import { load, save } from './storage.js';
+import { presentQuestion, isCorrect, xpFor, levelFor, interleave, shuffle, updateStreak, needsRelearning, sureAccuracy } from './quiz.js';
+import { load, save, isDayString } from './storage.js';
 import { today, daysBetween } from './dates.js';
 
 const NEW_PER_ROUNDS = 10;
 const SECONDS_PER_BLOCK_QUESTION = 90;
+// A question missed again and again is re-asked at most this many extra times
+// per session, so one stubborn item cannot trap the learner.
+const MAX_RELEARN_TRIES = 3;
 
 const $ = (id) => document.getElementById(id);
 const el = (tag, text, cls) => {
@@ -49,6 +52,12 @@ function renderHome() {
   const unseen = questions.filter((q) => !state.cards[q.id]).length;
   $('due-summary').textContent = `${due} due for review, ${unseen} not yet seen.`;
 
+  $('exam-date').value = state.examDate || '';
+  const left = state.examDate ? daysBetween(t, state.examDate) : null;
+  $('exam-countdown').textContent = left === null ? 'Set your exam date so every question gets a final review before the test.'
+    : left > 0 ? `${left} day${left === 1 ? '' : 's'} to go. Reviews are scheduled to finish before then.`
+      : 'Exam date has passed. Clear it or set the next one.';
+
   const sel = $('focus-select');
   if (!sel.options.length) {
     const groups = [['NBME subject', DISCIPLINES, 'discipline'], ['Organ system', SYSTEMS, 'system']];
@@ -83,6 +92,10 @@ function renderHome() {
     list.appendChild(li);
   }
   const mis = questions.filter((q) => state.cards[q.id]?.misconception).length;
+  const cal = sureAccuracy(state.history);
+  $('calibration-summary').textContent = cal && cal.total >= 10
+    ? `When you answer "sure", you are right ${Math.round((100 * cal.right) / cal.total)}% of the time (last ${cal.total} sure answers). Aim for close to 100%; if it is lower, slow down on questions you feel sure about.`
+    : '';
   $('misconception-summary').textContent = mis
     ? `${mis} confident miss${mis === 1 ? '' : 'es'} queued for extra review. These are the facts most worth fixing.`
     : '';
@@ -115,7 +128,7 @@ function startSession(mode) {
     return;
   }
   session = {
-    mode, queue, index: 0, answers: [], xpEarned: 0,
+    mode, queue, index: 0, answers: [], xpEarned: 0, tries: new Map(), relearned: new Set(),
     deadline: mode === 'block' ? Date.now() + queue.length * SECONDS_PER_BLOCK_QUESTION * 1000 : null,
   };
   if (session.deadline) tickTimer();
@@ -133,7 +146,10 @@ function tickTimer() {
 function showQuestion() {
   const q = session.queue[session.index];
   session.current = { q, presented: presentQuestion(q), choice: null };
-  $('quiz-progress').textContent = `Question ${session.index + 1} of ${session.queue.length}`;
+  const relearning = session.tries.has(q.id);
+  $('quiz-progress').textContent = relearning
+    ? `Relearning a missed question (${session.index + 1} of ${session.queue.length})`
+    : `Question ${session.index + 1} of ${session.queue.length}`;
   $('quiz-tags').textContent = session.mode === 'block' ? '' : `${q.discipline} · ${q.system}`;
   if (!session.deadline) $('quiz-timer').textContent = '';
   $('q-stem').textContent = q.stem;
@@ -168,24 +184,45 @@ function answer(confidence) {
   if (!cur || !cur.choice || cur.confidence) return;
   cur.confidence = confidence;
   const t = today();
-  const card = state.cards[cur.q.id] || newCard();
-  const wasDueReview = isDue(card, t);
   const correct = isCorrect(cur.q, cur.choice);
-  const gained = xpFor({ correct, confidence, wasDueReview });
+  const tries = session.tries.get(cur.q.id);
+  let gained = 0;
 
-  state.cards[cur.q.id] = review(card, { correct, confidence }, t);
-  state.xp += gained;
-  state.streak = updateStreak(state.streak, t, daysBetween);
-  state.history.push({ id: cur.q.id, day: t, correct, confidence });
-  persist();
+  if (tries === undefined) {
+    // First attempt this session: this one sets the schedule and earns XP.
+    const card = state.cards[cur.q.id] || newCard();
+    const wasDueReview = isDue(card, t);
+    gained = xpFor({ correct, confidence, wasDueReview });
+    state.cards[cur.q.id] = review(card, { correct, confidence }, t, { examDate: state.examDate });
+    state.xp += gained;
+    state.streak = updateStreak(state.streak, t, daysBetween);
+    state.history.push({ id: cur.q.id, day: t, correct, confidence });
+    persist();
+    session.xpEarned += gained;
+    session.answers.push({ q: cur.q, presented: cur.presented, choice: cur.choice, correct, confidence });
+  } else if (!needsRelearning(correct, confidence)) {
+    session.relearned.add(cur.q.id);
+  }
 
-  session.xpEarned += gained;
-  session.answers.push({ q: cur.q, presented: cur.presented, choice: cur.choice, correct, confidence });
+  // Missed or guessed questions come back at the end of this session until
+  // they are answered right with confidence (not in Exam Block).
+  let note = '';
+  if (session.mode !== 'block' && needsRelearning(correct, confidence)) {
+    const used = tries ?? 0;
+    if (used < MAX_RELEARN_TRIES) {
+      session.tries.set(cur.q.id, used + 1);
+      session.queue.push(cur.q);
+      note = 'It will come back at the end of this session.';
+    }
+  } else if (tries !== undefined) {
+    note = 'Relearned. Your review schedule was set by your first answer today.';
+  }
+
   $('q-options').disabled = true;
   $('confidence').hidden = true;
 
   if (session.mode === 'block') return advance();
-  renderFeedback(cur.q, cur.presented, cur.choice, correct, confidence, gained);
+  renderFeedback(cur.q, cur.presented, cur.choice, correct, confidence, gained, note);
   renderStats();
 }
 
@@ -193,12 +230,13 @@ function labelOf(presented, id) {
   return presented.options.find((o) => o.id === id)?.label;
 }
 
-function renderFeedback(q, presented, choice, correct, confidence, gained) {
+function renderFeedback(q, presented, choice, correct, confidence, gained, note = '') {
   const key = labelOf(presented, q.answer);
   const keyText = q.options.find((o) => o.id === q.answer).text;
   let msg = correct ? `Correct: ${key}. ${keyText}` : `Not quite. The answer is ${key}. ${keyText}`;
   if (correct && gained) msg += `  (+${gained} XP)`;
-  if (!correct && confidence === 'sure') msg += '. You were sure, so this one comes back tomorrow.';
+  if (!correct && confidence === 'sure') msg += '. You were sure, so it is flagged for extra review.';
+  if (note) msg += `${/[.)]$/.test(msg) ? '' : '.'} ${note}`;
   const res = $('fb-result');
   res.textContent = msg;
   res.className = `result ${correct ? 'ok' : 'bad'}`;
@@ -253,6 +291,10 @@ function finishSession() {
   const right = session.answers.filter((a) => a.correct).length;
   $('sum-score').textContent = n ? `${right} / ${n} correct (${Math.round((100 * right) / n)}%)` : 'No questions answered.';
   $('sum-xp').textContent = `+${session.xpEarned} XP this session`;
+  const r = session.relearned.size;
+  $('sum-relearn').textContent = r
+    ? `You relearned ${r} missed question${r === 1 ? '' : 's'} until you got ${r === 1 ? 'it' : 'them'} right. Retrieving each fact to criterion, then again on later days, is one of the strongest ways to make it last.`
+    : '';
 
   const sure = session.answers.filter((a) => a.confidence === 'sure');
   const sureRight = sure.filter((a) => a.correct).length;
@@ -290,6 +332,11 @@ function wire() {
   for (const b of document.querySelectorAll('[data-confidence]')) b.addEventListener('click', () => answer(b.dataset.confidence));
   $('next-btn').addEventListener('click', advance);
   $('sum-home').addEventListener('click', renderHome);
+  $('exam-date').addEventListener('change', (e) => {
+    state.examDate = isDayString(e.target.value) ? e.target.value : null;
+    persist();
+    renderHome();
+  });
   $('home-link').addEventListener('click', (e) => {
     e.preventDefault();
     if (session && !confirm('Leave this session? Answers so far are saved.')) return;

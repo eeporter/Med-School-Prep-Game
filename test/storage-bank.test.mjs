@@ -128,6 +128,13 @@ test('corrupt date strings are repaired instead of crashing the scheduler', asyn
   assert.equal(isDue(out.cards.c, '2026-03-01'), false);
 });
 
+test('exam date is kept when valid and dropped when corrupt', () => {
+  assert.equal(sanitize({ version: 1, examDate: '2026-06-15' }).examDate, '2026-06-15');
+  assert.equal(sanitize({ version: 1, examDate: '2026-02-30' }).examDate, null);
+  assert.equal(sanitize({ version: 1, examDate: 42 }).examDate, null);
+  assert.equal(sanitize({ version: 1 }).examDate, null);
+});
+
 test('load survives a stored state with corrupt dates', () => {
   const raw = JSON.stringify({ version: 1, cards: { q: { reps: 1, interval: 1, ease: 2.5, due: 5 } }, streak: { count: 1, lastDay: 7 } });
   const s = load(new MemoryStorage({ [STORAGE_KEY]: raw }));

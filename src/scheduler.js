@@ -34,7 +34,11 @@ export function nextEase(ease, q) {
 }
 
 // Returns a new card state; never mutates the input.
-export function review(card, { correct, confidence }, todayStr) {
+// With an exam date set, the next review is never scheduled on or after the
+// exam, so every card gets a final review shortly before the test instead of
+// drifting past it (spacing is judged against the test delay; Cepeda et al.,
+// 2008).
+export function review(card, { correct, confidence }, todayStr, { examDate = null } = {}) {
   const q = gradeFor(correct, confidence);
   const prev = { ...newCard(), ...card };
   const ease = nextEase(prev.ease, q);
@@ -49,6 +53,8 @@ export function review(card, { correct, confidence }, todayStr) {
     else if (reps === 2) interval = 6;
     else interval = Math.max(prev.interval + 1, Math.round(prev.interval * ease));
   }
+  const daysToExam = examDate ? daysBetween(todayStr, examDate) : null;
+  if (daysToExam !== null && daysToExam > 1) interval = Math.min(interval, daysToExam - 1);
   return {
     reps,
     interval,

@@ -89,3 +89,18 @@ test('day arithmetic survives month, year, leap-day, and DST boundaries', () => 
   assert.equal(toDayString(new Date(2026, 0, 5, 23, 59)), '2026-01-05');
   assert.throws(() => addDays('03/01/2026', 1));
 });
+
+test('with an exam date, no review is scheduled on or after the exam', () => {
+  let c = newCard();
+  for (let i = 0; i < 5; i++) c = review(c, { correct: true, confidence: 'sure' }, D);
+  assert.ok(c.interval > 10, 'without an exam date the interval keeps growing');
+  const capped = review(c, { correct: true, confidence: 'sure' }, D, { examDate: '2026-03-11' });
+  assert.equal(capped.interval, 9);
+  assert.equal(capped.due, '2026-03-10', 'last review lands the day before the exam');
+  // Short intervals are untouched, and a past or imminent exam is ignored.
+  assert.equal(review(newCard(), { correct: true, confidence: 'sure' }, D, { examDate: '2026-03-11' }).interval, 1);
+  assert.equal(review(c, { correct: true, confidence: 'sure' }, D, { examDate: '2026-02-01' }).interval,
+    review(c, { correct: true, confidence: 'sure' }, D).interval);
+  assert.equal(review(c, { correct: true, confidence: 'sure' }, D, { examDate: '2026-03-02' }).interval,
+    review(c, { correct: true, confidence: 'sure' }, D).interval);
+});

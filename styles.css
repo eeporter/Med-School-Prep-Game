@@ -53,8 +53,8 @@ footer { max-width: 820px; margin: 24px auto; padding: 0 16px; color: var(--mute
 .mode p { margin: 0; }
 .mode button { margin-top: auto; }
 label { display: flex; flex-direction: column; gap: 4px; font-size: 0.9rem; }
-select, button { font: inherit; }
-select { padding: 6px; border-radius: 6px; border: 1px solid var(--border); background: var(--surface); color: var(--text); }
+select, button, input { font: inherit; }
+select, input[type="date"] { padding: 6px; border-radius: 6px; border: 1px solid var(--border); background: var(--surface); color: var(--text); }
 button {
   padding: 9px 14px; border-radius: 8px; border: 1px solid var(--border);
   background: var(--surface); color: var(--text); cursor: pointer; min-height: 44px;
@@ -64,6 +64,8 @@ button:focus-visible, input:focus-visible, select:focus-visible, a:focus-visible
   outline: 3px solid var(--accent); outline-offset: 2px;
 }
 kbd { font-size: 0.75rem; opacity: 0.75; margin-left: 4px; }
+.exam-date { margin: 20px 0 8px; }
+.exam-date label { max-width: 220px; }
 .mastery ul { list-style: none; padding: 0; }
 .mastery li { display: grid; grid-template-columns: minmax(0, 1fr) 120px 48px; gap: 10px; align-items: center; padding: 4px 0; }
 progress { width: 100%; }

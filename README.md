@@ -12,6 +12,8 @@ A free, open-source study game for **USMLE Step 1** and **NBME** exams. It runs 
 
 Before you see the answer, you rate your confidence (Guess / Unsure / Sure). That rating sets when the question comes back (spaced repetition, SM-2) and flags confident mistakes, which are the most valuable ones to fix.
 
+A question you miss or only guess right comes back at the end of the same session until you get it right with confidence (successive relearning). Set your **exam date** on the home screen and no review is scheduled past it, so every question gets a final pass before the test.
+
 Why these mechanics? See [docs/research.md](docs/research.md).
 
 Keyboard: `A`–`F` or `1`–`6` pick an answer, `G` / `U` / `S` set confidence, `Enter` goes to the next question.

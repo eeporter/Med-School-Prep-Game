@@ -58,10 +58,18 @@
         </article>
       </div>
 
+      <section class="exam-date">
+        <label>Exam date
+          <input type="date" id="exam-date">
+        </label>
+        <p class="meta" id="exam-countdown"></p>
+      </section>
+
       <section class="mastery">
         <h2>Mastery by system</h2>
         <p class="meta">A question counts as mastered when you have answered it correctly at spaced intervals reaching 3 weeks.</p>
         <ul id="mastery-list"></ul>
+        <p class="meta" id="calibration-summary"></p>
         <p class="meta" id="misconception-summary"></p>
       </section>
     </section>
@@ -101,6 +109,7 @@
       <h2>Session complete</h2>
       <p id="sum-score" class="big"></p>
       <p id="sum-xp"></p>
+      <p id="sum-relearn" class="meta"></p>
       <p id="sum-calibration" class="meta"></p>
       <div id="sum-review"></div>
       <button id="sum-home" class="primary">Back to home</button>
