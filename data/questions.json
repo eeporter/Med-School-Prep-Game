@@ -3056,7 +3056,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: she is censored at month 8. Why: a Kaplan-Meier curve estimates the probability of surviving past each time point. A censored patient is one whose follow-up ended before an event; we know she survived at least to her last contact but not what happened after. She counts in the number at risk up to month 8 and then drops out of the risk set, so her data inform the curve without biasing it. The curve steps down only at events (deaths). Median survival is read where the curve crosses 0.5 (50% surviving), and the log-rank test compares two curves.",
+      "explanation": "Answer: she is censored at month 8. Why: a Kaplan-Meier curve estimates the probability of surviving past each time point. A censored patient is one whose follow-up ended before an event; we know she survived at least to her last contact but not what happened after. She counts in the number at risk up to month 8 and then drops out of the risk set, so her data inform the curve without biasing it, as long as censoring is non-informative (her reason for leaving is unrelated to her prognosis). If sicker patients drop out more often, the curve overestimates survival. The curve steps down only at events (deaths). Median survival is read where the curve crosses 0.5 (50% surviving), and the log-rank test compares two curves.",
       "whyWrong": {
         "b": "The curve drops only at events. Counting a censored patient as a death would wrongly lower the survival estimate.",
         "c": "Removing her would waste real information: she is known to have survived at least 8 months, so she counts as at risk until then.",
