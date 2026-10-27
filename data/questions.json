@@ -2518,7 +2518,7 @@
         },
         {
           "id": "e",
-          "text": "Inhalation of fungal spores from bird or bat droppings"
+          "text": "Progressive primary infection in an immunosuppressed host, which favors the lower lung zones"
         }
       ],
       "answer": "a",
@@ -2527,7 +2527,7 @@
         "b": "Primary TB usually causes an infiltrate in the middle and lower lung zones, not an apical cavity, and this patient was infected years ago.",
         "c": "Aspiration affects dependent segments and does not explain years of latent TB followed by reactivation on steroids.",
         "d": "Hematogenous (miliary) spread causes many tiny nodules throughout both lungs, not a single apical cavity.",
-        "e": "Histoplasmosis from bird or bat droppings can mimic TB, but this patient's untreated positive TB skin test and steroid use point to reactivation TB."
+        "e": "In an immunocompromised person, a new (primary) infection can progress to pneumonia mainly in the lower lung zones. This patient was infected years ago and has an apical cavity, which points to reactivation."
       },
       "sources": [
         {
@@ -2573,8 +2573,8 @@
       "answer": "a",
       "explanation": "Answer: thyroid peroxidase. Why: methimazole inhibits thyroid peroxidase, the enzyme that attaches iodine to tyrosine residues on thyroglobulin and couples them to form T4 and T3. Her fever and sore throat with very low neutrophils is agranulocytosis, a serious adverse effect of methimazole. Methimazole is also avoided in the first trimester because of birth defects (e.g., aplasia cutis), while propylthiouracil (PTU) carries a risk of severe liver injury.",
       "whyWrong": {
-        "b": "The sodium-iodide symporter brings iodide into the thyroid; it is blocked by anions such as perchlorate, not by methimazole.",
-        "c": "Blocking release of stored hormone is an effect of large doses of iodide, not methimazole.",
+        "b": "The sodium-iodide symporter carries iodide into thyroid cells; it is inhibited by perchlorate, not by methimazole.",
+        "c": "Methimazole does not affect hormone already stored in the thyroid. It blocks new synthesis, so hormone levels fall only as the stored supply in thyroglobulin is used up.",
         "d": "Methimazole does not block the stimulating antibodies of Graves disease; it blocks hormone synthesis downstream of them.",
         "e": "Methimazole does not act on thyroid hormone receptors; beta-blockers are used to control symptoms at the tissue level."
       },
@@ -2582,6 +2582,10 @@
         {
           "title": "StatPearls: Methimazole",
           "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK545223/"
+        },
+        {
+          "title": "StatPearls: Physiology, Thyroid Hormone",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK500006/"
         }
       ]
     },
@@ -2720,15 +2724,23 @@
       "answer": "a",
       "explanation": "Answer: parainfluenza virus. Why: a barking cough and inspiratory stridor after cold symptoms in a toddler is croup (laryngotracheobronchitis), most commonly caused by parainfluenza viruses. It occurs from 6 months to 6 years of age, peaking between 1 and 2 years. Subglottic narrowing produces the \"steeple sign\" on x-ray.",
       "whyWrong": {
-        "b": "RSV classically causes bronchiolitis in infants, with wheezing and crackles rather than a barking cough and stridor.",
+        "b": "RSV is the most common cause of bronchiolitis in children 2 years and younger, which causes diffuse wheezing across both lungs rather than a barking cough and stridor.",
         "c": "Hib causes epiglottitis: drooling, difficulty swallowing, and a child sitting in a tripod position. Epiglottitis is rare in vaccinated children.",
         "d": "Group A strep causes pharyngitis and can cause peritonsillar abscess, not subglottic narrowing with a barking cough.",
-        "e": "Diphtheria causes a gray pseudomembrane over the pharynx and is rare where children are vaccinated."
+        "e": "Diphtheria causes a thick gray membrane over the tonsils and pharynx, and it has become rare where children receive diphtheria toxoid vaccine."
       },
       "sources": [
         {
           "title": "StatPearls: Laryngotracheobronchitis (Croup)",
           "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK519531/"
+        },
+        {
+          "title": "StatPearls: Pediatric Bronchiolitis",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK519506/"
+        },
+        {
+          "title": "StatPearls: Diphtheria",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK560911/"
         }
       ]
     },
@@ -2820,8 +2832,8 @@
       "whyWrong": {
         "b": "PPIs (e.g., omeprazole) also prevent NSAID ulcers, but they cause diarrhea less often, and they act by blocking the proton pump, not by replacing prostaglandins.",
         "c": "H2 blockers (e.g., famotidine) reduce acid secretion but do not replace prostaglandins.",
-        "d": "Sucralfate coats ulcer bases; it is not a prostaglandin and causes constipation rather than diarrhea.",
-        "e": "Antacids neutralize acid briefly and do not replace prostaglandins."
+        "d": "Sucralfate breaks apart in stomach acid and binds the mucosa to form a protective layer. It is not a prostaglandin, and its most common side effect is constipation rather than diarrhea.",
+        "e": "Antacids neutralize acid that is already in the stomach; they do not replace prostaglandins."
       },
       "sources": [
         {
@@ -2831,6 +2843,14 @@
         {
           "title": "StatPearls: Prostaglandins",
           "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK553155/"
+        },
+        {
+          "title": "StatPearls: Sucralfate",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK551527/"
+        },
+        {
+          "title": "StatPearls: Antacids",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK526049/"
         }
       ]
     },
@@ -2871,10 +2891,10 @@
       "answer": "a",
       "explanation": "Answer: delirium. Why: delirium develops acutely and fluctuates in severity, and its core feature is inattention (here, losing track of conversation and failing months-backward) with a fluctuating level of consciousness. Urinary tract infection is a common trigger in older adults, as are anticholinergic drugs and benzodiazepines. Delirium is often reversible when the cause is treated. Dementia, by contrast, develops gradually, and patients are usually awake and alert with fixed deficits.",
       "whyWrong": {
-        "b": "Alzheimer disease develops gradually over months to years, not overnight, and does not cause a fluctuating level of alertness.",
-        "c": "Depression can mimic dementia, but it does not cause acute fluctuating drowsiness and agitation with an infection.",
-        "d": "Vascular dementia progresses in steps over time and would not explain a one-day change with fever.",
-        "e": "Lewy body dementia can fluctuate, but it is a chronic progressive dementia, and this patient was fully independent a week ago."
+        "b": "Alzheimer disease, like other dementias, is a slow, chronic, progressive decline. It does not appear overnight with a fluctuating level of alertness.",
+        "c": "Severe depression can mimic dementia (pseudodementia), but it does not explain an acute, fluctuating disturbance of attention that began with a fever.",
+        "d": "Vascular dementia comes from cumulative strokes and small vessel damage and is a chronic decline. Fever with a urinary infection and a one-day change point to delirium.",
+        "e": "Fluctuating cognition is a core feature of Lewy body dementia and can mimic delirium, but it is a chronic dementia, and this patient was fully independent a week ago."
       },
       "sources": [
         {
@@ -2920,10 +2940,10 @@
       "answer": "a",
       "explanation": "Answer: first phosphorylation by viral thymidine kinase. Why: famciclovir is converted to penciclovir, which the herpesvirus thymidine kinase phosphorylates to a monophosphate. Uninfected cells cannot do this first step, so the drug is activated mainly in infected cells. Host enzymes then make the triphosphate, which inhibits herpesvirus DNA polymerase and terminates the growing DNA chain. Acyclovir is a related nucleoside analog that is also activated to a triphosphate and blocks viral DNA synthesis.",
       "whyWrong": {
-        "b": "Blocking viral entry by binding a surface glycoprotein is how fusion and entry inhibitors work (e.g., enfuvirtide for HIV), not herpes antivirals.",
+        "b": "Blocking viral entry is how fusion inhibitors work: enfuvirtide is a peptide modeled on the HIV fusion protein gp41 that stops HIV from fusing with the cell. Herpes antivirals do not work this way.",
         "c": "Host kinases add the later phosphates, but the selective first step depends on the viral enzyme.",
-        "d": "Neuraminidase inhibitors (oseltamivir) treat influenza.",
-        "e": "Protease inhibitors treat HIV and hepatitis C, not herpes zoster."
+        "d": "Neuraminidase inhibitors such as oseltamivir treat influenza A and B, not herpes zoster.",
+        "e": "Protease inhibitors are used to treat HIV, not herpes zoster."
       },
       "sources": [
         {
@@ -2933,6 +2953,120 @@
         {
           "title": "StatPearls: Acyclovir",
           "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK542180/"
+        },
+        {
+          "title": "LiverTox: Enfuvirtide",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK548862/"
+        },
+        {
+          "title": "StatPearls: Oseltamivir",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK539909/"
+        },
+        {
+          "title": "LiverTox: Protease Inhibitors (HIV)",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK548893/"
+        }
+      ]
+    },
+    {
+      "id": "gi-pbc-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Gastrointestinal",
+      "topic": "Primary biliary cholangitis vs primary sclerosing cholangitis",
+      "difficulty": 2,
+      "stem": "A 52-year-old woman has had 6 months of fatigue and generalized itching. She also has dry eyes and a dry mouth. She takes no medications, drinks no alcohol, and has no history of bowel disease. She is not jaundiced. Labs show alkaline phosphatase 410 U/L (normal 40-120), ALT 58 U/L (normal under 35), and total bilirubin 1.0 mg/dL. Ultrasound shows no gallstones and no bile duct dilation.",
+      "leadIn": "Which of the following is the most likely diagnosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Primary biliary cholangitis"
+        },
+        {
+          "id": "b",
+          "text": "Primary sclerosing cholangitis"
+        },
+        {
+          "id": "c",
+          "text": "Choledocholithiasis"
+        },
+        {
+          "id": "d",
+          "text": "Autoimmune hepatitis"
+        },
+        {
+          "id": "e",
+          "text": "Drug-induced liver injury"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: primary biliary cholangitis (PBC). Why: about 95% of patients are women, usually aged 40 to 70. Itching and fatigue are common early symptoms (up to 80%), and dry mouth and eyes can come months or years before other symptoms; PBC is associated with Sjögren syndrome, systemic sclerosis, and autoimmune thyroiditis. Labs show a cholestatic pattern with a high alkaline phosphatase. Imaging is done first to exclude bile duct obstruction. The next test is antimitochondrial antibody (AMA), which is positive in 90-95%; serum IgM is also raised. Pathology: T cells destroy the small bile ducts inside the liver. Treatment: ursodeoxycholic acid. Contrast with PSC: mostly men, linked to ulcerative colitis, with \"beaded\" strictures of the large ducts.",
+      "whyWrong": {
+        "b": "PSC mostly affects men (60-71%), usually aged 25 to 45, is linked to ulcerative colitis in 60-80%, and shows multifocal strictures with a \"beaded\" appearance of the bile ducts inside and outside the liver.",
+        "c": "Extrahepatic obstruction such as a common bile duct stone must be excluded with imaging; this ultrasound shows no stones and no dilated ducts.",
+        "d": "Autoimmune hepatitis mainly injures hepatocytes and raises aminotransferases; overlap with autoimmune hepatitis is suspected when ALT is more than 5 times normal. Here ALT is only mildly raised and the pattern is cholestatic.",
+        "e": "Drug-induced liver disease is on the list of cholestatic causes, but she takes no medications."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Primary Biliary Cholangitis (PBC)",
+          "url": "https://www.msdmanuals.com/professional/hepatic-and-biliary-disorders/fibrosis-and-cirrhosis/primary-biliary-cholangitis-pbc"
+        },
+        {
+          "title": "StatPearls: Primary Sclerosing Cholangitis",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK537181/"
+        }
+      ]
+    },
+    {
+      "id": "biostats-kaplan-meier-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biostatistics & Epidemiology",
+      "system": "General Principles",
+      "topic": "Kaplan-Meier curves and censoring",
+      "difficulty": 2,
+      "stem": "A trial compares survival with a new chemotherapy regimen versus standard therapy in patients with metastatic colon cancer, and the results are shown as Kaplan-Meier curves. One patient in the new-regimen group moved abroad 8 months after enrolling and was lost to follow-up. She was alive at her last visit.",
+      "leadIn": "How is this patient handled in the Kaplan-Meier analysis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "She counts as at risk until month 8, then is censored and leaves the risk set without being counted as a death"
+        },
+        {
+          "id": "b",
+          "text": "She is counted as a death at month 8"
+        },
+        {
+          "id": "c",
+          "text": "She is removed from the analysis entirely"
+        },
+        {
+          "id": "d",
+          "text": "She is counted as alive until the end of the study"
+        },
+        {
+          "id": "e",
+          "text": "She is assigned the median survival time of her group"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: she is censored at month 8. Why: a Kaplan-Meier curve estimates the probability of surviving past each time point. A censored patient is one whose follow-up ended before an event; we know she survived at least to her last contact but not what happened after. She counts in the number at risk up to month 8 and then drops out of the risk set, so her data inform the curve without biasing it. The curve steps down only at events (deaths). Median survival is read where the curve crosses 0.5 (50% surviving), and the log-rank test compares two curves.",
+      "whyWrong": {
+        "b": "The curve drops only at events. Counting a censored patient as a death would wrongly lower the survival estimate.",
+        "c": "Removing her would waste real information: she is known to have survived at least 8 months, so she counts as at risk until then.",
+        "d": "We do not know what happened after her last contact, so she cannot be assumed alive to the end of the study.",
+        "e": "Kaplan-Meier analysis does not fill in guessed survival times; censored patients simply leave the risk set when follow-up ends."
+      },
+      "sources": [
+        {
+          "title": "MedCalc Statistical Software Manual: Kaplan-Meier survival analysis",
+          "url": "https://www.medcalc.org/en/book/kaplan-meier.php"
         }
       ]
     }
