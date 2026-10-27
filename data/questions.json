@@ -194,7 +194,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Antibiotic-associated diarrhea with pseudomembranes is Clostridioides difficile colitis. Toxin A (enterotoxin) and toxin B (cytotoxin) glucosylate Rho-family GTPases, causing actin depolymerization, loss of tight junctions, and mucosal cell death that forms pseudomembranes.",
+      "explanation": "Antibiotic-associated diarrhea with pseudomembranes is Clostridioides difficile colitis. Toxin A (enterotoxin) and toxin B (cytotoxin) glucosylate Rho-family GTPases, causing actin depolymerization, loss of tight junctions, and mucosal cell death that forms pseudomembranes. Recent change: the organism was renamed from Clostridium difficile, so older books use the old name. For a first episode, metronidazole is no longer first line. Current guidance prefers oral fidaxomicin, with oral vancomycin as the alternative, and metronidazole only if neither is available.",
       "whyWrong": {
         "b": "ADP-ribosylation of Gs (permanently activating it) is cholera toxin and E. coli heat-labile toxin, which cause watery diarrhea without pseudomembranes.",
         "c": "Inactivating the 60S ribosome is Shiga toxin and Shiga-like toxin (EHEC).",
@@ -208,6 +208,10 @@
         },
         {
           "title": "First Aid for the USMLE Step 1 2025, Microbiology: Bacterial toxins"
+        },
+        {
+          "title": "AAFP: Clostridioides difficile Infection, a Focused Guideline Update From the IDSA (2021)",
+          "url": "https://www.aafp.org/afp/2022/0600/p678"
         }
       ]
     },
@@ -551,7 +555,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Warfarin inhibits vitamin K epoxide reductase (VKORC1). Without it, the liver cannot recycle vitamin K, which is needed to activate (gamma-carboxylate) factors II, VII, IX, and X and proteins C and S. Warfarin is monitored with PT/INR. Its full effect takes about 5 to 7 days because clotting factors already in the blood must be used up first.",
+      "explanation": "Warfarin inhibits vitamin K epoxide reductase (VKORC1). Without it, the liver cannot recycle vitamin K, which is needed to activate (gamma-carboxylate) factors II, VII, IX, and X and proteins C and S. Warfarin is monitored with PT/INR. Its full effect takes about 5 to 7 days because clotting factors already in the blood must be used up first. Recent change: for stroke prevention in atrial fibrillation, the 2023 ACC/AHA/ACCP/HRS guideline prefers direct oral anticoagulants (such as apixaban or rivaroxaban) over warfarin, except in patients with mitral stenosis or a mechanical heart valve.",
       "whyWrong": {
         "b": "Activating antithrombin is the mechanism of heparin (monitored with PTT for unfractionated heparin), which is given parenterally.",
         "c": "Direct factor Xa inhibitors (rivaroxaban, apixaban) bind factor Xa directly and do not need INR monitoring.",
@@ -562,6 +566,10 @@
         {
           "title": "StatPearls: Warfarin",
           "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK470313/"
+        },
+        {
+          "title": "ACC: 2023 Guideline for the Diagnosis and Management of Atrial Fibrillation, Key Points (Joglar et al., J Am Coll Cardiol 2023)",
+          "url": "https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2023/11/27/19/46/2023-acc-guideline-for-af-gl-af"
         }
       ]
     },
@@ -2799,7 +2807,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: peroxidase activity of heme from red meat. Why: the guaiac test detects the pseudoperoxidase activity of heme, which turns the guaiac reagent blue. It cannot tell human heme from animal heme, so red meat (and raw fruits and vegetables rich in peroxidases) can cause false positives. The fecal immunochemical test (FIT) detects human globin, needs no diet changes, and is more specific for lower GI bleeding.",
+      "explanation": "Answer: peroxidase activity of heme from red meat. Why: the guaiac test detects the pseudoperoxidase activity of heme, which turns the guaiac reagent blue. It cannot tell human heme from animal heme, so red meat (and raw fruits and vegetables rich in peroxidases) can cause false positives. The fecal immunochemical test (FIT) detects human globin, needs no diet changes, and is more specific for lower GI bleeding. Recent change: since May 2021, the USPSTF recommends colorectal cancer screening starting at age 45, not 50. Stool options are a yearly high-sensitivity guaiac test or FIT, or stool DNA-FIT every 1 to 3 years.",
       "whyWrong": {
         "b": "Detecting human globin is how FIT works, not guaiac tests, and globin from upper GI bleeding is mostly digested.",
         "c": "Large doses of vitamin C cause false-negative guaiac results, not false positives.",
@@ -2810,6 +2818,10 @@
         {
           "title": "StatPearls: Fecal Occult Blood Test",
           "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK537138/"
+        },
+        {
+          "title": "USPSTF: Colorectal Cancer Screening, Final Recommendation Statement (2021)",
+          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/colorectal-cancer-screening"
         }
       ]
     },
