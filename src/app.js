@@ -57,7 +57,8 @@ function renderHome() {
 
   renderExams(t);
 
-  if (!focusChecks.length) buildFocusPicker();
+  // Built once the bank has loaded, so a failed load never prunes saved picks.
+  if (!focusChecks.length && questions.length) buildFocusPicker();
   focusChanged();
 
   const list = $('mastery-list');
@@ -178,7 +179,9 @@ function check(text, sync, onChange) {
 
 function buildFocusPicker() {
   const allKeys = new Set(questions.map(topicKey));
+  const allSubjects = new Set(questions.map((q) => q.discipline));
   focus.topics = focus.topics.filter((k) => allKeys.has(k));
+  focus.subjects = focus.subjects.filter((d) => allSubjects.has(d));
 
   $('focus-missed').addEventListener('change', (e) => { focus.missed = e.target.checked; focusChanged(); });
   focusChecks.push(() => { $('focus-missed').checked = focus.missed; });
@@ -235,7 +238,7 @@ function filterTopics() {
 
 function focusChanged() {
   for (const sync of focusChecks) sync();
-  saveFocus();
+  if (questions.length) saveFocus();
   const struggling = questions.filter((q) => isStruggling(state.cards[q.id])).length;
   $('focus-missed-label').textContent = `Questions I have missed and not yet mastered (${struggling})`;
   const n = focusQuestions().length;
