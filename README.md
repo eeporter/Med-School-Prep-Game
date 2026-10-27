@@ -14,6 +14,8 @@ Before you see the answer, you rate your confidence (Guess / Unsure / Sure). Tha
 
 Why these mechanics? See [docs/research.md](docs/research.md).
 
+Want Claude to write new questions, study guides, or audit them? Copy-paste prompts are in [docs/claude-prompts.md](docs/claude-prompts.md).
+
 Keyboard: `A`–`F` or `1`–`6` pick an answer, `G` / `U` / `S` set confidence, `Enter` goes to the next question.
 
 ## Run it
