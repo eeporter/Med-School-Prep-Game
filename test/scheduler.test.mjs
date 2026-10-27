@@ -64,7 +64,7 @@ test('review does not mutate the input card', () => {
 
 test('isDue compares local calendar days', () => {
   assert.equal(isDue(null, D), false);
-  assert.equal(isDue({ due: null }, D), false);
+  assert.equal(isDue({ due: null }, D), true, 'a stored card without a due date is due now');
   assert.equal(isDue({ due: '2026-03-01' }, D), true);
   assert.equal(isDue({ due: '2026-02-20' }, D), true);
   assert.equal(isDue({ due: '2026-03-02' }, D), false);

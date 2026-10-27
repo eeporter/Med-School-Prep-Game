@@ -61,8 +61,11 @@ export function review(card, { correct, confidence }, todayStr) {
   };
 }
 
+// A stored card with no due date (e.g. one repaired after corrupt storage)
+// is treated as due now so it is never stranded.
 export function isDue(card, todayStr) {
-  if (!card || !card.due) return false;
+  if (!card) return false;
+  if (!card.due) return true;
   return daysBetween(card.due, todayStr) >= 0;
 }
 

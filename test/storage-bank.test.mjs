@@ -105,3 +105,32 @@ test('the shipped question bank is valid', () => {
   assert.deepEqual(validateBank(bank), []);
   assert.ok(bank.questions.length >= 20);
 });
+
+test('corrupt date strings are repaired instead of crashing the scheduler', async () => {
+  const { isDue } = await import('../src/scheduler.js');
+  const out = sanitize({
+    version: 1,
+    xp: 10,
+    cards: {
+      a: { reps: 1, interval: 1, ease: 2.5, due: 'garbage', lastReviewed: '2026-13-40' },
+      b: { reps: 1, interval: 1, ease: 2.5, due: '2026-02-30' },
+      c: { reps: 1, interval: 1, ease: 2.5, due: '2026-03-02' },
+    },
+    streak: { count: 3, lastDay: 'not-a-day' },
+  });
+  assert.equal(out.cards.a.due, null);
+  assert.equal('lastReviewed' in out.cards.a, false);
+  assert.equal(out.cards.b.due, null);
+  assert.equal(out.cards.c.due, '2026-03-02');
+  assert.deepEqual(out.streak, { count: 0, lastDay: null });
+  // Repaired cards are due now; none of these calls throw.
+  assert.equal(isDue(out.cards.a, '2026-03-01'), true);
+  assert.equal(isDue(out.cards.c, '2026-03-01'), false);
+});
+
+test('load survives a stored state with corrupt dates', () => {
+  const raw = JSON.stringify({ version: 1, cards: { q: { reps: 1, interval: 1, ease: 2.5, due: 5 } }, streak: { count: 1, lastDay: 7 } });
+  const s = load(new MemoryStorage({ [STORAGE_KEY]: raw }));
+  assert.equal(s.cards.q.due, null);
+  assert.deepEqual(s.streak, { count: 0, lastDay: null });
+});

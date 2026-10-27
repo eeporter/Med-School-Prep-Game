@@ -93,9 +93,11 @@ function buildQueue(mode) {
   const t = today();
   if (mode === 'rounds') {
     const due = questions.filter((q) => isDue(state.cards[q.id], t));
-    // Confident misses first among due cards, then the rest, all interleaved.
+    const misses = due.filter((q) => state.cards[q.id].misconception);
+    const rest = due.filter((q) => !state.cards[q.id].misconception);
     const fresh = shuffle(questions.filter((q) => !state.cards[q.id])).slice(0, NEW_PER_ROUNDS);
-    return interleave([...due, ...fresh]);
+    // Confident misses come first (interleaved among themselves), then the rest.
+    return [...interleave(misses), ...interleave([...rest, ...fresh])];
   }
   if (mode === 'focus') {
     const [field, value] = $('focus-select').value.split(/:(.*)/s);

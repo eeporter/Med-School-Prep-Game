@@ -1242,6 +1242,10 @@
         {
           "id": "d",
           "text": "Deoxycorticosterone"
+        },
+        {
+          "id": "e",
+          "text": "11-Deoxycortisol"
         }
       ],
       "answer": "a",
@@ -1249,7 +1253,8 @@
       "whyWrong": {
         "b": "Cortisol cannot be made without 21-hydroxylase, so it is low. Low cortisol is what drives ACTH up and the adrenals to enlarge.",
         "c": "Aldosterone is also downstream of 21-hydroxylase, so it is low. That is why this baby is losing salt.",
-        "d": "Deoxycorticosterone is the product of 21-hydroxylase acting on progesterone, so it is low here. It is high in 11-beta-hydroxylase deficiency, which causes hypertension instead of salt wasting."
+        "d": "Deoxycorticosterone is the product of 21-hydroxylase acting on progesterone, so it is low here. It is high in 11-beta-hydroxylase deficiency, which causes hypertension instead of salt wasting.",
+        "e": "11-Deoxycortisol is made from 17-OHP by 21-hydroxylase, so it is low here. It builds up in 11-beta-hydroxylase deficiency."
       },
       "sources": [
         {
@@ -1285,24 +1290,25 @@
         },
         {
           "id": "d",
-          "text": "None; an aldosterone-secreting adrenal adenoma is present"
+          "text": "3-Beta-hydroxysteroid dehydrogenase"
+        },
+        {
+          "id": "e",
+          "text": "Cholesterol side-chain cleavage enzyme (P450scc)"
         }
       ],
       "answer": "a",
-      "explanation": "Answer: 11-beta-hydroxylase deficiency. Why: it is the form of congenital adrenal hyperplasia (CAH) that combines virilization with hypertension. Without 11-beta-hydroxylase, the precursor deoxycorticosterone (DOC) builds up. DOC acts like a mineralocorticoid, so it causes hypertension, low potassium, and metabolic alkalosis, and it suppresses renin. Extra precursors are also shunted into androgens, causing early pubic hair and fast growth in either sex.",
+      "explanation": "Answer: 11-beta-hydroxylase deficiency. Why: it is the form of congenital adrenal hyperplasia (CAH) that combines virilization with hypertension. Without 11-beta-hydroxylase, the precursor deoxycorticosterone (DOC) builds up. DOC acts like a mineralocorticoid, so it causes hypertension, low potassium, and metabolic alkalosis, and it suppresses renin. Extra precursors are also shunted into androgens, causing early pubic hair and fast growth in either sex. Both 11-deoxycortisol and DOC are elevated, which confirms the diagnosis.",
       "whyWrong": {
         "b": "21-Hydroxylase deficiency also causes virilization, but DOC and aldosterone are low, so it causes salt wasting with low blood pressure, not hypertension.",
         "c": "17-Alpha-hydroxylase deficiency causes hypertension and low potassium too, but androgens cannot be made, so it causes undervirilization and sexual infantilism, not early puberty.",
-        "d": "An aldosterone-secreting adenoma causes hypertension, low potassium, and low renin, but it does not produce androgens, so it would not explain the pubic hair and rapid growth."
+        "d": "3-Beta-HSD deficiency raises the earlier (delta-5) steroids such as DHEA and 17-hydroxypregnenolone and can cause salt wasting and undervirilization of boys; it does not cause hypertension with low potassium.",
+        "e": "Side-chain cleavage is the first step of all steroid synthesis, so its deficiency lowers cortisol, aldosterone, and androgens alike. It causes salt wasting, not hypertension or virilization."
       },
       "sources": [
         {
           "title": "StatPearls: Congenital Adrenal Hyperplasia",
           "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK448098/"
-        },
-        {
-          "title": "StatPearls: Hyperaldosteronism",
-          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK499983/"
         }
       ]
     },
@@ -1334,6 +1340,10 @@
         {
           "id": "d",
           "text": "Marfan syndrome"
+        },
+        {
+          "id": "e",
+          "text": "Von Hippel-Lindau disease"
         }
       ],
       "answer": "a",
@@ -1341,12 +1351,17 @@
       "whyWrong": {
         "b": "MEN2A shares medullary thyroid cancer and pheochromocytoma, but adds primary hyperparathyroidism and does not cause mucosal neuromas or a marfanoid habitus. Hyperparathyroidism is rare in MEN2B, and this patient's calcium is normal.",
         "c": "MEN1 is a different syndrome (parathyroid, pituitary, and pancreatic tumors) and does not include medullary thyroid cancer or pheochromocytoma.",
-        "d": "Marfan syndrome causes a similar tall, long-limbed build, but not endocrine tumors, high calcitonin, or high metanephrines."
+        "d": "Marfan syndrome causes a similar tall, long-limbed build, but not endocrine tumors, high calcitonin, or high metanephrines.",
+        "e": "Von Hippel-Lindau disease includes pheochromocytoma, but also hemangioblastomas of the brain, spinal cord, and retina and clear cell renal carcinoma. It does not cause medullary thyroid cancer (high calcitonin) or mucosal neuromas."
       },
       "sources": [
         {
           "title": "StatPearls: Multiple Endocrine Neoplasia Type 2",
           "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK519054/"
+        },
+        {
+          "title": "GeneReviews: Von Hippel-Lindau Syndrome",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK1463/"
         }
       ]
     },
@@ -1577,7 +1592,7 @@
         },
         {
           "id": "c",
-          "text": "Inhibition of intestinal cholesterol absorption at the brush border"
+          "text": "Inhibition of the intestinal cholesterol transporter NPC1L1"
         },
         {
           "id": "d",
@@ -1592,14 +1607,18 @@
       "explanation": "Answer: more LDL receptors on liver cells. Why: statins competitively inhibit HMG-CoA reductase, the enzyme that turns HMG-CoA into mevalonate in cholesterol synthesis. With less cholesterol made inside the liver, liver cells put more LDL receptors on their surface and pull more LDL out of the blood. Main adverse effects are muscle problems (myalgia, myopathy, and rarely rhabdomyolysis) and liver enzyme elevation.",
       "whyWrong": {
         "b": "Binding bile acids in the gut is how bile acid sequestrants (cholestyramine, colesevelam) work.",
-        "c": "Blocking cholesterol absorption at the brush border is how ezetimibe works.",
-        "d": "PPAR-alpha activation is the mechanism of fibrates, which mainly lower triglycerides.",
+        "c": "Blocking the Niemann-Pick C1-like 1 (NPC1L1) cholesterol transporter in the intestine is how ezetimibe works.",
+        "d": "PPAR-alpha activation, which upregulates lipoprotein lipase, is the mechanism of fibrates, which mainly lower triglycerides.",
         "e": "LDL is cleared by the liver through LDL receptors, not by the kidneys."
       },
       "sources": [
         {
           "title": "StatPearls: Statin Medications",
           "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK430940/"
+        },
+        {
+          "title": "StatPearls: Lipid-Lowering Drug Therapy",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK541128/"
         }
       ]
     },
@@ -1711,7 +1730,7 @@
       "system": "Respiratory",
       "topic": "Coxiella burnetii (Q fever)",
       "difficulty": 2,
-      "stem": "A 34-year-old woman who works on a sheep farm develops fever, chills, severe headache, fatigue, and muscle aches 3 weeks after helping with the spring lambing. She has a dry cough. She has no rash and does not recall any tick or insect bites. Serologic testing confirms infection with an obligate intracellular gram-negative bacterium.",
+      "stem": "A 34-year-old woman who works on a sheep farm develops fever, chills, severe headache, fatigue, and muscle aches 3 weeks after helping with the spring lambing. She has a dry cough. She has no rash and does not recall any tick or insect bites. Serologic testing confirms Coxiella burnetii infection.",
       "leadIn": "This patient most likely acquired the infection by which of the following routes?",
       "options": [
         {
@@ -1736,7 +1755,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: inhaling contaminated dust. Why: this is Q fever, caused by Coxiella burnetii. People are infected by breathing in dust contaminated with the birth products, urine, feces, or milk of infected goats, sheep, and cattle, so lambing and calving season is high risk. Illness is flu-like (fever, chills, fatigue, muscle pain). A small number of people develop chronic Q fever, and having heart valve disease raises that risk.",
+      "explanation": "Answer: inhaling contaminated dust. Why: Coxiella burnetii causes Q fever. People are infected by breathing in dust contaminated with the birth products, urine, feces, or milk of infected goats, sheep, and cattle, so lambing and calving season is high risk. Illness is flu-like (fever, chills, fatigue, muscle pain). A small number of people develop chronic Q fever, and having heart valve disease raises that risk.",
       "whyWrong": {
         "b": "Tick-borne rickettsial diseases such as Rocky Mountain spotted fever typically cause a rash; this patient has none and recalls no bite, and her exposure is to birthing sheep.",
         "c": "Undercooked pork transmits Trichinella and Taenia solium, not this infection.",
@@ -1929,6 +1948,10 @@
         {
           "id": "d",
           "text": "IgE bound to dermal mast cells only"
+        },
+        {
+          "id": "e",
+          "text": "Granular IgA deposits in the dermal papillae"
         }
       ],
       "answer": "a",
@@ -1936,7 +1959,8 @@
       "whyWrong": {
         "b": "A net-like intraepidermal pattern is pemphigus vulgaris, caused by antibodies to desmogleins 1 and 3. It shows suprabasal acantholysis ('tombstone' basal cells), a positive Nikolsky sign, easily ruptured blisters, and starts in the mouth in about 80% of cases.",
         "c": "Bullous pemphigoid is antibody mediated, so deposits are expected.",
-        "d": "IgE on mast cells is type I hypersensitivity (hives), which does not form subepidermal blisters."
+        "d": "IgE on mast cells is type I hypersensitivity (hives), which does not form subepidermal blisters.",
+        "e": "Granular IgA in the dermal papillae is dermatitis herpetiformis, the itchy, grouped-vesicle rash linked to celiac disease."
       },
       "sources": [
         {
@@ -1946,6 +1970,10 @@
         {
           "title": "StatPearls: Pemphigus Vulgaris",
           "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK560860/"
+        },
+        {
+          "title": "StatPearls: Dermatitis Herpetiformis",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK493163/"
         }
       ]
     },
@@ -2124,14 +2152,19 @@
         {
           "id": "d",
           "text": "Normal cardiac index, normal pulmonary capillary wedge pressure"
+        },
+        {
+          "id": "e",
+          "text": "Normal cardiac index, high pulmonary capillary wedge pressure"
         }
       ],
       "answer": "a",
       "explanation": "Answer: low cardiac index with high wedge pressure. Why: this is cardiogenic shock, and acute MI is its most common cause. The damaged left ventricle cannot pump, so cardiac output falls (cardiac index 2.2 L/min/m2 or less) and blood backs up into the lungs, raising the pulmonary capillary wedge pressure (PCWP, above 15 mm Hg) and causing crackles. A PCWP above 15 mm Hg separates cardiogenic from non-cardiogenic shock. The body responds with sympathetic vasoconstriction, which is why the skin is cold and clammy.",
       "whyWrong": {
-        "b": "Low output with low filling pressure fits hypovolemic shock (blood or fluid loss), where the lungs would be clear.",
-        "c": "High output with low filling pressure fits early septic (distributive) shock, where the skin is often warm.",
-        "d": "Normal values would not explain hypotension, confusion, and pulmonary congestion."
+        "b": "Low output with a low wedge pressure fits hypovolemic shock: the problem is too little blood volume, not a failing pump, so filling pressure is low (PCWP 15 mm Hg or less means non-cardiogenic) and the lungs are clear.",
+        "c": "High output with a low wedge pressure fits distributive (e.g., septic) shock, where the primary problem is low peripheral vascular resistance, not pump failure.",
+        "d": "Normal values would not explain hypotension, confusion, and pulmonary congestion.",
+        "e": "A normal cardiac index would not explain hypotension and poor perfusion after a large MI; low output (cardiac index 2.2 L/min/m2 or less) is what defines cardiogenic shock."
       },
       "sources": [
         {
@@ -2141,6 +2174,10 @@
         {
           "title": "StatPearls: Pulmonary Capillary Wedge Pressure",
           "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK557748/"
+        },
+        {
+          "title": "StatPearls: Shock",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK531492/"
         }
       ]
     },
@@ -2181,7 +2218,7 @@
       "answer": "a",
       "explanation": "Answer: the Na-Cl cotransporter in the distal convoluted tubule. Why: thiazide diuretics (e.g., hydrochlorothiazide, chlorthalidone) block this transporter and increase calcium reabsorption, which lowers urine calcium and helps prevent calcium stones. Because of this, thiazides can cause high serum calcium. Other key thiazide side effects are low potassium, low sodium, high uric acid (gout), high glucose, and high lipids.",
       "whyWrong": {
-        "b": "Loop diuretics (furosemide) block Na-K-2Cl in the thick ascending limb and increase calcium loss in urine, the opposite of what she needs.",
+        "b": "Loop diuretics (furosemide) block Na-K-2Cl in the thick ascending limb, which also causes calcium and magnesium loss in the urine, the opposite of what she needs.",
         "c": "Carbonic anhydrase inhibitors (acetazolamide) alkalinize the urine, which favors calcium phosphate stones, and do not lower urine calcium.",
         "d": "Aldosterone antagonists (spironolactone) are potassium-sparing diuretics and are not used to lower urine calcium.",
         "e": "Osmotic diuretics (mannitol) are used for raised intracranial pressure, not to prevent kidney stones."
@@ -2190,6 +2227,10 @@
         {
           "title": "StatPearls: Thiazide Diuretics",
           "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK532918/"
+        },
+        {
+          "title": "StatPearls: Loop Diuretics",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK546656/"
         }
       ]
     },
