@@ -3187,7 +3187,7 @@
       "options": [
         {
           "id": "a",
-          "text": "138 mEq/L"
+          "text": "About 138 to 142 mEq/L"
         },
         {
           "id": "b",
@@ -3195,29 +3195,33 @@
         },
         {
           "id": "c",
-          "text": "139 mEq/L"
+          "text": "About 134 mEq/L"
         },
         {
           "id": "d",
-          "text": "118 mEq/L"
+          "text": "About 118 mEq/L"
         },
         {
           "id": "e",
-          "text": "134 mEq/L"
+          "text": "It cannot be estimated without measuring plasma osmolality"
         }
       ],
       "answer": "a",
-      "explanation": "Answer: about 138 mEq/L. Why: serum sodium falls about 1.6 mEq/L for every 100 mg/dL rise in glucose. Glucose has risen about 600 mg/dL above normal (700 - 100), so 6 × 1.6 = 9.6 mEq/L. Corrected sodium = 128 + 9.6 ≈ 138 mEq/L, which is normal. Mechanism: glucose raises plasma osmolality and pulls water out of cells, diluting the sodium (translocational hyponatremia). Treating the hyperglycemia lets the water move back into cells, and the sodium rises. Do not confuse this with pseudohyponatremia, where severe hyperlipidemia or extreme hyperproteinemia (e.g., multiple myeloma) takes up space in the sample: the true serum sodium and the osmolality are normal.",
+      "explanation": "Answer: about 138 to 142 mEq/L, which is normal. Why: high glucose lowers the measured sodium. The most commonly used correction is 1.6 mEq/L for every 100 mg/dL rise in glucose. Glucose has risen about 600 mg/dL above normal (700 - 100), so 6 × 1.6 = 9.6, and the corrected sodium is 128 + 9.6 ≈ 138 mEq/L. Some sources use about 2.4 mEq/L per 100 mg/dL instead (Hillier 1999), especially when glucose is above about 440 mg/dL; that gives 128 + 14.4 ≈ 142 mEq/L. Either way, the corrected sodium is normal. Mechanism: glucose raises plasma osmolality and pulls water out of cells, diluting the sodium (translocational hyponatremia). As the glucose is treated, the water moves back into cells and the sodium rises. Do not confuse this with pseudohyponatremia, where severe hyperlipidemia or extreme hyperproteinemia (e.g., multiple myeloma) takes up space in the sample: the sodium in the serum itself and the osmolality are normal.",
       "whyWrong": {
-        "b": "128 is the measured value. Glucose pulls water out of cells and dilutes the sodium, so the measured sodium understates the true value.",
-        "c": "139 multiplies 1.6 by the full glucose (700 / 100 = 7) instead of the rise above a normal glucose of about 100 mg/dL.",
+        "b": "128 is the measured value. The correction estimates what the sodium will be once the glucose, and the water it pulled out of cells, return to normal.",
+        "c": "134 adds only 1 mEq/L per 100 mg/dL. The factor is about 1.6 mEq/L per 100 mg/dL rise in glucose (or about 2.4 in some sources), not 1.",
         "d": "118 subtracts the correction. Hyperglycemia lowers the measured sodium, so the correction is added.",
-        "e": "134 adds 1 mEq/L per 100 mg/dL. The factor is about 1.6 mEq/L for every 100 mg/dL rise in glucose."
+        "e": "No osmolality is needed: the correction is calculated from the glucose alone, at about 1.6 mEq/L for every 100 mg/dL rise."
       },
       "sources": [
         {
           "title": "MSD Manual Professional: Hyponatremia",
           "url": "https://www.msdmanuals.com/professional/nephrology/electrolyte-disorders/hyponatremia"
+        },
+        {
+          "title": "Huffman GB. Adjusting Sodium Levels in Patients with Hyperglycemia. Am Fam Physician 1999;60(6):1821 (summary of Hillier TA et al., Am J Med 1999;106:399-403)",
+          "url": "https://www.aafp.org/pubs/afp/issues/1999/1015/p1821.html"
         }
       ]
     }
