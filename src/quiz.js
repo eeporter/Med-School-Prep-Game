@@ -72,3 +72,15 @@ export function updateStreak(streak, todayStr, daysBetweenFn) {
   const gap = s.lastDay ? daysBetweenFn(s.lastDay, todayStr) : null;
   return { count: gap === 1 ? s.count + 1 : 1, lastDay: todayStr };
 }
+
+// Focus picks. Topics are keyed by system too, because the same topic name
+// (for example acid-base compensation) can sit under more than one system.
+export function topicKey(q) {
+  return `${q.system}|${q.topic}`;
+}
+
+// A question joins a Focus drill if it matches any pick: a ticked NBME subject,
+// a ticked topic, or (with "missed" on) a question she is still struggling with.
+export function matchesFocus(q, { subjects = [], topics = [], missed = false } = {}, struggling = false) {
+  return subjects.includes(q.discipline) || topics.includes(topicKey(q)) || (missed && struggling);
+}

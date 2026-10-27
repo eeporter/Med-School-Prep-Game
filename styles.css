@@ -93,3 +93,19 @@ progress { width: 100%; }
 details { border: 1px solid var(--border); border-radius: 8px; padding: 8px 12px; margin-bottom: 8px; background: var(--surface); }
 summary { cursor: pointer; font-weight: 600; }
 .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.mode.wide { grid-column: 1 / -1; }
+.mode details { margin: 0; }
+.mode details[open] > summary { margin-bottom: 6px; }
+label.check { flex-direction: row; align-items: center; gap: 10px; font-size: 0.95rem; min-height: 40px; cursor: pointer; }
+label.check input { width: 20px; height: 20px; flex: none; margin: 0; }
+label.check.all { font-weight: 600; }
+.checks { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); column-gap: 12px; }
+details.sys { margin: 8px 0 0; }
+details.sys label.check:not(.all) { padding-left: 12px; }
+input[type="search"] {
+  font: inherit; padding: 8px; border-radius: 6px; border: 1px solid var(--border);
+  background: var(--surface); color: var(--text); margin-bottom: 4px;
+}
+.mode .row { display: flex; flex-wrap: wrap; gap: 8px; margin-top: auto; }
+.mode .row button { margin-top: 0; }
+button:disabled { opacity: 0.5; cursor: not-allowed; }

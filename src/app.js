@@ -1,12 +1,13 @@
 // Browser UI. All question text is rendered with textContent, never innerHTML.
 
 import { usableQuestions, DISCIPLINES, SYSTEMS } from './bank.js';
-import { review, isDue, isMastered, newCard } from './scheduler.js';
-import { presentQuestion, isCorrect, xpFor, levelFor, interleave, shuffle, updateStreak } from './quiz.js';
+import { review, isDue, isMastered, isStruggling, newCard } from './scheduler.js';
+import { presentQuestion, isCorrect, xpFor, levelFor, interleave, shuffle, updateStreak, topicKey, matchesFocus } from './quiz.js';
 import { load, save } from './storage.js';
 import { today, daysBetween } from './dates.js';
 
 const NEW_PER_ROUNDS = 10;
+const FOCUS_KEY = 'med-prep-focus';
 const SECONDS_PER_BLOCK_QUESTION = 90;
 
 const $ = (id) => document.getElementById(id);
@@ -23,6 +24,8 @@ try { storage = window.localStorage; } catch { storage = null; }
 let state = load(storage);
 let questions = [];
 let session = null;
+let focus = loadFocus();
+let focusChecks = [];
 
 function persist() {
   if (!save(storage, state)) console.warn('Progress could not be saved (storage unavailable).');
@@ -49,22 +52,8 @@ function renderHome() {
   const unseen = questions.filter((q) => !state.cards[q.id]).length;
   $('due-summary').textContent = `${due} due for review, ${unseen} not yet seen.`;
 
-  const sel = $('focus-select');
-  if (!sel.options.length) {
-    const groups = [['NBME subject', DISCIPLINES, 'discipline'], ['Organ system', SYSTEMS, 'system']];
-    for (const [label, values, field] of groups) {
-      const og = document.createElement('optgroup');
-      og.label = label;
-      for (const v of values) {
-        const n = questions.filter((q) => q[field] === v).length;
-        if (!n) continue;
-        const o = el('option', `${v} (${n})`);
-        o.value = `${field}:${v}`;
-        og.appendChild(o);
-      }
-      sel.appendChild(og);
-    }
-  }
+  if (!focusChecks.length) buildFocusPicker();
+  focusChanged();
 
   const list = $('mastery-list');
   list.replaceChildren();
@@ -89,6 +78,110 @@ function renderHome() {
   show('home');
 }
 
+// Focus picks are a per-device convenience, kept apart from progress so a bad
+// value here can never touch the review schedule.
+function loadFocus() {
+  const strings = (v) => (Array.isArray(v) ? v.filter((x) => typeof x === 'string') : []);
+  try {
+    const raw = JSON.parse(storage?.getItem(FOCUS_KEY) || '{}') || {};
+    return { subjects: strings(raw.subjects), topics: strings(raw.topics), missed: raw.missed === true };
+  } catch {
+    return { subjects: [], topics: [], missed: false };
+  }
+}
+
+function saveFocus() {
+  try { storage?.setItem(FOCUS_KEY, JSON.stringify(focus)); } catch { /* not saved; picks reset next visit */ }
+}
+
+function focusQuestions() {
+  return questions.filter((q) => matchesFocus(q, focus, isStruggling(state.cards[q.id])));
+}
+
+function setPick(list, value, on) {
+  const i = list.indexOf(value);
+  if (on && i === -1) list.push(value);
+  if (!on && i !== -1) list.splice(i, 1);
+}
+
+// A checkbox row. sync() redraws it from the current picks.
+function check(text, sync, onChange) {
+  const label = el('label', null, 'check');
+  const input = document.createElement('input');
+  input.type = 'checkbox';
+  input.addEventListener('change', () => { onChange(input.checked); focusChanged(); });
+  label.append(input, el('span', text));
+  focusChecks.push(() => sync(input));
+  return label;
+}
+
+function buildFocusPicker() {
+  const allKeys = new Set(questions.map(topicKey));
+  focus.topics = focus.topics.filter((k) => allKeys.has(k));
+
+  $('focus-missed').addEventListener('change', (e) => { focus.missed = e.target.checked; focusChanged(); });
+  focusChecks.push(() => { $('focus-missed').checked = focus.missed; });
+
+  const subjects = $('focus-subjects');
+  for (const d of DISCIPLINES) {
+    const n = questions.filter((q) => q.discipline === d).length;
+    if (!n) continue;
+    subjects.appendChild(check(`${d} (${n})`, (i) => { i.checked = focus.subjects.includes(d); }, (on) => setPick(focus.subjects, d, on)));
+  }
+
+  const systems = $('focus-systems');
+  for (const sys of SYSTEMS) {
+    const qs = questions.filter((q) => q.system === sys);
+    if (!qs.length) continue;
+    const keys = [...new Set(qs.map(topicKey))].sort((a, b) => a.localeCompare(b));
+    const group = el('details', null, 'sys');
+    group.dataset.name = sys.toLowerCase();
+    group.appendChild(el('summary', `${sys} (${qs.length})`));
+    const all = check(`All of ${sys}`, (i) => {
+      const picked = keys.filter((k) => focus.topics.includes(k)).length;
+      i.checked = picked === keys.length;
+      i.indeterminate = picked > 0 && picked < keys.length;
+    }, (on) => { for (const k of keys) setPick(focus.topics, k, on); });
+    all.classList.add('all');
+    group.appendChild(all);
+    for (const k of keys) {
+      const topic = k.slice(sys.length + 1);
+      const n = qs.filter((q) => topicKey(q) === k).length;
+      const row = check(`${topic} (${n})`, (i) => { i.checked = focus.topics.includes(k); }, (on) => setPick(focus.topics, k, on));
+      row.dataset.topic = topic.toLowerCase();
+      group.appendChild(row);
+    }
+    systems.appendChild(group);
+  }
+}
+
+// Typing in "Find a topic" opens the systems that contain a match and hides
+// the topics that do not. A system-name match shows that whole system.
+function filterTopics() {
+  const term = $('focus-search').value.trim().toLowerCase();
+  for (const group of $('focus-systems').children) {
+    const sysHit = term && group.dataset.name.includes(term);
+    let any = false;
+    for (const row of group.querySelectorAll('[data-topic]')) {
+      const hit = !term || sysHit || row.dataset.topic.includes(term);
+      row.hidden = !hit;
+      any ||= hit;
+    }
+    group.hidden = !any;
+    if (term) group.open = any;
+  }
+}
+
+function focusChanged() {
+  for (const sync of focusChecks) sync();
+  saveFocus();
+  const struggling = questions.filter((q) => isStruggling(state.cards[q.id])).length;
+  $('focus-missed-label').textContent = `Questions I have missed and not yet mastered (${struggling})`;
+  const n = focusQuestions().length;
+  $('focus-count').textContent = n ? `${n} question${n === 1 ? '' : 's'} picked.` : 'Nothing picked yet. Tick at least one box above.';
+  $('focus-start').disabled = n === 0;
+}
+
 function buildQueue(mode) {
   const t = today();
   if (mode === 'rounds') {
@@ -100,8 +193,8 @@ function buildQueue(mode) {
     return [...interleave(misses), ...interleave([...rest, ...fresh])];
   }
   if (mode === 'focus') {
-    const [field, value] = $('focus-select').value.split(/:(.*)/s);
-    return shuffle(questions.filter((q) => q[field] === value));
+    // Mix the picked topics rather than running them in blocks.
+    return interleave(focusQuestions(), (q) => q.topic);
   }
   const exam = $('exam-select').value;
   const size = Number($('block-size').value);
@@ -290,6 +383,13 @@ function wire() {
   for (const b of document.querySelectorAll('[data-confidence]')) b.addEventListener('click', () => answer(b.dataset.confidence));
   $('next-btn').addEventListener('click', advance);
   $('sum-home').addEventListener('click', renderHome);
+  $('focus-search').addEventListener('input', filterTopics);
+  $('focus-clear').addEventListener('click', () => {
+    focus = { subjects: [], topics: [], missed: false };
+    $('focus-search').value = '';
+    filterTopics();
+    focusChanged();
+  });
   $('home-link').addEventListener('click', (e) => {
     e.preventDefault();
     if (session && !confirm('Leave this session? Answers so far are saved.')) return;

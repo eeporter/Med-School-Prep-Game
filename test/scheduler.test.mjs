@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { review, newCard, gradeFor, nextEase, isDue, isMastered, MIN_EASE } from '../src/scheduler.js';
+import { review, newCard, gradeFor, nextEase, isDue, isMastered, isStruggling, MIN_EASE } from '../src/scheduler.js';
 import { addDays, daysBetween, toDayString } from '../src/dates.js';
 
 const D = '2026-03-01';
@@ -88,4 +88,11 @@ test('day arithmetic survives month, year, leap-day, and DST boundaries', () => 
   assert.equal(daysBetween('2026-11-02', '2026-10-31'), -2);
   assert.equal(toDayString(new Date(2026, 0, 5, 23, 59)), '2026-01-05');
   assert.throws(() => addDays('03/01/2026', 1));
+});
+
+test('isStruggling: missed at least once and not yet mastered', () => {
+  assert.equal(isStruggling(undefined), false);
+  assert.equal(isStruggling(newCard()), false);
+  assert.equal(isStruggling({ ...newCard(), lapses: 1, interval: 6 }), true);
+  assert.equal(isStruggling({ ...newCard(), lapses: 1, interval: 21 }), false);
 });
