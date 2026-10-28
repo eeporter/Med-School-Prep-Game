@@ -7284,7 +7284,7 @@
         "b": "High phenylalanine is phenylketonuria, which causes intellectual disability from infancy if untreated. It does not cause adrenal insufficiency.",
         "c": "High homocysteine is classic homocystinuria, with lens dislocation, osteoporosis, and blood clots.",
         "d": "High branched-chain amino acids (especially leucine) point to maple syrup urine disease, which usually presents in the first days of life with vomiting, lethargy, and seizures.",
-        "e": "High ammonia points to a urea cycle disorder. Neither that nor the others explain adrenal failure with white matter disease."
+        "e": "High ammonia points to a urea cycle disorder, which does not cause adrenal insufficiency."
       },
       "sources": [
         {
@@ -7474,7 +7474,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: leucine (maple syrup urine disease, MSUD). Why: a newborn who becomes severely ill in the first days of life, with vomiting and lethargy progressing to seizures, and body fluids that smell of maple syrup (especially strong in earwax) has MSUD. A defect in the branched-chain alpha-ketoacid dehydrogenase complex blocks breakdown of the branched-chain amino acids valine, leucine, and isoleucine. Diagnosis rests on high plasma branched-chain amino acids, particularly leucine. Thiamine is a cofactor, and some patients respond to high-dose thiamine. Long-term treatment restricts branched-chain amino acids in the diet, and liver transplantation is curative. Note: your table names the enzyme \"alpha-ketoacid decarboxylase\"; MSD names the whole dehydrogenase complex, with thiamine needed for the decarboxylation step, so both point at the same enzyme. Untreated, it progresses to coma and death.",
+      "explanation": "Answer: leucine (maple syrup urine disease, MSUD). Why: a newborn who becomes severely ill in the first days of life, with vomiting and lethargy progressing to seizures, and body fluids that smell of maple syrup (especially strong in earwax) has MSUD. A defect in the branched-chain alpha-ketoacid dehydrogenase complex blocks breakdown of the branched-chain amino acids valine, leucine, and isoleucine. Diagnosis rests on high plasma branched-chain amino acids, particularly leucine. Thiamine is a cofactor, and some patients respond to high-dose thiamine. Long-term treatment restricts branched-chain amino acids in the diet, and liver transplantation is curative. Untreated, it progresses to coma and death. Other source: your table names the enzyme \"alpha-ketoacid decarboxylase\"; MSD names the whole dehydrogenase complex, with thiamine needed for the decarboxylation step, so both point at the same enzyme.",
       "whyWrong": {
         "b": "High phenylalanine is phenylketonuria, which causes slow developmental delay, not a crisis in the first week.",
         "c": "High methionine is the newborn screening marker for classic homocystinuria, which does not cause an acute crisis or a maple syrup odor.",
@@ -7602,7 +7602,7 @@
       "answer": "a",
       "explanation": "Answer: hypoxanthine-guanine phosphoribosyltransferase (HGPRT; Lesch-Nyhan syndrome). Why: a boy with motor delay, dystonia and choreoathetosis, self-injurious biting of the lips and fingers (usually starting at ages 2 to 4), and high uric acid has Lesch-Nyhan syndrome. Orange crystals (\"orange sand\") in the diaper can be the earliest clue. HGPRT recycles purine bases (the salvage pathway). Without it, the cell makes more purines from scratch (de novo), and the excess is broken down to uric acid, which causes gout and kidney stones. The gene, HPRT1, is on the X chromosome, so the disease is X-linked recessive and affects boys. Allopurinol controls uric acid and prevents gout and stones, but it does not improve the neurologic or behavioral symptoms.",
       "whyWrong": {
-        "b": "UMP synthase deficiency is hereditary orotic aciduria, a pyrimidine disorder with megaloblastic anemia and orotic acid crystals, not high uric acid.",
+        "b": "UMP synthase (uridine monophosphate synthase) deficiency is hereditary orotic aciduria, a pyrimidine disorder with megaloblastic anemia and orotic acid crystals, not high uric acid.",
         "c": "Phenylalanine hydroxylase deficiency is phenylketonuria, with intellectual disability, light skin, and a musty odor.",
         "d": "Galactocerebrosidase deficiency is Krabbe disease, a leukodystrophy of early infancy.",
         "e": "Cystathionine beta-synthase deficiency is homocystinuria, with lens dislocation, osteoporosis, and blood clots."
@@ -7668,7 +7668,7 @@
       "explanation": "Answer: UMP synthase (hereditary orotic aciduria). Why: megaloblastic anemia in the first months of life with normal B12 and folate, failure to thrive, developmental delay, and orotic acid crystals in the urine are hereditary orotic aciduria. UMP synthase (uridine 5'-monophosphate synthase) does the last two steps of pyrimidine synthesis, so orotic acid piles up and cells cannot make enough pyrimidines for DNA. It is autosomal recessive. The key contrast is with urea cycle disorders such as ornithine transcarbamylase deficiency, which also raise urinary orotic acid but cause high blood ammonia; hereditary orotic aciduria does not. Treatment is lifelong uridine triacetate (Xuriden), approved by the FDA, which supplies the missing uridine. Note: your notes list uridine or uridine monophosphate; uridine triacetate is the approved form.",
       "whyWrong": {
         "b": "Ornithine transcarbamylase deficiency also raises urinary orotic acid, but it causes high blood ammonia. His ammonia is normal.",
-        "c": "HGPRT deficiency (Lesch-Nyhan syndrome) is a purine disorder with high uric acid and self-injury, not megaloblastic anemia.",
+        "c": "HGPRT (hypoxanthine-guanine phosphoribosyltransferase) deficiency, or Lesch-Nyhan syndrome, is a purine disorder with high uric acid and self-injury, not megaloblastic anemia.",
         "d": "Phenylalanine hydroxylase deficiency (phenylketonuria) causes developmental delay but not megaloblastic anemia or orotic aciduria.",
         "e": "Cystathionine beta-synthase deficiency (homocystinuria) causes lens dislocation and blood clots, not orotic aciduria."
       },
@@ -9252,6 +9252,1066 @@
         {
           "title": "MSD Manual Professional: Overview of Hemolytic Anemia",
           "url": "https://www.msdmanuals.com/professional/hematology/anemias-caused-by-hemolysis/overview-of-hemolytic-anemia"
+        }
+      ]
+    },
+    {
+      "id": "ob-ectopic-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Reproductive",
+      "topic": "Ectopic pregnancy",
+      "difficulty": 2,
+      "stem": "A 27-year-old woman comes to the emergency department because of left lower abdominal pain and light vaginal bleeding for 1 day. Her last menstrual period was 7 weeks ago. She was treated for a chlamydial infection 3 years ago. Her pulse is 96/min and blood pressure is 118/74 mm Hg. There is tenderness in the left lower quadrant. Serum beta-hCG concentration is 4,200 mIU/mL. Transvaginal ultrasonography shows no gestational sac in the uterus and a small mass next to the left ovary.",
+      "leadIn": "Which of the following is the most likely diagnosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ectopic tubal pregnancy"
+        },
+        {
+          "id": "b",
+          "text": "Normal early intrauterine pregnancy"
+        },
+        {
+          "id": "c",
+          "text": "Complete hydatidiform mole"
+        },
+        {
+          "id": "d",
+          "text": "Threatened abortion"
+        },
+        {
+          "id": "e",
+          "text": "Ovarian endometrioma"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: ectopic tubal pregnancy. Why: a woman with a positive pregnancy test, pelvic pain, and bleeding, whose hCG is high enough that a pregnancy in the uterus should be visible but is not, most likely has an ectopic pregnancy. Most ectopic pregnancies are in the fallopian tube. A past chlamydial infection or pelvic inflammatory disease raises the risk, as do a prior ectopic pregnancy and tubal surgery. Most patients have pelvic pain, vaginal bleeding, or both, and rupture can cause sudden severe pain and shock. Small unruptured ectopic pregnancies can be treated with methotrexate if there are no contraindications, and surgery is done if rupture is suspected. Recent change: your Obstetrics notes (pp. 14 and 43) use 1,500 mIU/mL as the hCG level above which a uterine sac should be seen on transvaginal ultrasound. MSD Manual says the recommended threshold has been raised to 3,500 mIU/mL, so that a wanted early pregnancy is not mistaken for an ectopic one and treated. Her hCG is above both cutoffs.",
+      "whyWrong": {
+        "b": "Above the hCG threshold of 3,500 mIU/mL, a normal pregnancy inside the uterus should be visible on transvaginal ultrasound. None is seen here.",
+        "c": "A complete mole usually makes the uterus larger than expected, with very high hCG and a uterine mass full of cysts. Her uterus is empty.",
+        "d": "Threatened abortion means bleeding with a pregnancy inside the uterus. No pregnancy is seen in her uterus.",
+        "e": "An endometrioma (chocolate cyst) is an ovarian cyst caused by endometriosis. It does not explain a positive pregnancy test with an empty uterus."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Ectopic Pregnancy",
+          "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/early-pregnancy-disorders/ectopic-pregnancy"
+        },
+        {
+          "title": "MSD Manual Professional: Gestational Trophoblastic Disease",
+          "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/gynecologic-tumors/gestational-trophoblastic-disease"
+        },
+        {
+          "title": "MSD Manual Professional: Endometriosis",
+          "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/endometriosis/endometriosis"
+        }
+      ]
+    },
+    {
+      "id": "ob-preeclampsia-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Reproductive",
+      "topic": "Preeclampsia",
+      "difficulty": 2,
+      "stem": "A 31-year-old woman, gravida 1, para 0, at 34 weeks' gestation comes to the physician because of a headache for 2 days. Her blood pressure was normal at all earlier visits. Today her blood pressure is 154/102 mm Hg, and it is 156/100 mm Hg 4 hours later. Platelet count is 86,000/mm3, and AST and ALT are each about 3 times the upper limit of normal. A urine dipstick is negative for protein, and the urine protein-to-creatinine ratio is normal.",
+      "leadIn": "Which of the following is thought to contribute to the development of her condition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Poorly developed placental spiral arteries"
+        },
+        {
+          "id": "b",
+          "text": "Autoantibodies against platelet glycoproteins"
+        },
+        {
+          "id": "c",
+          "text": "Aldosterone made by an adrenal adenoma"
+        },
+        {
+          "id": "d",
+          "text": "Trophoblast containing only paternal genes"
+        },
+        {
+          "id": "e",
+          "text": "Ascending infection of the fetal membranes"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: poorly developed placental spiral arteries (preeclampsia). Why: new high blood pressure after 20 weeks with a low platelet count and raised liver enzymes is preeclampsia, even without protein in the urine. The exact cause is unknown, but poorly developed spiral arterioles in the uterus and placenta, along with genetic and immune factors, lead to poor placental blood flow. Widespread spasm of blood vessels then injures the mother's brain, kidneys, and liver. Her platelets below 100,000 and liver enzymes over twice normal are severe features. Delivery is the only definitive treatment. Low-dose aspirin started between 12 and 28 weeks is recommended for women at high risk. Recent change: your Obstetrics notes (p. 75) require proteinuria for the diagnosis. MSD Manual says preeclampsia can also be diagnosed without proteinuria when new high blood pressure comes with signs of organ damage, such as low platelets, raised liver enzymes, kidney impairment, pulmonary edema, headache, or visual symptoms.",
+      "whyWrong": {
+        "b": "Autoantibodies against platelets cause immune thrombocytopenia, which lowers platelets but does not cause high blood pressure or raised liver enzymes.",
+        "c": "An aldosterone-making adrenal adenoma causes high blood pressure with low potassium. It does not start after 20 weeks of pregnancy with low platelets and liver injury.",
+        "d": "Trophoblast with only paternal genes is a complete mole. A mole can cause preeclampsia early, in the first or second trimester, but this is a normal pregnancy at 34 weeks.",
+        "e": "Infection of the fetal membranes causes fever and uterine tenderness, not this pattern of high blood pressure and organ damage."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Preeclampsia and Eclampsia",
+          "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/antenatal-complications/preeclampsia-and-eclampsia"
+        },
+        {
+          "title": "MSD Manual Professional: Gestational Trophoblastic Disease",
+          "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/gynecologic-tumors/gestational-trophoblastic-disease"
+        }
+      ]
+    },
+    {
+      "id": "pharm-magnesium-toxicity-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Reproductive",
+      "topic": "Preeclampsia: magnesium sulfate toxicity",
+      "difficulty": 2,
+      "stem": "A 29-year-old woman at 36 weeks' gestation is admitted with preeclampsia with severe features. She receives magnesium sulfate, 4 g intravenously over 20 minutes, followed by an infusion of 2 g/h. Ten hours later she is very drowsy. Her respirations are 8/min and shallow. Patellar and biceps reflexes cannot be elicited. Her serum magnesium concentration is markedly elevated.",
+      "leadIn": "In addition to stopping the infusion, which of the following is the most appropriate treatment?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Intravenous calcium gluconate"
+        },
+        {
+          "id": "b",
+          "text": "Intravenous naloxone"
+        },
+        {
+          "id": "c",
+          "text": "Intravenous flumazenil"
+        },
+        {
+          "id": "d",
+          "text": "Intravenous labetalol"
+        },
+        {
+          "id": "e",
+          "text": "Intravenous potassium chloride"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: intravenous calcium gluconate. Why: magnesium sulfate prevents seizures in preeclampsia with severe features. It is given as a 4-g IV load over 20 minutes, then 2 g per hour, and continued for 12 to 24 hours after delivery. Signs of too much magnesium include a sudden decrease in reflexes, heart problems, and slow, shallow breathing (hypoventilation). MSD Manual recommends calcium gluconate 1 g IV for very high levels with significant symptoms, because calcium counteracts magnesium's effects. Checking reflexes during the infusion catches toxicity early.",
+      "whyWrong": {
+        "b": "Naloxone reverses opioids. She has not received an opioid, and her absent reflexes point to magnesium.",
+        "c": "Flumazenil reverses benzodiazepines, is given only IV, and can cause seizures. It has no effect on magnesium toxicity.",
+        "d": "Labetalol lowers blood pressure in preeclampsia, but it does not reverse magnesium toxicity.",
+        "e": "Potassium does not counteract magnesium. Calcium is the antidote."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Preeclampsia and Eclampsia",
+          "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/antenatal-complications/preeclampsia-and-eclampsia"
+        }
+      ]
+    },
+    {
+      "id": "ob-rh-indirect-coombs-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Immunology",
+      "system": "Reproductive",
+      "topic": "Rh alloimmunization",
+      "difficulty": 2,
+      "stem": "A 26-year-old woman, gravida 2, para 1, comes for her first prenatal visit at 9 weeks' gestation. Her blood type is O, Rh-negative. Her first child was born at home 2 years ago and was Rh-positive. She did not receive Rh(D) immune globulin during or after that pregnancy. The physician wants to know whether she has made antibodies that could cross the placenta and harm this fetus.",
+      "leadIn": "Which of the following tests on the mother's blood best answers this question?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Indirect antiglobulin (Coombs) test"
+        },
+        {
+          "id": "b",
+          "text": "Direct antiglobulin (Coombs) test"
+        },
+        {
+          "id": "c",
+          "text": "Kleihauer-Betke test for fetal cells"
+        },
+        {
+          "id": "d",
+          "text": "Hemoglobin electrophoresis of her blood"
+        },
+        {
+          "id": "e",
+          "text": "Rosette test for fetomaternal bleeding"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the indirect antiglobulin (Coombs) test, which is the maternal antibody screen. Why: an Rh-negative mother can be sensitized when Rh-positive fetal red cells enter her blood. The first pregnancy is not affected, but in later pregnancies her anti-D IgG crosses the placenta and destroys fetal red cells, causing anemia and possibly heart failure or death. All women are screened at the first visit for blood type, Rh type, and antibodies. The indirect antiglobulin test detects free antibodies in the serum, which is what this question asks. If antibody titers pass a critical value (usually 1:8 to 1:32), the fetus is followed with middle cerebral artery Doppler to look for anemia. Rh(D) immune globulin is given at 28 weeks and within 72 hours after delivery of an Rh-positive baby to prevent sensitization. Correction: your Obstetrics notes (p. 24) say blood type and Rh are determined with the direct Coombs test. The maternal antibody screen is the indirect test, as your own p. 30 says. The direct test detects antibodies already attached to red cells, such as the baby's cells in hemolytic disease of the newborn.",
+      "whyWrong": {
+        "b": "The direct antiglobulin test detects antibodies already attached to red cells. It is used on the newborn's cells, not to find free antibodies in the mother's serum.",
+        "c": "The Kleihauer-Betke test measures how much fetal blood has entered the mother's circulation, for example after delivery, to dose immune globulin. It does not detect antibodies.",
+        "d": "Hemoglobin electrophoresis looks for abnormal hemoglobins such as sickle hemoglobin. It does not detect Rh antibodies.",
+        "e": "The rosette test is a first screen for fetal blood in the mother's circulation. It does not show whether she has already made antibodies."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Hemolytic Disease of the Fetus and Neonate",
+          "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/antenatal-complications/hemolytic-disease-of-the-fetus-and-neonate"
+        },
+        {
+          "title": "StatPearls: Coombs Test",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK547707/"
+        }
+      ]
+    },
+    {
+      "id": "ob-gdm-neonatal-hypoglycemia-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Endocrine",
+      "topic": "Diabetes in pregnancy: infant of a diabetic mother",
+      "difficulty": 2,
+      "stem": "A boy is born at 39 weeks' gestation to a 33-year-old woman whose diabetes was poorly controlled throughout pregnancy. He weighs 4,600 g. Delivery was complicated by shoulder dystocia. Two hours after birth he is jittery and feeding poorly. His blood glucose concentration is 28 mg/dL.",
+      "leadIn": "Which of the following best explains his low blood glucose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Neonatal hyperinsulinemia"
+        },
+        {
+          "id": "b",
+          "text": "Maternal insulin crossing the placenta"
+        },
+        {
+          "id": "c",
+          "text": "Glucose-6-phosphatase deficiency"
+        },
+        {
+          "id": "d",
+          "text": "Adrenal insufficiency"
+        },
+        {
+          "id": "e",
+          "text": "Congenital hypothyroidism"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: neonatal hyperinsulinemia. Why: high maternal glucose reaches the fetus, whose pancreas responds by making extra insulin. After birth the supply of maternal glucose stops suddenly, but the baby's insulin stays high for a time, so the blood glucose falls. Hypoglycemia from fetal hyperinsulinemia is reported in infants of diabetic mothers. Other newborn problems include low calcium, jaundice, polycythemia, and breathing trouble. A large baby (macrosomia, birth weight over 4,000 to 4,500 g) raises the risk of shoulder dystocia. Poor control around conception and early pregnancy also raises the risk of major birth defects (MSD), and StatPearls lists heart defects such as ventricular septal defects and transposition of the great arteries, and caudal regression syndrome. Gestational diabetes is screened for at 24 to 28 weeks with a 50-g glucose load.",
+      "whyWrong": {
+        "b": "Insulin cannot cross the placenta, so the mother's insulin does not lower the baby's glucose.",
+        "c": "Glucose-6-phosphatase deficiency (von Gierke disease) causes low glucose between feeds, but the clue here is the mother's poorly controlled diabetes and a very large baby.",
+        "d": "Adrenal insufficiency can cause low glucose, but nothing here points to it, and the mother's diabetes explains the findings.",
+        "e": "Congenital hypothyroidism causes poor feeding and jaundice later, but it does not explain low glucose in a large baby of a diabetic mother."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Diabetic Embryopathy",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK558974/"
+        },
+        {
+          "title": "MSD Manual Professional: Diabetes Mellitus in Pregnancy",
+          "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/pregnancy-complicated-by-disease/diabetes-mellitus-in-pregnancy"
+        }
+      ]
+    },
+    {
+      "id": "ob-quad-screen-t18-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Genetics",
+      "system": "Reproductive",
+      "topic": "Prenatal screening: quad screen",
+      "difficulty": 2,
+      "stem": "A 36-year-old woman, gravida 2, para 1, has a quadruple serum screen at 16 weeks' gestation. Gestational age was confirmed by ultrasound in the first trimester. Her levels of alpha-fetoprotein, beta-hCG, unconjugated estriol, and inhibin A are all low for gestational age.",
+      "leadIn": "This pattern is most consistent with which of the following fetal conditions?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Trisomy 18"
+        },
+        {
+          "id": "b",
+          "text": "Trisomy 21"
+        },
+        {
+          "id": "c",
+          "text": "Open neural tube defect"
+        },
+        {
+          "id": "d",
+          "text": "Abdominal wall defect"
+        },
+        {
+          "id": "e",
+          "text": "Hydatidiform mole"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: trisomy 18. Why: MSD Manual describes the trisomy 18 pattern as low levels of all 4 serum markers. Confirmed dating matters because these results depend on gestational age. Screening results are never diagnostic. Abnormal results are confirmed by karyotyping of fetal cells from chorionic villus sampling or amniocentesis. Other source: your Obstetrics notes (p. 27) offer cell-free DNA testing after an abnormal quad screen. MSD Manual says ACOG now recommends offering cell-free DNA screening to all pregnant women. Its sensitivity is about 99% for trisomy 21, 98% for trisomy 18, and 91% for trisomy 13.",
+      "whyWrong": {
+        "b": "In trisomy 21, AFP and estriol are low, but hCG and inhibin A are high (standard teaching). In the first trimester, high hCG, low PAPP-A, and thick nuchal translucency suggest trisomy 21.",
+        "c": "An open neural tube defect raises AFP, which is low here.",
+        "d": "Abdominal wall defects raise AFP, which is low here.",
+        "e": "A molar pregnancy causes an unexpectedly high hCG, not a low one."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Noninvasive Prenatal Fetal Screening Tests",
+          "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/prenatal-genetic-counseling-and-evaluation/noninvasive-prenatal-fetal-screening-tests"
+        },
+        {
+          "title": "MSD Manual Professional: Gestational Trophoblastic Disease",
+          "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/gynecologic-tumors/gestational-trophoblastic-disease"
+        }
+      ]
+    },
+    {
+      "id": "ob-pph-atony-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Reproductive",
+      "topic": "Postpartum hemorrhage",
+      "difficulty": 1,
+      "stem": "A 32-year-old woman, gravida 6, para 5, delivers twins vaginally after 20 hours of labor that required an oxytocin infusion. The placentas are delivered intact. Over the next 30 minutes she loses about 1,300 mL of blood. Her pulse is 118/min and blood pressure is 92/58 mm Hg. The uterus is soft and boggy and is felt above the umbilicus. Inspection of the vagina and cervix shows no tears.",
+      "leadIn": "Which of the following is the most likely cause of her bleeding?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Uterine atony"
+        },
+        {
+          "id": "b",
+          "text": "Retained placental tissue"
+        },
+        {
+          "id": "c",
+          "text": "Genital tract laceration"
+        },
+        {
+          "id": "d",
+          "text": "Uterine inversion"
+        },
+        {
+          "id": "e",
+          "text": "Inherited bleeding disorder"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: uterine atony. Why: after delivery, the uterine muscle must contract to squeeze the blood vessels at the placental site shut. A soft, boggy, enlarged uterus that does not contract is uterine atony, the most common cause of postpartum hemorrhage. Her risk factors include an overstretched uterus from twins, a long labor, and grand multiparity (5 or more previous deliveries). Treatment starts with uterine massage and IV oxytocin, which should not be given as a fast IV push because it can cause severe low blood pressure. Methylergonovine is avoided in women with high blood pressure, and prostaglandin F2-alpha drugs are avoided in women with asthma. Tranexamic acid can be added if the first drugs fail. Recent change: your Obstetrics notes (p. 132) define postpartum hemorrhage as 500 mL or more after vaginal delivery or 1,000 mL after cesarean. MSD Manual now defines it as more than 1,000 mL, or blood loss with signs of low blood volume, within 24 hours of birth.",
+      "whyWrong": {
+        "b": "Retained placental tissue is another cause, but both placentas came out intact, and the soft uterus points to poor contraction.",
+        "c": "Lacerations bleed even when the uterus is firm. Her uterus is soft, and no tears were found.",
+        "d": "Uterine inversion means the uterus turns inside out, so the top of the uterus would not be felt above the umbilicus.",
+        "e": "A bleeding disorder is possible, but she has no history of one, and the boggy uterus explains the bleeding."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Postpartum Hemorrhage",
+          "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/intrapartum-complications/postpartum-hemorrhage"
+        }
+      ]
+    },
+    {
+      "id": "ob-placenta-previa-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Reproductive",
+      "topic": "Third-trimester bleeding: placenta previa",
+      "difficulty": 1,
+      "stem": "A 34-year-old woman, gravida 3, para 2, at 32 weeks' gestation comes to the emergency department because of sudden painless bright red vaginal bleeding that soaked a pad. Both previous children were delivered by cesarean. She smokes half a pack of cigarettes daily. Her pulse is 92/min and blood pressure is 116/72 mm Hg. The uterus is soft and not tender. The fetal heart rate tracing is normal.",
+      "leadIn": "Which of the following is the most likely diagnosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Placenta previa"
+        },
+        {
+          "id": "b",
+          "text": "Placental abruption"
+        },
+        {
+          "id": "c",
+          "text": "Uterine rupture"
+        },
+        {
+          "id": "d",
+          "text": "Cervical carcinoma"
+        },
+        {
+          "id": "e",
+          "text": "Ectopic pregnancy"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: placenta previa. Why: placenta previa means the placenta is implanted over or near the internal opening of the cervix. It typically causes painless vaginal bleeding after 20 weeks. Risk factors include prior cesarean delivery, multiparity, and smoking. Transvaginal ultrasonography is an accurate and safe way to make the diagnosis. A digital pelvic examination is contraindicated until ultrasound has ruled out previa, because it can cause heavy bleeding. In women with previa, each prior cesarean raises the risk that the placenta also grows too deeply into the uterine wall (placenta accreta spectrum), from about 3% after one cesarean to 67% after five or more.",
+      "whyWrong": {
+        "b": "Placental abruption is usually painful, with a tender uterus. Her bleeding is painless and her uterus is soft.",
+        "c": "Uterine rupture is more likely after prior cesareans but usually causes sudden pain, an abnormal fetal heart tracing, and maternal shock, especially during labor.",
+        "d": "Cervical cancer usually causes irregular or postcoital bleeding, not sudden heavy painless bleeding at 32 weeks.",
+        "e": "Ectopic pregnancy happens in early pregnancy. She is at 32 weeks with a normal fetal heart rate."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Placenta Previa",
+          "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/abnormalities-of-pregnancy/placenta-previa"
+        },
+        {
+          "title": "MSD Manual Professional: Cervical Cancer",
+          "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/gynecologic-tumors/cervical-cancer"
+        },
+        {
+          "title": "MSD Manual Professional: Ectopic Pregnancy",
+          "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/early-pregnancy-disorders/ectopic-pregnancy"
+        }
+      ]
+    },
+    {
+      "id": "ob-complete-mole-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Genetics",
+      "system": "Reproductive",
+      "topic": "Gestational trophoblastic disease: complete mole",
+      "difficulty": 2,
+      "stem": "A 22-year-old woman at 11 weeks' gestation comes to the physician because of vaginal bleeding and severe nausea and vomiting for 1 week. The uterus is the size expected at 16 weeks. Serum beta-hCG concentration is much higher than expected for her dates. Ultrasonography shows a uterine mass with many small cysts and no fetus or amniotic fluid.",
+      "leadIn": "Which of the following best describes the chromosomes in this tissue?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Diploid, with only paternal chromosomes"
+        },
+        {
+          "id": "b",
+          "text": "Triploid, with an extra paternal set"
+        },
+        {
+          "id": "c",
+          "text": "Diploid, with maternal and paternal sets"
+        },
+        {
+          "id": "d",
+          "text": "Trisomic, with an extra chromosome 18"
+        },
+        {
+          "id": "e",
+          "text": "Monosomic, with a single X chromosome"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: diploid, with only paternal chromosomes (complete hydatidiform mole). Why: bleeding, severe vomiting, a uterus larger than dates, very high hCG, and a cystic uterine mass with no fetus is a complete mole. Complete moles are diploid, most often 46,XX. The egg's own nucleus is missing or inactive, so all the chromosomes come from the sperm. Partial moles are triploid, from fertilization by two sperm or by one diploid sperm, and may contain some fetal tissue. Moles can also cause hyperthyroidism, ovarian theca lutein cysts, and preeclampsia in the first or second trimester. Treatment is suction curettage, followed by serial hCG levels. Choriocarcinoma develops after 2 to 3% of moles, more often after a complete mole.",
+      "whyWrong": {
+        "b": "Triploid tissue with an extra paternal set is a partial mole, which may contain fetal parts. Here no fetus is seen.",
+        "c": "A diploid set with one maternal and one paternal half is a normal pregnancy, not a cystic mass with no fetus.",
+        "d": "Trisomy 18 is a chromosome disorder of a fetus. It does not cause a cystic uterine mass with very high hCG.",
+        "e": "Monosomy X (Turner syndrome) is a fetal chromosome disorder, not a trophoblastic tumor."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Gestational Trophoblastic Disease",
+          "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/gynecologic-tumors/gestational-trophoblastic-disease"
+        }
+      ]
+    },
+    {
+      "id": "endo-sheehan-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Endocrine",
+      "topic": "Hypopituitarism: Sheehan syndrome",
+      "difficulty": 2,
+      "stem": "A 30-year-old woman comes to the physician 8 weeks after delivering her second child because she has been unable to breastfeed and feels very tired. The delivery was complicated by severe postpartum hemorrhage requiring transfusion of 6 units of blood for shock. Since then her milk has never come in. She has noticed thinning of her pubic and axillary hair.",
+      "leadIn": "Which of the following is the most likely cause of her symptoms?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ischemic necrosis of the anterior pituitary"
+        },
+        {
+          "id": "b",
+          "text": "Autoimmune destruction of the adrenal cortex"
+        },
+        {
+          "id": "c",
+          "text": "Prolactin-secreting pituitary adenoma"
+        },
+        {
+          "id": "d",
+          "text": "Autoimmune destruction of the thyroid gland"
+        },
+        {
+          "id": "e",
+          "text": "Antibodies that stimulate the TSH receptor"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: ischemic necrosis of the anterior pituitary (Sheehan syndrome). Why: the pituitary enlarges during pregnancy, which makes it especially sensitive to infarction when blood pressure falls. After a hemorrhage with shock, the gland can die. Lactation then does not start because prolactin is lost, and patients may report tiredness and loss of pubic and axillary hair. In hypopituitarism, growth hormone is usually lost first, then the gonadotropins, and finally TSH and ACTH. ACTH deficiency causes fatigue, low blood pressure, and poor tolerance of stress, and TSH deficiency causes hypothyroidism.",
+      "whyWrong": {
+        "b": "Autoimmune adrenal failure (Addison disease) causes fatigue, but it does not stop milk production after delivery.",
+        "c": "A prolactin-secreting adenoma raises prolactin, so it would cause milk production (galactorrhea), not a failure to lactate.",
+        "d": "Autoimmune thyroid disease can cause tiredness, but it does not explain a complete failure to lactate after a hemorrhage with shock.",
+        "e": "TSH receptor-stimulating antibodies cause Graves disease, with hyperthyroidism. They would not stop lactation or cause hair loss of this pattern."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Generalized Hypopituitarism",
+          "url": "https://www.msdmanuals.com/professional/endocrine-and-metabolic-disorders/pituitary-disorders/generalized-hypopituitarism"
+        }
+      ]
+    },
+    {
+      "id": "path-pcos-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Reproductive",
+      "topic": "Polycystic ovary syndrome",
+      "difficulty": 2,
+      "stem": "A 24-year-old woman comes to the physician because of irregular menstrual periods since menarche, with only 4 periods in the past year. She has acne and coarse hair on her chin and lower abdomen. Her BMI is 33 kg/m2. There are areas of dark, velvety, thickened skin on the back of her neck and in her axillae. Serum testosterone is mildly elevated. Transvaginal ultrasonography shows enlarged ovaries with many small follicles.",
+      "leadIn": "Without treatment, this patient is at increased risk for which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Endometrial carcinoma"
+        },
+        {
+          "id": "b",
+          "text": "Squamous cell carcinoma of the cervix"
+        },
+        {
+          "id": "c",
+          "text": "Osteoporosis from estrogen deficiency"
+        },
+        {
+          "id": "d",
+          "text": "Ovarian dysgerminoma"
+        },
+        {
+          "id": "e",
+          "text": "Hydatidiform mole"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: endometrial carcinoma. Why: irregular periods from infrequent ovulation, signs of excess androgen (acne, hirsutism), and polycystic ovaries meet the Rotterdam criteria for polycystic ovary syndrome, which need any 2 of these 3. Insulin resistance with high insulin levels is central, and high insulin may increase ovarian androgen production. The dark, velvety skin is acanthosis nigricans, caused by high insulin. Because she ovulates rarely, her estrogen is not regularly opposed by progesterone, which raises the risk of endometrial hyperplasia and cancer. Estrogen-progestin contraceptives are often first-line to regulate periods and protect the endometrium. Metformin can improve insulin sensitivity, and clomiphene or letrozole can induce ovulation when she wants to conceive.",
+      "whyWrong": {
+        "b": "Cervical squamous cell carcinoma is linked to HPV infection, smoking, and immune deficiency, not to polycystic ovary syndrome.",
+        "c": "Women with polycystic ovary syndrome are not estrogen deficient. Their estrogen is unopposed by progesterone.",
+        "d": "Dysgerminoma is an ovarian germ cell tumor. It is not a known complication of polycystic ovary syndrome.",
+        "e": "A hydatidiform mole is an abnormal pregnancy, not a complication of polycystic ovary syndrome."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Polycystic Ovary Syndrome (PCOS)",
+          "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/menstrual-abnormalities/polycystic-ovary-syndrome-pcos"
+        },
+        {
+          "title": "MSD Manual Professional: Cervical Cancer",
+          "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/gynecologic-tumors/cervical-cancer"
+        }
+      ]
+    },
+    {
+      "id": "path-endometriosis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Reproductive",
+      "topic": "Endometriosis",
+      "difficulty": 1,
+      "stem": "A 29-year-old woman comes to the physician because of severe pain with menstrual periods for 3 years, pain during intercourse, and pain with bowel movements during her periods. She and her partner have been unable to conceive for 18 months. Pelvic examination shows tenderness and nodularity behind the uterus. Laparoscopy shows dark implants on the uterosacral ligaments and peritoneum and a cyst in the left ovary filled with thick, dark brown fluid.",
+      "leadIn": "Which of the following is the most widely accepted explanation of how this condition arises?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Retrograde menstrual flow through tubes"
+        },
+        {
+          "id": "b",
+          "text": "Ascending chlamydial infection"
+        },
+        {
+          "id": "c",
+          "text": "Unopposed estrogen from anovulation"
+        },
+        {
+          "id": "d",
+          "text": "Abnormal proliferation of trophoblast"
+        },
+        {
+          "id": "e",
+          "text": "HPV infection of the transformation zone"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: retrograde menstruation through the fallopian tubes (endometriosis). Why: painful periods, painful intercourse, and infertility form the classic triad of endometriosis, in which functioning endometrial tissue is implanted outside the uterus. Common sites are the ovaries, posterior cul-de-sac, uterosacral ligaments, broad ligaments, and peritoneum. An ovarian cyst filled with old blood is an endometrioma, or chocolate cyst. The most accepted theory is that endometrial cells travel backward through the fallopian tubes during menstruation and implant in the pelvis, and such retrograde flow is common. Laparoscopy with biopsy can confirm it but is not required. Treatment includes NSAIDs, hormonal therapy that suppresses the ovaries, and surgical removal of implants.",
+      "whyWrong": {
+        "b": "Chlamydial infection causes pelvic inflammatory disease, which can scar the tubes and cause infertility, but it does not create endometrial implants or chocolate cysts.",
+        "c": "Unopposed estrogen from infrequent ovulation, as in polycystic ovary syndrome, thickens the endometrium inside the uterus. It does not place tissue outside it.",
+        "d": "Abnormal trophoblast growth causes gestational trophoblastic disease, such as a molar pregnancy.",
+        "e": "HPV infection of the transformation zone causes cervical cancer and its precursors."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Endometriosis",
+          "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/endometriosis/endometriosis"
+        },
+        {
+          "title": "MSD Manual Professional: Ectopic Pregnancy",
+          "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/early-pregnancy-disorders/ectopic-pregnancy"
+        },
+        {
+          "title": "MSD Manual Professional: Polycystic Ovary Syndrome (PCOS)",
+          "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/menstrual-abnormalities/polycystic-ovary-syndrome-pcos"
+        },
+        {
+          "title": "MSD Manual Professional: Gestational Trophoblastic Disease",
+          "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/gynecologic-tumors/gestational-trophoblastic-disease"
+        },
+        {
+          "title": "MSD Manual Professional: Cervical Cancer",
+          "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/gynecologic-tumors/cervical-cancer"
+        }
+      ]
+    },
+    {
+      "id": "path-seminoma-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Reproductive",
+      "topic": "Testicular germ cell tumors: seminoma",
+      "difficulty": 2,
+      "stem": "A 28-year-old man comes to the physician because of a painless swelling of his right testis for 2 months. He had surgery as a child for an undescended right testis. A firm mass is palpable in the right testis. Serum alpha-fetoprotein concentration is normal, and beta-hCG concentration is slightly elevated. Radical inguinal orchiectomy is done. Microscopic examination shows sheets of large cells with clear cytoplasm and prominent nucleoli, divided by fibrous septa that contain many lymphocytes.",
+      "leadIn": "Which of the following is the most likely diagnosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Seminoma"
+        },
+        {
+          "id": "b",
+          "text": "Yolk sac tumor"
+        },
+        {
+          "id": "c",
+          "text": "Embryonal carcinoma"
+        },
+        {
+          "id": "d",
+          "text": "Choriocarcinoma"
+        },
+        {
+          "id": "e",
+          "text": "Teratoma"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: seminoma. Why: testicular cancer is the most common solid cancer in males aged 15 to 35, and an undescended testis raises the risk. Seminomas make up about 40% of germ cell tumors. They show sheets of pale or clear cells divided by fibrous septa with lymphocytes, and a lymphocytic infiltrate is present in almost every case. AFP is not raised in pure seminoma, while beta-hCG is mildly raised in 5 to 10% of patients. If AFP is high, the tumor contains nonseminomatous elements and is treated as a nonseminoma. The testis is removed through an inguinal incision, with the spermatic cord clamped before the testis is handled. Survival is over 95% when found early.",
+      "whyWrong": {
+        "b": "Yolk sac tumor is a nonseminomatous germ cell tumor. A high AFP would point toward nonseminomatous elements, and his AFP is normal.",
+        "c": "Embryonal carcinoma is a nonseminomatous germ cell tumor. The sheets of clear cells with lymphocyte-filled septa here are the seminoma pattern.",
+        "d": "Choriocarcinoma is a nonseminomatous germ cell tumor. A slightly raised hCG can occur in seminoma, and the histology here is seminoma.",
+        "e": "Teratoma is a nonseminomatous germ cell tumor made of tissues from different germ layers, not sheets of uniform clear cells."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Testicular Cancer",
+          "url": "https://www.msdmanuals.com/professional/genitourinary-disorders/genitourinary-cancer/testicular-cancer"
+        },
+        {
+          "title": "StatPearls: Seminoma",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK560513/"
+        }
+      ]
+    },
+    {
+      "id": "genetics-klinefelter-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Genetics",
+      "system": "Reproductive",
+      "topic": "Klinefelter syndrome",
+      "difficulty": 1,
+      "stem": "A 17-year-old boy is brought to the physician because of breast enlargement. He is 191 cm tall with long legs. He has had difficulty in school. Both testes are small (about 3 mL) and firm. Semen analysis shows no sperm. Karyotype analysis shows 47,XXY.",
+      "leadIn": "Which of the following sets of serum hormone levels is most likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "High FSH and LH, low testosterone"
+        },
+        {
+          "id": "b",
+          "text": "Low FSH and LH, low testosterone"
+        },
+        {
+          "id": "c",
+          "text": "High LH, high testosterone"
+        },
+        {
+          "id": "d",
+          "text": "Normal FSH and LH, high prolactin"
+        },
+        {
+          "id": "e",
+          "text": "Low FSH and LH, high testosterone"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: high FSH and LH, low testosterone (Klinefelter syndrome). Why: tall stature, small firm testes, gynecomastia, and no sperm with a 47,XXY karyotype is Klinefelter syndrome. It affects 1 in 500 to 1,000 males and usually results from nondisjunction. The seminiferous tubules become scarred (hyalinized), so the testes cannot make sperm or inhibin B, and testosterone is low or low-normal. Without negative feedback, the pituitary raises FSH and LH, with FSH usually higher. This is primary hypogonadism. Testosterone replacement is the core treatment, and sperm can sometimes be retrieved surgically for assisted reproduction. Affected men have a higher risk of male breast cancer.",
+      "whyWrong": {
+        "b": "Low FSH and LH with low testosterone is secondary (pituitary or hypothalamic) hypogonadism. In Klinefelter syndrome the testes fail, so FSH and LH rise.",
+        "c": "High LH with high testosterone fits androgen insensitivity (standard teaching), where the body cannot respond to testosterone. He is virilized and has a 47,XXY karyotype.",
+        "d": "High prolactin causes low gonadotropins and can cause breast changes, but it does not explain small testes with a 47,XXY karyotype.",
+        "e": "Low FSH and LH with high testosterone suggests an outside source of androgen, such as anabolic steroid use, which suppresses the pituitary."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Klinefelter Syndrome",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK482314/"
+        },
+        {
+          "title": "StatPearls: Androgen Insensitivity Syndrome",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK542206/"
+        }
+      ]
+    },
+    {
+      "id": "genetics-cais-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Genetics",
+      "system": "Reproductive",
+      "topic": "Disorders of sex development: androgen insensitivity",
+      "difficulty": 2,
+      "stem": "A 16-year-old girl is brought to the physician because she has never had a menstrual period. She has normal breast development and a normal growth spurt. She had surgery for bilateral inguinal hernias as a child, and small masses were found in the inguinal canals. Pelvic ultrasonography shows no uterus. Serum testosterone is at the upper end of the normal male range, and LH is increased. Karyotype analysis shows 46,XY.",
+      "leadIn": "A defect in which of the following is most likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Androgen receptor"
+        },
+        {
+          "id": "b",
+          "text": "5-alpha-reductase"
+        },
+        {
+          "id": "c",
+          "text": "21-hydroxylase"
+        },
+        {
+          "id": "d",
+          "text": "Aromatase"
+        },
+        {
+          "id": "e",
+          "text": "SRY gene on chromosome Y"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: androgen receptor (complete androgen insensitivity syndrome). Why: a 46,XY person with testes that make testosterone, but a female body and no uterus, has androgen insensitivity. Mutations in the androgen receptor gene on the X chromosome leave the body unable to respond to testosterone. Puberty brings normal breast development, but menarche never happens because there is no uterus. In standard teaching, the breasts develop because testosterone is converted to estrogen. The testes are often found during hernia repair or when primary amenorrhea is evaluated. In standard teaching, testosterone after puberty is normal to high with a high LH, because the pituitary cannot sense androgen either. Gonadectomy is advised because of a tumor risk that rises in adulthood.",
+      "whyWrong": {
+        "b": "5-alpha-reductase deficiency blocks conversion of testosterone to DHT. These 46,XY individuals often have atypical genitalia at birth and frequently virilize at puberty.",
+        "c": "21-hydroxylase deficiency is the most common cause of congenital adrenal hyperplasia, which virilizes 46,XX girls. It does not cause this picture.",
+        "d": "Aromatase converts testosterone to estrogen. In standard teaching, her breast development shows aromatase is working.",
+        "e": "Without SRY, testes would not form. She has testes that make testosterone."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Androgen Insensitivity Syndrome",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK542206/"
+        },
+        {
+          "title": "StatPearls: 5α-Reductase Deficiency",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK539904/"
+        }
+      ]
+    },
+    {
+      "id": "path-cervical-hpv-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Reproductive",
+      "topic": "Cervical cancer and HPV",
+      "difficulty": 2,
+      "stem": "A 38-year-old woman comes to the physician because of irregular vaginal bleeding, often after intercourse, for 3 months. She smokes 1 pack of cigarettes daily and has not had cervical screening for 12 years. Speculum examination shows a friable mass on the cervix. Biopsy shows invasive squamous cell carcinoma arising at the transformation zone. Testing of the tumor finds HPV type 16 DNA.",
+      "leadIn": "The main oncoproteins of this virus inactivate which of the following pairs of host proteins?",
+      "options": [
+        {
+          "id": "a",
+          "text": "p53 and retinoblastoma protein"
+        },
+        {
+          "id": "b",
+          "text": "BRCA1 and BRCA2 DNA-repair proteins"
+        },
+        {
+          "id": "c",
+          "text": "APC and beta-catenin"
+        },
+        {
+          "id": "d",
+          "text": "MYC and BCL2"
+        },
+        {
+          "id": "e",
+          "text": "RET and NF1"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: p53 and retinoblastoma protein (Rb). Why: about 70% of cervical precancers and cancers are caused by HPV types 16 or 18, and nearly all arise in the transformation zone around the external os. Most (80 to 85%) are squamous cell carcinomas. High-risk HPV makes 2 key oncoproteins. E6 binds the host ubiquitin ligase E6AP and causes p53 to be degraded. E7 causes Rb to be degraded, which releases E2F transcription factors and pushes the cell into division. Losing these 2 brakes lets damaged cells keep dividing. Smoking and immune deficiency are added risk factors. The first symptom is usually irregular, often postcoital, bleeding. HPV vaccination before the first sexual activity prevents most cases, and screening uses cytology and HPV testing.",
+      "whyWrong": {
+        "b": "BRCA1 and BRCA2 mutations are inherited causes of breast and ovarian cancer, not the targets of HPV proteins.",
+        "c": "APC and beta-catenin are part of the WNT pathway disrupted in colon cancer, not targets of HPV.",
+        "d": "MYC and BCL2 are oncogenes activated by translocations in lymphomas, not targets of HPV.",
+        "e": "RET and NF1 are linked to multiple endocrine neoplasia type 2 and neurofibromatosis, not to HPV."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Cervical Cancer",
+          "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/gynecologic-tumors/cervical-cancer"
+        },
+        {
+          "title": "Pal A, Kundu R. High-Risk Human Papillomaviral Oncogenes E6 and E7 Target Key Cellular Pathways to Achieve Oncogenesis. Int J Mol Sci. 2018",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6032416/"
+        }
+      ]
+    },
+    {
+      "id": "path-papillary-thyroid-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Endocrine",
+      "topic": "Thyroid cancer: papillary carcinoma",
+      "difficulty": 1,
+      "stem": "A 35-year-old woman comes to the physician because of a painless lump in the front of her neck for 3 months. She received radiation therapy to the head and neck for a childhood cancer. A firm 2-cm thyroid nodule and an enlarged lymph node on the same side of the neck are palpable. Thyroid function tests are normal. Fine-needle aspiration shows cells with pale, clear-looking nuclei, nuclear grooves, and nuclear inclusions, along with small round laminated calcifications.",
+      "leadIn": "Which of the following is the most likely diagnosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Papillary carcinoma"
+        },
+        {
+          "id": "b",
+          "text": "Follicular carcinoma"
+        },
+        {
+          "id": "c",
+          "text": "Medullary carcinoma"
+        },
+        {
+          "id": "d",
+          "text": "Anaplastic carcinoma"
+        },
+        {
+          "id": "e",
+          "text": "Follicular adenoma"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: papillary thyroid carcinoma. Why: papillary carcinoma causes 80 to 85% of thyroid cancers, and radiation to the head and neck in childhood is a known risk factor. Its diagnosis rests on nuclear features: clear chromatin (\"Orphan Annie eye\" nuclei), grooves, and pseudo-inclusions, often with psammoma bodies (laminated calcifications). It tends to spread through lymphatics to neck nodes. BRAF V600E mutations and RET rearrangements occur. The prognosis is generally excellent. Treatment is lobectomy or total thyroidectomy, sometimes followed by radioactive iodine and TSH-suppressing doses of levothyroxine.",
+      "whyWrong": {
+        "b": "Follicular carcinoma is diagnosed only by capsular or vascular invasion on the removed tumor. Fine-needle aspiration cannot show this, and it lacks these nuclear features.",
+        "c": "Medullary carcinoma arises from parafollicular C cells, makes calcitonin, and shows amyloid. RET mutations occur in inherited forms.",
+        "d": "Anaplastic carcinoma presents as a rapidly enlarging neck mass, with mortality near 100%.",
+        "e": "Follicular adenoma is benign and is separated from follicular carcinoma by the lack of invasion. It does not show these nuclear features."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Papillary Thyroid Carcinoma",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK536943/"
+        },
+        {
+          "title": "StatPearls: Thyroid Cancer",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK459299/"
+        }
+      ]
+    },
+    {
+      "id": "pharm-pheochromocytoma-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Endocrine",
+      "topic": "Pheochromocytoma: preoperative alpha-blockade",
+      "difficulty": 2,
+      "stem": "A 41-year-old man comes to the physician because of episodes of severe headache, sweating, and a pounding heartbeat for 4 months. During one episode his blood pressure was 220/124 mm Hg. Plasma free metanephrines are markedly elevated. CT scan shows a 4-cm mass in the right adrenal gland. Surgery is planned.",
+      "leadIn": "Which of the following drugs should be started first to prepare him for surgery?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Phenoxybenzamine"
+        },
+        {
+          "id": "b",
+          "text": "Propranolol"
+        },
+        {
+          "id": "c",
+          "text": "Spironolactone"
+        },
+        {
+          "id": "d",
+          "text": "Hydrochlorothiazide"
+        },
+        {
+          "id": "e",
+          "text": "Metyrapone"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: phenoxybenzamine. Why: episodes of headache, sweating, and palpitations with very high blood pressure, high plasma metanephrines, and an adrenal mass is a pheochromocytoma, a catecholamine-secreting tumor of chromaffin cells. Before surgery, alpha-blockade comes first, usually with phenoxybenzamine. Beta-blockers are not given until alpha-blockade is adequate, because unopposed beta-2 blockade removes beta-mediated vasodilation and can raise blood pressure further. Plasma free metanephrines are up to 99% sensitive. About 10% of these tumors are bilateral and about 10% are malignant. Pheochromocytoma can be part of MEN types 2A and 2B, von Hippel-Lindau disease, neurofibromatosis, and succinate dehydrogenase gene mutations.",
+      "whyWrong": {
+        "b": "Propranolol given before alpha-blockade can paradoxically raise blood pressure, because blocking beta-2 receptors removes beta-mediated vasodilation.",
+        "c": "Spironolactone blocks aldosterone and treats primary aldosteronism, not catecholamine excess.",
+        "d": "Hydrochlorothiazide is a diuretic for routine high blood pressure. It does not block the effects of catecholamines.",
+        "e": "Metyrapone blocks cortisol synthesis and is used in Cushing syndrome, not pheochromocytoma."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Pheochromocytoma",
+          "url": "https://www.msdmanuals.com/professional/endocrine-and-metabolic-disorders/adrenal-disorders/pheochromocytoma"
+        },
+        {
+          "title": "MSD Manual Professional: Cushing Syndrome",
+          "url": "https://www.msdmanuals.com/professional/endocrine-and-metabolic-disorders/adrenal-disorders/cushing-syndrome"
+        }
+      ]
+    },
+    {
+      "id": "endo-primary-hyperparathyroidism-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Endocrine",
+      "topic": "Hypercalcemia: primary hyperparathyroidism",
+      "difficulty": 1,
+      "stem": "A 58-year-old woman comes to the physician 2 weeks after passing a kidney stone. She has had mild constipation and fatigue. She takes no medications. Serum calcium is 11.4 mg/dL, phosphate is 2.1 mg/dL (low), and intact parathyroid hormone (PTH) is elevated. Twenty-four-hour urinary calcium is high. Serum protein electrophoresis is normal.",
+      "leadIn": "Which of the following is the most likely cause of her hypercalcemia?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Parathyroid adenoma"
+        },
+        {
+          "id": "b",
+          "text": "Familial hypocalciuric hypercalcemia"
+        },
+        {
+          "id": "c",
+          "text": "Multiple myeloma"
+        },
+        {
+          "id": "d",
+          "text": "PTH-related peptide from a lung carcinoma"
+        },
+        {
+          "id": "e",
+          "text": "Sarcoidosis"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: parathyroid adenoma (primary hyperparathyroidism). Why: high calcium with a high PTH, low phosphate, and a kidney stone is primary hyperparathyroidism. It is probably the most common cause of high calcium in people who are not in the hospital, and it is more common in postmenopausal women. About 85% of cases are caused by a single adenoma, and about 15% by hyperplasia of 2 or more glands. PTH increases osteoclast activity, which can thin the bone, and long-standing high urinary calcium leads to stones. High calcium also causes constipation and, at higher levels, confusion. Surgery to remove the abnormal gland is indicated when the disease is symptomatic or progressing.",
+      "whyWrong": {
+        "b": "Familial hypocalciuric hypercalcemia causes mild high calcium with low urinary calcium. Her urinary calcium is high.",
+        "c": "Multiple myeloma raises calcium by destroying bone, which suppresses PTH. It also causes an M-spike, and her electrophoresis is normal.",
+        "d": "PTH-related peptide from a tumor raises calcium, but the patient's own PTH would be suppressed, not high.",
+        "e": "Granulomas in sarcoidosis make calcitriol, which raises calcium and suppresses PTH."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Hypercalcemia",
+          "url": "https://www.msdmanuals.com/professional/nephrology/electrolyte-disorders/hypercalcemia"
+        },
+        {
+          "title": "MSD Manual Professional: Multiple Myeloma",
+          "url": "https://msdmanuals.com/professional/hematology-and-oncology/plasma-cell-disorders/multiple-myeloma"
+        }
+      ]
+    },
+    {
+      "id": "endo-cushing-ectopic-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Endocrine",
+      "topic": "Cushing syndrome: ectopic ACTH",
+      "difficulty": 3,
+      "stem": "A 62-year-old man with a 50-pack-year smoking history comes to the physician because of weakness, swelling of his legs, and weight loss for 2 months. His blood pressure is 168/98 mm Hg. Serum potassium is 2.9 mEq/L. Twenty-four-hour urinary free cortisol is markedly elevated and does not fall after low-dose or high-dose dexamethasone. Plasma ACTH is very high. A chest x-ray shows a mass near the right hilum.",
+      "leadIn": "Which of the following is the most likely cause of his excess cortisol?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ectopic ACTH from a lung tumor"
+        },
+        {
+          "id": "b",
+          "text": "ACTH-secreting pituitary adenoma"
+        },
+        {
+          "id": "c",
+          "text": "Cortisol-secreting adrenal adenoma"
+        },
+        {
+          "id": "d",
+          "text": "Use of exogenous glucocorticoids"
+        },
+        {
+          "id": "e",
+          "text": "Aldosterone-secreting adrenal adenoma"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: ectopic ACTH from small cell lung cancer. Why: high cortisol that is not suppressed by dexamethasone, with a very high ACTH, means the cortisol is ACTH-dependent and the ACTH comes from a source that does not respond to feedback. In a heavy smoker with a hilar lung mass, small cell carcinoma of the lung is the classic source. Low potassium is a classic clue to ectopic ACTH (standard teaching), and MSD notes that adrenal enzyme inhibitors can control severe metabolic problems such as hypokalemia. A pituitary source (Cushing disease) usually suppresses with high-dose dexamethasone, while an adrenal tumor or ectopic ACTH does not. Many centers no longer use the high-dose test, and petrosal sinus sampling may be needed to separate a pituitary source from an ectopic one. A low or undetectable ACTH would instead point to the adrenal gland.",
+      "whyWrong": {
+        "b": "A pituitary adenoma (Cushing disease) usually suppresses with high-dose dexamethasone, and nothing points to the pituitary here.",
+        "c": "A cortisol-secreting adrenal adenoma makes cortisol on its own, so ACTH would be low or undetectable, not very high.",
+        "d": "Taking glucocorticoids suppresses the patient's own ACTH and cortisol production, so ACTH would be low.",
+        "e": "An aldosterone-secreting adenoma causes high blood pressure and low potassium, but not high cortisol."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Cushing Syndrome",
+          "url": "https://www.msdmanuals.com/professional/endocrine-and-metabolic-disorders/adrenal-disorders/cushing-syndrome"
         }
       ]
     }
