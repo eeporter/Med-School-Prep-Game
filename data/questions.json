@@ -24900,6 +24900,1037 @@
           "url": "https://statpearls.com/point-of-care/18668"
         }
       ]
+    },
+    {
+      "id": "histo-i-cell-disease-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "General Principles",
+      "topic": "Protein trafficking: I-cell disease (Golgi mannose-6-phosphate)",
+      "difficulty": 2,
+      "stem": "A 14-month-old girl is brought to the physician because she is not growing well and her joints have become stiff. She has coarse facial features, cloudy corneas, a curved spine, and fingers that she cannot fully straighten. Blood levels of several lysosomal enzymes are many times higher than normal. Her cultured skin fibroblasts are packed with large cytoplasmic inclusions.",
+      "leadIn": "Failure of which of the following steps best explains these findings?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Adding mannose-6-phosphate in the Golgi"
+        },
+        {
+          "id": "b",
+          "text": "Adding N-linked sugars in the rough ER"
+        },
+        {
+          "id": "c",
+          "text": "Returning proteins to the ER in COPI vesicles"
+        },
+        {
+          "id": "d",
+          "text": "Breaking down ubiquitin-tagged proteins in proteasomes"
+        },
+        {
+          "id": "e",
+          "text": "Fusing lysosomes with phagosomes"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: adding mannose-6-phosphate in the Golgi. Why: this is I-cell (inclusion-cell) disease, also called mucolipidosis type II. Your el-husseiny biochemistry notes (pp. 43-44) explain that enzymes meant for lysosomes get a phosphate added to a mannose sugar in the Golgi by N-acetylglucosaminyl-1-phosphotransferase. That mannose-6-phosphate tag pulls them out of the secretion pathway and sends them to lysosomes. When the phosphotransferase is defective, the enzymes are secreted out of the cell instead. So enzyme levels in the blood are high, while lysosomes inside the cells lack their enzymes and fill with undigested material (the inclusions). Your notes describe the same child: a coarse face, cloudy corneas, stiff joints, claw-like hands, a curved spine, and high blood levels of lysosomal enzymes, and the disease is often fatal in childhood. StatPearls' article on protein targeting and I-cell disease agrees that the cause is low GlcNAc-1-phosphotransferase activity, that hydrolase enzymes normally get their phosphomannose targeting signal in the cis-Golgi, and that misrouted enzymes build up outside the cell. It adds that death usually comes within the first decade, at an average age of about 5 years.",
+      "whyWrong": {
+        "b": "N-linked glycosylation in the rough ER happens before the Golgi step; a failure there would not specifically send lysosomal enzymes into the blood (standard teaching).",
+        "c": "COPI vesicles carry proteins backward, from the Golgi to the ER; the defect here is in the Golgi tagging step that routes enzymes to lysosomes (your El-Husseiny biochemistry notes, p. 44).",
+        "d": "Proteasomes break down ubiquitin-tagged proteins in the cytoplasm; a proteasome problem would not raise lysosomal enzyme levels in the blood (standard teaching).",
+        "e": "Failure of lysosomes to fuse with phagosomes is the problem in Chédiak-Higashi syndrome, which causes recurrent infections and albinism, not high serum lysosomal enzymes (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Protein targeting to lysosomes and I-cell disease, pp. 43-44"
+        },
+        {
+          "title": "StatPearls: Biochemistry, Protein Targeting and I Cell Diseases",
+          "url": "https://www.statpearls.com/point-of-care/140590"
+        }
+      ]
+    },
+    {
+      "id": "histo-type2-pneumocyte-repair-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "Respiratory",
+      "topic": "Alveolar cells: type II pneumocytes in lung repair",
+      "difficulty": 2,
+      "stem": "A 45-year-old man is treated in the ICU for severe lung injury after a bacterial pneumonia. Two weeks later, a lung biopsy is done because he is slow to come off the ventilator. Many alveolar walls have lost their normal thin lining. Instead, they are lined by plump, cube-shaped cells that are actively dividing.",
+      "leadIn": "The dividing cube-shaped cells are most likely which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Type II pneumocytes"
+        },
+        {
+          "id": "b",
+          "text": "Type I pneumocytes"
+        },
+        {
+          "id": "c",
+          "text": "Club (Clara) cells"
+        },
+        {
+          "id": "d",
+          "text": "Alveolar macrophages"
+        },
+        {
+          "id": "e",
+          "text": "Ciliated columnar cells"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: type II pneumocytes. Why: your El-Husseiny respiratory notes (p. 9) describe two alveolar lining cells. Type I cells are thin and squamous, cover about 97% of the alveolar surface, and are built for gas diffusion. Type II cells are cuboidal, sit in clusters, and secrete surfactant, which lowers surface tension and keeps alveoli from collapsing at the end of expiration. Your notes add that type II cells multiply when the lung is damaged and act as the precursors of both new type I cells and more type II cells. So after an injury that strips the thin type I lining, the alveoli are relined first by dividing cuboidal type II cells, which later give rise to new type I cells. A 2023 review in the Journal of Clinical Investigation agrees that type II cells are small cuboidal cells that secrete surfactant, renew themselves, and give rise to type I cells, making them the main progenitor cells of the alveolus. After injury they divide, with one daughter cell becoming a new type I cell. Other source: the same review says type I cells cover about 95% of the alveolar surface, close to the 97% in your notes.",
+      "whyWrong": {
+        "b": "Type I pneumocytes are the thin, flat cells that are lost in the injury; they do not divide to repair the lining (your El-Husseiny respiratory notes, p. 9).",
+        "c": "Club cells are nonciliated cells of the bronchioles that secrete part of surfactant, break down toxins, and act as reserve cells for the airway, not the alveolar wall (your El-Husseiny respiratory notes, p. 9).",
+        "d": "Alveolar macrophages float in the air spaces and eat debris and microbes; they are not epithelial cells and do not form the alveolar lining (standard teaching).",
+        "e": "Ciliated columnar cells line the larger airways, not the alveoli (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Respiratory System (Emily's file), Pneumocytes, p. 9"
+        },
+        {
+          "title": "Han S, Budinger GRS, Gottardi CJ. Alveolar epithelial regeneration in the aging lung. J Clin Invest 2023",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10575730/"
+        }
+      ]
+    },
+    {
+      "id": "histo-liver-zone3-budd-chiari-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "Gastrointestinal",
+      "topic": "Liver lobule zones: centrilobular (zone 3) necrosis in Budd-Chiari syndrome",
+      "difficulty": 2,
+      "stem": "A 34-year-old woman with polycythemia vera has had 3 weeks of pain in the right upper abdomen and a growing belly. Her liver is enlarged and tender, and she has ascites. Doppler ultrasonography shows clots blocking her hepatic veins. A liver biopsy is done.",
+      "leadIn": "Damage would be most marked in which part of the liver lobule?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Around the central veins (zone 3)"
+        },
+        {
+          "id": "b",
+          "text": "Around the portal triads (zone 1)"
+        },
+        {
+          "id": "c",
+          "text": "Midway between portal triads and central veins (zone 2)"
+        },
+        {
+          "id": "d",
+          "text": "In the lining of the small bile ducts"
+        },
+        {
+          "id": "e",
+          "text": "Evenly across all three zones"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: around the central veins (zone 3). Why: this is Budd-Chiari syndrome. Your Osmosis GI notes (p. 101) describe it as congestive liver disease caused by blocked hepatic venous outflow, most often from a clot, with myeloproliferative disorders such as polycythemia vera as a risk factor. The classic triad is an enlarged liver, abdominal pain, and ascites. Your notes explain that the venous congestion causes ischemia and centrilobular necrosis, along with portal hypertension. Blood enters the lobule at the portal triads (zone 1) and drains out through the central vein (zone 3). When outflow is blocked, blood backs up into the sinusoids around the central veins first, and those hepatocytes also get the least oxygen, so they die first (standard teaching). The MSD Manual agrees that Budd-Chiari syndrome is obstruction of hepatic venous outflow, that in Western countries the most common cause is a clot blocking the hepatic veins and the nearby inferior vena cava, and that myeloproliferative disorders such as polycythemia are among the causes. It describes right upper quadrant pain, a tender enlarged liver, and ascites, and recommends Doppler ultrasonography as the first test.",
+      "whyWrong": {
+        "b": "Zone 1 hepatocytes sit next to the portal triads, where blood arrives with the most oxygen, so they are the last to suffer from blocked outflow (standard teaching).",
+        "c": "Zone 2 lies between the other two zones; congestion from the hepatic veins hits zone 3 first (standard teaching).",
+        "d": "Bile duct injury is the main problem in biliary diseases such as primary biliary cholangitis, not in blocked venous outflow (standard teaching).",
+        "e": "Venous congestion is not even across the lobule; your notes specifically describe centrilobular necrosis (your Osmosis GI notes, p. 101)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Gastrointestinal (Emily's file), Budd-Chiari syndrome, p. 101"
+        },
+        {
+          "title": "MSD Manual Professional: Budd-Chiari Syndrome",
+          "url": "https://www.msdmanuals.com/professional/hepatic-and-biliary-disorders/vascular-disorders-of-the-liver/budd-chiari-syndrome"
+        }
+      ]
+    },
+    {
+      "id": "histo-colchicine-microtubule-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "Musculoskeletal",
+      "topic": "Cytoskeleton: microtubules and colchicine in gout",
+      "difficulty": 2,
+      "stem": "A 61-year-old man has a hot, swollen, very painful big toe that started overnight. Joint fluid shows needle-shaped crystals inside neutrophils. He cannot take NSAIDs because of kidney disease, so he is given colchicine, and the pain eases over the next day.",
+      "leadIn": "Colchicine most likely helps by blocking which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Polymerization of tubulin into microtubules"
+        },
+        {
+          "id": "b",
+          "text": "Xanthine oxidase conversion of xanthine to urate"
+        },
+        {
+          "id": "c",
+          "text": "Cyclooxygenase production of prostaglandins"
+        },
+        {
+          "id": "d",
+          "text": "Reabsorption of urate by the renal tubules"
+        },
+        {
+          "id": "e",
+          "text": "Conversion of uric acid to allantoin"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: polymerization of tubulin into microtubules. Why: StatPearls' Colchicine article explains that the drug disrupts the cytoskeleton by inhibiting the polymerization of beta-tubulin into microtubules. Without working microtubules, neutrophils cannot be activated, release their granules, or migrate into the joint, which damps the inflammation that urate crystals set off. StatPearls adds that the same microtubule block stops dividing cells at metaphase. Your el-husseiny musculoskeletal notes (p. 145) list colchicine with NSAIDs and glucocorticoids as treatments for an acute gout attack, and xanthine oxidase inhibitors as the long-term preventive drugs.",
+      "whyWrong": {
+        "b": "Blocking xanthine oxidase is how allopurinol and febuxostat lower urate production; your notes list them for long-term prevention, not for the acute attack (your El-Husseiny musculoskeletal notes, p. 145).",
+        "c": "Blocking cyclooxygenase is how NSAIDs such as indomethacin work, and he cannot take them (standard teaching).",
+        "d": "Blocking urate reabsorption in the kidney is how uricosuric drugs such as probenecid work (standard teaching).",
+        "e": "Turning uric acid into allantoin is what the enzyme drugs rasburicase and pegloticase do; colchicine does not change urate levels (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Colchicine",
+          "url": "https://www.statpearls.com/point-of-care/19694"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Gout treatment, p. 145"
+        }
+      ]
+    },
+    {
+      "id": "histo-parietal-cell-autoimmune-gastritis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "Gastrointestinal",
+      "topic": "Gastric cells: parietal cell loss in autoimmune gastritis",
+      "difficulty": 2,
+      "stem": "A 52-year-old woman with Hashimoto thyroiditis has had tiredness and tingling in her feet for 6 months. She has a macrocytic anemia and antibodies against intrinsic factor. Her fasting serum gastrin is markedly increased. Endoscopy shows a thin, flat mucosa without folds in the body and fundus of the stomach, while the antrum looks normal.",
+      "leadIn": "Loss of which of the following cells best explains her high serum gastrin?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Parietal cells of the gastric body"
+        },
+        {
+          "id": "b",
+          "text": "G cells of the gastric antrum"
+        },
+        {
+          "id": "c",
+          "text": "Chief cells of the gastric body"
+        },
+        {
+          "id": "d",
+          "text": "D cells of the gastric antrum"
+        },
+        {
+          "id": "e",
+          "text": "Mucous cells of the gastric cardia"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: parietal cells of the gastric body. Why: this is autoimmune atrophic gastritis. Your Osmosis GI notes (p. 39) explain that the damage is limited to the fundus and body, where the acid-making parietal cells live, and that patients have antibodies against parietal cells and intrinsic factor. Losing parietal cells means little or no acid (achlorhydria). With no acid to switch it off, gastrin release from the antrum goes unchecked, so serum gastrin rises. Your notes add that loss of intrinsic factor causes vitamin B12 malabsorption and pernicious anemia, which explains her macrocytic anemia and tingling feet. The MSD Manual agrees that patients have antibodies to parietal cells and their components, including intrinsic factor and the proton pump, and that the resulting low acid (hypochlorhydria) leads to G-cell hyperplasia and high serum gastrin. It notes that up to one-third of people with autoimmune thyroid disease also have autoimmune gastritis. Normally, acid in the antrum stimulates D cells to release somatostatin, which turns down G cells (standard teaching).",
+      "whyWrong": {
+        "b": "G cells make gastrin and sit in the antrum, which is spared here; losing them would lower gastrin, not raise it (standard teaching).",
+        "c": "Chief cells are also lost in the body, which lowers serum pepsinogen, but chief cells do not make acid, so their loss does not explain the high gastrin (your Osmosis GI notes, p. 39).",
+        "d": "Fewer active antral D cells would raise gastrin, but the antrum is normal here; the D cells are quiet because no acid reaches them after the parietal cells are lost (standard teaching).",
+        "e": "Mucous cells protect the lining and do not control gastrin release (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Gastrointestinal (Emily's file), Gastritis (autoimmune atrophic gastritis), p. 39"
+        },
+        {
+          "title": "MSD Manual Professional: Autoimmune Metaplastic Atrophic Gastritis",
+          "url": "https://www.msdmanuals.com/professional/gastrointestinal-disorders/gastritis-and-peptic-ulcer-disease/autoimmune-metaplastic-atrophic-gastritis"
+        }
+      ]
+    },
+    {
+      "id": "histo-desmin-rhabdomyosarcoma-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "Musculoskeletal",
+      "topic": "Intermediate filaments: desmin in rhabdomyosarcoma",
+      "difficulty": 2,
+      "stem": "A 4-year-old boy has a mass behind his left eye that has pushed the eye forward over 3 weeks. A biopsy shows sheets of small, round, blue-staining cells. A few larger cells have pink cytoplasm with faint cross-striations.",
+      "leadIn": "A positive stain for which of the following proteins would best support the most likely diagnosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Desmin"
+        },
+        {
+          "id": "b",
+          "text": "Cytokeratin"
+        },
+        {
+          "id": "c",
+          "text": "Glial fibrillary acidic protein"
+        },
+        {
+          "id": "d",
+          "text": "S-100 protein"
+        },
+        {
+          "id": "e",
+          "text": "CD99"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: desmin. Why: a fast-growing orbital mass in a young child, with small round blue cells and some cells showing striations, points to rhabdomyosarcoma. StatPearls' Rhabdomyosarcoma article calls it the most common soft tissue sarcoma diagnosed in children and lists the head, neck, and genitourinary areas as the most common sites. It explains that the tumor is believed to come from primitive mesenchymal cells that usually become skeletal muscle, and that the diagnosis is supported by staining for skeletal muscle markers such as myogenin, desmin, and MyoD1. Desmin is an intermediate filament of muscle. Your el-husseiny musculoskeletal notes (p. 85) note that the Z line of the sarcomere contains vimentin and desmin, which are used as tumor markers for muscle tumors.",
+      "whyWrong": {
+        "b": "Cytokeratin is the intermediate filament of epithelial cells and marks carcinomas, not muscle tumors (standard teaching).",
+        "c": "Glial fibrillary acidic protein is the intermediate filament of astrocytes and marks glial tumors (standard teaching).",
+        "d": "S-100 marks cells derived from the neural crest, such as melanoma and Schwann cell tumors (standard teaching).",
+        "e": "CD99 is the classic marker of Ewing sarcoma, another small round blue cell tumor, but it is not a muscle marker (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Rhabdomyosarcoma",
+          "url": "https://www.statpearls.com/point-of-care/28510"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Sarcomere (Z line), p. 85"
+        }
+      ]
+    },
+    {
+      "id": "neuro-parkinson-substantia-nigra-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Nervous System & Special Senses",
+      "topic": "Parkinson disease: substantia nigra pars compacta",
+      "difficulty": 2,
+      "stem": "A 66-year-old man has had 2 years of a shaking right hand that is worse when the hand is resting in his lap. He moves slowly, takes small shuffling steps, and his arms feel stiff when moved passively. His wife says he lost his sense of smell and has had constipation for years before the shaking began.",
+      "leadIn": "Loss of which of the following neurons best explains his movement problems?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dopaminergic neurons of the substantia nigra"
+        },
+        {
+          "id": "b",
+          "text": "GABAergic neurons of the caudate nucleus"
+        },
+        {
+          "id": "c",
+          "text": "Cholinergic neurons of the nucleus basalis"
+        },
+        {
+          "id": "d",
+          "text": "Noradrenergic neurons of the locus coeruleus"
+        },
+        {
+          "id": "e",
+          "text": "Purkinje cells of the cerebellar cortex"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: dopaminergic neurons of the substantia nigra. Why: resting tremor, slow movement, rigidity, and a shuffling gait are classic Parkinson disease. Your Osmosis neurology notes (pp. 162-163) explain that dopamine-making neurons in the substantia nigra pars compacta degenerate, which depletes dopamine in the basal ganglia (the striatum) and disrupts their connections to the thalamus and motor cortex. Abnormal protein such as alpha-synuclein builds up in neurons as Lewy bodies, and autopsy shows loss of the pigmented dopaminergic neurons of the pars compacta. Your notes also list loss of smell as a common first symptom, often years before the movement problems, and autonomic problems such as constipation. The MSD Manual agrees that pigmented dopaminergic neurons of the substantia nigra and other brain stem cell groups degenerate, with Lewy bodies filled with synuclein in the nigrostriatal system. It describes a resting tremor of one hand as often the first symptom, with rigidity, slow movement, and a shuffling gait, and notes that loss of smell and constipation can come before the movement symptoms.",
+      "whyWrong": {
+        "b": "Loss of GABAergic neurons in the caudate is the lesion of Huntington disease, which causes chorea rather than tremor and slowness (standard teaching).",
+        "c": "Loss of cholinergic neurons in the nucleus basalis of Meynert is linked to Alzheimer disease and memory loss (standard teaching).",
+        "d": "Your notes say the locus coeruleus does degenerate in Parkinson disease, but early and without symptoms; the movement problems come from the substantia nigra (your Osmosis neurology notes, p. 162).",
+        "e": "Purkinje cell loss causes cerebellar signs such as ataxia and an intention tremor, not a resting tremor with rigidity (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Neurology (Emily's file), Parkinson's disease, pp. 162-163"
+        },
+        {
+          "title": "MSD Manual Professional: Parkinson Disease",
+          "url": "https://www.msdmanuals.com/professional/neurologic-disorders/movement-and-cerebellar-disorders/parkinson-disease"
+        }
+      ]
+    },
+    {
+      "id": "neuro-huntington-caudate-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Nervous System & Special Senses",
+      "topic": "Huntington disease: caudate atrophy",
+      "difficulty": 2,
+      "stem": "A 41-year-old man is brought to the physician by his wife because of 2 years of fidgety, jerky movements of his face and arms. He has also become irritable and has trouble planning his work. His father had similar problems and died at age 52. Genetic testing shows an expanded CAG repeat.",
+      "leadIn": "Brain MRI would most likely show atrophy of which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Caudate nucleus"
+        },
+        {
+          "id": "b",
+          "text": "Substantia nigra"
+        },
+        {
+          "id": "c",
+          "text": "Cerebellar vermis"
+        },
+        {
+          "id": "d",
+          "text": "Mammillary bodies"
+        },
+        {
+          "id": "e",
+          "text": "Subthalamic nucleus"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: caudate nucleus. Why: middle-age onset of chorea, mood change, and thinking problems, with an affected father and a CAG repeat expansion, is Huntington disease. The MSD Manual explains that it is autosomal dominant and results from a mutation in the huntingtin (HTT) gene on chromosome 4, and that more CAG repeats bring earlier onset and more severe disease. The number of repeats can increase from one generation to the next. Levels of the neurotransmitters GABA and substance P decrease. Symptoms start insidiously at about age 35 to 40, and abnormal movements include chorea, athetosis, and myoclonic jerks. MSD notes that neuroimaging helps identify caudate atrophy, often with some cortical atrophy that is worse in the frontal lobes.",
+      "whyWrong": {
+        "b": "Substantia nigra loss causes Parkinson disease, with slowness, rigidity, and resting tremor rather than chorea (standard teaching).",
+        "c": "Atrophy of the cerebellar vermis, typically from long-term alcohol use, causes an unsteady, wide-based gait (standard teaching).",
+        "d": "Shrunken mammillary bodies point to Wernicke-Korsakoff syndrome from thiamine deficiency (standard teaching).",
+        "e": "A lesion of the subthalamic nucleus, usually a small stroke, causes hemiballismus: wild flinging of one arm and leg on the opposite side (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Huntington Disease",
+          "url": "https://www.msdmanuals.com/professional/neurologic-disorders/movement-and-cerebellar-disorders/huntington-disease"
+        }
+      ]
+    },
+    {
+      "id": "neuro-cn3-pcomm-aneurysm-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Nervous System & Special Senses",
+      "topic": "Oculomotor nerve palsy: posterior communicating artery aneurysm",
+      "difficulty": 2,
+      "stem": "A 49-year-old woman has had 2 days of pain behind her right eye and double vision. Her right upper eyelid droops. When she looks straight ahead, her right eye points down and out. The right pupil is 7 mm and does not react to light; the left pupil is 3 mm and reacts normally. She has no history of diabetes.",
+      "leadIn": "Which of the following is the most likely cause?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Aneurysm of the posterior communicating artery"
+        },
+        {
+          "id": "b",
+          "text": "Ischemia of the nerve from small-vessel disease"
+        },
+        {
+          "id": "c",
+          "text": "Demyelination of the medial longitudinal fasciculus"
+        },
+        {
+          "id": "d",
+          "text": "Antibodies against acetylcholine receptors"
+        },
+        {
+          "id": "e",
+          "text": "Injury to the sympathetic chain in the neck"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: aneurysm of the posterior communicating artery. Why: ptosis, an eye that rests down and out, and a large pupil that does not react to light mean a complete third (oculomotor) nerve palsy with pupil involvement. The MSD Manual explains that third nerve palsies that affect the pupil commonly result from aneurysms, especially of the posterior communicating artery, and from transtentorial herniation. Palsies that spare the pupil are most commonly caused by ischemia, usually from diabetes or hypertension. MSD describes the affected eye as deviating slightly out and down, with diplopia and ptosis, and a dilated pupil with impaired light reflexes. Your Osmosis neurology notes (p. 22) also list posterior communicating artery aneurysm as a cause of oculomotor palsy with ipsilateral ptosis, an eye pointing down and out, a dilated pupil, and loss of the pupillary light reflex. The pupil fibers run on the outside of the nerve, so pressure from outside hits them early (standard teaching).",
+      "whyWrong": {
+        "b": "Ischemic third nerve palsy, usually from diabetes or hypertension, is the most common cause of palsies that spare the pupil; this pupil is dilated and fixed (MSD Manual, Third Cranial Nerve Disorders).",
+        "c": "A lesion of the medial longitudinal fasciculus causes internuclear ophthalmoplegia, with poor adduction on side gaze but no ptosis or pupil changes (standard teaching).",
+        "d": "Myasthenia gravis can cause ptosis and double vision, but it never affects the pupil (standard teaching).",
+        "e": "Sympathetic injury causes Horner syndrome, with mild ptosis and a small pupil, not a large one (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Third Cranial Nerve (Oculomotor) Disorders",
+          "url": "https://www.msdmanuals.com/professional/neurologic-disorders/neuro-ophthalmologic-and-cranial-nerve-disorders/third-cranial-nerve-oculomotor-disorders"
+        },
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Neurology (Emily's file), Subarachnoid hemorrhage, p. 22"
+        }
+      ]
+    },
+    {
+      "id": "neuro-bitemporal-hemianopia-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Nervous System & Special Senses",
+      "topic": "Visual field defects: bitemporal hemianopia",
+      "difficulty": 2,
+      "stem": "A 38-year-old man has had headaches for a year. He keeps bumping into door frames on both sides. His ring and shoe sizes have gone up over the past few years. Visual field testing shows loss of the outer (temporal) half of the field in each eye.",
+      "leadIn": "A lesion at which of the following sites best explains his visual loss?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Optic chiasm"
+        },
+        {
+          "id": "b",
+          "text": "Left optic nerve"
+        },
+        {
+          "id": "c",
+          "text": "Left optic tract"
+        },
+        {
+          "id": "d",
+          "text": "Meyer loop of the temporal lobe"
+        },
+        {
+          "id": "e",
+          "text": "Primary visual cortex"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: optic chiasm. Why: growing hands and feet suggest a growth hormone-secreting pituitary adenoma. Your Osmosis neurology notes (p. 202) explain that bitemporal hemianopsia, loss of the lateral half of the visual field in both eyes, usually comes from a lesion at the optic chiasm. As a mass in the sella grows, it presses on the chiasm from below and damages the crossing fibers, which carry vision from the temporal fields of both eyes. Your notes list pituitary enlargement (adenoma or hyperplasia), craniopharyngioma, meningioma, and anterior communicating artery aneurysm as causes. They add that the vision loss can go unnoticed because it is slow, and that a hormone-secreting adenoma can cause hormone excess. The MSD Manual's table of field defects agrees that bitemporal hemianopia, loss of the lateral half of both visual fields, comes from a lesion of the chiasm, such as a pituitary adenoma, meningioma, craniopharyngioma, aneurysm, or glioma. It lists lesions behind the chiasm, in the optic tract or lateral geniculate body, as causes of a homonymous hemianopia.",
+      "whyWrong": {
+        "b": "A lesion of one optic nerve causes blindness in that eye only (standard teaching).",
+        "c": "A lesion of one optic tract causes a homonymous hemianopia: loss of the same half of the field (here the right half) in both eyes (MSD Manual, The Optic Pathway).",
+        "d": "Damage to Meyer loop causes loss of the upper quarter of the field on the opposite side in both eyes, the 'pie in the sky' defect (standard teaching).",
+        "e": "Damage to one visual cortex causes a homonymous hemianopia, often with the center of vision spared (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Neurology (Emily's file), Bitemporal hemianopsia, p. 202"
+        },
+        {
+          "title": "MSD Manual Professional: The Optic Pathway",
+          "url": "https://www.msdmanuals.com/professional/eye-disorders/optic-nerve-disorders/the-optic-pathway"
+        }
+      ]
+    },
+    {
+      "id": "neuro-ino-mlf-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Nervous System & Special Senses",
+      "topic": "Internuclear ophthalmoplegia: medial longitudinal fasciculus",
+      "difficulty": 2,
+      "stem": "A 27-year-old woman has had double vision for 3 days. A year ago she had an episode of blurred vision with pain on moving her right eye that went away on its own. When she looks to the right, her left eye does not move past the midline toward her nose, and her right eye moves fully but jerks repeatedly. When she focuses on a near object, both eyes turn inward normally.",
+      "leadIn": "A lesion in which of the following is most likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Left medial longitudinal fasciculus"
+        },
+        {
+          "id": "b",
+          "text": "Right medial longitudinal fasciculus"
+        },
+        {
+          "id": "c",
+          "text": "Left oculomotor nerve"
+        },
+        {
+          "id": "d",
+          "text": "Right abducens nucleus"
+        },
+        {
+          "id": "e",
+          "text": "Right paramedian pontine reticular formation"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: left medial longitudinal fasciculus (MLF). Why: this is internuclear ophthalmoplegia, and with her earlier episode of optic neuritis, multiple sclerosis is the likely cause. The MSD Manual describes the condition as weak adduction of the eye on the same side as the lesion during side gaze. It results from a lesion in the MLF, the pathway that links the abducens nucleus on one side to the oculomotor nucleus on the other so the eyes move together. The eye on the affected side cannot adduct, or adducts weakly, past the midline, and nystagmus often appears in the eye that abducts. That eye still adducts normally during convergence, because convergence does not use the MLF. MSD notes that in young people the cause is commonly multiple sclerosis and is often bilateral, while in older adults it is typically a stroke and is on one side. Here the left eye fails to adduct, so the lesion is in the left MLF.",
+      "whyWrong": {
+        "b": "A right MLF lesion would stop the right eye from adducting when she looks to the left (MSD Manual, Internuclear Ophthalmoplegia).",
+        "c": "A left third nerve lesion would also weaken adduction during convergence and would usually cause ptosis or a large pupil (standard teaching).",
+        "d": "A right abducens nucleus lesion causes a gaze palsy: neither eye can look to the right (standard teaching).",
+        "e": "A right PPRF lesion also causes a gaze palsy to the right, with neither eye moving that way (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Internuclear Ophthalmoplegia",
+          "url": "https://www.msdmanuals.com/professional/neurologic-disorders/neuro-ophthalmologic-and-cranial-nerve-disorders/internuclear-ophthalmoplegia"
+        }
+      ]
+    },
+    {
+      "id": "neuro-tabes-dorsalis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Nervous System & Special Senses",
+      "topic": "Neurosyphilis: tabes dorsalis",
+      "difficulty": 3,
+      "stem": "A 58-year-old man has had sudden, stabbing pains in his legs for a year and keeps losing his balance in the dark. He stands steadily with his eyes open but sways and nearly falls when he closes them. Vibration and joint position sense are lost in both feet, and ankle reflexes are absent. Strength is normal. His pupils are small and irregular; they constrict when he looks at a near object but not to light.",
+      "leadIn": "Damage to which of the following best explains his sensory findings?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dorsal columns and dorsal roots"
+        },
+        {
+          "id": "b",
+          "text": "Lateral corticospinal tracts"
+        },
+        {
+          "id": "c",
+          "text": "Anterior horn motor neurons"
+        },
+        {
+          "id": "d",
+          "text": "Spinothalamic fibers crossing in the anterior commissure"
+        },
+        {
+          "id": "e",
+          "text": "Cerebellar vermis"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: dorsal columns and dorsal roots. Why: this is tabes dorsalis, a late form of neurosyphilis. StatPearls' Tabes Dorsalis article describes it as a slowly progressive degenerative disease of the dorsal columns and dorsal roots of the spinal cord, from loss of myelin on the sensory fibers there. It usually appears years, often two to three decades, after the original infection. Features include brief, sudden, severe stabbing pains in the back, limbs, or face; loss of vibration and position sense with sensory ataxia and trouble walking; and small, irregular Argyll Robertson pupils that constrict to a near target but not to light. Charcot (neuropathic) joints are a rarer complication. Swaying when the eyes close (a positive Romberg sign) shows that balance depends on vision because position sense is gone (standard teaching).",
+      "whyWrong": {
+        "b": "Damage to the lateral corticospinal tracts causes weakness with brisk reflexes; his strength is normal and his reflexes are absent (standard teaching).",
+        "c": "Loss of anterior horn cells causes weakness, wasting, and fasciculations, not sensory loss (standard teaching).",
+        "d": "Damage to crossing spinothalamic fibers, as in syringomyelia, causes loss of pain and temperature sense in a cape pattern, with vibration and position sense spared (standard teaching).",
+        "e": "Cerebellar ataxia does not get much worse when the eyes close, and it does not cause loss of vibration sense (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Tabes Dorsalis",
+          "url": "https://www.statpearls.com/point-of-care/29851"
+        }
+      ]
+    },
+    {
+      "id": "neuro-alzheimer-tau-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Nervous System & Special Senses",
+      "topic": "Alzheimer disease: neurofibrillary tangles (tau)",
+      "difficulty": 2,
+      "stem": "A 74-year-old woman had 3 years of worsening memory loss before her death. Toward the end she got lost in her own neighborhood and could not manage her bills. At autopsy, the brain shows widespread cortical atrophy. Microscopy shows many extracellular plaques and flame-shaped inclusions inside the cell bodies of cortical and hippocampal neurons.",
+      "leadIn": "The inclusions inside the neurons are made mainly of which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hyperphosphorylated tau"
+        },
+        {
+          "id": "b",
+          "text": "Alpha-synuclein"
+        },
+        {
+          "id": "c",
+          "text": "Beta-amyloid"
+        },
+        {
+          "id": "d",
+          "text": "Misfolded prion protein"
+        },
+        {
+          "id": "e",
+          "text": "Ubiquitinated huntingtin"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: hyperphosphorylated tau. Why: slowly progressive memory loss with plaques and tangles is Alzheimer disease. Your Osmosis neurology notes (p. 74) explain that tau is a protein that normally helps hold microtubules together inside neurons. In Alzheimer disease, tau becomes excessively phosphorylated, clumps together, and stops supporting the microtubules. The clumps form neurofibrillary tangles inside neurons, which block signaling and lead to neuron death. The plaques are different: they form outside cells when amyloid precursor protein is cut by beta secretase into insoluble beta-amyloid fragments. Your notes list sporadic disease in people over 60 as about 95% of cases, and diffuse cortical atrophy, reduced acetylcholine, and neurofibrillary tangles as key features. The MSD Manual agrees that the tangles lie inside neurons and come from hyperphosphorylation of tau, a protein that stabilizes microtubules, while beta-amyloid is the main component of the plaques outside the cells. Other source: MSD says about 5 to 15% of cases are familial, a little higher than the roughly 5% implied by your notes, and that most cases are sporadic with onset at 65 or older.",
+      "whyWrong": {
+        "b": "Alpha-synuclein builds up as Lewy bodies, the inclusions of Parkinson disease and Lewy body dementia (your Osmosis neurology notes, p. 162).",
+        "c": "Beta-amyloid forms the plaques outside the neurons, not the inclusions inside them (your Osmosis neurology notes, p. 74).",
+        "d": "Misfolded prion protein causes Creutzfeldt-Jakob disease, with spongy vacuoles and a much faster decline over months (standard teaching).",
+        "e": "Huntingtin aggregates are seen in Huntington disease, which causes chorea and mainly affects the caudate (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Neurology (Emily's file), Alzheimer's disease, p. 74"
+        },
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Neurology (Emily's file), Parkinson's disease, p. 162"
+        },
+        {
+          "title": "MSD Manual Professional: Alzheimer Disease",
+          "url": "https://www.msdmanuals.com/professional/neurologic-disorders/delirium-and-dementia/alzheimer-disease"
+        }
+      ]
+    },
+    {
+      "id": "anat-long-thoracic-winged-scapula-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Musculoskeletal",
+      "topic": "Long thoracic nerve: winged scapula",
+      "difficulty": 2,
+      "stem": "A 47-year-old woman has trouble reaching for things on a high shelf since she had a mastectomy with removal of axillary lymph nodes 6 weeks ago. When she pushes against a wall with both hands, the inner (medial) border and lower tip of her right scapula stick out from her back.",
+      "leadIn": "Injury to which of the following nerves is most likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Long thoracic nerve"
+        },
+        {
+          "id": "b",
+          "text": "Axillary nerve"
+        },
+        {
+          "id": "c",
+          "text": "Thoracodorsal nerve"
+        },
+        {
+          "id": "d",
+          "text": "Suprascapular nerve"
+        },
+        {
+          "id": "e",
+          "text": "Dorsal scapular nerve"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: long thoracic nerve. Why: Your el-husseiny musculoskeletal notes (p. 27) explain that the long thoracic nerve (roots C5-C7) supplies serratus anterior. The muscle arises from the first 8 ribs and inserts on the medial border of the scapula, holding the scapula against the chest wall and rotating it upward. The deltoid and supraspinatus raise the arm to horizontal, and the serratus anterior and trapezius then rotate the glenoid upward so the arm can go fully overhead. When the nerve is injured, the medial border and inferior angle of the scapula wing out when the patient pushes against a wall, and the arm cannot be raised above horizontal. Your notes list axillary lymph node dissection during mastectomy, chest tube placement, and penetrating injury to the side of the chest as causes. StatPearls' article on scapular winging agrees that the most common cause of winging is paralysis of serratus anterior after injury to the long thoracic nerve, which causes medial winging. It lists chest tube placement, axillary lymph node dissection, and blunt trauma among the causes, and notes weakness when lifting the arm above shoulder level.",
+      "whyWrong": {
+        "b": "The axillary nerve supplies the deltoid and teres minor; injury weakens abduction and causes numbness over the lateral shoulder, but not winging (standard teaching).",
+        "c": "The thoracodorsal nerve supplies latissimus dorsi, which extends and adducts the arm; its injury does not cause winging of the medial border (standard teaching).",
+        "d": "The suprascapular nerve supplies supraspinatus and infraspinatus, so its injury weakens starting abduction and external rotation (standard teaching).",
+        "e": "The dorsal scapular nerve supplies the rhomboids; StatPearls notes that rhomboid weakness causes lateral winging, not the medial winging seen here (StatPearls, Winging of the Scapula)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Winged scapula, p. 27"
+        },
+        {
+          "title": "StatPearls: Winging of the Scapula",
+          "url": "https://www.statpearls.com/point-of-care/31373"
+        }
+      ]
+    },
+    {
+      "id": "anat-recurrent-laryngeal-thyroidectomy-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Endocrine",
+      "topic": "Recurrent laryngeal nerve injury after thyroidectomy",
+      "difficulty": 2,
+      "stem": "A 44-year-old woman has a hoarse, breathy voice the morning after a total thyroidectomy. She has no stridor and breathes comfortably. Laryngoscopy shows that her left vocal fold does not move and rests slightly to the side of the midline, while the right fold moves normally.",
+      "leadIn": "Injury to which of the following nerves is most likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Left recurrent laryngeal nerve"
+        },
+        {
+          "id": "b",
+          "text": "Left superior laryngeal nerve (external branch)"
+        },
+        {
+          "id": "c",
+          "text": "Left hypoglossal nerve"
+        },
+        {
+          "id": "d",
+          "text": "Left phrenic nerve"
+        },
+        {
+          "id": "e",
+          "text": "Left glossopharyngeal nerve"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: left recurrent laryngeal nerve. Why: the MSD Manual lists thyroidectomy among the causes of recurrent laryngeal nerve paralysis. With one side paralyzed, the voice may be hoarse and breathy, but the airway is usually open because the normal fold opens enough. The paralyzed fold generally rests 2 to 3 mm to the side of the midline. When both sides are paralyzed, as after some thyroid surgery, the airway is too narrow and causes stridor and shortness of breath on moderate exertion. MSD adds that the left recurrent nerve takes a longer path from the brain stem to the larynx, which gives more chances for compression, stretching, or surgical injury. The recurrent laryngeal nerve supplies all the intrinsic muscles of the larynx except the cricothyroid (standard teaching). Your el-husseiny respiratory notes (p. 117) also list compression of this nerve, causing hoarseness, as a complication of lung cancer.",
+      "whyWrong": {
+        "b": "The superior laryngeal nerve's external branch supplies the cricothyroid, which tenses the fold; injury makes it hard to reach high notes, but the fold still moves (standard teaching).",
+        "c": "The hypoglossal nerve moves the tongue; injury makes the tongue point toward the weak side when stuck out (standard teaching).",
+        "d": "The phrenic nerve supplies the diaphragm; injury raises the diaphragm on that side but does not change the voice (standard teaching).",
+        "e": "The glossopharyngeal nerve carries sensation from the back of the tongue and throat and the gag reflex; it does not move the vocal folds (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Vocal Fold Paralysis",
+          "url": "https://www.msdmanuals.com/professional/ear-nose-and-throat-disorders/laryngeal-disorders/vocal-fold-paralysis"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Respiratory System (Emily's file), Complications of lung cancer, p. 117"
+        }
+      ]
+    },
+    {
+      "id": "embryo-thyroglossal-duct-cyst-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Endocrine",
+      "topic": "Thyroid development: thyroglossal duct cyst",
+      "difficulty": 1,
+      "stem": "A 6-year-old boy has a painless lump in the middle of the front of his neck, just below the hyoid bone. It has been there for several months. The lump moves up when he swallows. It is round, soft, and does not glow when a light is shone through it.",
+      "leadIn": "This mass most likely comes from which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A remnant of the thyroglossal duct"
+        },
+        {
+          "id": "b",
+          "text": "A remnant of the second pharyngeal cleft"
+        },
+        {
+          "id": "c",
+          "text": "Persistent cervical sinus of the third pouch"
+        },
+        {
+          "id": "d",
+          "text": "Blocked lymphatic sacs of the neck"
+        },
+        {
+          "id": "e",
+          "text": "Skin ectoderm trapped at a fusion line"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: a remnant of the thyroglossal duct. Why: your Osmosis GI notes (p. 172) explain that the thyroid starts at the foramen cecum at the base of the tongue and moves down the neck, leaving a track called the thyroglossal duct. If the duct stays open, it fills with mucus and forms a benign cyst. It shows up as a painless lump at or near the front midline of the neck that moves when the patient swallows, and it can become infected. Your notes add that thyroid cells left in the cyst can rarely give rise to thyroid cancer, and that treatment is surgical removal (the Sistrunk procedure). StatPearls' Thyroglossal Duct Cyst article agrees that the cyst forms when the duct fails to close, that it is the most common congenital neck anomaly, and that it sits in the midline near the hyoid bone and moves upward when the tongue sticks out or the patient swallows. It puts the cancer risk at less than 1%.",
+      "whyWrong": {
+        "b": "StatPearls notes that second branchial cleft cysts sit to the side of the neck, not in the midline; they lie along the front edge of the sternocleidomastoid (standard teaching).",
+        "c": "Third pouch remnants are rare and lie on the side of the neck, not in the midline (standard teaching).",
+        "d": "A cystic hygroma comes from blocked lymphatics, is usually on the side of the neck, and glows when a light is shone through it (standard teaching).",
+        "e": "A dermoid cyst can sit in the midline, but it does not move with swallowing because it is not attached to the hyoid and the thyroid's path (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Gastrointestinal (Emily's file), Thyroglossal duct cyst, p. 172"
+        },
+        {
+          "title": "StatPearls: Thyroglossal Duct Cyst",
+          "url": "https://www.statpearls.com/point-of-care/30134"
+        }
+      ]
+    },
+    {
+      "id": "embryo-congenital-diaphragmatic-hernia-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Respiratory",
+      "topic": "Congenital diaphragmatic hernia: pulmonary hypoplasia",
+      "difficulty": 2,
+      "stem": "A term newborn boy develops increasing breathing difficulty in his first few hours of life. His abdomen looks flat and sunken. Breath sounds are absent over the left chest, where bowel sounds can be heard, and his heart sounds are loudest on the right.",
+      "leadIn": "Which of the following is the main cause of his breathing difficulty?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Underdeveloped lung on the affected side"
+        },
+        {
+          "id": "b",
+          "text": "Surfactant deficiency from immature lungs"
+        },
+        {
+          "id": "c",
+          "text": "Meconium blocking the small airways"
+        },
+        {
+          "id": "d",
+          "text": "Air leaking into the left pleural space"
+        },
+        {
+          "id": "e",
+          "text": "A fluid-filled cyst budding off the foregut"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: underdevelopment (hypoplasia) of the lung on the affected side. Why: this is a congenital diaphragmatic hernia, with abdominal organs pushed into the chest through a hole in the diaphragm. The MSD Manual explains that the hole is in the back and side of the diaphragm (a Bochdalek hernia) in 95% of cases and on the left in 85%. Breathing difficulty usually starts within the first several hours after birth. The abdomen looks sunken (scaphoid) because the organs have moved into the chest, and bowel sounds may be heard over that side while breath sounds are absent. With a large defect, the lung on that side is underdeveloped, and the small lungs can cause pulmonary hypertension. Your el-husseiny respiratory notes (p. 11) also list congenital diaphragmatic hernia as a cause of pulmonary hypoplasia, along with bilateral renal agenesis. The hole usually comes from incomplete closure of the pleuroperitoneal membrane (standard teaching).",
+      "whyWrong": {
+        "b": "Surfactant deficiency causes neonatal respiratory distress syndrome in premature babies; this baby is term and has bowel in the chest (standard teaching).",
+        "c": "Meconium aspiration happens in babies born through meconium-stained fluid and does not move bowel sounds into the chest (standard teaching).",
+        "d": "A pneumothorax also removes breath sounds, but it would not make the abdomen sunken or bring bowel sounds into the chest (standard teaching).",
+        "e": "A bronchogenic cyst comes from abnormal budding of the foregut and shows as a round, sharply outlined density on x-ray (your El-Husseiny respiratory notes, p. 11)."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Diaphragmatic Hernia",
+          "url": "https://www.msdmanuals.com/professional/pediatrics/congenital-gastrointestinal-anomalies/diaphragmatic-hernia"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Respiratory System (Emily's file), Congenital lung malformations (pulmonary hypoplasia), p. 11"
+        }
+      ]
+    },
+    {
+      "id": "embryo-horseshoe-kidney-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Renal & Urinary",
+      "topic": "Kidney development: horseshoe kidney",
+      "difficulty": 1,
+      "stem": "A 15-year-old girl with Turner syndrome has an abdominal ultrasound. It shows that the lower poles of her two kidneys are joined across the midline in front of the aorta, and that both kidneys sit lower than usual.",
+      "leadIn": "The rise of her kidneys toward their normal position was most likely blocked by which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Inferior mesenteric artery"
+        },
+        {
+          "id": "b",
+          "text": "Superior mesenteric artery"
+        },
+        {
+          "id": "c",
+          "text": "Celiac trunk"
+        },
+        {
+          "id": "d",
+          "text": "Left renal vein"
+        },
+        {
+          "id": "e",
+          "text": "Common iliac arteries"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: inferior mesenteric artery. Why: this is a horseshoe kidney. Your el-husseiny nephrology notes (p. 9) explain that the kidneys start out in the sacral region and seem to rise to their adult position at about T12-L3 as the lower part of the embryo grows quickly. In a horseshoe kidney, the two kidneys fuse at their poles early in development, at the lower poles in about 90% of cases. The joined middle part (the isthmus) lies across the midline in front of the aorta and inferior vena cava. As the kidneys rise, the isthmus gets caught under the inferior mesenteric artery, so the kidneys stay low. Your notes add that horseshoe kidney is linked with blockage at the ureteropelvic junction, kidney stones, infection, and a higher risk of kidney cancer. It is more common in chromosome disorders such as Turner syndrome and trisomies 13, 18, and 21. StatPearls' Horseshoe Kidney article agrees that the isthmus joins the lower poles in over 90% of cases and that the inferior mesenteric artery stops the kidneys' rise. It links horseshoe kidney with trisomy 18 and Turner syndrome, and lists ureteropelvic junction obstruction as the most common complication, along with stones and renal cell cancer.",
+      "whyWrong": {
+        "b": "The superior mesenteric artery arises higher on the aorta; your notes describe the isthmus trapped below the inferior mesenteric artery (your El-Husseiny nephrology notes, p. 9).",
+        "c": "The celiac trunk arises even higher, near the diaphragm, far above where a fused kidney gets stuck (standard teaching).",
+        "d": "The left renal vein crosses in front of the aorta below the superior mesenteric artery, but it is not what traps a horseshoe kidney (standard teaching).",
+        "e": "The common iliac arteries sit below the starting point of the rise; the fused kidney gets caught higher, under the inferior mesenteric artery (your El-Husseiny nephrology notes, p. 9)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Nephrology (Emily's file), Horseshoe kidney, p. 9"
+        },
+        {
+          "title": "StatPearls: Horseshoe Kidney",
+          "url": "https://www.statpearls.com/point-of-care/23001"
+        }
+      ]
+    },
+    {
+      "id": "embryo-posterior-urethral-valves-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Renal & Urinary",
+      "topic": "Urinary tract development: posterior urethral valves",
+      "difficulty": 2,
+      "stem": "A prenatal ultrasound at 24 weeks' gestation shows a male fetus with very little amniotic fluid. The fetal bladder is large and thick-walled, and both ureters and both kidney collecting systems are dilated.",
+      "leadIn": "Blockage at which of the following sites best explains these findings?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Prostatic urethra"
+        },
+        {
+          "id": "b",
+          "text": "Ureteropelvic junction"
+        },
+        {
+          "id": "c",
+          "text": "Ureterovesical junction"
+        },
+        {
+          "id": "d",
+          "text": "Urethral meatus"
+        },
+        {
+          "id": "e",
+          "text": "Urachus"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: prostatic urethra. Why: a large bladder with dilation of both ureters and both kidneys in a boy points to posterior urethral valves. Your el-husseiny nephrology notes (p. 5) explain that these valves are the leading cause of blocked urine flow in baby boys. Extra flaps of tissue at the lower end of the prostatic urethra hold back urine, so the bladder, then the ureters, then the kidneys swell. A big bladder with dilated ureters and collecting systems on both sides on prenatal ultrasound strongly suggests the diagnosis. Much of the amniotic fluid is fetal urine, so when little urine gets out, the fluid runs low (oligohydramnios). Your notes stress that low fluid in the second trimester is a bad sign with high perinatal mortality, because the lungs need normal amniotic fluid to develop. Low fluid also limits fetal movement and leads to flat facies and limb deformities (Potter sequence). StatPearls' Posterior Urethral Valves article agrees that the valves are folds in the posterior urethra, found only in males, and are the most common cause of lower urinary tract blockage in male newborns. A distended, thick-walled bladder with hydronephrosis on both sides suggests the diagnosis, and severe cases cause oligohydramnios and pulmonary hypoplasia.",
+      "whyWrong": {
+        "b": "A ureteropelvic junction blockage dilates the kidney above it but leaves the ureter and bladder normal, and it is usually on one side (standard teaching).",
+        "c": "A ureterovesical junction blockage dilates the ureter and kidney above it but not the bladder (standard teaching).",
+        "d": "A narrowed urethral meatus is rarely severe enough to cause oligohydramnios before birth (standard teaching).",
+        "e": "A patent urachus leaks urine from the bladder to the umbilicus; it does not block outflow (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Nephrology (Emily's file), Posterior urethral valves, p. 5"
+        },
+        {
+          "title": "StatPearls: Posterior Urethral Valves",
+          "url": "https://www.statpearls.com/point-of-care/27515"
+        }
+      ]
+    },
+    {
+      "id": "anat-indirect-inguinal-hernia-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Gastrointestinal",
+      "topic": "Inguinal canal: indirect inguinal hernia",
+      "difficulty": 2,
+      "stem": "A 23-year-old man has a bulge in his right groin that gets bigger when he coughs and reaches into the top of his scrotum. At surgery, the hernia sac is found entering the inguinal canal through the deep inguinal ring and leaving through the superficial ring.",
+      "leadIn": "Compared with the inferior epigastric vessels, where does this hernia sac begin?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lateral to them"
+        },
+        {
+          "id": "b",
+          "text": "Medial to them"
+        },
+        {
+          "id": "c",
+          "text": "Directly behind them"
+        },
+        {
+          "id": "d",
+          "text": "Below the inguinal ligament"
+        },
+        {
+          "id": "e",
+          "text": "Above the arcuate line"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: lateral to them. Why: a hernia that enters the canal through the deep ring and follows the cord into the scrotum is an indirect inguinal hernia. StatPearls' article on the inguinal region explains that an indirect hernia occurs when the peritoneal sac enters the canal through the deep (internal) inguinal ring and pushes out through the external ring. The deep ring sits just above the midpoint of the inguinal ligament and lateral to the inferior epigastric vessels. A direct hernia, by contrast, pushes straight through a weak spot in the posterior wall of the canal. StatPearls adds that a processus vaginalis that stays open may raise the risk of inguinal hernia, and that peritoneal fluid running down an open processus causes a hydrocele.",
+      "whyWrong": {
+        "b": "A sac that starts medial to the inferior epigastric vessels is a direct hernia, which pushes through the weak posterior wall (Hesselbach triangle) rather than through the deep ring (StatPearls, Inguinal Region; standard teaching).",
+        "c": "Hernias are described as lateral (indirect) or medial (direct) to these vessels; the deep ring sits lateral to them (StatPearls, Inguinal Region).",
+        "d": "A sac below the inguinal ligament, medial to the femoral vein, is a femoral hernia, which does not travel through the inguinal canal (standard teaching).",
+        "e": "The arcuate line is a landmark on the back of the rectus sheath higher on the abdomen; it has nothing to do with groin hernias (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Anatomy, Abdomen and Pelvis: Inguinal Region (Inguinal Canal)",
+          "url": "https://www.statpearls.com/point-of-care/32114"
+        }
+      ]
     }
   ]
 }
