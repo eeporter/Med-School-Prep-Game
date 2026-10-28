@@ -28064,6 +28064,1064 @@
           "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3876337/"
         }
       ]
+    },
+    {
+      "id": "phys-fena-prerenal-aldosterone-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Renal & Urinary",
+      "topic": "Acute kidney injury: low FENa in prerenal azotemia",
+      "difficulty": 2,
+      "stem": "A 78-year-old woman has had watery diarrhea for 4 days and is now dizzy when she stands. Her mouth is dry, and her blood pressure falls from 112/70 mm Hg lying down to 90/58 mm Hg standing. Serum urea nitrogen (BUN) is 56 mg/dL and creatinine is 2.0 mg/dL. Urine sodium is 10 mEq/L, the fractional excretion of sodium (FENa) is 0.4%, and urine osmolality is 640 mOsm/kg. The urine sediment shows only a few hyaline casts.",
+      "leadIn": "Which of the following best explains her very low urine sodium?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Intact tubules saving sodium under high aldosterone"
+        },
+        {
+          "id": "b",
+          "text": "Dead tubular cells that can no longer reabsorb sodium"
+        },
+        {
+          "id": "c",
+          "text": "Blocked urine flow raising pressure in Bowman space"
+        },
+        {
+          "id": "d",
+          "text": "Loss of the negative charge barrier in the glomerulus"
+        },
+        {
+          "id": "e",
+          "text": "A rise in GFR that delivers less sodium to the tubules"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: intact tubules saving sodium under high aldosterone. Why: this is prerenal azotemia from volume loss. Your El-Husseiny nephrology notes (pp. 112-114) explain that low blood flow to the kidneys lowers GFR, but the tubules still work. Low blood pressure raises aldosterone, which makes the tubules hold on to sodium, so urine sodium falls below 20 and the FENa falls below 1%. ADH also rises, so the kidney saves water and makes concentrated urine (above 500 mOsm/kg). BUN is reabsorbed but creatinine is not, so the BUN to creatinine ratio rises above 20 (here 56 / 2.0 = 28). The MSD Manual table on prerenal azotemia versus acute tubular necrosis (ATN) gives the same cutoffs: in prerenal azotemia, urine sodium is below 20, FENa is below 1%, urine osmolality is above 500, the BUN to creatinine ratio is above 20 to 1, and the sediment is normal or shows hyaline casts. The MSD FENa calculator adds that a FENa below 1% usually means a prerenal state.",
+      "whyWrong": {
+        "b": "Dead tubular cells (ATN) cannot hold on to sodium, so urine sodium rises above 40 and FENa rises above 1 to 2% (your El-Husseiny nephrology notes, p. 114; MSD table).",
+        "c": "Long-standing obstruction damages the tubules and raises FENa above 2% (your El-Husseiny nephrology notes, p. 113); she has diarrhea and low blood pressure, not obstruction.",
+        "d": "Loss of the glomerular charge barrier lets albumin into the urine, as in nephrotic syndrome (your El-Husseiny nephrology notes, p. 26); it does not explain sodium saving.",
+        "e": "Low blood flow to the kidneys lowers GFR in prerenal azotemia (your El-Husseiny nephrology notes, p. 112); GFR has not risen."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Nephrology (Emily's file), Prerenal, postrenal and intrinsic azotemia, pp. 112-114"
+        },
+        {
+          "title": "MSD Manual Professional: Laboratory Findings Distinguishing Acute Tubular Necrosis From Prerenal Azotemia (table)",
+          "url": "https://www.msdmanuals.com/professional/multimedia/table/laboratory-findings-distinguishing-acute-tubular-necrosis-from-prerenal-azotemia"
+        },
+        {
+          "title": "MSD Manual: Fractional Excretion of Sodium (medical calculator)",
+          "url": "https://www.msdmanuals.com/iframe/manual/medical-calculators/fractexcsodium.htm"
+        }
+      ]
+    },
+    {
+      "id": "phys-fena-calculation-atn-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Renal & Urinary",
+      "topic": "Renal formulas: calculating the FENa",
+      "difficulty": 2,
+      "stem": "A 58-year-old man had septic shock with low blood pressure for 2 days. He now makes very little urine. Urine microscopy shows many muddy brown granular casts. Laboratory results:\n\nSerum sodium: 140 mEq/L\nSerum creatinine: 4.0 mg/dL\nUrine sodium: 60 mEq/L\nUrine creatinine: 40 mg/dL",
+      "leadIn": "What is this patient's fractional excretion of sodium (FENa)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.04%"
+        },
+        {
+          "id": "b",
+          "text": "4.3%"
+        },
+        {
+          "id": "c",
+          "text": "10%"
+        },
+        {
+          "id": "d",
+          "text": "23%"
+        },
+        {
+          "id": "e",
+          "text": "43%"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Answer: about 4.3%. Why: the MSD Manual FENa calculator gives the formula FENa = (urine Na / serum Na) / (urine Cr / serum Cr) × 100. Here urine Na / serum Na = 60 / 140 ≈ 0.43, and urine Cr / serum Cr = 40 / 4.0 = 10. So FENa = 0.43 / 10 × 100 ≈ 4.3%. MSD says a FENa above 2% usually means acute tubular necrosis (ATN), below 1% usually means a prerenal state, and 1 to 2% can be either. The MSD table on ATN versus prerenal azotemia lists muddy brown granular casts, urine sodium above 40, and FENa above 2% for ATN. Your El-Husseiny nephrology notes (p. 114) explain why: when tubular cells die from ischemia, they cannot reabsorb sodium or concentrate the urine.",
+      "whyWrong": {
+        "a": "0.04% comes from forgetting to multiply by 100 at the end (MSD FENa calculator).",
+        "c": "10 is the urine to serum creatinine ratio (40 / 4.0), not the FENa (MSD FENa calculator).",
+        "d": "23% comes from flipping the sodium ratio (140 / 60) before dividing by the creatinine ratio (MSD FENa calculator).",
+        "e": "43% is the urine to serum sodium ratio alone; the FENa must also divide by the creatinine ratio (MSD FENa calculator)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Nephrology (Emily's file), Acute tubular necrosis and fractional excretion of sodium, p. 114"
+        },
+        {
+          "title": "MSD Manual: Fractional Excretion of Sodium (medical calculator)",
+          "url": "https://www.msdmanuals.com/iframe/manual/medical-calculators/fractexcsodium.htm"
+        },
+        {
+          "title": "MSD Manual Professional: Laboratory Findings Distinguishing Acute Tubular Necrosis From Prerenal Azotemia (table)",
+          "url": "https://www.msdmanuals.com/professional/multimedia/table/laboratory-findings-distinguishing-acute-tubular-necrosis-from-prerenal-azotemia"
+        }
+      ]
+    },
+    {
+      "id": "phys-angiotensin-efferent-filtration-fraction-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Renal & Urinary",
+      "topic": "Glomerular filtration: efferent arteriole constriction and filtration fraction",
+      "difficulty": 2,
+      "stem": "In a study of kidney physiology, a healthy volunteer receives a low-dose angiotensin II infusion. At this dose, the drug constricts the efferent arterioles much more than the afferent arterioles, and the mean arterial pressure stays the same. The researchers measure glomerular filtration rate (GFR), renal plasma flow (RPF), and filtration fraction (FF) before and during the infusion.",
+      "leadIn": "Which set of changes is most likely during the infusion?",
+      "options": [
+        {
+          "id": "a",
+          "text": "GFR up, RPF down, FF up"
+        },
+        {
+          "id": "b",
+          "text": "GFR down, RPF down, FF unchanged"
+        },
+        {
+          "id": "c",
+          "text": "GFR down, RPF unchanged, FF down"
+        },
+        {
+          "id": "d",
+          "text": "GFR up, RPF unchanged, FF up"
+        },
+        {
+          "id": "e",
+          "text": "GFR down, RPF down even more, FF up"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: GFR up, RPF down, FF up. Why: Your El-Husseiny nephrology notes (pp. 29-31) define the filtration fraction as GFR / RPF, normally about 120 / 600 = 20%. Squeezing the efferent arteriole slows blood leaving the glomerulus, so pressure inside the glomerular capillaries rises and GFR goes up. Less plasma flows through the kidney, so RPF goes down. With GFR up and RPF down, FF rises. Your notes add that angiotensin II constricts the efferent arteriole more than the afferent arteriole, which helps keep GFR up when blood pressure drops. StatPearls (Physiology, Renal Blood Flow and Filtration) agrees that FF is about 20%, that constricting the efferent arteriole raises GFR but lowers RPF and so raises FF, and that angiotensin II mainly constricts efferent arterioles to keep up filtration when blood flow is low.",
+      "whyWrong": {
+        "b": "Afferent arteriole constriction lowers both GFR and RPF, so FF stays about the same (your El-Husseiny nephrology notes, p. 30).",
+        "c": "This pattern fits ureteral constriction or a rise in plasma protein, which lower GFR without changing RPF (your El-Husseiny nephrology notes, p. 30).",
+        "d": "This pattern fits a fall in plasma protein, which lowers the oncotic pressure that opposes filtration (your El-Husseiny nephrology notes, p. 30).",
+        "e": "This pattern fits dehydration, in which RPF falls more than GFR (your El-Husseiny nephrology notes, p. 30); the infusion here does not change blood volume."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Nephrology (Emily's file), Filtration fraction and its regulation, pp. 29-31"
+        },
+        {
+          "title": "StatPearls: Physiology, Renal Blood Flow and Filtration",
+          "url": "https://www.statpearls.com/sp/np/195/800/"
+        }
+      ]
+    },
+    {
+      "id": "phys-filtration-fraction-calc-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Renal & Urinary",
+      "topic": "Renal formulas: filtration fraction from inulin and PAH clearance",
+      "difficulty": 2,
+      "stem": "In a renal physiology lab, a healthy student receives infusions of inulin and of para-aminohippuric acid (PAH), with plasma PAH kept low. Results:\n\nUrine flow: 2 mL/min\nUrine inulin: 60 mg/mL; plasma inulin: 1 mg/mL\nUrine PAH: 15 mg/mL; plasma PAH: 0.05 mg/mL",
+      "leadIn": "What is this student's filtration fraction?",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.20"
+        },
+        {
+          "id": "b",
+          "text": "0.25"
+        },
+        {
+          "id": "c",
+          "text": "0.80"
+        },
+        {
+          "id": "d",
+          "text": "1.0"
+        },
+        {
+          "id": "e",
+          "text": "5.0"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: 0.20. Why: clearance = (urine concentration × urine flow) / plasma concentration. Inulin is freely filtered and not reabsorbed or secreted, so its clearance equals GFR: (60 × 2) / 1 = 120 mL/min. At low plasma levels, PAH is filtered and also secreted so well that almost all of it is removed from the plasma passing through the kidney, so its clearance equals renal plasma flow (RPF): (15 × 2) / 0.05 = 600 mL/min. Your El-Husseiny nephrology notes (pp. 29, 36, 41) explain that the filtration fraction is GFR / RPF, so FF = 120 / 600 = 0.20, or 20%, the normal value. StatPearls (Physiology, Renal Blood Flow and Filtration) gives the same formulas, RPF = clearance of PAH and FF = GFR / RPF, and agrees that FF is about 20%.",
+      "whyWrong": {
+        "b": "0.25 divides GFR by the plasma that is not filtered (120 / 480); FF uses the whole RPF (StatPearls, Renal Blood Flow and Filtration).",
+        "c": "0.80 is the share of plasma that is not filtered (480 / 600), not the filtration fraction (StatPearls, Renal Blood Flow and Filtration).",
+        "d": "An FF of 1.0 would mean all plasma is filtered; PAH clearance is much higher than GFR because PAH is also secreted (your El-Husseiny nephrology notes, p. 41).",
+        "e": "5.0 is RPF / GFR, the ratio turned upside down (StatPearls, Renal Blood Flow and Filtration)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Nephrology (Emily's file), Filtration fraction, p. 29; renal clearance and PAH, pp. 36, 41"
+        },
+        {
+          "title": "StatPearls: Physiology, Renal Blood Flow and Filtration",
+          "url": "https://www.statpearls.com/sp/np/195/800/"
+        }
+      ]
+    },
+    {
+      "id": "phys-pah-saturation-clearance-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Renal & Urinary",
+      "topic": "Renal clearance: PAH secretion and carrier saturation",
+      "difficulty": 3,
+      "stem": "In a kidney physiology experiment, para-aminohippuric acid (PAH) is infused at a slowly rising rate. At low plasma PAH levels, its clearance is 600 mL/min and almost no PAH is found in renal venous blood. As the plasma PAH level is raised far higher, PAH clearance falls steadily toward 130 mL/min, and more PAH now appears in renal venous blood.",
+      "leadIn": "Which of the following best explains the fall in PAH clearance?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Saturation of the tubular carriers that secrete PAH"
+        },
+        {
+          "id": "b",
+          "text": "A fall in renal plasma flow caused by the PAH"
+        },
+        {
+          "id": "c",
+          "text": "New reabsorption of PAH in the proximal tubule"
+        },
+        {
+          "id": "d",
+          "text": "A drop in GFR from high PAH in Bowman space"
+        },
+        {
+          "id": "e",
+          "text": "Binding of PAH to plasma proteins so it cannot filter"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: saturation of the tubular carriers that secrete PAH. Why: Your El-Husseiny nephrology notes (pp. 36, 41) explain that PAH is freely filtered and actively secreted in the proximal tubule, and it is not reabsorbed. At low plasma levels, the carriers are not saturated, so almost all the plasma reaching the peritubular capillaries is cleared of PAH. Its clearance then equals renal plasma flow, and no PAH is left in renal venous blood. Once every carrier is busy, part of the plasma flows past without losing its PAH, so clearance drops below renal plasma flow and PAH is left over in the renal vein. At very high levels, most PAH leaves only by filtration, so its clearance falls to just above GFR. StatPearls (Physiology, Renal Blood Flow and Filtration) agrees that RPF is estimated by PAH clearance.",
+      "whyWrong": {
+        "b": "Nothing in the stem changes blood flow; the clearance falls because secretion is maxed out, not because flow fell (your El-Husseiny nephrology notes, p. 41).",
+        "c": "PAH is not reabsorbed by the tubules (your El-Husseiny nephrology notes, p. 41).",
+        "d": "Filtration of PAH continues at high levels, which is why its clearance levels off just above GFR (your El-Husseiny nephrology notes, p. 41).",
+        "e": "Your notes list PAH among substances that are freely filtered (your El-Husseiny nephrology notes, p. 26); protein binding does not explain the fall."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Nephrology (Emily's file), PAH clearance and tubular secretion, pp. 26, 36, 41"
+        },
+        {
+          "title": "StatPearls: Physiology, Renal Blood Flow and Filtration",
+          "url": "https://www.statpearls.com/sp/np/195/800/"
+        }
+      ]
+    },
+    {
+      "id": "phys-dlco-emphysema-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Respiratory",
+      "topic": "Diffusing capacity (DLCO): emphysema vs other lung diseases",
+      "difficulty": 2,
+      "stem": "A 66-year-old man who has smoked 2 packs a day for 45 years has had worsening shortness of breath for 3 years. He coughs up little sputum. He is thin, breathes out through pursed lips, and has a barrel chest. His hemoglobin is normal. Pulmonary function tests show an FEV1/FVC ratio of 0.52, a total lung capacity of 125% of predicted, and a diffusing capacity for carbon monoxide (DLCO) of 45% of predicted.",
+      "leadIn": "Which of the following best explains his low DLCO?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Loss of alveolar walls and the capillaries in them"
+        },
+        {
+          "id": "b",
+          "text": "Thickening of the alveolar-capillary membrane by scar"
+        },
+        {
+          "id": "c",
+          "text": "Enlarged submucosal mucous glands in the bronchi"
+        },
+        {
+          "id": "d",
+          "text": "Reversible spasm of bronchial smooth muscle"
+        },
+        {
+          "id": "e",
+          "text": "Weakness of the diaphragm and other breathing muscles"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: loss of alveolar walls and the capillaries in them. Why: this is emphysema. Your El-Husseiny respiratory notes (pp. 41, 89-90) explain that the rate of gas diffusion depends on the surface area and the thickness of the membrane. Emphysema destroys the walls between alveoli, which removes surface area and the capillaries next to it, so the DLCO falls. Loss of elastic recoil lets airways collapse when he breathes out, so air is trapped: the FEV1/FVC ratio falls and the total lung capacity rises. StatPearls (Diffusing Capacity of the Lungs for Carbon Monoxide) agrees that less membrane surface area or a thicker membrane lowers diffusion, and that low DLCO with an obstructive pattern is seen in COPD with emphysema because of alveolar destruction, while DLCO is usually normal in chronic bronchitis.",
+      "whyWrong": {
+        "b": "A thicker membrane from fibrosis lowers DLCO, but that is a restrictive disease with a small total lung capacity (your El-Husseiny respiratory notes, pp. 41, 97).",
+        "c": "Enlarged mucous glands are the change of chronic bronchitis, in which DLCO is usually normal (your El-Husseiny respiratory notes, p. 89; StatPearls, DLCO).",
+        "d": "StatPearls (DLCO) lists asthma among conditions with a high, not low, DLCO; his obstruction is also not described as reversible.",
+        "e": "Weak breathing muscles cause a restrictive pattern with a normal DLCO (your El-Husseiny respiratory notes, p. 97)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Respiratory System (Emily's file), Diffusion capacity, p. 41; chronic bronchitis and emphysema, pp. 89-90; restrictive diseases, p. 97"
+        },
+        {
+          "title": "StatPearls: Diffusing Capacity of the Lungs for Carbon Monoxide",
+          "url": "https://www.statpearls.com/point-of-care/20633"
+        }
+      ]
+    },
+    {
+      "id": "phys-restrictive-chest-wall-normal-dlco-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Respiratory",
+      "topic": "Pulmonary function tests: restriction from the chest wall",
+      "difficulty": 2,
+      "stem": "A 47-year-old woman has severe kyphoscoliosis that has gotten worse over many years. She now gets short of breath walking up one flight of stairs. Her neurologic exam is normal, and her chest x-ray shows clear lungs. Pulmonary function tests show an FVC of 55% of predicted, an FEV1/FVC ratio of 0.86, a total lung capacity of 60% of predicted, and a normal DLCO. Her A-a gradient is normal.",
+      "leadIn": "Which of the following best explains these findings?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A stiff chest wall that limits lung expansion"
+        },
+        {
+          "id": "b",
+          "text": "Scarring that thickens the alveolar-capillary membrane"
+        },
+        {
+          "id": "c",
+          "text": "Destruction of alveolar walls with trapped air"
+        },
+        {
+          "id": "d",
+          "text": "Narrowed airways that empty slowly on expiration"
+        },
+        {
+          "id": "e",
+          "text": "Fluid filling the alveoli and blocking gas exchange"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: a stiff chest wall that limits lung expansion. Why: Your El-Husseiny respiratory notes (pp. 20-21, 97) explain that restrictive disease lowers lung volumes (low FVC and total lung capacity), with an FEV1/FVC ratio that is normal or high (80% or more). A low total lung capacity confirms restriction. Your notes split restriction into two kinds. In poor breathing mechanics outside the lungs, such as scoliosis, morbid obesity, or weak breathing muscles, the DLCO and A-a gradient are normal. In interstitial lung disease, the DLCO falls and the A-a gradient rises. The MSD Manual (Airflow, Lung Volumes, and Flow-Volume Loop) agrees that kyphosis can cause restriction and that the FEV1/FVC ratio is normal or high in restrictive disease. StatPearls (DLCO) adds that a normal DLCO with a restrictive pattern suggests a neuromuscular or chest wall disorder.",
+      "whyWrong": {
+        "b": "Interstitial fibrosis is restrictive too, but it lowers the DLCO and widens the A-a gradient (your El-Husseiny respiratory notes, p. 97).",
+        "c": "Emphysema is obstructive, with a low FEV1/FVC ratio, a large total lung capacity, and a low DLCO (your El-Husseiny respiratory notes, pp. 89-90).",
+        "d": "Narrowed airways give an obstructive pattern with a low FEV1/FVC ratio (your El-Husseiny respiratory notes, p. 21); hers is 0.86.",
+        "e": "Fluid in the alveoli, as in ARDS, harms gas exchange and is grouped with the lung diseases that lower DLCO (your El-Husseiny respiratory notes, p. 97); her lungs are clear."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Respiratory System (Emily's file), Pulmonary function tests, pp. 20-21; restrictive diseases, p. 97"
+        },
+        {
+          "title": "MSD Manual Professional: Airflow, Lung Volumes, and Flow-Volume Loop",
+          "url": "https://www.msdmanuals.com/professional/pulmonary-disorders/tests-of-pulmonary-function-pft/airflow-lung-volumes-and-flow-volume-loop"
+        },
+        {
+          "title": "StatPearls: Diffusing Capacity of the Lungs for Carbon Monoxide",
+          "url": "https://www.statpearls.com/point-of-care/20633"
+        }
+      ]
+    },
+    {
+      "id": "phys-a-a-gradient-calculation-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Respiratory",
+      "topic": "Hypoxemia: calculating the A-a gradient",
+      "difficulty": 2,
+      "stem": "A 62-year-old man has had fever and a cough for 3 days. A chest x-ray shows a right lower lobe infiltrate. Arterial blood gas on room air at sea level shows a PaO2 of 58 mm Hg and a PaCO2 of 32 mm Hg. Assume an FiO2 of 0.21, an atmospheric pressure of 760 mm Hg, a water vapor pressure of 47 mm Hg, and a respiratory quotient of 0.8.",
+      "leadIn": "What is this patient's alveolar-arterial (A-a) oxygen gradient?",
+      "options": [
+        {
+          "id": "a",
+          "text": "18 mm Hg"
+        },
+        {
+          "id": "b",
+          "text": "26 mm Hg"
+        },
+        {
+          "id": "c",
+          "text": "52 mm Hg"
+        },
+        {
+          "id": "d",
+          "text": "60 mm Hg"
+        },
+        {
+          "id": "e",
+          "text": "92 mm Hg"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Answer: 52 mm Hg. Why: your Osmosis physiology notes (p. 597) give the alveolar gas equation as PAO2 = FiO2 × (Patm - water vapor) - PaCO2 / R, using FiO2 0.21, 760 mm Hg, 47 mm Hg, and R = 0.8. At sea level on room air this works out to PAO2 = 150 - 1.25 × PaCO2. Here PAO2 = 150 - 1.25 × 32 = 150 - 40 = 110 mm Hg. Your El-Husseiny respiratory notes (p. 59) define the A-a gradient as PAO2 - PaO2, so 110 - 58 = 52 mm Hg. Your notes say the gradient is normally no more than 10 to 15 mm Hg. StatPearls (Physiology, Alveolar to Arterial Oxygen Gradient) gives an age-based estimate of normal, (age + 10) / 4, which is about 18 for him. It adds that pneumonia raises the gradient, while hypoventilation leaves it normal. His gradient is high, so the low oxygen comes from the lung itself, not from breathing too little.",
+      "whyWrong": {
+        "a": "18 mm Hg is the expected normal gradient for a 62-year-old, (62 + 10) / 4, not his measured gradient (StatPearls, A-a gradient).",
+        "b": "26 mm Hg subtracts PaCO2 from PaO2 (58 - 32), which is not the A-a gradient.",
+        "d": "60 mm Hg subtracts PaCO2 without dividing it by R (150 - 32 - 58); the equation uses PaCO2 / 0.8 (your Osmosis physiology notes, p. 597).",
+        "e": "92 mm Hg leaves out the carbon dioxide term (150 - 58); alveolar CO2 takes up space that lowers alveolar O2 (your Osmosis physiology notes, p. 597)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Alveolar gas equation, p. 597"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Respiratory System (Emily's file), A-a gradient, p. 59"
+        },
+        {
+          "title": "StatPearls: Physiology, Alveolar to Arterial Oxygen Gradient",
+          "url": "https://www.statpearls.com/point-of-care/17421"
+        }
+      ]
+    },
+    {
+      "id": "histo-glomerular-charge-barrier-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "Renal & Urinary",
+      "topic": "Kidney histology: the glomerular filtration barrier",
+      "difficulty": 2,
+      "stem": "In a kidney research lab, two forms of dextran of the same size (about 4 nm across) are infused into a rat. One form carries a strong negative charge and the other carries no charge. The neutral dextran passes into Bowman space much more easily than the negatively charged dextran.",
+      "leadIn": "Which of the following best explains this difference?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Negative charges on glycoproteins of the barrier"
+        },
+        {
+          "id": "b",
+          "text": "Fenestrations in the capillary endothelium"
+        },
+        {
+          "id": "c",
+          "text": "Slit diaphragms between podocyte foot processes"
+        },
+        {
+          "id": "d",
+          "text": "Tight junctions between parietal epithelial cells"
+        },
+        {
+          "id": "e",
+          "text": "Contraction of mesangial cells between capillaries"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: negative charges on the glycoproteins of the barrier. Why: Your El-Husseiny nephrology notes (pp. 25-26) explain that the glomerular filtration barrier has three layers: a fenestrated capillary endothelium, a basement membrane with type IV collagen and heparan sulfate, and the podocyte foot processes. It sorts molecules by both size and charge. All three layers carry negatively charged glycoproteins, which push away negatively charged molecules such as albumin. The size barrier comes from the endothelial pores and the slit diaphragm between foot processes. Because the two dextrans here are the same size, only the charge barrier can explain why the negative one is held back. Your notes add that the charge barrier is lost in nephrotic syndrome. StatPearls (Physiology, Renal Blood Flow and Filtration) agrees that all layers contain negatively charged glycoproteins and that the outer layer is made of podocyte foot processes.",
+      "whyWrong": {
+        "b": "The endothelial fenestrations are part of the size barrier, keeping out blood cells and molecules over about 100 nm (your El-Husseiny nephrology notes, p. 26); both dextrans are the same size.",
+        "c": "The slit diaphragm is part of the size barrier, keeping out molecules over about 50 to 60 nm (your El-Husseiny nephrology notes, p. 26); it does not explain a difference between two dextrans of the same size.",
+        "d": "The parietal layer lines the outside of Bowman capsule; your notes list the endothelium, basement membrane, and podocytes as the filter (your El-Husseiny nephrology notes, p. 25).",
+        "e": "Your notes describe the filter as the endothelium, basement membrane, and podocytes, which sort by size and charge (your El-Husseiny nephrology notes, pp. 25-26); mesangial cell contraction does not sort molecules by charge."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Nephrology (Emily's file), Glomerular filtration barrier, pp. 25-26"
+        },
+        {
+          "title": "StatPearls: Physiology, Renal Blood Flow and Filtration",
+          "url": "https://www.statpearls.com/sp/np/195/800/"
+        }
+      ]
+    },
+    {
+      "id": "histo-club-cells-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "Respiratory",
+      "topic": "Lung histology: club cells in the bronchioles",
+      "difficulty": 2,
+      "stem": "A lung biopsy is examined with an electron microscope. Lining the terminal bronchioles, among the ciliated cells, are dome-shaped cells that have no cilia. These cells contain many secretory granules near their surface.",
+      "leadIn": "Which of the following is a main function of these cells?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Breaking down toxins and acting as reserve cells"
+        },
+        {
+          "id": "b",
+          "text": "Making most of the mucus that traps inhaled particles"
+        },
+        {
+          "id": "c",
+          "text": "Forming the thin wall where gas exchange happens"
+        },
+        {
+          "id": "d",
+          "text": "Eating dust and microbes that reach the alveoli"
+        },
+        {
+          "id": "e",
+          "text": "Moving mucus toward the throat by beating cilia"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: breaking down toxins and acting as reserve cells. Why: these are club cells. Your El-Husseiny respiratory notes (p. 9) describe club cells as cells without cilia, low columnar to cuboidal, with secretory granules. They secrete a part of surfactant, break down toxins, and act as reserve cells that can replace other lining cells. A review by Rokicki and colleagues (Polish Journal of Thoracic and Cardiovascular Surgery, 2016) agrees that club cells act as progenitor cells for the airway lining, take part in handling toxic substances that are breathed in, and secrete proteins that help keep the airway lining intact and repair it.",
+      "whyWrong": {
+        "b": "Goblet cells and submucosal mucous glands make the airway mucus; these glands enlarge in chronic bronchitis (your El-Husseiny respiratory notes, p. 89).",
+        "c": "Type I pneumocytes form the thin gas-exchange wall, and type II cells serve as their precursors (your El-Husseiny respiratory notes, p. 9).",
+        "d": "Alveolar macrophages, not bronchiolar lining cells, eat particles that reach the alveoli (standard teaching).",
+        "e": "Ciliated cells move mucus upward; the cells in the stem have no cilia."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Respiratory System (Emily's file), Club cells, p. 9"
+        },
+        {
+          "title": "Rokicki W, et al. The role and importance of club cells (Clara cells) in the pathogenesis of some respiratory diseases. Kardiochir Torakochirurgia Pol 2016;13(1):26-30",
+          "url": "https://termedia.pl/The-role-and-importance-of-club-cells-Clara-cells-in-the-pathogenesis-of-some-respiratory-diseases,40,27246,0,0.html"
+        }
+      ]
+    },
+    {
+      "id": "histo-reid-index-chronic-bronchitis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "Respiratory",
+      "topic": "Airway histology: mucous glands and the Reid index",
+      "difficulty": 2,
+      "stem": "A 59-year-old woman who has smoked for 40 years has had a cough with sputum for about 4 months each year for the past 3 years. Pulmonary function tests show an FEV1/FVC ratio of 0.62 with a normal DLCO. She dies in a car crash, and a section of a large bronchus is examined at autopsy.",
+      "leadIn": "Which of the following findings is most likely in the bronchial wall?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Enlarged mucous glands, Reid index above 0.5"
+        },
+        {
+          "id": "b",
+          "text": "Destroyed alveolar walls with enlarged air spaces"
+        },
+        {
+          "id": "c",
+          "text": "Hyaline membranes lining the alveolar walls"
+        },
+        {
+          "id": "d",
+          "text": "Noncaseating granulomas along the bronchi"
+        },
+        {
+          "id": "e",
+          "text": "A thin wall of cartilage with no submucosal glands"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: enlarged mucous glands with a Reid index above 0.5. Why: she has chronic bronchitis, a productive cough for at least 3 months a year for 2 years in a row. Your El-Husseiny respiratory notes (p. 89) explain that the airway wall thickens mostly because the submucosal mucous glands grow larger and more numerous. The Reid index measures this: it compares how thick the gland layer is with how thick the wall is from the lining epithelium out to the cartilage. The index is normally below 40% and rises above 50% in chronic bronchitis. DLCO is usually normal. StatPearls (Chronic Bronchitis) agrees on the cough definition, describes enlarged submucosal glands in the trachea and bronchi with more goblet cells in small airways, and gives a normal Reid index of less than 0.4 that rises in chronic bronchitis.",
+      "whyWrong": {
+        "b": "Destroyed alveolar walls are the change of emphysema, which lowers DLCO (your El-Husseiny respiratory notes, p. 90); her DLCO is normal.",
+        "c": "Hyaline membranes line the alveoli in ARDS and neonatal respiratory distress syndrome (hyaline membrane disease), which your notes group with the restrictive diseases (your El-Husseiny respiratory notes, p. 97).",
+        "d": "Noncaseating granulomas suggest sarcoidosis, a restrictive interstitial disease (your El-Husseiny respiratory notes, p. 97).",
+        "e": "Chronic bronchitis makes the mucous glands larger, not absent (your El-Husseiny respiratory notes, p. 89)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Respiratory System (Emily's file), Chronic bronchitis and the Reid index, pp. 89-90; restrictive diseases, p. 97"
+        },
+        {
+          "title": "StatPearls: Chronic Bronchitis",
+          "url": "https://www.statpearls.com/point-of-care/18646"
+        }
+      ]
+    },
+    {
+      "id": "histo-adrenal-zona-fasciculata-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "Endocrine",
+      "topic": "Adrenal histology: the three zones of the cortex",
+      "difficulty": 2,
+      "stem": "A 41-year-old woman has gained weight around her middle, and she has purple stretch marks on her abdomen and high blood pressure. Her 24-hour urine cortisol is high and her plasma ACTH is very low. CT shows a 3-cm mass in the left adrenal gland, and the mass is removed.",
+      "leadIn": "The tumor cells most likely came from which part of the adrenal gland?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Zona fasciculata, the middle cortical layer"
+        },
+        {
+          "id": "b",
+          "text": "Zona glomerulosa, the outer cortical layer"
+        },
+        {
+          "id": "c",
+          "text": "Zona reticularis, the inner cortical layer"
+        },
+        {
+          "id": "d",
+          "text": "Chromaffin cells in the medulla of the adrenal gland"
+        },
+        {
+          "id": "e",
+          "text": "The fibrous capsule around the gland"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the zona fasciculata. Why: she has ACTH-independent Cushing syndrome from an adrenal tumor that makes cortisol, and the excess cortisol switches off pituitary ACTH (standard teaching). Your Osmosis physiology notes (pp. 265, 277) explain that the adrenal cortex makes up about 80% of the gland and has three zones. The zona glomerulosa makes mineralocorticoids such as aldosterone. The zona fasciculata makes glucocorticoids such as cortisol. The zona reticularis makes androgens such as DHEA. The medulla, which comes from neuroectoderm, makes catecholamines. StatPearls (Physiology, Adrenal Gland) agrees that the zona glomerulosa is the outermost layer and makes mineralocorticoids, the middle zona fasciculata makes glucocorticoids (mainly cortisol), and the innermost zona reticularis makes androgen precursors such as DHEA.",
+      "whyWrong": {
+        "b": "The zona glomerulosa makes aldosterone (your Osmosis physiology notes, p. 277), which raises potassium loss and blood pressure (your Osmosis physiology notes, p. 265); it does not make cortisol.",
+        "c": "The zona reticularis makes androgens such as DHEA and androstenedione (your Osmosis physiology notes, p. 277).",
+        "d": "Chromaffin cells of the medulla make catecholamines such as epinephrine (your Osmosis physiology notes, p. 265; StatPearls, Adrenal Gland).",
+        "e": "The capsule is connective tissue around the gland (your Osmosis physiology notes, p. 265) and does not make hormones."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Adrenal glands, p. 265; synthesis of adrenocortical hormones, pp. 276-277"
+        },
+        {
+          "title": "StatPearls: Physiology, Adrenal Gland",
+          "url": "https://www.statpearls.com/point-of-care/17227"
+        }
+      ]
+    },
+    {
+      "id": "histo-osteoclast-origin-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "Musculoskeletal",
+      "topic": "Bone histology: where osteoclasts come from",
+      "difficulty": 2,
+      "stem": "A bone biopsy from a woman with high bone turnover shows large cells with many nuclei sitting in shallow pits on the bone surface. Each cell has a folded (ruffled) membrane facing the bone, and the cells stain for tartrate-resistant acid phosphatase (TRAP).",
+      "leadIn": "These cells develop from which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Fusion of monocyte-macrophage precursors from the marrow"
+        },
+        {
+          "id": "b",
+          "text": "Mesenchymal stem cells that also give rise to osteoblasts"
+        },
+        {
+          "id": "c",
+          "text": "Osteocytes that leave their lacunae and fuse"
+        },
+        {
+          "id": "d",
+          "text": "Chondrocytes that move out of the growth plate"
+        },
+        {
+          "id": "e",
+          "text": "Fibroblasts of the periosteum that become multinucleated"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: fusion of monocyte-macrophage precursors from the marrow. Why: these are osteoclasts. Your El-Husseiny musculoskeletal notes (pp. 100-101) explain that osteoclasts form when cells of the monocyte-macrophage line fuse. They dissolve bone by secreting acid (H+) and collagen-digesting enzymes. Two signals drive them to form: M-CSF and RANKL, which is found on osteoblasts. Osteoprotegerin (OPG) is a decoy that binds RANKL and lowers osteoclast activity. Your notes list tartrate-resistant acid phosphatase as a marker of osteoclast activity. StatPearls (Histology, Osteoclasts) agrees that osteoclasts are large multinucleated cells of blood-forming (hematopoietic) origin that come from macrophage precursors, with a ruffled border that resorbs bone into pits called Howship lacunae. It adds that TRAP is used to stain them.",
+      "whyWrong": {
+        "b": "Mesenchymal (stromal) cells give rise to osteoblasts, which make M-CSF and RANKL to signal osteoclast precursors (StatPearls, Histology, Osteoclasts); they do not become osteoclasts.",
+        "c": "Osteocytes are bone-making cells trapped in bone; they do not fuse into bone-resorbing cells (standard teaching).",
+        "d": "Chondrocytes make cartilage at the growth plate and do not become multinucleated bone-resorbing cells (standard teaching).",
+        "e": "Osteoclasts come from the monocyte-macrophage line, not from fibroblasts (your El-Husseiny musculoskeletal notes, p. 100)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Osteoclast, pp. 100-101"
+        },
+        {
+          "title": "StatPearls: Histology, Osteoclasts",
+          "url": "https://www.statpearls.com/point-of-care/26386"
+        }
+      ]
+    },
+    {
+      "id": "anat-ureter-uterine-artery-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Renal & Urinary",
+      "topic": "Pelvic anatomy: the ureter passes under the uterine artery",
+      "difficulty": 2,
+      "stem": "A 46-year-old woman has an abdominal hysterectomy for large fibroids. During the operation, the surgeon has trouble controlling bleeding and places several clamps near the uterine arteries at the base of the broad ligament. Two days later, she has right flank pain, and imaging shows a dilated right ureter and renal pelvis.",
+      "leadIn": "The ureter was most likely injured where it passes in which of the following positions?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Under the uterine artery near the cervix"
+        },
+        {
+          "id": "b",
+          "text": "Over the uterine artery in the round ligament"
+        },
+        {
+          "id": "c",
+          "text": "Through the inguinal canal with the round ligament"
+        },
+        {
+          "id": "d",
+          "text": "Behind the internal iliac vein deep in the sacrum"
+        },
+        {
+          "id": "e",
+          "text": "Inside the ovarian ligament next to the ovary"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: under the uterine artery near the cervix. Why: Your El-Husseiny nephrology notes (p. 18) trace the course of the ureter. It runs down in front of the psoas muscle, is crossed in front by the gonadal vessels, and enters the pelvis by crossing over the common iliac artery near where it splits. In women it then runs just deep to the uterine vessels before reaching the bladder, which is remembered as water (the ureter) under the bridge (the uterine artery). Your notes warn that tying off the uterine vessels in the cardinal ligament can injure the ureter, causing a blockage or a leak. StatPearls (Anatomy, Abdomen and Pelvis, Ureter) agrees that the ureter passes through the cardinal ligament with the uterine artery, lying about 2.5 cm behind it, and that hysterectomy causes 54% of accidental ureter injuries because the uterine artery lies so close to the lower ureter.",
+      "whyWrong": {
+        "b": "The ureter passes under the uterine artery, not over it (your El-Husseiny nephrology notes, p. 18).",
+        "c": "The round ligament, not the ureter, passes through the inguinal canal (standard teaching).",
+        "d": "The ureter lies in front of the internal iliac artery as it enters the pelvis (your El-Husseiny nephrology notes, p. 18), not deep within the sacrum.",
+        "e": "The ureter runs along the side wall of the pelvis and then under the uterine vessels (your El-Husseiny nephrology notes, p. 18), not inside the ovarian ligament."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Nephrology (Emily's file), Ureter, p. 18"
+        },
+        {
+          "title": "StatPearls: Anatomy, Abdomen and Pelvis Ureter",
+          "url": "https://www.statpearls.com/point-of-care/30808"
+        }
+      ]
+    },
+    {
+      "id": "anat-left-varicocele-renal-vein-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Reproductive",
+      "topic": "Venous anatomy: left varicocele and the left renal vein",
+      "difficulty": 3,
+      "stem": "A 61-year-old man has had blood in his urine and left flank pain for 2 months. He also has a new swelling of veins in the left side of his scrotum that feels like a bag of worms and does not go away when he lies down. CT shows a large left kidney mass that has grown into the left renal vein.",
+      "leadIn": "Which feature of venous anatomy best explains his scrotal finding?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The left testicular vein drains into the left renal vein"
+        },
+        {
+          "id": "b",
+          "text": "The left testicular vein drains straight into the IVC"
+        },
+        {
+          "id": "c",
+          "text": "Both testicular veins drain into the internal iliac veins"
+        },
+        {
+          "id": "d",
+          "text": "The left testicular vein drains into the left common iliac vein"
+        },
+        {
+          "id": "e",
+          "text": "Both testicular veins drain into the hepatic portal vein"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the left testicular vein drains into the left renal vein. Why: Your El-Husseiny nephrology notes (pp. 88, 136) explain that renal cell carcinoma growing into the left renal vein blocks drainage of the left spermatic (testicular) vein, causing a left-sided varicocele. A clot in the left renal vein can do the same. your Osmosis cardiovascular notes (p. 142) also note, in nutcracker syndrome, that the left testicular vein drains into the left renal vein, so blood backs up into the left testicle. StatPearls (Varicocele) agrees that varicoceles are far more common on the left (80% to 90%) because the left internal spermatic vein joins the higher-pressure left renal vein. It adds that a varicocele that is sudden, large on the right, or does not go down is suspicious for a problem in the retroperitoneum. On the right, the testicular vein drains straight into the inferior vena cava (standard teaching), so a renal vein blockage on the right does not back up into the testicle.",
+      "whyWrong": {
+        "b": "The right testicular vein, not the left, drains straight into the IVC (standard teaching).",
+        "c": "The testicular veins rise from the scrotum to the abdomen; they do not drain into the internal iliac veins (standard teaching).",
+        "d": "The left testicular vein ends in the left renal vein, not the common iliac vein (StatPearls, Varicocele).",
+        "e": "The testicular veins drain into the systemic veins (the renal vein and IVC), not the portal system (StatPearls, Varicocele)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Nephrology (Emily's file), Renal vein thrombosis, p. 88; renal cell carcinoma, p. 136"
+        },
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Cardiovascular (Emily's file), Nutcracker syndrome, p. 142"
+        },
+        {
+          "title": "StatPearls: Varicocele",
+          "url": "https://www.statpearls.com/point-of-care/30986"
+        }
+      ]
+    },
+    {
+      "id": "anat-klumpke-lower-trunk-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Musculoskeletal",
+      "topic": "Brachial plexus: Klumpke palsy (lower trunk)",
+      "difficulty": 2,
+      "stem": "A 28-year-old man falls from a ladder and grabs a branch with his right hand to stop the fall, which yanks his arm sharply upward over his head. Weeks later, his right hand is clumsy and weak. He cannot spread or bring his fingers together, the small muscles of the hand are wasted, and his fingers curl into a claw. He has lost feeling along the inner side of his forearm and hand.",
+      "leadIn": "Which part of the brachial plexus was most likely injured?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The lower trunk (C8-T1)"
+        },
+        {
+          "id": "b",
+          "text": "The upper trunk (C5-C6)"
+        },
+        {
+          "id": "c",
+          "text": "The posterior cord"
+        },
+        {
+          "id": "d",
+          "text": "The long thoracic nerve (C5-C7)"
+        },
+        {
+          "id": "e",
+          "text": "The musculocutaneous nerve"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the lower trunk (C8-T1). Why: this is Klumpke palsy. Your El-Husseiny musculoskeletal notes (pp. 24-25) describe it as traction or tearing of the lower trunk, from an upward pull on the arm during birth in infants, or from trauma such as grabbing a branch to break a fall in adults. The lower trunk carries C8 and T1 fibers to the median and ulnar nerves, which together supply all the small (intrinsic) muscles of the hand. Losing these muscles, including the lumbricals and interossei, causes a total claw hand. StatPearls (Klumpke Palsy) agrees that it involves the lower plexus, usually from a hyperabduction traction injury, with less feeling along the inner forearm and hand in the C8 and T1 dermatomes and a claw hand. It adds that T1 injury can harm the nearby sympathetic chain and cause Horner syndrome (droopy eyelid, small pupil, and no sweating on that side).",
+      "whyWrong": {
+        "b": "Upper trunk injury (Erb palsy) weakens the shoulder and biceps, so the arm hangs by the side, turned in, with the forearm extended and pronated (your El-Husseiny musculoskeletal notes, p. 24).",
+        "c": "Posterior cord injury affects the axillary and radial nerves, weakening the deltoid and the wrist and finger extensors (standard teaching), not the small hand muscles.",
+        "d": "The long thoracic nerve supplies serratus anterior, and its injury causes a winged scapula (standard teaching).",
+        "e": "The musculocutaneous nerve supplies the elbow flexors and the skin of the outer forearm (your El-Husseiny musculoskeletal notes, p. 8)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Erb palsy and Klumpke palsy, pp. 24-25; musculocutaneous nerve, p. 8"
+        },
+        {
+          "title": "StatPearls: Klumpke Palsy",
+          "url": "https://www.statpearls.com/point-of-care/23909"
+        }
+      ]
+    },
+    {
+      "id": "anat-thoracic-outlet-scalene-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Musculoskeletal",
+      "topic": "Thoracic outlet syndrome: cervical rib and the scalene triangle",
+      "difficulty": 2,
+      "stem": "A 24-year-old woman who swims competitively has had tingling along the inner side of her right forearm and hand for 6 months. It gets worse when she raises her arm overhead, and her right hand sometimes swells and turns bluish after practice. An x-ray of the neck shows an extra rib coming off the seventh cervical vertebra.",
+      "leadIn": "Compression of nerves and vessels most likely occurs at which of the following sites?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Between the anterior and middle scalenes"
+        },
+        {
+          "id": "b",
+          "text": "Under the flexor retinaculum at the wrist"
+        },
+        {
+          "id": "c",
+          "text": "Behind the medial epicondyle at the elbow"
+        },
+        {
+          "id": "d",
+          "text": "In the quadrangular space near the humerus"
+        },
+        {
+          "id": "e",
+          "text": "In the spiral groove on the back of the humerus"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: between the anterior and middle scalene muscles above the first rib. Why: this is thoracic outlet syndrome. Your El-Husseiny musculoskeletal notes (pp. 25-26) explain that the thoracic outlet lies behind the clavicle and over the first rib. The squeeze most often happens in the scalene triangle, whose sides are the anterior scalene, the middle scalene, and the first rib. The lower trunk of the brachial plexus and the subclavian vessels can be squeezed there. Causes include a cervical rib (an extra rib from C7), large or unusual scalene muscles, and a Pancoast tumor. Squeezing the lower trunk gives numbness, tingling, and weakness like Klumpke palsy, the subclavian vein gives arm swelling, and the subclavian artery gives arm pain with use. The MSD Manual (Thoracic Outlet Compression Syndromes) agrees that most cases involve the lower trunk, that a cervical rib or abnormal scalene muscles can cause it, and that symptoms spread to the inner arm and hand, with sensory loss in the C8 to T1 area and sometimes swelling or bluish color of the hand.",
+      "whyWrong": {
+        "b": "Compression under the flexor retinaculum is carpal tunnel syndrome, which affects the median nerve in the outer three and a half fingers (standard teaching).",
+        "c": "The ulnar nerve can be squeezed behind the medial epicondyle, but that would not explain arm swelling or the cervical rib (standard teaching).",
+        "d": "The axillary nerve passes through the quadrangular space and supplies the deltoid and the skin over it (standard teaching).",
+        "e": "The radial nerve runs in the spiral groove, and injury there causes wrist drop (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Thoracic outlet syndrome, pp. 25-26"
+        },
+        {
+          "title": "MSD Manual Professional: Thoracic Outlet Compression Syndromes (TOS)",
+          "url": "https://www.msdmanuals.com/professional/neurologic-disorders/peripheral-nervous-system-and-motor-unit-disorders/thoracic-outlet-compression-syndromes-tos"
+        }
+      ]
+    },
+    {
+      "id": "anat-pudendal-block-ischial-spine-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Reproductive",
+      "topic": "Pelvic nerves: pudendal nerve block in labor",
+      "difficulty": 1,
+      "stem": "A 27-year-old woman is in the second stage of labor. To ease pain in the perineum before an assisted vaginal delivery, the obstetrician will inject local anesthetic through the vaginal wall around the nerve that supplies the perineum, the anus, and the lower vagina.",
+      "leadIn": "Which bony landmark should be felt to guide this injection?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The ischial spine"
+        },
+        {
+          "id": "b",
+          "text": "The ischial tuberosity"
+        },
+        {
+          "id": "c",
+          "text": "The anterior superior iliac spine"
+        },
+        {
+          "id": "d",
+          "text": "The pubic tubercle"
+        },
+        {
+          "id": "e",
+          "text": "The sacral promontory"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the ischial spine. Why: this is a pudendal nerve block. Your El-Husseiny musculoskeletal notes (p. 55) explain that the pudendal nerve (S2 to S4) supplies feeling to the perineum and motor fibers to the external urethral and anal sphincters. It can be stretched during childbirth, causing numbness and incontinence. During delivery, a doctor can numb it with local anesthetic by feeling for the ischial spine and injecting next to it. StatPearls (Pudendal Nerve Block) agrees that the nerve comes from the S2 to S4 roots and that the ischial spines are felt along the back side walls of the vagina, with the needle placed just medial to and below the ischial spine along the sacrospinous ligament. It adds that the block numbs the back of the perineum, the anus, and the lower vagina, but not the cervix or the upper vagina, and has been used for vaginal birth in the second stage of labor.",
+      "whyWrong": {
+        "b": "The ischial tuberosity is the bone you sit on; the pudendal block targets the nerve near the ischial spine (StatPearls, Pudendal Nerve Block).",
+        "c": "The anterior superior iliac spine is a landmark near the lateral femoral cutaneous nerve (standard teaching), not the pudendal nerve.",
+        "d": "The pubic tubercle is a landmark for groin hernias (standard teaching), not for the pudendal block.",
+        "e": "The sacral promontory is used to measure the pelvic inlet (standard teaching), not to find the pudendal nerve."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Pudendal nerve, p. 55"
+        },
+        {
+          "title": "StatPearls: Pudendal Nerve Block",
+          "url": "https://www.statpearls.com/point-of-care/27998"
+        }
+      ]
+    },
+    {
+      "id": "anat-aspiration-lung-segment-supine-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Respiratory",
+      "topic": "Airway anatomy: where aspiration goes in a person lying on the back",
+      "difficulty": 2,
+      "stem": "A 52-year-old man with alcohol use disorder is found unconscious on his back after a night of heavy drinking. A week later he has fever and a cough with foul-smelling sputum. A chest x-ray shows a cavity with an air-fluid level.",
+      "leadIn": "Which part of the lung is most likely involved?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Superior segment of the right lower lobe"
+        },
+        {
+          "id": "b",
+          "text": "Posterior basal segment of the left lower lobe"
+        },
+        {
+          "id": "c",
+          "text": "Medial segment of the right middle lobe"
+        },
+        {
+          "id": "d",
+          "text": "Lingula of the left upper lobe"
+        },
+        {
+          "id": "e",
+          "text": "Anterior segment of the left upper lobe"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the superior segment of the right lower lobe. Why: Your El-Husseiny respiratory notes (p. 7) explain that the right main bronchus is wider, shorter, and more vertical than the left, so aspirated material more often goes to the right lung. Gravity carries it to the lowest parts of the lung. When someone is lying on the back, the low points are the back (posterior) parts of the upper lobes and the top (superior) parts of the lower lobes. In an upright person, they are the basal segments of the lower lobes. Your notes also explain that lung abscess after aspiration is most often in the right lung (p. 81). StatPearls (Aspiration Pneumonia) agrees that the right lung is affected more often than the left, that bedridden patients tend to have infiltrates in the superior segments of the lower lobes and upright patients in the basal segments, and that loss of consciousness from alcohol use is a classic risk factor.",
+      "whyWrong": {
+        "b": "The basal segments of the lower lobes are involved when a person aspirates sitting or standing (your El-Husseiny respiratory notes, p. 7), and the right lung is more likely than the left.",
+        "c": "The right middle lobe sits in front and is not a low point in a person lying on the back (your El-Husseiny respiratory notes, p. 7).",
+        "d": "The lingula is on the left and lies in front, so it is not a low point in a person lying on the back (your El-Husseiny respiratory notes, p. 7).",
+        "e": "The anterior segments are the highest parts of the lung when lying on the back; the posterior upper lobe segments are the ones at risk (your El-Husseiny respiratory notes, p. 7)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Respiratory System (Emily's file), Bronchi and aspiration, p. 7; lung abscess, p. 81"
+        },
+        {
+          "title": "StatPearls: Aspiration Pneumonia",
+          "url": "https://www.statpearls.com/point-of-care/17897"
+        }
+      ]
+    },
+    {
+      "id": "anat-musculocutaneous-nerve-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Musculoskeletal",
+      "topic": "Upper limb nerves: musculocutaneous nerve",
+      "difficulty": 2,
+      "stem": "A 30-year-old man has an anterior dislocation of the left shoulder that is reduced in the emergency department. Two weeks later, he has trouble bending his elbow and turning his palm up against resistance. The biceps reflex on the left is reduced. He has numbness over the outer (lateral) side of the left forearm. Shoulder abduction and wrist extension are normal.",
+      "leadIn": "Which nerve was most likely injured?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Musculocutaneous nerve"
+        },
+        {
+          "id": "b",
+          "text": "Axillary nerve"
+        },
+        {
+          "id": "c",
+          "text": "Radial nerve"
+        },
+        {
+          "id": "d",
+          "text": "Upper trunk of the brachial plexus"
+        },
+        {
+          "id": "e",
+          "text": "Ulnar nerve"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the musculocutaneous nerve. Why: Your El-Husseiny musculoskeletal notes (p. 8) explain that the musculocutaneous nerve (C5 to C7) supplies all the muscles of the front of the arm: biceps brachii and brachialis, which bend the elbow and turn the palm up, and coracobrachialis. Its leftover fibers carry on as a skin nerve for the outer (lateral) forearm. Injury, often from shoulder dislocation or hard arm use such as pitching, weakens elbow flexion and supination, causes numbness of the lateral forearm, and lowers the biceps reflex. StatPearls (Anatomy, Shoulder and Upper Limb, Musculocutaneous Nerve) agrees that it carries C5 to C7 fibers, supplies coracobrachialis, biceps, and brachialis, ends as the lateral antebrachial cutaneous nerve, and has been injured after anterior shoulder dislocations, causing biceps and brachialis weakness and loss of feeling in the lateral forearm.",
+      "whyWrong": {
+        "b": "The axillary nerve is the one most often hurt in shoulder dislocation, but it weakens shoulder abduction (deltoid) and numbs the skin over the deltoid (standard teaching); his abduction is normal.",
+        "c": "Radial nerve injury causes weak wrist and finger extension (wrist drop) (standard teaching); his wrist extension is normal.",
+        "d": "Upper trunk (C5-C6) injury also weakens the deltoid and supraspinatus, so the arm hangs by the side (your El-Husseiny musculoskeletal notes, p. 24); his shoulder abduction is normal.",
+        "e": "The ulnar nerve supplies most small hand muscles and feels the little finger side of the hand (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Musculocutaneous nerve, p. 8; Erb palsy, p. 24"
+        },
+        {
+          "title": "StatPearls: Anatomy, Shoulder and Upper Limb, Musculocutaneous Nerve",
+          "url": "https://www.statpearls.com/point-of-care/25404"
+        }
+      ]
     }
   ]
 }
