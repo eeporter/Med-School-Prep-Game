@@ -24900,6 +24900,2104 @@
           "url": "https://statpearls.com/point-of-care/18668"
         }
       ]
+    },
+    {
+      "id": "histo-i-cell-disease-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "General Principles",
+      "topic": "Protein trafficking: I-cell disease (Golgi mannose-6-phosphate)",
+      "difficulty": 2,
+      "stem": "A 14-month-old girl is brought to the physician because she is not growing well and her joints have become stiff. She has coarse facial features, cloudy corneas, a curved spine, and fingers that she cannot fully straighten. Blood levels of several lysosomal enzymes are many times higher than normal. Her cultured skin fibroblasts are packed with large cytoplasmic inclusions.",
+      "leadIn": "Failure of which of the following steps best explains these findings?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Adding mannose-6-phosphate in the Golgi"
+        },
+        {
+          "id": "b",
+          "text": "Adding N-linked sugars in the rough ER"
+        },
+        {
+          "id": "c",
+          "text": "Returning proteins to the ER in COPI vesicles"
+        },
+        {
+          "id": "d",
+          "text": "Breaking down ubiquitin-tagged proteins in proteasomes"
+        },
+        {
+          "id": "e",
+          "text": "Fusing lysosomes with phagosomes"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: adding mannose-6-phosphate in the Golgi. Why: this is I-cell (inclusion-cell) disease, also called mucolipidosis type II. Your el-husseiny biochemistry notes (pp. 43-44) explain that enzymes meant for lysosomes get a phosphate added to a mannose sugar in the Golgi by N-acetylglucosaminyl-1-phosphotransferase. That mannose-6-phosphate tag pulls them out of the secretion pathway and sends them to lysosomes. When the phosphotransferase is defective, the enzymes are secreted out of the cell instead. So enzyme levels in the blood are high, while lysosomes inside the cells lack their enzymes and fill with undigested material (the inclusions). Your notes describe the same child: a coarse face, cloudy corneas, stiff joints, claw-like hands, a curved spine, and high blood levels of lysosomal enzymes, and the disease is often fatal in childhood. StatPearls' article on protein targeting and I-cell disease agrees that the cause is low GlcNAc-1-phosphotransferase activity, that hydrolase enzymes normally get their phosphomannose targeting signal in the cis-Golgi, and that misrouted enzymes build up outside the cell. It adds that death usually comes within the first decade, at an average age of about 5 years.",
+      "whyWrong": {
+        "b": "N-linked glycosylation in the rough ER happens before the Golgi step; a failure there would not specifically send lysosomal enzymes into the blood (standard teaching).",
+        "c": "COPI vesicles carry proteins backward, from the Golgi to the ER; the defect here is in the Golgi tagging step that routes enzymes to lysosomes (your El-Husseiny biochemistry notes, p. 44).",
+        "d": "Proteasomes break down ubiquitin-tagged proteins in the cytoplasm; a proteasome problem would not raise lysosomal enzyme levels in the blood (standard teaching).",
+        "e": "Failure of lysosomes to fuse with phagosomes is the problem in Chédiak-Higashi syndrome, which causes recurrent infections and albinism, not high serum lysosomal enzymes (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Protein targeting to lysosomes and I-cell disease, pp. 43-44"
+        },
+        {
+          "title": "StatPearls: Biochemistry, Protein Targeting and I Cell Diseases",
+          "url": "https://www.statpearls.com/point-of-care/140590"
+        }
+      ]
+    },
+    {
+      "id": "histo-type2-pneumocyte-repair-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "Respiratory",
+      "topic": "Alveolar cells: type II pneumocytes in lung repair",
+      "difficulty": 2,
+      "stem": "A 45-year-old man is treated in the ICU for severe lung injury after a bacterial pneumonia. Two weeks later, a lung biopsy is done because he is slow to come off the ventilator. Many alveolar walls have lost their normal thin lining. Instead, they are lined by plump, cube-shaped cells that are actively dividing.",
+      "leadIn": "The dividing cube-shaped cells are most likely which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Type II pneumocytes"
+        },
+        {
+          "id": "b",
+          "text": "Type I pneumocytes"
+        },
+        {
+          "id": "c",
+          "text": "Club (Clara) cells"
+        },
+        {
+          "id": "d",
+          "text": "Alveolar macrophages"
+        },
+        {
+          "id": "e",
+          "text": "Ciliated columnar cells"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: type II pneumocytes. Why: your El-Husseiny respiratory notes (p. 9) describe two alveolar lining cells. Type I cells are thin and squamous, cover about 97% of the alveolar surface, and are built for gas diffusion. Type II cells are cuboidal, sit in clusters, and secrete surfactant, which lowers surface tension and keeps alveoli from collapsing at the end of expiration. Your notes add that type II cells multiply when the lung is damaged and act as the precursors of both new type I cells and more type II cells. So after an injury that strips the thin type I lining, the alveoli are relined first by dividing cuboidal type II cells, which later give rise to new type I cells. A 2023 review in the Journal of Clinical Investigation agrees that type II cells are small cuboidal cells that secrete surfactant, renew themselves, and give rise to type I cells, making them the main progenitor cells of the alveolus. After injury they divide, with one daughter cell becoming a new type I cell. Other source: the same review says type I cells cover about 95% of the alveolar surface, close to the 97% in your notes.",
+      "whyWrong": {
+        "b": "Type I pneumocytes are the thin, flat cells that are lost in the injury; they do not divide to repair the lining (your El-Husseiny respiratory notes, p. 9).",
+        "c": "Club cells are nonciliated cells of the bronchioles that secrete part of surfactant, break down toxins, and act as reserve cells for the airway, not the alveolar wall (your El-Husseiny respiratory notes, p. 9).",
+        "d": "Alveolar macrophages float in the air spaces and eat debris and microbes; they are not epithelial cells and do not form the alveolar lining (standard teaching).",
+        "e": "Ciliated columnar cells line the larger airways, not the alveoli (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Respiratory System (Emily's file), Pneumocytes, p. 9"
+        },
+        {
+          "title": "Han S, Budinger GRS, Gottardi CJ. Alveolar epithelial regeneration in the aging lung. J Clin Invest 2023",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10575730/"
+        }
+      ]
+    },
+    {
+      "id": "histo-liver-zone3-budd-chiari-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "Gastrointestinal",
+      "topic": "Liver lobule zones: centrilobular (zone 3) necrosis in Budd-Chiari syndrome",
+      "difficulty": 2,
+      "stem": "A 34-year-old woman with polycythemia vera has had 3 weeks of pain in the right upper abdomen and a growing belly. Her liver is enlarged and tender, and she has ascites. Doppler ultrasonography shows clots blocking her hepatic veins. A liver biopsy is done.",
+      "leadIn": "Damage would be most marked in which part of the liver lobule?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Around the central veins (zone 3)"
+        },
+        {
+          "id": "b",
+          "text": "Around the portal triads (zone 1)"
+        },
+        {
+          "id": "c",
+          "text": "Midway between portal triads and central veins (zone 2)"
+        },
+        {
+          "id": "d",
+          "text": "In the lining of the small bile ducts"
+        },
+        {
+          "id": "e",
+          "text": "Evenly across all three zones"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: around the central veins (zone 3). Why: this is Budd-Chiari syndrome. Your Osmosis GI notes (p. 101) describe it as congestive liver disease caused by blocked hepatic venous outflow, most often from a clot, with myeloproliferative disorders such as polycythemia vera as a risk factor. The classic triad is an enlarged liver, abdominal pain, and ascites. Your notes explain that the venous congestion causes ischemia and centrilobular necrosis, along with portal hypertension. Blood enters the lobule at the portal triads (zone 1) and drains out through the central vein (zone 3). When outflow is blocked, blood backs up into the sinusoids around the central veins first, and those hepatocytes also get the least oxygen, so they die first (standard teaching). The MSD Manual agrees that Budd-Chiari syndrome is obstruction of hepatic venous outflow, that in Western countries the most common cause is a clot blocking the hepatic veins and the nearby inferior vena cava, and that myeloproliferative disorders such as polycythemia are among the causes. It describes right upper quadrant pain, a tender enlarged liver, and ascites, and recommends Doppler ultrasonography as the first test.",
+      "whyWrong": {
+        "b": "Zone 1 hepatocytes sit next to the portal triads, where blood arrives with the most oxygen, so they are the last to suffer from blocked outflow (standard teaching).",
+        "c": "Zone 2 lies between the other two zones; congestion from the hepatic veins hits zone 3 first (standard teaching).",
+        "d": "Bile duct injury is the main problem in biliary diseases such as primary biliary cholangitis, not in blocked venous outflow (standard teaching).",
+        "e": "Venous congestion is not even across the lobule; your notes specifically describe centrilobular necrosis (your Osmosis GI notes, p. 101)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Gastrointestinal (Emily's file), Budd-Chiari syndrome, p. 101"
+        },
+        {
+          "title": "MSD Manual Professional: Budd-Chiari Syndrome",
+          "url": "https://www.msdmanuals.com/professional/hepatic-and-biliary-disorders/vascular-disorders-of-the-liver/budd-chiari-syndrome"
+        }
+      ]
+    },
+    {
+      "id": "histo-colchicine-microtubule-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "Musculoskeletal",
+      "topic": "Cytoskeleton: microtubules and colchicine in gout",
+      "difficulty": 2,
+      "stem": "A 52-year-old man has a hot, swollen, very painful big toe that started overnight. Joint fluid shows needle-shaped crystals inside neutrophils. He had a bleeding peptic ulcer last year and cannot take NSAIDs, so he is given colchicine, and the pain eases over the next day.",
+      "leadIn": "Colchicine most likely helps by blocking which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Polymerization of tubulin into microtubules"
+        },
+        {
+          "id": "b",
+          "text": "Xanthine oxidase conversion of xanthine to urate"
+        },
+        {
+          "id": "c",
+          "text": "Cyclooxygenase production of prostaglandins"
+        },
+        {
+          "id": "d",
+          "text": "Reabsorption of urate by the renal tubules"
+        },
+        {
+          "id": "e",
+          "text": "Conversion of uric acid to allantoin"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: polymerization of tubulin into microtubules. Why: StatPearls' Colchicine article explains that the drug disrupts the cytoskeleton by inhibiting the polymerization of beta-tubulin into microtubules. Without working microtubules, neutrophils cannot be activated, release their granules, or migrate into the joint, which damps the inflammation that urate crystals set off. StatPearls adds that the same microtubule block stops dividing cells at metaphase. Your el-husseiny musculoskeletal notes (p. 217) say the same: colchicine binds and stabilizes tubulin so microtubules cannot form, which disrupts cell functions that need the cytoskeleton, such as chemotaxis and phagocytosis, and it does not change how uric acid is made or excreted. Your notes (pp. 216-217) make NSAIDs the first choice for an acute attack, use colchicine for patients who cannot take NSAIDs, such as those with peptic ulcer disease, and say to avoid colchicine in older patients and those with kidney problems; glucocorticoids are for patients who can take neither, such as those with renal failure. Your el-husseiny biochemistry notes (p. 52) list colchicine with mebendazole, griseofulvin, vincristine, vinblastine, and paclitaxel as drugs that act on microtubules.",
+      "whyWrong": {
+        "b": "Blocking xanthine oxidase is how allopurinol and febuxostat lower urate production; your notes list them for long-term prevention, not for the acute attack (your El-Husseiny musculoskeletal notes, pp. 145, 217).",
+        "c": "Blocking cyclooxygenase is how NSAIDs such as indomethacin work, and he cannot take them (standard teaching).",
+        "d": "Blocking urate reabsorption in the kidney is how uricosuric drugs such as probenecid work (standard teaching).",
+        "e": "Turning uric acid into allantoin is what the enzyme drugs rasburicase and pegloticase do (standard teaching); colchicine does not affect how uric acid is made or excreted (your El-Husseiny musculoskeletal notes, p. 217)."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Colchicine",
+          "url": "https://www.statpearls.com/point-of-care/19694"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Gout treatment, p. 145"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Gout drugs (colchicine), pp. 216-217"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Drugs that act on microtubules, p. 52"
+        }
+      ]
+    },
+    {
+      "id": "histo-parietal-cell-autoimmune-gastritis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "Gastrointestinal",
+      "topic": "Gastric cells: parietal cell loss in autoimmune gastritis",
+      "difficulty": 2,
+      "stem": "A 52-year-old woman with Hashimoto thyroiditis has had tiredness and tingling in her feet for 6 months. She has a macrocytic anemia and antibodies against intrinsic factor. Her fasting serum gastrin is markedly increased. Endoscopy shows a thin, flat mucosa without folds in the body and fundus of the stomach, while the antrum looks normal.",
+      "leadIn": "Loss of which of the following cells best explains her high serum gastrin?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Parietal cells of the gastric body"
+        },
+        {
+          "id": "b",
+          "text": "G cells of the gastric antrum"
+        },
+        {
+          "id": "c",
+          "text": "Chief cells of the gastric body"
+        },
+        {
+          "id": "d",
+          "text": "D cells of the gastric antrum"
+        },
+        {
+          "id": "e",
+          "text": "Mucous cells of the gastric cardia"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: parietal cells of the gastric body. Why: this is autoimmune atrophic gastritis. Your Osmosis GI notes (p. 39) explain that the damage is limited to the fundus and body, where the acid-making parietal cells live, and that patients have antibodies against parietal cells and intrinsic factor. Losing parietal cells means little or no acid (achlorhydria). With no acid to switch it off, gastrin release from the antrum goes unchecked, so serum gastrin rises. Your notes add that loss of intrinsic factor causes vitamin B12 malabsorption and pernicious anemia, which explains her macrocytic anemia and tingling feet. The MSD Manual agrees that patients have antibodies to parietal cells and their components, including intrinsic factor and the proton pump, and that the resulting low acid (hypochlorhydria) leads to G-cell hyperplasia and high serum gastrin. It notes that up to one-third of people with autoimmune thyroid disease also have autoimmune gastritis. Normally, acid in the antrum stimulates D cells to release somatostatin, which turns down G cells (standard teaching).",
+      "whyWrong": {
+        "b": "G cells make gastrin and sit in the antrum, which is spared here; losing them would lower gastrin, not raise it (standard teaching).",
+        "c": "Chief cells are also lost in the body, which lowers serum pepsinogen, but chief cells do not make acid, so their loss does not explain the high gastrin (your Osmosis GI notes, p. 39).",
+        "d": "Fewer active antral D cells would raise gastrin, but the antrum is normal here; the D cells are quiet because no acid reaches them after the parietal cells are lost (standard teaching).",
+        "e": "Mucous cells protect the lining and do not control gastrin release (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Gastrointestinal (Emily's file), Gastritis (autoimmune atrophic gastritis), p. 39"
+        },
+        {
+          "title": "MSD Manual Professional: Autoimmune Metaplastic Atrophic Gastritis",
+          "url": "https://www.msdmanuals.com/professional/gastrointestinal-disorders/gastritis-and-peptic-ulcer-disease/autoimmune-metaplastic-atrophic-gastritis"
+        }
+      ]
+    },
+    {
+      "id": "histo-desmin-rhabdomyosarcoma-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "Musculoskeletal",
+      "topic": "Intermediate filaments: desmin in rhabdomyosarcoma",
+      "difficulty": 2,
+      "stem": "A 4-year-old boy has a mass behind his left eye that has pushed the eye forward over 3 weeks. A biopsy shows sheets of small, round, blue-staining cells. A few larger cells have pink cytoplasm with faint cross-striations.",
+      "leadIn": "A positive stain for which of the following proteins would best support the most likely diagnosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Desmin"
+        },
+        {
+          "id": "b",
+          "text": "Cytokeratin"
+        },
+        {
+          "id": "c",
+          "text": "Glial fibrillary acidic protein"
+        },
+        {
+          "id": "d",
+          "text": "S-100 protein"
+        },
+        {
+          "id": "e",
+          "text": "CD99"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: desmin. Why: a fast-growing orbital mass in a young child, with small round blue cells and some cells showing striations, points to rhabdomyosarcoma. StatPearls' Rhabdomyosarcoma article calls it the most common soft tissue sarcoma diagnosed in children and lists the head, neck, and genitourinary areas as the most common sites. It explains that the tumor is believed to come from primitive mesenchymal cells that usually develop into skeletal tissue, and that the diagnosis is supported by staining for skeletal muscle markers such as myogenin, desmin, and MyoD1. Desmin is an intermediate filament of muscle. Your el-husseiny musculoskeletal notes (p. 85) note that the Z line of the sarcomere contains vimentin and desmin, which are used as tumor markers for muscle tumors.",
+      "whyWrong": {
+        "b": "Cytokeratin is the intermediate filament of epithelial cells and marks carcinomas, not muscle tumors (standard teaching).",
+        "c": "Glial fibrillary acidic protein is the intermediate filament of astrocytes and marks glial tumors (standard teaching).",
+        "d": "S-100 marks cells derived from the neural crest, such as melanoma and Schwann cell tumors (standard teaching).",
+        "e": "CD99 is the classic marker of Ewing sarcoma, another small round blue cell tumor, but it is not a muscle marker (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Rhabdomyosarcoma",
+          "url": "https://www.statpearls.com/point-of-care/28510"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Sarcomere (Z line), p. 85"
+        }
+      ]
+    },
+    {
+      "id": "neuro-parkinson-substantia-nigra-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Nervous System & Special Senses",
+      "topic": "Parkinson disease: substantia nigra pars compacta",
+      "difficulty": 2,
+      "stem": "A 66-year-old man has had 2 years of a shaking right hand that is worse when the hand is resting in his lap. He moves slowly, takes small shuffling steps, and his arms feel stiff when moved passively. His wife says he lost his sense of smell and has had constipation for years before the shaking began.",
+      "leadIn": "Loss of which of the following neurons best explains his movement problems?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dopaminergic neurons of the substantia nigra"
+        },
+        {
+          "id": "b",
+          "text": "GABAergic neurons of the caudate nucleus"
+        },
+        {
+          "id": "c",
+          "text": "Cholinergic neurons of the nucleus basalis"
+        },
+        {
+          "id": "d",
+          "text": "Noradrenergic neurons of the locus coeruleus"
+        },
+        {
+          "id": "e",
+          "text": "Purkinje cells of the cerebellar cortex"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: dopaminergic neurons of the substantia nigra. Why: resting tremor, slow movement, rigidity, and a shuffling gait are classic Parkinson disease. Your Osmosis neurology notes (pp. 162-163) explain that dopamine-making neurons in the substantia nigra pars compacta degenerate, which depletes dopamine in the basal ganglia (the striatum) and disrupts their connections to the thalamus and motor cortex. Abnormal protein such as alpha-synuclein builds up in neurons as Lewy bodies, and autopsy shows loss of the pigmented dopaminergic neurons of the pars compacta. Your notes also list loss of smell as a common first symptom, often years before the movement problems, and autonomic problems such as constipation. The MSD Manual agrees that pigmented dopaminergic neurons of the substantia nigra and other brain stem cell groups degenerate, with Lewy bodies filled with synuclein in the nigrostriatal system. It describes a resting tremor of one hand as often the first symptom, with rigidity, slow movement, and a shuffling gait, and notes that loss of smell and constipation can come before the movement symptoms.",
+      "whyWrong": {
+        "b": "Loss of GABAergic neurons in the caudate is the lesion of Huntington disease, which causes chorea rather than tremor and slowness (standard teaching).",
+        "c": "Loss of cholinergic neurons in the nucleus basalis of Meynert is linked to Alzheimer disease and memory loss (standard teaching).",
+        "d": "Your notes say the locus coeruleus does degenerate in Parkinson disease, but early and without symptoms; the movement problems come from the substantia nigra (your Osmosis neurology notes, p. 162).",
+        "e": "Purkinje cell loss causes cerebellar signs such as ataxia and an intention tremor, not a resting tremor with rigidity (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Neurology (Emily's file), Parkinson's disease, pp. 162-163"
+        },
+        {
+          "title": "MSD Manual Professional: Parkinson Disease",
+          "url": "https://www.msdmanuals.com/professional/neurologic-disorders/movement-and-cerebellar-disorders/parkinson-disease"
+        }
+      ]
+    },
+    {
+      "id": "neuro-huntington-caudate-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Nervous System & Special Senses",
+      "topic": "Huntington disease: caudate atrophy",
+      "difficulty": 2,
+      "stem": "A 41-year-old man is brought to the physician by his wife because of 2 years of fidgety, jerky movements of his face and arms. He has also become irritable and has trouble planning his work. His father had similar problems and died at age 52. Genetic testing shows an expanded CAG repeat.",
+      "leadIn": "Brain MRI would most likely show atrophy of which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Caudate nucleus"
+        },
+        {
+          "id": "b",
+          "text": "Substantia nigra"
+        },
+        {
+          "id": "c",
+          "text": "Cerebellar vermis"
+        },
+        {
+          "id": "d",
+          "text": "Mammillary bodies"
+        },
+        {
+          "id": "e",
+          "text": "Subthalamic nucleus"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: caudate nucleus. Why: middle-age onset of chorea, mood change, and thinking problems, with an affected father and a CAG repeat expansion, is Huntington disease. The MSD Manual explains that it is autosomal dominant and results from a mutation in the huntingtin (HTT) gene on chromosome 4, and that more CAG repeats bring earlier onset and more severe disease. The number of repeats can increase from one generation to the next. Levels of the neurotransmitters GABA and substance P decrease. Symptoms start insidiously at about age 35 to 40, and abnormal movements include chorea, athetosis, and myoclonic jerks. MSD notes that neuroimaging helps identify caudate atrophy, often with some cortical atrophy that is worse in the frontal lobes. Your El-Husseiny neurology notes (pp. 101-102) agree: the CAG repeat on chromosome 4 leads to loss of GABA-making neurons in the striatum, mainly the caudate, so the caudate shrinks and the frontal horns of the lateral ventricles enlarge. Your notes add that the disease shows anticipation, that GABA and acetylcholine fall while dopamine is relatively high, and that onset is usually between ages 20 and 50.",
+      "whyWrong": {
+        "b": "Substantia nigra loss causes Parkinson disease, with slowness, rigidity, and resting tremor rather than chorea (standard teaching).",
+        "c": "Atrophy of the cerebellar vermis, typically from long-term alcohol use, causes an unsteady, wide-based gait (standard teaching).",
+        "d": "Shrunken mammillary bodies point to Wernicke-Korsakoff syndrome from thiamine deficiency (standard teaching).",
+        "e": "Damage to the subthalamic nucleus, most often from a small (lacunar) stroke in someone with long-standing high blood pressure, causes hemiballismus: wild flinging of the limbs on the opposite side (your El-Husseiny neurology notes, p. 102)."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Huntington Disease",
+          "url": "https://www.msdmanuals.com/professional/neurologic-disorders/movement-and-cerebellar-disorders/huntington-disease"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Huntington disease and hemiballismus, pp. 101-102"
+        }
+      ]
+    },
+    {
+      "id": "neuro-cn3-pcomm-aneurysm-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Nervous System & Special Senses",
+      "topic": "Oculomotor nerve palsy: posterior communicating artery aneurysm",
+      "difficulty": 2,
+      "stem": "A 49-year-old woman has had 2 days of pain behind her right eye and double vision. Her right upper eyelid droops. When she looks straight ahead, her right eye points down and out. The right pupil is 7 mm and does not react to light; the left pupil is 3 mm and reacts normally. She has no history of diabetes.",
+      "leadIn": "Which of the following is the most likely cause?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Aneurysm of the posterior communicating artery"
+        },
+        {
+          "id": "b",
+          "text": "Ischemia of the nerve from small-vessel disease"
+        },
+        {
+          "id": "c",
+          "text": "Demyelination of the medial longitudinal fasciculus"
+        },
+        {
+          "id": "d",
+          "text": "Antibodies against acetylcholine receptors"
+        },
+        {
+          "id": "e",
+          "text": "Injury to the sympathetic chain in the neck"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: aneurysm of the posterior communicating artery. Why: ptosis, an eye that rests down and out, and a large pupil that does not react to light mean a complete third (oculomotor) nerve palsy with pupil involvement. The MSD Manual explains that third nerve palsies that affect the pupil commonly result from aneurysms, especially of the posterior communicating artery, and from transtentorial herniation. Palsies that spare the pupil are most commonly caused by ischemia, usually from diabetes or hypertension. MSD describes the affected eye as deviating slightly out and down, with diplopia and ptosis, and a dilated pupil with impaired light reflexes. Your Osmosis neurology notes (p. 22) also list posterior communicating artery aneurysm as a cause of oculomotor palsy with ipsilateral ptosis, an eye pointing down and out, a dilated pupil, and loss of the pupillary light reflex. Your El-Husseiny neurology notes (p. 53) list the same causes (ischemia, uncal herniation, posterior communicating artery aneurysm, cavernous sinus thrombosis, midbrain stroke) and explain that the nerve's parasympathetic fibers, which constrict the pupil, run on its outside, while the motor fibers run in the middle. That is why ischemia usually spares the pupil, while pressure from an aneurysm outside the nerve affects it early.",
+      "whyWrong": {
+        "b": "Ischemic third nerve palsy, usually from diabetes or hypertension, is the most common cause of palsies that spare the pupil; this pupil is dilated and fixed (MSD Manual, Third Cranial Nerve Disorders).",
+        "c": "A lesion of the medial longitudinal fasciculus causes internuclear ophthalmoplegia, with poor adduction on side gaze but no ptosis or pupil changes (standard teaching).",
+        "d": "Myasthenia gravis can cause ptosis and double vision, but it never affects the pupil (standard teaching).",
+        "e": "Sympathetic injury causes Horner syndrome, with mild ptosis and a small pupil, not a large one (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Third Cranial Nerve (Oculomotor) Disorders",
+          "url": "https://www.msdmanuals.com/professional/neurologic-disorders/neuro-ophthalmologic-and-cranial-nerve-disorders/third-cranial-nerve-oculomotor-disorders"
+        },
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Neurology (Emily's file), Subarachnoid hemorrhage, p. 22"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), CN III damage, p. 53"
+        }
+      ]
+    },
+    {
+      "id": "neuro-bitemporal-hemianopia-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Nervous System & Special Senses",
+      "topic": "Visual field defects: bitemporal hemianopia",
+      "difficulty": 2,
+      "stem": "A 38-year-old man has had headaches for a year. He keeps bumping into door frames on both sides. His ring and shoe sizes have gone up over the past few years. Visual field testing shows loss of the outer (temporal) half of the field in each eye.",
+      "leadIn": "A lesion at which of the following sites best explains his visual loss?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Optic chiasm"
+        },
+        {
+          "id": "b",
+          "text": "Left optic nerve"
+        },
+        {
+          "id": "c",
+          "text": "Left optic tract"
+        },
+        {
+          "id": "d",
+          "text": "Meyer loop of the temporal lobe"
+        },
+        {
+          "id": "e",
+          "text": "Primary visual cortex"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: optic chiasm. Why: growing hands and feet suggest a growth hormone-secreting pituitary adenoma. Your Osmosis neurology notes (p. 202) explain that bitemporal hemianopsia, loss of the lateral half of the visual field in both eyes, usually comes from a lesion at the optic chiasm. As a mass in the sella grows, it presses on the chiasm from below and damages the crossing fibers, which carry vision from the temporal fields of both eyes. Your notes list pituitary enlargement (adenoma or hyperplasia), craniopharyngioma, meningioma, and anterior communicating artery aneurysm as causes. They add that the vision loss can go unnoticed because it is slow, and that a hormone-secreting adenoma can cause hormone excess. The MSD Manual's table of field defects agrees that bitemporal hemianopia, loss of the lateral half of both visual fields, comes from a lesion of the chiasm, such as a pituitary adenoma, meningioma, craniopharyngioma, aneurysm, or glioma. It lists lesions behind the chiasm, in the optic tract or lateral geniculate body, as causes of a homonymous hemianopia.",
+      "whyWrong": {
+        "b": "A lesion of one optic nerve causes blindness in that eye only (standard teaching).",
+        "c": "A lesion of one optic tract causes a homonymous hemianopia: loss of the same half of the field (here the right half) in both eyes (MSD Manual, The Optic Pathway).",
+        "d": "Damage to Meyer loop causes loss of the upper quarter of the field on the opposite side in both eyes, the 'pie in the sky' defect (standard teaching).",
+        "e": "Damage to one visual cortex causes a homonymous hemianopia, often with the center of vision spared (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Neurology (Emily's file), Bitemporal hemianopsia, p. 202"
+        },
+        {
+          "title": "MSD Manual Professional: The Optic Pathway",
+          "url": "https://www.msdmanuals.com/professional/eye-disorders/optic-nerve-disorders/the-optic-pathway"
+        }
+      ]
+    },
+    {
+      "id": "neuro-ino-mlf-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Nervous System & Special Senses",
+      "topic": "Internuclear ophthalmoplegia: medial longitudinal fasciculus",
+      "difficulty": 2,
+      "stem": "A 27-year-old woman has had double vision for 3 days. A year ago she had an episode of blurred vision with pain on moving her right eye that went away on its own. When she looks to the right, her left eye does not move past the midline toward her nose, and her right eye moves fully but jerks repeatedly. When she focuses on a near object, both eyes turn inward normally.",
+      "leadIn": "A lesion in which of the following is most likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Left medial longitudinal fasciculus"
+        },
+        {
+          "id": "b",
+          "text": "Right medial longitudinal fasciculus"
+        },
+        {
+          "id": "c",
+          "text": "Left oculomotor nerve"
+        },
+        {
+          "id": "d",
+          "text": "Right abducens nucleus"
+        },
+        {
+          "id": "e",
+          "text": "Right paramedian pontine reticular formation"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: left medial longitudinal fasciculus (MLF). Why: this is internuclear ophthalmoplegia, and with her earlier episode of optic neuritis, multiple sclerosis is the likely cause. The MSD Manual describes the condition as weak adduction of the eye on the same side as the lesion during side gaze. It results from a lesion in the MLF, the pathway that links the abducens nucleus on one side to the oculomotor nucleus on the other so the eyes move together. The eye on the affected side cannot adduct, or adducts weakly, past the midline, and nystagmus often appears in the eye that abducts. That eye still adducts normally during convergence, because convergence does not use the MLF. MSD notes that in young people the cause is commonly multiple sclerosis and is often bilateral, while in older adults it is typically a stroke and is on one side. Here the left eye fails to adduct, so the lesion is in the left MLF. Your El-Husseiny neurology notes (pp. 73, 75, 157-158) agree: the MLF connects the abducens and oculomotor nuclei so one eye adducts as the other abducts. Because it is heavily myelinated, it is a common target in multiple sclerosis. Their table lists a left MLF lesion as making the left eye unable to look right while convergence stays intact.",
+      "whyWrong": {
+        "b": "A right MLF lesion would stop the right eye from adducting when she looks to the left (MSD Manual, Internuclear Ophthalmoplegia).",
+        "c": "A left third nerve lesion would also weaken adduction during convergence and would cause ptosis, a dilated pupil, and loss of accommodation (your El-Husseiny neurology notes, p. 73).",
+        "d": "A right abducens nucleus lesion causes a gaze palsy: neither eye can look to the right, often with a right facial palsy (your El-Husseiny neurology notes, p. 75).",
+        "e": "A right PPRF lesion also causes a gaze palsy to the right, with neither eye moving that way (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Internuclear Ophthalmoplegia",
+          "url": "https://www.msdmanuals.com/professional/neurologic-disorders/neuro-ophthalmologic-and-cranial-nerve-disorders/internuclear-ophthalmoplegia"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Horizontal gaze and the MLF, pp. 73, 75"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Internuclear ophthalmoplegia, pp. 157-158"
+        }
+      ]
+    },
+    {
+      "id": "neuro-tabes-dorsalis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Nervous System & Special Senses",
+      "topic": "Neurosyphilis: tabes dorsalis",
+      "difficulty": 3,
+      "stem": "A 58-year-old man has had sudden, stabbing pains in his legs for a year and keeps losing his balance in the dark. He stands steadily with his eyes open but sways and nearly falls when he closes them. Vibration and joint position sense are lost in both feet, and ankle reflexes are absent. Strength is normal. His pupils are small and irregular; they constrict when he looks at a near object but not to light.",
+      "leadIn": "Damage to which of the following best explains his sensory findings?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dorsal columns and dorsal roots"
+        },
+        {
+          "id": "b",
+          "text": "Lateral corticospinal tracts"
+        },
+        {
+          "id": "c",
+          "text": "Anterior horn motor neurons"
+        },
+        {
+          "id": "d",
+          "text": "Spinothalamic fibers crossing in the anterior commissure"
+        },
+        {
+          "id": "e",
+          "text": "Cerebellar vermis"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: dorsal columns and dorsal roots. Why: this is tabes dorsalis, a late form of neurosyphilis. StatPearls' Tabes Dorsalis article describes it as a slowly progressive degenerative disease of the dorsal columns and dorsal roots of the spinal cord, from loss of myelin on the sensory fibers there. It has the longest latent period of any form of neurosyphilis, about 20 years on average after the original infection. Features include brief, sudden, severe stabbing pains in the back, limbs, or face; loss of vibration and position sense with sensory ataxia and trouble walking; and small, irregular Argyll Robertson pupils that constrict to a near target but not to light. Charcot (neuropathic) joints, most often of the knees and hips, may also be present. Your El-Husseiny neurology notes (p. 31) agree that tabes is a late form of neurosyphilis with degeneration of the dorsal roots and dorsal columns on both sides, usually at the lumbar level. Loss of position sense from the legs causes a wide-based sensory ataxia and a positive Romberg sign: balance holds with the eyes open because vision makes up for it, but fails when the eyes close. The ankle reflexes disappear because the dorsal roots carry the sensory side of the stretch reflex. Your notes (pp. 31, 53) explain that the Argyll Robertson pupil comes from damage to the pretectal area of the midbrain, which starts the light reflex, while the near response still works.",
+      "whyWrong": {
+        "b": "Damage to the lateral corticospinal tracts causes weakness with brisk reflexes; his strength is normal and his reflexes are absent (standard teaching).",
+        "c": "Loss of anterior horn cells causes weakness, wasting, and fasciculations, not sensory loss (standard teaching).",
+        "d": "Damage to crossing spinothalamic fibers, as in syringomyelia, causes loss of pain and temperature sense in a cape pattern, with vibration and position sense spared (standard teaching).",
+        "e": "A patient with cerebellar ataxia sways even with the eyes open, and cerebellar damage does not cause loss of vibration sense (your El-Husseiny neurology notes, p. 31)."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Tabes Dorsalis",
+          "url": "https://www.statpearls.com/point-of-care/29851"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Tabes dorsalis, p. 31"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Argyll Robertson pupil, p. 53"
+        }
+      ]
+    },
+    {
+      "id": "neuro-alzheimer-tau-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Nervous System & Special Senses",
+      "topic": "Alzheimer disease: neurofibrillary tangles (tau)",
+      "difficulty": 2,
+      "stem": "A 74-year-old woman had 3 years of worsening memory loss before her death. Toward the end she got lost in her own neighborhood and could not manage her bills. At autopsy, the brain shows widespread cortical atrophy. Microscopy shows many extracellular plaques and flame-shaped inclusions inside the cell bodies of cortical and hippocampal neurons.",
+      "leadIn": "The inclusions inside the neurons are made mainly of which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hyperphosphorylated tau"
+        },
+        {
+          "id": "b",
+          "text": "Alpha-synuclein"
+        },
+        {
+          "id": "c",
+          "text": "Beta-amyloid"
+        },
+        {
+          "id": "d",
+          "text": "Misfolded prion protein"
+        },
+        {
+          "id": "e",
+          "text": "Ubiquitinated huntingtin"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: hyperphosphorylated tau. Why: slowly progressive memory loss with plaques and tangles is Alzheimer disease. Your Osmosis neurology notes (p. 74) explain that tau is a protein that normally helps hold microtubules together inside neurons. In Alzheimer disease, tau becomes excessively phosphorylated, clumps together, and stops supporting the microtubules. The clumps form neurofibrillary tangles inside neurons, which block signaling and lead to neuron death. The plaques are different: they form outside cells when amyloid precursor protein is cut by beta secretase into insoluble beta-amyloid fragments. Your notes list sporadic disease in people over 60 as about 95% of cases, and diffuse cortical atrophy, reduced acetylcholine, and neurofibrillary tangles as key features. The MSD Manual agrees that the tangles lie inside neurons and come from hyperphosphorylation of tau, a protein that stabilizes microtubules, while beta-amyloid is the main component of the plaques outside the cells. Other source: MSD says about 5 to 15% of cases are familial, a little higher than the roughly 5% implied by your notes, and that most cases are sporadic with onset at 65 or older.",
+      "whyWrong": {
+        "b": "Alpha-synuclein builds up as Lewy bodies, the inclusions of Parkinson disease and Lewy body dementia (your Osmosis neurology notes, p. 162).",
+        "c": "Beta-amyloid forms the plaques outside the neurons, not the inclusions inside them (your Osmosis neurology notes, p. 74).",
+        "d": "Misfolded prion protein causes Creutzfeldt-Jakob disease, with spongy vacuoles and a much faster decline over months (standard teaching).",
+        "e": "Huntingtin aggregates are seen in Huntington disease, which causes chorea and mainly affects the caudate (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Neurology (Emily's file), Alzheimer's disease, p. 74"
+        },
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Neurology (Emily's file), Parkinson's disease, p. 162"
+        },
+        {
+          "title": "MSD Manual Professional: Alzheimer Disease",
+          "url": "https://www.msdmanuals.com/professional/neurologic-disorders/delirium-and-dementia/alzheimer-disease"
+        }
+      ]
+    },
+    {
+      "id": "anat-long-thoracic-winged-scapula-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Musculoskeletal",
+      "topic": "Long thoracic nerve: winged scapula",
+      "difficulty": 2,
+      "stem": "A 47-year-old woman has trouble reaching for things on a high shelf since she had a mastectomy with removal of axillary lymph nodes 6 weeks ago. When she pushes against a wall with both hands, the inner (medial) border and lower tip of her right scapula stick out from her back.",
+      "leadIn": "Injury to which of the following nerves is most likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Long thoracic nerve"
+        },
+        {
+          "id": "b",
+          "text": "Axillary nerve"
+        },
+        {
+          "id": "c",
+          "text": "Thoracodorsal nerve"
+        },
+        {
+          "id": "d",
+          "text": "Suprascapular nerve"
+        },
+        {
+          "id": "e",
+          "text": "Dorsal scapular nerve"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: long thoracic nerve. Why: Your el-husseiny musculoskeletal notes (p. 27) explain that the long thoracic nerve (roots C5-C7) supplies serratus anterior. The muscle arises from the first 8 ribs and inserts on the medial border of the scapula, holding the scapula against the chest wall and rotating it upward. The deltoid and supraspinatus raise the arm to horizontal, and the serratus anterior and trapezius then rotate the glenoid upward so the arm can go fully overhead. When the nerve is injured, the medial border and inferior angle of the scapula wing out when the patient pushes against a wall, and the arm cannot be raised above horizontal. Your notes list axillary lymph node dissection during mastectomy, chest tube placement, and penetrating injury to the side of the chest as causes. StatPearls' article on scapular winging agrees that the most common cause of winging is paralysis of serratus anterior after injury to the long thoracic nerve, which causes medial winging. It lists chest tube placement, axillary lymph node dissection, and blunt trauma among the causes, and notes weakness when lifting the arm above shoulder level.",
+      "whyWrong": {
+        "b": "The axillary nerve supplies the deltoid and teres minor; injury weakens abduction and causes numbness over the lateral shoulder, but not winging (standard teaching).",
+        "c": "The thoracodorsal nerve supplies latissimus dorsi, which extends and adducts the arm; its injury does not cause winging of the medial border (standard teaching).",
+        "d": "The suprascapular nerve supplies supraspinatus and infraspinatus, so its injury weakens starting abduction and external rotation (standard teaching).",
+        "e": "The dorsal scapular nerve supplies the rhomboids; StatPearls notes that rhomboid weakness causes lateral winging, not the medial winging seen here (StatPearls, Winging of the Scapula)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Winged scapula, p. 27"
+        },
+        {
+          "title": "StatPearls: Winging of the Scapula",
+          "url": "https://www.statpearls.com/point-of-care/31373"
+        }
+      ]
+    },
+    {
+      "id": "anat-recurrent-laryngeal-thyroidectomy-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Endocrine",
+      "topic": "Recurrent laryngeal nerve injury after thyroidectomy",
+      "difficulty": 2,
+      "stem": "A 44-year-old woman has a hoarse, breathy voice the morning after a total thyroidectomy. She has no stridor and breathes comfortably. Laryngoscopy shows that her left vocal fold does not move and rests slightly to the side of the midline, while the right fold moves normally.",
+      "leadIn": "Injury to which of the following nerves is most likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Left recurrent laryngeal nerve"
+        },
+        {
+          "id": "b",
+          "text": "Left superior laryngeal nerve (external branch)"
+        },
+        {
+          "id": "c",
+          "text": "Left hypoglossal nerve"
+        },
+        {
+          "id": "d",
+          "text": "Left phrenic nerve"
+        },
+        {
+          "id": "e",
+          "text": "Left glossopharyngeal nerve"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: left recurrent laryngeal nerve. Why: the MSD Manual lists thyroidectomy among the causes of recurrent laryngeal nerve paralysis. With one side paralyzed, the voice may be hoarse and breathy, but the airway is usually open because the normal fold opens enough. The paralyzed fold generally rests 2 to 3 mm to the side of the midline. When both sides are paralyzed, as after some thyroid surgery, the airway is too narrow and causes stridor and shortness of breath on moderate exertion. MSD adds that the left recurrent nerve takes a longer path from the brain stem to the larynx, which gives more chances for compression, stretching, or surgical injury. The recurrent laryngeal nerve supplies all the intrinsic muscles of the larynx except the cricothyroid (standard teaching). Your el-husseiny respiratory notes (p. 117) also list compression of this nerve, causing hoarseness, as a complication of lung cancer.",
+      "whyWrong": {
+        "b": "The superior laryngeal nerve's external branch supplies the cricothyroid, which tenses the fold; injury makes it hard to reach high notes, but the fold still moves (standard teaching).",
+        "c": "The hypoglossal nerve moves the tongue; injury makes the tongue point toward the weak side when stuck out (standard teaching).",
+        "d": "The phrenic nerve supplies the diaphragm; injury raises the diaphragm on that side but does not change the voice (standard teaching).",
+        "e": "The glossopharyngeal nerve carries sensation from the back of the tongue and throat and the gag reflex; it does not move the vocal folds (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Vocal Fold Paralysis",
+          "url": "https://www.msdmanuals.com/professional/ear-nose-and-throat-disorders/laryngeal-disorders/vocal-fold-paralysis"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Respiratory System (Emily's file), Complications of lung cancer, p. 117"
+        }
+      ]
+    },
+    {
+      "id": "embryo-thyroglossal-duct-cyst-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Endocrine",
+      "topic": "Thyroid development: thyroglossal duct cyst",
+      "difficulty": 1,
+      "stem": "A 6-year-old boy has a painless lump in the middle of the front of his neck, just below the hyoid bone. It has been there for several months. The lump moves up when he swallows. It is round, soft, and does not glow when a light is shone through it.",
+      "leadIn": "This mass most likely comes from which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A remnant of the thyroglossal duct"
+        },
+        {
+          "id": "b",
+          "text": "A remnant of the second pharyngeal cleft"
+        },
+        {
+          "id": "c",
+          "text": "Persistent cervical sinus of the third pouch"
+        },
+        {
+          "id": "d",
+          "text": "Blocked lymphatic sacs of the neck"
+        },
+        {
+          "id": "e",
+          "text": "Skin ectoderm trapped at a fusion line"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: a remnant of the thyroglossal duct. Why: your Osmosis GI notes (p. 172) explain that the thyroid starts at the foramen cecum at the base of the tongue and moves down the neck, leaving a track called the thyroglossal duct. If the duct stays open, it fills with mucus and forms a benign cyst. It shows up as a painless lump at or near the front midline of the neck that moves when the patient swallows, and it can become infected. Your notes add that thyroid cells left in the cyst can rarely give rise to thyroid cancer, and that treatment is surgical removal (the Sistrunk procedure). StatPearls' Thyroglossal Duct Cyst article agrees that the cyst forms when the duct fails to close, that it is the most common congenital neck anomaly, and that it sits in the midline near the hyoid bone and moves upward when the tongue sticks out or the patient swallows. It puts the cancer risk at less than 1%.",
+      "whyWrong": {
+        "b": "StatPearls notes that second branchial cleft cysts sit to the side of the neck, not in the midline; they lie along the front edge of the sternocleidomastoid (standard teaching).",
+        "c": "Third pouch remnants are rare and lie on the side of the neck, not in the midline (standard teaching).",
+        "d": "A cystic hygroma comes from blocked lymphatics, is usually on the side of the neck, and glows when a light is shone through it (standard teaching).",
+        "e": "A dermoid cyst can sit in the midline, but it does not move with swallowing because it is not attached to the hyoid and the thyroid's path (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Gastrointestinal (Emily's file), Thyroglossal duct cyst, p. 172"
+        },
+        {
+          "title": "StatPearls: Thyroglossal Duct Cyst",
+          "url": "https://www.statpearls.com/point-of-care/30134"
+        }
+      ]
+    },
+    {
+      "id": "embryo-congenital-diaphragmatic-hernia-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Respiratory",
+      "topic": "Congenital diaphragmatic hernia: pulmonary hypoplasia",
+      "difficulty": 2,
+      "stem": "A term newborn boy develops increasing breathing difficulty in his first few hours of life. His abdomen looks flat and sunken. Breath sounds are absent over the left chest, where bowel sounds can be heard, and his heart sounds are loudest on the right.",
+      "leadIn": "Which of the following is the main cause of his breathing difficulty?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Underdeveloped lung on the affected side"
+        },
+        {
+          "id": "b",
+          "text": "Surfactant deficiency from immature lungs"
+        },
+        {
+          "id": "c",
+          "text": "Meconium blocking the small airways"
+        },
+        {
+          "id": "d",
+          "text": "Air leaking into the left pleural space"
+        },
+        {
+          "id": "e",
+          "text": "A fluid-filled cyst budding off the foregut"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: underdevelopment (hypoplasia) of the lung on the affected side. Why: this is a congenital diaphragmatic hernia, with abdominal organs pushed into the chest through a hole in the diaphragm. The MSD Manual explains that the hole is in the back and side of the diaphragm (a Bochdalek hernia) in 95% of cases and on the left in 85%. Breathing difficulty usually starts within the first several hours after birth. The abdomen looks sunken (scaphoid) because the organs have moved into the chest, and bowel sounds may be heard over that side while breath sounds are absent. With a large defect, the lung on that side is underdeveloped, and the small lungs can cause pulmonary hypertension. Your el-husseiny respiratory notes (p. 11) also list congenital diaphragmatic hernia as a cause of pulmonary hypoplasia, along with bilateral renal agenesis. The hole usually comes from incomplete closure of the pleuroperitoneal membrane (standard teaching).",
+      "whyWrong": {
+        "b": "Surfactant deficiency causes neonatal respiratory distress syndrome in premature babies; this baby is term and has bowel in the chest (standard teaching).",
+        "c": "Meconium aspiration happens in babies born through meconium-stained fluid and does not move bowel sounds into the chest (standard teaching).",
+        "d": "A pneumothorax also removes breath sounds, but it would not make the abdomen sunken or bring bowel sounds into the chest (standard teaching).",
+        "e": "A bronchogenic cyst comes from abnormal budding of the foregut and shows as a round, sharply outlined density on x-ray (your El-Husseiny respiratory notes, p. 11)."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Diaphragmatic Hernia",
+          "url": "https://www.msdmanuals.com/professional/pediatrics/congenital-gastrointestinal-anomalies/diaphragmatic-hernia"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Respiratory System (Emily's file), Congenital lung malformations (pulmonary hypoplasia), p. 11"
+        }
+      ]
+    },
+    {
+      "id": "embryo-horseshoe-kidney-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Renal & Urinary",
+      "topic": "Kidney development: horseshoe kidney",
+      "difficulty": 1,
+      "stem": "A 15-year-old girl with Turner syndrome has an abdominal ultrasound. It shows that the lower poles of her two kidneys are joined across the midline in front of the aorta, and that both kidneys sit lower than usual.",
+      "leadIn": "The rise of her kidneys toward their normal position was most likely blocked by which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Inferior mesenteric artery"
+        },
+        {
+          "id": "b",
+          "text": "Superior mesenteric artery"
+        },
+        {
+          "id": "c",
+          "text": "Celiac trunk"
+        },
+        {
+          "id": "d",
+          "text": "Left renal vein"
+        },
+        {
+          "id": "e",
+          "text": "Common iliac arteries"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: inferior mesenteric artery. Why: this is a horseshoe kidney. Your el-husseiny nephrology notes (p. 9) explain that the kidneys start out in the sacral region and seem to rise to their adult position at about T12-L3 as the lower part of the embryo grows quickly. In a horseshoe kidney, the two kidneys fuse at their poles early in development, at the lower poles in about 90% of cases. The joined middle part (the isthmus) lies across the midline in front of the aorta and inferior vena cava. As the kidneys rise, the isthmus gets caught under the inferior mesenteric artery, so the kidneys stay low. Your notes add that horseshoe kidney is linked with blockage at the ureteropelvic junction, kidney stones, infection, and a higher risk of kidney cancer. It is more common in chromosome disorders such as Turner syndrome and trisomies 13, 18, and 21. StatPearls' Horseshoe Kidney article agrees that the isthmus joins the lower poles in over 90% of cases and that the inferior mesenteric artery stops the kidneys' rise. It links horseshoe kidney with trisomy 18 and Turner syndrome, and lists ureteropelvic junction obstruction as the most common complication, along with stones and renal cell cancer.",
+      "whyWrong": {
+        "b": "The superior mesenteric artery arises higher on the aorta; your notes describe the isthmus trapped below the inferior mesenteric artery (your El-Husseiny nephrology notes, p. 9).",
+        "c": "The celiac trunk arises even higher, near the diaphragm, far above where a fused kidney gets stuck (standard teaching).",
+        "d": "The left renal vein crosses in front of the aorta below the superior mesenteric artery, but it is not what traps a horseshoe kidney (standard teaching).",
+        "e": "The common iliac arteries sit below the starting point of the rise; the fused kidney gets caught higher, under the inferior mesenteric artery (your El-Husseiny nephrology notes, p. 9)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Nephrology (Emily's file), Horseshoe kidney, p. 9"
+        },
+        {
+          "title": "StatPearls: Horseshoe Kidney",
+          "url": "https://www.statpearls.com/point-of-care/23001"
+        }
+      ]
+    },
+    {
+      "id": "embryo-posterior-urethral-valves-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Renal & Urinary",
+      "topic": "Urinary tract development: posterior urethral valves",
+      "difficulty": 2,
+      "stem": "A prenatal ultrasound at 24 weeks' gestation shows a male fetus with very little amniotic fluid. The fetal bladder is large and thick-walled, and both ureters and both kidney collecting systems are dilated.",
+      "leadIn": "Blockage at which of the following sites best explains these findings?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Prostatic urethra"
+        },
+        {
+          "id": "b",
+          "text": "Ureteropelvic junction"
+        },
+        {
+          "id": "c",
+          "text": "Ureterovesical junction"
+        },
+        {
+          "id": "d",
+          "text": "Urethral meatus"
+        },
+        {
+          "id": "e",
+          "text": "Urachus"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: prostatic urethra. Why: a large bladder with dilation of both ureters and both kidneys in a boy points to posterior urethral valves. Your el-husseiny nephrology notes (p. 5) explain that these valves are the leading cause of blocked urine flow in baby boys. Extra flaps of tissue at the lower end of the prostatic urethra hold back urine, so the bladder, then the ureters, then the kidneys swell. A big bladder with dilated ureters and collecting systems on both sides on prenatal ultrasound strongly suggests the diagnosis. Much of the amniotic fluid is fetal urine, so when little urine gets out, the fluid runs low (oligohydramnios). Your notes stress that low fluid in the second trimester is a bad sign with high perinatal mortality, because the lungs need normal amniotic fluid to develop. Low fluid also limits fetal movement and leads to flat facies and limb deformities (Potter sequence). StatPearls' Posterior Urethral Valves article agrees that the valves are folds in the posterior urethra, found only in males, and are the most common cause of lower urinary tract blockage in male newborns. A distended, thick-walled bladder with hydronephrosis on both sides suggests the diagnosis, and severe cases cause oligohydramnios and pulmonary hypoplasia.",
+      "whyWrong": {
+        "b": "A ureteropelvic junction blockage dilates the kidney above it but leaves the ureter and bladder normal, and it is usually on one side (standard teaching).",
+        "c": "A ureterovesical junction blockage dilates the ureter and kidney above it but not the bladder (standard teaching).",
+        "d": "A narrowed urethral meatus is rarely severe enough to cause oligohydramnios before birth (standard teaching).",
+        "e": "A patent urachus leaks urine from the bladder to the umbilicus; it does not block outflow (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Nephrology (Emily's file), Posterior urethral valves, p. 5"
+        },
+        {
+          "title": "StatPearls: Posterior Urethral Valves",
+          "url": "https://www.statpearls.com/point-of-care/27515"
+        }
+      ]
+    },
+    {
+      "id": "anat-indirect-inguinal-hernia-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Gastrointestinal",
+      "topic": "Inguinal canal: indirect inguinal hernia",
+      "difficulty": 2,
+      "stem": "A 23-year-old man has a bulge in his right groin that gets bigger when he coughs and reaches into the top of his scrotum. At surgery, the hernia sac is found entering the inguinal canal through the deep inguinal ring and leaving through the superficial ring.",
+      "leadIn": "Compared with the inferior epigastric vessels, where does this hernia sac begin?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lateral to them"
+        },
+        {
+          "id": "b",
+          "text": "Medial to them"
+        },
+        {
+          "id": "c",
+          "text": "Directly behind them"
+        },
+        {
+          "id": "d",
+          "text": "Below the inguinal ligament"
+        },
+        {
+          "id": "e",
+          "text": "Above the arcuate line"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: lateral to them. Why: a hernia that enters the canal through the deep ring and follows the cord into the scrotum is an indirect inguinal hernia. StatPearls' article on the inguinal region explains that an indirect hernia occurs when the peritoneal sac enters the canal through the deep (internal) inguinal ring and pushes out through the external ring. The deep ring sits just above the midpoint of the inguinal ligament and lateral to the inferior epigastric vessels. A direct hernia, by contrast, pushes straight through a weak spot in the posterior wall of the canal. StatPearls adds that a processus vaginalis that stays open may raise the risk of inguinal hernia, and that peritoneal fluid running down an open processus causes a hydrocele. Your Osmosis GI notes (pp. 78-79) agree: the indirect hernia is the most common type, comes from failure of the processus vaginalis to close, passes through the internal inguinal ring with the spermatic cord, and on imaging its neck lies above and lateral to the inferior epigastric vessels. A direct hernia pushes through Hesselbach triangle, medial to those vessels, and is acquired, usually in older men.",
+      "whyWrong": {
+        "b": "A sac that starts medial to the inferior epigastric vessels is a direct hernia, which pushes through Hesselbach triangle in the weak posterior wall rather than through the deep ring (your Osmosis GI notes, p. 78).",
+        "c": "Hernias are described as lateral (indirect) or medial (direct) to these vessels; the deep ring sits lateral to them (StatPearls, Inguinal Region).",
+        "d": "A sac below the inguinal ligament, medial to the femoral vein, is a femoral hernia, which does not travel through the inguinal canal (standard teaching).",
+        "e": "The arcuate line is a landmark on the back of the rectus sheath higher on the abdomen; it has nothing to do with groin hernias (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Anatomy, Abdomen and Pelvis: Inguinal Region (Inguinal Canal)",
+          "url": "https://www.statpearls.com/point-of-care/32114"
+        },
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Gastrointestinal (Emily's file), Inguinal hernias, pp. 78-79"
+        }
+      ]
+    },
+    {
+      "id": "phys-frank-starling-preload-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Cardiovascular",
+      "topic": "Frank-Starling relationship: preload and stroke volume",
+      "difficulty": 1,
+      "stem": "A healthy 24-year-old man takes part in a research study. While he lies still, he receives 1 L of normal saline IV over 15 minutes. Echocardiography shows that his left ventricular end-diastolic volume has risen and his stroke volume has gone up. His heart rate, blood pressure, and plasma catecholamine levels have not changed.",
+      "leadIn": "Which of the following best explains the increase in stroke volume?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Greater sarcomere stretch improving actin-myosin overlap"
+        },
+        {
+          "id": "b",
+          "text": "More beta-1 adrenergic stimulation of the heart muscle cells"
+        },
+        {
+          "id": "c",
+          "text": "Lower afterload from widening of the aorta"
+        },
+        {
+          "id": "d",
+          "text": "Faster heart rate giving more ejections per minute overall"
+        },
+        {
+          "id": "e",
+          "text": "Lower calcium sensitivity of troponin C"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: greater sarcomere stretch that improves actin-myosin overlap. Why: this is the Frank-Starling relationship. Your Osmosis physiology notes (p. 119) explain that the force of contraction depends on the resting length of the sarcomere, which depends on how much blood fills the ventricle in diastole (the EDV). More filling stretches the sarcomere toward the length where actin and myosin overlap best, so more myosin heads bind and the stroke volume rises. Your notes add that this lets the heart match its stroke volume to venous return on its own (intrinsic control), while nerves, hormones, and drugs change contractility from outside (extrinsic control). Overstretching moves the sarcomere past its best overlap and weakens the contraction. CV Physiology (Klabunde) agrees that more venous return stretches the ventricle and lets it eject the extra blood, and it gives one cellular reason: a longer sarcomere makes troponin C more sensitive to calcium. It adds that other mechanisms are surely involved too. Here nothing changed except the filling volume, so the extra stroke volume came from stretch.",
+      "whyWrong": {
+        "b": "Beta-1 stimulation raises contractility (positive inotropy), but his catecholamines did not change; your Osmosis physiology notes (p. 119) list sympathetic stimulation as extrinsic control, separate from the Frank-Starling effect.",
+        "c": "Nothing in the stem lowers afterload; his blood pressure is unchanged, and a saline bolus does not widen the aorta (standard teaching).",
+        "d": "His heart rate did not change, and the question asks about stroke volume (blood per beat), not beats per minute (standard teaching).",
+        "e": "Stretch makes troponin C more sensitive to calcium, not less; CV Physiology names this as one reason stretch strengthens contraction."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Frank-Starling relationship, p. 119"
+        },
+        {
+          "title": "CV Physiology (Klabunde): Frank-Starling Mechanism",
+          "url": "https://cvphysiology.com/cardiac-function/cf003"
+        }
+      ]
+    },
+    {
+      "id": "phys-isovolumic-contraction-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Cardiovascular",
+      "topic": "Cardiac cycle: isovolumic contraction on the pressure-volume loop",
+      "difficulty": 1,
+      "stem": "A physiology class studies a normal left ventricular pressure-volume loop. At one point the ventricle holds 140 mL of blood. Over the next part of the loop, the ventricular pressure climbs from about 10 mm Hg to about 80 mm Hg while the volume stays at 140 mL. The first heart sound has just been heard.",
+      "leadIn": "This part of the loop is which phase of the cardiac cycle?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Isovolumic contraction"
+        },
+        {
+          "id": "b",
+          "text": "Rapid ventricular ejection"
+        },
+        {
+          "id": "c",
+          "text": "Isovolumic relaxation"
+        },
+        {
+          "id": "d",
+          "text": "Rapid ventricular filling"
+        },
+        {
+          "id": "e",
+          "text": "Atrial systole"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: isovolumic contraction. Why: your Osmosis physiology notes (p. 113) describe the pressure-volume loop in four phases. Filling ends with the mitral valve closed and the ventricle full (EDV about 140 mL). Systole then begins with isovolumic contraction: the mitral and aortic valves are both closed, so the volume cannot change, and pressure builds. Ejection starts only when left ventricular pressure rises above aortic pressure and the aortic valve opens. CV Physiology (Klabunde) adds that all valves are closed in this phase, that ventricular pressure rises fast with no change in volume, and that the phase lasts from closure of the AV valves to opening of the aortic and pulmonic valves. AV valve closure makes the first heart sound (S1), which is why S1 marks the start of this phase.",
+      "whyWrong": {
+        "b": "During ejection the aortic valve is open and the volume falls; your Osmosis physiology notes (p. 113) say ejection starts when ventricular pressure exceeds aortic pressure.",
+        "c": "Isovolumic relaxation is also a fixed-volume phase, but pressure falls, not rises, and it happens at the end-systolic volume (about 70 mL in your Osmosis physiology notes, p. 113) after the aortic valve closes.",
+        "d": "During rapid filling the mitral valve is open, the volume rises, and the pressure stays low (standard teaching).",
+        "e": "Atrial systole tops off filling at the end of diastole while the mitral valve is still open, so the volume rises (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Pressure-volume loops, p. 113"
+        },
+        {
+          "title": "CV Physiology (Klabunde): Cardiac Cycle - Isovolumetric Contraction (Phase 2)",
+          "url": "https://cvphysiology.com/heart-disease/hd002b"
+        }
+      ]
+    },
+    {
+      "id": "phys-poiseuille-radius-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Cardiovascular",
+      "topic": "Hemodynamics: Poiseuille equation and vessel radius",
+      "difficulty": 2,
+      "stem": "In a laboratory experiment, a segment of a small artery is perfused with blood. The vessel's smooth muscle is then made to contract until the inner radius of the segment is half of its starting value. The length of the segment and the viscosity of the blood do not change.",
+      "leadIn": "Compared with baseline, the resistance to flow through this segment has changed by which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Increased 16-fold"
+        },
+        {
+          "id": "b",
+          "text": "Increased 2-fold"
+        },
+        {
+          "id": "c",
+          "text": "Increased 4-fold"
+        },
+        {
+          "id": "d",
+          "text": "Increased 8-fold"
+        },
+        {
+          "id": "e",
+          "text": "Decreased 16-fold"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: increased 16-fold. Why: your Osmosis physiology notes (p. 141) give the Poiseuille equation, R = 8ηl / πr⁴. Resistance rises in direct proportion to viscosity and vessel length, and in inverse proportion to the radius raised to the fourth power. Your notes use this exact example: when the radius falls by half, resistance goes up 16-fold, because 2 × 2 × 2 × 2 = 16. CV Physiology (Klabunde) states the same fourth-power rule from the other direction: doubling the diameter cuts resistance 16-fold. It also points out that vessel diameter, which changes with smooth muscle tone, is the most important factor in resistance. This is why small changes in arteriolar tone change blood flow so much (standard teaching).",
+      "whyWrong": {
+        "b": "A 2-fold rise would mean resistance depends on radius to the first power; the Poiseuille equation uses the fourth power (r⁴).",
+        "c": "A 4-fold rise would mean resistance depends on radius squared; the equation uses r⁴, which gives 16-fold.",
+        "d": "An 8-fold rise would mean radius cubed; the equation uses r⁴, which gives 16-fold.",
+        "e": "Narrowing raises resistance; a 16-fold decrease would happen if the radius doubled, as CV Physiology describes for a doubled diameter."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Resistance to blood flow (Poiseuille equation), p. 141"
+        },
+        {
+          "title": "CV Physiology (Klabunde): Determinants of Resistance to Flow (Poiseuille's Equation)",
+          "url": "https://cvphysiology.com/hemodynamics/h003"
+        }
+      ]
+    },
+    {
+      "id": "phys-myocyte-plateau-calcium-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Cardiovascular",
+      "topic": "Cardiac myocyte action potential: phase 2 plateau",
+      "difficulty": 2,
+      "stem": "Researchers record action potentials from isolated human ventricular muscle cells. They add a drug that shortens the plateau of the action potential and makes each contraction weaker. The resting membrane potential and the rapid upstroke of the action potential do not change.",
+      "leadIn": "The drug most likely blocks which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "L-type calcium channels"
+        },
+        {
+          "id": "b",
+          "text": "Fast voltage-gated sodium channels"
+        },
+        {
+          "id": "c",
+          "text": "Delayed rectifier potassium channels"
+        },
+        {
+          "id": "d",
+          "text": "HCN (funny current) channels"
+        },
+        {
+          "id": "e",
+          "text": "Sodium-potassium ATPase pumps"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: L-type calcium channels. Why: your Osmosis physiology notes (p. 122) list the phases of the myocyte action potential. Phase 0 is a fast inward sodium current. In phase 1 the sodium current stops and potassium starts to leave. In phase 2, calcium flows into the cell and balances the potassium flowing out, and this balance makes the plateau. In phase 3 the calcium current stops while potassium keeps leaving, so the cell repolarizes. CV Physiology (Klabunde) agrees and names the channel: the plateau comes mainly from a slow inward calcium current through L-type calcium channels. The calcium that enters during the plateau also triggers the release of more calcium inside the cell, which drives contraction (standard teaching). So blocking these channels shortens the plateau and weakens contraction. Non-dihydropyridine calcium channel blockers such as verapamil act on these channels (standard teaching).",
+      "whyWrong": {
+        "b": "Blocking fast sodium channels would slow the phase 0 upstroke, which did not change; your Osmosis physiology notes (p. 122) tie phase 0 to sodium entry.",
+        "c": "Blocking delayed rectifier potassium channels would slow repolarization and lengthen the action potential, not shorten the plateau (CV Physiology ties phase 3 to rising potassium conductance).",
+        "d": "HCN channels carry the funny current that drives phase 4 depolarization in pacemaker cells, not the plateau of ventricular muscle cells (standard teaching).",
+        "e": "Blocking the Na-K ATPase (as digoxin does) raises intracellular calcium and strengthens contraction; it does not shorten the plateau (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Action potentials in myocytes, p. 122"
+        },
+        {
+          "title": "CV Physiology (Klabunde): Non-Pacemaker Action Potentials",
+          "url": "https://cvphysiology.com/arrhythmias/a006"
+        }
+      ]
+    },
+    {
+      "id": "phys-dead-space-pe-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Respiratory",
+      "topic": "Ventilation-perfusion: dead space in pulmonary embolism",
+      "difficulty": 2,
+      "stem": "A 58-year-old woman suddenly becomes short of breath 4 days after hip replacement surgery. CT angiography shows a large clot that completely blocks blood flow to the right lower lobe. The airways to that lobe are open, and the lobe is still being ventilated normally.",
+      "leadIn": "The gas in the alveoli of the right lower lobe will most closely match which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "PO2 about 150 mm Hg, PCO2 about 0 mm Hg"
+        },
+        {
+          "id": "b",
+          "text": "PO2 about 40 mm Hg, PCO2 about 46 mm Hg"
+        },
+        {
+          "id": "c",
+          "text": "PO2 about 100 mm Hg, PCO2 about 40 mm Hg"
+        },
+        {
+          "id": "d",
+          "text": "PO2 about 60 mm Hg, PCO2 about 50 mm Hg"
+        },
+        {
+          "id": "e",
+          "text": "PO2 about 120 mm Hg, PCO2 about 20 mm Hg"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: PO2 about 150 mm Hg and PCO2 about 0 mm Hg. Why: the lobe is ventilated but not perfused, so it is dead space and its V/Q ratio approaches infinity (standard teaching). Your Osmosis physiology notes (p. 621) explain that in dead space no gas exchange happens because there is no blood. The alveolar gas therefore stays the same as humidified inspired air, with a PAO2 of about 150 mm Hg and a PACO2 of 0. Your notes list pulmonary embolism as the example. StatPearls agrees that pulmonary embolism is one of the conditions that suddenly cuts perfusion and raises dead space, and that dead-space air is assumed to hold almost no carbon dioxide.",
+      "whyWrong": {
+        "b": "These are mixed venous values. Your Osmosis physiology notes (p. 621) give them for the opposite problem, a shunt (perfused but not ventilated, V/Q of 0).",
+        "c": "These are normal alveolar values, where ventilation and perfusion are matched (standard teaching).",
+        "d": "A low PO2 with a high PCO2 fits a region with low V/Q (more blood than air), such as asthma or chronic bronchitis (your Osmosis physiology notes, p. 621), not a region with no blood.",
+        "e": "A raised PO2 with a lowered PCO2 fits a high but finite V/Q, where some blood still flows (your Osmosis physiology notes, p. 621); with no blood flow at all, the gas matches inspired air."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Ventilation-perfusion ratios and V/Q mismatch, p. 621"
+        },
+        {
+          "title": "StatPearls: Physiology, Lung Dead Space",
+          "url": "https://www.statpearls.com/point-of-care/24497"
+        }
+      ]
+    },
+    {
+      "id": "phys-hypoxic-vasoconstriction-altitude-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Respiratory",
+      "topic": "Pulmonary circulation: hypoxic vasoconstriction at high altitude",
+      "difficulty": 2,
+      "stem": "A 34-year-old man moved from a coastal city to a mining town at 4,300 m (14,000 ft) 6 years ago. He now has mild shortness of breath when he climbs stairs. His lungs are clear, and spirometry is normal. Echocardiography shows a thick right ventricular wall and a high pulmonary artery pressure. The left ventricle is normal.",
+      "leadIn": "Which of the following most directly explains his heart finding?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Low alveolar PO2 narrowing the pulmonary arterioles"
+        },
+        {
+          "id": "b",
+          "text": "Low arterial PO2 widening the systemic arterioles"
+        },
+        {
+          "id": "c",
+          "text": "Thinner blood lowering pulmonary vascular resistance"
+        },
+        {
+          "id": "d",
+          "text": "Fluid backing up from a failing left ventricle"
+        },
+        {
+          "id": "e",
+          "text": "Carotid body firing that slows the heart rate"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: low alveolar PO2 narrowing the pulmonary arterioles. Why: your Osmosis physiology notes (pp. 623-624) explain that alveolar PO2 is a major control of pulmonary blood flow. When alveolar PO2 falls, pulmonary arterioles constrict. This is the opposite of systemic vessels, which widen when oxygen is low. In one diseased region, this steers blood toward better-ventilated lung. At high altitude, though, the whole lung has a low alveolar PO2, so arteriolar resistance rises everywhere. The chronic rise in pulmonary vascular resistance increases right heart afterload and leads to right heart hypertrophy. Your notes add the likely mechanism: hypoxia depolarizes the smooth muscle, voltage-gated calcium channels open, and calcium entry causes contraction. StatPearls (Altitude-Induced Pulmonary Hypertension) agrees that hypoxia triggers pulmonary vasoconstriction and raises pulmonary artery pressure, that long-term exposure can remodel the pulmonary vessels, and that these patients can develop right ventricular hypertrophy and right heart failure.",
+      "whyWrong": {
+        "b": "Systemic arterioles do widen with low oxygen (your Osmosis physiology notes, p. 623), but that lowers systemic afterload and does not thicken the right ventricle.",
+        "c": "Living at high altitude raises the red cell count, which makes blood thicker, not thinner; by the Poiseuille equation, higher viscosity raises resistance (standard teaching).",
+        "d": "His left ventricle is normal, so this is not right heart strain from left heart failure (standard teaching).",
+        "e": "Hypoxia stimulates the carotid bodies to increase breathing; slowing of the heart rate would not thicken the right ventricle (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Hypoxic vasoconstriction; high altitude and hypoxic vasoconstriction, pp. 623-624"
+        },
+        {
+          "title": "StatPearls: Altitude-Induced Pulmonary Hypertension",
+          "url": "https://statpearls.com/point-of-care/28035"
+        }
+      ]
+    },
+    {
+      "id": "phys-gfr-ureteral-obstruction-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Renal & Urinary",
+      "topic": "Glomerular Starling forces: urinary obstruction",
+      "difficulty": 2,
+      "stem": "A 40-year-old man has had severe left flank pain for 2 days. CT shows a 7-mm stone stuck in the left ureter, with a swollen, urine-filled left renal pelvis above it. The right kidney is normal.",
+      "leadIn": "Which change in the left kidney's glomerular forces most directly lowers its GFR?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Higher hydrostatic pressure in Bowman space"
+        },
+        {
+          "id": "b",
+          "text": "Higher hydrostatic pressure in the glomerular capillaries"
+        },
+        {
+          "id": "c",
+          "text": "Lower oncotic pressure in the glomerular capillaries"
+        },
+        {
+          "id": "d",
+          "text": "Constriction of the efferent arteriole"
+        },
+        {
+          "id": "e",
+          "text": "Larger filtration coefficient (Kf) of the glomerulus"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: higher hydrostatic pressure in Bowman space. Why: your Osmosis physiology notes (p. 534) list three Starling forces across the glomerulus: hydrostatic pressure in the glomerular capillary pushes fluid out, while hydrostatic pressure in Bowman space and oncotic pressure in the capillary push back. Net filtration pressure is Pgc minus (Pbs plus πgc), and GFR equals that pressure times Kf. Your notes say Bowman space pressure has a negative relationship with GFR and does not normally change. It rises when urine flow is blocked, and they give a stone stuck in the ureter as the example. Urine backs up, Bowman space pressure rises, and GFR falls. The MSD Manual (Obstructive Uropathy) agrees that pressure rises inside the urinary tract above a blockage and lists stones as a common cause in young adults.",
+      "whyWrong": {
+        "b": "Higher glomerular capillary pressure would raise GFR, not lower it (your Osmosis physiology notes, p. 534).",
+        "c": "Lower capillary oncotic pressure would also raise GFR (your Osmosis physiology notes, p. 534); a stone does not change plasma proteins.",
+        "d": "Efferent arteriole constriction raises glomerular capillary pressure and raises GFR (your Osmosis physiology notes, p. 534).",
+        "e": "A larger Kf would raise GFR, since GFR equals net filtration pressure times Kf (your Osmosis physiology notes, p. 534)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Starling forces and GFR, p. 534"
+        },
+        {
+          "title": "MSD Manual Professional: Obstructive Uropathy",
+          "url": "https://www.msdmanuals.com/professional/genitourinary-disorders/obstructive-uropathy/obstructive-uropathy"
+        }
+      ]
+    },
+    {
+      "id": "phys-tubuloglomerular-feedback-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Renal & Urinary",
+      "topic": "Renal autoregulation: tubuloglomerular feedback",
+      "difficulty": 3,
+      "stem": "In an animal study, researchers perfuse a single nephron so that more sodium chloride reaches the macula densa. Soon afterward, blood flow into that nephron's glomerulus falls, and its single-nephron GFR goes down.",
+      "leadIn": "Which of the following best explains this response?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Adenosine constricting the afferent arteriole"
+        },
+        {
+          "id": "b",
+          "text": "Angiotensin II constricting the efferent arteriole"
+        },
+        {
+          "id": "c",
+          "text": "Prostaglandin E2 dilating the afferent arteriole"
+        },
+        {
+          "id": "d",
+          "text": "Nitric oxide dilating the efferent arteriole"
+        },
+        {
+          "id": "e",
+          "text": "Natriuretic peptide dilating the afferent arteriole"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: adenosine constricting the afferent arteriole. Why: this is tubuloglomerular feedback. Your Osmosis physiology notes (p. 531) explain that the kidney keeps renal blood flow and GFR fairly constant over a wide range of blood pressures. One way it does this is the tubuloglomerular mechanism: when macula densa cells sense more sodium and chloride reaching the distal tubule (a sign that GFR is too high), they release adenosine. Adenosine raises resistance in the afferent arteriole, which lowers glomerular pressure and brings GFR back down. Your notes name the myogenic response as the other mechanism. Carlström and colleagues' review in Physiological Reviews agrees that the feedback is set off by salt delivery to the macula densa and that the vasoconstriction comes mainly from adenosine A1 receptors on the afferent arteriole.",
+      "whyWrong": {
+        "b": "Angiotensin II constricts the efferent arteriole, which raises GFR, not lowers it; and it acts through the renin system rather than this fast feedback from the macula densa (standard teaching).",
+        "c": "Prostaglandin E2 dilates the afferent arteriole, which would raise glomerular blood flow, the opposite of what happened (standard teaching).",
+        "d": "Dilating the efferent arteriole lowers glomerular pressure (your Osmosis physiology notes, p. 534), but tubuloglomerular feedback acts on the afferent arteriole through adenosine (your Osmosis physiology notes, p. 531).",
+        "e": "Natriuretic peptides dilate the afferent arteriole and raise GFR, the opposite of the response seen (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Autoregulation of renal blood flow, p. 531"
+        },
+        {
+          "title": "Carlström M, Wilcox CS, Arendshorst WJ. Renal autoregulation in health and disease. Physiol Rev 2015;95(2):405-511",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4551215/"
+        }
+      ]
+    },
+    {
+      "id": "phys-pth-phosphate-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Endocrine",
+      "topic": "Phosphate handling: PTH and the proximal tubule",
+      "difficulty": 2,
+      "stem": "A 55-year-old woman has kidney stones and aching bones. Her serum calcium is 11.8 mg/dL, her serum phosphate is 2.0 mg/dL (low), and her PTH is high. Her urine phosphate is high. Imaging shows a single enlarged parathyroid gland.",
+      "leadIn": "Her low serum phosphate is best explained by which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Less Na-phosphate cotransport in the proximal tubule"
+        },
+        {
+          "id": "b",
+          "text": "More phosphate absorption by the small intestine"
+        },
+        {
+          "id": "c",
+          "text": "More phosphate release from bone resorption"
+        },
+        {
+          "id": "d",
+          "text": "Less phosphate filtration at the glomerulus"
+        },
+        {
+          "id": "e",
+          "text": "More active phosphate secretion into the collecting duct"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: less Na-phosphate (sodium-phosphate) cotransport in the proximal tubule. Why: she has primary hyperparathyroidism. Your Osmosis physiology notes (p. 540) explain that phosphate is freely filtered and that most of it is taken back in the proximal tubule by a sodium-phosphate cotransporter in the luminal membrane. When this transport reaches its maximum (Tm), the extra phosphate is lost in the urine. PTH blocks the sodium-phosphate cotransporter, which lowers the Tm and causes phosphaturia (phosphate in the urine). StatPearls (Hypophosphatemia) agrees that PTH increases phosphate excretion and that PTH causes renal phosphate loss through the NaPi-IIa cotransporter in the proximal tubule.",
+      "whyWrong": {
+        "b": "Taking in more phosphate from the gut would raise serum phosphate, not lower it (standard teaching).",
+        "c": "Bone resorption releases phosphate along with calcium, which would push serum phosphate up; the kidney losing phosphate is what makes it low (standard teaching).",
+        "d": "Phosphate is freely filtered (your Osmosis physiology notes, p. 540); less filtration would keep phosphate in the blood and raise it, and her urine phosphate is high.",
+        "e": "Your Osmosis physiology notes (p. 540) describe phosphate handling as filtration and proximal reabsorption; PTH acts by blocking proximal reabsorption, not by causing collecting duct secretion."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Phosphate homeostasis, p. 540"
+        },
+        {
+          "title": "StatPearls: Hypophosphatemia",
+          "url": "https://statpearls.com/point-of-care/23281"
+        }
+      ]
+    },
+    {
+      "id": "phys-lh-surge-ovulation-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Reproductive",
+      "topic": "Menstrual cycle: the LH surge and ovulation",
+      "difficulty": 2,
+      "stem": "A 29-year-old woman with regular 28-day cycles is trying to get pregnant. She uses home urine ovulation tests, and on day 13 of her cycle the test turns positive. Her doctor explains that the test detects a sudden rise of a pituitary hormone that comes just before ovulation.",
+      "leadIn": "This hormone surge is triggered mainly by which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Positive feedback from high estradiol"
+        },
+        {
+          "id": "b",
+          "text": "Negative feedback from rising progesterone"
+        },
+        {
+          "id": "c",
+          "text": "hCG released by the corpus luteum"
+        },
+        {
+          "id": "d",
+          "text": "A fall in prolactin from the pituitary"
+        },
+        {
+          "id": "e",
+          "text": "Inhibin released by the theca cells"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: positive feedback from high estradiol levels. Why: the test detects the LH surge. Your Osmosis physiology notes (p. 561) explain that during days 1 to 13 the follicle grows and makes estrogen, and that estrogen feeds back to the hypothalamus and pituitary to turn off GnRH, FSH, and LH. On day 14, a brief LH surge makes the follicle rupture and release the oocyte. The MSD Manual (Female Reproductive Endocrinology) explains what flips this switch: estradiol peaks as the ovulatory phase begins, and at this point the high estradiol makes the pituitary release LH (positive feedback). It adds that the surge usually lasts 36 to 48 hours and that the oocyte is released within about 16 to 32 hours after the surge begins. Other source: your notes describe only the negative feedback of estrogen; MSD adds that very high estradiol just before ovulation switches to positive feedback.",
+      "whyWrong": {
+        "b": "Negative feedback lowers LH rather than causing a surge. Most progesterone comes from the corpus luteum after ovulation (your Osmosis physiology notes, p. 562). MSD notes that progesterone starts to rise just before ovulation and helps stimulate the surge, but the main trigger is high estradiol switching to positive feedback.",
+        "c": "hCG comes from embryonic tissue after fertilization and keeps the corpus luteum going (your Osmosis physiology notes, p. 562); the corpus luteum itself makes progesterone, not hCG.",
+        "d": "Prolactin does not trigger the LH surge; high prolactin actually suppresses GnRH and ovulation (standard teaching).",
+        "e": "Inhibin comes from granulosa cells and lowers FSH, not LH (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Menstrual cycle, pp. 561-562"
+        },
+        {
+          "title": "MSD Manual Professional: Female Reproductive Endocrinology",
+          "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/female-reproductive-endocrinology/female-reproductive-endocrinology"
+        }
+      ]
+    },
+    {
+      "id": "immuno-nk-missing-self-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Immunology",
+      "system": "Immune System",
+      "topic": "Innate immunity: NK cells and missing MHC class I",
+      "difficulty": 2,
+      "stem": "A 61-year-old man has metastatic melanoma. Testing shows that his tumor cells have stopped putting MHC class I molecules on their surface. Because of this, his tumor-specific CD8+ T cells can no longer recognize the tumor cells.",
+      "leadIn": "Which of the following cells is best suited to recognize and kill these tumor cells?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Natural killer cells"
+        },
+        {
+          "id": "b",
+          "text": "CD8+ cytotoxic T cells"
+        },
+        {
+          "id": "c",
+          "text": "CD4+ helper T cells"
+        },
+        {
+          "id": "d",
+          "text": "Regulatory T cells"
+        },
+        {
+          "id": "e",
+          "text": "Plasma cells"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: natural killer (NK) cells. Why: your El-Husseiny microbiology and immunology notes (p. 380) explain that NK cells recognize and kill cells that have lost or lowered their surface MHC class I, for example tumor cells and cells infected by viruses. NK cells belong to innate immunity. They do not need earlier exposure to the antigen, do not need the thymus to mature, and carry CD16 or CD56 rather than CD3, CD4, or CD8. They kill with granules of perforin, which punches holes in the target cell membrane, and granzymes, which push the target cell into apoptosis. Raulet's review in Seminars in Immunology calls this missing self recognition: NK cells attack cells that do not show enough MHC class I. This covers the gap left when tumors hide from CD8+ T cells by dropping MHC class I.",
+      "whyWrong": {
+        "b": "CD8+ T cells need MHC class I to see their antigen (your El-Husseiny microbiology and immunology notes, p. 408), so tumor cells without it escape them, as the stem says.",
+        "c": "CD4+ helper T cells recognize antigen on MHC class II on antigen-presenting cells (your El-Husseiny microbiology and immunology notes, p. 412) and do not directly kill tumor cells that lack MHC class I.",
+        "d": "Regulatory T cells suppress immune responses rather than kill tumor cells (standard teaching).",
+        "e": "Plasma cells are the end stage of B cells and make antibody (your El-Husseiny microbiology and immunology notes, p. 380); they do not kill cells directly."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Natural killer cells, p. 380"
+        },
+        {
+          "title": "Raulet DH. Missing self recognition and self tolerance of natural killer (NK) cells. Semin Immunol 2006;18:145-150",
+          "url": "https://mcb.berkeley.edu/labs/raulet/Resources/0606%20Raulet%20Missing%20Self%20Recognition.pdf"
+        }
+      ]
+    },
+    {
+      "id": "immuno-mhc1-tap-viral-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Immunology",
+      "system": "Immune System",
+      "topic": "Antigen processing: the MHC class I pathway",
+      "difficulty": 2,
+      "stem": "A 35-year-old man has chronic hepatitis B. Inside his infected liver cells, viral proteins are made in the cytoplasm. Some of these proteins are cut into short peptides by proteasomes. The peptides are later shown on the liver cell surface, where his CD8+ T cells recognize them and kill the infected cells.",
+      "leadIn": "The viral peptides are moved from the cytoplasm into the endoplasmic reticulum by which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "TAP peptide transporter"
+        },
+        {
+          "id": "b",
+          "text": "Invariant chain (CD74)"
+        },
+        {
+          "id": "c",
+          "text": "Clathrin-coated vesicles"
+        },
+        {
+          "id": "d",
+          "text": "Mannose-6-phosphate receptor"
+        },
+        {
+          "id": "e",
+          "text": "Signal recognition particle"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the TAP peptide transporter. Why: your El-Husseiny microbiology and immunology notes (p. 408) explain the MHC class I (endogenous) pathway. MHC class I is made in the endoplasmic reticulum (ER). Proteins made in the cytosol, including viral proteins, are broken down in proteasomes. The resulting peptides are carried into the ER by the TAP transporter, where they load onto new MHC class I molecules. The loaded molecules then go to the cell surface and are presented to CD8+ T cells. StatPearls (Genetics, Human MHC) agrees that class I molecules show peptides from broken-down cytosolic proteins to CD8+ T cells, and that class II molecules show peptides from endocytosed proteins to CD4+ T cells.",
+      "whyWrong": {
+        "b": "The invariant chain belongs to the MHC class II pathway; it blocks the class II groove until the molecule reaches an endosome (standard teaching).",
+        "c": "Clathrin-coated vesicles carry cargo taken in at the cell surface or sorted from the Golgi; they do not move cytosolic peptides into the ER (standard teaching).",
+        "d": "The mannose-6-phosphate receptor sends lysosomal enzymes from the Golgi to lysosomes; it does not carry peptides into the ER (standard teaching).",
+        "e": "The signal recognition particle guides newly made secretory and membrane proteins to the ER while they are being made; it does not carry proteasome-made peptides (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), MHC class I, p. 408"
+        },
+        {
+          "title": "StatPearls: Genetics, Human Major Histocompatibility Complex (MHC)",
+          "url": "https://www.statpearls.com/point-of-care/23030"
+        }
+      ]
+    },
+    {
+      "id": "immuno-superantigen-tss-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Immunology",
+      "system": "Immune System",
+      "topic": "Superantigens: toxic shock syndrome toxin",
+      "difficulty": 2,
+      "stem": "A 19-year-old woman is brought to the emergency department on day 3 of her menstrual period with fever, vomiting, and confusion. She has been using high-absorbency tampons. Her temperature is 39.8°C (103.6°F) and blood pressure is 78/40 mm Hg. She has a diffuse red rash like a sunburn. Blood cultures are negative. A vaginal swab grows Staphylococcus aureus.",
+      "leadIn": "The toxin behind her illness acts mainly by which of the following mechanisms?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Linking MHC II to T-cell receptors outside the peptide groove"
+        },
+        {
+          "id": "b",
+          "text": "ADP-ribosylating elongation factor 2 and stopping protein synthesis"
+        },
+        {
+          "id": "c",
+          "text": "Blocking acetylcholine release at the neuromuscular junction"
+        },
+        {
+          "id": "d",
+          "text": "Forming pores that lyse red blood cells"
+        },
+        {
+          "id": "e",
+          "text": "Raising cAMP by ADP-ribosylating the Gs protein"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: linking MHC class II to T-cell receptors outside the peptide groove. Why: this is staphylococcal toxic shock syndrome, caused by toxic shock syndrome toxin-1 (TSST-1). Your El-Husseiny microbiology and immunology notes (p. 413) explain that superantigens cross-link the variable beta part of the T-cell receptor to the alpha chain of an MHC class II molecule, outside the groove where peptides normally sit. Because they skip normal antigen recognition, they turn on every T-cell clone that carries a certain V-beta region (polyclonal activation). The flood of IFN-gamma activates macrophages, which pour out IL-1, IL-6, and TNF-alpha, and these cytokines cause the whole-body illness. Your notes (p. 41) list TSST-1 among the superantigen toxins and link the cytokines to capillary leak, low blood pressure, shock, fever, rash, and organ failure. StatPearls (Toxic Shock Syndrome) agrees that superantigens bypass the normal pathway for T-cell activation, that TSS was classically tied to high-absorbency tampons, and that the clinical criteria are fever, rash, low blood pressure, and multiorgan involvement. It adds that the rash peels 1 to 2 weeks later.",
+      "whyWrong": {
+        "b": "Stopping protein synthesis through elongation factor 2 is how diphtheria toxin and Pseudomonas exotoxin A work (standard teaching).",
+        "c": "Blocking acetylcholine release is how botulinum toxin works, causing flaccid paralysis (standard teaching).",
+        "d": "Pore-forming toxins such as staphylococcal alpha toxin lyse cell membranes (your El-Husseiny microbiology and immunology notes, p. 40), but they do not cause this cytokine-driven shock.",
+        "e": "Raising cAMP through Gs is how cholera toxin and heat-labile E. coli toxin cause watery diarrhea (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Superantigens, p. 413; staphylococcal exotoxins, pp. 40-41"
+        },
+        {
+          "title": "StatPearls: Toxic Shock Syndrome",
+          "url": "https://www.statpearls.com/point-of-care/30298"
+        }
+      ]
+    },
+    {
+      "id": "immuno-c3-deficiency-opsonization-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Immunology",
+      "system": "Immune System",
+      "topic": "Complement: C3 deficiency and opsonization",
+      "difficulty": 2,
+      "stem": "A 3-year-old boy has had pneumonia 4 times, ear infections many times, and one episode of bloodstream infection since infancy. Cultures have grown Streptococcus pneumoniae and Haemophilus influenzae. His IgG, IgA, and IgM levels are normal, and his T-cell counts are normal. His total complement activity (CH50) is undetectable, and serum C3 is absent.",
+      "leadIn": "Loss of which complement product, which normally coats bacteria so phagocytes can take them in, best explains his infections?",
+      "options": [
+        {
+          "id": "a",
+          "text": "C3b"
+        },
+        {
+          "id": "b",
+          "text": "C3a"
+        },
+        {
+          "id": "c",
+          "text": "C5a"
+        },
+        {
+          "id": "d",
+          "text": "C5b-9"
+        },
+        {
+          "id": "e",
+          "text": "C1 esterase inhibitor"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: C3b. Why: your El-Husseiny microbiology and immunology notes (p. 432) explain that complement drives inflammation, helps phagocytosis by opsonization, and lyses cells by forming membrane pores. C3b does the opsonizing, C3a, C4a, and C5a cause anaphylaxis-like effects, C5a draws in neutrophils, and C5b-9 forms the membrane attack complex. Your notes add that C3b and IgG are the two main opsonins in defense against bacteria, and that C3b also helps clear immune complexes. StatPearls (Complement Deficiency) agrees that C3b defects lead to poor opsonization, and that C3 deficiency causes severe, recurring pyogenic infections early in life. It names encapsulated bacteria such as S. pneumoniae among the infections that should prompt testing for a complement deficiency.",
+      "whyWrong": {
+        "b": "C3a is an anaphylatoxin that promotes inflammation (your El-Husseiny microbiology and immunology notes, p. 432); it does not coat bacteria.",
+        "c": "C5a draws neutrophils in and is an anaphylatoxin (your El-Husseiny microbiology and immunology notes, p. 432), but it does not coat bacteria for phagocytosis.",
+        "d": "C5b-9 forms the membrane attack complex that lyses cells (your El-Husseiny microbiology and immunology notes, p. 432). Lack of the terminal components mainly causes repeated Neisseria infections (standard teaching).",
+        "e": "C1 esterase inhibitor keeps complement from being activated on the body's own cells (your El-Husseiny microbiology and immunology notes, p. 432); its lack causes hereditary angioedema, not pyogenic infections (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Complement functions, p. 432"
+        },
+        {
+          "title": "StatPearls: Complement Deficiency",
+          "url": "https://www.statpearls.com/point-of-care/19785"
+        }
+      ]
+    },
+    {
+      "id": "immuno-anergy-costimulation-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Immunology",
+      "system": "Immune System",
+      "topic": "T-cell activation: costimulation and anergy",
+      "difficulty": 3,
+      "stem": "In an experiment, naive CD4+ T cells are mixed with antigen-presenting cells that display the matching peptide on MHC class II. An antibody is added that blocks CD28 on the T cells. The T cells bind the peptide-MHC complex but do not make IL-2 or multiply. A week later, the same T cells are given the same peptide on fully working antigen-presenting cells, and they still do not respond.",
+      "leadIn": "Which of the following best describes what happened to these T cells?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Anergy (lasting unresponsiveness)"
+        },
+        {
+          "id": "b",
+          "text": "Full activation with IL-2 release"
+        },
+        {
+          "id": "c",
+          "text": "Change into long-lived memory cells"
+        },
+        {
+          "id": "d",
+          "text": "Deletion in the thymic medulla"
+        },
+        {
+          "id": "e",
+          "text": "Change into CD8+ cytotoxic T cells"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: anergy. Why: your El-Husseiny microbiology and immunology notes (p. 412) explain that a naive T cell needs two signals. The first is the T-cell receptor binding the peptide-MHC complex, steadied by CD4 or CD8, which gives the response its specificity. The second is costimulation: B7 (CD80/86) on the antigen-presenting cell binds CD28 on the T cell. IL-2 is then the main growth signal that makes the T-cell clone multiply. StatPearls (Biochemistry, Autoimmunity) agrees that CD28 on the T cell binds B7 on the antigen-presenting cell, that anergy is a lack of response caused by missing costimulation, and that the response goes no further without the second signal. It adds that CTLA-4 binds B7 more tightly than CD28 does and blocks costimulation. Here, signal 1 came without signal 2, so the cells became anergic and stayed unresponsive even when offered both signals later.",
+      "whyWrong": {
+        "b": "Full activation needs both signals; with CD28 blocked, the cells made no IL-2 (StatPearls, Biochemistry, Autoimmunity).",
+        "c": "Memory cells form only after a successful activation, which did not happen here (standard teaching).",
+        "d": "Deletion of strongly self-reactive T cells happens while they develop in the thymus (central tolerance), not to mature T cells in a dish (standard teaching).",
+        "e": "CD4+ T cells do not turn into CD8+ cells; the CD4 or CD8 choice is made in the thymus (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Activation of T lymphocytes, p. 412"
+        },
+        {
+          "title": "StatPearls: Biochemistry, Autoimmunity",
+          "url": "https://www.statpearls.com/point-of-care/140587"
+        }
+      ]
+    },
+    {
+      "id": "psych-panic-disorder-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Behavioral Science",
+      "system": "Behavioral Health",
+      "topic": "Anxiety disorders: panic disorder",
+      "difficulty": 1,
+      "stem": "A 26-year-old woman has had 4 sudden episodes over the past 2 months. Each starts with a pounding heart, sweating, shaking, chest tightness, tingling hands, and a fear that she is dying. Symptoms peak within about 10 minutes and are gone within half an hour. The episodes come without warning, once while she was relaxing at home. For the past 6 weeks she has worried constantly about the next one and has stopped going to the gym. ECG, TSH, and a urine drug screen are normal. She drinks one cup of coffee a day.",
+      "leadIn": "Which of the following is the most likely diagnosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Panic disorder"
+        },
+        {
+          "id": "b",
+          "text": "Generalized anxiety disorder"
+        },
+        {
+          "id": "c",
+          "text": "Illness anxiety disorder"
+        },
+        {
+          "id": "d",
+          "text": "Specific phobia"
+        },
+        {
+          "id": "e",
+          "text": "Social anxiety disorder"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: panic disorder. Why: DSM-5-TR (pp. 235-236) defines a panic attack as a sudden wave of intense fear or discomfort that peaks within minutes, with at least 4 of 13 listed symptoms, such as a pounding heart, sweating, shaking, chest pain, tingling, and fear of dying. Panic disorder needs repeated attacks that come unexpectedly. At least one attack must be followed by 1 month or more of ongoing worry about more attacks or a harmful change in behavior to avoid them. The symptoms must not be due to a substance or a medical condition such as hyperthyroidism or heart or lung disease, and must not be better explained by another mental disorder. She has all of these. The MSD Manual (Panic Attacks and Panic Disorder) agrees that panic disorder needs recurrent, unexpected attacks plus at least 1 month of worry or behavior change, and that it is diagnosed only after medical causes are ruled out. MSD adds that cognitive behavioral therapy (CBT) works, and that SSRIs and SNRIs have fewer adverse effects than older antidepressants.",
+      "whyWrong": {
+        "b": "In generalized anxiety disorder the worry is about many everyday things for at least 6 months, not about sudden attacks (DSM-5-TR, pp. 250-251).",
+        "c": "Illness anxiety disorder is a lasting worry about having or getting a serious illness (standard teaching); her worry is about the attacks themselves, which is part of panic disorder (DSM-5-TR, p. 236).",
+        "d": "In specific phobia, fear comes only in response to one feared object or situation; her attacks are unexpected (DSM-5-TR, p. 236).",
+        "e": "In social anxiety disorder, panic comes only in feared social situations; her attacks come without warning, even at home alone (DSM-5-TR, p. 236)."
+      },
+      "sources": [
+        {
+          "title": "DSM-5-TR (Emily's file), Panic disorder, pp. 235-236; generalized anxiety disorder, pp. 250-251"
+        },
+        {
+          "title": "MSD Manual Professional: Panic Attacks and Panic Disorder",
+          "url": "https://www.msdmanuals.com/professional/psychiatric-disorders/anxiety-and-trauma-and-stressor-related-disorders/panic-attacks-and-panic-disorder"
+        }
+      ]
+    },
+    {
+      "id": "psych-gad-ssri-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Behavioral Science",
+      "system": "Behavioral Health",
+      "topic": "Anxiety disorders: generalized anxiety disorder treatment",
+      "difficulty": 1,
+      "stem": "A 38-year-old teacher has worried most days for the past 8 months about her job, her children's safety, money, and her parents' health. She knows the worry is out of proportion but cannot turn it off. She feels keyed up, has tense shoulders, tires easily, has trouble concentrating, and sleeps poorly. She has never had a panic attack. Physical exam, TSH, and a urine drug screen are normal. She asks for a medicine she can take every day.",
+      "leadIn": "Which of the following is the most appropriate first-line medication?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Escitalopram"
+        },
+        {
+          "id": "b",
+          "text": "Alprazolam"
+        },
+        {
+          "id": "c",
+          "text": "Haloperidol"
+        },
+        {
+          "id": "d",
+          "text": "Lithium carbonate"
+        },
+        {
+          "id": "e",
+          "text": "Propranolol"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: escitalopram. Why: she has generalized anxiety disorder (GAD). DSM-5-TR (pp. 250-251) requires too much worry about many events or activities on most days for 6 months or longer, worry that is hard to control, and at least 3 of 6 symptoms in adults: restlessness or feeling on edge, tiring easily, poor concentration, irritability, muscle tension, and poor sleep. It must cause distress or trouble functioning and not be due to a substance, a medical condition such as hyperthyroidism, or another mental disorder. The MSD Manual (Generalized Anxiety Disorder) says SSRIs and SNRIs are the preferred medications for GAD and names escitalopram and venlafaxine as examples. It adds that buspirone may also work, that cognitive behavioral therapy is the most effective form of psychotherapy, and that GAD is twice as common in women as in men.",
+      "whyWrong": {
+        "b": "Benzodiazepines such as alprazolam relieve anxiety quickly but carry risks of dependence and withdrawal, so they are not first-line daily treatment for GAD (standard teaching).",
+        "c": "Haloperidol is an antipsychotic; she has no psychotic symptoms (standard teaching).",
+        "d": "Lithium is a mood stabilizer for bipolar disorder, not a treatment for GAD (standard teaching).",
+        "e": "Propranolol can blunt physical symptoms such as tremor in performance anxiety, but it does not treat the ongoing worry of GAD (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "DSM-5-TR (Emily's file), Generalized anxiety disorder, pp. 250-251"
+        },
+        {
+          "title": "MSD Manual Professional: Generalized Anxiety Disorder",
+          "url": "https://www.msdmanuals.com/professional/psychiatric-disorders/anxiety-and-trauma-and-stressor-related-disorders/generalized-anxiety-disorder"
+        }
+      ]
+    },
+    {
+      "id": "psych-ocd-erp-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Behavioral Science",
+      "system": "Behavioral Health",
+      "topic": "Obsessive-compulsive disorder: psychotherapy",
+      "difficulty": 2,
+      "stem": "A 21-year-old college student has intrusive thoughts that she will spread germs and make other people sick. She washes her hands about 40 times a day, for about 3 hours in total, until the skin cracks and bleeds. She knows the washing is excessive but feels intense anxiety if she tries to stop. She is starting an SSRI.",
+      "leadIn": "Which form of psychotherapy is most likely to help her symptoms?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Exposure and response prevention"
+        },
+        {
+          "id": "b",
+          "text": "Psychodynamic psychotherapy"
+        },
+        {
+          "id": "c",
+          "text": "Dialectical behavior therapy"
+        },
+        {
+          "id": "d",
+          "text": "Interpersonal psychotherapy"
+        },
+        {
+          "id": "e",
+          "text": "Eye movement desensitization and reprocessing"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: exposure and response prevention (ERP). Why: she has obsessive-compulsive disorder. DSM-5-TR (pp. 265-266) describes obsessions as repeated, unwanted thoughts, urges, or images that cause marked anxiety and that the person tries to ignore, push away, or cancel out. Compulsions are repeated actions (such as hand washing) or mental acts that the person feels driven to do in response to an obsession, to reduce distress or prevent a feared event, even though they are not realistically connected to it or are clearly excessive. The symptoms must take a lot of time (for example, more than 1 hour a day) or cause distress or trouble functioning. The MSD Manual (Obsessive-Compulsive Disorder) says the key part of exposure and ritual prevention therapy is gradual exposure to the feared situations while the patient holds back from doing the rituals. It adds that SSRIs and clomipramine are often very effective, and that an SSRI is usually tried first. MSD also notes that most people with OCD recognize, at least partly, that their obsessive beliefs are not realistic.",
+      "whyWrong": {
+        "b": "Psychodynamic therapy explores past conflicts; it is not the evidence-based therapy for OCD (standard teaching).",
+        "c": "Dialectical behavior therapy was built for borderline personality disorder and self-harm, not OCD (standard teaching).",
+        "d": "Interpersonal psychotherapy targets relationship problems and is used mainly for depression (standard teaching).",
+        "e": "Eye movement desensitization and reprocessing is a therapy for trauma-related symptoms, not OCD; for OCD, MSD names exposure with ritual prevention (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "DSM-5-TR (Emily's file), Obsessive-compulsive disorder, pp. 265-266"
+        },
+        {
+          "title": "MSD Manual Professional: Obsessive-Compulsive Disorder (OCD)",
+          "url": "https://www.msdmanuals.com/professional/psychiatric-disorders/obsessive-compulsive-and-related-disorders/obsessive-compulsive-disorder-ocd"
+        }
+      ]
+    },
+    {
+      "id": "psych-bipolar-i-hospitalized-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Behavioral Science",
+      "system": "Behavioral Health",
+      "topic": "Mood disorders: bipolar I disorder",
+      "difficulty": 2,
+      "stem": "A 23-year-old man is brought to the emergency department by police after shouting at strangers that he has been chosen to fix the world's economy. For the past 4 days he has slept about 2 hours a night but says he feels full of energy. He has spent his savings on business supplies, talks so fast that he is hard to interrupt, and jumps from topic to topic. He is admitted to the hospital for his safety. He has never had a depressive episode. A urine drug screen is negative.",
+      "leadIn": "Which of the following is the most likely diagnosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bipolar I disorder"
+        },
+        {
+          "id": "b",
+          "text": "Cyclothymic disorder"
+        },
+        {
+          "id": "c",
+          "text": "Bipolar II disorder"
+        },
+        {
+          "id": "d",
+          "text": "Brief psychotic disorder"
+        },
+        {
+          "id": "e",
+          "text": "Major depressive disorder"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: bipolar I disorder. Why: DSM-5-TR (pp. 139-140) needs only one lifetime manic episode for bipolar I disorder; depressive or hypomanic episodes may come before or after it but are not required. A manic episode is a distinct period of abnormally high, expansive, or irritable mood with a rise in energy or activity, for 1 week or longer, or any length of time if hospitalization is needed. During it, at least 3 symptoms are present (4 if the mood is only irritable), such as grandiosity, less need for sleep, pressured speech, racing thoughts, distractibility, more goal-directed activity, and risky spending. The episode must cause marked impairment, need hospitalization, or include psychotic features, and must not be due to a substance. His episode lasted only 4 days, but he needed hospitalization, so it counts as mania. The MSD Manual (Bipolar Disorders) agrees that bipolar I requires at least one manic episode, that mania lasts 1 week or more (or less if hospitalization is needed), and that most patients also have depressive episodes.",
+      "whyWrong": {
+        "c": "Bipolar II needs at least one major depressive episode plus hypomania and no mania ever (MSD Manual); he has had mania and no depression.",
+        "b": "Cyclothymic disorder involves more than 2 years of milder hypomanic and depressive symptoms that never meet full episode criteria (MSD Manual).",
+        "d": "Brief psychotic disorder involves psychotic symptoms without a full manic syndrome; his decreased need for sleep, pressured speech, and spending spree make this a manic episode (DSM-5-TR, p. 140).",
+        "e": "Major depressive disorder requires depressive episodes and no history of mania; he has had no depression (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "DSM-5-TR (Emily's file), Bipolar I disorder: manic episode, pp. 139-140"
+        },
+        {
+          "title": "MSD Manual Professional: Bipolar Disorders",
+          "url": "https://www.msdmanuals.com/professional/psychiatric-disorders/mood-disorders/bipolar-disorders"
+        }
+      ]
+    },
+    {
+      "id": "psych-alcohol-withdrawal-benzo-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Behavioral Science",
+      "system": "Behavioral Health",
+      "topic": "Substance use: alcohol withdrawal treatment",
+      "difficulty": 1,
+      "stem": "A 52-year-old man is in the hospital 2 days after a knee replacement. He is now anxious, sweaty, and shaky, and he cannot sleep. His pulse is 118/min and blood pressure is 164/96 mm Hg. He has a coarse tremor of both hands and says he saw bugs crawling on the wall, although he knows where he is and the date. His wife says he drinks 8 to 10 beers every day. Blood glucose is normal.",
+      "leadIn": "Which of the following is the most appropriate drug treatment now?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lorazepam"
+        },
+        {
+          "id": "b",
+          "text": "Haloperidol"
+        },
+        {
+          "id": "c",
+          "text": "Naltrexone"
+        },
+        {
+          "id": "d",
+          "text": "Disulfiram"
+        },
+        {
+          "id": "e",
+          "text": "Phenytoin"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: lorazepam. Why: he has alcohol withdrawal. DSM-5-TR (pp. 564-565) requires stopping or cutting down heavy, long-term drinking and, within several hours to a few days, at least 2 of these: autonomic hyperactivity (such as sweating or a pulse over 100/min), more hand tremor, insomnia, nausea or vomiting, brief hallucinations or illusions, agitation, anxiety, or generalized tonic-clonic seizures. Hallucinations with intact reality testing and no delirium count as withdrawal with perceptual disturbances. He has stopped drinking because he is in the hospital. The MSD Manual (Alcohol Toxicity and Withdrawal) says benzodiazepines are the mainstay of treatment, with diazepam, lorazepam, or chlordiazepoxide as options. It adds that symptoms usually start within about 6 hours of stopping, seizures generally come 6 to 48 hours after the last drink, and delirium tremens usually starts 48 to 72 hours after. MSD also gives thiamine 100 mg IV with IV fluids to treat or prevent Wernicke encephalopathy.",
+      "whyWrong": {
+        "b": "Haloperidol may calm hallucinations but does not treat the withdrawal itself and can lower the seizure threshold (standard teaching).",
+        "c": "Naltrexone lowers craving to help maintain sobriety in alcohol use disorder; it does not treat acute withdrawal (standard teaching).",
+        "d": "Disulfiram makes drinking unpleasant to discourage relapse; it has no role in treating acute withdrawal (standard teaching).",
+        "e": "Phenytoin does not prevent alcohol withdrawal seizures; benzodiazepines do (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "DSM-5-TR (Emily's file), Alcohol withdrawal, pp. 564-565"
+        },
+        {
+          "title": "MSD Manual Professional: Alcohol Toxicity and Withdrawal",
+          "url": "https://www.msdmanuals.com/professional/special-subjects/recreational-drugs-and-intoxicants/alcohol-toxicity-and-withdrawal"
+        }
+      ]
     }
   ]
 }
