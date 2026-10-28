@@ -6579,7 +6579,7 @@
       "system": "Gastrointestinal",
       "topic": "Biliary disease: acute cholangitis",
       "difficulty": 2,
-      "stem": "A 70-year-old woman with known gallstones has had fever, chills, and right upper quadrant pain for 1 day. Her temperature is 39.4°C (103°F), pulse 118/min, and blood pressure 86/50 mm Hg. She is confused and her sclerae are yellow. WBC count is 19,000/mm³, total bilirubin 5.6 mg/dL (direct 4.8 mg/dL), and alkaline phosphatase 420 U/L. Ultrasound shows a dilated common bile duct with a stone at its lower end.",
+      "stem": "A 70-year-old woman with known gallstones has had fever, chills, and right upper quadrant pain for 1 day. Her temperature is 39.4°C (103°F), pulse 118/min, and blood pressure 86/50 mm Hg. She is confused and her sclerae are yellow. WBC count is 19,000/mm³, total bilirubin 5.6 mg/dL (direct 4.8 mg/dL), and alkaline phosphatase 420 U/L. Ultrasound shows a dilated common bile duct.",
       "leadIn": "Which of the following best explains her condition?",
       "options": [
         {
@@ -6606,7 +6606,7 @@
       "answer": "a",
       "explanation": "Answer: a blocked common bile duct with infected bile (acute cholangitis). Why: fever, right upper quadrant pain, and jaundice are Charcot triad. Adding confusion and shock gives Reynolds pentad, a sign of severe cholangitis. Cholangitis needs obstruction of bile flow, most often a stone in the common bile duct (choledocholithiasis). Gut bacteria, mainly gram-negative organisms such as E. coli, Klebsiella, and Enterobacter, grow in the trapped bile. Complete obstruction raises the pressure inside the ducts, which often pushes bacteria into the blood, so she is septic. Treatment is antibiotics plus urgent biliary drainage, usually by ERCP, which works in 94% to 98% of cases.",
       "whyWrong": {
-        "b": "Acute cholecystitis comes from a stone in the cystic duct. That does not dilate the common bile duct or block bile leaving the liver, so it does not explain her stone in the common bile duct and high direct bilirubin.",
+        "b": "Acute cholecystitis comes from a stone in the cystic duct. That does not dilate the common bile duct or block bile leaving the liver, so it does not explain her dilated common bile duct and high direct bilirubin.",
         "c": "A defective MRP2 transporter is Dubin-Johnson syndrome, a mild, benign rise in conjugated bilirubin with normal liver enzymes, not fever and shock.",
         "d": "Hemolysis raises unconjugated (indirect) bilirubin. Most of her bilirubin is direct.",
         "e": "Reduced UGT1A1 activity is Gilbert syndrome, a mild unconjugated rise (usually below 4 mg/dL) with normal liver enzymes."
