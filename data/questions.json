@@ -18605,6 +18605,1046 @@
           "url": "https://www.msdmanuals.com/professional/infectious-diseases/bacterial-skin-infections/impetigo-and-ecthyma"
         }
       ]
+    },
+    {
+      "id": "msk-osteoarthritis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Musculoskeletal",
+      "topic": "Osteoarthritis",
+      "difficulty": 1,
+      "stem": "A 67-year-old woman with obesity comes to the physician because of pain in her right knee and in several finger joints for 2 years. The pain is worse at the end of the day and after walking, and morning stiffness lasts about 15 minutes. There are hard, bony swellings at several distal interphalangeal joints. The knee has crepitus but is not warm. X-rays show joint space narrowing, osteophytes, and subchondral sclerosis. Synovial fluid from the knee has 600 leukocytes/mm3.",
+      "leadIn": "Which of the following is the primary process underlying this patient's condition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Degeneration of articular cartilage"
+        },
+        {
+          "id": "b",
+          "text": "Autoimmune synovitis forming a pannus"
+        },
+        {
+          "id": "c",
+          "text": "Deposition of monosodium urate crystals"
+        },
+        {
+          "id": "d",
+          "text": "Deposition of calcium pyrophosphate crystals"
+        },
+        {
+          "id": "e",
+          "text": "Enthesitis linked to HLA-B27"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: wear-and-tear breakdown of joint cartilage (osteoarthritis). Why: your El-Husseiny musculoskeletal notes (pp. 134-135) call osteoarthritis the most common arthritis and describe it as wear and tear of cartilage. Risk factors include age, female sex, obesity, and joint injury. It is often asymmetric, and the bony nodes at the DIP joints (Heberden nodes) and PIP joints (Bouchard nodes) are osteophytes. Bone under worn cartilage becomes polished (eburnation), with subchondral sclerosis and cysts, and joint fluid has fewer than 2000 white cells per microliter. MSD agrees that morning stiffness usually lasts less than 30 minutes, describes Heberden and Bouchard nodes, and gives a synovial fluid white count of 2000/µL or less. MSD favors topical NSAIDs first for hand and knee osteoarthritis.",
+      "whyWrong": {
+        "b": "A pannus of inflamed synovium is rheumatoid arthritis, which causes morning stiffness over 1 hour and spares the DIP joints (your El-Husseiny musculoskeletal notes, pp. 136-137).",
+        "c": "Urate crystals cause gout, with sudden, red, very painful attacks, often of the big toe (your El-Husseiny musculoskeletal notes, p. 144).",
+        "d": "Calcium pyrophosphate crystals cause pseudogout, with acute attacks, often of the knee, and calcium lines in cartilage on X-ray (your El-Husseiny musculoskeletal notes, pp. 145-146).",
+        "e": "HLA-B27 enthesitis fits ankylosing spondylitis, which affects the spine and sacroiliac joints of young men (your El-Husseiny musculoskeletal notes, p. 141)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Osteoarthritis, pp. 134-135"
+        },
+        {
+          "title": "MSD Manual Professional: Osteoarthritis (OA)",
+          "url": "https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/joint-disorders/osteoarthritis-oa"
+        }
+      ]
+    },
+    {
+      "id": "msk-rheumatoid-serology-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Immunology",
+      "system": "Musculoskeletal",
+      "topic": "Rheumatoid arthritis: serology",
+      "difficulty": 2,
+      "stem": "A 41-year-old woman who smokes comes to the physician because of pain and swelling in both hands and wrists for 4 months. Each morning her hands are stiff for about 2 hours. Both wrists and the second and third metacarpophalangeal joints are swollen and tender, and the distal interphalangeal joints are normal. Rheumatoid factor is negative.",
+      "leadIn": "Which of the following blood tests is most specific for this patient's most likely diagnosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Anti-CCP antibodies"
+        },
+        {
+          "id": "b",
+          "text": "Antinuclear antibodies"
+        },
+        {
+          "id": "c",
+          "text": "Erythrocyte sedimentation rate"
+        },
+        {
+          "id": "d",
+          "text": "Anti-double-stranded DNA antibodies"
+        },
+        {
+          "id": "e",
+          "text": "Serum uric acid concentration"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: anti-cyclic citrullinated peptide (anti-CCP) antibodies, for rheumatoid arthritis. Why: your El-Husseiny musculoskeletal notes (pp. 136-137) list female sex, smoking, and HLA-DR4 as risk factors. The disease affects the MCP, PIP, and wrist joints on both sides, spares the DIP joints, and causes morning stiffness of more than 1 hour. The same pages explain that T cells react to citrullinated peptides, that rheumatoid factor is an IgM antibody against the Fc part of IgG, and that anti-CCP is more specific than rheumatoid factor. They also advise a plain neck X-ray to look for a slipped C1-C2 joint before a patient with rheumatoid arthritis is intubated or put under anesthesia (p. 137). MSD gives anti-CCP 'high specificity (90%) and sensitivity (approximately 77 to 86%),' says rheumatoid factors are present in approximately 70% of patients, names the wrists and the second and third MCP joints as most commonly involved, and says stiffness typically lasts more than 60 minutes. So a negative rheumatoid factor does not rule out the disease.",
+      "whyWrong": {
+        "b": "Antinuclear antibodies are sensitive for lupus but are not specific for any one disease (standard teaching).",
+        "c": "The sedimentation rate shows inflammation in general but does not point to any one disease (standard teaching).",
+        "d": "Anti-dsDNA antibodies are specific for lupus, not rheumatoid arthritis (standard teaching).",
+        "e": "Uric acid relates to gout, which starts with sudden attacks, usually in one joint (your El-Husseiny musculoskeletal notes, p. 144)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Rheumatoid arthritis, pp. 136-137"
+        },
+        {
+          "title": "MSD Manual Professional: Rheumatoid Arthritis (RA)",
+          "url": "https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/joint-disorders/rheumatoid-arthritis-ra"
+        }
+      ]
+    },
+    {
+      "id": "msk-gout-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Musculoskeletal",
+      "topic": "Gout",
+      "difficulty": 1,
+      "stem": "A 58-year-old man comes to the emergency department at 3 AM because of severe pain in his left big toe that woke him from sleep. The evening before, he drank several beers with a large dinner. He takes hydrochlorothiazide for hypertension. The first metatarsophalangeal joint is red, hot, swollen, and too tender to touch. Fluid is drawn from the joint.",
+      "leadIn": "Polarized light microscopy of the fluid is most likely to show which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Needle-shaped, negatively birefringent crystals"
+        },
+        {
+          "id": "b",
+          "text": "Rhomboid, weakly positively birefringent crystals"
+        },
+        {
+          "id": "c",
+          "text": "Envelope-shaped calcium oxalate crystals"
+        },
+        {
+          "id": "d",
+          "text": "Hexagonal cystine crystals"
+        },
+        {
+          "id": "e",
+          "text": "Gram-positive cocci in clusters"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: needle-shaped crystals that are negatively birefringent (gout). Why: your El-Husseiny musculoskeletal notes (pp. 144-145) explain that gout comes from monosodium urate crystals. About 90% of cases come from poor kidney excretion of uric acid, and thiazide and loop diuretics raise urate. Attacks often strike the big toe (podagra) after alcohol or a large meal. Under polarized light the crystals are needle-shaped and negatively birefringent, looking yellow when parallel to the light axis. Acute attacks are treated with NSAIDs such as indomethacin, glucocorticoids, or colchicine, and urate is lowered long term with allopurinol or febuxostat. MSD agrees that the crystals are needle-shaped and strongly negatively birefringent, says decreased excretion is by far the most common cause of high urate, and sets a serum urate goal below 6 mg/dL.",
+      "whyWrong": {
+        "b": "Rhomboid, weakly positive crystals are calcium pyrophosphate (pseudogout), which most often affects the knee of older adults (your El-Husseiny musculoskeletal notes, pp. 145-146).",
+        "c": "Envelope-shaped calcium oxalate crystals appear in urine, for example after ethylene glycol poisoning, not in gouty joints (standard teaching).",
+        "d": "Hexagonal cystine crystals are found in urine in cystinuria (standard teaching).",
+        "e": "Septic arthritis can look similar, but a night attack after alcohol in a man on a thiazide fits gout; the fluid should still be cultured (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Gout, pp. 144-145"
+        },
+        {
+          "title": "MSD Manual Professional: Gout",
+          "url": "https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/crystal-induced-arthritides/gout"
+        }
+      ]
+    },
+    {
+      "id": "msk-cppd-hemochromatosis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Musculoskeletal",
+      "topic": "Calcium pyrophosphate deposition (pseudogout)",
+      "difficulty": 2,
+      "stem": "A 62-year-old man comes to the emergency department because of a swollen, painful right knee for 2 days. He has type 2 diabetes, bronze-colored skin, and an enlarged liver, and his serum ferritin and transferrin saturation are both very high. The knee is warm and swollen. An X-ray shows thin lines of calcium within the knee cartilage. Fluid from the joint shows rhomboid crystals.",
+      "leadIn": "Which of the following substances is most likely deposited in this patient's joint?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Calcium pyrophosphate"
+        },
+        {
+          "id": "b",
+          "text": "Monosodium urate"
+        },
+        {
+          "id": "c",
+          "text": "Basic calcium phosphate"
+        },
+        {
+          "id": "d",
+          "text": "Cholesterol crystals"
+        },
+        {
+          "id": "e",
+          "text": "Homogentisic acid pigment"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: calcium pyrophosphate (pseudogout). Why: your El-Husseiny musculoskeletal notes (pp. 145-146) link calcium pyrophosphate deposition to hemochromatosis, hyperparathyroidism, and joint injury, mostly after age 50, with the knee affected in more than half of cases. X-rays show calcium in the cartilage (chondrocalcinosis), and the crystals are rhomboid and positively birefringent (blue when parallel to the light axis). Treatment uses NSAIDs, colchicine, or steroids, and colchicine can also prevent attacks. This man's bronze skin, diabetes, and iron overload point to hemochromatosis. MSD also lists hemochromatosis, hyperparathyroidism, and low magnesium as linked conditions and describes rhomboid or rod-shaped crystals. Other source: MSD says the crystals are 'not birefringent, or are weakly positively birefringent,' so a weak or absent signal does not rule out the diagnosis.",
+      "whyWrong": {
+        "b": "Urate crystals are needle-shaped and negatively birefringent, and gout most often starts in the big toe (your El-Husseiny musculoskeletal notes, pp. 144-145).",
+        "c": "Basic calcium phosphate (hydroxyapatite) crystals are too small to see as separate crystals on routine light microscopy (standard teaching).",
+        "d": "Cholesterol crystals appear in long-standing effusions, not with chondrocalcinosis and hemochromatosis (standard teaching).",
+        "e": "Homogentisic acid darkens cartilage in alkaptonuria and does not form rhomboid crystals (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Pseudogout, pp. 145-146"
+        },
+        {
+          "title": "MSD Manual Professional: Calcium Pyrophosphate Deposition Disease",
+          "url": "https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/crystal-induced-arthritides/calcium-pyrophosphate-deposition-disease"
+        }
+      ]
+    },
+    {
+      "id": "msk-ankylosing-spondylitis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Musculoskeletal",
+      "topic": "Ankylosing spondylitis",
+      "difficulty": 2,
+      "stem": "A 24-year-old man comes to the physician because of low back pain and stiffness for 1 year. The stiffness is worst in the morning, lasts about 1 hour, and gets better with exercise but not with rest. He also has pain at the back of both heels. Chest expansion is reduced. X-rays show erosions and fusion of both sacroiliac joints.",
+      "leadIn": "This patient is at greatest risk for which of the following complications?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Anterior uveitis"
+        },
+        {
+          "id": "b",
+          "text": "Mitral valve stenosis"
+        },
+        {
+          "id": "c",
+          "text": "Optic neuritis"
+        },
+        {
+          "id": "d",
+          "text": "Retinal detachment"
+        },
+        {
+          "id": "e",
+          "text": "Bilateral hilar lymphadenopathy"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: anterior uveitis. Why: your El-Husseiny musculoskeletal notes (pp. 141-142) describe ankylosing spondylitis as inflammation of the sacroiliac joints and spine in young men that can fuse the vertebrae into a 'bamboo spine.' Stiffness lasts more than 30 minutes and improves with exercise, inflammation where tendons attach to bone (enthesitis) causes heel pain, and chest expansion falls. The notes report anterior uveitis in 20-30% of these patients, with eye pain, blurred vision, and light sensitivity, and they also list apical lung fibrosis and aortitis with aortic regurgitation. MSD reports HLA-B27 in 90% of White patients, says the disease is 3 times more common in men, with onset usually between ages 20 and 40, and says recurrent anterior uveitis is common. MSD starts treatment with NSAIDs and moves to TNF or IL-17 inhibitors when needed.",
+      "whyWrong": {
+        "b": "Mitral stenosis follows rheumatic fever; ankylosing spondylitis affects the aortic valve instead (your El-Husseiny musculoskeletal notes, p. 142).",
+        "c": "Optic neuritis suggests multiple sclerosis (standard teaching).",
+        "d": "Retinal detachment is not a typical complication of ankylosing spondylitis (standard teaching).",
+        "e": "Bilateral hilar lymph nodes point to sarcoidosis (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Ankylosing spondylitis, pp. 141-142"
+        },
+        {
+          "title": "MSD Manual Professional: Ankylosing Spondylitis",
+          "url": "https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/joint-disorders/ankylosing-spondylitis"
+        }
+      ]
+    },
+    {
+      "id": "msk-achondroplasia-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Genetics",
+      "system": "Musculoskeletal",
+      "topic": "Achondroplasia",
+      "difficulty": 2,
+      "stem": "A newborn boy has short arms and legs, a large head with a prominent forehead, and a trunk of normal length. His parents are of average height, and there is no family history of short stature. The father is 52 years old.",
+      "leadIn": "Which of the following best explains this child's condition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Gain-of-function mutation in FGFR3"
+        },
+        {
+          "id": "b",
+          "text": "Loss-of-function mutation in FGFR3"
+        },
+        {
+          "id": "c",
+          "text": "Mutation in the fibrillin-1 gene"
+        },
+        {
+          "id": "d",
+          "text": "Mutation in a type I collagen gene"
+        },
+        {
+          "id": "e",
+          "text": "Deficiency of growth hormone"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: an activating (gain-of-function) mutation in FGFR3. Why: your El-Husseiny musculoskeletal notes (pp. 116-117) explain that an activating FGFR3 mutation slows the cartilage growth plates, so bones that grow by endochondral ossification (long bones) stay short, while bones made by membranous ossification (skull) grow normally. Inheritance is autosomal dominant, and intelligence, life span, and fertility are normal. Most cases are new mutations linked to older fathers (standard teaching). MSD calls achondroplasia the most common short-limbed dwarfism and confirms autosomal dominant FGFR3 mutations. Recent change: MSD says vosoritide, a C-type natriuretic peptide analog, improves growth in children with achondroplasia, while growth hormone is not effective.",
+      "whyWrong": {
+        "b": "FGFR3 normally slows bone growth; the disease comes from too much signaling, not too little (your El-Husseiny musculoskeletal notes, p. 116).",
+        "c": "Fibrillin-1 mutations cause Marfan syndrome, with long limbs (standard teaching).",
+        "d": "Type I collagen mutations cause osteogenesis imperfecta, with fragile bones (your El-Husseiny biochemistry notes, p. 46).",
+        "e": "Growth hormone deficiency causes proportionate short stature, usually noticed after infancy (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Achondroplasia, pp. 116-117"
+        },
+        {
+          "title": "MSD Manual Professional: Osteochondrodysplasias",
+          "url": "https://www.msdmanuals.com/en-gb/professional/pediatrics/connective-tissue-disorders-in-children/osteochondrodysplasias-osteochondrodysplastic-dwarfism"
+        }
+      ]
+    },
+    {
+      "id": "msk-osteopetrosis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Musculoskeletal",
+      "topic": "Osteopetrosis",
+      "difficulty": 3,
+      "stem": "A 6-month-old boy is brought to the physician because he does not follow objects with his eyes or turn toward sounds. He has had two fractures from minor falls. His liver and spleen are enlarged. Hemoglobin is 7.8 g/dL, leukocyte count is 3,200/mm3, and platelet count is 60,000/mm3. X-rays show very dense bones throughout the skeleton, with a 'bone within a bone' look in the vertebrae.",
+      "leadIn": "A defect in which of the following processes is the most likely cause?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bone resorption by osteoclasts"
+        },
+        {
+          "id": "b",
+          "text": "Bone formation by osteoblasts"
+        },
+        {
+          "id": "c",
+          "text": "Synthesis of type I collagen"
+        },
+        {
+          "id": "d",
+          "text": "Mineralization of new osteoid"
+        },
+        {
+          "id": "e",
+          "text": "Growth plate cartilage signaling"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: bone resorption by osteoclasts (osteopetrosis). Why: your El-Husseiny musculoskeletal notes (pp. 119-120) explain that osteopetrosis comes from osteoclasts that cannot resorb bone. Bone becomes dense but brittle, so it breaks. Thick bone crowds out the marrow, causing low blood counts and blood cell production outside the marrow (enlarged liver and spleen), and it narrows openings in the skull, compressing the nerves for vision and hearing and sometimes causing hydrocephalus. One form comes from carbonic anhydrase II deficiency, which also causes renal tubular acidosis. X-rays show a bone-in-bone look, and bone marrow transplant can cure it, since osteoclasts come from marrow monocytes (standard teaching). MSD describes the severe infant form with palsies of cranial nerves II, III, and VII, an enlarged liver and spleen, and pancytopenia, and lists stem cell transplantation and interferon gamma as treatments.",
+      "whyWrong": {
+        "b": "Poor osteoblast function would make bones thin, not dense (standard teaching).",
+        "c": "Type I collagen defects cause osteogenesis imperfecta, with thin, fragile bones and blue sclerae (your El-Husseiny biochemistry notes, p. 46).",
+        "d": "Poor mineralization is rickets, which softens and bows bones rather than making them dense (your El-Husseiny musculoskeletal notes, pp. 120-121).",
+        "e": "Growth plate signaling defects such as FGFR3 mutations cause short limbs, not dense bones and low blood counts (your El-Husseiny musculoskeletal notes, pp. 116-117)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Osteopetrosis, pp. 119-120"
+        },
+        {
+          "title": "MSD Manual Professional: Osteosclerosis (Osteopetrosis)",
+          "url": "https://www.msdmanuals.com/professional/pediatrics/bone-disorders-in-children/osteosclerosis"
+        }
+      ]
+    },
+    {
+      "id": "msk-rickets-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Musculoskeletal",
+      "topic": "Rickets: vitamin D deficiency",
+      "difficulty": 2,
+      "stem": "A 16-month-old girl is brought to the physician because her legs have become bowed since she started walking. She has been fed only breast milk without supplements and rarely goes outside. Exam shows bowed legs, widened wrists, and a row of bumps where her ribs meet the rib cartilage. Serum calcium is low-normal, phosphate is low, alkaline phosphatase is high, and parathyroid hormone is high.",
+      "leadIn": "A bone biopsy would most likely show which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Excess unmineralized osteoid"
+        },
+        {
+          "id": "b",
+          "text": "Thin trabeculae of normally mineralized bone"
+        },
+        {
+          "id": "c",
+          "text": "Mosaic pattern of lamellar bone"
+        },
+        {
+          "id": "d",
+          "text": "Dense bone with retained cartilage"
+        },
+        {
+          "id": "e",
+          "text": "Fibrous tissue with woven bone"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: too much osteoid that is not mineralized (rickets). Why: your El-Husseiny musculoskeletal notes (pp. 120-121) define rickets in children and osteomalacia in adults as defective mineralization of osteoid, most often from lack of vitamin D, which lowers calcium and phosphate. Bone biopsy shows an excess of unmineralized osteoid. Children develop a pigeon chest and a rachitic rosary (bumps where the ribs meet cartilage). MSD describes craniotabes, a rachitic rosary, and bowed legs, with low phosphate, high alkaline phosphatase, and normal or high PTH, and diagnoses it by measuring 25-hydroxyvitamin D. High PTH keeps calcium near normal but makes the kidneys waste phosphate, and breast milk is low in vitamin D (standard teaching).",
+      "whyWrong": {
+        "b": "Thin but normally mineralized trabeculae describe osteoporosis, where calcium, phosphate, and alkaline phosphatase are normal (standard teaching).",
+        "c": "A mosaic pattern of lamellar bone is Paget disease of bone, a disease of older adults (standard teaching).",
+        "d": "Dense bone with retained cartilage fits osteopetrosis, from defective osteoclasts (your El-Husseiny musculoskeletal notes, pp. 119-120).",
+        "e": "Fibrous tissue with woven bone fits fibrous dysplasia (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Rickets and osteomalacia, pp. 120-121"
+        },
+        {
+          "title": "MSD Manual Professional: Vitamin D Deficiency and Dependency",
+          "url": "https://www.msdmanuals.com/professional/nutritional-disorders/vitamin-deficiency-dependency-and-toxicity/vitamin-d-deficiency-and-dependency"
+        }
+      ]
+    },
+    {
+      "id": "msk-giant-cell-tumor-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Musculoskeletal",
+      "topic": "Bone tumors: giant cell tumor",
+      "difficulty": 2,
+      "stem": "A 29-year-old woman comes to the physician because of pain and swelling just above her right knee for 4 months. An X-ray shows a large lytic lesion with a 'soap-bubble' look in the end (epiphysis) of the distal femur, reaching up to the joint surface. There is no sclerotic rim.",
+      "leadIn": "A biopsy of the lesion is most likely to show which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Osteoclast-like giant cells among mononuclear cells"
+        },
+        {
+          "id": "b",
+          "text": "Malignant spindle cells that lay down osteoid directly"
+        },
+        {
+          "id": "c",
+          "text": "Sheets of small, round, blue cells"
+        },
+        {
+          "id": "d",
+          "text": "A cartilage cap over a bony stalk"
+        },
+        {
+          "id": "e",
+          "text": "A small nidus of woven bone ringed by sclerosis"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: osteoclast-like giant cells mixed with mononuclear cells (giant cell tumor). Why: your El-Husseiny musculoskeletal notes (p. 130) place giant cell tumor in young adults, in the epiphysis of the distal femur or proximal tibia, with a soap-bubble look on X-ray. The tumor's mononuclear cells make RANKL, which draws in the osteoclast-like giant cells. The tumor is locally aggressive and often comes back. MSD places it in people in their 20s and 30s, describes a lytic lesion in the epiphysis with no sclerotic rim, and notes spread to the lungs in 4 to 7%. MSD treats it with curettage and lists denosumab, a RANKL inhibitor, for tumors that cannot be removed.",
+      "whyWrong": {
+        "b": "Osteoid made by malignant cells defines osteosarcoma, usually in the metaphysis of teenagers (standard teaching).",
+        "c": "Small round blue cells fit Ewing sarcoma, often in the diaphysis of children (standard teaching).",
+        "d": "A cartilage-capped bony stalk is an osteochondroma (standard teaching).",
+        "e": "A small nidus with surrounding sclerosis is an osteoid osteoma, which causes night pain relieved by NSAIDs (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Giant cell tumor, p. 130"
+        },
+        {
+          "title": "MSD Manual Professional: Benign Bone Tumors and Cysts",
+          "url": "https://www.msdmanuals.com/professional/oncology/tumors-of-bones-and-joints/benign-bone-tumors-and-cysts"
+        }
+      ]
+    },
+    {
+      "id": "msk-osteogenesis-imperfecta-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "Musculoskeletal",
+      "topic": "Osteogenesis imperfecta",
+      "difficulty": 1,
+      "stem": "A 3-year-old boy is brought to the emergency department with a fracture of his left femur after tripping while walking. He has had 3 earlier fractures from minor falls, and child protective services was contacted after one of them. His sclerae are blue. His mother had several fractures as a child and now has hearing loss.",
+      "leadIn": "A defect in which of the following is the most likely cause of this patient's condition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Type I collagen"
+        },
+        {
+          "id": "b",
+          "text": "Type III collagen"
+        },
+        {
+          "id": "c",
+          "text": "Type IV collagen"
+        },
+        {
+          "id": "d",
+          "text": "Fibrillin-1"
+        },
+        {
+          "id": "e",
+          "text": "Lysyl oxidase activity"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: type I collagen (osteogenesis imperfecta). Why: your El-Husseiny biochemistry notes (p. 46) explain that osteogenesis imperfecta usually comes from autosomal dominant mutations in COL1A1 or COL1A2 that leave less normal type I collagen. Patients have many fractures from small injuries, which can be mistaken for child abuse, plus blue sclerae, weak teeth (dentinogenesis imperfecta), and hearing loss, and bisphosphonates help. MSD says COL1A1 or COL1A2 mutations cause more than 85% of cases, that inheritance is usually autosomal dominant, and that hearing loss affects up to 70% of patients. Thin sclerae let the dark layer underneath show through, which makes them look blue (standard teaching).",
+      "whyWrong": {
+        "b": "Type III collagen defects cause vascular Ehlers-Danlos syndrome, with fragile vessels and organs (your El-Husseiny biochemistry notes, p. 47).",
+        "c": "Type IV collagen defects cause Alport syndrome, with kidney disease, hearing loss, and eye problems, not fractures (standard teaching).",
+        "d": "Fibrillin-1 defects cause Marfan syndrome, with tall stature and lens dislocation (standard teaching).",
+        "e": "Low lysyl oxidase activity from copper deficiency is Menkes disease, with kinky hair and low muscle tone (your El-Husseiny biochemistry notes, p. 48)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Osteogenesis imperfecta, p. 46"
+        },
+        {
+          "title": "MSD Manual Professional: Osteogenesis Imperfecta",
+          "url": "https://www.msdmanuals.com/professional/pediatrics/connective-tissue-disorders-in-children/osteogenesis-imperfecta"
+        }
+      ]
+    },
+    {
+      "id": "multi-ehlers-danlos-vascular-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Genetics",
+      "system": "Multisystem",
+      "topic": "Ehlers-Danlos syndrome: vascular type",
+      "difficulty": 3,
+      "stem": "A 27-year-old woman is brought to the emergency department because of sudden, severe abdominal pain. A CT scan shows a ruptured splenic artery aneurysm. She has bruised easily all her life, and her skin is thin, with veins easily seen through it. Her small joints are only mildly loose. Her father died suddenly at age 35 of a ruptured aorta.",
+      "leadIn": "A mutation affecting which of the following is most likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Type III collagen"
+        },
+        {
+          "id": "b",
+          "text": "Type I collagen"
+        },
+        {
+          "id": "c",
+          "text": "Type IV collagen"
+        },
+        {
+          "id": "d",
+          "text": "Fibrillin-1"
+        },
+        {
+          "id": "e",
+          "text": "Lysyl oxidase activity"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: type III collagen (vascular Ehlers-Danlos syndrome). Why: your El-Husseiny biochemistry notes (p. 47) describe Ehlers-Danlos syndromes as collagen disorders with stretchy skin, easy bruising, loose joints, and aneurysms. The hypermobile type is the most common, the classical type comes from type V collagen, and the vascular type comes from type III collagen. MSD says the vascular type is caused by COL3A1 mutations and can lead to rupture of arteries, bowel, or uterus. Type III collagen is plentiful in blood vessels and hollow organs, which explains where they tear (standard teaching).",
+      "whyWrong": {
+        "b": "Type I collagen defects cause osteogenesis imperfecta, with fractures and blue sclerae (your El-Husseiny biochemistry notes, p. 46).",
+        "c": "Type IV collagen forms basement membranes; its defects cause Alport syndrome (standard teaching).",
+        "d": "Fibrillin-1 defects cause Marfan syndrome, with tall stature and lens dislocation (standard teaching).",
+        "e": "Low lysyl oxidase activity from copper deficiency is Menkes disease, which shows up in infant boys (your El-Husseiny biochemistry notes, p. 48)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Ehlers-Danlos syndrome, p. 47"
+        },
+        {
+          "title": "MSD Manual Professional: Ehlers-Danlos Syndromes",
+          "url": "https://www.msdmanuals.com/professional/pediatrics/connective-tissue-disorders-in-children/ehlers-danlos-syndromes"
+        }
+      ]
+    },
+    {
+      "id": "multi-menkes-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "Multisystem",
+      "topic": "Menkes disease",
+      "difficulty": 2,
+      "stem": "A 4-month-old boy is brought to the physician because of poor feeding, floppiness, and seizures. He was well at birth. His scalp hair is sparse, brittle, and kinky, and he is small for his age. Imaging shows long, twisted arteries in the brain. Serum copper and ceruloplasmin are low.",
+      "leadIn": "Reduced activity of which of the following enzymes best explains his abnormal blood vessels?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lysyl oxidase"
+        },
+        {
+          "id": "b",
+          "text": "Prolyl hydroxylase"
+        },
+        {
+          "id": "c",
+          "text": "Procollagen peptidase"
+        },
+        {
+          "id": "d",
+          "text": "Tyrosinase"
+        },
+        {
+          "id": "e",
+          "text": "Homogentisate dioxygenase"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: lysyl oxidase (Menkes disease). Why: your El-Husseiny biochemistry notes (p. 48) describe Menkes disease as an X-linked disorder of the ATP7A copper transporter, so copper is poorly absorbed from the gut. Lysyl oxidase needs copper to cross-link collagen, so its activity drops and connective tissue weakens. Babies have kinky hair, poor growth, and low muscle tone. MSD describes affected males with sparse, steely or kinky hair, intellectual disability, and arterial rupture, with low serum copper and ceruloplasmin. MSD treats it with copper histidine injections and notes that most children die by age 10.",
+      "whyWrong": {
+        "b": "Prolyl hydroxylase needs vitamin C; its failure causes scurvy, with bleeding gums (your El-Husseiny biochemistry notes, p. 243).",
+        "c": "Procollagen peptidase deficiency causes a form of Ehlers-Danlos syndrome (your El-Husseiny biochemistry notes, p. 47).",
+        "d": "Tyrosinase uses copper to make pigment, but low pigment does not explain fragile arteries (standard teaching).",
+        "e": "Homogentisate dioxygenase deficiency causes alkaptonuria, with dark urine and dark cartilage (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Menkes disease, p. 48"
+        },
+        {
+          "title": "MSD Manual Professional: Copper Deficiency",
+          "url": "https://www.msdmanuals.com/professional/nutritional-disorders/mineral-deficiency-and-toxicity/copper-deficiency"
+        }
+      ]
+    },
+    {
+      "id": "multi-scurvy-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "Multisystem",
+      "topic": "Vitamin C deficiency (scurvy)",
+      "difficulty": 1,
+      "stem": "A 72-year-old man who lives alone is brought to the physician by his daughter because of easy bruising and bleeding gums for 2 months. He eats mostly tea, toast, and canned meat. His gums are swollen, purple, and bleed when touched. There are small bleeds around the hair follicles on his legs, and the hairs are coiled. A cut on his hand from a month ago has not healed.",
+      "leadIn": "Which of the following steps in collagen synthesis is most likely impaired?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hydroxylation of proline and lysine"
+        },
+        {
+          "id": "b",
+          "text": "Glycosylation of hydroxylysine residues"
+        },
+        {
+          "id": "c",
+          "text": "Cleavage of procollagen end peptides"
+        },
+        {
+          "id": "d",
+          "text": "Cross-linking of collagen fibrils"
+        },
+        {
+          "id": "e",
+          "text": "Translation of preprocollagen chains"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: hydroxylation of proline and lysine (scurvy). Why: your El-Husseiny biochemistry notes (p. 243) explain that vitamin C is needed for the enzymes that add hydroxyl groups to proline and lysine in collagen. Without it, collagen is weak, causing gum disease, easy bruising, small skin bleeds, bleeding around hair follicles, bleeding into joints, corkscrew hairs, and poor wound healing. MSD notes that 'follicular hyperkeratosis, coiled hair, and perifollicular hemorrhages may develop,' describes gums that are swollen, purple, spongy, and friable, and says wounds heal poorly. MSD usually makes the diagnosis clinically and treats adults with 500 to 1000 mg of vitamin C by mouth daily for 1 to 2 weeks.",
+      "whyWrong": {
+        "b": "Glycosylation of hydroxylysine does not need vitamin C (standard teaching).",
+        "c": "Failure to cut the procollagen end peptides causes a form of Ehlers-Danlos syndrome (your El-Husseiny biochemistry notes, p. 47).",
+        "d": "Cross-linking by lysyl oxidase needs copper and fails in Menkes disease (your El-Husseiny biochemistry notes, p. 48).",
+        "e": "Making the collagen chains on ribosomes does not depend on vitamin C (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Vitamin C, p. 243"
+        },
+        {
+          "title": "MSD Manual Professional: Vitamin C Deficiency",
+          "url": "https://www.msdmanuals.com/professional/nutritional-disorders/vitamin-deficiency-dependency-and-toxicity/vitamin-c-deficiency"
+        }
+      ]
+    },
+    {
+      "id": "multi-cyanide-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Multisystem",
+      "topic": "Cyanide poisoning",
+      "difficulty": 3,
+      "stem": "A 45-year-old man is brought to the emergency department after being rescued from a burning apartment building. He is confused and then has a seizure. Pulse oximetry reads 97% on supplemental oxygen. Arterial blood gas shows a pH of 7.18 with a high anion gap, and serum lactate is 14 mmol/L. Central venous blood has an unusually high oxygen content.",
+      "leadIn": "Which of the following is the most appropriate antidote?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hydroxocobalamin"
+        },
+        {
+          "id": "b",
+          "text": "Sodium nitrite"
+        },
+        {
+          "id": "c",
+          "text": "Methylene blue"
+        },
+        {
+          "id": "d",
+          "text": "Atropine and pralidoxime"
+        },
+        {
+          "id": "e",
+          "text": "Fomepizole"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: hydroxocobalamin. Why: your El-Husseiny biochemistry notes (p. 155) explain that cyanide binds cytochrome a/a3 (complex IV of the electron transport chain) and stops aerobic respiration. Cells switch to anaerobic metabolism, so lactate rises, and tissues stop taking oxygen out of the blood. Antidotes include nitrites, which turn hemoglobin into methemoglobin, hydroxocobalamin, and sodium thiosulfate. MSD agrees that cyanide enters mitochondria and inactivates cytochrome oxidase, causing lactic acidosis and higher-than-usual venous oxygen content. MSD notes that hydroxocobalamin is generally considered as effective as nitrite plus thiosulfate and that, unlike nitrites, it does not decrease oxygen-carrying capacity, which matters when carbon monoxide poisoning is also present. Fire victims can breathe in both gases (standard teaching).",
+      "whyWrong": {
+        "b": "Nitrites work by making methemoglobin, which lowers oxygen-carrying capacity in a patient who may also have carbon monoxide poisoning (MSD).",
+        "c": "Methylene blue treats methemoglobinemia; it does not remove cyanide (standard teaching).",
+        "d": "Atropine and pralidoxime treat organophosphate poisoning (standard teaching).",
+        "e": "Fomepizole treats methanol and ethylene glycol poisoning (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Electron transport chain poisons, p. 155"
+        },
+        {
+          "title": "MSD Manual Professional: Systemic Asphyxiant Chemical Warfare Agents",
+          "url": "https://www.msdmanuals.com/professional/injuries-poisoning/mass-casualty-weapons/systemic-asphyxiant-chemical-warfare-agents"
+        }
+      ]
+    },
+    {
+      "id": "repro-fibroadenoma-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Reproductive",
+      "topic": "Breast: fibroadenoma",
+      "difficulty": 1,
+      "stem": "A 22-year-old woman comes to the physician because of a lump in her left breast that she noticed 2 months ago. It is not painful and does not change with her menstrual cycle. Exam shows a 2-cm, smooth, round, rubbery mass that moves easily under the fingers. There is no skin change, nipple discharge, or enlarged axillary lymph node.",
+      "leadIn": "Which of the following is the most likely diagnosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Fibroadenoma"
+        },
+        {
+          "id": "b",
+          "text": "Phyllodes tumor"
+        },
+        {
+          "id": "c",
+          "text": "Intraductal papilloma"
+        },
+        {
+          "id": "d",
+          "text": "Invasive ductal carcinoma"
+        },
+        {
+          "id": "e",
+          "text": "Fibrocystic change"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: fibroadenoma. Why: your Elnemr breast pathology notes (p. 5) describe fibroadenoma as a benign tumor of young women, a well-defined, rubbery mass that slips under the fingers (a 'breast mouse'). Under the microscope it is biphasic, with ducts and fibrous stroma; the stroma either surrounds the ducts (pericanalicular) or squeezes them into slits (intracanalicular). Cancer arising in a fibroadenoma is extremely rare. MSD describes fibroadenomas as smooth, rounded, mobile, painless masses in women of reproductive age, notes that simple fibroadenomas do not appear to raise breast cancer risk, and removes them if they grow or cause symptoms.",
+      "whyWrong": {
+        "b": "Phyllodes tumors are usually large, with very cellular, leaf-like stroma (your Elnemr breast pathology notes, p. 6).",
+        "c": "Intraductal papillomas sit in the large ducts and usually cause nipple discharge (your Elnemr breast pathology notes, p. 6).",
+        "d": "Invasive cancer usually forms a hard, fixed mass in older women (standard teaching).",
+        "e": "Fibrocystic change causes lumpy, tender breasts that change with the menstrual cycle (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "Dr. Elnemr Reproductive Pathology: Breast (Emily's file), Fibroadenoma, p. 5"
+        },
+        {
+          "title": "MSD Manual Professional: Breast Masses (Breast Lumps)",
+          "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/breast-disorders/breast-masses-breast-lumps"
+        }
+      ]
+    },
+    {
+      "id": "repro-phyllodes-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Reproductive",
+      "topic": "Breast: phyllodes tumor",
+      "difficulty": 3,
+      "stem": "A 46-year-old woman comes to the physician because of a mass in her right breast that has grown quickly over 3 months. Exam shows a 7-cm, firm, mobile mass with stretched, shiny skin over it. Core biopsy shows ducts lined by epithelium and a very cellular stroma that pushes into the ducts to form leaf-like projections. There are a few mitoses and no necrosis.",
+      "leadIn": "Which of the following is the most appropriate treatment?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wide local excision with clear margins"
+        },
+        {
+          "id": "b",
+          "text": "Observation with repeat ultrasound in 6 months"
+        },
+        {
+          "id": "c",
+          "text": "Axillary lymph node dissection"
+        },
+        {
+          "id": "d",
+          "text": "Tamoxifen for 5 years"
+        },
+        {
+          "id": "e",
+          "text": "Shelling the mass out along its edge"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: wide excision with clear margins. Why: your Elnemr breast pathology notes (p. 6) describe phyllodes tumor as a large biphasic tumor in which the stroma is very cellular and grows into leaf-like projections. Most are benign but tend to come back after removal, and they are graded benign, borderline, or malignant by cell atypia, mitoses, necrosis, and the tumor's border. MSD groups phyllodes tumors with breast cancers of the supporting stroma and notes that they do not express hormone receptors. For malignant phyllodes tumors, MSD recommends wide local excision to negative margins or mastectomy and says lymph node surgery is not indicated. Shelling out the mass leaves tumor behind and invites recurrence (standard teaching).",
+      "whyWrong": {
+        "b": "Watching a fast-growing 7-cm mass only delays treatment (standard teaching).",
+        "c": "MSD says lymph node surgery is not indicated for malignant phyllodes tumors (MSD Breast Cancer).",
+        "d": "MSD notes that phyllodes tumors do not express hormone receptors, so tamoxifen would not help (MSD Breast Cancer).",
+        "e": "Shelling out the tumor leaves tumor at the edge, and these tumors tend to recur (your Elnemr breast pathology notes, p. 6)."
+      },
+      "sources": [
+        {
+          "title": "Dr. Elnemr Reproductive Pathology: Breast (Emily's file), Phyllodes tumor, p. 6"
+        },
+        {
+          "title": "MSD Manual Professional: Breast Cancer",
+          "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/breast-disorders/breast-cancer"
+        }
+      ]
+    },
+    {
+      "id": "repro-intraductal-papilloma-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Reproductive",
+      "topic": "Breast: intraductal papilloma",
+      "difficulty": 2,
+      "stem": "A 42-year-old woman comes to the physician because of bloody discharge from her right nipple for 3 weeks. The discharge comes from a single duct. No mass is felt in either breast, and there are no skin changes or enlarged lymph nodes. Mammography is normal.",
+      "leadIn": "Which of the following is the most likely cause?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Intraductal papilloma"
+        },
+        {
+          "id": "b",
+          "text": "Mammary duct ectasia"
+        },
+        {
+          "id": "c",
+          "text": "Prolactin-secreting pituitary adenoma"
+        },
+        {
+          "id": "d",
+          "text": "Paget disease of the nipple"
+        },
+        {
+          "id": "e",
+          "text": "Fat necrosis"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: intraductal papilloma. Why: your Elnemr breast pathology notes (p. 6) describe intraductal papilloma as a small tumor (under 3 cm) in the large milk ducts beneath the nipple that causes serous or bloody nipple discharge. It has branching fibrovascular cores covered by epithelial cells with an outer layer of myoepithelial cells. A papilloma without atypia carries only a slight cancer risk, while multiple papillomas with atypia carry a significant risk. MSD calls intraductal papilloma 'the most common cause of a bloody nipple discharge without a breast mass' and notes that cancer causes fewer than 15% of nipple discharge cases.",
+      "whyWrong": {
+        "b": "Duct ectasia usually causes thick, sticky discharge from several ducts in older women (standard teaching).",
+        "c": "A prolactinoma causes milky discharge from both breasts, often with missed periods (standard teaching).",
+        "d": "Paget disease of the nipple causes a scaly, eczema-like rash of the nipple (your Elnemr breast pathology notes, p. 11).",
+        "e": "Fat necrosis usually forms a firm mass after an injury, not bloody discharge (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "Dr. Elnemr Reproductive Pathology: Breast (Emily's file), Duct papilloma, p. 6"
+        },
+        {
+          "title": "MSD Manual Professional: Nipple Discharge",
+          "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/breast-disorders/nipple-discharge"
+        }
+      ]
+    },
+    {
+      "id": "repro-paget-nipple-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Reproductive",
+      "topic": "Breast: Paget disease of the nipple",
+      "difficulty": 2,
+      "stem": "A 61-year-old woman comes to the physician because of an itchy, scaly, red patch on her left nipple and areola for 3 months. It has not improved with a steroid cream. No breast mass is felt. A biopsy of the nipple skin shows large cells with plenty of pale, clear cytoplasm scattered within the epidermis.",
+      "leadIn": "This finding most strongly suggests which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An underlying ductal carcinoma"
+        },
+        {
+          "id": "b",
+          "text": "Allergic contact dermatitis of the nipple"
+        },
+        {
+          "id": "c",
+          "text": "Melanoma in situ of the areola"
+        },
+        {
+          "id": "d",
+          "text": "Squamous cell carcinoma in situ"
+        },
+        {
+          "id": "e",
+          "text": "Psoriasis of the nipple and areola"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: an underlying ductal carcinoma. Why: your Elnemr breast pathology notes (p. 11) explain that Paget disease of the breast is an eczema-like rash of the nipple caused by Paget cells in the epidermis, on top of a ductal carcinoma that may be in situ or invasive. Paget cells are large, with clear cytoplasm, and the outlook depends on the underlying carcinoma. MSD describes a one-sided eczematous to psoriasiform plaque of the nipple and areola, says about 90% of cases are linked to ductal carcinoma in situ or invasive cancer, diagnoses it by biopsy, and bases treatment on the associated cancer plus removal of the nipple and areola. A one-sided nipple rash that does not heal with steroid cream needs a biopsy (standard teaching).",
+      "whyWrong": {
+        "b": "Contact dermatitis is usually on both sides, gets better with steroid cream, and has no Paget cells (standard teaching).",
+        "c": "Melanoma in situ is made of atypical melanocytes, which usually make pigment (standard teaching).",
+        "d": "Squamous cell carcinoma in situ shows atypical keratinocytes through the full thickness of the epidermis, not scattered large clear cells (standard teaching).",
+        "e": "Psoriasis is usually on both sides, with plaques elsewhere, and shows no Paget cells (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "Dr. Elnemr Reproductive Pathology: Breast (Emily's file), Paget disease of the breast, p. 11"
+        },
+        {
+          "title": "MSD Manual Professional: Paget Disease of the Nipple",
+          "url": "https://www.msdmanuals.com/professional/oncology/breast-cancer/paget-disease-of-the-nipple"
+        }
+      ]
+    },
+    {
+      "id": "repro-gynecomastia-drug-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Reproductive",
+      "topic": "Gynecomastia: drug causes",
+      "difficulty": 2,
+      "stem": "A 64-year-old man comes to the physician because of tender swelling under both nipples for 3 months. He has heart failure and takes furosemide, lisinopril, metoprolol, spironolactone, and isosorbide dinitrate. Exam shows a tender, rubbery disc of tissue under each areola. His testes are normal in size, and liver tests are normal.",
+      "leadIn": "Which of his medications is most likely responsible?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Spironolactone"
+        },
+        {
+          "id": "b",
+          "text": "Furosemide"
+        },
+        {
+          "id": "c",
+          "text": "Lisinopril"
+        },
+        {
+          "id": "d",
+          "text": "Metoprolol"
+        },
+        {
+          "id": "e",
+          "text": "Isosorbide dinitrate"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: spironolactone. Why: your Elnemr breast pathology notes (p. 14) explain that gynecomastia is normal (physiologic) in newborns, at puberty, and in older men, and becomes pathologic with too much estrogen (liver failure, estrogen treatment for prostate cancer, estrogen-making tumors), with testicular atrophy, or with drugs such as digitalis. MSD says the mechanism is usually 'a decrease in androgen effect or an increase in estrogen effect' and names spironolactone, anabolic steroids, and antiandrogens as key drug causes. Spironolactone blocks androgen receptors as well as aldosterone receptors, and switching to the more selective eplerenone is a common fix (standard teaching).",
+      "whyWrong": {
+        "b": "Furosemide is not a typical cause of gynecomastia (standard teaching).",
+        "c": "ACE inhibitors such as lisinopril are not a typical cause of gynecomastia (standard teaching).",
+        "d": "Beta-blockers such as metoprolol are not a typical cause of gynecomastia (standard teaching).",
+        "e": "Nitrates such as isosorbide dinitrate are not a typical cause of gynecomastia (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "Dr. Elnemr Reproductive Pathology: Breast (Emily's file), Gynecomastia, p. 14"
+        },
+        {
+          "title": "MSD Manual Professional: Gynecomastia",
+          "url": "https://msdmanuals.com/professional/genitourinary-disorders/male-reproductive-endocrinology-and-related-disorders/gynecomastia"
+        }
+      ]
+    },
+    {
+      "id": "ob-abruption-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Reproductive",
+      "topic": "Third-trimester bleeding: placental abruption",
+      "difficulty": 2,
+      "stem": "A 31-year-old woman, gravida 2, para 1, at 33 weeks' gestation is brought to the emergency department 1 hour after sudden abdominal pain and dark vaginal bleeding began. She has chronic hypertension and used cocaine earlier today. Her uterus is firm, tender, and contracting often. The fetal heart rate tracing shows late decelerations. Abdominal ultrasound shows a placenta high in the fundus, well away from the cervix, and no clot is seen behind it.",
+      "leadIn": "Which of the following is the most likely diagnosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Placental abruption"
+        },
+        {
+          "id": "b",
+          "text": "Placenta previa"
+        },
+        {
+          "id": "c",
+          "text": "Vasa previa"
+        },
+        {
+          "id": "d",
+          "text": "Uterine rupture"
+        },
+        {
+          "id": "e",
+          "text": "Bloody show of preterm labor"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: placental abruption. Why: your El-Husseiny obstetrics notes (pp. 47-49) define placental abruption as early separation of a normally placed placenta. Bleeding is usually visible but can be hidden behind the placenta. Risk factors include a previous abruption, hypertension, blunt trauma, smoking, and cocaine. It is the most common cause of painful bleeding late in pregnancy and the most common cause of DIC in pregnancy, and no finger exam should be done until placenta previa is ruled out. MSD lists the same risk factors (cocaine carries a risk of up to 10%), says the uterus 'may be painful, tender, and irritable to palpation,' and warns that 'normal ultrasonographic findings do not rule out placental abruption.' Here the ultrasound has ruled out previa, and the painful, tender uterus with fetal distress points to abruption.",
+      "whyWrong": {
+        "b": "Placenta previa causes painless bleeding, and this ultrasound shows the placenta far from the cervix (standard teaching).",
+        "c": "Vasa previa bleeds when the membranes rupture, and the blood lost is fetal, so the mother usually stays stable (standard teaching).",
+        "d": "Uterine rupture usually happens with a prior uterine scar and causes contractions to stop (standard teaching).",
+        "e": "A bloody show is a small amount of blood and does not cause a rigid, tender uterus (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials of Obstetrics (Emily's file), Abruptio placentae, pp. 47-49"
+        },
+        {
+          "title": "MSD Manual Professional: Placental Abruption (Abruptio Placentae)",
+          "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/abnormalities-of-pregnancy/placental-abruption-abruptio-placentae"
+        }
+      ]
     }
   ]
 }
