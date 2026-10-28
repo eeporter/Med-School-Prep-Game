@@ -6902,6 +6902,1222 @@
           "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK482194/"
         }
       ]
+    },
+    {
+      "id": "biochem-tay-sachs-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "Nervous System & Special Senses",
+      "topic": "Lysosomal storage diseases: Tay-Sachs disease",
+      "difficulty": 1,
+      "stem": "A 6-month-old boy is brought to the physician because he no longer rolls over or reaches for toys, which he did 2 months ago. He startles violently at ordinary household noises. His parents are of Ashkenazi Jewish descent. He is at the 50th percentile for weight. The liver and spleen are not enlarged. Funduscopic examination shows a cherry-red spot in the macula of each eye.",
+      "leadIn": "Accumulation of which of the following substances in his neurons is most likely responsible for these findings?",
+      "options": [
+        {
+          "id": "a",
+          "text": "GM2 ganglioside"
+        },
+        {
+          "id": "b",
+          "text": "Sphingomyelin"
+        },
+        {
+          "id": "c",
+          "text": "Glucocerebroside"
+        },
+        {
+          "id": "d",
+          "text": "Galactocerebroside"
+        },
+        {
+          "id": "e",
+          "text": "Sulfatide"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: GM2 ganglioside (Tay-Sachs disease). Why: loss of milestones at 4 to 6 months, an exaggerated startle to sound, and a cherry-red spot without an enlarged liver or spleen is infantile Tay-Sachs disease. Mutations in HEXA (chromosome 15q23) cause deficiency of hexosaminidase A, so GM2 ganglioside builds up in neuronal lysosomes. Under the electron microscope the lysosomes look like whorled onion-skin layers. It is autosomal recessive and more common in people of Ashkenazi Jewish heritage. Macrocephaly develops by about 18 months, and children with the infantile form usually die by age 4 to 5. Note: your table writes the enzyme as \"hexosaminidase\"; the full name is hexosaminidase A.",
+      "whyWrong": {
+        "b": "Sphingomyelin builds up in Niemann-Pick disease type A. It also gives a cherry-red spot, but the liver and spleen are enlarged.",
+        "c": "Glucocerebroside builds up in Gaucher disease, which enlarges the liver and spleen and affects bone. There is no cherry-red spot.",
+        "d": "Galactocerebroside is the substrate of the enzyme missing in Krabbe disease, which causes irritability, feeding problems, and optic atrophy rather than a cherry-red spot.",
+        "e": "Sulfatide builds up in metachromatic leukodystrophy, which damages myelin and causes walking problems and slowed nerve conduction."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Tay-Sachs Disease",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK564432/"
+        },
+        {
+          "title": "StatPearls: Niemann-Pick Disease",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK556129/"
+        },
+        {
+          "title": "MedlinePlus: Gaucher disease",
+          "url": "https://medlineplus.gov/ency/article/000564.htm"
+        },
+        {
+          "title": "StatPearls: Krabbe Disease",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK562315/"
+        },
+        {
+          "title": "MSD Manual Consumer Version: Metachromatic Leukodystrophy (reviewed Mar 2024)",
+          "url": "https://www.msdmanuals.com/home/children-s-health-issues/hereditary-metabolic-disorders/metachromatic-leukodystrophy"
+        }
+      ]
+    },
+    {
+      "id": "biochem-niemann-pick-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Lysosomal storage diseases: Niemann-Pick disease",
+      "difficulty": 2,
+      "stem": "A 5-month-old girl of Ashkenazi Jewish descent is evaluated for poor feeding and a swollen abdomen. She smiled and held her head up at 3 months but now does neither. The liver edge is 6 cm and the spleen tip 5 cm below the costal margins. Funduscopic examination shows a cherry-red spot in the macula of each eye. A bone marrow aspirate shows many large macrophages with foamy, finely vacuolated cytoplasm.",
+      "leadIn": "Deficiency of which of the following enzymes is most likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Acid sphingomyelinase"
+        },
+        {
+          "id": "b",
+          "text": "Hexosaminidase A"
+        },
+        {
+          "id": "c",
+          "text": "Glucocerebrosidase"
+        },
+        {
+          "id": "d",
+          "text": "Alpha-galactosidase A"
+        },
+        {
+          "id": "e",
+          "text": "Galactocerebrosidase"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: acid sphingomyelinase (Niemann-Pick disease type A). Why: an infant with neurologic decline, a cherry-red spot, and a large liver and spleen has Niemann-Pick disease type A. Mutations in SMPD1 leave acid sphingomyelinase almost inactive, so sphingomyelin, which it normally breaks into ceramide and phosphocholine, builds up in macrophages. These lipid-laden macrophages are the foam cells seen in the marrow, and they fill the liver, spleen, lungs, and brain. It is autosomal recessive and more common in people of Ashkenazi Jewish descent. Type A is usually fatal in early childhood. Type C is a different defect: loss of NPC1 or NPC2 traps cholesterol inside lysosomes. Recent change: in August 2022 the FDA approved olipudase alfa (Xenpozyme), the first treatment for acid sphingomyelinase deficiency; it treats the symptoms outside the nervous system. StatPearls still lists enzyme replacement as under study.",
+      "whyWrong": {
+        "b": "Hexosaminidase A deficiency (Tay-Sachs disease) also causes a cherry-red spot and loss of milestones, but the liver and spleen are not enlarged.",
+        "c": "Glucocerebrosidase deficiency (Gaucher disease) enlarges the liver and spleen, but it does not cause a cherry-red spot.",
+        "d": "Alpha-galactosidase A deficiency (Fabry disease) is X-linked and causes burning pain in the hands and feet, skin angiokeratomas, and kidney disease, usually starting in childhood or later.",
+        "e": "Galactocerebrosidase deficiency (Krabbe disease) causes irritability and optic atrophy. It is not known for a large liver and spleen or a cherry-red spot."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Niemann-Pick Disease",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK556129/"
+        },
+        {
+          "title": "BioSpace: FDA Approves First Treatment for Acid Sphingomyelinase Deficiency (31 Aug 2022)",
+          "url": "https://www.biospace.com/fda-approves-first-treatment-for-acid-sphingomyelinase-deficiency-a-rare-genetic-disease"
+        },
+        {
+          "title": "StatPearls: Tay-Sachs Disease",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK564432/"
+        },
+        {
+          "title": "MedlinePlus: Gaucher disease",
+          "url": "https://medlineplus.gov/ency/article/000564.htm"
+        },
+        {
+          "title": "StatPearls: Fabry Disease",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK435996/"
+        },
+        {
+          "title": "StatPearls: Krabbe Disease",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK562315/"
+        }
+      ]
+    },
+    {
+      "id": "biochem-fabry-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Genetics",
+      "system": "Renal & Urinary",
+      "topic": "Lysosomal storage diseases: Fabry disease",
+      "difficulty": 2,
+      "stem": "A 19-year-old man has had episodes of burning pain in his hands and feet since he was 9 years old. The pain comes on with exercise or hot weather, and he sweats very little. He has clusters of small, dark red papules on his lower abdomen and upper thighs. Slit-lamp examination shows whorl-like opacities in both corneas. Urinalysis shows 2+ protein. His mother's brother started dialysis at age 42.",
+      "leadIn": "Accumulation of which of the following substances is most likely responsible for these findings?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Globotriaosylceramide"
+        },
+        {
+          "id": "b",
+          "text": "GM2 ganglioside"
+        },
+        {
+          "id": "c",
+          "text": "Sphingomyelin"
+        },
+        {
+          "id": "d",
+          "text": "Glucocerebroside"
+        },
+        {
+          "id": "e",
+          "text": "Sulfatide"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: globotriaosylceramide (Fabry disease). Why: painful burning in the hands and feet (acroparesthesias), little sweating (hypohidrosis), angiokeratomas, whorled corneal opacities (corneal verticillata), and protein in the urine are Fabry disease. Low activity of alpha-galactosidase A lets globotriaosylceramide (Gb3) build up in lysosomes. Over time it damages the kidneys, heart, and brain blood vessels, causing kidney failure, heart disease, and strokes. The gene is on the X chromosome, which fits an affected man whose maternal uncle needed dialysis. Heterozygous women usually have a milder course. Treatment includes enzyme replacement infusions every 2 weeks.",
+      "whyWrong": {
+        "b": "GM2 ganglioside builds up in Tay-Sachs disease, which causes neurologic decline in infancy, not pain and kidney disease in a young adult.",
+        "c": "Sphingomyelin builds up in Niemann-Pick disease, with a large liver and spleen and, in type A, early childhood death.",
+        "d": "Glucocerebroside builds up in Gaucher disease, which enlarges the liver and spleen and affects bone and blood counts.",
+        "e": "Sulfatide builds up in metachromatic leukodystrophy, which damages myelin and causes walking problems and loss of skills."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Fabry Disease",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK435996/"
+        },
+        {
+          "title": "StatPearls: Lysosomal Storage Disease",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK563270/"
+        },
+        {
+          "title": "StatPearls: Tay-Sachs Disease",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK564432/"
+        },
+        {
+          "title": "StatPearls: Niemann-Pick Disease",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK556129/"
+        },
+        {
+          "title": "MedlinePlus: Gaucher disease",
+          "url": "https://medlineplus.gov/ency/article/000564.htm"
+        },
+        {
+          "title": "MSD Manual Consumer Version: Metachromatic Leukodystrophy (reviewed Mar 2024)",
+          "url": "https://www.msdmanuals.com/home/children-s-health-issues/hereditary-metabolic-disorders/metachromatic-leukodystrophy"
+        }
+      ]
+    },
+    {
+      "id": "biochem-krabbe-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "Nervous System & Special Senses",
+      "topic": "Leukodystrophies: Krabbe disease",
+      "difficulty": 2,
+      "stem": "A 4-month-old boy has had restlessness, constant irritability, vomiting, and feeding difficulty for 6 weeks and has fallen from the 50th to the 10th percentile for weight. He now arches his back and neck when handled, and he does not follow faces. Funduscopic examination shows pale optic discs. Nerve conduction studies show slowed conduction. A brain biopsy shows large multinucleated macrophages in the white matter.",
+      "leadIn": "Accumulation of which of the following toxic metabolites most likely contributes to his condition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Psychosine"
+        },
+        {
+          "id": "b",
+          "text": "Very long-chain fatty acids"
+        },
+        {
+          "id": "c",
+          "text": "Homogentisic acid"
+        },
+        {
+          "id": "d",
+          "text": "Orotic acid"
+        },
+        {
+          "id": "e",
+          "text": "Branched-chain amino acids"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: psychosine (Krabbe disease, also called globoid cell leukodystrophy). Why: irritability, vomiting, feeding difficulty, and failure to thrive, followed by optic atrophy and opisthotonic posturing, is the infantile form of Krabbe disease. Mutations in GALC (chromosome 14) cause deficiency of galactocerebrosidase (galactosylceramide beta-galactosidase). Psychosine, a toxic lipid made during myelin synthesis, builds up and damages myelin. The multinucleated globoid cells on biopsy give the disease its other name, and nerve conduction is slowed in most infants. It is autosomal recessive. Hematopoietic stem cell transplant works best before symptoms start. Note: your table gives the enzyme as \"beta-galactosidase\"; the specific enzyme is galactocerebrosidase.",
+      "whyWrong": {
+        "b": "Very long-chain fatty acids build up in X-linked adrenoleukodystrophy, which usually starts at ages 4 to 8 with behavior and school problems and adrenal insufficiency.",
+        "c": "Homogentisic acid builds up in alkaptonuria, which darkens urine and later causes arthritis. It does not cause infant neurodegeneration.",
+        "d": "Orotic acid builds up in hereditary orotic aciduria, which causes megaloblastic anemia and failure to thrive, not globoid cells in white matter.",
+        "e": "Branched-chain amino acids build up in maple syrup urine disease, which causes vomiting, lethargy, and seizures in the first days of life with a maple syrup odor."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Krabbe Disease",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK562315/"
+        },
+        {
+          "title": "GeneReviews: X-Linked Adrenoleukodystrophy",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK1315/"
+        },
+        {
+          "title": "MSD Manual Professional: Tyrosine Metabolism Disorders",
+          "url": "https://www.msdmanuals.com/professional/pediatrics/inherited-disorders-of-metabolism/tyrosine-metabolism-disorders"
+        },
+        {
+          "title": "NORD: Hereditary Orotic Aciduria",
+          "url": "https://rarediseases.org/rare-diseases/hereditary-orotic-aciduria/"
+        },
+        {
+          "title": "MSD Manual Professional: Branched-Chain Amino Acid Metabolism Disorders",
+          "url": "https://www.msdmanuals.com/professional/pediatrics/inherited-disorders-of-metabolism/branched-chain-amino-acid-metabolism-disorders"
+        }
+      ]
+    },
+    {
+      "id": "biochem-mld-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "Nervous System & Special Senses",
+      "topic": "Leukodystrophies: metachromatic leukodystrophy",
+      "difficulty": 2,
+      "stem": "A 2-year-old girl who began walking at 13 months has fallen more and more often over the past 6 months, and she now cannot walk without support. She has also stopped using the few words she had. Her legs are weak. Nerve conduction studies show slowed conduction, and MRI of the brain shows symmetric white matter changes. Urinary sulfatide excretion is increased.",
+      "leadIn": "Deficiency of which of the following enzymes is most likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Arylsulfatase A"
+        },
+        {
+          "id": "b",
+          "text": "Galactocerebrosidase"
+        },
+        {
+          "id": "c",
+          "text": "Hexosaminidase A"
+        },
+        {
+          "id": "d",
+          "text": "Acid sphingomyelinase"
+        },
+        {
+          "id": "e",
+          "text": "Alpha-galactosidase A"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: arylsulfatase A (metachromatic leukodystrophy, MLD). Why: a toddler who loses the ability to walk and talk, with slowed nerve conduction and white matter disease, has a leukodystrophy, and high urinary sulfatides point to MLD. Without arylsulfatase A, sulfatides build up in the white matter of the brain and spinal cord, in nerves, and in other organs, so myelin breaks down and nerves conduct poorly. It is autosomal recessive. The infantile form starts before age 4. Recent change: in March 2024 the FDA approved atidarsagene autotemcel (Lenmeldy), a one-time gene therapy made from the child's own blood stem cells modified to carry working copies of the ARSA gene; all treated children with presymptomatic late-infantile MLD were alive at age 6. MSD (reviewed March 2024) still describes gene therapy as under study. Note: your table writes \"arylsulfatase\"; the full name is arylsulfatase A.",
+      "whyWrong": {
+        "b": "Galactocerebrosidase deficiency (Krabbe disease) usually starts in early infancy with irritability, feeding problems, and optic atrophy, and the biopsy shows globoid cells.",
+        "c": "Hexosaminidase A deficiency (Tay-Sachs disease) starts at 3 to 6 months with an exaggerated startle and a cherry-red spot.",
+        "d": "Acid sphingomyelinase deficiency (Niemann-Pick disease) enlarges the liver and spleen. Raised urinary sulfatides point elsewhere.",
+        "e": "Alpha-galactosidase A deficiency (Fabry disease) causes burning pain, angiokeratomas, and kidney disease, not loss of walking in a toddler."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Consumer Version: Metachromatic Leukodystrophy (reviewed Mar 2024)",
+          "url": "https://www.msdmanuals.com/home/children-s-health-issues/hereditary-metabolic-disorders/metachromatic-leukodystrophy"
+        },
+        {
+          "title": "StatPearls: Lysosomal Storage Disease",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK563270/"
+        },
+        {
+          "title": "AABB News: FDA Approves First Gene Therapy for Children with Metachromatic Leukodystrophy (19 Mar 2024)",
+          "url": "https://www.aabb.org/news-resources/news/article/2024/03/19/fda-approves-first-gene-therapy-for-children-with-metachromatic-leukodystrophy"
+        },
+        {
+          "title": "StatPearls: Krabbe Disease",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK562315/"
+        },
+        {
+          "title": "StatPearls: Tay-Sachs Disease",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK564432/"
+        },
+        {
+          "title": "StatPearls: Niemann-Pick Disease",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK556129/"
+        },
+        {
+          "title": "StatPearls: Fabry Disease",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK435996/"
+        }
+      ]
+    },
+    {
+      "id": "biochem-x-ald-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "Nervous System & Special Senses",
+      "topic": "Peroxisomal disorders: X-linked adrenoleukodystrophy",
+      "difficulty": 2,
+      "stem": "A 7-year-old boy has had falling school grades, trouble paying attention, and new behavior problems for 6 months. He has also been more tired than usual. Serum sodium is 129 mEq/L and potassium 5.6 mEq/L. His morning cortisol is low, and his ACTH is high. MRI of the brain shows white matter changes in both hemispheres.",
+      "leadIn": "Which of the following is most likely increased in his plasma?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Very long-chain fatty acids"
+        },
+        {
+          "id": "b",
+          "text": "Phenylalanine"
+        },
+        {
+          "id": "c",
+          "text": "Total homocysteine"
+        },
+        {
+          "id": "d",
+          "text": "Branched-chain amino acids"
+        },
+        {
+          "id": "e",
+          "text": "Ammonia"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: very long-chain fatty acids (X-linked adrenoleukodystrophy, X-ALD). Why: a school-age boy with declining school performance and behavior, white matter disease, and primary adrenal insufficiency (low cortisol with high ACTH, low sodium, high potassium) has X-ALD. Pathogenic variants in ABCD1 impair breakdown of very long-chain fatty acids in peroxisomes, so they build up; a raised plasma C26:0 (hexacosanoic acid) supports the diagnosis, and finding the ABCD1 variant confirms it. It is X-linked. Childhood cerebral disease most often starts between ages 4 and 8, with a peak at age 7. Allogeneic hematopoietic stem cell transplant is recommended for early childhood cerebral disease.",
+      "whyWrong": {
+        "b": "High phenylalanine is phenylketonuria, which causes intellectual disability from infancy if untreated. It does not cause adrenal insufficiency.",
+        "c": "High homocysteine is classic homocystinuria, with lens dislocation, osteoporosis, and blood clots.",
+        "d": "High branched-chain amino acids (especially leucine) point to maple syrup urine disease, which usually presents in the first days of life with vomiting, lethargy, and seizures.",
+        "e": "High ammonia points to a urea cycle disorder. Neither that nor the others explain adrenal failure with white matter disease."
+      },
+      "sources": [
+        {
+          "title": "GeneReviews: X-Linked Adrenoleukodystrophy",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK1315/"
+        },
+        {
+          "title": "MSD Manual Professional: Phenylketonuria (PKU)",
+          "url": "https://www.msdmanuals.com/professional/pediatrics/inherited-disorders-of-metabolism/phenylketonuria-pku"
+        },
+        {
+          "title": "MSD Manual Professional: Methionine Metabolism Disorders",
+          "url": "https://www.msdmanuals.com/professional/pediatrics/inherited-disorders-of-metabolism/methionine-metabolism-disorders"
+        },
+        {
+          "title": "MSD Manual Professional: Branched-Chain Amino Acid Metabolism Disorders",
+          "url": "https://www.msdmanuals.com/professional/pediatrics/inherited-disorders-of-metabolism/branched-chain-amino-acid-metabolism-disorders"
+        },
+        {
+          "title": "NORD: Hereditary Orotic Aciduria",
+          "url": "https://rarediseases.org/rare-diseases/hereditary-orotic-aciduria/"
+        }
+      ]
+    },
+    {
+      "id": "biochem-pku-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "Multisystem",
+      "topic": "Amino acid disorders: phenylketonuria",
+      "difficulty": 1,
+      "stem": "A 9-month-old boy is brought to the physician because he cannot sit without support. He was born at home in a region without newborn screening. He has an eczema-like rash on his cheeks and limbs. His skin, hair, and eyes are much lighter than his parents'. His mother says his urine and sweat have a musty, mousy smell.",
+      "leadIn": "Deficient activity of which of the following enzymes is most likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Phenylalanine hydroxylase"
+        },
+        {
+          "id": "b",
+          "text": "Homogentisic acid oxidase"
+        },
+        {
+          "id": "c",
+          "text": "Fumarylacetoacetate hydrolase"
+        },
+        {
+          "id": "d",
+          "text": "Cystathionine beta-synthase"
+        },
+        {
+          "id": "e",
+          "text": "Branched-chain ketoacid dehydrogenase"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: phenylalanine hydroxylase (phenylketonuria, PKU). Why: developmental delay, an eczema-like rash, light skin and hair, and a mousy odor are untreated PKU. Phenylalanine hydroxylase normally converts phenylalanine to tyrosine, using tetrahydrobiopterin (BH4) as a cofactor. When it fails, phenylalanine builds up, and tyrosine becomes an essential amino acid that may need to be supplemented. The hallmark of untreated PKU is severe intellectual disability, and seizures can occur if treatment is late. All newborns are screened 24 to 48 hours after birth. Treatment is lifelong dietary phenylalanine restriction, and a trial of sapropterin (synthetic BH4) is recommended. Recent change: on 28 July 2025 the FDA approved sepiapterin (Sephience) for children and adults with PKU, used with a phenylalanine-restricted diet. Your notes list sapropterin, which is still used. Note: some PKU-like cases come from BH4 defects (for example dihydropteridine reductase deficiency), which also disrupt neurotransmitter synthesis.",
+      "whyWrong": {
+        "b": "Homogentisic acid oxidase deficiency is alkaptonuria: urine that darkens in air, skin pigmentation, and arthritis in adults.",
+        "c": "Fumarylacetoacetate hydrolase deficiency is tyrosinemia type 1, which affects the liver and is confirmed by high succinylacetone.",
+        "d": "Cystathionine beta-synthase deficiency is homocystinuria, with lens dislocation, osteoporosis, and blood clots.",
+        "e": "Branched-chain ketoacid dehydrogenase deficiency is maple syrup urine disease, which causes a crisis in the first days of life and a maple syrup odor."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Phenylketonuria (PKU)",
+          "url": "https://www.msdmanuals.com/professional/pediatrics/inherited-disorders-of-metabolism/phenylketonuria-pku"
+        },
+        {
+          "title": "Contemporary Pediatrics: FDA approves sepiapterin to treat phenylketonuria (28 Jul 2025)",
+          "url": "https://www.contemporarypediatrics.com/view/fda-approves-sepiapterin-to-treat-phenylketonuria-in-adult-pediatric-patients"
+        },
+        {
+          "title": "MSD Manual Professional: Tyrosine Metabolism Disorders",
+          "url": "https://www.msdmanuals.com/professional/pediatrics/inherited-disorders-of-metabolism/tyrosine-metabolism-disorders"
+        },
+        {
+          "title": "MSD Manual Professional: Methionine Metabolism Disorders",
+          "url": "https://www.msdmanuals.com/professional/pediatrics/inherited-disorders-of-metabolism/methionine-metabolism-disorders"
+        },
+        {
+          "title": "MSD Manual Professional: Branched-Chain Amino Acid Metabolism Disorders",
+          "url": "https://www.msdmanuals.com/professional/pediatrics/inherited-disorders-of-metabolism/branched-chain-amino-acid-metabolism-disorders"
+        }
+      ]
+    },
+    {
+      "id": "biochem-alkaptonuria-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "Musculoskeletal",
+      "topic": "Amino acid disorders: alkaptonuria",
+      "difficulty": 1,
+      "stem": "A 48-year-old man has had worsening low back pain and stiffness and pain in both knees for several years. He has dark gray-blue patches of skin pigmentation on his ears and face. He says his urine has always turned dark brown to black if it sits in a container exposed to air. X-rays show degenerative changes in the lumbar spine and knees.",
+      "leadIn": "Deficiency of which of the following enzymes is most likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Homogentisic acid oxidase"
+        },
+        {
+          "id": "b",
+          "text": "Phenylalanine hydroxylase"
+        },
+        {
+          "id": "c",
+          "text": "Fumarylacetoacetate hydrolase"
+        },
+        {
+          "id": "d",
+          "text": "Cystathionine beta-synthase"
+        },
+        {
+          "id": "e",
+          "text": "HGPRT"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: homogentisic acid oxidase (alkaptonuria). Why: urine that turns dark when exposed to air, dark skin pigmentation (ochronosis), and arthritis in adulthood are alkaptonuria. It is a rare autosomal recessive disorder of tyrosine breakdown. Homogentisic acid cannot be broken down, so it is excreted in urine, where it oxidizes and darkens, and it is deposited in tissues. MSD says ascorbic acid may reduce pigment deposition. Recent change: in September 2020 the European Medicines Agency recommended nitisinone (Orfadin) for adults with alkaptonuria, because it lowers homogentisic acid in blood and urine. MSD still says there is no effective treatment.",
+      "whyWrong": {
+        "b": "Phenylalanine hydroxylase deficiency is phenylketonuria, which causes intellectual disability in childhood if untreated, not dark urine and arthritis in an adult.",
+        "c": "Fumarylacetoacetate hydrolase deficiency is tyrosinemia type 1, a liver disease of infancy and childhood.",
+        "d": "Cystathionine beta-synthase deficiency is homocystinuria, with lens dislocation, osteoporosis, and blood clots.",
+        "e": "HGPRT deficiency is Lesch-Nyhan syndrome, with high uric acid, self-injury, and abnormal movements in boys."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Tyrosine Metabolism Disorders",
+          "url": "https://www.msdmanuals.com/professional/pediatrics/inherited-disorders-of-metabolism/tyrosine-metabolism-disorders"
+        },
+        {
+          "title": "European Medicines Agency: First treatment for rare metabolic disorder alkaptonuria (18 Sep 2020)",
+          "url": "https://www.ema.europa.eu/en/news/first-treatment-rare-metabolic-disorder-alkaptonuria"
+        },
+        {
+          "title": "MSD Manual Professional: Phenylketonuria (PKU)",
+          "url": "https://www.msdmanuals.com/professional/pediatrics/inherited-disorders-of-metabolism/phenylketonuria-pku"
+        },
+        {
+          "title": "MSD Manual Professional: Methionine Metabolism Disorders",
+          "url": "https://www.msdmanuals.com/professional/pediatrics/inherited-disorders-of-metabolism/methionine-metabolism-disorders"
+        },
+        {
+          "title": "StatPearls: Lesch-Nyhan Syndrome",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK556079/"
+        }
+      ]
+    },
+    {
+      "id": "biochem-msud-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "Multisystem",
+      "topic": "Amino acid disorders: maple syrup urine disease",
+      "difficulty": 2,
+      "stem": "A 5-day-old girl, born at term after an uncomplicated pregnancy, has had vomiting for 2 days and is now very lethargic. This morning she had a seizure. Her parents are first cousins. Her earwax and urine have a sweet odor like maple syrup. Blood glucose is normal.",
+      "leadIn": "Plasma levels of which of the following amino acids are most likely increased?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Leucine"
+        },
+        {
+          "id": "b",
+          "text": "Phenylalanine"
+        },
+        {
+          "id": "c",
+          "text": "Methionine"
+        },
+        {
+          "id": "d",
+          "text": "Tyrosine"
+        },
+        {
+          "id": "e",
+          "text": "Homocysteine"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: leucine (maple syrup urine disease, MSUD). Why: a newborn who becomes severely ill in the first days of life, with vomiting and lethargy progressing to seizures, and body fluids that smell of maple syrup (especially strong in earwax) has MSUD. A defect in the branched-chain alpha-ketoacid dehydrogenase complex blocks breakdown of the branched-chain amino acids valine, leucine, and isoleucine. Diagnosis rests on high plasma branched-chain amino acids, particularly leucine. Thiamine is a cofactor, and some patients respond to high-dose thiamine. Long-term treatment restricts branched-chain amino acids in the diet, and liver transplantation is curative. Note: your table names the enzyme \"alpha-ketoacid decarboxylase\"; MSD names the whole dehydrogenase complex, with thiamine needed for the decarboxylation step, so both point at the same enzyme. Untreated, it progresses to coma and death.",
+      "whyWrong": {
+        "b": "High phenylalanine is phenylketonuria, which causes slow developmental delay, not a crisis in the first week.",
+        "c": "High methionine is the newborn screening marker for classic homocystinuria, which does not cause an acute crisis or a maple syrup odor.",
+        "d": "High tyrosine points to a tyrosine metabolism disorder such as tyrosinemia, which mainly affects the liver.",
+        "e": "High homocysteine is homocystinuria, with lens dislocation, osteoporosis, and blood clots later in childhood."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Branched-Chain Amino Acid Metabolism Disorders",
+          "url": "https://www.msdmanuals.com/professional/pediatrics/inherited-disorders-of-metabolism/branched-chain-amino-acid-metabolism-disorders"
+        },
+        {
+          "title": "MSD Manual Professional: Phenylketonuria (PKU)",
+          "url": "https://www.msdmanuals.com/professional/pediatrics/inherited-disorders-of-metabolism/phenylketonuria-pku"
+        },
+        {
+          "title": "MSD Manual Professional: Methionine Metabolism Disorders",
+          "url": "https://www.msdmanuals.com/professional/pediatrics/inherited-disorders-of-metabolism/methionine-metabolism-disorders"
+        },
+        {
+          "title": "MSD Manual Professional: Tyrosine Metabolism Disorders",
+          "url": "https://www.msdmanuals.com/professional/pediatrics/inherited-disorders-of-metabolism/tyrosine-metabolism-disorders"
+        }
+      ]
+    },
+    {
+      "id": "biochem-homocystinuria-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "Multisystem",
+      "topic": "Amino acid disorders: homocystinuria",
+      "difficulty": 2,
+      "stem": "A 13-year-old boy is brought to the emergency department with a painful, swollen left calf, and ultrasound shows a deep vein thrombosis. He has mild intellectual disability. He is of average height but has long, thin limbs. His ophthalmologist recently found that both lenses are partly dislocated. An x-ray taken last year for a wrist fracture showed osteoporosis.",
+      "leadIn": "Which of the following is most likely increased in his plasma?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Homocysteine"
+        },
+        {
+          "id": "b",
+          "text": "Leucine"
+        },
+        {
+          "id": "c",
+          "text": "Phenylalanine"
+        },
+        {
+          "id": "d",
+          "text": "Very long-chain fatty acids"
+        },
+        {
+          "id": "e",
+          "text": "Uric acid"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: homocysteine (classic homocystinuria). Why: lens dislocation (ectopia lentis), intellectual disability, osteoporosis, a marfanoid build, and a blood clot at a young age are classic homocystinuria. It is an autosomal recessive deficiency of cystathionine beta-synthase. Newborn screening looks for high methionine, and a high total plasma homocysteine confirms the diagnosis. Arterial and venous clots can occur at any age. Patients can have a marfanoid habitus even though they are not usually tall. About half respond to high-dose pyridoxine (vitamin B6) alone; others need a low-methionine diet with cysteine supplements, and betaine helps lower homocysteine. Note: books number the types of homocystinuria differently, so learn each type by its enzyme, not its number.",
+      "whyWrong": {
+        "b": "High leucine is maple syrup urine disease, a crisis in the first days of life.",
+        "c": "High phenylalanine is phenylketonuria, which causes intellectual disability but not lens dislocation or blood clots.",
+        "d": "High very long-chain fatty acids point to X-linked adrenoleukodystrophy, with school decline, white matter disease, and adrenal insufficiency.",
+        "e": "High uric acid in a boy with abnormal movements and self-injury would suggest Lesch-Nyhan syndrome."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Methionine Metabolism Disorders",
+          "url": "https://www.msdmanuals.com/professional/pediatrics/inherited-disorders-of-metabolism/methionine-metabolism-disorders"
+        },
+        {
+          "title": "MSD Manual Professional: Branched-Chain Amino Acid Metabolism Disorders",
+          "url": "https://www.msdmanuals.com/professional/pediatrics/inherited-disorders-of-metabolism/branched-chain-amino-acid-metabolism-disorders"
+        },
+        {
+          "title": "MSD Manual Professional: Phenylketonuria (PKU)",
+          "url": "https://www.msdmanuals.com/professional/pediatrics/inherited-disorders-of-metabolism/phenylketonuria-pku"
+        },
+        {
+          "title": "GeneReviews: X-Linked Adrenoleukodystrophy",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK1315/"
+        },
+        {
+          "title": "StatPearls: Lesch-Nyhan Syndrome",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK556079/"
+        }
+      ]
+    },
+    {
+      "id": "biochem-lesch-nyhan-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "Nervous System & Special Senses",
+      "topic": "Purine disorders: Lesch-Nyhan syndrome",
+      "difficulty": 1,
+      "stem": "A 3-year-old boy has delayed motor development and cannot sit without support. He has slow writhing movements of the arms and sustained twisting postures. Over the past few months he has started biting his lips and fingers, causing wounds. His mother remembers orange, sand-like crystals in his diapers when he was an infant. Serum uric acid is 11 mg/dL.",
+      "leadIn": "Deficiency of which of the following enzymes is most likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "HGPRT"
+        },
+        {
+          "id": "b",
+          "text": "UMP synthase"
+        },
+        {
+          "id": "c",
+          "text": "Phenylalanine hydroxylase"
+        },
+        {
+          "id": "d",
+          "text": "Galactocerebrosidase"
+        },
+        {
+          "id": "e",
+          "text": "Cystathionine beta-synthase"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: hypoxanthine-guanine phosphoribosyltransferase (HGPRT; Lesch-Nyhan syndrome). Why: a boy with motor delay, dystonia and choreoathetosis, self-injurious biting of the lips and fingers (usually starting at ages 2 to 4), and high uric acid has Lesch-Nyhan syndrome. Orange crystals (\"orange sand\") in the diaper can be the earliest clue. HGPRT recycles purine bases (the salvage pathway). Without it, the cell makes more purines from scratch (de novo), and the excess is broken down to uric acid, which causes gout and kidney stones. The gene, HPRT1, is on the X chromosome, so the disease is X-linked recessive and affects boys. Allopurinol controls uric acid and prevents gout and stones, but it does not improve the neurologic or behavioral symptoms.",
+      "whyWrong": {
+        "b": "UMP synthase deficiency is hereditary orotic aciduria, a pyrimidine disorder with megaloblastic anemia and orotic acid crystals, not high uric acid.",
+        "c": "Phenylalanine hydroxylase deficiency is phenylketonuria, with intellectual disability, light skin, and a musty odor.",
+        "d": "Galactocerebrosidase deficiency is Krabbe disease, a leukodystrophy of early infancy.",
+        "e": "Cystathionine beta-synthase deficiency is homocystinuria, with lens dislocation, osteoporosis, and blood clots."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Lesch-Nyhan Syndrome",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK556079/"
+        },
+        {
+          "title": "NORD: Hereditary Orotic Aciduria",
+          "url": "https://rarediseases.org/rare-diseases/hereditary-orotic-aciduria/"
+        },
+        {
+          "title": "MSD Manual Professional: Phenylketonuria (PKU)",
+          "url": "https://www.msdmanuals.com/professional/pediatrics/inherited-disorders-of-metabolism/phenylketonuria-pku"
+        },
+        {
+          "title": "StatPearls: Krabbe Disease",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK562315/"
+        },
+        {
+          "title": "MSD Manual Professional: Methionine Metabolism Disorders",
+          "url": "https://www.msdmanuals.com/professional/pediatrics/inherited-disorders-of-metabolism/methionine-metabolism-disorders"
+        }
+      ]
+    },
+    {
+      "id": "biochem-orotic-aciduria-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Pyrimidine disorders: hereditary orotic aciduria",
+      "difficulty": 2,
+      "stem": "A 5-month-old boy is evaluated for poor weight gain and delayed milestones. Hemoglobin is 7.9 g/dL with a mean corpuscular volume of 112 fL, and the blood smear shows megaloblastic changes. Serum vitamin B12 and folate are normal. His urine is cloudy, and urinary orotic acid is markedly increased. Blood ammonia is normal.",
+      "leadIn": "Deficiency of which of the following enzymes is most likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "UMP synthase"
+        },
+        {
+          "id": "b",
+          "text": "Ornithine transcarbamylase"
+        },
+        {
+          "id": "c",
+          "text": "HGPRT"
+        },
+        {
+          "id": "d",
+          "text": "Phenylalanine hydroxylase"
+        },
+        {
+          "id": "e",
+          "text": "Cystathionine beta-synthase"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: UMP synthase (hereditary orotic aciduria). Why: megaloblastic anemia in the first months of life with normal B12 and folate, failure to thrive, developmental delay, and orotic acid crystals in the urine are hereditary orotic aciduria. UMP synthase (uridine 5'-monophosphate synthase) does the last two steps of pyrimidine synthesis, so orotic acid piles up and cells cannot make enough pyrimidines for DNA. It is autosomal recessive. The key contrast is with urea cycle disorders such as ornithine transcarbamylase deficiency, which also raise urinary orotic acid but cause high blood ammonia; hereditary orotic aciduria does not. Treatment is lifelong uridine triacetate (Xuriden), approved by the FDA, which supplies the missing uridine. Note: your notes list uridine or uridine monophosphate; uridine triacetate is the approved form.",
+      "whyWrong": {
+        "b": "Ornithine transcarbamylase deficiency also raises urinary orotic acid, but it causes high blood ammonia. His ammonia is normal.",
+        "c": "HGPRT deficiency (Lesch-Nyhan syndrome) is a purine disorder with high uric acid and self-injury, not megaloblastic anemia.",
+        "d": "Phenylalanine hydroxylase deficiency (phenylketonuria) causes developmental delay but not megaloblastic anemia or orotic aciduria.",
+        "e": "Cystathionine beta-synthase deficiency (homocystinuria) causes lens dislocation and blood clots, not orotic aciduria."
+      },
+      "sources": [
+        {
+          "title": "NORD: Hereditary Orotic Aciduria",
+          "url": "https://rarediseases.org/rare-diseases/hereditary-orotic-aciduria/"
+        },
+        {
+          "title": "StatPearls: Lesch-Nyhan Syndrome",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK556079/"
+        },
+        {
+          "title": "MSD Manual Professional: Phenylketonuria (PKU)",
+          "url": "https://www.msdmanuals.com/professional/pediatrics/inherited-disorders-of-metabolism/phenylketonuria-pku"
+        },
+        {
+          "title": "MSD Manual Professional: Methionine Metabolism Disorders",
+          "url": "https://www.msdmanuals.com/professional/pediatrics/inherited-disorders-of-metabolism/methionine-metabolism-disorders"
+        }
+      ]
+    },
+    {
+      "id": "biostats-sensitivity-calc-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biostatistics & Epidemiology",
+      "system": "General Principles",
+      "topic": "Diagnostic tests: sensitivity and specificity",
+      "difficulty": 1,
+      "stem": "A new rapid blood test for a bacterial infection is evaluated in 1,000 patients with fever. Blood culture, the reference standard, shows that 200 have the infection and 800 do not. The rapid test is positive in 180 of the patients with infection and in 40 of the patients without infection.",
+      "leadIn": "What is the sensitivity of the rapid test?",
+      "options": [
+        {
+          "id": "a",
+          "text": "10%"
+        },
+        {
+          "id": "b",
+          "text": "82%"
+        },
+        {
+          "id": "c",
+          "text": "90%"
+        },
+        {
+          "id": "d",
+          "text": "95%"
+        },
+        {
+          "id": "e",
+          "text": "97%"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Answer: 90%. Why: sensitivity is the share of people with the disease who test positive: true positives / (true positives + false negatives). Here 180 of the 200 infected patients test positive, so sensitivity = 180 / 200 = 90%. The other numbers in the table: specificity = true negatives / (true negatives + false positives) = 760 / 800 = 95%. Positive predictive value = 180 / (180 + 40) = 82%. Negative predictive value = 760 / (760 + 20) = 97%. Predictive values change with disease prevalence; likelihood ratios, like sensitivity and specificity, do not.",
+      "whyWrong": {
+        "a": "10% is the false-negative rate (20 / 200), the share of infected patients the test misses.",
+        "b": "82% is the positive predictive value: 180 true positives out of 220 positive tests.",
+        "d": "95% is the specificity: 760 of the 800 uninfected patients test negative.",
+        "e": "97% is the negative predictive value: 760 true negatives out of 780 negative tests."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Diagnostic Testing Accuracy: Sensitivity, Specificity, Predictive Values and Likelihood Ratios",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK557491/"
+        }
+      ]
+    },
+    {
+      "id": "biostats-lead-time-bias-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biostatistics & Epidemiology",
+      "system": "General Principles",
+      "topic": "Study bias: lead-time bias",
+      "difficulty": 2,
+      "stem": "A city starts screening adult smokers for lung cancer with yearly low-dose CT. Five years later, the average survival measured from the date of diagnosis is 2 years longer in screen-detected patients than in patients diagnosed after symptoms began in the years before screening. Tumors found by screening grew at the same rate as those found after symptoms. The lung cancer death rate per 100,000 smokers and the average age at death from lung cancer have not changed.",
+      "leadIn": "Which of the following best explains the longer survival after diagnosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lead-time bias"
+        },
+        {
+          "id": "b",
+          "text": "Length-time bias"
+        },
+        {
+          "id": "c",
+          "text": "Selection bias"
+        },
+        {
+          "id": "d",
+          "text": "Recall bias"
+        },
+        {
+          "id": "e",
+          "text": "Hawthorne effect"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: lead-time bias. Why: lead-time bias occurs when testing detects a disease at an earlier stage, which makes survival look longer even if the patient dies at the same time. Here the clock simply starts earlier: survival from diagnosis rises, but the age at death and the death rate do not change. To avoid it, investigators look at overall mortality from the disease rather than survival from diagnosis, or adjust survival curves by subtracting the estimated lead time.",
+      "whyWrong": {
+        "b": "Length-time bias happens when screening mostly finds slow-growing, less dangerous cases. Here the screen-detected tumors grew at the same rate as the others.",
+        "c": "Selection bias happens when the study group does not represent the target population. The stem gives no sign of that, and it would not explain the unchanged death rate.",
+        "d": "Recall bias is error from differences in how people remember past events, a problem of questionnaires and case-control studies, not of survival times.",
+        "e": "The Hawthorne effect is a change in subjects' behavior because they know they are being observed."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Study Bias",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK574513/"
+        }
+      ]
+    },
+    {
+      "id": "biostats-type-2-error-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biostatistics & Epidemiology",
+      "system": "General Principles",
+      "topic": "Hypothesis testing: type I and type II errors",
+      "difficulty": 2,
+      "stem": "A randomized trial enrolls 40 patients with heart failure to compare a new drug with placebo. Hospitalization rates are 30% with the drug and 40% with placebo (p = 0.45), and the authors conclude that the drug has no effect. Five years later, a well-designed trial of 4,000 similar patients finds that the drug clearly lowers hospitalizations by a similar amount (p < 0.001).",
+      "leadIn": "Which of the following best describes the conclusion of the first trial?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Type II error"
+        },
+        {
+          "id": "b",
+          "text": "Type I error"
+        },
+        {
+          "id": "c",
+          "text": "Confounding"
+        },
+        {
+          "id": "d",
+          "text": "Recall bias"
+        },
+        {
+          "id": "e",
+          "text": "Observer bias"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: type II error. Why: a type II error is concluding that there is no difference between groups when a difference really exists (a false negative). The first trial was too small to detect a real 10-point drop in hospitalizations. Statistical power, the ability to correctly reject a null hypothesis that is false, depends on the significance level, the effect size, and above all the sample size. A larger trial raises power and lowers the chance of a type II error.",
+      "whyWrong": {
+        "b": "A type I error is the opposite: wrongly reporting a significant difference when none exists (a false positive). The first trial found no difference.",
+        "c": "Confounding is a third variable that influences both the exposure and the outcome. Randomization limits confounding, and it does not explain a missed real effect in a tiny trial.",
+        "d": "Recall bias comes from people remembering past events differently. Hospitalizations in a trial are recorded, not recalled.",
+        "e": "Observer bias is a systematic difference between true and recorded values because of the observer. Hospitalization is an objective outcome, and the problem here is too few patients."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Type I and Type II Errors and Statistical Power",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK557530/"
+        },
+        {
+          "title": "StatPearls: Study Bias",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK574513/"
+        }
+      ]
+    },
+    {
+      "id": "biostats-recall-bias-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biostatistics & Epidemiology",
+      "system": "General Principles",
+      "topic": "Study bias: recall bias",
+      "difficulty": 2,
+      "stem": "Investigators study whether a medication taken in early pregnancy is linked to a heart defect. They identify 300 mothers of infants born with the defect and 600 mothers of healthy infants. Two years after delivery, all mothers complete a questionnaire about medications they took during pregnancy. Mothers of affected infants report many more medications than mothers of healthy infants.",
+      "leadIn": "Which of the following changes would best reduce the most likely bias in this study?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Verify answers with pharmacy records"
+        },
+        {
+          "id": "b",
+          "text": "Enroll 3,000 mothers instead of 900"
+        },
+        {
+          "id": "c",
+          "text": "Use a stricter p-value cutoff of 0.01"
+        },
+        {
+          "id": "d",
+          "text": "Blind the statisticians to group membership"
+        },
+        {
+          "id": "e",
+          "text": "Match mothers by age and parity"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: verify the answers against pharmacy (and prenatal) records. Why: this is a case-control study, and the most likely problem is recall bias, error from differences between what people remember and what really happened. Mothers of an affected infant have often thought hard about what might have caused it, so they remember exposures more completely than mothers of healthy infants. Recall bias is reduced by corroborating subjective answers with medical records or other objective measures, and by shortening the time between exposure and data collection.",
+      "whyWrong": {
+        "b": "A bigger sample makes the estimate more precise, but the same difference in remembering is built into every answer, so the bias stays.",
+        "c": "A stricter p-value cutoff lowers the chance of a type I error from random chance. It does nothing about a systematic difference in reporting.",
+        "d": "Blinding reduces observer bias in the people who collect or judge the data. Here the error comes from the mothers' memories.",
+        "e": "Matching controls for confounding by age and parity. It does not fix differences in how the two groups remember their medications."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Study Bias",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK574513/"
+        },
+        {
+          "title": "StatPearls: Type I and Type II Errors and Statistical Power",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK557530/"
+        }
+      ]
+    },
+    {
+      "id": "neuro-als-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Nervous System & Special Senses",
+      "topic": "Motor neuron disease: amyotrophic lateral sclerosis",
+      "difficulty": 1,
+      "stem": "A 56-year-old man has had progressive weakness for 8 months. He has trouble buttoning his shirt and turning keys, and his legs feel stiff. The muscles of his right hand are wasted, and fasciculations are seen in both forearms and thighs. Muscle tone in the legs is increased, and the knee and ankle reflexes are brisk. Sensation is normal, eye movements are full, and bladder function is normal. Sensory nerve action potentials are normal on nerve conduction studies.",
+      "leadIn": "Degeneration of which of the following is the most likely cause of his findings?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Upper and lower motor neurons"
+        },
+        {
+          "id": "b",
+          "text": "Lower motor neurons only"
+        },
+        {
+          "id": "c",
+          "text": "Upper motor neurons only"
+        },
+        {
+          "id": "d",
+          "text": "Dorsal root ganglion neurons"
+        },
+        {
+          "id": "e",
+          "text": "Peripheral nerve myelin"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: both upper and lower motor neurons (amyotrophic lateral sclerosis, ALS). Why: the hallmark of ALS is upper and lower motor neuron signs together. Upper motor neuron signs are spasticity, hyperreflexia, poor dexterity, and incoordination; lower motor neuron signs are muscle atrophy and fasciculations. Sensation is spared, so sensory nerve action potentials are normal, and eye and sphincter muscles are spared until late. Gene testing looks especially for SOD1 and C9ORF72. Riluzole is thought to reduce glutamate-induced excitotoxicity, and edaravone is a free radical scavenger. Median survival is 3 to 5 years, and aspiration pneumonia and respiratory failure are the most common causes of death.",
+      "whyWrong": {
+        "b": "Lower motor neuron loss alone (as in polio) causes atrophy, fasciculations, and reduced reflexes. It would not explain his spasticity and brisk reflexes.",
+        "c": "Upper motor neuron damage alone causes spasticity and brisk reflexes, but not muscle wasting or fasciculations.",
+        "d": "Loss of dorsal root ganglion neurons causes sensory loss. His sensation and sensory nerve studies are normal.",
+        "e": "Damage to peripheral nerve myelin (as in Guillain-Barre syndrome) causes weakness with absent or reduced reflexes and often sensory symptoms."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Amyotrophic Lateral Sclerosis",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK556151/"
+        },
+        {
+          "title": "StatPearls: Poliomyelitis",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK558944/"
+        },
+        {
+          "title": "StatPearls: Guillain-Barre Syndrome",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK532254/"
+        }
+      ]
+    },
+    {
+      "id": "neuro-polio-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Nervous System & Special Senses",
+      "topic": "Motor neuron disease: poliomyelitis",
+      "difficulty": 2,
+      "stem": "A 6-year-old unvaccinated boy living in an area with a poliovirus outbreak had fever, sore throat, and diarrhea 10 days ago. Three days ago he developed muscle pain and then weakness of his left leg. Today the left leg is limp, with decreased tone and an absent knee reflex. The right leg and both arms are normal. Sensation is intact throughout, and he is alert and oriented.",
+      "leadIn": "Destruction of which of the following cells is the most likely cause of his weakness?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Anterior horn motor neurons"
+        },
+        {
+          "id": "b",
+          "text": "Upper motor neurons in the motor cortex"
+        },
+        {
+          "id": "c",
+          "text": "Dorsal root ganglion neurons"
+        },
+        {
+          "id": "d",
+          "text": "Schwann cells of peripheral nerves"
+        },
+        {
+          "id": "e",
+          "text": "Skeletal muscle fibers"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: anterior horn motor neurons (paralytic poliomyelitis). Why: poliovirus, an enterovirus spread by the fecal-oral and oral-oral routes, can destroy the alpha motor neurons in the anterior horns of the spinal cord. The result is asymmetric flaccid weakness, legs more often than arms, with decreased or absent tendon reflexes and no sensory or cognitive deficits. These are lower motor neuron signs. A negative CSF test for poliovirus does not rule out polio. The inactivated vaccine (IPV) carries no risk of vaccine-associated paralytic polio, which the live oral vaccine (OPV) can rarely cause. Years later, some survivors develop new weakness and fatigue (post-polio syndrome).",
+      "whyWrong": {
+        "b": "Upper motor neuron damage causes spasticity and brisk reflexes, the opposite of his limp leg with an absent reflex.",
+        "c": "Dorsal root ganglion neurons carry sensation. His sensation is intact.",
+        "d": "Immune damage to Schwann cells and myelin is Guillain-Barre syndrome, which typically causes ascending, symmetric weakness, often with sensory symptoms.",
+        "e": "A primary muscle disease usually causes symmetric weakness of proximal muscles. One limp leg with lost reflexes after a febrile illness points to motor neuron loss."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Poliomyelitis",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK558944/"
+        },
+        {
+          "title": "StatPearls: Guillain-Barre Syndrome",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK532254/"
+        }
+      ]
+    },
+    {
+      "id": "pharm-delirium-anticholinergic-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Behavioral Health",
+      "topic": "Delirium: anticholinergic drugs",
+      "difficulty": 2,
+      "stem": "An 84-year-old woman is in the hospital 2 days after surgery for a hip fracture. She was alert and oriented before surgery. Tonight she is confused, picks at her bedsheets, and cannot say the months of the year backward. She was given an over-the-counter sleep aid containing diphenhydramine at bedtime for the past 2 nights. Temperature is 37.9°C (100.2°F) and pulse 112/min. Her skin is warm, flushed, and dry, and her pupils are dilated. A bladder scan shows 750 mL of urine.",
+      "leadIn": "Blockade of which of the following receptors best explains her symptoms?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Muscarinic acetylcholine receptors"
+        },
+        {
+          "id": "b",
+          "text": "Beta-1 adrenergic receptors"
+        },
+        {
+          "id": "c",
+          "text": "Dopamine D2 receptors"
+        },
+        {
+          "id": "d",
+          "text": "Alpha-1 adrenergic receptors"
+        },
+        {
+          "id": "e",
+          "text": "Serotonin 5-HT3 receptors"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: muscarinic acetylcholine receptors. Why: acute confusion with inattention after surgery is delirium, and here the cause is the drug. Diphenhydramine is also an antimuscarinic: it competitively blocks muscarinic acetylcholine receptors. Blocking them centrally causes delirium and confusion. Blocking them peripherally causes the classic picture: dry skin (\"dry as a bone\"), flushing (\"red as a beet\"), fever (\"hot as a hare\"), dilated pupils and blurred vision, urinary retention (\"full as a flask\"), and a fast heart rate. Older adults are the most sensitive to anticholinergic drugs, and the American Geriatrics Society says diphenhydramine should generally be avoided in them. Treatment is to stop the drug; physostigmine is an antidote, but its use is debated.",
+      "whyWrong": {
+        "b": "Beta-1 blockade slows the heart. Her pulse is fast, and beta-1 blockade does not cause dry skin, dilated pupils, or urinary retention.",
+        "c": "Dopamine D2 blockade by antipsychotics causes stiffness and other movement problems, not dry skin, dilated pupils, and a full bladder.",
+        "d": "Alpha-1 blockade lowers blood pressure, especially on standing, and does not cause dry skin or urinary retention.",
+        "e": "5-HT3 blockade (for example by ondansetron) is used against nausea and does not cause this anticholinergic picture."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Physiology, Anticholinergic Reaction",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK546589/"
+        },
+        {
+          "title": "StatPearls: Diphenhydramine",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK526010/"
+        },
+        {
+          "title": "StatPearls: Differentiating Delirium Versus Dementia in Older Adults",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK570594/"
+        }
+      ]
+    },
+    {
+      "id": "psych-delirium-eeg-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Behavioral Science",
+      "system": "Behavioral Health",
+      "topic": "Delirium vs dementia",
+      "difficulty": 2,
+      "stem": "A 78-year-old man is brought to the emergency department because he has been confused for 2 days. Until last week he lived alone, managed his own money, and drove. His daughter says he is drowsy and hard to keep awake in the morning but agitated at night, and he says he sees bugs crawling on the wall. He cannot keep his attention on a conversation. Temperature is 38.3°C (101°F). Urinalysis shows many white blood cells and bacteria.",
+      "leadIn": "An EEG is most likely to show which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Generalized slowing of background activity"
+        },
+        {
+          "id": "b",
+          "text": "A normal background rhythm"
+        },
+        {
+          "id": "c",
+          "text": "Bilateral 3-Hz spike-and-wave discharges"
+        },
+        {
+          "id": "d",
+          "text": "Periodic sharp wave complexes"
+        },
+        {
+          "id": "e",
+          "text": "Focal spikes over one temporal lobe"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: generalized slowing. Why: confusion that starts over days, with poor attention, a level of alertness that changes through the day, and visual hallucinations, is delirium, here likely from a urinary tract infection, a common cause in older adults. Inattention and reduced arousal separate delirium from dementia. Dementia develops gradually and patients stay awake, while delirium is acute and fluctuating and often reversible once the cause is treated. Generalized slowing of brain waves on EEG is strongly associated with delirium. In an older adult, new visual hallucinations should be treated as delirium unless proven otherwise.",
+      "whyWrong": {
+        "b": "Generalized EEG slowing is strongly associated with delirium, so a normal background would argue against it.",
+        "c": "Bilateral 3-Hz spike-and-wave discharges are the pattern of absence seizures, usually in children aged 5 to 15.",
+        "d": "Periodic sharp wave complexes are seen in most patients with sporadic Creutzfeldt-Jakob disease, a rapidly progressive dementia with myoclonus over months.",
+        "e": "Focal temporal spikes suggest a seizure focus in one area, not the whole-brain dysfunction of delirium."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Differentiating Delirium Versus Dementia in Older Adults",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK570594/"
+        },
+        {
+          "title": "StatPearls: Absence Seizure",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK499867/"
+        },
+        {
+          "title": "StatPearls: Creutzfeldt-Jakob Disease",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK507860/"
+        }
+      ]
     }
   ]
 }
