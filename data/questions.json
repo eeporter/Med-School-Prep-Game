@@ -12374,6 +12374,1047 @@
           "url": "https://www.msdmanuals.com/professional/immunology-allergic-disorders/allergic-autoimmune-and-other-hypersensitivity-disorders/hereditary-and-acquired-c1-inhibitor-deficiency-or-dysfunction"
         }
       ]
+    },
+    {
+      "id": "ethics-capacity-intellectual-disability-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Behavioral Science",
+      "system": "General Principles",
+      "topic": "Ethics: decision-making capacity",
+      "difficulty": 2,
+      "stem": "A 24-year-old man with Down syndrome comes to the clinic with his mother for a planned removal of part of a painful ingrown toenail under local anesthesia. He lives in a group home, works at a grocery store, and has no court-appointed guardian. The physician explains the procedure, its risks, and the choice of warm soaks and waiting instead. In his own words, he says that the side of the nail will be cut out, that his toe will be numbed first, and that the toe could get infected afterward. He says he wants it done because his toe hurts every time he walks to work. His mother says she does not want him to have it because he \"doesn't really understand.\"",
+      "leadIn": "Which of the following is the most appropriate next step?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Proceed with the procedure based on his consent"
+        },
+        {
+          "id": "b",
+          "text": "Obtain written consent from his mother instead"
+        },
+        {
+          "id": "c",
+          "text": "Request a court ruling on his competence"
+        },
+        {
+          "id": "d",
+          "text": "Postpone until a psychiatrist formally assesses him"
+        },
+        {
+          "id": "e",
+          "text": "Ask the group home manager to decide for him"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: proceed with his consent. Why: For this decision he shows decision-making capacity. He understands the information, weighs it against his own goal (walking without pain), and states a clear choice. Your First Aid pages in the biostats file (p. 266) say that intellectual disability alone, such as Down syndrome, does not exclude a person from informed decision-making. They also say that a physician decides capacity for a specific decision, while competency is a legal ruling made by a judge. StatPearls agrees that capacity is a clinical judgment about one decision at one point in time and that competence is decided by a judge, never by medical providers. He is an adult without a guardian, so his choice stands even though his mother disagrees.",
+      "whyWrong": {
+        "b": "His mother is not his legal decision-maker. A surrogate is used only when the patient lacks capacity (your First Aid pages in the biostats file, p. 266), and he has it for this decision.",
+        "c": "Competence is a court ruling about broad decision-making (StatPearls). It is not needed when the physician finds capacity for this one decision.",
+        "d": "Any physician can assess capacity (StatPearls). A psychiatry consult can help in unclear cases, but here capacity is clear.",
+        "e": "A group home manager has no authority to decide for an adult who has capacity (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Ethics (decision-making capacity), p. 266"
+        },
+        {
+          "title": "StatPearls: Competency and Capacity",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK532862/"
+        }
+      ]
+    },
+    {
+      "id": "ethics-surrogate-order-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Behavioral Science",
+      "system": "General Principles",
+      "topic": "Ethics: surrogate decision-maker",
+      "difficulty": 2,
+      "stem": "A 78-year-old widowed man is in the intensive care unit after a large hemorrhagic stroke. He does not respond to voice or pain and cannot make decisions. He has no advance directive and never named a health care proxy, and no court has appointed a guardian. His 50-year-old daughter visits every week. She says that last year he told her he would not want a feeding tube if he could no longer recognize his family. His younger sister, who has lived with him for 5 years, insists that a feeding tube be placed and everything be done.",
+      "leadIn": "Whose decision should guide the plan about a feeding tube?",
+      "options": [
+        {
+          "id": "a",
+          "text": "His daughter, based on what he would have wanted"
+        },
+        {
+          "id": "b",
+          "text": "His sister, because she lives with the patient"
+        },
+        {
+          "id": "c",
+          "text": "The attending physician, based on medical judgment"
+        },
+        {
+          "id": "d",
+          "text": "The hospital ethics committee, by majority vote"
+        },
+        {
+          "id": "e",
+          "text": "Whichever relative is willing to sign the form"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: his daughter. Why: When a patient has lost capacity and left no advance directive, a surrogate who knows the patient decides what the patient would have chosen. Your First Aid pages in the biostats file (p. 266) give the usual order: spouse, then adult children, then parents, then siblings, then other relatives. He is widowed, so his adult daughter comes before his sister, and she is reporting his own stated wishes. StatPearls calls this substituted judgment: the surrogate chooses what the patient would have wanted, not what the surrogate wants. Other source: StatPearls notes that state law sets who may act as surrogate, and the details differ between states.",
+      "whyWrong": {
+        "b": "Living with the patient does not move a sibling ahead of an adult child in the usual order (your First Aid pages in the biostats file, p. 266).",
+        "c": "The physician gives medical facts and a recommendation but does not make value choices for a patient who has a valid surrogate (standard teaching).",
+        "d": "An ethics committee can help settle a conflict, but it does not replace the surrogate (standard teaching).",
+        "e": "Being willing to sign does not make someone the surrogate. Priority is set by law and by the patient's relationships (StatPearls)."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Ethics (surrogate decision-maker), p. 266"
+        },
+        {
+          "title": "StatPearls: Advance Directives",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK459133/"
+        }
+      ]
+    },
+    {
+      "id": "ethics-reportable-std-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Behavioral Science",
+      "system": "General Principles",
+      "topic": "Ethics: confidentiality and reportable diseases",
+      "difficulty": 1,
+      "stem": "A 31-year-old man comes to the physician because of a painless sore on his penis for 10 days. Examination shows a clean-based ulcer with firm edges and painless swelling of the lymph nodes in both groins. Both a nontreponemal test and a treponemal test are positive. He is diagnosed with primary syphilis and treated in the office. He then asks the physician not to put his name \"on any government list\" because he is afraid his employer will find out.",
+      "leadIn": "Which of the following is the most appropriate response?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Explain that the case must be reported to the health department"
+        },
+        {
+          "id": "b",
+          "text": "Agree not to report because he has already been treated"
+        },
+        {
+          "id": "c",
+          "text": "Report it only if he refuses to tell his sexual partners himself"
+        },
+        {
+          "id": "d",
+          "text": "Inform his employer so the workplace can be screened"
+        },
+        {
+          "id": "e",
+          "text": "Report the case only with his written permission"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: report the case to public health. Why: Reporting certain infections is an accepted exception to confidentiality. Your First Aid pages in the biostats file (p. 267) list reportable diseases, such as sexually transmitted infections, hepatitis, and food poisoning, among these exceptions; public health officials then notify people who are at risk. CDC confirms that syphilis has been a nationally notifiable disease since 1944 and that state and local health departments collect the case reports. The physician can reassure him that public health reports are kept confidential and are not shared with employers, and encourage him to tell his partners so they can be tested and treated (standard teaching).",
+      "whyWrong": {
+        "b": "Treatment does not remove the duty to report. The report lets public health reach partners who may be infected (your First Aid pages in the biostats file, p. 267).",
+        "c": "The case is reported whether or not he tells his partners himself (your First Aid pages in the biostats file, p. 267).",
+        "d": "Telling his employer would break confidentiality and serves no public health purpose (standard teaching).",
+        "e": "Reportable diseases are an exception to confidentiality, so his permission is not required (your First Aid pages in the biostats file, p. 267)."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Ethics (confidentiality), p. 267"
+        },
+        {
+          "title": "CDC National Center for Health Statistics: Sexually Transmitted Disease (STD) Surveillance",
+          "url": "https://www.cdc.gov/nchs/hus/sources-definitions/std.htm"
+        }
+      ]
+    },
+    {
+      "id": "ethics-error-disclosure-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Behavioral Science",
+      "system": "General Principles",
+      "topic": "Patient safety: disclosure of medical errors",
+      "difficulty": 1,
+      "stem": "A 67-year-old woman is in the hospital for pneumonia. A nurse realizes that 2 hours earlier she gave the patient a 25-mg dose of metoprolol that was meant for the patient in the next bed. Over the next 4 hours, the woman's blood pressure and heart rate stay normal, and she has no symptoms. She is alert and has decision-making capacity. The nurse asks the resident whether the patient really needs to be told, since \"nothing happened.\"",
+      "leadIn": "Which of the following is the most appropriate action?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tell the patient what happened and what is being done"
+        },
+        {
+          "id": "b",
+          "text": "Do not tell her because she was not harmed"
+        },
+        {
+          "id": "c",
+          "text": "Tell her only if a complication develops in the next day"
+        },
+        {
+          "id": "d",
+          "text": "Tell her family but not the patient"
+        },
+        {
+          "id": "e",
+          "text": "Document it only in the incident report"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: tell the patient. Why: Your First Aid pages in the biostats file (p. 274) say that medical errors should be disclosed to patients whether or not they cause harm. The AMA Code of Medical Ethics (Opinion 8.6) says physicians should disclose the error, explain the possible harm, and give the patient the information needed to make decisions about future care, even when the new information will not change treatment. It adds that worry about legal liability should not affect a physician's honesty. The event should also go into the hospital's reporting system so the process can be fixed (your First Aid pages in the biostats file, p. 273, safety culture and event reporting).",
+      "whyWrong": {
+        "b": "Errors are disclosed whether or not they cause harm (your First Aid pages in the biostats file, p. 274).",
+        "c": "Waiting for a complication delays disclosure. The AMA says to disclose even when the information will not change treatment.",
+        "d": "She has capacity, so she is told first. Sharing her information with family needs her permission (standard teaching).",
+        "e": "An incident report helps fix the system, but it does not replace telling the patient (AMA Opinion 8.6)."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Quality and safety (medical errors), pp. 273-274"
+        },
+        {
+          "title": "AMA Code of Medical Ethics, Opinion 8.6: Promoting Patient Safety",
+          "url": "https://code-medical-ethics.ama-assn.org/ethics-opinions/promoting-patient-safety"
+        }
+      ]
+    },
+    {
+      "id": "comm-spikes-emotion-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Behavioral Science",
+      "system": "General Principles",
+      "topic": "Communication: delivering bad news (SPIKES)",
+      "difficulty": 1,
+      "stem": "A 58-year-old man returns to the clinic to hear the results of a liver biopsy. In a quiet room, the physician asks what he already knows, and he says he is worried it might be cancer. After he agrees that he wants the full results, the physician tells him the biopsy shows pancreatic cancer that has spread to the liver. He looks down, is silent for a moment, and starts to cry.",
+      "leadIn": "Which of the following is the most appropriate next response by the physician?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pause, then acknowledge that this is very hard news"
+        },
+        {
+          "id": "b",
+          "text": "Start describing chemotherapy options to give him hope"
+        },
+        {
+          "id": "c",
+          "text": "Tell him that many patients do well with treatment"
+        },
+        {
+          "id": "d",
+          "text": "Ask whether he wants to hear the survival numbers now"
+        },
+        {
+          "id": "e",
+          "text": "Leave the room to give him some time alone"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: respond to his emotion with empathy. Why: SPIKES (Baile and colleagues, The Oncologist, 2000) is a six-step plan for giving bad news: Setting, Perception, Invitation, Knowledge, Emotions, and Strategy and summary. The physician has already done the first four steps. The E step is an empathic response: notice the emotion, name it to yourself, identify its cause (usually the news itself), and, after giving the patient a short time to express his feelings, make a statement that connects the feeling to its cause. The authors call responding to emotions one of the hardest parts of breaking bad news. Treatment plans come later, in the Strategy step.",
+      "whyWrong": {
+        "b": "Moving to treatment while he is crying skips the Emotions step; plans belong to the later Strategy step (Baile 2000).",
+        "c": "Quick reassurance is not empathy and may not be true for cancer that has already spread (standard teaching).",
+        "d": "Offering more information now skips over his emotion, which SPIKES says to address first (Baile 2000).",
+        "e": "Leaving him alone withdraws support at the moment he most needs it (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "Baile WF et al. SPIKES: a six-step protocol for delivering bad news. The Oncologist 2000;5:302-311",
+          "url": "https://kamer.ku.edu.tr/wp-content/uploads/2022/03/2000-SPIKES-Giving-patients-bad-news.pdf"
+        }
+      ]
+    },
+    {
+      "id": "comm-interpreter-spouse-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Behavioral Science",
+      "system": "General Principles",
+      "topic": "Communication: medical interpreters",
+      "difficulty": 1,
+      "stem": "A 45-year-old woman who speaks only Vietnamese comes to the clinic to discuss an abnormal Pap test result and a planned colposcopy. Her husband, who speaks English well, offers to interpret. It is not an emergency. The clinic has interpreter services available by phone and video. She has not asked for her husband to interpret.",
+      "leadIn": "Which of the following is the most appropriate way to communicate with her?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Use a qualified medical interpreter by phone or video"
+        },
+        {
+          "id": "b",
+          "text": "Have her husband interpret since he is fluent"
+        },
+        {
+          "id": "c",
+          "text": "Speak slowly in simple English and use gestures"
+        },
+        {
+          "id": "d",
+          "text": "Have a bilingual receptionist with no training interpret"
+        },
+        {
+          "id": "e",
+          "text": "Use an online translation app on the phone"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: use a qualified medical interpreter. Why: The federal rule for health programs that receive federal money (45 CFR 92.201) says language help must come from a qualified interpreter. An adult who comes with the patient may interpret only in an emergency that threatens someone's safety when no qualified interpreter is available, or when the patient asks for it privately, with a qualified interpreter present, and it is appropriate. A minor child may interpret only as a temporary measure in an emergency. StatPearls (Informed Consent) also says medical interpreter services must be used for patients with limited English proficiency. Family members may leave out or change information, and a sensitive topic such as a gynecologic result can be hard to discuss through a spouse (standard teaching).",
+      "whyWrong": {
+        "b": "A companion may interpret only in an emergency or when the patient asks for it in private (45 CFR 92.201). Neither applies here.",
+        "c": "Simple English and gestures will not let her understand her result and give informed consent (StatPearls).",
+        "d": "Speaking two languages does not make someone a trained medical interpreter who can render medical terms accurately (standard teaching).",
+        "e": "Translation apps can make errors with medical terms and are not a qualified interpreter (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "45 CFR 92.201: Meaningful access for individuals with limited English proficiency (eCFR)",
+          "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-A/part-92/subpart-C/section-92.201"
+        },
+        {
+          "title": "StatPearls: Informed Consent",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK430827/"
+        }
+      ]
+    },
+    {
+      "id": "ethics-nonadherence-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Behavioral Science",
+      "system": "General Principles",
+      "topic": "Ethics: nonadherence",
+      "difficulty": 1,
+      "stem": "A 59-year-old man comes for follow-up of hypertension. Six months ago he was prescribed amlodipine, lisinopril, and hydrochlorothiazide. Today his blood pressure is 164/98 mm Hg, the same as before treatment. Pharmacy records show that he filled the prescriptions only once. When the physician mentions this, he looks at the floor and says nothing.",
+      "leadIn": "Which of the following is the most appropriate next step?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ask in a nonjudgmental way what makes taking them hard"
+        },
+        {
+          "id": "b",
+          "text": "Add a fourth drug for resistant hypertension"
+        },
+        {
+          "id": "c",
+          "text": "Tell him he will have a stroke unless he takes them"
+        },
+        {
+          "id": "d",
+          "text": "Refer him to a different physician for a fresh start"
+        },
+        {
+          "id": "e",
+          "text": "Tell him you cannot keep treating him unless he adheres"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: explore the reasons without judgment. Why: Your First Aid pages in the biostats file (p. 268) advise trying to find the reason for nonadherence and how willing the patient is to change, without coercing him or referring him to another physician. Brown and Sinsky (Family Practice Management, 2013) point out that how the question is asked matters, because patients want to please their doctor. They also note that forgetting explains less than 30% of nonadherence; many patients make a deliberate choice based on cost, fear of side effects, or doubt that the drug helps. Once the reason is known, the plan can change, for example fewer pills taken less often or extended-release forms.",
+      "whyWrong": {
+        "b": "Adherence must be confirmed before hypertension is called resistant. A fourth drug adds to pills he is already not taking (standard teaching).",
+        "c": "A scare tactic is a form of pressure; your First Aid pages in the biostats file (p. 268) advise against coercing adherence.",
+        "d": "Referring him away does not solve the problem and is advised against (your First Aid pages in the biostats file, p. 268).",
+        "e": "Threatening to end care is coercion (your First Aid pages in the biostats file, p. 268)."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Ethical situations, p. 268"
+        },
+        {
+          "title": "Brown MT, Sinsky CA. Medication Adherence: We Didn't Ask and They Didn't Tell. Fam Pract Manag 2013;20(2):25-30",
+          "url": "https://www.aafp.org/pubs/fpm/issues/2013/0300/p25.html"
+        }
+      ]
+    },
+    {
+      "id": "ethics-alternative-medicine-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Behavioral Science",
+      "system": "General Principles",
+      "topic": "Ethics: complementary and alternative medicine",
+      "difficulty": 2,
+      "stem": "A 34-year-old woman comes for a routine visit. She takes a combined oral contraceptive pill and has taken sertraline for depression for 1 year, with good results. She says a friend told her that St. John's wort is \"natural and safer,\" and she plans to start it next week.",
+      "leadIn": "Which of the following is the most appropriate response?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ask why she wants it, then explain its risks and interactions"
+        },
+        {
+          "id": "b",
+          "text": "Tell her herbal products are unproven and decline to discuss them"
+        },
+        {
+          "id": "c",
+          "text": "Approve it, since natural products have few interactions"
+        },
+        {
+          "id": "d",
+          "text": "Stop sertraline so she can try St. John's wort alone"
+        },
+        {
+          "id": "e",
+          "text": "Refer her to a naturopath to manage the herbal treatment"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: explore her reasons and advise her. Why: Your First Aid pages in the biostats file (p. 269) advise exploring the patient's reasons in a supportive, nonjudgmental way and telling her the known benefits and risks, including side effects, contraindications, and drug interactions. The interactions matter here. NCCIH rates St. John's wort as high risk for interactions because it strongly induces cytochrome P-450 enzymes and P-glycoprotein. It has documented interactions with oral contraceptives, warfarin, cyclosporine, digoxin, and others, and with some antidepressants it can increase serotonin-related side effects that may be serious.",
+      "whyWrong": {
+        "b": "Refusing to talk ends the conversation and may lead her to take it without advice; your First Aid pages in the biostats file (p. 269) advise a supportive discussion.",
+        "c": "St. John's wort is high risk for drug interactions, including with oral contraceptives (NCCIH).",
+        "d": "Stopping an antidepressant that works, to try an herb, risks relapse and was not the plan of a shared discussion (standard teaching).",
+        "e": "Handing her off avoids the discussion of risks and interactions that her own physician should have (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Ethical situations, p. 269"
+        },
+        {
+          "title": "NCCIH: Herb-Drug Interactions: What the Science Says",
+          "url": "https://www.nccih.nih.gov/health/providers/digest/herb-drug-interactions-science"
+        }
+      ]
+    },
+    {
+      "id": "ethics-brain-death-family-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Behavioral Science",
+      "system": "General Principles",
+      "topic": "Ethics: brain death",
+      "difficulty": 2,
+      "stem": "A 34-year-old man is in the intensive care unit 2 days after a motorcycle crash with a severe head injury. Today he was declared dead by brain death criteria after a complete neurologic examination and an apnea test done according to hospital policy. When a nurse touches his foot, his leg pulls back. His parents say, \"He is still moving,\" and ask that the ventilator be continued indefinitely.",
+      "leadIn": "Which of the following is the most appropriate response?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Gently explain that he died and the movement is a reflex"
+        },
+        {
+          "id": "b",
+          "text": "Keep the ventilator on indefinitely, as his family requests"
+        },
+        {
+          "id": "c",
+          "text": "Repeat the apnea test every day until the family accepts it"
+        },
+        {
+          "id": "d",
+          "text": "Tell them the movement suggests he may recover"
+        },
+        {
+          "id": "e",
+          "text": "Turn off the ventilator now without any further discussion"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: explain gently that brain death is death. Why: Your First Aid pages in the biostats file (p. 269) advise gently telling the family that he cannot recover, that brain death is equal to death, and that the movement is a spinal reflex, not a voluntary act. The case can be taken to the ethics committee about the futility of continuing support. StatPearls (Brain Death Criteria) explains that in the United States the Uniform Determination of Death Act defines death to include irreversible loss of all functions of the entire brain, including the brainstem. It also says some spinal reflexes, such as leg flexion, can still occur and are compatible with brain death. The team should be supportive and make religious accommodations if the family wishes (StatPearls).",
+      "whyWrong": {
+        "b": "Brain death is death, so support is not continued indefinitely; a dispute goes to the ethics committee (your First Aid pages in the biostats file, p. 269).",
+        "c": "Repeating the test does not change a confirmed diagnosis and does not address the family's grief (standard teaching).",
+        "d": "Spinal reflexes are compatible with brain death and do not mean recovery is possible (StatPearls).",
+        "e": "The family needs explanation and support first (StatPearls)."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Ethical situations, p. 269"
+        },
+        {
+          "title": "StatPearls: Brain Death Criteria",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK545144/"
+        }
+      ]
+    },
+    {
+      "id": "safety-forcing-function-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Behavioral Science",
+      "system": "General Principles",
+      "topic": "Patient safety: forcing functions",
+      "difficulty": 2,
+      "stem": "Vincristine is a chemotherapy drug that is fatal if injected into the spinal fluid. At one hospital, it was twice ordered by mistake as an intrathecal (spinal) dose in the same year. Both orders were caught by a pharmacist before the drug was given. The safety committee wants the change that is most likely to prevent this error from happening again.",
+      "leadIn": "Which of the following interventions is most likely to be effective?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An order system that blocks any route other than IV"
+        },
+        {
+          "id": "b",
+          "text": "Yearly training on chemotherapy safety for all staff"
+        },
+        {
+          "id": "c",
+          "text": "A bright warning label on every vincristine bag"
+        },
+        {
+          "id": "d",
+          "text": "A checklist read aloud before each chemotherapy dose"
+        },
+        {
+          "id": "e",
+          "text": "A written policy that disciplines staff who make errors"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: a forcing function. Why: A forcing function is a design that makes the wrong action impossible. Your First Aid pages in the biostats file (p. 273) call forcing functions the most effective human factors design. ISMP's hierarchy of effectiveness (2026) agrees. Forcing functions, barriers, and automation are high-leverage. Standardization, warnings, alerts, and checklists are medium-leverage. Rules, policies, and education are low-leverage because they depend on people remembering. ISMP gives this very example: a hard stop in the electronic health record that does not allow the IV route of a vinca alkaloid to be changed. That vincristine given into the spinal fluid is fatal is standard teaching.",
+      "whyWrong": {
+        "b": "Education and training are low-leverage because they rely on memory and attention (ISMP).",
+        "c": "Warnings and alerts are medium-leverage; they can be missed or ignored (ISMP).",
+        "d": "Checklists are medium-leverage. They make processes more reliable but still depend on people (your First Aid pages in the biostats file, p. 273; ISMP).",
+        "e": "Rules and policies are low-leverage (ISMP), and blame works against a safety culture in which staff can report concerns without fear (your First Aid pages in the biostats file, p. 273)."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Quality and safety, p. 273"
+        },
+        {
+          "title": "ISMP: Implement High-Leverage and Layered Risk-Reduction Strategies Using ISMP's Hierarchy of Effectiveness (2026)",
+          "url": "https://home.ecri.org/blogs/ismp-alerts-and-articles-library/implement-high-leverage-and-layered-risk-reduction-strategies-using-ismp-s-hierarchy-of-effectiveness"
+        }
+      ]
+    },
+    {
+      "id": "devel-aging-sleep-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Behavioral Science",
+      "system": "General Principles",
+      "topic": "Human development: sleep in older adults",
+      "difficulty": 1,
+      "stem": "A 74-year-old woman says that over the past few years her sleep has changed. It takes her longer to fall asleep, she wakes up several times during the night, and she wakes at 4:30 AM and cannot get back to sleep. She goes to bed around 9:30 PM. She feels rested during the day, her mood is good, and her husband says she does not snore. She does crossword puzzles daily, and her memory is unchanged.",
+      "leadIn": "Compared with a young adult, which of the following is an expected change in her sleep?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Less slow-wave sleep"
+        },
+        {
+          "id": "b",
+          "text": "Shorter sleep latency"
+        },
+        {
+          "id": "c",
+          "text": "More REM sleep"
+        },
+        {
+          "id": "d",
+          "text": "Fewer early awakenings"
+        },
+        {
+          "id": "e",
+          "text": "Higher sleep efficiency"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: less slow-wave sleep. Why: Your First Aid pages in the biostats file (p. 270) list the sleep changes of normal aging: less REM sleep and less slow-wave sleep, a longer time to fall asleep, and more early-morning awakenings. The same page notes that intelligence does not decline with normal aging. MSD Manual (Overview of Sleep) agrees that older adults spend less time in deep sleep, wake up more often and more easily, and tend to fall asleep and wake up early. She functions well during the day and has no signs of depression or sleep apnea, so this pattern fits normal aging.",
+      "whyWrong": {
+        "b": "Sleep latency (time to fall asleep) gets longer with age (your First Aid pages in the biostats file, p. 270).",
+        "c": "REM sleep decreases with age (your First Aid pages in the biostats file, p. 270).",
+        "d": "Early-morning awakenings increase with age (your First Aid pages in the biostats file, p. 270; MSD).",
+        "e": "More awakenings and less deep sleep mean lower sleep efficiency (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: The well patient (changes in the elderly), p. 270"
+        },
+        {
+          "title": "MSD Manual Consumer Version: Overview of Sleep",
+          "url": "https://www.msdmanuals.com/home/brain-spinal-cord-and-nerve-disorders/sleep-disorders/overview-of-sleep"
+        }
+      ]
+    },
+    {
+      "id": "devel-child-death-concept-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Behavioral Science",
+      "system": "General Principles",
+      "topic": "Human development: a child's understanding of death",
+      "difficulty": 1,
+      "stem": "A 6-year-old girl's grandfather died of a heart attack 2 weeks ago. Her parents told her that \"Grandpa went to sleep and won't wake up.\" Since then she has refused to go to bed and cries at bedtime. She keeps asking when Grandpa will come back. Her parents ask the pediatrician how to talk with her.",
+      "leadIn": "Which of the following is the most appropriate advice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Explain plainly that Grandpa died and will not come back"
+        },
+        {
+          "id": "b",
+          "text": "Keep telling her that Grandpa is asleep so she will not be upset"
+        },
+        {
+          "id": "c",
+          "text": "Tell her she is too young to understand death"
+        },
+        {
+          "id": "d",
+          "text": "Keep her away from the funeral and avoid talking about him"
+        },
+        {
+          "id": "e",
+          "text": "Wait until she is older to talk about his death"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: explain plainly that he died. Why: Your First Aid pages in the biostats file (p. 269) note that between about 5 and 7 years of age, children start to grasp that death lasts forever, that the body stops working completely, and that every living thing eventually dies. They advise a direct, concrete description of the death, without clichés or euphemisms, along with reassurance that the child is not to blame, acceptance of her fears and feelings, and play and healthy ways of remembering. HealthyChildren.org (American Academy of Pediatrics) warns that saying someone \"went to sleep\" can make children, who take words literally, afraid of going to sleep. That is what happened here.",
+      "whyWrong": {
+        "b": "Saying he is asleep is the euphemism causing her fear of bedtime (HealthyChildren.org).",
+        "c": "At 6 she is starting to understand that death is permanent (your First Aid pages in the biostats file, p. 269).",
+        "d": "Shutting down talk about him goes against naming her feelings and helping her remember him in her own way (your First Aid pages in the biostats file, p. 269).",
+        "e": "A direct, concrete explanation now is advised, not a delay (your First Aid pages in the biostats file, p. 269)."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Ethical situations (child and death), p. 269"
+        },
+        {
+          "title": "HealthyChildren.org (AAP): How Children Understand Death: What to Say When a Loved One Dies",
+          "url": "https://www.healthychildren.org/English/healthy-living/emotional-wellness/Building-Resilience/Pages/How-Children-Understand-Death-What-You-Should-Say.aspx"
+        }
+      ]
+    },
+    {
+      "id": "devel-infant-weight-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "General Principles",
+      "topic": "Human development: infant growth",
+      "difficulty": 1,
+      "stem": "A healthy boy is brought for his 12-month well-child visit. He was born at term weighing 3.4 kg (7.5 lb). He has been breastfed and started solid foods at 6 months. He has had no illnesses, and his length and head circumference have followed the 50th percentile.",
+      "leadIn": "If his weight has followed the usual pattern, which of the following is closest to his weight now?",
+      "options": [
+        {
+          "id": "a",
+          "text": "About 5 kg"
+        },
+        {
+          "id": "b",
+          "text": "About 7 kg"
+        },
+        {
+          "id": "c",
+          "text": "About 10 kg"
+        },
+        {
+          "id": "d",
+          "text": "About 14 kg"
+        },
+        {
+          "id": "e",
+          "text": "About 17 kg"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Answer: about 10 kg. Why: MSD Manual (Physical Growth of Infants and Children) gives the usual pattern for term infants. They lose 5 to 8% of birth weight in the first days and are back to birth weight by about 2 weeks. Birth weight roughly doubles by about 5 months and triples by 1 year, so 3.4 kg × 3 ≈ 10 kg. In the first year, length increases by about 25 cm and head circumference grows by about 1 cm a month (MSD).",
+      "whyWrong": {
+        "a": "About 5 kg is less than double his birth weight; most infants reach double (about 7 kg) by about 5 months (MSD).",
+        "b": "About 7 kg is double his birth weight, which is expected at about 5 months, not 12 months (MSD).",
+        "d": "About 14 kg is about four times birth weight, more than the usual tripling by 1 year (MSD).",
+        "e": "About 17 kg is five times birth weight and would mean far faster weight gain than the usual pattern (MSD)."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Physical Growth of Infants and Children",
+          "url": "https://www.msdmanuals.com/professional/pediatrics/growth-and-development/physical-growth-of-infants-and-children"
+        }
+      ]
+    },
+    {
+      "id": "endo-precocious-puberty-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Endocrine",
+      "topic": "Precocious puberty",
+      "difficulty": 2,
+      "stem": "A 7-year-old girl is brought to the physician because of breast development for 6 months and new pubic hair. Over the past year, her height has risen from the 50th to the 90th percentile. She has no headaches, vision changes, or seizures. Examination shows Tanner stage 3 breasts and stage 2 pubic hair, normal visual fields, and no skin spots. An x-ray of the left hand shows a bone age of 10 years. A morning serum LH level is in the pubertal range. Pelvic ultrasonography shows an enlarged uterus and normal ovaries with no mass.",
+      "leadIn": "Which of the following is the most likely diagnosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Idiopathic central precocious puberty"
+        },
+        {
+          "id": "b",
+          "text": "Hypothalamic hamartoma"
+        },
+        {
+          "id": "c",
+          "text": "McCune-Albright syndrome"
+        },
+        {
+          "id": "d",
+          "text": "Granulosa cell tumor of the ovary"
+        },
+        {
+          "id": "e",
+          "text": "Exposure to an estrogen-containing cream"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: idiopathic central precocious puberty. Why: MSD Manual defines precocious puberty as puberty starting before age 8 in girls or before age 9 in boys, and notes that these cutoffs are being reconsidered. In the central type, the hypothalamic-pituitary-gonadal axis switches on early, so LH is in the pubertal range; a morning LH level is the best first test. Bone age is often advanced and growth speeds up. Most girls with the central type have no cause found, while a brain lesion is more common in boys. MSD advises MRI for girls younger than 6 and for all boys, but not routinely for girls aged 6 to 8 without neurologic signs. Treatment with a GnRH agonist, such as leuprolide or a histrelin implant, can help preserve adult height (MSD).",
+      "whyWrong": {
+        "b": "A hypothalamic hamartoma causes central puberty, but most girls aged 6 to 8 have no cause found and do not need routine MRI (MSD).",
+        "c": "McCune-Albright syndrome causes peripheral puberty with low LH; it comes with café-au-lait spots and bone lesions (standard teaching).",
+        "d": "An estrogen-producing ovarian tumor causes peripheral puberty with suppressed LH and an ovarian mass on ultrasound (standard teaching).",
+        "e": "Outside estrogen causes peripheral puberty, and LH stays low (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Precocious Puberty",
+          "url": "https://www.msdmanuals.com/professional/pediatrics/endocrine-disorders-in-children/precocious-puberty"
+        }
+      ]
+    },
+    {
+      "id": "devel-milestone-18mo-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Behavioral Science",
+      "system": "General Principles",
+      "topic": "Human development: developmental milestones",
+      "difficulty": 1,
+      "stem": "An 18-month-old boy is brought for a well-child visit. He was born at term and has been healthy. His parents have no concerns, but they ask which skills most children his age have. The physician uses the CDC milestone checklists, which list skills that most children reach by each age.",
+      "leadIn": "By 18 months, most children can do which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Walk alone without holding on to anything"
+        },
+        {
+          "id": "b",
+          "text": "Put two words together, such as \"more milk\""
+        },
+        {
+          "id": "c",
+          "text": "Kick a ball"
+        },
+        {
+          "id": "d",
+          "text": "Hop on one foot"
+        },
+        {
+          "id": "e",
+          "text": "Eat with a fork"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: walk alone. Why: CDC's milestone checklists (Learn the Signs. Act Early.) list skills that 75% or more of children reach by each age, so missing one is a reason to look more closely. By 18 months these include walking without holding on to anyone or anything, trying to say three or more words besides \"mama\" or \"dada,\" following one-step directions without gestures, scribbling, and climbing on and off a couch or chair without help. Putting two words together and kicking a ball are 2-year milestones, using a fork is a 3-year milestone, and hopping on one foot is a 5-year milestone (CDC).",
+      "whyWrong": {
+        "b": "Saying two words together, such as \"more milk,\" is a 2-year milestone (CDC).",
+        "c": "Kicking a ball is a 2-year milestone (CDC).",
+        "d": "Hopping on one foot is a 5-year milestone (CDC).",
+        "e": "Eating with a fork is a 3-year milestone (CDC)."
+      },
+      "sources": [
+        {
+          "title": "CDC Learn the Signs. Act Early.: Milestones by 18 Months",
+          "url": "https://www.cdc.gov/act-early/milestones/18-months.html"
+        },
+        {
+          "title": "CDC Learn the Signs. Act Early.: Milestones by 2 Years",
+          "url": "https://www.cdc.gov/act-early/milestones/2-years.html"
+        },
+        {
+          "title": "CDC Learn the Signs. Act Early.: Milestones by 3 Years",
+          "url": "https://www.cdc.gov/act-early/milestones/3-years.html"
+        },
+        {
+          "title": "CDC Learn the Signs. Act Early.: Milestones by 5 Years",
+          "url": "https://www.cdc.gov/act-early/milestones/5-years.html"
+        }
+      ]
+    },
+    {
+      "id": "immuno-xla-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Immunology",
+      "system": "Immune System",
+      "topic": "X-linked (Bruton) agammaglobulinemia",
+      "difficulty": 2,
+      "stem": "A 2-year-old boy is brought to the physician because of frequent infections. Since age 8 months he has had six ear infections and two episodes of pneumonia, one caused by Streptococcus pneumoniae and one by Haemophilus influenzae. His maternal uncle died of an infection as a child. His tonsils are very small, and no lymph nodes can be felt. Serum IgG, IgA, and IgM are all very low. Flow cytometry shows that less than 1% of his lymphocytes are CD19+ B cells; T-cell counts are normal.",
+      "leadIn": "A mutation in which of the following genes is most likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "BTK"
+        },
+        {
+          "id": "b",
+          "text": "CD40LG"
+        },
+        {
+          "id": "c",
+          "text": "ADA"
+        },
+        {
+          "id": "d",
+          "text": "CYBB"
+        },
+        {
+          "id": "e",
+          "text": "IL2RG"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: BTK (X-linked, or Bruton, agammaglobulinemia). Why: MSD Manual explains that a mutation in Bruton tyrosine kinase blocks B-cell maturation, so B cells are nearly absent and all immunoglobulin classes are very low. Affected boys have recurrent infections with encapsulated bacteria, very small tonsils, and no lymph nodes. Treatment is lifelong immune globulin replacement, and live vaccines must not be given (MSD). Your El-Husseiny Micro & Immuno notes (p. 464) add that infections begin after about 6 months, when the mother's IgG fades, that T cells are normal, and that enteroviral infections and Giardia are typical.",
+      "whyWrong": {
+        "b": "CD40 ligand mutations cause hyper-IgM syndrome; B cells are present and IgM is normal or high (standard teaching).",
+        "c": "ADA deficiency causes severe combined immunodeficiency with very low T cells as well (standard teaching).",
+        "d": "CYBB mutations cause X-linked chronic granulomatous disease, a phagocyte killing defect with normal antibodies (MSD).",
+        "e": "IL2RG mutations cause X-linked severe combined immunodeficiency, with absent T and NK cells (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: X-Linked Agammaglobulinemia",
+          "url": "https://www.msdmanuals.com/professional/immunology-allergic-disorders/immunodeficiency-disorders/x-linked-agammaglobulinemia"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Chapter 7 Immunology"
+        }
+      ]
+    },
+    {
+      "id": "immuno-cgd-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Immunology",
+      "system": "Immune System",
+      "topic": "Chronic granulomatous disease",
+      "difficulty": 2,
+      "stem": "A 4-year-old boy has had several skin abscesses and an abscess in a neck lymph node, all growing Staphylococcus aureus. Last year he had a liver abscess. He is now admitted with pneumonia, and Aspergillus fumigatus grows from a lung biopsy that also shows granulomas. Immunoglobulin levels and lymphocyte counts are normal. In a dihydrorhodamine (DHR) flow cytometry test, his neutrophils do not become fluorescent after stimulation.",
+      "leadIn": "His neutrophils are most likely unable to do which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Produce superoxide during the respiratory burst"
+        },
+        {
+          "id": "b",
+          "text": "Roll along endothelium using sialyl Lewis X"
+        },
+        {
+          "id": "c",
+          "text": "Migrate out of vessels using CD18-containing integrins"
+        },
+        {
+          "id": "d",
+          "text": "Fuse phagosomes with lysosomes"
+        },
+        {
+          "id": "e",
+          "text": "Convert hydrogen peroxide to hypochlorous acid"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: produce superoxide (chronic granulomatous disease, CGD). Why: MSD Manual explains that CGD is a defect in NADPH oxidase, so phagocytes cannot make superoxide and other reactive oxygen compounds to kill microbes. More than half of cases are X-linked. Infections are caused by catalase-producing organisms such as S. aureus, E. coli, Serratia, Klebsiella, Pseudomonas, and fungi, and Aspergillus infection is the leading cause of death. Granulomas can form and block the gut or urinary tract. Diagnosis is by the DHR flow test; prevention uses trimethoprim-sulfamethoxazole and an azole antifungal, often with interferon gamma, and stem cell transplant can cure it (MSD). Your El-Husseiny Micro & Immuno notes (p. 473) explain why catalase matters: catalase-negative bacteria leave their own hydrogen peroxide in the phagosome, which the neutrophil can still use to kill them, while catalase-positive organisms break it down.",
+      "whyWrong": {
+        "b": "Rolling with sialyl Lewis X fails in leukocyte adhesion deficiency type 2 (standard teaching).",
+        "c": "A CD18 integrin defect is leukocyte adhesion deficiency type 1, with delayed cord separation and no pus (standard teaching).",
+        "d": "Failure of phagosome-lysosome fusion occurs in Chédiak-Higashi syndrome, with albinism and giant granules (standard teaching).",
+        "e": "Myeloperoxidase deficiency blocks hypochlorous acid formation; it is usually mild, and superoxide production is normal (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Chronic Granulomatous Disease (CGD)",
+          "url": "https://www.msdmanuals.com/professional/immunology-allergic-disorders/immunodeficiency-disorders/chronic-granulomatous-disease-cgd"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Chapter 7 Immunology"
+        }
+      ]
+    },
+    {
+      "id": "immuno-digeorge-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Immunology",
+      "system": "Immune System",
+      "topic": "DiGeorge syndrome (22q11.2 deletion)",
+      "difficulty": 2,
+      "stem": "A 2-day-old boy has twitching of his face and hands. He was born at term. A murmur is heard, and echocardiography shows truncus arteriosus. He has low-set ears, a small jaw, and a short groove above the lip. Serum calcium is 6.4 mg/dL (normal 8.5-10.5), and parathyroid hormone is low. A chest x-ray shows no thymic shadow.",
+      "leadIn": "Abnormal development of which of the following structures most likely caused his condition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Third and fourth pharyngeal pouches"
+        },
+        {
+          "id": "b",
+          "text": "First pharyngeal arch and first pouch"
+        },
+        {
+          "id": "c",
+          "text": "Second pharyngeal pouch"
+        },
+        {
+          "id": "d",
+          "text": "Thyroglossal duct"
+        },
+        {
+          "id": "e",
+          "text": "Fourth and sixth pharyngeal arches"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the third and fourth pharyngeal pouches (DiGeorge syndrome). Why: MSD Manual explains that DiGeorge syndrome results from abnormal development of the pharyngeal pouches around week 8 of gestation. Most cases are due to a deletion at chromosome 22q11, and a few involve 10p13. Underdeveloped parathyroid glands cause hypocalcemic tetany, typically at 24 to 48 hours of life. Conotruncal heart defects such as interrupted aortic arch, truncus arteriosus, and tetralogy of Fallot are common. A missing or small thymus causes low T cells and infections. Complete DiGeorge syndrome, with no thymus, is treated with cultured thymus tissue transplant or stem cell transplant (MSD). Your El-Husseiny Micro & Immuno notes (p. 466) describe the same 22q11 microdeletion, with failed development of third and fourth pouch structures and absent thymus and parathyroid glands.",
+      "whyWrong": {
+        "b": "The first arch forms the jaw muscles and two middle ear bones, and the first pouch forms the middle ear cavity (standard teaching).",
+        "c": "The second pouch forms the palatine tonsil, not the thymus or parathyroids (standard teaching).",
+        "d": "The thyroglossal duct is the path of the thyroid's descent; it can leave a midline neck cyst (standard teaching).",
+        "e": "The fourth and sixth arches form laryngeal cartilages and muscles (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: DiGeorge Syndrome",
+          "url": "https://www.msdmanuals.com/professional/immunology-allergic-disorders/immunodeficiency-disorders/digeorge-syndrome"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Chapter 7 Immunology"
+        }
+      ]
+    },
+    {
+      "id": "immuno-iga-deficiency-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Immune System",
+      "topic": "Selective IgA deficiency",
+      "difficulty": 2,
+      "stem": "A 26-year-old woman has a sudden drop in blood pressure, wheezing, and hives within minutes of starting a red blood cell transfusion for bleeding after childbirth. The transfusion is stopped and she is treated with epinephrine. She has celiac disease and frequent sinus infections. Serum IgA is undetectable (less than 7 mg/dL), and IgG and IgM levels are normal.",
+      "leadIn": "If she needs red blood cells in the future, which of the following is the most appropriate choice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Washed red cells or cells from IgA-deficient donors"
+        },
+        {
+          "id": "b",
+          "text": "Monthly intravenous immune globulin infusions"
+        },
+        {
+          "id": "c",
+          "text": "Usual red cells after premedication with diphenhydramine"
+        },
+        {
+          "id": "d",
+          "text": "Irradiated red cells to prevent graft-versus-host disease"
+        },
+        {
+          "id": "e",
+          "text": "Leukoreduced red cells to prevent febrile reactions"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: washed red cells or blood from IgA-deficient donors. Why: MSD Manual describes selective IgA deficiency as the most common primary immunodeficiency, with IgA below 7 mg/dL and normal IgG and IgM. Most people have no symptoms, but some have recurrent sinus and lung infections, and it is linked to celiac disease and autoimmune diseases. Some patients make antibodies against IgA and can have anaphylaxis when given blood products or immune globulin that contain IgA, so they need washed red cells or blood from IgA-deficient donors. Your El-Husseiny Micro & Immuno notes (p. 465) give the same warning that IgA in transfused blood can cause fatal anaphylaxis and that gamma-globulin should not be used.",
+      "whyWrong": {
+        "b": "Immune globulin does not replace IgA and can trigger anaphylaxis in patients with anti-IgA antibodies (MSD; your El-Husseiny Micro & Immuno notes, p. 465).",
+        "c": "Premedication does not prevent anaphylaxis caused by anti-IgA antibodies (standard teaching).",
+        "d": "Irradiation prevents transfusion-associated graft-versus-host disease but does not remove IgA (standard teaching).",
+        "e": "Leukoreduction removes white cells, not the IgA in the plasma (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Selective IgA Deficiency",
+          "url": "https://www.msdmanuals.com/professional/immunology-allergic-disorders/immunodeficiency-disorders/selective-iga-deficiency"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Chapter 7 Immunology"
+        }
+      ]
+    },
+    {
+      "id": "path-hyperacute-rejection-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Immune System",
+      "topic": "Transplant rejection: hyperacute",
+      "difficulty": 2,
+      "stem": "A 45-year-old man with end-stage kidney disease receives a kidney from a deceased donor. Within minutes after the vascular clamps are released, the new kidney turns mottled and dark blue and makes no urine. A biopsy shows clots in the small vessels, fibrinoid necrosis of the arteriole walls, and many neutrophils.",
+      "leadIn": "Which of the following is the most likely mechanism?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Preformed recipient antibodies against donor antigens"
+        },
+        {
+          "id": "b",
+          "text": "Recipient CD8 T cells activated by donor MHC"
+        },
+        {
+          "id": "c",
+          "text": "Donor T cells attacking recipient tissues"
+        },
+        {
+          "id": "d",
+          "text": "Gradual intimal thickening of arteries from chronic injury"
+        },
+        {
+          "id": "e",
+          "text": "Antibodies formed weeks after the transplant"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: preformed antibodies (hyperacute rejection). Why: Your El-Husseiny Micro & Immuno notes (pp. 475-476) describe hyperacute rejection as starting within minutes. It is a type II hypersensitivity reaction in which the recipient already has antibodies against donor antigens, such as ABO blood group or HLA antigens, and these antibodies activate complement and cause clotting in the graft's vessels. MSD Manual (Kidney Transplantation) says hyperacute rejection occurs within minutes to hours after the blood supply is restored, is caused by preformed antibodies, and means the graft has failed and must be removed. Crossmatching before transplant aims to prevent it (standard teaching).",
+      "whyWrong": {
+        "b": "CD8 T cells activated against donor MHC cause acute cellular rejection, which takes days to weeks (your El-Husseiny Micro & Immuno notes, p. 476).",
+        "c": "Donor T cells attacking the recipient is graft-versus-host disease, usually after stem cell transplant (standard teaching).",
+        "d": "Slow thickening of the graft's arteries is chronic rejection, which develops over months to years (standard teaching).",
+        "e": "Antibodies made after transplant cause acute humoral rejection, not a reaction within minutes (your El-Husseiny Micro & Immuno notes, p. 476)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Chapter 7 Immunology"
+        },
+        {
+          "title": "MSD Manual Professional: Kidney Transplantation",
+          "url": "https://www.msdmanuals.com/professional/immunology-allergic-disorders/transplantation/kidney-transplantation"
+        }
+      ]
     }
   ]
 }
