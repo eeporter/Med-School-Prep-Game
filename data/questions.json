@@ -3266,6 +3266,425 @@
       ]
     },
     {
+      "id": "biochem-von-gierke-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "General Principles",
+      "topic": "Glycogen storage diseases",
+      "difficulty": 2,
+      "stem": "A 4-month-old girl is brought in after a seizure early in the morning, about 4 hours after her last feed. She has been sweaty and irritable between feeds. She is short for her age, with thin arms and legs, and has a markedly enlarged liver; both kidneys are enlarged on ultrasound. Blood glucose is 32 mg/dL. Lactate, triglycerides, and uric acid are all elevated.",
+      "leadIn": "Deficiency of which enzyme is most likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Glucose-6-phosphatase"
+        },
+        {
+          "id": "b",
+          "text": "Acid alpha-glucosidase (acid maltase)"
+        },
+        {
+          "id": "c",
+          "text": "Glycogen debranching enzyme"
+        },
+        {
+          "id": "d",
+          "text": "Muscle glycogen phosphorylase (myophosphorylase)"
+        },
+        {
+          "id": "e",
+          "text": "Aldolase B"
+        }
+      ],
+      "answer": "a",
+      "explanation": "This is glycogen storage disease type I (von Gierke disease). Signs usually appear around 3 to 4 months of age. Glucose-6-phosphatase, made from the G6PC1 gene, works in the liver, kidneys, and intestine. It splits glucose-6-phosphate to release free glucose, and it is the main regulator of glucose production in the liver. Without it, the liver cannot release glucose between feeds. The result is low blood sugar, an enlarged liver and kidneys, lactic acidosis, high blood fats (hyperlipidemia), high uric acid (which can lead to gout), and short stature with thin arms and legs. Type Ia is the enzyme defect. Type Ib is a defect in the glucose-6-phosphate transport protein (SLC37A4) and also causes neutropenia. Inheritance is autosomal recessive.",
+      "whyWrong": {
+        "b": "Acid alpha-glucosidase deficiency (Pompe disease, type II) stores glycogen in lysosomes. The classic infant form causes heart problems and floppiness (hypotonia), not fasting hypoglycemia.",
+        "c": "Debranching enzyme deficiency (type III) also causes hypoglycemia and an enlarged liver, but the stored glycogen is abnormal and muscle weakness can appear later in life. The combination of lactic acidosis, high uric acid, and high lipids is the pattern described for type I.",
+        "d": "Myophosphorylase deficiency (McArdle disease, type V) affects muscle only: exercise intolerance, cramps, and dark urine, with no liver enlargement or hypoglycemia.",
+        "e": "Aldolase B deficiency (hereditary fructose intolerance) causes symptoms only after fruit, juice, or other fructose enters the diet."
+      },
+      "sources": [
+        {
+          "title": "MedlinePlus Genetics: Glycogen storage disease type I",
+          "url": "https://medlineplus.gov/genetics/condition/glycogen-storage-disease-type-i"
+        },
+        {
+          "title": "MedlinePlus Genetics: G6PC1 gene",
+          "url": "https://medlineplus.gov/genetics/gene/g6pc1"
+        },
+        {
+          "title": "MedlinePlus Genetics: Pompe disease",
+          "url": "https://medlineplus.gov/genetics/condition/pompe-disease/"
+        },
+        {
+          "title": "MedlinePlus Genetics: Glycogen storage disease type III",
+          "url": "https://medlineplus.gov/genetics/condition/glycogen-storage-disease-type-iii/"
+        },
+        {
+          "title": "MedlinePlus Medical Encyclopedia: Glycogen storage disease type V (McArdle)",
+          "url": "https://medlineplus.gov/ency/article/000329.htm"
+        },
+        {
+          "title": "MedlinePlus Genetics: Hereditary fructose intolerance",
+          "url": "https://medlineplus.gov/genetics/condition/hereditary-fructose-intolerance"
+        }
+      ]
+    },
+    {
+      "id": "biochem-mcardle-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "Musculoskeletal",
+      "topic": "Glycogen storage diseases",
+      "difficulty": 1,
+      "stem": "A 19-year-old man has had muscle cramps and early fatigue during sprints and weightlifting since his teens. After a hard workout yesterday his urine turned burgundy. He has no hypoglycemia, and his liver is normal in size. Serum creatine kinase is high, and urine tests positive for myoglobin.",
+      "leadIn": "Deficiency of which enzyme is most likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Muscle glycogen phosphorylase (myophosphorylase)"
+        },
+        {
+          "id": "b",
+          "text": "Glucose-6-phosphatase"
+        },
+        {
+          "id": "c",
+          "text": "Acid alpha-glucosidase (acid maltase)"
+        },
+        {
+          "id": "d",
+          "text": "Glycogen debranching enzyme"
+        },
+        {
+          "id": "e",
+          "text": "Aldolase B"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Exercise intolerance, cramps, and burgundy urine from myoglobin after exercise point to glycogen storage disease type V (McArdle disease). Muscle cannot break down its glycogen to fuel hard exercise, because muscle glycogen phosphorylase (myophosphorylase) is missing. Serum creatine kinase is raised and myoglobin may appear in the urine. Inheritance is autosomal recessive. Only the muscle enzyme is affected, which is why his blood sugar and liver are normal.",
+      "whyWrong": {
+        "b": "Glucose-6-phosphatase deficiency (von Gierke) affects the liver and kidneys: fasting hypoglycemia, lactic acidosis, and an enlarged liver.",
+        "c": "Acid alpha-glucosidase deficiency (Pompe) is a lysosomal storage disease. The classic form starts in infancy with heart problems and hypotonia.",
+        "d": "Debranching enzyme deficiency (type III) starts in infancy with hypoglycemia and an enlarged liver. Muscle weakness may come later in life.",
+        "e": "Aldolase B deficiency causes vomiting and hypoglycemia after eating fructose, not exercise-induced muscle injury."
+      },
+      "sources": [
+        {
+          "title": "MedlinePlus Medical Encyclopedia: Glycogen storage disease type V (McArdle)",
+          "url": "https://medlineplus.gov/ency/article/000329.htm"
+        },
+        {
+          "title": "MedlinePlus Genetics: Glycogen storage disease type I",
+          "url": "https://medlineplus.gov/genetics/condition/glycogen-storage-disease-type-i"
+        },
+        {
+          "title": "MedlinePlus Genetics: Pompe disease",
+          "url": "https://medlineplus.gov/genetics/condition/pompe-disease/"
+        },
+        {
+          "title": "MedlinePlus Genetics: Glycogen storage disease type III",
+          "url": "https://medlineplus.gov/genetics/condition/glycogen-storage-disease-type-iii/"
+        },
+        {
+          "title": "MedlinePlus Genetics: Hereditary fructose intolerance",
+          "url": "https://medlineplus.gov/genetics/condition/hereditary-fructose-intolerance"
+        }
+      ]
+    },
+    {
+      "id": "biochem-hfi-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "Gastrointestinal",
+      "topic": "Fructose and galactose disorders",
+      "difficulty": 1,
+      "stem": "A 7-month-old boy was healthy while exclusively breastfed. Since apple juice and pureed fruit were added to his diet 3 weeks ago, he has had vomiting, bloating, and diarrhea after meals. Today he is lethargic, his skin is yellow, and his liver is enlarged. Blood glucose is 38 mg/dL.",
+      "leadIn": "Deficiency of which enzyme is most likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Aldolase B"
+        },
+        {
+          "id": "b",
+          "text": "Galactose-1-phosphate uridylyltransferase (GALT)"
+        },
+        {
+          "id": "c",
+          "text": "Galactokinase"
+        },
+        {
+          "id": "d",
+          "text": "Glucose-6-phosphatase"
+        },
+        {
+          "id": "e",
+          "text": "Acid alpha-glucosidase (acid maltase)"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Symptoms that start only when fruit and juice enter the diet are hereditary fructose intolerance. It is an autosomal recessive lack of aldolase B (from the ALDOB gene). Fructose-1-phosphate then builds up in liver cells, which is toxic and kills liver cells over time. After fructose, patients have nausea, bloating, abdominal pain, vomiting, diarrhea, and low blood sugar. Liver damage causes jaundice. Most affected people learn to dislike fruit, juice, and other fructose-containing foods.",
+      "whyWrong": {
+        "b": "GALT deficiency (classic galactosemia) causes feeding problems, lethargy, jaundice, liver damage, and sepsis within days of birth; cataracts can follow. Lactose, the sugar that contains galactose, is in dairy products and many baby formulas. His symptoms started with fruit, not milk.",
+        "c": "Galactokinase deficiency mainly causes cataracts, with few other problems.",
+        "d": "Glucose-6-phosphatase deficiency (von Gierke) causes fasting hypoglycemia from about 3 to 4 months of age, regardless of what the infant eats.",
+        "e": "Acid alpha-glucosidase deficiency (Pompe) stores glycogen in lysosomes and causes heart problems and hypotonia in infants."
+      },
+      "sources": [
+        {
+          "title": "MedlinePlus Genetics: Hereditary fructose intolerance",
+          "url": "https://medlineplus.gov/genetics/condition/hereditary-fructose-intolerance"
+        },
+        {
+          "title": "MedlinePlus Genetics: Galactosemia",
+          "url": "https://medlineplus.gov/genetics/condition/galactosemia/"
+        },
+        {
+          "title": "MedlinePlus Genetics: Glycogen storage disease type I",
+          "url": "https://medlineplus.gov/genetics/condition/glycogen-storage-disease-type-i"
+        },
+        {
+          "title": "MedlinePlus Genetics: Pompe disease",
+          "url": "https://medlineplus.gov/genetics/condition/pompe-disease/"
+        }
+      ]
+    },
+    {
+      "id": "biochem-gaucher-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Lysosomal storage diseases",
+      "difficulty": 2,
+      "stem": "A 34-year-old woman of Ashkenazi Jewish heritage has bone pain in her thighs and easy bruising. Her spleen is markedly enlarged, and her liver is also enlarged. Platelets are 68,000/mm3. She has no neurologic symptoms, and her eye exam is normal.",
+      "leadIn": "Deficiency of which enzyme is most likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Glucocerebrosidase (GBA)"
+        },
+        {
+          "id": "b",
+          "text": "Beta-galactosidase"
+        },
+        {
+          "id": "c",
+          "text": "Beta-hexosaminidase A"
+        },
+        {
+          "id": "d",
+          "text": "Acid sphingomyelinase"
+        },
+        {
+          "id": "e",
+          "text": "Alpha-galactosidase A"
+        }
+      ],
+      "answer": "a",
+      "explanation": "An enlarged spleen and liver, bone pain, and low platelets in an adult of Ashkenazi Jewish heritage, with no neurologic signs, is Gaucher disease type 1, the most common type. A lack of glucocerebrosidase (GBA) lets harmful substances build up in the liver, spleen, bones, and bone marrow. Enzyme replacement therapy supplies the missing GBA and helps shrink the spleen, ease bone pain, and raise the platelet count. Note: some review tables list the Gaucher enzyme as beta-galactosidase. That is an error. The deficient enzyme is glucocerebrosidase.",
+      "whyWrong": {
+        "b": "Beta-galactosidase is not the enzyme in Gaucher disease. Gaucher disease is a lack of glucocerebrosidase (GBA).",
+        "c": "Beta-hexosaminidase A deficiency is Tay-Sachs disease. Infants develop normally until 3 to 6 months, then lose skills, and have a cherry-red spot on eye exam.",
+        "d": "Acid sphingomyelinase deficiency is Niemann-Pick disease. In type A, infants have an enlarged liver and spleen by 3 months, a cherry-red spot, and loss of mental and motor skills.",
+        "e": "Alpha-galactosidase A deficiency is Fabry disease (X-linked). It causes pain in the hands and feet, angiokeratomas, less sweating, and kidney and heart disease."
+      },
+      "sources": [
+        {
+          "title": "MedlinePlus Medical Encyclopedia: Gaucher disease",
+          "url": "https://medlineplus.gov/ency/article/000564.htm"
+        },
+        {
+          "title": "MedlinePlus Genetics: Tay-Sachs disease",
+          "url": "https://medlineplus.gov/genetics/condition/tay-sachs-disease/"
+        },
+        {
+          "title": "MedlinePlus Genetics: Niemann-Pick disease",
+          "url": "https://medlineplus.gov/genetics/condition/niemann-pick-disease/"
+        },
+        {
+          "title": "MedlinePlus Genetics: Fabry disease",
+          "url": "https://medlineplus.gov/genetics/condition/fabry-disease/"
+        }
+      ]
+    },
+    {
+      "id": "biochem-otc-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "General Principles",
+      "topic": "Urea cycle disorders",
+      "difficulty": 2,
+      "stem": "A 3-day-old boy, born at term after a normal pregnancy, is feeding poorly, vomiting, and becoming hard to wake. He breathes fast and is floppy. Plasma ammonia is markedly elevated. Arterial blood gas shows respiratory alkalosis, and the anion gap is normal. Blood glucose is normal. His mother's brother died in the first week of life.",
+      "leadIn": "Which additional laboratory finding is most likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "High urinary orotic acid and low plasma citrulline"
+        },
+        {
+          "id": "b",
+          "text": "Normal urinary orotic acid and low plasma citrulline"
+        },
+        {
+          "id": "c",
+          "text": "High plasma glutamine and high plasma citrulline"
+        },
+        {
+          "id": "d",
+          "text": "High anion gap metabolic acidosis"
+        },
+        {
+          "id": "e",
+          "text": "Hypoglycemia with low ketones"
+        }
+      ],
+      "answer": "a",
+      "explanation": "A newborn boy with very high ammonia, respiratory alkalosis with a normal anion gap, and an affected maternal uncle has ornithine transcarbamylase (OTC) deficiency. It is X-linked and is the most common urea cycle disorder. OTC transfers the carbamoyl group from carbamoyl phosphate to ornithine, making citrulline. When it is missing, plasma citrulline falls, glutamine rises, and urinary orotic acid is high. High orotic acid is how OTC deficiency is told apart from NAGS and CPS I deficiency. The severe newborn form usually affects males, but many carrier females also have symptoms. Long-term care includes a low-protein diet, sodium phenylbutyrate or sodium benzoate, and citrulline or arginine supplements.",
+      "whyWrong": {
+        "b": "Normal orotic acid with low citrulline fits a block before carbamoyl phosphate is made (CPS I or NAGS deficiency). Urinary orotic acid is the test that separates these from OTC deficiency.",
+        "c": "Glutamine is high in OTC deficiency, but citrulline is low, because OTC is the enzyme that makes citrulline.",
+        "d": "Urea cycle disorders typically cause respiratory alkalosis with a normal anion gap, as in this infant.",
+        "e": "Hypoglycemia with low ketones during fasting or illness points to a fatty acid oxidation disorder such as MCAD deficiency. His glucose is normal."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Ornithine Transcarbamylase Deficiency",
+          "url": "https://www.statpearls.com/point-of-care/26336"
+        },
+        {
+          "title": "MedlinePlus Genetics: Ornithine transcarbamylase deficiency",
+          "url": "https://medlineplus.gov/genetics/condition/ornithine-transcarbamylase-deficiency"
+        },
+        {
+          "title": "StatPearls: Medium-Chain Acyl-CoA Dehydrogenase Deficiency (MCADD)",
+          "url": "https://www.statpearls.com/point-of-care/24897"
+        }
+      ]
+    },
+    {
+      "id": "biochem-mcad-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "General Principles",
+      "topic": "Fatty acid oxidation disorders",
+      "difficulty": 2,
+      "stem": "An 18-month-old boy with gastroenteritis has barely eaten for 20 hours. He becomes very drowsy and has a seizure. Blood glucose is 28 mg/dL, and urine and blood ketones are inappropriately low. Plasma acylcarnitines show high octanoylcarnitine (C8) and decanoylcarnitine (C10). Ammonia is normal.",
+      "leadIn": "Which of the following is the most important part of his long-term management?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Avoid prolonged fasting and give glucose promptly during illness"
+        },
+        {
+          "id": "b",
+          "text": "Schedule long overnight fasts to raise ketone production"
+        },
+        {
+          "id": "c",
+          "text": "Daily carnitine supplements for every patient with this condition"
+        },
+        {
+          "id": "d",
+          "text": "Enzyme replacement therapy"
+        },
+        {
+          "id": "e",
+          "text": "A low-protein diet with sodium benzoate"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Hypoketotic hypoglycemia (low sugar without the expected ketones) during fasting or illness, with high C8 and C10 acylcarnitines, is medium-chain acyl-CoA dehydrogenase deficiency (MCADD). Medium-chain fatty acids cannot be broken down for energy or turned into ketones, so a fasting child runs out of fuel. Gastroenteritis is a classic trigger. MCADD is autosomal recessive (ACADM gene), and most cases are now found by newborn screening with tandem mass spectrometry. There is no definitive cure. Management centers on preventing prolonged fasting, dietary measures, and giving glucose promptly during illness.",
+      "whyWrong": {
+        "b": "Prolonged fasting is exactly what triggers a crisis, because these children cannot make enough ketones from fat.",
+        "c": "Carnitine has been used, but its benefit has not been shown consistently, so it is reserved for selected severe cases.",
+        "d": "There is no enzyme replacement or definitive cure for MCADD.",
+        "e": "A low-protein diet with sodium benzoate is long-term treatment for urea cycle disorders such as OTC deficiency, which cause high ammonia. His ammonia is normal."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Medium-Chain Acyl-CoA Dehydrogenase Deficiency (MCADD)",
+          "url": "https://www.statpearls.com/point-of-care/24897"
+        },
+        {
+          "title": "StatPearls: Ornithine Transcarbamylase Deficiency",
+          "url": "https://www.statpearls.com/point-of-care/26336"
+        }
+      ]
+    },
+    {
+      "id": "genetics-melas-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Genetics",
+      "system": "Nervous System & Special Senses",
+      "topic": "Mitochondrial disorders",
+      "difficulty": 2,
+      "stem": "A 24-year-old woman has had two episodes of sudden headache, vomiting, and temporary loss of vision on one side. MRI shows lesions that look like strokes but do not follow a single artery's territory. Serum lactate is high. Her mother has a similar illness. Her mother's sister is affected, and so are both of that sister's children. Her mother's brother is also affected, but all four of his children, including two daughters, are healthy.",
+      "leadIn": "Which inheritance pattern best explains this family?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mitochondrial (maternal) inheritance"
+        },
+        {
+          "id": "b",
+          "text": "Autosomal recessive"
+        },
+        {
+          "id": "c",
+          "text": "Autosomal dominant"
+        },
+        {
+          "id": "d",
+          "text": "X-linked dominant"
+        },
+        {
+          "id": "e",
+          "text": "X-linked recessive"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Stroke-like episodes before age 40 with lactic acidosis are MELAS (mitochondrial encephalomyopathy, lactic acidosis, and stroke-like episodes). Variants in one mitochondrial transfer RNA gene, MT-TL1, cause more than 80% of cases. Mitochondrial DNA comes only from the mother, so affected women pass the condition on, and fathers do not pass mtDNA traits to their children. That fits this family: the affected sister has affected children, while the affected brother's children are all healthy. Note: some review tables list MELAS as autosomal recessive. MELAS itself follows mitochondrial (maternal) inheritance.",
+      "whyWrong": {
+        "b": "Autosomal recessive disorders are typically not seen in every generation. This one appears in three straight generations of the mother's family.",
+        "c": "One altered copy is enough for an autosomal dominant disorder, and an affected father can pass it to his children. The affected brother has four children and none is affected.",
+        "d": "Every daughter gets her father's X chromosome, so an affected father passes an X-linked dominant trait to all of his daughters. His two daughters are healthy.",
+        "e": "Males are affected by X-linked recessive disorders much more often than females. Here several women are affected."
+      },
+      "sources": [
+        {
+          "title": "MedlinePlus Genetics: MELAS",
+          "url": "https://medlineplus.gov/genetics/condition/mitochondrial-encephalomyopathy-lactic-acidosis-and-stroke-like-episodes"
+        },
+        {
+          "title": "MedlinePlus Genetics: What are the different ways a genetic condition can be inherited?",
+          "url": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns"
+        }
+      ]
+    },
+    {
       "id": "neuro-wallenberg-001",
       "exams": [
         "usmle-step1",
