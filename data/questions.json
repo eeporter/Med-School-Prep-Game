@@ -14543,11 +14543,11 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: linear IgG along the glomerular basement membrane (anti-GBM disease, or Goodpasture syndrome). Why: your El-Husseiny nephrology notes (p. 84) place anti-GBM disease in type 1 rapidly progressive glomerulonephritis, with linear IgG and C3 along the basement membrane. The antibodies also bind the basement membrane of the lung alveoli, which causes coughing up blood. StatPearls says the antibodies mostly target the non-collagen (NC1) domain of the alpha-3 chain of type IV collagen, and that smoking and hydrocarbon solvents are environmental triggers. Treatment is plasmapheresis followed by glucocorticoids and cyclophosphamide; rituximab may replace cyclophosphamide in some cases (StatPearls).",
+      "explanation": "Answer: linear IgG along the glomerular basement membrane (anti-GBM disease, or Goodpasture syndrome). Why: your El-Husseiny nephrology notes (p. 84) place anti-GBM disease in type 1 rapidly progressive glomerulonephritis, with linear IgG and C3 along the basement membrane. The antibodies also bind the basement membrane of the lung alveoli, which causes coughing up blood. StatPearls says the antibodies mostly target the non-collagen (NC1) domain of the alpha-3 chain of type IV collagen, and that smoking and hydrocarbon solvents are possible environmental triggers. Treatment is plasmapheresis followed by glucocorticoids and cyclophosphamide; rituximab may replace cyclophosphamide in some cases (StatPearls).",
       "whyWrong": {
         "b": "A granular, lumpy-bumpy pattern means immune complexes, as in type 2 rapidly progressive disease after strep infection or with lupus (your El-Husseiny nephrology notes, p. 85).",
         "c": "Mesangial IgA deposits mark IgA nephropathy, which usually causes episodes of blood in the urine, not lung bleeding with crescents in most glomeruli (standard teaching).",
-        "d": "No deposits (pauci-immune) is type 3 disease, as in granulomatosis with polyangiitis (your El-Husseiny nephrology notes, p. 85). It can also cause lung and kidney disease, but smoking and solvent exposure are known triggers of anti-GBM disease (StatPearls).",
+        "d": "No deposits (pauci-immune) is type 3 disease, as in granulomatosis with polyangiitis (your El-Husseiny nephrology notes, p. 85). It can also cause lung and kidney disease, but smoking and solvent exposure are possible triggers of anti-GBM disease (StatPearls).",
         "e": "Subepithelial humps are the pattern of poststreptococcal glomerulonephritis, which follows a strep infection and does not cause lung bleeding (standard teaching)."
       },
       "sources": [
@@ -15172,7 +15172,7 @@
         "b": "Fibrocystin is the protein of autosomal recessive polycystic kidney disease, which usually shows up in infants (standard teaching), not the chromosome 16 adult disease.",
         "c": "The alpha-5 chain of type IV collagen is the X-linked Alport gene, which causes nephritis with deafness, not cysts (your El-Husseiny nephrology notes, p. 83).",
         "d": "Tuberin is the TSC2 gene product in tuberous sclerosis, which can cause kidney cysts but also skin, brain, and heart lesions (standard teaching).",
-        "e": "The VHL gene is on chromosome 3 and causes von Hippel-Lindau disease with kidney cysts and renal cell cancer (MSD Renal Cell Carcinoma)."
+        "e": "The VHL gene is on chromosome 3 and causes von Hippel-Lindau disease with kidney cysts and renal cell cancer (your El-Husseiny nephrology notes, p. 135)."
       },
       "sources": [
         {
@@ -15379,7 +15379,7 @@
       "whyWrong": {
         "b": "Proximal (type 2) RTA is a bicarbonate reabsorption defect; once bicarbonate is depleted the urine pH falls below 5.5 (MSD), unlike her pH of 6.5.",
         "c": "Low aldosterone effect is type 4 RTA, which causes high potassium, not low (MSD).",
-        "d": "Loss of Na-K-2Cl transport is Bartter syndrome, which causes metabolic alkalosis, not acidosis (your El-Husseiny nephrology notes, p. 126).",
+        "d": "Loss of Na-K-2Cl transport is Bartter syndrome, which causes metabolic alkalosis, not acidosis (your El-Husseiny nephrology notes, pp. 126-127).",
         "e": "Loss of Na-Cl transport is Gitelman syndrome, which causes metabolic alkalosis and low urine calcium (your El-Husseiny nephrology notes, p. 127)."
       },
       "sources": [
