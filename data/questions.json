@@ -89,7 +89,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Nephritic syndrome (hematuria with RBC casts, hypertension, edema) 1 to 3 weeks after group A streptococcal pharyngitis with low C3 is poststreptococcal glomerulonephritis. EM shows subepithelial immune complex 'humps'; light microscopy shows hypercellular glomeruli, and immunofluorescence is granular ('starry sky').",
+      "explanation": "Nephritic syndrome (hematuria with RBC casts, hypertension, edema) 1 to 2 weeks after group A streptococcal pharyngitis with low C3 is poststreptococcal glomerulonephritis. EM shows subepithelial immune complex 'humps'; light microscopy shows hypercellular glomeruli, and immunofluorescence is granular ('starry sky'). After a skin infection (impetigo) the gap is longer, about 6 weeks. Many review books give a single 2 to 4 week window; this boy's 2-week gap fits either way.",
       "whyWrong": {
         "b": "Foot process effacement without deposits is minimal change disease, a nephrotic syndrome with normal complement.",
         "c": "IgA nephropathy presents 1 to 3 days after a mucosal infection (synpharyngitic) and complement is usually normal.",
@@ -1449,7 +1449,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: increased melanocyte-stimulating hormone (MSH). Why: in primary adrenal insufficiency (Addison disease), low cortisol removes negative feedback, so the pituitary makes more pro-opiomelanocortin (POMC). POMC is cut into ACTH and MSH, and the extra MSH darkens the skin and gums. Losing aldosterone (mineralocorticoid) as well explains the low sodium, high potassium, and low blood pressure. In central (secondary) adrenal insufficiency, ACTH is low and aldosterone is preserved, so these two clues are absent.",
+      "explanation": "Answer: increased melanocyte-stimulating hormone (MSH). Why: in primary adrenal insufficiency (Addison disease), low cortisol removes negative feedback, so the pituitary makes more pro-opiomelanocortin (POMC). POMC is cut into ACTH and melanocyte-stimulating peptides (MSH; beta-lipotropin, which has melanocyte-stimulating activity), and together with ACTH they darken the skin. The darkening is most marked on pressure points, skin folds, scars, and the lips and gums. About 90% of primary adrenal insufficiency in the US and Europe is autoimmune. Losing aldosterone (mineralocorticoid) as well explains the low sodium, high potassium, and low blood pressure. In central (secondary) adrenal insufficiency, ACTH is low and aldosterone is preserved, so these two clues are absent.",
       "whyWrong": {
         "b": "Low aldosterone causes the low sodium and high potassium, but it does not affect skin pigment.",
         "c": "Iron deposition causes bronze skin in hemochromatosis, which would not explain low cortisol and high ACTH.",
@@ -1458,12 +1458,16 @@
       },
       "sources": [
         {
-          "title": "Endotext: Adrenal Insufficiency in Children (NCBI Bookshelf)",
-          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK608067/"
+          "title": "MSD Manual Professional: Primary Adrenal Insufficiency (Addison Disease)",
+          "url": "https://www.msdmanuals.com/professional/endocrine-and-metabolic-disorders/adrenal-disorders/primary-adrenal-insufficiency-addison-disease"
         },
         {
           "title": "StatPearls: Physiology, Adrenocorticotropic Hormone (ACTH)",
           "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK500031/"
+        },
+        {
+          "title": "Endotext: Adrenal Insufficiency in Children (NCBI Bookshelf)",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK608067/"
         }
       ]
     },
@@ -1709,7 +1713,7 @@
       "explanation": "Answer: granular mesangial IgA. Why: blood in the urine that starts during (or right after) an upper respiratory infection, and recurs, is IgA nephropathy (Berger disease), the most common glomerulonephritis. Abnormal galactose-deficient IgA1 forms immune complexes that lodge in the mesangium. C3 often deposits alongside the IgA, while C1q is usually absent.",
       "whyWrong": {
         "b": "Linear IgG along the basement membrane is anti-GBM disease (Goodpasture syndrome), often with lung hemorrhage.",
-        "c": "Granular IgG and C3 'starry sky' is poststreptococcal glomerulonephritis, which appears 2 to 3 weeks after the infection, not during it.",
+        "c": "Granular IgG and C3 'starry sky' is poststreptococcal glomerulonephritis, which appears 1 to 3 weeks after the infection, not during it.",
         "d": "No deposits fits minimal change disease or pauci-immune vasculitis, not hematuria during an infection.",
         "e": "This 'full house' pattern, including C1q, is typical of lupus nephritis."
       },
@@ -1717,6 +1721,10 @@
         {
           "title": "StatPearls: IgA Nephropathy (Berger Disease)",
           "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK538214/"
+        },
+        {
+          "title": "StatPearls: Infection-Related Glomerulonephritis",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK538255/"
         }
       ]
     },
@@ -1957,7 +1965,7 @@
       "answer": "a",
       "explanation": "Answer: linear IgG and C3 along the basement membrane. Why: tense, itchy blisters in an elderly patient with a negative Nikolsky sign and a subepidermal split with eosinophils is bullous pemphigoid. Autoantibodies target hemidesmosome proteins BP180 and BP230, which anchor the epidermis to the basement membrane, so antibody and complement line up along the basement membrane zone. Because the split is below the epidermis, the blister roof is thick and the blisters are tense.",
       "whyWrong": {
-        "b": "A net-like intraepidermal pattern is pemphigus vulgaris, caused by antibodies to desmogleins 1 and 3. It shows suprabasal acantholysis ('tombstone' basal cells), a positive Nikolsky sign, easily ruptured blisters, and starts in the mouth in about 80% of cases.",
+        "b": "A net-like intraepidermal pattern is pemphigus vulgaris, caused by antibodies to desmogleins 1 and 3. It shows suprabasal acantholysis ('tombstone' basal cells), a positive Nikolsky sign, easily ruptured blisters, and first appears in the mouth in about 80% of cases, with skin blisters following.",
         "c": "Bullous pemphigoid is antibody mediated, so deposits are expected.",
         "d": "IgE on mast cells is type I hypersensitivity (hives), which does not form subepidermal blisters.",
         "e": "Granular IgA in the dermal papillae is dermatitis herpetiformis, the itchy, grouped-vesicle rash linked to celiac disease."
