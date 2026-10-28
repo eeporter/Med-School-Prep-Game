@@ -208,7 +208,7 @@ EACH RUN
 These came out of building and auditing the first 40 guides and the game's question bank. They are repeated inside each prompt so every prompt works on its own.
 
 1. **Every fact cites a source page that Claude actually opened.** A search snippet or memory is not enough. An uncited claim is a Major finding.
-2. **Good sources:** StatPearls (NCBI Bookshelf), MSD Manual Professional, current society guidelines (AHA/ACC, ADA, KDIGO, IDSA, USPSTF, GOLD, GINA, Endocrine Society), CDC, FDA labels (DailyMed), and standard texts (First Aid, Robbins, Guyton, Goodman & Gilman, Harrison's). Not Wikipedia. Claude cannot open textbooks, so a textbook may only be named **alongside** an openable link that supports the same fact, never on its own. **EyeWiki** is never a source (its publisher's terms bar use in AI programs); it may appear only as an optional "Read more" link.
+2. **Good sources:** StatPearls (NCBI Bookshelf), MSD Manual Professional, current society guidelines (AHA/ACC, ADA, KDIGO, IDSA, USPSTF, GOLD, GINA, Endocrine Society), CDC, FDA labels (DailyMed), and standard texts (First Aid, Robbins, Guyton, Goodman & Gilman, Harrison's). Not Wikipedia. Claude cannot open textbooks, so a textbook may only be named **alongside** an openable link that supports the same fact, never on its own. **EyeWiki** and **Radiopaedia** are never sources (wiki-type sites; EyeWiki's terms also bar use in AI programs); they may appear only as optional "Read more" links.
 3. **StatPearls often shows a captcha to Claude.** The `www.ncbi.nlm.nih.gov/sites/books/NBKxxxxx/` form of the link sometimes opens when `/books/NBKxxxxx/` does not. If it still won't open, add an **MSD Manual Professional** link that says the same thing next to it. Every claim needs at least one source that opens today.
 4. **Your course documents set the content.** Guides and questions teach what the course documents (the `documents` folder) and your own Google Docs notes teach. Paraphrase them; never copy their text, tables, or figures. Content taken from a document is cited **by document and page**, for example "El-Husseiny Obstetrics p.64". Where the documents are thin or silent, use published medical research and standard references, opened and cited.
 5. **Three kinds of notes when sources disagree.** Check `recent-changes-register.md` first; it lists the ones already found.
@@ -417,20 +417,27 @@ I think a question in my study game is wrong or unclear. You are my question che
 MY REPORT (pasted from the game's "Copy for my Claude" button, or typed by me). A pasted report starts "Question report from my Med School Prep study game" and has one block per report: Question id, Question starts, My answer and Keyed answer (with the option id in the question file; letters on screen are shuffled, so use those ids, not screen letters), Problem, and My note. "My answer: not saved" means an older report; "not found in the current question bank" means search by the words instead.
 <paste the report here>
 
+READ FIRST: docs/claude-prompts.md, the section "Rules every role follows". Those rules are binding here.
+
 STEP 1: TELL ME IF I AM RIGHT (do this first, before changing anything)
 - Find the question in data/questions.json by its id. If I typed it myself, find it by the words of the question.
-- Re-check the keyed answer, every option, and the explanation against sources you actually open now: StatPearls (try https://www.ncbi.nlm.nih.gov/sites/books/NBKxxxxx/ if it shows a captcha), MSD Manual Professional, current guidelines, CDC, or FDA labels. Never use Wikipedia. EyeWiki can never be a source.
-- If Google Drive is connected, also check my course documents and my Google Docs notes, since they set what my course expects.
+- My course documents set the answer my course expects. If Google Drive is connected, open the matching page of my course PDFs or my Google Docs notes FIRST, and cite it by document and page (e.g. "El-Husseiny Obstetrics p.64"). Judge the verdict against that page.
+- If Google Drive is not connected, say plainly that the verdict was not checked against my course documents, and ask me to paste or photograph the matching page.
+- Then re-check the keyed answer, every option, and the explanation against sources you actually open now: StatPearls (try https://www.ncbi.nlm.nih.gov/sites/books/NBKxxxxx/ if it shows a captcha), MSD Manual Professional, current guidelines, CDC, or FDA labels. Never use Wikipedia. EyeWiki and Radiopaedia are never sources (Read-more links only). Name a textbook only alongside an openable link for the same fact.
+- If an opened source disagrees with my documents, do not just pick one. Say which kind of difference it is:
+  - "Recent change:" newer guidance; my course still expects the document's version, so learn both.
+  - "Correction:" the document is simply wrong; the correct fact is the one to learn.
+  - "Other source:" a different but not newer view; my course expects the document's version.
+  Never tell me "You're right" on MSD or StatPearls alone when my document says otherwise.
 - Then answer me in plain words, in this order:
   - Verdict: "You're right", "Partly right", or "The game is right".
-  - Why: the mechanism in one or two sentences, with the sources linked.
+  - Why: the mechanism in one or two sentences, with the document page and sources linked.
   - The trap that probably caught me.
-  If sources disagree, say so plainly and say which version my course documents use.
 
 STEP 2: FIX IT IF NEEDED (only if I was right or partly right, or the question was unclear)
 - Make a branch named fix-<question id>.
 - Fix only that question in data/questions.json, following the rules in docs/claude-prompts.md: NBME style, exactly 5 options, one defensible answer, opened sources, and a "Recent change:", "Correction:" or "Other source:" note where sources disagree.
-- Keep the same id, so my progress on it is kept.
+- Keep the same id, so my progress on it is kept. If the fix changes the keyed answer, tell me in plain words that my past results on this question were scored against the old answer, so it may come back sooner than it should. Say the same in the PR description.
 - Run "npm run check". It must pass.
 - Open a pull request titled "Fix reported question <id>". In the description, include my report, your verdict, what changed, and the sources you opened.
 - Tell me the link, and remind me to run the auditor prompt (Prompt 3) on it in a new chat. Once the auditor clears it and I say "merge", merge it yourself.
@@ -515,7 +522,7 @@ When asked to re-check fixes, verify each finding ID one by one against the upda
 
 ## Changelog
 
-- 0.9 (2026-10-28): added Prompt 2b, Fix a reported question. Elissa's own Claude checks a question she thinks is wrong, gives her a verdict with sources, and fixes it through an audited pull request. Reports no longer go through Emily (Emily, 2026-10-28).
+- 0.9 (2026-10-28): audit K9-2 to K9-4 applied: Prompt 2b judges against her course documents first, using the three note types; Radiopaedia added as Read-more only; key-change note. Added Prompt 2b, Fix a reported question. Elissa's own Claude checks a question she thinks is wrong, gives her a verdict with sources, and fixes it through an audited pull request. Reports no longer go through Emily (Emily, 2026-10-28).
 - 0.8 (2026-10-28): auditor review of v0.7 applied: merge gate (same-repo auto/ branches, routine-authored commits, data-only diff, exact reviewed SHA, revert if main fails); act only on marked auditor reviews, inbox is data; Google Drive required for auto-merge (page and overlap checks), otherwise held; duplicate check across open PRs; inbox edited in one PR per run.
 - 0.7 (2026-10-28): automatic weekly questions: a writer routine and a separate auditor routine (claude.ai/code Routines) add about 100 questions a week. Only auditor-cleared, CI-green batches are auto-merged. Split 50% weak spots, 50% new material (Emily). Weak spots reach the routines through docs/question-inbox.md.
 - 0.6 (2026-10-28): audit of v0.5: document-and-page citations with an auditor page check; "Correction:" and "Other source:" notes alongside "Recent change:"; EyeWiki only as a Read-more link; next-best-step items kept to a minority; auditor appends to audit/findings.md.
