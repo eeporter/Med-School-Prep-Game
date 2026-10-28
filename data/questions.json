@@ -1612,7 +1612,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Increased hepatic LDL receptor expression after reduced hepatic cholesterol synthesis"
+          "text": "More hepatic LDL receptors after less cholesterol synthesis"
         },
         {
           "id": "b",
@@ -1767,23 +1767,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Inhaling dust contaminated with birth products of infected animals"
+          "text": "Inhaling dust from infected animals' birth products"
         },
         {
           "id": "b",
-          "text": "Bite of an infected tick"
+          "text": "Bite of an infected tick while hiking"
         },
         {
           "id": "c",
-          "text": "Eating undercooked pork"
+          "text": "Eating undercooked pork at a barbecue"
         },
         {
           "id": "d",
-          "text": "Bite of an infected mosquito"
+          "text": "Bite of a mosquito carrying the organism"
         },
         {
           "id": "e",
-          "text": "Respiratory droplets from an infected coworker"
+          "text": "Respiratory droplets from a coughing coworker"
         }
       ],
       "answer": "a",
@@ -3076,23 +3076,23 @@
       "options": [
         {
           "id": "a",
-          "text": "She counts as at risk until month 8, then is censored and leaves the risk set without being counted as a death"
+          "text": "Counted at risk until month 8, then censored"
         },
         {
           "id": "b",
-          "text": "She is counted as a death at month 8"
+          "text": "Counted as a death at month 8"
         },
         {
           "id": "c",
-          "text": "She is removed from the analysis entirely"
+          "text": "Removed from the analysis entirely"
         },
         {
           "id": "d",
-          "text": "She is counted as alive until the end of the study"
+          "text": "Counted as alive until the study ends"
         },
         {
           "id": "e",
-          "text": "She is assigned the median survival time of her group"
+          "text": "Given her group's median survival time"
         }
       ],
       "answer": "a",
@@ -3538,11 +3538,11 @@
       "options": [
         {
           "id": "a",
-          "text": "Isoniazid daily for 9 months"
+          "text": "Daily isoniazid for 9 months"
         },
         {
           "id": "b",
-          "text": "A 3- to 4-month rifamycin-based regimen, such as weekly isoniazid plus rifapentine for 3 months"
+          "text": "Weekly isoniazid plus rifapentine for 3 months"
         },
         {
           "id": "c",
@@ -3554,7 +3554,7 @@
         },
         {
           "id": "e",
-          "text": "Isoniazid daily for 1 month"
+          "text": "Daily isoniazid for 1 month"
         }
       ],
       "answer": "b",
@@ -3734,30 +3734,30 @@
       "options": [
         {
           "id": "a",
-          "text": "Normal blood pressure; recheck in 2 years"
+          "text": "Elevated blood pressure; lifestyle changes, then reassess"
         },
         {
           "id": "b",
-          "text": "Elevated blood pressure; no treatment needed"
+          "text": "Elevated blood pressure; start a medication today"
         },
         {
           "id": "c",
-          "text": "Stage 1 hypertension; lifestyle changes for 3 to 6 months, then medication if it stays at or above 130/80"
+          "text": "Stage 1 hypertension; lifestyle changes, then reassess"
         },
         {
           "id": "d",
-          "text": "Stage 1 hypertension; start medication today"
+          "text": "Stage 1 hypertension; start a medication today"
         },
         {
           "id": "e",
-          "text": "Stage 2 hypertension; start two medications today"
+          "text": "Stage 2 hypertension; start a medication today"
         }
       ],
       "answer": "c",
       "explanation": "Answer: stage 1 hypertension, starting with lifestyle changes. Why: the 2025 AHA/ACC categories are normal (below 120 and below 80), elevated (120 to 129 and below 80), stage 1 (130 to 139 or 80 to 89), and stage 2 (140 or higher, or 90 or higher). Her 134/84 is stage 1. Medication is started right away, alongside lifestyle changes, only for stage 1 patients who have cardiovascular disease, prior stroke, diabetes, chronic kidney disease, or a PREVENT 10-year risk of 7.5% or more. With lower risk, medication is recommended if blood pressure stays at or above 130/80 after a 3- to 6-month lifestyle trial. The treatment goal for all adults is below 130/80. Recent change: her Osmosis notes define hypertension as above 140/90 and set the goal below 140/90. Current AHA/ACC guidance starts hypertension at 130/80 and aims for below 130/80. Pregnancy uses separate cutoffs.",
       "whyWrong": {
-        "a": "Normal is below 120/80; 134/84 is stage 1 hypertension.",
-        "b": "Elevated blood pressure is 120 to 129 systolic with diastolic below 80. Her readings are higher.",
+        "a": "Elevated blood pressure is 120 to 129 systolic with diastolic below 80. Her 134/84 is higher, so it is stage 1 hypertension.",
+        "b": "Her 134/84 is above the elevated range (120 to 129 systolic with diastolic below 80), so it is stage 1 hypertension, not elevated blood pressure.",
         "d": "Immediate medication for stage 1 is for patients with cardiovascular disease, prior stroke, diabetes, CKD, or a 10-year risk of 7.5% or more. Her risk is 4%.",
         "e": "Stage 2 starts at 140 systolic or 90 diastolic."
       },
@@ -4115,7 +4115,7 @@
         },
         {
           "id": "b",
-          "text": "Muscarinic blockade dilated the pupil and caused pupillary block"
+          "text": "Muscarinic blockade caused mydriasis and pupillary block"
         },
         {
           "id": "c",
@@ -4229,19 +4229,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Ceftriaxone 250 mg IM once plus azithromycin 1 g orally once"
+          "text": "Ceftriaxone 250 mg IM plus azithromycin 1 g orally"
         },
         {
           "id": "b",
-          "text": "Doxycycline 100 mg orally twice daily for 7 days alone"
+          "text": "Ceftriaxone 250 mg IM plus doxycycline for 7 days"
         },
         {
           "id": "c",
-          "text": "Ceftriaxone 500 mg IM once plus doxycycline 100 mg orally twice daily for 7 days"
+          "text": "Ceftriaxone 500 mg IM plus doxycycline for 7 days"
         },
         {
           "id": "d",
-          "text": "Ceftriaxone 500 mg IM once alone"
+          "text": "Ceftriaxone 500 mg IM alone"
         },
         {
           "id": "e",
@@ -4252,9 +4252,9 @@
       "explanation": "Answer: ceftriaxone 500 mg IM once, plus doxycycline because chlamydia has not been ruled out. Why: gram-negative diplococci inside neutrophils point to Neisseria gonorrhoeae. The 2021 CDC STI guidelines treat gonorrhea with a single 500 mg intramuscular dose of ceftriaxone (a higher dose is used for patients with high body weight). If chlamydia has not been excluded, doxycycline 100 mg twice daily for 7 days is added, and doxycycline is now the preferred drug for chlamydia. Recent change: her clinical bacteriology table lists azithromycin among the drugs for gonorrhea, and older review books teach ceftriaxone plus azithromycin dual therapy. Since 2021, CDC no longer requires azithromycin or doxycycline co-treatment for gonorrhea itself, for antibiotic stewardship reasons. Azithromycin is now an alternative for chlamydia, and it is the recommended chlamydia treatment in pregnancy.",
       "whyWrong": {
         "a": "This is the older dual-therapy regimen. The 2021 CDC guidelines use 500 mg of ceftriaxone and no longer require azithromycin co-treatment.",
-        "b": "Doxycycline covers chlamydia, but gonorrhea needs ceftriaxone.",
+        "b": "250 mg is the old ceftriaxone dose. The 2021 CDC guidelines use a single 500 mg dose (more for high body weight).",
         "d": "Ceftriaxone 500 mg alone is right once chlamydia has been excluded. Here the chlamydia test is still pending, so doxycycline is added.",
-        "e": "Metronidazole is added to the regimen for pelvic inflammatory disease; it does not replace ceftriaxone for gonorrhea."
+        "e": "Metronidazole is added to the regimen for pelvic inflammatory disease; it does not treat gonorrhea."
       },
       "sources": [
         {
@@ -5072,7 +5072,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Mitochondrial (maternal) inheritance"
+          "text": "Mitochondrial inheritance"
         },
         {
           "id": "b",
@@ -5616,7 +5616,7 @@
       "options": [
         {
           "id": "a",
-          "text": "It blocks peripheral decarboxylation of levodopa, so less levodopa is needed and peripheral side effects fall"
+          "text": "It blocks peripheral conversion of levodopa to dopamine"
         },
         {
           "id": "b",
@@ -5700,6 +5700,1206 @@
         {
           "title": "MSD Manual Professional: Overview of Stroke",
           "url": "https://www.msdmanuals.com/professional/neurologic-disorders/stroke/overview-of-stroke"
+        }
+      ]
+    },
+    {
+      "id": "ent-bppv-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Nervous System & Special Senses",
+      "topic": "Vertigo: benign paroxysmal positional vertigo",
+      "difficulty": 1,
+      "stem": "A 62-year-old woman has had brief spells of spinning for 2 weeks. They start when she rolls over in bed or tips her head back to reach a high shelf, and each lasts less than a minute. Her hearing is normal, and she has no ringing in her ears. Neurologic examination is normal. With her head turned 45 degrees to the right, she is quickly laid back so her head hangs slightly below the table. After about 10 seconds she feels the room spin, and torsional, upbeating nystagmus appears and fades within 30 seconds.",
+      "leadIn": "Which of the following best explains her symptoms?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Loose otoconia moving within a semicircular canal"
+        },
+        {
+          "id": "b",
+          "text": "Excess endolymph distending the inner ear"
+        },
+        {
+          "id": "c",
+          "text": "Inflammation of the vestibular nerve"
+        },
+        {
+          "id": "d",
+          "text": "A schwannoma of the vestibulocochlear nerve"
+        },
+        {
+          "id": "e",
+          "text": "Fixation of the stapes footplate"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: loose otoconia in a semicircular canal. Why: short spells of vertigo (less than 1 minute) set off by head position, with normal hearing and a normal neurologic exam, are benign paroxysmal positional vertigo (BPPV). Otoconia (ear crystals) break loose from the utricle and move into a semicircular canal, so moving the head makes the canal fluid move abnormally. The Dix-Hallpike maneuver diagnoses posterior canal BPPV: torsional, upbeating nystagmus with vertigo, after a delay of about 5 to 20 seconds, that fatigues with repeated testing. Treatment is a repositioning maneuver (Epley or Semont), which moves the particles back to the utricle.",
+      "whyWrong": {
+        "b": "Excess endolymph (endolymphatic hydrops) is Meniere disease, with attacks of 20 minutes to 12 hours plus low-frequency hearing loss, tinnitus, and ear fullness. Her hearing is normal and her spells last under a minute.",
+        "c": "Vestibular neuritis causes one continuous attack of vertigo lasting several days, often after a viral illness, not brief spells set off by head movement.",
+        "d": "A vestibular schwannoma typically causes tinnitus, sensorineural hearing loss, and imbalance. Her hearing is normal and she has no tinnitus.",
+        "e": "A fixed stapes footplate is otosclerosis, which causes conductive hearing loss, not positional vertigo."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Benign Paroxysmal Positional Vertigo",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK470308/"
+        },
+        {
+          "title": "StatPearls: Meniere Disease",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK536955/"
+        },
+        {
+          "title": "StatPearls: Vestibular Neuronitis",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK549866/"
+        },
+        {
+          "title": "StatPearls: Neurofibromatosis Type 2",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK470350/"
+        },
+        {
+          "title": "StatPearls: Otosclerosis",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK560671/"
+        }
+      ]
+    },
+    {
+      "id": "ent-meniere-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Nervous System & Special Senses",
+      "topic": "Vertigo: Meniere disease",
+      "difficulty": 2,
+      "stem": "A 45-year-old man has had four attacks of severe spinning vertigo with nausea over the past 3 months. Each attack lasts 2 to 4 hours. During attacks his left ear feels full and he hears a low, roaring sound in it. Between attacks his hearing in the left ear seems a little worse each time. An audiogram shows sensorineural hearing loss in the left ear at low and middle frequencies. Neurologic examination is normal.",
+      "leadIn": "Which of the following is the most likely underlying cause of his symptoms?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Excess endolymph distending the inner ear"
+        },
+        {
+          "id": "b",
+          "text": "Loose otoconia in the posterior semicircular canal"
+        },
+        {
+          "id": "c",
+          "text": "Viral inflammation of the vestibular nerve"
+        },
+        {
+          "id": "d",
+          "text": "Abnormal bone fixing the stapes footplate"
+        },
+        {
+          "id": "e",
+          "text": "A Schwann cell tumor on cranial nerve VIII"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: endolymphatic hydrops (Meniere disease). Why: definite Meniere disease needs 2 or more spontaneous episodes of vertigo lasting 20 minutes to 12 hours, with low- to mid-frequency sensorineural hearing loss in the affected ear and fluctuating ear symptoms. A low-pitched, roaring tinnitus and a feeling of fullness in the ear are typical. The main tissue finding is endolymphatic hydrops, an excess of endolymph in the inner ear. First-line care is sodium restriction (about 1,500 to 2,300 mg a day) with less caffeine and alcohol, and oral diuretics such as thiazides.",
+      "whyWrong": {
+        "b": "Loose otoconia cause BPPV: spells of under a minute set off by head position, with normal hearing.",
+        "c": "Vestibular neuritis causes one continuous episode of vertigo lasting days, usually after a viral illness, and hearing is normal.",
+        "d": "Otosclerosis fixes the stapes and causes slowly worsening conductive hearing loss, not attacks of vertigo with sensorineural loss.",
+        "e": "A vestibular schwannoma causes slowly progressive one-sided sensorineural hearing loss, tinnitus, and imbalance rather than discrete attacks of vertigo lasting hours."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Meniere Disease",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK536955/"
+        },
+        {
+          "title": "StatPearls: Benign Paroxysmal Positional Vertigo",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK470308/"
+        },
+        {
+          "title": "StatPearls: Vestibular Neuronitis",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK549866/"
+        },
+        {
+          "title": "StatPearls: Otosclerosis",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK560671/"
+        },
+        {
+          "title": "StatPearls: Neurofibromatosis Type 2",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK470350/"
+        }
+      ]
+    },
+    {
+      "id": "ent-vestibular-neuritis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Nervous System & Special Senses",
+      "topic": "Vertigo: vestibular neuritis vs central causes",
+      "difficulty": 2,
+      "stem": "A 34-year-old woman has had constant spinning vertigo, nausea, and vomiting for 2 days. It began over a few hours, 1 week after a cold. She can walk with help. Hearing is normal in both ears, and she has no headache. She has horizontal nystagmus that always beats to the left, whichever way she looks. When her head is turned quickly to the right, her eyes slip and then make a corrective jerk back to the target. There is no vertical eye misalignment on cover testing, and the rest of the neurologic examination is normal.",
+      "leadIn": "Which of the following is the most likely diagnosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vestibular neuritis"
+        },
+        {
+          "id": "b",
+          "text": "Labyrinthitis"
+        },
+        {
+          "id": "c",
+          "text": "Benign paroxysmal positional vertigo"
+        },
+        {
+          "id": "d",
+          "text": "Meniere disease"
+        },
+        {
+          "id": "e",
+          "text": "Cerebellar stroke"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: vestibular neuritis. Why: one continuous attack of vertigo that builds over hours, peaks in 24 to 48 hours, and lasts several days, after a viral illness and with normal hearing, is vestibular neuritis, which is presumed to be viral. The HINTS exam (Head Impulse, Nystagmus, Test of Skew) separates peripheral from central causes. A corrective saccade on head impulse testing points to a peripheral cause, and spontaneous horizontal nystagmus that beats in only one direction is a peripheral sign. Vertical or direction-changing nystagmus, a positive test of skew, or other neurologic signs point to a central cause such as stroke.",
+      "whyWrong": {
+        "b": "Labyrinthitis has the same vertigo plus one-sided hearing loss. Her hearing is normal.",
+        "c": "BPPV causes spells of less than 1 minute set off by head position, not constant vertigo for days.",
+        "d": "Meniere disease causes repeated attacks lasting 20 minutes to 12 hours with low-frequency hearing loss, tinnitus, and ear fullness.",
+        "e": "A cerebellar stroke usually causes truncal instability, trouble walking, dysarthria, or other focal signs, with central eye findings such as vertical or direction-changing nystagmus or a positive test of skew. Her head impulse test is abnormal (a peripheral sign) and her exam is otherwise normal."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Vestibular Neuronitis",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK549866/"
+        },
+        {
+          "title": "StatPearls: Benign Paroxysmal Positional Vertigo",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK470308/"
+        },
+        {
+          "title": "StatPearls: Meniere Disease",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK536955/"
+        }
+      ]
+    },
+    {
+      "id": "ent-otosclerosis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Nervous System & Special Senses",
+      "topic": "Hearing loss: conductive vs sensorineural",
+      "difficulty": 2,
+      "stem": "A 28-year-old woman has had slowly worsening hearing in her right ear for 2 years. It got noticeably worse during her pregnancy last year. Her mother needed hearing aids by age 40. The ear canals and tympanic membranes look normal. A vibrating tuning fork placed on the middle of her forehead sounds louder in the right ear. On the right, she hears the fork longer on the mastoid bone than beside the ear canal. On the left, she hears it longer beside the ear canal.",
+      "leadIn": "Which of the following is the most likely cause of her hearing loss?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Abnormal bone fixing the stapes footplate"
+        },
+        {
+          "id": "b",
+          "text": "Noise damage to cochlear hair cells"
+        },
+        {
+          "id": "c",
+          "text": "A Schwann cell tumor on the right cranial nerve VIII"
+        },
+        {
+          "id": "d",
+          "text": "Excess endolymph in the right inner ear"
+        },
+        {
+          "id": "e",
+          "text": "Age-related loss of hair cells in both cochleas"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: otosclerosis. Why: her tests show conductive hearing loss in the right ear. In conductive loss, the Weber test lateralizes to the affected ear, and the Rinne test is negative (bone conduction is better than air conduction) on that side. Otosclerosis replaces dense ear bone with spongy bone that later hardens and fixes the stapes footplate. It usually starts in the third and fourth decades, is about twice as common in women, often runs in families, and can worsen in pregnancy. The tympanic membrane looks normal. Treatment is stapedotomy or stapedectomy with a prosthesis, or hearing aids.",
+      "whyWrong": {
+        "b": "Noise damages hair cells and causes sensorineural loss. Then the Weber test lateralizes to the better ear and the Rinne test stays positive (air conduction better than bone) in the affected ear.",
+        "c": "A vestibular schwannoma causes sensorineural hearing loss with tinnitus and imbalance, so the Weber test would go to the left ear.",
+        "d": "Endolymphatic hydrops (Meniere disease) causes attacks of vertigo with low-frequency sensorineural loss, not slowly progressive conductive loss.",
+        "e": "Age-related loss is sensorineural and affects both ears in older people; she is 28 with a one-sided conductive pattern."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Otosclerosis",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK560671/"
+        },
+        {
+          "title": "StatPearls: Rinne Test",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK431071/"
+        },
+        {
+          "title": "StatPearls: Neurofibromatosis Type 2",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK470350/"
+        },
+        {
+          "title": "StatPearls: Meniere Disease",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK536955/"
+        }
+      ]
+    },
+    {
+      "id": "path-glioblastoma-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Nervous System & Special Senses",
+      "topic": "Brain tumors: glioblastoma",
+      "difficulty": 2,
+      "stem": "A 64-year-old man has had worsening headaches for 3 weeks. His wife says he has become apathetic and forgetful, and he now has weakness of the left arm. MRI shows a large mass in the right frontal lobe with an irregular rim of contrast enhancement around a necrotic center and surrounding edema. A stereotactic biopsy is done.",
+      "leadIn": "Which of the following is most likely to be seen on the biopsy?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pseudopalisading necrosis and microvascular proliferation"
+        },
+        {
+          "id": "b",
+          "text": "Whorls of meningothelial cells with psammoma bodies"
+        },
+        {
+          "id": "c",
+          "text": "Rosenthal fibers and eosinophilic granular bodies"
+        },
+        {
+          "id": "d",
+          "text": "Sheets of small round blue cells with Homer Wright rosettes"
+        },
+        {
+          "id": "e",
+          "text": "Nodules of wet keratin with calcification"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: pseudopalisading necrosis with microvascular proliferation. Why: an enhancing, necrotic mass in a 64-year-old is most likely glioblastoma, which is diagnosed at a median age of 64. High mitotic activity, microvascular proliferation, and necrosis are its hallmarks, and foci of pseudopalisading necrosis are considered pathognomonic. Standard treatment is surgical resection followed by radiation with temozolomide (the Stupp protocol), and median survival is only about 15 months. Recent change: your notes call it \"glioblastoma multiforme (grade IV astrocytoma)\". The 2021 WHO classification uses \"glioblastoma, IDH-wildtype\" (CNS WHO grade 4). Tumors with an IDH mutation are now called \"astrocytoma, IDH-mutant\" and graded 2 to 4.",
+      "whyWrong": {
+        "b": "Whorls of meningothelial cells with psammoma bodies are meningioma, a dural-based tumor that enhances evenly.",
+        "c": "Rosenthal fibers and eosinophilic granular bodies are pilocytic astrocytoma, a mostly childhood tumor that is often a cerebellar cyst with an enhancing nodule.",
+        "d": "Small round blue cells with Homer Wright rosettes are medulloblastoma, a cerebellar tumor of young children.",
+        "e": "Wet keratin with calcification is adamantinomatous craniopharyngioma, a suprasellar tumor."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Glioblastoma Multiforme",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK558954/"
+        },
+        {
+          "title": "Louis DN et al. The 2021 WHO Classification of Tumors of the Central Nervous System: a summary. Neuro-Oncology 2021;23(8):1231-1251",
+          "url": "https://academic.oup.com/neuro-oncology/article/23/8/1231/6311214"
+        },
+        {
+          "title": "StatPearls: Meningioma",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK560538/"
+        },
+        {
+          "title": "StatPearls: Pilocytic Astrocytoma",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK560614/"
+        },
+        {
+          "title": "StatPearls: Medulloblastoma",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK431069/"
+        },
+        {
+          "title": "StatPearls: Craniopharyngioma",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK459371/"
+        }
+      ]
+    },
+    {
+      "id": "path-meningioma-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Nervous System & Special Senses",
+      "topic": "Brain tumors: meningioma",
+      "difficulty": 1,
+      "stem": "A 58-year-old woman had a first seizure. For a year she has had slowly worsening headaches. As a child she received radiation to the head for leukemia. MRI shows a well-circumscribed mass outside the brain tissue, attached to the dura over the left frontal convexity. It enhances evenly with contrast and has a tapering thickening of the adjacent dura.",
+      "leadIn": "This tumor most likely arose from which of the following cells?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Arachnoid cap cells"
+        },
+        {
+          "id": "b",
+          "text": "Astrocytes"
+        },
+        {
+          "id": "c",
+          "text": "Schwann cells"
+        },
+        {
+          "id": "d",
+          "text": "Ependymal cells"
+        },
+        {
+          "id": "e",
+          "text": "Oligodendrocytes"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: arachnoid cap cells. Why: an evenly enhancing, dural-based mass with a dural tail is a meningioma. It usually comes from meningothelial arachnoid cap cells. It is more common in women (about 2.3 to 1), and the mean age at diagnosis is about 66. On histology it forms whorls of meningothelial cells, which can mineralize into psammoma bodies. The meninges are very sensitive to radiation, so prior head radiation raises the risk. Changes on chromosome 22, as in neurofibromatosis type 2, are also linked to meningioma.",
+      "whyWrong": {
+        "b": "Astrocytes give rise to tumors within the brain tissue, such as glioblastoma and pilocytic astrocytoma, not dural-based masses.",
+        "c": "Schwann cells give rise to schwannomas, such as vestibular schwannomas on cranial nerve VIII.",
+        "d": "Ependymal cells line the ventricles and central canal and give rise to ependymomas, which in NF2 occur inside the spinal cord.",
+        "e": "Oligodendrocytes give rise to oligodendrogliomas, which grow within the brain tissue rather than from the dura."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Meningioma",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK560538/"
+        },
+        {
+          "title": "StatPearls: Neurofibromatosis Type 2",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK470350/"
+        },
+        {
+          "title": "StatPearls: Glioblastoma Multiforme",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK558954/"
+        },
+        {
+          "title": "StatPearls: Pilocytic Astrocytoma",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK560614/"
+        }
+      ]
+    },
+    {
+      "id": "path-pilocytic-astrocytoma-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Nervous System & Special Senses",
+      "topic": "Brain tumors: pilocytic astrocytoma",
+      "difficulty": 1,
+      "stem": "A 9-year-old boy has had morning headaches and vomiting for 6 weeks, and he has become clumsy. He has a wide-based gait and past-pointing on finger-to-nose testing on the right. MRI shows a mass in the right cerebellar hemisphere made of a large cyst with a brightly enhancing nodule in its wall. The mass is completely removed.",
+      "leadIn": "Which of the following findings is most likely on histologic examination?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rosenthal fibers"
+        },
+        {
+          "id": "b",
+          "text": "Pseudopalisading necrosis"
+        },
+        {
+          "id": "c",
+          "text": "Homer Wright rosettes"
+        },
+        {
+          "id": "d",
+          "text": "Psammoma bodies"
+        },
+        {
+          "id": "e",
+          "text": "Nodules of wet keratin"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: Rosenthal fibers. Why: a cyst with an enhancing mural nodule in the cerebellum of a child is a pilocytic astrocytoma. About 75% occur before age 20, most often in the cerebellum, optic pathways, and hypothalamus. Histology shows Rosenthal fibers (elongated eosinophilic bundles) and eosinophilic granular bodies, and the tumor stains for GFAP. BRAF changes are found in 70% to 75% of cases. Complete removal is usually curative: the 10-year survival is about 95%, and recurrence is rare.",
+      "whyWrong": {
+        "b": "Pseudopalisading necrosis is the hallmark of glioblastoma, a tumor of older adults.",
+        "c": "Homer Wright rosettes in small round blue cells suggest medulloblastoma, which is usually solid and arises in the fourth ventricle region.",
+        "d": "Psammoma bodies in meningothelial whorls are meningioma, a dural-based tumor.",
+        "e": "Wet keratin is a feature of adamantinomatous craniopharyngioma, a calcified suprasellar tumor."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Pilocytic Astrocytoma",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK560614/"
+        },
+        {
+          "title": "StatPearls: Glioblastoma Multiforme",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK558954/"
+        },
+        {
+          "title": "StatPearls: Medulloblastoma",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK431069/"
+        },
+        {
+          "title": "StatPearls: Meningioma",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK560538/"
+        },
+        {
+          "title": "StatPearls: Craniopharyngioma",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK459371/"
+        }
+      ]
+    },
+    {
+      "id": "path-medulloblastoma-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Nervous System & Special Senses",
+      "topic": "Brain tumors: medulloblastoma",
+      "difficulty": 2,
+      "stem": "A 5-year-old girl has had morning vomiting and headaches for 3 weeks and now walks with a wide-based, unsteady gait. Fundoscopy shows papilledema. MRI shows a solid, enhancing midline mass filling the fourth ventricle, with enlarged lateral and third ventricles. MRI of the spine shows several small enhancing nodules along the surface of the spinal cord.",
+      "leadIn": "Which of the following is the most likely diagnosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Medulloblastoma"
+        },
+        {
+          "id": "b",
+          "text": "Pilocytic astrocytoma"
+        },
+        {
+          "id": "c",
+          "text": "Craniopharyngioma"
+        },
+        {
+          "id": "d",
+          "text": "Glioblastoma"
+        },
+        {
+          "id": "e",
+          "text": "Meningioma"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: medulloblastoma. Why: a solid mass in the fourth ventricle region of a young child, with obstructive hydrocephalus and nodules along the spinal cord (drop metastases), is medulloblastoma. It is a WHO grade 4 embryonal tumor that usually arises in the cerebellum in children younger than 10. Because most tumors arise in the fourth ventricle, many children present with obstructive hydrocephalus. It spreads through the CSF to the brain and spinal cord. Histology shows a small, round, blue-cell tumor; Homer Wright rosettes are seen in less than half of samples.",
+      "whyWrong": {
+        "b": "Pilocytic astrocytoma is also a cerebellar tumor of children, but it is typically a cyst with an enhancing mural nodule, and complete removal is usually curative.",
+        "c": "Craniopharyngioma is a calcified, cystic suprasellar tumor that affects vision and pituitary hormones.",
+        "d": "Glioblastoma is a tumor of older adults (median age 64), usually in the cerebral hemispheres.",
+        "e": "Meningioma is a dural-based tumor of older adults (mean age about 66)."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Medulloblastoma",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK431069/"
+        },
+        {
+          "title": "StatPearls: Pilocytic Astrocytoma",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK560614/"
+        },
+        {
+          "title": "StatPearls: Craniopharyngioma",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK459371/"
+        },
+        {
+          "title": "StatPearls: Glioblastoma Multiforme",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK558954/"
+        },
+        {
+          "title": "StatPearls: Meningioma",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK560538/"
+        }
+      ]
+    },
+    {
+      "id": "path-craniopharyngioma-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Nervous System & Special Senses",
+      "topic": "Brain tumors: craniopharyngioma",
+      "difficulty": 2,
+      "stem": "An 11-year-old boy has headaches and keeps bumping into door frames on both sides. He has grown only 2 cm in the past 2 years and is now below the 3rd percentile for height. He drinks large amounts of water and gets up at night to urinate. Visual field testing shows loss of the outer (temporal) half of the field in both eyes. CT shows a cystic suprasellar mass with calcifications. At surgery the cyst contains yellow-brown, cholesterol-rich fluid.",
+      "leadIn": "Which of the following is most likely on histologic examination of the solid part of the tumor?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nodules of wet keratin"
+        },
+        {
+          "id": "b",
+          "text": "Rosenthal fibers"
+        },
+        {
+          "id": "c",
+          "text": "Homer Wright rosettes"
+        },
+        {
+          "id": "d",
+          "text": "Pseudopalisading necrosis"
+        },
+        {
+          "id": "e",
+          "text": "Psammoma bodies in meningothelial whorls"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: wet keratin. Why: a calcified, cystic suprasellar mass in a child, with bitemporal field loss, poor growth, and polyuria, is a craniopharyngioma. It arises from remnants of Rathke's pouch, the embryonic outpouching that forms the anterior pituitary. Incidence peaks at ages 5 to 14 and 50 to 74, and 95% have a suprasellar part. Pressure on the optic chiasm causes temporal field loss. Many patients have growth hormone deficiency, and about 20% have vasopressin deficiency (diabetes insipidus). The adamantinomatous type, seen mainly in children, is calcified in about 90% of cases, contains nodules of wet keratin, and has cholesterol-rich cyst fluid.",
+      "whyWrong": {
+        "b": "Rosenthal fibers point to pilocytic astrocytoma, usually a cerebellar cyst with a mural nodule.",
+        "c": "Homer Wright rosettes in small blue cells point to medulloblastoma in the fourth ventricle region.",
+        "d": "Pseudopalisading necrosis is the hallmark of glioblastoma in older adults.",
+        "e": "Psammoma bodies in meningothelial whorls are meningioma, a dural-based tumor of older adults."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Craniopharyngioma",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK459371/"
+        },
+        {
+          "title": "StatPearls: Pilocytic Astrocytoma",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK560614/"
+        },
+        {
+          "title": "StatPearls: Medulloblastoma",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK431069/"
+        },
+        {
+          "title": "StatPearls: Glioblastoma Multiforme",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK558954/"
+        },
+        {
+          "title": "StatPearls: Meningioma",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK560538/"
+        }
+      ]
+    },
+    {
+      "id": "genetics-nf2-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Genetics",
+      "system": "Nervous System & Special Senses",
+      "topic": "Neurocutaneous syndromes: neurofibromatosis type 2",
+      "difficulty": 2,
+      "stem": "A 24-year-old man has had ringing in both ears and worsening hearing for 1 year, and he feels unsteady in the dark. His father had surgery for several brain and spinal tumors. Hearing testing shows sensorineural loss in both ears. MRI shows enhancing masses on both vestibulocochlear nerves at the cerebellopontine angles, and a dural-based mass over the right parietal lobe.",
+      "leadIn": "Loss of which of the following proteins most likely explains his tumors?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Merlin"
+        },
+        {
+          "id": "b",
+          "text": "Neurofibromin"
+        },
+        {
+          "id": "c",
+          "text": "Von Hippel-Lindau protein"
+        },
+        {
+          "id": "d",
+          "text": "RET receptor tyrosine kinase"
+        },
+        {
+          "id": "e",
+          "text": "Dystrophin"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: merlin. Why: bilateral vestibular schwannomas are the hallmark of neurofibromatosis type 2 (NF2). NF2 is caused by mutations in the NF2 gene on chromosome 22 (22q12.2), which makes merlin, a tumor suppressor. It can be inherited as autosomal dominant (as here, from his father) or arise as a new mutation. Patients typically present with tinnitus, sensorineural hearing loss, and balance problems. About 50% develop meningiomas (like his dural-based mass), and ependymomas can grow inside the spinal cord. Cataracts are part of the diagnostic criteria. Recent change: in 2022 an international consensus group retired the name \"neurofibromatosis 2\". GeneReviews now calls the condition NF2-related schwannomatosis, the term that consensus proposed. Older books and some exam questions still use NF2.",
+      "whyWrong": {
+        "b": "Neurofibromin is lost in neurofibromatosis type 1, which causes café-au-lait spots, neurofibromas, Lisch nodules, and armpit and groin freckling, not bilateral vestibular schwannomas.",
+        "c": "Loss of the VHL protein causes von Hippel-Lindau syndrome, with hemangioblastomas and kidney cancer rather than schwannomas.",
+        "d": "Activating RET mutations cause MEN 2 (medullary thyroid cancer and pheochromocytoma).",
+        "e": "Loss of dystrophin causes Duchenne muscular dystrophy, a muscle disease."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Neurofibromatosis Type 2",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK470350/"
+        },
+        {
+          "title": "MedlinePlus Genetics: Neurofibromatosis type 1",
+          "url": "https://medlineplus.gov/genetics/condition/neurofibromatosis-type-1/"
+        },
+        {
+          "title": "Plotkin SR et al. Updated diagnostic criteria and nomenclature for neurofibromatosis type 2 and schwannomatosis. Genet Med 2022;24(9):1967-1977",
+          "url": "https://research.manchester.ac.uk/en/publications/updated-diagnostic-criteria-and-nomenclature-for-neurofibromatosi/"
+        },
+        {
+          "title": "GeneReviews: NF2-Related Schwannomatosis",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK1201/"
+        }
+      ]
+    },
+    {
+      "id": "gi-gilbert-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "Gastrointestinal",
+      "topic": "Inherited jaundice: Gilbert syndrome",
+      "difficulty": 1,
+      "stem": "A 21-year-old college student notices that the whites of his eyes are yellow during final exams week, after he skipped meals for 2 days. He feels well. Total bilirubin is 3.0 mg/dL, with direct (conjugated) bilirubin 0.3 mg/dL. ALT, AST, and alkaline phosphatase are normal. Hemoglobin, reticulocyte count, and LDH are normal.",
+      "leadIn": "Which of the following is the most likely cause of his jaundice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Reduced activity of UDP-glucuronosyltransferase 1A1"
+        },
+        {
+          "id": "b",
+          "text": "Absent activity of UDP-glucuronosyltransferase 1A1"
+        },
+        {
+          "id": "c",
+          "text": "A defective canalicular transporter (MRP2)"
+        },
+        {
+          "id": "d",
+          "text": "Increased red blood cell breakdown"
+        },
+        {
+          "id": "e",
+          "text": "A stone blocking the common bile duct"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: reduced UGT1A1 activity (Gilbert syndrome). Why: mild, isolated unconjugated hyperbilirubinemia (total bilirubin usually below 4 mg/dL) with normal liver enzymes and no hemolysis is Gilbert syndrome. UGT1A1 works at only 30% to 50% of normal, so less bilirubin is conjugated. It is autosomal recessive. Fasting, febrile illness, menstruation, and physical exertion are common triggers. No treatment is needed. One drug point: irinotecan is well known to cause toxicity in people with Gilbert syndrome.",
+      "whyWrong": {
+        "b": "Absent UGT1A1 is Crigler-Najjar type 1, which causes severe unconjugated jaundice in newborns with a high risk of kernicterus.",
+        "c": "A defective MRP2 transporter is Dubin-Johnson syndrome, which raises conjugated (direct) bilirubin. His bilirubin is mostly unconjugated.",
+        "d": "Hemolysis would raise the reticulocyte count and LDH, which are normal.",
+        "e": "Bile duct obstruction raises conjugated bilirubin and alkaline phosphatase."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Gilbert Syndrome",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK470200/"
+        },
+        {
+          "title": "StatPearls: Crigler-Najjar Syndrome",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK562171/"
+        },
+        {
+          "title": "StatPearls: Dubin-Johnson Syndrome",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK536994/"
+        },
+        {
+          "title": "StatPearls: Cholangitis",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK558946/"
+        }
+      ]
+    },
+    {
+      "id": "gi-dubin-johnson-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "Gastrointestinal",
+      "topic": "Inherited jaundice: Dubin-Johnson syndrome",
+      "difficulty": 2,
+      "stem": "A 23-year-old woman notices mild yellowing of her eyes 2 months after starting an oral contraceptive. She feels well and has no itching or abdominal pain. Total bilirubin is 4.1 mg/dL, with direct (conjugated) bilirubin 3.0 mg/dL. ALT, AST, alkaline phosphatase, and GGT are normal. Ultrasound shows a normal liver and bile ducts.",
+      "leadIn": "Which of the following findings is most likely on further evaluation?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Normal total urinary coproporphyrin, with more than 80% as isomer I"
+        },
+        {
+          "id": "b",
+          "text": "An unconjugated bilirubin level that falls after phenobarbital"
+        },
+        {
+          "id": "c",
+          "text": "Antimitochondrial antibodies"
+        },
+        {
+          "id": "d",
+          "text": "An elevated reticulocyte count"
+        },
+        {
+          "id": "e",
+          "text": "Beading of the bile ducts on cholangiography"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: normal total urinary coproporphyrin, more than 80% isomer I. Why: a mild, mostly conjugated hyperbilirubinemia with normal liver enzymes and normal bile ducts, unmasked by oral contraceptives, is Dubin-Johnson syndrome. Mutations in ABCC2 impair MRP2, the transporter that moves conjugated bilirubin out of liver cells into bile. Oral contraceptives, illness, and pregnancy can trigger jaundice. A liver biopsy, if done, shows dark, coarsely granular pigment in centrilobular hepatocytes. Total urinary coproporphyrin is normal, but more than 80% is isomer I, a pattern not seen in Rotor syndrome. It is benign, does not cause cirrhosis, and needs no treatment.",
+      "whyWrong": {
+        "b": "A fall in unconjugated bilirubin with phenobarbital fits Crigler-Najjar type 2. Her raised bilirubin is mostly conjugated.",
+        "c": "Antimitochondrial antibodies point to primary biliary cholangitis, which raises alkaline phosphatase and GGT and causes itching. Her cholestatic enzymes are normal.",
+        "d": "A high reticulocyte count means hemolysis, which raises unconjugated bilirubin, not conjugated.",
+        "e": "Beaded ducts on cholangiography are primary sclerosing cholangitis, which raises alkaline phosphatase. Her ducts and enzymes are normal."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Dubin-Johnson Syndrome",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK536994/"
+        },
+        {
+          "title": "StatPearls: Crigler-Najjar Syndrome",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK562171/"
+        },
+        {
+          "title": "StatPearls: Gilbert Syndrome",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK470200/"
+        }
+      ]
+    },
+    {
+      "id": "peds-crigler-najjar-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "Gastrointestinal",
+      "topic": "Inherited jaundice: Crigler-Najjar syndrome",
+      "difficulty": 2,
+      "stem": "A 4-day-old boy, born at term to parents who are first cousins, has deep jaundice. Total bilirubin is 26 mg/dL, almost all unconjugated. The direct antiglobulin (Coombs) test is negative, and hemoglobin and reticulocyte count are normal. Intensive phototherapy is started. A 2-week trial of phenobarbital does not lower his bilirubin, and he still needs phototherapy many hours every day at 2 months of age.",
+      "leadIn": "Which of the following best explains his jaundice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Absent UGT1A1 activity"
+        },
+        {
+          "id": "b",
+          "text": "Reduced UGT1A1 activity"
+        },
+        {
+          "id": "c",
+          "text": "Defective MRP2 bile transporter"
+        },
+        {
+          "id": "d",
+          "text": "Increased red blood cell breakdown"
+        },
+        {
+          "id": "e",
+          "text": "Fibrous obliteration of the bile ducts"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: absent UGT1A1 activity. Why: severe unconjugated jaundice from birth, with no hemolysis, that does not respond to phenobarbital is Crigler-Najjar syndrome type 1. UGT1A1 (UDP-glucuronosyltransferase 1A1) activity is absent or minimal, so bilirubin cannot be conjugated. It is autosomal recessive, and consanguinity raises the risk. Infants are at very high risk of kernicterus. The main treatment is intensive daily phototherapy, and liver transplantation is the only cure. In type 2, enzyme activity is reduced rather than absent, bilirubin is usually below 20 mg/dL, and phenobarbital lowers it.",
+      "whyWrong": {
+        "b": "Reduced UGT1A1 activity is Gilbert syndrome or Crigler-Najjar type 2. In type 2, bilirubin is usually below 20 mg/dL and phenobarbital lowers it. His bilirubin is 26 mg/dL and did not respond.",
+        "c": "A defective MRP2 transporter is Dubin-Johnson syndrome, which raises conjugated bilirubin. His is almost all unconjugated.",
+        "d": "Hemolysis is ruled out: the Coombs test, hemoglobin, and reticulocyte count are normal.",
+        "e": "Fibrous obliteration of the bile ducts is biliary atresia, which raises conjugated bilirubin and causes pale stools."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Crigler-Najjar Syndrome",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK562171/"
+        },
+        {
+          "title": "StatPearls: Gilbert Syndrome",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK470200/"
+        },
+        {
+          "title": "StatPearls: Dubin-Johnson Syndrome",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK536994/"
+        },
+        {
+          "title": "StatPearls: Biliary Atresia",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK537262/"
+        }
+      ]
+    },
+    {
+      "id": "peds-biliary-atresia-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Gastrointestinal",
+      "topic": "Neonatal jaundice: biliary atresia",
+      "difficulty": 2,
+      "stem": "A 5-week-old girl has been yellow since her second week of life. Her parents say her stools have become pale, like putty, and her diaper urine is dark. She is feeding well. The liver edge is firm and palpable 3 cm below the costal margin. Total bilirubin is 7.8 mg/dL, with direct (conjugated) bilirubin 6.2 mg/dL, and GGT is raised. An intraoperative cholangiogram shows no flow of contrast into the extrahepatic bile ducts.",
+      "leadIn": "Which of the following is the most appropriate treatment now?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kasai hepatoportoenterostomy"
+        },
+        {
+          "id": "b",
+          "text": "Phototherapy"
+        },
+        {
+          "id": "c",
+          "text": "Phenobarbital"
+        },
+        {
+          "id": "d",
+          "text": "Observation, because jaundice in infants is usually physiologic"
+        },
+        {
+          "id": "e",
+          "text": "Liver transplantation as the first operation"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the Kasai procedure. Why: jaundice lasting beyond 2 weeks with pale (acholic) stools, dark urine, hepatomegaly, and conjugated hyperbilirubinemia is biliary atresia until proven otherwise. Jaundice that persists for more than 14 days is not physiologic and needs prompt evaluation. Intraoperative cholangiography is the diagnostic gold standard. Standard treatment is the Kasai hepatic portoenterostomy, ideally before 60 days of life, because earlier surgery restores bile flow better. Liver transplantation is reserved for a failed Kasai or advanced biliary cirrhosis.",
+      "whyWrong": {
+        "b": "Phototherapy lowers unconjugated bilirubin. Her bilirubin is mostly conjugated, from blocked bile flow.",
+        "c": "Phenobarbital lowers unconjugated bilirubin in Crigler-Najjar type 2; it does not open blocked bile ducts.",
+        "d": "Jaundice beyond 14 days with pale stools and conjugated hyperbilirubinemia is never physiologic.",
+        "e": "Transplantation is the definitive therapy only after a failed Kasai or with advanced biliary cirrhosis."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Biliary Atresia",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK537262/"
+        },
+        {
+          "title": "StatPearls: Crigler-Najjar Syndrome",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK562171/"
+        }
+      ]
+    },
+    {
+      "id": "gi-ascending-cholangitis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Gastrointestinal",
+      "topic": "Biliary disease: acute cholangitis",
+      "difficulty": 2,
+      "stem": "A 70-year-old woman with known gallstones has had fever, chills, and right upper quadrant pain for 1 day. Her temperature is 39.4°C (103°F), pulse 118/min, and blood pressure 86/50 mm Hg. She is confused and her sclerae are yellow. WBC count is 19,000/mm³, total bilirubin 5.6 mg/dL (direct 4.8 mg/dL), and alkaline phosphatase 420 U/L. Ultrasound shows a dilated common bile duct.",
+      "leadIn": "Which of the following best explains her condition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Blocked common bile duct with infected bile"
+        },
+        {
+          "id": "b",
+          "text": "Blocked cystic duct with an inflamed gallbladder"
+        },
+        {
+          "id": "c",
+          "text": "Defective MRP2 bile transporter"
+        },
+        {
+          "id": "d",
+          "text": "Increased red blood cell breakdown"
+        },
+        {
+          "id": "e",
+          "text": "Reduced UGT1A1 activity"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: a blocked common bile duct with infected bile (acute cholangitis). Why: fever, right upper quadrant pain, and jaundice are Charcot triad. Adding confusion and shock gives Reynolds pentad, a sign of severe cholangitis. Cholangitis needs obstruction of bile flow, most often a stone in the common bile duct (choledocholithiasis). Gut bacteria, mainly gram-negative organisms such as E. coli, Klebsiella, and Enterobacter, grow in the trapped bile. Complete obstruction raises the pressure inside the ducts, which often pushes bacteria into the blood, so she is septic. Treatment is antibiotics plus urgent biliary drainage, usually by ERCP, which works in 94% to 98% of cases.",
+      "whyWrong": {
+        "b": "Acute cholecystitis comes from a stone in the cystic duct. That does not dilate the common bile duct or block bile leaving the liver, so it does not explain her dilated common bile duct and high direct bilirubin.",
+        "c": "A defective MRP2 transporter is Dubin-Johnson syndrome, a mild, benign rise in conjugated bilirubin with normal liver enzymes, not fever and shock.",
+        "d": "Hemolysis raises unconjugated (indirect) bilirubin. Most of her bilirubin is direct.",
+        "e": "Reduced UGT1A1 activity is Gilbert syndrome, a mild unconjugated rise (usually below 4 mg/dL) with normal liver enzymes."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Cholangitis",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK558946/"
+        },
+        {
+          "title": "StatPearls: Dubin-Johnson Syndrome",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK536994/"
+        },
+        {
+          "title": "StatPearls: Gilbert Syndrome",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK470200/"
+        }
+      ]
+    },
+    {
+      "id": "peds-epiglottitis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Respiratory",
+      "topic": "Pediatric airway: epiglottitis",
+      "difficulty": 1,
+      "stem": "A 4-year-old boy who has received no vaccines developed a high fever and severe sore throat over 6 hours. He is drooling, refuses to swallow, and speaks in a muffled voice. He sits upright, leaning forward on his hands with his neck extended, and looks very ill. He has soft inspiratory stridor and is anxious.",
+      "leadIn": "Which of the following is the most appropriate next step?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Secure the airway in the operating room with an experienced team"
+        },
+        {
+          "id": "b",
+          "text": "Examine the throat with a tongue depressor"
+        },
+        {
+          "id": "c",
+          "text": "Give nebulized racemic epinephrine and oral dexamethasone"
+        },
+        {
+          "id": "d",
+          "text": "Lay him flat to place an IV and draw blood cultures"
+        },
+        {
+          "id": "e",
+          "text": "Give oral amoxicillin and recheck in 24 hours"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: secure the airway in a controlled setting. Why: rapid-onset fever with drooling, dysphagia, and distress (the 3 Ds), a muffled \"hot potato\" voice, and a toxic look in an unvaccinated child is epiglottitis. Haemophilus influenzae type b caused most childhood cases before the Hib vaccine, and H. influenzae is still the single most common cause. Lateral neck x-ray shows a swollen epiglottis (the thumb sign). Because the airway can close suddenly, the airway should ideally be secured in the operating room. Avoid anything that agitates the child, and never use a tongue blade to look in the throat. After the airway is secure, give empiric antibiotics such as ceftriaxone, cefotaxime, or cefuroxime.",
+      "whyWrong": {
+        "b": "A tongue blade can trigger complete airway obstruction and should never be used when epiglottitis is suspected.",
+        "c": "Racemic epinephrine and dexamethasone treat croup. In epiglottitis, unnecessary inhalers, racemic epinephrine, and agitation should be avoided.",
+        "d": "These children struggle to lie flat and should be handled calmly. Securing the airway comes before painful procedures.",
+        "e": "Epiglottitis can progress quickly to airway obstruction, so outpatient oral antibiotics are unsafe."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Epiglottitis",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK430960/"
+        }
+      ]
+    },
+    {
+      "id": "peds-bronchiolitis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Respiratory",
+      "topic": "Pediatric airway: bronchiolitis",
+      "difficulty": 1,
+      "stem": "A 3-month-old girl is brought in during January with 2 days of runny nose followed by cough and fast breathing. Her temperature is 38.0°C (100.4°F), respiratory rate is 60/min, and oxygen saturation is 93% on room air. She has subcostal retractions, and the chest has diffuse wheezes and fine crackles. She is feeding a little less than usual.",
+      "leadIn": "Which of the following is the most likely cause?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Respiratory syncytial virus"
+        },
+        {
+          "id": "b",
+          "text": "Parainfluenza virus"
+        },
+        {
+          "id": "c",
+          "text": "Haemophilus influenzae type b"
+        },
+        {
+          "id": "d",
+          "text": "Mycoplasma pneumoniae"
+        },
+        {
+          "id": "e",
+          "text": "Group A streptococcus"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: respiratory syncytial virus (RSV). Why: an infant under 2 years with a cold that progresses to fast breathing, retractions, wheezing, and fine crackles in winter has bronchiolitis, and RSV causes up to 80% of cases. Care is supportive: oxygen if saturation is low and hydration with small, frequent feeds. Bronchodilators are not reliably effective, and glucocorticoids are not recommended for a first episode. Recent change: your microbiology notes give palivizumab for RSV prevention in premature infants. CDC now protects infants with either a maternal RSV vaccine in pregnancy or a long-acting antibody (nirsevimab or clesrovimab) for babies under 8 months in their first RSV season. Palivizumab is no longer available after December 31, 2025.",
+      "whyWrong": {
+        "b": "Parainfluenza virus is the main cause of croup, which presents with a barking cough and inspiratory stridor rather than diffuse wheezes and crackles.",
+        "c": "H. influenzae type b causes epiglottitis: sudden high fever, drooling, and stridor in a toxic-looking child.",
+        "d": "Mycoplasma pneumoniae causes atypical pneumonia mainly in children aged 5 to 14 and young adults. Infants younger than 6 months are rarely infected.",
+        "e": "Group A streptococcus causes pharyngitis, not a wheezy lower respiratory infection in infants."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Bronchiolitis (reviewed Mar 2026)",
+          "url": "https://www.msdmanuals.com/professional/pediatrics/respiratory-disorders-in-young-children/bronchiolitis"
+        },
+        {
+          "title": "CDC: RSV Immunization Guidance for Infants and Young Children (updated Aug 18, 2025)",
+          "url": "https://www.cdc.gov/rsv/hcp/vaccine-clinical-guidance/infants-young-children.html"
+        },
+        {
+          "title": "StatPearls: Mycoplasma Infections",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK536927/"
+        },
+        {
+          "title": "StatPearls: Epiglottitis",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK430960/"
+        }
+      ]
+    },
+    {
+      "id": "peds-foreign-body-aspiration-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Respiratory",
+      "topic": "Pediatric airway: foreign body aspiration",
+      "difficulty": 2,
+      "stem": "A 2-year-old boy started coughing and choking while eating peanuts at a party yesterday. He now has a cough and audible wheezing. He has no fever. On examination, breath sounds are reduced over the left lung, with wheezing on that side. Chest x-ray in inspiration is normal. Decubitus films show that the left lung stays expanded when he lies on his left side.",
+      "leadIn": "Which of the following is the most appropriate next step?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rigid bronchoscopy"
+        },
+        {
+          "id": "b",
+          "text": "Nebulized albuterol and discharge home"
+        },
+        {
+          "id": "c",
+          "text": "Oral amoxicillin for 10 days"
+        },
+        {
+          "id": "d",
+          "text": "Repeat chest x-ray in 2 weeks"
+        },
+        {
+          "id": "e",
+          "text": "Chest physiotherapy to loosen secretions"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: rigid bronchoscopy. Why: sudden choking and coughing while eating, followed by one-sided wheezing and reduced breath sounds, is foreign body aspiration until proven otherwise. Most cases are toddlers (98% are under 5 years). Chest x-rays are often normal; the most common abnormality is air trapping. For children under 5, bilateral decubitus films are preferred: the side with the object does not deflate when it is down. Bronchoscopy both diagnoses and removes the object, and rigid bronchoscopy allows ventilation through the scope and a better view. Note: your notes say aspirated material goes more often to the right main bronchus, which is classic teaching for adults. In children under 15, objects land in the left lung almost as often as in the right, because the angles where the two bronchi branch off are more symmetric.",
+      "whyWrong": {
+        "b": "One-sided wheeze after a choking episode is not asthma. Treating with albuterol leaves the object in place.",
+        "c": "Antibiotics do not remove the object. A retained object can lead to infection later.",
+        "d": "Waiting allows complications. A normal x-ray does not rule out a foreign body.",
+        "e": "Chest physiotherapy does not reliably remove an aspirated object and can dislodge it into a worse position."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Foreign Body Aspiration",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK531480/"
+        }
+      ]
+    },
+    {
+      "id": "peds-neonatal-rds-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Respiratory",
+      "topic": "Newborn breathing trouble: neonatal respiratory distress syndrome",
+      "difficulty": 2,
+      "stem": "A boy is born at 30 weeks' gestation by emergency cesarean delivery to a mother with poorly controlled diabetes. She did not receive corticosteroids before delivery. Within 1 hour he has grunting, nasal flaring, intercostal retractions, and cyanosis on room air. Chest x-ray shows low lung volumes with a diffuse ground-glass, reticulogranular pattern and air bronchograms.",
+      "leadIn": "Which of the following best explains his condition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Surfactant deficiency causing alveolar collapse"
+        },
+        {
+          "id": "b",
+          "text": "Delayed clearance of fetal lung fluid"
+        },
+        {
+          "id": "c",
+          "text": "Meconium blocking the airways and inactivating surfactant"
+        },
+        {
+          "id": "d",
+          "text": "A one-way air leak into the pleural space"
+        },
+        {
+          "id": "e",
+          "text": "Infection of the bronchioles by respiratory syncytial virus"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: surfactant deficiency. Why: a premature newborn with grunting, retractions, and cyanosis soon after birth, and a ground-glass reticulogranular x-ray with air bronchograms, has neonatal respiratory distress syndrome. Surfactant is made by alveolar type 2 cells, starting around 20 weeks of gestation, so premature lungs do not have enough. The biggest risk factors are prematurity and low birth weight; others include male sex, late preterm delivery, and maternal diabetes. Antenatal corticosteroids markedly reduce the risk. Treatment is nasal CPAP and surfactant replacement. Bronchopulmonary dysplasia is a chronic complication.",
+      "whyWrong": {
+        "b": "Delayed clearance of fetal lung fluid is transient tachypnea of the newborn. It mainly affects term and late-preterm babies, often after cesarean delivery without labor, shows fluid in the fissures on x-ray, and resolves within 24 to 72 hours.",
+        "c": "Meconium aspiration affects term and post-term babies born through meconium-stained fluid; later films show hyperinflation and atelectasis.",
+        "d": "A one-way air leak is a tension pneumothorax, which causes one-sided absent breath sounds and a shifted mediastinum, not a diffuse ground-glass pattern.",
+        "e": "RSV bronchiolitis affects infants after the newborn period, starting with a cold, not a preterm baby within an hour of birth."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Neonatal Respiratory Distress Syndrome",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK560779/"
+        },
+        {
+          "title": "StatPearls: Transient Tachypnea of the Newborn",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK537354/"
+        },
+        {
+          "title": "StatPearls: Meconium Aspiration",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK557425/"
+        },
+        {
+          "title": "StatPearls: Tension Pneumothorax",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK559090/"
+        },
+        {
+          "title": "MSD Manual Professional: Bronchiolitis (reviewed Mar 2026)",
+          "url": "https://www.msdmanuals.com/professional/pediatrics/respiratory-disorders-in-young-children/bronchiolitis"
+        }
+      ]
+    },
+    {
+      "id": "peds-tension-pneumothorax-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Respiratory",
+      "topic": "Chest trauma: tension pneumothorax",
+      "difficulty": 1,
+      "stem": "A 12-year-old boy is brought to the emergency department after being thrown from an all-terrain vehicle. He is gasping and anxious. Pulse is 142/min, blood pressure 74/40 mm Hg, and oxygen saturation 84% on a face mask. Breath sounds are absent on the right, and the right chest is hyperresonant to percussion. The trachea is shifted to the left, and the neck veins are distended.",
+      "leadIn": "Which of the following best explains his hypotension?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Decreased venous return to the heart"
+        },
+        {
+          "id": "b",
+          "text": "Fluid compressing the heart within the pericardium"
+        },
+        {
+          "id": "c",
+          "text": "Widespread loss of arterial tone"
+        },
+        {
+          "id": "d",
+          "text": "Weak pumping by a bruised heart muscle"
+        },
+        {
+          "id": "e",
+          "text": "Blood loss from an injured abdominal organ"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: decreased venous return. Why: absent breath sounds, hyperresonance, a trachea shifted away from the affected side, distended neck veins, and hypotension after chest trauma are a tension pneumothorax. A one-way valve lets air into the pleural space on inspiration but not out on expiration, so pressure builds and pushes the mediastinum to the other side. The high pressure compresses the superior vena cava, so less blood returns to the heart and cardiac output falls. That is why he is hypotensive and his neck veins are distended. The diagnosis is clinical. In an unstable patient, needle decompression is done at once, without waiting for imaging, and a chest tube (tube thoracostomy) follows.",
+      "whyWrong": {
+        "b": "Cardiac tamponade also causes distended neck veins and hypotension, but breath sounds are present and the trachea is midline. Heart sounds are muffled, and pulsus paradoxus may be present.",
+        "c": "Loss of arterial tone (distributive shock, as in sepsis or spinal injury) does not explain absent breath sounds, hyperresonance, and a trachea pushed to the left. His shock is mechanical.",
+        "d": "A bruised heart can pump poorly after blunt chest trauma, but that would not cause absent breath sounds, hyperresonance, or a shifted trachea.",
+        "e": "Bleeding from an injured organ causes shock, but it does not explain the one-sided chest findings, and blood loss would not distend the neck veins."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Tension Pneumothorax",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK559090/"
+        },
+        {
+          "title": "StatPearls: Thoracic Trauma",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK482194/"
         }
       ]
     }

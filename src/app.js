@@ -6,6 +6,7 @@ import { presentQuestion, isCorrect, xpFor, levelFor, interleave, shuffle, updat
 import { load, save, isDayString } from './storage.js';
 import { EXAM_TYPES, SUBJECT_EXAMS, SECONDS_PER_QUESTION, examLabel, examFormat, examScope, nextExam, weightedSample } from './exams.js';
 import { today, daysBetween, parseDayString } from './dates.js';
+import { REPORT_REASONS, weakSpots, weakSpotsText, describeSpot, addReport, reportsText } from './insights.js';
 
 const NEW_PER_ROUNDS = 10;
 const FOCUS_KEY = 'med-prep-focus';
@@ -85,7 +86,72 @@ function renderHome() {
   $('misconception-summary').textContent = mis
     ? `${mis} confident miss${mis === 1 ? '' : 'es'} queued for extra review. These are the facts most worth fixing.`
     : '';
+  renderWeakSpots();
+  renderReports();
   show('home');
+}
+
+const WEAK_SHOWN = 10;
+
+function renderWeakSpots() {
+  const spots = weakSpots(state.history, questions);
+  const list = $('weak-list');
+  list.replaceChildren();
+  for (const s of spots.slice(0, WEAK_SHOWN)) {
+    const li = el('li');
+    li.appendChild(el('span', `${s.topic} `));
+    li.appendChild(el('span', `(${s.system}): ${describeSpot(s)}`, 'meta'));
+    list.appendChild(li);
+  }
+  $('weak-summary').textContent = spots.length
+    ? `The topics you miss most, weakest first${spots.length > WEAK_SHOWN ? ` (top ${WEAK_SHOWN} of ${spots.length})` : ''}. Copy them for your Claude to make study guides, or send them to Emily so new questions get written.`
+    : 'Nothing yet. Topics you miss, or only get right by guessing, will show up here.';
+  $('weak-actions').hidden = !spots.length;
+  $('weak-status').textContent = '';
+  $('weak-fallback').hidden = true;
+}
+
+function renderReports() {
+  const n = state.reports.length;
+  $('reports-box').hidden = n === 0;
+  $('reports-summary').textContent = `${n} question report${n === 1 ? '' : 's'} saved on this device. Send them to Emily so the questions get fixed, then clear them.`;
+  $('reports-status').textContent = '';
+  $('reports-fallback').hidden = true;
+}
+
+// Copies text, or shows it selected in a box when the browser blocks copying.
+async function copyText(text, status, fallback, done) {
+  try {
+    await navigator.clipboard.writeText(text);
+    fallback.hidden = true;
+    status.textContent = done;
+  } catch {
+    fallback.value = text;
+    fallback.hidden = false;
+    fallback.focus();
+    fallback.select();
+    status.textContent = 'Copy the selected text below (press and hold on a phone, then Copy).';
+  }
+}
+
+// Phone: the share menu (Messages, Mail...). Computer: an email draft.
+async function sendText(subject, text, status, fallback) {
+  if (navigator.share) {
+    try {
+      await navigator.share({ title: subject, text });
+      status.textContent = 'Sent.';
+      return;
+    } catch (err) {
+      if (err?.name === 'AbortError') return;
+    }
+  }
+  const href = `mailto:?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(text)}`;
+  if (href.length < 1800) {
+    window.location.href = href;
+    status.textContent = 'An email draft should open. Add Emily as the recipient and send it.';
+  } else {
+    await copyText(text, status, fallback, 'Copied. Paste it into a text or email to Emily.');
+  }
 }
 
 // The soonest upcoming exam whose content includes this question, so each
@@ -424,6 +490,11 @@ function renderFeedback(q, presented, choice, correct, confidence, gained, note 
     ww.appendChild(li);
   }
 
+  $('fb-report').open = false;
+  $('report-note').value = '';
+  $('report-reason').value = 'unclear';
+  $('report-status').textContent = '';
+
   const src = $('fb-sources');
   src.replaceChildren();
   for (const s of q.sources) {
@@ -515,6 +586,35 @@ function wire() {
   for (const b of document.querySelectorAll('[data-mode]')) b.addEventListener('click', () => startSession(b.dataset.mode));
   for (const b of document.querySelectorAll('[data-confidence]')) b.addEventListener('click', () => answer(b.dataset.confidence));
   $('next-btn').addEventListener('click', advance);
+  const reasonSel = $('report-reason');
+  for (const [id, label] of Object.entries(REPORT_REASONS)) {
+    const o = el('option', label);
+    o.value = id;
+    reasonSel.appendChild(o);
+  }
+  $('report-save').addEventListener('click', () => {
+    const q = session?.current?.q;
+    if (!q) return;
+    state.reports = addReport(state.reports, { id: q.id, day: today(), reason: reasonSel.value, note: $('report-note').value.trim() });
+    persist();
+    $('report-status').textContent = 'Thanks, saved. Send your reports to Emily from the home screen.';
+    $('report-note').value = '';
+  });
+  $('weak-copy').addEventListener('click', () => copyText(
+    weakSpotsText(weakSpots(state.history, questions), questions, today()),
+    $('weak-status'), $('weak-fallback'), 'Copied. Paste it into your study Claude.'));
+  $('weak-send').addEventListener('click', () => sendText('My weak spots from the study game',
+    weakSpotsText(weakSpots(state.history, questions), questions, today()), $('weak-status'), $('weak-fallback')));
+  $('reports-copy').addEventListener('click', () => copyText(reportsText(state.reports, questions),
+    $('reports-status'), $('reports-fallback'), 'Copied. Paste it into a text or email to Emily.'));
+  $('reports-send').addEventListener('click', () => sendText('Question reports from the study game',
+    reportsText(state.reports, questions), $('reports-status'), $('reports-fallback')));
+  $('reports-clear').addEventListener('click', () => {
+    if (!window.confirm(`Clear ${state.reports.length} saved report(s)? Do this after you have sent them.`)) return;
+    state.reports = [];
+    persist();
+    renderReports();
+  });
   $('sum-home').addEventListener('click', renderHome);
   const typeSel = $('exam-type');
   for (const [id, { name }] of Object.entries(EXAM_TYPES)) {
@@ -563,8 +663,12 @@ function wire() {
     renderHome();
   });
   document.addEventListener('keydown', (e) => {
-    if (!session || e.target.tagName === 'SELECT') return;
+    // Typing a report note (or toggling the report box) must not answer or advance.
+    if (!session || ['SELECT', 'TEXTAREA', 'SUMMARY'].includes(e.target.tagName)) return;
     const k = e.key.toLowerCase();
+    // Enter on a link, a button other than Next, or inside the report box
+    // keeps its normal meaning (open the link, save the report).
+    if (k === 'enter' && e.target.closest?.('#fb-report, a, button:not(#next-btn):not([data-confidence])')) return;
     const cur = session.current;
     if (!cur.confidence && /^[a-f1-6]$/.test(k)) {
       const idx = /\d/.test(k) ? Number(k) - 1 : k.charCodeAt(0) - 97;

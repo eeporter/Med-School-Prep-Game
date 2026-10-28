@@ -9,10 +9,21 @@ export function shuffle(items, rng = Math.random) {
   return a;
 }
 
+// Leading number of an option such as "7.5 mL/min" or "10%", or NaN.
+function leadingNumber(text) {
+  const m = /^\s*[<>≤≥~]?\s*(-?\d[\d,]*(?:\.\d+)?)/.exec(text);
+  return m ? Number(m[1].replace(/,/g, '')) : NaN;
+}
+
 // Shuffle a question's options for display. Each displayed option keeps its
 // original id, so grading always compares ids, never display positions.
+// NBME lists numeric options in numeric order, so those are sorted instead
+// of shuffled.
 export function presentQuestion(question, rng = Math.random) {
-  const options = shuffle(question.options, rng);
+  const numeric = question.options.every((o) => Number.isFinite(leadingNumber(o.text)));
+  const options = numeric
+    ? [...question.options].sort((a, b) => leadingNumber(a.text) - leadingNumber(b.text) || a.text.localeCompare(b.text))
+    : shuffle(question.options, rng);
   return {
     id: question.id,
     options: options.map((o, i) => ({ id: o.id, text: o.text, label: String.fromCharCode(65 + i) })),
