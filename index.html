@@ -89,6 +89,30 @@
         </div>
       </section>
 
+      <section class="weak" aria-labelledby="weak-head">
+        <h2 id="weak-head">My weak spots</h2>
+        <p class="meta" id="weak-summary"></p>
+        <ol id="weak-list"></ol>
+        <div class="row" id="weak-actions">
+          <button type="button" id="weak-copy">Copy for Claude</button>
+          <button type="button" id="weak-send">Send to Emily</button>
+        </div>
+        <p class="meta" id="weak-status" aria-live="polite"></p>
+        <textarea id="weak-fallback" class="fallback" rows="8" readonly hidden aria-label="Weak spots text to copy"></textarea>
+      </section>
+
+      <section class="reports" id="reports-box" aria-labelledby="reports-head" hidden>
+        <h2 id="reports-head">Question reports</h2>
+        <p class="meta" id="reports-summary"></p>
+        <div class="row">
+          <button type="button" id="reports-send">Send to Emily</button>
+          <button type="button" id="reports-copy">Copy</button>
+          <button type="button" id="reports-clear">Clear</button>
+        </div>
+        <p class="meta" id="reports-status" aria-live="polite"></p>
+        <textarea id="reports-fallback" class="fallback" rows="6" readonly hidden aria-label="Reports text to copy"></textarea>
+      </section>
+
       <section class="mastery">
         <h2>Mastery by system</h2>
         <p class="meta">A question counts as mastered when you have answered it correctly at spaced intervals reaching 3 weeks.</p>
@@ -127,6 +151,19 @@
         <ul id="fb-sources" class="sources"></ul>
         <p class="sources-head" id="fb-readmore-head" hidden>Read more (optional)</p>
         <ul id="fb-readmore" class="sources" hidden></ul>
+        <details id="fb-report" class="report">
+          <summary>Report a problem</summary>
+          <div class="report-form">
+            <label>What is wrong?
+              <select id="report-reason"></select>
+            </label>
+            <label>Note (optional)
+              <textarea id="report-note" rows="2" maxlength="500"></textarea>
+            </label>
+            <button type="button" id="report-save" class="small">Save report</button>
+            <span id="report-status" class="meta" aria-live="polite"></span>
+          </div>
+        </details>
         <button id="next-btn" class="primary">Next <kbd>Enter</kbd></button>
       </div>
     </section>

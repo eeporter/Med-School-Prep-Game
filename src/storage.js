@@ -2,12 +2,13 @@
 // blocked, or corrupt localStorage never crashes the app.
 
 import { isValidExam } from './exams.js';
+import { sanitizeReports } from './insights.js';
 
 export const STORAGE_KEY = 'med-study-game:v1';
 export const SCHEMA_VERSION = 1;
 
 export function emptyState() {
-  return { version: SCHEMA_VERSION, cards: {}, xp: 0, streak: { count: 0, lastDay: null }, history: [], exams: [] };
+  return { version: SCHEMA_VERSION, cards: {}, xp: 0, streak: { count: 0, lastDay: null }, history: [], exams: [], reports: [] };
 }
 
 const isObj = (v) => v !== null && typeof v === 'object' && !Array.isArray(v);
@@ -52,6 +53,7 @@ export function sanitize(raw) {
       ? raw.exams.filter((e) => isValidExam(e) && isDayString(e.date)).slice(0, 20)
         .map((e) => (e.type === 'nbme-subject' ? { type: e.type, subject: e.subject, date: e.date } : { type: e.type, date: e.date }))
       : [],
+    reports: sanitizeReports(raw.reports),
   };
 }
 
