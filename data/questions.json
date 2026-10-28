@@ -15635,7 +15635,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: functional neurological symptom disorder (conversion disorder). Why: the finding is Hoover's sign. DSM-5-TR (p. 362) describes it as weak hip extension that returns to normal strength when the other hip flexes against resistance. It is a positive sign showing that the weakness does not fit known neurological disease. The diagnosis is not made just because tests are normal, and it can coexist with neurological disease. DSM-5-TR (p. 363) says la belle indifférence (lack of concern about the symptom) is not specific enough to diagnose it, and that about 1 in 5 people with functional seizures also have epilepsy. MSD says the symptoms develop without conscious intent, often start suddenly after stress, and affect women in 60 to 80% of cases. Explaining the diagnosis is a key treatment, and cognitive behavioral therapy and physical therapy help some people (MSD).",
+      "explanation": "Answer: functional neurological symptom disorder (conversion disorder). Why: the finding is Hoover's sign. DSM-5-TR (p. 361) describes it as weak hip extension that returns to normal strength when the other hip flexes against resistance. It is a positive sign showing that the weakness does not fit known neurological disease. The diagnosis is not made just because tests are normal, and it can coexist with neurological disease. DSM-5-TR (p. 362) says la belle indifférence (lack of concern about the symptom) is not specific enough to diagnose it, and (p. 363) that about 1 in 5 people with functional seizures also have epilepsy. MSD says the symptoms develop without conscious intent, often start suddenly after stress, and affect women in 60 to 80% of cases. Explaining the diagnosis is a key treatment, and cognitive behavioral therapy and physical therapy help some people (MSD).",
       "whyWrong": {
         "b": "Factitious disorder requires deliberate falsification with deception, even without external reward (DSM-5-TR, pp. 367-368); nothing here suggests she is faking.",
         "c": "Malingering is intentional feigning for an external incentive such as money, avoiding work, or drugs (DSM-5-TR, p. 835); she seeks no gain.",
@@ -15644,7 +15644,7 @@
       },
       "sources": [
         {
-          "title": "DSM-5-TR (Emily's file), Functional neurological symptom disorder, pp. 362-363"
+          "title": "DSM-5-TR (Emily's file), Functional neurological symptom disorder, pp. 361-363"
         },
         {
           "title": "MSD Manual Professional: Functional Neurological Symptom Disorder",
@@ -15741,7 +15741,7 @@
       "answer": "a",
       "explanation": "Answer: factitious disorder imposed on another (formerly factitious disorder by proxy). Why: DSM-5-TR (pp. 367-368) describes falsifying or causing illness in another person, with identified deception, and presenting that person as ill, even when there is no obvious external reward. The perpetrator, not the victim, receives the diagnosis, and the victim may receive an abuse diagnosis. MSD says the caregiver, usually a parent, may harm the child with drugs or other agents, often appears deeply concerned and protective, and the child has frequent hospitalizations without a firm diagnosis. High insulin with low C-peptide means the insulin came from outside the body, because the pancreas releases C-peptide along with its own insulin (standard teaching). Child protective services should be contacted (MSD).",
       "whyWrong": {
-        "b": "Factitious disorder imposed on self means falsifying one's own illness; here she causes illness in her son (DSM-5-TR, p. 368).",
+        "b": "Factitious disorder imposed on self means falsifying one's own illness; here she causes illness in her son (DSM-5-TR, p. 367).",
         "c": "Malingering requires an external incentive such as money (DSM-5-TR, p. 835); none is present.",
         "d": "Delusional disorder involves a fixed false belief; her behavior is deliberate deception, not a delusion (standard teaching).",
         "e": "Illness anxiety disorder is worry about one's own health, not causing illness in another (standard teaching)."
@@ -15791,16 +15791,16 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: avoidant personality disorder. Why: DSM-5-TR (pp. 764-765) describes a long-standing pattern of shyness with others, feeling inadequate, and being very sensitive to being judged, starting by early adulthood. Examples include avoiding jobs with a lot of contact with people because of fear of criticism or rejection, getting involved with people only when sure of being liked, and seeing oneself as inept or inferior; at least 4 of 7 features are needed. The key contrast is that he wants relationships but fears rejection. In schizoid personality disorder, the person neither wants nor enjoys close relationships (DSM-5-TR, p. 742). MSD puts it this way: schizoid patients are isolated because they are not interested in others, while avoidant patients long for contact but are hypersensitive to rejection or criticism. Group cognitive behavioral therapy focused on social skills is considered effective (MSD).",
+      "explanation": "Answer: avoidant personality disorder. Why: DSM-5-TR (pp. 764-765) describes a long-standing pattern of shyness with others, feeling inadequate, and being very sensitive to being judged, starting by early adulthood. Examples include avoiding jobs with a lot of contact with people because of fear of criticism or rejection, getting involved with people only when sure of being liked, and seeing oneself as inept or inferior; at least 4 of 7 features are needed. The key contrast is that he wants relationships but fears rejection. In schizoid personality disorder, the person neither wants nor enjoys close relationships (DSM-5-TR, pp. 741-742). MSD puts it this way: schizoid patients are isolated because they are not interested in others, while avoidant patients long for contact but are hypersensitive to rejection or criticism. Group cognitive behavioral therapy focused on social skills is considered effective (MSD).",
       "whyWrong": {
-        "b": "Schizoid personality disorder means not wanting or enjoying close relationships (DSM-5-TR, p. 742); he wants friends and a partner.",
+        "b": "Schizoid personality disorder means not wanting or enjoying close relationships (DSM-5-TR, pp. 741-742); he wants friends and a partner.",
         "c": "Schizotypal personality disorder includes odd beliefs, magical thinking, and eccentric behavior (standard teaching); he has none.",
         "d": "Dependent personality disorder centers on needing others to make decisions and fear of being alone, not avoiding people (standard teaching).",
         "e": "Paranoid personality disorder centers on distrust and suspicion that others mean harm, not fear of criticism (standard teaching)."
       },
       "sources": [
         {
-          "title": "DSM-5-TR (Emily's file), Avoidant personality disorder, pp. 764-765; schizoid personality disorder, p. 742"
+          "title": "DSM-5-TR (Emily's file), Avoidant personality disorder, pp. 764-765; schizoid personality disorder, pp. 741-742"
         },
         {
           "title": "MSD Manual Professional: Avoidant Personality Disorder (AVPD)",
@@ -16306,7 +16306,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: hypophosphatemia (refeeding syndrome). Why: MSD describes refeeding syndrome as a potentially serious metabolic problem marked by low phosphate and other electrolyte abnormalities, seen rarely and mostly in the most undernourished patients. Feeding starts at about 30 to 40 kcal/kg/day and is raised gradually (MSD). Feeding raises insulin, which drives phosphate into cells to make ATP, so blood phosphate falls (standard teaching). DSM-5-TR (p. 381) defines anorexia nervosa by restricted intake causing significantly low weight, intense fear of gaining weight, and a disturbed view of body weight or shape; restricting type means no bingeing or purging in the last 3 months. A BMI under 15 is extreme severity (DSM-5-TR, p. 382). MSD lists slow heart rate, low blood pressure (especially on standing), low body temperature, and lanugo hair as common, and recommends family-based treatment for children and adolescents.",
+      "explanation": "Answer: hypophosphatemia (refeeding syndrome). Why: MSD describes refeeding syndrome as a potentially serious metabolic problem marked by low phosphate and other electrolyte abnormalities, seen rarely and mostly in the most undernourished patients. Feeding starts at about 30 to 40 kcal/kg/day and is raised gradually (MSD). Feeding raises insulin, which drives phosphate into cells to make ATP, so blood phosphate falls (standard teaching). DSM-5-TR (p. 381) defines anorexia nervosa by restricted intake causing significantly low weight, intense fear of gaining weight, and a disturbed view of body weight or shape; restricting type means no bingeing or purging in the last 3 months. A BMI under 15 is extreme severity (DSM-5-TR, p. 381). MSD lists slow heart rate, low blood pressure (especially on standing), low body temperature, and lanugo hair as common, and recommends family-based treatment for children and adolescents.",
       "whyWrong": {
         "b": "High sodium is not the hallmark of refeeding; low phosphate is (MSD).",
         "c": "Refeeding lowers rather than raises electrolytes, with low phosphate as the hallmark (MSD).",
@@ -16319,7 +16319,7 @@
           "url": "https://www.msdmanuals.com/professional/psychiatric-disorders/feeding-and-eating-disorders/anorexia-nervosa"
         },
         {
-          "title": "DSM-5-TR (Emily's file), Anorexia nervosa, pp. 381-382"
+          "title": "DSM-5-TR (Emily's file), Anorexia nervosa, p. 381"
         }
       ]
     },
