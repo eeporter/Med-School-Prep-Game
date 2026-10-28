@@ -1612,7 +1612,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Increased hepatic LDL receptor expression after reduced hepatic cholesterol synthesis"
+          "text": "More hepatic LDL receptors after less cholesterol synthesis"
         },
         {
           "id": "b",
@@ -1767,23 +1767,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Inhaling dust contaminated with birth products of infected animals"
+          "text": "Inhaling dust from infected animals' birth products"
         },
         {
           "id": "b",
-          "text": "Bite of an infected tick"
+          "text": "Bite of an infected tick while hiking"
         },
         {
           "id": "c",
-          "text": "Eating undercooked pork"
+          "text": "Eating undercooked pork at a barbecue"
         },
         {
           "id": "d",
-          "text": "Bite of an infected mosquito"
+          "text": "Bite of a mosquito carrying the organism"
         },
         {
           "id": "e",
-          "text": "Respiratory droplets from an infected coworker"
+          "text": "Respiratory droplets from a coughing coworker"
         }
       ],
       "answer": "a",
@@ -3076,23 +3076,23 @@
       "options": [
         {
           "id": "a",
-          "text": "She counts as at risk until month 8, then is censored and leaves the risk set without being counted as a death"
+          "text": "Counted at risk until month 8, then censored"
         },
         {
           "id": "b",
-          "text": "She is counted as a death at month 8"
+          "text": "Counted as a death at month 8"
         },
         {
           "id": "c",
-          "text": "She is removed from the analysis entirely"
+          "text": "Removed from the analysis entirely"
         },
         {
           "id": "d",
-          "text": "She is counted as alive until the end of the study"
+          "text": "Counted as alive until the study ends"
         },
         {
           "id": "e",
-          "text": "She is assigned the median survival time of her group"
+          "text": "Given her group's median survival time"
         }
       ],
       "answer": "a",
@@ -3538,11 +3538,11 @@
       "options": [
         {
           "id": "a",
-          "text": "Isoniazid daily for 9 months"
+          "text": "Daily isoniazid for 9 months"
         },
         {
           "id": "b",
-          "text": "A 3- to 4-month rifamycin-based regimen, such as weekly isoniazid plus rifapentine for 3 months"
+          "text": "Weekly isoniazid plus rifapentine for 3 months"
         },
         {
           "id": "c",
@@ -3554,7 +3554,7 @@
         },
         {
           "id": "e",
-          "text": "Isoniazid daily for 1 month"
+          "text": "Daily isoniazid for 1 month"
         }
       ],
       "answer": "b",
@@ -3734,30 +3734,30 @@
       "options": [
         {
           "id": "a",
-          "text": "Normal blood pressure; recheck in 2 years"
+          "text": "Elevated blood pressure; lifestyle changes, then reassess"
         },
         {
           "id": "b",
-          "text": "Elevated blood pressure; no treatment needed"
+          "text": "Elevated blood pressure; start a medication today"
         },
         {
           "id": "c",
-          "text": "Stage 1 hypertension; lifestyle changes for 3 to 6 months, then medication if it stays at or above 130/80"
+          "text": "Stage 1 hypertension; lifestyle changes, then reassess"
         },
         {
           "id": "d",
-          "text": "Stage 1 hypertension; start medication today"
+          "text": "Stage 1 hypertension; start a medication today"
         },
         {
           "id": "e",
-          "text": "Stage 2 hypertension; start two medications today"
+          "text": "Stage 2 hypertension; start a medication today"
         }
       ],
       "answer": "c",
       "explanation": "Answer: stage 1 hypertension, starting with lifestyle changes. Why: the 2025 AHA/ACC categories are normal (below 120 and below 80), elevated (120 to 129 and below 80), stage 1 (130 to 139 or 80 to 89), and stage 2 (140 or higher, or 90 or higher). Her 134/84 is stage 1. Medication is started right away, alongside lifestyle changes, only for stage 1 patients who have cardiovascular disease, prior stroke, diabetes, chronic kidney disease, or a PREVENT 10-year risk of 7.5% or more. With lower risk, medication is recommended if blood pressure stays at or above 130/80 after a 3- to 6-month lifestyle trial. The treatment goal for all adults is below 130/80. Recent change: her Osmosis notes define hypertension as above 140/90 and set the goal below 140/90. Current AHA/ACC guidance starts hypertension at 130/80 and aims for below 130/80. Pregnancy uses separate cutoffs.",
       "whyWrong": {
-        "a": "Normal is below 120/80; 134/84 is stage 1 hypertension.",
-        "b": "Elevated blood pressure is 120 to 129 systolic with diastolic below 80. Her readings are higher.",
+        "a": "Elevated blood pressure is 120 to 129 systolic with diastolic below 80. Her 134/84 is higher, so it is stage 1 hypertension.",
+        "b": "Her 134/84 is above the elevated range (120 to 129 systolic with diastolic below 80), so it is stage 1 hypertension, not elevated blood pressure.",
         "d": "Immediate medication for stage 1 is for patients with cardiovascular disease, prior stroke, diabetes, CKD, or a 10-year risk of 7.5% or more. Her risk is 4%.",
         "e": "Stage 2 starts at 140 systolic or 90 diastolic."
       },
@@ -4115,7 +4115,7 @@
         },
         {
           "id": "b",
-          "text": "Muscarinic blockade dilated the pupil and caused pupillary block"
+          "text": "Muscarinic blockade caused mydriasis and pupillary block"
         },
         {
           "id": "c",
@@ -4229,19 +4229,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Ceftriaxone 250 mg IM once plus azithromycin 1 g orally once"
+          "text": "Ceftriaxone 250 mg IM plus azithromycin 1 g orally"
         },
         {
           "id": "b",
-          "text": "Doxycycline 100 mg orally twice daily for 7 days alone"
+          "text": "Ceftriaxone 250 mg IM plus doxycycline for 7 days"
         },
         {
           "id": "c",
-          "text": "Ceftriaxone 500 mg IM once plus doxycycline 100 mg orally twice daily for 7 days"
+          "text": "Ceftriaxone 500 mg IM plus doxycycline for 7 days"
         },
         {
           "id": "d",
-          "text": "Ceftriaxone 500 mg IM once alone"
+          "text": "Ceftriaxone 500 mg IM alone"
         },
         {
           "id": "e",
@@ -4252,9 +4252,9 @@
       "explanation": "Answer: ceftriaxone 500 mg IM once, plus doxycycline because chlamydia has not been ruled out. Why: gram-negative diplococci inside neutrophils point to Neisseria gonorrhoeae. The 2021 CDC STI guidelines treat gonorrhea with a single 500 mg intramuscular dose of ceftriaxone (a higher dose is used for patients with high body weight). If chlamydia has not been excluded, doxycycline 100 mg twice daily for 7 days is added, and doxycycline is now the preferred drug for chlamydia. Recent change: her clinical bacteriology table lists azithromycin among the drugs for gonorrhea, and older review books teach ceftriaxone plus azithromycin dual therapy. Since 2021, CDC no longer requires azithromycin or doxycycline co-treatment for gonorrhea itself, for antibiotic stewardship reasons. Azithromycin is now an alternative for chlamydia, and it is the recommended chlamydia treatment in pregnancy.",
       "whyWrong": {
         "a": "This is the older dual-therapy regimen. The 2021 CDC guidelines use 500 mg of ceftriaxone and no longer require azithromycin co-treatment.",
-        "b": "Doxycycline covers chlamydia, but gonorrhea needs ceftriaxone.",
+        "b": "250 mg is the old ceftriaxone dose. The 2021 CDC guidelines use a single 500 mg dose (more for high body weight).",
         "d": "Ceftriaxone 500 mg alone is right once chlamydia has been excluded. Here the chlamydia test is still pending, so doxycycline is added.",
-        "e": "Metronidazole is added to the regimen for pelvic inflammatory disease; it does not replace ceftriaxone for gonorrhea."
+        "e": "Metronidazole is added to the regimen for pelvic inflammatory disease; it does not treat gonorrhea."
       },
       "sources": [
         {
@@ -5072,7 +5072,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Mitochondrial (maternal) inheritance"
+          "text": "Mitochondrial inheritance"
         },
         {
           "id": "b",
@@ -5616,7 +5616,7 @@
       "options": [
         {
           "id": "a",
-          "text": "It blocks peripheral decarboxylation of levodopa, so less levodopa is needed and peripheral side effects fall"
+          "text": "Blocks peripheral conversion of levodopa to dopamine"
         },
         {
           "id": "b",

@@ -46,6 +46,22 @@ test('shuffled options keep the correct key mapped by id', () => {
   }
 });
 
+test('numeric options are shown in numeric order, never shuffled', () => {
+  const num = { id: 'n', answer: 'b', options: [
+    { id: 'a', text: '120 mL/min' }, { id: 'b', text: '7.5 mL/min' }, { id: 'c', text: '1,000 mL/min' },
+    { id: 'd', text: '60 mL/min' }, { id: 'e', text: '30 mL/min' },
+  ] };
+  const r = rng(3);
+  for (let i = 0; i < 20; i++) {
+    assert.deepEqual(presentQuestion(num, r).options.map((o) => o.text),
+      ['7.5 mL/min', '30 mL/min', '60 mL/min', '120 mL/min', '1,000 mL/min']);
+  }
+  // Text options still shuffle.
+  const firsts = new Set();
+  for (let i = 0; i < 100; i++) firsts.add(presentQuestion(q, r).options[0].id);
+  assert.ok(firsts.size > 1);
+});
+
 test('grading never uses display labels', () => {
   assert.equal(isCorrect(q, 'C'), false);
   assert.equal(isCorrect(q, undefined), false);
