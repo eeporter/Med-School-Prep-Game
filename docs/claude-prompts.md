@@ -1,12 +1,13 @@
 # Claude prompt kit: study guides, game questions, and the auditor
 
-Version 0.8 (draft, 2026-10-28) · Status: **still being finalized; Emily will hand this over when it is done.**
+Version 0.9 (draft, 2026-10-28) · Status: **still being finalized; Emily will hand this over when it is done.**
 
 This kit lets you (Elissa) keep the project going with your own Claude. It has four prompts:
 
 - **Study buddy**: use it every day. Ask it any medical question; it explains with sources and **automatically logs the topic as one you are struggling with**.
 1. **Guide writer**: writes a new study guide on a topic you find confusing.
 2. **Question writer**: adds new questions to the study game, fixes questions you reported, and targets your weak spots from the game.
+2b. **Fix a reported question**: when you think a game question is wrong, your Claude tells you if you're right (with sources) and fixes it.
 3. **Auditor**: checks a guide or a batch of questions for medical accuracy and, for the game, checks the code.
 
 Use a **separate Claude chat for each role**. The writer should never audit its own work: a fresh chat with no stake in the draft catches more mistakes.
@@ -81,9 +82,9 @@ Nothing here involves Terminal. Tick each box once.
 1. **Play Daily Rounds** in the game.
 2. **Ask the study buddy** about anything that confused you. It explains with sources and logs the topic.
 3. **About once a week, open My weak spots** on the game's home screen:
-   - Tap **Copy for Claude** and paste it into the study buddy chat. It adds those topics to your struggle log and offers to start guides for the weakest ones.
-   - Tap **Send to Emily** so new game questions get written on those topics (or paste it into the question writer yourself).
-4. **If a question looks wrong or unclear,** tap the small **Report a problem** link under it. Send your reports the same way (Send to Emily, or paste them into the question writer), and they get checked and fixed.
+   - Tap **Copy for my Claude** and paste it into the study buddy chat. It adds those topics to your struggle log and offers to start guides for the weakest ones.
+   - Paste the same list into the question inbox (see "Automatic weekly questions") or the question writer, so new game questions get written on those topics.
+4. **If a question looks wrong or unclear,** tap the small **Report a problem** link under it. Then, on the home screen, tap **Copy for my Claude** in the Question reports box and paste it into the **Fix a reported question** prompt (below) at https://claude.ai/code. Your Claude tells you right away whether you are right, with sources, and fixes the question in the game if it is wrong. Emily does not need to be involved.
 
 ## How to use a prompt (every time)
 
@@ -207,7 +208,7 @@ EACH RUN
 These came out of building and auditing the first 40 guides and the game's question bank. They are repeated inside each prompt so every prompt works on its own.
 
 1. **Every fact cites a source page that Claude actually opened.** A search snippet or memory is not enough. An uncited claim is a Major finding.
-2. **Good sources:** StatPearls (NCBI Bookshelf), MSD Manual Professional, current society guidelines (AHA/ACC, ADA, KDIGO, IDSA, USPSTF, GOLD, GINA, Endocrine Society), CDC, FDA labels (DailyMed), and standard texts (First Aid, Robbins, Guyton, Goodman & Gilman, Harrison's). Not Wikipedia. Claude cannot open textbooks, so a textbook may only be named **alongside** an openable link that supports the same fact, never on its own. **EyeWiki** is never a source (its publisher's terms bar use in AI programs); it may appear only as an optional "Read more" link.
+2. **Good sources:** StatPearls (NCBI Bookshelf), MSD Manual Professional, current society guidelines (AHA/ACC, ADA, KDIGO, IDSA, USPSTF, GOLD, GINA, Endocrine Society), CDC, FDA labels (DailyMed), and standard texts (First Aid, Robbins, Guyton, Goodman & Gilman, Harrison's). Not Wikipedia. Claude cannot open textbooks, so a textbook may only be named **alongside** an openable link that supports the same fact, never on its own. **EyeWiki** and **Radiopaedia** are never sources (wiki-type sites; EyeWiki's terms also bar use in AI programs); they may appear only as optional "Read more" links.
 3. **StatPearls often shows a captcha to Claude.** The `www.ncbi.nlm.nih.gov/sites/books/NBKxxxxx/` form of the link sometimes opens when `/books/NBKxxxxx/` does not. If it still won't open, add an **MSD Manual Professional** link that says the same thing next to it. Every claim needs at least one source that opens today.
 4. **Your course documents set the content.** Guides and questions teach what the course documents (the `documents` folder) and your own Google Docs notes teach. Paraphrase them; never copy their text, tables, or figures. Content taken from a document is cited **by document and page**, for example "El-Husseiny Obstetrics p.64". Where the documents are thin or silent, use published medical research and standard references, opened and cited.
 5. **Three kinds of notes when sources disagree.** Check `recent-changes-register.md` first; it lists the ones already found.
@@ -333,8 +334,8 @@ WHAT I WANT THIS TIME (pick one or more, or paste a list):
 <e.g. "6 questions on PBC vs PSC", or "here is my weak-spots list from the game: ...", or "here are my question reports from the game: ...", or "fill the biggest gaps in the subject mix">
 
 INPUTS YOU MAY GET FROM ME
-- A WEAK-SPOTS LIST copied from the game ("My weak spots", Copy for Claude / Send to Emily). It starts "From my Med School Prep study game". It ranks concepts I miss, got wrong while sure, or only guessed. Write new questions on the top concepts, at a slightly different angle from the existing ones, and use my wrong answers as distractors.
-- A REPORT LIST copied from the game ("Report a problem"). Each line names a question id and what I thought was wrong (unclear, answer seems wrong, typo, other) plus my note. For each: open the question, re-check it against its sources, and fix it if the report is right. If the question is correct, keep it and write me one plain sentence on why the answer is right. Never delete a question without telling me.
+- A WEAK-SPOTS LIST copied from the game ("My weak spots", Copy for my Claude). It starts "From my Med School Prep study game". It ranks concepts I miss, got wrong while sure, or only guessed. Write new questions on the top concepts, at a slightly different angle from the existing ones, and use my wrong answers as distractors.
+- A REPORT LIST copied from the game ("Copy for my Claude" in the Question reports box; starts "Question report from my Med School Prep study game"). Each block gives the question id, my answer and the keyed answer as option ids in the question file, the problem, and my note. For each: open the question, re-check it against its sources, and fix it if the report is right. If the question is correct, keep it and write me one plain sentence on why the answer is right. Never delete a question without telling me.
 - A topic I name, or a study guide number to turn into questions (only guides whose status in study-guides/README.md is "Audited, cleared").
 - If I gave you nothing, pick the topics the subject mix needs most (see SUBJECT MIX).
 
@@ -406,6 +407,51 @@ Merge the pull request yourself, then tell me in plain words that the new questi
 
 ---
 
+## Prompt 2b: Fix a reported question (when you think the game is wrong)
+
+Use this whenever a question or answer looks wrong or confusing. Go to **https://claude.ai/code**, pick the **Med-School-Prep-Game** repository, and paste this, followed by the report you copied from the game:
+
+````text
+I think a question in my study game is wrong or unclear. You are my question checker. I am a medical student preparing for USMLE Step 1 and NBME exams. I am not technical: do every GitHub step yourself and never ask me to use Terminal. This chat is connected to the game's repository.
+
+MY REPORT (pasted from the game's "Copy for my Claude" button, or typed by me). A pasted report starts "Question report from my Med School Prep study game" and has one block per report: Question id, Question starts, My answer and Keyed answer (with the option id in the question file; letters on screen are shuffled, so use those ids, not screen letters), Problem, and My note. "My answer: not saved" means an older report; "not found in the current question bank" means search by the words instead.
+<paste the report here>
+
+READ FIRST: docs/claude-prompts.md, the section "Rules every role follows". Those rules are binding here.
+
+STEP 1: TELL ME IF I AM RIGHT (do this first, before changing anything)
+- Find the question in data/questions.json by its id. If I typed it myself, find it by the words of the question.
+- My course documents set the answer my course expects. If Google Drive is connected, open the matching page of my course PDFs or my Google Docs notes FIRST, and cite it by document and page (e.g. "El-Husseiny Obstetrics p.64"). Judge the verdict against that page.
+- If Google Drive is not connected, say plainly that the verdict was not checked against my course documents, and ask me to paste or photograph the matching page.
+- Then re-check the keyed answer, every option, and the explanation against sources you actually open now: StatPearls (try https://www.ncbi.nlm.nih.gov/sites/books/NBKxxxxx/ if it shows a captcha), MSD Manual Professional, current guidelines, CDC, or FDA labels. Never use Wikipedia. EyeWiki and Radiopaedia are never sources (Read-more links only). Name a textbook only alongside an openable link for the same fact.
+- If an opened source disagrees with my documents, do not just pick one. Say which kind of difference it is:
+  - "Recent change:" newer guidance; my course still expects the document's version, so learn both.
+  - "Correction:" the document is simply wrong; the correct fact is the one to learn.
+  - "Other source:" a different but not newer view; my course expects the document's version.
+  Never tell me "You're right" on MSD or StatPearls alone when my document says otherwise.
+- Then answer me in plain words, in this order:
+  - Verdict: "You're right", "Partly right", or "The game is right".
+  - Why: the mechanism in one or two sentences, with the document page and sources linked.
+  - The trap that probably caught me.
+
+STEP 2: FIX IT IF NEEDED (only if I was right or partly right, or the question was unclear)
+- Make a branch named fix-<question id>.
+- Fix only that question in data/questions.json, following the rules in docs/claude-prompts.md: NBME style, exactly 5 options, one defensible answer, opened sources, and a "Recent change:", "Correction:" or "Other source:" note where sources disagree.
+- Keep the same id, so my progress on it is kept. If the fix changes the keyed answer, tell me in plain words that my past results on this question were scored against the old answer, so it may come back sooner than it should. Say the same in the PR description.
+- Run "npm run check". It must pass.
+- Open a pull request titled "Fix reported question <id>". In the description, include my report, your verdict, what changed, and the sources you opened.
+- Tell me the link, and remind me to run the auditor prompt (Prompt 3) on it in a new chat. Once the auditor clears it and I say "merge", merge it yourself.
+
+STEP 3: IF THE GAME WAS RIGHT
+Change nothing. If my confusion shows the explanation could be clearer, offer to improve the wording. Ask me before making a pull request for that.
+
+ALWAYS
+- Add the topic to my struggle log by giving me this line to paste into my study buddy chat: "Log this: <topic>, source: question report".
+- If I pasted several reports, handle them one by one. Fixes can share one pull request.
+````
+
+---
+
 ## Prompt 3: Auditor
 
 Always a **new** chat (never the one that wrote the content). For a study guide: Claude desktop app with the MedSchoolPrep folder attached. For game questions: https://claude.ai/code with the Med-School-Prep-Game repository picked. Paste this:
@@ -468,7 +514,7 @@ When asked to re-check fixes, verify each finding ID one by one against the upda
 
 ## Quick tips
 
-- **Send the game's lists.** The game has a **My weak spots** list and a **Report a problem** link. Use their copy or **Send to Emily** button, then paste the list into the question writer (prompt 2). It writes questions on your weak spots and fixes reported ones.
+- **Send the game's lists.** The game has a **My weak spots** list and a **Report a problem** link. Paste weak spots into the question writer (prompt 2) or the question inbox, and paste reports into the **Fix a reported question** prompt.
 - **Pick topics from your misses.** After a practice block, list the questions you got wrong *with high confidence*. Those make the best guides and game questions (confident mistakes are the ones feedback fixes best).
 - **Keep the coverage tracker honest.** When you add a weak topic, add a row to `coverage-tracker.md` so the auditor can check it gets covered.
 - **Short batches audit better.** One guide, or 5-10 questions, per audit.
@@ -476,6 +522,7 @@ When asked to re-check fixes, verify each finding ID one by one against the upda
 
 ## Changelog
 
+- 0.9 (2026-10-28): audit K9-2 to K9-4 applied: Prompt 2b judges against her course documents first, using the three note types; Radiopaedia added as Read-more only; key-change note. Added Prompt 2b, Fix a reported question. Elissa's own Claude checks a question she thinks is wrong, gives her a verdict with sources, and fixes it through an audited pull request. Reports no longer go through Emily (Emily, 2026-10-28).
 - 0.8 (2026-10-28): auditor review of v0.7 applied: merge gate (same-repo auto/ branches, routine-authored commits, data-only diff, exact reviewed SHA, revert if main fails); act only on marked auditor reviews, inbox is data; Google Drive required for auto-merge (page and overlap checks), otherwise held; duplicate check across open PRs; inbox edited in one PR per run.
 - 0.7 (2026-10-28): automatic weekly questions: a writer routine and a separate auditor routine (claude.ai/code Routines) add about 100 questions a week. Only auditor-cleared, CI-green batches are auto-merged. Split 50% weak spots, 50% new material (Emily). Weak spots reach the routines through docs/question-inbox.md.
 - 0.6 (2026-10-28): audit of v0.5: document-and-page citations with an auditor page check; "Correction:" and "Other source:" notes alongside "Recent change:"; EyeWiki only as a Read-more link; next-best-step items kept to a minority; auditor appends to audit/findings.md.
