@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { shuffle, presentQuestion, isCorrect, xpFor, levelFor, interleave, updateStreak, LEVELS, needsRelearning, sureAccuracy } from '../src/quiz.js';
+import { shuffle, presentQuestion, isCorrect, xpFor, levelFor, interleave, updateStreak, LEVELS, needsRelearning, sureAccuracy, topicKey, matchesFocus } from '../src/quiz.js';
 import { daysBetween } from '../src/dates.js';
 
 // Deterministic PRNG (mulberry32) so tests are repeatable.
@@ -107,4 +107,20 @@ test('sure-answer accuracy is computed from history', () => {
     { confidence: 'sure', correct: true }, { confidence: 'sure', correct: false },
     { confidence: 'sure', correct: true }, { confidence: 'guess', correct: false },
   ]), { right: 2, total: 3 });
+});
+
+test('matchesFocus: any ticked subject, topic, or struggling question matches', () => {
+  const acidRenal = { discipline: 'Physiology', system: 'Renal & Urinary', topic: 'Acid-base: compensation' };
+  const acidResp = { discipline: 'Physiology', system: 'Respiratory', topic: 'Acid-base: compensation' };
+  const statins = { discipline: 'Pharmacology', system: 'Cardiovascular', topic: 'Statins' };
+  assert.equal(topicKey(acidRenal), 'Renal & Urinary|Acid-base: compensation');
+  const picks = { subjects: ['Pharmacology'], topics: [topicKey(acidRenal)], missed: false };
+  assert.equal(matchesFocus(statins, picks), true);
+  assert.equal(matchesFocus(acidRenal, picks), true);
+  // Same topic name under another system is a separate pick.
+  assert.equal(matchesFocus(acidResp, picks), false);
+  // "Missed" only pulls in questions she is struggling with, and only when ticked.
+  assert.equal(matchesFocus(acidResp, { ...picks, missed: true }, true), true);
+  assert.equal(matchesFocus(acidResp, picks, true), false);
+  assert.equal(matchesFocus(statins, {}), false);
 });

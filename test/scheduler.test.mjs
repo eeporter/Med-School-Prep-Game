@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { review, newCard, gradeFor, nextEase, isDue, isMastered, reviewedOn, MIN_EASE } from '../src/scheduler.js';
+import { review, newCard, gradeFor, nextEase, isDue, isMastered, reviewedOn, isStruggling, MIN_EASE } from '../src/scheduler.js';
 import { addDays, daysBetween, toDayString } from '../src/dates.js';
 
 const D = '2026-03-01';
@@ -132,4 +132,11 @@ test('only the first answer of a day counts as a review', () => {
   assert.equal(reviewedOn(c, '2026-03-02'), false);
   assert.equal(reviewedOn(undefined, D), false);
   assert.equal(reviewedOn(newCard(), D), false);
+});
+
+test('isStruggling: missed at least once and not yet mastered', () => {
+  assert.equal(isStruggling(undefined), false);
+  assert.equal(isStruggling(newCard()), false);
+  assert.equal(isStruggling({ ...newCard(), lapses: 1, interval: 6 }), true);
+  assert.equal(isStruggling({ ...newCard(), lapses: 1, interval: 21 }), false);
 });

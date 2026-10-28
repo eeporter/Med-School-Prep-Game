@@ -87,3 +87,8 @@ export function reviewedOn(card, todayStr) {
 export function isMastered(card) {
   return Boolean(card) && card.interval >= MASTERED_INTERVAL;
 }
+
+// Missed at least once and not yet back to a mastered interval.
+export function isStruggling(card) {
+  return Boolean(card) && card.lapses > 0 && !isMastered(card);
+}
