@@ -67,6 +67,8 @@ const good = () => ({
 
 test('a well-formed question validates', () => {
   assert.deepEqual(validateQuestion(good()), []);
+  const withLinks = { ...good(), readMore: [{ title: 'Further reading', url: 'https://example.org/b' }] };
+  assert.deepEqual(validateQuestion(withLinks), []);
 });
 
 test('validator catches each schema problem', () => {
@@ -85,6 +87,8 @@ test('validator catches each schema problem', () => {
     [(q) => { q.options = q.options.slice(0, 3); }, /4 to 6/],
     [(q) => { q.id = 'Bad ID'; }, /id must be/],
     [(q) => { q.difficulty = 7; }, /difficulty/],
+    [(q) => { q.readMore = [{ title: 'x', url: 'http://insecure' }]; }, /readMore/],
+    [(q) => { q.readMore = [{ url: 'https://example.org/b' }]; }, /readMore/],
   ];
   for (const [mutate, pattern] of cases) {
     const q = good();

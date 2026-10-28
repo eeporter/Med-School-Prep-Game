@@ -75,6 +75,13 @@ export function validateQuestion(q) {
       if (s.url !== undefined && !/^https:\/\/\S+$/.test(s.url)) err(`source url must be https: ${s.url}`);
     }
   }
+  // Optional "Read more" links for the student. These are not sources: the
+  // facts in the question must still be backed by `sources`.
+  if (q.readMore !== undefined) {
+    if (!Array.isArray(q.readMore) || !q.readMore.every((r) => r && nonEmpty(r.title) && typeof r.url === 'string' && /^https:\/\/\S+$/.test(r.url))) {
+      err('readMore must list links with a title and an https url');
+    }
+  }
   return errors;
 }
 

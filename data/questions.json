@@ -3492,6 +3492,12 @@
           "title": "AHDB: FDA approval of Syfovre (pegcetacoplan) and Izervay (avacincaptad pegol) for geographic atrophy",
           "url": "https://www.ahdbonline.com/fda-approvals-news-updates/3291-fda-approval-of-syfovre-pegcetacoplan-and-izervay-avacincaptad-pegol-reshapes-management-of-ga"
         }
+      ],
+      "readMore": [
+        {
+          "title": "EyeWiki: Age-Related Macular Degeneration",
+          "url": "https://eyewiki.org/Age-Related_Macular_Degeneration"
+        }
       ]
     },
     {
@@ -3545,6 +3551,12 @@
           "title": "Ipratropium Bromide Inhalation Solution 0.02%: FDA label (DrugCentral)",
           "url": "https://drugcentral.org/label/f625d3e3-c175-4d9a-99ea-dab410b262f1/view"
         }
+      ],
+      "readMore": [
+        {
+          "title": "EyeWiki: Drug-induced Acute Angle Closure Glaucoma",
+          "url": "https://eyewiki.org/Drug-induced_Acute_Angle_Closure_Glaucoma"
+        }
       ]
     },
     {
@@ -3597,6 +3609,12 @@
         {
           "title": "MSD Manual Professional: Age-Related Macular Degeneration (reviewed Jun 2026)",
           "url": "https://www.msdmanuals.com/professional/eye-disorders/retinal-disorders/age-related-macular-degeneration-amd-or-armd"
+        }
+      ],
+      "readMore": [
+        {
+          "title": "EyeWiki: Retinal Artery Occlusion",
+          "url": "https://eyewiki.org/Retinal_Artery_Occlusion"
         }
       ]
     }
