@@ -18745,7 +18745,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: needle-shaped crystals that are negatively birefringent (gout). Why: your El-Husseiny musculoskeletal notes (pp. 144-145) explain that gout comes from monosodium urate crystals. About 90% of cases come from poor kidney excretion of uric acid, and thiazide and loop diuretics raise urate. Attacks often strike the big toe (podagra) after alcohol or a large meal. Under polarized light the crystals are needle-shaped and negatively birefringent, looking yellow when parallel to the light axis. Acute attacks are treated with NSAIDs such as indomethacin, glucocorticoids, or colchicine, and urate is lowered long term with allopurinol or febuxostat. MSD agrees that the crystals are needle-shaped and strongly negatively birefringent, says decreased excretion is by far the most common cause of high urate, and sets a serum urate goal below 6 mg/dL.",
+      "explanation": "Answer: needle-shaped crystals that are negatively birefringent (gout). Why: your El-Husseiny musculoskeletal notes (pp. 144-145) explain that gout comes from monosodium urate crystals. About 90% of cases come from poor kidney excretion of uric acid, and thiazide and loop diuretics raise urate. Attacks often strike the big toe (podagra) after alcohol or a large meal. Under polarized light the crystals are needle-shaped and negatively birefringent, looking yellow when lined up with the compensator's slow ray. Acute attacks are treated with NSAIDs such as indomethacin, glucocorticoids, or colchicine, and urate is lowered long term with allopurinol or febuxostat. MSD agrees that the crystals are needle-shaped and strongly negatively birefringent, says decreased excretion is by far the most common cause of high urate, and sets a serum urate goal below 6 mg/dL.",
       "whyWrong": {
         "b": "Rhomboid, weakly positive crystals are calcium pyrophosphate (pseudogout), which most often affects the knee of older adults (your El-Husseiny musculoskeletal notes, pp. 145-146).",
         "c": "Envelope-shaped calcium oxalate crystals appear in urine, for example after ethylene glycol poisoning, not in gouty joints (standard teaching).",
@@ -18797,7 +18797,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: calcium pyrophosphate (pseudogout). Why: your El-Husseiny musculoskeletal notes (pp. 145-146) link calcium pyrophosphate deposition to hemochromatosis, hyperparathyroidism, and joint injury, mostly after age 50, with the knee affected in more than half of cases. X-rays show calcium in the cartilage (chondrocalcinosis), and the crystals are rhomboid and positively birefringent (blue when parallel to the light axis). Treatment uses NSAIDs, colchicine, or steroids, and colchicine can also prevent attacks. This man's bronze skin, diabetes, and iron overload point to hemochromatosis. MSD also lists hemochromatosis, hyperparathyroidism, and low magnesium as linked conditions and describes rhomboid or rod-shaped crystals. Other source: MSD says the crystals are 'not birefringent, or are weakly positively birefringent,' so a weak or absent signal does not rule out the diagnosis.",
+      "explanation": "Answer: calcium pyrophosphate (pseudogout). Why: your El-Husseiny musculoskeletal notes (pp. 145-146) link calcium pyrophosphate deposition to hemochromatosis, hyperparathyroidism, and joint injury, mostly after age 50, with the knee affected in more than half of cases. X-rays show calcium in the cartilage (chondrocalcinosis), and the crystals are rhomboid and positively birefringent (blue when lined up with the compensator's slow ray). Treatment uses NSAIDs, colchicine, or steroids, and colchicine can also prevent attacks. This man's bronze skin, diabetes, and iron overload point to hemochromatosis. MSD also lists hemochromatosis, hyperparathyroidism, and low magnesium as linked conditions and describes rhomboid or rod-shaped crystals. Other source: MSD says the crystals are 'not birefringent, or are weakly positively birefringent,' so a weak or absent signal does not rule out the diagnosis.",
       "whyWrong": {
         "b": "Urate crystals are needle-shaped and negatively birefringent, and gout most often starts in the big toe (your El-Husseiny musculoskeletal notes, pp. 144-145).",
         "c": "Basic calcium phosphate (hydroxyapatite) crystals are too small to see as separate crystals on routine light microscopy (standard teaching).",
@@ -18901,7 +18901,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: an activating (gain-of-function) mutation in FGFR3. Why: your El-Husseiny musculoskeletal notes (pp. 116-117) explain that an activating FGFR3 mutation slows the cartilage growth plates, so bones that grow by endochondral ossification (long bones) stay short, while bones made by membranous ossification (skull) grow normally. Inheritance is autosomal dominant, and intelligence, life span, and fertility are normal. Most cases are new mutations linked to older fathers (standard teaching). MSD calls achondroplasia the most common short-limbed dwarfism and confirms autosomal dominant FGFR3 mutations. Recent change: MSD says vosoritide, a C-type natriuretic peptide analog, improves growth in children with achondroplasia, while growth hormone is not effective.",
+      "explanation": "Answer: an activating (gain-of-function) mutation in FGFR3. Why: your El-Husseiny musculoskeletal notes (pp. 116-117) explain that an activating FGFR3 mutation slows the cartilage growth plates, so bones that grow by endochondral ossification (long bones) stay short, while bones made by membranous ossification (skull) grow normally. Inheritance is autosomal dominant, and intelligence, life span, and fertility are normal. Most cases are new mutations linked to older fathers (standard teaching). MSD calls achondroplasia the most common short-limbed dwarfism and confirms autosomal dominant FGFR3 mutations. Recent change: MSD says vosoritide, a C-type natriuretic peptide analog, improves growth in children with achondroplasia, while growth hormone is generally not effective.",
       "whyWrong": {
         "b": "FGFR3 normally slows bone growth; the disease comes from too much signaling, not too little (your El-Husseiny musculoskeletal notes, p. 116).",
         "c": "Fibrillin-1 mutations cause Marfan syndrome, with long limbs (standard teaching).",
@@ -18953,7 +18953,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: bone resorption by osteoclasts (osteopetrosis). Why: your El-Husseiny musculoskeletal notes (pp. 119-120) explain that osteopetrosis comes from osteoclasts that cannot resorb bone. Bone becomes dense but brittle, so it breaks. Thick bone crowds out the marrow, causing low blood counts and blood cell production outside the marrow (enlarged liver and spleen), and it narrows openings in the skull, compressing the nerves for vision and hearing and sometimes causing hydrocephalus. One form comes from carbonic anhydrase II deficiency, which also causes renal tubular acidosis. X-rays show a bone-in-bone look, and bone marrow transplant can cure it, since osteoclasts come from marrow monocytes (standard teaching). MSD describes the severe infant form with palsies of cranial nerves II, III, and VII, an enlarged liver and spleen, and pancytopenia, and lists stem cell transplantation and interferon gamma as treatments.",
+      "explanation": "Answer: bone resorption by osteoclasts (osteopetrosis). Why: your El-Husseiny musculoskeletal notes (pp. 119-120) explain that osteopetrosis comes from osteoclasts that cannot resorb bone. Bone becomes dense but brittle, so it breaks. Thick bone crowds out the marrow, causing low blood counts and blood cell production outside the marrow (enlarged liver and spleen), and it narrows openings in the skull, compressing the nerves for vision and hearing and sometimes causing hydrocephalus. One form comes from carbonic anhydrase II deficiency, which also causes renal tubular acidosis. X-rays show a bone-in-bone look, and bone marrow transplant can cure it, since osteoclasts come from monocytes. MSD describes the severe infant form with palsies of cranial nerves II, III, and VII, an enlarged liver and spleen, and pancytopenia, and lists stem cell transplantation and interferon gamma as treatments.",
       "whyWrong": {
         "b": "Poor osteoblast function would make bones thin, not dense (standard teaching).",
         "c": "Type I collagen defects cause osteogenesis imperfecta, with thin, fragile bones and blue sclerae (your El-Husseiny biochemistry notes, p. 46).",
@@ -19057,7 +19057,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: osteoclast-like giant cells mixed with mononuclear cells (giant cell tumor). Why: your El-Husseiny musculoskeletal notes (p. 130) place giant cell tumor in young adults, in the epiphysis of the distal femur or proximal tibia, with a soap-bubble look on X-ray. The tumor's mononuclear cells make RANKL, which draws in the osteoclast-like giant cells. The tumor is locally aggressive and often comes back. MSD places it in people in their 20s and 30s, describes a lytic lesion in the epiphysis with no sclerotic rim, and notes spread to the lungs in 4 to 7%. MSD treats it with curettage and lists denosumab, a RANKL inhibitor, for tumors that cannot be removed.",
+      "explanation": "Answer: osteoclast-like giant cells mixed with mononuclear cells (giant cell tumor). Why: your El-Husseiny musculoskeletal notes (p. 130) place giant cell tumor in young adults, in the epiphysis of the distal femur or proximal tibia, with a soap-bubble look on X-ray. The tumor's mononuclear cells make RANKL, which draws in the osteoclast-like giant cells. The tumor is locally aggressive and may recur. MSD places it in people in their 20s and 30s, describes a lytic lesion in the epiphysis with no sclerotic rim, notes spread to the lungs in 4 to 7%, and says these tumors are 'notorious for their tendency to recur.' MSD treats it with curettage and lists denosumab, a RANKL inhibitor, for tumors that cannot be removed.",
       "whyWrong": {
         "b": "Osteoid made by malignant cells defines osteosarcoma, usually in the metaphysis of teenagers (standard teaching).",
         "c": "Small round blue cells fit Ewing sarcoma, often in the diaphysis of children (standard teaching).",
@@ -19317,7 +19317,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: hydroxocobalamin. Why: your El-Husseiny biochemistry notes (p. 155) explain that cyanide binds cytochrome a/a3 (complex IV of the electron transport chain) and stops aerobic respiration. Cells switch to anaerobic metabolism, so lactate rises, and tissues stop taking oxygen out of the blood. Antidotes include nitrites, which turn hemoglobin into methemoglobin, hydroxocobalamin, and sodium thiosulfate. MSD agrees that cyanide enters mitochondria and inactivates cytochrome oxidase, causing lactic acidosis and higher-than-usual venous oxygen content. MSD notes that hydroxocobalamin is generally considered as effective as nitrite plus thiosulfate and that, unlike nitrites, it does not decrease oxygen-carrying capacity, which matters when carbon monoxide poisoning is also present. Fire victims can breathe in both gases (standard teaching).",
+      "explanation": "Answer: hydroxocobalamin. Why: your El-Husseiny biochemistry notes (p. 155) explain that cyanide binds cytochrome a/a3 (complex IV of the electron transport chain) and stops aerobic respiration, and they add that cells then switch to anaerobic metabolism, causing severe lactic acidosis (p. 156). Antidotes include nitrites, which turn hemoglobin into methemoglobin, hydroxocobalamin, and sodium thiosulfate. MSD agrees that cyanide enters mitochondria and inactivates cytochrome oxidase, causing lactic acidosis and higher-than-usual venous oxygen content, because the tissues cannot extract oxygen from the blood. MSD notes that hydroxocobalamin is generally considered as effective as nitrite plus thiosulfate and that, unlike nitrites, it does not decrease oxygen-carrying capacity, which matters when carbon monoxide poisoning is also present. Fire victims can breathe in both gases (standard teaching).",
       "whyWrong": {
         "b": "Nitrites work by making methemoglobin, which lowers oxygen-carrying capacity in a patient who may also have carbon monoxide poisoning (MSD).",
         "c": "Methylene blue treats methemoglobinemia; it does not remove cyanide (standard teaching).",
@@ -19326,7 +19326,7 @@
       },
       "sources": [
         {
-          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Electron transport chain poisons, p. 155"
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Electron transport chain poisons, pp. 155-156"
         },
         {
           "title": "MSD Manual Professional: Systemic Asphyxiant Chemical Warfare Agents",
@@ -19396,7 +19396,7 @@
       "system": "Reproductive",
       "topic": "Breast: phyllodes tumor",
       "difficulty": 3,
-      "stem": "A 46-year-old woman comes to the physician because of a mass in her right breast that has grown quickly over 3 months. Exam shows a 7-cm, firm, mobile mass with stretched, shiny skin over it. Core biopsy shows ducts lined by epithelium and a very cellular stroma that pushes into the ducts to form leaf-like projections. There are a few mitoses and no necrosis.",
+      "stem": "A 46-year-old woman comes to the physician because of a mass in her right breast that has grown quickly over 3 months. Exam shows a 7-cm, firm, mobile mass with stretched, shiny skin over it. Core biopsy shows ducts lined by epithelium and a very cellular stroma that overgrows them and pushes into them to form leaf-like projections. The stromal cells show marked atypia and many mitoses, and the tumor edge infiltrates the surrounding fat.",
       "leadIn": "Which of the following is the most appropriate treatment?",
       "options": [
         {
@@ -19421,7 +19421,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: wide excision with clear margins. Why: your Elnemr breast pathology notes (p. 6) describe phyllodes tumor as a large biphasic tumor in which the stroma is very cellular and grows into leaf-like projections. Most are benign but tend to come back after removal, and they are graded benign, borderline, or malignant by cell atypia, mitoses, necrosis, and the tumor's border. MSD groups phyllodes tumors with breast cancers of the supporting stroma and notes that they do not express hormone receptors. For malignant phyllodes tumors, MSD recommends wide local excision to negative margins or mastectomy and says lymph node surgery is not indicated. Shelling out the mass leaves tumor behind and invites recurrence (standard teaching).",
+      "explanation": "Answer: wide excision with clear margins. Why: your Elnemr breast pathology notes (p. 6) describe phyllodes tumor as a large biphasic tumor in which the stroma is very cellular and grows into leaf-like projections. Most are benign but tend to come back after removal, and they are graded benign, borderline, or malignant by cell atypia, mitoses, necrosis, and the tumor's border. Marked atypia, many mitoses, stromal overgrowth, and an infiltrative edge make this tumor malignant. MSD groups phyllodes tumors with breast cancers of the supporting stroma and notes that they do not express hormone receptors. For malignant phyllodes tumors, MSD recommends wide local excision to negative margins or mastectomy and says lymph node surgery is not indicated. Shelling out the mass leaves tumor behind and invites recurrence (standard teaching).",
       "whyWrong": {
         "b": "Watching a fast-growing 7-cm mass only delays treatment (standard teaching).",
         "c": "MSD says lymph node surgery is not indicated for malignant phyllodes tumors (MSD Breast Cancer).",
