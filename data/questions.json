@@ -26464,7 +26464,7 @@
       "answer": "a",
       "explanation": "Answer: positive feedback from high estradiol levels. Why: the test detects the LH surge. Your Osmosis physiology notes (p. 561) explain that during days 1 to 13 the follicle grows and makes estrogen, and that estrogen feeds back to the hypothalamus and pituitary to turn off GnRH, FSH, and LH. On day 14, a brief LH surge makes the follicle rupture and release the oocyte. The MSD Manual (Female Reproductive Endocrinology) explains what flips this switch: estradiol peaks as the ovulatory phase begins, and at this point the high estradiol makes the pituitary release LH (positive feedback). It adds that the surge usually lasts 36 to 48 hours and that the oocyte is released within about 16 to 32 hours after the surge begins. Other source: your notes describe only the negative feedback of estrogen; MSD adds that very high estradiol just before ovulation switches to positive feedback.",
       "whyWrong": {
-        "b": "Progesterone comes mainly from the corpus luteum after ovulation (your Osmosis physiology notes, p. 562), so it cannot trigger the surge that comes before ovulation.",
+        "b": "Negative feedback lowers LH rather than causing a surge. Most progesterone comes from the corpus luteum after ovulation (your Osmosis physiology notes, p. 562). MSD notes that progesterone starts to rise just before ovulation and helps stimulate the surge, but the main trigger is high estradiol switching to positive feedback.",
         "c": "hCG comes from embryonic tissue after fertilization and keeps the corpus luteum going (your Osmosis physiology notes, p. 562); the corpus luteum itself makes progesterone, not hCG.",
         "d": "Prolactin does not trigger the LH surge; high prolactin actually suppresses GnRH and ovulation (standard teaching).",
         "e": "Inhibin comes from granulosa cells and lowers FSH, not LH (standard teaching)."
@@ -26622,7 +26622,7 @@
       "whyWrong": {
         "b": "Stopping protein synthesis through elongation factor 2 is how diphtheria toxin and Pseudomonas exotoxin A work (standard teaching).",
         "c": "Blocking acetylcholine release is how botulinum toxin works, causing flaccid paralysis (standard teaching).",
-        "d": "Pore-forming toxins such as staphylococcal alpha toxin lyse cell membranes ({emi}, p. 40), but they do not cause this cytokine-driven shock.",
+        "d": "Pore-forming toxins such as staphylococcal alpha toxin lyse cell membranes (your El-Husseiny microbiology and immunology notes, p. 40), but they do not cause this cytokine-driven shock.",
         "e": "Raising cAMP through Gs is how cholera toxin and heat-labile E. coli toxin cause watery diarrhea (standard teaching)."
       },
       "sources": [
