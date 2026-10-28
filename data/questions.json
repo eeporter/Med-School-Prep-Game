@@ -19645,6 +19645,1046 @@
           "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/abnormalities-of-pregnancy/placental-abruption-abruptio-placentae"
         }
       ]
+    },
+    {
+      "id": "immuno-anaphylaxis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Immunology",
+      "system": "Immune System",
+      "topic": "Type I hypersensitivity: anaphylaxis",
+      "difficulty": 1,
+      "stem": "A 34-year-old man is stung by a bee while gardening. Within 10 minutes he has hives over his trunk, swelling of his lips, wheezing, and lightheadedness. His blood pressure is 78/40 mm Hg and pulse is 128/min. He had only a local reaction to a bee sting 1 year ago.",
+      "leadIn": "Which of the following best explains this reaction?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Antigen cross-linking IgE bound to mast cells"
+        },
+        {
+          "id": "b",
+          "text": "IgG immune complexes activating complement"
+        },
+        {
+          "id": "c",
+          "text": "Sensitized T cells releasing cytokines"
+        },
+        {
+          "id": "d",
+          "text": "IgG binding to antigens on red cell surfaces"
+        },
+        {
+          "id": "e",
+          "text": "Bradykinin excess from C1 inhibitor deficiency"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: venom cross-links IgE that is already bound to mast cells (type I hypersensitivity). Why: your El-Husseiny immunology notes (pp. 450-452) explain that a first exposure makes IgE, which sits on high-affinity receptors on mast cells and basophils. On re-exposure the antigen cross-links that IgE, and the cells degranulate within minutes, releasing histamine and tryptase (tryptase in the blood shows that mast cells have fired). Leukotrienes and chemokines follow hours later. The mediators widen blood vessels, make them leak, and narrow the airways, which causes anaphylactic shock, and without prompt epinephrine it can be fatal. MSD agrees that antigen meeting IgE on basophils and mast cells releases histamine, leukotrienes, and other mediators, and calls epinephrine 'the cornerstone of treatment for anaphylaxis,' given intramuscularly into the outer thigh. MSD notes that serum tryptase, preferably measured within 2 hours, can confirm the diagnosis, and that glucocorticoids have no proven role.",
+      "whyWrong": {
+        "b": "Immune complexes activating complement describe type III reactions such as serum sickness, which start days, not minutes, after exposure (your El-Husseiny immunology notes, p. 458).",
+        "c": "Cytokines from sensitized T cells cause type IV reactions, which take 1 to 3 days to appear (standard teaching).",
+        "d": "IgG against red cell antigens is a type II reaction, causing hemolysis rather than hives and wheezing (standard teaching).",
+        "e": "Hereditary angioedema comes from too much bradykinin, not IgE, and causes swelling without hives (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Type I hypersensitivity, pp. 450-452"
+        },
+        {
+          "title": "MSD Manual Professional: Anaphylaxis",
+          "url": "https://www.msdmanuals.com/professional/immunology-allergic-disorders/allergic-autoimmune-and-other-hypersensitivity-disorders/anaphylaxis"
+        }
+      ]
+    },
+    {
+      "id": "immuno-serum-sickness-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Immunology",
+      "system": "Immune System",
+      "topic": "Type III hypersensitivity: serum sickness",
+      "difficulty": 2,
+      "stem": "A 27-year-old woman comes to the physician because of fever, an itchy rash, and aching joints for 2 days. Nine days ago she started trimethoprim-sulfamethoxazole for a urinary tract infection. Her temperature is 38.4°C. There are raised, red, itchy welts on her trunk and limbs, tender lymph nodes in her neck and groin, and pain with movement of her wrists and knees. Serum C3 is low.",
+      "leadIn": "Which of the following best explains this patient's condition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Drug-antibody complexes activating complement"
+        },
+        {
+          "id": "b",
+          "text": "Drug cross-linking IgE on mast cells"
+        },
+        {
+          "id": "c",
+          "text": "Drug-specific T cells attacking keratinocytes"
+        },
+        {
+          "id": "d",
+          "text": "Antibodies against her own red blood cells"
+        },
+        {
+          "id": "e",
+          "text": "Direct toxic injury to the liver and joints"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: drug-antibody immune complexes that activate complement (serum sickness, a type III reaction). Why: your El-Husseiny immunology notes (p. 458) call serum sickness the prototype immune complex disease. Antibodies form against a foreign protein, and 1 to 2 weeks later antigen-antibody complexes deposit in tissues and activate complement. The result is fever, urticaria, joint pain, glomerulonephritis, swollen lymph nodes, and a low C3 level 5-10 days after exposure. Serum sickness-like reactions follow some drugs, including monoclonal antibodies and sulfonamides, and some infections, such as hepatitis B. MSD describes serum sickness as 'a type III hypersensitivity reaction due to medication-antibody complexes and complement activation' that typically starts 7 to 10 days after exposure, names beta-lactam and sulfonamide antibiotics among the most common causes, and says symptoms are self-limited, lasting 1 to 2 weeks.",
+      "whyWrong": {
+        "b": "IgE cross-linking causes type I reactions within minutes of exposure, not after 9 days, and does not lower C3 (your El-Husseiny immunology notes, pp. 450-451).",
+        "c": "T cells attacking keratinocytes cause SJS/TEN, with painful blisters, skin peeling, and mouth sores rather than hives and low complement (standard teaching).",
+        "d": "Antibodies against red cells cause hemolytic anemia, not fever, hives, and joint pain with low complement (standard teaching).",
+        "e": "Direct drug toxicity does not explain low complement, hives, and swollen nodes (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Serum sickness, p. 458"
+        },
+        {
+          "title": "MSD Manual Professional: Drug Hypersensitivity",
+          "url": "https://www.msdmanuals.com/professional/immunology-allergic-disorders/allergic-autoimmune-and-other-hypersensitivity-disorders/drug-hypersensitivity"
+        }
+      ]
+    },
+    {
+      "id": "immuno-acute-rejection-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Immune System",
+      "topic": "Transplant rejection: acute",
+      "difficulty": 2,
+      "stem": "A 45-year-old man received a kidney from a deceased donor 3 weeks ago. Since then, his serum creatinine has risen from 1.3 to 2.6 mg/dL, and his urine output has fallen. Ultrasound shows normal blood flow and no blocked ureter. A biopsy of the transplanted kidney shows a dense infiltrate of lymphocytes in the interstitium, invading the tubules and the walls of small arteries.",
+      "leadIn": "Which of the following is the most likely mechanism of this injury?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Recipient T cells reacting to donor MHC molecules"
+        },
+        {
+          "id": "b",
+          "text": "Preformed recipient antibodies against donor blood groups"
+        },
+        {
+          "id": "c",
+          "text": "Donor T cells attacking recipient tissues"
+        },
+        {
+          "id": "d",
+          "text": "Smooth muscle growth narrowing graft arteries"
+        },
+        {
+          "id": "e",
+          "text": "Recurrence of the original kidney disease"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: recipient T cells reacting to donor MHC molecules (acute cellular rejection). Why: your El-Husseiny immunology notes (p. 476) place acute rejection weeks to months after transplant, usually 1 to 4 weeks. It is mostly cell mediated: recipient CD8 and CD4 T cells are activated against donor MHC molecules (a type IV reaction), while antibody-mediated (humoral) acute rejection is less common. Biopsy shows a dense lymphocytic infiltrate in the graft with vasculitis of graft vessels, and immunosuppressive drugs are aimed mainly at preventing this form. MSD describes acute rejection as a new T-cell response to donor histocompatibility antigens, with a mononuclear cell infiltrate, and says it often reverses with stronger immunosuppression.",
+      "whyWrong": {
+        "b": "Preformed antibodies cause hyperacute rejection, which clots the graft within minutes to hours of surgery (MSD; standard teaching).",
+        "c": "Donor T cells attacking the host is graft-versus-host disease, mostly after bone marrow or liver transplants (your El-Husseiny immunology notes, p. 478).",
+        "d": "Intimal smooth muscle growth narrowing arteries is chronic rejection, which develops over months to years (your El-Husseiny immunology notes, p. 477).",
+        "e": "Recurrent disease would not cause a dense T-cell infiltrate attacking tubules and vessels 3 weeks after transplant (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Acute rejection, p. 476"
+        },
+        {
+          "title": "MSD Manual Professional: Overview of Transplantation",
+          "url": "https://www.msdmanuals.com/professional/immunology-allergic-disorders/transplantation/overview-of-transplantation"
+        }
+      ]
+    },
+    {
+      "id": "immuno-chronic-rejection-lung-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Immune System",
+      "topic": "Transplant rejection: chronic",
+      "difficulty": 3,
+      "stem": "A 52-year-old woman who had a lung transplant 3 years ago comes to the physician because of a dry cough and shortness of breath that have slowly worsened over 6 months. She takes tacrolimus, mycophenolate, and prednisone. She has no fever. Spirometry shows a new obstructive pattern with a steadily falling FEV1. A biopsy shows scarring that narrows and blocks the small airways (bronchioles).",
+      "leadIn": "Which of the following is the most likely diagnosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chronic rejection"
+        },
+        {
+          "id": "b",
+          "text": "Acute cellular rejection"
+        },
+        {
+          "id": "c",
+          "text": "Hyperacute rejection"
+        },
+        {
+          "id": "d",
+          "text": "Cytomegalovirus pneumonitis"
+        },
+        {
+          "id": "e",
+          "text": "Graft-versus-host disease"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: chronic rejection (bronchiolitis obliterans after a lung transplant). Why: your El-Husseiny immunology notes (p. 477) describe chronic rejection as starting months to years after transplant, with both cellular and antibody components (type II and type IV reactions). Recipient T cells respond to donor MHC presented by recipient cells, and the cytokines they release cause smooth muscle growth in vessel walls and scarring of the organ, so the picture is dominated by narrowed, scarred arteries. MSD says chronic rejection typically occurs months to years after transplant, shows neointimal proliferation of smooth muscle cells ('transplantation atherosclerosis'), lists obliterative bronchiolitis with cough and dyspnea as its form in the lung, and says there is no established treatment.",
+      "whyWrong": {
+        "b": "Acute cellular rejection usually appears weeks after transplant, with a dense lymphocyte infiltrate rather than slow airway scarring (your El-Husseiny immunology notes, p. 476).",
+        "c": "Hyperacute rejection occurs within 48 hours, from preformed antibodies (MSD Overview of Transplantation).",
+        "d": "CMV pneumonitis is an infection with fever and interstitial infiltrates, not slowly progressive airway scarring (standard teaching).",
+        "e": "Graft-versus-host disease mostly follows bone marrow or liver transplants and targets skin, liver, and gut (your El-Husseiny immunology notes, p. 478)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Chronic rejection, p. 477"
+        },
+        {
+          "title": "MSD Manual Professional: Overview of Transplantation",
+          "url": "https://www.msdmanuals.com/professional/immunology-allergic-disorders/transplantation/overview-of-transplantation"
+        }
+      ]
+    },
+    {
+      "id": "immuno-cvid-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Immunology",
+      "system": "Immune System",
+      "topic": "B-cell immunodeficiency: CVID",
+      "difficulty": 2,
+      "stem": "A 28-year-old woman comes to the physician because she has had pneumonia twice and sinus infections 4 times in the past 2 years. She also has recurrent watery diarrhea, and stool tests last year showed Giardia. Serum IgG, IgA, and IgM are all low. Flow cytometry shows a normal number of circulating B cells. She did not make protective antibodies after pneumococcal and tetanus vaccines.",
+      "leadIn": "Which of the following best explains this patient's condition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "B cells that fail to mature into plasma cells"
+        },
+        {
+          "id": "b",
+          "text": "Absent B cells from a BTK gene mutation"
+        },
+        {
+          "id": "c",
+          "text": "Failed class switching from a CD40 ligand defect"
+        },
+        {
+          "id": "d",
+          "text": "Isolated failure to make IgA"
+        },
+        {
+          "id": "e",
+          "text": "Absent thymus with low T cells"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: B cells that cannot mature into antibody-making plasma cells (common variable immunodeficiency). Why: your El-Husseiny immunology notes (p. 465) describe CVID as a defect in B-cell differentiation with many causes, starting in the late teens or acquired in the 20s and 30s. Plasma cells and immunoglobulins are low, and patients have sinus and lung infections, bronchiectasis, more autoimmune disease, and a higher lymphoma risk. MSD defines CVID by low immunoglobulins with phenotypically normal B cells, usually diagnosed between ages 20 and 40, and requires low IgG plus low IgA or IgM and an impaired response to vaccines. MSD lists autoimmune cytopenias and granulomatous inflammation as complications, says gastric carcinoma or lymphoma occurs in 10% of patients, and treats it with immune globulin (IgG) replacement.",
+      "whyWrong": {
+        "b": "A BTK mutation (X-linked agammaglobulinemia) leaves almost no B cells and appears in infant boys after maternal antibody wanes (standard teaching).",
+        "c": "A CD40 ligand defect (hyper-IgM syndrome) causes normal or high IgM, not low IgM (standard teaching).",
+        "d": "Selective IgA deficiency leaves IgG and IgM normal (your El-Husseiny immunology notes, p. 465).",
+        "e": "Thymic aplasia (DiGeorge syndrome) presents in infancy with low T cells, low calcium, and heart defects (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Common variable immunodeficiency, p. 465"
+        },
+        {
+          "title": "MSD Manual Professional: Common Variable Immunodeficiency (CVID)",
+          "url": "https://www.msdmanuals.com/professional/immunology-allergic-disorders/immunodeficiency-disorders/common-variable-immunodeficiency-cvid"
+        }
+      ]
+    },
+    {
+      "id": "immuno-il12-receptor-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Immunology",
+      "system": "Immune System",
+      "topic": "Immunodeficiency: IL-12 receptor deficiency",
+      "difficulty": 3,
+      "stem": "A 14-month-old girl is brought to the physician because of fever, weight loss, and swollen lymph nodes for 2 months. She received the BCG vaccine at birth. Cultures of a lymph node and bone marrow grow Mycobacterium bovis (BCG strain). Her lymphocyte count, immunoglobulin levels, and neutrophil oxidative burst test are normal. Her T cells make very little interferon-gamma when stimulated.",
+      "leadIn": "A defect in which of the following is the most likely cause of this patient's condition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The IL-12 receptor"
+        },
+        {
+          "id": "b",
+          "text": "NADPH oxidase in neutrophils"
+        },
+        {
+          "id": "c",
+          "text": "Adenosine deaminase"
+        },
+        {
+          "id": "d",
+          "text": "Bruton tyrosine kinase"
+        },
+        {
+          "id": "e",
+          "text": "CD40 ligand on helper T cells"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the interleukin-12 (IL-12) receptor. Why: your El-Husseiny immunology notes (p. 466) describe IL-12 receptor deficiency as an autosomal recessive defect in the Th1 response. Macrophages make IL-12 to drive Th1 cells to make interferon-gamma, which activates macrophages to kill intracellular microbes. Without this loop, IFN-gamma is low, and children get disseminated mycobacterial and fungal infections, sometimes after the live BCG vaccine. MSD lists Mendelian susceptibility to mycobacterial disease as caused by defects in the genes for the IFN-gamma receptor, IL-12, or the IL-12 receptor, with mycobacterial infections of varying severity.",
+      "whyWrong": {
+        "b": "NADPH oxidase loss (chronic granulomatous disease) gives an abnormal oxidative burst test, which is normal here (standard teaching).",
+        "c": "Adenosine deaminase deficiency causes SCID, with very low lymphocyte counts and low antibodies (standard teaching).",
+        "d": "Bruton tyrosine kinase defects leave few B cells and low immunoglobulins, which are normal here (standard teaching).",
+        "e": "CD40 ligand defects block class switching and mainly cause high IgM with low IgG and IgA (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), IL-12 receptor deficiency, p. 466"
+        },
+        {
+          "title": "MSD Manual Professional: Overview of Immunodeficiency Disorders",
+          "url": "https://www.msdmanuals.com/professional/immunology-allergic-disorders/immunodeficiency-disorders/overview-of-immunodeficiency-disorders"
+        }
+      ]
+    },
+    {
+      "id": "immuno-gvhd-graft-vs-tumor-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Immunology",
+      "system": "Immune System",
+      "topic": "Graft-versus-host disease after stem cell transplant",
+      "difficulty": 3,
+      "stem": "A 38-year-old man with acute myeloid leukemia received an allogeneic stem cell transplant from his HLA-matched sister 5 weeks ago. He now has a red, itchy rash on his palms, soles, and trunk, watery diarrhea, and a serum bilirubin of 4.1 mg/dL. A skin biopsy shows lymphocytes attacking the basal layer of the epidermis. His physician explains that the immune process causing these symptoms may also have a benefit.",
+      "leadIn": "Which of the following best describes that benefit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Donor T cells also attack leftover leukemia cells"
+        },
+        {
+          "id": "b",
+          "text": "Host T cells are destroyed, preventing graft rejection"
+        },
+        {
+          "id": "c",
+          "text": "Donor B cells make antibodies against infections"
+        },
+        {
+          "id": "d",
+          "text": "Cytokines from the rash suppress the bone marrow"
+        },
+        {
+          "id": "e",
+          "text": "Host natural killer cells are activated by the rash"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: donor T cells also attack leukemia cells that survived treatment (graft-versus-tumor effect). Why: your El-Husseiny immunology notes (p. 478) explain that graft-versus-host disease follows allogeneic bone marrow transplants, lymphocyte-rich organs such as the liver, or transfusion of non-irradiated blood. Immune-competent donor T cells (both CD4 and CD8) see host MHC antigens as foreign (a type IV reaction). The skin, liver, and gut are hit hardest, causing a maculopapular rash, jaundice, and diarrhea. The same reaction can help in leukemia, because donor cells also attack the tumor (graft-versus-tumor effect). MSD describes acute GVHD as donor immune cells attacking recipient tissue, causing fever, rash, hepatitis with high bilirubin, vomiting, diarrhea, and abdominal pain, and notes a graft-versus-tumor effect that may reduce relapse rates. MSD lists methotrexate and cyclosporine for prevention and methylprednisolone for treatment.",
+      "whyWrong": {
+        "b": "Pre-transplant conditioning, not GVHD, removes host immune cells; the attacking cells in GVHD come from the donor (standard teaching).",
+        "c": "GVHD is driven by donor T cells, not by protective donor antibodies (your El-Husseiny immunology notes, p. 478).",
+        "d": "Suppressing the bone marrow would be harmful, not a benefit, and is not how GVHD helps (standard teaching).",
+        "e": "The attacking cells in GVHD are donor T cells, not host natural killer cells (your El-Husseiny immunology notes, p. 478)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Graft-versus-host disease, p. 478"
+        },
+        {
+          "title": "MSD Manual Professional: Hematopoietic Stem Cell Transplantation",
+          "url": "https://www.msdmanuals.com/professional/immunology-allergic-disorders/transplantation/hematopoietic-stem-cell-transplantation"
+        }
+      ]
+    },
+    {
+      "id": "pharm-tacrolimus-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Immune System",
+      "topic": "Immunosuppressants: calcineurin inhibitors",
+      "difficulty": 2,
+      "stem": "A 50-year-old man had a kidney transplant 4 months ago. His medications are tacrolimus, mycophenolate mofetil, and a low dose of prednisone. He now has a fine tremor of his hands, his fasting glucose has risen to 142 mg/dL, and his serum creatinine has slowly increased. A blood level of one of his drugs is above the target range. Biopsy of the graft shows no rejection.",
+      "leadIn": "The drug most likely responsible for his tremor and rising creatinine works by which of the following mechanisms?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Inhibits calcineurin, lowering IL-2 transcription"
+        },
+        {
+          "id": "b",
+          "text": "Inhibits mTOR, blocking the response to IL-2"
+        },
+        {
+          "id": "c",
+          "text": "Inhibits IMP dehydrogenase, blocking purine synthesis"
+        },
+        {
+          "id": "d",
+          "text": "Blocks the IL-2 receptor alpha chain (CD25)"
+        },
+        {
+          "id": "e",
+          "text": "Blocks CD80/CD86 costimulation of T cells"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: tacrolimus, which inhibits calcineurin and so lowers IL-2 transcription. Why: your El-Husseiny immunology notes (pp. 481-482) explain that tacrolimus binds FK506-binding protein and cyclosporine binds cyclophilin, and that both block calcineurin, a phosphatase that normally activates NFAT so T cells can make IL-2. Both drugs are highly nephrotoxic, especially at higher doses. Tacrolimus resembles cyclosporine but has a higher risk of diabetes and neurotoxicity, without the gum overgrowth or hirsutism that cyclosporine causes. MSD agrees that calcineurin inhibitors block the T-cell transcription needed for cytokine production, calls nephrotoxicity the most serious dose-dependent adverse effect of cyclosporine, lists tremor, diabetes, and hypertension, and says tacrolimus is more prone to induce diabetes.",
+      "whyWrong": {
+        "b": "Blocking mTOR is how sirolimus works; it is not nephrotoxic, and it causes low blood counts and high lipids (your El-Husseiny immunology notes, p. 482).",
+        "c": "Blocking IMP dehydrogenase is how mycophenolate works; its main side effects are gut upset and low blood counts, not tremor or nephrotoxicity (standard teaching).",
+        "d": "Blocking CD25 is how basiliximab works; MSD reports anaphylaxis as its only adverse effect (MSD Overview of Transplantation).",
+        "e": "Blocking costimulation is how belatacept works, and it is used to avoid calcineurin inhibitor nephrotoxicity (MSD Overview of Transplantation)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Immunosuppressant drugs, pp. 481-482"
+        },
+        {
+          "title": "MSD Manual Professional: Overview of Transplantation",
+          "url": "https://www.msdmanuals.com/professional/immunology-allergic-disorders/transplantation/overview-of-transplantation"
+        }
+      ]
+    },
+    {
+      "id": "derm-acne-cutibacterium-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Acne vulgaris",
+      "difficulty": 1,
+      "stem": "A 16-year-old boy comes to the physician because of pimples on his face, chest, and upper back for 1 year. Exam shows open and closed comedones (blackheads and whiteheads) and many red papules and pustules. He plays football and wears a helmet and shoulder pads most days.",
+      "leadIn": "The bacterium involved in his inflamed lesions contributes mainly by which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Breaking sebum down into free fatty acids"
+        },
+        {
+          "id": "b",
+          "text": "Making a toxin that splits desmoglein 1"
+        },
+        {
+          "id": "c",
+          "text": "Invading the dermis to form deep abscesses"
+        },
+        {
+          "id": "d",
+          "text": "Making a superantigen that activates T cells"
+        },
+        {
+          "id": "e",
+          "text": "Inducing keratinocytes to make extra melanin"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: breaking sebum down into irritating free fatty acids. Why: your El-Husseiny skin notes (in the musculoskeletal book) (pp. 171-172) explain that acne is chronic inflammation of hair follicles and their sebaceous glands. Androgens raise sebum production, and extra keratin plugs the follicles, forming comedones. The plugged, oily, low-oxygen follicle lets the normal skin bacterium grow, and its lipases break sebum into proinflammatory fatty acids, which produce pustules and nodules. Risk factors include higher androgen levels, oily hair products, and friction from tight sports gear. Treatment includes benzoyl peroxide and vitamin A derivatives. MSD names excess sebum, follicular plugging, and colonization by Cutibacterium acnes among the 4 major factors, describes the bacterium 'breaking down sebum into free fatty acids that irritate the follicular epithelium,' and then an inflammatory response by neutrophils and lymphocytes. Recent change: MSD uses the bacterium's newer name, Cutibacterium acnes; your notes use its older name, Propionibacterium acnes.",
+      "whyWrong": {
+        "b": "A toxin that splits desmoglein 1 is the exfoliative toxin of Staphylococcus aureus in scalded skin syndrome and bullous impetigo (standard teaching).",
+        "c": "Deep dermal abscesses are typical of S. aureus boils, not comedonal acne (standard teaching).",
+        "d": "Superantigens are made by S. aureus and Streptococcus pyogenes and cause toxic shock (standard teaching).",
+        "e": "Extra melanin causes dark spots after inflammation but is not how the bacterium drives acne (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Acne vulgaris, pp. 171-172"
+        },
+        {
+          "title": "MSD Manual Professional: Acne Vulgaris",
+          "url": "https://www.msdmanuals.com/professional/dermatologic-disorders/acne-and-related-disorders/acne-vulgaris"
+        }
+      ]
+    },
+    {
+      "id": "derm-dermatitis-herpetiformis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Dermatitis herpetiformis",
+      "difficulty": 2,
+      "stem": "A 29-year-old woman comes to the physician because of an intensely itchy rash for 3 months. Exam shows clusters of small blisters and scratched, crusted bumps on both elbows, both knees, and her buttocks. She has mild bloating after meals but no diarrhea. Her hemoglobin is 10.8 g/dL with a low ferritin.",
+      "leadIn": "Direct immunofluorescence of skin next to a lesion is most likely to show which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Granular IgA in the tips of dermal papillae"
+        },
+        {
+          "id": "b",
+          "text": "Linear IgG and C3 along the basement membrane"
+        },
+        {
+          "id": "c",
+          "text": "IgG in a net-like pattern between keratinocytes"
+        },
+        {
+          "id": "d",
+          "text": "Linear IgA along the basement membrane"
+        },
+        {
+          "id": "e",
+          "text": "No immune deposits in the skin"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: granular IgA deposits at the tips of the dermal papillae (dermatitis herpetiformis). Why: your El-Husseiny skin notes (in the musculoskeletal book) (p. 179) describe dermatitis herpetiformis as autoimmune IgA deposition at the tips of the dermal papillae, with itchy papules, vesicles, and blisters on both sides on extensor surfaces (elbows, knees), the upper back, and the buttocks. Biopsy shows small collections of neutrophils and fibrin at the papillary tips. The disease is strongly linked to celiac disease, and a gluten-free diet improves both the gut and the skin. MSD says almost all patients have celiac disease on histology, describes granular IgA deposition in the dermal papillary tips, uses IgA anti-tissue and anti-epidermal transglutaminase antibodies for diagnosis, and treats with dapsone or sulfapyridine plus a gluten-free diet. Her iron deficiency hints at silent celiac malabsorption (standard teaching).",
+      "whyWrong": {
+        "b": "Linear IgG and C3 along the basement membrane is bullous pemphigoid, with tense blisters in older adults (standard teaching).",
+        "c": "A net-like IgG pattern between keratinocytes is pemphigus vulgaris, with fragile blisters and mouth sores (standard teaching).",
+        "d": "Linear IgA along the basement membrane is linear IgA bullous dermatosis, often triggered by vancomycin (standard teaching).",
+        "e": "Dermatitis herpetiformis is defined by IgA deposits in the skin (your El-Husseiny skin notes (in the musculoskeletal book), p. 179)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Dermatitis herpetiformis, p. 179"
+        },
+        {
+          "title": "MSD Manual Professional: Dermatitis Herpetiformis",
+          "url": "https://www.msdmanuals.com/professional/dermatologic-disorders/bullous-diseases/dermatitis-herpetiformis"
+        }
+      ]
+    },
+    {
+      "id": "pharm-melanoma-braf-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Melanoma: BRAF-targeted therapy",
+      "difficulty": 2,
+      "stem": "A 58-year-old man had a melanoma removed from his back 3 years ago. He now has several new nodules in his lungs and liver. A biopsy of a liver nodule shows metastatic melanoma, and genetic testing of the tumor shows a BRAF V600E mutation.",
+      "leadIn": "Which of the following drug combinations specifically targets the signaling pathway activated by this mutation?",
+      "options": [
+        {
+          "id": "a",
+          "text": "BRAF inhibitor combined with MEK inhibitor"
+        },
+        {
+          "id": "b",
+          "text": "EGFR inhibitor combined with a platinum drug"
+        },
+        {
+          "id": "c",
+          "text": "Hedgehog (smoothened) inhibitor such as vismodegib"
+        },
+        {
+          "id": "d",
+          "text": "BCR-ABL tyrosine kinase inhibitor"
+        },
+        {
+          "id": "e",
+          "text": "Anti-HER2 monoclonal antibody"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: a BRAF inhibitor combined with a MEK inhibitor. Why: your El-Husseiny skin notes (in the musculoskeletal book) (p. 187) explain that melanoma is a cancer of melanocytes, which come from the neural crest. BRAF is a protein kinase in the growth-signaling pathway, and the BRAF V600E mutation, found in 40-60% of melanomas, switches that pathway on, driving melanocyte growth, survival, and spread. The notes add that depth of invasion (Breslow thickness) is the most important predictor of spread. MSD lists combination BRAF and MEK inhibitors (for example, dabrafenib with trametinib, encorafenib with binimetinib, or vemurafenib with cobimetinib) for BRAF-mutated melanoma when standard immunotherapy cannot be given, and lists anti-PD-1, anti-CTLA-4, and anti-LAG-3 checkpoint inhibitors as the main immunotherapies for metastatic melanoma. MEK sits just downstream of BRAF in the same pathway, so blocking both gives a deeper block (standard teaching).",
+      "whyWrong": {
+        "b": "EGFR inhibitors target EGFR-mutant lung adenocarcinoma, not BRAF-mutant melanoma (standard teaching).",
+        "c": "Hedgehog inhibitors such as vismodegib treat advanced basal cell carcinoma (standard teaching).",
+        "d": "BCR-ABL inhibitors such as imatinib treat chronic myeloid leukemia (standard teaching).",
+        "e": "Anti-HER2 antibodies such as trastuzumab treat HER2-positive breast and stomach cancers (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Melanoma, p. 187"
+        },
+        {
+          "title": "MSD Manual Professional: Melanoma",
+          "url": "https://www.msdmanuals.com/professional/dermatologic-disorders/cancers-of-the-skin/melanoma"
+        }
+      ]
+    },
+    {
+      "id": "derm-molluscum-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Molluscum contagiosum",
+      "difficulty": 1,
+      "stem": "A 5-year-old boy is brought to the physician because of small bumps on his trunk and arms for 3 months. Exam shows 15 firm, pink, dome-shaped papules, each 2 to 4 mm across with a small central dimple. His younger sister has similar bumps. He is otherwise healthy.",
+      "leadIn": "A biopsy of one papule is most likely to show which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Large intracytoplasmic inclusions in keratinocytes"
+        },
+        {
+          "id": "b",
+          "text": "Multinucleated giant cells with intranuclear inclusions"
+        },
+        {
+          "id": "c",
+          "text": "Koilocytes with clear halos around their nuclei"
+        },
+        {
+          "id": "d",
+          "text": "Fungal hyphae in the stratum corneum"
+        },
+        {
+          "id": "e",
+          "text": "Nests of basaloid cells with peripheral palisading"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: large inclusions in the cytoplasm of keratinocytes (molluscum bodies). Why: your El-Husseiny skin notes (in the musculoskeletal book) (p. 193) describe molluscum contagiosum as firm, pink, umbilicated papules caused by a poxvirus, with cytoplasmic inclusions in infected keratinocytes called molluscum bodies. It is most common in children and also affects sexually active adults and people with weak immune systems. MSD describes pink, dome-shaped, waxy or pearly umbilicated papules from a poxvirus, common among children, with characteristic inclusion bodies on biopsy or smear. MSD says it spreads by direct contact, autoinoculation, and fomites, that people with HIV may get widespread infection, and that most lesions clear on their own within 6 months to 2 years. Poxviruses replicate in the cytoplasm, which is why the inclusions sit there (standard teaching).",
+      "whyWrong": {
+        "b": "Multinucleated giant cells with intranuclear inclusions (Tzanck smear) point to herpes simplex or varicella-zoster virus (standard teaching).",
+        "c": "Koilocytes are the hallmark of human papillomavirus, as in common warts (standard teaching).",
+        "d": "Hyphae in the stratum corneum suggest tinea, which forms scaly rings rather than dimpled papules (standard teaching).",
+        "e": "Palisading basaloid nests describe basal cell carcinoma, a tumor of older, sun-damaged skin (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Molluscum contagiosum, p. 193"
+        },
+        {
+          "title": "MSD Manual Professional: Molluscum Contagiosum",
+          "url": "https://www.msdmanuals.com/professional/dermatologic-disorders/viral-skin-diseases/molluscum-contagiosum"
+        }
+      ]
+    },
+    {
+      "id": "derm-acanthosis-nigricans-cancer-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Acanthosis nigricans: paraneoplastic",
+      "difficulty": 2,
+      "stem": "A 66-year-old man comes to the physician because of a 9-kg (20-lb) weight loss, early fullness after meals, and dark skin in his armpits over 2 months. He has a BMI of 21 kg/m2 and a normal fasting glucose and hemoglobin A1c. Exam shows dark, velvety, thickened skin in both axillae and on the back of his neck. He has iron deficiency anemia.",
+      "leadIn": "Which of the following is the most likely underlying condition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Gastric adenocarcinoma"
+        },
+        {
+          "id": "b",
+          "text": "Primary adrenal insufficiency"
+        },
+        {
+          "id": "c",
+          "text": "Hereditary hemochromatosis"
+        },
+        {
+          "id": "d",
+          "text": "Insulin resistance from obesity"
+        },
+        {
+          "id": "e",
+          "text": "Small cell lung carcinoma"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: gastric adenocarcinoma. Why: your El-Husseiny skin notes (in the musculoskeletal book) (p. 198) describe acanthosis nigricans as epidermal thickening that causes symmetric, dark, thickened skin, mostly in the axillae and on the neck. It is linked to insulin resistance (type 2 diabetes) and to cancer of the internal organs, especially gastric adenocarcinoma. MSD says acanthosis nigricans most often reflects impaired glucose tolerance 'but it may reflect internal cancer, especially if onset is rapid and distribution is widespread,' and lists it as a paraneoplastic skin sign of gastrointestinal cancer, along with the sudden appearance of many seborrheic keratoses (Leser-Trélat sign). This lean man with normal glucose, weight loss, early satiety, and iron deficiency fits a stomach cancer (standard teaching).",
+      "whyWrong": {
+        "b": "Adrenal insufficiency darkens skin creases, scars, and gums evenly, without velvety thickening (standard teaching).",
+        "c": "Hemochromatosis gives a diffuse bronze color with diabetes and liver disease, not velvety plaques (standard teaching).",
+        "d": "Insulin resistance is the most common cause, but this lean man has normal glucose and alarm symptoms (MSD Paraneoplastic Syndromes).",
+        "e": "Small cell lung cancer is linked to hormone syndromes such as SIADH and Cushing syndrome, not acanthosis nigricans (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Acanthosis nigricans, p. 198"
+        },
+        {
+          "title": "MSD Manual Professional: Paraneoplastic Syndromes",
+          "url": "https://www.msdmanuals.com/professional/oncology/overview-of-cancer/paraneoplastic-syndromes"
+        }
+      ]
+    },
+    {
+      "id": "derm-erythema-nodosum-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Erythema nodosum",
+      "difficulty": 2,
+      "stem": "A 24-year-old woman comes to the physician because of painful red lumps on both shins for 1 week. Three weeks ago she had a sore throat with fever. She takes no medications and is not pregnant. Exam shows several tender, warm, red, raised nodules, 2 to 4 cm across, on the front of both lower legs. There are no ulcers. Her antistreptolysin O titer is high.",
+      "leadIn": "A deep biopsy of a nodule is most likely to show inflammation centered in which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Septa of the subcutaneous fat"
+        },
+        {
+          "id": "b",
+          "text": "Walls of small dermal vessels"
+        },
+        {
+          "id": "c",
+          "text": "Basal layer of the epidermis"
+        },
+        {
+          "id": "d",
+          "text": "Hair follicles and oil glands"
+        },
+        {
+          "id": "e",
+          "text": "Superficial papillary dermis"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the septa of the subcutaneous fat (septal panniculitis). Why: your El-Husseiny skin notes (in the musculoskeletal book) (p. 199) describe erythema nodosum as painful, raised, inflamed lesions of the subcutaneous fat, usually on the front of the shins. It is often idiopathic but can be linked to sarcoidosis, coccidioidomycosis, histoplasmosis, tuberculosis, streptococcal infections, leprosy, and inflammatory bowel disease. MSD calls it a form of panniculitis with tender red or violet nodules, mainly on the shins, names streptococcal infection, sarcoidosis, and inflammatory bowel disease as the most common causes, says up to about 50% of cases are idiopathic, and notes that it almost always clears on its own in about 3 to 6 weeks. The inflammation sits in the fibrous septa between fat lobules (standard teaching).",
+      "whyWrong": {
+        "b": "Inflamed dermal vessel walls describe leukocytoclastic vasculitis, which causes palpable purpura (standard teaching).",
+        "c": "Damage to the basal layer is seen in lichen planus and lupus, not in tender shin nodules (standard teaching).",
+        "d": "Inflamed hair follicles and oil glands are acne (your El-Husseiny skin notes (in the musculoskeletal book), p. 171).",
+        "e": "Erythema nodosum is a disease of the subcutaneous fat, not the superficial dermis (your El-Husseiny skin notes (in the musculoskeletal book), p. 199)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Erythema nodosum, p. 199"
+        },
+        {
+          "title": "MSD Manual Professional: Erythema Nodosum",
+          "url": "https://www.msdmanuals.com/professional/dermatologic-disorders/hypersensitivity-and-reactive-skin-disorders/erythema-nodosum"
+        }
+      ]
+    },
+    {
+      "id": "derm-pityriasis-rosea-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Pityriasis rosea",
+      "difficulty": 1,
+      "stem": "A 19-year-old college student comes to the physician because of a rash on her trunk for 10 days. It began as a single 4-cm, pink, oval, scaly patch on her chest. A week later, many smaller oval patches appeared on her chest and back, lined up along skin creases. Each patch has a fine ring of scale just inside its border. Her palms and soles are clear, and she feels well.",
+      "leadIn": "Which of the following is the most appropriate management?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Reassurance and relief of itching"
+        },
+        {
+          "id": "b",
+          "text": "Oral terbinafine for 2 weeks"
+        },
+        {
+          "id": "c",
+          "text": "Intramuscular benzathine penicillin G"
+        },
+        {
+          "id": "d",
+          "text": "Oral prednisone taper"
+        },
+        {
+          "id": "e",
+          "text": "Topical antibiotic ointment"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: reassurance, with relief of itching if needed (pityriasis rosea). Why: your El-Husseiny skin notes (in the musculoskeletal book) (p. 200) describe a first large 'herald patch,' with more scaly red plaques arriving a few days later, often in a Christmas tree pattern on the trunk, with collarette scale. It may be idiopathic or linked to viral infection and clears on its own in 6 to 8 weeks. MSD describes a single 2- to 10-cm herald patch, a Christmas tree-like pattern on the back, and a collarette of scale, says the rash usually clears within 5 weeks and rarely returns, and says no specific treatment is usually needed beyond anti-itch measures. MSD advises a blood test for syphilis when the palms or soles are involved, when no herald patch is seen, or when the pattern is unusual.",
+      "whyWrong": {
+        "b": "Terbinafine treats tinea; tinea can look like a single patch but does not spread in a Christmas tree pattern (standard teaching).",
+        "c": "Penicillin treats secondary syphilis, which usually involves the palms and soles and has no herald patch (MSD Pityriasis Rosea; standard teaching).",
+        "d": "Oral steroids are not needed for a self-limited rash (MSD Pityriasis Rosea).",
+        "e": "There is no bacterial infection to treat (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Pityriasis rosea, p. 200"
+        },
+        {
+          "title": "MSD Manual Professional: Pityriasis Rosea",
+          "url": "https://www.msdmanuals.com/professional/dermatologic-disorders/psoriasis-and-other-papulosquamous-disorders/pityriasis-rosea"
+        }
+      ]
+    },
+    {
+      "id": "multi-hurler-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "Multisystem",
+      "topic": "Mucopolysaccharidoses: Hurler syndrome",
+      "difficulty": 2,
+      "stem": "A 2-year-old boy is brought to the physician because he is behind in his milestones. He has coarse facial features, a large tongue, stiff joints, an umbilical hernia, and noisy breathing at night. His corneas are cloudy, and his liver and spleen are enlarged. Urine shows high levels of dermatan sulfate and heparan sulfate.",
+      "leadIn": "Deficiency of which of the following enzymes is the most likely cause?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Alpha-L-iduronidase"
+        },
+        {
+          "id": "b",
+          "text": "Iduronate-2-sulfatase"
+        },
+        {
+          "id": "c",
+          "text": "Glucocerebrosidase"
+        },
+        {
+          "id": "d",
+          "text": "Hexosaminidase A"
+        },
+        {
+          "id": "e",
+          "text": "Alpha-galactosidase A"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: alpha-L-iduronidase (Hurler syndrome, MPS I). Why: your El-Husseiny biochemistry notes (p. 204) describe Hurler syndrome as an autosomal recessive deficiency of alpha-L-iduronidase, so heparan sulfate and dermatan sulfate build up in lysosomes. Findings are developmental delay, coarse 'gargoyle' features, airway obstruction, corneal clouding, and an enlarged liver and spleen. MSD's mucopolysaccharidosis table lists cloudy corneas, stiff joints, heavy facial features, a large tongue, intellectual disability, heart disease, hernias, and sleep apnea for Hurler syndrome. Hunter syndrome, by contrast, is milder and spares the corneas.",
+      "whyWrong": {
+        "b": "Iduronate-2-sulfatase deficiency is Hunter syndrome, which is X-linked and does not cloud the corneas (your El-Husseiny biochemistry notes, p. 204).",
+        "c": "Glucocerebrosidase deficiency is Gaucher disease, with bone pain and big spleen but no corneal clouding or coarse facies (standard teaching).",
+        "d": "Hexosaminidase A deficiency is Tay-Sachs disease, with a cherry-red macula and no enlarged organs (standard teaching).",
+        "e": "Alpha-galactosidase A deficiency is Fabry disease, with burning pain and angiokeratomas (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Mucopolysaccharidoses, p. 204"
+        },
+        {
+          "title": "MSD Manual Consumer Version: Types of Mucopolysaccharidoses (table)",
+          "url": "https://www.msdmanuals.com/home/multimedia/table/types-of-mucopolysaccharidoses"
+        }
+      ]
+    },
+    {
+      "id": "multi-hunter-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Genetics",
+      "system": "Multisystem",
+      "topic": "Mucopolysaccharidoses: Hunter syndrome",
+      "difficulty": 2,
+      "stem": "A 4-year-old boy is brought to the physician because of hyperactive, aggressive behavior and delayed speech. He has coarse facial features, stiff joints, and an enlarged liver and spleen. His corneas are clear on slit-lamp exam. Urine shows high levels of dermatan sulfate and heparan sulfate. Enzyme testing shows deficient iduronate-2-sulfatase.",
+      "leadIn": "Which of the following is the inheritance pattern of this condition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "X-linked recessive"
+        },
+        {
+          "id": "b",
+          "text": "Autosomal recessive"
+        },
+        {
+          "id": "c",
+          "text": "Autosomal dominant"
+        },
+        {
+          "id": "d",
+          "text": "Mitochondrial"
+        },
+        {
+          "id": "e",
+          "text": "X-linked dominant"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: X-linked recessive (Hunter syndrome, MPS II). Why: your El-Husseiny biochemistry notes (p. 204) describe Hunter syndrome as an X-linked recessive deficiency of iduronate-2-sulfatase, with the same stored substances as Hurler syndrome (heparan and dermatan sulfate). It looks like a mild Hurler syndrome plus aggressive behavior, without corneal clouding; the memory hook is that 'Hunters see clearly and aggressively aim for the X.' MSD's mucopolysaccharidosis table describes Hunter syndrome as similar to Hurler syndrome but milder and without cloudy corneas, with normal intelligence in the mild form and death before age 15 in the severe form. Because it is X-linked, nearly all patients are boys (standard teaching).",
+      "whyWrong": {
+        "b": "Autosomal recessive inheritance fits Hurler syndrome, which clouds the corneas (your El-Husseiny biochemistry notes, p. 204).",
+        "c": "Most lysosomal storage diseases are recessive, not dominant (standard teaching).",
+        "d": "Mitochondrial disorders pass only from the mother and mainly affect muscle and brain energy use, not glycosaminoglycan breakdown (standard teaching).",
+        "e": "X-linked dominant disorders affect girls as well as boys and are rare among storage diseases (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Mucopolysaccharidoses, p. 204"
+        },
+        {
+          "title": "MSD Manual Consumer Version: Types of Mucopolysaccharidoses (table)",
+          "url": "https://www.msdmanuals.com/home/multimedia/table/types-of-mucopolysaccharidoses"
+        }
+      ]
+    },
+    {
+      "id": "multi-hartnup-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "Multisystem",
+      "topic": "Hartnup disease",
+      "difficulty": 3,
+      "stem": "A 7-year-old boy is brought to the physician because of a red, scaly rash on his face, neck, and the backs of his hands that gets worse in the summer. After a recent fever he had several days of unsteady walking, which then improved. His diet is limited. Urinalysis shows large amounts of neutral amino acids, including tryptophan, with normal amounts of proline and hydroxyproline.",
+      "leadIn": "Which of the following best explains this patient's skin and neurologic findings?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Too little tryptophan to make niacin"
+        },
+        {
+          "id": "b",
+          "text": "Too little tyrosine to make melanin"
+        },
+        {
+          "id": "c",
+          "text": "Too much cystine forming kidney stones"
+        },
+        {
+          "id": "d",
+          "text": "Too much homocysteine damaging vessels"
+        },
+        {
+          "id": "e",
+          "text": "Too little thiamine for pyruvate dehydrogenase"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: too little tryptophan available to make niacin (Hartnup disease). Why: your El-Husseiny biochemistry notes (p. 238) explain that Hartnup disease is an autosomal recessive defect of the neutral amino acid transporter in the kidney tubules and gut. Neutral amino acids, including tryptophan, are lost in the urine and poorly absorbed, so less tryptophan is turned into niacin, causing pellagra-like symptoms: a rash on sun-exposed skin and neurologic problems, most often ataxia, that come and go. Proline, hydroxyproline, and arginine in the urine are normal, which separates it from Fanconi syndrome. Treatment is nicotinic acid or nicotinamide with a high-protein diet. The notes (p. 237) list the three Ds of pellagra (dermatitis, diarrhea, and dementia). MSD confirms a mutation in the sodium-dependent neutral amino acid transporter, a pellagra-like rash on sun-exposed skin, cerebellar ataxia, attacks triggered by sunlight, fever, or medications, and diagnosis by excess neutral amino acids except proline and hydroxyproline in the urine, and treats attacks with oral nicotinamide.",
+      "whyWrong": {
+        "b": "Low tyrosine is not the problem in Hartnup disease, and lack of melanin would cause pale skin, not a sun-triggered rash (standard teaching).",
+        "c": "Excess cystine in the urine is cystinuria, a defect of the dibasic amino acid transporter that causes kidney stones (standard teaching).",
+        "d": "High homocysteine causes clots and lens dislocation (homocystinuria), not a sun-triggered rash (standard teaching).",
+        "e": "Thiamine deficiency causes beriberi and Wernicke encephalopathy, without a photosensitive rash (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Niacin and Hartnup disease, pp. 237-238"
+        },
+        {
+          "title": "MSD Manual Professional: Hartnup Disease",
+          "url": "https://www.msdmanuals.com/professional/pediatrics/inherited-disorders-of-metabolism/hartnup-disease"
+        }
+      ]
+    },
+    {
+      "id": "multi-carbon-monoxide-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Multisystem",
+      "topic": "Carbon monoxide poisoning",
+      "difficulty": 2,
+      "stem": "A 38-year-old woman and her two children are brought to the emergency department in January because all three have had headaches, nausea, and dizziness since the morning. They have been heating their home with a gas space heater. The family dog has also been sluggish. The mother's pulse oximetry reading is 99% on room air.",
+      "leadIn": "Which of the following findings is most likely in the mother's arterial blood?",
+      "options": [
+        {
+          "id": "a",
+          "text": "High carboxyhemoglobin with normal PaO2"
+        },
+        {
+          "id": "b",
+          "text": "Low PaO2 with low hemoglobin oxygen saturation"
+        },
+        {
+          "id": "c",
+          "text": "High methemoglobin with low PaO2"
+        },
+        {
+          "id": "d",
+          "text": "Low hemoglobin concentration"
+        },
+        {
+          "id": "e",
+          "text": "High PaCO2 from hypoventilation"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: a high carboxyhemoglobin level with a normal PaO2. Why: your El-Husseiny biochemistry notes (p. 155) explain that carbon monoxide binds hemoglobin, pushing oxygen off, and also binds cytochrome a/a3 less tightly than cyanide. Symptoms include headache, nausea, and fast heart and breathing rates, and it is treated with oxygen. MSD explains that CO has a greater affinity for hemoglobin than oxygen, shifts the oxygen-hemoglobin dissociation curve to the left, and inhibits mitochondrial respiration. Headache and nausea can start at levels of 10 to 20%. 'The pulse oximeter cannot differentiate normal hemoglobin from carboxyhemoglobin,' so the reading looks falsely normal, and diagnosis needs a carboxyhemoglobin level measured with a CO-oximeter. MSD treats with 100% oxygen by nonrebreather mask, which shortens CO's half-life from about 4.5 hours on room air to about 1.5 hours, and considers hyperbaric oxygen in severe cases. PaO2 reflects oxygen dissolved in plasma, which CO does not change (standard teaching).",
+      "whyWrong": {
+        "b": "PaO2 measures dissolved oxygen, which stays normal because her lungs work normally (standard teaching).",
+        "c": "Methemoglobin comes from oxidizing drugs such as dapsone or nitrites, not from a space heater, and PaO2 stays normal in methemoglobinemia too (standard teaching).",
+        "d": "CO blocks oxygen binding to hemoglobin but does not lower the amount of hemoglobin (standard teaching).",
+        "e": "Her breathing is not depressed; early CO poisoning causes fast breathing, not CO2 retention (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Electron transport chain poisons, p. 155"
+        },
+        {
+          "title": "MSD Manual Professional: Carbon Monoxide Poisoning",
+          "url": "https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/carbon-monoxide-poisoning"
+        }
+      ]
+    },
+    {
+      "id": "multi-vitamin-a-toxicity-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Multisystem",
+      "topic": "Vitamin A toxicity",
+      "difficulty": 2,
+      "stem": "A 17-year-old girl comes to the physician because of daily headaches and blurred vision for 1 month. For 6 months she has taken large doses of a vitamin A supplement she bought online to clear her acne. Her hair has become thin and coarse, and her skin is dry. Exam shows swelling of both optic discs and a mildly enlarged liver. MRI of the brain shows no mass.",
+      "leadIn": "Which of the following is the most likely cause of her headaches?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pseudotumor cerebri"
+        },
+        {
+          "id": "b",
+          "text": "Migraine without aura"
+        },
+        {
+          "id": "c",
+          "text": "Bacterial meningitis"
+        },
+        {
+          "id": "d",
+          "text": "Tension-type headache"
+        },
+        {
+          "id": "e",
+          "text": "Pituitary apoplexy"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: pseudotumor cerebri (idiopathic intracranial hypertension) from vitamin A toxicity. Why: your El-Husseiny biochemistry notes (p. 246) explain that taking more than 10 times the recommended daily amount of vitamin A can cause toxicity. Chronic toxicity brings hair loss, dry skin, high lipids, liver damage, an enlarged liver and spleen, and vision problems, and papilledema points to benign intracranial hypertension (pseudotumor cerebri). Vitamin A also causes birth defects, so before isotretinoin (a vitamin A derivative) is started, pregnancy must be ruled out and two methods of birth control used. MSD lists sparse, coarse hair as an early sign of chronic toxicity, followed by severe headache, idiopathic intracranial hypertension (pseudotumor cerebri), and weakness, notes liver toxicity and an enlarged liver, and says the treatment is to stop vitamin A, after which recovery is generally complete. MSD also notes that eating too much carotene causes carotenemia, not vitamin A toxicity.",
+      "whyWrong": {
+        "b": "Migraine does not cause swollen optic discs or an enlarged liver (standard teaching).",
+        "c": "Bacterial meningitis causes fever and neck stiffness over hours to days, not a month of headaches with hair loss (standard teaching).",
+        "d": "Tension-type headache does not cause papilledema (standard teaching).",
+        "e": "Pituitary apoplexy is a sudden, severe headache from bleeding into a pituitary tumor, and the MRI shows no mass (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Vitamin A, pp. 245-246"
+        },
+        {
+          "title": "MSD Manual Professional: Vitamin A Toxicity",
+          "url": "https://www.msdmanuals.com/professional/nutritional-disorders/vitamin-deficiency-dependency-and-toxicity/vitamin-a-toxicity"
+        }
+      ]
     }
   ]
 }
