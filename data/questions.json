@@ -27190,9 +27190,9 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: hepatic stellate (Ito) cells. Why: your Osmosis GI notes (p. 104) explain that in cirrhosis, damage to the liver activates stellate cells, which sit between the sinusoids and the hepatocytes in the perisinusoidal space. They release TGF-beta 1, which turns them into myofibroblasts that lay down scar, and they release TIMP 1 and 2, which block the enzymes that would break the scar down. Bands of fibrous tissue then cut the liver into regenerating nodules. StatPearls (Physiology, Liver) agrees that the space of Disse holds both Kupffer cells and Ito (stellate) cells, that Ito cells store fat such as vitamin A, and that the fibrosis in cirrhosis comes from TGF-beta released by Ito cells. The MSD Manual (Hepatic Fibrosis) adds that activation of these fat-storing Ito cells starts fibrosis, and that they become contractile myofibroblasts that make too much collagen and other matrix.",
+      "explanation": "Answer: hepatic stellate (Ito) cells. Why: your Osmosis GI notes (p. 104) explain that in cirrhosis, damage to the liver activates stellate cells, which sit between the sinusoids and the hepatocytes in the perisinusoidal space. They release TGF-beta 1, which turns them into myofibroblasts that lay down scar, and they release TIMP 1 and 2, which block the enzymes that would break the scar down. Bands of fibrous tissue then cut the liver into regenerating nodules. your Osmosis physiology notes (p. 334) add that stellate (Ito) cells are scattered among the hepatocytes, are the main storage site for vitamin A, control the turnover of the liver's extracellular matrix, and are responsible for cirrhosis. StatPearls (Physiology, Liver) agrees that Ito cells sit in the space of Disse and store fat such as vitamin A, and that the fibrosis in cirrhosis comes from TGF-beta released by Ito cells. The MSD Manual (Hepatic Fibrosis) adds that activation of these fat-storing Ito cells starts fibrosis, and that they become contractile myofibroblasts that make too much collagen and other matrix.",
       "whyWrong": {
-        "b": "Kupffer cells are the liver's resident macrophages in the space of Disse (StatPearls, Physiology, Liver); they help drive inflammation, but stellate cells make the collagen (standard teaching).",
+        "b": "Kupffer cells are the liver's own macrophages and line the sinusoids (your Osmosis physiology notes, p. 334); they protect against gut germs and release inflammatory signals, but stellate cells make the collagen (your Osmosis physiology notes, p. 334).",
         "c": "Injured hepatocytes form regenerative nodules between the fibrous bands (your Osmosis GI notes, p. 104); they are not the cells that make the scar.",
         "d": "Bile duct cells line the bile ducts and do not normally store fat in the space of Disse (standard teaching).",
         "e": "Sinusoidal endothelial cells line the sinusoids; the fat-storing cell in the space of Disse is the stellate cell (StatPearls, Physiology, Liver)."
@@ -27200,6 +27200,9 @@
       "sources": [
         {
           "title": "Osmosis High-Yield Pathology Notes: Gastrointestinal (Emily's file), Cirrhosis, p. 104"
+        },
+        {
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Liver cells, p. 334"
         },
         {
           "title": "StatPearls: Physiology, Liver",
@@ -27250,12 +27253,15 @@
       "whyWrong": {
         "b": "Lysosomal storage diseases trap undigested material inside lysosomes; they do not raise very-long-chain fatty acids or lower plasmalogens (standard teaching).",
         "c": "Mitochondria break down shorter fatty acids, but very-long-chain fatty acids must first be shortened in peroxisomes (your El-Husseiny biochemistry notes, p. 195).",
-        "d": "The Golgi tags and sorts proteins (for example, the mannose-6-phosphate defect in I-cell disease); it does not break down very-long-chain fatty acids (standard teaching).",
+        "d": "The Golgi tags proteins with mannose-6-phosphate to send them to lysosomes, the step that fails in I-cell disease (your El-Husseiny biochemistry notes, pp. 43-44); it does not break down very-long-chain fatty acids.",
         "e": "The smooth ER makes lipids and steroids and detoxifies drugs (standard teaching), but plasmalogen synthesis and very-long-chain fatty acid oxidation are peroxisomal jobs (your El-Husseiny biochemistry notes, p. 195)."
       },
       "sources": [
         {
           "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Peroxisomal diseases (Zellweger syndrome), p. 195"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Protein targeting to lysosomes and I-cell disease, pp. 43-44"
         },
         {
           "title": "MSD Manual Professional: Peroxisomal Disorders",
@@ -27302,12 +27308,15 @@
       "whyWrong": {
         "b": "If the left superior gluteal nerve were injured, her right hip would drop when she stood on her left leg; the weak side is the stance side (StatPearls, Trendelenburg Sign).",
         "c": "The inferior gluteal nerve supplies the gluteus maximus; injury weakens hip extension and makes climbing stairs and rising from a chair hard (your El-Husseiny musculoskeletal notes, p. 54). Her hip extension is strong.",
-        "d": "The femoral nerve supplies the quadriceps for knee extension and helps hip flexion (standard teaching); her knee extension is strong.",
-        "e": "The obturator nerve supplies the thigh adductors, not the abductors that keep the pelvis level (standard teaching)."
+        "d": "The femoral nerve supplies the front of the thigh for hip flexion and knee extension (your El-Husseiny musculoskeletal notes, pp. 45-46); her knee extension is strong.",
+        "e": "The obturator nerve supplies the medial thigh muscles for adduction (your El-Husseiny musculoskeletal notes, p. 44), not the abductors that keep the pelvis level."
       },
       "sources": [
         {
           "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Superior and inferior gluteal nerves, pp. 53-54"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Obturator and femoral nerves, pp. 44-46"
         },
         {
           "title": "StatPearls: Trendelenburg Sign",
@@ -27508,14 +27517,17 @@
       "answer": "a",
       "explanation": "Answer: the femoral canal, medial to the femoral vein. Why: this is a femoral hernia. Your Osmosis GI notes (p. 75) describe intestine pushing through the femoral canal next to the femoral artery and vein, below the inguinal ligament and lateral to the pubic tubercle. Your notes list female sex, obesity, pregnancy, and frequent heavy lifting as risk factors, and explain that the narrow femoral canal raises the risk of incarceration and strangulation, which can cause bowel obstruction. A review by Akrami and colleagues agrees that femoral hernias lie medial to the femoral vessels and below the inguinal ligament, that the lacunar ligament forms the inner edge of the femoral ring, that they are more common in women, and that the narrow femoral canal gives them a high risk of strangulation.",
       "whyWrong": {
-        "b": "The deep inguinal ring, lateral to the inferior epigastric vessels, is where an indirect inguinal hernia enters; inguinal hernias lie above the inguinal ligament (standard teaching).",
-        "c": "Hesselbach triangle is where a direct inguinal hernia pushes through, above the inguinal ligament (standard teaching).",
+        "b": "An indirect inguinal hernia enters through the deep (internal) inguinal ring, lateral to the inferior epigastric vessels (your Osmosis GI notes, pp. 78-79); inguinal hernias lie above the inguinal ligament.",
+        "c": "A direct inguinal hernia pushes through Hesselbach triangle, medial to the inferior epigastric vessels, with the inguinal ligament as its lower border (your Osmosis GI notes, pp. 78-79).",
         "d": "An obturator hernia passes through the obturator canal deep in the pelvis and does not cause a lump below the inguinal ligament lateral to the pubic tubercle (standard teaching).",
         "e": "An umbilical hernia comes through the navel, not the groin (standard teaching)."
       },
       "sources": [
         {
           "title": "Osmosis High-Yield Pathology Notes: Gastrointestinal (Emily's file), Femoral hernia, p. 75"
+        },
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Gastrointestinal (Emily's file), Inguinal hernias, pp. 78-79"
         },
         {
           "title": "Akrami M, et al. Small bowel obstruction secondary to femoral hernia; case report and review of the literature. Bull Emerg Trauma 2016;4(1):51-53",
@@ -27558,9 +27570,9 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: the maxillary and medial nasal prominences. Why: Your Osmosis GI notes (pp. 167-168) explain that cleft lip and palate come from improper fusion of the facial bones and nearby tissues. A cleft can be only in the lip, only in the palate, or both. Your notes list Patau syndrome, anticonvulsant drugs, folate deficiency, and low oxygen in the womb as risk factors. Complications include speech problems, ear infections, and trouble feeding, and folate in pregnancy lowers the risk. StatPearls (Embryology, Face) explains that the medial nasal processes fuse with the maxillary processes around the 6th week to form the middle part of the upper lip and jaw, and that an orofacial cleft forms when these processes fail to fuse. A cleft lip is the failure of the maxillary prominence to fuse with the medial nasal prominence on that side (standard teaching). The MSD Manual (Cleft Lip and Cleft Palate) adds that oral clefts are the most common birth defects of the head and neck, at about 1 in 600 to 1000 live births. It also notes that antiseizure drugs that act against folate, such as phenytoin, valproate, and carbamazepine, may call for higher folate doses. Other source: your notes say the lip is closed by about 3 months of age; MSD says repair has traditionally been done at 3 to 6 months.",
+      "explanation": "Answer: the maxillary and medial nasal prominences. Why: Your Osmosis GI notes (pp. 167-168) explain that cleft lip and palate come from improper fusion of the facial bones and nearby tissues. A cleft can be only in the lip, only in the palate, or both. Your notes list Patau syndrome, anticonvulsant drugs, folate deficiency, and low oxygen in the womb as risk factors. Complications include speech problems, ear infections, and trouble feeding, and folate in pregnancy lowers the risk. StatPearls (Embryology, Face) explains that the medial nasal processes fuse with the maxillary processes around the 6th week to form the middle part of the upper lip and jaw, and that an orofacial cleft forms when these processes fail to fuse. Your El-Husseiny musculoskeletal notes (p. 2) explain that the lip and palate form in weeks 5 to 6. First the two medial nasal prominences fuse into the midline intermaxillary segment, and then each maxillary prominence fuses with that segment to form the upper lip. If one maxillary prominence fails to fuse with it, a cleft lip forms on that side, and your notes say this happens more often on the left. The MSD Manual (Cleft Lip and Cleft Palate) adds that oral clefts are the most common birth defects of the head and neck, at about 1 in 600 to 1000 live births. It also notes that antiseizure drugs that act against folate, such as phenytoin, valproate, and carbamazepine, may call for higher folate doses. Other source: your notes say the lip is closed by about 3 months of age; MSD says repair has traditionally been done at 3 to 6 months.",
       "whyWrong": {
-        "b": "Failure of the palatine shelves to fuse causes a cleft palate; StatPearls (Embryology, Face) says these shelves fuse by the end of the 8th week. His palate is intact.",
+        "b": "Cleft palate comes from palatine shelves that fail to fuse with each other or with the primary palate (your El-Husseiny musculoskeletal notes, p. 2); StatPearls (Embryology, Face) says these shelves fuse by the end of the 8th week. His palate is intact.",
         "c": "The mandibular prominences form the lower jaw and lower lip (standard teaching), not the upper lip.",
         "d": "Problems with the first and second pharyngeal arches affect the jaw, ear, and face more widely (for example, Treacher Collins syndrome), not an isolated upper lip cleft (standard teaching).",
         "e": "The upper lip forms where the medial nasal processes meet the maxillary processes (StatPearls, Embryology, Face); the mandibular prominences form the lower jaw and do not take part (standard teaching)."
@@ -27568,6 +27580,9 @@
       "sources": [
         {
           "title": "Osmosis High-Yield Pathology Notes: Gastrointestinal (Emily's file), Cleft lip and palate, pp. 167-168"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Cleft lip and cleft palate (embryology), p. 2"
         },
         {
           "title": "StatPearls: Embryology, Face",
@@ -27616,14 +27631,17 @@
       "answer": "a",
       "explanation": "Answer: failure of the lateral body folds to fuse. Why: this is gastroschisis. Your Osmosis GI notes (pp. 123-124) explain that around week 4 the lateral folds fail to fuse, leaving a hole in the abdominal wall near the umbilicus through which organs push out, most often on the right side and usually small intestine. Risk factors include a young mother and exposure to alcohol or tobacco. The exposed bowel can become inflamed from the amniotic fluid. Maternal serum AFP is high, and surgery returns the organs and closes the wall. The MSD Manual (Gastroschisis) agrees that it is a full-thickness defect beside the umbilicus, usually to the right of where the cord inserts, with no membrane over the bowel. It adds that other birth defects are uncommon (10 to 15%), though GI problems such as malrotation and atresia occur in about 25%, and that gastroschisis is more common than omphalocele.",
       "whyWrong": {
-        "b": "Failure of the midgut to return from the umbilical cord gives an omphalocele, which MSD describes as a midline defect at the base of the umbilicus, covered by a membrane (the embryology is standard teaching).",
-        "c": "A persistent vitelline duct causes a Meckel diverticulum, not an open abdominal wall (standard teaching).",
-        "d": "Failed neural crest migration into the bowel wall causes Hirschsprung disease (standard teaching).",
+        "b": "Failure of the midgut to return from the umbilical cord gives an omphalocele, which MSD describes as a midline defect at the base of the umbilicus, covered by a membrane; your notes put it as 'midgut doesn't return' (your Osmosis GI notes, p. 132).",
+        "c": "A vitelline (omphalomesenteric) duct that does not close properly causes a Meckel diverticulum (your Osmosis GI notes, p. 130), not an open abdominal wall.",
+        "d": "Failure of neural crest cells to migrate into the bowel causes Hirschsprung disease (your Osmosis GI notes, p. 125).",
         "e": "Failure of a pleuroperitoneal membrane to close causes a congenital diaphragmatic hernia, with bowel in the chest (standard teaching)."
       },
       "sources": [
         {
           "title": "Osmosis High-Yield Pathology Notes: Gastrointestinal (Emily's file), Lower GI congenital malformations; gastroschisis, pp. 123-124"
+        },
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Gastrointestinal (Emily's file), Meckel's diverticulum, p. 130; omphalocele, p. 132; Hirschsprung's disease, p. 125"
         },
         {
           "title": "MSD Manual Professional: Gastroschisis",
@@ -27854,32 +27872,32 @@
       "options": [
         {
           "id": "a",
-          "text": "About 97%"
+          "text": "About 20%"
         },
         {
           "id": "b",
-          "text": "About 90%"
-        },
-        {
-          "id": "c",
-          "text": "About 95%"
-        },
-        {
-          "id": "d",
           "text": "About 82%"
         },
         {
+          "id": "c",
+          "text": "About 90%"
+        },
+        {
+          "id": "d",
+          "text": "About 95%"
+        },
+        {
           "id": "e",
-          "text": "About 20%"
+          "text": "About 97%"
         }
       ],
-      "answer": "a",
+      "answer": "e",
       "explanation": "Answer: about 97%. Why: First Aid (biostats, p. 257) defines the negative predictive value (NPV) as the chance that someone whose test is negative is really disease-free: NPV = TN / (TN + FN). Build the 2 × 2 table. Of 100 with strep, 90 test positive (TP = 90), so 10 test negative (FN = 10). Of 400 without strep, 380 test negative (TN = 380), so 20 test positive (FP = 20). NPV = 380 / (380 + 10) = 380 / 390 ≈ 97%. First Aid adds that NPV goes down as prevalence or pretest probability goes up. StatPearls (Diagnostic Testing Accuracy) agrees that NPV is the share of negative results that are true negatives, and that disease prevalence affects both PPV and NPV.",
       "whyWrong": {
-        "b": "90% is the sensitivity: TP / (TP + FN) = 90 / 100 (First Aid, p. 257).",
-        "c": "95% is the specificity: TN / (TN + FP) = 380 / 400 (First Aid, p. 257).",
-        "d": "About 82% is the positive predictive value: TP / (TP + FP) = 90 / 110 (First Aid, p. 257).",
-        "e": "20% is the prevalence in this group: 100 / 500 (First Aid, p. 257)."
+        "a": "20% is the prevalence in this group: 100 / 500 (First Aid, p. 257).",
+        "b": "About 82% is the positive predictive value: TP / (TP + FP) = 90 / 110 (First Aid, p. 257).",
+        "c": "90% is the sensitivity: TP / (TP + FN) = 90 / 100 (First Aid, p. 257).",
+        "d": "95% is the specificity: TN / (TN + FP) = 380 / 400 (First Aid, p. 257)."
       },
       "sources": [
         {
@@ -27981,13 +27999,13 @@
       "explanation": "Answer: Berkson (admission) bias. Why: First Aid (biostats, p. 260) describes selection bias as a nonrandom way of choosing or assigning subjects, so the study group does not represent the target population. Its example is Berkson bias: cases or controls chosen from hospitals are sicker and have different exposures than the general population. The fix is randomization or choosing the right comparison group. StatPearls (Study Bias) agrees that admission bias, also called Berkson bias, happens when the study population comes from hospitals or specialty clinics, whose patients tend to be sicker than the general population. Here the hospital controls drink less coffee than people in general, which makes coffee look more common in the cases.",
       "whyWrong": {
         "b": "Recall bias happens when knowing about the disease changes how subjects remember past exposures (First Aid, p. 260); the problem here is who was chosen as controls.",
-        "c": "Lead-time bias makes survival look longer when a disease is found earlier by screening; it is about timing of diagnosis, not choosing controls (standard teaching).",
+        "c": "Lead-time bias is when early detection by screening is mistaken for longer survival (First Aid, p. 261); it is about timing of diagnosis, not choosing controls.",
         "d": "The Hawthorne effect is a change in behavior because people know they are being watched (First Aid, p. 260).",
         "e": "Observer-expectancy bias happens when a researcher's belief in a treatment changes how outcomes are recorded (First Aid, p. 260)."
       },
       "sources": [
         {
-          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Bias and study errors, p. 260"
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Bias and study errors, pp. 260-261"
         },
         {
           "title": "StatPearls: Study Bias",
