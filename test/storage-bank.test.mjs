@@ -57,11 +57,11 @@ const good = () => ({
   stem: 'A patient has a finding.',
   leadIn: 'Which of the following is the most likely diagnosis?',
   options: [
-    { id: 'a', text: 'One' }, { id: 'b', text: 'Two' }, { id: 'c', text: 'Three' }, { id: 'd', text: 'Four' },
+    { id: 'a', text: 'One' }, { id: 'b', text: 'Two' }, { id: 'c', text: 'Three' }, { id: 'd', text: 'Four' }, { id: 'e', text: 'Five' },
   ],
   answer: 'a',
   explanation: 'Because.',
-  whyWrong: { b: 'x', c: 'y', d: 'z' },
+  whyWrong: { b: 'x', c: 'y', d: 'z', e: 'w' },
   sources: [{ title: 'A source', url: 'https://example.org/a' }],
 });
 
@@ -84,7 +84,8 @@ test('validator catches each schema problem', () => {
     [(q) => { delete q.whyWrong.c; }, /whyWrong missing for option c/],
     [(q) => { q.options[3].text = 'All of the above'; }, /all\/none of the above/],
     [(q) => { q.leadIn = 'Each of the following is true EXCEPT:'; }, /negatively phrased/],
-    [(q) => { q.options = q.options.slice(0, 3); }, /4 to 6/],
+    [(q) => { q.options = q.options.slice(0, 4); delete q.whyWrong.e; }, /exactly 5/],
+    [(q) => { q.options.push({ id: 'f', text: 'Six' }); q.whyWrong.f = 'v'; }, /exactly 5/],
     [(q) => { q.id = 'Bad ID'; }, /id must be/],
     [(q) => { q.difficulty = 7; }, /difficulty/],
     [(q) => { q.readMore = [{ title: 'x', url: 'http://insecure' }]; }, /readMore/],
@@ -130,6 +131,23 @@ test('corrupt date strings are repaired instead of crashing the scheduler', asyn
   // Repaired cards are due now; none of these calls throw.
   assert.equal(isDue(out.cards.a, '2026-03-01'), true);
   assert.equal(isDue(out.cards.c, '2026-03-01'), false);
+});
+
+test('saved exams are kept when valid and dropped when corrupt', () => {
+  const out = sanitize({ version: 1, exams: [
+    { type: 'usmle-step1', date: '2027-06-15', extra: 'x' },
+    { type: 'nbme-subject', subject: 'Pathology', date: '2026-12-01' },
+    { type: 'nbme-subject', subject: 'Cooking', date: '2026-12-01' },
+    { type: 'usmle-step1', date: '2026-02-30' },
+    { type: 'mcat', date: '2026-12-01' },
+    null,
+  ] });
+  assert.deepEqual(out.exams, [
+    { type: 'usmle-step1', date: '2027-06-15' },
+    { type: 'nbme-subject', subject: 'Pathology', date: '2026-12-01' },
+  ]);
+  assert.deepEqual(sanitize({ version: 1, exams: 'nope' }).exams, []);
+  assert.deepEqual(sanitize({ version: 1 }).exams, []);
 });
 
 test('load survives a stored state with corrupt dates', () => {

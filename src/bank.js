@@ -42,8 +42,9 @@ export function validateQuestion(q) {
   if (!nonEmpty(q.topic)) err('topic is empty');
   if (![1, 2, 3].includes(q.difficulty)) err('difficulty must be 1, 2, or 3');
 
-  if (!Array.isArray(q.options) || q.options.length < 4 || q.options.length > 6) {
-    err('options must have 4 to 6 entries');
+  // Every item has exactly 5 options, matching the bank standard and the prompt kit.
+  if (!Array.isArray(q.options) || q.options.length !== 5) {
+    err('options must have exactly 5 entries');
   } else {
     const ids = q.options.map((o) => o && o.id);
     if (new Set(ids).size !== ids.length) err('option ids must be unique');
