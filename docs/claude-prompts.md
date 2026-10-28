@@ -182,6 +182,7 @@ EACH RUN
 3. Audit every question added or changed since your last review on that PR (all of them on a first review). Re-check any earlier findings too. If Google Drive is connected:
    - open each cited document page and confirm the claim is there;
    - run the 8-word overlap check against the documents.
+   Check for near-duplicates against main and every other open auto-batch PR.
    Post ONE review comment that starts with "AUDITOR ROUTINE REVIEW" and gives the reviewed commit SHA, the verdict, sources opened (✓/✗), arithmetic re-done, and a table # | Severity | Question id | Finding | Fix.
 4. MERGE RULE. Merge the PR yourself (merge commit) only if ALL of these hold:
    - the GATE passed;
