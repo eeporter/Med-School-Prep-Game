@@ -89,7 +89,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Nephritic syndrome (hematuria with RBC casts, hypertension, edema) 1 to 3 weeks after group A streptococcal pharyngitis with low C3 is poststreptococcal glomerulonephritis. EM shows subepithelial immune complex 'humps'; light microscopy shows hypercellular glomeruli, and immunofluorescence is granular ('starry sky').",
+      "explanation": "Nephritic syndrome (hematuria with RBC casts, hypertension, edema) 1 to 2 weeks after group A streptococcal pharyngitis with low C3 is poststreptococcal glomerulonephritis. EM shows subepithelial immune complex 'humps'; light microscopy shows hypercellular glomeruli, and immunofluorescence is granular ('starry sky'). After a skin infection (impetigo) the gap is longer, about 6 weeks. Many review books give a single 2 to 4 week window; this boy's 2-week gap fits either way.",
       "whyWrong": {
         "b": "Foot process effacement without deposits is minimal change disease, a nephrotic syndrome with normal complement.",
         "c": "IgA nephropathy presents 1 to 3 days after a mucosal infection (synpharyngitic) and complement is usually normal.",
@@ -194,7 +194,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Antibiotic-associated diarrhea with pseudomembranes is Clostridioides difficile colitis. Toxin A (enterotoxin) and toxin B (cytotoxin) glucosylate Rho-family GTPases, causing actin depolymerization, loss of tight junctions, and mucosal cell death that forms pseudomembranes.",
+      "explanation": "Antibiotic-associated diarrhea with pseudomembranes is Clostridioides difficile colitis. Toxin A (enterotoxin) and toxin B (cytotoxin) glucosylate Rho-family GTPases, causing actin depolymerization, loss of tight junctions, and mucosal cell death that forms pseudomembranes. Recent change: the organism was renamed from Clostridium difficile, so older books use the old name. For a first episode, metronidazole is no longer first line. Current guidance prefers oral fidaxomicin, with oral vancomycin as the alternative, and metronidazole only if neither is available.",
       "whyWrong": {
         "b": "ADP-ribosylation of Gs (permanently activating it) is cholera toxin and E. coli heat-labile toxin, which cause watery diarrhea without pseudomembranes.",
         "c": "Inactivating the 60S ribosome is Shiga toxin and Shiga-like toxin (EHEC).",
@@ -208,6 +208,10 @@
         },
         {
           "title": "First Aid for the USMLE Step 1 2025, Microbiology: Bacterial toxins"
+        },
+        {
+          "title": "AAFP: Clostridioides difficile Infection, a Focused Guideline Update From the IDSA (2021)",
+          "url": "https://www.aafp.org/afp/2022/0600/p678"
         }
       ]
     },
@@ -449,7 +453,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Confusion, ophthalmoplegia, and ataxia in a patient with alcohol use disorder is Wernicke encephalopathy from thiamine (B1) deficiency. Thiamine pyrophosphate is the cofactor for pyruvate dehydrogenase, alpha-ketoglutarate dehydrogenase, branched-chain alpha-ketoacid dehydrogenase, and transketolase (pentose phosphate pathway). Transketolase activity (measured before and after adding thiamine pyrophosphate) is a functional test of thiamine status. Give thiamine before glucose to avoid precipitating or worsening Wernicke encephalopathy.",
+      "explanation": "Confusion, ophthalmoplegia, and ataxia in a patient with alcohol use disorder is Wernicke encephalopathy from thiamine (B1) deficiency. Thiamine pyrophosphate is the cofactor for pyruvate dehydrogenase, alpha-ketoglutarate dehydrogenase, branched-chain alpha-ketoacid dehydrogenase, and transketolase (pentose phosphate pathway). Transketolase activity (measured before and after adding thiamine pyrophosphate) is a functional test of thiamine status. Give thiamine before or together with glucose, because glucose metabolism uses up thiamine and can worsen Wernicke encephalopathy. Note: older teaching said \"thiamine always before glucose\", but current guidance says never delay treatment of low blood sugar while waiting for thiamine.",
       "whyWrong": {
         "b": "Pyruvate carboxylase requires biotin (B7), not thiamine.",
         "c": "Glycogen phosphorylase uses pyridoxal phosphate (B6).",
@@ -460,6 +464,10 @@
         {
           "title": "StatPearls: Vitamin B1 (Thiamine) Deficiency",
           "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK537204/"
+        },
+        {
+          "title": "StatPearls: Wernicke-Korsakoff Syndrome",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK470344/"
         }
       ]
     },
@@ -547,7 +555,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Warfarin inhibits vitamin K epoxide reductase (VKORC1). Without it, the liver cannot recycle vitamin K, which is needed to activate (gamma-carboxylate) factors II, VII, IX, and X and proteins C and S. Warfarin is monitored with PT/INR. Its full effect takes about 5 to 7 days because clotting factors already in the blood must be used up first.",
+      "explanation": "Warfarin inhibits vitamin K epoxide reductase (VKORC1). Without it, the liver cannot recycle vitamin K, which is needed to activate (gamma-carboxylate) factors II, VII, IX, and X and proteins C and S. Warfarin is monitored with PT/INR. Its full effect takes about 5 to 7 days because clotting factors already in the blood must be used up first. Recent change: for stroke prevention in atrial fibrillation, the 2023 ACC/AHA/ACCP/HRS guideline prefers direct oral anticoagulants (such as apixaban or rivaroxaban) over warfarin, except in patients with mitral stenosis or a mechanical heart valve.",
       "whyWrong": {
         "b": "Activating antithrombin is the mechanism of heparin (monitored with PTT for unfractionated heparin), which is given parenterally.",
         "c": "Direct factor Xa inhibitors (rivaroxaban, apixaban) bind factor Xa directly and do not need INR monitoring.",
@@ -558,6 +566,10 @@
         {
           "title": "StatPearls: Warfarin",
           "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK470313/"
+        },
+        {
+          "title": "ACC: 2023 Guideline for the Diagnosis and Management of Atrial Fibrillation, Key Points (Joglar et al., J Am Coll Cardiol 2023)",
+          "url": "https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2023/11/27/19/46/2023-acc-guideline-for-af-gl-af"
         }
       ]
     },
@@ -596,7 +608,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Resistant hypertension with hypokalemia, metabolic alkalosis, high aldosterone, and low renin is primary hyperaldosteronism (Conn syndrome). The two most common causes are bilateral adrenal hyperplasia and an aldosterone-producing adenoma; of the options listed, only the adenoma fits. Aldosterone excess suppresses renin through volume expansion. Note: only a minority of patients have low potassium, so a normal potassium does not rule it out.",
+      "explanation": "Resistant hypertension with hypokalemia, metabolic alkalosis, high aldosterone, and low renin is primary hyperaldosteronism (Conn syndrome). The two most common causes are bilateral adrenal hyperplasia and an aldosterone-producing adenoma; of the options listed, only the adenoma fits. Aldosterone excess suppresses renin through volume expansion. Note: only a minority of patients have low potassium, so a normal potassium does not rule it out. Recent change: a 2025 Endocrine Society guideline suggests screening everyone with hypertension for primary aldosteronism (aldosterone and renin), not only patients with resistant hypertension or low potassium.",
       "whyWrong": {
         "b": "Renal artery stenosis causes secondary hyperaldosteronism, in which renin is high.",
         "c": "Pheochromocytoma causes episodic hypertension, headache, sweating, and palpitations; it does not raise aldosterone with low renin.",
@@ -607,6 +619,10 @@
         {
           "title": "StatPearls: Hyperaldosteronism",
           "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK499983/"
+        },
+        {
+          "title": "Endocrine Society Clinical Practice Guideline: Primary Aldosteronism (Adler et al., J Clin Endocrinol Metab 2025)",
+          "url": "https://www.endocrine.org/clinical-practice-guidelines/primary-aldosteronism-2"
         }
       ]
     },
@@ -849,7 +865,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Lancet-shaped, optochin-sensitive, alpha-hemolytic gram-positive diplococci causing lobar pneumonia are Streptococcus pneumoniae. Its polysaccharide capsule is the main virulence factor and blocks opsonization and phagocytosis; the vaccines target capsular polysaccharides, and asplenic patients are at high risk.",
+      "explanation": "Lancet-shaped, optochin-sensitive, alpha-hemolytic gram-positive diplococci causing lobar pneumonia are Streptococcus pneumoniae. Its polysaccharide capsule is the main virulence factor and blocks opsonization and phagocytosis; the vaccines target capsular polysaccharides, and asplenic patients are at high risk. Recent change: the older adult schedule of PCV13 plus PPSV23 has been replaced. CDC now recommends PCV20 or PCV21 alone, or PCV15 followed by PPSV23, and since October 2024 routine adult vaccination starts at age 50. PCV13 is no longer recommended for adults.",
       "whyWrong": {
         "b": "M protein is the antiphagocytic factor of Streptococcus pyogenes (group A strep).",
         "c": "Protein A, which binds the Fc region of IgG, belongs to Staphylococcus aureus.",
@@ -864,6 +880,14 @@
         {
           "title": "StatPearls: Pneumococcal Pneumonia",
           "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK470537/"
+        },
+        {
+          "title": "CDC: Summary of Risk-based Pneumococcal Vaccination Recommendations",
+          "url": "https://www.cdc.gov/pneumococcal/hcp/vaccine-recommendations/risk-indications.html"
+        },
+        {
+          "title": "Immunize.org Ask the Experts: Pneumococcal recommendations for adults",
+          "url": "https://www.immunize.org/ask-experts/topic/pneumococcal/recommendations-adults/"
         }
       ]
     },
@@ -1151,7 +1175,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Left ventricular free wall rupture usually happens 3 to 5 days after an MI, while inflammatory cells are clearing dead myocardium and the wall is weakest. Risk factors include a first, anterior, transmural infarct. Blood fills the pericardium and causes cardiac tamponade: low blood pressure, distended neck veins, and muffled heart sounds (Beck triad), often progressing to pulseless electrical activity.",
+      "explanation": "Left ventricular free wall rupture usually happens 3 to 5 days after an MI, while inflammatory cells are clearing dead myocardium and the wall is weakest. Risk factors include a first, anterior, transmural infarct. Blood fills the pericardium and causes cardiac tamponade: low blood pressure, distended neck veins, and muffled heart sounds (Beck triad), often progressing to pulseless electrical activity. Note: some review books give a wider window, about 3 to 7 days or up to 2 weeks, but StatPearls puts most ruptures at 3 to 5 days. Female sex and age over 70 are also risk factors.",
       "whyWrong": {
         "b": "Dressler syndrome (autoimmune pericarditis) occurs weeks after MI, with fever and pleuritic pain, not sudden collapse at day 5.",
         "c": "True ventricular aneurysms form over 2 weeks to months as scar bulges outward.",
@@ -1449,7 +1473,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: increased melanocyte-stimulating hormone (MSH). Why: in primary adrenal insufficiency (Addison disease), low cortisol removes negative feedback, so the pituitary makes more pro-opiomelanocortin (POMC). POMC is cut into ACTH and MSH, and the extra MSH darkens the skin and gums. Losing aldosterone (mineralocorticoid) as well explains the low sodium, high potassium, and low blood pressure. In central (secondary) adrenal insufficiency, ACTH is low and aldosterone is preserved, so these two clues are absent.",
+      "explanation": "Answer: increased melanocyte-stimulating hormone (MSH). Why: in primary adrenal insufficiency (Addison disease), low cortisol removes negative feedback, so the pituitary makes more pro-opiomelanocortin (POMC). POMC is cut into ACTH and melanocyte-stimulating peptides (MSH; beta-lipotropin, which has melanocyte-stimulating activity), and together with ACTH they darken the skin. The darkening is most marked on pressure points, skin folds, scars, and the lips and gums. About 90% of primary adrenal insufficiency in the US and Europe is autoimmune. Losing aldosterone (mineralocorticoid) as well explains the low sodium, high potassium, and low blood pressure. In central (secondary) adrenal insufficiency, ACTH is low and aldosterone is preserved, so these two clues are absent.",
       "whyWrong": {
         "b": "Low aldosterone causes the low sodium and high potassium, but it does not affect skin pigment.",
         "c": "Iron deposition causes bronze skin in hemochromatosis, which would not explain low cortisol and high ACTH.",
@@ -1458,12 +1482,16 @@
       },
       "sources": [
         {
-          "title": "Endotext: Adrenal Insufficiency in Children (NCBI Bookshelf)",
-          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK608067/"
+          "title": "MSD Manual Professional: Primary Adrenal Insufficiency (Addison Disease)",
+          "url": "https://www.msdmanuals.com/professional/endocrine-and-metabolic-disorders/adrenal-disorders/primary-adrenal-insufficiency-addison-disease"
         },
         {
           "title": "StatPearls: Physiology, Adrenocorticotropic Hormone (ACTH)",
           "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK500031/"
+        },
+        {
+          "title": "Endotext: Adrenal Insufficiency in Children (NCBI Bookshelf)",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK608067/"
         }
       ]
     },
@@ -1555,7 +1583,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: proximal convoluted tubule. Why: empagliflozin blocks the sodium-glucose cotransporter 2 (SGLT2) in the proximal tubule, so glucose that was filtered is not taken back and is lost in urine (glucosuria). More sodium then reaches the distal nephron, which triggers tubuloglomerular feedback: the afferent arteriole constricts and pressure inside the glomerulus falls. Lower glomerular pressure is the main way SGLT2 inhibitors protect the kidney. Key side effects are genital yeast infections, urinary tract infections, volume depletion, and euglycemic diabetic ketoacidosis.",
+      "explanation": "Answer: proximal convoluted tubule. Why: empagliflozin blocks the sodium-glucose cotransporter 2 (SGLT2) in the proximal tubule, so glucose that was filtered is not taken back and is lost in urine (glucosuria). More sodium then reaches the distal nephron, which triggers tubuloglomerular feedback: the afferent arteriole constricts and pressure inside the glomerulus falls. Lower glomerular pressure is the main way SGLT2 inhibitors protect the kidney. Key side effects are genital yeast infections, urinary tract infections, volume depletion, and euglycemic diabetic ketoacidosis. Recent change: SGLT2 inhibitors are no longer just diabetes drugs. Dapagliflozin and empagliflozin are FDA-approved to lower cardiovascular death and heart failure hospitalization in adults with heart failure (reduced or preserved ejection fraction) and to slow chronic kidney disease, whether or not the patient has diabetes.",
       "whyWrong": {
         "b": "The thick ascending limb holds the Na-K-2Cl cotransporter, the target of loop diuretics like furosemide.",
         "c": "The distal convoluted tubule holds the Na-Cl cotransporter, the target of thiazide diuretics.",
@@ -1709,7 +1737,7 @@
       "explanation": "Answer: granular mesangial IgA. Why: blood in the urine that starts during (or right after) an upper respiratory infection, and recurs, is IgA nephropathy (Berger disease), the most common glomerulonephritis. Abnormal galactose-deficient IgA1 forms immune complexes that lodge in the mesangium. C3 often deposits alongside the IgA, while C1q is usually absent.",
       "whyWrong": {
         "b": "Linear IgG along the basement membrane is anti-GBM disease (Goodpasture syndrome), often with lung hemorrhage.",
-        "c": "Granular IgG and C3 'starry sky' is poststreptococcal glomerulonephritis, which appears 2 to 3 weeks after the infection, not during it.",
+        "c": "Granular IgG and C3 'starry sky' is poststreptococcal glomerulonephritis, which appears 1 to 3 weeks after the infection, not during it.",
         "d": "No deposits fits minimal change disease or pauci-immune vasculitis, not hematuria during an infection.",
         "e": "This 'full house' pattern, including C1q, is typical of lupus nephritis."
       },
@@ -1717,6 +1745,10 @@
         {
           "title": "StatPearls: IgA Nephropathy (Berger Disease)",
           "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK538214/"
+        },
+        {
+          "title": "StatPearls: Infection-Related Glomerulonephritis",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK538255/"
         }
       ]
     },
@@ -1957,7 +1989,7 @@
       "answer": "a",
       "explanation": "Answer: linear IgG and C3 along the basement membrane. Why: tense, itchy blisters in an elderly patient with a negative Nikolsky sign and a subepidermal split with eosinophils is bullous pemphigoid. Autoantibodies target hemidesmosome proteins BP180 and BP230, which anchor the epidermis to the basement membrane, so antibody and complement line up along the basement membrane zone. Because the split is below the epidermis, the blister roof is thick and the blisters are tense.",
       "whyWrong": {
-        "b": "A net-like intraepidermal pattern is pemphigus vulgaris, caused by antibodies to desmogleins 1 and 3. It shows suprabasal acantholysis ('tombstone' basal cells), a positive Nikolsky sign, easily ruptured blisters, and starts in the mouth in about 80% of cases.",
+        "b": "A net-like intraepidermal pattern is pemphigus vulgaris, caused by antibodies to desmogleins 1 and 3. It shows suprabasal acantholysis ('tombstone' basal cells), a positive Nikolsky sign, easily ruptured blisters, and first appears in the mouth in about 80% of cases, with skin blisters following.",
         "c": "Bullous pemphigoid is antibody mediated, so deposits are expected.",
         "d": "IgE on mast cells is type I hypersensitivity (hives), which does not form subepidermal blisters.",
         "e": "Granular IgA in the dermal papillae is dermatitis herpetiformis, the itchy, grouped-vesicle rash linked to celiac disease."
@@ -2571,7 +2603,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: thyroid peroxidase. Why: methimazole inhibits thyroid peroxidase, the enzyme that attaches iodine to tyrosine residues on thyroglobulin and couples them to form T4 and T3. Her fever and sore throat with very low neutrophils is agranulocytosis, a serious adverse effect of methimazole. Methimazole is also avoided in the first trimester because of birth defects (e.g., aplasia cutis), while propylthiouracil (PTU) carries a risk of severe liver injury.",
+      "explanation": "Answer: thyroid peroxidase. Why: methimazole inhibits thyroid peroxidase, the enzyme that attaches iodine to tyrosine residues on thyroglobulin and couples them to form T4 and T3. Her fever and sore throat with very low neutrophils is agranulocytosis, a serious adverse effect of methimazole. Methimazole is also avoided in the first trimester because of birth defects (e.g., aplasia cutis), while propylthiouracil (PTU) carries a risk of severe liver injury. Recent change: many review notes call PTU the drug of choice in pregnancy. Current guidance limits PTU to the first trimester and switches to methimazole for the second and third trimesters, because PTU carries a boxed warning for acute liver failure.",
       "whyWrong": {
         "b": "The sodium-iodide symporter carries iodide into thyroid cells; it is inhibited by perchlorate, not by methimazole.",
         "c": "Methimazole does not affect hormone already stored in the thyroid. It blocks new synthesis, so hormone levels fall only as the stored supply in thyroglobulin is used up.",
@@ -2586,6 +2618,10 @@
         {
           "title": "StatPearls: Physiology, Thyroid Hormone",
           "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK500006/"
+        },
+        {
+          "title": "StatPearls: Propylthiouracil (PTU)",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK549828/"
         }
       ]
     },
@@ -2779,7 +2815,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: peroxidase activity of heme from red meat. Why: the guaiac test detects the pseudoperoxidase activity of heme, which turns the guaiac reagent blue. It cannot tell human heme from animal heme, so red meat (and raw fruits and vegetables rich in peroxidases) can cause false positives. The fecal immunochemical test (FIT) detects human globin, needs no diet changes, and is more specific for lower GI bleeding.",
+      "explanation": "Answer: peroxidase activity of heme from red meat. Why: the guaiac test detects the pseudoperoxidase activity of heme, which turns the guaiac reagent blue. It cannot tell human heme from animal heme, so red meat (and raw fruits and vegetables rich in peroxidases) can cause false positives. The fecal immunochemical test (FIT) detects human globin, needs no diet changes, and is more specific for lower GI bleeding. Recent change: since May 2021, the USPSTF recommends colorectal cancer screening starting at age 45, not 50. Stool options are a yearly high-sensitivity guaiac test or FIT, or stool DNA-FIT every 1 to 3 years.",
       "whyWrong": {
         "b": "Detecting human globin is how FIT works, not guaiac tests, and globin from upper GI bleeding is mostly digested.",
         "c": "Large doses of vitamin C cause false-negative guaiac results, not false positives.",
@@ -2790,6 +2826,10 @@
         {
           "title": "StatPearls: Fecal Occult Blood Test",
           "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK537138/"
+        },
+        {
+          "title": "USPSTF: Colorectal Cancer Screening, Final Recommendation Statement (2021)",
+          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/colorectal-cancer-screening"
         }
       ]
     },
@@ -3003,7 +3043,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: primary biliary cholangitis (PBC). Why: about 95% of patients are women, usually aged 40 to 70. Itching and fatigue are common early symptoms (up to 80%), and dry mouth and eyes can come months or years before other symptoms; PBC is associated with Sjögren syndrome, systemic sclerosis, and autoimmune thyroiditis. Labs show a cholestatic pattern with a high alkaline phosphatase. Imaging is done first to exclude bile duct obstruction. The next test is antimitochondrial antibody (AMA), which is positive in 90-95%; serum IgM is also raised. Pathology: T cells destroy the small bile ducts inside the liver. Treatment: ursodeoxycholic acid. Contrast with PSC: mostly men, linked to ulcerative colitis, with \"beaded\" strictures of the large ducts.",
+      "explanation": "Answer: primary biliary cholangitis (PBC). Why: about 95% of patients are women, usually aged 40 to 70. Itching and fatigue are common early symptoms (up to 80%), and dry mouth and eyes can come months or years before other symptoms; PBC is associated with Sjögren syndrome, systemic sclerosis, and autoimmune thyroiditis. Labs show a cholestatic pattern with a high alkaline phosphatase. Imaging is done first to exclude bile duct obstruction. The next test is antimitochondrial antibody (AMA), which is positive in 90-95%; serum IgM is also raised. Pathology: T cells destroy the small bile ducts inside the liver. Treatment: ursodeoxycholic acid (UDCA) first line. Contrast with PSC: mostly men, linked to ulcerative colitis, with \"beaded\" strictures of the large ducts. Recent change: older books call it primary biliary cirrhosis. The current name is primary biliary cholangitis, and cirrhosis develops only late in the disease. For second-line treatment, obeticholic acid was voluntarily withdrawn, and the PPAR agonists seladelpar and elafibranor are now used with UDCA.",
       "whyWrong": {
         "b": "PSC mostly affects men (60-71%), usually aged 25 to 45, is linked to ulcerative colitis in 60-80%, and shows multifocal strictures with a \"beaded\" appearance of the bile ducts inside and outside the liver.",
         "c": "Extrahepatic obstruction such as a common bile duct stone must be excluded with imaging; this ultrasound shows no stones and no dilated ducts.",
@@ -3480,6 +3520,2186 @@
         },
         {
           "title": "Osmosis High-Yield Physiology notes: catecholamine degradation (Elissa's study document)"
+        }
+      ]
+    },
+    {
+      "id": "pharm-latent-tb-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Respiratory",
+      "topic": "Tuberculosis",
+      "difficulty": 2,
+      "stem": "A 34-year-old nurse has a positive interferon-gamma release assay on routine employee screening. She has no cough, fever, night sweats, or weight loss, and her chest x-ray is normal. She takes no other medications and has normal liver tests.",
+      "leadIn": "Which of the following is the most appropriate treatment?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Isoniazid daily for 9 months"
+        },
+        {
+          "id": "b",
+          "text": "A 3- to 4-month rifamycin-based regimen, such as weekly isoniazid plus rifapentine for 3 months"
+        },
+        {
+          "id": "c",
+          "text": "Rifampin, isoniazid, pyrazinamide, and ethambutol"
+        },
+        {
+          "id": "d",
+          "text": "No treatment; repeat the test in 1 year"
+        },
+        {
+          "id": "e",
+          "text": "Isoniazid daily for 1 month"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Answer: a short rifamycin-based regimen. Why: a positive blood test with no symptoms and a normal chest x-ray means latent TB infection. CDC preferentially recommends short-course, rifamycin-based regimens of 3 or 4 months: 3HP (isoniazid plus rifapentine once weekly for 3 months, 12 doses), 4R (rifampin daily for 4 months), or 3HR (isoniazid plus rifampin daily for 3 months). Isoniazid alone for 6 or 9 months is now an alternative for when a short regimen is not an option, and it carries a higher toxicity risk. Counseling points: rifamycins change the metabolism of many other drugs, and they can turn urine and other body fluids orange and permanently stain contact lenses. Patients should stop the drugs and seek care for persistent numbness or tingling in the hands or feet. Recent change: her notes say to give isoniazid (with vitamin B6) for 9 months when the chest x-ray is negative. CDC now prefers the 3- to 4-month rifamycin regimens.",
+      "whyWrong": {
+        "a": "Nine months of isoniazid is now an alternative, used when a short rifamycin regimen is not an option; it has a higher toxicity risk.",
+        "c": "Four-drug therapy is for active TB disease. She has no symptoms and a normal chest x-ray, so she has latent infection.",
+        "d": "Latent infection can later become active TB, so CDC recommends treating it.",
+        "e": "No CDC regimen is this short. The shortest is 3 months."
+      },
+      "sources": [
+        {
+          "title": "CDC: Treatment Regimens for Latent TB Infection (updated Apr 2025)",
+          "url": "https://www.cdc.gov/tb/hcp/treatment/latent-tuberculosis-infection.html"
+        }
+      ]
+    },
+    {
+      "id": "pharm-hcv-daa-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Gastrointestinal",
+      "topic": "Hepatitis C",
+      "difficulty": 2,
+      "stem": "A 45-year-old man has a positive hepatitis C antibody test and detectable HCV RNA on two tests 6 months apart. His ALT is mildly elevated. He has no cirrhosis, no HIV, and no other medical problems.",
+      "leadIn": "Which of the following is the most appropriate treatment?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pegylated interferon plus ribavirin"
+        },
+        {
+          "id": "b",
+          "text": "Wait another year to see whether the infection clears"
+        },
+        {
+          "id": "c",
+          "text": "An oral direct-acting antiviral regimen for 8 to 12 weeks"
+        },
+        {
+          "id": "d",
+          "text": "Ribavirin alone"
+        },
+        {
+          "id": "e",
+          "text": "Referral for liver transplant"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Answer: oral direct-acting antivirals (DAAs). Why: CDC says clinicians should treat people with detectable HCV RNA using oral DAA therapy, which cures more than 95% of cases in 8 to 12 weeks. The three DAA classes are protease inhibitors, nucleoside analog polymerase inhibitors, and NS5A inhibitors. Before starting, test every patient for hepatitis B (HBsAg, anti-HBs, and total anti-HBc), because hepatitis B can reactivate during treatment; patients who are HBsAg-positive or have isolated anti-HBc are monitored. Recent change: her microbiology notes say chronic hepatitis C is treated with interferon alpha and ribavirin. CDC now says ribavirin with interferon or peginterferon is no longer recommended, because it works poorly and has frequent side effects.",
+      "whyWrong": {
+        "a": "Interferon plus ribavirin is no longer recommended: it works poorly and causes frequent side effects.",
+        "b": "CDC says clinicians do not need to wait for possible spontaneous clearance; his infection has already lasted at least 6 months.",
+        "d": "Ribavirin is not used alone; the current treatment is a DAA regimen.",
+        "e": "He has no cirrhosis, and DAAs cure more than 95% of cases."
+      },
+      "sources": [
+        {
+          "title": "CDC: Clinical Care of Hepatitis C (Jan 2025)",
+          "url": "https://www.cdc.gov/hepatitis-c/hcp/clinical-care/index.html"
+        }
+      ]
+    },
+    {
+      "id": "path-gpa-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Multisystem",
+      "topic": "Vasculitis",
+      "difficulty": 2,
+      "stem": "A 47-year-old man has had months of nasal crusting and sinus infections. He now has a cough with blood-streaked sputum. Chest CT shows several cavitating lung nodules. Urinalysis shows red blood cell casts. A nasal biopsy shows necrotizing granulomas with vasculitis of small and medium vessels.",
+      "leadIn": "Which antibody is most likely to be positive?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Anti-glomerular basement membrane antibody"
+        },
+        {
+          "id": "b",
+          "text": "Anti-double-stranded DNA antibody"
+        },
+        {
+          "id": "c",
+          "text": "Anti-cyclic citrullinated peptide antibody"
+        },
+        {
+          "id": "d",
+          "text": "Anti-proteinase 3 ANCA (c-ANCA)"
+        },
+        {
+          "id": "e",
+          "text": "Anti-centromere antibody"
+        }
+      ],
+      "answer": "d",
+      "explanation": "Answer: PR3-ANCA (c-ANCA). Why: sinus disease, lung nodules, and kidney involvement (red cell casts) with necrotizing granulomas and small- to medium-vessel vasculitis is granulomatosis with polyangiitis (GPA). Most patients have ANCA against proteinase 3 (PR3), which gives the cytoplasmic (c-ANCA) pattern; about 75% are anti-PR3 positive and about 10% are anti-MPO positive. For organ- or life-threatening disease, induction is glucocorticoids plus rituximab or cyclophosphamide (2022 EULAR). Note: her notes give the old name, Wegener, in parentheses. Use GPA. The disease was renamed after Wegener's Nazi ties came to light in 2000, and groups including the American College of Rheumatology moved to the descriptive name.",
+      "whyWrong": {
+        "a": "Anti-GBM antibodies cause Goodpasture (anti-GBM) disease, which does not produce necrotizing granulomas in the sinuses.",
+        "b": "Anti-dsDNA points to lupus, which does not cause necrotizing granulomas.",
+        "c": "Anti-CCP points to rheumatoid arthritis.",
+        "e": "Anti-centromere antibodies point to limited systemic sclerosis (CREST)."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Granulomatosis With Polyangiitis",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK557827/"
+        }
+      ]
+    },
+    {
+      "id": "msk-reactive-arthritis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Musculoskeletal",
+      "topic": "Reactive arthritis",
+      "difficulty": 2,
+      "stem": "A 26-year-old man has a painful, swollen right knee and left ankle and pain at the back of his heel. Three weeks ago he had several days of bloody diarrhea after a barbecue. He also has burning with urination and red, irritated eyes. Joint fluid shows no crystals, and Gram stain and culture are negative.",
+      "leadIn": "Which of the following is the most appropriate first-line treatment for his arthritis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A 3-month course of antibiotics"
+        },
+        {
+          "id": "b",
+          "text": "Nonsteroidal anti-inflammatory drugs (NSAIDs)"
+        },
+        {
+          "id": "c",
+          "text": "Allopurinol"
+        },
+        {
+          "id": "d",
+          "text": "Colchicine to prevent crystal formation"
+        },
+        {
+          "id": "e",
+          "text": "No treatment, because arthritis does not follow gut infections"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Answer: NSAIDs. Why: this is reactive arthritis. It follows a gut or genitourinary infection (Chlamydia trachomatis, Salmonella, Shigella, Campylobacter, Yersinia), usually within 1 to 6 weeks. It typically causes an asymmetric oligoarthritis of the large joints of the legs, with enthesitis (here, heel pain) and sometimes dactylitis. HLA-B27 is strongly associated, but a negative test does not rule it out. NSAIDs are first-line therapy for the acute arthritis. Note: her notes in places use the old name, Reiter syndrome. The term has fallen out of favor because the classic triad (arthritis, urethritis, conjunctivitis) covers only part of the disease, and because of its namesake's wartime conduct. Reactive arthritis is the preferred term.",
+      "whyWrong": {
+        "a": "After an enteric infection, antibiotics do not change the course of the arthritis.",
+        "c": "Allopurinol lowers uric acid in gout, and his joint fluid has no crystals.",
+        "d": "Colchicine is a gout drug, and his joint fluid has no crystals. NSAIDs are first-line for reactive arthritis.",
+        "e": "Reactive arthritis typically starts 1 to 6 weeks after a gut or genitourinary infection."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Reactive Arthritis (updated May 2026)",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK499831/"
+        }
+      ]
+    },
+    {
+      "id": "cardio-bp-categories-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Cardiovascular",
+      "topic": "Hypertension",
+      "difficulty": 2,
+      "stem": "A 45-year-old woman has an average blood pressure of 134/84 mm Hg on readings taken at two separate visits. She has no cardiovascular disease, diabetes, or chronic kidney disease, and her PREVENT-estimated 10-year cardiovascular risk is 4%.",
+      "leadIn": "Which of the following best describes her blood pressure and the next step under the 2025 AHA/ACC guideline?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Normal blood pressure; recheck in 2 years"
+        },
+        {
+          "id": "b",
+          "text": "Elevated blood pressure; no treatment needed"
+        },
+        {
+          "id": "c",
+          "text": "Stage 1 hypertension; lifestyle changes for 3 to 6 months, then medication if it stays at or above 130/80"
+        },
+        {
+          "id": "d",
+          "text": "Stage 1 hypertension; start medication today"
+        },
+        {
+          "id": "e",
+          "text": "Stage 2 hypertension; start two medications today"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Answer: stage 1 hypertension, starting with lifestyle changes. Why: the 2025 AHA/ACC categories are normal (below 120 and below 80), elevated (120 to 129 and below 80), stage 1 (130 to 139 or 80 to 89), and stage 2 (140 or higher, or 90 or higher). Her 134/84 is stage 1. Medication is started right away, alongside lifestyle changes, only for stage 1 patients who have cardiovascular disease, prior stroke, diabetes, chronic kidney disease, or a PREVENT 10-year risk of 7.5% or more. With lower risk, medication is recommended if blood pressure stays at or above 130/80 after a 3- to 6-month lifestyle trial. The treatment goal for all adults is below 130/80. Recent change: her Osmosis notes define hypertension as above 140/90 and set the goal below 140/90. Current AHA/ACC guidance starts hypertension at 130/80 and aims for below 130/80. Pregnancy uses separate cutoffs.",
+      "whyWrong": {
+        "a": "Normal is below 120/80; 134/84 is stage 1 hypertension.",
+        "b": "Elevated blood pressure is 120 to 129 systolic with diastolic below 80. Her readings are higher.",
+        "d": "Immediate medication for stage 1 is for patients with cardiovascular disease, prior stroke, diabetes, CKD, or a 10-year risk of 7.5% or more. Her risk is 4%.",
+        "e": "Stage 2 starts at 140 systolic or 90 diastolic."
+      },
+      "sources": [
+        {
+          "title": "AHA: Top Things to Know, 2025 AHA/ACC High Blood Pressure Guideline (Circulation 2025, doi:10.1161/CIR.0000000000001356)",
+          "url": "https://professional.heart.org/en/science-news/2025-high-blood-pressure-guideline/top-things-to-know"
+        }
+      ]
+    },
+    {
+      "id": "gi-masld-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Gastrointestinal",
+      "topic": "Fatty liver disease",
+      "difficulty": 1,
+      "stem": "A 52-year-old woman with obesity and type 2 diabetes has a mildly elevated ALT. She drinks alcohol less than once a month. Ultrasound shows a diffusely fatty liver. Tests for viral hepatitis, autoimmune hepatitis, and iron overload are negative.",
+      "leadIn": "Which of the following is the current name for her condition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Alcohol-associated liver disease"
+        },
+        {
+          "id": "b",
+          "text": "Metabolic dysfunction-associated steatotic liver disease (MASLD)"
+        },
+        {
+          "id": "c",
+          "text": "MetALD (MASLD with increased alcohol intake)"
+        },
+        {
+          "id": "d",
+          "text": "Autoimmune hepatitis"
+        },
+        {
+          "id": "e",
+          "text": "Hereditary hemochromatosis"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Answer: MASLD. Why: in 2023 a multisociety Delphi consensus renamed fatty liver disease. Steatotic liver disease (SLD) is the umbrella term. MASLD means hepatic steatosis plus at least one of five cardiometabolic risk factors (she has obesity and diabetes), and it replaces nonalcoholic fatty liver disease (NAFLD). Metabolic dysfunction-associated steatohepatitis (MASH) replaces NASH. People with MASLD who drink more (140 g/week for women, 210 g/week for men) are classed as MetALD. Recent change: her notes use NAFLD and NASH; the current terms are MASLD and MASH.",
+      "whyWrong": {
+        "a": "She drinks less than once a month, so alcohol is not the cause.",
+        "c": "MetALD needs alcohol intake of about 140 g/week or more for women; she barely drinks.",
+        "d": "Tests for autoimmune hepatitis are negative.",
+        "e": "Iron studies are negative."
+      },
+      "sources": [
+        {
+          "title": "AASLD: New MASLD Nomenclature",
+          "url": "https://www.aasld.org/new-masld-nomenclature"
+        },
+        {
+          "title": "HCPLive: From NAFLD to MASLD (cites Rinella et al., J Hepatol 2023;79:1542-1556)",
+          "url": "https://www.hcplive.com/view/from-nafld-to-masld-2023-new-liver-disease-nomenclature"
+        }
+      ]
+    },
+    {
+      "id": "pharm-stroke-thrombolysis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Nervous System & Special Senses",
+      "topic": "Acute ischemic stroke",
+      "difficulty": 2,
+      "stem": "A 68-year-old woman is brought to the emergency department with sudden weakness of her right arm and face and difficulty speaking. She was last known to be well 3 hours and 15 minutes ago. Noncontrast head CT shows no hemorrhage. She takes no anticoagulants, has had no recent surgery or bleeding, and has no other contraindications to thrombolysis.",
+      "leadIn": "Which of the following is the most appropriate next step in management?",
+      "options": [
+        {
+          "id": "a",
+          "text": "IV tranexamic acid"
+        },
+        {
+          "id": "b",
+          "text": "No thrombolysis, because more than 3 hours have passed"
+        },
+        {
+          "id": "c",
+          "text": "IV tenecteplase or alteplase"
+        },
+        {
+          "id": "d",
+          "text": "Start warfarin now"
+        },
+        {
+          "id": "e",
+          "text": "Repeat imaging in 24 hours before deciding on treatment"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Answer: IV thrombolysis with tenecteplase or alteplase. Why: she is within the 4.5-hour window and CT has ruled out hemorrhage. Both drugs are tissue plasminogen activators. They bind fibrin in the clot and cleave plasminogen to plasmin, which breaks down the clot. Tenecteplase is more fibrin-specific than native tPA and resists inactivation by plasminogen activator inhibitor-1 (PAI-1); its long half-life allows a single IV bolus. The main risk is bleeding, and intracranial hemorrhage is the most serious. Recent change: her neurology notes say tPA within 3 to 4.5 hours. The 2026 AHA/ASA guideline endorses either alteplase or tenecteplase within the 4.5-hour window. It also supports thrombolysis for selected patients 4.5 to 9 hours from onset, or with unknown onset time, when advanced imaging (such as a DWI-FLAIR or perfusion mismatch) shows salvageable brain.",
+      "whyWrong": {
+        "a": "Tranexamic acid is an antifibrinolytic. It blocks plasminogen from binding fibrin, which would protect the clot rather than dissolve it.",
+        "b": "The thrombolysis window is 4.5 hours, so at 3 hours 15 minutes she is still eligible.",
+        "d": "Warfarin takes 24 to 72 hours to start working and peaks after 5 to 7 days. It lowers clotting factor production; it does not dissolve a clot that is already blocking an artery.",
+        "e": "Waiting 24 hours would miss the 4.5-hour window in which thrombolysis can help."
+      },
+      "sources": [
+        {
+          "title": "Patient Care: 2026 AHA/ASA acute ischemic stroke guideline (Prabhakaran et al., Stroke 2026, doi:10.1161/STR.0000000000000513)",
+          "url": "https://www.patientcareonline.com/view/updated-stroke-guideline-signals-shift-in-early-management-and-treatment-eligibility"
+        },
+        {
+          "title": "Guideline Central: 2026 AHA/ASA Early Management of Acute Ischemic Stroke spotlight",
+          "url": "https://www.guidelinecentral.com/insights/feb-2026-ahaasa-earlymanagementacuteischemicstroke-guideline-spotlight"
+        },
+        {
+          "title": "StatPearls: Tenecteplase",
+          "url": "https://www.statpearls.com/point-of-care/155476"
+        },
+        {
+          "title": "Cyklokapron (tranexamic acid) prescribing information: Clinical Pharmacology",
+          "url": "https://www.pfizermedical.com/cyklokapron/clinical-pharmacology"
+        },
+        {
+          "title": "StatPearls: Warfarin",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK470313/"
+        }
+      ]
+    },
+    {
+      "id": "neuro-tia-definition-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Nervous System & Special Senses",
+      "topic": "Transient ischemic attack",
+      "difficulty": 2,
+      "stem": "A 66-year-old man had sudden weakness of his left arm and slurred speech that lasted 50 minutes and then went away completely. When he is examined 2 hours later, his neurologic exam is normal and his blood glucose is 104 mg/dL. Diffusion-weighted MRI shows a small area of acute infarction in the right internal capsule.",
+      "leadIn": "Which of the following is the most accurate diagnosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Transient ischemic attack, because symptoms lasted less than 24 hours"
+        },
+        {
+          "id": "b",
+          "text": "Ischemic stroke"
+        },
+        {
+          "id": "c",
+          "text": "Intracerebral hemorrhage"
+        },
+        {
+          "id": "d",
+          "text": "Subarachnoid hemorrhage"
+        },
+        {
+          "id": "e",
+          "text": "Transient ischemic attack, because his deficits have fully resolved"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Answer: ischemic stroke. Why: a transient ischemic attack (TIA) is now defined by tissue, not time. MSD defines TIA as focal brain ischemia that causes sudden, temporary neurologic deficits without permanent brain infarction, for example with a normal diffusion-weighted MRI. Deficits that last 1 to 24 hours are often accompanied by infarction and are no longer considered TIAs. Most TIAs last less than 5 minutes, and infarction is very unlikely when deficits resolve within 1 hour. This patient's MRI shows an infarct, so this is a stroke even though his symptoms went away. TIAs still matter: they sharply raise the risk of stroke, beginning in the first 24 hours (the ABCD2 score estimates this risk). Recent change: her neurology notes define a TIA as symptoms lasting less than 24 hours. The current definition is tissue-based.",
+      "whyWrong": {
+        "a": "The old 24-hour rule is no longer the definition. An infarct on MRI means stroke, however quickly the symptoms resolved.",
+        "c": "MRI shows infarction (dead tissue from lost blood flow), not bleeding into the brain.",
+        "d": "Subarachnoid hemorrhage is bleeding around the brain; the MRI shows an infarct instead.",
+        "e": "Full recovery does not make it a TIA. The tissue-based definition requires no infarct on imaging."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Transient Ischemic Attack (TIA)",
+          "url": "https://www.msdmanuals.com/professional/neurologic-disorders/stroke/transient-ischemic-attack-tia"
+        }
+      ]
+    },
+    {
+      "id": "path-lobular-carcinoma-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Reproductive",
+      "topic": "Breast cancer",
+      "difficulty": 2,
+      "stem": "A 58-year-old woman has an ill-defined thickening in her left breast. Core biopsy shows small, uniform tumor cells that do not stick together and invade the stroma in single-file lines. The tumor is strongly estrogen receptor-positive.",
+      "leadIn": "Loss of which of the following proteins best explains this growth pattern?",
+      "options": [
+        {
+          "id": "a",
+          "text": "HER2 (ERBB2)"
+        },
+        {
+          "id": "b",
+          "text": "BRCA1"
+        },
+        {
+          "id": "c",
+          "text": "E-cadherin"
+        },
+        {
+          "id": "d",
+          "text": "Cyclin D1"
+        },
+        {
+          "id": "e",
+          "text": "p53"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Answer: E-cadherin. Why: this is invasive lobular carcinoma, the second most common type of invasive breast cancer (5% to 15%). Loss of the cell-to-cell adhesion protein E-cadherin (gene CDH1) is its most consistent molecular change, and it explains why the cells are discohesive and infiltrate in single-file lines. Classic lobular carcinomas are almost always ER-positive, so hormone therapy is used. These tumors can be bilateral and multifocal, and they often spread to unusual sites such as the ovary, GI tract, uterus, serosal cavities, meninges, and bone.",
+      "whyWrong": {
+        "a": "HER2 is a growth signal that is gained (amplified), not lost, in HER2-positive cancers. It does not explain discohesive, single-file growth.",
+        "b": "BRCA1 loss raises breast cancer risk, but it does not produce the discohesive, single-file pattern; loss of E-cadherin does.",
+        "d": "Cyclin D1 drives the cell cycle when it is overexpressed. It is not an adhesion protein, so it does not explain this pattern.",
+        "e": "p53 is a tumor suppressor lost in many cancers, but its loss does not cause discohesive, single-file growth."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Lobular Breast Carcinoma",
+          "url": "https://statpearls.com/point-of-care/24392"
+        }
+      ]
+    },
+    {
+      "id": "path-lcis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Reproductive",
+      "topic": "Breast cancer",
+      "difficulty": 3,
+      "stem": "A 46-year-old woman has a core biopsy of an area of calcifications seen on screening mammography. Pathology shows classic lobular carcinoma in situ (LCIS), with no atypical ductal hyperplasia, ductal carcinoma in situ, or invasive carcinoma. The imaging and pathology findings agree.",
+      "leadIn": "Which of the following best describes this lesion?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An obligate precursor that will become invasive cancer at that site if it is not excised"
+        },
+        {
+          "id": "b",
+          "text": "A benign finding that does not change her breast cancer risk"
+        },
+        {
+          "id": "c",
+          "text": "A risk factor and nonobligate precursor that raises cancer risk in both breasts"
+        },
+        {
+          "id": "d",
+          "text": "An invasive carcinoma that requires mastectomy"
+        },
+        {
+          "id": "e",
+          "text": "A lesion that raises cancer risk only in the breast where it was found"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Answer: a risk factor and nonobligate precursor. Why: classic LCIS is both a risk factor for invasive breast cancer and a nonobligate precursor, meaning it can progress but usually does not. Women with LCIS have about a 7- to 10-fold higher breast cancer risk than the general population, about 1% to 2% per year. The risk applies to either breast, slightly more to the same side. Like invasive lobular carcinoma, LCIS usually lacks E-cadherin. Management of classic LCIS is active surveillance plus chemoprevention with antiestrogens. Excision is not recommended after an incidental diagnosis of classic LCIS. Nonclassic forms (pleomorphic or florid LCIS) on core biopsy do require surgical excision. Note: her breast pathology notes say LCIS may be followed by invasion if not treated. That is true but incomplete, because the raised risk involves both breasts and classic LCIS is usually watched rather than removed.",
+      "whyWrong": {
+        "a": "LCIS is a nonobligate precursor: most cases do not progress, and excision is not recommended after an incidental diagnosis of classic LCIS.",
+        "b": "LCIS raises breast cancer risk about 7- to 10-fold.",
+        "d": "LCIS is in situ (not invasive), and classic LCIS is managed with surveillance and chemoprevention, not mastectomy.",
+        "e": "The raised risk applies to either breast, only slightly more to the same side."
+      },
+      "sources": [
+        {
+          "title": "PathologyOutlines: Lobular carcinoma in situ (LCIS)",
+          "url": "https://pathologyoutlines.com/topic/breastmalignantlcis.html"
+        },
+        {
+          "title": "StatPearls: Lobular Breast Carcinoma",
+          "url": "https://statpearls.com/point-of-care/24392"
+        }
+      ]
+    },
+    {
+      "id": "pharm-wet-amd-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Nervous System & Special Senses",
+      "topic": "Age-related macular degeneration",
+      "difficulty": 2,
+      "stem": "A 76-year-old woman has had 2 weeks of distorted central vision in her left eye; straight lines look wavy. Fundus exam shows drusen in both eyes. In the left eye there is subretinal fluid and hemorrhage in the macula, and imaging confirms choroidal neovascularization.",
+      "leadIn": "Which of the following is the most appropriate treatment?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Intravitreal anti-VEGF injections, such as aflibercept or ranibizumab"
+        },
+        {
+          "id": "b",
+          "text": "Intravitreal complement inhibitor (pegcetacoplan)"
+        },
+        {
+          "id": "c",
+          "text": "AREDS vitamin and mineral supplements alone"
+        },
+        {
+          "id": "d",
+          "text": "Topical latanoprost"
+        },
+        {
+          "id": "e",
+          "text": "Observation until vision worsens"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: intravitreal anti-VEGF therapy. Why: drusen are a hallmark of age-related macular degeneration (AMD). New vessels under the retina (choroidal neovascularization) with subretinal fluid and hemorrhage, plus curving of straight lines (metamorphopsia), mean wet (exudative) AMD. About 85% of people with AMD have only dry AMD, but wet AMD causes 80% to 90% of severe vision loss from AMD, and vision can drop over days to weeks. Treatment is intravitreal injections of drugs that block vascular endothelial growth factor (VEGF), usually ranibizumab, bevacizumab, or aflibercept. Faricimab binds both VEGF-A and angiopoietin-2, and brolucizumab is also available. Recent change: her eye notes say anti-VEGF drugs treat wet AMD but not dry AMD, which is still true. In 2023 the FDA approved the first treatments for geographic atrophy, the advanced form of dry AMD: pegcetacoplan (a C3 inhibitor) and avacincaptad pegol (a C5 inhibitor). Both are complement inhibitors given by intravitreal injection. Her notes also list pegaptanib, which current MSD guidance does not include among the usual drugs.",
+      "whyWrong": {
+        "b": "Complement inhibitors are used for advanced dry AMD (geographic atrophy), not for wet AMD with new vessels.",
+        "c": "Daily AREDS-type supplements reduce the risk of developing advanced AMD by about 25%, but they do not treat active new vessels.",
+        "d": "Latanoprost is a glaucoma drug that lowers eye pressure; it does not treat macular new vessels.",
+        "e": "Wet AMD causes most severe vision loss from AMD, and vision can drop over days to weeks, so it should be treated now."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Age-Related Macular Degeneration (reviewed Jun 2026)",
+          "url": "https://www.msdmanuals.com/professional/eye-disorders/retinal-disorders/age-related-macular-degeneration-amd-or-armd"
+        },
+        {
+          "title": "AHDB: FDA approval of Syfovre (pegcetacoplan) and Izervay (avacincaptad pegol) for geographic atrophy",
+          "url": "https://www.ahdbonline.com/fda-approvals-news-updates/3291-fda-approval-of-syfovre-pegcetacoplan-and-izervay-avacincaptad-pegol-reshapes-management-of-ga"
+        }
+      ],
+      "readMore": [
+        {
+          "title": "EyeWiki: Age-Related Macular Degeneration",
+          "url": "https://eyewiki.org/Age-Related_Macular_Degeneration"
+        }
+      ]
+    },
+    {
+      "id": "pharm-angle-closure-ipratropium-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Nervous System & Special Senses",
+      "topic": "Acute angle-closure glaucoma",
+      "difficulty": 2,
+      "stem": "A 68-year-old woman is admitted with a COPD exacerbation and started on nebulized ipratropium. That evening she develops severe pain in her right eye, headache, nausea, vomiting, and blurred vision with colored halos around lights. The right eye is red, the cornea is hazy, and the pupil is mid-dilated and reacts poorly to light.",
+      "leadIn": "Which of the following best explains how her new medication caused this condition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Beta-2 receptor stimulation increased aqueous production"
+        },
+        {
+          "id": "b",
+          "text": "Muscarinic blockade dilated the pupil and caused pupillary block"
+        },
+        {
+          "id": "c",
+          "text": "Ciliary muscle contraction opened the trabecular meshwork"
+        },
+        {
+          "id": "d",
+          "text": "Increased aqueous drainage through the trabecular meshwork"
+        },
+        {
+          "id": "e",
+          "text": "Alpha-1 blockade relaxed the iris dilator muscle"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Answer: muscarinic blockade causing pupillary block. Why: this is acute angle-closure glaucoma. Ipratropium is an anticholinergic (parasympatholytic) drug that blocks acetylcholine at muscarinic receptors. Its label warns that if the nebulized solution reaches the eyes, it can cause pupil dilation (mydriasis), eye pain, blurred vision, and can precipitate or worsen narrow-angle glaucoma. In an eye with a narrow angle, a dilating pupil increases contact between the iris and the lens, which blocks aqueous flow through the pupil (pupillary block). Aqueous keeps being made behind the iris and pushes the peripheral iris forward (iris bombe), closing the angle, so eye pressure rises within hours, often above 40 mm Hg. Typical findings are severe eye pain and redness, decreased vision, colored halos, headache, nausea and vomiting, a hazy cornea, and a fixed mid-dilated pupil. Other triggers include dilating drops (cyclopentolate, phenylephrine), scopolamine, and other drugs with anticholinergic effects. Treatment is an emergency: drops such as pilocarpine, timolol, and brimonidine, plus acetazolamide, then laser peripheral iridotomy.",
+      "whyWrong": {
+        "a": "Ipratropium is an anticholinergic, not a beta-2 agonist.",
+        "c": "Ciliary muscle contraction is a cholinergic effect, the opposite of what ipratropium does; the cholinergic miotic pilocarpine is part of the treatment.",
+        "d": "More drainage would lower eye pressure. Here the angle is closed and pressure is high.",
+        "e": "Ipratropium does not act on alpha receptors, and relaxing the dilator would make the pupil smaller, not larger."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Angle-Closure Glaucoma (reviewed Mar 2025)",
+          "url": "https://www.msdmanuals.com/professional/eye-disorders/glaucoma/angle-closure-glaucoma"
+        },
+        {
+          "title": "Ipratropium Bromide Inhalation Solution 0.02%: FDA label (DrugCentral)",
+          "url": "https://drugcentral.org/label/f625d3e3-c175-4d9a-99ea-dab410b262f1/view"
+        }
+      ],
+      "readMore": [
+        {
+          "title": "EyeWiki: Drug-induced Acute Angle Closure Glaucoma",
+          "url": "https://eyewiki.org/Drug-induced_Acute_Angle_Closure_Glaucoma"
+        }
+      ]
+    },
+    {
+      "id": "path-crao-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Nervous System & Special Senses",
+      "topic": "Central retinal artery occlusion",
+      "difficulty": 2,
+      "stem": "A 72-year-old man with hypertension and a history of smoking suddenly lost vision in his right eye over a few seconds while reading 1 hour ago. He has no eye pain, headache, or jaw pain. Fundus exam of the right eye shows a pale, whitened retina with a red spot at the center of the macula.",
+      "leadIn": "Why does the center of the macula look red?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Blood has leaked into the fovea"
+        },
+        {
+          "id": "b",
+          "text": "The thin fovea lets the perfused choroid show through"
+        },
+        {
+          "id": "c",
+          "text": "New blood vessels have grown under the fovea"
+        },
+        {
+          "id": "d",
+          "text": "The optic disc is swollen"
+        },
+        {
+          "id": "e",
+          "text": "Lipid is stored in the foveal cells"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Answer: the perfused choroid shows through the thin fovea. Why: this is a central retinal artery occlusion (CRAO), which causes sudden, painless loss of vision in one eye. Ischemia causes diffuse retinal edema, so the retina looks pale and opaque and the arteries look thin. The fovea is thin, so the normal, perfused choroid beneath it still shows through: the cherry-red spot. Carotid artery plaques are a common source of emboli, so the workup includes carotid Doppler ultrasound and echocardiography. Giant cell arteritis is an important cause; if it is suspected, ESR, CRP, and a platelet count are checked immediately. Note: her eye notes give the cherry-red spot. Current MSD guidance adds that the patient should be referred immediately to a specialized stroke center, because stroke risk is raised, especially in the first weeks.",
+      "whyWrong": {
+        "a": "The red spot is the normal choroid seen through the fovea against pale, swollen retina, not bleeding.",
+        "c": "New vessels under the retina are choroidal neovascularization (wet macular degeneration), which causes distortion with fluid and bleeding, not sudden painless loss with a pale retina.",
+        "d": "Optic disc swelling does not explain a pale retina with a red center.",
+        "e": "This is ischemia from a blocked artery. The retina is pale because of ischemic edema, not stored lipid."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Central and Branch Retinal Artery Occlusion (reviewed Jun 2026)",
+          "url": "https://www.msdmanuals.com/professional/eye-disorders/retinal-disorders/central-retinal-artery-occlusion-and-branch-retinal-artery-occlusion"
+        },
+        {
+          "title": "MSD Manual Professional: Age-Related Macular Degeneration (reviewed Jun 2026)",
+          "url": "https://www.msdmanuals.com/professional/eye-disorders/retinal-disorders/age-related-macular-degeneration-amd-or-armd"
+        }
+      ],
+      "readMore": [
+        {
+          "title": "EyeWiki: Retinal Artery Occlusion",
+          "url": "https://eyewiki.org/Retinal_Artery_Occlusion"
+        }
+      ]
+    },
+    {
+      "id": "pharm-gonorrhea-tx-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Reproductive",
+      "topic": "Neisseria gonorrhoeae",
+      "difficulty": 2,
+      "stem": "A 24-year-old man has had painful urination and a thick yellow discharge from the penis for 3 days. He has had two new sexual partners in the past month. A Gram stain of the discharge shows gram-negative diplococci inside neutrophils. A nucleic acid test for Chlamydia trachomatis has been sent, and the result will not be back for several days. He weighs 80 kg and has no drug allergies.",
+      "leadIn": "Which of the following is the most appropriate treatment?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ceftriaxone 250 mg IM once plus azithromycin 1 g orally once"
+        },
+        {
+          "id": "b",
+          "text": "Doxycycline 100 mg orally twice daily for 7 days alone"
+        },
+        {
+          "id": "c",
+          "text": "Ceftriaxone 500 mg IM once plus doxycycline 100 mg orally twice daily for 7 days"
+        },
+        {
+          "id": "d",
+          "text": "Ceftriaxone 500 mg IM once alone"
+        },
+        {
+          "id": "e",
+          "text": "Metronidazole 500 mg orally twice daily for 7 days"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Answer: ceftriaxone 500 mg IM once, plus doxycycline because chlamydia has not been ruled out. Why: gram-negative diplococci inside neutrophils point to Neisseria gonorrhoeae. The 2021 CDC STI guidelines treat gonorrhea with a single 500 mg intramuscular dose of ceftriaxone (a higher dose is used for patients with high body weight). If chlamydia has not been excluded, doxycycline 100 mg twice daily for 7 days is added, and doxycycline is now the preferred drug for chlamydia. Recent change: her clinical bacteriology table lists azithromycin among the drugs for gonorrhea, and older review books teach ceftriaxone plus azithromycin dual therapy. Since 2021, CDC no longer requires azithromycin or doxycycline co-treatment for gonorrhea itself, for antibiotic stewardship reasons. Azithromycin is now an alternative for chlamydia, and it is the recommended chlamydia treatment in pregnancy.",
+      "whyWrong": {
+        "a": "This is the older dual-therapy regimen. The 2021 CDC guidelines use 500 mg of ceftriaxone and no longer require azithromycin co-treatment.",
+        "b": "Doxycycline covers chlamydia, but gonorrhea needs ceftriaxone.",
+        "d": "Ceftriaxone 500 mg alone is right once chlamydia has been excluded. Here the chlamydia test is still pending, so doxycycline is added.",
+        "e": "Metronidazole is added to the regimen for pelvic inflammatory disease; it does not replace ceftriaxone for gonorrhea."
+      },
+      "sources": [
+        {
+          "title": "AAFP: STI Treatment Guidelines, 2021 (summary of the CDC guidelines, 2022)",
+          "url": "https://www.aafp.org/pubs/afp/issues/2022/0500/p514.html"
+        }
+      ]
+    },
+    {
+      "id": "pharm-hpylori-tx-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Gastrointestinal",
+      "topic": "Helicobacter pylori",
+      "difficulty": 2,
+      "stem": "A 45-year-old woman has had burning epigastric pain for 2 months. Upper endoscopy shows a duodenal ulcer, and a biopsy urease test is positive for Helicobacter pylori. She has never been treated for H. pylori and has no drug allergies. Antibiotic susceptibility testing was not done.",
+      "leadIn": "Which of the following is the most appropriate first-line treatment?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A proton pump inhibitor, clarithromycin, and amoxicillin for 7 days"
+        },
+        {
+          "id": "b",
+          "text": "A proton pump inhibitor, bismuth, tetracycline, and metronidazole for 14 days"
+        },
+        {
+          "id": "c",
+          "text": "A proton pump inhibitor alone for 8 weeks"
+        },
+        {
+          "id": "d",
+          "text": "A proton pump inhibitor, levofloxacin, and amoxicillin for 14 days"
+        },
+        {
+          "id": "e",
+          "text": "A proton pump inhibitor, bismuth, doxycycline, and metronidazole for 14 days"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Answer: optimized bismuth quadruple therapy for 14 days. Why: the 2024 American College of Gastroenterology (ACG) guideline keeps bismuth quadruple therapy as a recommended first-line treatment: a proton pump inhibitor (PPI), bismuth, a nitroimidazole such as metronidazole, and tetracycline, given for 14 days. Recent change: her microbiology notes say the most common initial treatment is triple therapy (PPI, clarithromycin, and amoxicillin or metronidazole). The 2024 ACG guideline removed clarithromycin triple therapy as a first-line option. It also says clarithromycin- and levofloxacin-based regimens should be avoided in later treatment rounds unless susceptibility testing shows they will work, because resistance to these drugs is rising.",
+      "whyWrong": {
+        "a": "Clarithromycin triple therapy was removed as a first-line option in the 2024 ACG guideline.",
+        "c": "A PPI alone contains no antibiotic, so it cannot clear the infection.",
+        "d": "Levofloxacin-based therapy is not among the ACG first-line options for a treatment-naive patient; the guideline reserves it for when susceptibility testing shows the strain is sensitive.",
+        "e": "Doxycycline should not replace tetracycline. The guideline summary notes that the swap lowers eradication rates by about 10 to 17 percent."
+      },
+      "sources": [
+        {
+          "title": "University of Minnesota College of Pharmacy: 2024 ACG H. pylori guideline (Chey et al., Am J Gastroenterol 2024;119:1730-1753)",
+          "url": "https://www.pharmacy.umn.edu/2024-american-college-gastroenterology-h-pylori-guidelines"
+        }
+      ]
+    },
+    {
+      "id": "micro-listeria-pregnancy-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Reproductive",
+      "topic": "Listeria monocytogenes",
+      "difficulty": 2,
+      "stem": "A 28-year-old woman at 30 weeks' gestation has had fever, muscle aches, and fatigue for 2 days. Last week she ate several meals with a soft Mexican-style cheese (queso fresco). Blood cultures grow gram-positive rods. She has no drug allergies.",
+      "leadIn": "Which of the following is the most appropriate antibiotic?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Intravenous ampicillin"
+        },
+        {
+          "id": "b",
+          "text": "Intravenous ceftriaxone alone"
+        },
+        {
+          "id": "c",
+          "text": "Trimethoprim-sulfamethoxazole"
+        },
+        {
+          "id": "d",
+          "text": "Oral metronidazole"
+        },
+        {
+          "id": "e",
+          "text": "No antibiotic, because the illness is mild and self-limited"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: IV ampicillin. Why: a flu-like fever in a pregnant woman after eating soft cheese, with gram-positive rods in the blood, points to Listeria monocytogenes. Listeria is a gram-positive, intracellular rod that can grow at refrigerator temperature. It is linked to deli meats, soft cheeses, and unpasteurized milk. Pregnant people, newborns, older adults, and immunocompromised patients are at highest risk of invasive disease. In pregnancy the mother may only seem to have the flu, but infection often causes miscarriage, stillbirth, or severe newborn sepsis. Treatment is IV ampicillin or amoxicillin. Note: her documents list ampicillin with or without gentamicin, or penicillin plus gentamicin. StatPearls calls adding an aminoglycoside controversial, because studies have not shown better outcomes with combination therapy. Ampicillin is the core drug either way.",
+      "whyWrong": {
+        "b": "Listeria is uniformly resistant to cephalosporins. That is why ampicillin is added to empiric meningitis treatment when Listeria is a concern.",
+        "c": "TMP-SMX is the preferred alternative only for patients with a penicillin allergy, and she has none.",
+        "d": "Metronidazole is not a Listeria treatment. StatPearls names ampicillin, with TMP-SMX as the alternative.",
+        "e": "Listeria in pregnancy often leads to miscarriage, stillbirth, or newborn sepsis, so it must be treated even when the mother seems only mildly ill."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Listeria monocytogenes",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK534838/"
+        }
+      ]
+    },
+    {
+      "id": "pharm-severe-malaria-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Malaria",
+      "difficulty": 2,
+      "stem": "A 35-year-old man returned 10 days ago from a 3-week trip to Nigeria. He did not take malaria prophylaxis. He now has high fevers and has become confused. A blood smear shows many ring forms and a few crescent-shaped gametocytes, with 8% of red cells infected.",
+      "leadIn": "Which of the following is the most appropriate initial treatment?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Oral chloroquine"
+        },
+        {
+          "id": "b",
+          "text": "Intravenous quinidine gluconate"
+        },
+        {
+          "id": "c",
+          "text": "Oral artemether-lumefantrine"
+        },
+        {
+          "id": "d",
+          "text": "Intravenous artesunate"
+        },
+        {
+          "id": "e",
+          "text": "Oral primaquine"
+        }
+      ],
+      "answer": "d",
+      "explanation": "Answer: IV artesunate. Why: crescent-shaped gametocytes point to Plasmodium falciparum. Parasitemia of 5% or more meets the CDC definition of severe malaria, and his confusion is another warning sign. CDC says to treat severe malaria with IV artesunate as soon as possible, whatever the species. A full oral course (for example, artemether-lumefantrine) must always follow the IV artesunate. Recent change: her microbiology notes say to use quinidine for life-threatening malaria in the US. IV artesunate became the first-line US treatment in April 2019, when IV quinidine stopped being available because its maker discontinued it.",
+      "whyWrong": {
+        "a": "P. falciparum is resistant to chloroquine in most parts of the world, and severe malaria needs IV treatment.",
+        "b": "Quinidine was the old US treatment. Its maker discontinued it, and IV artesunate replaced it in 2019.",
+        "c": "Artemether-lumefantrine is the preferred drug for uncomplicated malaria and is the usual oral course after IV artesunate, but severe malaria starts with IV artesunate.",
+        "e": "Primaquine targets the dormant liver stage (hypnozoites) of P. vivax and P. ovale. It does not treat severe falciparum malaria."
+      },
+      "sources": [
+        {
+          "title": "CDC: Treatment of Severe Malaria (updated Aug 2026)",
+          "url": "https://cdc.gov/malaria/hcp/clinical-guidance/treatment-of-severe-malaria-1.html"
+        },
+        {
+          "title": "CDC archive: Artesunate Now First-Line Treatment for Severe Malaria in the United States (2019)",
+          "url": "https://archive.cdc.gov/www_cdc_gov/globalhealth/newsroom/artesunate.html"
+        },
+        {
+          "title": "CDC DPDx: Malaria",
+          "url": "https://www.cdc.gov/dpdx/malaria/index.html"
+        }
+      ]
+    },
+    {
+      "id": "pharm-malaria-pregnancy-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Reproductive",
+      "topic": "Malaria",
+      "difficulty": 3,
+      "stem": "A 29-year-old woman at 20 weeks' gestation returned from visiting family in Ghana 2 weeks ago. She has fever and chills but is alert, eating, and drinking, and her kidney function is normal. A blood smear shows Plasmodium falciparum ring forms in 1% of red cells.",
+      "leadIn": "Which of the following is the most appropriate treatment?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chloroquine"
+        },
+        {
+          "id": "b",
+          "text": "Primaquine"
+        },
+        {
+          "id": "c",
+          "text": "Quinine plus doxycycline"
+        },
+        {
+          "id": "d",
+          "text": "Mefloquine"
+        },
+        {
+          "id": "e",
+          "text": "Artemether-lumefantrine"
+        }
+      ],
+      "answer": "e",
+      "explanation": "Answer: artemether-lumefantrine. Why: this is uncomplicated P. falciparum malaria; she can take pills and parasitemia is under 5%. CDC lists artemether-lumefantrine as the preferred treatment for uncomplicated malaria acquired anywhere, including chloroquine-resistant areas. It can be used in all trimesters of pregnancy, based on a WHO evidence review. Recent change: her parasitology table lists chloroquine for falciparum and quinine or mefloquine in pregnancy. P. falciparum is now resistant to chloroquine in most of the world, CDC prefers artemether-lumefantrine in pregnancy, and mefloquine is used only if no other option is available. As of August 2026, CDC also gives artemether-lumefantrine for P. falciparum as an extended 5-day (10-dose) course.",
+      "whyWrong": {
+        "a": "P. falciparum is resistant to chloroquine in most parts of the world. Chloroquine is used only for infections from the few chloroquine-sensitive areas, such as Central America west of the Panama Canal, Haiti, and the Dominican Republic.",
+        "b": "Primaquine must not be used in pregnancy. It targets the dormant liver stage of P. vivax and P. ovale, not the blood stage of P. falciparum.",
+        "c": "For pregnant patients, CDC pairs quinine with clindamycin, not doxycycline.",
+        "d": "CDC lists mefloquine only if no other option is available."
+      },
+      "sources": [
+        {
+          "title": "CDC: Malaria Treatment Tables (Appendix A)",
+          "url": "https://www.cdc.gov/malaria/hcp/clinical-guidance/appendix-a-treatment-tables.html"
+        },
+        {
+          "title": "CDC: Treatment of Uncomplicated Malaria (updated Aug 2026)",
+          "url": "https://cdc.gov/malaria/hcp/clinical-guidance/treatment-of-uncomplicated-malaria.html"
+        }
+      ]
+    },
+    {
+      "id": "micro-vivax-relapse-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Malaria",
+      "difficulty": 2,
+      "stem": "A 40-year-old man who lives in the United States had malaria diagnosed 5 months ago after a trip to India. He was treated with chloroquine alone, and his fever went away. He has not traveled since. He now has fever and chills again. A blood smear shows enlarged red cells containing parasites, with fine pink stippling (Schüffner dots).",
+      "leadIn": "Which of the following best explains the return of his illness?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Gametocytes that persisted in his blood"
+        },
+        {
+          "id": "b",
+          "text": "Dormant liver-stage parasites (hypnozoites)"
+        },
+        {
+          "id": "c",
+          "text": "A new mosquito bite at home"
+        },
+        {
+          "id": "d",
+          "text": "Sporozoites that stayed in his bloodstream"
+        },
+        {
+          "id": "e",
+          "text": "A Plasmodium falciparum infection missed on the first smear"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Answer: hypnozoites. Why: enlarged red cells with Schüffner dots point to P. vivax. In P. vivax and P. ovale, a dormant liver stage called the hypnozoite can persist and cause relapses weeks or even years later. Chloroquine treats only the blood stage, so these infections also need anti-relapse treatment with primaquine or tafenoquine, which target the liver hypnozoites. Before either drug, CDC calls for quantitative G6PD testing to confirm normal enzyme activity, because some malaria drugs can trigger hemolytic anemia in G6PD deficiency. Neither drug is used in pregnancy. Note: her parasitology table names primaquine for hypnozoites. CDC also lists tafenoquine as a single-dose option, used only when G6PD activity is normal and given together with chloroquine.",
+      "whyWrong": {
+        "a": "Gametocytes are taken up by a mosquito during a blood meal to continue the life cycle. They do not cause relapse.",
+        "c": "He has not traveled to a malaria area since his trip, so a new infection is unlikely.",
+        "d": "Sporozoites from a mosquito bite go to the liver. The dormant liver form, not a blood form, causes relapse.",
+        "e": "Only P. vivax and P. ovale form hypnozoites, and enlarged red cells with Schüffner dots are features of P. vivax."
+      },
+      "sources": [
+        {
+          "title": "CDC DPDx: Malaria",
+          "url": "https://www.cdc.gov/dpdx/malaria/index.html"
+        },
+        {
+          "title": "CDC: Treatment of Uncomplicated Malaria (updated Aug 2026)",
+          "url": "https://cdc.gov/malaria/hcp/clinical-guidance/treatment-of-uncomplicated-malaria.html"
+        },
+        {
+          "title": "CDC: Malaria Treatment Tables (Appendix A)",
+          "url": "https://www.cdc.gov/malaria/hcp/clinical-guidance/appendix-a-treatment-tables.html"
+        },
+        {
+          "title": "MedlinePlus Genetics: Glucose-6-phosphate dehydrogenase deficiency",
+          "url": "https://medlineplus.gov/genetics/condition/glucose-6-phosphate-dehydrogenase-deficiency/"
+        }
+      ]
+    },
+    {
+      "id": "micro-neurocysticercosis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Nervous System & Special Senses",
+      "topic": "Taenia solium (neurocysticercosis)",
+      "difficulty": 2,
+      "stem": "A 32-year-old woman has her first seizure. She moved from a rural area of Central America 2 years ago. She has been vegetarian all her life and has never eaten pork. Her brother, who lives with her, was recently found to have an intestinal tapeworm. Brain MRI shows several small cysts in the brain tissue.",
+      "leadIn": "How did she most likely acquire this infection?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eating undercooked pork containing larval cysts"
+        },
+        {
+          "id": "b",
+          "text": "Eating undercooked beef"
+        },
+        {
+          "id": "c",
+          "text": "Swallowing tapeworm eggs from food contaminated by a tapeworm carrier's stool"
+        },
+        {
+          "id": "d",
+          "text": "Larvae entering through the skin while wading in fresh water"
+        },
+        {
+          "id": "e",
+          "text": "A bite from an infected mosquito"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Answer: swallowing Taenia solium eggs. Why: brain cysts and a seizure in someone from an area where the pork tapeworm is common suggest neurocysticercosis. CDC explains that cysticercosis comes only from swallowing T. solium eggs (the fecal-oral route), for example in food or water contaminated by the stool of a person who carries the adult tapeworm, often a household member. The eggs hatch, and the larvae form cysts in tissues such as the brain and muscle. Eating undercooked pork that contains cysts causes something different: the intestinal tapeworm (taeniasis). That is why someone who has never eaten pork can still get neurocysticercosis. Treatment (IDSA/ASTMH 2017): antiepileptic drugs for anyone with seizures; for viable cysts in the brain tissue, albendazole for 10 to 14 days (adding praziquantel when there are more than 2 cysts), with corticosteroids started before the antiparasitic drugs; and an eye (funduscopic) exam before antiparasitic treatment.",
+      "whyWrong": {
+        "a": "Undercooked pork with cysts causes the intestinal tapeworm (taeniasis), not cysticercosis, and she has never eaten pork.",
+        "b": "She is vegetarian, and CDC ties cysticercosis only to swallowing T. solium eggs, not to eating meat.",
+        "d": "CDC describes cysticercosis as spread only by swallowing eggs. Skin entry in fresh water is not a tapeworm route.",
+        "e": "Mosquitoes do not spread tapeworms. Cysticercosis comes from swallowing eggs."
+      },
+      "sources": [
+        {
+          "title": "CDC: How Cysticercosis Spreads",
+          "url": "https://www.cdc.gov/cysticercosis/spreads/index.html"
+        },
+        {
+          "title": "CDC DPDx: Cysticercosis",
+          "url": "https://www.cdc.gov/dpdx/cysticercosis/"
+        },
+        {
+          "title": "IDSA/ASTMH 2017 guideline: Diagnosis and Treatment of Neurocysticercosis (White et al., Clin Infect Dis 2018;66:e49)",
+          "url": "https://academic.oup.com/cid/article/66/8/e49/4885412"
+        }
+      ]
+    },
+    {
+      "id": "micro-amebic-abscess-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Gastrointestinal",
+      "topic": "Entamoeba histolytica",
+      "difficulty": 2,
+      "stem": "A 38-year-old man has had fever and dull right upper quadrant pain for 10 days. He returned 2 months ago from 6 months of work in rural Mexico. Ultrasound shows a single 4-cm abscess in the right lobe of the liver. Serology for Entamoeba histolytica is positive. He is treated with metronidazole, and his fever and pain improve within a few days.",
+      "leadIn": "Which of the following is the most appropriate next step in treatment?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Paromomycin"
+        },
+        {
+          "id": "b",
+          "text": "Albendazole"
+        },
+        {
+          "id": "c",
+          "text": "No further treatment, because the abscess is responding"
+        },
+        {
+          "id": "d",
+          "text": "Praziquantel"
+        },
+        {
+          "id": "e",
+          "text": "Surgical removal of the abscess"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: follow metronidazole with a luminal agent such as paromomycin. Why: an amebic liver abscess is treated with a nitroimidazole, preferably metronidazole for 7 to 10 days (tinidazole is an alternative). Intestinal colonization persists in 40% to 60% of cases, so nitroimidazole therapy must always be followed by a luminal agent, such as paromomycin or iodoquinol. StatPearls advises against giving metronidazole and paromomycin at the same time. Clues to the diagnosis: travel to an endemic area (symptoms can start months to years later), fever, and dull right upper quadrant pain; if aspirated, the fluid is thick, odorless, and chocolate-brown ('anchovy paste'). Note: her parasitology table names diloxanide for cyst carriers. StatPearls names paromomycin or iodoquinol as the luminal agent, but the principle is the same.",
+      "whyWrong": {
+        "b": "Albendazole treats worm (helminth) infections, not amebae.",
+        "c": "Intestinal colonization persists in 40% to 60% of cases, so a luminal agent must always follow metronidazole.",
+        "d": "Praziquantel treats tapeworms and flukes, not amebae.",
+        "e": "StatPearls reserves surgery for cases such as multiple loculated abscesses, failed drainage, or rupture. This abscess is single, small, and responding to medicine."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Amebic Liver Abscess",
+          "url": "https://www.statpearls.com/point-of-care/17436"
+        }
+      ]
+    },
+    {
+      "id": "pharm-pcp-tx-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Respiratory",
+      "topic": "Pneumocystis jirovecii pneumonia",
+      "difficulty": 2,
+      "stem": "A 34-year-old man with HIV who stopped antiretroviral therapy a year ago has had 3 weeks of fever, worsening shortness of breath, and a dry cough. His CD4 count is 60/µL. Room-air PaO2 is 62 mm Hg. Chest x-ray shows diffuse bilateral perihilar infiltrates. A silver stain of bronchoalveolar lavage fluid shows cysts.",
+      "leadIn": "Which of the following is the most appropriate treatment?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Trimethoprim-sulfamethoxazole alone"
+        },
+        {
+          "id": "b",
+          "text": "Intravenous amphotericin B"
+        },
+        {
+          "id": "c",
+          "text": "Azithromycin"
+        },
+        {
+          "id": "d",
+          "text": "Trimethoprim-sulfamethoxazole plus prednisone"
+        },
+        {
+          "id": "e",
+          "text": "Ganciclovir"
+        }
+      ],
+      "answer": "d",
+      "explanation": "Answer: TMP-SMX plus prednisone. Why: a patient with HIV and a CD4 count below 200, fever, breathlessness, dry cough, and diffuse bilateral perihilar infiltrates most likely has Pneumocystis jirovecii pneumonia (PCP). Silver stains show the organism's cyst walls. First-line treatment is TMP-SMX. Adjunctive corticosteroids (oral prednisone, tapered over 21 days) are recommended when room-air PaO2 is below 70 mm Hg or the A-a gradient is 35 mm Hg or more. His PaO2 is 62, so he needs both. Note: some of her documents use the old name Pneumocystis carinii. The human organism is now called P. jirovecii, and it was reclassified from a protozoan to a fungus based on molecular analysis.",
+      "whyWrong": {
+        "a": "TMP-SMX is right, but his PaO2 is below 70 mm Hg, so prednisone should be added.",
+        "b": "Pneumocystis is classed as a fungus, but its first-line treatment is TMP-SMX, not amphotericin.",
+        "c": "Azithromycin is not a PCP treatment. MSD lists TMP-SMX first, with alternatives such as clindamycin plus primaquine, pentamidine, and atovaquone.",
+        "e": "Ganciclovir treats cytomegalovirus, not Pneumocystis."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Pneumocystis jirovecii Pneumonia",
+          "url": "https://www.msdmanuals.com/professional/pulmonary-disorders/pneumonia/pneumocystis-jirovecii-pneumonia"
+        },
+        {
+          "title": "CDC DPDx: Pneumocystis",
+          "url": "https://www.cdc.gov/dpdx/pneumocystis"
+        }
+      ]
+    },
+    {
+      "id": "biochem-von-gierke-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "General Principles",
+      "topic": "Glycogen storage diseases",
+      "difficulty": 2,
+      "stem": "A 4-month-old girl is brought in after a seizure early in the morning, about 4 hours after her last feed. She has been sweaty and irritable between feeds. She is short for her age, with thin arms and legs, and has a markedly enlarged liver; both kidneys are enlarged on ultrasound. Blood glucose is 32 mg/dL. Lactate, triglycerides, and uric acid are all elevated.",
+      "leadIn": "Deficiency of which enzyme is most likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Glucose-6-phosphatase"
+        },
+        {
+          "id": "b",
+          "text": "Acid alpha-glucosidase (acid maltase)"
+        },
+        {
+          "id": "c",
+          "text": "Glycogen debranching enzyme"
+        },
+        {
+          "id": "d",
+          "text": "Muscle glycogen phosphorylase (myophosphorylase)"
+        },
+        {
+          "id": "e",
+          "text": "Aldolase B"
+        }
+      ],
+      "answer": "a",
+      "explanation": "This is glycogen storage disease type I (von Gierke disease). Signs usually appear around 3 to 4 months of age. Glucose-6-phosphatase, made from the G6PC1 gene, works in the liver, kidneys, and intestine. It splits glucose-6-phosphate to release free glucose, and it is the main regulator of glucose production in the liver. Without it, the liver cannot release glucose between feeds. The result is low blood sugar, an enlarged liver and kidneys, lactic acidosis, high blood fats (hyperlipidemia), high uric acid (which can lead to gout), and short stature with thin arms and legs. Type Ia is the enzyme defect. Type Ib is a defect in the glucose-6-phosphate transport protein (SLC37A4) and also causes neutropenia. Inheritance is autosomal recessive.",
+      "whyWrong": {
+        "b": "Acid alpha-glucosidase deficiency (Pompe disease, type II) stores glycogen in lysosomes. The classic infant form causes heart problems and floppiness (hypotonia), not fasting hypoglycemia.",
+        "c": "Debranching enzyme deficiency (type III) also causes hypoglycemia and an enlarged liver, but the stored glycogen is abnormal and muscle weakness can appear later in life. The combination of lactic acidosis, high uric acid, and high lipids is the pattern described for type I.",
+        "d": "Myophosphorylase deficiency (McArdle disease, type V) affects muscle only: exercise intolerance, cramps, and dark urine, with no liver enlargement or hypoglycemia.",
+        "e": "Aldolase B deficiency (hereditary fructose intolerance) causes symptoms only after fruit, juice, or other fructose enters the diet."
+      },
+      "sources": [
+        {
+          "title": "MedlinePlus Genetics: Glycogen storage disease type I",
+          "url": "https://medlineplus.gov/genetics/condition/glycogen-storage-disease-type-i"
+        },
+        {
+          "title": "MedlinePlus Genetics: G6PC1 gene",
+          "url": "https://medlineplus.gov/genetics/gene/g6pc1"
+        },
+        {
+          "title": "MedlinePlus Genetics: Pompe disease",
+          "url": "https://medlineplus.gov/genetics/condition/pompe-disease/"
+        },
+        {
+          "title": "MedlinePlus Genetics: Glycogen storage disease type III",
+          "url": "https://medlineplus.gov/genetics/condition/glycogen-storage-disease-type-iii/"
+        },
+        {
+          "title": "MedlinePlus Medical Encyclopedia: Glycogen storage disease type V (McArdle)",
+          "url": "https://medlineplus.gov/ency/article/000329.htm"
+        },
+        {
+          "title": "MedlinePlus Genetics: Hereditary fructose intolerance",
+          "url": "https://medlineplus.gov/genetics/condition/hereditary-fructose-intolerance"
+        }
+      ]
+    },
+    {
+      "id": "biochem-mcardle-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "Musculoskeletal",
+      "topic": "Glycogen storage diseases",
+      "difficulty": 1,
+      "stem": "A 19-year-old man has had muscle cramps and early fatigue during sprints and weightlifting since his teens. After a hard workout yesterday his urine turned burgundy. He has no hypoglycemia, and his liver is normal in size. Serum creatine kinase is high, and urine tests positive for myoglobin.",
+      "leadIn": "Deficiency of which enzyme is most likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Muscle glycogen phosphorylase (myophosphorylase)"
+        },
+        {
+          "id": "b",
+          "text": "Glucose-6-phosphatase"
+        },
+        {
+          "id": "c",
+          "text": "Acid alpha-glucosidase (acid maltase)"
+        },
+        {
+          "id": "d",
+          "text": "Glycogen debranching enzyme"
+        },
+        {
+          "id": "e",
+          "text": "Aldolase B"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Exercise intolerance, cramps, and burgundy urine from myoglobin after exercise point to glycogen storage disease type V (McArdle disease). Muscle cannot break down its glycogen to fuel hard exercise, because muscle glycogen phosphorylase (myophosphorylase) is missing. Serum creatine kinase is raised and myoglobin may appear in the urine. Inheritance is autosomal recessive. Only the muscle enzyme is affected, which is why his blood sugar and liver are normal.",
+      "whyWrong": {
+        "b": "Glucose-6-phosphatase deficiency (von Gierke) affects the liver and kidneys: fasting hypoglycemia, lactic acidosis, and an enlarged liver.",
+        "c": "Acid alpha-glucosidase deficiency (Pompe) is a lysosomal storage disease. The classic form starts in infancy with heart problems and hypotonia.",
+        "d": "Debranching enzyme deficiency (type III) starts in infancy with hypoglycemia and an enlarged liver. Muscle weakness may come later in life.",
+        "e": "Aldolase B deficiency causes vomiting and hypoglycemia after eating fructose, not exercise-induced muscle injury."
+      },
+      "sources": [
+        {
+          "title": "MedlinePlus Medical Encyclopedia: Glycogen storage disease type V (McArdle)",
+          "url": "https://medlineplus.gov/ency/article/000329.htm"
+        },
+        {
+          "title": "MedlinePlus Genetics: Glycogen storage disease type I",
+          "url": "https://medlineplus.gov/genetics/condition/glycogen-storage-disease-type-i"
+        },
+        {
+          "title": "MedlinePlus Genetics: Pompe disease",
+          "url": "https://medlineplus.gov/genetics/condition/pompe-disease/"
+        },
+        {
+          "title": "MedlinePlus Genetics: Glycogen storage disease type III",
+          "url": "https://medlineplus.gov/genetics/condition/glycogen-storage-disease-type-iii/"
+        },
+        {
+          "title": "MedlinePlus Genetics: Hereditary fructose intolerance",
+          "url": "https://medlineplus.gov/genetics/condition/hereditary-fructose-intolerance"
+        }
+      ]
+    },
+    {
+      "id": "biochem-hfi-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "Gastrointestinal",
+      "topic": "Fructose and galactose disorders",
+      "difficulty": 1,
+      "stem": "A 7-month-old boy was healthy while exclusively breastfed. Since apple juice and pureed fruit were added to his diet 3 weeks ago, he has had vomiting, bloating, and diarrhea after meals. Today he is lethargic, his skin is yellow, and his liver is enlarged. Blood glucose is 38 mg/dL.",
+      "leadIn": "Deficiency of which enzyme is most likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Aldolase B"
+        },
+        {
+          "id": "b",
+          "text": "Galactose-1-phosphate uridylyltransferase (GALT)"
+        },
+        {
+          "id": "c",
+          "text": "Galactokinase"
+        },
+        {
+          "id": "d",
+          "text": "Glucose-6-phosphatase"
+        },
+        {
+          "id": "e",
+          "text": "Acid alpha-glucosidase (acid maltase)"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Symptoms that start only when fruit and juice enter the diet are hereditary fructose intolerance. It is an autosomal recessive lack of aldolase B (from the ALDOB gene). Fructose-1-phosphate then builds up in liver cells, which is toxic and kills liver cells over time. After fructose, patients have nausea, bloating, abdominal pain, vomiting, diarrhea, and low blood sugar. Liver damage causes jaundice. Most affected people learn to dislike fruit, juice, and other fructose-containing foods.",
+      "whyWrong": {
+        "b": "GALT deficiency (classic galactosemia) causes feeding problems, lethargy, jaundice, liver damage, and sepsis within days of birth; cataracts can follow. Lactose, the sugar that contains galactose, is in dairy products and many baby formulas. His symptoms started with fruit, not milk.",
+        "c": "Galactokinase deficiency mainly causes cataracts, with few other problems.",
+        "d": "Glucose-6-phosphatase deficiency (von Gierke) causes fasting hypoglycemia from about 3 to 4 months of age, regardless of what the infant eats.",
+        "e": "Acid alpha-glucosidase deficiency (Pompe) stores glycogen in lysosomes and causes heart problems and hypotonia in infants."
+      },
+      "sources": [
+        {
+          "title": "MedlinePlus Genetics: Hereditary fructose intolerance",
+          "url": "https://medlineplus.gov/genetics/condition/hereditary-fructose-intolerance"
+        },
+        {
+          "title": "MedlinePlus Genetics: Galactosemia",
+          "url": "https://medlineplus.gov/genetics/condition/galactosemia/"
+        },
+        {
+          "title": "MedlinePlus Genetics: Glycogen storage disease type I",
+          "url": "https://medlineplus.gov/genetics/condition/glycogen-storage-disease-type-i"
+        },
+        {
+          "title": "MedlinePlus Genetics: Pompe disease",
+          "url": "https://medlineplus.gov/genetics/condition/pompe-disease/"
+        }
+      ]
+    },
+    {
+      "id": "biochem-gaucher-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Lysosomal storage diseases",
+      "difficulty": 2,
+      "stem": "A 34-year-old woman of Ashkenazi Jewish heritage has bone pain in her thighs and easy bruising. Her spleen is markedly enlarged, and her liver is also enlarged. Platelets are 68,000/mm3. She has no neurologic symptoms, and her eye exam is normal.",
+      "leadIn": "Deficiency of which enzyme is most likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Glucocerebrosidase (GBA)"
+        },
+        {
+          "id": "b",
+          "text": "Beta-galactosidase"
+        },
+        {
+          "id": "c",
+          "text": "Beta-hexosaminidase A"
+        },
+        {
+          "id": "d",
+          "text": "Acid sphingomyelinase"
+        },
+        {
+          "id": "e",
+          "text": "Alpha-galactosidase A"
+        }
+      ],
+      "answer": "a",
+      "explanation": "An enlarged spleen and liver, bone pain, and low platelets in an adult of Ashkenazi Jewish heritage, with no neurologic signs, is Gaucher disease type 1, the most common type. A lack of glucocerebrosidase (GBA) lets harmful substances build up in the liver, spleen, bones, and bone marrow. Enzyme replacement therapy supplies the missing GBA and helps shrink the spleen, ease bone pain, and raise the platelet count. Note: some review tables list the Gaucher enzyme as beta-galactosidase. That is an error. The deficient enzyme is glucocerebrosidase.",
+      "whyWrong": {
+        "b": "Beta-galactosidase is not the enzyme in Gaucher disease. Gaucher disease is a lack of glucocerebrosidase (GBA).",
+        "c": "Beta-hexosaminidase A deficiency is Tay-Sachs disease. Infants develop normally until 3 to 6 months, then lose skills, and have a cherry-red spot on eye exam.",
+        "d": "Acid sphingomyelinase deficiency is Niemann-Pick disease. In type A, infants have an enlarged liver and spleen by 3 months, a cherry-red spot, and loss of mental and motor skills.",
+        "e": "Alpha-galactosidase A deficiency is Fabry disease (X-linked). It causes pain in the hands and feet, angiokeratomas, less sweating, and kidney and heart disease."
+      },
+      "sources": [
+        {
+          "title": "MedlinePlus Medical Encyclopedia: Gaucher disease",
+          "url": "https://medlineplus.gov/ency/article/000564.htm"
+        },
+        {
+          "title": "MedlinePlus Genetics: Tay-Sachs disease",
+          "url": "https://medlineplus.gov/genetics/condition/tay-sachs-disease/"
+        },
+        {
+          "title": "MedlinePlus Genetics: Niemann-Pick disease",
+          "url": "https://medlineplus.gov/genetics/condition/niemann-pick-disease/"
+        },
+        {
+          "title": "MedlinePlus Genetics: Fabry disease",
+          "url": "https://medlineplus.gov/genetics/condition/fabry-disease/"
+        }
+      ]
+    },
+    {
+      "id": "biochem-otc-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "General Principles",
+      "topic": "Urea cycle disorders",
+      "difficulty": 2,
+      "stem": "A 3-day-old boy, born at term after a normal pregnancy, is feeding poorly, vomiting, and becoming hard to wake. He breathes fast and is floppy. Plasma ammonia is markedly elevated. Arterial blood gas shows respiratory alkalosis, and the anion gap is normal. Blood glucose is normal. His mother's brother died in the first week of life.",
+      "leadIn": "Which additional laboratory finding is most likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "High urinary orotic acid and low plasma citrulline"
+        },
+        {
+          "id": "b",
+          "text": "Normal urinary orotic acid and low plasma citrulline"
+        },
+        {
+          "id": "c",
+          "text": "High plasma glutamine and high plasma citrulline"
+        },
+        {
+          "id": "d",
+          "text": "High anion gap metabolic acidosis"
+        },
+        {
+          "id": "e",
+          "text": "Hypoglycemia with low ketones"
+        }
+      ],
+      "answer": "a",
+      "explanation": "A newborn boy with very high ammonia, respiratory alkalosis with a normal anion gap, and an affected maternal uncle has ornithine transcarbamylase (OTC) deficiency. It is X-linked and is the most common urea cycle disorder. OTC transfers the carbamoyl group from carbamoyl phosphate to ornithine, making citrulline. When it is missing, plasma citrulline falls, glutamine rises, and urinary orotic acid is high. High orotic acid is how OTC deficiency is told apart from NAGS and CPS I deficiency. The severe newborn form usually affects males, but many carrier females also have symptoms. Long-term care includes a low-protein diet, sodium phenylbutyrate or sodium benzoate, and citrulline or arginine supplements.",
+      "whyWrong": {
+        "b": "Normal orotic acid with low citrulline fits a block before carbamoyl phosphate is made (CPS I or NAGS deficiency). Urinary orotic acid is the test that separates these from OTC deficiency.",
+        "c": "Glutamine is high in OTC deficiency, but citrulline is low, because OTC is the enzyme that makes citrulline.",
+        "d": "Urea cycle disorders typically cause respiratory alkalosis with a normal anion gap, as in this infant.",
+        "e": "Hypoglycemia with low ketones during fasting or illness points to a fatty acid oxidation disorder such as MCAD deficiency. His glucose is normal."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Ornithine Transcarbamylase Deficiency",
+          "url": "https://www.statpearls.com/point-of-care/26336"
+        },
+        {
+          "title": "MedlinePlus Genetics: Ornithine transcarbamylase deficiency",
+          "url": "https://medlineplus.gov/genetics/condition/ornithine-transcarbamylase-deficiency"
+        },
+        {
+          "title": "StatPearls: Medium-Chain Acyl-CoA Dehydrogenase Deficiency (MCADD)",
+          "url": "https://www.statpearls.com/point-of-care/24897"
+        }
+      ]
+    },
+    {
+      "id": "biochem-mcad-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "General Principles",
+      "topic": "Fatty acid oxidation disorders",
+      "difficulty": 2,
+      "stem": "An 18-month-old boy with gastroenteritis has barely eaten for 20 hours. He becomes very drowsy and has a seizure. Blood glucose is 28 mg/dL, and urine and blood ketones are inappropriately low. Plasma acylcarnitines show high octanoylcarnitine (C8) and decanoylcarnitine (C10). Ammonia is normal.",
+      "leadIn": "Which of the following is the most important part of his long-term management?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Avoid prolonged fasting and give glucose promptly during illness"
+        },
+        {
+          "id": "b",
+          "text": "Schedule long overnight fasts to raise ketone production"
+        },
+        {
+          "id": "c",
+          "text": "Daily carnitine supplements for every patient with this condition"
+        },
+        {
+          "id": "d",
+          "text": "Enzyme replacement therapy"
+        },
+        {
+          "id": "e",
+          "text": "A low-protein diet with sodium benzoate"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Hypoketotic hypoglycemia (low sugar without the expected ketones) during fasting or illness, with high C8 and C10 acylcarnitines, is medium-chain acyl-CoA dehydrogenase deficiency (MCADD). Medium-chain fatty acids cannot be broken down for energy or turned into ketones, so a fasting child runs out of fuel. Gastroenteritis is a classic trigger. MCADD is autosomal recessive (ACADM gene), and most cases are now found by newborn screening with tandem mass spectrometry. There is no definitive cure. Management centers on preventing prolonged fasting, dietary measures, and giving glucose promptly during illness.",
+      "whyWrong": {
+        "b": "Prolonged fasting is exactly what triggers a crisis, because these children cannot make enough ketones from fat.",
+        "c": "Carnitine has been used, but its benefit has not been shown consistently, so it is reserved for selected severe cases.",
+        "d": "There is no enzyme replacement or definitive cure for MCADD.",
+        "e": "A low-protein diet with sodium benzoate is long-term treatment for urea cycle disorders such as OTC deficiency, which cause high ammonia. His ammonia is normal."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Medium-Chain Acyl-CoA Dehydrogenase Deficiency (MCADD)",
+          "url": "https://www.statpearls.com/point-of-care/24897"
+        },
+        {
+          "title": "StatPearls: Ornithine Transcarbamylase Deficiency",
+          "url": "https://www.statpearls.com/point-of-care/26336"
+        }
+      ]
+    },
+    {
+      "id": "genetics-melas-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Genetics",
+      "system": "Nervous System & Special Senses",
+      "topic": "Mitochondrial disorders",
+      "difficulty": 2,
+      "stem": "A 24-year-old woman has had two episodes of sudden headache, vomiting, and temporary loss of vision on one side. MRI shows lesions that look like strokes but do not follow a single artery's territory. Serum lactate is high. Her mother has a similar illness. Her mother's sister is affected, and so are both of that sister's children. Her mother's brother is also affected, but all four of his children, including two daughters, are healthy.",
+      "leadIn": "Which inheritance pattern best explains this family?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mitochondrial (maternal) inheritance"
+        },
+        {
+          "id": "b",
+          "text": "Autosomal recessive"
+        },
+        {
+          "id": "c",
+          "text": "Autosomal dominant"
+        },
+        {
+          "id": "d",
+          "text": "X-linked dominant"
+        },
+        {
+          "id": "e",
+          "text": "X-linked recessive"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Stroke-like episodes before age 40 with lactic acidosis are MELAS (mitochondrial encephalomyopathy, lactic acidosis, and stroke-like episodes). Variants in one mitochondrial transfer RNA gene, MT-TL1, cause more than 80% of cases. Mitochondrial DNA comes only from the mother, so affected women pass the condition on, and fathers do not pass mtDNA traits to their children. That fits this family: the affected sister has affected children, while the affected brother's children are all healthy. Note: some review tables list MELAS as autosomal recessive. MELAS itself follows mitochondrial (maternal) inheritance.",
+      "whyWrong": {
+        "b": "Autosomal recessive disorders are typically not seen in every generation. This one appears in three straight generations of the mother's family.",
+        "c": "One altered copy is enough for an autosomal dominant disorder, and an affected father can pass it to his children. The affected brother has four children and none is affected.",
+        "d": "Every daughter gets her father's X chromosome, so an affected father passes an X-linked dominant trait to all of his daughters. His two daughters are healthy.",
+        "e": "Males are affected by X-linked recessive disorders much more often than females. Here several women are affected."
+      },
+      "sources": [
+        {
+          "title": "MedlinePlus Genetics: MELAS",
+          "url": "https://medlineplus.gov/genetics/condition/mitochondrial-encephalomyopathy-lactic-acidosis-and-stroke-like-episodes"
+        },
+        {
+          "title": "MedlinePlus Genetics: What are the different ways a genetic condition can be inherited?",
+          "url": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns"
+        }
+      ]
+    },
+    {
+      "id": "neuro-wallenberg-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Nervous System & Special Senses",
+      "topic": "Lateral medullary (Wallenberg) syndrome",
+      "difficulty": 2,
+      "stem": "A 67-year-old man has sudden vertigo, nausea, hoarseness, and difficulty swallowing. Examination shows nystagmus, a drooping left eyelid with a small left pupil, reduced pain sensation over the left side of his face, and reduced pain and temperature sensation over his right arm and leg. Strength is normal in all limbs. MRI shows an acute infarct in the left lateral medulla.",
+      "leadIn": "Damage to which of the following structures best explains his hoarseness and difficulty swallowing?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nucleus ambiguus"
+        },
+        {
+          "id": "b",
+          "text": "Spinal (descending) trigeminal tract and nucleus"
+        },
+        {
+          "id": "c",
+          "text": "Lateral spinothalamic tract"
+        },
+        {
+          "id": "d",
+          "text": "Descending sympathetic fibers"
+        },
+        {
+          "id": "e",
+          "text": "Inferior vestibular nucleus"
+        }
+      ],
+      "answer": "a",
+      "explanation": "This is lateral medullary (Wallenberg) syndrome. Its signature is crossed sensory loss: the face on the side of the lesion and the arm and leg on the opposite side. The nucleus ambiguus holds the motor neurons of cranial nerves IX and X, which run the throat and voice box. Damage causes difficulty swallowing (dysphagia), hoarseness (dysphonia), and slurred speech on the same side as the lesion. The usual cause is occlusion of the vertebral artery or its branch, the posterior inferior cerebellar artery (PICA), which supplies the lateral medulla. An older StatPearls review put vertebral artery occlusion at about 80% of cases. Limb weakness is minimal or absent.",
+      "whyWrong": {
+        "b": "The descending trigeminal tract carries pain sensation from the face on the same side. Damage explains his left facial sensory loss, not his swallowing problem.",
+        "c": "The spinothalamic tract has already crossed, so damage causes pain and temperature loss in the opposite (right) arm and leg.",
+        "d": "Descending sympathetic fibers cause Horner syndrome on the same side: ptosis, a small pupil (miosis), and loss of sweating.",
+        "e": "Inferior vestibular nucleus damage causes his vertigo and nystagmus."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Neuroanatomy, Nucleus Ambiguus",
+          "url": "https://www.statpearls.com/point-of-care/26017"
+        },
+        {
+          "title": "MSD Manual Professional: Overview of Stroke",
+          "url": "https://www.msdmanuals.com/professional/neurologic-disorders/stroke/overview-of-stroke"
+        },
+        {
+          "title": "StatPearls (archived): Wallenberg Syndrome",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK470174/"
+        }
+      ]
+    },
+    {
+      "id": "anat-epidural-hematoma-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Nervous System & Special Senses",
+      "topic": "Epidural vs subdural hematoma",
+      "difficulty": 1,
+      "stem": "A 19-year-old baseball player is struck on the right side of the head by a pitch. He is briefly unconscious, then wakes and talks normally in the emergency department. Two hours later he becomes drowsy and his right pupil is dilated. CT of the head shows a fracture of the squamous part of the right temporal bone and a biconvex (lens-shaped) hyperdense collection beneath it that does not cross the suture lines.",
+      "leadIn": "Bleeding from which of the following is the most likely cause of this collection?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A branch of the middle meningeal artery"
+        },
+        {
+          "id": "b",
+          "text": "Torn bridging veins"
+        },
+        {
+          "id": "c",
+          "text": "A ruptured saccular (berry) aneurysm"
+        },
+        {
+          "id": "d",
+          "text": "Charcot-Bouchard microaneurysms of small penetrating arteries"
+        },
+        {
+          "id": "e",
+          "text": "Cortical vessels weakened by amyloid deposits"
+        }
+      ],
+      "answer": "a",
+      "explanation": "This is an epidural hematoma (EDH). Most EDHs are arterial bleeds from a branch of the middle meningeal artery, usually under a skull fracture over the squamous temporal bone. On CT the clot is biconvex (lentiform) and rarely crosses suture lines. The classic lucid interval (knocked out, awake, then worse) occurs in only about 14% to 21% of patients with EDH. His new dilated pupil on the same side warns of uncal herniation compressing cranial nerve III. Symptomatic acute EDH is treated with craniotomy and evacuation of the hematoma.",
+      "whyWrong": {
+        "b": "Torn bridging veins cause a subdural hematoma, which is crescent-shaped and often crosses suture lines.",
+        "c": "A ruptured intracranial aneurysm causes subarachnoid hemorrhage (about 85% of nontraumatic cases), with a sudden severe 'worst headache of my life.'",
+        "d": "Charcot-Bouchard aneurysms form in small deep arterioles damaged by chronic hypertension. They cause bleeding inside the brain tissue (intracerebral hemorrhage), often in the basal ganglia, thalamus, or pons.",
+        "e": "Amyloid angiopathy causes lobar intracerebral hemorrhages in older patients, not a traumatic bleed outside the dura."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Epidural Hematoma",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK518982/"
+        },
+        {
+          "title": "StatPearls: Intracerebral Hemorrhagic Stroke",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK553103/"
+        },
+        {
+          "title": "StatPearls: Transtentorial Herniation",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK560536/"
+        },
+        {
+          "title": "StatPearls: Subarachnoid Hemorrhage",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK441958/"
+        }
+      ]
+    },
+    {
+      "id": "path-sah-aneurysm-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Nervous System & Special Senses",
+      "topic": "Subarachnoid hemorrhage",
+      "difficulty": 2,
+      "stem": "A 42-year-old woman with autosomal dominant polycystic kidney disease (ADPKD) had a sudden, severe headache while lifting a box 4 days ago. She calls it the worst headache of her life. She vomited and has had a stiff neck since. She waited to come in because the pain slowly eased. Noncontrast CT of the head shows no blood. Lumbar puncture shows xanthochromic (yellow-tinged) cerebrospinal fluid.",
+      "leadIn": "Which of the following is the most likely cause of her bleeding?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rupture of a saccular (berry) aneurysm"
+        },
+        {
+          "id": "b",
+          "text": "Tearing of bridging veins"
+        },
+        {
+          "id": "c",
+          "text": "Laceration of the middle meningeal artery"
+        },
+        {
+          "id": "d",
+          "text": "Hypertensive rupture of small penetrating arterioles"
+        },
+        {
+          "id": "e",
+          "text": "Amyloid deposition in cortical vessels"
+        }
+      ],
+      "answer": "a",
+      "explanation": "A sudden 'worst headache of my life' with vomiting and a stiff neck is subarachnoid hemorrhage (SAH) until proven otherwise. About 85% of nontraumatic SAH comes from a ruptured intracranial aneurysm, and ADPKD raises the risk of aneurysm rupture. Head CT is the first test. It is very sensitive early, but its sensitivity drops over the following days as blood in the cerebrospinal fluid breaks down. That is why her CT on day 4 was normal. When CT is negative and suspicion is strong, a lumbar puncture looks for xanthochromia, the yellow color left by broken-down blood. In aneurysmal SAH, oral nimodipine is given for 21 days to lower the risk of delayed cerebral ischemia. Recent change: many review notes say nimodipine works by preventing vasospasm. StatPearls now describes it as the only treatment with consistent high-quality evidence for reducing delayed cerebral ischemia, and early trials showed that benefit without any effect on vasospasm itself.",
+      "whyWrong": {
+        "b": "Torn bridging veins cause a subdural hematoma, usually after trauma.",
+        "c": "Middle meningeal artery bleeding causes an epidural hematoma after a skull fracture, not a spontaneous bleed into the cerebrospinal fluid.",
+        "d": "Chronic hypertension damages small penetrating arterioles (lipohyalinosis, Charcot-Bouchard aneurysms) and causes deep intracerebral hemorrhage, not subarachnoid blood.",
+        "e": "Amyloid angiopathy causes lobar hemorrhages in older patients."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Subarachnoid Hemorrhage",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK441958/"
+        },
+        {
+          "title": "StatPearls: Epidural Hematoma",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK518982/"
+        },
+        {
+          "title": "StatPearls: Intracerebral Hemorrhagic Stroke",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK553103/"
+        }
+      ]
+    },
+    {
+      "id": "biochem-scd-b12-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "Nervous System & Special Senses",
+      "topic": "Subacute combined degeneration (vitamin B12)",
+      "difficulty": 2,
+      "stem": "A 58-year-old woman with type 2 diabetes has taken metformin for 10 years. For 6 months she has had tingling in her feet and feels unsteady walking in the dark. Examination shows loss of vibration and position sense in both legs, a positive Romberg sign, spastic leg weakness, extensor plantar responses (Babinski signs), and absent ankle reflexes. Hemoglobin and mean corpuscular volume are normal.",
+      "leadIn": "Which of the following laboratory findings is most likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Elevated methylmalonic acid and elevated homocysteine"
+        },
+        {
+          "id": "b",
+          "text": "Elevated homocysteine with normal methylmalonic acid"
+        },
+        {
+          "id": "c",
+          "text": "Normal methylmalonic acid and normal homocysteine"
+        },
+        {
+          "id": "d",
+          "text": "Positive acetylcholine receptor antibodies"
+        },
+        {
+          "id": "e",
+          "text": "Elevated methylmalonic acid with normal homocysteine"
+        }
+      ],
+      "answer": "a",
+      "explanation": "This is subacute combined degeneration from vitamin B12 deficiency. It damages two parts of the spinal cord. The dorsal columns carry vibration and position sense, so damage causes sensory ataxia and a positive Romberg sign. The lateral corticospinal tracts carry movement signals, so damage causes spastic weakness and Babinski signs (ankle reflexes are usually absent). Metformin causes B12 deficiency in about 10% to 30% of patients. B12 is the cofactor for two enzymes: methylmalonyl-CoA mutase and homocysteine methyltransferase (which turns homocysteine into methionine). So B12 deficiency raises both methylmalonic acid (MMA) and homocysteine. MMA is a more accurate marker than the serum B12 level. Patients with neurologic signs are best treated with B12 by injection at first, and some deficits may be permanent.",
+      "whyWrong": {
+        "b": "High homocysteine with normal MMA points to folate deficiency. MMA rises only in B12 deficiency.",
+        "c": "Subacute combined degeneration can occur without anemia or macrocytosis, and nerve symptoms may come before blood changes. A normal blood count does not rule out B12 deficiency.",
+        "d": "Acetylcholine receptor antibodies cause myasthenia gravis, which gives fatigable muscle weakness without sensory loss.",
+        "e": "B12 is also the cofactor for homocysteine methyltransferase, which turns homocysteine into methionine, so B12 deficiency raises homocysteine as well as MMA."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Subacute Combined Degeneration",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK559316/"
+        },
+        {
+          "title": "StatPearls: Myasthenia Gravis",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK559331/"
+        }
+      ]
+    },
+    {
+      "id": "pharm-absence-ethosuximide-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Nervous System & Special Senses",
+      "topic": "Absence seizures",
+      "difficulty": 1,
+      "stem": "A 7-year-old girl's teacher reports that she stares blankly many times a day, often stopping mid-sentence for about 10 seconds and then carrying on as if nothing happened. She is not confused afterward. In the clinic, an episode starts when she is asked to breathe fast for 3 minutes. EEG shows 3-Hz spike-and-wave discharges in both hemispheres that start and stop abruptly.",
+      "leadIn": "Which of the following is the most appropriate first-line drug?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ethosuximide"
+        },
+        {
+          "id": "b",
+          "text": "Carbamazepine"
+        },
+        {
+          "id": "c",
+          "text": "Phenytoin"
+        },
+        {
+          "id": "d",
+          "text": "Gabapentin"
+        },
+        {
+          "id": "e",
+          "text": "Vigabatrin"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Brief staring spells with no confusion afterward, set off by hyperventilation, with 3-Hz spike-and-wave on EEG are absence seizures. Ethosuximide is the first-line treatment. It is preferred over valproate (which did worse on attention measures in a 2010 trial) and lamotrigine. Ethosuximide suppresses T-type calcium channels in thalamic neurons, part of the cortex-thalamus-cortex circuit behind absence seizures. Its most common side effects are abdominal pain and nausea, so it is taken with meals. Valproate should be avoided in women of childbearing age who are not using contraception.",
+      "whyWrong": {
+        "b": "Carbamazepine is a sodium channel blocker. Drugs in this class can make absence seizures worse.",
+        "c": "Phenytoin is also a sodium channel blocker and can worsen absence seizures.",
+        "d": "Gabapentin is on the list of drugs that can worsen absence seizures.",
+        "e": "Vigabatrin raises GABA activity, including at GABA-B receptors, and can increase absence seizure frequency."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Absence Seizure",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK499867/"
+        }
+      ]
+    },
+    {
+      "id": "path-myasthenia-gravis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Nervous System & Special Senses",
+      "topic": "Myasthenia gravis",
+      "difficulty": 1,
+      "stem": "A 32-year-old woman has 2 months of double vision and drooping eyelids that are mild in the morning and worse by evening. Her jaw tires toward the end of meals. Pupils, sensation, and reflexes are normal. After an ice pack is held over her drooping eyelid for 2 minutes, the ptosis improves.",
+      "leadIn": "Autoantibodies against which of the following are most likely causing her symptoms?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Postsynaptic nicotinic acetylcholine receptors"
+        },
+        {
+          "id": "b",
+          "text": "Presynaptic voltage-gated calcium channels"
+        },
+        {
+          "id": "c",
+          "text": "Muscle-specific kinase (MuSK)"
+        },
+        {
+          "id": "d",
+          "text": "Acetylcholinesterase"
+        },
+        {
+          "id": "e",
+          "text": "Low-density lipoprotein receptor-related protein 4 (LRP4)"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Fluctuating, fatigable weakness that is worse later in the day, with ptosis and double vision, is myasthenia gravis (MG). Eye muscle weakness is the first sign in about 85% of patients. Antibodies against the acetylcholine receptor are found in about 80% of generalized MG, making them the most likely cause. The ice pack test (2 to 5 minutes over the eye) improves ptosis in MG. Repetitive nerve stimulation at 2 to 3 Hz shows a falling (decremental) response. About 10% of patients have a thymoma. First-line symptom treatment is pyridostigmine, an acetylcholinesterase inhibitor that raises acetylcholine at the neuromuscular junction. Recent change: her notes list the edrophonium (Tensilon) test. Edrophonium was discontinued by the FDA in 2018 and is no longer available in the United States; it had a high false-positive rate, and antibody testing is now the gold standard.",
+      "whyWrong": {
+        "b": "Antibodies to presynaptic voltage-gated calcium channels cause Lambert-Eaton syndrome, where weakness improves with exercise.",
+        "c": "MuSK antibodies are much less common, found in about 5% to 10% of patients with MG, mainly those without acetylcholine receptor antibodies.",
+        "d": "Acetylcholinesterase breaks down acetylcholine. Blocking it with pyridostigmine is the treatment, not the cause.",
+        "e": "LRP4 is another, less common antibody target in MG. Acetylcholine receptor antibodies are far more common."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Myasthenia Gravis",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK559331/"
+        },
+        {
+          "title": "StatPearls: Edrophonium (archived 2023)",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK554566/"
+        }
+      ]
+    },
+    {
+      "id": "pharm-angle-closure-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Nervous System & Special Senses",
+      "topic": "Acute angle-closure glaucoma",
+      "difficulty": 2,
+      "stem": "A 64-year-old farsighted woman has an eye exam with dilating drops. That evening she develops severe pain in the left eye, headache, nausea, vomiting, blurred vision, and rainbow-colored halos around lights. The left eye is red and the pupil is fixed and mid-dilated. Intraocular pressure is markedly elevated. Drugs are given to lower the pressure.",
+      "leadIn": "Which of the following is the definitive treatment for this condition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Laser peripheral iridotomy"
+        },
+        {
+          "id": "b",
+          "text": "Topical timolol"
+        },
+        {
+          "id": "c",
+          "text": "Oral acetazolamide"
+        },
+        {
+          "id": "d",
+          "text": "Topical pilocarpine"
+        },
+        {
+          "id": "e",
+          "text": "Topical atropine"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Sudden eye pain, headache, nausea and vomiting, halos around lights, and a fixed mid-dilated pupil after pupil dilation is acute angle-closure glaucoma. Farsighted (hyperopic) eyes are at higher risk. In pupillary block, fluid trapped behind the iris pushes the outer iris forward against the trabecular meshwork, closing the drainage angle. Drugs such as acetazolamide, mannitol, timolol, apraclonidine, and pilocarpine lower the pressure quickly, but laser peripheral iridotomy is the treatment of choice. The other eye usually gets a preventive iridotomy too.",
+      "whyWrong": {
+        "b": "Timolol lowers pressure quickly and is part of first aid, but it does not remove the pupillary block.",
+        "c": "Acetazolamide lowers pressure fast, but it is a bridge to iridotomy, not the definitive fix.",
+        "d": "Pilocarpine is part of medical treatment, usually once pressure is below 40 mm Hg. It does not remove the block for good.",
+        "e": "Atropine is an anticholinergic pupil dilator. Dilators like this are linked to triggering angle closure."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Acute Angle-Closure Glaucoma",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK430857/"
+        }
+      ],
+      "readMore": [
+        {
+          "title": "EyeWiki: Drug-induced Acute Angle Closure Glaucoma",
+          "url": "https://eyewiki.org/Drug-induced_Acute_Angle_Closure_Glaucoma"
+        }
+      ]
+    },
+    {
+      "id": "neuro-uncal-herniation-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Nervous System & Special Senses",
+      "topic": "Uncal (transtentorial) herniation",
+      "difficulty": 2,
+      "stem": "A 55-year-old man is admitted with a large right temporal lobe hemorrhage. Over several hours he becomes harder to wake. His right pupil is now dilated and does not react to light. He has new weakness of the left arm and leg.",
+      "leadIn": "Compression of which of the following structures best explains the right pupil finding?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Right oculomotor nerve (cranial nerve III)"
+        },
+        {
+          "id": "b",
+          "text": "Left oculomotor nerve (cranial nerve III)"
+        },
+        {
+          "id": "c",
+          "text": "Right cerebral peduncle"
+        },
+        {
+          "id": "d",
+          "text": "Right descending sympathetic pathway"
+        },
+        {
+          "id": "e",
+          "text": "Dorsal midbrain"
+        }
+      ],
+      "answer": "a",
+      "explanation": "This is uncal (transtentorial) herniation. The uncus, the inner part of the temporal lobe, is pushed down through the opening in the tentorium cerebelli. The hallmark is a fixed, dilated pupil on the same side as the mass, from compression of the oculomotor nerve. Pressure on the same-side cerebral peduncle in the midbrain injures the corticospinal tract and causes weakness on the opposite side (his left). If the midbrain is pushed so far that the opposite peduncle hits the tentorial edge (Kernohan notch), weakness can appear on the same side as the mass. This is a false localizing sign. The posterior cerebral artery can also be compressed against the tentorium, causing occipital infarction.",
+      "whyWrong": {
+        "b": "In uncal herniation, the oculomotor nerve on the same side as the mass is compressed, so the right pupil points to the right nerve.",
+        "c": "Pressure on the right cerebral peduncle explains his left-sided weakness, not the pupil change.",
+        "d": "Damage to the sympathetic pathway causes Horner syndrome, with a small (miotic) pupil, not a dilated one.",
+        "e": "Dorsal midbrain compression (Parinaud syndrome) causes 'sun-setting' eyes with forced downgaze."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Transtentorial Herniation",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK560536/"
+        },
+        {
+          "title": "MSD Manual Professional: Effects of Brain Herniation (table)",
+          "url": "https://www.msdmanuals.com/professional/multimedia/table/effects-of-brain-herniation"
+        },
+        {
+          "title": "StatPearls: Neuroanatomy, Nucleus Ambiguus",
+          "url": "https://www.statpearls.com/point-of-care/26017"
+        }
+      ]
+    },
+    {
+      "id": "anat-anencephaly-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Nervous System & Special Senses",
+      "topic": "Neural tube defects",
+      "difficulty": 1,
+      "stem": "A 24-year-old woman at 17 weeks' gestation has a markedly elevated maternal serum alpha-fetoprotein (AFP). She takes valproic acid for epilepsy and took no supplements before pregnancy. Ultrasound shows the top of the fetal skull is missing and there is no brain tissue where the cerebral hemispheres should be.",
+      "leadIn": "This malformation results from failure of which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Closure of the rostral end of the neural tube during week 4"
+        },
+        {
+          "id": "b",
+          "text": "Closure of the caudal end of the neural tube during week 4"
+        },
+        {
+          "id": "c",
+          "text": "Closure of the rostral end of the neural tube during week 8"
+        },
+        {
+          "id": "d",
+          "text": "Secondary neurulation from the tail bud"
+        },
+        {
+          "id": "e",
+          "text": "Formation of the skull vault after normal neural tube closure"
+        }
+      ],
+      "answer": "a",
+      "explanation": "This is anencephaly. The neural tube closes in the fourth week, and anencephaly results when its rostral (head) end fails to close, around days 23 to 26. Without closure, the skull vault and most of the brain do not form, and the condition is not compatible with life. Maternal serum AFP is markedly raised in about 90% of cases, and amniotic fluid shows high AFP plus acetylcholinesterase. Folic acid at 0.4 mg a day or more before conception lowers the risk, especially in women taking antiseizure drugs. Valproate is the most teratogenic antiseizure drug and interferes with folate absorption.",
+      "whyWrong": {
+        "b": "Failure to close the caudal (tail) end causes spina bifida, the other main type of neural tube defect.",
+        "c": "The neural tube closes in week 4, not week 8.",
+        "d": "Secondary neurulation from the tail bud forms the lowest (sacral and coccygeal) part of the cord, not the brain.",
+        "e": "Anencephaly starts with failed closure of the rostral neural tube. The missing skull vault comes with missing brain tissue, so the problem is not the skull alone."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Embryology, Anencephaly",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK545244/"
+        }
+      ]
+    },
+    {
+      "id": "pharm-carbidopa-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Nervous System & Special Senses",
+      "topic": "Parkinson disease drugs",
+      "difficulty": 1,
+      "stem": "A 68-year-old man has a slow, coarse tremor of his right hand that is worst at rest, eases when he reaches for objects, and stops during sleep. He moves slowly and has trouble getting out of chairs. He is started on levodopa combined with carbidopa.",
+      "leadIn": "What is the main reason for adding carbidopa?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It blocks peripheral decarboxylation of levodopa, so less levodopa is needed and peripheral side effects fall"
+        },
+        {
+          "id": "b",
+          "text": "It directly activates dopamine receptors in the basal ganglia"
+        },
+        {
+          "id": "c",
+          "text": "It inhibits monoamine oxidase B, which breaks down dopamine in the brain"
+        },
+        {
+          "id": "d",
+          "text": "It inhibits catechol-O-methyltransferase (COMT) to treat end-of-dose wearing off"
+        },
+        {
+          "id": "e",
+          "text": "It blocks muscarinic receptors to reduce tremor"
+        }
+      ],
+      "answer": "a",
+      "explanation": "A resting tremor of one hand with slowness is typical of Parkinson disease. Pigmented dopamine neurons in the substantia nigra degenerate, and Lewy bodies filled with alpha-synuclein form. Levodopa crosses the blood-brain barrier and is turned into dopamine in the brain. Outside the brain, the enzyme aromatic L-amino acid decarboxylase converts it early. Carbidopa is a peripheral decarboxylase inhibitor. It stops that early conversion, which lowers the levodopa dose needed to reach the brain. If peripheral side effects such as nausea, vomiting, or light-headedness on standing dominate, more carbidopa can help.",
+      "whyWrong": {
+        "b": "Dopamine agonists such as pramipexole and ropinirole directly activate dopamine receptors.",
+        "c": "MAO-B inhibitors such as selegiline and rasagiline block dopamine breakdown in the brain.",
+        "d": "COMT inhibitors such as entacapone block breakdown of levodopa and dopamine and are added when doses wear off early.",
+        "e": "Anticholinergic drugs such as benztropine and trihexyphenidyl work best on tremor. Because of side effects in older adults, they are mostly used in younger patients."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Parkinson Disease",
+          "url": "https://www.msdmanuals.com/professional/neurologic-disorders/movement-and-cerebellar-disorders/parkinson-disease"
+        },
+        {
+          "title": "LiverTox (NCBI Bookshelf): Levodopa",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK548734/"
+        }
+      ]
+    },
+    {
+      "id": "neuro-aca-stroke-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Nervous System & Special Senses",
+      "topic": "Stroke syndromes by artery",
+      "difficulty": 1,
+      "stem": "A 71-year-old woman suddenly develops weakness of her left leg, much worse than in her left arm. Her face is not affected. Her family says she has become apathetic and confused, and she has had urinary incontinence since the event. Language is normal.",
+      "leadIn": "Occlusion of which of the following arteries is most likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Right anterior cerebral artery"
+        },
+        {
+          "id": "b",
+          "text": "Right middle cerebral artery"
+        },
+        {
+          "id": "c",
+          "text": "Left anterior cerebral artery"
+        },
+        {
+          "id": "d",
+          "text": "Right posterior cerebral artery"
+        },
+        {
+          "id": "e",
+          "text": "A lenticulostriate branch"
+        }
+      ],
+      "answer": "a",
+      "explanation": "An anterior cerebral artery (ACA) stroke causes weakness on the opposite side that is worst in the leg, plus urinary incontinence, apathy, confusion, poor judgment, and sometimes a grasp reflex or gait apraxia. Her left-sided weakness points to the right hemisphere.",
+      "whyWrong": {
+        "b": "Middle cerebral artery strokes cause opposite-side weakness worse in the face and arm than the leg, with aphasia (dominant side) or neglect (nondominant side).",
+        "c": "A left ACA stroke would weaken the right leg.",
+        "d": "Posterior cerebral artery strokes cause an opposite-side homonymous hemianopia and memory loss.",
+        "e": "Lenticulostriate (lacunar) strokes cause pure motor or pure sensory syndromes with no cortical signs such as apathy or incontinence."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Overview of Stroke",
+          "url": "https://www.msdmanuals.com/professional/neurologic-disorders/stroke/overview-of-stroke"
         }
       ]
     }
