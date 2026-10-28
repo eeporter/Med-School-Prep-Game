@@ -3224,6 +3224,304 @@
           "url": "https://www.aafp.org/pubs/afp/issues/1999/1015/p1821.html"
         }
       ]
+    },
+    {
+      "id": "pharm-latent-tb-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Respiratory",
+      "topic": "Tuberculosis",
+      "difficulty": 2,
+      "stem": "A 34-year-old nurse has a positive interferon-gamma release assay on routine employee screening. She has no cough, fever, night sweats, or weight loss, and her chest x-ray is normal. She takes no other medications and has normal liver tests.",
+      "leadIn": "Which of the following is the most appropriate treatment?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Isoniazid daily for 9 months"
+        },
+        {
+          "id": "b",
+          "text": "A 3- to 4-month rifamycin-based regimen, such as weekly isoniazid plus rifapentine for 3 months"
+        },
+        {
+          "id": "c",
+          "text": "Rifampin, isoniazid, pyrazinamide, and ethambutol"
+        },
+        {
+          "id": "d",
+          "text": "No treatment; repeat the test in 1 year"
+        },
+        {
+          "id": "e",
+          "text": "Isoniazid daily for 1 month"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Answer: a short rifamycin-based regimen. Why: a positive blood test with no symptoms and a normal chest x-ray means latent TB infection. CDC preferentially recommends short-course, rifamycin-based regimens of 3 or 4 months: 3HP (isoniazid plus rifapentine once weekly for 3 months, 12 doses), 4R (rifampin daily for 4 months), or 3HR (isoniazid plus rifampin daily for 3 months). Isoniazid alone for 6 or 9 months is now an alternative for when a short regimen is not an option, and it carries a higher toxicity risk. Counseling points: rifamycins change the metabolism of many other drugs, and they can turn urine and other body fluids orange and permanently stain contact lenses. Patients should stop the drugs and seek care for persistent numbness or tingling in the hands or feet. Recent change: her notes say to give isoniazid (with vitamin B6) for 9 months when the chest x-ray is negative. CDC now prefers the 3- to 4-month rifamycin regimens.",
+      "whyWrong": {
+        "a": "Nine months of isoniazid is now an alternative, used when a short rifamycin regimen is not an option; it has a higher toxicity risk.",
+        "c": "Four-drug therapy is for active TB disease. She has no symptoms and a normal chest x-ray, so she has latent infection.",
+        "d": "Latent infection can later become active TB, so CDC recommends treating it.",
+        "e": "No CDC regimen is this short. The shortest is 3 months."
+      },
+      "sources": [
+        {
+          "title": "CDC: Treatment Regimens for Latent TB Infection (updated Apr 2025)",
+          "url": "https://www.cdc.gov/tb/hcp/treatment/latent-tuberculosis-infection.html"
+        }
+      ]
+    },
+    {
+      "id": "pharm-hcv-daa-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Gastrointestinal",
+      "topic": "Hepatitis C",
+      "difficulty": 2,
+      "stem": "A 45-year-old man has a positive hepatitis C antibody test and detectable HCV RNA on two tests 6 months apart. His ALT is mildly elevated. He has no cirrhosis, no HIV, and no other medical problems.",
+      "leadIn": "Which of the following is the most appropriate treatment?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pegylated interferon plus ribavirin"
+        },
+        {
+          "id": "b",
+          "text": "Wait another year to see whether the infection clears"
+        },
+        {
+          "id": "c",
+          "text": "An oral direct-acting antiviral regimen for 8 to 12 weeks"
+        },
+        {
+          "id": "d",
+          "text": "Ribavirin alone"
+        },
+        {
+          "id": "e",
+          "text": "Referral for liver transplant"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Answer: oral direct-acting antivirals (DAAs). Why: CDC says clinicians should treat people with detectable HCV RNA using oral DAA therapy, which cures more than 95% of cases in 8 to 12 weeks. The three DAA classes are protease inhibitors, nucleoside analog polymerase inhibitors, and NS5A inhibitors. Before starting, test every patient for hepatitis B (HBsAg, anti-HBs, and total anti-HBc), because hepatitis B can reactivate during treatment; patients who are HBsAg-positive or have isolated anti-HBc are monitored. Recent change: her microbiology notes say chronic hepatitis C is treated with interferon alpha and ribavirin. CDC now says ribavirin with interferon or peginterferon is no longer recommended, because it works poorly and has frequent side effects.",
+      "whyWrong": {
+        "a": "Interferon plus ribavirin is no longer recommended: it works poorly and causes frequent side effects.",
+        "b": "CDC says clinicians do not need to wait for possible spontaneous clearance; his infection has already lasted at least 6 months.",
+        "d": "Ribavirin is not used alone; the current treatment is a DAA regimen.",
+        "e": "He has no cirrhosis, and DAAs cure more than 95% of cases."
+      },
+      "sources": [
+        {
+          "title": "CDC: Clinical Care of Hepatitis C (Jan 2025)",
+          "url": "https://www.cdc.gov/hepatitis-c/hcp/clinical-care/index.html"
+        }
+      ]
+    },
+    {
+      "id": "path-gpa-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Multisystem",
+      "topic": "Vasculitis",
+      "difficulty": 2,
+      "stem": "A 47-year-old man has had months of nasal crusting and sinus infections. He now has a cough with blood-streaked sputum. Chest CT shows several cavitating lung nodules. Urinalysis shows red blood cell casts. A nasal biopsy shows necrotizing granulomas with vasculitis of small and medium vessels.",
+      "leadIn": "Which antibody is most likely to be positive?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Anti-glomerular basement membrane antibody"
+        },
+        {
+          "id": "b",
+          "text": "Anti-double-stranded DNA antibody"
+        },
+        {
+          "id": "c",
+          "text": "Anti-cyclic citrullinated peptide antibody"
+        },
+        {
+          "id": "d",
+          "text": "Anti-proteinase 3 ANCA (c-ANCA)"
+        },
+        {
+          "id": "e",
+          "text": "Anti-centromere antibody"
+        }
+      ],
+      "answer": "d",
+      "explanation": "Answer: PR3-ANCA (c-ANCA). Why: sinus disease, lung nodules, and kidney involvement (red cell casts) with necrotizing granulomas and small- to medium-vessel vasculitis is granulomatosis with polyangiitis (GPA). Most patients have ANCA against proteinase 3 (PR3), which gives the cytoplasmic (c-ANCA) pattern; about 75% are anti-PR3 positive and about 10% are anti-MPO positive. For organ- or life-threatening disease, induction is glucocorticoids plus rituximab or cyclophosphamide (2022 EULAR). Note: her notes give the old name, Wegener, in parentheses. Use GPA. The disease was renamed after Wegener's Nazi ties came to light in 2000, and groups including the American College of Rheumatology moved to the descriptive name.",
+      "whyWrong": {
+        "a": "Anti-GBM antibodies cause Goodpasture (anti-GBM) disease, which does not produce necrotizing granulomas in the sinuses.",
+        "b": "Anti-dsDNA points to lupus, which does not cause necrotizing granulomas.",
+        "c": "Anti-CCP points to rheumatoid arthritis.",
+        "e": "Anti-centromere antibodies point to limited systemic sclerosis (CREST)."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Granulomatosis With Polyangiitis",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK557827/"
+        }
+      ]
+    },
+    {
+      "id": "msk-reactive-arthritis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Musculoskeletal",
+      "topic": "Reactive arthritis",
+      "difficulty": 2,
+      "stem": "A 26-year-old man has a painful, swollen right knee and left ankle and pain at the back of his heel. Three weeks ago he had several days of bloody diarrhea after a barbecue. He also has burning with urination and red, irritated eyes. Joint fluid shows no crystals, and Gram stain and culture are negative.",
+      "leadIn": "Which of the following is the most appropriate first-line treatment for his arthritis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A 3-month course of antibiotics"
+        },
+        {
+          "id": "b",
+          "text": "Nonsteroidal anti-inflammatory drugs (NSAIDs)"
+        },
+        {
+          "id": "c",
+          "text": "Allopurinol"
+        },
+        {
+          "id": "d",
+          "text": "Colchicine to prevent crystal formation"
+        },
+        {
+          "id": "e",
+          "text": "No treatment, because arthritis does not follow gut infections"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Answer: NSAIDs. Why: this is reactive arthritis. It follows a gut or genitourinary infection (Chlamydia trachomatis, Salmonella, Shigella, Campylobacter, Yersinia), usually within 1 to 6 weeks. It typically causes an asymmetric oligoarthritis of the large joints of the legs, with enthesitis (here, heel pain) and sometimes dactylitis. HLA-B27 is strongly associated, but a negative test does not rule it out. NSAIDs are first-line therapy for the acute arthritis. Note: her notes in places use the old name, Reiter syndrome. The term has fallen out of favor because the classic triad (arthritis, urethritis, conjunctivitis) covers only part of the disease, and because of its namesake's wartime conduct. Reactive arthritis is the preferred term.",
+      "whyWrong": {
+        "a": "After an enteric infection, antibiotics do not change the course of the arthritis.",
+        "c": "Allopurinol lowers uric acid in gout, and his joint fluid has no crystals.",
+        "d": "Colchicine is a gout drug, and his joint fluid has no crystals. NSAIDs are first-line for reactive arthritis.",
+        "e": "Reactive arthritis typically starts 1 to 6 weeks after a gut or genitourinary infection."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Reactive Arthritis (updated May 2026)",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK499831/"
+        }
+      ]
+    },
+    {
+      "id": "cardio-bp-categories-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Cardiovascular",
+      "topic": "Hypertension",
+      "difficulty": 2,
+      "stem": "A 45-year-old woman has an average blood pressure of 134/84 mm Hg on readings taken at two separate visits. She has no cardiovascular disease, diabetes, or chronic kidney disease, and her PREVENT-estimated 10-year cardiovascular risk is 4%.",
+      "leadIn": "Which of the following best describes her blood pressure and the next step under the 2025 AHA/ACC guideline?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Normal blood pressure; recheck in 2 years"
+        },
+        {
+          "id": "b",
+          "text": "Elevated blood pressure; no treatment needed"
+        },
+        {
+          "id": "c",
+          "text": "Stage 1 hypertension; lifestyle changes for 3 to 6 months, then medication if it stays at or above 130/80"
+        },
+        {
+          "id": "d",
+          "text": "Stage 1 hypertension; start medication today"
+        },
+        {
+          "id": "e",
+          "text": "Stage 2 hypertension; start two medications today"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Answer: stage 1 hypertension, starting with lifestyle changes. Why: the 2025 AHA/ACC categories are normal (below 120 and below 80), elevated (120 to 129 and below 80), stage 1 (130 to 139 or 80 to 89), and stage 2 (140 or higher, or 90 or higher). Her 134/84 is stage 1. Medication is started right away, alongside lifestyle changes, only for stage 1 patients who have cardiovascular disease, prior stroke, diabetes, chronic kidney disease, or a PREVENT 10-year risk of 7.5% or more. With lower risk, medication is recommended if blood pressure stays at or above 130/80 after a 3- to 6-month lifestyle trial. The treatment goal for all adults is below 130/80. Recent change: her Osmosis notes define hypertension as above 140/90 and set the goal below 140/90. Current AHA/ACC guidance starts hypertension at 130/80 and aims for below 130/80. Pregnancy uses separate cutoffs.",
+      "whyWrong": {
+        "a": "Normal is below 120/80; 134/84 is stage 1 hypertension.",
+        "b": "Elevated blood pressure is 120 to 129 systolic with diastolic below 80. Her readings are higher.",
+        "d": "Immediate medication for stage 1 is for patients with cardiovascular disease, prior stroke, diabetes, CKD, or a 10-year risk of 7.5% or more. Her risk is 4%.",
+        "e": "Stage 2 starts at 140 systolic or 90 diastolic."
+      },
+      "sources": [
+        {
+          "title": "AHA: Top Things to Know, 2025 AHA/ACC High Blood Pressure Guideline (Circulation 2025, doi:10.1161/CIR.0000000000001356)",
+          "url": "https://professional.heart.org/en/science-news/2025-high-blood-pressure-guideline/top-things-to-know"
+        }
+      ]
+    },
+    {
+      "id": "gi-masld-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Gastrointestinal",
+      "topic": "Fatty liver disease",
+      "difficulty": 1,
+      "stem": "A 52-year-old woman with obesity and type 2 diabetes has a mildly elevated ALT. She drinks alcohol less than once a month. Ultrasound shows a diffusely fatty liver. Tests for viral hepatitis, autoimmune hepatitis, and iron overload are negative.",
+      "leadIn": "Which of the following is the current name for her condition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Alcohol-associated liver disease"
+        },
+        {
+          "id": "b",
+          "text": "Metabolic dysfunction-associated steatotic liver disease (MASLD)"
+        },
+        {
+          "id": "c",
+          "text": "MetALD (MASLD with increased alcohol intake)"
+        },
+        {
+          "id": "d",
+          "text": "Autoimmune hepatitis"
+        },
+        {
+          "id": "e",
+          "text": "Hereditary hemochromatosis"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Answer: MASLD. Why: in 2023 a multisociety Delphi consensus renamed fatty liver disease. Steatotic liver disease (SLD) is the umbrella term. MASLD means hepatic steatosis plus at least one of five cardiometabolic risk factors (she has obesity and diabetes), and it replaces nonalcoholic fatty liver disease (NAFLD). Metabolic dysfunction-associated steatohepatitis (MASH) replaces NASH. People with MASLD who drink more (140 g/week for women, 210 g/week for men) are classed as MetALD. Recent change: her notes use NAFLD and NASH; the current terms are MASLD and MASH.",
+      "whyWrong": {
+        "a": "She drinks less than once a month, so alcohol is not the cause.",
+        "c": "MetALD needs alcohol intake of about 140 g/week or more for women; she barely drinks.",
+        "d": "Tests for autoimmune hepatitis are negative.",
+        "e": "Iron studies are negative."
+      },
+      "sources": [
+        {
+          "title": "AASLD: New MASLD Nomenclature",
+          "url": "https://www.aasld.org/new-masld-nomenclature"
+        },
+        {
+          "title": "HCPLive: From NAFLD to MASLD (cites Rinella et al., J Hepatol 2023;79:1542-1556)",
+          "url": "https://www.hcplive.com/view/from-nafld-to-masld-2023-new-liver-disease-nomenclature"
+        }
+      ]
     }
   ]
 }
