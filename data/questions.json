@@ -3248,7 +3248,7 @@
         },
         {
           "id": "c",
-          "text": "It binds an auxiliary subunit of voltage-activated calcium channels"
+          "text": "It binds the α2δ subunit of voltage-activated calcium channels"
         },
         {
           "id": "d",
@@ -3260,7 +3260,7 @@
         }
       ],
       "answer": "c",
-      "explanation": "Answer: it binds a subunit of voltage-activated calcium channels. Why: gabapentin is structurally related to GABA, but it does not act on the GABA system. The Neurontin label says it does not modify GABA-A or GABA-B receptor binding, is not converted into GABA or a GABA agonist, and does not inhibit GABA uptake or breakdown. A high-affinity binding protein for gabapentin in the brain is an auxiliary subunit of voltage-activated calcium channels; the label notes that exactly how this binding produces its effects is still unclear. Gabapentin is used for nerve pain such as postherpetic neuralgia and as add-on therapy for focal seizures. Correction: her neurology notes say gabapentin works by increasing brain GABA concentration. The drug label contradicts this.",
+      "explanation": "Answer: it binds the α2δ subunit of voltage-activated calcium channels. Why: gabapentin is structurally related to GABA, but it does not act on the GABA system. The Neurontin label says it does not modify GABA-A or GABA-B receptor binding, is not converted into GABA or a GABA agonist, and does not inhibit GABA uptake or breakdown. Instead, it binds with high affinity to the α2δ subunit of voltage-activated calcium channels; the label says how this binding produces its effects is unknown. Its approved uses are postherpetic neuralgia in adults and add-on therapy for partial-onset (focal) seizures in adults and children 3 years and older. Correction: her neurology notes say gabapentin works by increasing brain GABA concentration. The drug label contradicts this.",
       "whyWrong": {
         "a": "The label says gabapentin does not modify GABA-A or GABA-B receptor binding.",
         "b": "The label says gabapentin is not converted metabolically into GABA or a GABA agonist.",
@@ -3268,6 +3268,10 @@
         "e": "Sodium channel blockade is how drugs such as carbamazepine and phenytoin work, not gabapentin."
       },
       "sources": [
+        {
+          "title": "Neurontin (gabapentin) FDA prescribing information, 2024",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/021129s056,020882s057,020235s076lbl.pdf"
+        },
         {
           "title": "Neurontin (gabapentin) prescribing information: Mechanism of Action (medlibrary.org)",
           "url": "https://medlibrary.org/lib/rx/meds/neurontin/"
@@ -3418,6 +3422,58 @@
         {
           "title": "MedlinePlus Genetics: Wilson disease",
           "url": "https://medlineplus.gov/genetics/condition/wilson-disease/"
+        }
+      ]
+    },
+    {
+      "id": "pharm-selegiline-dopamine-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Nervous System & Special Senses",
+      "topic": "Parkinson disease drugs",
+      "difficulty": 2,
+      "stem": "A 70-year-old man with Parkinson disease takes carbidopa-levodopa. His symptoms now return before each next dose is due. His neurologist adds selegiline, a monoamine oxidase type B (MAO-B) inhibitor.",
+      "leadIn": "Selegiline most directly reduces the breakdown of dopamine into which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "3-Methoxytyramine (3-MT)"
+        },
+        {
+          "id": "b",
+          "text": "Norepinephrine"
+        },
+        {
+          "id": "c",
+          "text": "3,4-Dihydroxyphenylacetic acid (DOPAC)"
+        },
+        {
+          "id": "d",
+          "text": "Vanillylmandelic acid (VMA)"
+        },
+        {
+          "id": "e",
+          "text": "Levodopa"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Answer: DOPAC. Why: MAO starts dopamine breakdown by converting dopamine to an aldehyde (DOPAL), which aldehyde dehydrogenase turns into DOPAC. COMT then converts DOPAC to homovanillic acid (HVA), the end product of dopamine breakdown. COMT can also act on dopamine directly to make 3-methoxytyramine (3-MT); both pathways end in HVA. MAO-B inhibitors such as selegiline block the first step and raise dopamine levels in the brain; COMT inhibitors (entacapone, tolcapone), used alongside levodopa, also slow dopamine breakdown. Memory hook: MAO makes the acid (DOPAC); COMT adds a methyl group (3-methoxytyramine). Correction: her El-Husseiny neurology notes swap the two, saying selegiline blocks conversion of dopamine to 3-MT and tolcapone blocks conversion to DOPAC. Her Osmosis physiology notes give the correct pairing (MAO: DOPAC; COMT: 3-methoxytyramine; both lead to HVA).",
+      "whyWrong": {
+        "a": "3-MT is made from dopamine by COMT, not MAO. COMT inhibitors such as tolcapone block that step.",
+        "b": "Norepinephrine is made from dopamine, not a breakdown product of it, and MAO-B inhibitors do not block its synthesis.",
+        "d": "VMA is the end product of norepinephrine and epinephrine breakdown, not dopamine.",
+        "e": "Levodopa is the precursor that becomes dopamine, not a breakdown product."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Biochemistry, Catecholamine Degradation (Aug 2023)",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK545235/"
+        },
+        {
+          "title": "Osmosis High-Yield Physiology notes: catecholamine degradation (Elissa's study document)"
         }
       ]
     }
