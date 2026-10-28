@@ -22,7 +22,7 @@ export const SYSTEMS = Object.freeze([
 const BANNED_OPTION_TEXT = /\b(all|none) of the above\b/i;
 const NEGATIVE_LEAD_IN = /\b(EXCEPT|NOT|LEAST)\b/;
 // A leftover template slot such as {emi} from the batch build scripts.
-const PLACEHOLDER = /\{[a-z_]+\}/i;
+const PLACEHOLDER = /\{[\w-]+\}/;
 
 const nonEmpty = (s) => typeof s === 'string' && s.trim().length > 0;
 
