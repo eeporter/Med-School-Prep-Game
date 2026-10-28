@@ -666,6 +666,9 @@ function wire() {
     // Typing a report note (or toggling the report box) must not answer or advance.
     if (!session || ['SELECT', 'TEXTAREA', 'SUMMARY'].includes(e.target.tagName)) return;
     const k = e.key.toLowerCase();
+    // Enter on a link, a button other than Next, or inside the report box
+    // keeps its normal meaning (open the link, save the report).
+    if (k === 'enter' && e.target.closest?.('#fb-report, a, button:not(#next-btn):not([data-confidence])')) return;
     const cur = session.current;
     if (!cur.confidence && /^[a-f1-6]$/.test(k)) {
       const idx = /\d/.test(k) ? Number(k) - 1 : k.charCodeAt(0) - 97;
