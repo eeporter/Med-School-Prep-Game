@@ -1,13 +1,16 @@
 // Browser UI. All question text is rendered with textContent, never innerHTML.
 
 import { usableQuestions, DISCIPLINES, SYSTEMS } from './bank.js';
-import { review, isDue, isMastered, newCard } from './scheduler.js';
-import { presentQuestion, isCorrect, xpFor, levelFor, interleave, shuffle, updateStreak } from './quiz.js';
-import { load, save } from './storage.js';
-import { today, daysBetween } from './dates.js';
+import { review, isDue, isMastered, newCard, reviewedOn } from './scheduler.js';
+import { presentQuestion, isCorrect, xpFor, levelFor, interleave, shuffle, updateStreak, needsRelearning, sureAccuracy } from './quiz.js';
+import { load, save, isDayString } from './storage.js';
+import { EXAM_TYPES, SUBJECT_EXAMS, SECONDS_PER_QUESTION, examLabel, examFormat, examScope, nextExam, weightedSample } from './exams.js';
+import { today, daysBetween, parseDayString } from './dates.js';
 
 const NEW_PER_ROUNDS = 10;
-const SECONDS_PER_BLOCK_QUESTION = 90;
+// A question missed again and again is re-asked at most this many extra times
+// per session, so one stubborn item cannot trap the learner.
+const MAX_RELEARN_TRIES = 3;
 
 const $ = (id) => document.getElementById(id);
 const el = (tag, text, cls) => {
@@ -49,6 +52,8 @@ function renderHome() {
   const unseen = questions.filter((q) => !state.cards[q.id]).length;
   $('due-summary').textContent = `${due} due for review, ${unseen} not yet seen.`;
 
+  renderExams(t);
+
   const sel = $('focus-select');
   if (!sel.options.length) {
     const groups = [['NBME subject', DISCIPLINES, 'discipline'], ['Organ system', SYSTEMS, 'system']];
@@ -83,10 +88,66 @@ function renderHome() {
     list.appendChild(li);
   }
   const mis = questions.filter((q) => state.cards[q.id]?.misconception).length;
+  const cal = sureAccuracy(state.history);
+  $('calibration-summary').textContent = cal && cal.total >= 10
+    ? `When you answer "sure", you are right ${Math.round((100 * cal.right) / cal.total)}% of the time (last ${cal.total} sure answers). Aim for close to 100%; if it is lower, slow down on questions you feel sure about.`
+    : '';
   $('misconception-summary').textContent = mis
     ? `${mis} confident miss${mis === 1 ? '' : 'es'} queued for extra review. These are the facts most worth fixing.`
     : '';
   show('home');
+}
+
+// The soonest upcoming exam whose content includes this question, so each
+// question's reviews are aimed at the test it will appear on.
+function examFor(q, t) {
+  const upcoming = state.exams.filter((e) => daysBetween(t, e.date) >= 0).sort((a, b) => (a.date < b.date ? -1 : 1));
+  return upcoming.find((e) => examScope(e).inScope(q)) ?? null;
+}
+
+function renderExams(t) {
+  const list = $('exam-list');
+  list.replaceChildren();
+  const sorted = [...state.exams].sort((a, b) => (a.date < b.date ? -1 : 1));
+  for (const e of sorted) {
+    const left = daysBetween(t, e.date);
+    const li = el('li');
+    const when = parseDayString(e.date).toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' });
+    li.appendChild(el('span', `${examLabel(e)}, ${when}`));
+    li.appendChild(el('span', left > 0 ? `${left} day${left === 1 ? '' : 's'}` : left === 0 ? 'today' : 'done', 'meta'));
+    const rm = el('button', 'Remove', 'small');
+    rm.setAttribute('aria-label', `Remove ${examLabel(e)} on ${e.date}`);
+    rm.addEventListener('click', () => {
+      state.exams = state.exams.filter((x) => x !== e);
+      persist();
+      renderHome();
+    });
+    li.appendChild(rm);
+    list.appendChild(li);
+  }
+
+  const target = nextExam(state.exams, t);
+  // Safari ignores `hidden` on <option>, so the option is added and removed.
+  const sel = $('exam-select');
+  let blockOpt = sel.querySelector('option[value="next"]');
+  if (target && !blockOpt) {
+    blockOpt = el('option');
+    blockOpt.value = 'next';
+    sel.prepend(blockOpt);
+  } else if (!target && blockOpt) {
+    const wasNext = sel.value === 'next';
+    blockOpt.remove();
+    if (wasNext) sel.value = 'usmle-step1';
+  }
+  if (target) {
+    const f = examFormat(target);
+    const scope = examScope(target);
+    $('exam-focus').textContent = `Next up: ${examLabel(target)}. The real test is ${f.summary}. New questions in Daily Rounds ${scope.focus}, and Exam Block practices its pace.`;
+    blockOpt.textContent = `My next exam (${examLabel(target)})`;
+  } else {
+    $('exam-focus').textContent = 'Add the exams you are preparing for. The game aims new questions, practice blocks, and review timing at the next one.';
+  }
+  $('exam-subject-row').hidden = $('exam-type').value !== 'nbme-subject';
 }
 
 function buildQueue(mode) {
@@ -95,7 +156,17 @@ function buildQueue(mode) {
     const due = questions.filter((q) => isDue(state.cards[q.id], t));
     const misses = due.filter((q) => state.cards[q.id].misconception);
     const rest = due.filter((q) => !state.cards[q.id].misconception);
-    const fresh = shuffle(questions.filter((q) => !state.cards[q.id])).slice(0, NEW_PER_ROUNDS);
+    const unseen = questions.filter((q) => !state.cards[q.id]);
+    const target = nextExam(state.exams, t);
+    let fresh;
+    if (target) {
+      // New material for the next exam first, weighted like its content outline.
+      const scope = examScope(target);
+      fresh = weightedSample(unseen.filter(scope.inScope), NEW_PER_ROUNDS, scope.weight);
+      fresh.push(...shuffle(unseen.filter((q) => !scope.inScope(q))).slice(0, NEW_PER_ROUNDS - fresh.length));
+    } else {
+      fresh = shuffle(unseen).slice(0, NEW_PER_ROUNDS);
+    }
     // Confident misses come first (interleaved among themselves), then the rest.
     return [...interleave(misses), ...interleave([...rest, ...fresh])];
   }
@@ -103,9 +174,21 @@ function buildQueue(mode) {
     const [field, value] = $('focus-select').value.split(/:(.*)/s);
     return shuffle(questions.filter((q) => q[field] === value));
   }
-  const exam = $('exam-select').value;
+  const choice = $('exam-select').value;
   const size = Number($('block-size').value);
-  return interleave(questions.filter((q) => q.exams.includes(exam))).slice(0, size);
+  const target = choice === 'next' ? nextExam(state.exams, t) : null;
+  if (target) {
+    const scope = examScope(target);
+    return interleave(weightedSample(questions.filter(scope.inScope), size, scope.weight));
+  }
+  return interleave(questions.filter((q) => q.exams.includes(choice))).slice(0, size);
+}
+
+// When Exam Block targets the next exam, default its length to that exam's
+// real block or section size.
+function syncBlockSize() {
+  const target = $('exam-select').value === 'next' ? nextExam(state.exams, today()) : null;
+  if (target) $('block-size').value = String(examFormat(target).blockSize);
 }
 
 function startSession(mode) {
@@ -115,8 +198,8 @@ function startSession(mode) {
     return;
   }
   session = {
-    mode, queue, index: 0, answers: [], xpEarned: 0,
-    deadline: mode === 'block' ? Date.now() + queue.length * SECONDS_PER_BLOCK_QUESTION * 1000 : null,
+    mode, queue, index: 0, answers: [], xpEarned: 0, tries: new Map(), relearned: new Set(),
+    deadline: mode === 'block' ? Date.now() + queue.length * SECONDS_PER_QUESTION * 1000 : null,
   };
   if (session.deadline) tickTimer();
   showQuestion();
@@ -133,7 +216,10 @@ function tickTimer() {
 function showQuestion() {
   const q = session.queue[session.index];
   session.current = { q, presented: presentQuestion(q), choice: null };
-  $('quiz-progress').textContent = `Question ${session.index + 1} of ${session.queue.length}`;
+  const relearning = session.tries.has(q.id);
+  $('quiz-progress').textContent = relearning
+    ? `Relearning a missed question (${session.index + 1} of ${session.queue.length})`
+    : `Question ${session.index + 1} of ${session.queue.length}`;
   $('quiz-tags').textContent = session.mode === 'block' ? '' : `${q.discipline} · ${q.system}`;
   if (!session.deadline) $('quiz-timer').textContent = '';
   $('q-stem').textContent = q.stem;
@@ -168,24 +254,49 @@ function answer(confidence) {
   if (!cur || !cur.choice || cur.confidence) return;
   cur.confidence = confidence;
   const t = today();
-  const card = state.cards[cur.q.id] || newCard();
-  const wasDueReview = isDue(card, t);
   const correct = isCorrect(cur.q, cur.choice);
-  const gained = xpFor({ correct, confidence, wasDueReview });
+  const tries = session.tries.get(cur.q.id);
+  let gained = 0;
 
-  state.cards[cur.q.id] = review(card, { correct, confidence }, t);
-  state.xp += gained;
-  state.streak = updateStreak(state.streak, t, daysBetween);
-  state.history.push({ id: cur.q.id, day: t, correct, confidence });
-  persist();
+  if (tries === undefined && !reviewedOn(state.cards[cur.q.id], t)) {
+    // First answer today: this one sets the schedule and earns XP.
+    const card = state.cards[cur.q.id] || newCard();
+    // A first exposure is not a review, so it earns no review bonus.
+    const wasDueReview = Boolean(state.cards[cur.q.id]) && isDue(card, t);
+    gained = xpFor({ correct, confidence, wasDueReview });
+    state.cards[cur.q.id] = review(card, { correct, confidence }, t, { examDate: examFor(cur.q, t)?.date ?? null });
+    state.xp += gained;
+    state.streak = updateStreak(state.streak, t, daysBetween);
+    state.history.push({ id: cur.q.id, day: t, correct, confidence });
+    persist();
+    session.xpEarned += gained;
+    session.answers.push({ q: cur.q, presented: cur.presented, choice: cur.choice, correct, confidence });
+  } else {
+    if (tries === undefined) session.answers.push({ q: cur.q, presented: cur.presented, choice: cur.choice, correct, confidence });
+    if (tries !== undefined && !needsRelearning(correct, confidence)) session.relearned.add(cur.q.id);
+  }
 
-  session.xpEarned += gained;
-  session.answers.push({ q: cur.q, presented: cur.presented, choice: cur.choice, correct, confidence });
+  // Missed or guessed questions come back at the end of this session until
+  // they are answered right with confidence (not in Exam Block).
+  let note = '';
+  if (session.mode !== 'block' && needsRelearning(correct, confidence)) {
+    const used = tries ?? 0;
+    if (used < MAX_RELEARN_TRIES) {
+      session.tries.set(cur.q.id, used + 1);
+      session.queue.push(cur.q);
+      note = 'It will come back at the end of this session.';
+    }
+  } else if (tries !== undefined) {
+    note = 'Relearned. Your review schedule was set by your first answer today.';
+  } else if (!gained && correct) {
+    note = 'Practice only: you already answered this today, so the schedule stays as set.';
+  }
+
   $('q-options').disabled = true;
   $('confidence').hidden = true;
 
   if (session.mode === 'block') return advance();
-  renderFeedback(cur.q, cur.presented, cur.choice, correct, confidence, gained);
+  renderFeedback(cur.q, cur.presented, cur.choice, correct, confidence, gained, note);
   renderStats();
 }
 
@@ -193,12 +304,13 @@ function labelOf(presented, id) {
   return presented.options.find((o) => o.id === id)?.label;
 }
 
-function renderFeedback(q, presented, choice, correct, confidence, gained) {
+function renderFeedback(q, presented, choice, correct, confidence, gained, note = '') {
   const key = labelOf(presented, q.answer);
   const keyText = q.options.find((o) => o.id === q.answer).text;
   let msg = correct ? `Correct: ${key}. ${keyText}` : `Not quite. The answer is ${key}. ${keyText}`;
   if (correct && gained) msg += `  (+${gained} XP)`;
-  if (!correct && confidence === 'sure') msg += '. You were sure, so this one comes back tomorrow.';
+  if (!correct && confidence === 'sure') msg += '. You were sure, so it is flagged for extra review.';
+  if (note) msg += `${/[.)]$/.test(msg) ? '' : '.'} ${note}`;
   const res = $('fb-result');
   res.textContent = msg;
   res.className = `result ${correct ? 'ok' : 'bad'}`;
@@ -253,6 +365,10 @@ function finishSession() {
   const right = session.answers.filter((a) => a.correct).length;
   $('sum-score').textContent = n ? `${right} / ${n} correct (${Math.round((100 * right) / n)}%)` : 'No questions answered.';
   $('sum-xp').textContent = `+${session.xpEarned} XP this session`;
+  const r = session.relearned.size;
+  $('sum-relearn').textContent = r
+    ? `You relearned ${r} missed question${r === 1 ? '' : 's'} until you got ${r === 1 ? 'it' : 'them'} right. Retrieving each fact to criterion, then again on later days, is one of the strongest ways to make it last.`
+    : '';
 
   const sure = session.answers.filter((a) => a.confidence === 'sure');
   const sureRight = sure.filter((a) => a.correct).length;
@@ -290,6 +406,38 @@ function wire() {
   for (const b of document.querySelectorAll('[data-confidence]')) b.addEventListener('click', () => answer(b.dataset.confidence));
   $('next-btn').addEventListener('click', advance);
   $('sum-home').addEventListener('click', renderHome);
+  const typeSel = $('exam-type');
+  for (const [id, { name }] of Object.entries(EXAM_TYPES)) {
+    const o = el('option', name);
+    o.value = id;
+    typeSel.appendChild(o);
+  }
+  for (const s of Object.keys(SUBJECT_EXAMS)) {
+    const o = el('option', s);
+    o.value = s;
+    $('exam-subject').appendChild(o);
+  }
+  typeSel.addEventListener('change', () => { $('exam-subject-row').hidden = typeSel.value !== 'nbme-subject'; });
+  $('exam-add').addEventListener('click', () => {
+    const date = $('exam-date').value;
+    if (!isDayString(date)) {
+      $('exam-date').focus();
+      $('exam-focus').textContent = 'Pick the test date first.';
+      return;
+    }
+    const exam = typeSel.value === 'nbme-subject'
+      ? { type: 'nbme-subject', subject: $('exam-subject').value, date }
+      : { type: typeSel.value, date };
+    state.exams.push(exam);
+    persist();
+    $('exam-date').value = '';
+    renderHome();
+    if (nextExam(state.exams, today())) {
+      $('exam-select').value = 'next';
+      syncBlockSize();
+    }
+  });
+  $('exam-select').addEventListener('change', syncBlockSize);
   $('home-link').addEventListener('click', (e) => {
     e.preventDefault();
     if (session && !confirm('Leave this session? Answers so far are saved.')) return;
@@ -324,6 +472,10 @@ async function main() {
     $('due-summary').textContent = 'Could not load the question bank. If you opened this file directly, serve it over HTTP (see README).';
   }
   renderHome();
+  if (nextExam(state.exams, today())) {
+    $('exam-select').value = 'next';
+    syncBlockSize();
+  }
 }
 
 main();

@@ -66,6 +66,22 @@ export function interleave(questions, key = (q) => q.system, rng = Math.random) 
   return out;
 }
 
+// A question needs relearning in the same session when it was missed or only
+// guessed right (SM-2 grade below 4). Wozniak's SM-2 repeats such items at the
+// end of the day's session until they score at least 4, and successive
+// relearning (Rawson & Dunlosky) retrieves each item to criterion in every
+// spaced session.
+export function needsRelearning(correct, confidence) {
+  return !correct || confidence === 'guess';
+}
+
+// Share of "sure" answers that were right, or null if there are none.
+export function sureAccuracy(history) {
+  const sure = history.filter((h) => h.confidence === 'sure');
+  if (!sure.length) return null;
+  return { right: sure.filter((h) => h.correct).length, total: sure.length };
+}
+
 export function updateStreak(streak, todayStr, daysBetweenFn) {
   const s = { count: 0, lastDay: null, ...streak };
   if (s.lastDay === todayStr) return s;

@@ -128,6 +128,23 @@ test('corrupt date strings are repaired instead of crashing the scheduler', asyn
   assert.equal(isDue(out.cards.c, '2026-03-01'), false);
 });
 
+test('saved exams are kept when valid and dropped when corrupt', () => {
+  const out = sanitize({ version: 1, exams: [
+    { type: 'usmle-step1', date: '2027-06-15', extra: 'x' },
+    { type: 'nbme-subject', subject: 'Pathology', date: '2026-12-01' },
+    { type: 'nbme-subject', subject: 'Cooking', date: '2026-12-01' },
+    { type: 'usmle-step1', date: '2026-02-30' },
+    { type: 'mcat', date: '2026-12-01' },
+    null,
+  ] });
+  assert.deepEqual(out.exams, [
+    { type: 'usmle-step1', date: '2027-06-15' },
+    { type: 'nbme-subject', subject: 'Pathology', date: '2026-12-01' },
+  ]);
+  assert.deepEqual(sanitize({ version: 1, exams: 'nope' }).exams, []);
+  assert.deepEqual(sanitize({ version: 1 }).exams, []);
+});
+
 test('load survives a stored state with corrupt dates', () => {
   const raw = JSON.stringify({ version: 1, cards: { q: { reps: 1, interval: 1, ease: 2.5, due: 5 } }, streak: { count: 1, lastDay: 7 } });
   const s = load(new MemoryStorage({ [STORAGE_KEY]: raw }));
