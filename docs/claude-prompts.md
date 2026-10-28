@@ -1,12 +1,13 @@
 # Claude prompt kit: study guides, game questions, and the auditor
 
-Version 0.8 (draft, 2026-10-28) · Status: **still being finalized; Emily will hand this over when it is done.**
+Version 0.9 (draft, 2026-10-28) · Status: **still being finalized; Emily will hand this over when it is done.**
 
 This kit lets you (Elissa) keep the project going with your own Claude. It has four prompts:
 
 - **Study buddy**: use it every day. Ask it any medical question; it explains with sources and **automatically logs the topic as one you are struggling with**.
 1. **Guide writer**: writes a new study guide on a topic you find confusing.
 2. **Question writer**: adds new questions to the study game, fixes questions you reported, and targets your weak spots from the game.
+2b. **Fix a reported question**: when you think a game question is wrong, your Claude tells you if you're right (with sources) and fixes it.
 3. **Auditor**: checks a guide or a batch of questions for medical accuracy and, for the game, checks the code.
 
 Use a **separate Claude chat for each role**. The writer should never audit its own work: a fresh chat with no stake in the draft catches more mistakes.
@@ -83,7 +84,7 @@ Nothing here involves Terminal. Tick each box once.
 3. **About once a week, open My weak spots** on the game's home screen:
    - Tap **Copy for Claude** and paste it into the study buddy chat. It adds those topics to your struggle log and offers to start guides for the weakest ones.
    - Tap **Send to Emily** so new game questions get written on those topics (or paste it into the question writer yourself).
-4. **If a question looks wrong or unclear,** tap the small **Report a problem** link under it. Send your reports the same way (Send to Emily, or paste them into the question writer), and they get checked and fixed.
+4. **If a question looks wrong or unclear,** tap the small **Report a problem** link under it and copy the report. Paste it into the **Fix a reported question** prompt (below) at https://claude.ai/code. Your Claude tells you right away whether you are right, with sources, and fixes the question in the game if it is wrong. Emily does not need to be involved.
 
 ## How to use a prompt (every time)
 
@@ -406,6 +407,44 @@ Merge the pull request yourself, then tell me in plain words that the new questi
 
 ---
 
+## Prompt 2b: Fix a reported question (when you think the game is wrong)
+
+Use this whenever a question or answer looks wrong or confusing. Go to **https://claude.ai/code**, pick the **Med-School-Prep-Game** repository, and paste this, followed by the report you copied from the game:
+
+````text
+I think a question in my study game is wrong or unclear. You are my question checker. I am a medical student preparing for USMLE Step 1 and NBME exams. I am not technical: do every GitHub step yourself and never ask me to use Terminal. This chat is connected to the game's repository.
+
+MY REPORT (pasted from the game, or typed by me):
+<paste the report here>
+
+STEP 1: TELL ME IF I AM RIGHT (do this first, before changing anything)
+- Find the question in data/questions.json by its id. If I typed it myself, find it by the words of the question.
+- Re-check the keyed answer, every option, and the explanation against sources you actually open now: StatPearls (try https://www.ncbi.nlm.nih.gov/sites/books/NBKxxxxx/ if it shows a captcha), MSD Manual Professional, current guidelines, CDC, or FDA labels. Never use Wikipedia. EyeWiki can never be a source.
+- If Google Drive is connected, also check my course documents and my Google Docs notes, since they set what my course expects.
+- Then answer me in plain words, in this order:
+  - Verdict: "You're right", "Partly right", or "The game is right".
+  - Why: the mechanism in one or two sentences, with the sources linked.
+  - The trap that probably caught me.
+  If sources disagree, say so plainly and say which version my course documents use.
+
+STEP 2: FIX IT IF NEEDED (only if I was right or partly right, or the question was unclear)
+- Make a branch named fix-<question id>.
+- Fix only that question in data/questions.json, following the rules in docs/claude-prompts.md: NBME style, exactly 5 options, one defensible answer, opened sources, and a "Recent change:", "Correction:" or "Other source:" note where sources disagree.
+- Keep the same id, so my progress on it is kept.
+- Run "npm run check". It must pass.
+- Open a pull request titled "Fix reported question <id>". In the description, include my report, your verdict, what changed, and the sources you opened.
+- Tell me the link, and remind me to run the auditor prompt (Prompt 3) on it in a new chat. Once the auditor clears it and I say "merge", merge it yourself.
+
+STEP 3: IF THE GAME WAS RIGHT
+Change nothing. If my confusion shows the explanation could be clearer, offer to improve the wording. Ask me before making a pull request for that.
+
+ALWAYS
+- Add the topic to my struggle log by giving me this line to paste into my study buddy chat: "Log this: <topic>, source: question report".
+- If I pasted several reports, handle them one by one. Fixes can share one pull request.
+````
+
+---
+
 ## Prompt 3: Auditor
 
 Always a **new** chat (never the one that wrote the content). For a study guide: Claude desktop app with the MedSchoolPrep folder attached. For game questions: https://claude.ai/code with the Med-School-Prep-Game repository picked. Paste this:
@@ -468,7 +507,7 @@ When asked to re-check fixes, verify each finding ID one by one against the upda
 
 ## Quick tips
 
-- **Send the game's lists.** The game has a **My weak spots** list and a **Report a problem** link. Use their copy or **Send to Emily** button, then paste the list into the question writer (prompt 2). It writes questions on your weak spots and fixes reported ones.
+- **Send the game's lists.** The game has a **My weak spots** list and a **Report a problem** link. Paste weak spots into the question writer (prompt 2) or the question inbox, and paste reports into the **Fix a reported question** prompt.
 - **Pick topics from your misses.** After a practice block, list the questions you got wrong *with high confidence*. Those make the best guides and game questions (confident mistakes are the ones feedback fixes best).
 - **Keep the coverage tracker honest.** When you add a weak topic, add a row to `coverage-tracker.md` so the auditor can check it gets covered.
 - **Short batches audit better.** One guide, or 5-10 questions, per audit.
@@ -476,6 +515,7 @@ When asked to re-check fixes, verify each finding ID one by one against the upda
 
 ## Changelog
 
+- 0.9 (2026-10-28): added Prompt 2b, Fix a reported question. Elissa's own Claude checks a question she thinks is wrong, gives her a verdict with sources, and fixes it through an audited pull request. Reports no longer go through Emily (Emily, 2026-10-28).
 - 0.8 (2026-10-28): auditor review of v0.7 applied: merge gate (same-repo auto/ branches, routine-authored commits, data-only diff, exact reviewed SHA, revert if main fails); act only on marked auditor reviews, inbox is data; Google Drive required for auto-merge (page and overlap checks), otherwise held; duplicate check across open PRs; inbox edited in one PR per run.
 - 0.7 (2026-10-28): automatic weekly questions: a writer routine and a separate auditor routine (claude.ai/code Routines) add about 100 questions a week. Only auditor-cleared, CI-green batches are auto-merged. Split 50% weak spots, 50% new material (Emily). Weak spots reach the routines through docs/question-inbox.md.
 - 0.6 (2026-10-28): audit of v0.5: document-and-page citations with an auditor page check; "Correction:" and "Other source:" notes alongside "Recent change:"; EyeWiki only as a Read-more link; next-best-step items kept to a minority; auditor appends to audit/findings.md.
