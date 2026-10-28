@@ -26998,6 +26998,1054 @@
           "url": "https://www.msdmanuals.com/professional/special-subjects/recreational-drugs-and-intoxicants/alcohol-toxicity-and-withdrawal"
         }
       ]
+    },
+    {
+      "id": "histo-brunner-glands-duodenum-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "Gastrointestinal",
+      "topic": "GI histology: Brunner glands identify the duodenum",
+      "difficulty": 1,
+      "stem": "A 45-year-old man has upper endoscopy for indigestion. A biopsy is taken from the small intestine. Under the microscope, the mucosa has finger-like villi and crypts. Beneath the mucosa, in the submucosa, are clusters of branched glands made of pale, mucus-filled cells. Their ducts empty into the crypts.",
+      "leadIn": "This biopsy most likely came from which part of the GI tract?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Duodenum"
+        },
+        {
+          "id": "b",
+          "text": "Jejunum"
+        },
+        {
+          "id": "c",
+          "text": "Ileum"
+        },
+        {
+          "id": "d",
+          "text": "Gastric antrum"
+        },
+        {
+          "id": "e",
+          "text": "Transverse colon"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the duodenum. Why: glands in the submucosa are the key clue. Your Osmosis physiology notes (p. 297) explain that the duodenal (Brunner) glands sit in the submucosa of the duodenum and release alkaline mucus that neutralizes the acidic chyme coming from the stomach. StatPearls (Anatomy, Small Intestine) agrees that the duodenum is the only part of the gut with submucosal Brunner glands, and that they secrete bicarbonate to neutralize stomach acid before the chyme reaches the jejunum. The villi show this is small intestine, and the submucosal glands narrow it to the duodenum.",
+      "whyWrong": {
+        "b": "The jejunum has villi and crypts but no submucosal Brunner glands; StatPearls says the duodenum is the only part of the gut that has them.",
+        "c": "The ileum has villi but no Brunner glands; its clue is many lymphoid nodules (Peyer patches), per StatPearls (Anatomy, Small Intestine).",
+        "d": "The gastric antrum has pits and glands but no villi (standard teaching); its glands lie in the mucosa, not the submucosa.",
+        "e": "The colon has crypts full of goblet cells but no villi (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Small intestine histology (duodenal glands), p. 297"
+        },
+        {
+          "title": "StatPearls: Anatomy, Abdomen and Pelvis, Small Intestine",
+          "url": "https://www.statpearls.com/point-of-care/32127"
+        }
+      ]
+    },
+    {
+      "id": "histo-paneth-cells-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "Gastrointestinal",
+      "topic": "GI histology: Paneth cells in the crypts",
+      "difficulty": 2,
+      "stem": "A pathologist examines a normal biopsy from the terminal ileum. At the very bottom of the crypts are clusters of cells packed with large, bright red (eosinophilic) granules in the part of the cell facing the crypt lumen.",
+      "leadIn": "The main job of these cells is to do which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Release defensins and lysozyme"
+        },
+        {
+          "id": "b",
+          "text": "Secrete alkaline mucus to neutralize acid"
+        },
+        {
+          "id": "c",
+          "text": "Release secretin when acid enters the gut"
+        },
+        {
+          "id": "d",
+          "text": "Carry antigens to the lymphoid tissue below"
+        },
+        {
+          "id": "e",
+          "text": "Absorb nutrients across a brush border"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: release defensins and lysozyme, which act against microbes. Why: these are Paneth cells. Your Osmosis physiology notes (p. 297) place Paneth cells deep in the intestinal crypts and say they release defensins and lysozyme to protect against pathogens. StatPearls (Anatomy, Small Intestine) agrees that Paneth cells are found in the crypts of Lieberkühn and secrete antimicrobial peptides such as defensins and lysozyme. Their large red-staining granules hold these proteins (standard teaching).",
+      "whyWrong": {
+        "b": "Alkaline mucus comes from the Brunner glands in the duodenal submucosa (your Osmosis physiology notes, p. 297), not from cells at the base of ileal crypts.",
+        "c": "Secretin comes from enteroendocrine S cells in the proximal small intestine (your Osmosis physiology notes, p. 306).",
+        "d": "Carrying antigens to the lymphoid tissue is the job of M cells over Peyer patches, which take up antigens and pass them to antigen-presenting cells (StatPearls, Peyer Patches).",
+        "e": "Absorptive cells with microvilli line the villi, not the crypt bases (your Osmosis physiology notes, p. 297)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Small intestine histology (Paneth cells), p. 297"
+        },
+        {
+          "title": "StatPearls: Anatomy, Abdomen and Pelvis, Small Intestine",
+          "url": "https://www.statpearls.com/point-of-care/32127"
+        }
+      ]
+    },
+    {
+      "id": "histo-peyer-patches-iga-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "Immune System",
+      "topic": "Mucosal immunity: Peyer patches and M cells",
+      "difficulty": 2,
+      "stem": "A 22-year-old man develops fever and abdominal pain 2 weeks after returning from travel. Blood cultures grow Salmonella Typhi. He later needs surgery for a perforation of the terminal ileum. The pathologist finds ulcers over oval clusters of lymphoid tissue in the wall of the ileum.",
+      "leadIn": "In a healthy ileum, these lymphoid clusters mainly do which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Make IgA plasma cells from M-cell antigens"
+        },
+        {
+          "id": "b",
+          "text": "Release defensins and lysozyme from crypt bases"
+        },
+        {
+          "id": "c",
+          "text": "Secrete bicarbonate-rich mucus into the lumen"
+        },
+        {
+          "id": "d",
+          "text": "Filter old red blood cells from the circulation"
+        },
+        {
+          "id": "e",
+          "text": "Produce IgE that protects against parasites"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: they make IgA plasma cells after M cells sample antigen. Why: the lymphoid clusters are Peyer patches. Your Osmosis physiology notes (p. 297) describe Peyer patches as lymphatic tissue in the lamina propria, mostly in the ileum, made mainly of dividing B cells that release IgA to protect against harmful bacteria. StatPearls (Peyer Patches) agrees that they sit in the lamina propria and submucosa of the distal small intestine, with almost half in the distal ileum. It explains that M cells take in antigens and bring them to antigen-presenting cells, and that B cells in the germinal centers become IgA-secreting plasma cells. It also notes that in Salmonella Typhi infection, the intestinal necrosis happens at the Peyer patches, which explains his ileal perforation.",
+      "whyWrong": {
+        "b": "Defensins and lysozyme come from Paneth cells at the base of the crypts (your Osmosis physiology notes, p. 297).",
+        "c": "Bicarbonate-rich mucus comes from Brunner glands in the duodenum (your Osmosis physiology notes, p. 297).",
+        "d": "Removing old red blood cells is a job of the spleen's red pulp, not of gut lymphoid tissue (standard teaching).",
+        "e": "Peyer patches are known for IgA, the main antibody at mucosal surfaces (StatPearls, Peyer Patches); IgE against parasites is not their main product (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Small intestine histology (Peyer patches), p. 297"
+        },
+        {
+          "title": "StatPearls: Peyer Patches",
+          "url": "https://www.statpearls.com/point-of-care/27074"
+        }
+      ]
+    },
+    {
+      "id": "histo-hepatic-stellate-fibrosis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "Gastrointestinal",
+      "topic": "Liver histology: stellate (Ito) cells and fibrosis",
+      "difficulty": 2,
+      "stem": "A 52-year-old man has had chronic hepatitis C for 25 years. A liver biopsy shows thick bands of collagen dividing the liver into nodules of regenerating hepatocytes. The pathologist explains that one type of cell, which normally stores fat in the space between the hepatocytes and the sinusoids, changed into a collagen-making cell.",
+      "leadIn": "Which cell type is the main source of this scar tissue?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hepatic stellate (Ito) cells"
+        },
+        {
+          "id": "b",
+          "text": "Kupffer cells"
+        },
+        {
+          "id": "c",
+          "text": "Hepatocytes"
+        },
+        {
+          "id": "d",
+          "text": "Bile duct epithelial cells"
+        },
+        {
+          "id": "e",
+          "text": "Sinusoidal endothelial cells"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: hepatic stellate (Ito) cells. Why: your Osmosis GI notes (p. 104) explain that in cirrhosis, damage to the liver activates stellate cells, which sit between the sinusoids and the hepatocytes in the perisinusoidal space. They release TGF-beta 1, which turns them into myofibroblasts that lay down scar, and they release TIMP 1 and 2, which block the enzymes that would break the scar down. Bands of fibrous tissue then cut the liver into regenerating nodules. StatPearls (Physiology, Liver) agrees that the space of Disse holds both Kupffer cells and Ito (stellate) cells, that Ito cells store fat such as vitamin A, and that the fibrosis in cirrhosis comes from TGF-beta released by Ito cells. The MSD Manual (Hepatic Fibrosis) adds that activation of these fat-storing Ito cells starts fibrosis, and that they become contractile myofibroblasts that make too much collagen and other matrix.",
+      "whyWrong": {
+        "b": "Kupffer cells are the liver's resident macrophages in the space of Disse (StatPearls, Physiology, Liver); they help drive inflammation, but stellate cells make the collagen (standard teaching).",
+        "c": "Injured hepatocytes form regenerative nodules between the fibrous bands (your Osmosis GI notes, p. 104); they are not the cells that make the scar.",
+        "d": "Bile duct cells line the bile ducts and do not normally store fat in the space of Disse (standard teaching).",
+        "e": "Sinusoidal endothelial cells line the sinusoids; the fat-storing cell in the space of Disse is the stellate cell (StatPearls, Physiology, Liver)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Gastrointestinal (Emily's file), Cirrhosis, p. 104"
+        },
+        {
+          "title": "StatPearls: Physiology, Liver",
+          "url": "https://www.statpearls.com/point-of-care/24376"
+        },
+        {
+          "title": "MSD Manual Professional: Hepatic Fibrosis",
+          "url": "https://www.msdmanuals.com/professional/hepatic-and-biliary-disorders/fibrosis-and-cirrhosis/hepatic-fibrosis"
+        }
+      ]
+    },
+    {
+      "id": "histo-zellweger-peroxisome-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "General Principles",
+      "topic": "Organelle disorders: peroxisomes (Zellweger syndrome)",
+      "difficulty": 2,
+      "stem": "A 3-week-old girl is evaluated for being very floppy and having seizures. She has a high forehead, a large anterior fontanelle, wide skull sutures, and an enlarged liver. Her parents are healthy first cousins. Blood tests show high levels of very-long-chain fatty acids and low levels of plasmalogens.",
+      "leadIn": "A defect in which organelle best explains these findings?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Peroxisome"
+        },
+        {
+          "id": "b",
+          "text": "Lysosome"
+        },
+        {
+          "id": "c",
+          "text": "Mitochondrion"
+        },
+        {
+          "id": "d",
+          "text": "Golgi apparatus"
+        },
+        {
+          "id": "e",
+          "text": "Smooth endoplasmic reticulum"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the peroxisome. Why: this is Zellweger syndrome. Your El-Husseiny biochemistry notes (p. 195) list the jobs of peroxisomes: beta-oxidation of very-long-chain fatty acids, alpha-oxidation, breakdown of branched-chain fatty acids, and making cholesterol, bile acids, and plasmalogens (membrane lipids that matter most in the brain's white matter). Zellweger syndrome is an autosomal recessive disorder of peroxisome formation caused by mutated PEX genes. Infants cannot form myelin properly in the brain. Your notes list wide sutures, a large anterior fontanelle, low muscle tone, seizures, an enlarged liver, and death within months. The MSD Manual (Peroxisomal Disorders) agrees that the defect is in 1 of at least 12 genes for forming peroxisomes or importing proteins into them. It lists high very-long-chain fatty acids, phytanic acid, and pipecolate with low plasmalogens, and says peroxisomal disorders other than X-linked adrenoleukodystrophy are autosomal recessive and have no specific treatment.",
+      "whyWrong": {
+        "b": "Lysosomal storage diseases trap undigested material inside lysosomes; they do not raise very-long-chain fatty acids or lower plasmalogens (standard teaching).",
+        "c": "Mitochondria break down shorter fatty acids, but very-long-chain fatty acids must first be shortened in peroxisomes (your El-Husseiny biochemistry notes, p. 195).",
+        "d": "The Golgi tags and sorts proteins (for example, the mannose-6-phosphate defect in I-cell disease); it does not break down very-long-chain fatty acids (standard teaching).",
+        "e": "The smooth ER makes lipids and steroids and detoxifies drugs (standard teaching), but plasmalogen synthesis and very-long-chain fatty acid oxidation are peroxisomal jobs (your El-Husseiny biochemistry notes, p. 195)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Peroxisomal diseases (Zellweger syndrome), p. 195"
+        },
+        {
+          "title": "MSD Manual Professional: Peroxisomal Disorders",
+          "url": "https://www.msdmanuals.com/professional/pediatrics/inherited-disorders-of-metabolism/peroxisomal-disorders"
+        }
+      ]
+    },
+    {
+      "id": "anat-superior-gluteal-trendelenburg-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Musculoskeletal",
+      "topic": "Lower limb nerves: superior gluteal nerve and Trendelenburg sign",
+      "difficulty": 2,
+      "stem": "A 60-year-old woman has trouble walking 6 weeks after surgery on her right hip. When she stands on her right leg alone, her left hip drops. When she walks, she leans her trunk toward the right with each step. Hip extension and knee extension are strong, and sensation is normal.",
+      "leadIn": "Injury to which nerve best explains these findings?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Right superior gluteal nerve"
+        },
+        {
+          "id": "b",
+          "text": "Left superior gluteal nerve"
+        },
+        {
+          "id": "c",
+          "text": "Right inferior gluteal nerve"
+        },
+        {
+          "id": "d",
+          "text": "Right femoral nerve"
+        },
+        {
+          "id": "e",
+          "text": "Right obturator nerve"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the right superior gluteal nerve. Why: your El-Husseiny musculoskeletal notes (pp. 53-54) explain that the superior gluteal nerve (L4 to S1) supplies the gluteus medius, gluteus minimus, and tensor fasciae latae, which abduct the thigh and keep the pelvis level. When these muscles are weak, standing on the affected leg lets the pelvis sag toward the opposite, unsupported side (a positive Trendelenburg sign). When walking, the patient leans toward the affected side to make up for the hip drop. Your notes add that the nerve can be hurt by injections into the upper inner part of the buttock, and that the upper outer quadrant is the safer site. StatPearls (Trendelenburg Sign) agrees that the gluteus medius and minimus are the main hip abductors, that the superior gluteal nerve supplies them, and that in a positive test the pelvis drops on the unaffected side. It lists nerve damage after surgery among the causes. Her left hip drops when she stands on her right leg, so the weak side is the right.",
+      "whyWrong": {
+        "b": "If the left superior gluteal nerve were injured, her right hip would drop when she stood on her left leg; the weak side is the stance side (StatPearls, Trendelenburg Sign).",
+        "c": "The inferior gluteal nerve supplies the gluteus maximus; injury weakens hip extension and makes climbing stairs and rising from a chair hard (your El-Husseiny musculoskeletal notes, p. 54). Her hip extension is strong.",
+        "d": "The femoral nerve supplies the quadriceps for knee extension and helps hip flexion (standard teaching); her knee extension is strong.",
+        "e": "The obturator nerve supplies the thigh adductors, not the abductors that keep the pelvis level (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Superior and inferior gluteal nerves, pp. 53-54"
+        },
+        {
+          "title": "StatPearls: Trendelenburg Sign",
+          "url": "https://www.statpearls.com/point-of-care/30568"
+        }
+      ]
+    },
+    {
+      "id": "anat-acl-tear-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Musculoskeletal",
+      "topic": "Knee injuries: anterior cruciate ligament tear",
+      "difficulty": 1,
+      "stem": "A 19-year-old soccer player felt a pop in her right knee when she planted her foot and quickly changed direction. Her knee swelled up within 2 hours. On exam, with the knee bent about 20 degrees, the examiner can pull her tibia forward relative to the femur much more than on the other side.",
+      "leadIn": "Which structure is most likely torn?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Anterior cruciate ligament"
+        },
+        {
+          "id": "b",
+          "text": "Posterior cruciate ligament"
+        },
+        {
+          "id": "c",
+          "text": "Medial collateral ligament"
+        },
+        {
+          "id": "d",
+          "text": "Lateral collateral ligament"
+        },
+        {
+          "id": "e",
+          "text": "Lateral meniscus"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the anterior cruciate ligament (ACL). Why: your El-Husseiny musculoskeletal notes (pp. 60, 62) explain that the ACL runs from the lateral femoral condyle to the front of the tibia and stops the tibia from sliding forward. ACL tears are common in young athletes in sports with quick changes of direction, such as soccer and basketball. Patients feel a pop, the knee fills with blood within a short time (hemarthrosis), and it feels unstable. The tibia can be pulled forward on the femur: with the knee bent 20 degrees this is the Lachman test, and with it bent 90 degrees it is the anterior drawer test. MRI confirms the diagnosis. The MSD Manual (Knee Sprains and Meniscal Injuries) agrees that some patients hear or feel a pop and that the Lachman test is the most sensitive physical test for an acute ACL tear. Other source: your notes call both the Lachman test and the anterior drawer test highly sensitive and specific; MSD says the anterior drawer test is less sensitive and specific than the Lachman test.",
+      "whyWrong": {
+        "b": "The PCL runs from the medial femoral condyle to the back of the tibia and stops the tibia from sliding backward; it is tested with the posterior drawer test (your El-Husseiny musculoskeletal notes, pp. 60, 62).",
+        "c": "The MCL resists valgus stress, so an MCL tear causes laxity when the knee is pushed inward, not forward tibial movement (your El-Husseiny musculoskeletal notes, p. 60).",
+        "d": "The LCL resists varus stress; it does not stop forward sliding of the tibia (your El-Husseiny musculoskeletal notes, p. 60).",
+        "e": "A meniscal tear causes catching, locking, and joint-line pain, with swelling that comes on slowly (your El-Husseiny musculoskeletal notes, p. 63); it does not let the tibia slide forward."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Knee injury and ACL injury, pp. 60, 62"
+        },
+        {
+          "title": "MSD Manual Professional: Knee Sprains and Meniscal Injuries",
+          "url": "https://www.msdmanuals.com/professional/injuries-poisoning/sprains-and-other-soft-tissue-injuries/knee-sprains-and-meniscal-injuries"
+        }
+      ]
+    },
+    {
+      "id": "anat-medial-meniscus-tear-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Musculoskeletal",
+      "topic": "Knee injuries: medial meniscus tear",
+      "difficulty": 2,
+      "stem": "A 24-year-old basketball player twisted his left knee while his foot was planted. He felt a pop and pain, but the knee did not swell until the next morning. Since then the knee sometimes catches and locks when he straightens it. There is tenderness along the inner (medial) joint line. A Lachman test is normal. Rotating the bent knee while straightening it causes a painful click.",
+      "leadIn": "Which structure is most likely injured?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Medial meniscus"
+        },
+        {
+          "id": "b",
+          "text": "Anterior cruciate ligament"
+        },
+        {
+          "id": "c",
+          "text": "Posterior cruciate ligament"
+        },
+        {
+          "id": "d",
+          "text": "Lateral collateral ligament"
+        },
+        {
+          "id": "e",
+          "text": "Patellar tendon"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the medial meniscus. Why: your El-Husseiny musculoskeletal notes (p. 63) explain that medial meniscus tears in young people often happen when the knee twists while the foot stays planted, and that the medial meniscus is injured more often than the lateral. Patients report a pop and then pain, with catching, locking, and less range of motion when a torn piece gets stuck between the femur and tibia. Because the meniscus does not have a direct blood supply, the swelling usually takes many hours to show up. The exam shows tenderness along the joint line on the injured side, and tests such as McMurray and Thessaly can cause locking or catching. The MSD Manual (Knee Sprains and Meniscal Injuries) agrees that weight bearing with rotation usually injures the menisci, that medial meniscal injuries cause medial joint line tenderness and locking, and that the McMurray test is positive when it causes a painful click or locking.",
+      "whyWrong": {
+        "b": "An ACL tear causes rapid swelling from bleeding into the joint and a positive Lachman test (your El-Husseiny musculoskeletal notes, p. 62); his swelling was slow and his Lachman test is normal.",
+        "c": "A PCL tear lets the tibia slide backward (positive posterior drawer test) and does not cause catching or locking (your El-Husseiny musculoskeletal notes, p. 62).",
+        "d": "The LCL is on the outer side of the knee and resists varus stress (your El-Husseiny musculoskeletal notes, p. 60); his tenderness is on the inner side.",
+        "e": "A patellar tendon tear causes loss of active knee extension, not locking with medial joint line pain (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Meniscal tear, p. 63"
+        },
+        {
+          "title": "MSD Manual Professional: Knee Sprains and Meniscal Injuries",
+          "url": "https://www.msdmanuals.com/professional/injuries-poisoning/sprains-and-other-soft-tissue-injuries/knee-sprains-and-meniscal-injuries"
+        }
+      ]
+    },
+    {
+      "id": "anat-supraspinatus-impingement-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Musculoskeletal",
+      "topic": "Shoulder: rotator cuff impingement (supraspinatus)",
+      "difficulty": 1,
+      "stem": "A 50-year-old house painter has had right shoulder pain for 4 months. It is worst when he reaches overhead and when he raises his arm out to the side between about 60 and 120 degrees. When he holds his arms out at shoulder height, angled slightly forward, with his thumbs pointing down, pushing down on the right arm causes pain and weakness.",
+      "leadIn": "The tendon of which muscle is most likely affected?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Supraspinatus"
+        },
+        {
+          "id": "b",
+          "text": "Infraspinatus"
+        },
+        {
+          "id": "c",
+          "text": "Teres minor"
+        },
+        {
+          "id": "d",
+          "text": "Subscapularis"
+        },
+        {
+          "id": "e",
+          "text": "Deltoid"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the supraspinatus. Why: your El-Husseiny musculoskeletal notes (pp. 29, 31) explain that the supraspinatus, supplied by the suprascapular nerve, starts arm abduction before the deltoid takes over, and is the most common rotator cuff injury. Because it sits on top of the humeral head, its tendon gets pinched between the humeral head and the acromion with repeated overhead movement, such as painting ceilings. The empty-can test, done with the arm abducted, angled forward, and thumbs down, causes pain and weakness on the injured side. The MSD Manual (Rotator Cuff Injury/Subacromial Bursitis) agrees that the supraspinatus tendon is especially prone to injury from chronic impingement under the coracoacromial arch, especially with repeated overhead activity. It adds that pain is usually worst between 60 and 120 degrees of abduction (the painful arc), and that the supraspinatus is tested by having the patient resist downward pressure on the arms with the thumbs pointing down.",
+      "whyWrong": {
+        "b": "The infraspinatus rotates the arm outward and is linked to pitching injuries (your El-Husseiny musculoskeletal notes, p. 29); the empty-can test targets the supraspinatus.",
+        "c": "The teres minor (axillary nerve) helps with adduction and outward rotation (your El-Husseiny musculoskeletal notes, p. 29), not the first part of abduction.",
+        "d": "The subscapularis rotates the arm inward and adducts it (your El-Husseiny musculoskeletal notes, p. 29); it sits in front of the joint, not under the acromion.",
+        "e": "The deltoid is not a rotator cuff muscle, and its tendon is not pinched under the acromion (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Rotator cuff muscles and rotator cuff syndrome, pp. 29, 31"
+        },
+        {
+          "title": "MSD Manual Professional: Rotator Cuff Injury/Subacromial Bursitis",
+          "url": "https://www.msdmanuals.com/professional/injuries-poisoning/sports-injury/rotator-cuff-injury-subacromial-bursitis"
+        }
+      ]
+    },
+    {
+      "id": "anat-femoral-hernia-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Gastrointestinal",
+      "topic": "Groin hernias: femoral hernia",
+      "difficulty": 2,
+      "stem": "A 68-year-old thin woman has had nausea, vomiting, and a swollen belly for 1 day. She has a firm, tender lump in her right groin that she cannot push back in. The lump lies below the inguinal ligament and lateral to the pubic tubercle. Imaging shows a loop of small bowel trapped in the hernia.",
+      "leadIn": "The hernia most likely passes through which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The femoral canal, medial to the femoral vein"
+        },
+        {
+          "id": "b",
+          "text": "The deep inguinal ring, lateral to the inferior epigastric vessels"
+        },
+        {
+          "id": "c",
+          "text": "Hesselbach triangle, medial to the inferior epigastric vessels"
+        },
+        {
+          "id": "d",
+          "text": "The obturator canal in the pelvic wall"
+        },
+        {
+          "id": "e",
+          "text": "A defect at the base of the umbilical ring"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the femoral canal, medial to the femoral vein. Why: this is a femoral hernia. Your Osmosis GI notes (p. 75) describe intestine pushing through the femoral canal next to the femoral artery and vein, below the inguinal ligament and lateral to the pubic tubercle. Your notes list female sex, obesity, pregnancy, and frequent heavy lifting as risk factors, and explain that the narrow femoral canal raises the risk of incarceration and strangulation, which can cause bowel obstruction. A review by Akrami and colleagues agrees that femoral hernias lie medial to the femoral vessels and below the inguinal ligament, that the lacunar ligament forms the inner edge of the femoral ring, that they are more common in women, and that the narrow femoral canal gives them a high risk of strangulation.",
+      "whyWrong": {
+        "b": "The deep inguinal ring, lateral to the inferior epigastric vessels, is where an indirect inguinal hernia enters; inguinal hernias lie above the inguinal ligament (standard teaching).",
+        "c": "Hesselbach triangle is where a direct inguinal hernia pushes through, above the inguinal ligament (standard teaching).",
+        "d": "An obturator hernia passes through the obturator canal deep in the pelvis and does not cause a lump below the inguinal ligament lateral to the pubic tubercle (standard teaching).",
+        "e": "An umbilical hernia comes through the navel, not the groin (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Gastrointestinal (Emily's file), Femoral hernia, p. 75"
+        },
+        {
+          "title": "Akrami M, et al. Small bowel obstruction secondary to femoral hernia; case report and review of the literature. Bull Emerg Trauma 2016;4(1):51-53",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4779471/"
+        }
+      ]
+    },
+    {
+      "id": "embryo-cleft-lip-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Gastrointestinal",
+      "topic": "Facial development: cleft lip",
+      "difficulty": 2,
+      "stem": "A newborn boy has a gap in the left side of his upper lip that runs up into the nostril. His hard and soft palate are intact. His mother took phenytoin for epilepsy throughout the pregnancy.",
+      "leadIn": "Failure of which embryonic structures to fuse best explains this finding?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Maxillary and medial nasal prominences"
+        },
+        {
+          "id": "b",
+          "text": "Left and right palatine shelves"
+        },
+        {
+          "id": "c",
+          "text": "Left and right mandibular prominences"
+        },
+        {
+          "id": "d",
+          "text": "First and second pharyngeal arches"
+        },
+        {
+          "id": "e",
+          "text": "Frontonasal and mandibular prominences"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the maxillary and medial nasal prominences. Why: Your Osmosis GI notes (pp. 167-168) explain that cleft lip and palate come from improper fusion of the facial bones and nearby tissues. A cleft can be only in the lip, only in the palate, or both. Your notes list Patau syndrome, anticonvulsant drugs, folate deficiency, and low oxygen in the womb as risk factors. Complications include speech problems, ear infections, and trouble feeding, and folate in pregnancy lowers the risk. StatPearls (Embryology, Face) explains that the medial nasal processes fuse with the maxillary processes around the 6th week to form the middle part of the upper lip and jaw, and that an orofacial cleft forms when these processes fail to fuse. A cleft lip is the failure of the maxillary prominence to fuse with the medial nasal prominence on that side (standard teaching). The MSD Manual (Cleft Lip and Cleft Palate) adds that oral clefts are the most common birth defects of the head and neck, at about 1 in 600 to 1000 live births. It also notes that antiseizure drugs that act against folate, such as phenytoin, valproate, and carbamazepine, may call for higher folate doses. Other source: your notes say the lip is closed by about 3 months of age; MSD says repair has traditionally been done at 3 to 6 months.",
+      "whyWrong": {
+        "b": "Failure of the palatine shelves to fuse causes a cleft palate; StatPearls (Embryology, Face) says these shelves fuse by the end of the 8th week. His palate is intact.",
+        "c": "The mandibular prominences form the lower jaw and lower lip (standard teaching), not the upper lip.",
+        "d": "Problems with the first and second pharyngeal arches affect the jaw, ear, and face more widely (for example, Treacher Collins syndrome), not an isolated upper lip cleft (standard teaching).",
+        "e": "The upper lip forms where the medial nasal processes meet the maxillary processes (StatPearls, Embryology, Face); the mandibular prominences form the lower jaw and do not take part (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Gastrointestinal (Emily's file), Cleft lip and palate, pp. 167-168"
+        },
+        {
+          "title": "StatPearls: Embryology, Face",
+          "url": "https://www.statpearls.com/point-of-care/21520"
+        },
+        {
+          "title": "MSD Manual Professional: Cleft Lip and Cleft Palate",
+          "url": "https://www.msdmanuals.com/professional/pediatrics/congenital-craniofacial-anomalies/cleft-lip-and-cleft-palate"
+        }
+      ]
+    },
+    {
+      "id": "embryo-gastroschisis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Gastrointestinal",
+      "topic": "Abdominal wall defects: gastroschisis",
+      "difficulty": 2,
+      "stem": "A 19-year-old woman who smokes has a routine ultrasound at 20 weeks of pregnancy. Her serum alpha-fetoprotein is high. The ultrasound shows loops of fetal bowel floating freely in the amniotic fluid, with no covering membrane. The defect is just to the right of a normally placed umbilical cord.",
+      "leadIn": "This defect most likely results from which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Failure of the lateral body folds to fuse"
+        },
+        {
+          "id": "b",
+          "text": "Failure of the midgut to return from the cord"
+        },
+        {
+          "id": "c",
+          "text": "Persistence of the vitelline duct"
+        },
+        {
+          "id": "d",
+          "text": "Failed neural crest migration into the bowel"
+        },
+        {
+          "id": "e",
+          "text": "Failure of a pleuroperitoneal membrane to close"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: failure of the lateral body folds to fuse. Why: this is gastroschisis. Your Osmosis GI notes (pp. 123-124) explain that around week 4 the lateral folds fail to fuse, leaving a hole in the abdominal wall near the umbilicus through which organs push out, most often on the right side and usually small intestine. Risk factors include a young mother and exposure to alcohol or tobacco. The exposed bowel can become inflamed from the amniotic fluid. Maternal serum AFP is high, and surgery returns the organs and closes the wall. The MSD Manual (Gastroschisis) agrees that it is a full-thickness defect beside the umbilicus, usually to the right of where the cord inserts, with no membrane over the bowel. It adds that other birth defects are uncommon (10 to 15%), though GI problems such as malrotation and atresia occur in about 25%, and that gastroschisis is more common than omphalocele.",
+      "whyWrong": {
+        "b": "Failure of the midgut to return from the umbilical cord gives an omphalocele, which MSD describes as a midline defect at the base of the umbilicus, covered by a membrane (the embryology is standard teaching).",
+        "c": "A persistent vitelline duct causes a Meckel diverticulum, not an open abdominal wall (standard teaching).",
+        "d": "Failed neural crest migration into the bowel wall causes Hirschsprung disease (standard teaching).",
+        "e": "Failure of a pleuroperitoneal membrane to close causes a congenital diaphragmatic hernia, with bowel in the chest (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Gastrointestinal (Emily's file), Lower GI congenital malformations; gastroschisis, pp. 123-124"
+        },
+        {
+          "title": "MSD Manual Professional: Gastroschisis",
+          "url": "https://www.msdmanuals.com/professional/pediatrics/congenital-gastrointestinal-anomalies/gastroschisis"
+        }
+      ]
+    },
+    {
+      "id": "phys-secretin-bicarbonate-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Gastrointestinal",
+      "topic": "GI hormones: secretin",
+      "difficulty": 2,
+      "stem": "In a physiology study, dilute hydrochloric acid is slowly infused into the duodenum of a healthy volunteer. Within minutes, the volume of pancreatic juice rises sharply, and the juice becomes rich in bicarbonate. The amount of digestive enzyme in the juice changes little.",
+      "leadIn": "Which hormone most likely causes this response?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Secretin"
+        },
+        {
+          "id": "b",
+          "text": "Cholecystokinin"
+        },
+        {
+          "id": "c",
+          "text": "Gastrin"
+        },
+        {
+          "id": "d",
+          "text": "Glucose-dependent insulinotropic peptide"
+        },
+        {
+          "id": "e",
+          "text": "Somatostatin"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: secretin. Why: your Osmosis physiology notes (p. 306) explain that secretin is released by enteroendocrine S cells in the proximal small intestine in response to gastric acid, bile salts, peptides, fatty acids, and ethanol. It raises pancreatic and biliary bicarbonate and water, and lowers gastric emptying, gastrin release, and gastric acid secretion, so the acid is neutralized and pancreatic enzymes can work. Somatostatin inhibits its release. StatPearls (Physiology, Gastrointestinal Hormonal Control) agrees that S cells in the duodenum release secretin in response to acid and fatty acids, that a pH below 4.5 signals that stomach contents have arrived, and that secretin stimulates pancreatic bicarbonate release while inhibiting gastrin and acid secretion.",
+      "whyWrong": {
+        "b": "CCK comes from I cells in response to fatty acids and amino acids and mainly increases pancreatic enzyme output and gallbladder contraction (your Osmosis physiology notes, p. 306); here enzyme output barely changed.",
+        "c": "Gastrin comes from G cells in the stomach and increases acid secretion (your Osmosis physiology notes, p. 321); secretin actually lowers gastrin release.",
+        "d": "GIP comes from the duodenal mucosa in response to fatty chyme, weakly inhibits acid, and stimulates insulin release (your Osmosis physiology notes, p. 306); it does not drive bicarbonate secretion.",
+        "e": "Somatostatin inhibits secretin and other GI hormones (your Osmosis physiology notes, p. 306), so it would reduce this response."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), GI hormones: secretin, CCK, GIP, p. 306"
+        },
+        {
+          "title": "StatPearls: Physiology, Gastrointestinal Hormonal Control",
+          "url": "https://www.statpearls.com/point-of-care/806"
+        }
+      ]
+    },
+    {
+      "id": "phys-gastric-acid-histamine-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Gastrointestinal",
+      "topic": "Gastric acid secretion: gastrin, histamine, and H2 receptors",
+      "difficulty": 3,
+      "stem": "Researchers study acid secretion in gastric glands kept alive in a dish. Adding gastrin raises acid output a lot. When famotidine, a histamine H2 receptor blocker, is added first, gastrin still raises acid output, but much less than before.",
+      "leadIn": "Which of the following best explains why famotidine blunts the effect of gastrin?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Gastrin releases histamine from ECL cells"
+        },
+        {
+          "id": "b",
+          "text": "Gastrin binds H2 receptors on parietal cells directly"
+        },
+        {
+          "id": "c",
+          "text": "Famotidine blocks the parietal cell H+/K+ ATPase"
+        },
+        {
+          "id": "d",
+          "text": "Famotidine blocks the CCKB receptor on parietal cells"
+        },
+        {
+          "id": "e",
+          "text": "Histamine comes from chief cells with pepsinogen"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: gastrin releases histamine from ECL cells. Why: your Osmosis physiology notes (pp. 321-322) explain that G cells in the antrum release gastrin into the blood. Gastrin reaches parietal cells, binds CCKB receptors, and raises H+ secretion through IP3 and calcium. It can also raise acid indirectly by increasing histamine release from enterochromaffin-like (ECL) cells. Your notes (p. 306) add that histamine from the stomach mucosa activates parietal cells to release HCl. StatPearls (Physiology, Gastrointestinal Hormonal Control) agrees that gastrin binds CCK-2 receptors on parietal cells, and that histamine binds H2 receptors on nearby parietal cells and further stimulates acid secretion. So blocking H2 receptors removes the indirect, histamine-driven part of gastrin's effect, while the direct CCKB part remains. Famotidine is an H2 receptor blocker (standard teaching).",
+      "whyWrong": {
+        "b": "Gastrin acts on CCKB (CCK-2) receptors, not H2 receptors (StatPearls, Physiology, Gastrointestinal Hormonal Control).",
+        "c": "Proton pump inhibitors such as omeprazole block the H+/K+ ATPase (your Osmosis physiology notes, p. 322); famotidine blocks H2 receptors (standard teaching).",
+        "d": "Famotidine does not block CCKB receptors (standard teaching); the gastrin effect that remains in the stem is the direct CCKB part.",
+        "e": "Chief cells make pepsinogen and some lipase; histamine comes from enteroendocrine (ECL) cells (your Osmosis physiology notes, pp. 321-322)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Gastric secretion and HCl secretion, pp. 321-322; histamine, p. 306"
+        },
+        {
+          "title": "StatPearls: Physiology, Gastrointestinal Hormonal Control",
+          "url": "https://www.statpearls.com/point-of-care/806"
+        }
+      ]
+    },
+    {
+      "id": "phys-renal-glucose-threshold-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Renal & Urinary",
+      "topic": "Renal glucose handling: glycosuria in pregnancy",
+      "difficulty": 2,
+      "stem": "A 28-year-old woman at 24 weeks of pregnancy has glucose on a routine urine dipstick. Her fasting plasma glucose is 78 mg/dL, and her 1-hour glucose challenge result is 118 mg/dL (normal). She takes only a prenatal vitamin. Her kidney function is normal.",
+      "leadIn": "Her glycosuria is best explained by which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "More filtered glucose from a higher GFR"
+        },
+        {
+          "id": "b",
+          "text": "Plasma glucose above the renal threshold"
+        },
+        {
+          "id": "c",
+          "text": "Glucose secretion by the distal tubule"
+        },
+        {
+          "id": "d",
+          "text": "Less glucose filtered at the glomerulus"
+        },
+        {
+          "id": "e",
+          "text": "A drug blocking SGLT2 in the proximal tubule"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: more filtered glucose from a higher GFR. Why: your Osmosis physiology notes (pp. 543-544) explain that glucose is reabsorbed mainly in the proximal convoluted tubule. Sodium-glucose transporters move it into the cells across the apical membrane, and GLUT1 or GLUT2 carry it out across the basolateral membrane. At normal plasma levels (below about 200 mg/dL), reabsorption keeps up with filtration. At higher levels the limited number of transporters falls behind, and above about 350 mg/dL they are fully saturated (the transport maximum, or Tm). Your notes list two causes of glycosuria: diabetes, and the hormonal changes of pregnancy that raise renal blood flow and so raise glucose filtration. Her blood glucose is normal, so the extra filtered load from her higher GFR explains it. StatPearls (Urinalysis) agrees that glycosuria happens when the filtered load of glucose is more than the tubules can reabsorb, and lists pregnancy among its causes. Other source: StatPearls gives the renal threshold as about 180 mg/dL; your notes give about 200 mg/dL.",
+      "whyWrong": {
+        "b": "Her fasting and challenge glucose values are normal, so her plasma glucose is not above the threshold.",
+        "c": "Glucose is filtered and reabsorbed, not secreted by the tubules; your notes group glucose with substances that are filtered and completely reabsorbed (your Osmosis physiology notes, p. 543).",
+        "d": "Less filtered glucose would make glycosuria less likely; in pregnancy, filtration goes up.",
+        "e": "SGLT2 inhibitors cause glycosuria, but she takes only a prenatal vitamin (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Tubular reabsorption of glucose, pp. 543-544"
+        },
+        {
+          "title": "StatPearls: Urinalysis",
+          "url": "https://www.statpearls.com/point-of-care/30843"
+        }
+      ]
+    },
+    {
+      "id": "phys-anemia-oxygen-content-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Oxygen transport: oxygen content in anemia",
+      "difficulty": 2,
+      "stem": "A 34-year-old woman with very heavy menstrual periods has been tired and short of breath on exertion for 3 months. Her hemoglobin is 7 g/dL (normal about 12 to 15). Breathing room air, her arterial PO2 is 98 mm Hg and her hemoglobin oxygen saturation is 98%.",
+      "leadIn": "Compared with a healthy person, which of the following is decreased in this patient?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Arterial oxygen content"
+        },
+        {
+          "id": "b",
+          "text": "Arterial PO2"
+        },
+        {
+          "id": "c",
+          "text": "Hemoglobin oxygen saturation"
+        },
+        {
+          "id": "d",
+          "text": "Oxygen dissolved in plasma"
+        },
+        {
+          "id": "e",
+          "text": "Alveolar PO2"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: arterial oxygen content. Why: your Osmosis physiology notes (p. 611) give the oxygen content equation: CaO2 = (hemoglobin × 1.34 × SaO2) + (PaO2 × 0.003). Each gram of hemoglobin binds 1.34 mL of oxygen, so 15 g/dL of hemoglobin carries about 20 mL O2/100 mL of blood, while plasma holds only about 0.3 mL dissolved at a PaO2 of 100 mm Hg. About 98.5% of blood oxygen is bound to hemoglobin, and oxygen delivery equals cardiac output times oxygen content. For her: 7 × 1.34 × 0.98 ≈ 9.2, plus 0.3 dissolved ≈ 9.5 mL O2/100 mL, about half of normal, even though her PaO2 and saturation are normal. StatPearls (Oxygen Saturation) agrees with this equation and that most blood oxygen is carried by hemoglobin. It adds that a normal oxygen saturation does not rule out tissue hypoxia in severe anemia, because tissue oxygen also depends on hemoglobin level and cardiac output.",
+      "whyWrong": {
+        "b": "PaO2 depends on gas exchange in the lungs, which is normal; anemia lowers how much oxygen the blood carries, not its partial pressure (her PaO2 is 98 mm Hg).",
+        "c": "Her saturation is 98%: the hemoglobin she has is fully loaded, there is just less of it.",
+        "d": "Dissolved oxygen depends only on PaO2 (0.003 mL per mm Hg, per your Osmosis physiology notes, p. 611), and her PaO2 is normal.",
+        "e": "Alveolar PO2 depends on inspired oxygen and ventilation, not on hemoglobin (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Oxygen binding capacity and oxygen content, p. 611"
+        },
+        {
+          "title": "StatPearls: Oxygen Saturation",
+          "url": "https://www.statpearls.com/point-of-care/26491"
+        }
+      ]
+    },
+    {
+      "id": "biostats-npv-calc-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biostatistics & Epidemiology",
+      "system": "General Principles",
+      "topic": "Diagnostic tests: negative predictive value",
+      "difficulty": 2,
+      "stem": "A new rapid strep test is studied in 500 children with sore throat. Throat culture, the reference standard, shows strep in 100 children. The rapid test is positive in 90 of these 100 children. Of the 400 children without strep, the rapid test is negative in 380.",
+      "leadIn": "What is the negative predictive value of the rapid test in this group?",
+      "options": [
+        {
+          "id": "a",
+          "text": "About 97%"
+        },
+        {
+          "id": "b",
+          "text": "About 90%"
+        },
+        {
+          "id": "c",
+          "text": "About 95%"
+        },
+        {
+          "id": "d",
+          "text": "About 82%"
+        },
+        {
+          "id": "e",
+          "text": "About 20%"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: about 97%. Why: First Aid (biostats, p. 257) defines the negative predictive value (NPV) as the chance that someone whose test is negative is really disease-free: NPV = TN / (TN + FN). Build the 2 × 2 table. Of 100 with strep, 90 test positive (TP = 90), so 10 test negative (FN = 10). Of 400 without strep, 380 test negative (TN = 380), so 20 test positive (FP = 20). NPV = 380 / (380 + 10) = 380 / 390 ≈ 97%. First Aid adds that NPV goes down as prevalence or pretest probability goes up. StatPearls (Diagnostic Testing Accuracy) agrees that NPV is the share of negative results that are true negatives, and that disease prevalence affects both PPV and NPV.",
+      "whyWrong": {
+        "b": "90% is the sensitivity: TP / (TP + FN) = 90 / 100 (First Aid, p. 257).",
+        "c": "95% is the specificity: TN / (TN + FP) = 380 / 400 (First Aid, p. 257).",
+        "d": "About 82% is the positive predictive value: TP / (TP + FP) = 90 / 110 (First Aid, p. 257).",
+        "e": "20% is the prevalence in this group: 100 / 500 (First Aid, p. 257)."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Evaluation of diagnostic tests, p. 257"
+        },
+        {
+          "title": "StatPearls: Diagnostic Testing Accuracy: Sensitivity, Specificity, Predictive Values and Likelihood Ratios",
+          "url": "https://www.statpearls.com/point-of-care/96435"
+        }
+      ]
+    },
+    {
+      "id": "biostats-cutoff-sensitivity-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biostatistics & Epidemiology",
+      "system": "General Principles",
+      "topic": "Diagnostic tests: changing the cutoff value",
+      "difficulty": 2,
+      "stem": "A hospital uses a blood marker to screen for a cancer. Results above 4.0 units are called positive. To miss fewer cancers, the hospital lowers the cutoff for a positive result to 2.5 units. The disease prevalence in the screened population does not change.",
+      "leadIn": "Which change in the test's performance is most likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Higher sensitivity and higher NPV"
+        },
+        {
+          "id": "b",
+          "text": "Higher specificity and higher PPV"
+        },
+        {
+          "id": "c",
+          "text": "Higher sensitivity and higher PPV"
+        },
+        {
+          "id": "d",
+          "text": "Lower sensitivity and fewer false positives"
+        },
+        {
+          "id": "e",
+          "text": "No change in sensitivity or specificity"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: higher sensitivity and higher NPV. Why: First Aid (biostats, p. 257) explains that lowering the cutoff value for a positive result raises sensitivity and NPV, but adds false positives, so specificity and PPV fall. Raising the cutoff does the opposite: it raises specificity and PPV but adds false negatives. With a lower cutoff, more people with cancer test positive, so fewer are missed, and a negative result becomes more reassuring. StatPearls (Diagnostic Testing Accuracy) agrees that sensitivity and specificity move in opposite directions: as one rises, the other tends to fall.",
+      "whyWrong": {
+        "b": "Higher specificity and PPV come from raising the cutoff, not lowering it (First Aid, p. 257).",
+        "c": "A lower cutoff adds false positives, so PPV falls even as sensitivity rises (First Aid, p. 257).",
+        "d": "A lower cutoff raises sensitivity and adds false positives; this option describes raising the cutoff (First Aid, p. 257).",
+        "e": "Sensitivity and specificity are fixed for a given cutoff, but changing the cutoff shifts both (First Aid, p. 257)."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Evaluation of diagnostic tests (cutoff values), p. 257"
+        },
+        {
+          "title": "StatPearls: Diagnostic Testing Accuracy: Sensitivity, Specificity, Predictive Values and Likelihood Ratios",
+          "url": "https://www.statpearls.com/point-of-care/96435"
+        }
+      ]
+    },
+    {
+      "id": "biostats-berkson-bias-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biostatistics & Epidemiology",
+      "system": "General Principles",
+      "topic": "Study bias: Berkson (admission) bias",
+      "difficulty": 2,
+      "stem": "Researchers run a case-control study of coffee drinking and pancreatic cancer. Cases are patients with pancreatic cancer at a large hospital. Controls are other patients admitted to the same hospital's gastroenterology ward, many of whom had been told to stop drinking coffee because of their stomach problems. The study finds a strong link between coffee and pancreatic cancer.",
+      "leadIn": "Which type of bias most likely weakens this conclusion?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Berkson (admission) bias"
+        },
+        {
+          "id": "b",
+          "text": "Recall bias"
+        },
+        {
+          "id": "c",
+          "text": "Lead-time bias"
+        },
+        {
+          "id": "d",
+          "text": "Hawthorne effect"
+        },
+        {
+          "id": "e",
+          "text": "Observer-expectancy bias"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: Berkson (admission) bias. Why: First Aid (biostats, p. 260) describes selection bias as a nonrandom way of choosing or assigning subjects, so the study group does not represent the target population. Its example is Berkson bias: cases or controls chosen from hospitals are sicker and have different exposures than the general population. The fix is randomization or choosing the right comparison group. StatPearls (Study Bias) agrees that admission bias, also called Berkson bias, happens when the study population comes from hospitals or specialty clinics, whose patients tend to be sicker than the general population. Here the hospital controls drink less coffee than people in general, which makes coffee look more common in the cases.",
+      "whyWrong": {
+        "b": "Recall bias happens when knowing about the disease changes how subjects remember past exposures (First Aid, p. 260); the problem here is who was chosen as controls.",
+        "c": "Lead-time bias makes survival look longer when a disease is found earlier by screening; it is about timing of diagnosis, not choosing controls (standard teaching).",
+        "d": "The Hawthorne effect is a change in behavior because people know they are being watched (First Aid, p. 260).",
+        "e": "Observer-expectancy bias happens when a researcher's belief in a treatment changes how outcomes are recorded (First Aid, p. 260)."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Bias and study errors, p. 260"
+        },
+        {
+          "title": "StatPearls: Study Bias",
+          "url": "https://www.statpearls.com/point-of-care/137540"
+        }
+      ]
+    },
+    {
+      "id": "biostats-precision-accuracy-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biostatistics & Epidemiology",
+      "system": "General Principles",
+      "topic": "Measurement: precision vs accuracy",
+      "difficulty": 1,
+      "stem": "A clinic checks a new glucose meter by testing the same control solution 10 times. The true glucose of the solution is 100 mg/dL. All 10 readings fall between 119 and 121 mg/dL.",
+      "leadIn": "Which of the following best describes this meter?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Precise but not accurate"
+        },
+        {
+          "id": "b",
+          "text": "Accurate but not precise"
+        },
+        {
+          "id": "c",
+          "text": "Both precise and accurate"
+        },
+        {
+          "id": "d",
+          "text": "Neither precise nor accurate"
+        },
+        {
+          "id": "e",
+          "text": "Limited mainly by random error"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: precise but not accurate. Why: First Aid (biostats, p. 259) defines precision (reliability) as how consistent and reproducible a test is, which random error lowers. Accuracy (validity) is how close results are to the true value, which systematic error lowers. More precision means a smaller standard deviation and more statistical power. The readings here agree closely with each other (precise) but are all about 20 mg/dL too high (not accurate), which points to a systematic error. Schnell and colleagues, writing about glucose meters, agree that precision is how closely independent results agree with each other and reflects random error. They describe trueness (reported as bias) as systematic error that pushes results in one direction and can be corrected by calibration. Accuracy is how close a result is to the accepted reference value.",
+      "whyWrong": {
+        "b": "An accurate but imprecise meter would give scattered readings that average near 100 mg/dL; these readings are tightly grouped far from 100 (First Aid, p. 259).",
+        "c": "The readings are about 20 mg/dL too high, so the meter is not accurate (First Aid, p. 259).",
+        "d": "The readings agree closely with one another, so the meter is precise (First Aid, p. 259).",
+        "e": "Random error would scatter the readings; a steady offset in one direction is systematic error, which lowers accuracy (First Aid, p. 259; Schnell 2013)."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Precision vs accuracy, p. 259"
+        },
+        {
+          "title": "Schnell O, et al. Assessing the analytical performance of systems for self-monitoring of blood glucose: concepts of performance evaluation and definition of metrological key terms. J Diabetes Sci Technol 2013;7(6):1585-1594",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3876337/"
+        }
+      ]
     }
   ]
 }
