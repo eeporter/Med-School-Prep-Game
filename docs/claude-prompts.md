@@ -82,9 +82,9 @@ Nothing here involves Terminal. Tick each box once.
 1. **Play Daily Rounds** in the game.
 2. **Ask the study buddy** about anything that confused you. It explains with sources and logs the topic.
 3. **About once a week, open My weak spots** on the game's home screen:
-   - Tap **Copy for Claude** and paste it into the study buddy chat. It adds those topics to your struggle log and offers to start guides for the weakest ones.
-   - Tap **Send to Emily** so new game questions get written on those topics (or paste it into the question writer yourself).
-4. **If a question looks wrong or unclear,** tap the small **Report a problem** link under it and copy the report. Paste it into the **Fix a reported question** prompt (below) at https://claude.ai/code. Your Claude tells you right away whether you are right, with sources, and fixes the question in the game if it is wrong. Emily does not need to be involved.
+   - Tap **Copy for my Claude** and paste it into the study buddy chat. It adds those topics to your struggle log and offers to start guides for the weakest ones.
+   - Paste the same list into the question inbox (see "Automatic weekly questions") or the question writer, so new game questions get written on those topics.
+4. **If a question looks wrong or unclear,** tap the small **Report a problem** link under it. Then, on the home screen, tap **Copy for my Claude** in the Question reports box and paste it into the **Fix a reported question** prompt (below) at https://claude.ai/code. Your Claude tells you right away whether you are right, with sources, and fixes the question in the game if it is wrong. Emily does not need to be involved.
 
 ## How to use a prompt (every time)
 
@@ -334,8 +334,8 @@ WHAT I WANT THIS TIME (pick one or more, or paste a list):
 <e.g. "6 questions on PBC vs PSC", or "here is my weak-spots list from the game: ...", or "here are my question reports from the game: ...", or "fill the biggest gaps in the subject mix">
 
 INPUTS YOU MAY GET FROM ME
-- A WEAK-SPOTS LIST copied from the game ("My weak spots", Copy for Claude / Send to Emily). It starts "From my Med School Prep study game". It ranks concepts I miss, got wrong while sure, or only guessed. Write new questions on the top concepts, at a slightly different angle from the existing ones, and use my wrong answers as distractors.
-- A REPORT LIST copied from the game ("Report a problem"). Each line names a question id and what I thought was wrong (unclear, answer seems wrong, typo, other) plus my note. For each: open the question, re-check it against its sources, and fix it if the report is right. If the question is correct, keep it and write me one plain sentence on why the answer is right. Never delete a question without telling me.
+- A WEAK-SPOTS LIST copied from the game ("My weak spots", Copy for my Claude). It starts "From my Med School Prep study game". It ranks concepts I miss, got wrong while sure, or only guessed. Write new questions on the top concepts, at a slightly different angle from the existing ones, and use my wrong answers as distractors.
+- A REPORT LIST copied from the game ("Copy for my Claude" in the Question reports box; starts "Question report from my Med School Prep study game"). Each block gives the question id, my answer and the keyed answer as option ids in the question file, the problem, and my note. For each: open the question, re-check it against its sources, and fix it if the report is right. If the question is correct, keep it and write me one plain sentence on why the answer is right. Never delete a question without telling me.
 - A topic I name, or a study guide number to turn into questions (only guides whose status in study-guides/README.md is "Audited, cleared").
 - If I gave you nothing, pick the topics the subject mix needs most (see SUBJECT MIX).
 
@@ -414,7 +414,7 @@ Use this whenever a question or answer looks wrong or confusing. Go to **https:/
 ````text
 I think a question in my study game is wrong or unclear. You are my question checker. I am a medical student preparing for USMLE Step 1 and NBME exams. I am not technical: do every GitHub step yourself and never ask me to use Terminal. This chat is connected to the game's repository.
 
-MY REPORT (pasted from the game, or typed by me):
+MY REPORT (pasted from the game's "Copy for my Claude" button, or typed by me). A pasted report starts "Question report from my Med School Prep study game" and has one block per report: Question id, Question starts, My answer and Keyed answer (with the option id in the question file; letters on screen are shuffled, so use those ids, not screen letters), Problem, and My note. "My answer: not saved" means an older report; "not found in the current question bank" means search by the words instead.
 <paste the report here>
 
 STEP 1: TELL ME IF I AM RIGHT (do this first, before changing anything)
