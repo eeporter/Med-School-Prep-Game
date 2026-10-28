@@ -25067,7 +25067,7 @@
       "system": "Musculoskeletal",
       "topic": "Cytoskeleton: microtubules and colchicine in gout",
       "difficulty": 2,
-      "stem": "A 61-year-old man has a hot, swollen, very painful big toe that started overnight. Joint fluid shows needle-shaped crystals inside neutrophils. He cannot take NSAIDs because of kidney disease, so he is given colchicine, and the pain eases over the next day.",
+      "stem": "A 52-year-old man has a hot, swollen, very painful big toe that started overnight. Joint fluid shows needle-shaped crystals inside neutrophils. He had a bleeding peptic ulcer last year and cannot take NSAIDs, so he is given colchicine, and the pain eases over the next day.",
       "leadIn": "Colchicine most likely helps by blocking which of the following?",
       "options": [
         {
@@ -25092,12 +25092,12 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: polymerization of tubulin into microtubules. Why: StatPearls' Colchicine article explains that the drug disrupts the cytoskeleton by inhibiting the polymerization of beta-tubulin into microtubules. Without working microtubules, neutrophils cannot be activated, release their granules, or migrate into the joint, which damps the inflammation that urate crystals set off. StatPearls adds that the same microtubule block stops dividing cells at metaphase. Your el-husseiny musculoskeletal notes (p. 145) list colchicine with NSAIDs and glucocorticoids as treatments for an acute gout attack, and xanthine oxidase inhibitors as the long-term preventive drugs.",
+      "explanation": "Answer: polymerization of tubulin into microtubules. Why: StatPearls' Colchicine article explains that the drug disrupts the cytoskeleton by inhibiting the polymerization of beta-tubulin into microtubules. Without working microtubules, neutrophils cannot be activated, release their granules, or migrate into the joint, which damps the inflammation that urate crystals set off. StatPearls adds that the same microtubule block stops dividing cells at metaphase. Your el-husseiny musculoskeletal notes (p. 217) say the same: colchicine binds and stabilizes tubulin so microtubules cannot form, which disrupts cell functions that need the cytoskeleton, such as chemotaxis and phagocytosis, and it does not change how uric acid is made or excreted. Your notes (pp. 216-217) make NSAIDs the first choice for an acute attack, use colchicine for patients who cannot take NSAIDs, such as those with peptic ulcer disease, and say to avoid colchicine in older patients and those with kidney problems; glucocorticoids are for patients who can take neither, such as those with renal failure. Your el-husseiny biochemistry notes (p. 52) list colchicine with mebendazole, griseofulvin, vincristine, vinblastine, and paclitaxel as drugs that act on microtubules.",
       "whyWrong": {
-        "b": "Blocking xanthine oxidase is how allopurinol and febuxostat lower urate production; your notes list them for long-term prevention, not for the acute attack (your El-Husseiny musculoskeletal notes, p. 145).",
+        "b": "Blocking xanthine oxidase is how allopurinol and febuxostat lower urate production; your notes list them for long-term prevention, not for the acute attack (your El-Husseiny musculoskeletal notes, pp. 145, 217).",
         "c": "Blocking cyclooxygenase is how NSAIDs such as indomethacin work, and he cannot take them (standard teaching).",
         "d": "Blocking urate reabsorption in the kidney is how uricosuric drugs such as probenecid work (standard teaching).",
-        "e": "Turning uric acid into allantoin is what the enzyme drugs rasburicase and pegloticase do; colchicine does not change urate levels (standard teaching)."
+        "e": "Turning uric acid into allantoin is what the enzyme drugs rasburicase and pegloticase do (standard teaching); colchicine does not affect how uric acid is made or excreted (your El-Husseiny musculoskeletal notes, p. 217)."
       },
       "sources": [
         {
@@ -25106,6 +25106,12 @@
         },
         {
           "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Gout treatment, p. 145"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Gout drugs (colchicine), pp. 216-217"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Drugs that act on microtubules, p. 52"
         }
       ]
     },
@@ -25196,7 +25202,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: desmin. Why: a fast-growing orbital mass in a young child, with small round blue cells and some cells showing striations, points to rhabdomyosarcoma. StatPearls' Rhabdomyosarcoma article calls it the most common soft tissue sarcoma diagnosed in children and lists the head, neck, and genitourinary areas as the most common sites. It explains that the tumor is believed to come from primitive mesenchymal cells that usually become skeletal muscle, and that the diagnosis is supported by staining for skeletal muscle markers such as myogenin, desmin, and MyoD1. Desmin is an intermediate filament of muscle. Your el-husseiny musculoskeletal notes (p. 85) note that the Z line of the sarcomere contains vimentin and desmin, which are used as tumor markers for muscle tumors.",
+      "explanation": "Answer: desmin. Why: a fast-growing orbital mass in a young child, with small round blue cells and some cells showing striations, points to rhabdomyosarcoma. StatPearls' Rhabdomyosarcoma article calls it the most common soft tissue sarcoma diagnosed in children and lists the head, neck, and genitourinary areas as the most common sites. It explains that the tumor is believed to come from primitive mesenchymal cells that usually develop into skeletal tissue, and that the diagnosis is supported by staining for skeletal muscle markers such as myogenin, desmin, and MyoD1. Desmin is an intermediate filament of muscle. Your el-husseiny musculoskeletal notes (p. 85) note that the Z line of the sarcomere contains vimentin and desmin, which are used as tumor markers for muscle tumors.",
       "whyWrong": {
         "b": "Cytokeratin is the intermediate filament of epithelial cells and marks carcinomas, not muscle tumors (standard teaching).",
         "c": "Glial fibrillary acidic protein is the intermediate filament of astrocytes and marks glial tumors (standard teaching).",
@@ -25300,17 +25306,20 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: caudate nucleus. Why: middle-age onset of chorea, mood change, and thinking problems, with an affected father and a CAG repeat expansion, is Huntington disease. The MSD Manual explains that it is autosomal dominant and results from a mutation in the huntingtin (HTT) gene on chromosome 4, and that more CAG repeats bring earlier onset and more severe disease. The number of repeats can increase from one generation to the next. Levels of the neurotransmitters GABA and substance P decrease. Symptoms start insidiously at about age 35 to 40, and abnormal movements include chorea, athetosis, and myoclonic jerks. MSD notes that neuroimaging helps identify caudate atrophy, often with some cortical atrophy that is worse in the frontal lobes.",
+      "explanation": "Answer: caudate nucleus. Why: middle-age onset of chorea, mood change, and thinking problems, with an affected father and a CAG repeat expansion, is Huntington disease. The MSD Manual explains that it is autosomal dominant and results from a mutation in the huntingtin (HTT) gene on chromosome 4, and that more CAG repeats bring earlier onset and more severe disease. The number of repeats can increase from one generation to the next. Levels of the neurotransmitters GABA and substance P decrease. Symptoms start insidiously at about age 35 to 40, and abnormal movements include chorea, athetosis, and myoclonic jerks. MSD notes that neuroimaging helps identify caudate atrophy, often with some cortical atrophy that is worse in the frontal lobes. Your El-Husseiny neurology notes (pp. 101-102) agree: the CAG repeat on chromosome 4 leads to loss of GABA-making neurons in the striatum, mainly the caudate, so the caudate shrinks and the frontal horns of the lateral ventricles enlarge. Your notes add that the disease shows anticipation, that GABA and acetylcholine fall while dopamine is relatively high, and that onset is usually between ages 20 and 50.",
       "whyWrong": {
         "b": "Substantia nigra loss causes Parkinson disease, with slowness, rigidity, and resting tremor rather than chorea (standard teaching).",
         "c": "Atrophy of the cerebellar vermis, typically from long-term alcohol use, causes an unsteady, wide-based gait (standard teaching).",
         "d": "Shrunken mammillary bodies point to Wernicke-Korsakoff syndrome from thiamine deficiency (standard teaching).",
-        "e": "A lesion of the subthalamic nucleus, usually a small stroke, causes hemiballismus: wild flinging of one arm and leg on the opposite side (standard teaching)."
+        "e": "Damage to the subthalamic nucleus, most often from a small (lacunar) stroke in someone with long-standing high blood pressure, causes hemiballismus: wild flinging of the limbs on the opposite side (your El-Husseiny neurology notes, p. 102)."
       },
       "sources": [
         {
           "title": "MSD Manual Professional: Huntington Disease",
           "url": "https://www.msdmanuals.com/professional/neurologic-disorders/movement-and-cerebellar-disorders/huntington-disease"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Huntington disease and hemiballismus, pp. 101-102"
         }
       ]
     },
@@ -25349,7 +25358,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: aneurysm of the posterior communicating artery. Why: ptosis, an eye that rests down and out, and a large pupil that does not react to light mean a complete third (oculomotor) nerve palsy with pupil involvement. The MSD Manual explains that third nerve palsies that affect the pupil commonly result from aneurysms, especially of the posterior communicating artery, and from transtentorial herniation. Palsies that spare the pupil are most commonly caused by ischemia, usually from diabetes or hypertension. MSD describes the affected eye as deviating slightly out and down, with diplopia and ptosis, and a dilated pupil with impaired light reflexes. Your Osmosis neurology notes (p. 22) also list posterior communicating artery aneurysm as a cause of oculomotor palsy with ipsilateral ptosis, an eye pointing down and out, a dilated pupil, and loss of the pupillary light reflex. The pupil fibers run on the outside of the nerve, so pressure from outside hits them early (standard teaching).",
+      "explanation": "Answer: aneurysm of the posterior communicating artery. Why: ptosis, an eye that rests down and out, and a large pupil that does not react to light mean a complete third (oculomotor) nerve palsy with pupil involvement. The MSD Manual explains that third nerve palsies that affect the pupil commonly result from aneurysms, especially of the posterior communicating artery, and from transtentorial herniation. Palsies that spare the pupil are most commonly caused by ischemia, usually from diabetes or hypertension. MSD describes the affected eye as deviating slightly out and down, with diplopia and ptosis, and a dilated pupil with impaired light reflexes. Your Osmosis neurology notes (p. 22) also list posterior communicating artery aneurysm as a cause of oculomotor palsy with ipsilateral ptosis, an eye pointing down and out, a dilated pupil, and loss of the pupillary light reflex. Your El-Husseiny neurology notes (p. 53) list the same causes (ischemia, uncal herniation, posterior communicating artery aneurysm, cavernous sinus thrombosis, midbrain stroke) and explain that the nerve's parasympathetic fibers, which constrict the pupil, run on its outside, while the motor fibers run in the middle. That is why ischemia usually spares the pupil, while pressure from an aneurysm outside the nerve affects it early.",
       "whyWrong": {
         "b": "Ischemic third nerve palsy, usually from diabetes or hypertension, is the most common cause of palsies that spare the pupil; this pupil is dilated and fixed (MSD Manual, Third Cranial Nerve Disorders).",
         "c": "A lesion of the medial longitudinal fasciculus causes internuclear ophthalmoplegia, with poor adduction on side gaze but no ptosis or pupil changes (standard teaching).",
@@ -25363,6 +25372,9 @@
         },
         {
           "title": "Osmosis High-Yield Pathology Notes: Neurology (Emily's file), Subarachnoid hemorrhage, p. 22"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), CN III damage, p. 53"
         }
       ]
     },
@@ -25453,17 +25465,23 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: left medial longitudinal fasciculus (MLF). Why: this is internuclear ophthalmoplegia, and with her earlier episode of optic neuritis, multiple sclerosis is the likely cause. The MSD Manual describes the condition as weak adduction of the eye on the same side as the lesion during side gaze. It results from a lesion in the MLF, the pathway that links the abducens nucleus on one side to the oculomotor nucleus on the other so the eyes move together. The eye on the affected side cannot adduct, or adducts weakly, past the midline, and nystagmus often appears in the eye that abducts. That eye still adducts normally during convergence, because convergence does not use the MLF. MSD notes that in young people the cause is commonly multiple sclerosis and is often bilateral, while in older adults it is typically a stroke and is on one side. Here the left eye fails to adduct, so the lesion is in the left MLF.",
+      "explanation": "Answer: left medial longitudinal fasciculus (MLF). Why: this is internuclear ophthalmoplegia, and with her earlier episode of optic neuritis, multiple sclerosis is the likely cause. The MSD Manual describes the condition as weak adduction of the eye on the same side as the lesion during side gaze. It results from a lesion in the MLF, the pathway that links the abducens nucleus on one side to the oculomotor nucleus on the other so the eyes move together. The eye on the affected side cannot adduct, or adducts weakly, past the midline, and nystagmus often appears in the eye that abducts. That eye still adducts normally during convergence, because convergence does not use the MLF. MSD notes that in young people the cause is commonly multiple sclerosis and is often bilateral, while in older adults it is typically a stroke and is on one side. Here the left eye fails to adduct, so the lesion is in the left MLF. Your El-Husseiny neurology notes (pp. 73, 75, 157-158) agree: the MLF connects the abducens and oculomotor nuclei so one eye adducts as the other abducts. Because it is heavily myelinated, it is a common target in multiple sclerosis. Their table lists a left MLF lesion as making the left eye unable to look right while convergence stays intact.",
       "whyWrong": {
         "b": "A right MLF lesion would stop the right eye from adducting when she looks to the left (MSD Manual, Internuclear Ophthalmoplegia).",
-        "c": "A left third nerve lesion would also weaken adduction during convergence and would usually cause ptosis or a large pupil (standard teaching).",
-        "d": "A right abducens nucleus lesion causes a gaze palsy: neither eye can look to the right (standard teaching).",
+        "c": "A left third nerve lesion would also weaken adduction during convergence and would cause ptosis, a dilated pupil, and loss of accommodation (your El-Husseiny neurology notes, p. 73).",
+        "d": "A right abducens nucleus lesion causes a gaze palsy: neither eye can look to the right, often with a right facial palsy (your El-Husseiny neurology notes, p. 75).",
         "e": "A right PPRF lesion also causes a gaze palsy to the right, with neither eye moving that way (standard teaching)."
       },
       "sources": [
         {
           "title": "MSD Manual Professional: Internuclear Ophthalmoplegia",
           "url": "https://www.msdmanuals.com/professional/neurologic-disorders/neuro-ophthalmologic-and-cranial-nerve-disorders/internuclear-ophthalmoplegia"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Horizontal gaze and the MLF, pp. 73, 75"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Internuclear ophthalmoplegia, pp. 157-158"
         }
       ]
     },
@@ -25502,17 +25520,23 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: dorsal columns and dorsal roots. Why: this is tabes dorsalis, a late form of neurosyphilis. StatPearls' Tabes Dorsalis article describes it as a slowly progressive degenerative disease of the dorsal columns and dorsal roots of the spinal cord, from loss of myelin on the sensory fibers there. It usually appears years, often two to three decades, after the original infection. Features include brief, sudden, severe stabbing pains in the back, limbs, or face; loss of vibration and position sense with sensory ataxia and trouble walking; and small, irregular Argyll Robertson pupils that constrict to a near target but not to light. Charcot (neuropathic) joints are a rarer complication. Swaying when the eyes close (a positive Romberg sign) shows that balance depends on vision because position sense is gone (standard teaching).",
+      "explanation": "Answer: dorsal columns and dorsal roots. Why: this is tabes dorsalis, a late form of neurosyphilis. StatPearls' Tabes Dorsalis article describes it as a slowly progressive degenerative disease of the dorsal columns and dorsal roots of the spinal cord, from loss of myelin on the sensory fibers there. It has the longest latent period of any form of neurosyphilis, about 20 years on average after the original infection. Features include brief, sudden, severe stabbing pains in the back, limbs, or face; loss of vibration and position sense with sensory ataxia and trouble walking; and small, irregular Argyll Robertson pupils that constrict to a near target but not to light. Charcot (neuropathic) joints, most often of the knees and hips, may also be present. Your El-Husseiny neurology notes (p. 31) agree that tabes is a late form of neurosyphilis with degeneration of the dorsal roots and dorsal columns on both sides, usually at the lumbar level. Loss of position sense from the legs causes a wide-based sensory ataxia and a positive Romberg sign: balance holds with the eyes open because vision makes up for it, but fails when the eyes close. The ankle reflexes disappear because the dorsal roots carry the sensory side of the stretch reflex. Your notes (pp. 31, 53) explain that the Argyll Robertson pupil comes from damage to the pretectal area of the midbrain, which starts the light reflex, while the near response still works.",
       "whyWrong": {
         "b": "Damage to the lateral corticospinal tracts causes weakness with brisk reflexes; his strength is normal and his reflexes are absent (standard teaching).",
         "c": "Loss of anterior horn cells causes weakness, wasting, and fasciculations, not sensory loss (standard teaching).",
         "d": "Damage to crossing spinothalamic fibers, as in syringomyelia, causes loss of pain and temperature sense in a cape pattern, with vibration and position sense spared (standard teaching).",
-        "e": "Cerebellar ataxia does not get much worse when the eyes close, and it does not cause loss of vibration sense (standard teaching)."
+        "e": "A patient with cerebellar ataxia sways even with the eyes open, and cerebellar damage does not cause loss of vibration sense (your El-Husseiny neurology notes, p. 31)."
       },
       "sources": [
         {
           "title": "StatPearls: Tabes Dorsalis",
           "url": "https://www.statpearls.com/point-of-care/29851"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Tabes dorsalis, p. 31"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Argyll Robertson pupil, p. 53"
         }
       ]
     },
@@ -25918,9 +25942,9 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: lateral to them. Why: a hernia that enters the canal through the deep ring and follows the cord into the scrotum is an indirect inguinal hernia. StatPearls' article on the inguinal region explains that an indirect hernia occurs when the peritoneal sac enters the canal through the deep (internal) inguinal ring and pushes out through the external ring. The deep ring sits just above the midpoint of the inguinal ligament and lateral to the inferior epigastric vessels. A direct hernia, by contrast, pushes straight through a weak spot in the posterior wall of the canal. StatPearls adds that a processus vaginalis that stays open may raise the risk of inguinal hernia, and that peritoneal fluid running down an open processus causes a hydrocele.",
+      "explanation": "Answer: lateral to them. Why: a hernia that enters the canal through the deep ring and follows the cord into the scrotum is an indirect inguinal hernia. StatPearls' article on the inguinal region explains that an indirect hernia occurs when the peritoneal sac enters the canal through the deep (internal) inguinal ring and pushes out through the external ring. The deep ring sits just above the midpoint of the inguinal ligament and lateral to the inferior epigastric vessels. A direct hernia, by contrast, pushes straight through a weak spot in the posterior wall of the canal. StatPearls adds that a processus vaginalis that stays open may raise the risk of inguinal hernia, and that peritoneal fluid running down an open processus causes a hydrocele. Your Osmosis GI notes (pp. 78-79) agree: the indirect hernia is the most common type, comes from failure of the processus vaginalis to close, passes through the internal inguinal ring with the spermatic cord, and on imaging its neck lies above and lateral to the inferior epigastric vessels. A direct hernia pushes through Hesselbach triangle, medial to those vessels, and is acquired, usually in older men.",
       "whyWrong": {
-        "b": "A sac that starts medial to the inferior epigastric vessels is a direct hernia, which pushes through the weak posterior wall (Hesselbach triangle) rather than through the deep ring (StatPearls, Inguinal Region; standard teaching).",
+        "b": "A sac that starts medial to the inferior epigastric vessels is a direct hernia, which pushes through Hesselbach triangle in the weak posterior wall rather than through the deep ring (your Osmosis GI notes, p. 78).",
         "c": "Hernias are described as lateral (indirect) or medial (direct) to these vessels; the deep ring sits lateral to them (StatPearls, Inguinal Region).",
         "d": "A sac below the inguinal ligament, medial to the femoral vein, is a femoral hernia, which does not travel through the inguinal canal (standard teaching).",
         "e": "The arcuate line is a landmark on the back of the rectus sheath higher on the abdomen; it has nothing to do with groin hernias (standard teaching)."
@@ -25929,6 +25953,9 @@
         {
           "title": "StatPearls: Anatomy, Abdomen and Pelvis: Inguinal Region (Inguinal Canal)",
           "url": "https://www.statpearls.com/point-of-care/32114"
+        },
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Gastrointestinal (Emily's file), Inguinal hernias, pp. 78-79"
         }
       ]
     }
