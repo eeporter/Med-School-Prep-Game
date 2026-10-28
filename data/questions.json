@@ -3537,7 +3537,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Fluctuating, fatigable weakness that is worse later in the day, with ptosis and double vision, is myasthenia gravis (MG). Eye muscle weakness is the first sign in about 85% of patients. Antibodies against the acetylcholine receptor are found in about 80% of generalized MG, making them the most likely cause. The ice pack test (2 to 5 minutes over the eye) improves ptosis in MG. Repetitive nerve stimulation at 2 to 3 Hz shows a falling (decremental) response. About 10% of patients have a thymoma. First-line symptom treatment is pyridostigmine, an acetylcholinesterase inhibitor that raises acetylcholine at the neuromuscular junction.",
+      "explanation": "Fluctuating, fatigable weakness that is worse later in the day, with ptosis and double vision, is myasthenia gravis (MG). Eye muscle weakness is the first sign in about 85% of patients. Antibodies against the acetylcholine receptor are found in about 80% of generalized MG, making them the most likely cause. The ice pack test (2 to 5 minutes over the eye) improves ptosis in MG. Repetitive nerve stimulation at 2 to 3 Hz shows a falling (decremental) response. About 10% of patients have a thymoma. First-line symptom treatment is pyridostigmine, an acetylcholinesterase inhibitor that raises acetylcholine at the neuromuscular junction. Recent change: her notes list the edrophonium (Tensilon) test. Edrophonium was discontinued by the FDA in 2018 and is no longer available in the United States; it had a high false-positive rate, and antibody testing is now the gold standard.",
       "whyWrong": {
         "b": "Antibodies to presynaptic voltage-gated calcium channels cause Lambert-Eaton syndrome, where weakness improves with exercise.",
         "c": "MuSK antibodies are much less common, found in about 5% to 10% of patients with MG, mainly those without acetylcholine receptor antibodies.",
@@ -3548,6 +3548,10 @@
         {
           "title": "StatPearls: Myasthenia Gravis",
           "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK559331/"
+        },
+        {
+          "title": "StatPearls: Edrophonium (archived 2023)",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK554566/"
         }
       ]
     },
