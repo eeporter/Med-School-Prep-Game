@@ -17561,6 +17561,1050 @@
           "url": "https://www.msdmanuals.com/professional/immunology-allergic-disorders/immunodeficiency-disorders/hyper-ige-syndrome"
         }
       ]
+    },
+    {
+      "id": "endo-graves-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Immunology",
+      "system": "Endocrine",
+      "topic": "Hyperthyroidism: Graves disease",
+      "difficulty": 1,
+      "stem": "A 32-year-old woman comes to the physician because of weight loss, a racing heart, and heat intolerance for 3 months. Her eyes look as if she is staring, and both eyes bulge forward. The skin over both shins is thick and firm, with an orange-peel texture. Her thyroid gland is smoothly and evenly enlarged. Serum TSH is very low, and free T4 is high. A radioactive iodine uptake scan shows high uptake spread evenly through the gland.",
+      "leadIn": "Which of the following is the most likely cause of this patient's condition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Antibodies that stimulate the TSH receptor"
+        },
+        {
+          "id": "b",
+          "text": "Antibodies against thyroid peroxidase"
+        },
+        {
+          "id": "c",
+          "text": "A TSH-secreting pituitary adenoma"
+        },
+        {
+          "id": "d",
+          "text": "A single autonomous thyroid nodule"
+        },
+        {
+          "id": "e",
+          "text": "Release of stored hormone from inflammation"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: IgG antibodies that switch on the TSH receptor (Graves disease). Why: your El-Husseiny endocrinology notes (pp. 75-76) explain that thyroid-stimulating immunoglobulin (TSI) binds and activates the TSH receptor, so the gland grows evenly and makes too much hormone while TSH falls. T cells in the orbit and the skin of the shins drive fibroblasts to lay down glycosaminoglycans, which pushes the eyes forward (ophthalmopathy) and thickens the shin skin (pretibial myxedema). Radioactive iodine uptake is high and diffuse. MSD agrees that the antibody is stimulatory, calls the eye disease specific to Graves disease, and notes that the skin change rarely occurs without the eye disease. MSD also explains that uptake is low when thyrotoxicosis comes from thyroiditis or extra iodine.",
+      "whyWrong": {
+        "b": "Thyroid peroxidase antibodies are the marker of Hashimoto thyroiditis, which usually causes hypothyroidism (your El-Husseiny endocrinology notes, p. 71).",
+        "c": "A TSH-secreting adenoma would cause high or normal TSH, not suppressed TSH, and would not cause eye or shin changes (standard teaching).",
+        "d": "A single hot nodule shows uptake in one spot, not even uptake across the gland (your El-Husseiny endocrinology notes, p. 76).",
+        "e": "Hormone leaking from an inflamed gland (thyroiditis) gives low radioactive iodine uptake (MSD Hyperthyroidism)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Endocrinology (Emily's file), Graves disease, pp. 75-76"
+        },
+        {
+          "title": "MSD Manual Professional: Hyperthyroidism",
+          "url": "https://www.msdmanuals.com/professional/endocrine-and-metabolic-disorders/thyroid-disorders/hyperthyroidism"
+        }
+      ]
+    },
+    {
+      "id": "endo-hashimoto-lymphoma-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Endocrine",
+      "topic": "Hypothyroidism: Hashimoto thyroiditis",
+      "difficulty": 2,
+      "stem": "A 54-year-old woman comes to the physician because of tiredness, weight gain, and constipation for 1 year. Her thyroid gland is firm, rubbery, and mildly enlarged without tenderness. Serum TSH is high, free T4 is low, and antibodies against thyroid peroxidase are strongly positive. A fine-needle biopsy shows many lymphocytes and plasma cells with germinal centers and large follicular cells with pink, granular cytoplasm.",
+      "leadIn": "This patient has an increased risk of which of the following neoplasms?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Thyroid B-cell lymphoma"
+        },
+        {
+          "id": "b",
+          "text": "Medullary carcinoma of the thyroid"
+        },
+        {
+          "id": "c",
+          "text": "Anaplastic carcinoma of the thyroid"
+        },
+        {
+          "id": "d",
+          "text": "Parathyroid carcinoma"
+        },
+        {
+          "id": "e",
+          "text": "Follicular adenoma of the thyroid"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: primary B-cell lymphoma of the thyroid. Why: your El-Husseiny endocrinology notes (p. 71) call Hashimoto thyroiditis the most common cause of hypothyroidism where iodine intake is adequate. It is an autoimmune disease that is more common in women. Biopsy shows lymphocytes and plasma cells with germinal centers and Hurthle cells (large pink cells with granular cytoplasm), and antibodies against thyroid peroxidase and thyroglobulin are present. The same page links it to HLA-DR3 and HLA-DR5 and to a higher risk of non-Hodgkin lymphoma, usually of B cells. MSD agrees on the lymphocytic infiltrate with lymphoid follicles and the high thyroid peroxidase antibodies, says thyroid lymphoma is a rare complication, and notes that most patients need lifelong levothyroxine. Chronic B-cell stimulation in the gland is thought to be the soil for the lymphoma (standard teaching).",
+      "whyWrong": {
+        "b": "Medullary carcinoma comes from calcitonin-making C cells and is linked to RET mutations, not to autoimmune thyroiditis (your El-Husseiny endocrinology notes, p. 82).",
+        "c": "Anaplastic carcinoma is a rapidly growing tumor of older adults (your El-Husseiny endocrinology notes, p. 83); Hashimoto disease is not its classic risk factor (standard teaching).",
+        "d": "Parathyroid carcinoma is a rare cause of very high calcium and has no link to Hashimoto thyroiditis (standard teaching).",
+        "e": "Follicular adenoma is a benign encapsulated nodule; it is not a known result of chronic autoimmune thyroiditis (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Endocrinology (Emily's file), Hashimoto thyroiditis, p. 71"
+        },
+        {
+          "title": "MSD Manual Professional: Hashimoto Thyroiditis",
+          "url": "https://www.msdmanuals.com/professional/endocrine-and-metabolic-disorders/thyroid-disorders/hashimoto-thyroiditis"
+        }
+      ]
+    },
+    {
+      "id": "endo-subacute-thyroiditis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Endocrine",
+      "topic": "Thyroiditis: subacute (de Quervain) thyroiditis",
+      "difficulty": 2,
+      "stem": "A 38-year-old woman comes to the physician because of severe pain in the front of her neck that spreads to her jaw and ears for 1 week. She had a sore throat and runny nose 3 weeks ago. She feels shaky and has palpitations. Temperature is 38.1°C (100.6°F). Her thyroid is enlarged and very tender. Serum TSH is low, free T4 is high, and the erythrocyte sedimentation rate is 88 mm/h. Radioactive iodine uptake is almost zero.",
+      "leadIn": "A biopsy of this patient's thyroid would most likely show which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Granulomas with multinucleated giant cells"
+        },
+        {
+          "id": "b",
+          "text": "Lymphocytes with germinal centers and Hurthle cells"
+        },
+        {
+          "id": "c",
+          "text": "Tall follicular cells with scalloped colloid"
+        },
+        {
+          "id": "d",
+          "text": "Dense fibrosis spreading beyond the capsule"
+        },
+        {
+          "id": "e",
+          "text": "Papillae with clear nuclei and psammoma bodies"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: granulomatous inflammation with multinucleated giant cells (subacute, or de Quervain, thyroiditis). Why: your El-Husseiny endocrinology notes (p. 72) describe a likely post-viral thyroiditis that follows an upper respiratory infection and causes fever, a high ESR, and a painful, tender gland. Damage to the follicles releases stored hormone, so the patient is briefly thyrotoxic, but iodine uptake is low because no new hormone is being made. A hypothyroid phase may follow, and most people return to normal. Biopsy shows mixed inflammation with giant cells around broken pieces of colloid. MSD agrees that a virus is the likely cause, that uptake is low (often near 0) early on, and that biopsy shows giant cells and disrupted follicles. MSD treats mild cases with NSAIDs or aspirin, moderate to severe cases with glucocorticoids, and symptoms with a short course of a beta-blocker. Other source: your El-Husseiny endocrinology notes say the hypothyroid phase is permanent in about 15% of cases; MSD gives no figure and says lasting hypothyroidism happens when follicle damage is extensive.",
+      "whyWrong": {
+        "b": "Lymphocytes with germinal centers and Hurthle cells describe Hashimoto thyroiditis, which is painless (your El-Husseiny endocrinology notes, p. 71).",
+        "c": "Tall, crowded cells with scalloped colloid describe Graves disease, which has high iodine uptake (your El-Husseiny endocrinology notes, p. 76).",
+        "d": "Dense fibrosis that spreads into nearby neck tissue is Riedel thyroiditis, a hard, painless gland (your El-Husseiny endocrinology notes, p. 72).",
+        "e": "Papillae with clear nuclei and psammoma bodies describe papillary thyroid cancer, which is not painful or febrile (your El-Husseiny endocrinology notes, pp. 79-80)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Endocrinology (Emily's file), Subacute thyroiditis, p. 72"
+        },
+        {
+          "title": "MSD Manual Professional: Subacute Thyroiditis",
+          "url": "https://www.msdmanuals.com/professional/endocrine-and-metabolic-disorders/thyroid-disorders/subacute-thyroiditis"
+        }
+      ]
+    },
+    {
+      "id": "endo-medullary-thyroid-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Endocrine",
+      "topic": "Thyroid cancer: medullary carcinoma",
+      "difficulty": 2,
+      "stem": "A 47-year-old man comes to the physician because of a firm lump in the right side of his neck for 2 months. He has had watery diarrhea for several weeks. Ultrasound shows a 2.5-cm solid nodule in the right thyroid lobe. Fine-needle aspiration shows sheets of spindle-shaped and polygonal cells. Pink material between the cells turns apple-green under polarized light after Congo red staining.",
+      "leadIn": "Measurement of which of the following serum substances is most useful for diagnosing this tumor and following it after surgery?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Calcitonin"
+        },
+        {
+          "id": "b",
+          "text": "Thyroglobulin"
+        },
+        {
+          "id": "c",
+          "text": "Parathyroid hormone"
+        },
+        {
+          "id": "d",
+          "text": "Thyroid-stimulating hormone"
+        },
+        {
+          "id": "e",
+          "text": "Alpha-fetoprotein"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: calcitonin (medullary thyroid carcinoma). Why: your El-Husseiny endocrinology notes (p. 82) explain that this tumor comes from the parafollicular C cells, which make calcitonin. The cells are polygonal or spindle shaped and lie in amyloid made from calcitonin, which stains with Congo red. Activating RET mutations are strongly linked to the tumor, and most cases are sporadic, with the rest familial, as in MEN 2. MSD calls serum calcitonin, which is greatly raised, the best test, and says pheochromocytoma must be ruled out with plasma metanephrines and removed before thyroid surgery. Treatment is total thyroidectomy with removal of the central neck lymph nodes (MSD). Other source: your El-Husseiny endocrinology notes give 80% sporadic and 20% familial; MSD says 25% are familial.",
+      "whyWrong": {
+        "b": "Thyroglobulin is the tumor marker for papillary and follicular cancers, which come from follicular cells, not C cells (standard teaching).",
+        "c": "PTH would be followed in parathyroid disease; in MEN 2A, parathyroid overgrowth can occur with this tumor, but PTH does not track the thyroid cancer (standard teaching).",
+        "d": "TSH reflects pituitary control of follicular cells and is not made by C cells (standard teaching).",
+        "e": "Alpha-fetoprotein is a marker for liver cancer and yolk sac tumors (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Endocrinology (Emily's file), Medullary carcinoma, p. 82"
+        },
+        {
+          "title": "MSD Manual Professional: Thyroid Cancers",
+          "url": "https://www.msdmanuals.com/professional/endocrine-and-metabolic-disorders/thyroid-disorders/thyroid-cancers"
+        }
+      ]
+    },
+    {
+      "id": "endo-acromegaly-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Endocrine",
+      "topic": "Pituitary: acromegaly",
+      "difficulty": 2,
+      "stem": "A 46-year-old man comes to the physician because his rings and shoes no longer fit. His wife says his face has changed over 5 years and that he snores loudly. His jaw juts forward, his teeth have spread apart, and his hands are large and thick. He has numbness in the thumb and first two fingers of both hands. Blood pressure is 152/96 mm Hg, and fasting glucose is 128 mg/dL.",
+      "leadIn": "Which of the following findings would best confirm the most likely diagnosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Growth hormone that stays high after oral glucose"
+        },
+        {
+          "id": "b",
+          "text": "Low IGF-1 with high growth hormone levels"
+        },
+        {
+          "id": "c",
+          "text": "Serum prolactin more than 5 times normal"
+        },
+        {
+          "id": "d",
+          "text": "Cortisol not suppressed by low-dose dexamethasone"
+        },
+        {
+          "id": "e",
+          "text": "Low TSH with low free T4"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: growth hormone that does not fall after an oral glucose load (acromegaly). Why: your El-Husseiny endocrinology notes (pp. 18-19) explain that acromegaly comes from too much growth hormone after the growth plates close, almost always from a pituitary macroadenoma. Bones thicken rather than lengthen, so the hands, feet, jaw, and brow enlarge, and soft tissue growth causes a big tongue, a deep voice, carpal tunnel syndrome, and heart enlargement. IGF-1 causes most of the damage, while growth hormone itself causes insulin resistance. IGF-1 is the screening test, and failure of growth hormone to fall after oral glucose confirms the diagnosis. MSD agrees that IGF-1 should be measured first and that normal people suppress growth hormone to below 1 ng/mL within 2 hours of a 75-g glucose drink. MSD adds that sleep apnea occurs in 40% to 50% of patients, that surgery is first-line, and that somatostatin analogs (octreotide, lanreotide), the growth hormone receptor blocker pegvisomant, and cabergoline are drug options.",
+      "whyWrong": {
+        "b": "Low IGF-1 with high growth hormone is growth hormone resistance (Laron dwarfism), which causes short stature (your El-Husseiny endocrinology notes, p. 20).",
+        "c": "A prolactin level more than 5 times normal points to a prolactinoma (MSD Prolactinoma); prolactinomas cause galactorrhea and low sex hormones, not large hands and jaw.",
+        "d": "Failure of cortisol to suppress with dexamethasone points to Cushing syndrome, which causes central obesity and thin skin, not bone overgrowth (standard teaching).",
+        "e": "Low TSH with low T4 shows central hypothyroidism, which would cause tiredness and cold intolerance, not acral growth (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Endocrinology (Emily's file), Acromegaly, pp. 18-19"
+        },
+        {
+          "title": "MSD Manual Professional: Gigantism and Acromegaly",
+          "url": "https://www.msdmanuals.com/professional/endocrine-and-metabolic-disorders/pituitary-disorders/gigantism-and-acromegaly"
+        }
+      ]
+    },
+    {
+      "id": "pharm-prolactinoma-cabergoline-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Endocrine",
+      "topic": "Pituitary: prolactinoma",
+      "difficulty": 1,
+      "stem": "A 29-year-old woman comes to the physician because she has had no menstrual periods for 7 months and has a milky discharge from both nipples. A pregnancy test is negative. She takes no medications. Her visual fields are normal. Serum prolactin is 210 ng/mL (normal, under 25). MRI shows an 8-mm pituitary mass.",
+      "leadIn": "The most appropriate drug for this patient works by which of the following mechanisms?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Stimulating dopamine D2 receptors"
+        },
+        {
+          "id": "b",
+          "text": "Blocking dopamine D2 receptors"
+        },
+        {
+          "id": "c",
+          "text": "Activating somatostatin receptors"
+        },
+        {
+          "id": "d",
+          "text": "Blocking growth hormone receptors"
+        },
+        {
+          "id": "e",
+          "text": "Blocking estrogen receptors"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: stimulating dopamine receptors (a dopamine agonist such as cabergoline). Why: your El-Husseiny endocrinology notes (p. 21) explain that dopamine from the hypothalamus constantly holds back prolactin release, that prolactin suppresses GnRH and so stops ovulation, and that dopamine agonists such as bromocriptine shrink prolactinomas. MSD says prolactin is the hormone most often made in excess by pituitary tumors, that women typically have galactorrhea with missed or irregular periods, and that prolactinoma levels are usually more than 5 times normal. MSD calls cabergoline the treatment of choice because it is easier to tolerate, and advises stopping it once a pregnancy test is positive unless the tumor is large or near the optic chiasm. Dopamine acts on D2 receptors on the lactotroph cells (standard teaching). Other source: your El-Husseiny endocrinology notes name bromocriptine; MSD prefers cabergoline.",
+      "whyWrong": {
+        "b": "Dopamine blockers, such as most antipsychotics, raise prolactin and can cause this picture (your El-Husseiny endocrinology notes, p. 21).",
+        "c": "Somatostatin analogs such as octreotide treat acromegaly (your El-Husseiny endocrinology notes, p. 19), not prolactinoma.",
+        "d": "Growth hormone receptor blockers (pegvisomant) treat acromegaly by lowering IGF-1 (MSD Gigantism and Acromegaly).",
+        "e": "Estrogen receptor blockers such as tamoxifen are used in breast cancer and do not shrink prolactinomas (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Endocrinology (Emily's file), Prolactin, p. 21"
+        },
+        {
+          "title": "MSD Manual Professional: Prolactinoma",
+          "url": "https://www.msdmanuals.com/professional/endocrine-and-metabolic-disorders/pituitary-disorders/prolactinoma"
+        }
+      ]
+    },
+    {
+      "id": "endo-central-di-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Endocrine",
+      "topic": "Posterior pituitary: central diabetes insipidus (AVP deficiency)",
+      "difficulty": 2,
+      "stem": "A 24-year-old man is admitted after a motorcycle crash with a skull base fracture. Two days later, he is passing about 7 L of urine a day and is very thirsty. Serum sodium is 149 mEq/L, and serum glucose is normal. Urine osmolality is 110 mOsm/kg. After 6 hours without water, urine osmolality is 140 mOsm/kg. One hour after desmopressin is given, urine osmolality is 480 mOsm/kg.",
+      "leadIn": "Which of the following is the most likely cause of this patient's polyuria?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Too little ADH from the posterior pituitary"
+        },
+        {
+          "id": "b",
+          "text": "Kidney tubules that do not respond to ADH"
+        },
+        {
+          "id": "c",
+          "text": "Drinking more water than the kidneys can excrete"
+        },
+        {
+          "id": "d",
+          "text": "Osmotic diuresis from glucose in the urine"
+        },
+        {
+          "id": "e",
+          "text": "Too much ADH released from the posterior pituitary"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: too little ADH (central diabetes insipidus, now called arginine vasopressin deficiency). Why: your El-Husseiny endocrinology notes (pp. 29-31) explain that central DI comes from damage to the hypothalamus or posterior pituitary from trauma, surgery, tumors, or infiltration, causing large volumes of dilute urine and high sodium. In a water deprivation test, the urine stays dilute. Desmopressin then raises urine osmolality by more than 50% in central DI but barely changes it in nephrogenic DI. Here it rose from 140 to 480, more than tripling. Treatment is desmopressin. MSD lists skull fractures, pituitary or hypothalamic surgery, and tumors among causes, gives the same over-50% rise after vasopressin, and warns that too much desmopressin can cause water retention and low sodium. Recent change: MSD now titles this condition arginine vasopressin deficiency, with central diabetes insipidus in brackets; the kidney form is now arginine vasopressin resistance.",
+      "whyWrong": {
+        "b": "Kidneys that ignore ADH (nephrogenic DI) would show little change after desmopressin (your El-Husseiny endocrinology notes, p. 31).",
+        "c": "Primary polydipsia concentrates the urine during water deprivation and causes low, not high, sodium (your El-Husseiny endocrinology notes, pp. 30-31).",
+        "d": "Glucose in the urine causes osmotic diuresis in diabetes mellitus, but his glucose is normal (standard teaching).",
+        "e": "Too much ADH (SIADH) causes concentrated urine and low sodium (your El-Husseiny endocrinology notes, pp. 32-33)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Endocrinology (Emily's file), Diabetes insipidus, pp. 29-31"
+        },
+        {
+          "title": "MSD Manual Professional: Arginine Vasopressin Deficiency (Central Diabetes Insipidus)",
+          "url": "https://www.msdmanuals.com/professional/endocrine-and-metabolic-disorders/pituitary-disorders/arginine-vasopressin-deficiency-central-diabetes-insipidus"
+        }
+      ]
+    },
+    {
+      "id": "pharm-lithium-ndi-amiloride-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Endocrine",
+      "topic": "Nephrogenic diabetes insipidus (AVP resistance): lithium",
+      "difficulty": 2,
+      "stem": "A 44-year-old woman with bipolar disorder has taken lithium for 12 years. She comes to the physician because she urinates large amounts day and night and is always thirsty. Serum sodium is 143 mEq/L, and glucose is normal. During a water deprivation test, her urine stays dilute, and urine osmolality rises by only 8% after desmopressin. Her psychiatrist wants her to stay on lithium because it has kept her well.",
+      "leadIn": "Which of the following drugs is most appropriate to reduce this patient's urine output?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Amiloride"
+        },
+        {
+          "id": "b",
+          "text": "Desmopressin"
+        },
+        {
+          "id": "c",
+          "text": "Furosemide"
+        },
+        {
+          "id": "d",
+          "text": "Demeclocycline"
+        },
+        {
+          "id": "e",
+          "text": "Tolvaptan"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: amiloride. Why: your El-Husseiny endocrinology notes (pp. 29-31) list lithium as a cause of nephrogenic diabetes insipidus, in which the collecting duct does not respond to ADH, so desmopressin barely changes urine osmolality. The same pages say treatment includes fixing the cause, thiazides, NSAIDs, and amiloride, which is used for lithium-induced disease because it blocks lithium from entering collecting duct cells through the sodium channel. MSD now calls this condition arginine vasopressin resistance (formerly nephrogenic diabetes insipidus), names lithium as the main drug cause, says urine osmolality rises only minimally after vasopressin, and lists a low-salt, low-protein diet, thiazides, indomethacin, and amiloride as ways to reduce urine output. Other source: MSD lists amiloride as an option but does not say it is specific to lithium; your El-Husseiny endocrinology notes do.",
+      "whyWrong": {
+        "b": "Desmopressin replaces ADH, which works in central DI; here the kidney cannot respond to it (your El-Husseiny endocrinology notes, p. 31).",
+        "c": "Furosemide is a loop diuretic that would increase urine output and does not help nephrogenic DI (standard teaching).",
+        "d": "Demeclocycline blocks ADH action and itself causes nephrogenic DI; it is used for SIADH (your El-Husseiny endocrinology notes, pp. 30, 33).",
+        "e": "Tolvaptan blocks V2 receptors and is used for SIADH (your El-Husseiny endocrinology notes, p. 33); it would make water loss worse."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Endocrinology (Emily's file), Diabetes insipidus, pp. 29-31; SIADH, p. 33"
+        },
+        {
+          "title": "MSD Manual Professional: Arginine Vasopressin Resistance",
+          "url": "https://msdmanuals.com/professional/genitourinary-disorders/renal-transport-abnormalities/arginine-vasopressin-resistance"
+        }
+      ]
+    },
+    {
+      "id": "endo-siadh-ods-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Endocrine",
+      "topic": "SIADH: overcorrection and osmotic demyelination",
+      "difficulty": 3,
+      "stem": "A 71-year-old woman taking an SSRI for depression is admitted with confusion. Serum sodium is 114 mEq/L, serum osmolality is 240 mOsm/kg, urine osmolality is 520 mOsm/kg, and urine sodium is 48 mEq/L. She has no edema and is not dehydrated. Thyroid and adrenal tests are normal. She receives hypertonic saline, and her serum sodium rises to 128 mEq/L in the first 24 hours. Three days later, she has slurred speech, trouble swallowing, and weakness in all four limbs.",
+      "leadIn": "Which of the following best explains this patient's new neurologic findings?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Myelin loss from overly fast sodium correction"
+        },
+        {
+          "id": "b",
+          "text": "Cerebral edema from persistent hyponatremia"
+        },
+        {
+          "id": "c",
+          "text": "Embolic stroke in the posterior circulation"
+        },
+        {
+          "id": "d",
+          "text": "Wernicke encephalopathy from thiamine deficiency"
+        },
+        {
+          "id": "e",
+          "text": "Serotonin syndrome from her antidepressant"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: osmotic demyelination syndrome from correcting her sodium too fast. Why: your El-Husseiny endocrinology notes (pp. 32-33) describe SIADH as too much ADH, from causes that include small cell lung cancer, lung and brain diseases, and drugs such as SSRIs, carbamazepine, and cyclophosphamide. The result is low sodium with concentrated urine, urine sodium over 20 mEq/L, and no edema or dehydration. Severe symptoms are treated with hypertonic saline, but correction must be slow to avoid osmotic demyelination (formerly called central pontine myelinolysis). MSD lists the same drug and disease causes, requires normal thyroid and adrenal function for the diagnosis, and advises raising sodium by no more than 8 mEq/L in 24 hours. Her sodium rose 14 mEq/L. Damage to the pons a few days later causes slurred speech, trouble swallowing, and weakness of all four limbs (standard teaching). MSD adds that oral tolvaptan should be used for less than 30 days because of liver toxicity. Other source: your El-Husseiny endocrinology notes restrict fluid to 800-1,000 mL/day; MSD says restriction to 250-500 mL/day is usually needed.",
+      "whyWrong": {
+        "b": "Cerebral edema comes from low sodium that falls quickly or is not corrected; her sodium had risen when the new signs began (standard teaching).",
+        "c": "An embolic stroke could cause similar signs, but the timing right after a fast sodium rise points to demyelination (standard teaching).",
+        "d": "Wernicke encephalopathy causes confusion, eye movement problems, and an unsteady gait, usually in people with alcohol use disorder or malnutrition (standard teaching).",
+        "e": "Serotonin syndrome causes agitation, fever, sweating, and muscle jerks, not slurred speech with limb weakness (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Endocrinology (Emily's file), SIADH, pp. 32-33"
+        },
+        {
+          "title": "MSD Manual Professional: Syndrome of Inappropriate ADH Secretion (SIADH)",
+          "url": "https://www.msdmanuals.com/professional/nephrology/electrolyte-disorders/syndrome-of-inappropriate-adh-secretion-siadh"
+        }
+      ]
+    },
+    {
+      "id": "endo-pseudohypoparathyroidism-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Genetics",
+      "system": "Endocrine",
+      "topic": "Calcium disorders: pseudohypoparathyroidism type 1A",
+      "difficulty": 2,
+      "stem": "An 11-year-old girl is brought to the physician after muscle cramps and tingling around her mouth. She is short for her age, has a round face, and has had learning difficulties. Her 4th and 5th knuckles are missing when she makes a fist, and firm calcium deposits are felt under the skin of her arms. Tapping in front of her ear makes her facial muscles twitch. Serum calcium is low, phosphate is high, and PTH is high.",
+      "leadIn": "This patient's condition is most likely caused by a mutation affecting which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Gs alpha protein coupled to the PTH receptor"
+        },
+        {
+          "id": "b",
+          "text": "Calcium-sensing receptor on parathyroid cells"
+        },
+        {
+          "id": "c",
+          "text": "Vitamin D 1-alpha-hydroxylase in the kidney"
+        },
+        {
+          "id": "d",
+          "text": "Development of the third pharyngeal pouch"
+        },
+        {
+          "id": "e",
+          "text": "Autoimmune regulator (AIRE) protein"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the Gs alpha subunit (from the GNAS gene) that links the PTH receptor to adenylyl cyclase (pseudohypoparathyroidism type 1A). Why: your El-Husseiny endocrinology notes (pp. 94-95) explain that an inactivating GNAS mutation inherited from the mother makes the kidney and bone resistant to PTH, so calcium is low, phosphate is high, and PTH is high. These children have Albright hereditary osteodystrophy: short 4th and 5th digits, short stature, a round face, calcium deposits under the skin, and developmental delay. When the same mutation comes from the father, the body features appear but blood tests are normal (pseudopseudohypoparathyroidism), because only the mother's copy works in the kidney. Twitching of the face when the facial nerve is tapped (Chvostek sign) shows low calcium. MSD agrees on target-organ resistance to PTH, the Gs alpha (GNAS1) defect, low calcium with high phosphate, and the imprinting pattern. Other source: MSD says the 1st, 4th, and 5th metacarpals are short; your El-Husseiny endocrinology notes name the 4th and 5th.",
+      "whyWrong": {
+        "b": "A defective calcium-sensing receptor causes familial hypocalciuric hypercalcemia, with high, not low, calcium (standard teaching).",
+        "c": "1-alpha-hydroxylase deficiency causes vitamin D-dependent rickets, with low phosphate and bone deformities rather than short 4th and 5th digits (standard teaching).",
+        "d": "Failed third pharyngeal pouch development (DiGeorge syndrome) causes low calcium with low PTH, not high PTH (standard teaching).",
+        "e": "AIRE mutations cause autoimmune polyglandular syndrome type 1, with hypoparathyroidism (low PTH), candidiasis, and adrenal failure (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Endocrinology (Emily's file), Hypocalcemia signs and pseudohypoparathyroidism, pp. 94-95"
+        },
+        {
+          "title": "MSD Manual Professional: Hypocalcemia",
+          "url": "https://www.msdmanuals.com/professional/nephrology/electrolyte-disorders/hypocalcemia"
+        }
+      ]
+    },
+    {
+      "id": "endo-factitious-insulin-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Endocrine",
+      "topic": "Hypoglycemia: insulinoma vs exogenous insulin",
+      "difficulty": 2,
+      "stem": "A 34-year-old nurse is brought to the emergency department because she was found confused and sweaty at work. Serum glucose is 36 mg/dL, and her symptoms resolve with IV dextrose. She has had 3 similar episodes in 2 months. She does not have diabetes. During an episode, serum insulin is very high, C-peptide is very low, and proinsulin is low. A screen for sulfonylureas is negative.",
+      "leadIn": "Which of the following is the most likely cause of this patient's hypoglycemia?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Injection of insulin by the patient"
+        },
+        {
+          "id": "b",
+          "text": "Insulin-secreting tumor of beta cells"
+        },
+        {
+          "id": "c",
+          "text": "Secret use of a sulfonylurea drug"
+        },
+        {
+          "id": "d",
+          "text": "Adrenal insufficiency"
+        },
+        {
+          "id": "e",
+          "text": "Glucagon-secreting tumor of alpha cells"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: surreptitious (secret) insulin injection. Why: your El-Husseiny endocrinology notes (pp. 115-116, 118) name the two main causes of hypoglycemia with high insulin in a person without diabetes: an insulinoma or secret use of insulin or a sulfonylurea. C-peptide, proinsulin, and a sulfonylurea screen tell them apart. Insulinoma, the most common islet cell tumor, raises both insulin and C-peptide, because the beta cell releases them together, and it is linked to MEN 1. MSD explains that injected insulin carries no C-peptide or proinsulin, so these stay normal or low with secret insulin use, whereas in insulinoma C-peptide is at least 0.6 ng/mL and proinsulin is at least 5 pmol/L. MSD adds that insulinoma is diagnosed with a supervised fast of up to 72 hours and that 98% of patients have symptoms within 48 hours. Access to insulin through her work supports this answer (standard teaching).",
+      "whyWrong": {
+        "b": "An insulinoma releases insulin with C-peptide, so both would be high (your El-Husseiny endocrinology notes, p. 118).",
+        "c": "Sulfonylureas make the patient's own beta cells release insulin, so C-peptide would be high, and the drug screen is negative (your El-Husseiny endocrinology notes, p. 116).",
+        "d": "Adrenal insufficiency can cause low glucose, but insulin would be low, not high (standard teaching).",
+        "e": "Glucagon raises glucose; a glucagonoma causes high blood sugar and a migrating rash (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Endocrinology (Emily's file), Hypoglycemia, pp. 115-116; insulinoma, p. 118"
+        },
+        {
+          "title": "MSD Manual Professional: Insulinoma",
+          "url": "https://www.msdmanuals.com/professional/oncology/gastrointestinal-and-pancreatic-neuroendocrine-tumors-nets/insulinoma"
+        }
+      ]
+    },
+    {
+      "id": "endo-men1-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Genetics",
+      "system": "Endocrine",
+      "topic": "Multiple endocrine neoplasia type 1",
+      "difficulty": 2,
+      "stem": "A 36-year-old man comes to the physician because of burning upper abdominal pain and diarrhea for 6 months despite taking a proton pump inhibitor. Endoscopy shows several ulcers in the second part of the duodenum, and fasting serum gastrin is very high. Serum calcium is 11.4 mg/dL, and PTH is high. He has had low libido, and serum prolactin is high. His father had kidney stones and peptic ulcers.",
+      "leadIn": "A mutation in a gene encoding which of the following is most likely in this patient?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Menin tumor suppressor"
+        },
+        {
+          "id": "b",
+          "text": "RET receptor tyrosine kinase"
+        },
+        {
+          "id": "c",
+          "text": "Von Hippel-Lindau protein"
+        },
+        {
+          "id": "d",
+          "text": "Neurofibromin"
+        },
+        {
+          "id": "e",
+          "text": "Calcium-sensing receptor"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: menin (multiple endocrine neoplasia type 1). Why: your El-Husseiny endocrinology notes (pp. 120-121) describe MEN 1 as autosomal dominant with tumors of the parathyroid, pituitary (often prolactin or GH), and pancreas, including gastrinoma (Zollinger-Ellison syndrome), insulinoma, and VIPoma, caused by mutation of the MEN1 gene that makes menin, a tumor suppressor. MSD agrees and adds that hyperparathyroidism occurs in at least 95% of patients and is often the first sign, that gastrinoma is the most common functioning pancreatic tumor and insulinoma the second, and that 25% to 90% of the pituitary tumors are prolactinomas. MSD advises offering genetic testing to first-degree relatives and treating the hyperparathyroidism with subtotal parathyroidectomy.",
+      "whyWrong": {
+        "b": "RET mutations cause MEN 2A and 2B, with medullary thyroid cancer and pheochromocytoma rather than gastrinoma and prolactinoma (your El-Husseiny endocrinology notes, p. 121).",
+        "c": "Von Hippel-Lindau mutations cause brain and retinal hemangioblastomas, kidney cancer, and pheochromocytoma (standard teaching).",
+        "d": "Neurofibromin mutations cause neurofibromatosis type 1, with cafe-au-lait spots and neurofibromas (standard teaching).",
+        "e": "Calcium-sensing receptor defects cause familial hypocalciuric hypercalcemia, not ulcers or pituitary tumors (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Endocrinology (Emily's file), MEN 1, pp. 120-121"
+        },
+        {
+          "title": "MSD Manual Professional: Multiple Endocrine Neoplasia, Type 1 (MEN 1)",
+          "url": "https://www.msdmanuals.com/professional/oncology/multiple-endocrine-neoplasia-men-syndromes/multiple-endocrine-neoplasia-type-1-men-1"
+        }
+      ]
+    },
+    {
+      "id": "pharm-metformin-egfr-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Endocrine",
+      "topic": "Diabetes drugs: metformin",
+      "difficulty": 2,
+      "stem": "A 67-year-old man with type 2 diabetes, heart failure, and chronic kidney disease comes to the physician for a follow-up visit. He has taken metformin for 9 years. His estimated glomerular filtration rate (eGFR) has fallen to 24 mL/min/1.73 m2. He is scheduled for a CT scan with iodinated contrast next week.",
+      "leadIn": "Continuing metformin in this patient most increases his risk of which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lactic acidosis"
+        },
+        {
+          "id": "b",
+          "text": "Severe hypoglycemia"
+        },
+        {
+          "id": "c",
+          "text": "Diabetic ketoacidosis"
+        },
+        {
+          "id": "d",
+          "text": "Fluid retention and edema"
+        },
+        {
+          "id": "e",
+          "text": "Acute pancreatitis"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: lactic acidosis. Why: your El-Husseiny endocrinology notes (p. 140) explain that metformin lowers glucose mainly by blocking gluconeogenesis in the liver, is first-line for type 2 diabetes, causes modest weight loss, and does not cause hypoglycemia. Its main side effects are stomach upset and lactic acidosis: the gut makes extra lactate, and the liver, with gluconeogenesis blocked, cannot clear it. Kidney failure raises this risk. MSD agrees that lactic acidosis is very rare but says metformin should not be used in people at risk of acidosis, such as those with significant kidney disease, and should be held for surgery, IV contrast, and serious illness. MSD also notes it can lower vitamin B12. Recent change: your El-Husseiny endocrinology notes define kidney failure by serum creatinine (1.5 mg/dL in men or 1.4 mg/dL in women). The 2017 FDA label instead uses eGFR: metformin is contraindicated below 30 mL/min/1.73 m2, should not be started at 30-45, and should be stopped at or before an iodinated contrast study in people with an eGFR of 30-60.",
+      "whyWrong": {
+        "b": "Metformin does not raise insulin, so it does not cause hypoglycemia on its own (your El-Husseiny endocrinology notes, p. 140).",
+        "c": "SGLT2 inhibitors, not metformin, can cause ketoacidosis, sometimes with near-normal glucose (MSD Medications for Diabetes Mellitus Treatment).",
+        "d": "Fluid retention and worsening heart failure are side effects of thiazolidinediones such as pioglitazone (your El-Husseiny endocrinology notes, p. 142).",
+        "e": "Pancreatitis is a listed side effect of GLP-1 analogs (your El-Husseiny endocrinology notes, p. 143)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Endocrinology (Emily's file), Metformin, p. 140; other diabetes drugs, pp. 142-143"
+        },
+        {
+          "title": "MSD Manual Professional: Medications for Diabetes Mellitus Treatment",
+          "url": "https://www.msdmanuals.com/professional/endocrine-and-metabolic-disorders/diabetes-mellitus-and-hypoglycemia/medications-for-diabetes-mellitus-treatment"
+        },
+        {
+          "title": "FDA label: Glucophage and Glucophage XR (metformin), 2017",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/020357s037s039,021202s021s023lbl.pdf"
+        }
+      ]
+    },
+    {
+      "id": "pharm-thyroid-storm-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Endocrine",
+      "topic": "Hyperthyroidism: thyroid storm",
+      "difficulty": 3,
+      "stem": "A 36-year-old woman with untreated Graves disease is brought to the emergency department 1 day after an emergency appendectomy. She is agitated and confused. Temperature is 40.3°C (104.5°F), pulse is 162/min and irregular, and blood pressure is 148/62 mm Hg. She has had diarrhea since surgery. Free T4 is very high, and TSH is undetectable. Propranolol and IV hydrocortisone are started.",
+      "leadIn": "Which of the following should be given at least 1 hour before potassium iodide in this patient?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Propylthiouracil"
+        },
+        {
+          "id": "b",
+          "text": "Levothyroxine"
+        },
+        {
+          "id": "c",
+          "text": "Radioactive iodine"
+        },
+        {
+          "id": "d",
+          "text": "Acetaminophen"
+        },
+        {
+          "id": "e",
+          "text": "Dantrolene"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: propylthiouracil (PTU), given before iodine. Why: your El-Husseiny endocrinology notes (p. 77) describe thyroid storm as a rare but serious worsening of poorly treated hyperthyroidism after stress such as infection, trauma, or surgery, with fever, agitation, delirium, diarrhea, and fast irregular heart rhythms, which can be fatal. Treatment uses 4 drugs: propranolol for symptoms and to slow T4-to-T3 conversion, PTU to block new hormone synthesis, iodine to block hormone release, and glucocorticoids to slow T4-to-T3 conversion. Iodine is given at least an hour after PTU so the gland does not use the iodine to make more hormone. MSD agrees, listing PTU 600 mg by mouth before iodine and then saturated potassium iodide every 6 hours, and says PTU is preferred in storm because high doses also block peripheral T4-to-T3 conversion. MSD gives hydrocortisone 100 mg IV every 8 hours or dexamethasone, and says propranolol lowers the heart rate within minutes when given IV.",
+      "whyWrong": {
+        "b": "Levothyroxine is thyroid hormone; giving it would make thyrotoxicosis worse (standard teaching).",
+        "c": "Radioactive iodine destroys the gland over weeks to months, too slowly for storm, and is avoided right before or during it (standard teaching).",
+        "d": "Acetaminophen can be used for fever, but it does not need to come before iodine and does not stop hormone synthesis (standard teaching).",
+        "e": "Dantrolene treats malignant hyperthermia after certain anesthetics, which causes rigidity and high CO2, not a thyroid storm (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Endocrinology (Emily's file), Thyroid storm, p. 77"
+        },
+        {
+          "title": "MSD Manual Professional: Hyperthyroidism",
+          "url": "https://www.msdmanuals.com/professional/endocrine-and-metabolic-disorders/thyroid-disorders/hyperthyroidism"
+        }
+      ]
+    },
+    {
+      "id": "derm-actinic-keratosis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Premalignant skin lesions: actinic keratosis",
+      "difficulty": 1,
+      "stem": "A 72-year-old man who worked outdoors as a farmer for 50 years comes to the physician because of several rough, scaly, pink patches on his forehead, nose, and the backs of his hands. They feel like sandpaper. He has fair skin and red hair. A biopsy of one patch shows atypical keratinocytes in the lower epidermis and retained nuclei in the stratum corneum, without invasion of the dermis.",
+      "leadIn": "If left untreated, these lesions are most likely to progress to which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Squamous cell carcinoma"
+        },
+        {
+          "id": "b",
+          "text": "Basal cell carcinoma"
+        },
+        {
+          "id": "c",
+          "text": "Superficial spreading melanoma"
+        },
+        {
+          "id": "d",
+          "text": "Seborrheic keratosis"
+        },
+        {
+          "id": "e",
+          "text": "Merkel cell carcinoma"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: invasive squamous cell carcinoma. Why: your Osmosis dermatology notes (pp. 1-2) describe actinic keratoses as small, rough, scaly patches caused by repeated sun exposure. UVB damages keratinocytes and causes mutations such as in p53, leading to dysplastic cells, and the biopsy shows atypia with parakeratosis (nuclei kept in the stratum corneum). Risk factors are fair skin, older age, sun-exposed sites, immunosuppression, albinism, xeroderma pigmentosum, and HPV. The main complication is change into squamous cell carcinoma, with a quoted likelihood of 0.03% to 20%. Treatment options include topical 5-fluorouracil or imiquimod, cryotherapy, scraping, and photodynamic therapy. MSD says cutaneous squamous cell carcinoma can arise in an existing actinic keratosis and is linked to cumulative UV damage.",
+      "whyWrong": {
+        "b": "Basal cell carcinoma is sun-related but arises without a scaly precursor lesion like this one (standard teaching).",
+        "c": "Melanoma comes from melanocytes, not from keratinocyte atypia (standard teaching).",
+        "d": "Seborrheic keratosis is a benign, stuck-on, waxy growth, not the outcome of actinic damage (standard teaching).",
+        "e": "Merkel cell carcinoma is a rare neuroendocrine skin cancer that does not arise from actinic keratoses (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Dermatology (Emily's file), Actinic keratosis, pp. 1-2"
+        },
+        {
+          "title": "MSD Manual Professional: Squamous Cell Carcinoma",
+          "url": "https://www.msdmanuals.com/professional/oncology/cancers-of-the-skin/squamous-cell-carcinoma"
+        }
+      ]
+    },
+    {
+      "id": "derm-scc-transplant-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Skin cancer: cutaneous squamous cell carcinoma",
+      "difficulty": 2,
+      "stem": "A 61-year-old man who had a kidney transplant 12 years ago and takes tacrolimus and mycophenolate comes to the physician because of a growing, crusted sore on his lower lip for 3 months. It bleeds easily. He smoked for 30 years. Examination shows a firm, 1.5-cm ulcerated nodule on the lower lip. A biopsy shows nests of atypical keratinocytes invading the dermis.",
+      "leadIn": "Which of the following is most likely to be seen within the tumor nests?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Keratin pearls"
+        },
+        {
+          "id": "b",
+          "text": "Palisading basal cells with peripheral clefts"
+        },
+        {
+          "id": "c",
+          "text": "Atypical melanocytes along the junction"
+        },
+        {
+          "id": "d",
+          "text": "Small blue cells with neuroendocrine granules"
+        },
+        {
+          "id": "e",
+          "text": "Spindle cells forming slit-like vessels"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: keratin pearls (cutaneous squamous cell carcinoma). Why: your Osmosis dermatology notes (pp. 29-31) describe squamous cell carcinoma as the second most common skin cancer, arising from keratinocytes that resist cell death and divide often. Causes and risk factors include UV light, HPV, actinic keratosis, immunosuppression, fair skin, and tobacco, which raises the risk of lip and mouth cancers. Well-differentiated tumors are made of polygonal pink cells that form keratin pearls. MSD defines it as a cancer of epidermal keratinocytes that invades the dermis, lists chronic immunosuppression as a risk factor, and says it is more likely to spread than basal cell carcinoma. MSD treats low-risk lesions with excision with 4- to 6-mm margins and prefers Mohs surgery for high-risk lesions such as those on the lip. Squamous cell carcinoma is the most common skin cancer in organ transplant recipients (standard teaching).",
+      "whyWrong": {
+        "b": "Palisading basal cells with clefts around the nests describe basal cell carcinoma (standard teaching).",
+        "c": "Atypical melanocytes along the junction describe melanoma, not keratinocyte nests (standard teaching).",
+        "d": "Small blue cells with neuroendocrine granules describe Merkel cell carcinoma (standard teaching).",
+        "e": "Spindle cells forming slit-like vessels describe Kaposi sarcoma, which is also more common after transplant but is a vascular tumor caused by HHV-8 (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Dermatology (Emily's file), Squamous cell carcinoma, pp. 29-31"
+        },
+        {
+          "title": "MSD Manual Professional: Squamous Cell Carcinoma",
+          "url": "https://www.msdmanuals.com/professional/oncology/cancers-of-the-skin/squamous-cell-carcinoma"
+        }
+      ]
+    },
+    {
+      "id": "derm-atopic-dermatitis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Genetics",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Dermatitis: atopic dermatitis",
+      "difficulty": 1,
+      "stem": "A 6-year-old boy is brought to the physician because of an itchy rash that has come and gone since infancy. When he was a baby, it was on his cheeks and the outer parts of his arms and legs. Now he has thick, dry, scratched plaques in the creases of both elbows and behind both knees. He has asthma and seasonal allergies, and his mother has hay fever. Serum IgE is high.",
+      "leadIn": "A loss-of-function mutation in the gene for which of the following proteins most likely contributes to this patient's condition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Filaggrin"
+        },
+        {
+          "id": "b",
+          "text": "Desmoglein 3"
+        },
+        {
+          "id": "c",
+          "text": "Type VII collagen"
+        },
+        {
+          "id": "d",
+          "text": "Bullous pemphigoid antigen"
+        },
+        {
+          "id": "e",
+          "text": "Tyrosinase"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: filaggrin, a protein needed for the skin barrier (atopic dermatitis). Why: your Osmosis dermatology notes (pp. 10-11) describe an itchy, relapsing rash in people with atopy and high IgE. A broken skin barrier, as from filaggrin mutations, lets antigens in, and Th2 cells release IL-4, IL-5, and IL-13, which drive IgE and recruit mast cells and eosinophils. In children under 2, the rash is on the cheeks and extensor surfaces. In older children it is on the flexures, with thick, lichenified plaques. Complications include Staphylococcus aureus infection and eczema herpeticum. MSD calls loss-of-function filaggrin mutations the main inherited factor in many patients, describes the same age pattern, and names atopic dermatitis, allergic rhinitis, and asthma as the atopic triad. MSD says topical corticosteroids are the mainstay of treatment, with calcineurin inhibitors, dupilumab (which blocks IL-4 and IL-13 signaling), and oral JAK inhibitors for harder cases.",
+      "whyWrong": {
+        "b": "Desmoglein 3 is the target of antibodies in pemphigus vulgaris, which causes fragile blisters and mouth sores (standard teaching).",
+        "c": "Type VII collagen defects cause dystrophic epidermolysis bullosa, with blisters and scarring from minor friction (standard teaching).",
+        "d": "Bullous pemphigoid antigens are targets of antibodies in bullous pemphigoid, a disease of older adults with tense blisters (standard teaching).",
+        "e": "Tyrosinase defects cause oculocutaneous albinism, with pale skin and hair, not itchy rashes (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Dermatology (Emily's file), Atopic dermatitis, pp. 10-11"
+        },
+        {
+          "title": "MSD Manual Professional: Atopic Dermatitis (Eczema)",
+          "url": "https://www.msdmanuals.com/professional/dermatologic-disorders/dermatitis/atopic-dermatitis-eczema"
+        }
+      ]
+    },
+    {
+      "id": "derm-lichen-planus-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Papulosquamous disorders: lichen planus",
+      "difficulty": 2,
+      "stem": "A 49-year-old man comes to the physician because of very itchy bumps on his wrists and shins for 2 months. Examination shows flat-topped, shiny, purple, many-sided papules. Some are in a line along a scratch. The inside of both cheeks shows white, lace-like lines. He used injection drugs 20 years ago.",
+      "leadIn": "A skin biopsy is most likely to show which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bandlike lymphocytes at the basal layer"
+        },
+        {
+          "id": "b",
+          "text": "Neutrophil collections in the stratum corneum"
+        },
+        {
+          "id": "c",
+          "text": "Subepidermal blister with eosinophils"
+        },
+        {
+          "id": "d",
+          "text": "Acantholysis above the basal layer"
+        },
+        {
+          "id": "e",
+          "text": "Noncaseating granulomas in the dermis"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: a dense band of lymphocytes along the dermal-epidermal junction (lichen planus). Why: your Osmosis dermatology notes (pp. 32-33) describe lichen planus with the 6 Ps (planar, purple, polygonal, pruritic papules and plaques), lace-like Wickham striae, the Koebner phenomenon (new lesions at sites of injury), and spread on the flexor wrists, elbows, ankles, and shins. Biopsy shows interface dermatitis, with lymphocytes along the junction, a sawtooth pattern, and dying basal cells (Civatte bodies). CD8 T cells react to altered antigens in the basal layer. MSD calls it a T-cell-mediated autoimmune attack on basal keratinocytes, describes Wickham striae as a hallmark of the oral form, and links it to hepatitis B and C and to drugs such as beta-blockers, NSAIDs, ACE inhibitors, and thiazides. His past injection drug use makes hepatitis C testing reasonable (standard teaching).",
+      "whyWrong": {
+        "b": "Neutrophil collections in the stratum corneum (Munro microabscesses) are typical of psoriasis (standard teaching).",
+        "c": "A subepidermal blister with eosinophils describes bullous pemphigoid (standard teaching).",
+        "d": "Acantholysis above the basal layer describes pemphigus vulgaris (standard teaching).",
+        "e": "Noncaseating granulomas describe sarcoidosis, which can cause skin papules but not Wickham striae (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Dermatology (Emily's file), Lichen planus, pp. 32-33"
+        },
+        {
+          "title": "MSD Manual Professional: Lichen Planus",
+          "url": "https://www.msdmanuals.com/professional/dermatologic-disorders/psoriasis-and-other-papulosquamous-disorders/lichen-planus"
+        }
+      ]
+    },
+    {
+      "id": "derm-vitiligo-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Immunology",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Pigmentation disorders: vitiligo",
+      "difficulty": 1,
+      "stem": "A 27-year-old woman comes to the physician because of white patches on the backs of her hands and around her mouth that have grown over 1 year. The patches have sharp edges and appear on both sides of the body. Under a Wood lamp, they glow bright white. She takes levothyroxine for Hashimoto thyroiditis.",
+      "leadIn": "A biopsy of a white patch is most likely to show which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Absence of melanocytes in the basal layer"
+        },
+        {
+          "id": "b",
+          "text": "Normal melanocytes that cannot make tyrosinase"
+        },
+        {
+          "id": "c",
+          "text": "Fungal hyphae in the stratum corneum"
+        },
+        {
+          "id": "d",
+          "text": "Excess melanin in basal keratinocytes"
+        },
+        {
+          "id": "e",
+          "text": "Lymphocytes around dermal blood vessels only"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: no melanocytes in the affected skin (vitiligo). Why: your Osmosis dermatology notes (p. 41) describe vitiligo as loss of pigment because melanocytes are destroyed, likely by an autoimmune process, leaving sharply bordered white patches. The non-segmental type is symmetric and keeps spreading, and the segmental type is one-sided and stable. Risk factors include a personal or family history of Hashimoto thyroiditis, type 1 diabetes, lupus, celiac disease, and Addison disease. Treatment includes topical steroids, calcineurin inhibitors, and phototherapy. MSD says melanocytes are missing in affected areas, that up to 30% of patients have other autoantibodies, most strongly Graves disease and Hashimoto thyroiditis, and that a Wood lamp makes the chalk-white patches easier to see. MSD prefers narrowband UVB for widespread disease. Recent change: MSD lists a topical JAK inhibitor, ruxolitinib cream, as a treatment option, which your Osmosis dermatology notes do not mention.",
+      "whyWrong": {
+        "b": "Normal melanocytes that lack working tyrosinase describe albinism, which is present from birth and affects all of the skin (standard teaching).",
+        "c": "Fungal hyphae point to tinea versicolor, which causes scaly, lighter patches, often on the trunk (standard teaching).",
+        "d": "Extra melanin in basal cells causes darker, not white, patches, as in melasma (standard teaching).",
+        "e": "A light perivascular infiltrate alone does not explain total pigment loss with sharp borders (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Dermatology (Emily's file), Vitiligo, p. 41"
+        },
+        {
+          "title": "MSD Manual Professional: Vitiligo",
+          "url": "https://msdmanuals.com/en-pt/professional/dermatologic-disorders/pigmentation-disorders/vitiligo"
+        }
+      ]
+    },
+    {
+      "id": "derm-impetigo-psgn-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Skin infections: impetigo",
+      "difficulty": 2,
+      "stem": "A 4-year-old boy is brought to the physician because of sores around his nose and mouth for 1 week. They began as small blisters that broke open and now have honey-colored crusts. Several children at his daycare have similar sores. A culture grows beta-hemolytic, bacitracin-sensitive gram-positive cocci in chains.",
+      "leadIn": "This patient is at greatest risk of developing which of the following complications in the next few weeks?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Poststreptococcal glomerulonephritis"
+        },
+        {
+          "id": "b",
+          "text": "Acute rheumatic fever"
+        },
+        {
+          "id": "c",
+          "text": "Staphylococcal scalded skin syndrome"
+        },
+        {
+          "id": "d",
+          "text": "Toxic shock syndrome"
+        },
+        {
+          "id": "e",
+          "text": "Erythema nodosum"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: poststreptococcal glomerulonephritis. Why: your Osmosis dermatology notes (p. 50) describe impetigo as a very contagious infection of the upper epidermis in children, caused by Staphylococcus aureus or Streptococcus pyogenes. In the common non-bullous form, a red bump becomes a blister that breaks and forms a yellow crust. Risk factors include warm, humid weather, eczema, and daycare. Complications are cellulitis and poststreptococcal glomerulonephritis. MSD describes honey-colored crusts, says staphylococcal exfoliative toxins cause the bullous form, and warns that children aged 2 to 4 years can develop glomerulonephritis after skin infection with nephritogenic group A strep, which antibiotics are unlikely to prevent. MSD treats localized impetigo with a topical antibiotic such as mupirocin for 5 to 7 days. Bacitracin sensitivity identifies group A strep (standard teaching).",
+      "whyWrong": {
+        "b": "Rheumatic fever follows group A strep throat infection, not skin infection (standard teaching).",
+        "c": "Scalded skin syndrome comes from S. aureus exfoliative toxins, but this culture grew strep (standard teaching).",
+        "d": "Toxic shock syndrome causes fever, low blood pressure, and a sunburn-like rash; it is not the expected course of simple impetigo (standard teaching).",
+        "e": "Erythema nodosum can follow strep throat but is not the main risk after impetigo (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Dermatology (Emily's file), Impetigo, p. 50"
+        },
+        {
+          "title": "MSD Manual Professional: Impetigo and Ecthyma",
+          "url": "https://www.msdmanuals.com/professional/infectious-diseases/bacterial-skin-infections/impetigo-and-ecthyma"
+        }
+      ]
     }
   ]
 }
