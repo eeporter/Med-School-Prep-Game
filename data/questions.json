@@ -89,7 +89,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Nephritic syndrome (hematuria with RBC casts, hypertension, edema) 1 to 3 weeks after group A streptococcal pharyngitis with low C3 is poststreptococcal glomerulonephritis. EM shows subepithelial immune complex 'humps'; light microscopy shows hypercellular glomeruli, and immunofluorescence is granular ('starry sky').",
+      "explanation": "Nephritic syndrome (hematuria with RBC casts, hypertension, edema) 1 to 2 weeks after group A streptococcal pharyngitis with low C3 is poststreptococcal glomerulonephritis. EM shows subepithelial immune complex 'humps'; light microscopy shows hypercellular glomeruli, and immunofluorescence is granular ('starry sky'). After a skin infection (impetigo) the gap is longer, about 6 weeks. Many review books give a single 2 to 4 week window; this boy's 2-week gap fits either way.",
       "whyWrong": {
         "b": "Foot process effacement without deposits is minimal change disease, a nephrotic syndrome with normal complement.",
         "c": "IgA nephropathy presents 1 to 3 days after a mucosal infection (synpharyngitic) and complement is usually normal.",
@@ -194,7 +194,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Antibiotic-associated diarrhea with pseudomembranes is Clostridioides difficile colitis. Toxin A (enterotoxin) and toxin B (cytotoxin) glucosylate Rho-family GTPases, causing actin depolymerization, loss of tight junctions, and mucosal cell death that forms pseudomembranes.",
+      "explanation": "Antibiotic-associated diarrhea with pseudomembranes is Clostridioides difficile colitis. Toxin A (enterotoxin) and toxin B (cytotoxin) glucosylate Rho-family GTPases, causing actin depolymerization, loss of tight junctions, and mucosal cell death that forms pseudomembranes. Recent change: the organism was renamed from Clostridium difficile, so older books use the old name. For a first episode, metronidazole is no longer first line. Current guidance prefers oral fidaxomicin, with oral vancomycin as the alternative, and metronidazole only if neither is available.",
       "whyWrong": {
         "b": "ADP-ribosylation of Gs (permanently activating it) is cholera toxin and E. coli heat-labile toxin, which cause watery diarrhea without pseudomembranes.",
         "c": "Inactivating the 60S ribosome is Shiga toxin and Shiga-like toxin (EHEC).",
@@ -208,6 +208,10 @@
         },
         {
           "title": "First Aid for the USMLE Step 1 2025, Microbiology: Bacterial toxins"
+        },
+        {
+          "title": "AAFP: Clostridioides difficile Infection, a Focused Guideline Update From the IDSA (2021)",
+          "url": "https://www.aafp.org/afp/2022/0600/p678"
         }
       ]
     },
@@ -449,7 +453,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Confusion, ophthalmoplegia, and ataxia in a patient with alcohol use disorder is Wernicke encephalopathy from thiamine (B1) deficiency. Thiamine pyrophosphate is the cofactor for pyruvate dehydrogenase, alpha-ketoglutarate dehydrogenase, branched-chain alpha-ketoacid dehydrogenase, and transketolase (pentose phosphate pathway). Transketolase activity (measured before and after adding thiamine pyrophosphate) is a functional test of thiamine status. Give thiamine before glucose to avoid precipitating or worsening Wernicke encephalopathy.",
+      "explanation": "Confusion, ophthalmoplegia, and ataxia in a patient with alcohol use disorder is Wernicke encephalopathy from thiamine (B1) deficiency. Thiamine pyrophosphate is the cofactor for pyruvate dehydrogenase, alpha-ketoglutarate dehydrogenase, branched-chain alpha-ketoacid dehydrogenase, and transketolase (pentose phosphate pathway). Transketolase activity (measured before and after adding thiamine pyrophosphate) is a functional test of thiamine status. Give thiamine before or together with glucose, because glucose metabolism uses up thiamine and can worsen Wernicke encephalopathy. Note: older teaching said \"thiamine always before glucose\", but current guidance says never delay treatment of low blood sugar while waiting for thiamine.",
       "whyWrong": {
         "b": "Pyruvate carboxylase requires biotin (B7), not thiamine.",
         "c": "Glycogen phosphorylase uses pyridoxal phosphate (B6).",
@@ -460,6 +464,10 @@
         {
           "title": "StatPearls: Vitamin B1 (Thiamine) Deficiency",
           "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK537204/"
+        },
+        {
+          "title": "StatPearls: Wernicke-Korsakoff Syndrome",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK470344/"
         }
       ]
     },
@@ -547,7 +555,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Warfarin inhibits vitamin K epoxide reductase (VKORC1). Without it, the liver cannot recycle vitamin K, which is needed to activate (gamma-carboxylate) factors II, VII, IX, and X and proteins C and S. Warfarin is monitored with PT/INR. Its full effect takes about 5 to 7 days because clotting factors already in the blood must be used up first.",
+      "explanation": "Warfarin inhibits vitamin K epoxide reductase (VKORC1). Without it, the liver cannot recycle vitamin K, which is needed to activate (gamma-carboxylate) factors II, VII, IX, and X and proteins C and S. Warfarin is monitored with PT/INR. Its full effect takes about 5 to 7 days because clotting factors already in the blood must be used up first. Recent change: for stroke prevention in atrial fibrillation, the 2023 ACC/AHA/ACCP/HRS guideline prefers direct oral anticoagulants (such as apixaban or rivaroxaban) over warfarin, except in patients with mitral stenosis or a mechanical heart valve.",
       "whyWrong": {
         "b": "Activating antithrombin is the mechanism of heparin (monitored with PTT for unfractionated heparin), which is given parenterally.",
         "c": "Direct factor Xa inhibitors (rivaroxaban, apixaban) bind factor Xa directly and do not need INR monitoring.",
@@ -558,6 +566,10 @@
         {
           "title": "StatPearls: Warfarin",
           "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK470313/"
+        },
+        {
+          "title": "ACC: 2023 Guideline for the Diagnosis and Management of Atrial Fibrillation, Key Points (Joglar et al., J Am Coll Cardiol 2023)",
+          "url": "https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2023/11/27/19/46/2023-acc-guideline-for-af-gl-af"
         }
       ]
     },
@@ -596,7 +608,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Resistant hypertension with hypokalemia, metabolic alkalosis, high aldosterone, and low renin is primary hyperaldosteronism (Conn syndrome). The two most common causes are bilateral adrenal hyperplasia and an aldosterone-producing adenoma; of the options listed, only the adenoma fits. Aldosterone excess suppresses renin through volume expansion. Note: only a minority of patients have low potassium, so a normal potassium does not rule it out.",
+      "explanation": "Resistant hypertension with hypokalemia, metabolic alkalosis, high aldosterone, and low renin is primary hyperaldosteronism (Conn syndrome). The two most common causes are bilateral adrenal hyperplasia and an aldosterone-producing adenoma; of the options listed, only the adenoma fits. Aldosterone excess suppresses renin through volume expansion. Note: only a minority of patients have low potassium, so a normal potassium does not rule it out. Recent change: a 2025 Endocrine Society guideline suggests screening everyone with hypertension for primary aldosteronism (aldosterone and renin), not only patients with resistant hypertension or low potassium.",
       "whyWrong": {
         "b": "Renal artery stenosis causes secondary hyperaldosteronism, in which renin is high.",
         "c": "Pheochromocytoma causes episodic hypertension, headache, sweating, and palpitations; it does not raise aldosterone with low renin.",
@@ -607,6 +619,10 @@
         {
           "title": "StatPearls: Hyperaldosteronism",
           "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK499983/"
+        },
+        {
+          "title": "Endocrine Society Clinical Practice Guideline: Primary Aldosteronism (Adler et al., J Clin Endocrinol Metab 2025)",
+          "url": "https://www.endocrine.org/clinical-practice-guidelines/primary-aldosteronism-2"
         }
       ]
     },
@@ -849,7 +865,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Lancet-shaped, optochin-sensitive, alpha-hemolytic gram-positive diplococci causing lobar pneumonia are Streptococcus pneumoniae. Its polysaccharide capsule is the main virulence factor and blocks opsonization and phagocytosis; the vaccines target capsular polysaccharides, and asplenic patients are at high risk.",
+      "explanation": "Lancet-shaped, optochin-sensitive, alpha-hemolytic gram-positive diplococci causing lobar pneumonia are Streptococcus pneumoniae. Its polysaccharide capsule is the main virulence factor and blocks opsonization and phagocytosis; the vaccines target capsular polysaccharides, and asplenic patients are at high risk. Recent change: the older adult schedule of PCV13 plus PPSV23 has been replaced. CDC now recommends PCV20 or PCV21 alone, or PCV15 followed by PPSV23, and since October 2024 routine adult vaccination starts at age 50. PCV13 is no longer recommended for adults.",
       "whyWrong": {
         "b": "M protein is the antiphagocytic factor of Streptococcus pyogenes (group A strep).",
         "c": "Protein A, which binds the Fc region of IgG, belongs to Staphylococcus aureus.",
@@ -864,6 +880,14 @@
         {
           "title": "StatPearls: Pneumococcal Pneumonia",
           "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK470537/"
+        },
+        {
+          "title": "CDC: Summary of Risk-based Pneumococcal Vaccination Recommendations",
+          "url": "https://www.cdc.gov/pneumococcal/hcp/vaccine-recommendations/risk-indications.html"
+        },
+        {
+          "title": "Immunize.org Ask the Experts: Pneumococcal recommendations for adults",
+          "url": "https://www.immunize.org/ask-experts/topic/pneumococcal/recommendations-adults/"
         }
       ]
     },
@@ -1151,7 +1175,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Left ventricular free wall rupture usually happens 3 to 5 days after an MI, while inflammatory cells are clearing dead myocardium and the wall is weakest. Risk factors include a first, anterior, transmural infarct. Blood fills the pericardium and causes cardiac tamponade: low blood pressure, distended neck veins, and muffled heart sounds (Beck triad), often progressing to pulseless electrical activity.",
+      "explanation": "Left ventricular free wall rupture usually happens 3 to 5 days after an MI, while inflammatory cells are clearing dead myocardium and the wall is weakest. Risk factors include a first, anterior, transmural infarct. Blood fills the pericardium and causes cardiac tamponade: low blood pressure, distended neck veins, and muffled heart sounds (Beck triad), often progressing to pulseless electrical activity. Note: some review books give a wider window, about 3 to 7 days or up to 2 weeks, but StatPearls puts most ruptures at 3 to 5 days. Female sex and age over 70 are also risk factors.",
       "whyWrong": {
         "b": "Dressler syndrome (autoimmune pericarditis) occurs weeks after MI, with fever and pleuritic pain, not sudden collapse at day 5.",
         "c": "True ventricular aneurysms form over 2 weeks to months as scar bulges outward.",
@@ -1449,7 +1473,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: increased melanocyte-stimulating hormone (MSH). Why: in primary adrenal insufficiency (Addison disease), low cortisol removes negative feedback, so the pituitary makes more pro-opiomelanocortin (POMC). POMC is cut into ACTH and MSH, and the extra MSH darkens the skin and gums. Losing aldosterone (mineralocorticoid) as well explains the low sodium, high potassium, and low blood pressure. In central (secondary) adrenal insufficiency, ACTH is low and aldosterone is preserved, so these two clues are absent.",
+      "explanation": "Answer: increased melanocyte-stimulating hormone (MSH). Why: in primary adrenal insufficiency (Addison disease), low cortisol removes negative feedback, so the pituitary makes more pro-opiomelanocortin (POMC). POMC is cut into ACTH and melanocyte-stimulating peptides (MSH; beta-lipotropin, which has melanocyte-stimulating activity), and together with ACTH they darken the skin. The darkening is most marked on pressure points, skin folds, scars, and the lips and gums. About 90% of primary adrenal insufficiency in the US and Europe is autoimmune. Losing aldosterone (mineralocorticoid) as well explains the low sodium, high potassium, and low blood pressure. In central (secondary) adrenal insufficiency, ACTH is low and aldosterone is preserved, so these two clues are absent.",
       "whyWrong": {
         "b": "Low aldosterone causes the low sodium and high potassium, but it does not affect skin pigment.",
         "c": "Iron deposition causes bronze skin in hemochromatosis, which would not explain low cortisol and high ACTH.",
@@ -1458,12 +1482,16 @@
       },
       "sources": [
         {
-          "title": "Endotext: Adrenal Insufficiency in Children (NCBI Bookshelf)",
-          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK608067/"
+          "title": "MSD Manual Professional: Primary Adrenal Insufficiency (Addison Disease)",
+          "url": "https://www.msdmanuals.com/professional/endocrine-and-metabolic-disorders/adrenal-disorders/primary-adrenal-insufficiency-addison-disease"
         },
         {
           "title": "StatPearls: Physiology, Adrenocorticotropic Hormone (ACTH)",
           "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK500031/"
+        },
+        {
+          "title": "Endotext: Adrenal Insufficiency in Children (NCBI Bookshelf)",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK608067/"
         }
       ]
     },
@@ -1555,7 +1583,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: proximal convoluted tubule. Why: empagliflozin blocks the sodium-glucose cotransporter 2 (SGLT2) in the proximal tubule, so glucose that was filtered is not taken back and is lost in urine (glucosuria). More sodium then reaches the distal nephron, which triggers tubuloglomerular feedback: the afferent arteriole constricts and pressure inside the glomerulus falls. Lower glomerular pressure is the main way SGLT2 inhibitors protect the kidney. Key side effects are genital yeast infections, urinary tract infections, volume depletion, and euglycemic diabetic ketoacidosis.",
+      "explanation": "Answer: proximal convoluted tubule. Why: empagliflozin blocks the sodium-glucose cotransporter 2 (SGLT2) in the proximal tubule, so glucose that was filtered is not taken back and is lost in urine (glucosuria). More sodium then reaches the distal nephron, which triggers tubuloglomerular feedback: the afferent arteriole constricts and pressure inside the glomerulus falls. Lower glomerular pressure is the main way SGLT2 inhibitors protect the kidney. Key side effects are genital yeast infections, urinary tract infections, volume depletion, and euglycemic diabetic ketoacidosis. Recent change: SGLT2 inhibitors are no longer just diabetes drugs. Dapagliflozin and empagliflozin are FDA-approved to lower cardiovascular death and heart failure hospitalization in adults with heart failure (reduced or preserved ejection fraction) and to slow chronic kidney disease, whether or not the patient has diabetes.",
       "whyWrong": {
         "b": "The thick ascending limb holds the Na-K-2Cl cotransporter, the target of loop diuretics like furosemide.",
         "c": "The distal convoluted tubule holds the Na-Cl cotransporter, the target of thiazide diuretics.",
@@ -1709,7 +1737,7 @@
       "explanation": "Answer: granular mesangial IgA. Why: blood in the urine that starts during (or right after) an upper respiratory infection, and recurs, is IgA nephropathy (Berger disease), the most common glomerulonephritis. Abnormal galactose-deficient IgA1 forms immune complexes that lodge in the mesangium. C3 often deposits alongside the IgA, while C1q is usually absent.",
       "whyWrong": {
         "b": "Linear IgG along the basement membrane is anti-GBM disease (Goodpasture syndrome), often with lung hemorrhage.",
-        "c": "Granular IgG and C3 'starry sky' is poststreptococcal glomerulonephritis, which appears 2 to 3 weeks after the infection, not during it.",
+        "c": "Granular IgG and C3 'starry sky' is poststreptococcal glomerulonephritis, which appears 1 to 3 weeks after the infection, not during it.",
         "d": "No deposits fits minimal change disease or pauci-immune vasculitis, not hematuria during an infection.",
         "e": "This 'full house' pattern, including C1q, is typical of lupus nephritis."
       },
@@ -1717,6 +1745,10 @@
         {
           "title": "StatPearls: IgA Nephropathy (Berger Disease)",
           "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK538214/"
+        },
+        {
+          "title": "StatPearls: Infection-Related Glomerulonephritis",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK538255/"
         }
       ]
     },
@@ -1957,7 +1989,7 @@
       "answer": "a",
       "explanation": "Answer: linear IgG and C3 along the basement membrane. Why: tense, itchy blisters in an elderly patient with a negative Nikolsky sign and a subepidermal split with eosinophils is bullous pemphigoid. Autoantibodies target hemidesmosome proteins BP180 and BP230, which anchor the epidermis to the basement membrane, so antibody and complement line up along the basement membrane zone. Because the split is below the epidermis, the blister roof is thick and the blisters are tense.",
       "whyWrong": {
-        "b": "A net-like intraepidermal pattern is pemphigus vulgaris, caused by antibodies to desmogleins 1 and 3. It shows suprabasal acantholysis ('tombstone' basal cells), a positive Nikolsky sign, easily ruptured blisters, and starts in the mouth in about 80% of cases.",
+        "b": "A net-like intraepidermal pattern is pemphigus vulgaris, caused by antibodies to desmogleins 1 and 3. It shows suprabasal acantholysis ('tombstone' basal cells), a positive Nikolsky sign, easily ruptured blisters, and first appears in the mouth in about 80% of cases, with skin blisters following.",
         "c": "Bullous pemphigoid is antibody mediated, so deposits are expected.",
         "d": "IgE on mast cells is type I hypersensitivity (hives), which does not form subepidermal blisters.",
         "e": "Granular IgA in the dermal papillae is dermatitis herpetiformis, the itchy, grouped-vesicle rash linked to celiac disease."
@@ -2571,7 +2603,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: thyroid peroxidase. Why: methimazole inhibits thyroid peroxidase, the enzyme that attaches iodine to tyrosine residues on thyroglobulin and couples them to form T4 and T3. Her fever and sore throat with very low neutrophils is agranulocytosis, a serious adverse effect of methimazole. Methimazole is also avoided in the first trimester because of birth defects (e.g., aplasia cutis), while propylthiouracil (PTU) carries a risk of severe liver injury.",
+      "explanation": "Answer: thyroid peroxidase. Why: methimazole inhibits thyroid peroxidase, the enzyme that attaches iodine to tyrosine residues on thyroglobulin and couples them to form T4 and T3. Her fever and sore throat with very low neutrophils is agranulocytosis, a serious adverse effect of methimazole. Methimazole is also avoided in the first trimester because of birth defects (e.g., aplasia cutis), while propylthiouracil (PTU) carries a risk of severe liver injury. Recent change: many review notes call PTU the drug of choice in pregnancy. Current guidance limits PTU to the first trimester and switches to methimazole for the second and third trimesters, because PTU carries a boxed warning for acute liver failure.",
       "whyWrong": {
         "b": "The sodium-iodide symporter carries iodide into thyroid cells; it is inhibited by perchlorate, not by methimazole.",
         "c": "Methimazole does not affect hormone already stored in the thyroid. It blocks new synthesis, so hormone levels fall only as the stored supply in thyroglobulin is used up.",
@@ -2586,6 +2618,10 @@
         {
           "title": "StatPearls: Physiology, Thyroid Hormone",
           "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK500006/"
+        },
+        {
+          "title": "StatPearls: Propylthiouracil (PTU)",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK549828/"
         }
       ]
     },
@@ -2779,7 +2815,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: peroxidase activity of heme from red meat. Why: the guaiac test detects the pseudoperoxidase activity of heme, which turns the guaiac reagent blue. It cannot tell human heme from animal heme, so red meat (and raw fruits and vegetables rich in peroxidases) can cause false positives. The fecal immunochemical test (FIT) detects human globin, needs no diet changes, and is more specific for lower GI bleeding.",
+      "explanation": "Answer: peroxidase activity of heme from red meat. Why: the guaiac test detects the pseudoperoxidase activity of heme, which turns the guaiac reagent blue. It cannot tell human heme from animal heme, so red meat (and raw fruits and vegetables rich in peroxidases) can cause false positives. The fecal immunochemical test (FIT) detects human globin, needs no diet changes, and is more specific for lower GI bleeding. Recent change: since May 2021, the USPSTF recommends colorectal cancer screening starting at age 45, not 50. Stool options are a yearly high-sensitivity guaiac test or FIT, or stool DNA-FIT every 1 to 3 years.",
       "whyWrong": {
         "b": "Detecting human globin is how FIT works, not guaiac tests, and globin from upper GI bleeding is mostly digested.",
         "c": "Large doses of vitamin C cause false-negative guaiac results, not false positives.",
@@ -2790,6 +2826,10 @@
         {
           "title": "StatPearls: Fecal Occult Blood Test",
           "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK537138/"
+        },
+        {
+          "title": "USPSTF: Colorectal Cancer Screening, Final Recommendation Statement (2021)",
+          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/colorectal-cancer-screening"
         }
       ]
     },
@@ -3003,7 +3043,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: primary biliary cholangitis (PBC). Why: about 95% of patients are women, usually aged 40 to 70. Itching and fatigue are common early symptoms (up to 80%), and dry mouth and eyes can come months or years before other symptoms; PBC is associated with Sjögren syndrome, systemic sclerosis, and autoimmune thyroiditis. Labs show a cholestatic pattern with a high alkaline phosphatase. Imaging is done first to exclude bile duct obstruction. The next test is antimitochondrial antibody (AMA), which is positive in 90-95%; serum IgM is also raised. Pathology: T cells destroy the small bile ducts inside the liver. Treatment: ursodeoxycholic acid. Contrast with PSC: mostly men, linked to ulcerative colitis, with \"beaded\" strictures of the large ducts.",
+      "explanation": "Answer: primary biliary cholangitis (PBC). Why: about 95% of patients are women, usually aged 40 to 70. Itching and fatigue are common early symptoms (up to 80%), and dry mouth and eyes can come months or years before other symptoms; PBC is associated with Sjögren syndrome, systemic sclerosis, and autoimmune thyroiditis. Labs show a cholestatic pattern with a high alkaline phosphatase. Imaging is done first to exclude bile duct obstruction. The next test is antimitochondrial antibody (AMA), which is positive in 90-95%; serum IgM is also raised. Pathology: T cells destroy the small bile ducts inside the liver. Treatment: ursodeoxycholic acid (UDCA) first line. Contrast with PSC: mostly men, linked to ulcerative colitis, with \"beaded\" strictures of the large ducts. Recent change: older books call it primary biliary cirrhosis. The current name is primary biliary cholangitis, and cirrhosis develops only late in the disease. For second-line treatment, obeticholic acid was voluntarily withdrawn, and the PPAR agonists seladelpar and elafibranor are now used with UDCA.",
       "whyWrong": {
         "b": "PSC mostly affects men (60-71%), usually aged 25 to 45, is linked to ulcerative colitis in 60-80%, and shows multifocal strictures with a \"beaded\" appearance of the bile ducts inside and outside the liver.",
         "c": "Extrahepatic obstruction such as a common bile duct stone must be excluded with imaging; this ultrasound shows no stones and no dilated ducts.",
@@ -3699,6 +3739,1018 @@
         {
           "title": "CDC DPDx: Pneumocystis",
           "url": "https://www.cdc.gov/dpdx/pneumocystis"
+        }
+      ]
+    },
+    {
+      "id": "biochem-von-gierke-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "General Principles",
+      "topic": "Glycogen storage diseases",
+      "difficulty": 2,
+      "stem": "A 4-month-old girl is brought in after a seizure early in the morning, about 4 hours after her last feed. She has been sweaty and irritable between feeds. She is short for her age, with thin arms and legs, and has a markedly enlarged liver; both kidneys are enlarged on ultrasound. Blood glucose is 32 mg/dL. Lactate, triglycerides, and uric acid are all elevated.",
+      "leadIn": "Deficiency of which enzyme is most likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Glucose-6-phosphatase"
+        },
+        {
+          "id": "b",
+          "text": "Acid alpha-glucosidase (acid maltase)"
+        },
+        {
+          "id": "c",
+          "text": "Glycogen debranching enzyme"
+        },
+        {
+          "id": "d",
+          "text": "Muscle glycogen phosphorylase (myophosphorylase)"
+        },
+        {
+          "id": "e",
+          "text": "Aldolase B"
+        }
+      ],
+      "answer": "a",
+      "explanation": "This is glycogen storage disease type I (von Gierke disease). Signs usually appear around 3 to 4 months of age. Glucose-6-phosphatase, made from the G6PC1 gene, works in the liver, kidneys, and intestine. It splits glucose-6-phosphate to release free glucose, and it is the main regulator of glucose production in the liver. Without it, the liver cannot release glucose between feeds. The result is low blood sugar, an enlarged liver and kidneys, lactic acidosis, high blood fats (hyperlipidemia), high uric acid (which can lead to gout), and short stature with thin arms and legs. Type Ia is the enzyme defect. Type Ib is a defect in the glucose-6-phosphate transport protein (SLC37A4) and also causes neutropenia. Inheritance is autosomal recessive.",
+      "whyWrong": {
+        "b": "Acid alpha-glucosidase deficiency (Pompe disease, type II) stores glycogen in lysosomes. The classic infant form causes heart problems and floppiness (hypotonia), not fasting hypoglycemia.",
+        "c": "Debranching enzyme deficiency (type III) also causes hypoglycemia and an enlarged liver, but the stored glycogen is abnormal and muscle weakness can appear later in life. The combination of lactic acidosis, high uric acid, and high lipids is the pattern described for type I.",
+        "d": "Myophosphorylase deficiency (McArdle disease, type V) affects muscle only: exercise intolerance, cramps, and dark urine, with no liver enlargement or hypoglycemia.",
+        "e": "Aldolase B deficiency (hereditary fructose intolerance) causes symptoms only after fruit, juice, or other fructose enters the diet."
+      },
+      "sources": [
+        {
+          "title": "MedlinePlus Genetics: Glycogen storage disease type I",
+          "url": "https://medlineplus.gov/genetics/condition/glycogen-storage-disease-type-i"
+        },
+        {
+          "title": "MedlinePlus Genetics: G6PC1 gene",
+          "url": "https://medlineplus.gov/genetics/gene/g6pc1"
+        },
+        {
+          "title": "MedlinePlus Genetics: Pompe disease",
+          "url": "https://medlineplus.gov/genetics/condition/pompe-disease/"
+        },
+        {
+          "title": "MedlinePlus Genetics: Glycogen storage disease type III",
+          "url": "https://medlineplus.gov/genetics/condition/glycogen-storage-disease-type-iii/"
+        },
+        {
+          "title": "MedlinePlus Medical Encyclopedia: Glycogen storage disease type V (McArdle)",
+          "url": "https://medlineplus.gov/ency/article/000329.htm"
+        },
+        {
+          "title": "MedlinePlus Genetics: Hereditary fructose intolerance",
+          "url": "https://medlineplus.gov/genetics/condition/hereditary-fructose-intolerance"
+        }
+      ]
+    },
+    {
+      "id": "biochem-mcardle-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "Musculoskeletal",
+      "topic": "Glycogen storage diseases",
+      "difficulty": 1,
+      "stem": "A 19-year-old man has had muscle cramps and early fatigue during sprints and weightlifting since his teens. After a hard workout yesterday his urine turned burgundy. He has no hypoglycemia, and his liver is normal in size. Serum creatine kinase is high, and urine tests positive for myoglobin.",
+      "leadIn": "Deficiency of which enzyme is most likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Muscle glycogen phosphorylase (myophosphorylase)"
+        },
+        {
+          "id": "b",
+          "text": "Glucose-6-phosphatase"
+        },
+        {
+          "id": "c",
+          "text": "Acid alpha-glucosidase (acid maltase)"
+        },
+        {
+          "id": "d",
+          "text": "Glycogen debranching enzyme"
+        },
+        {
+          "id": "e",
+          "text": "Aldolase B"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Exercise intolerance, cramps, and burgundy urine from myoglobin after exercise point to glycogen storage disease type V (McArdle disease). Muscle cannot break down its glycogen to fuel hard exercise, because muscle glycogen phosphorylase (myophosphorylase) is missing. Serum creatine kinase is raised and myoglobin may appear in the urine. Inheritance is autosomal recessive. Only the muscle enzyme is affected, which is why his blood sugar and liver are normal.",
+      "whyWrong": {
+        "b": "Glucose-6-phosphatase deficiency (von Gierke) affects the liver and kidneys: fasting hypoglycemia, lactic acidosis, and an enlarged liver.",
+        "c": "Acid alpha-glucosidase deficiency (Pompe) is a lysosomal storage disease. The classic form starts in infancy with heart problems and hypotonia.",
+        "d": "Debranching enzyme deficiency (type III) starts in infancy with hypoglycemia and an enlarged liver. Muscle weakness may come later in life.",
+        "e": "Aldolase B deficiency causes vomiting and hypoglycemia after eating fructose, not exercise-induced muscle injury."
+      },
+      "sources": [
+        {
+          "title": "MedlinePlus Medical Encyclopedia: Glycogen storage disease type V (McArdle)",
+          "url": "https://medlineplus.gov/ency/article/000329.htm"
+        },
+        {
+          "title": "MedlinePlus Genetics: Glycogen storage disease type I",
+          "url": "https://medlineplus.gov/genetics/condition/glycogen-storage-disease-type-i"
+        },
+        {
+          "title": "MedlinePlus Genetics: Pompe disease",
+          "url": "https://medlineplus.gov/genetics/condition/pompe-disease/"
+        },
+        {
+          "title": "MedlinePlus Genetics: Glycogen storage disease type III",
+          "url": "https://medlineplus.gov/genetics/condition/glycogen-storage-disease-type-iii/"
+        },
+        {
+          "title": "MedlinePlus Genetics: Hereditary fructose intolerance",
+          "url": "https://medlineplus.gov/genetics/condition/hereditary-fructose-intolerance"
+        }
+      ]
+    },
+    {
+      "id": "biochem-hfi-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "Gastrointestinal",
+      "topic": "Fructose and galactose disorders",
+      "difficulty": 1,
+      "stem": "A 7-month-old boy was healthy while exclusively breastfed. Since apple juice and pureed fruit were added to his diet 3 weeks ago, he has had vomiting, bloating, and diarrhea after meals. Today he is lethargic, his skin is yellow, and his liver is enlarged. Blood glucose is 38 mg/dL.",
+      "leadIn": "Deficiency of which enzyme is most likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Aldolase B"
+        },
+        {
+          "id": "b",
+          "text": "Galactose-1-phosphate uridylyltransferase (GALT)"
+        },
+        {
+          "id": "c",
+          "text": "Galactokinase"
+        },
+        {
+          "id": "d",
+          "text": "Glucose-6-phosphatase"
+        },
+        {
+          "id": "e",
+          "text": "Acid alpha-glucosidase (acid maltase)"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Symptoms that start only when fruit and juice enter the diet are hereditary fructose intolerance. It is an autosomal recessive lack of aldolase B (from the ALDOB gene). Fructose-1-phosphate then builds up in liver cells, which is toxic and kills liver cells over time. After fructose, patients have nausea, bloating, abdominal pain, vomiting, diarrhea, and low blood sugar. Liver damage causes jaundice. Most affected people learn to dislike fruit, juice, and other fructose-containing foods.",
+      "whyWrong": {
+        "b": "GALT deficiency (classic galactosemia) causes feeding problems, lethargy, jaundice, liver damage, and sepsis within days of birth; cataracts can follow. Lactose, the sugar that contains galactose, is in dairy products and many baby formulas. His symptoms started with fruit, not milk.",
+        "c": "Galactokinase deficiency mainly causes cataracts, with few other problems.",
+        "d": "Glucose-6-phosphatase deficiency (von Gierke) causes fasting hypoglycemia from about 3 to 4 months of age, regardless of what the infant eats.",
+        "e": "Acid alpha-glucosidase deficiency (Pompe) stores glycogen in lysosomes and causes heart problems and hypotonia in infants."
+      },
+      "sources": [
+        {
+          "title": "MedlinePlus Genetics: Hereditary fructose intolerance",
+          "url": "https://medlineplus.gov/genetics/condition/hereditary-fructose-intolerance"
+        },
+        {
+          "title": "MedlinePlus Genetics: Galactosemia",
+          "url": "https://medlineplus.gov/genetics/condition/galactosemia/"
+        },
+        {
+          "title": "MedlinePlus Genetics: Glycogen storage disease type I",
+          "url": "https://medlineplus.gov/genetics/condition/glycogen-storage-disease-type-i"
+        },
+        {
+          "title": "MedlinePlus Genetics: Pompe disease",
+          "url": "https://medlineplus.gov/genetics/condition/pompe-disease/"
+        }
+      ]
+    },
+    {
+      "id": "biochem-gaucher-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Lysosomal storage diseases",
+      "difficulty": 2,
+      "stem": "A 34-year-old woman of Ashkenazi Jewish heritage has bone pain in her thighs and easy bruising. Her spleen is markedly enlarged, and her liver is also enlarged. Platelets are 68,000/mm3. She has no neurologic symptoms, and her eye exam is normal.",
+      "leadIn": "Deficiency of which enzyme is most likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Glucocerebrosidase (GBA)"
+        },
+        {
+          "id": "b",
+          "text": "Beta-galactosidase"
+        },
+        {
+          "id": "c",
+          "text": "Beta-hexosaminidase A"
+        },
+        {
+          "id": "d",
+          "text": "Acid sphingomyelinase"
+        },
+        {
+          "id": "e",
+          "text": "Alpha-galactosidase A"
+        }
+      ],
+      "answer": "a",
+      "explanation": "An enlarged spleen and liver, bone pain, and low platelets in an adult of Ashkenazi Jewish heritage, with no neurologic signs, is Gaucher disease type 1, the most common type. A lack of glucocerebrosidase (GBA) lets harmful substances build up in the liver, spleen, bones, and bone marrow. Enzyme replacement therapy supplies the missing GBA and helps shrink the spleen, ease bone pain, and raise the platelet count. Note: some review tables list the Gaucher enzyme as beta-galactosidase. That is an error. The deficient enzyme is glucocerebrosidase.",
+      "whyWrong": {
+        "b": "Beta-galactosidase is not the enzyme in Gaucher disease. Gaucher disease is a lack of glucocerebrosidase (GBA).",
+        "c": "Beta-hexosaminidase A deficiency is Tay-Sachs disease. Infants develop normally until 3 to 6 months, then lose skills, and have a cherry-red spot on eye exam.",
+        "d": "Acid sphingomyelinase deficiency is Niemann-Pick disease. In type A, infants have an enlarged liver and spleen by 3 months, a cherry-red spot, and loss of mental and motor skills.",
+        "e": "Alpha-galactosidase A deficiency is Fabry disease (X-linked). It causes pain in the hands and feet, angiokeratomas, less sweating, and kidney and heart disease."
+      },
+      "sources": [
+        {
+          "title": "MedlinePlus Medical Encyclopedia: Gaucher disease",
+          "url": "https://medlineplus.gov/ency/article/000564.htm"
+        },
+        {
+          "title": "MedlinePlus Genetics: Tay-Sachs disease",
+          "url": "https://medlineplus.gov/genetics/condition/tay-sachs-disease/"
+        },
+        {
+          "title": "MedlinePlus Genetics: Niemann-Pick disease",
+          "url": "https://medlineplus.gov/genetics/condition/niemann-pick-disease/"
+        },
+        {
+          "title": "MedlinePlus Genetics: Fabry disease",
+          "url": "https://medlineplus.gov/genetics/condition/fabry-disease/"
+        }
+      ]
+    },
+    {
+      "id": "biochem-otc-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "General Principles",
+      "topic": "Urea cycle disorders",
+      "difficulty": 2,
+      "stem": "A 3-day-old boy, born at term after a normal pregnancy, is feeding poorly, vomiting, and becoming hard to wake. He breathes fast and is floppy. Plasma ammonia is markedly elevated. Arterial blood gas shows respiratory alkalosis, and the anion gap is normal. Blood glucose is normal. His mother's brother died in the first week of life.",
+      "leadIn": "Which additional laboratory finding is most likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "High urinary orotic acid and low plasma citrulline"
+        },
+        {
+          "id": "b",
+          "text": "Normal urinary orotic acid and low plasma citrulline"
+        },
+        {
+          "id": "c",
+          "text": "High plasma glutamine and high plasma citrulline"
+        },
+        {
+          "id": "d",
+          "text": "High anion gap metabolic acidosis"
+        },
+        {
+          "id": "e",
+          "text": "Hypoglycemia with low ketones"
+        }
+      ],
+      "answer": "a",
+      "explanation": "A newborn boy with very high ammonia, respiratory alkalosis with a normal anion gap, and an affected maternal uncle has ornithine transcarbamylase (OTC) deficiency. It is X-linked and is the most common urea cycle disorder. OTC transfers the carbamoyl group from carbamoyl phosphate to ornithine, making citrulline. When it is missing, plasma citrulline falls, glutamine rises, and urinary orotic acid is high. High orotic acid is how OTC deficiency is told apart from NAGS and CPS I deficiency. The severe newborn form usually affects males, but many carrier females also have symptoms. Long-term care includes a low-protein diet, sodium phenylbutyrate or sodium benzoate, and citrulline or arginine supplements.",
+      "whyWrong": {
+        "b": "Normal orotic acid with low citrulline fits a block before carbamoyl phosphate is made (CPS I or NAGS deficiency). Urinary orotic acid is the test that separates these from OTC deficiency.",
+        "c": "Glutamine is high in OTC deficiency, but citrulline is low, because OTC is the enzyme that makes citrulline.",
+        "d": "Urea cycle disorders typically cause respiratory alkalosis with a normal anion gap, as in this infant.",
+        "e": "Hypoglycemia with low ketones during fasting or illness points to a fatty acid oxidation disorder such as MCAD deficiency. His glucose is normal."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Ornithine Transcarbamylase Deficiency",
+          "url": "https://www.statpearls.com/point-of-care/26336"
+        },
+        {
+          "title": "MedlinePlus Genetics: Ornithine transcarbamylase deficiency",
+          "url": "https://medlineplus.gov/genetics/condition/ornithine-transcarbamylase-deficiency"
+        },
+        {
+          "title": "StatPearls: Medium-Chain Acyl-CoA Dehydrogenase Deficiency (MCADD)",
+          "url": "https://www.statpearls.com/point-of-care/24897"
+        }
+      ]
+    },
+    {
+      "id": "biochem-mcad-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "General Principles",
+      "topic": "Fatty acid oxidation disorders",
+      "difficulty": 2,
+      "stem": "An 18-month-old boy with gastroenteritis has barely eaten for 20 hours. He becomes very drowsy and has a seizure. Blood glucose is 28 mg/dL, and urine and blood ketones are inappropriately low. Plasma acylcarnitines show high octanoylcarnitine (C8) and decanoylcarnitine (C10). Ammonia is normal.",
+      "leadIn": "Which of the following is the most important part of his long-term management?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Avoid prolonged fasting and give glucose promptly during illness"
+        },
+        {
+          "id": "b",
+          "text": "Schedule long overnight fasts to raise ketone production"
+        },
+        {
+          "id": "c",
+          "text": "Daily carnitine supplements for every patient with this condition"
+        },
+        {
+          "id": "d",
+          "text": "Enzyme replacement therapy"
+        },
+        {
+          "id": "e",
+          "text": "A low-protein diet with sodium benzoate"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Hypoketotic hypoglycemia (low sugar without the expected ketones) during fasting or illness, with high C8 and C10 acylcarnitines, is medium-chain acyl-CoA dehydrogenase deficiency (MCADD). Medium-chain fatty acids cannot be broken down for energy or turned into ketones, so a fasting child runs out of fuel. Gastroenteritis is a classic trigger. MCADD is autosomal recessive (ACADM gene), and most cases are now found by newborn screening with tandem mass spectrometry. There is no definitive cure. Management centers on preventing prolonged fasting, dietary measures, and giving glucose promptly during illness.",
+      "whyWrong": {
+        "b": "Prolonged fasting is exactly what triggers a crisis, because these children cannot make enough ketones from fat.",
+        "c": "Carnitine has been used, but its benefit has not been shown consistently, so it is reserved for selected severe cases.",
+        "d": "There is no enzyme replacement or definitive cure for MCADD.",
+        "e": "A low-protein diet with sodium benzoate is long-term treatment for urea cycle disorders such as OTC deficiency, which cause high ammonia. His ammonia is normal."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Medium-Chain Acyl-CoA Dehydrogenase Deficiency (MCADD)",
+          "url": "https://www.statpearls.com/point-of-care/24897"
+        },
+        {
+          "title": "StatPearls: Ornithine Transcarbamylase Deficiency",
+          "url": "https://www.statpearls.com/point-of-care/26336"
+        }
+      ]
+    },
+    {
+      "id": "genetics-melas-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Genetics",
+      "system": "Nervous System & Special Senses",
+      "topic": "Mitochondrial disorders",
+      "difficulty": 2,
+      "stem": "A 24-year-old woman has had two episodes of sudden headache, vomiting, and temporary loss of vision on one side. MRI shows lesions that look like strokes but do not follow a single artery's territory. Serum lactate is high. Her mother has a similar illness. Her mother's sister is affected, and so are both of that sister's children. Her mother's brother is also affected, but all four of his children, including two daughters, are healthy.",
+      "leadIn": "Which inheritance pattern best explains this family?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mitochondrial (maternal) inheritance"
+        },
+        {
+          "id": "b",
+          "text": "Autosomal recessive"
+        },
+        {
+          "id": "c",
+          "text": "Autosomal dominant"
+        },
+        {
+          "id": "d",
+          "text": "X-linked dominant"
+        },
+        {
+          "id": "e",
+          "text": "X-linked recessive"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Stroke-like episodes before age 40 with lactic acidosis are MELAS (mitochondrial encephalomyopathy, lactic acidosis, and stroke-like episodes). Variants in one mitochondrial transfer RNA gene, MT-TL1, cause more than 80% of cases. Mitochondrial DNA comes only from the mother, so affected women pass the condition on, and fathers do not pass mtDNA traits to their children. That fits this family: the affected sister has affected children, while the affected brother's children are all healthy. Note: some review tables list MELAS as autosomal recessive. MELAS itself follows mitochondrial (maternal) inheritance.",
+      "whyWrong": {
+        "b": "Autosomal recessive disorders are typically not seen in every generation. This one appears in three straight generations of the mother's family.",
+        "c": "One altered copy is enough for an autosomal dominant disorder, and an affected father can pass it to his children. The affected brother has four children and none is affected.",
+        "d": "Every daughter gets her father's X chromosome, so an affected father passes an X-linked dominant trait to all of his daughters. His two daughters are healthy.",
+        "e": "Males are affected by X-linked recessive disorders much more often than females. Here several women are affected."
+      },
+      "sources": [
+        {
+          "title": "MedlinePlus Genetics: MELAS",
+          "url": "https://medlineplus.gov/genetics/condition/mitochondrial-encephalomyopathy-lactic-acidosis-and-stroke-like-episodes"
+        },
+        {
+          "title": "MedlinePlus Genetics: What are the different ways a genetic condition can be inherited?",
+          "url": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns"
+        }
+      ]
+    },
+    {
+      "id": "neuro-wallenberg-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Nervous System & Special Senses",
+      "topic": "Lateral medullary (Wallenberg) syndrome",
+      "difficulty": 2,
+      "stem": "A 67-year-old man has sudden vertigo, nausea, hoarseness, and difficulty swallowing. Examination shows nystagmus, a drooping left eyelid with a small left pupil, reduced pain sensation over the left side of his face, and reduced pain and temperature sensation over his right arm and leg. Strength is normal in all limbs. MRI shows an acute infarct in the left lateral medulla.",
+      "leadIn": "Damage to which of the following structures best explains his hoarseness and difficulty swallowing?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nucleus ambiguus"
+        },
+        {
+          "id": "b",
+          "text": "Spinal (descending) trigeminal tract and nucleus"
+        },
+        {
+          "id": "c",
+          "text": "Lateral spinothalamic tract"
+        },
+        {
+          "id": "d",
+          "text": "Descending sympathetic fibers"
+        },
+        {
+          "id": "e",
+          "text": "Inferior vestibular nucleus"
+        }
+      ],
+      "answer": "a",
+      "explanation": "This is lateral medullary (Wallenberg) syndrome. Its signature is crossed sensory loss: the face on the side of the lesion and the arm and leg on the opposite side. The nucleus ambiguus holds the motor neurons of cranial nerves IX and X, which run the throat and voice box. Damage causes difficulty swallowing (dysphagia), hoarseness (dysphonia), and slurred speech on the same side as the lesion. The usual cause is occlusion of the vertebral artery or its branch, the posterior inferior cerebellar artery (PICA), which supplies the lateral medulla. An older StatPearls review put vertebral artery occlusion at about 80% of cases. Limb weakness is minimal or absent.",
+      "whyWrong": {
+        "b": "The descending trigeminal tract carries pain sensation from the face on the same side. Damage explains his left facial sensory loss, not his swallowing problem.",
+        "c": "The spinothalamic tract has already crossed, so damage causes pain and temperature loss in the opposite (right) arm and leg.",
+        "d": "Descending sympathetic fibers cause Horner syndrome on the same side: ptosis, a small pupil (miosis), and loss of sweating.",
+        "e": "Inferior vestibular nucleus damage causes his vertigo and nystagmus."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Neuroanatomy, Nucleus Ambiguus",
+          "url": "https://www.statpearls.com/point-of-care/26017"
+        },
+        {
+          "title": "MSD Manual Professional: Overview of Stroke",
+          "url": "https://www.msdmanuals.com/professional/neurologic-disorders/stroke/overview-of-stroke"
+        },
+        {
+          "title": "StatPearls (archived): Wallenberg Syndrome",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK470174/"
+        }
+      ]
+    },
+    {
+      "id": "anat-epidural-hematoma-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Nervous System & Special Senses",
+      "topic": "Epidural vs subdural hematoma",
+      "difficulty": 1,
+      "stem": "A 19-year-old baseball player is struck on the right side of the head by a pitch. He is briefly unconscious, then wakes and talks normally in the emergency department. Two hours later he becomes drowsy and his right pupil is dilated. CT of the head shows a fracture of the squamous part of the right temporal bone and a biconvex (lens-shaped) hyperdense collection beneath it that does not cross the suture lines.",
+      "leadIn": "Bleeding from which of the following is the most likely cause of this collection?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A branch of the middle meningeal artery"
+        },
+        {
+          "id": "b",
+          "text": "Torn bridging veins"
+        },
+        {
+          "id": "c",
+          "text": "A ruptured saccular (berry) aneurysm"
+        },
+        {
+          "id": "d",
+          "text": "Charcot-Bouchard microaneurysms of small penetrating arteries"
+        },
+        {
+          "id": "e",
+          "text": "Cortical vessels weakened by amyloid deposits"
+        }
+      ],
+      "answer": "a",
+      "explanation": "This is an epidural hematoma (EDH). Most EDHs are arterial bleeds from a branch of the middle meningeal artery, usually under a skull fracture over the squamous temporal bone. On CT the clot is biconvex (lentiform) and rarely crosses suture lines. The classic lucid interval (knocked out, awake, then worse) occurs in only about 14% to 21% of patients with EDH. His new dilated pupil on the same side warns of uncal herniation compressing cranial nerve III. Symptomatic acute EDH is treated with craniotomy and evacuation of the hematoma.",
+      "whyWrong": {
+        "b": "Torn bridging veins cause a subdural hematoma, which is crescent-shaped and often crosses suture lines.",
+        "c": "A ruptured intracranial aneurysm causes subarachnoid hemorrhage (about 85% of nontraumatic cases), with a sudden severe 'worst headache of my life.'",
+        "d": "Charcot-Bouchard aneurysms form in small deep arterioles damaged by chronic hypertension. They cause bleeding inside the brain tissue (intracerebral hemorrhage), often in the basal ganglia, thalamus, or pons.",
+        "e": "Amyloid angiopathy causes lobar intracerebral hemorrhages in older patients, not a traumatic bleed outside the dura."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Epidural Hematoma",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK518982/"
+        },
+        {
+          "title": "StatPearls: Intracerebral Hemorrhagic Stroke",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK553103/"
+        },
+        {
+          "title": "StatPearls: Transtentorial Herniation",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK560536/"
+        },
+        {
+          "title": "StatPearls: Subarachnoid Hemorrhage",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK441958/"
+        }
+      ]
+    },
+    {
+      "id": "path-sah-aneurysm-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Nervous System & Special Senses",
+      "topic": "Subarachnoid hemorrhage",
+      "difficulty": 2,
+      "stem": "A 42-year-old woman with autosomal dominant polycystic kidney disease (ADPKD) had a sudden, severe headache while lifting a box 4 days ago. She calls it the worst headache of her life. She vomited and has had a stiff neck since. She waited to come in because the pain slowly eased. Noncontrast CT of the head shows no blood. Lumbar puncture shows xanthochromic (yellow-tinged) cerebrospinal fluid.",
+      "leadIn": "Which of the following is the most likely cause of her bleeding?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rupture of a saccular (berry) aneurysm"
+        },
+        {
+          "id": "b",
+          "text": "Tearing of bridging veins"
+        },
+        {
+          "id": "c",
+          "text": "Laceration of the middle meningeal artery"
+        },
+        {
+          "id": "d",
+          "text": "Hypertensive rupture of small penetrating arterioles"
+        },
+        {
+          "id": "e",
+          "text": "Amyloid deposition in cortical vessels"
+        }
+      ],
+      "answer": "a",
+      "explanation": "A sudden 'worst headache of my life' with vomiting and a stiff neck is subarachnoid hemorrhage (SAH) until proven otherwise. About 85% of nontraumatic SAH comes from a ruptured intracranial aneurysm, and ADPKD raises the risk of aneurysm rupture. Head CT is the first test. It is very sensitive early, but its sensitivity drops over the following days as blood in the cerebrospinal fluid breaks down. That is why her CT on day 4 was normal. When CT is negative and suspicion is strong, a lumbar puncture looks for xanthochromia, the yellow color left by broken-down blood. In aneurysmal SAH, oral nimodipine is given for 21 days to lower the risk of delayed cerebral ischemia. Recent change: many review notes say nimodipine works by preventing vasospasm. StatPearls now describes it as the only treatment with consistent high-quality evidence for reducing delayed cerebral ischemia, and early trials showed that benefit without any effect on vasospasm itself.",
+      "whyWrong": {
+        "b": "Torn bridging veins cause a subdural hematoma, usually after trauma.",
+        "c": "Middle meningeal artery bleeding causes an epidural hematoma after a skull fracture, not a spontaneous bleed into the cerebrospinal fluid.",
+        "d": "Chronic hypertension damages small penetrating arterioles (lipohyalinosis, Charcot-Bouchard aneurysms) and causes deep intracerebral hemorrhage, not subarachnoid blood.",
+        "e": "Amyloid angiopathy causes lobar hemorrhages in older patients."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Subarachnoid Hemorrhage",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK441958/"
+        },
+        {
+          "title": "StatPearls: Epidural Hematoma",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK518982/"
+        },
+        {
+          "title": "StatPearls: Intracerebral Hemorrhagic Stroke",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK553103/"
+        }
+      ]
+    },
+    {
+      "id": "biochem-scd-b12-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "Nervous System & Special Senses",
+      "topic": "Subacute combined degeneration (vitamin B12)",
+      "difficulty": 2,
+      "stem": "A 58-year-old woman with type 2 diabetes has taken metformin for 10 years. For 6 months she has had tingling in her feet and feels unsteady walking in the dark. Examination shows loss of vibration and position sense in both legs, a positive Romberg sign, spastic leg weakness, extensor plantar responses (Babinski signs), and absent ankle reflexes. Hemoglobin and mean corpuscular volume are normal.",
+      "leadIn": "Which of the following laboratory findings is most likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Elevated methylmalonic acid and elevated homocysteine"
+        },
+        {
+          "id": "b",
+          "text": "Elevated homocysteine with normal methylmalonic acid"
+        },
+        {
+          "id": "c",
+          "text": "Normal methylmalonic acid and normal homocysteine"
+        },
+        {
+          "id": "d",
+          "text": "Positive acetylcholine receptor antibodies"
+        },
+        {
+          "id": "e",
+          "text": "Elevated methylmalonic acid with normal homocysteine"
+        }
+      ],
+      "answer": "a",
+      "explanation": "This is subacute combined degeneration from vitamin B12 deficiency. It damages two parts of the spinal cord. The dorsal columns carry vibration and position sense, so damage causes sensory ataxia and a positive Romberg sign. The lateral corticospinal tracts carry movement signals, so damage causes spastic weakness and Babinski signs (ankle reflexes are usually absent). Metformin causes B12 deficiency in about 10% to 30% of patients. B12 is the cofactor for two enzymes: methylmalonyl-CoA mutase and homocysteine methyltransferase (which turns homocysteine into methionine). So B12 deficiency raises both methylmalonic acid (MMA) and homocysteine. MMA is a more accurate marker than the serum B12 level. Patients with neurologic signs are best treated with B12 by injection at first, and some deficits may be permanent.",
+      "whyWrong": {
+        "b": "High homocysteine with normal MMA points to folate deficiency. MMA rises only in B12 deficiency.",
+        "c": "Subacute combined degeneration can occur without anemia or macrocytosis, and nerve symptoms may come before blood changes. A normal blood count does not rule out B12 deficiency.",
+        "d": "Acetylcholine receptor antibodies cause myasthenia gravis, which gives fatigable muscle weakness without sensory loss.",
+        "e": "B12 is also the cofactor for homocysteine methyltransferase, which turns homocysteine into methionine, so B12 deficiency raises homocysteine as well as MMA."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Subacute Combined Degeneration",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK559316/"
+        },
+        {
+          "title": "StatPearls: Myasthenia Gravis",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK559331/"
+        }
+      ]
+    },
+    {
+      "id": "pharm-absence-ethosuximide-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Nervous System & Special Senses",
+      "topic": "Absence seizures",
+      "difficulty": 1,
+      "stem": "A 7-year-old girl's teacher reports that she stares blankly many times a day, often stopping mid-sentence for about 10 seconds and then carrying on as if nothing happened. She is not confused afterward. In the clinic, an episode starts when she is asked to breathe fast for 3 minutes. EEG shows 3-Hz spike-and-wave discharges in both hemispheres that start and stop abruptly.",
+      "leadIn": "Which of the following is the most appropriate first-line drug?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ethosuximide"
+        },
+        {
+          "id": "b",
+          "text": "Carbamazepine"
+        },
+        {
+          "id": "c",
+          "text": "Phenytoin"
+        },
+        {
+          "id": "d",
+          "text": "Gabapentin"
+        },
+        {
+          "id": "e",
+          "text": "Vigabatrin"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Brief staring spells with no confusion afterward, set off by hyperventilation, with 3-Hz spike-and-wave on EEG are absence seizures. Ethosuximide is the first-line treatment. It is preferred over valproate (which did worse on attention measures in a 2010 trial) and lamotrigine. Ethosuximide suppresses T-type calcium channels in thalamic neurons, part of the cortex-thalamus-cortex circuit behind absence seizures. Its most common side effects are abdominal pain and nausea, so it is taken with meals. Valproate should be avoided in women of childbearing age who are not using contraception.",
+      "whyWrong": {
+        "b": "Carbamazepine is a sodium channel blocker. Drugs in this class can make absence seizures worse.",
+        "c": "Phenytoin is also a sodium channel blocker and can worsen absence seizures.",
+        "d": "Gabapentin is on the list of drugs that can worsen absence seizures.",
+        "e": "Vigabatrin raises GABA activity, including at GABA-B receptors, and can increase absence seizure frequency."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Absence Seizure",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK499867/"
+        }
+      ]
+    },
+    {
+      "id": "path-myasthenia-gravis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Nervous System & Special Senses",
+      "topic": "Myasthenia gravis",
+      "difficulty": 1,
+      "stem": "A 32-year-old woman has 2 months of double vision and drooping eyelids that are mild in the morning and worse by evening. Her jaw tires toward the end of meals. Pupils, sensation, and reflexes are normal. After an ice pack is held over her drooping eyelid for 2 minutes, the ptosis improves.",
+      "leadIn": "Autoantibodies against which of the following are most likely causing her symptoms?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Postsynaptic nicotinic acetylcholine receptors"
+        },
+        {
+          "id": "b",
+          "text": "Presynaptic voltage-gated calcium channels"
+        },
+        {
+          "id": "c",
+          "text": "Muscle-specific kinase (MuSK)"
+        },
+        {
+          "id": "d",
+          "text": "Acetylcholinesterase"
+        },
+        {
+          "id": "e",
+          "text": "Low-density lipoprotein receptor-related protein 4 (LRP4)"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Fluctuating, fatigable weakness that is worse later in the day, with ptosis and double vision, is myasthenia gravis (MG). Eye muscle weakness is the first sign in about 85% of patients. Antibodies against the acetylcholine receptor are found in about 80% of generalized MG, making them the most likely cause. The ice pack test (2 to 5 minutes over the eye) improves ptosis in MG. Repetitive nerve stimulation at 2 to 3 Hz shows a falling (decremental) response. About 10% of patients have a thymoma. First-line symptom treatment is pyridostigmine, an acetylcholinesterase inhibitor that raises acetylcholine at the neuromuscular junction. Recent change: her notes list the edrophonium (Tensilon) test. Edrophonium was discontinued by the FDA in 2018 and is no longer available in the United States; it had a high false-positive rate, and antibody testing is now the gold standard.",
+      "whyWrong": {
+        "b": "Antibodies to presynaptic voltage-gated calcium channels cause Lambert-Eaton syndrome, where weakness improves with exercise.",
+        "c": "MuSK antibodies are much less common, found in about 5% to 10% of patients with MG, mainly those without acetylcholine receptor antibodies.",
+        "d": "Acetylcholinesterase breaks down acetylcholine. Blocking it with pyridostigmine is the treatment, not the cause.",
+        "e": "LRP4 is another, less common antibody target in MG. Acetylcholine receptor antibodies are far more common."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Myasthenia Gravis",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK559331/"
+        },
+        {
+          "title": "StatPearls: Edrophonium (archived 2023)",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK554566/"
+        }
+      ]
+    },
+    {
+      "id": "pharm-angle-closure-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Nervous System & Special Senses",
+      "topic": "Acute angle-closure glaucoma",
+      "difficulty": 2,
+      "stem": "A 64-year-old farsighted woman has an eye exam with dilating drops. That evening she develops severe pain in the left eye, headache, nausea, vomiting, blurred vision, and rainbow-colored halos around lights. The left eye is red and the pupil is fixed and mid-dilated. Intraocular pressure is markedly elevated. Drugs are given to lower the pressure.",
+      "leadIn": "Which of the following is the definitive treatment for this condition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Laser peripheral iridotomy"
+        },
+        {
+          "id": "b",
+          "text": "Topical timolol"
+        },
+        {
+          "id": "c",
+          "text": "Oral acetazolamide"
+        },
+        {
+          "id": "d",
+          "text": "Topical pilocarpine"
+        },
+        {
+          "id": "e",
+          "text": "Topical atropine"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Sudden eye pain, headache, nausea and vomiting, halos around lights, and a fixed mid-dilated pupil after pupil dilation is acute angle-closure glaucoma. Farsighted (hyperopic) eyes are at higher risk. In pupillary block, fluid trapped behind the iris pushes the outer iris forward against the trabecular meshwork, closing the drainage angle. Drugs such as acetazolamide, mannitol, timolol, apraclonidine, and pilocarpine lower the pressure quickly, but laser peripheral iridotomy is the treatment of choice. The other eye usually gets a preventive iridotomy too.",
+      "whyWrong": {
+        "b": "Timolol lowers pressure quickly and is part of first aid, but it does not remove the pupillary block.",
+        "c": "Acetazolamide lowers pressure fast, but it is a bridge to iridotomy, not the definitive fix.",
+        "d": "Pilocarpine is part of medical treatment, usually once pressure is below 40 mm Hg. It does not remove the block for good.",
+        "e": "Atropine is an anticholinergic pupil dilator. Dilators like this are linked to triggering angle closure."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Acute Angle-Closure Glaucoma",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK430857/"
+        }
+      ],
+      "readMore": [
+        {
+          "title": "EyeWiki: Drug-induced Acute Angle Closure Glaucoma",
+          "url": "https://eyewiki.org/Drug-induced_Acute_Angle_Closure_Glaucoma"
+        }
+      ]
+    },
+    {
+      "id": "neuro-uncal-herniation-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Nervous System & Special Senses",
+      "topic": "Uncal (transtentorial) herniation",
+      "difficulty": 2,
+      "stem": "A 55-year-old man is admitted with a large right temporal lobe hemorrhage. Over several hours he becomes harder to wake. His right pupil is now dilated and does not react to light. He has new weakness of the left arm and leg.",
+      "leadIn": "Compression of which of the following structures best explains the right pupil finding?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Right oculomotor nerve (cranial nerve III)"
+        },
+        {
+          "id": "b",
+          "text": "Left oculomotor nerve (cranial nerve III)"
+        },
+        {
+          "id": "c",
+          "text": "Right cerebral peduncle"
+        },
+        {
+          "id": "d",
+          "text": "Right descending sympathetic pathway"
+        },
+        {
+          "id": "e",
+          "text": "Dorsal midbrain"
+        }
+      ],
+      "answer": "a",
+      "explanation": "This is uncal (transtentorial) herniation. The uncus, the inner part of the temporal lobe, is pushed down through the opening in the tentorium cerebelli. The hallmark is a fixed, dilated pupil on the same side as the mass, from compression of the oculomotor nerve. Pressure on the same-side cerebral peduncle in the midbrain injures the corticospinal tract and causes weakness on the opposite side (his left). If the midbrain is pushed so far that the opposite peduncle hits the tentorial edge (Kernohan notch), weakness can appear on the same side as the mass. This is a false localizing sign. The posterior cerebral artery can also be compressed against the tentorium, causing occipital infarction.",
+      "whyWrong": {
+        "b": "In uncal herniation, the oculomotor nerve on the same side as the mass is compressed, so the right pupil points to the right nerve.",
+        "c": "Pressure on the right cerebral peduncle explains his left-sided weakness, not the pupil change.",
+        "d": "Damage to the sympathetic pathway causes Horner syndrome, with a small (miotic) pupil, not a dilated one.",
+        "e": "Dorsal midbrain compression (Parinaud syndrome) causes 'sun-setting' eyes with forced downgaze."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Transtentorial Herniation",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK560536/"
+        },
+        {
+          "title": "MSD Manual Professional: Effects of Brain Herniation (table)",
+          "url": "https://www.msdmanuals.com/professional/multimedia/table/effects-of-brain-herniation"
+        },
+        {
+          "title": "StatPearls: Neuroanatomy, Nucleus Ambiguus",
+          "url": "https://www.statpearls.com/point-of-care/26017"
+        }
+      ]
+    },
+    {
+      "id": "anat-anencephaly-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Nervous System & Special Senses",
+      "topic": "Neural tube defects",
+      "difficulty": 1,
+      "stem": "A 24-year-old woman at 17 weeks' gestation has a markedly elevated maternal serum alpha-fetoprotein (AFP). She takes valproic acid for epilepsy and took no supplements before pregnancy. Ultrasound shows the top of the fetal skull is missing and there is no brain tissue where the cerebral hemispheres should be.",
+      "leadIn": "This malformation results from failure of which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Closure of the rostral end of the neural tube during week 4"
+        },
+        {
+          "id": "b",
+          "text": "Closure of the caudal end of the neural tube during week 4"
+        },
+        {
+          "id": "c",
+          "text": "Closure of the rostral end of the neural tube during week 8"
+        },
+        {
+          "id": "d",
+          "text": "Secondary neurulation from the tail bud"
+        },
+        {
+          "id": "e",
+          "text": "Formation of the skull vault after normal neural tube closure"
+        }
+      ],
+      "answer": "a",
+      "explanation": "This is anencephaly. The neural tube closes in the fourth week, and anencephaly results when its rostral (head) end fails to close, around days 23 to 26. Without closure, the skull vault and most of the brain do not form, and the condition is not compatible with life. Maternal serum AFP is markedly raised in about 90% of cases, and amniotic fluid shows high AFP plus acetylcholinesterase. Folic acid at 0.4 mg a day or more before conception lowers the risk, especially in women taking antiseizure drugs. Valproate is the most teratogenic antiseizure drug and interferes with folate absorption.",
+      "whyWrong": {
+        "b": "Failure to close the caudal (tail) end causes spina bifida, the other main type of neural tube defect.",
+        "c": "The neural tube closes in week 4, not week 8.",
+        "d": "Secondary neurulation from the tail bud forms the lowest (sacral and coccygeal) part of the cord, not the brain.",
+        "e": "Anencephaly starts with failed closure of the rostral neural tube. The missing skull vault comes with missing brain tissue, so the problem is not the skull alone."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Embryology, Anencephaly",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK545244/"
+        }
+      ]
+    },
+    {
+      "id": "pharm-carbidopa-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Nervous System & Special Senses",
+      "topic": "Parkinson disease drugs",
+      "difficulty": 1,
+      "stem": "A 68-year-old man has a slow, coarse tremor of his right hand that is worst at rest, eases when he reaches for objects, and stops during sleep. He moves slowly and has trouble getting out of chairs. He is started on levodopa combined with carbidopa.",
+      "leadIn": "What is the main reason for adding carbidopa?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It blocks peripheral decarboxylation of levodopa, so less levodopa is needed and peripheral side effects fall"
+        },
+        {
+          "id": "b",
+          "text": "It directly activates dopamine receptors in the basal ganglia"
+        },
+        {
+          "id": "c",
+          "text": "It inhibits monoamine oxidase B, which breaks down dopamine in the brain"
+        },
+        {
+          "id": "d",
+          "text": "It inhibits catechol-O-methyltransferase (COMT) to treat end-of-dose wearing off"
+        },
+        {
+          "id": "e",
+          "text": "It blocks muscarinic receptors to reduce tremor"
+        }
+      ],
+      "answer": "a",
+      "explanation": "A resting tremor of one hand with slowness is typical of Parkinson disease. Pigmented dopamine neurons in the substantia nigra degenerate, and Lewy bodies filled with alpha-synuclein form. Levodopa crosses the blood-brain barrier and is turned into dopamine in the brain. Outside the brain, the enzyme aromatic L-amino acid decarboxylase converts it early. Carbidopa is a peripheral decarboxylase inhibitor. It stops that early conversion, which lowers the levodopa dose needed to reach the brain. If peripheral side effects such as nausea, vomiting, or light-headedness on standing dominate, more carbidopa can help.",
+      "whyWrong": {
+        "b": "Dopamine agonists such as pramipexole and ropinirole directly activate dopamine receptors.",
+        "c": "MAO-B inhibitors such as selegiline and rasagiline block dopamine breakdown in the brain.",
+        "d": "COMT inhibitors such as entacapone block breakdown of levodopa and dopamine and are added when doses wear off early.",
+        "e": "Anticholinergic drugs such as benztropine and trihexyphenidyl work best on tremor. Because of side effects in older adults, they are mostly used in younger patients."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Parkinson Disease",
+          "url": "https://www.msdmanuals.com/professional/neurologic-disorders/movement-and-cerebellar-disorders/parkinson-disease"
+        },
+        {
+          "title": "LiverTox (NCBI Bookshelf): Levodopa",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK548734/"
+        }
+      ]
+    },
+    {
+      "id": "neuro-aca-stroke-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Nervous System & Special Senses",
+      "topic": "Stroke syndromes by artery",
+      "difficulty": 1,
+      "stem": "A 71-year-old woman suddenly develops weakness of her left leg, much worse than in her left arm. Her face is not affected. Her family says she has become apathetic and confused, and she has had urinary incontinence since the event. Language is normal.",
+      "leadIn": "Occlusion of which of the following arteries is most likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Right anterior cerebral artery"
+        },
+        {
+          "id": "b",
+          "text": "Right middle cerebral artery"
+        },
+        {
+          "id": "c",
+          "text": "Left anterior cerebral artery"
+        },
+        {
+          "id": "d",
+          "text": "Right posterior cerebral artery"
+        },
+        {
+          "id": "e",
+          "text": "A lenticulostriate branch"
+        }
+      ],
+      "answer": "a",
+      "explanation": "An anterior cerebral artery (ACA) stroke causes weakness on the opposite side that is worst in the leg, plus urinary incontinence, apathy, confusion, poor judgment, and sometimes a grasp reflex or gait apraxia. Her left-sided weakness points to the right hemisphere.",
+      "whyWrong": {
+        "b": "Middle cerebral artery strokes cause opposite-side weakness worse in the face and arm than the leg, with aphasia (dominant side) or neglect (nondominant side).",
+        "c": "A left ACA stroke would weaken the right leg.",
+        "d": "Posterior cerebral artery strokes cause an opposite-side homonymous hemianopia and memory loss.",
+        "e": "Lenticulostriate (lacunar) strokes cause pure motor or pure sensory syndromes with no cortical signs such as apathy or incontinence."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Overview of Stroke",
+          "url": "https://www.msdmanuals.com/professional/neurologic-disorders/stroke/overview-of-stroke"
         }
       ]
     }
