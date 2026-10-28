@@ -28587,12 +28587,12 @@
       "whyWrong": {
         "b": "Goblet cells and submucosal mucous glands make the airway mucus; these glands enlarge in chronic bronchitis (your El-Husseiny respiratory notes, p. 89).",
         "c": "Type I pneumocytes form the thin gas-exchange wall, and type II cells serve as their precursors (your El-Husseiny respiratory notes, p. 9).",
-        "d": "Alveolar macrophages, not bronchiolar lining cells, eat particles that reach the alveoli (standard teaching).",
+        "d": "Alveolar macrophages, not bronchiolar lining cells, clear debris that reaches the alveoli (your El-Husseiny respiratory notes, p. 4).",
         "e": "Ciliated cells move mucus upward; the cells in the stem have no cilia."
       },
       "sources": [
         {
-          "title": "El-Husseiny's Essentials for USMLE Step 1: Respiratory System (Emily's file), Club cells, p. 9"
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Respiratory System (Emily's file), Alveolar macrophages, p. 4; club cells, p. 9"
         },
         {
           "title": "Rokicki W, et al. The role and importance of club cells (Clara cells) in the pathogenesis of some respiratory diseases. Kardiochir Torakochirurgia Pol 2016;13(1):26-30",
@@ -28687,7 +28687,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: the zona fasciculata. Why: she has ACTH-independent Cushing syndrome from an adrenal tumor that makes cortisol, and the excess cortisol switches off pituitary ACTH (standard teaching). Your Osmosis physiology notes (pp. 265, 277) explain that the adrenal cortex makes up about 80% of the gland and has three zones. The zona glomerulosa makes mineralocorticoids such as aldosterone. The zona fasciculata makes glucocorticoids such as cortisol. The zona reticularis makes androgens such as DHEA. The medulla, which comes from neuroectoderm, makes catecholamines. StatPearls (Physiology, Adrenal Gland) agrees that the zona glomerulosa is the outermost layer and makes mineralocorticoids, the middle zona fasciculata makes glucocorticoids (mainly cortisol), and the innermost zona reticularis makes androgen precursors such as DHEA.",
+      "explanation": "Answer: the zona fasciculata. Why: she has ACTH-independent Cushing syndrome from an adrenal tumor that makes cortisol, and the excess cortisol switches off pituitary ACTH. Your El-Husseiny endocrinology notes (p. 43) describe this ACTH-independent form: an adrenal adenoma, hyperplasia, or carcinoma makes too much cortisol, ACTH falls, and the other adrenal gland shrinks. Your Osmosis physiology notes (pp. 265, 277) explain that the adrenal cortex makes up about 80% of the gland and has three zones. The zona glomerulosa makes mineralocorticoids such as aldosterone. The zona fasciculata makes glucocorticoids such as cortisol. The zona reticularis makes androgens such as DHEA. The medulla, which comes from neuroectoderm, makes catecholamines. StatPearls (Physiology, Adrenal Gland) agrees that the zona glomerulosa is the outermost layer and makes mineralocorticoids, the middle zona fasciculata makes glucocorticoids (mainly cortisol), and the innermost zona reticularis makes androgen precursors such as DHEA.",
       "whyWrong": {
         "b": "The zona glomerulosa makes aldosterone (your Osmosis physiology notes, p. 277), which raises potassium loss and blood pressure (your Osmosis physiology notes, p. 265); it does not make cortisol.",
         "c": "The zona reticularis makes androgens such as DHEA and androstenedione (your Osmosis physiology notes, p. 277).",
@@ -28697,6 +28697,9 @@
       "sources": [
         {
           "title": "Osmosis High-Yield Physiology notes (Emily's file), Adrenal glands, p. 265; synthesis of adrenocortical hormones, pp. 276-277"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Endocrinology (Emily's file), Cushing syndrome, p. 43"
         },
         {
           "title": "StatPearls: Physiology, Adrenal Gland",
@@ -28742,13 +28745,13 @@
       "explanation": "Answer: fusion of monocyte-macrophage precursors from the marrow. Why: these are osteoclasts. Your El-Husseiny musculoskeletal notes (pp. 100-101) explain that osteoclasts form when cells of the monocyte-macrophage line fuse. They dissolve bone by secreting acid (H+) and collagen-digesting enzymes. Two signals drive them to form: M-CSF and RANKL, which is found on osteoblasts. Osteoprotegerin (OPG) is a decoy that binds RANKL and lowers osteoclast activity. Your notes list tartrate-resistant acid phosphatase as a marker of osteoclast activity. StatPearls (Histology, Osteoclasts) agrees that osteoclasts are large multinucleated cells of blood-forming (hematopoietic) origin that come from macrophage precursors, with a ruffled border that resorbs bone into pits called Howship lacunae. It adds that TRAP is used to stain them.",
       "whyWrong": {
         "b": "Mesenchymal (stromal) cells give rise to osteoblasts, which make M-CSF and RANKL to signal osteoclast precursors (StatPearls, Histology, Osteoclasts); they do not become osteoclasts.",
-        "c": "Osteocytes are bone-making cells trapped in bone; they do not fuse into bone-resorbing cells (standard teaching).",
-        "d": "Chondrocytes make cartilage at the growth plate and do not become multinucleated bone-resorbing cells (standard teaching).",
+        "c": "Osteocytes live in lacunae inside the mineralized bone and help keep up the matrix (your El-Husseiny musculoskeletal notes, p. 102); they do not fuse into bone-resorbing cells.",
+        "d": "Chondrocytes build the cartilage model of bone in endochondral ossification (your El-Husseiny musculoskeletal notes, p. 99); they do not become multinucleated bone-resorbing cells.",
         "e": "Osteoclasts come from the monocyte-macrophage line, not from fibroblasts (your El-Husseiny musculoskeletal notes, p. 100)."
       },
       "sources": [
         {
-          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Osteoclast, pp. 100-101"
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Endochondral ossification, p. 99; osteoclast, pp. 100-101; osteocytes, p. 102"
         },
         {
           "title": "StatPearls: Histology, Osteoclasts",
@@ -28843,9 +28846,9 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: the left testicular vein drains into the left renal vein. Why: Your El-Husseiny nephrology notes (pp. 88, 136) explain that renal cell carcinoma growing into the left renal vein blocks drainage of the left spermatic (testicular) vein, causing a left-sided varicocele. A clot in the left renal vein can do the same. your Osmosis cardiovascular notes (p. 142) also note, in nutcracker syndrome, that the left testicular vein drains into the left renal vein, so blood backs up into the left testicle. StatPearls (Varicocele) agrees that varicoceles are far more common on the left (80% to 90%) because the left internal spermatic vein joins the higher-pressure left renal vein. It adds that a varicocele that is sudden, large on the right, or does not go down is suspicious for a problem in the retroperitoneum. On the right, the testicular vein drains straight into the inferior vena cava (standard teaching), so a renal vein blockage on the right does not back up into the testicle.",
+      "explanation": "Answer: the left testicular vein drains into the left renal vein. Why: Your El-Husseiny nephrology notes (pp. 88, 136) explain that renal cell carcinoma growing into the left renal vein blocks drainage of the left spermatic (testicular) vein, causing a left-sided varicocele. A clot in the left renal vein can do the same. Your Osmosis cardiovascular notes (p. 142) also note, in nutcracker syndrome, that the left testicular vein drains into the left renal vein, so blood backs up into the left testicle. StatPearls (Varicocele) agrees that varicoceles are far more common on the left (80% to 90%) because the left internal spermatic vein joins the higher-pressure left renal vein. It adds that a varicocele that is sudden, large on the right, or does not go down is suspicious for a problem in the retroperitoneum. On the right, StatPearls says the internal spermatic vein empties straight into the low-pressure inferior vena cava, so a right renal vein blockage does not back up into the testicle.",
       "whyWrong": {
-        "b": "The right testicular vein, not the left, drains straight into the IVC (standard teaching).",
+        "b": "The right testicular vein, not the left, drains straight into the IVC (StatPearls, Varicocele).",
         "c": "The testicular veins rise from the scrotum to the abdomen; they do not drain into the internal iliac veins (standard teaching).",
         "d": "The left testicular vein ends in the left renal vein, not the common iliac vein (StatPearls, Varicocele).",
         "e": "The testicular veins drain into the systemic veins (the renal vein and IVC), not the portal system (StatPearls, Varicocele)."
@@ -28901,13 +28904,13 @@
       "explanation": "Answer: the lower trunk (C8-T1). Why: this is Klumpke palsy. Your El-Husseiny musculoskeletal notes (pp. 24-25) describe it as traction or tearing of the lower trunk, from an upward pull on the arm during birth in infants, or from trauma such as grabbing a branch to break a fall in adults. The lower trunk carries C8 and T1 fibers to the median and ulnar nerves, which together supply all the small (intrinsic) muscles of the hand. Losing these muscles, including the lumbricals and interossei, causes a total claw hand. StatPearls (Klumpke Palsy) agrees that it involves the lower plexus, usually from a hyperabduction traction injury, with less feeling along the inner forearm and hand in the C8 and T1 dermatomes and a claw hand. It adds that T1 injury can harm the nearby sympathetic chain and cause Horner syndrome (droopy eyelid, small pupil, and no sweating on that side).",
       "whyWrong": {
         "b": "Upper trunk injury (Erb palsy) weakens the shoulder and biceps, so the arm hangs by the side, turned in, with the forearm extended and pronated (your El-Husseiny musculoskeletal notes, p. 24).",
-        "c": "Posterior cord injury affects the axillary and radial nerves, weakening the deltoid and the wrist and finger extensors (standard teaching), not the small hand muscles.",
-        "d": "The long thoracic nerve supplies serratus anterior, and its injury causes a winged scapula (standard teaching).",
+        "c": "The posterior cord gives rise to the axillary and radial nerves (standard teaching); their injuries weaken the deltoid (your El-Husseiny musculoskeletal notes, p. 7) and cause wrist drop (your El-Husseiny musculoskeletal notes, p. 12), not weak small hand muscles.",
+        "d": "The long thoracic nerve (C5-C7) supplies serratus anterior, and its injury causes a winged scapula (your El-Husseiny musculoskeletal notes, p. 27).",
         "e": "The musculocutaneous nerve supplies the elbow flexors and the skin of the outer forearm (your El-Husseiny musculoskeletal notes, p. 8)."
       },
       "sources": [
         {
-          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Erb palsy and Klumpke palsy, pp. 24-25; musculocutaneous nerve, p. 8"
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Axillary, musculocutaneous and radial nerves, pp. 7-8, 12; Erb and Klumpke palsy, pp. 24-25; winged scapula, p. 27"
         },
         {
           "title": "StatPearls: Klumpke Palsy",
@@ -28952,14 +28955,14 @@
       "answer": "a",
       "explanation": "Answer: between the anterior and middle scalene muscles above the first rib. Why: this is thoracic outlet syndrome. Your El-Husseiny musculoskeletal notes (pp. 25-26) explain that the thoracic outlet lies behind the clavicle and over the first rib. The squeeze most often happens in the scalene triangle, whose sides are the anterior scalene, the middle scalene, and the first rib. The lower trunk of the brachial plexus and the subclavian vessels can be squeezed there. Causes include a cervical rib (an extra rib from C7), large or unusual scalene muscles, and a Pancoast tumor. Squeezing the lower trunk gives numbness, tingling, and weakness like Klumpke palsy, the subclavian vein gives arm swelling, and the subclavian artery gives arm pain with use. The MSD Manual (Thoracic Outlet Compression Syndromes) agrees that most cases involve the lower trunk, that a cervical rib or abnormal scalene muscles can cause it, and that symptoms spread to the inner arm and hand, with sensory loss in the C8 to T1 area and sometimes swelling or bluish color of the hand.",
       "whyWrong": {
-        "b": "Compression under the flexor retinaculum is carpal tunnel syndrome, which affects the median nerve in the outer three and a half fingers (standard teaching).",
-        "c": "The ulnar nerve can be squeezed behind the medial epicondyle, but that would not explain arm swelling or the cervical rib (standard teaching).",
-        "d": "The axillary nerve passes through the quadrangular space and supplies the deltoid and the skin over it (standard teaching).",
-        "e": "The radial nerve runs in the spiral groove, and injury there causes wrist drop (standard teaching)."
+        "b": "Carpal tunnel syndrome is a distal median nerve lesion, affecting feeling in the thenar area and the outer three and a half fingers (your El-Husseiny musculoskeletal notes, p. 14).",
+        "c": "The ulnar nerve passes behind the medial epicondyle and can be hurt there (your El-Husseiny musculoskeletal notes, pp. 19-20), but that would not explain arm swelling or the cervical rib.",
+        "d": "The axillary nerve, which runs through the quadrangular space (standard teaching), supplies the deltoid and the skin over it (your El-Husseiny musculoskeletal notes, p. 7), not the inner forearm and hand.",
+        "e": "The radial nerve can be hurt along the humerus, for example by a midshaft fracture, and its injury causes wrist drop (your El-Husseiny musculoskeletal notes, pp. 11-12)."
       },
       "sources": [
         {
-          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Thoracic outlet syndrome, pp. 25-26"
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Thoracic outlet syndrome, pp. 25-26; axillary, radial, median and ulnar nerves, pp. 7, 11-12, 14, 19-20"
         },
         {
           "title": "MSD Manual Professional: Thoracic Outlet Compression Syndromes (TOS)",
@@ -29005,13 +29008,16 @@
       "explanation": "Answer: the ischial spine. Why: this is a pudendal nerve block. Your El-Husseiny musculoskeletal notes (p. 55) explain that the pudendal nerve (S2 to S4) supplies feeling to the perineum and motor fibers to the external urethral and anal sphincters. It can be stretched during childbirth, causing numbness and incontinence. During delivery, a doctor can numb it with local anesthetic by feeling for the ischial spine and injecting next to it. StatPearls (Pudendal Nerve Block) agrees that the nerve comes from the S2 to S4 roots and that the ischial spines are felt along the back side walls of the vagina, with the needle placed just medial to and below the ischial spine along the sacrospinous ligament. It adds that the block numbs the back of the perineum, the anus, and the lower vagina, but not the cervix or the upper vagina, and has been used for vaginal birth in the second stage of labor.",
       "whyWrong": {
         "b": "The ischial tuberosity is the bone you sit on; the pudendal block targets the nerve near the ischial spine (StatPearls, Pudendal Nerve Block).",
-        "c": "The anterior superior iliac spine is a landmark near the lateral femoral cutaneous nerve (standard teaching), not the pudendal nerve.",
-        "d": "The pubic tubercle is a landmark for groin hernias (standard teaching), not for the pudendal block.",
+        "c": "The anterior superior iliac spine is not used to find the pudendal nerve (StatPearls, Pudendal Nerve Block); nerves near the front of the hip, such as the lateral femoral cutaneous nerve, supply the thigh (your El-Husseiny musculoskeletal notes, p. 44).",
+        "d": "The pubic tubercle is a landmark for groin hernias; a femoral hernia lies below the inguinal ligament and lateral to it (your Osmosis GI notes, p. 75). It is not used for the pudendal block.",
         "e": "The sacral promontory is used to measure the pelvic inlet (standard teaching), not to find the pudendal nerve."
       },
       "sources": [
         {
-          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Pudendal nerve, p. 55"
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Lateral femoral cutaneous nerve, p. 44; pudendal nerve, p. 55"
+        },
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Gastrointestinal (Emily's file), Femoral hernia, p. 75"
         },
         {
           "title": "StatPearls: Pudendal Nerve Block",
@@ -29108,14 +29114,14 @@
       "answer": "a",
       "explanation": "Answer: the musculocutaneous nerve. Why: Your El-Husseiny musculoskeletal notes (p. 8) explain that the musculocutaneous nerve (C5 to C7) supplies all the muscles of the front of the arm: biceps brachii and brachialis, which bend the elbow and turn the palm up, and coracobrachialis. Its leftover fibers carry on as a skin nerve for the outer (lateral) forearm. Injury, often from shoulder dislocation or hard arm use such as pitching, weakens elbow flexion and supination, causes numbness of the lateral forearm, and lowers the biceps reflex. StatPearls (Anatomy, Shoulder and Upper Limb, Musculocutaneous Nerve) agrees that it carries C5 to C7 fibers, supplies coracobrachialis, biceps, and brachialis, ends as the lateral antebrachial cutaneous nerve, and has been injured after anterior shoulder dislocations, causing biceps and brachialis weakness and loss of feeling in the lateral forearm.",
       "whyWrong": {
-        "b": "The axillary nerve is the one most often hurt in shoulder dislocation, but it weakens shoulder abduction (deltoid) and numbs the skin over the deltoid (standard teaching); his abduction is normal.",
-        "c": "Radial nerve injury causes weak wrist and finger extension (wrist drop) (standard teaching); his wrist extension is normal.",
+        "b": "Anterior shoulder dislocation can also injure the axillary nerve, but that weakens shoulder abduction (deltoid) and numbs the skin over the deltoid and lateral arm (your El-Husseiny musculoskeletal notes, p. 7); his abduction is normal.",
+        "c": "Radial nerve injury causes wrist drop, with weak wrist and finger extension (your El-Husseiny musculoskeletal notes, p. 12); his wrist extension is normal.",
         "d": "Upper trunk (C5-C6) injury also weakens the deltoid and supraspinatus, so the arm hangs by the side (your El-Husseiny musculoskeletal notes, p. 24); his shoulder abduction is normal.",
-        "e": "The ulnar nerve supplies most small hand muscles and feels the little finger side of the hand (standard teaching)."
+        "e": "The ulnar nerve supplies most of the small hand muscles and feels the inner one and a half fingers (your El-Husseiny musculoskeletal notes, pp. 18-19), not the lateral forearm."
       },
       "sources": [
         {
-          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Musculocutaneous nerve, p. 8; Erb palsy, p. 24"
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Axillary, musculocutaneous, radial and ulnar nerves, pp. 7-8, 12, 18-19; Erb palsy, p. 24"
         },
         {
           "title": "StatPearls: Anatomy, Shoulder and Upper Limb, Musculocutaneous Nerve",
