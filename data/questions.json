@@ -3266,6 +3266,264 @@
       ]
     },
     {
+      "id": "pharm-gabapentin-moa-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Nervous System & Special Senses",
+      "topic": "Antiseizure drugs",
+      "difficulty": 2,
+      "stem": "A 68-year-old man has burning pain along a band on the left side of his chest, in the area where he had shingles 4 months ago. The rash has healed. He is started on gabapentin.",
+      "leadIn": "Which of the following best describes how gabapentin acts?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It activates GABA-A receptors directly"
+        },
+        {
+          "id": "b",
+          "text": "It is converted into GABA in the brain"
+        },
+        {
+          "id": "c",
+          "text": "It binds the α2δ subunit of voltage-activated calcium channels"
+        },
+        {
+          "id": "d",
+          "text": "It blocks the breakdown of GABA"
+        },
+        {
+          "id": "e",
+          "text": "It blocks voltage-gated sodium channels"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Answer: it binds the α2δ subunit of voltage-activated calcium channels. Why: gabapentin is structurally related to GABA, but it does not act on the GABA system. The Neurontin label says it does not modify GABA-A or GABA-B receptor binding, is not converted into GABA or a GABA agonist, and does not inhibit GABA uptake or breakdown. Instead, it binds with high affinity to the α2δ subunit of voltage-activated calcium channels; the label says how this binding produces its effects is unknown. Its approved uses are postherpetic neuralgia in adults and add-on therapy for partial-onset (focal) seizures in adults and children 3 years and older. Correction: her neurology notes say gabapentin works by increasing brain GABA concentration. The drug label contradicts this.",
+      "whyWrong": {
+        "a": "The label says gabapentin does not modify GABA-A or GABA-B receptor binding.",
+        "b": "The label says gabapentin is not converted metabolically into GABA or a GABA agonist.",
+        "d": "The label says gabapentin does not inhibit GABA uptake or breakdown.",
+        "e": "Sodium channel blockade is how drugs such as carbamazepine and phenytoin work, not gabapentin."
+      },
+      "sources": [
+        {
+          "title": "Neurontin (gabapentin) FDA prescribing information, 2024",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/021129s056,020882s057,020235s076lbl.pdf"
+        },
+        {
+          "title": "Neurontin (gabapentin) prescribing information: Mechanism of Action (medlibrary.org)",
+          "url": "https://medlibrary.org/lib/rx/meds/neurontin/"
+        }
+      ]
+    },
+    {
+      "id": "neuro-argyll-robertson-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Nervous System & Special Senses",
+      "topic": "Neurosyphilis",
+      "difficulty": 2,
+      "stem": "A 58-year-old man has had sudden, stabbing pains in his legs for a year, and he is unsteady when walking in the dark. He has lost vibration and position sense in his feet, and Romberg's test is positive. Both pupils are small and irregular. They do not constrict to bright light, but they do constrict when he focuses on a near object.",
+      "leadIn": "Which of the following is the most likely cause?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Treponema pallidum"
+        },
+        {
+          "id": "b",
+          "text": "Uncontrolled diabetes mellitus"
+        },
+        {
+          "id": "c",
+          "text": "Adie tonic pupil"
+        },
+        {
+          "id": "d",
+          "text": "Vitamin B12 deficiency"
+        },
+        {
+          "id": "e",
+          "text": "Opioid use"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: late syphilis (Treponema pallidum). Why: small pupils on both sides that do not constrict to light but do constrict to a near object (light-near dissociation) are Argyll Robertson pupils, which are highly specific to late-stage syphilis. His leg pains, loss of position and vibration sense, and positive Romberg point to tabes dorsalis, in which syphilis damages the posterior columns of the spinal cord. The leading theory places the pupil lesion in the dorsal (rostral) midbrain near the cerebral aqueduct, interrupting the light reflex pathway near the Edinger-Westphal nucleus while sparing the near-response pathway. Workup: a nontreponemal test (VDRL or RPR), confirmed with a treponemal test (FTA-ABS, TPPA, or EIA), then a lumbar puncture for suspected neurosyphilis. CSF clues are more than 20 white cells per microliter and a positive CSF VDRL.",
+      "whyWrong": {
+        "b": "Uncontrolled diabetes appears in the differential diagnosis for light-near dissociation, but with large pupils. Argyll Robertson pupils are small.",
+        "c": "Adie tonic pupil gives a large light-dissociated pupil, not small pupils on both sides.",
+        "d": "B12 deficiency can damage the posterior columns, but it does not cause Argyll Robertson pupils.",
+        "e": "Opioids make the pupils small, but they would not explain his stabbing leg pains or posterior column loss."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Argyll Robertson Pupil (updated Jan 2024)",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK537179/"
+        }
+      ],
+      "readMore": [
+        {
+          "title": "EyeWiki: Argyll Robertson Pupils",
+          "url": "https://eyewiki.org/Argyll_Robertson_Pupils"
+        }
+      ]
+    },
+    {
+      "id": "genetics-vhl-two-hit-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Genetics",
+      "system": "Multisystem",
+      "topic": "Von Hippel-Lindau syndrome",
+      "difficulty": 2,
+      "stem": "A 29-year-old woman has a hemangioblastoma removed from her cerebellum. Eye exam shows a retinal hemangioblastoma. Her father had clear cell renal cell carcinoma at age 41. Genetic testing finds a pathogenic variant in one copy of the VHL gene in her blood cells.",
+      "leadIn": "She carries the variant in every cell. Which of the following best explains why tumors form in only a few of her cells?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The variant is a gain-of-function change that activates an oncogene"
+        },
+        {
+          "id": "b",
+          "text": "Tumors arise only in cells that also lose the second, normal copy of VHL"
+        },
+        {
+          "id": "c",
+          "text": "She has the variant in only some of her cells (mosaicism)"
+        },
+        {
+          "id": "d",
+          "text": "The gene is silenced on the copy inherited from her mother (imprinting)"
+        },
+        {
+          "id": "e",
+          "text": "Penetrance of VHL variants is very low"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Answer: tumors arise only where the second copy is lost (two-hit model). Why: VHL is a tumor suppressor gene that normally keeps cells from dividing too fast. Von Hippel-Lindau syndrome is inherited in an autosomal dominant pattern, but unlike most dominant conditions, a cell needs both copies of VHL altered before a tumor forms. People inherit one altered copy in every cell, and the second copy is mutated during life in certain cells; nearly everyone who inherits one altered copy eventually gets a second hit somewhere. Tumors include hemangioblastomas of the brain, spinal cord, and retina (the characteristic tumor), clear cell renal cell carcinoma, pheochromocytoma, pancreatic neuroendocrine tumors, and, in about 10%, endolymphatic sac tumors of the inner ear. About 20% of patients have a new variant rather than an affected parent.",
+      "whyWrong": {
+        "a": "VHL is a tumor suppressor gene, not an oncogene. Tumors need loss of function in both copies.",
+        "c": "Her variant was found in blood and she has an affected father, so she inherited it in every cell.",
+        "d": "VHL syndrome follows an autosomal dominant pattern, and her variant most likely came from her affected father; imprinting is not the mechanism.",
+        "e": "Penetrance is high: nearly everyone who inherits one altered copy eventually acquires a second hit."
+      },
+      "sources": [
+        {
+          "title": "MedlinePlus Genetics: Von Hippel-Lindau syndrome",
+          "url": "https://medlineplus.gov/genetics/condition/von-hippel-lindau-syndrome/"
+        }
+      ]
+    },
+    {
+      "id": "genetics-wilson-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Genetics",
+      "system": "Gastrointestinal",
+      "topic": "Wilson disease",
+      "difficulty": 1,
+      "stem": "A 17-year-old boy has a new tremor, slurred speech, and clumsiness, and his grades have dropped. His parents describe mood swings. Liver enzymes are mildly elevated. Slit-lamp exam shows a green-brown ring at the edge of each cornea. His parents are healthy.",
+      "leadIn": "Variants in which gene most likely cause his condition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "HFE"
+        },
+        {
+          "id": "b",
+          "text": "ATP7A"
+        },
+        {
+          "id": "c",
+          "text": "SERPINA1"
+        },
+        {
+          "id": "d",
+          "text": "ATP7B"
+        },
+        {
+          "id": "e",
+          "text": "HEXA"
+        }
+      ],
+      "answer": "d",
+      "explanation": "Answer: ATP7B. Why: this is Wilson disease. The ATP7B protein moves copper out of the liver and is especially important for getting rid of excess copper, so copper builds up in the liver, brain, and eyes. Copper in the cornea forms the green-to-brownish Kayser-Fleischer ring. Liver disease is typically the first feature in children and young adults. Neurologic and psychiatric problems (tremor, clumsiness, trouble walking, speech problems, impaired thinking, depression, anxiety, mood swings) are common in young adults. Signs usually start between ages 6 and 45, most often in the teens. Inheritance is autosomal recessive, which fits healthy parents.",
+      "whyWrong": {
+        "a": "HFE variants cause hereditary hemochromatosis, which is iron overload, not copper overload.",
+        "b": "ATP7A variants cause Menkes disease, an X-linked copper deficiency in infants.",
+        "c": "SERPINA1 variants cause alpha-1 antitrypsin deficiency (lung and liver disease) without corneal rings or tremor.",
+        "e": "HEXA variants cause Tay-Sachs disease, a fatal infant neurodegenerative disorder."
+      },
+      "sources": [
+        {
+          "title": "MedlinePlus Genetics: Wilson disease",
+          "url": "https://medlineplus.gov/genetics/condition/wilson-disease/"
+        }
+      ]
+    },
+    {
+      "id": "pharm-selegiline-dopamine-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Nervous System & Special Senses",
+      "topic": "Parkinson disease drugs",
+      "difficulty": 2,
+      "stem": "A 70-year-old man with Parkinson disease takes carbidopa-levodopa. His symptoms now return before each next dose is due. His neurologist adds selegiline, a monoamine oxidase type B (MAO-B) inhibitor.",
+      "leadIn": "Selegiline most directly reduces the breakdown of dopamine into which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "3-Methoxytyramine (3-MT)"
+        },
+        {
+          "id": "b",
+          "text": "Norepinephrine"
+        },
+        {
+          "id": "c",
+          "text": "3,4-Dihydroxyphenylacetic acid (DOPAC)"
+        },
+        {
+          "id": "d",
+          "text": "Vanillylmandelic acid (VMA)"
+        },
+        {
+          "id": "e",
+          "text": "Levodopa"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Answer: DOPAC. Why: MAO starts dopamine breakdown by converting dopamine to an aldehyde (DOPAL), which aldehyde dehydrogenase turns into DOPAC. COMT then converts DOPAC to homovanillic acid (HVA), the end product of dopamine breakdown. COMT can also act on dopamine directly to make 3-methoxytyramine (3-MT); both pathways end in HVA. MAO-B inhibitors such as selegiline block the first step and raise dopamine levels in the brain; COMT inhibitors (entacapone, tolcapone), used alongside levodopa, also slow dopamine breakdown. Memory hook: MAO makes the acid (DOPAC); COMT adds a methyl group (3-methoxytyramine). Correction: her El-Husseiny neurology notes swap the two, saying selegiline blocks conversion of dopamine to 3-MT and tolcapone blocks conversion to DOPAC. Her Osmosis physiology notes give the correct pairing (MAO: DOPAC; COMT: 3-methoxytyramine; both lead to HVA).",
+      "whyWrong": {
+        "a": "3-MT is made from dopamine by COMT, not MAO. COMT inhibitors such as tolcapone block that step.",
+        "b": "Norepinephrine is made from dopamine, not a breakdown product of it, and MAO-B inhibitors do not block its synthesis.",
+        "d": "VMA is the end product of norepinephrine and epinephrine breakdown, not dopamine.",
+        "e": "Levodopa is the precursor that becomes dopamine, not a breakdown product."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Biochemistry, Catecholamine Degradation (Aug 2023)",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK545235/"
+        },
+        {
+          "title": "Osmosis High-Yield Physiology notes: catecholamine degradation (Elissa's study document)"
+        }
+      ]
+    },
+    {
       "id": "pharm-latent-tb-001",
       "exams": [
         "usmle-step1",
