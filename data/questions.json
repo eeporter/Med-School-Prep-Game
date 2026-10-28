@@ -5714,36 +5714,36 @@
       "topic": "Vertigo: benign paroxysmal positional vertigo",
       "difficulty": 1,
       "stem": "A 62-year-old woman has had brief spells of spinning for 2 weeks. They start when she rolls over in bed or tips her head back to reach a high shelf, and each lasts less than a minute. Her hearing is normal, and she has no ringing in her ears. Neurologic examination is normal. With her head turned 45 degrees to the right, she is quickly laid back so her head hangs slightly below the table. After about 10 seconds she feels the room spin, and torsional, upbeating nystagmus appears and fades within 30 seconds.",
-      "leadIn": "Which of the following is the most appropriate treatment?",
+      "leadIn": "Which of the following best explains her symptoms?",
       "options": [
         {
           "id": "a",
-          "text": "Canalith repositioning (Epley maneuver)"
+          "text": "Loose otoconia moving within a semicircular canal"
         },
         {
           "id": "b",
-          "text": "Daily meclizine for several months"
+          "text": "Excess endolymph distending the inner ear"
         },
         {
           "id": "c",
-          "text": "A low-salt diet and a thiazide diuretic"
+          "text": "Inflammation of the vestibular nerve"
         },
         {
           "id": "d",
-          "text": "A course of oral prednisone"
+          "text": "A schwannoma of the vestibulocochlear nerve"
         },
         {
           "id": "e",
-          "text": "MRI of the brain before any treatment"
+          "text": "Fixation of the stapes footplate"
         }
       ],
       "answer": "a",
-      "explanation": "Answer: a repositioning maneuver. Why: short spells of vertigo (less than 1 minute) set off by head position, with normal hearing and a normal neurologic exam, are benign paroxysmal positional vertigo (BPPV). Loose otoconia (ear crystals) float in a semicircular canal, so moving the head makes the fluid move abnormally. The Dix-Hallpike maneuver diagnoses posterior canal BPPV: torsional, upbeating nystagmus with vertigo, after a delay of about 5 to 20 seconds. First-line treatment for posterior canal BPPV is a repositioning maneuver; the Epley and Semont maneuvers work equally well.",
+      "explanation": "Answer: loose otoconia in a semicircular canal. Why: short spells of vertigo (less than 1 minute) set off by head position, with normal hearing and a normal neurologic exam, are benign paroxysmal positional vertigo (BPPV). Otoconia (ear crystals) break loose from the utricle and move into a semicircular canal, so moving the head makes the canal fluid move abnormally. The Dix-Hallpike maneuver diagnoses posterior canal BPPV: torsional, upbeating nystagmus with vertigo, after a delay of about 5 to 20 seconds, that fatigues with repeated testing. Treatment is a repositioning maneuver (Epley or Semont), which moves the particles back to the utricle.",
       "whyWrong": {
-        "b": "Vestibular suppressants play a minimal role in BPPV. Routine meclizine is not recommended unless spells are frequent, and it does not move the loose crystals.",
-        "c": "Salt restriction and a thiazide are first-line for Meniere disease, which causes attacks of 20 minutes to 12 hours with low-frequency hearing loss, tinnitus, and ear fullness.",
-        "d": "BPPV is a mechanical problem with loose otoconia in a canal, so a steroid does not treat it.",
-        "e": "Routine imaging is not recommended when a patient meets the criteria for BPPV and has no other neurologic signs, and it is usually normal."
+        "b": "Excess endolymph (endolymphatic hydrops) is Meniere disease, with attacks of 20 minutes to 12 hours plus low-frequency hearing loss, tinnitus, and ear fullness. Her hearing is normal and her spells last under a minute.",
+        "c": "Vestibular neuritis causes one continuous attack of vertigo lasting several days, often after a viral illness, not brief spells set off by head movement.",
+        "d": "A vestibular schwannoma typically causes tinnitus, sensorineural hearing loss, and imbalance. Her hearing is normal and she has no tinnitus.",
+        "e": "A fixed stapes footplate is otosclerosis, which causes conductive hearing loss, not positional vertigo."
       },
       "sources": [
         {
@@ -5753,6 +5753,18 @@
         {
           "title": "StatPearls: Meniere Disease",
           "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK536955/"
+        },
+        {
+          "title": "StatPearls: Vestibular Neuronitis",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK549866/"
+        },
+        {
+          "title": "StatPearls: Neurofibromatosis Type 2",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK470350/"
+        },
+        {
+          "title": "StatPearls: Otosclerosis",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK560671/"
         }
       ]
     },
@@ -6299,7 +6311,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: merlin. Why: bilateral vestibular schwannomas are the hallmark of neurofibromatosis type 2 (NF2). NF2 is caused by mutations in the NF2 gene on chromosome 22 (22q12.2), which makes merlin, a tumor suppressor. It can be inherited as autosomal dominant (as here, from his father) or arise as a new mutation. Patients typically present with tinnitus, sensorineural hearing loss, and balance problems. About 50% develop meningiomas (like his dural-based mass), and ependymomas can grow inside the spinal cord. Cataracts are part of the diagnostic criteria.",
+      "explanation": "Answer: merlin. Why: bilateral vestibular schwannomas are the hallmark of neurofibromatosis type 2 (NF2). NF2 is caused by mutations in the NF2 gene on chromosome 22 (22q12.2), which makes merlin, a tumor suppressor. It can be inherited as autosomal dominant (as here, from his father) or arise as a new mutation. Patients typically present with tinnitus, sensorineural hearing loss, and balance problems. About 50% develop meningiomas (like his dural-based mass), and ependymomas can grow inside the spinal cord. Cataracts are part of the diagnostic criteria. Recent change: in 2022 an international consensus group retired the name \"neurofibromatosis 2\". GeneReviews now calls the condition NF2-related schwannomatosis, the term that consensus proposed. Older books and some exam questions still use NF2.",
       "whyWrong": {
         "b": "Neurofibromin is lost in neurofibromatosis type 1, which causes café-au-lait spots, neurofibromas, Lisch nodules, and armpit and groin freckling, not bilateral vestibular schwannomas.",
         "c": "Loss of the VHL protein causes von Hippel-Lindau syndrome, with hemangioblastomas and kidney cancer rather than schwannomas.",
@@ -6314,6 +6326,14 @@
         {
           "title": "MedlinePlus Genetics: Neurofibromatosis type 1",
           "url": "https://medlineplus.gov/genetics/condition/neurofibromatosis-type-1/"
+        },
+        {
+          "title": "Plotkin SR et al. Updated diagnostic criteria and nomenclature for neurofibromatosis type 2 and schwannomatosis. Genet Med 2022;24(9):1967-1977",
+          "url": "https://research.manchester.ac.uk/en/publications/updated-diagnostic-criteria-and-nomenclature-for-neurofibromatosi/"
+        },
+        {
+          "title": "GeneReviews: NF2-Related Schwannomatosis",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK1201/"
         }
       ]
     },
@@ -6446,41 +6466,49 @@
       "topic": "Inherited jaundice: Crigler-Najjar syndrome",
       "difficulty": 2,
       "stem": "A 4-day-old boy, born at term to parents who are first cousins, has deep jaundice. Total bilirubin is 26 mg/dL, almost all unconjugated. The direct antiglobulin (Coombs) test is negative, and hemoglobin and reticulocyte count are normal. Intensive phototherapy is started. A 2-week trial of phenobarbital does not lower his bilirubin, and he still needs phototherapy many hours every day at 2 months of age.",
-      "leadIn": "Which of the following is the only curative treatment for his condition?",
+      "leadIn": "Which of the following best explains his jaundice?",
       "options": [
         {
           "id": "a",
-          "text": "Liver transplantation"
+          "text": "Absent UGT1A1 activity"
         },
         {
           "id": "b",
-          "text": "Long-term phenobarbital"
+          "text": "Reduced UGT1A1 activity"
         },
         {
           "id": "c",
-          "text": "Kasai hepatoportoenterostomy"
+          "text": "Defective MRP2 bile transporter"
         },
         {
           "id": "d",
-          "text": "Ursodeoxycholic acid"
+          "text": "Increased red blood cell breakdown"
         },
         {
           "id": "e",
-          "text": "Splenectomy"
+          "text": "Fibrous obliteration of the bile ducts"
         }
       ],
       "answer": "a",
-      "explanation": "Answer: liver transplantation. Why: severe unconjugated jaundice from birth, with no hemolysis, that does not respond to phenobarbital is Crigler-Najjar syndrome type 1. It is autosomal recessive (consanguinity raises the risk), and UGT1A1 activity is absent or minimal. Infants are at very high risk of kernicterus. The main treatment is intensive daily phototherapy, and liver transplantation is the only cure. In type 2, enzyme activity is reduced rather than absent, bilirubin is usually below 20 mg/dL, and phenobarbital lowers it.",
+      "explanation": "Answer: absent UGT1A1 activity. Why: severe unconjugated jaundice from birth, with no hemolysis, that does not respond to phenobarbital is Crigler-Najjar syndrome type 1. UGT1A1 (UDP-glucuronosyltransferase 1A1) activity is absent or minimal, so bilirubin cannot be conjugated. It is autosomal recessive, and consanguinity raises the risk. Infants are at very high risk of kernicterus. The main treatment is intensive daily phototherapy, and liver transplantation is the only cure. In type 2, enzyme activity is reduced rather than absent, bilirubin is usually below 20 mg/dL, and phenobarbital lowers it.",
       "whyWrong": {
-        "b": "Phenobarbital lowers bilirubin in Crigler-Najjar type 2, but type 1 does not respond, as in this infant.",
-        "c": "The Kasai operation treats biliary atresia, which raises conjugated bilirubin with pale stools.",
-        "d": "Ursodeoxycholic acid is a treatment for cholestatic disease such as primary biliary cholangitis, not a block in bilirubin conjugation.",
-        "e": "Splenectomy treats some hemolytic anemias. This infant has no hemolysis: the Coombs test, hemoglobin, and reticulocyte count are normal."
+        "b": "Reduced UGT1A1 activity is Gilbert syndrome or Crigler-Najjar type 2. In type 2, bilirubin is usually below 20 mg/dL and phenobarbital lowers it. His bilirubin is 26 mg/dL and did not respond.",
+        "c": "A defective MRP2 transporter is Dubin-Johnson syndrome, which raises conjugated bilirubin. His is almost all unconjugated.",
+        "d": "Hemolysis is ruled out: the Coombs test, hemoglobin, and reticulocyte count are normal.",
+        "e": "Fibrous obliteration of the bile ducts is biliary atresia, which raises conjugated bilirubin and causes pale stools."
       },
       "sources": [
         {
           "title": "StatPearls: Crigler-Najjar Syndrome",
           "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK562171/"
+        },
+        {
+          "title": "StatPearls: Gilbert Syndrome",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK470200/"
+        },
+        {
+          "title": "StatPearls: Dubin-Johnson Syndrome",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK536994/"
         },
         {
           "title": "StatPearls: Biliary Atresia",
@@ -6551,42 +6579,50 @@
       "system": "Gastrointestinal",
       "topic": "Biliary disease: acute cholangitis",
       "difficulty": 2,
-      "stem": "A 70-year-old woman with known gallstones has had fever, chills, and right upper quadrant pain for 1 day. Her temperature is 39.4°C (103°F), pulse 118/min, and blood pressure 86/50 mm Hg. She is confused and her sclerae are yellow. WBC count is 19,000/mm³, total bilirubin 5.6 mg/dL (direct 4.8 mg/dL), and alkaline phosphatase 420 U/L. Ultrasound shows a dilated common bile duct with a stone at its lower end. IV fluids and broad-spectrum antibiotics are started.",
-      "leadIn": "Which of the following is the most appropriate next step?",
+      "stem": "A 70-year-old woman with known gallstones has had fever, chills, and right upper quadrant pain for 1 day. Her temperature is 39.4°C (103°F), pulse 118/min, and blood pressure 86/50 mm Hg. She is confused and her sclerae are yellow. WBC count is 19,000/mm³, total bilirubin 5.6 mg/dL (direct 4.8 mg/dL), and alkaline phosphatase 420 U/L. Ultrasound shows a dilated common bile duct with a stone at its lower end.",
+      "leadIn": "Which of the following best explains her condition?",
       "options": [
         {
           "id": "a",
-          "text": "Urgent ERCP to drain the bile duct"
+          "text": "Blocked common bile duct with infected bile"
         },
         {
           "id": "b",
-          "text": "Elective laparoscopic cholecystectomy in 6 weeks"
+          "text": "Blocked cystic duct with an inflamed gallbladder"
         },
         {
           "id": "c",
-          "text": "Oral ursodeoxycholic acid to dissolve the stone"
+          "text": "Defective MRP2 bile transporter"
         },
         {
           "id": "d",
-          "text": "Continue antibiotics alone and reassess in 72 hours"
+          "text": "Increased red blood cell breakdown"
         },
         {
           "id": "e",
-          "text": "Hepatobiliary iminodiacetic acid (HIDA) scan"
+          "text": "Reduced UGT1A1 activity"
         }
       ],
       "answer": "a",
-      "explanation": "Answer: urgent biliary drainage by ERCP. Why: fever, right upper quadrant pain, and jaundice are Charcot triad. Adding altered mental status and sepsis (shock) gives Reynolds pentad, a sign of severe cholangitis. The most common cause is a stone in the common bile duct (choledocholithiasis), and common organisms include E. coli, Klebsiella, and Enterobacter. Treatment is antibiotics against enteric organisms plus biliary drainage. ERCP is the gold standard for decompression and works in 94% to 98% of cases. In severely ill, septic patients, drainage is urgent, and early drainage lowers mortality.",
+      "explanation": "Answer: a blocked common bile duct with infected bile (acute cholangitis). Why: fever, right upper quadrant pain, and jaundice are Charcot triad. Adding confusion and shock gives Reynolds pentad, a sign of severe cholangitis. Cholangitis needs obstruction of bile flow, most often a stone in the common bile duct (choledocholithiasis). Gut bacteria, mainly gram-negative organisms such as E. coli, Klebsiella, and Enterobacter, grow in the trapped bile. Complete obstruction raises the pressure inside the ducts, which often pushes bacteria into the blood, so she is septic. Treatment is antibiotics plus urgent biliary drainage, usually by ERCP, which works in 94% to 98% of cases.",
       "whyWrong": {
-        "b": "Cholecystectomy removes the gallbladder later but does not relieve the infected, blocked bile duct now.",
-        "c": "Ursodeoxycholic acid acts far too slowly and does not treat an obstructing stone with sepsis.",
-        "d": "She is septic and confused. Delaying drainage raises mortality.",
-        "e": "The diagnosis is already clear from the clinical picture and ultrasound, and a HIDA scan does not drain the duct."
+        "b": "Acute cholecystitis comes from a stone in the cystic duct. That does not dilate the common bile duct or block bile leaving the liver, so it does not explain her stone in the common bile duct and high direct bilirubin.",
+        "c": "A defective MRP2 transporter is Dubin-Johnson syndrome, a mild, benign rise in conjugated bilirubin with normal liver enzymes, not fever and shock.",
+        "d": "Hemolysis raises unconjugated (indirect) bilirubin. Most of her bilirubin is direct.",
+        "e": "Reduced UGT1A1 activity is Gilbert syndrome, a mild unconjugated rise (usually below 4 mg/dL) with normal liver enzymes."
       },
       "sources": [
         {
           "title": "StatPearls: Cholangitis",
           "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK558946/"
+        },
+        {
+          "title": "StatPearls: Dubin-Johnson Syndrome",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK536994/"
+        },
+        {
+          "title": "StatPearls: Gilbert Syndrome",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK470200/"
         }
       ]
     },
@@ -6825,36 +6861,36 @@
       "topic": "Chest trauma: tension pneumothorax",
       "difficulty": 1,
       "stem": "A 12-year-old boy is brought to the emergency department after being thrown from an all-terrain vehicle. He is gasping and anxious. Pulse is 142/min, blood pressure 74/40 mm Hg, and oxygen saturation 84% on a face mask. Breath sounds are absent on the right, and the right chest is hyperresonant to percussion. The trachea is shifted to the left, and the neck veins are distended.",
-      "leadIn": "Which of the following is the most appropriate next step?",
+      "leadIn": "Which of the following best explains his hypotension?",
       "options": [
         {
           "id": "a",
-          "text": "Immediate needle decompression of the right chest"
+          "text": "Decreased venous return to the heart"
         },
         {
           "id": "b",
-          "text": "Chest x-ray to confirm the diagnosis"
+          "text": "Fluid compressing the heart within the pericardium"
         },
         {
           "id": "c",
-          "text": "Pericardiocentesis"
+          "text": "Widespread loss of arterial tone"
         },
         {
           "id": "d",
-          "text": "CT scan of the chest"
+          "text": "Weak pumping by a bruised heart muscle"
         },
         {
           "id": "e",
-          "text": "Intubation and positive-pressure ventilation before any chest procedure"
+          "text": "Blood loss from an injured abdominal organ"
         }
       ],
       "answer": "a",
-      "explanation": "Answer: immediate needle decompression. Why: absent breath sounds, hyperresonance, a trachea shifted away from the affected side, distended neck veins, and hypotension after chest trauma are a tension pneumothorax. A one-way valve lets air into the pleural space on inspiration but not out on expiration, so pressure builds and pushes the mediastinum to the other side. The diagnosis is clinical. If the patient is unstable, needle decompression must be done at once, without waiting for imaging. A chest tube (tube thoracostomy) follows.",
+      "explanation": "Answer: decreased venous return. Why: absent breath sounds, hyperresonance, a trachea shifted away from the affected side, distended neck veins, and hypotension after chest trauma are a tension pneumothorax. A one-way valve lets air into the pleural space on inspiration but not out on expiration, so pressure builds and pushes the mediastinum to the other side. The high pressure compresses the superior vena cava, so less blood returns to the heart and cardiac output falls. That is why he is hypotensive and his neck veins are distended. The diagnosis is clinical. In an unstable patient, needle decompression is done at once, without waiting for imaging, and a chest tube (tube thoracostomy) follows.",
       "whyWrong": {
-        "b": "Imaging may be done first only in a stable patient. He is in shock, so waiting for an x-ray is dangerous.",
-        "c": "Cardiac tamponade also causes distended neck veins and hypotension, but breath sounds are present and the trachea is midline. Heart sounds are muffled, and pulsus paradoxus may be present.",
-        "d": "A CT scan delays treatment of a life-threatening problem in an unstable patient.",
-        "e": "Positive-pressure ventilation pushes more air into the pleural space and can worsen a tension pneumothorax. The chest must be decompressed first."
+        "b": "Cardiac tamponade also causes distended neck veins and hypotension, but breath sounds are present and the trachea is midline. Heart sounds are muffled, and pulsus paradoxus may be present.",
+        "c": "Loss of arterial tone (distributive shock, as in sepsis or spinal injury) does not explain absent breath sounds, hyperresonance, and a trachea pushed to the left. His shock is mechanical.",
+        "d": "A bruised heart can pump poorly after blunt chest trauma, but that would not cause absent breath sounds, hyperresonance, or a shifted trachea.",
+        "e": "Bleeding from an injured organ causes shock, but it does not explain the one-sided chest findings, and blood loss would not distend the neck veins."
       },
       "sources": [
         {
