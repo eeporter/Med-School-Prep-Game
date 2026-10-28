@@ -3224,6 +3224,377 @@
           "url": "https://www.aafp.org/pubs/afp/issues/1999/1015/p1821.html"
         }
       ]
+    },
+    {
+      "id": "pharm-stroke-thrombolysis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Nervous System & Special Senses",
+      "topic": "Acute ischemic stroke",
+      "difficulty": 2,
+      "stem": "A 68-year-old woman is brought to the emergency department with sudden weakness of her right arm and face and difficulty speaking. She was last known to be well 3 hours and 15 minutes ago. Noncontrast head CT shows no hemorrhage. She takes no anticoagulants, has had no recent surgery or bleeding, and has no other contraindications to thrombolysis.",
+      "leadIn": "Which of the following is the most appropriate next step in management?",
+      "options": [
+        {
+          "id": "a",
+          "text": "IV tranexamic acid"
+        },
+        {
+          "id": "b",
+          "text": "No thrombolysis, because more than 3 hours have passed"
+        },
+        {
+          "id": "c",
+          "text": "IV tenecteplase or alteplase"
+        },
+        {
+          "id": "d",
+          "text": "Start warfarin now"
+        },
+        {
+          "id": "e",
+          "text": "Repeat imaging in 24 hours before deciding on treatment"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Answer: IV thrombolysis with tenecteplase or alteplase. Why: she is within the 4.5-hour window and CT has ruled out hemorrhage. Both drugs are tissue plasminogen activators. They bind fibrin in the clot and cleave plasminogen to plasmin, which breaks down the clot. Tenecteplase is more fibrin-specific than native tPA and resists inactivation by plasminogen activator inhibitor-1 (PAI-1); its long half-life allows a single IV bolus. The main risk is bleeding, and intracranial hemorrhage is the most serious. Recent change: her neurology notes say tPA within 3 to 4.5 hours. The 2026 AHA/ASA guideline endorses either alteplase or tenecteplase within the 4.5-hour window. It also supports thrombolysis for selected patients 4.5 to 9 hours from onset, or with unknown onset time, when advanced imaging (such as a DWI-FLAIR or perfusion mismatch) shows salvageable brain.",
+      "whyWrong": {
+        "a": "Tranexamic acid is an antifibrinolytic. It blocks plasminogen from binding fibrin, which would protect the clot rather than dissolve it.",
+        "b": "The thrombolysis window is 4.5 hours, so at 3 hours 15 minutes she is still eligible.",
+        "d": "Warfarin takes 24 to 72 hours to start working and peaks after 5 to 7 days. It lowers clotting factor production; it does not dissolve a clot that is already blocking an artery.",
+        "e": "Waiting 24 hours would miss the 4.5-hour window in which thrombolysis can help."
+      },
+      "sources": [
+        {
+          "title": "Patient Care: 2026 AHA/ASA acute ischemic stroke guideline (Prabhakaran et al., Stroke 2026, doi:10.1161/STR.0000000000000513)",
+          "url": "https://www.patientcareonline.com/view/updated-stroke-guideline-signals-shift-in-early-management-and-treatment-eligibility"
+        },
+        {
+          "title": "Guideline Central: 2026 AHA/ASA Early Management of Acute Ischemic Stroke spotlight",
+          "url": "https://www.guidelinecentral.com/insights/feb-2026-ahaasa-earlymanagementacuteischemicstroke-guideline-spotlight"
+        },
+        {
+          "title": "StatPearls: Tenecteplase",
+          "url": "https://www.statpearls.com/point-of-care/155476"
+        },
+        {
+          "title": "Cyklokapron (tranexamic acid) prescribing information: Clinical Pharmacology",
+          "url": "https://www.pfizermedical.com/cyklokapron/clinical-pharmacology"
+        },
+        {
+          "title": "StatPearls: Warfarin",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK470313/"
+        }
+      ]
+    },
+    {
+      "id": "neuro-tia-definition-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Nervous System & Special Senses",
+      "topic": "Transient ischemic attack",
+      "difficulty": 2,
+      "stem": "A 66-year-old man had sudden weakness of his left arm and slurred speech that lasted 50 minutes and then went away completely. When he is examined 2 hours later, his neurologic exam is normal and his blood glucose is 104 mg/dL. Diffusion-weighted MRI shows a small area of acute infarction in the right internal capsule.",
+      "leadIn": "Which of the following is the most accurate diagnosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Transient ischemic attack, because symptoms lasted less than 24 hours"
+        },
+        {
+          "id": "b",
+          "text": "Ischemic stroke"
+        },
+        {
+          "id": "c",
+          "text": "Intracerebral hemorrhage"
+        },
+        {
+          "id": "d",
+          "text": "Subarachnoid hemorrhage"
+        },
+        {
+          "id": "e",
+          "text": "Transient ischemic attack, because his deficits have fully resolved"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Answer: ischemic stroke. Why: a transient ischemic attack (TIA) is now defined by tissue, not time. MSD defines TIA as focal brain ischemia that causes sudden, temporary neurologic deficits without permanent brain infarction, for example with a normal diffusion-weighted MRI. Deficits that last 1 to 24 hours are often accompanied by infarction and are no longer considered TIAs. Most TIAs last less than 5 minutes, and infarction is very unlikely when deficits resolve within 1 hour. This patient's MRI shows an infarct, so this is a stroke even though his symptoms went away. TIAs still matter: they sharply raise the risk of stroke, beginning in the first 24 hours (the ABCD2 score estimates this risk). Recent change: her neurology notes define a TIA as symptoms lasting less than 24 hours. The current definition is tissue-based.",
+      "whyWrong": {
+        "a": "The old 24-hour rule is no longer the definition. An infarct on MRI means stroke, however quickly the symptoms resolved.",
+        "c": "MRI shows infarction (dead tissue from lost blood flow), not bleeding into the brain.",
+        "d": "Subarachnoid hemorrhage is bleeding around the brain; the MRI shows an infarct instead.",
+        "e": "Full recovery does not make it a TIA. The tissue-based definition requires no infarct on imaging."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Transient Ischemic Attack (TIA)",
+          "url": "https://www.msdmanuals.com/professional/neurologic-disorders/stroke/transient-ischemic-attack-tia"
+        }
+      ]
+    },
+    {
+      "id": "path-lobular-carcinoma-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Reproductive",
+      "topic": "Breast cancer",
+      "difficulty": 2,
+      "stem": "A 58-year-old woman has an ill-defined thickening in her left breast. Core biopsy shows small, uniform tumor cells that do not stick together and invade the stroma in single-file lines. The tumor is strongly estrogen receptor-positive.",
+      "leadIn": "Loss of which of the following proteins best explains this growth pattern?",
+      "options": [
+        {
+          "id": "a",
+          "text": "HER2 (ERBB2)"
+        },
+        {
+          "id": "b",
+          "text": "BRCA1"
+        },
+        {
+          "id": "c",
+          "text": "E-cadherin"
+        },
+        {
+          "id": "d",
+          "text": "Cyclin D1"
+        },
+        {
+          "id": "e",
+          "text": "p53"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Answer: E-cadherin. Why: this is invasive lobular carcinoma, the second most common type of invasive breast cancer (5% to 15%). Loss of the cell-to-cell adhesion protein E-cadherin (gene CDH1) is its most consistent molecular change, and it explains why the cells are discohesive and infiltrate in single-file lines. Classic lobular carcinomas are almost always ER-positive, so hormone therapy is used. These tumors can be bilateral and multifocal, and they often spread to unusual sites such as the ovary, GI tract, uterus, serosal cavities, meninges, and bone.",
+      "whyWrong": {
+        "a": "HER2 is a growth signal that is gained (amplified), not lost, in HER2-positive cancers. It does not explain discohesive, single-file growth.",
+        "b": "BRCA1 loss raises breast cancer risk, but it does not produce the discohesive, single-file pattern; loss of E-cadherin does.",
+        "d": "Cyclin D1 drives the cell cycle when it is overexpressed. It is not an adhesion protein, so it does not explain this pattern.",
+        "e": "p53 is a tumor suppressor lost in many cancers, but its loss does not cause discohesive, single-file growth."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Lobular Breast Carcinoma",
+          "url": "https://statpearls.com/point-of-care/24392"
+        }
+      ]
+    },
+    {
+      "id": "path-lcis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Reproductive",
+      "topic": "Breast cancer",
+      "difficulty": 3,
+      "stem": "A 46-year-old woman has a core biopsy of an area of calcifications seen on screening mammography. Pathology shows classic lobular carcinoma in situ (LCIS), with no atypical ductal hyperplasia, ductal carcinoma in situ, or invasive carcinoma. The imaging and pathology findings agree.",
+      "leadIn": "Which of the following best describes this lesion?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An obligate precursor that will become invasive cancer at that site if it is not excised"
+        },
+        {
+          "id": "b",
+          "text": "A benign finding that does not change her breast cancer risk"
+        },
+        {
+          "id": "c",
+          "text": "A risk factor and nonobligate precursor that raises cancer risk in both breasts"
+        },
+        {
+          "id": "d",
+          "text": "An invasive carcinoma that requires mastectomy"
+        },
+        {
+          "id": "e",
+          "text": "A lesion that raises cancer risk only in the breast where it was found"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Answer: a risk factor and nonobligate precursor. Why: classic LCIS is both a risk factor for invasive breast cancer and a nonobligate precursor, meaning it can progress but usually does not. Women with LCIS have about a 7- to 10-fold higher breast cancer risk than the general population, about 1% to 2% per year. The risk applies to either breast, slightly more to the same side. Like invasive lobular carcinoma, LCIS usually lacks E-cadherin. Management of classic LCIS is active surveillance plus chemoprevention with antiestrogens. Excision is not recommended after an incidental diagnosis of classic LCIS. Nonclassic forms (pleomorphic or florid LCIS) on core biopsy do require surgical excision. Note: her breast pathology notes say LCIS may be followed by invasion if not treated. That is true but incomplete, because the raised risk involves both breasts and classic LCIS is usually watched rather than removed.",
+      "whyWrong": {
+        "a": "LCIS is a nonobligate precursor: most cases do not progress, and excision is not recommended after an incidental diagnosis of classic LCIS.",
+        "b": "LCIS raises breast cancer risk about 7- to 10-fold.",
+        "d": "LCIS is in situ (not invasive), and classic LCIS is managed with surveillance and chemoprevention, not mastectomy.",
+        "e": "The raised risk applies to either breast, only slightly more to the same side."
+      },
+      "sources": [
+        {
+          "title": "PathologyOutlines: Lobular carcinoma in situ (LCIS)",
+          "url": "https://pathologyoutlines.com/topic/breastmalignantlcis.html"
+        },
+        {
+          "title": "StatPearls: Lobular Breast Carcinoma",
+          "url": "https://statpearls.com/point-of-care/24392"
+        }
+      ]
+    },
+    {
+      "id": "pharm-wet-amd-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Nervous System & Special Senses",
+      "topic": "Age-related macular degeneration",
+      "difficulty": 2,
+      "stem": "A 76-year-old woman has had 2 weeks of distorted central vision in her left eye; straight lines look wavy. Fundus exam shows drusen in both eyes. In the left eye there is subretinal fluid and hemorrhage in the macula, and imaging confirms choroidal neovascularization.",
+      "leadIn": "Which of the following is the most appropriate treatment?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Intravitreal anti-VEGF injections, such as aflibercept or ranibizumab"
+        },
+        {
+          "id": "b",
+          "text": "Intravitreal complement inhibitor (pegcetacoplan)"
+        },
+        {
+          "id": "c",
+          "text": "AREDS vitamin and mineral supplements alone"
+        },
+        {
+          "id": "d",
+          "text": "Topical latanoprost"
+        },
+        {
+          "id": "e",
+          "text": "Observation until vision worsens"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: intravitreal anti-VEGF therapy. Why: drusen are the hallmark of age-related macular degeneration (AMD). Fluid and hemorrhage from new choroidal vessels, with distortion (metamorphopsia), mean exudative (wet) AMD, the major cause of severe vision loss from AMD. Ranibizumab, bevacizumab, and aflibercept, which block vascular endothelial growth factor (VEGF), are the drugs most often used. Faricimab, approved in 2022, blocks both VEGF and angiopoietin-2. Dry AMD makes up 85% to 90% of cases. Recent change: her eye notes say anti-VEGF drugs treat wet AMD but not dry AMD, which is still true. In 2023, the FDA approved the first treatments for geographic atrophy, the advanced form of dry AMD: pegcetacoplan (a C3 inhibitor) and avacincaptad pegol (a C5 inhibitor), both given by intravitreal injection. Her notes also list pegaptanib, which was the first anti-VEGF drug approved for AMD, in 2004.",
+      "whyWrong": {
+        "b": "Complement inhibitors are approved for geographic atrophy, the advanced form of dry AMD, not for wet AMD with new vessels.",
+        "c": "AREDS supplements reduce the risk of AMD progression, but they do not treat active new vessels.",
+        "d": "Latanoprost is a glaucoma drug that lowers eye pressure; it does not treat macular new vessels.",
+        "e": "Wet AMD is the major cause of severe vision loss from AMD, so it should be treated now."
+      },
+      "sources": [
+        {
+          "title": "EyeWiki (American Academy of Ophthalmology): Age-Related Macular Degeneration",
+          "url": "https://eyewiki.org/Age-Related_Macular_Degeneration"
+        },
+        {
+          "title": "AHDB: FDA approval of Syfovre (pegcetacoplan) and Izervay (avacincaptad pegol) for geographic atrophy",
+          "url": "https://www.ahdbonline.com/fda-approvals-news-updates/3291-fda-approval-of-syfovre-pegcetacoplan-and-izervay-avacincaptad-pegol-reshapes-management-of-ga"
+        }
+      ]
+    },
+    {
+      "id": "pharm-angle-closure-ipratropium-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Nervous System & Special Senses",
+      "topic": "Acute angle-closure glaucoma",
+      "difficulty": 2,
+      "stem": "A 68-year-old woman is admitted with a COPD exacerbation and started on nebulized ipratropium. That evening she develops severe pain in her right eye, headache, nausea, vomiting, and blurred vision with colored halos around lights. The right eye is red, the cornea is hazy, and the pupil is mid-dilated and reacts poorly to light.",
+      "leadIn": "Which of the following best explains how her new medication caused this condition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Beta-2 receptor stimulation increased aqueous production"
+        },
+        {
+          "id": "b",
+          "text": "Muscarinic blockade dilated the pupil and caused pupillary block"
+        },
+        {
+          "id": "c",
+          "text": "Ciliary muscle contraction opened the trabecular meshwork"
+        },
+        {
+          "id": "d",
+          "text": "A sulfonamide reaction made the lens swell"
+        },
+        {
+          "id": "e",
+          "text": "Alpha-1 blockade relaxed the iris dilator muscle"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Answer: muscarinic blockade causing pupillary block. Why: this is acute angle-closure glaucoma. Drugs with parasympatholytic (anticholinergic) or sympathomimetic effects can trigger it in eyes with narrow angles. Ipratropium is an anticholinergic that causes mydriasis and can precipitate angle closure. In a mid-dilated pupil, the pupil margin presses against the lens all the way around (pupillary block). Aqueous builds up behind the iris and bows it forward, closing the drainage angle, and eye pressure rises. Typical symptoms are a red, painful eye, headache, nausea and vomiting, blurred vision, and colored halos. Other anticholinergic triggers include dilating eye drops and tricyclic antidepressants.",
+      "whyWrong": {
+        "a": "Ipratropium is an anticholinergic, not a beta-2 agonist.",
+        "c": "Ciliary muscle contraction is a cholinergic effect, the opposite of what an anticholinergic such as ipratropium does.",
+        "d": "Sulfa drugs such as topiramate can cause angle closure through lens swelling and choroidal effusion, but ipratropium is not a sulfa drug.",
+        "e": "Ipratropium does not act on alpha receptors, and relaxing the dilator would make the pupil smaller, not larger."
+      },
+      "sources": [
+        {
+          "title": "EyeWiki (American Academy of Ophthalmology): Drug-induced Acute Angle Closure Glaucoma",
+          "url": "https://eyewiki.org/Drug-induced_Acute_Angle_Closure_Glaucoma"
+        }
+      ]
+    },
+    {
+      "id": "path-crao-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Nervous System & Special Senses",
+      "topic": "Central retinal artery occlusion",
+      "difficulty": 2,
+      "stem": "A 72-year-old man with hypertension and a history of smoking suddenly lost vision in his right eye over a few seconds while reading 1 hour ago. He has no eye pain, headache, or jaw pain. Fundus exam of the right eye shows a pale, whitened retina with a red spot at the center of the macula.",
+      "leadIn": "Why does the center of the macula look red?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Blood has leaked into the fovea"
+        },
+        {
+          "id": "b",
+          "text": "The fovea has no nerve fiber layer to swell and turn pale"
+        },
+        {
+          "id": "c",
+          "text": "New blood vessels have grown under the fovea"
+        },
+        {
+          "id": "d",
+          "text": "The optic disc is swollen"
+        },
+        {
+          "id": "e",
+          "text": "Lipid is stored in the foveal cells"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Answer: the fovea has no overlying nerve fiber layer. Why: this is a central retinal artery occlusion (CRAO), which causes sudden, painless vision loss over seconds. Ischemia makes the nerve fiber layer swell and turn opaque, so the retina looks white. The fovea has no nerve fiber layer over it, so it stays red: the cherry-red spot. Blood flow in the retinal vessels may look segmented ('boxcarring'). In older patients the usual causes are atherosclerosis and emboli, so the workup includes echocardiography and carotid ultrasound. Sudden vision loss in anyone over 50 should also raise suspicion for giant cell arteritis. Note: her eye notes give the cherry-red spot. Current EyeWiki guidance adds that acute retinal artery occlusion is an emergency that needs urgent evaluation for stroke, with immediate referral to the nearest stroke center.",
+      "whyWrong": {
+        "a": "The red spot is normal fovea seen against pale, swollen retina, not bleeding.",
+        "c": "New vessels under the fovea are choroidal neovascularization (wet macular degeneration), which causes distortion and fluid, not sudden painless loss with retinal whitening.",
+        "d": "Optic disc swelling does not explain a pale retina with a red center.",
+        "e": "This is ischemia from a blocked artery. The retina around the fovea is pale because ischemic nerve fiber tissue swells, not because of stored lipid."
+      },
+      "sources": [
+        {
+          "title": "EyeWiki (American Academy of Ophthalmology): Retinal Artery Occlusion",
+          "url": "https://eyewiki.org/Retinal_Artery_Occlusion"
+        },
+        {
+          "title": "EyeWiki (American Academy of Ophthalmology): Age-Related Macular Degeneration",
+          "url": "https://eyewiki.org/Age-Related_Macular_Degeneration"
+        }
+      ]
     }
   ]
 }
