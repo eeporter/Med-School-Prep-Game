@@ -14455,6 +14455,1046 @@
           "url": "https://www.fda.gov/patients/drug-development-process/step-3-clinical-research"
         }
       ]
+    },
+    {
+      "id": "renal-alport-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Genetics",
+      "system": "Renal & Urinary",
+      "topic": "Glomerular disease: Alport syndrome",
+      "difficulty": 2,
+      "stem": "A 10-year-old boy is brought to the physician because of tea-colored urine during two colds this year. Microscopic blood has been found in his urine since he was 5 years old. His maternal uncle started dialysis at age 30. Urinalysis shows 2+ protein and dysmorphic red blood cells. Audiometry shows bilateral hearing loss at high frequencies. Slit-lamp examination shows a cone-shaped bulge on the front surface of both lenses.",
+      "leadIn": "A mutation in a gene that encodes which of the following is the most likely cause of this patient's condition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Type IV collagen"
+        },
+        {
+          "id": "b",
+          "text": "Type I collagen"
+        },
+        {
+          "id": "c",
+          "text": "Fibrillin-1"
+        },
+        {
+          "id": "d",
+          "text": "Nephrin"
+        },
+        {
+          "id": "e",
+          "text": "Polycystin-1 protein"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: type IV collagen (Alport syndrome). Why: your El-Husseiny nephrology notes (p. 83) describe a type IV collagen mutation that thins and splits the glomerular basement membrane, most often X-linked, with eye problems, nephritis, and nerve deafness, and a basket-weave pattern on electron microscopy. MSD lists the genes COL4A3, COL4A4, and COL4A5, says X-linked inheritance is the most common form, and describes high-frequency sensorineural hearing loss, cataracts, and anterior lenticonus (the cone-shaped bulge of the lens). Early ACE inhibitor or ARB therapy slows progression. After a transplant, the new kidney can develop anti-GBM antibody disease, usually in males (MSD). The affected uncle on the mother's side fits X-linked inheritance (standard teaching). Other source: your El-Husseiny nephrology notes name the alpha-3 chain. The X-linked form, the most common one, involves COL4A5, the gene for the alpha-5 chain on the X chromosome (standard teaching).",
+      "whyWrong": {
+        "b": "Type I collagen defects cause osteogenesis imperfecta, with fractures and blue sclerae, not nephritis and deafness (standard teaching).",
+        "c": "Fibrillin-1 defects cause Marfan syndrome, which can move the lens out of place but does not cause hematuria or hearing loss (standard teaching).",
+        "d": "Nephrin is part of the podocyte slit diaphragm; its defect causes congenital nephrotic syndrome with heavy protein loss in infancy, not hematuria with deafness (standard teaching).",
+        "e": "Polycystin-1 is the PKD1 gene product in autosomal dominant polycystic kidney disease, which causes enlarged cystic kidneys (MSD ADPKD)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Nephrology (Emily's file), Alport syndrome, p. 83"
+        },
+        {
+          "title": "MSD Manual Professional: Alport Syndrome",
+          "url": "https://www.msdmanuals.com/professional/genitourinary-disorders/glomerular-disorders/alport-syndrome"
+        }
+      ]
+    },
+    {
+      "id": "renal-anti-gbm-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Renal & Urinary",
+      "topic": "Glomerular disease: anti-GBM disease (Goodpasture)",
+      "difficulty": 2,
+      "stem": "A 26-year-old man comes to the emergency department because he has coughed up blood for 4 days and his urine has looked dark for 1 week. He smokes 1 pack of cigarettes daily and works stripping paint with solvents. His blood pressure is 152/94 mm Hg. Chest x-ray shows patchy opacities in both lower lungs. Serum creatinine is 3.9 mg/dL; it was normal 2 months ago. Urinalysis shows red blood cell casts. A kidney biopsy shows crescents in most glomeruli.",
+      "leadIn": "Immunofluorescence of the biopsy is most likely to show which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Linear IgG along the GBM"
+        },
+        {
+          "id": "b",
+          "text": "Granular IgG and C3 along the GBM"
+        },
+        {
+          "id": "c",
+          "text": "IgA deposits in the mesangium"
+        },
+        {
+          "id": "d",
+          "text": "No immunoglobulin or complement"
+        },
+        {
+          "id": "e",
+          "text": "Subepithelial humps of C3"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: linear IgG along the glomerular basement membrane (anti-GBM disease, or Goodpasture syndrome). Why: your El-Husseiny nephrology notes (p. 84) place anti-GBM disease in type 1 rapidly progressive glomerulonephritis, with linear IgG and C3 along the basement membrane. The antibodies also bind the basement membrane of the lung alveoli, which causes coughing up blood. StatPearls says the antibodies mostly target the non-collagen (NC1) domain of the alpha-3 chain of type IV collagen, and that smoking and hydrocarbon solvents are environmental triggers. Treatment is plasmapheresis followed by glucocorticoids and cyclophosphamide; rituximab may replace cyclophosphamide in some cases (StatPearls).",
+      "whyWrong": {
+        "b": "A granular, lumpy-bumpy pattern means immune complexes, as in type 2 rapidly progressive disease after strep infection or with lupus (your El-Husseiny nephrology notes, p. 85).",
+        "c": "Mesangial IgA deposits mark IgA nephropathy, which usually causes episodes of blood in the urine, not lung bleeding with crescents in most glomeruli (standard teaching).",
+        "d": "No deposits (pauci-immune) is type 3 disease, as in granulomatosis with polyangiitis (your El-Husseiny nephrology notes, p. 85). It can also cause lung and kidney disease, but smoking and solvent exposure are known triggers of anti-GBM disease (StatPearls).",
+        "e": "Subepithelial humps are the pattern of poststreptococcal glomerulonephritis, which follows a strep infection and does not cause lung bleeding (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Nephrology (Emily's file), Rapidly progressive glomerulonephritis, pp. 84-85"
+        },
+        {
+          "title": "StatPearls: Goodpasture Syndrome",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK459291/"
+        }
+      ]
+    },
+    {
+      "id": "renal-minimal-change-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Renal & Urinary",
+      "topic": "Nephrotic syndrome: minimal change disease",
+      "difficulty": 1,
+      "stem": "A 4-year-old boy is brought to the physician because his eyelids have been puffy every morning for 1 week. Two weeks ago, he had a cold. His ankles are swollen. Blood pressure is normal. Urinalysis shows 4+ protein and no blood. Serum albumin is 1.7 g/dL, and serum cholesterol is high. Serum creatinine and complement levels are normal.",
+      "leadIn": "If a kidney biopsy were done, which of the following findings would be most likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Effaced podocyte foot processes on electron microscopy"
+        },
+        {
+          "id": "b",
+          "text": "Subepithelial deposits with spikes on silver stain"
+        },
+        {
+          "id": "c",
+          "text": "Segmental sclerosis with hyalinosis on light microscopy"
+        },
+        {
+          "id": "d",
+          "text": "Linear IgG along the basement membrane"
+        },
+        {
+          "id": "e",
+          "text": "Acellular nodules in the mesangial matrix"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: effacement (flattening) of podocyte foot processes on electron microscopy, with normal glomeruli on light microscopy (minimal change disease). Why: your El-Husseiny nephrology notes (p. 89) call minimal change disease the leading cause of nephrotic syndrome among children aged 2 to 8 years, sometimes triggered by an infection, an immunization, or allergy, and rarely linked to Hodgkin lymphoma. Light microscopy is normal, immunofluorescence shows no deposits, and diffuse foot process effacement on electron microscopy is the key finding. MSD says it causes 70 to 90% of nephrotic syndrome in children older than 1 year and about 15% in adults, and that 80 to 90% of patients respond to high-dose prednisone, although most responders relapse.",
+      "whyWrong": {
+        "b": "Subepithelial deposits with spikes describe membranous nephropathy, a common cause of nephrotic syndrome in adults (MSD Membranous Nephropathy).",
+        "c": "Segmental sclerosis with hyalinosis is focal segmental glomerulosclerosis (your El-Husseiny nephrology notes, p. 90), which is less likely in a young child with a sudden onset after a cold.",
+        "d": "Linear IgG is anti-GBM disease, which causes a nephritic picture with blood in the urine and rising creatinine (your El-Husseiny nephrology notes, p. 84).",
+        "e": "Acellular mesangial nodules (Kimmelstiel-Wilson lesions) are seen in diabetic kidney disease (MSD Diabetic Nephropathy)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Nephrology (Emily's file), Minimal change disease, p. 89"
+        },
+        {
+          "title": "MSD Manual Professional: Minimal Change Disease",
+          "url": "https://www.msdmanuals.com/professional/genitourinary-disorders/glomerular-disorders/minimal-change-disease"
+        }
+      ]
+    },
+    {
+      "id": "renal-fsgs-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Renal & Urinary",
+      "topic": "Nephrotic syndrome: focal segmental glomerulosclerosis",
+      "difficulty": 2,
+      "stem": "A 38-year-old man comes to the physician because of leg swelling for 2 months. He has injected heroin for 10 years. His blood pressure is 148/92 mm Hg. Urine protein is 8 g/24 h. Serum albumin is 2.2 g/dL. Tests for HIV and hepatitis B and C are negative. A kidney biopsy shows scarring in only part of the capillary tuft of some glomeruli, with glassy hyaline material in the scarred areas; the other glomeruli look normal. Electron microscopy shows effaced podocyte foot processes.",
+      "leadIn": "Which of the following is the most likely diagnosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Focal segmental glomerulosclerosis"
+        },
+        {
+          "id": "b",
+          "text": "Minimal change disease"
+        },
+        {
+          "id": "c",
+          "text": "Membranous nephropathy"
+        },
+        {
+          "id": "d",
+          "text": "Membranoproliferative glomerulonephritis"
+        },
+        {
+          "id": "e",
+          "text": "Diabetic nephropathy"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: focal segmental glomerulosclerosis (FSGS). Why: \"focal\" means only some glomeruli, and \"segmental\" means only part of each tuft. Your El-Husseiny nephrology notes (pp. 90-91) list HIV, sickle cell disease, and heroin use as secondary causes, describe segmental sclerosis and hyalinosis on light microscopy, and note foot process effacement like minimal change disease. They call FSGS the leading cause of nephrotic syndrome among Hispanic and African American patients. StatPearls adds obesity as a cause, links HIV to the collapsing variant, and says APOL1 gene variants, more common in people of African descent, cause genetic FSGS. Corticosteroids are first-line only for primary FSGS; secondary FSGS is managed by treating the cause. About 50% of patients with persistent nephrotic-range protein loss reach end-stage kidney disease within 3 to 8 years (StatPearls).",
+      "whyWrong": {
+        "b": "Minimal change disease also shows foot process effacement, but light microscopy is normal, with no scarring (your El-Husseiny nephrology notes, p. 89).",
+        "c": "Membranous nephropathy shows subepithelial deposits with spikes and thickened basement membranes, not segmental scars (MSD Membranous Nephropathy).",
+        "d": "Membranoproliferative disease shows thick capillary walls with a tram-track look and often low complement, not segmental scars (standard teaching).",
+        "e": "Diabetic nephropathy needs diabetes and shows mesangial nodules and basement membrane thickening (MSD Diabetic Nephropathy)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Nephrology (Emily's file), Focal segmental glomerulosclerosis, pp. 90-91"
+        },
+        {
+          "title": "StatPearls: Focal Segmental Glomerulosclerosis",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK532272/"
+        }
+      ]
+    },
+    {
+      "id": "renal-membranous-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Renal & Urinary",
+      "topic": "Nephrotic syndrome: membranous nephropathy",
+      "difficulty": 3,
+      "stem": "A 55-year-old woman comes to the physician because of swelling of her legs and face for 6 weeks. Urine protein is 7 g/24 h, and the urine sediment shows no red cell casts. Serum albumin is 2.0 g/dL. A kidney biopsy shows thick capillary walls; electron microscopy shows deposits on the outer (subepithelial) side of the basement membrane, with new membrane growing up between them. Serum antibodies to the phospholipase A2 receptor (PLA2R) are strongly positive.",
+      "leadIn": "The antibody result most strongly suggests which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Idiopathic (primary) disease"
+        },
+        {
+          "id": "b",
+          "text": "An underlying solid tumor"
+        },
+        {
+          "id": "c",
+          "text": "Lupus-related membranous disease"
+        },
+        {
+          "id": "d",
+          "text": "Hepatitis B-related disease"
+        },
+        {
+          "id": "e",
+          "text": "A reaction to an NSAID"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: idiopathic (primary) membranous nephropathy. Why: MSD says the M-type PLA2R is the major target antigen in membranous nephropathy, that idiopathic disease is typically PLA2R-antibody positive, and that cancer-associated disease is typically negative. Your El-Husseiny nephrology notes (p. 91) say most cases are idiopathic and are associated with IgG4 antibodies to PLA2R, a receptor found in high amounts on glomerular podocytes. Biopsy shows subepithelial deposits with spikes of basement membrane between them, and later a markedly thickened membrane. Secondary causes include drugs (NSAIDs, penicillamine, gold), hepatitis B or C, lupus, and cancer; 6 to 15% of patients have an underlying cancer. Renal vein thrombosis is more frequent than in other nephrotic diseases. For high-risk idiopathic disease, most experts favor rituximab plus corticosteroids (MSD). Other source: your El-Husseiny nephrology notes call it the leading cause of nephrotic syndrome among white adults; MSD calls it a common cause in adults.",
+      "whyWrong": {
+        "b": "Membranous disease linked to cancer is typically PLA2R-antibody negative (MSD), so a strongly positive test argues against a hidden tumor.",
+        "c": "Lupus is a secondary cause (MSD), and lupus-related membranous disease is usually PLA2R-antibody negative (standard teaching).",
+        "d": "Hepatitis B is a secondary cause (MSD); a strongly positive PLA2R antibody points to primary disease instead (MSD).",
+        "e": "NSAIDs are a secondary cause (MSD); the antibody result points to primary disease (MSD), and no drug history is given."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Nephrology (Emily's file), Membranous nephropathy, p. 91"
+        },
+        {
+          "title": "MSD Manual Professional: Membranous Nephropathy",
+          "url": "https://www.msdmanuals.com/professional/genitourinary-disorders/glomerular-disorders/membranous-nephropathy"
+        }
+      ]
+    },
+    {
+      "id": "renal-diabetic-nephropathy-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Renal & Urinary",
+      "topic": "Diabetic nephropathy",
+      "difficulty": 2,
+      "stem": "A 61-year-old man with type 2 diabetes mellitus for 16 years comes for a follow-up visit. His hemoglobin A1c is 8.9%. He has background retinopathy. His urine albumin-to-creatinine ratio has been 210 mg/g on 2 of 3 samples over 4 months. Serum creatinine is 1.6 mg/dL. Urinalysis shows no blood. A kidney biopsy is done because his kidney function has declined faster than expected.",
+      "leadIn": "Which of the following is most likely to be seen on the biopsy?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Acellular nodules in the mesangial matrix"
+        },
+        {
+          "id": "b",
+          "text": "Crescents filling Bowman space"
+        },
+        {
+          "id": "c",
+          "text": "Subepithelial deposits with spikes"
+        },
+        {
+          "id": "d",
+          "text": "IgA deposits in the mesangium"
+        },
+        {
+          "id": "e",
+          "text": "Basket-weave splitting of the lamina densa"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: acellular nodules in the mesangial matrix (Kimmelstiel-Wilson nodules, or nodular glomerulosclerosis). Why: your El-Husseiny nephrology notes (p. 94) describe mesangial sclerosis with Kimmelstiel-Wilson nodules as the characteristic lesion. MSD describes these as acellular nodules in the mesangial matrix, along with mesangial expansion and a thickened glomerular basement membrane. An early change is hyperfiltration (higher GFR). An albumin-to-creatinine ratio of 30 mg/g or more on 2 of 3 samples within 3 to 6 months shows kidney damage. ACE inhibitors or ARBs are first-line for blood pressure and protein loss, and SGLT2 inhibitors are recommended in type 2 diabetes unless eGFR is below 20 mL/min (MSD).",
+      "whyWrong": {
+        "b": "Crescents mean rapidly progressive glomerulonephritis, which causes a fast nephritic picture with blood in the urine (your El-Husseiny nephrology notes, p. 84).",
+        "c": "Subepithelial deposits with spikes are membranous nephropathy (MSD Membranous Nephropathy).",
+        "d": "Mesangial IgA deposits are IgA nephropathy, which presents with blood in the urine (standard teaching).",
+        "e": "A basket-weave lamina densa is Alport syndrome, an inherited type IV collagen disease (your El-Husseiny nephrology notes, p. 83)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Nephrology (Emily's file), Diabetic nephropathy, p. 94"
+        },
+        {
+          "title": "MSD Manual Professional: Diabetic Nephropathy",
+          "url": "https://www.msdmanuals.com/professional/genitourinary-disorders/glomerular-disorders/diabetic-nephropathy"
+        }
+      ]
+    },
+    {
+      "id": "renal-nephrotic-rvt-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Renal & Urinary",
+      "topic": "Nephrotic syndrome: hypercoagulability and renal vein thrombosis",
+      "difficulty": 2,
+      "stem": "A 46-year-old man with nephrotic syndrome from membranous nephropathy comes to the emergency department because of sudden left flank pain and red urine for 1 day. He also noticed a new soft swelling above his left testicle that feels like a bag of worms and gets bigger when he stands. Doppler ultrasound shows a clot in the left renal vein.",
+      "leadIn": "Urinary loss of which of the following most likely contributed to this complication?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Antithrombin III"
+        },
+        {
+          "id": "b",
+          "text": "Albumin-bound calcium"
+        },
+        {
+          "id": "c",
+          "text": "Immunoglobulin G"
+        },
+        {
+          "id": "d",
+          "text": "Transferrin"
+        },
+        {
+          "id": "e",
+          "text": "Thyroxine-binding globulin"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: antithrombin III. Why: Your El-Husseiny nephrology notes (pp. 87-88) say nephrotic syndrome causes a clotting tendency because antithrombin III, a natural anticoagulant, is lost in the urine. Renal vein thrombosis presents with sudden flank or abdominal pain and gross hematuria. In men, a clot in the left renal vein blocks drainage from the left testicular vein, so a left varicocele appears; the left testicular vein drains into the left renal vein (standard teaching). MSD says renal vein thrombosis is more frequent in membranous nephropathy than in other nephrotic diseases, and it can lead to pulmonary embolism.",
+      "whyWrong": {
+        "b": "Loss of albumin lowers total calcium, but that does not cause clotting (standard teaching).",
+        "c": "Loss of immunoglobulins raises the risk of infection, not clotting (your El-Husseiny nephrology notes, p. 87).",
+        "d": "Transferrin loss can lower iron transport, but it does not cause clotting (standard teaching).",
+        "e": "Loss of thyroxine-binding globulin changes thyroid test results, but it does not cause clotting (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Nephrology (Emily's file), Nephrotic syndrome complications, pp. 87-88"
+        },
+        {
+          "title": "MSD Manual Professional: Membranous Nephropathy",
+          "url": "https://www.msdmanuals.com/professional/genitourinary-disorders/glomerular-disorders/membranous-nephropathy"
+        }
+      ]
+    },
+    {
+      "id": "renal-struvite-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Renal & Urinary",
+      "topic": "Kidney stones: struvite",
+      "difficulty": 2,
+      "stem": "A 44-year-old woman comes to the physician because of fever and right flank pain. She has had 4 urinary tract infections in the past year. Urine pH is 8.0. Urine culture grows Proteus mirabilis. CT scan shows a large branching stone that fills the right renal pelvis and several calyces.",
+      "leadIn": "Production of which of the following bacterial enzymes most directly caused this stone to form?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Urease"
+        },
+        {
+          "id": "b",
+          "text": "Catalase"
+        },
+        {
+          "id": "c",
+          "text": "Coagulase"
+        },
+        {
+          "id": "d",
+          "text": "Beta-lactamase"
+        },
+        {
+          "id": "e",
+          "text": "Nitrate reductase"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: urease. Why: struvite (magnesium ammonium phosphate) stones form when bacteria split urea. MSD says these stones are caused by urea-splitting bacteria such as Proteus and Klebsiella species and are about 3 times more common in women. Urease turns urea into ammonia, which makes the urine alkaline and lets magnesium ammonium phosphate crystals form (standard teaching). Your El-Husseiny nephrology notes (pp. 97, 101) note that a staghorn stone in an adult is most likely struvite. The infection must be cleared and the stone removed, or it keeps growing (standard teaching). Other source: your El-Husseiny nephrology notes say struvite is about 15% of stones and the second most common type; MSD gives 5 to 15% for struvite and 18 to 24% for calcium phosphate.",
+      "whyWrong": {
+        "b": "Catalase protects bacteria from hydrogen peroxide and matters in chronic granulomatous disease, not stone formation (standard teaching).",
+        "c": "Coagulase identifies Staphylococcus aureus and is not part of stone formation (standard teaching).",
+        "d": "Beta-lactamase breaks down penicillins; it causes drug resistance, not stones (standard teaching).",
+        "e": "Nitrate reductase makes the urine nitrite test positive, but it does not raise urine pH or form stones (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Nephrology (Emily's file), Ammonium magnesium phosphate stones, pp. 97 and 101"
+        },
+        {
+          "title": "MSD Manual Professional: Urinary Calculi",
+          "url": "https://www.msdmanuals.com/professional/genitourinary-disorders/urinary-calculi/urinary-calculi"
+        }
+      ]
+    },
+    {
+      "id": "renal-cystine-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Renal & Urinary",
+      "topic": "Kidney stones: cystinuria",
+      "difficulty": 2,
+      "stem": "A 15-year-old boy comes to the emergency department because of colicky left flank pain. This is his third kidney stone in 2 years. His father also had stones as a young man. A concentrated, acidified urine sample shows flat, six-sided crystals. A urine sodium cyanide-nitroprusside test turns purple.",
+      "leadIn": "A defect in kidney reabsorption of which group of amino acids is the most likely cause?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cystine, ornithine, lysine, and arginine"
+        },
+        {
+          "id": "b",
+          "text": "Neutral amino acids, including tryptophan"
+        },
+        {
+          "id": "c",
+          "text": "Glycine, proline, and hydroxyproline"
+        },
+        {
+          "id": "d",
+          "text": "Phenylalanine and tyrosine"
+        },
+        {
+          "id": "e",
+          "text": "Leucine, isoleucine, and valine"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: cystine, ornithine, lysine, and arginine (cystinuria). Why: Your El-Husseiny nephrology notes (pp. 100-101) say these four amino acids (COLA) share one transporter in the proximal tubule, so a defect in it lets all four spill into urine. Only cystine is poorly soluble, so it forms stones. The crystals are hexagonal, and the cyanide-nitroprusside test is positive because it detects the sulfur groups of cysteine. MSD says cystine stones occur only in people with cystinuria and that typical hexagonal crystals are found in a concentrated, acidified urine sample.",
+      "whyWrong": {
+        "b": "Loss of neutral amino acids, including tryptophan, is Hartnup disease, which causes a pellagra-like rash, not stones (standard teaching).",
+        "c": "Loss of glycine, proline, and hydroxyproline is iminoglycinuria, a harmless finding that does not cause stones (standard teaching).",
+        "d": "Phenylketonuria is a defect of the enzyme that converts phenylalanine to tyrosine, not a transport defect in the kidney (standard teaching).",
+        "e": "Maple syrup urine disease is a defect in breaking down leucine, isoleucine, and valine, not in kidney transport (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Nephrology (Emily's file), Cystine stones, pp. 100-101"
+        },
+        {
+          "title": "MSD Manual Professional: Urinary Calculi",
+          "url": "https://www.msdmanuals.com/professional/genitourinary-disorders/urinary-calculi/urinary-calculi"
+        }
+      ]
+    },
+    {
+      "id": "renal-atn-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Renal & Urinary",
+      "topic": "Acute kidney injury: acute tubular necrosis",
+      "difficulty": 2,
+      "stem": "A 68-year-old man is in the intensive care unit with septic shock from pneumonia. His blood pressure stayed below 80/50 mm Hg for 6 hours before it responded to fluids and norepinephrine. Over the next 3 days, his serum creatinine rises from 1.0 to 3.4 mg/dL and his urine output falls. Urine microscopy shows many muddy brown granular casts and tubular epithelial cells. Fractional excretion of sodium is 3%.",
+      "leadIn": "Cells in which part of the nephron are most likely to have been injured?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Proximal tubule"
+        },
+        {
+          "id": "b",
+          "text": "Glomerular podocytes"
+        },
+        {
+          "id": "c",
+          "text": "Descending thin limb"
+        },
+        {
+          "id": "d",
+          "text": "Macula densa"
+        },
+        {
+          "id": "e",
+          "text": "Inner medullary collecting duct"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the proximal tubule (acute tubular necrosis, ATN). Why: Your El-Husseiny nephrology notes (p. 116) describe ATN as injury and death of tubular cells, the most common cause of intrinsic acute kidney injury. Dead cells plug the tubules and lower GFR. Muddy brown casts are the classic urine finding. Damaged tubules cannot reabsorb sodium (FENa above 2%) or concentrate urine. StatPearls says ischemia is the most common cause, that FENa below 1% favors prerenal disease and above 2% favors ATN, and that the proximal tubule was affected in over 90% of biopsies in a large review. The thick ascending limb is also prone to cast formation (StatPearls).",
+      "whyWrong": {
+        "b": "Podocyte injury causes nephrotic-range protein loss, not muddy brown casts and a high FENa (standard teaching).",
+        "c": "The descending thin limb is not a main site of injury in ATN; the proximal tubule is affected in most cases (StatPearls).",
+        "d": "The macula densa senses sodium chloride delivery but is not the main site of injury in ATN (standard teaching).",
+        "e": "Collecting duct injury is not the typical ATN pattern; biopsies show the proximal tubule affected in over 90% of cases (StatPearls)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Nephrology (Emily's file), Acute tubular necrosis, p. 116"
+        },
+        {
+          "title": "StatPearls: Acute Tubular Necrosis",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK507815/"
+        }
+      ]
+    },
+    {
+      "id": "renal-ain-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Renal & Urinary",
+      "topic": "Acute kidney injury: acute interstitial nephritis",
+      "difficulty": 2,
+      "stem": "A 52-year-old woman has been treated with intravenous ampicillin for 12 days for an infection that is now cured. She now has a temperature of 38.3°C (101°F) and a pink, flat, bumpy rash on her trunk. Her serum creatinine has risen from 0.8 to 2.5 mg/dL. Urinalysis shows white blood cells and white blood cell casts; urine culture is negative. The blood eosinophil count is high.",
+      "leadIn": "Which of the following is the most appropriate next step in management?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Stop the ampicillin"
+        },
+        {
+          "id": "b",
+          "text": "Begin hemodialysis"
+        },
+        {
+          "id": "c",
+          "text": "Start prednisone and keep the ampicillin"
+        },
+        {
+          "id": "d",
+          "text": "Give IV saline and keep the ampicillin"
+        },
+        {
+          "id": "e",
+          "text": "Start cyclophosphamide"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: stop the ampicillin (drug-induced acute interstitial nephritis). Why: Your El-Husseiny nephrology notes (p. 120) describe a drug allergy that damages the interstitium and tubules. Fever, a maculopapular rash, and kidney injury 1 to 3 weeks after starting a beta-lactam, an NSAID, a sulfa drug, rifampin, a diuretic, or a proton pump inhibitor strongly suggest it, and symptoms almost always resolve after the drug is stopped. MSD says beta-lactam antibiotics are the most common cause, white blood cell casts and sterile pyuria are typical, and the full triad of fever, rash, and eosinophilia occurs in fewer than 10% of drug-induced cases. Treatment starts with removing the cause; corticosteroids may speed recovery and work best within 2 weeks of stopping the drug, ideally after biopsy confirmation (MSD). Other source: your El-Husseiny nephrology notes call blood eosinophilia and urine eosinophils the most important clues; MSD says urine eosinophils cannot be relied on to make or exclude the diagnosis.",
+      "whyWrong": {
+        "b": "She has no urgent reason for dialysis, such as severe hyperkalemia, fluid overload, or uremic symptoms (standard teaching).",
+        "c": "The offending drug must be stopped first; corticosteroids are an add-on that MSD suggests only after biopsy confirmation.",
+        "d": "Saline helps prerenal kidney injury; this is an allergic injury, and continuing the drug keeps it going (standard teaching).",
+        "e": "Cyclophosphamide is used for diseases such as anti-GBM disease (StatPearls Goodpasture Syndrome), not drug-induced interstitial nephritis."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Nephrology (Emily's file), Acute interstitial nephritis, p. 120"
+        },
+        {
+          "title": "MSD Manual Professional: Tubulointerstitial Nephritis",
+          "url": "https://www.msdmanuals.com/professional/nephrology/tubulointerstitial-diseases/tubulointerstitial-nephritis"
+        }
+      ]
+    },
+    {
+      "id": "renal-papillary-necrosis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Renal & Urinary",
+      "topic": "Renal papillary necrosis",
+      "difficulty": 2,
+      "stem": "A 20-year-old Black man comes to the emergency department because of bright red urine that started suddenly this morning, followed by colicky right flank pain. He has sickle cell trait. He takes no medicines and has no fever. Urinalysis shows many red blood cells and no casts. CT scan shows small cavities at the tips of several renal pyramids and a filling defect in the right ureter.",
+      "leadIn": "His condition most likely began with which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Medullary ischemia from sickled red cells"
+        },
+        {
+          "id": "b",
+          "text": "Immune complex deposits in the glomeruli"
+        },
+        {
+          "id": "c",
+          "text": "Ascending bacterial infection of the renal pelvis"
+        },
+        {
+          "id": "d",
+          "text": "Crystals forming in the collecting ducts"
+        },
+        {
+          "id": "e",
+          "text": "A defect in type IV collagen"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: ischemia of the renal medulla from sickled red cells, causing renal papillary necrosis. Why: Your El-Husseiny nephrology notes (p. 122) list four main causes of papillary necrosis: sickle cell disease or trait, analgesic nephropathy, acute pyelonephritis or urinary obstruction, and diabetes. Sickled cells block small vessels and cause ischemia, most often in children and young adults, and sudden gross hematuria in such a patient suggests papillary necrosis. Dead papillae slough off and can block the ureter, causing colicky flank pain. The medulla has low oxygen and high salt concentration, which promotes sickling (standard teaching). MSD (Analgesic Nephropathy) describes flank pain, hematuria, and passage of a renal papilla, and notes that patients with analgesic nephropathy have a higher risk of urothelial (transitional cell) cancer.",
+      "whyWrong": {
+        "b": "Immune complex glomerulonephritis causes red cell casts and protein loss, not dead papillae in the medulla (standard teaching).",
+        "c": "Pyelonephritis is another cause of papillary necrosis (your El-Husseiny nephrology notes, p. 122), but he has no fever, and his sickle cell trait explains the injury.",
+        "d": "Crystal stones can block the ureter, but they do not leave cavities at the tips of the pyramids (standard teaching).",
+        "e": "Type IV collagen defects cause Alport syndrome, with hematuria from birth, deafness, and eye problems (your El-Husseiny nephrology notes, p. 83)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Nephrology (Emily's file), Renal papillary necrosis, p. 122"
+        },
+        {
+          "title": "MSD Manual Professional: Analgesic Nephropathy",
+          "url": "https://www.msdmanuals.com/professional/nephrology/tubulointerstitial-diseases/analgesic-nephropathy"
+        }
+      ]
+    },
+    {
+      "id": "renal-rhabdomyolysis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Renal & Urinary",
+      "topic": "Acute kidney injury: rhabdomyolysis",
+      "difficulty": 2,
+      "stem": "A 23-year-old military recruit is brought to the emergency department after collapsing during a long run in hot weather. His thigh muscles are tender. His urine is dark brown. A urine dipstick is 3+ for blood, but microscopy shows 0 to 2 red blood cells per high-power field. Serum creatine kinase is 48,000 U/L. Serum potassium is 6.0 mEq/L, phosphate is high, and creatinine is 2.1 mg/dL.",
+      "leadIn": "Which substance in the urine most likely explains the dipstick result?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Myoglobin"
+        },
+        {
+          "id": "b",
+          "text": "Bilirubin"
+        },
+        {
+          "id": "c",
+          "text": "Porphobilinogen"
+        },
+        {
+          "id": "d",
+          "text": "Urobilinogen"
+        },
+        {
+          "id": "e",
+          "text": "Ketone bodies"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: myoglobin (rhabdomyolysis). Why: Your El-Husseiny nephrology notes (p. 119) explain that the dipstick blood pad reacts with the heme in both hemoglobin and myoglobin, so a positive test without red cells on microscopy suggests myoglobin. Muscle injury from crushing, long muscle activity such as seizures, or drugs releases myoglobin and electrolytes. Heme pigment damages tubules directly and narrows kidney blood vessels, causing acute tubular necrosis, and cell breakdown raises potassium, phosphate, and uric acid. MSD says a creatine kinase above 5 times the upper limit of normal is typically required for the diagnosis, lists extreme exercise, statins, and alcohol among causes, and says treatment is supportive with IV fluids plus treatment of the cause.",
+      "whyWrong": {
+        "b": "Bilirubin has its own dipstick pad and does not make the blood pad positive (standard teaching).",
+        "c": "Porphobilinogen is seen in acute intermittent porphyria and does not react with the blood pad (standard teaching).",
+        "d": "Urobilinogen has its own dipstick pad and points to liver or hemolytic disease, not muscle injury (standard teaching).",
+        "e": "Ketones have their own dipstick pad and do not make the blood pad positive (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Nephrology (Emily's file), Rhabdomyolysis, p. 119"
+        },
+        {
+          "title": "MSD Manual Professional: Rhabdomyolysis",
+          "url": "https://www.msdmanuals.com/professional/nephrology/acute-kidney-injury/rhabdomyolysis"
+        }
+      ]
+    },
+    {
+      "id": "renal-adpkd-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Genetics",
+      "system": "Renal & Urinary",
+      "topic": "Autosomal dominant polycystic kidney disease",
+      "difficulty": 2,
+      "stem": "A 39-year-old man comes to the physician because of dull flank pain on both sides. His blood pressure is 158/98 mm Hg. Both kidneys are large and easy to feel. Ultrasound shows many cysts in both kidneys and several in the liver. His father started dialysis at age 58, and his paternal aunt died of a brain hemorrhage at age 45. Genetic testing shows a mutation on chromosome 16.",
+      "leadIn": "This mutation most likely affects the gene for which protein?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Polycystin-1"
+        },
+        {
+          "id": "b",
+          "text": "Fibrocystin"
+        },
+        {
+          "id": "c",
+          "text": "Type IV collagen alpha-5 chain"
+        },
+        {
+          "id": "d",
+          "text": "Tuberin"
+        },
+        {
+          "id": "e",
+          "text": "VHL tumor suppressor"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: polycystin-1 (autosomal dominant polycystic kidney disease, ADPKD). Why: MSD says the PKD1 gene on chromosome 16 codes for polycystin-1 and causes most cases, while PKD2 on chromosome 4 codes for polycystin-2. Your El-Husseiny nephrology notes (pp. 131-132) say PKD1 causes 85% and PKD2 15% of cases, and that ADPKD is the most common hereditary cause of kidney failure in adults. MSD describes intracranial aneurysms in about 4% of young adults and up to 10% of older adults, liver cysts in most patients (usually without liver failure), mitral valve prolapse, and hypertension in 40 to 50%. Kidney failure develops in 35 to 45% by age 60. Tolvaptan, a vasopressin receptor 2 blocker, may slow kidney growth and loss of function. Correction: your El-Husseiny nephrology notes (p. 131) say PKD1 and PKD2 code for fibrocystin. They code for polycystin-1 and polycystin-2 (MSD); fibrocystin is the protein of autosomal recessive polycystic kidney disease (standard teaching).",
+      "whyWrong": {
+        "b": "Fibrocystin is the protein of autosomal recessive polycystic kidney disease, which usually shows up in infants (standard teaching), not the chromosome 16 adult disease.",
+        "c": "The alpha-5 chain of type IV collagen is the X-linked Alport gene, which causes nephritis with deafness, not cysts (your El-Husseiny nephrology notes, p. 83).",
+        "d": "Tuberin is the TSC2 gene product in tuberous sclerosis, which can cause kidney cysts but also skin, brain, and heart lesions (standard teaching).",
+        "e": "The VHL gene is on chromosome 3 and causes von Hippel-Lindau disease with kidney cysts and renal cell cancer (MSD Renal Cell Carcinoma)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Nephrology (Emily's file), Autosomal dominant polycystic kidney disease, pp. 131-132"
+        },
+        {
+          "title": "MSD Manual Professional: Autosomal Dominant Polycystic Kidney Disease (ADPKD)",
+          "url": "https://www.msdmanuals.com/professional/genitourinary-disorders/cystic-kidney-disease/autosomal-dominant-polycystic-kidney-disease-adpkd"
+        }
+      ]
+    },
+    {
+      "id": "renal-rcc-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Renal & Urinary",
+      "topic": "Renal cell carcinoma: paraneoplastic syndromes",
+      "difficulty": 2,
+      "stem": "A 63-year-old man comes to the physician because of blood in his urine and a 7-kg (15-lb) weight loss. He has smoked 2 packs of cigarettes daily for 40 years. A firm mass is felt in the right flank. Hemoglobin is 18.6 g/dL, and serum calcium is 11.9 mg/dL. CT scan shows a 9-cm solid mass in the right kidney with tumor extending into the renal vein and inferior vena cava. Oxygen saturation is 97% on room air.",
+      "leadIn": "Which of the following best explains his high hemoglobin?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tumor secretion of erythropoietin"
+        },
+        {
+          "id": "b",
+          "text": "Volume loss from hypercalcemia"
+        },
+        {
+          "id": "c",
+          "text": "JAK2 mutation in marrow stem cells"
+        },
+        {
+          "id": "d",
+          "text": "Hypoxia from lung metastases"
+        },
+        {
+          "id": "e",
+          "text": "Carbon monoxide from cigarette smoke"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: erythropoietin made by the tumor (renal cell carcinoma). Why: Your El-Husseiny nephrology notes (pp. 135-137) say tumor cells can secrete hormones such as erythropoietin (causing polycythemia), PTHrP (causing hypercalcemia), renin, or ACTH. The tumor can grow into the renal vein and inferior vena cava, spread to the lungs and bone, and is resistant to chemotherapy and radiation. MSD says smoking doubles the risk, von Hippel-Lindau disease is a familial risk factor, hematuria is the most common sign, polycythemia can result from increased erythropoietin activity, and hypercalcemia is common. Recent change: your El-Husseiny nephrology notes list aldesleukin (IL-2) immunotherapy for advanced disease. MSD now names immune checkpoint inhibitors (PD-1 or PD-L1 antibodies, often in first-line combinations) and tyrosine kinase inhibitors such as sunitinib and cabozantinib as main options, and says only about 10 to 20% of patients respond to IL-2.",
+      "whyWrong": {
+        "b": "Volume loss can raise hemoglobin a little by concentrating the blood, but not to 18.6 g/dL; the tumor itself is the more direct cause (standard teaching).",
+        "c": "A JAK2 mutation causes polycythemia vera, a bone marrow disease that is not linked to a kidney mass (standard teaching).",
+        "d": "Lung metastases are common in this cancer (MSD), but his oxygen saturation is normal, so low oxygen does not explain it.",
+        "e": "Carbon monoxide from smoking can raise hemoglobin slightly, but not this much; a kidney tumor making erythropoietin explains it better (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Nephrology (Emily's file), Renal cell carcinoma, pp. 135-137"
+        },
+        {
+          "title": "MSD Manual Professional: Renal Cell Carcinoma",
+          "url": "https://www.msdmanuals.com/professional/genitourinary-disorders/genitourinary-cancer/renal-cell-carcinoma"
+        }
+      ]
+    },
+    {
+      "id": "renal-wilms-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Renal & Urinary",
+      "topic": "Wilms tumor and WAGR syndrome",
+      "difficulty": 1,
+      "stem": "A 3-year-old girl is brought to the physician because her mother felt a lump in her belly while bathing her. The girl was born without irises in both eyes and has delayed speech. She has a smooth, firm mass in the left flank that does not cross the midline. Ultrasound shows a solid mass arising from the left kidney.",
+      "leadIn": "Deletion of which of the following genes is most likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "WT1"
+        },
+        {
+          "id": "b",
+          "text": "MYCN"
+        },
+        {
+          "id": "c",
+          "text": "RB1"
+        },
+        {
+          "id": "d",
+          "text": "VHL"
+        },
+        {
+          "id": "e",
+          "text": "APC"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: WT1 (Wilms tumor with WAGR syndrome). Why: Your El-Husseiny nephrology notes (pp. 137-138) describe Wilms tumor as the most common kidney cancer of early childhood (ages 2 to 4), caused by loss of the WT1 or WT2 tumor suppressor genes on chromosome 11. It usually presents as a smooth, one-sided belly mass that does not cross the midline, often found by a caregiver. WAGR complex (Wilms tumor, aniridia, genitourinary malformations, and intellectual disability) comes from a WT1 deletion; Denys-Drash syndrome comes from a WT1 mutation, and Beckwith-Wiedemann syndrome from WT2. MSD says it usually appears before age 5, a painless abdominal mass is the most frequent finding, and the tumor has blastemal, stromal, and epithelial parts. Nephrectomy is usually done instead of biopsy, and cure rates are about 85 to 95% when the tumor is confined to the kidney (MSD).",
+      "whyWrong": {
+        "b": "MYCN amplification is linked to neuroblastoma (standard teaching), which forms an irregular mass that can cross the midline (your El-Husseiny nephrology notes, p. 137).",
+        "c": "RB1 loss causes retinoblastoma, a tumor of the retina, not aniridia with a kidney mass (standard teaching).",
+        "d": "VHL loss causes von Hippel-Lindau disease with renal cell carcinoma in adults (MSD Renal Cell Carcinoma).",
+        "e": "APC loss causes familial adenomatous polyposis with many colon polyps, not a kidney tumor (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Nephrology (Emily's file), Wilms tumor, pp. 137-138"
+        },
+        {
+          "title": "MSD Manual Professional: Wilms Tumor",
+          "url": "https://www.msdmanuals.com/professional/pediatrics/pediatric-cancers/wilms-tumor"
+        }
+      ]
+    },
+    {
+      "id": "renal-bladder-scc-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Renal & Urinary",
+      "topic": "Bladder cancer: squamous cell carcinoma",
+      "difficulty": 2,
+      "stem": "A 49-year-old man who grew up farming irrigated fields in Egypt comes to the physician because of painless red urine for 2 months. He has never smoked and has never worked with dyes. Cystoscopy shows a mass in the bladder wall. Biopsy shows invasive cancer made of malignant squamous cells that produce keratin.",
+      "leadIn": "Which of the following is the most likely underlying risk factor?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Schistosoma haematobium infection"
+        },
+        {
+          "id": "b",
+          "text": "Exposure to aromatic amines"
+        },
+        {
+          "id": "c",
+          "text": "Long-term cyclophosphamide therapy"
+        },
+        {
+          "id": "d",
+          "text": "Human papillomavirus infection"
+        },
+        {
+          "id": "e",
+          "text": "Phenacetin overuse"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: chronic Schistosoma haematobium infection. Why: Your El-Husseiny nephrology notes (p. 139) explain that long-term irritation of the bladder leads to squamous metaplasia, then dysplasia, then squamous cell carcinoma. Their listed risk factors are Schistosoma haematobium infection (common in the Middle East), chronic cystitis, smoking, and long-standing stones, and it presents with painless hematuria. MSD says urothelial (transitional cell) carcinoma causes more than 90% of bladder cancers, and squamous cell carcinoma is linked to parasitic infection or chronic irritation, as in schistosomiasis, long-term catheter use, or bladder stones. Diagnosis is by cystoscopy and biopsy (MSD). Schistosoma haematobium is common in Africa, including Egypt (standard teaching).",
+      "whyWrong": {
+        "b": "Aromatic amines (aniline dyes) raise bladder cancer risk (MSD), mainly urothelial carcinoma, and he never worked with dyes.",
+        "c": "Long-term cyclophosphamide raises bladder cancer risk (MSD), but he has no history of taking it.",
+        "d": "HPV is the main cause of cervical squamous cancer and is not a main risk factor for bladder cancer (standard teaching).",
+        "e": "Phenacetin is one of the risk factors your El-Husseiny nephrology notes list for urothelial carcinoma (p. 139), not squamous cell carcinoma, and he has no history of overuse."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Nephrology (Emily's file), Bladder squamous cell carcinoma, p. 139"
+        },
+        {
+          "title": "MSD Manual Professional: Bladder Cancer",
+          "url": "https://www.msdmanuals.com/professional/genitourinary-disorders/genitourinary-cancers/bladder-cancer"
+        }
+      ]
+    },
+    {
+      "id": "renal-distal-rta-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Renal & Urinary",
+      "topic": "Renal tubular acidosis: type 1 (distal)",
+      "difficulty": 3,
+      "stem": "A 36-year-old woman with Sjögren syndrome comes to the physician because of muscle weakness for 3 weeks. Serum studies show: sodium 140 mEq/L, potassium 2.9 mEq/L, chloride 115 mEq/L, and bicarbonate 15 mEq/L. Arterial pH is 7.30. Urine pH is 6.5. Abdominal x-ray shows calcium deposits in both kidneys.",
+      "leadIn": "Impaired function of which of the following is the most likely cause of her acid-base disorder?",
+      "options": [
+        {
+          "id": "a",
+          "text": "H+ secretion by alpha-intercalated cells"
+        },
+        {
+          "id": "b",
+          "text": "Bicarbonate reclaiming in the proximal tubule"
+        },
+        {
+          "id": "c",
+          "text": "Aldosterone action on principal cells"
+        },
+        {
+          "id": "d",
+          "text": "Na-K-2Cl transport in the thick ascending limb"
+        },
+        {
+          "id": "e",
+          "text": "Na-Cl transport in the distal convoluted tubule"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: hydrogen ion secretion by alpha-intercalated cells (type 1, or distal, renal tubular acidosis). Why: her anion gap is 140 - (115 + 15) = 10, so this is a normal anion gap (hyperchloremic) metabolic acidosis. Your El-Husseiny nephrology notes (p. 129) say type 1 RTA is a defect in the ability of alpha-intercalated cells to secrete H+, so urine pH stays above 5.5 despite acidosis, potassium is low, and calcium phosphate stones are more likely. Causes include amphotericin B, analgesic nephropathy, urinary tract anomalies, and autoimmune disease. MSD says type 1 RTA is impaired H+ secretion in the distal tubule with urine pH above 5.5, often with hypokalemia, hypercalciuria, and low urine citrate, which can lead to nephrocalcinosis and stones. MSD lists Sjögren syndrome among causes and treats it with sodium bicarbonate or sodium citrate.",
+      "whyWrong": {
+        "b": "Proximal (type 2) RTA is a bicarbonate reabsorption defect; once bicarbonate is depleted the urine pH falls below 5.5 (MSD), unlike her pH of 6.5.",
+        "c": "Low aldosterone effect is type 4 RTA, which causes high potassium, not low (MSD).",
+        "d": "Loss of Na-K-2Cl transport is Bartter syndrome, which causes metabolic alkalosis, not acidosis (your El-Husseiny nephrology notes, p. 126).",
+        "e": "Loss of Na-Cl transport is Gitelman syndrome, which causes metabolic alkalosis and low urine calcium (your El-Husseiny nephrology notes, p. 127)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Nephrology (Emily's file), Renal tubular acidosis, p. 129"
+        },
+        {
+          "title": "MSD Manual Professional: Renal Tubular Acidosis",
+          "url": "https://www.msdmanuals.com/professional/nephrology/renal-transport-abnormalities/renal-tubular-acidosis"
+        }
+      ]
+    },
+    {
+      "id": "renal-liddle-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Renal & Urinary",
+      "topic": "Liddle syndrome",
+      "difficulty": 2,
+      "stem": "A 19-year-old man comes for a follow-up visit because of high blood pressure found at a sports physical. His blood pressure is 168/104 mm Hg. His father had high blood pressure starting at age 22. Serum potassium is 3.0 mEq/L, and bicarbonate is 32 mEq/L. Plasma renin activity and aldosterone are both low.",
+      "leadIn": "Which of the following drugs is most likely to correct his blood pressure and potassium?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Amiloride"
+        },
+        {
+          "id": "b",
+          "text": "Spironolactone"
+        },
+        {
+          "id": "c",
+          "text": "Hydrochlorothiazide"
+        },
+        {
+          "id": "d",
+          "text": "Furosemide"
+        },
+        {
+          "id": "e",
+          "text": "Dexamethasone"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: amiloride (Liddle syndrome). Why: Your El-Husseiny nephrology notes (p. 128) describe Liddle syndrome as an autosomal dominant gain-of-function mutation that increases the activity of the epithelial sodium channel (ENaC) in the collecting tubule. The result is hypertension, low potassium, and metabolic alkalosis that look like hyperaldosteronism, but aldosterone is very low. Amiloride blocks the sodium channel. MSD says the overactive channels are on the luminal membrane of the collecting tubule, that the disorder usually appears before age 35 with low renin and aldosterone, and that triamterene and amiloride are both effective while spironolactone does not help.",
+      "whyWrong": {
+        "b": "Spironolactone blocks the aldosterone receptor, but aldosterone is already low and the channel works without it, so spironolactone does not help (MSD).",
+        "c": "Hydrochlorothiazide would lower blood pressure a little but make potassium loss worse (standard teaching).",
+        "d": "Furosemide would increase potassium loss and worsen the alkalosis (standard teaching).",
+        "e": "Dexamethasone treats glucocorticoid-remediable aldosteronism, in which aldosterone is high, not low (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Nephrology (Emily's file), Liddle syndrome, p. 128"
+        },
+        {
+          "title": "MSD Manual Professional: Liddle Syndrome",
+          "url": "https://www.msdmanuals.com/professional/genitourinary-disorders/renal-transport-abnormalities/liddle-syndrome"
+        }
+      ]
+    },
+    {
+      "id": "renal-atheroembolic-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Renal & Urinary",
+      "topic": "Renal atheroembolic disease",
+      "difficulty": 2,
+      "stem": "A 73-year-old man comes to the physician 3 weeks after cardiac catheterization for chest pain. His serum creatinine has risen from 1.1 to 2.7 mg/dL. He has a lacy purple pattern on the skin of both legs, and several painful blue toes, but his foot pulses are normal. The blood eosinophil count is high, and serum C3 is low. Eye examination shows bright yellow plaques in the retinal arteries.",
+      "leadIn": "A kidney biopsy would most likely show which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Needle-shaped clefts in small renal arteries"
+        },
+        {
+          "id": "b",
+          "text": "Necrotic tubule cells with granular casts"
+        },
+        {
+          "id": "c",
+          "text": "Interstitial infiltrate rich in eosinophils"
+        },
+        {
+          "id": "d",
+          "text": "Fibrinoid necrosis with onion-skinning of arterioles"
+        },
+        {
+          "id": "e",
+          "text": "Linear IgG along the basement membrane"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: needle-shaped clefts in small arteries (cholesterol emboli, or renal atheroembolism). Why: Your El-Husseiny nephrology notes (p. 134) explain that a disrupted plaque showers cholesterol crystals and debris into small arteries, most often after cardiac catheterization or other vascular procedures. Signs can be immediate or delayed by more than 30 days. Skin signs are most common: blue toes with normal pulses, livedo reticularis (a lacy pattern), gangrene, and ulcers. Hollenhorst plaques are bright yellow emboli in retinal arteries. MSD says eosinophilia, eosinophils in the urine, and short-lived low complement may be present, and that the crystals dissolve during tissue processing, leaving biconcave, needle-shaped clefts in the blocked vessels. No treatment removes existing emboli; care aims to prevent more, and anticoagulation may make it worse (MSD). Your El-Husseiny nephrology notes add statins and say many patients never regain normal kidney function.",
+      "whyWrong": {
+        "b": "Granular casts and dead tubule cells are acute tubular necrosis (StatPearls Acute Tubular Necrosis), which does not explain blue toes, retinal plaques, or low complement (standard teaching).",
+        "c": "Eosinophil-rich interstitial infiltrate is drug-induced interstitial nephritis (your El-Husseiny nephrology notes, p. 120); the eosinophilia here comes from cholesterol emboli (MSD).",
+        "d": "Fibrinoid necrosis with onion-skinning is malignant hypertension, which needs a very high blood pressure (standard teaching).",
+        "e": "Linear IgG is anti-GBM disease, which causes nephritis and lung bleeding (your El-Husseiny nephrology notes, p. 84)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Nephrology (Emily's file), Atheroembolic renal disease, p. 134"
+        },
+        {
+          "title": "MSD Manual Professional: Renal Atheroembolism",
+          "url": "https://www.msdmanuals.com/professional/nephrology/renovascular-disorders/renal-atheroembolism"
+        }
+      ]
     }
   ]
 }
