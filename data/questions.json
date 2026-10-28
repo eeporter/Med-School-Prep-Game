@@ -20685,6 +20685,1046 @@
           "url": "https://www.msdmanuals.com/professional/nutritional-disorders/vitamin-deficiency-dependency-and-toxicity/vitamin-a-toxicity"
         }
       ]
+    },
+    {
+      "id": "multi-down-alzheimer-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Genetics",
+      "system": "Multisystem",
+      "topic": "Down syndrome",
+      "difficulty": 2,
+      "stem": "A 46-year-old man with Down syndrome is brought to the physician by his sister because he has become more forgetful over 1 year. He now gets lost in his group home and can no longer do tasks he once did on his own, such as making a sandwich. He had an atrioventricular septal defect repaired in infancy. Serum TSH, vitamin B12, and a hearing test are normal.",
+      "leadIn": "Which of the following best explains why this condition began at an early age in this patient?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Extra copy of the amyloid precursor protein gene"
+        },
+        {
+          "id": "b",
+          "text": "Expansion of CAG repeats in the huntingtin gene"
+        },
+        {
+          "id": "c",
+          "text": "Prion protein misfolding that spreads between neurons"
+        },
+        {
+          "id": "d",
+          "text": "Repeated small strokes from atherosclerosis"
+        },
+        {
+          "id": "e",
+          "text": "Deficiency of thiamine from a poor diet"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: an extra copy of the amyloid precursor protein (APP) gene. Why: your El-Husseiny biochemistry notes (pp. 101-102) explain that about 95% of Down syndrome comes from trisomy 21 by meiotic nondisjunction, almost always in the mother's egg, with older maternal age as a risk factor. About half of babies have heart defects, most often atrioventricular septal defects and VSDs, and 10-15% have gut anomalies such as duodenal atresia. Chromosome 21 carries the APP gene, and the extra copy is thought to speed amyloid buildup, causing early Alzheimer disease. ALL and AML are also more common. MSD agrees that about 95% of cases come from nondisjunction, usually of the maternal chromosome, notes an increased risk of Alzheimer disease at an early age, recommends yearly assessment starting at age 40, and lists hypothyroidism as common, which is why the TSH was checked.",
+      "whyWrong": {
+        "b": "CAG repeat expansion causes Huntington disease, with chorea and a family history, not Down syndrome dementia (standard teaching).",
+        "c": "Prion disease progresses over months with myoclonus and is not linked to trisomy 21 (standard teaching).",
+        "d": "Vascular dementia follows strokes in people with vascular risk factors; it does not explain a steady decline tied to trisomy 21 (standard teaching).",
+        "e": "Thiamine deficiency causes Wernicke-Korsakoff syndrome, usually with heavy alcohol use, eye movement problems, and ataxia (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Down syndrome, pp. 101-102"
+        },
+        {
+          "title": "MSD Manual Professional: Down Syndrome (Trisomy 21)",
+          "url": "https://www.msdmanuals.com/professional/pediatrics/chromosome-and-gene-anomalies/down-syndrome-trisomy-21"
+        }
+      ]
+    },
+    {
+      "id": "multi-prader-willi-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Genetics",
+      "system": "Multisystem",
+      "topic": "Genomic imprinting: Prader-Willi syndrome",
+      "difficulty": 2,
+      "stem": "A 6-year-old boy is brought to the physician because of constant hunger and weight gain. As a newborn he was very floppy and fed so poorly that he needed a feeding tube. Now he searches for food at night and is obese. He has small hands and feet, a small penis with undescended testes, and mild intellectual disability. DNA methylation testing of chromosome 15 shows only the maternal pattern.",
+      "leadIn": "Which of the following is the most likely cause of this patient's condition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Loss of the paternal 15q11-q13 region"
+        },
+        {
+          "id": "b",
+          "text": "Loss of the maternal 15q11-q13 region"
+        },
+        {
+          "id": "c",
+          "text": "Expanded CGG repeat in the FMR1 gene"
+        },
+        {
+          "id": "d",
+          "text": "Microdeletion at chromosome 7q11.23"
+        },
+        {
+          "id": "e",
+          "text": "Microdeletion at chromosome 22q11.2"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: loss of the paternally inherited 15q11-q13 region (Prader-Willi syndrome). Why: your El-Husseiny biochemistry notes (pp. 80-81) explain that in genomic imprinting one parent's copy of a gene is silenced by DNA methylation, so only the other copy works. In the Prader-Willi region, the maternal genes are normally silenced, so the disease appears when the paternal copy is deleted or mutated. About 25% of cases come from maternal uniparental disomy, in which both chromosome 15s come from the mother. Findings are hyperphagia, obesity, intellectual disability, hypogonadism, and hypotonia. MSD's microdeletion table lists a paternal deletion at 15q11 and describes hypotonia, poor feeding, and poor growth in infancy, then obesity, hypogonadism, small hands and feet, intellectual disability, and obsessive-compulsive behaviors in childhood. A maternal-only methylation pattern fits either a paternal deletion or maternal uniparental disomy (standard teaching).",
+      "whyWrong": {
+        "b": "Losing the maternal copy of this region causes Angelman syndrome, with seizures, frequent laughter, and severe intellectual disability (your El-Husseiny biochemistry notes, p. 81).",
+        "c": "FMR1 CGG repeat expansion causes fragile X syndrome, with large ears and large testes, not hyperphagia (your El-Husseiny biochemistry notes, p. 97).",
+        "d": "A 7q11.23 deletion is Williams syndrome, with elfin facies, friendliness, and supravalvular aortic stenosis (your El-Husseiny biochemistry notes, p. 109).",
+        "e": "A 22q11 deletion causes DiGeorge syndrome, with thymic and parathyroid defects and heart anomalies (your El-Husseiny biochemistry notes, p. 109)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Genomic imprinting, pp. 80-81"
+        },
+        {
+          "title": "MSD Manual Professional: Examples of Microdeletion Syndromes (table)",
+          "url": "https://www.msdmanuals.com/professional/multimedia/table/examples-of-microdeletion-syndromes"
+        }
+      ]
+    },
+    {
+      "id": "multi-angelman-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Genetics",
+      "system": "Multisystem",
+      "topic": "Genomic imprinting: Angelman syndrome",
+      "difficulty": 2,
+      "stem": "A 3-year-old girl is brought to the physician because she does not speak any words and has had several seizures. She walks with a stiff, jerky, unsteady gait, often flaps her hands, and laughs frequently, even when nothing seems funny. Her head is small. Genetic testing shows a deletion on chromosome 15q11-q13.",
+      "leadIn": "This deletion most likely involves the copy of chromosome 15 inherited from which parent, and which gene?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mother; UBE3A"
+        },
+        {
+          "id": "b",
+          "text": "Father; UBE3A"
+        },
+        {
+          "id": "c",
+          "text": "Mother; FMR1"
+        },
+        {
+          "id": "d",
+          "text": "Father; SNRPN"
+        },
+        {
+          "id": "e",
+          "text": "Mother; MECP2"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the maternal copy, affecting UBE3A (Angelman syndrome). Why: your El-Husseiny biochemistry notes (p. 81) explain that the paternal UBE3A gene is normally silenced by imprinting, so the brain depends on the maternal copy. Angelman syndrome happens when the mother's copy is lost (by deletion) or carries a mutation, and about 5% of cases come from paternal uniparental disomy. Children laugh at odd times (the 'happy puppet' picture) and have seizures, an unsteady gait (ataxia), and severe intellectual disability. MSD's microdeletion table lists a maternal deletion at 15q11 with seizures, puppet-like ataxia, frequent laughter, hand flapping, and severe intellectual disability.",
+      "whyWrong": {
+        "b": "The paternal UBE3A copy is already silenced in the brain, so losing it does not cause Angelman syndrome (your El-Husseiny biochemistry notes, p. 81).",
+        "c": "FMR1 is on the X chromosome, and its silencing causes fragile X syndrome (your El-Husseiny biochemistry notes, p. 97).",
+        "d": "Losing paternal genes in this region, such as SNRPN, causes Prader-Willi syndrome, with hypotonia, hyperphagia, and obesity (your El-Husseiny biochemistry notes, p. 80); the SNRPN example is standard teaching.",
+        "e": "MECP2 is on the X chromosome, and its mutation causes Rett syndrome, with loss of skills after normal early development (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Angelman syndrome, p. 81"
+        },
+        {
+          "title": "MSD Manual Professional: Examples of Microdeletion Syndromes (table)",
+          "url": "https://www.msdmanuals.com/professional/multimedia/table/examples-of-microdeletion-syndromes"
+        }
+      ]
+    },
+    {
+      "id": "multi-fragile-x-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Genetics",
+      "system": "Multisystem",
+      "topic": "Fragile X syndrome",
+      "difficulty": 2,
+      "stem": "A 7-year-old boy is brought to the physician because of learning problems and delayed speech. He avoids eye contact, flaps his hands when excited, and has frequent tantrums. He has a long, narrow face, a prominent forehead and chin, and large, protruding ears. His mother went through menopause at age 36. A maternal uncle has intellectual disability.",
+      "leadIn": "Which of the following best describes the mechanism of this patient's condition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "CGG repeat expansion that silences FMR1"
+        },
+        {
+          "id": "b",
+          "text": "CAG repeat expansion that makes a toxic protein"
+        },
+        {
+          "id": "c",
+          "text": "CTG repeat expansion in an untranslated region"
+        },
+        {
+          "id": "d",
+          "text": "GAA repeat expansion that lowers frataxin"
+        },
+        {
+          "id": "e",
+          "text": "Loss of the paternal 15q11-q13 region"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: a CGG repeat expansion that silences the FMR1 gene by methylation (fragile X syndrome). Why: your El-Husseiny biochemistry notes (p. 97) explain that fragile X syndrome comes from the FMR1 gene on Xq (the X chromosome's long arm) and is the most common inherited cause of intellectual disability. The CGG repeat expands during oogenesis. A premutation is still under 200 repeats, while more than 200 repeats (full mutation) cause hypermethylation and shut the gene off. Features include a long, thin face, large jaw, large protruding ears, a prominent forehead, large testes after puberty, mild to moderate intellectual disability, severe language delay, behavior problems, and autistic features. MSD agrees that full mutations have more than 200 CGG repeats and premutations have 55 to 200, and notes that women with the premutation may have premature ovarian failure, sometimes with menopause in the mid-30s, as his mother did.",
+      "whyWrong": {
+        "b": "CAG repeat expansions make toxic polyglutamine proteins, as in Huntington disease (standard teaching).",
+        "c": "A CTG repeat in the DMPK gene causes myotonic dystrophy, with grip myotonia, cataracts, and balding (your El-Husseiny biochemistry notes, p. 96); its untranslated-region location is standard teaching.",
+        "d": "GAA repeat expansion lowers frataxin in Friedreich ataxia, with ataxia, cardiomyopathy, and diabetes (standard teaching).",
+        "e": "Loss of the paternal 15q11-q13 region causes Prader-Willi syndrome, with hyperphagia and obesity (your El-Husseiny biochemistry notes, p. 80)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Fragile X syndrome, p. 97"
+        },
+        {
+          "title": "MSD Manual Professional: Fragile X Syndrome",
+          "url": "https://www.msdmanuals.com/professional/pediatrics/chromosome-and-gene-anomalies/fragile-x-syndrome"
+        }
+      ]
+    },
+    {
+      "id": "multi-myotonic-dystrophy-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Multisystem",
+      "topic": "Myotonic dystrophy",
+      "difficulty": 2,
+      "stem": "A 34-year-old man comes to the physician because of trouble letting go of objects he grips and weakness in his hands for 3 years. After a handshake, he cannot open his hand for several seconds. He has droopy eyelids, a long thin face, frontal balding, and small testes. Slit-lamp exam shows cataracts. His father had similar problems and died suddenly at age 52.",
+      "leadIn": "This patient is at greatest risk of sudden death from which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cardiac arrhythmia"
+        },
+        {
+          "id": "b",
+          "text": "Aortic dissection"
+        },
+        {
+          "id": "c",
+          "text": "Pulmonary embolism"
+        },
+        {
+          "id": "d",
+          "text": "Ruptured brain aneurysm"
+        },
+        {
+          "id": "e",
+          "text": "Hypoglycemic coma"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: a cardiac arrhythmia. Why: your El-Husseiny biochemistry notes (p. 96) explain that myotonic dystrophy type 1 is autosomal dominant and comes from a CTG trinucleotide repeat expansion in the DMPK gene. It causes myotonia (slow muscle relaxation, as when a patient cannot release a handshake), muscle wasting, cataracts, testicular atrophy, frontal balding, and arrhythmia; the memory hook is cataracts, toupee (early balding), and gonadal atrophy. MSD agrees that type 1 involves a CTG repeat in DMPK on chromosome 19 with autosomal dominant inheritance, describes delayed relaxation after muscle contraction, ptosis, distal weakness, cataracts, frontal balding, and small testes in men, and says cardiac arrhythmias raise the risk of premature death.",
+      "whyWrong": {
+        "b": "Aortic dissection is a risk in Marfan and vascular Ehlers-Danlos syndromes, not myotonic dystrophy (standard teaching).",
+        "c": "Pulmonary embolism is not a typical cause of death in myotonic dystrophy (standard teaching).",
+        "d": "Brain aneurysms are linked to polycystic kidney disease and some connective tissue diseases, not myotonic dystrophy (standard teaching).",
+        "e": "Myotonic dystrophy is linked to endocrine problems, but sudden death in this family points to the heart (MSD Myotonic Dystrophy)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Myotonic dystrophy type 1, p. 96"
+        },
+        {
+          "title": "MSD Manual Professional: Myotonic Dystrophy",
+          "url": "https://www.msdmanuals.com/professional/pediatrics/inherited-muscular-disorders/myotonic-dystrophy"
+        }
+      ]
+    },
+    {
+      "id": "multi-patau-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Genetics",
+      "system": "Multisystem",
+      "topic": "Trisomy 13 (Patau syndrome)",
+      "difficulty": 2,
+      "stem": "A newborn girl has a cleft lip and palate, very small eyes, an extra finger on each hand, and a punched-out defect of the scalp skin. A loud heart murmur is heard. Her karyotype is 47,XX,+13.",
+      "leadIn": "Brain imaging is most likely to show which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Holoprosencephaly"
+        },
+        {
+          "id": "b",
+          "text": "Dandy-Walker malformation"
+        },
+        {
+          "id": "c",
+          "text": "Periventricular calcifications"
+        },
+        {
+          "id": "d",
+          "text": "Arnold-Chiari type II malformation"
+        },
+        {
+          "id": "e",
+          "text": "Lissencephaly"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: holoprosencephaly, failure of the forebrain to split into two hemispheres. Why: your El-Husseiny biochemistry notes (p. 105) list the features of Patau syndrome (trisomy 13): severe intellectual disability, small eyes (microphthalmia), a small head (microcephaly), rocker-bottom feet, cleft lip and palate, holoprosencephaly, polydactyly, cutis aplasia (missing patches of skin), congenital heart disease, polycystic kidneys, and omphalocele, with death usually by age 1. MSD agrees that trisomy 13 usually comes from nondisjunction, lists holoprosencephaly among its common midline anomalies, along with cleft lip and palate, polydactyly, microphthalmia, and scalp defects, says 57 to 80% of infants have severe heart anomalies, and says about 10% survive beyond the first year.",
+      "whyWrong": {
+        "b": "Dandy-Walker malformation is a cystic fourth ventricle with a small cerebellar vermis, not the typical trisomy 13 brain defect (standard teaching).",
+        "c": "Periventricular calcifications suggest congenital cytomegalovirus infection (standard teaching).",
+        "d": "Arnold-Chiari II malformation goes with lumbosacral myelomeningocele (standard teaching).",
+        "e": "Lissencephaly (smooth brain) comes from a neuronal migration defect, as in Miller-Dieker syndrome (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Patau syndrome, p. 105"
+        },
+        {
+          "title": "MSD Manual Professional: Trisomy 13",
+          "url": "https://www.msdmanuals.com/professional/pediatrics/chromosome-and-gene-anomalies/trisomy-13"
+        }
+      ]
+    },
+    {
+      "id": "multi-williams-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Genetics",
+      "system": "Multisystem",
+      "topic": "Williams syndrome",
+      "difficulty": 2,
+      "stem": "A 3-year-old girl is brought to the physician because of a heart murmur. She has a broad forehead, full cheeks, a wide mouth, and a small upturned nose. She has mild intellectual disability but talks a lot and is very friendly with strangers. Serum calcium is 11.4 mg/dL. Echocardiography shows narrowing of the aorta just above the aortic valve.",
+      "leadIn": "The deleted region in this patient most likely includes the gene for which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Elastin"
+        },
+        {
+          "id": "b",
+          "text": "Fibrillin-1"
+        },
+        {
+          "id": "c",
+          "text": "Type I collagen"
+        },
+        {
+          "id": "d",
+          "text": "TBX1 transcription factor"
+        },
+        {
+          "id": "e",
+          "text": "Dystrophin"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: elastin (Williams syndrome). Why: your El-Husseiny biochemistry notes (p. 109) describe Williams syndrome as a congenital microdeletion on the long arm of chromosome 7 that includes the elastin gene. Findings are 'elfin' facies, intellectual disability, high calcium because the body responds more strongly to vitamin D, good language skills, an unusually friendly manner with strangers, and vessel narrowing, such as supravalvular aortic stenosis and renal artery stenosis. MSD's microdeletion table lists a deletion at 7q11.23 with aortic stenosis, intellectual disability, elfin facies, and transient high calcium in infants. Losing one elastin copy weakens and thickens arterial walls, which narrows the aorta (standard teaching).",
+      "whyWrong": {
+        "b": "Fibrillin-1 mutations cause Marfan syndrome, with tall stature and aortic root dilation (standard teaching).",
+        "c": "Type I collagen mutations cause osteogenesis imperfecta, with fractures and blue sclerae (standard teaching).",
+        "d": "TBX1 lies in the 22q11 region deleted in DiGeorge syndrome, with thymic and parathyroid defects (your El-Husseiny biochemistry notes, p. 109); the gene name is standard teaching.",
+        "e": "Dystrophin mutations cause Duchenne and Becker muscular dystrophy (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Williams syndrome, p. 109"
+        },
+        {
+          "title": "MSD Manual Professional: Examples of Microdeletion Syndromes (table)",
+          "url": "https://www.msdmanuals.com/professional/multimedia/table/examples-of-microdeletion-syndromes"
+        }
+      ]
+    },
+    {
+      "id": "multi-cri-du-chat-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Genetics",
+      "system": "Multisystem",
+      "topic": "Cri-du-chat syndrome",
+      "difficulty": 1,
+      "stem": "A newborn boy has a weak, high-pitched cry that sounds like a mewing kitten. He has a low birth weight, a small head, a round face, widely spaced eyes, and poor muscle tone. A murmur from a ventricular septal defect is heard.",
+      "leadIn": "Which of the following chromosome findings is most likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Deletion of the short arm of chromosome 5"
+        },
+        {
+          "id": "b",
+          "text": "Deletion on the long arm of chromosome 7"
+        },
+        {
+          "id": "c",
+          "text": "Microdeletion at the chromosome 22q11 locus"
+        },
+        {
+          "id": "d",
+          "text": "An extra chromosome 13"
+        },
+        {
+          "id": "e",
+          "text": "Paternal deletion at chromosome 15q11"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: a deletion on the short arm of chromosome 5 (cri-du-chat syndrome, 5p-). Why: your El-Husseiny biochemistry notes (p. 109) describe cri-du-chat syndrome as a congenital deletion of 5p with microcephaly, moderate to severe intellectual disability, a high-pitched, cat-like cry, epicanthal folds, and heart defects such as VSD. MSD describes a high-pitched, mewing cry like a kitten's in the newborn period, hypotonia, low birth weight, microcephaly, a round face with wide-set eyes, frequent heart anomalies, and markedly delayed development, and notes that many children survive into adulthood with significant disability.",
+      "whyWrong": {
+        "b": "A 7q deletion is Williams syndrome, with elfin facies and supravalvular aortic stenosis (your El-Husseiny biochemistry notes, p. 109).",
+        "c": "A 22q11 deletion is DiGeorge syndrome, with thymic aplasia, low calcium, and conotruncal heart defects (your El-Husseiny biochemistry notes, p. 109).",
+        "d": "Trisomy 13 causes holoprosencephaly, cleft lip, and polydactyly (your El-Husseiny biochemistry notes, p. 105).",
+        "e": "A paternal 15q11 deletion is Prader-Willi syndrome, with hypotonia and later hyperphagia (your El-Husseiny biochemistry notes, p. 80)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Cri-du-chat syndrome, p. 109"
+        },
+        {
+          "title": "MSD Manual Professional: Chromosomal Deletion Syndromes",
+          "url": "https://www.msdmanuals.com/professional/pediatrics/chromosome-and-gene-abnormalities/chromosomal-deletion-syndromes"
+        }
+      ]
+    },
+    {
+      "id": "multi-kwashiorkor-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Multisystem",
+      "topic": "Protein-energy malnutrition: kwashiorkor",
+      "difficulty": 1,
+      "stem": "A 2-year-old boy in a refugee camp is brought to a clinic because of swelling of his legs and face for 3 weeks. Since he was weaned 6 months ago, he has eaten mainly maize porridge. He is irritable. He has puffy eyelids, pitting edema of both legs, a protruding abdomen, an enlarged liver, peeling patches of skin, and sparse, light-colored hair. Serum albumin is 1.8 g/dL.",
+      "leadIn": "Which of the following best explains this patient's edema?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Low plasma oncotic pressure from low albumin"
+        },
+        {
+          "id": "b",
+          "text": "Heart failure from thiamine deficiency"
+        },
+        {
+          "id": "c",
+          "text": "Kidney sodium retention from nephrotic syndrome"
+        },
+        {
+          "id": "d",
+          "text": "Lymphatic blockage by filarial worms"
+        },
+        {
+          "id": "e",
+          "text": "Excess antidiuretic hormone secretion"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: low plasma oncotic pressure from low albumin (kwashiorkor). Why: your El-Husseiny biochemistry notes (p. 249) describe kwashiorkor as protein malnutrition causing skin lesions (thickening and patchy color change), edema from low plasma oncotic pressure, and a fatty liver from too little apolipoprotein synthesis, often in a small child with a swollen abdomen (MEALS: malnutrition, edema, anemia, liver, skin). Marasmus, by contrast, is a calorie deficit with muscle wasting and no edema. MSD describes kwashiorkor as the edematous form linked to protein deficiency, with peripheral and periorbital edema from low serum albumin, leaky cell membranes, an enlarged liver, a protruding abdomen, skin that becomes hyperpigmented and fissured, and blond, sparse, brittle hair. MSD warns that refeeding can cause dangerous shifts in fluid and electrolytes, including low phosphate.",
+      "whyWrong": {
+        "b": "Thiamine deficiency can cause wet beriberi with high-output heart failure, but not the skin, hair, and liver changes here (standard teaching).",
+        "c": "Nephrotic syndrome causes edema with heavy proteinuria, not a poor diet with skin and hair changes (standard teaching).",
+        "d": "Filarial lymphatic blockage causes firm swelling of one limb over years, not generalized edema in a malnourished child (standard teaching).",
+        "e": "Excess ADH lowers sodium but does not cause pitting edema (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Protein-energy malnutrition, p. 249"
+        },
+        {
+          "title": "MSD Manual Professional: Protein-Energy Undernutrition (PEU)",
+          "url": "https://www.msdmanuals.com/professional/nutritional-disorders/undernutrition/protein-energy-undernutrition-peu"
+        }
+      ]
+    },
+    {
+      "id": "multi-vitamin-e-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "Multisystem",
+      "topic": "Vitamin E deficiency",
+      "difficulty": 2,
+      "stem": "A 15-year-old girl with cystic fibrosis comes to the physician because of an unsteady gait for 6 months. She has not taken her pancreatic enzymes or vitamins regularly. Exam shows loss of vibration and position sense in her feet, absent ankle reflexes, and a positive Romberg sign. Hemoglobin is 10.6 g/dL with a high reticulocyte count. Serum vitamin B12 and methylmalonic acid are normal.",
+      "leadIn": "Deficiency of which of the following is the most likely cause of her findings?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vitamin E"
+        },
+        {
+          "id": "b",
+          "text": "Vitamin B12"
+        },
+        {
+          "id": "c",
+          "text": "Vitamin A"
+        },
+        {
+          "id": "d",
+          "text": "Vitamin D"
+        },
+        {
+          "id": "e",
+          "text": "Thiamine"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: vitamin E. Why: your El-Husseiny biochemistry notes (p. 247) explain that vitamin E is an antioxidant that protects red cells and membranes from free radical damage. Deficiency causes hemolytic anemia, acanthocytes, muscle weakness, and demyelination of the posterior columns and spinocerebellar tracts. The nerve findings resemble B12 deficiency, but there is no megaloblastic anemia, no high methylmalonic acid, and no hypersegmented neutrophils. MSD lists fat malabsorption, including cystic fibrosis, as a cause, describes mild hemolytic anemia and spinocerebellar ataxia with loss of reflexes and of vibration and position sense, explains that vitamin E prevents lipid peroxidation of cell membranes, and treats malabsorption-related deficiency with oral alpha-tocopherol 15 to 25 mg/kg daily.",
+      "whyWrong": {
+        "b": "B12 deficiency causes similar spinal cord signs, but with megaloblastic anemia and high methylmalonic acid (your El-Husseiny biochemistry notes, p. 247).",
+        "c": "Vitamin A deficiency causes night blindness and dry eyes, not ataxia and hemolysis (standard teaching).",
+        "d": "Vitamin D deficiency causes soft bones and low phosphate, not posterior column loss (standard teaching).",
+        "e": "Thiamine deficiency causes Wernicke encephalopathy or beriberi, not hemolysis (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Vitamin E, p. 247"
+        },
+        {
+          "title": "MSD Manual Professional: Vitamin E Deficiency",
+          "url": "https://www.msdmanuals.com/professional/nutritional-disorders/vitamin-deficiency-dependency-and-toxicity/vitamin-e-deficiency"
+        }
+      ]
+    },
+    {
+      "id": "multi-zinc-acrodermatitis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "Multisystem",
+      "topic": "Zinc deficiency: acrodermatitis enteropathica",
+      "difficulty": 2,
+      "stem": "A 9-month-old boy is brought to the physician because of a rash, hair loss, and diarrhea that began soon after he was weaned from breast milk. Exam shows red, scaly, crusted plaques around his mouth, nose, and eyes, over his diaper area, and on his fingers and toes, with swelling around the nails. His scalp hair is thin. He is irritable and below the 5th percentile for weight.",
+      "leadIn": "Supplementation with which of the following is most likely to resolve this condition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Zinc"
+        },
+        {
+          "id": "b",
+          "text": "Biotin"
+        },
+        {
+          "id": "c",
+          "text": "Niacin"
+        },
+        {
+          "id": "d",
+          "text": "Vitamin A"
+        },
+        {
+          "id": "e",
+          "text": "Copper"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: zinc (acrodermatitis enteropathica). Why: your El-Husseiny biochemistry notes (pp. 248-249) explain that zinc is needed by more than 100 enzymes and forms zinc-finger motifs in transcription factors. Deficiency causes delayed wound healing, weak immunity, hypogonadism, loss of adult body hair, poor taste and smell, and acrodermatitis enteropathica. MSD describes acrodermatitis enteropathica as a rare autosomal recessive disorder of zinc malabsorption, with a psoriasis-like rash around the eyes, nose, and mouth, on the buttocks and perineum, and on the hands and feet, plus hair loss, paronychia, poor immunity, diarrhea, and poor growth. MSD says elemental zinc 1 to 3 mg/kg by mouth daily usually brings complete remission, and notes that biotin, riboflavin, and essential fatty acid deficiencies can look similar. Breast milk zinc is easier to absorb, so symptoms often start at weaning (standard teaching).",
+      "whyWrong": {
+        "b": "Biotin deficiency can cause a similar rash and hair loss, but MSD lists it as a mimic; the timing at weaning and the pattern fit zinc (MSD Zinc Deficiency).",
+        "c": "Niacin deficiency (pellagra) causes a rash on sun-exposed skin with diarrhea and dementia, not a rash around body openings (standard teaching).",
+        "d": "Vitamin A deficiency causes night blindness and dry eyes (standard teaching).",
+        "e": "Copper deficiency causes kinky hair and low muscle tone (Menkes disease), not this rash (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Zinc, pp. 248-249"
+        },
+        {
+          "title": "MSD Manual Professional: Zinc Deficiency",
+          "url": "https://www.msdmanuals.com/professional/nutritional-disorders/mineral-deficiency-and-toxicity/zinc-deficiency"
+        }
+      ]
+    },
+    {
+      "id": "multi-alcohol-hypoglycemia-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "Multisystem",
+      "topic": "Ethanol metabolism: hypoglycemia",
+      "difficulty": 3,
+      "stem": "A 4-year-old boy is brought to the emergency department because he is sleepy and sweaty. The night before, he drank leftover mixed drinks after a family party and ate nothing for breakfast. He is difficult to wake. His fingerstick glucose is 36 mg/dL, and his blood alcohol level is elevated. He wakes up after IV dextrose.",
+      "leadIn": "Which of the following best explains his low blood glucose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "High NADH/NAD+ ratio blocking gluconeogenesis"
+        },
+        {
+          "id": "b",
+          "text": "Alcohol stimulating insulin release from beta cells"
+        },
+        {
+          "id": "c",
+          "text": "Alcohol blocking glucose absorption in the gut"
+        },
+        {
+          "id": "d",
+          "text": "Acetaldehyde destroying liver glycogen stores"
+        },
+        {
+          "id": "e",
+          "text": "Kidney glucose loss from tubular injury"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: a high NADH/NAD+ ratio in the liver that blocks gluconeogenesis. Why: your El-Husseiny biochemistry notes (p. 251) explain that alcohol dehydrogenase and acetaldehyde dehydrogenase both make NADH, so ethanol raises the NADH/NAD+ ratio in the liver. This pushes pyruvate to lactate (lactic acidosis) and oxaloacetate to malate, which stops gluconeogenesis and causes fasting hypoglycemia, and it pushes acetyl-CoA into ketone production. The same page notes that fomepizole blocks alcohol dehydrogenase and disulfiram blocks acetaldehyde dehydrogenase. MSD warns that young children who drink alcohol are at significant risk of hypoglycemia because alcohol impairs gluconeogenesis and their smaller glycogen stores are quickly used up, and advises a fingerstick glucose to rule out hypoglycemia. After an overnight fast, glycogen is low, so the liver depends on gluconeogenesis (standard teaching).",
+      "whyWrong": {
+        "b": "Alcohol does not cause hypoglycemia by raising insulin; insulin falls when glucose is low (standard teaching).",
+        "c": "Alcohol does not block glucose absorption, and he ate nothing to absorb (standard teaching).",
+        "d": "Glycogen runs low from fasting and small stores in children, not from destruction by acetaldehyde (MSD Alcohol Toxicity and Withdrawal).",
+        "e": "Kidney glucose loss would not cause this, and alcohol does not injure the tubules this way (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Ethanol metabolism, p. 251"
+        },
+        {
+          "title": "MSD Manual Professional: Alcohol Toxicity and Withdrawal",
+          "url": "https://www.msdmanuals.com/professional/special-subjects/illicit-drugs-and-intoxicants/alcohol-toxicity-and-withdrawal"
+        }
+      ]
+    },
+    {
+      "id": "resp-hypersensitivity-pneumonitis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Respiratory",
+      "topic": "Hypersensitivity pneumonitis",
+      "difficulty": 2,
+      "stem": "A 48-year-old dairy farmer comes to the physician because of episodes of fever, chills, cough, and shortness of breath. The episodes start about 6 hours after he forks moldy hay in the barn and clear within 2 days. He does not smoke. Chest CT shows patchy ground-glass opacities and small centrilobular nodules. Bronchoalveolar lavage shows many lymphocytes, with more CD8 than CD4 cells.",
+      "leadIn": "A lung biopsy is most likely to show which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Poorly formed granulomas around small airways"
+        },
+        {
+          "id": "b",
+          "text": "Caseating granulomas containing acid-fast bacilli"
+        },
+        {
+          "id": "c",
+          "text": "Ferruginous bodies in a fibrotic interstitium"
+        },
+        {
+          "id": "d",
+          "text": "Birefringent particles in hilar fibrotic nodules"
+        },
+        {
+          "id": "e",
+          "text": "Hyaline membranes lining the alveoli"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: loosely formed, non-necrotizing granulomas around the small airways (hypersensitivity pneumonitis, farmer's lung). Why: your El-Husseiny respiratory notes (p. 102) describe hypersensitivity pneumonitis as a mixed type III and type IV hypersensitivity reaction to inhaled organic antigens, often in farmers and bird keepers. Fever, cough, and shortness of breath start hours after exposure and resolve once the exposure stops, while chronic exposure leads to interstitial fibrosis. Noncaseating granulomas form, as they also do in berylliosis. MSD names thermophilic actinomycetes in hay dust as the cause of farmer's lung, describes dyspnea 4 to 8 hours after exposure, lists poorly formed non-necrotizing granulomas on biopsy, and describes a lavage lymphocytosis above 40% with a CD4/CD8 ratio below 1. MSD calls antigen avoidance the most important part of long-term care and uses glucocorticoids for acute disease.",
+      "whyWrong": {
+        "b": "Caseating granulomas with acid-fast bacilli mean tuberculosis, which does not come and go with hay exposure (standard teaching).",
+        "c": "Ferruginous bodies mark asbestosis, from asbestos fibers, not organic dust (your El-Husseiny respiratory notes, p. 102).",
+        "d": "Birefringent particles in fibrotic nodules with eggshell node calcification mark silicosis (your El-Husseiny respiratory notes, p. 102).",
+        "e": "Hyaline membranes are the pattern of ARDS, not repeated short episodes after hay exposure (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Respiratory System (Emily's file), Hypersensitivity pneumonitis, p. 102"
+        },
+        {
+          "title": "MSD Manual Professional: Hypersensitivity Pneumonitis",
+          "url": "https://www.msdmanuals.com/professional/pulmonary-disorders/interstitial-lung-diseases/hypersensitivity-pneumonitis"
+        }
+      ]
+    },
+    {
+      "id": "resp-obstructive-sleep-apnea-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Respiratory",
+      "topic": "Obstructive sleep apnea",
+      "difficulty": 1,
+      "stem": "A 52-year-old man comes to the physician because he falls asleep while driving and at work. His wife says he snores loudly and sometimes stops breathing for several seconds before gasping. He has obesity (BMI 36 kg/m2), a neck circumference of 46 cm, and hypertension that is hard to control. His daytime arterial blood gas is normal.",
+      "leadIn": "Which of the following best explains his breathing pauses at night?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Upper airway collapse as muscles relax in sleep"
+        },
+        {
+          "id": "b",
+          "text": "Loss of brainstem drive to breathe during sleep"
+        },
+        {
+          "id": "c",
+          "text": "Bronchoconstriction triggered by lying flat"
+        },
+        {
+          "id": "d",
+          "text": "Fluid in the alveoli from heart failure while lying flat"
+        },
+        {
+          "id": "e",
+          "text": "Weak diaphragm from a phrenic nerve injury"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: collapse of the upper airway as its muscles relax during sleep (obstructive sleep apnea). Why: your El-Husseiny respiratory notes (pp. 111-112) describe obstructive sleep apnea as breathing effort against a blocked airway, with normal daytime PaO2. In adults, extra tissue around the throat narrows the airway, and in children large tonsils and adenoids do. The airway-opening muscles weaken as a person falls asleep, so the narrowed airway collapses, causing loud snoring, pauses, and daytime sleepiness. Each pause causes brief high CO2 and low oxygen. MSD agrees that the upper airway collapses repeatedly during sleep, notes OSA is 7 times more common with obesity, lists a large neck circumference as a risk factor, links it strongly to hypertension and atrial fibrillation, and calls polysomnography the gold standard for diagnosis, with an AHI of 5 or more per hour plus symptoms. MSD treats it with CPAP and weight loss, and uses hypoglossal nerve stimulation for patients who cannot tolerate CPAP.",
+      "whyWrong": {
+        "b": "Loss of brainstem drive causes central sleep apnea, with pauses without breathing effort, often with heart failure or opioids (standard teaching).",
+        "c": "Bronchoconstriction causes wheezing, as in asthma, not snoring with pauses (standard teaching).",
+        "d": "Fluid in the alveoli from heart failure causes shortness of breath when lying flat, not snoring with pauses (standard teaching).",
+        "e": "Phrenic nerve injury weakens the diaphragm, with breathlessness when lying down, but does not cause snoring with pauses (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Respiratory System (Emily's file), Obstructive sleep apnea, pp. 111-112"
+        },
+        {
+          "title": "MSD Manual Professional: Obstructive Sleep Apnea",
+          "url": "https://www.msdmanuals.com/professional/pulmonary-disorders/sleep-apnea/obstructive-sleep-apnea"
+        }
+      ]
+    },
+    {
+      "id": "pharm-pah-bosentan-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Respiratory",
+      "topic": "Pulmonary arterial hypertension: drug therapy",
+      "difficulty": 2,
+      "stem": "A 31-year-old woman comes to the physician because of worsening shortness of breath on exertion and fainting while climbing stairs. Her mother had the same condition. Exam shows a loud pulmonic component of the second heart sound and a right ventricular heave. Right heart catheterization shows a mean pulmonary artery pressure of 48 mm Hg and a normal pulmonary artery wedge pressure. She shows no response to vasodilator testing. Genetic testing finds a BMPR2 mutation.",
+      "leadIn": "Which of the following drugs treats her condition by blocking the receptor for a vasoconstrictor that is overactive in this disease?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bosentan"
+        },
+        {
+          "id": "b",
+          "text": "Sildenafil"
+        },
+        {
+          "id": "c",
+          "text": "Epoprostenol"
+        },
+        {
+          "id": "d",
+          "text": "Riociguat"
+        },
+        {
+          "id": "e",
+          "text": "Nifedipine"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: bosentan, an endothelin receptor antagonist. Why: your El-Husseiny respiratory notes (p. 109) describe primary (heritable) pulmonary arterial hypertension in young women, often from an inherited inactivating mutation in BMPR2 with autosomal dominant inheritance and variable penetrance. A second hit then raises endothelin (a vasoconstrictor) and lowers nitric oxide and prostacyclin (vasodilators), leading to vessel narrowing, smooth muscle growth, fibrosis, and clots in the small pulmonary arteries. MSD agrees that BMPR2 mutations cause 75% of heritable PAH, inherited as autosomal dominant with incomplete penetrance, describes higher endothelin-1 and thromboxane activity with lower prostacyclin and nitric oxide, and defines pulmonary hypertension by a mean pulmonary artery pressure above 20 mm Hg. MSD treats patients who respond to vasodilator testing with a calcium channel blocker, and otherwise uses oral endothelin-receptor antagonists (bosentan, ambrisentan, macitentan), PDE5 inhibitors, prostacyclin analogs, riociguat, and sotatercept.",
+      "whyWrong": {
+        "b": "Sildenafil blocks PDE5, raising cGMP to boost the nitric oxide pathway; it does not block a vasoconstrictor receptor (MSD Pulmonary Hypertension; standard teaching).",
+        "c": "Epoprostenol replaces the missing vasodilator prostacyclin rather than blocking a vasoconstrictor (MSD Pulmonary Hypertension).",
+        "d": "Riociguat stimulates soluble guanylate cyclase (MSD Pulmonary Hypertension).",
+        "e": "Calcium channel blockers are used only when vasodilator testing is positive, which it was not (MSD Pulmonary Hypertension)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Respiratory System (Emily's file), Primary pulmonary hypertension, p. 109"
+        },
+        {
+          "title": "MSD Manual Professional: Pulmonary Hypertension",
+          "url": "https://www.msdmanuals.com/professional/pulmonary-disorders/pulmonary-hypertension/pulmonary-hypertension"
+        }
+      ]
+    },
+    {
+      "id": "resp-pleural-exudate-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Respiratory",
+      "topic": "Pleural effusion: exudate vs transudate",
+      "difficulty": 2,
+      "stem": "A 64-year-old man is admitted with fever, a productive cough, and right-sided chest pain for 5 days. Chest x-ray shows a right lower lobe infiltrate with a moderate pleural effusion. Thoracentesis shows cloudy fluid. Pleural fluid protein is 4.4 g/dL (serum 6.6 g/dL), and pleural fluid LDH is 520 U/L (serum 280 U/L; upper limit of normal 220 U/L).",
+      "leadIn": "Which of the following best explains the formation of this effusion?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Leaky capillaries from inflammation"
+        },
+        {
+          "id": "b",
+          "text": "High capillary hydrostatic pressure"
+        },
+        {
+          "id": "c",
+          "text": "Low plasma oncotic pressure"
+        },
+        {
+          "id": "d",
+          "text": "Leak of lymph from the thoracic duct"
+        },
+        {
+          "id": "e",
+          "text": "Ascites passing through the diaphragm"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: increased capillary permeability from inflammation (an exudate). Why: your El-Husseiny respiratory notes (p. 123) explain that transudates are low in protein and clear, caused by high hydrostatic pressure (heart failure) or low oncotic pressure (nephrotic syndrome, cirrhosis). Exudates are high in protein and cloudy, caused by inflammation that makes vessel walls leaky, as with cancer, pneumonia, collagen vascular disease, or trauma, and they must be drained because of the risk of infection. Chylothorax is milky fluid high in triglycerides from thoracic duct injury. MSD's Light's criteria call fluid an exudate when the pleural fluid to serum protein ratio is 0.5 or more, the LDH ratio is 0.6 or more, or fluid LDH is at least two-thirds of the upper limit of normal for serum. This fluid meets all three (protein ratio 0.67, LDH ratio 1.9). MSD names pneumonia, cancer, pulmonary embolism, and tuberculosis as the most common causes of exudates, and heart failure as the most common cause of transudates.",
+      "whyWrong": {
+        "b": "High hydrostatic pressure, as in heart failure, makes a low-protein transudate (your El-Husseiny respiratory notes, p. 123).",
+        "c": "Low oncotic pressure, as in nephrotic syndrome or cirrhosis, also makes a transudate (your El-Husseiny respiratory notes, p. 123).",
+        "d": "Thoracic duct leaks make milky fluid high in triglycerides (chylothorax) (your El-Husseiny respiratory notes, p. 123).",
+        "e": "Ascites moving through the diaphragm (hepatic hydrothorax) makes a transudate in someone with cirrhosis (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Respiratory System (Emily's file), Pleural effusions, p. 123"
+        },
+        {
+          "title": "MSD Manual Professional: Pleural Effusion",
+          "url": "https://www.msdmanuals.com/professional/pulmonary-disorders/mediastinal-and-pleural-disorders/pleural-effusion"
+        }
+      ]
+    },
+    {
+      "id": "ob-hellp-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Reproductive",
+      "topic": "HELLP syndrome",
+      "difficulty": 2,
+      "stem": "A 29-year-old woman, gravida 3, para 2, at 32 weeks' gestation comes to the emergency department because of pain in the upper right abdomen and nausea for 1 day. Blood pressure is 162/106 mm Hg. She has 2+ protein in her urine and tenderness under the right ribs. Hemoglobin is 9.8 g/dL, platelet count is 62,000/mm3, AST is 340 U/L, and LDH is 900 U/L. A blood smear shows fragmented red cells (schistocytes).",
+      "leadIn": "Which of the following is the most appropriate management?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Magnesium sulfate and prompt delivery"
+        },
+        {
+          "id": "b",
+          "text": "Platelet transfusion and waiting until 37 weeks"
+        },
+        {
+          "id": "c",
+          "text": "Plasma exchange for thrombotic thrombocytopenic purpura"
+        },
+        {
+          "id": "d",
+          "text": "Oral labetalol and repeat labs in 1 week"
+        },
+        {
+          "id": "e",
+          "text": "Liver biopsy to find the cause of hepatitis"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: give magnesium sulfate and deliver promptly (HELLP syndrome). Why: your El-Husseiny obstetrics notes (p. 81) describe HELLP (hemolysis, elevated liver enzymes, low platelets) as a form of severe preeclampsia. Right upper abdominal pain comes from the swollen liver stretching its capsule, and the blood smear shows schistocytes. It is twice as common in women who have been pregnant before. Management is prompt delivery at any gestational age, IV magnesium sulfate to prevent seizures, continued for 24 hours after delivery, plus blood pressure drugs, and steroids may speed recovery of liver enzymes and platelets. Complications include DIC, abruption, fetal death, ascites, and liver rupture. MSD classifies HELLP as a severe form of preeclampsia, defines it by LDH of 600 IU/L or more, aminotransferases more than twice normal, and platelets below 100,000/µL, says it may present without hypertension or proteinuria in up to 15% of patients, says to deliver immediately once it is diagnosed, and gives magnesium sulfate to prevent seizures in preeclampsia with severe features.",
+      "whyWrong": {
+        "b": "Waiting puts the mother at risk of DIC, abruption, and liver rupture; HELLP calls for delivery at any gestational age (your El-Husseiny obstetrics notes, p. 81).",
+        "c": "Plasma exchange treats TTP, which does not cause this pregnancy-linked picture of high blood pressure, protein in the urine, and liver injury (standard teaching).",
+        "d": "Outpatient treatment with repeat labs delays the delivery that HELLP requires (your El-Husseiny obstetrics notes, p. 81).",
+        "e": "A liver biopsy is not needed and is risky with low platelets (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials of Obstetrics (Emily's file), HELLP syndrome, p. 81"
+        },
+        {
+          "title": "MSD Manual Professional: Preeclampsia and Eclampsia",
+          "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/abnormalities-of-pregnancy/preeclampsia-and-eclampsia"
+        }
+      ]
+    },
+    {
+      "id": "ob-cervical-insufficiency-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Reproductive",
+      "topic": "Cervical insufficiency",
+      "difficulty": 2,
+      "stem": "A 33-year-old woman, gravida 3, para 0, at 8 weeks' gestation comes for her first prenatal visit. Her last two pregnancies ended at 19 and 20 weeks after painless cervical dilation and bulging membranes, with no contractions, bleeding, or infection. Five years ago she had a large cone biopsy of the cervix for high-grade dysplasia. Ultrasound shows a single healthy fetus.",
+      "leadIn": "Which of the following is the most appropriate management?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cerclage placement at 13 to 14 weeks"
+        },
+        {
+          "id": "b",
+          "text": "Strict bed rest from 16 weeks onward"
+        },
+        {
+          "id": "c",
+          "text": "Oral nifedipine starting at 18 weeks"
+        },
+        {
+          "id": "d",
+          "text": "Cervical cultures every 4 weeks"
+        },
+        {
+          "id": "e",
+          "text": "No intervention unless contractions occur"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: a planned (history-indicated) cerclage at 13 to 14 weeks. Why: your El-Husseiny obstetrics notes (p. 56) define cervical insufficiency as a cervix that cannot hold a pregnancy to viability without contractions or labor. Causes include trauma from forceful dilation during second-trimester abortion, cervical tears from a rapid delivery, deep cervical conization, and DES exposure. With one or more unexplained second-trimester losses, serial transvaginal ultrasound of the cervix after 16-20 weeks can help, and an elective cerclage at 13-14 weeks is appropriate once ultrasound shows a normal fetus. A McDonald cerclage is removed at 36-37 weeks. MSD defines the condition as painless cervical dilation causing second-trimester loss, lists a prior cone biopsy (particularly when 1.7 to 2.0 cm or more of the cervix was removed) as a risk factor, and places a cerclage when the cervix is under 2.5 cm before 24 weeks in uncertain cases. Other source: MSD says a history-indicated cerclage is usually placed in the first trimester or before pregnancy.",
+      "whyWrong": {
+        "b": "Bed rest has not been shown to prevent loss from cervical insufficiency (standard teaching).",
+        "c": "Tocolytics such as nifedipine stop contractions; cervical insufficiency happens without contractions (standard teaching).",
+        "d": "Routine cultures do not fix a weak cervix; infection is excluded before an urgent cerclage (standard teaching).",
+        "e": "Waiting for contractions misses the problem, because the cervix opens without them (your El-Husseiny obstetrics notes, p. 56)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials of Obstetrics (Emily's file), Cervical insufficiency, p. 56"
+        },
+        {
+          "title": "MSD Manual Professional: Cervical Insufficiency",
+          "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/abnormalities-of-pregnancy/cervical-insufficiency"
+        }
+      ]
+    },
+    {
+      "id": "ob-cord-prolapse-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Reproductive",
+      "topic": "Umbilical cord prolapse",
+      "difficulty": 1,
+      "stem": "A 27-year-old woman, gravida 2, para 1, at 39 weeks' gestation in labor has a sudden gush of fluid as her membranes rupture. The fetus is in breech presentation. Within a minute, the fetal heart rate drops from 140/min to 70/min and stays there. On vaginal exam, a pulsating loop of umbilical cord is felt in the vagina.",
+      "leadIn": "Which of the following is the most appropriate immediate action?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Elevate the presenting part; urgent cesarean"
+        },
+        {
+          "id": "b",
+          "text": "Gently replace the cord back inside the uterus"
+        },
+        {
+          "id": "c",
+          "text": "Start oxytocin to speed vaginal delivery"
+        },
+        {
+          "id": "d",
+          "text": "Apply fundal pressure to deliver quickly"
+        },
+        {
+          "id": "e",
+          "text": "Continue monitoring and recheck in 1 hour"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: lift the presenting part off the cord and proceed to immediate cesarean delivery. Why: your El-Husseiny obstetrics notes (p. 116) call umbilical cord prolapse an obstetric emergency, because cord compression cuts off fetal oxygen and can kill the fetus. Prolapse can be occult, partial, or complete. Risk factors are rupture of membranes when the presenting part is not snug against the cervix, and malpresentation. Management is to avoid holding the cord or pushing it back, place the patient in the knee-chest position, lift the presenting part, avoid touching the cord, and perform an immediate cesarean delivery. MSD agrees that overt prolapse occurs with ruptured membranes and is more common with breech presentation or a transverse lie, that monitoring may show severe bradycardia or severe variable decelerations, and that the presenting part should be gently lifted and held off the cord while cesarean delivery proceeds. MSD adds that changing the woman's position and a single dose of IV terbutaline may help.",
+      "whyWrong": {
+        "b": "Trying to push the cord back is advised against and wastes time (your El-Husseiny obstetrics notes, p. 116).",
+        "c": "Oxytocin strengthens contractions, which squeeze the cord harder (standard teaching).",
+        "d": "Fundal pressure pushes the fetus down onto the cord and is not safe here (standard teaching).",
+        "e": "Persistent fetal bradycardia with a prolapsed cord needs action now, not observation (your El-Husseiny obstetrics notes, p. 116)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials of Obstetrics (Emily's file), Prolapsed umbilical cord, p. 116"
+        },
+        {
+          "title": "MSD Manual Professional: Umbilical Cord Prolapse",
+          "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/abnormalities-and-complications-of-labor-and-delivery/umbilical-cord-prolapse"
+        }
+      ]
+    },
+    {
+      "id": "pharm-indomethacin-tocolysis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Reproductive",
+      "topic": "Tocolytics: prostaglandin inhibitors",
+      "difficulty": 2,
+      "stem": "A 24-year-old woman at 29 weeks' gestation is admitted with preterm labor. She receives corticosteroids and a tocolytic drug. After 4 days of the tocolytic, ultrasound shows a lower amniotic fluid volume, and fetal echocardiography shows narrowing of the ductus arteriosus.",
+      "leadIn": "The tocolytic drug most likely acts by inhibiting which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cyclooxygenase"
+        },
+        {
+          "id": "b",
+          "text": "L-type calcium channels"
+        },
+        {
+          "id": "c",
+          "text": "Oxytocin receptors"
+        },
+        {
+          "id": "d",
+          "text": "NMDA glutamate receptors"
+        },
+        {
+          "id": "e",
+          "text": "Phosphodiesterase 5"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: cyclooxygenase (indomethacin, a prostaglandin synthesis inhibitor). Why: your El-Husseiny obstetrics notes (p. 68) explain that prostaglandin synthetase inhibitors such as indomethacin relax uterine muscle by lowering prostaglandin production. Side effects include oligohydramnios, closure of the ductus arteriosus before birth, and neonatal necrotizing enterocolitis, and they should not be used after 32 weeks. MSD agrees that tocolytics can usually delay labor at least 48 hours so that corticosteroids can be given, recommends a prostaglandin inhibitor only when the fetus is 32 weeks or less because these drugs may narrow or close the ductus arteriosus early, and warns of transient oligohydramnios and fetal kidney damage with more than 48 hours of use. MSD also advises IV magnesium sulfate before 32 weeks for fetal neuroprotection. The fetal ductus stays open because of prostaglandins, and the fetal kidney needs them for urine output (standard teaching).",
+      "whyWrong": {
+        "b": "Blocking L-type calcium channels is how nifedipine works; it does not narrow the ductus (standard teaching).",
+        "c": "Oxytocin receptor blockers such as atosiban are not linked to ductal narrowing (standard teaching).",
+        "d": "Magnesium sulfate, which blocks NMDA receptors, is given for fetal neuroprotection rather than causing ductal narrowing (MSD Preterm Labor; standard teaching).",
+        "e": "PDE5 inhibitors are not tocolytics (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials of Obstetrics (Emily's file), Tocolytics, p. 68"
+        },
+        {
+          "title": "MSD Manual Professional: Preterm Labor",
+          "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/abnormalities-and-complications-of-labor-and-delivery/preterm-labor"
+        }
+      ]
     }
   ]
 }
