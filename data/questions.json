@@ -453,7 +453,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Confusion, ophthalmoplegia, and ataxia in a patient with alcohol use disorder is Wernicke encephalopathy from thiamine (B1) deficiency. Thiamine pyrophosphate is the cofactor for pyruvate dehydrogenase, alpha-ketoglutarate dehydrogenase, branched-chain alpha-ketoacid dehydrogenase, and transketolase (pentose phosphate pathway). Transketolase activity (measured before and after adding thiamine pyrophosphate) is a functional test of thiamine status. Give thiamine before or together with glucose, because glucose metabolism uses up thiamine and can worsen Wernicke encephalopathy. Note: older teaching said \"thiamine always before glucose\", but current guidance says never delay treatment of low blood sugar while waiting for thiamine.",
+      "explanation": "Confusion, ophthalmoplegia, and ataxia in a patient with alcohol use disorder is Wernicke encephalopathy from thiamine (B1) deficiency. Thiamine pyrophosphate is the cofactor for pyruvate dehydrogenase, alpha-ketoglutarate dehydrogenase, branched-chain alpha-ketoacid dehydrogenase, and transketolase (pentose phosphate pathway). Transketolase activity (measured before and after adding thiamine pyrophosphate) is a functional test of thiamine status. Give thiamine before or together with glucose, because glucose metabolism uses up thiamine and can worsen Wernicke encephalopathy. Recent change: older teaching said \"thiamine always before glucose\", but current guidance says never delay treatment of low blood sugar while waiting for thiamine.",
       "whyWrong": {
         "b": "Pyruvate carboxylase requires biotin (B7), not thiamine.",
         "c": "Glycogen phosphorylase uses pyridoxal phosphate (B6).",
@@ -608,7 +608,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Resistant hypertension with hypokalemia, metabolic alkalosis, high aldosterone, and low renin is primary hyperaldosteronism (Conn syndrome). The two most common causes are bilateral adrenal hyperplasia and an aldosterone-producing adenoma; of the options listed, only the adenoma fits. Aldosterone excess suppresses renin through volume expansion. Note: only a minority of patients have low potassium, so a normal potassium does not rule it out. Recent change: a 2025 Endocrine Society guideline suggests screening everyone with hypertension for primary aldosteronism (aldosterone and renin), not only patients with resistant hypertension or low potassium.",
+      "explanation": "Resistant hypertension with hypokalemia, metabolic alkalosis, high aldosterone, and low renin is primary hyperaldosteronism (Conn syndrome). The two most common causes are bilateral adrenal hyperplasia and an aldosterone-producing adenoma; of the options listed, only the adenoma fits. Aldosterone excess suppresses renin through volume expansion. Only a minority of patients have low potassium, so a normal potassium does not rule it out. Recent change: a 2025 Endocrine Society guideline suggests screening everyone with hypertension for primary aldosteronism (aldosterone and renin), not only patients with resistant hypertension or low potassium.",
       "whyWrong": {
         "b": "Renal artery stenosis causes secondary hyperaldosteronism, in which renin is high.",
         "c": "Pheochromocytoma causes episodic hypertension, headache, sweating, and palpitations; it does not raise aldosterone with low renin.",
@@ -1175,7 +1175,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Left ventricular free wall rupture usually happens 3 to 5 days after an MI, while inflammatory cells are clearing dead myocardium and the wall is weakest. Risk factors include a first, anterior, transmural infarct. Blood fills the pericardium and causes cardiac tamponade: low blood pressure, distended neck veins, and muffled heart sounds (Beck triad), often progressing to pulseless electrical activity. Note: some review books give a wider window, about 3 to 7 days or up to 2 weeks, but StatPearls puts most ruptures at 3 to 5 days. Female sex and age over 70 are also risk factors.",
+      "explanation": "Left ventricular free wall rupture usually happens 3 to 5 days after an MI, while inflammatory cells are clearing dead myocardium and the wall is weakest. Risk factors include a first, anterior, transmural infarct. Blood fills the pericardium and causes cardiac tamponade: low blood pressure, distended neck veins, and muffled heart sounds (Beck triad), often progressing to pulseless electrical activity. Other source: some review books give a wider window, about 3 to 7 days or up to 2 weeks, but StatPearls puts most ruptures at 3 to 5 days. Female sex and age over 70 are also risk factors.",
       "whyWrong": {
         "b": "Dressler syndrome (autoimmune pericarditis) occurs weeks after MI, with fever and pleuritic pain, not sudden collapse at day 5.",
         "c": "True ventricular aneurysms form over 2 weeks to months as scar bulges outward.",
@@ -3656,7 +3656,7 @@
         }
       ],
       "answer": "d",
-      "explanation": "Answer: PR3-ANCA (c-ANCA). Why: sinus disease, lung nodules, and kidney involvement (red cell casts) with necrotizing granulomas and small- to medium-vessel vasculitis is granulomatosis with polyangiitis (GPA). Most patients have ANCA against proteinase 3 (PR3), which gives the cytoplasmic (c-ANCA) pattern; about 75% are anti-PR3 positive and about 10% are anti-MPO positive. For organ- or life-threatening disease, induction is glucocorticoids plus rituximab or cyclophosphamide (2022 EULAR). Note: her notes give the old name, Wegener, in parentheses. Use GPA. The disease was renamed after Wegener's Nazi ties came to light in 2000, and groups including the American College of Rheumatology moved to the descriptive name.",
+      "explanation": "Answer: PR3-ANCA (c-ANCA). Why: sinus disease, lung nodules, and kidney involvement (red cell casts) with necrotizing granulomas and small- to medium-vessel vasculitis is granulomatosis with polyangiitis (GPA). Most patients have ANCA against proteinase 3 (PR3), which gives the cytoplasmic (c-ANCA) pattern; about 75% are anti-PR3 positive and about 10% are anti-MPO positive. For organ- or life-threatening disease, induction is glucocorticoids plus rituximab or cyclophosphamide (2022 EULAR). Recent change: her notes give the old name, Wegener, in parentheses. Use GPA. The disease was renamed after Wegener's Nazi ties came to light in 2000, and groups including the American College of Rheumatology moved to the descriptive name.",
       "whyWrong": {
         "a": "Anti-GBM antibodies cause Goodpasture (anti-GBM) disease, which does not produce necrotizing granulomas in the sinuses.",
         "b": "Anti-dsDNA points to lupus, which does not cause necrotizing granulomas.",
@@ -3705,7 +3705,7 @@
         }
       ],
       "answer": "b",
-      "explanation": "Answer: NSAIDs. Why: this is reactive arthritis. It follows a gut or genitourinary infection (Chlamydia trachomatis, Salmonella, Shigella, Campylobacter, Yersinia), usually within 1 to 6 weeks. It typically causes an asymmetric oligoarthritis of the large joints of the legs, with enthesitis (here, heel pain) and sometimes dactylitis. HLA-B27 is strongly associated, but a negative test does not rule it out. NSAIDs are first-line therapy for the acute arthritis. Note: her notes in places use the old name, Reiter syndrome. The term has fallen out of favor because the classic triad (arthritis, urethritis, conjunctivitis) covers only part of the disease, and because of its namesake's wartime conduct. Reactive arthritis is the preferred term.",
+      "explanation": "Answer: NSAIDs. Why: this is reactive arthritis. It follows a gut or genitourinary infection (Chlamydia trachomatis, Salmonella, Shigella, Campylobacter, Yersinia), usually within 1 to 6 weeks. It typically causes an asymmetric oligoarthritis of the large joints of the legs, with enthesitis (here, heel pain) and sometimes dactylitis. HLA-B27 is strongly associated, but a negative test does not rule it out. NSAIDs are first-line therapy for the acute arthritis. Recent change: her notes in places use the old name, Reiter syndrome. The term has fallen out of favor because the classic triad (arthritis, urethritis, conjunctivitis) covers only part of the disease, and because of its namesake's wartime conduct. Reactive arthritis is the preferred term.",
       "whyWrong": {
         "a": "After an enteric infection, antibiotics do not change the course of the arthritis.",
         "c": "Allopurinol lowers uric acid in gout, and his joint fluid has no crystals.",
@@ -4019,7 +4019,7 @@
         }
       ],
       "answer": "c",
-      "explanation": "Answer: a risk factor and nonobligate precursor. Why: classic LCIS is both a risk factor for invasive breast cancer and a nonobligate precursor, meaning it can progress but usually does not. Women with LCIS have about a 7- to 10-fold higher breast cancer risk than the general population, about 1% to 2% per year. The risk applies to either breast, slightly more to the same side. Like invasive lobular carcinoma, LCIS usually lacks E-cadherin. Management of classic LCIS is active surveillance plus chemoprevention with antiestrogens. Excision is not recommended after an incidental diagnosis of classic LCIS. Nonclassic forms (pleomorphic or florid LCIS) on core biopsy do require surgical excision. Note: her breast pathology notes say LCIS may be followed by invasion if not treated. That is true but incomplete, because the raised risk involves both breasts and classic LCIS is usually watched rather than removed.",
+      "explanation": "Answer: a risk factor and nonobligate precursor. Why: classic LCIS is both a risk factor for invasive breast cancer and a nonobligate precursor, meaning it can progress but usually does not. Women with LCIS have about a 7- to 10-fold higher breast cancer risk than the general population, about 1% to 2% per year. The risk applies to either breast, slightly more to the same side. Like invasive lobular carcinoma, LCIS usually lacks E-cadherin. Management of classic LCIS is active surveillance plus chemoprevention with antiestrogens. Excision is not recommended after an incidental diagnosis of classic LCIS. Nonclassic forms (pleomorphic or florid LCIS) on core biopsy do require surgical excision. Other source: her breast pathology notes say LCIS may be followed by invasion if not treated. That is true but incomplete, because the raised risk involves both breasts and classic LCIS is usually watched rather than removed.",
       "whyWrong": {
         "a": "LCIS is a nonobligate precursor: most cases do not progress, and excision is not recommended after an incidental diagnosis of classic LCIS.",
         "b": "LCIS raises breast cancer risk about 7- to 10-fold.",
@@ -4190,7 +4190,7 @@
         }
       ],
       "answer": "b",
-      "explanation": "Answer: the perfused choroid shows through the thin fovea. Why: this is a central retinal artery occlusion (CRAO), which causes sudden, painless loss of vision in one eye. Ischemia causes diffuse retinal edema, so the retina looks pale and opaque and the arteries look thin. The fovea is thin, so the normal, perfused choroid beneath it still shows through: the cherry-red spot. Carotid artery plaques are a common source of emboli, so the workup includes carotid Doppler ultrasound and echocardiography. Giant cell arteritis is an important cause; if it is suspected, ESR, CRP, and a platelet count are checked immediately. Note: her eye notes give the cherry-red spot. Current MSD guidance adds that the patient should be referred immediately to a specialized stroke center, because stroke risk is raised, especially in the first weeks.",
+      "explanation": "Answer: the perfused choroid shows through the thin fovea. Why: this is a central retinal artery occlusion (CRAO), which causes sudden, painless loss of vision in one eye. Ischemia causes diffuse retinal edema, so the retina looks pale and opaque and the arteries look thin. The fovea is thin, so the normal, perfused choroid beneath it still shows through: the cherry-red spot. Carotid artery plaques are a common source of emboli, so the workup includes carotid Doppler ultrasound and echocardiography. Giant cell arteritis is an important cause; if it is suspected, ESR, CRP, and a platelet count are checked immediately. Other source: her eye notes give the cherry-red spot. Current MSD guidance adds that the patient should be referred immediately to a specialized stroke center, because stroke risk is raised, especially in the first weeks.",
       "whyWrong": {
         "a": "The red spot is the normal choroid seen through the fovea against pale, swollen retina, not bleeding.",
         "c": "New vessels under the retina are choroidal neovascularization (wet macular degeneration), which causes distortion with fluid and bleeding, not sudden painless loss with a pale retina.",
@@ -4347,7 +4347,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: IV ampicillin. Why: a flu-like fever in a pregnant woman after eating soft cheese, with gram-positive rods in the blood, points to Listeria monocytogenes. Listeria is a gram-positive, intracellular rod that can grow at refrigerator temperature. It is linked to deli meats, soft cheeses, and unpasteurized milk. Pregnant people, newborns, older adults, and immunocompromised patients are at highest risk of invasive disease. In pregnancy the mother may only seem to have the flu, but infection often causes miscarriage, stillbirth, or severe newborn sepsis. Treatment is IV ampicillin or amoxicillin. Note: her documents list ampicillin with or without gentamicin, or penicillin plus gentamicin. StatPearls calls adding an aminoglycoside controversial, because studies have not shown better outcomes with combination therapy. Ampicillin is the core drug either way.",
+      "explanation": "Answer: IV ampicillin. Why: a flu-like fever in a pregnant woman after eating soft cheese, with gram-positive rods in the blood, points to Listeria monocytogenes. Listeria is a gram-positive, intracellular rod that can grow at refrigerator temperature. It is linked to deli meats, soft cheeses, and unpasteurized milk. Pregnant people, newborns, older adults, and immunocompromised patients are at highest risk of invasive disease. In pregnancy the mother may only seem to have the flu, but infection often causes miscarriage, stillbirth, or severe newborn sepsis. Treatment is IV ampicillin or amoxicillin. Other source: her documents list ampicillin with or without gentamicin, or penicillin plus gentamicin. StatPearls calls adding an aminoglycoside controversial, because studies have not shown better outcomes with combination therapy. Ampicillin is the core drug either way.",
       "whyWrong": {
         "b": "Listeria is uniformly resistant to cephalosporins. That is why ampicillin is added to empiric meningitis treatment when Listeria is a concern.",
         "c": "TMP-SMX is the preferred alternative only for patients with a penicillin allergy, and she has none.",
@@ -4506,7 +4506,7 @@
         }
       ],
       "answer": "b",
-      "explanation": "Answer: hypnozoites. Why: enlarged red cells with Schüffner dots point to P. vivax. In P. vivax and P. ovale, a dormant liver stage called the hypnozoite can persist and cause relapses weeks or even years later. Chloroquine treats only the blood stage, so these infections also need anti-relapse treatment with primaquine or tafenoquine, which target the liver hypnozoites. Before either drug, CDC calls for quantitative G6PD testing to confirm normal enzyme activity, because some malaria drugs can trigger hemolytic anemia in G6PD deficiency. Neither drug is used in pregnancy. Note: her parasitology table names primaquine for hypnozoites. CDC also lists tafenoquine as a single-dose option, used only when G6PD activity is normal and given together with chloroquine.",
+      "explanation": "Answer: hypnozoites. Why: enlarged red cells with Schüffner dots point to P. vivax. In P. vivax and P. ovale, a dormant liver stage called the hypnozoite can persist and cause relapses weeks or even years later. Chloroquine treats only the blood stage, so these infections also need anti-relapse treatment with primaquine or tafenoquine, which target the liver hypnozoites. Before either drug, CDC calls for quantitative G6PD testing to confirm normal enzyme activity, because some malaria drugs can trigger hemolytic anemia in G6PD deficiency. Neither drug is used in pregnancy. Recent change: her parasitology table names primaquine for hypnozoites. CDC also lists tafenoquine as a single-dose option, used only when G6PD activity is normal and given together with chloroquine.",
       "whyWrong": {
         "a": "Gametocytes are taken up by a mosquito during a blood meal to continue the life cycle. They do not cause relapse.",
         "c": "He has not traveled to a malaria area since his trip, so a new infection is unlikely.",
@@ -4624,7 +4624,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: follow metronidazole with a luminal agent such as paromomycin. Why: an amebic liver abscess is treated with a nitroimidazole, preferably metronidazole for 7 to 10 days (tinidazole is an alternative). Intestinal colonization persists in 40% to 60% of cases, so nitroimidazole therapy must always be followed by a luminal agent, such as paromomycin or iodoquinol. StatPearls advises against giving metronidazole and paromomycin at the same time. Clues to the diagnosis: travel to an endemic area (symptoms can start months to years later), fever, and dull right upper quadrant pain; if aspirated, the fluid is thick, odorless, and chocolate-brown ('anchovy paste'). Note: her parasitology table names diloxanide for cyst carriers. StatPearls names paromomycin or iodoquinol as the luminal agent, but the principle is the same.",
+      "explanation": "Answer: follow metronidazole with a luminal agent such as paromomycin. Why: an amebic liver abscess is treated with a nitroimidazole, preferably metronidazole for 7 to 10 days (tinidazole is an alternative). Intestinal colonization persists in 40% to 60% of cases, so nitroimidazole therapy must always be followed by a luminal agent, such as paromomycin or iodoquinol. StatPearls advises against giving metronidazole and paromomycin at the same time. Clues to the diagnosis: travel to an endemic area (symptoms can start months to years later), fever, and dull right upper quadrant pain; if aspirated, the fluid is thick, odorless, and chocolate-brown ('anchovy paste'). Other source: her parasitology table names diloxanide for cyst carriers. StatPearls names paromomycin or iodoquinol as the luminal agent, but the principle is the same.",
       "whyWrong": {
         "b": "Albendazole treats worm (helminth) infections, not amebae.",
         "c": "Intestinal colonization persists in 40% to 60% of cases, so a luminal agent must always follow metronidazole.",
@@ -4673,7 +4673,7 @@
         }
       ],
       "answer": "d",
-      "explanation": "Answer: TMP-SMX plus prednisone. Why: a patient with HIV and a CD4 count below 200, fever, breathlessness, dry cough, and diffuse bilateral perihilar infiltrates most likely has Pneumocystis jirovecii pneumonia (PCP). Silver stains show the organism's cyst walls. First-line treatment is TMP-SMX. Adjunctive corticosteroids (oral prednisone, tapered over 21 days) are recommended when room-air PaO2 is below 70 mm Hg or the A-a gradient is 35 mm Hg or more. His PaO2 is 62, so he needs both. Note: some of her documents use the old name Pneumocystis carinii. The human organism is now called P. jirovecii, and it was reclassified from a protozoan to a fungus based on molecular analysis.",
+      "explanation": "Answer: TMP-SMX plus prednisone. Why: a patient with HIV and a CD4 count below 200, fever, breathlessness, dry cough, and diffuse bilateral perihilar infiltrates most likely has Pneumocystis jirovecii pneumonia (PCP). Silver stains show the organism's cyst walls. First-line treatment is TMP-SMX. Adjunctive corticosteroids (oral prednisone, tapered over 21 days) are recommended when room-air PaO2 is below 70 mm Hg or the A-a gradient is 35 mm Hg or more. His PaO2 is 62, so he needs both. Recent change: some of her documents use the old name Pneumocystis carinii. The human organism is now called P. jirovecii, and it was reclassified from a protozoan to a fungus based on molecular analysis.",
       "whyWrong": {
         "a": "TMP-SMX is right, but his PaO2 is below 70 mm Hg, so prednisone should be added.",
         "b": "Pneumocystis is classed as a fungus, but its first-line treatment is TMP-SMX, not amphotericin.",
@@ -4921,7 +4921,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "An enlarged spleen and liver, bone pain, and low platelets in an adult of Ashkenazi Jewish heritage, with no neurologic signs, is Gaucher disease type 1, the most common type. A lack of glucocerebrosidase (GBA) lets harmful substances build up in the liver, spleen, bones, and bone marrow. Enzyme replacement therapy supplies the missing GBA and helps shrink the spleen, ease bone pain, and raise the platelet count. Note: some review tables list the Gaucher enzyme as beta-galactosidase. That is an error. The deficient enzyme is glucocerebrosidase.",
+      "explanation": "An enlarged spleen and liver, bone pain, and low platelets in an adult of Ashkenazi Jewish heritage, with no neurologic signs, is Gaucher disease type 1, the most common type. A lack of glucocerebrosidase (GBA) lets harmful substances build up in the liver, spleen, bones, and bone marrow. Enzyme replacement therapy supplies the missing GBA and helps shrink the spleen, ease bone pain, and raise the platelet count. Correction: some review tables list the Gaucher enzyme as beta-galactosidase. That is an error. The deficient enzyme is glucocerebrosidase.",
       "whyWrong": {
         "b": "Beta-galactosidase is not the enzyme in Gaucher disease. Gaucher disease is a lack of glucocerebrosidase (GBA).",
         "c": "Beta-hexosaminidase A deficiency is Tay-Sachs disease. Infants develop normally until 3 to 6 months, then lose skills, and have a cherry-red spot on eye exam.",
@@ -5092,7 +5092,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Stroke-like episodes before age 40 with lactic acidosis are MELAS (mitochondrial encephalomyopathy, lactic acidosis, and stroke-like episodes). Variants in one mitochondrial transfer RNA gene, MT-TL1, cause more than 80% of cases. Mitochondrial DNA comes only from the mother, so affected women pass the condition on, and fathers do not pass mtDNA traits to their children. That fits this family: the affected sister has affected children, while the affected brother's children are all healthy. Note: some review tables list MELAS as autosomal recessive. MELAS itself follows mitochondrial (maternal) inheritance.",
+      "explanation": "Stroke-like episodes before age 40 with lactic acidosis are MELAS (mitochondrial encephalomyopathy, lactic acidosis, and stroke-like episodes). Variants in one mitochondrial transfer RNA gene, MT-TL1, cause more than 80% of cases. Mitochondrial DNA comes only from the mother, so affected women pass the condition on, and fathers do not pass mtDNA traits to their children. That fits this family: the affected sister has affected children, while the affected brother's children are all healthy. Correction: some review tables list MELAS as autosomal recessive. MELAS itself follows mitochondrial (maternal) inheritance.",
       "whyWrong": {
         "b": "Autosomal recessive disorders are typically not seen in every generation. This one appears in three straight generations of the mother's family.",
         "c": "One altered copy is enough for an autosomal dominant disorder, and an affected father can pass it to his children. The affected brother has four children and none is affected.",
@@ -6771,7 +6771,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: rigid bronchoscopy. Why: sudden choking and coughing while eating, followed by one-sided wheezing and reduced breath sounds, is foreign body aspiration until proven otherwise. Most cases are toddlers (98% are under 5 years). Chest x-rays are often normal; the most common abnormality is air trapping. For children under 5, bilateral decubitus films are preferred: the side with the object does not deflate when it is down. Bronchoscopy both diagnoses and removes the object, and rigid bronchoscopy allows ventilation through the scope and a better view. Note: your notes say aspirated material goes more often to the right main bronchus, which is classic teaching for adults. In children under 15, objects land in the left lung almost as often as in the right, because the angles where the two bronchi branch off are more symmetric.",
+      "explanation": "Answer: rigid bronchoscopy. Why: sudden choking and coughing while eating, followed by one-sided wheezing and reduced breath sounds, is foreign body aspiration until proven otherwise. Most cases are toddlers (98% are under 5 years). Chest x-rays are often normal; the most common abnormality is air trapping. For children under 5, bilateral decubitus films are preferred: the side with the object does not deflate when it is down. Bronchoscopy both diagnoses and removes the object, and rigid bronchoscopy allows ventilation through the scope and a better view. Other source: your notes say aspirated material goes more often to the right main bronchus, which is classic teaching for adults. In children under 15, objects land in the left lung almost as often as in the right, because the angles where the two bronchi branch off are more symmetric.",
       "whyWrong": {
         "b": "One-sided wheeze after a choking episode is not asthma. Treating with albuterol leaves the object in place.",
         "c": "Antibiotics do not remove the object. A retained object can lead to infection later.",
@@ -6938,7 +6938,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: GM2 ganglioside (Tay-Sachs disease). Why: loss of milestones at 4 to 6 months, an exaggerated startle to sound, and a cherry-red spot without an enlarged liver or spleen is infantile Tay-Sachs disease. Mutations in HEXA (chromosome 15q23) cause deficiency of hexosaminidase A, so GM2 ganglioside builds up in neuronal lysosomes. Under the electron microscope the lysosomes look like whorled onion-skin layers. It is autosomal recessive and more common in people of Ashkenazi Jewish heritage. Macrocephaly develops by about 18 months, and children with the infantile form usually die by age 4 to 5. Note: your table writes the enzyme as \"hexosaminidase\"; the full name is hexosaminidase A.",
+      "explanation": "Answer: GM2 ganglioside (Tay-Sachs disease). Why: loss of milestones at 4 to 6 months, an exaggerated startle to sound, and a cherry-red spot without an enlarged liver or spleen is infantile Tay-Sachs disease. Mutations in HEXA (chromosome 15q23) cause deficiency of hexosaminidase A, so GM2 ganglioside builds up in neuronal lysosomes. Under the electron microscope the lysosomes look like whorled onion-skin layers. It is autosomal recessive and more common in people of Ashkenazi Jewish heritage. Macrocephaly develops by about 18 months, and children with the infantile form usually die by age 4 to 5. Other source: your table writes the enzyme as \"hexosaminidase\"; the full name is hexosaminidase A.",
       "whyWrong": {
         "b": "Sphingomyelin builds up in Niemann-Pick disease type A. It also gives a cherry-red spot, but the liver and spleen are enlarged.",
         "c": "Glucocerebroside builds up in Gaucher disease, which enlarges the liver and spleen and affects bone. There is no cherry-red spot.",
@@ -7141,7 +7141,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: psychosine (Krabbe disease, also called globoid cell leukodystrophy). Why: irritability, vomiting, feeding difficulty, and failure to thrive, followed by optic atrophy and opisthotonic posturing, is the infantile form of Krabbe disease. Mutations in GALC (chromosome 14) cause deficiency of galactocerebrosidase (galactosylceramide beta-galactosidase). Psychosine, a toxic lipid made during myelin synthesis, builds up and damages myelin. The multinucleated globoid cells on biopsy give the disease its other name, and nerve conduction is slowed in most infants. It is autosomal recessive. Hematopoietic stem cell transplant works best before symptoms start. Note: your table gives the enzyme as \"beta-galactosidase\"; the specific enzyme is galactocerebrosidase.",
+      "explanation": "Answer: psychosine (Krabbe disease, also called globoid cell leukodystrophy). Why: irritability, vomiting, feeding difficulty, and failure to thrive, followed by optic atrophy and opisthotonic posturing, is the infantile form of Krabbe disease. Mutations in GALC (chromosome 14) cause deficiency of galactocerebrosidase (galactosylceramide beta-galactosidase). Psychosine, a toxic lipid made during myelin synthesis, builds up and damages myelin. The multinucleated globoid cells on biopsy give the disease its other name, and nerve conduction is slowed in most infants. It is autosomal recessive. Hematopoietic stem cell transplant works best before symptoms start. Other source: your table gives the enzyme as \"beta-galactosidase\"; the specific enzyme is galactocerebrosidase.",
       "whyWrong": {
         "b": "Very long-chain fatty acids build up in X-linked adrenoleukodystrophy, which usually starts at ages 4 to 8 with behavior and school problems and adrenal insufficiency.",
         "c": "Homogentisic acid builds up in alkaptonuria, which darkens urine and later causes arthritis. It does not cause infant neurodegeneration.",
@@ -7206,7 +7206,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: arylsulfatase A (metachromatic leukodystrophy, MLD). Why: a toddler who loses the ability to walk and talk, with slowed nerve conduction and white matter disease, has a leukodystrophy, and high urinary sulfatides point to MLD. Without arylsulfatase A, sulfatides build up in the white matter of the brain and spinal cord, in nerves, and in other organs, so myelin breaks down and nerves conduct poorly. It is autosomal recessive. The infantile form starts before age 4. Recent change: in March 2024 the FDA approved atidarsagene autotemcel (Lenmeldy), a one-time gene therapy made from the child's own blood stem cells modified to carry working copies of the ARSA gene; all treated children with presymptomatic late-infantile MLD were alive at age 6. MSD (reviewed March 2024) still describes gene therapy as under study. Note: your table writes \"arylsulfatase\"; the full name is arylsulfatase A.",
+      "explanation": "Answer: arylsulfatase A (metachromatic leukodystrophy, MLD). Why: a toddler who loses the ability to walk and talk, with slowed nerve conduction and white matter disease, has a leukodystrophy, and high urinary sulfatides point to MLD. Without arylsulfatase A, sulfatides build up in the white matter of the brain and spinal cord, in nerves, and in other organs, so myelin breaks down and nerves conduct poorly. It is autosomal recessive. The infantile form starts before age 4. Recent change: in March 2024 the FDA approved atidarsagene autotemcel (Lenmeldy), a one-time gene therapy made from the child's own blood stem cells modified to carry working copies of the ARSA gene; all treated children with presymptomatic late-infantile MLD were alive at age 6. MSD (reviewed March 2024) still describes gene therapy as under study. Other source: your table writes \"arylsulfatase\"; the full name is arylsulfatase A.",
       "whyWrong": {
         "b": "Galactocerebrosidase deficiency (Krabbe disease) usually starts in early infancy with irritability, feeding problems, and optic atrophy, and the biopsy shows globoid cells.",
         "c": "Hexosaminidase A deficiency (Tay-Sachs disease) starts at 3 to 6 months with an exaggerated startle and a cherry-red spot.",
@@ -7344,7 +7344,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: phenylalanine hydroxylase (phenylketonuria, PKU). Why: developmental delay, an eczema-like rash, light skin and hair, and a mousy odor are untreated PKU. Phenylalanine hydroxylase normally converts phenylalanine to tyrosine, using tetrahydrobiopterin (BH4) as a cofactor. When it fails, phenylalanine builds up, and tyrosine becomes an essential amino acid that may need to be supplemented. The hallmark of untreated PKU is severe intellectual disability, and seizures can occur if treatment is late. All newborns are screened 24 to 48 hours after birth. Treatment is lifelong dietary phenylalanine restriction, and a trial of sapropterin (synthetic BH4) is recommended. Recent change: on 28 July 2025 the FDA approved sepiapterin (Sephience) for children and adults with PKU, used with a phenylalanine-restricted diet. Your notes list sapropterin, which is still used. Note: some PKU-like cases come from BH4 defects (for example dihydropteridine reductase deficiency), which also disrupt neurotransmitter synthesis.",
+      "explanation": "Answer: phenylalanine hydroxylase (phenylketonuria, PKU). Why: developmental delay, an eczema-like rash, light skin and hair, and a mousy odor are untreated PKU. Phenylalanine hydroxylase normally converts phenylalanine to tyrosine, using tetrahydrobiopterin (BH4) as a cofactor. When it fails, phenylalanine builds up, and tyrosine becomes an essential amino acid that may need to be supplemented. The hallmark of untreated PKU is severe intellectual disability, and seizures can occur if treatment is late. All newborns are screened 24 to 48 hours after birth. Treatment is lifelong dietary phenylalanine restriction, and a trial of sapropterin (synthetic BH4) is recommended. Recent change: on 28 July 2025 the FDA approved sepiapterin (Sephience) for children and adults with PKU, used with a phenylalanine-restricted diet. Your notes list sapropterin, which is still used. Some PKU-like cases come from BH4 defects (for example dihydropteridine reductase deficiency), which also disrupt neurotransmitter synthesis.",
       "whyWrong": {
         "b": "Homogentisic acid oxidase deficiency is alkaptonuria: urine that darkens in air, skin pigmentation, and arthritis in adults.",
         "c": "Fumarylacetoacetate hydrolase deficiency is tyrosinemia type 1, which affects the liver and is confirmed by high succinylacetone.",
@@ -7535,7 +7535,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: homocysteine (classic homocystinuria). Why: lens dislocation (ectopia lentis), intellectual disability, osteoporosis, a marfanoid build, and a blood clot at a young age are classic homocystinuria. It is an autosomal recessive deficiency of cystathionine beta-synthase. Newborn screening looks for high methionine, and a high total plasma homocysteine confirms the diagnosis. Arterial and venous clots can occur at any age. Patients can have a marfanoid habitus even though they are not usually tall. About half respond to high-dose pyridoxine (vitamin B6) alone; others need a low-methionine diet with cysteine supplements, and betaine helps lower homocysteine. Note: books number the types of homocystinuria differently, so learn each type by its enzyme, not its number.",
+      "explanation": "Answer: homocysteine (classic homocystinuria). Why: lens dislocation (ectopia lentis), intellectual disability, osteoporosis, a marfanoid build, and a blood clot at a young age are classic homocystinuria. It is an autosomal recessive deficiency of cystathionine beta-synthase. Newborn screening looks for high methionine, and a high total plasma homocysteine confirms the diagnosis. Arterial and venous clots can occur at any age. Patients can have a marfanoid habitus even though they are not usually tall. About half respond to high-dose pyridoxine (vitamin B6) alone; others need a low-methionine diet with cysteine supplements, and betaine helps lower homocysteine. Books number the types of homocystinuria differently, so learn each type by its enzyme, not its number.",
       "whyWrong": {
         "b": "High leucine is maple syrup urine disease, a crisis in the first days of life.",
         "c": "High phenylalanine is phenylketonuria, which causes intellectual disability but not lens dislocation or blood clots.",
@@ -7665,7 +7665,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: UMP synthase (hereditary orotic aciduria). Why: megaloblastic anemia in the first months of life with normal B12 and folate, failure to thrive, developmental delay, and orotic acid crystals in the urine are hereditary orotic aciduria. UMP synthase (uridine 5'-monophosphate synthase) does the last two steps of pyrimidine synthesis, so orotic acid piles up and cells cannot make enough pyrimidines for DNA. It is autosomal recessive. The key contrast is with urea cycle disorders such as ornithine transcarbamylase deficiency, which also raise urinary orotic acid but cause high blood ammonia; hereditary orotic aciduria does not. Treatment is lifelong uridine triacetate (Xuriden), approved by the FDA, which supplies the missing uridine. Note: your notes list uridine or uridine monophosphate; uridine triacetate is the approved form.",
+      "explanation": "Answer: UMP synthase (hereditary orotic aciduria). Why: megaloblastic anemia in the first months of life with normal B12 and folate, failure to thrive, developmental delay, and orotic acid crystals in the urine are hereditary orotic aciduria. UMP synthase (uridine 5'-monophosphate synthase) does the last two steps of pyrimidine synthesis, so orotic acid piles up and cells cannot make enough pyrimidines for DNA. It is autosomal recessive. The key contrast is with urea cycle disorders such as ornithine transcarbamylase deficiency, which also raise urinary orotic acid but cause high blood ammonia; hereditary orotic aciduria does not. Treatment is lifelong uridine triacetate (Xuriden), approved by the FDA, which supplies the missing uridine. Other source: your notes list uridine or uridine monophosphate; uridine triacetate is the approved form.",
       "whyWrong": {
         "b": "Ornithine transcarbamylase deficiency also raises urinary orotic acid, but it causes high blood ammonia. His ammonia is normal.",
         "c": "HGPRT (hypoxanthine-guanine phosphoribosyltransferase) deficiency, or Lesch-Nyhan syndrome, is a purine disorder with high uric acid and self-injury, not megaloblastic anemia.",
@@ -11368,6 +11368,1010 @@
         {
           "title": "MSD Manual Professional: Infective Endocarditis",
           "url": "https://www.msdmanuals.com/professional/cardiovascular-disorders/endocarditis/infective-endocarditis"
+        }
+      ]
+    },
+    {
+      "id": "msk-sle-anti-dsdna-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Musculoskeletal",
+      "topic": "Systemic lupus erythematosus: autoantibodies",
+      "difficulty": 2,
+      "stem": "A 26-year-old woman comes to the physician because of joint pain in her hands and wrists, tiredness, and a rash on her cheeks for 3 months. The rash gets worse after time in the sun and spares the folds beside her nose. She has two painless sores on the roof of her mouth. Urinalysis shows 2+ protein and red blood cell casts. Antinuclear antibody is positive at 1:640, and serum C3 and C4 are low.",
+      "leadIn": "A rising titer of which antibody would most likely accompany a flare of her kidney disease?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Anti-dsDNA"
+        },
+        {
+          "id": "b",
+          "text": "Anti-Smith"
+        },
+        {
+          "id": "c",
+          "text": "Antihistone"
+        },
+        {
+          "id": "d",
+          "text": "Anticentromere"
+        },
+        {
+          "id": "e",
+          "text": "Anti-Jo-1"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: anti-double-stranded DNA (systemic lupus erythematosus with lupus nephritis). Why: SLE is about 10 times more common in women, usually of child-bearing age, and is more common and severe in Black and Asian patients. ANA is positive in more than 95% of patients, so it is very sensitive but not specific. Anti-dsDNA is highly specific for SLE, and its titer can be followed when it has tracked disease activity before, although it may not rise with flares outside the kidney. C3 and C4 are often low in active disease and lowest in active nephritis. your El-Husseiny MSK notes (p. 149) describe the same pattern: anti-DNA immune complexes deposit in the glomeruli, anti-dsDNA signals renal disease and a worse prognosis, and renal disease is the most common cause of death. Hydroxychloroquine is given to every patient with SLE because it reduces flares and mortality.",
+      "whyWrong": {
+        "b": "Anti-Smith is highly specific for SLE but, like anti-dsDNA, not sensitive. your El-Husseiny MSK notes (p. 149) call it specific but not prognostic, so it does not track kidney disease.",
+        "c": "Antihistone antibodies are typical of drug-induced lupus, which seldom causes nephritis (StatPearls).",
+        "d": "Anticentromere antibodies occur in limited cutaneous systemic sclerosis (CREST), not SLE (MSD).",
+        "e": "Anti-Jo-1 is a myositis antibody linked to lung fibrosis, arthritis, and Raynaud syndrome (MSD)."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Systemic Lupus Erythematosus (SLE)",
+          "url": "https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/systemic-rheumatic-diseases/systemic-lupus-erythematosus-sle"
+        },
+        {
+          "title": "StatPearls: Drug-Induced Lupus Erythematosus",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK441889/"
+        },
+        {
+          "title": "MSD Manual Professional: Systemic Sclerosis",
+          "url": "https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/systemic-rheumatic-diseases/systemic-sclerosis"
+        },
+        {
+          "title": "MSD Manual Professional: Idiopathic Inflammatory Myopathies",
+          "url": "https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/systemic-rheumatic-diseases/idiopathic-inflammatory-myopathies"
+        }
+      ]
+    },
+    {
+      "id": "pharm-drug-induced-lupus-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Musculoskeletal",
+      "topic": "Drug-induced lupus",
+      "difficulty": 2,
+      "stem": "A 66-year-old man comes to the physician because of fever, aching joints, and sharp chest pain when he breathes in for 3 weeks. He has heart failure treated with hydralazine and isosorbide dinitrate for the past 14 months. There is no rash, and a pleural friction rub is heard. Urinalysis is normal. Antinuclear antibody is positive.",
+      "leadIn": "Which of the following antibodies is most likely to be present?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Antihistone"
+        },
+        {
+          "id": "b",
+          "text": "Anti-double-stranded DNA"
+        },
+        {
+          "id": "c",
+          "text": "Anti-Smith"
+        },
+        {
+          "id": "d",
+          "text": "Anti-topoisomerase I (Scl-70)"
+        },
+        {
+          "id": "e",
+          "text": "Antimitochondrial"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: antihistone antibodies (drug-induced lupus from hydralazine). Why: StatPearls estimates that 5 to 10% of patients on long-term hydralazine and up to 20% on long-term procainamide develop lupus-like symptoms. Antihistone antibodies are present in more than 95% of hydralazine- and procainamide-induced cases, but they also appear in up to 80% of idiopathic SLE, so they are not specific. Joint pain, fever, and serositis (pleuritis more often than pericarditis) are typical, while nephritis and brain involvement are seldom drug-induced. Slow acetylators build up more of the parent drug and are at higher risk. Symptoms usually improve within weeks to months after the drug is stopped, though ANA can stay positive for years. your El-Husseiny MSK notes (p. 150) list hydralazine, isoniazid, and procainamide, slow acetylation, and antihistone antibodies in more than 95% of patients.",
+      "whyWrong": {
+        "b": "Anti-dsDNA antibodies are generally absent in classic drug-induced lupus from hydralazine or procainamide (StatPearls). TNF inhibitors are the exception.",
+        "c": "Anti-Smith antibodies are specific for idiopathic SLE (your El-Husseiny MSK notes, p. 149), not drug-induced lupus.",
+        "d": "Anti-Scl-70 (topoisomerase I) is more likely in diffuse cutaneous systemic sclerosis (MSD).",
+        "e": "Antimitochondrial antibodies point to primary biliary cholangitis (standard teaching), not a drug-induced lupus syndrome."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Drug-Induced Lupus Erythematosus",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK441889/"
+        },
+        {
+          "title": "MSD Manual Professional: Systemic Lupus Erythematosus (SLE)",
+          "url": "https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/systemic-rheumatic-diseases/systemic-lupus-erythematosus-sle"
+        },
+        {
+          "title": "MSD Manual Professional: Systemic Sclerosis",
+          "url": "https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/systemic-rheumatic-diseases/systemic-sclerosis"
+        }
+      ]
+    },
+    {
+      "id": "path-sjogren-lymphoma-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Musculoskeletal",
+      "topic": "Sjögren syndrome",
+      "difficulty": 2,
+      "stem": "A 54-year-old woman comes to the physician because of a painless swelling in front of her right ear that has grown over 4 months. For 3 years she has had gritty, dry eyes and a dry mouth that makes it hard to swallow crackers without water. She has had many new dental cavities. Anti-Ro (SSA) antibodies and rheumatoid factor are positive. The right parotid gland is firm and enlarged; the left is normal.",
+      "leadIn": "This patient is at greatest increased risk for which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "B-cell non-Hodgkin lymphoma"
+        },
+        {
+          "id": "b",
+          "text": "Classic Hodgkin lymphoma"
+        },
+        {
+          "id": "c",
+          "text": "Acute myeloid leukemia"
+        },
+        {
+          "id": "d",
+          "text": "Warthin tumor of the parotid gland"
+        },
+        {
+          "id": "e",
+          "text": "Multiple myeloma"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: B-cell non-Hodgkin lymphoma (Sjögren syndrome). Why: Sjögren syndrome occurs most often in middle-aged women. CD4 T cells and B cells infiltrate the exocrine glands, causing dry eyes and dry mouth. Only anti-Ro (SSA) is part of the classification criteria, and rheumatoid factor is present in more than 70% of patients. The parotid glands enlarge in about one-third of patients, but persistent enlargement of one gland should be evaluated for a tumor. The risk of non-Hodgkin lymphoma is about 16 times that of the general population, including MALT lymphoma and diffuse large B-cell lymphoma. your El-Husseiny MSK notes (p. 148) list dental caries, corneal ulcers, and MALT lymphoma presenting as one-sided parotid enlargement late in the disease.",
+      "whyWrong": {
+        "b": "MSD describes an increased risk of non-Hodgkin, not Hodgkin, lymphoma in Sjögren syndrome.",
+        "c": "Sjögren syndrome involves chronic B-cell stimulation (standard teaching), so the excess risk is B-cell lymphoma, not myeloid leukemia.",
+        "d": "Warthin tumor is a benign parotid tumor linked to smoking (standard teaching), not to Sjögren syndrome.",
+        "e": "Multiple myeloma is a plasma cell cancer that is not the lymphoma risk MSD describes in Sjögren syndrome."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Sjögren Syndrome",
+          "url": "https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/systemic-rheumatic-diseases/sj%C3%B6gren-syndrome"
+        }
+      ]
+    },
+    {
+      "id": "pharm-scleroderma-renal-crisis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Musculoskeletal",
+      "topic": "Systemic sclerosis: scleroderma renal crisis",
+      "difficulty": 3,
+      "stem": "A 45-year-old woman with diffuse cutaneous systemic sclerosis comes to the emergency department because of a severe headache for 2 days. Her skin has been thickening over her fingers, forearms, upper arms, and chest for a year. Two weeks ago she was started on high-dose prednisone for muscle pain. Her blood pressure is 214/122 mm Hg, up from 118/74 mm Hg a month ago. Serum creatinine has risen from 0.8 to 2.9 mg/dL. A blood smear shows schistocytes, and the platelet count is low. Anti-Scl-70 antibodies are positive.",
+      "leadIn": "Which of the following drugs is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Captopril"
+        },
+        {
+          "id": "b",
+          "text": "Labetalol"
+        },
+        {
+          "id": "c",
+          "text": "Methylprednisolone"
+        },
+        {
+          "id": "d",
+          "text": "Nifedipine"
+        },
+        {
+          "id": "e",
+          "text": "Furosemide"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: captopril, an ACE inhibitor (scleroderma renal crisis). Why: scleroderma renal crisis is often heralded by sudden, severe hypertension with thrombotic microangiopathic hemolytic anemia (schistocytes, low platelets) and rising creatinine. Prompt treatment with an ACE inhibitor can dramatically prolong survival, and the crisis is often reversible if treated quickly. Renal crisis and interstitial lung disease are major complications of diffuse cutaneous disease, where skin thickening extends above the elbows and knees, and anti-Scl-70 (topoisomerase I) is more likely in this form. Corticosteroids are a risk factor for renal crisis and should be avoided. your El-Husseiny MSK notes (p. 162) also say to treat renal crisis with ACE inhibitors.",
+      "whyWrong": {
+        "b": "Labetalol lowers blood pressure but does not block the renin-angiotensin system that drives the crisis (standard teaching). MSD names ACE inhibitors as the treatment that prolongs survival.",
+        "c": "Corticosteroids are a risk factor for scleroderma renal crisis (MSD), so more steroids would make it worse.",
+        "d": "Calcium channel blockers such as nifedipine are used for Raynaud phenomenon (your El-Husseiny MSK notes, p. 163), but ACE inhibitors are the treatment for renal crisis (MSD).",
+        "e": "A diuretic does not treat the renin-driven hypertension of renal crisis (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Systemic Sclerosis",
+          "url": "https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/systemic-rheumatic-diseases/systemic-sclerosis"
+        }
+      ]
+    },
+    {
+      "id": "path-dermatomyositis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Musculoskeletal",
+      "topic": "Dermatomyositis",
+      "difficulty": 2,
+      "stem": "A 58-year-old woman comes to the physician because of trouble climbing stairs and combing her hair for 2 months. Her upper eyelids are swollen and purplish, and there are scaly red papules over the knuckles of both hands. Strength is 4/5 in the shoulders and hips and normal in the hands and feet. Reflexes and sensation are normal. Serum creatine kinase is markedly elevated.",
+      "leadIn": "Along with starting treatment, which of the following is the most appropriate next step?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Screening for an occult cancer"
+        },
+        {
+          "id": "b",
+          "text": "Acetylcholine receptor antibody testing"
+        },
+        {
+          "id": "c",
+          "text": "Dystrophin gene testing"
+        },
+        {
+          "id": "d",
+          "text": "Nerve conduction studies of the legs"
+        },
+        {
+          "id": "e",
+          "text": "Lumbar puncture for oligoclonal bands"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: screen for an occult cancer (dermatomyositis). Why: proximal muscle weakness with a high CK, a purplish swelling of the upper eyelids (heliotrope rash), and scaly papules over the finger joints (Gottron papules) is dermatomyositis. Both rashes are relatively specific. The evidence for an increased cancer risk is fairly consistent in dermatomyositis, and MSD advises considering cancer screening when it starts at age 40 or older. your El-Husseiny MSK notes (pp. 152-153) also describe dermatomyositis as possibly paraneoplastic (ovary, lung, pancreas) and recommend evaluating for an underlying cancer. Corticosteroids are the first drugs, usually combined with a second immunosuppressant so prednisone can be tapered. Anti-Jo-1 is linked to lung fibrosis, arthritis, and Raynaud syndrome. Other source: your El-Husseiny MSK notes (p. 153) describe perimysial CD4 T-cell inflammation with perifascicular atrophy on biopsy. MSD describes perifascicular, B cell-predominant infiltrates with inflammation around vessels. Both contrast with polymyositis, which shows endomysial CD8 T cells.",
+      "whyWrong": {
+        "b": "Acetylcholine receptor antibodies test for myasthenia gravis (standard teaching), which causes fatigable weakness without a rash or a high CK.",
+        "c": "Dystrophin testing is for Duchenne or Becker muscular dystrophy (standard teaching), which starts in childhood, not with a new rash at age 58.",
+        "d": "Her sensation and reflexes are normal, and the weakness is proximal. This points to a muscle disease, not a neuropathy (standard teaching).",
+        "e": "Oligoclonal bands support multiple sclerosis (standard teaching), which does not cause these rashes or a high CK."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Idiopathic Inflammatory Myopathies",
+          "url": "https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/systemic-rheumatic-diseases/idiopathic-inflammatory-myopathies"
+        }
+      ]
+    },
+    {
+      "id": "pharm-bisphosphonate-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Musculoskeletal",
+      "topic": "Osteoporosis drugs: bisphosphonates",
+      "difficulty": 2,
+      "stem": "A 68-year-old woman has a bone density scan after breaking her wrist in a fall from standing height. The T-score at the femoral neck is -2.8. She is started on weekly oral alendronate and told to take it on an empty stomach with a full glass of water and to stay upright for at least 30 minutes afterward.",
+      "leadIn": "This drug lowers her fracture risk mainly by which of the following mechanisms?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Binding bone mineral and inhibiting osteoclasts"
+        },
+        {
+          "id": "b",
+          "text": "Blocking RANKL to stop osteoclast formation"
+        },
+        {
+          "id": "c",
+          "text": "Inhibiting sclerostin to stimulate bone formation"
+        },
+        {
+          "id": "d",
+          "text": "Activating PTH receptors to build new bone"
+        },
+        {
+          "id": "e",
+          "text": "Activating estrogen receptors in bone"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: alendronate binds bone mineral and inhibits osteoclasts. Why: a T-score of -2.5 or lower defines osteoporosis. Bisphosphonates preserve bone mass by inhibiting bone resorption (MSD). your El-Husseiny MSK notes (p. 214) describe them as pyrophosphate analogs that bind hydroxyapatite and inhibit osteoclast activity. They are also used for Paget disease, hypercalcemia, and bone metastases. Oral bisphosphonates can irritate the esophagus, which is why they are taken on an empty stomach with a full glass of water while the patient stays upright for at least 30 minutes. Osteonecrosis of the jaw and atypical fractures of the femoral shaft are rare. Because they are excreted unchanged in the urine, they need care in kidney failure (your El-Husseiny MSK notes, p. 214).",
+      "whyWrong": {
+        "b": "Blocking RANKL is how denosumab works. Stopping denosumab can cause rapid bone loss, so a bisphosphonate should follow (MSD).",
+        "c": "Inhibiting sclerostin is how romosozumab works, with both anabolic and antiresorptive effects (MSD).",
+        "d": "Teriparatide is a PTH fragment given by daily injection to stimulate new bone formation (MSD).",
+        "e": "Activating estrogen receptors in bone is how raloxifene, a selective estrogen receptor modulator, works (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Osteoporosis",
+          "url": "https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/osteoporosis/osteoporosis"
+        }
+      ]
+    },
+    {
+      "id": "path-paget-bone-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Musculoskeletal",
+      "topic": "Paget disease of bone",
+      "difficulty": 2,
+      "stem": "A 72-year-old man comes to the physician because his hats no longer fit and he has trouble hearing with his right ear. He also has a dull ache in his left shin. The left tibia is bowed forward and warm. Serum alkaline phosphatase is 420 U/L (normal 30-120). Serum calcium, phosphate, and liver enzymes are normal. A skull x-ray shows a thickened skull with mixed areas of increased density and lucency.",
+      "leadIn": "A biopsy of the affected bone would most likely show which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mosaic lamellar bone with cement lines"
+        },
+        {
+          "id": "b",
+          "text": "Thin trabeculae with normal mineralization"
+        },
+        {
+          "id": "c",
+          "text": "Wide seams of unmineralized osteoid"
+        },
+        {
+          "id": "d",
+          "text": "Woven bone in fibrous tissue"
+        },
+        {
+          "id": "e",
+          "text": "Sheets of small round blue cells"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: a mosaic pattern of lamellar bone with prominent cement lines (Paget disease of bone). Why: Paget disease is a localized disorder of bone remodeling. Overactive osteoclasts, often large with many nuclei, are followed by overactive osteoblasts that lay down coarse, disorganized bone. your El-Husseiny MSK notes (pp. 122-123) say the late sclerotic stage gives a dense mosaic of lamellar bone separated by prominent cement lines, and that Paget disease is the most common cause of an isolated high alkaline phosphatase after age 40, with normal calcium, phosphate, and PTH. Skull involvement causes skull enlargement and frontal bossing, and hearing loss can be sensorineural, conductive, or mixed. Rare complications include high-output heart failure and transformation to osteosarcoma in less than 1% of patients. Zoledronic acid is first-line therapy.",
+      "whyWrong": {
+        "b": "Thin trabeculae with normal mineralization describe osteoporosis (standard teaching), which does not raise alkaline phosphatase or enlarge bones.",
+        "c": "Unmineralized osteoid is osteomalacia, which causes low calcium, high PTH, and low phosphate (your El-Husseiny MSK notes, p. 122).",
+        "d": "Woven bone in fibrous tissue describes fibrous dysplasia (standard teaching), which usually starts in younger people.",
+        "e": "Small round blue cells are seen in Ewing sarcoma, a tumor of children (your El-Husseiny MSK notes, p. 132)."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Paget Disease of Bone",
+          "url": "https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/paget-disease-of-bone/paget-disease-of-bone"
+        }
+      ]
+    },
+    {
+      "id": "path-osteosarcoma-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Musculoskeletal",
+      "topic": "Bone tumors: osteosarcoma",
+      "difficulty": 2,
+      "stem": "A 15-year-old boy comes to the physician because of pain and swelling above his right knee for 2 months. The pain wakes him at night. He had both eyes treated for retinoblastoma as an infant. There is a firm, tender mass over the distal femur. An x-ray shows a destructive lesion in the metaphysis of the distal femur, with the periosteum lifted into a triangle at the edge of the lesion.",
+      "leadIn": "A biopsy of the mass would most likely show which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Malignant cells producing osteoid"
+        },
+        {
+          "id": "b",
+          "text": "Sheets of small round blue cells"
+        },
+        {
+          "id": "c",
+          "text": "Giant cells scattered among spindle cells"
+        },
+        {
+          "id": "d",
+          "text": "Lobules of malignant cartilage"
+        },
+        {
+          "id": "e",
+          "text": "Sheets of atypical plasma cells"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: malignant cells producing osteoid (osteosarcoma). Why: osteosarcoma is most common in children and teenagers, with a second peak at age 60 or older. It usually arises around the knee, in the distal femur more often than the proximal tibia. The lifted periosteum forms Codman's triangle. Hereditary retinoblastoma (RB1), Li-Fraumeni syndrome (TP53), Paget disease, bone infarcts, and past high-dose radiation all raise the risk. It may spread, usually to the lungs or other bones, and is treated with chemotherapy and surgery. your El-Husseiny MSK notes (p. 131) describe a malignant proliferation of osteoblasts with pleomorphic cells that make osteoid, in the metaphysis of long bones near the knee.",
+      "whyWrong": {
+        "b": "Small round blue cells are Ewing sarcoma, which usually arises in the diaphysis (your El-Husseiny MSK notes, p. 132; MSD).",
+        "c": "Multinucleated giant cells among spindle cells describe giant cell tumor of bone (standard teaching), usually in young adults at the end of a long bone.",
+        "d": "Malignant cartilage is chondrosarcoma, which arises in the pelvis, proximal femur, and humerus (your El-Husseiny MSK notes, p. 132).",
+        "e": "Atypical plasma cells are multiple myeloma, a cancer of older adults (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Primary Malignant Bone Tumors",
+          "url": "https://www.msdmanuals.com/professional/oncology/tumors-of-bones-and-joints/primary-malignant-bone-tumors"
+        }
+      ]
+    },
+    {
+      "id": "path-ewing-sarcoma-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Musculoskeletal",
+      "topic": "Bone tumors: Ewing sarcoma",
+      "difficulty": 2,
+      "stem": "An 11-year-old boy comes to the physician because of pain and swelling in the middle of his left thigh for 6 weeks. There is a tender mass over the shaft of the femur. An x-ray shows a lytic lesion in the diaphysis of the femur with several layers of new bone around it. A biopsy shows sheets of small, round blue cells.",
+      "leadIn": "Which of the following genetic changes is most likely in the tumor cells?",
+      "options": [
+        {
+          "id": "a",
+          "text": "t(11;22) EWSR1-FLI1 fusion"
+        },
+        {
+          "id": "b",
+          "text": "t(X;18) SS18-SSX fusion"
+        },
+        {
+          "id": "c",
+          "text": "t(8;14) MYC-IGH fusion"
+        },
+        {
+          "id": "d",
+          "text": "Loss of both copies of the RB1 gene"
+        },
+        {
+          "id": "e",
+          "text": "Amplification of MYCN"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: a t(11;22) translocation creating the EWSR1-FLI1 fusion (Ewing sarcoma). Why: Ewing sarcoma peaks between ages 10 and 20. It most often involves the diaphysis of long bones, with some extension into the metaphysis. On x-ray it destroys bone, and layers of new periosteal bone can give an onion-skin appearance. Histology shows a small round blue cell tumor. The 11;22 translocation produces the EWSR1-FLI1 fusion in about 85% of cases. Treatment is chemotherapy and surgery, with or without radiation. your El-Husseiny MSK notes (p. 132) describe it as a very aggressive tumor of children under 15 that spreads early but responds to chemotherapy.",
+      "whyWrong": {
+        "b": "The t(X;18) SS18-SSX fusion is characteristic of synovial sarcoma (standard teaching), a soft-tissue tumor.",
+        "c": "The t(8;14) MYC-IGH translocation is characteristic of Burkitt lymphoma (standard teaching).",
+        "d": "Loss of both RB1 copies is linked to retinoblastoma and osteosarcoma (MSD), not Ewing sarcoma.",
+        "e": "MYCN amplification is a marker of aggressive neuroblastoma (standard teaching), another small round blue cell tumor that usually arises in the adrenal gland."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Primary Malignant Bone Tumors",
+          "url": "https://www.msdmanuals.com/professional/oncology/tumors-of-bones-and-joints/primary-malignant-bone-tumors"
+        }
+      ]
+    },
+    {
+      "id": "msk-scfe-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Musculoskeletal",
+      "topic": "Pediatric orthopedics: slipped capital femoral epiphysis",
+      "difficulty": 2,
+      "stem": "A 13-year-old boy is brought to the physician because of pain in his left knee and a limp for 3 weeks. He has no fever and recalls no injury. His BMI is 34 kg/m2. Examination of the knee is normal. When the left hip is flexed, it rotates outward, and internal rotation of the left hip is limited and painful. He holds the left leg turned outward when he walks.",
+      "leadIn": "Which of the following is the most likely diagnosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Slipped capital femoral epiphysis"
+        },
+        {
+          "id": "b",
+          "text": "Legg-Calvé-Perthes disease"
+        },
+        {
+          "id": "c",
+          "text": "Transient synovitis of the hip"
+        },
+        {
+          "id": "d",
+          "text": "Septic arthritis of the hip joint"
+        },
+        {
+          "id": "e",
+          "text": "Osgood-Schlatter disease"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: slipped capital femoral epiphysis (SCFE). Why: SCFE usually occurs in early adolescence, more often in boys, and obesity is a major risk factor. The femoral neck moves upward and forward on the epiphysis. your El-Husseiny MSK notes (p. 111) describe the same slip from the other side, as the femoral head slipping backward and inward off the neck, like ice cream sliding off a cone. Pain from the hip often radiates to the thigh or knee, and about 26% of patients present with knee pain, so the hip must be examined. Hip flexion, abduction, and internal rotation are limited, and the leg is held turned outward. AP and frog-leg lateral x-rays of both hips are taken, and the patient should not bear weight until SCFE is excluded or treated. Treatment is screw fixation across the growth plate. It is bilateral in one-fifth of patients, and loss of blood supply can cause avascular necrosis of the femoral head.",
+      "whyWrong": {
+        "b": "Legg-Calvé-Perthes disease is avascular necrosis of the femoral head, peaking at ages 5 to 7 (your El-Husseiny MSK notes, p. 111), not in an obese teenager.",
+        "c": "Transient synovitis usually follows a viral illness in younger children and settles within days (standard teaching).",
+        "d": "Septic arthritis causes fever and a very painful, hot joint (standard teaching). He has no fever.",
+        "e": "Osgood-Schlatter disease causes pain and swelling at the tibial tubercle (standard teaching). His knee examination is normal."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Slipped Capital Femoral Epiphysis (SCFE)",
+          "url": "https://www.msdmanuals.com/professional/pediatrics/bone-disorders-in-children/slipped-capital-femoral-epiphysis-scfe"
+        }
+      ]
+    },
+    {
+      "id": "derm-pemphigus-vulgaris-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Autoimmune blistering diseases: pemphigus vulgaris",
+      "difficulty": 2,
+      "stem": "A 50-year-old woman comes to the physician because of painful sores in her mouth for 2 months and blisters on her chest and back for 2 weeks. The blisters are thin-walled and break easily, leaving raw, painful erosions. Rubbing normal-looking skin next to a blister makes the top layer slide off. A biopsy shows a split within the lower epidermis with loss of adhesion between keratinocytes.",
+      "leadIn": "Autoantibodies against which of the following are most likely responsible?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Desmoglein 3"
+        },
+        {
+          "id": "b",
+          "text": "BP180 in hemidesmosomes"
+        },
+        {
+          "id": "c",
+          "text": "Type VII collagen"
+        },
+        {
+          "id": "d",
+          "text": "Epidermal transglutaminase"
+        },
+        {
+          "id": "e",
+          "text": "Keratins 5 and 14"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: desmoglein 3 (pemphigus vulgaris). Why: in pemphigus vulgaris, IgG autoantibodies bind desmoglein 3, and sometimes desmoglein 1, on the keratinocyte surface. Keratinocytes lose their attachment to each other (acantholysis), creating intraepidermal blisters that form in the lower epidermis. The blisters are fragile, and the upper epidermis slides sideways with light rubbing (Nikolsky sign). Oral lesions often come before skin lesions, and the disease usually occurs in middle age. Without treatment it is often fatal, usually within 5 years. Recent change: MSD now lists rituximab as typically first-line, with systemic corticosteroids as another mainstay of treatment.",
+      "whyWrong": {
+        "b": "BP180 is a target in bullous pemphigoid, which causes tense blisters below the epidermis in older adults (standard teaching).",
+        "c": "Type VII collagen anchors the epidermis below the lamina densa and is affected in dystrophic epidermolysis bullosa (standard teaching), not in a split within the epidermis.",
+        "d": "Epidermal transglutaminase is the target in dermatitis herpetiformis, which causes itchy grouped vesicles with celiac disease (standard teaching).",
+        "e": "Keratin 5 and 14 mutations cause epidermolysis bullosa simplex (standard teaching). That is an inherited gene defect, not an autoantibody disease."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Pemphigus Vulgaris",
+          "url": "https://www.msdmanuals.com/professional/dermatologic-disorders/bullous-diseases/pemphigus-vulgaris"
+        }
+      ]
+    },
+    {
+      "id": "pharm-sjs-hla-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Stevens-Johnson syndrome: pharmacogenomics",
+      "difficulty": 2,
+      "stem": "A 34-year-old man of Han Chinese ancestry is brought to the emergency department because of fever, sore red eyes, and painful mouth sores for 2 days. Two weeks ago he started carbamazepine for trigeminal neuralgia. There are crusted erosions on his lips and dusky red patches with blisters on his chest, where the skin peels away over about 8% of his body surface area.",
+      "leadIn": "Testing for which of the following before starting the drug could have identified his risk?",
+      "options": [
+        {
+          "id": "a",
+          "text": "HLA-B*15:02"
+        },
+        {
+          "id": "b",
+          "text": "HLA-B*58:01"
+        },
+        {
+          "id": "c",
+          "text": "HLA-B*57:01"
+        },
+        {
+          "id": "d",
+          "text": "HLA-B27"
+        },
+        {
+          "id": "e",
+          "text": "HLA-DR4"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: HLA-B*15:02 (carbamazepine-induced Stevens-Johnson syndrome). Why: SJS involves less than 10% of the body surface, SJS/TEN overlap 10 to 30%, and TEN more than 30%. It starts 1 to 3 weeks after the drug, often with a fever prodrome, and causes painful oral erosions, eye inflammation, and genital lesions. Antiseizure drugs, sulfonamides, allopurinol, and NSAIDs are common causes. HLA-B*15:02 and HLA-A*31:01 are linked to carbamazepine reactions, and MSD says testing may be considered, particularly in certain Asian and Northern European populations. Cytotoxic CD8 T cells kill keratinocytes. The drug must be stopped immediately, and all but mild cases are treated in a burn unit. Mortality can reach 25 to 35% in adults.",
+      "whyWrong": {
+        "b": "HLA-B*58:01 is the variant linked to SJS/TEN from allopurinol (MSD), not carbamazepine.",
+        "c": "HLA-B*57:01 predicts abacavir hypersensitivity (standard teaching).",
+        "d": "HLA-B27 is linked to the spondyloarthritides (standard teaching), not to drug reactions.",
+        "e": "HLA-DR4 is linked to rheumatoid arthritis (standard teaching), not to drug reactions."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Stevens-Johnson Syndrome (SJS) and Toxic Epidermal Necrolysis (TEN)",
+          "url": "https://www.msdmanuals.com/professional/dermatologic-disorders/hypersensitivity-and-reactive-skin-disorders/stevens-johnson-syndrome-sjs-and-toxic-epidermal-necrolysis-ten"
+        }
+      ]
+    },
+    {
+      "id": "micro-erythema-multiforme-hsv-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Erythema multiforme",
+      "difficulty": 2,
+      "stem": "A 22-year-old woman comes to the physician because of a rash on her hands and arms for 3 days. She had a cold sore on her lip 10 days ago and gets them several times a year. She takes no medications. There are round lesions on her palms, the backs of her hands, and her forearms, each with a dusky center, a pale ring, and a red outer halo. There are two small erosions inside her lower lip. No skin is peeling.",
+      "leadIn": "Which of the following is the most likely cause of this rash?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Herpes simplex virus"
+        },
+        {
+          "id": "b",
+          "text": "Mycoplasma pneumoniae"
+        },
+        {
+          "id": "c",
+          "text": "Borrelia burgdorferi"
+        },
+        {
+          "id": "d",
+          "text": "Coxsackievirus A16"
+        },
+        {
+          "id": "e",
+          "text": "Treponema pallidum"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: herpes simplex virus (erythema multiforme). Why: the classic lesion of erythema multiforme is round, with a violet center and a pink halo separated by a pale ring (a target or iris lesion), on the distal limbs, often the palms and soles, and the face. Herpes simplex infection is the most common cause. Mycoplasma and other infections and drugs such as allopurinol, anticonvulsants, and sulfonamides are less common causes. Mouth lesions can be painful and make eating hard. For frequent recurrences, 6 months of continuous acyclovir, famciclovir, or valacyclovir may be tried. Recent change: your Osmosis Dermatology notes (p. 17) describe \"erythema multiforme major\" as often drug-related, with skin detachment and a Nikolsky sign. MSD now considers erythema multiforme a different entity from Stevens-Johnson syndrome and toxic epidermal necrolysis, so drug exposure with mucosal erosions and peeling skin should make you think of SJS/TEN instead.",
+      "whyWrong": {
+        "b": "Mycoplasma can trigger erythema multiforme, but MSD lists it among the less common causes. Her repeated cold sores point to HSV.",
+        "c": "Borrelia burgdorferi causes erythema migrans, a single expanding ring at a tick bite (standard teaching), not many target lesions on the hands.",
+        "d": "Coxsackievirus A16 causes hand-foot-and-mouth disease, with small vesicles rather than target lesions (standard teaching).",
+        "e": "Secondary syphilis causes a scaly rash on the palms and soles (standard teaching), not target lesions after cold sores."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Erythema Multiforme",
+          "url": "https://www.msdmanuals.com/professional/dermatologic-disorders/hypersensitivity-and-reactive-skin-disorders/erythema-multiforme"
+        }
+      ]
+    },
+    {
+      "id": "micro-ssss-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Staphylococcal scalded skin syndrome",
+      "difficulty": 2,
+      "stem": "A 2-year-old boy is brought to the physician because of fever, irritability, and a painful red rash for 1 day. It began around his mouth and in his neck and armpit folds, and the skin is now wrinkling and forming large, thin blisters. Gentle pressure makes the top layer of skin slide off. His lips, mouth, and eyes have no lesions. A crusted sore was present below his nose last week.",
+      "leadIn": "The toxin responsible for this condition cleaves which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Desmoglein 1"
+        },
+        {
+          "id": "b",
+          "text": "Desmoglein 3"
+        },
+        {
+          "id": "c",
+          "text": "Elongation factor 2"
+        },
+        {
+          "id": "d",
+          "text": "The 60S ribosomal subunit"
+        },
+        {
+          "id": "e",
+          "text": "SNARE proteins at synapses"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: desmoglein 1 (staphylococcal scalded skin syndrome). Why: some Staphylococcus aureus strains release exfoliative toxins A and B, which cleave desmoglein 1, an adhesion protein of the epidermis. The split lies high in the epidermis, just beneath the granular cell layer, so the blisters are superficial and the Nikolsky sign is positive. SSSS mainly affects children under 6, especially infants, and rarely adults with kidney failure or immunosuppression. The mucous membranes are spared, unlike toxic epidermal necrolysis, which follows a drug and splits at or below the basal layer. Cultures come from sites such as the nose, conjunctiva, or a primary infection, not from the bullae, which are sterile. Treatment is IV antistaphylococcal antibiotics such as nafcillin or oxacillin, and glucocorticoids are contraindicated.",
+      "whyWrong": {
+        "b": "Desmoglein 3 is the main target of autoantibodies in pemphigus vulgaris (MSD), which usually affects middle-aged adults and often involves the mouth.",
+        "c": "Inactivating elongation factor 2 is how diphtheria toxin and Pseudomonas exotoxin A stop protein synthesis (standard teaching).",
+        "d": "Shiga toxin acts on the 60S ribosomal subunit (standard teaching). It causes bloody diarrhea, not peeling skin.",
+        "e": "Tetanus and botulinum toxins cleave SNARE proteins (standard teaching), causing muscle spasm or paralysis rather than blisters."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Staphylococcal Scalded Skin Syndrome",
+          "url": "https://www.msdmanuals.com/professional/dermatologic-disorders/bacterial-skin-infections/staphylococcal-scalded-skin-syndrome"
+        },
+        {
+          "title": "MSD Manual Professional: Stevens-Johnson Syndrome (SJS) and Toxic Epidermal Necrolysis (TEN)",
+          "url": "https://www.msdmanuals.com/professional/dermatologic-disorders/hypersensitivity-and-reactive-skin-disorders/stevens-johnson-syndrome-sjs-and-toxic-epidermal-necrolysis-ten"
+        }
+      ]
+    },
+    {
+      "id": "path-acral-melanoma-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Melanoma: subtypes and prognosis",
+      "difficulty": 2,
+      "stem": "A 47-year-old Black man comes to the physician because of a dark spot on the sole of his right foot that has grown over the past year. It is a 14-mm brown-black patch with irregular borders and several shades of color. An excisional biopsy confirms melanoma.",
+      "leadIn": "Which feature of the excised tumor best predicts his risk of metastasis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Depth of invasion (Breslow thickness)"
+        },
+        {
+          "id": "b",
+          "text": "Largest diameter of the lesion"
+        },
+        {
+          "id": "c",
+          "text": "Number of different colors in the lesion"
+        },
+        {
+          "id": "d",
+          "text": "Irregularity of its borders"
+        },
+        {
+          "id": "e",
+          "text": "How long the lesion was present"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: depth of invasion, the Breslow thickness. Why: MSD states that metastasis correlates with the depth of dermal invasion, and staging is based on tumor thickness and ulceration. Prognosis depends heavily on the stage at diagnosis. Sentinel lymph node biopsy is recommended for melanomas 1.0 to 4.0 mm thick without palpable nodes and for those thicker than 4.0 mm. This patient has acral lentiginous melanoma, which is only 1% of melanomas overall but the most common type in people with darker skin. Superficial spreading melanoma accounts for 70%, lentigo maligna for 15%, and nodular melanoma for about 5%. The ABCDE warning signs are Asymmetry, irregular Borders, uneven Color, Diameter over 6 mm, and Evolution.",
+      "whyWrong": {
+        "b": "A diameter over 6 mm is one of the ABCDE warning signs for spotting melanoma (MSD), but metastasis risk follows depth of invasion, not width.",
+        "c": "Uneven color is an ABCDE warning sign used to suspect melanoma (MSD), not a measure of metastatic risk.",
+        "d": "Irregular borders help raise suspicion for melanoma (MSD), but they do not predict spread.",
+        "e": "Change over time (Evolution) raises suspicion for melanoma (MSD), but staging and prognosis are based on depth and ulceration."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Melanoma",
+          "url": "https://www.msdmanuals.com/professional/oncology/cancers-of-the-skin/melanoma"
+        }
+      ]
+    },
+    {
+      "id": "pharm-bcc-hedgehog-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Basal cell carcinoma: hedgehog pathway inhibitors",
+      "difficulty": 3,
+      "stem": "A 38-year-old man has had more than 20 basal cell carcinomas removed since he was 18 years old. His father and sister have had the same problem. He now has a large basal cell carcinoma next to his left eye that has grown into nearby tissue. Surgery and radiation therapy are not options, and treatment with vismodegib is started.",
+      "leadIn": "This drug blocks which of the following signaling pathways?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hedgehog pathway"
+        },
+        {
+          "id": "b",
+          "text": "BRAF-MEK (MAPK) pathway"
+        },
+        {
+          "id": "c",
+          "text": "PD-1 immune checkpoint"
+        },
+        {
+          "id": "d",
+          "text": "EGFR tyrosine kinase pathway"
+        },
+        {
+          "id": "e",
+          "text": "mTOR pathway"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the Hedgehog pathway. Why: many basal cell carcinomas starting at a young age with an affected parent and sibling suggest basal cell nevus syndrome (Gorlin syndrome). This autosomal dominant disorder causes multiple basal cell carcinomas, mostly through loss-of-function mutations in PTCH1, which leave Hedgehog signaling switched on. Vismodegib and sonidegib inhibit the Hedgehog pathway and may be given for metastatic or locally advanced basal cell carcinoma when surgery and radiation are not options. Cemiplimab, a PD-1 inhibitor, is an option for patients who cannot tolerate them. Basal cell carcinoma is the most common skin cancer and appears on the head and neck in 80% of cases. It rarely metastasizes, but local growth can be very destructive.",
+      "whyWrong": {
+        "b": "BRAF and MEK inhibitors are used for BRAF-mutated melanoma (MSD), not for Hedgehog-driven basal cell carcinoma.",
+        "c": "Cemiplimab blocks PD-1 and is used when patients cannot tolerate Hedgehog inhibitors (MSD). Vismodegib does not act on PD-1.",
+        "d": "EGFR inhibitors are used for some lung, colorectal, and head and neck cancers (standard teaching), not basal cell carcinoma syndromes.",
+        "e": "mTOR inhibitors such as sirolimus and everolimus are used in transplant immunosuppression and some cancers (standard teaching), not in Gorlin syndrome."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Basal Cell Carcinoma",
+          "url": "https://www.msdmanuals.com/professional/dermatologic-disorders/cancers-of-the-skin/basal-cell-carcinoma"
+        }
+      ]
+    },
+    {
+      "id": "biochem-albinism-tyrosinase-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Oculocutaneous albinism",
+      "difficulty": 1,
+      "stem": "An 8-year-old girl is brought to the physician because her skin burns after only a few minutes in the sun. She has had white hair and very pale skin since birth. Her eyes move back and forth involuntarily, she squints in bright light, and her vision is poor. Her parents are normally pigmented. A skin biopsy shows a normal number of melanocytes.",
+      "leadIn": "Reduced activity of which enzyme is the most likely cause?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tyrosinase"
+        },
+        {
+          "id": "b",
+          "text": "Phenylalanine hydroxylase"
+        },
+        {
+          "id": "c",
+          "text": "Homogentisate oxidase"
+        },
+        {
+          "id": "d",
+          "text": "Tyrosine hydroxylase"
+        },
+        {
+          "id": "e",
+          "text": "Dopamine beta-hydroxylase"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: tyrosinase (oculocutaneous albinism type 1). Why: in oculocutaneous albinism, melanocytes are present in normal numbers but make little or no melanin. Mutations in the TYR gene cause absent (OCA1A) or reduced (OCA1B) tyrosinase activity. Most cases are autosomal recessive, which fits her normally pigmented parents. Eye involvement causes photophobia, strabismus, nystagmus, and poor vision. Patients burn easily and have a high risk of skin cancer, especially squamous cell carcinoma, and the only treatment for the skin is protection from sunlight. Albinism-like features also occur in Hermansky-Pudlak syndrome (with platelet problems) and Chédiak-Higashi syndrome (with immunodeficiency).",
+      "whyWrong": {
+        "b": "Phenylalanine hydroxylase deficiency is phenylketonuria (standard teaching), which can lighten skin and hair but mainly causes intellectual disability if untreated.",
+        "c": "Homogentisate oxidase deficiency is alkaptonuria (standard teaching), which darkens cartilage and urine rather than removing pigment.",
+        "d": "Tyrosine hydroxylase makes L-dopa for dopamine and other catecholamines in nerve tissue (standard teaching). It is not the melanin enzyme in melanocytes.",
+        "e": "Dopamine beta-hydroxylase converts dopamine to norepinephrine (standard teaching). It plays no role in melanin."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Albinism",
+          "url": "https://www.msdmanuals.com/professional/dermatologic-disorders/pigmentation-disorders/albinism"
+        }
+      ]
+    },
+    {
+      "id": "immuno-psoriasis-il17-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Immunology",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Psoriasis: immunopathogenesis and biologics",
+      "difficulty": 2,
+      "stem": "A 34-year-old man comes to the physician because of a rash that has been spreading for 2 years despite topical treatment. There are sharply bordered red plaques with silvery scale on his elbows, knees, scalp, and lower back. New plaques have appeared along a recent scratch on his forearm. Treatment with secukinumab is started.",
+      "leadIn": "The cytokine this drug blocks is made mainly by which of the following cells?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Th17 cells"
+        },
+        {
+          "id": "b",
+          "text": "Th2 cells"
+        },
+        {
+          "id": "c",
+          "text": "Regulatory T cells"
+        },
+        {
+          "id": "d",
+          "text": "Plasma cells"
+        },
+        {
+          "id": "e",
+          "text": "Mast cells"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: Th17 cells. Why: psoriasis is keratinocyte overgrowth driven by innate and adaptive immunity. Activated dendritic cells secrete IL-12 and IL-23, which expand T helper cells, and the most commonly implicated pathway is Th17-mediated, producing IL-17 and IL-22. Secukinumab, ixekizumab, bimekizumab, and brodalumab are IL-17 inhibitors. Tildrakizumab, risankizumab, and guselkumab are IL-23 inhibitors, and ustekinumab targets both IL-12 and IL-23. Classic lesions are sharply bordered red plaques with silvery scale on the elbows and knees, and injury can trigger new plaques (Koebner phenomenon). About 30% of patients develop psoriatic arthritis. Systemic glucocorticoids should not be used, because they can cause flares or pustular psoriasis.",
+      "whyWrong": {
+        "b": "Th2 cells make IL-4, IL-5, and IL-13 and drive allergic disease such as atopic dermatitis (standard teaching), not IL-17.",
+        "c": "Regulatory T cells suppress immune responses with IL-10 and TGF-beta (standard teaching). They do not make IL-17.",
+        "d": "Plasma cells make antibodies (standard teaching), not IL-17.",
+        "e": "Mast cells release histamine in allergic reactions (standard teaching). MSD describes psoriasis as driven by the Th17 pathway."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Psoriasis",
+          "url": "https://www.msdmanuals.com/professional/dermatologic-disorders/psoriasis-and-scaling-diseases/psoriasis"
+        }
+      ]
+    },
+    {
+      "id": "micro-vibrio-necrotizing-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Necrotizing soft-tissue infection: Vibrio vulnificus",
+      "difficulty": 2,
+      "stem": "A 58-year-old man with alcohol-related cirrhosis is brought to the emergency department because of severe pain in his right leg for 12 hours. Yesterday he cut his shin on rocks while wading in warm seawater on the Gulf Coast. His temperature is 39.2°C, and his blood pressure is 84/50 mm Hg. The leg is swollen with dusky skin and blood-filled blisters. His pain is far worse than the skin findings suggest.",
+      "leadIn": "Which of the following organisms is most likely responsible?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vibrio vulnificus"
+        },
+        {
+          "id": "b",
+          "text": "Aeromonas hydrophila"
+        },
+        {
+          "id": "c",
+          "text": "Pasteurella multocida"
+        },
+        {
+          "id": "d",
+          "text": "Pseudomonas aeruginosa"
+        },
+        {
+          "id": "e",
+          "text": "Clostridium perfringens"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: Vibrio vulnificus (necrotizing soft-tissue infection). Why: a subgroup of monomicrobial necrotizing soft-tissue infection follows wounds from water in warm coastal areas, especially in people with chronic liver disease such as cirrhosis, diabetes, or weakened immunity, and Vibrio vulnificus is the usual pathogen. Pain out of proportion to the skin findings is a key warning sign, and crepitus from gas in the tissues may develop. Most other necrotizing infections are either polymicrobial or caused by group A streptococci, with S. aureus second. Treatment is mainly urgent surgical debridement, repeated as needed, plus antibiotics started at once. Clindamycin or linezolid is often added to inhibit toxin production. Even with treatment, mortality is about 20 to 30%.",
+      "whyWrong": {
+        "b": "Aeromonas causes wound infections after freshwater exposure (standard teaching). His wound came from warm seawater, and he has cirrhosis.",
+        "c": "Pasteurella multocida infects cat and dog bites (standard teaching), not wounds from seawater.",
+        "d": "Pseudomonas causes infections in burns and hot tub folliculitis (standard teaching). It is not the classic seawater pathogen in cirrhosis.",
+        "e": "Clostridial gas gangrene can follow deep traumatic injury (MSD), but seawater exposure with cirrhosis points to Vibrio vulnificus."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Necrotizing Soft-Tissue Infection",
+          "url": "https://www.msdmanuals.com/professional/infectious-diseases/bacterial-skin-infections/necrotizing-soft-tissue-infection"
+        }
+      ]
+    },
+    {
+      "id": "immuno-hereditary-angioedema-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Immunology",
+      "system": "Immune System",
+      "topic": "Hereditary angioedema",
+      "difficulty": 2,
+      "stem": "A 19-year-old woman is brought to the emergency department because of swelling of her lips and face that began a few hours after a tooth extraction. She has had episodes of swollen hands and feet lasting 2 to 3 days since her early teens, and some episodes of crampy abdominal pain with vomiting. The swellings do not itch, and she has never had hives. Her mother has similar episodes. Serum C4 was low when she was well last month.",
+      "leadIn": "Which mediator is mainly responsible for her swelling?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bradykinin"
+        },
+        {
+          "id": "b",
+          "text": "Histamine"
+        },
+        {
+          "id": "c",
+          "text": "Leukotriene D4"
+        },
+        {
+          "id": "d",
+          "text": "C5a anaphylatoxin"
+        },
+        {
+          "id": "e",
+          "text": "Prostaglandin D2"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: bradykinin (hereditary angioedema from C1 inhibitor deficiency). Why: hereditary C1 inhibitor deficiency is autosomal dominant, and the swelling is bradykinin-mediated rather than histamine-mediated. Itching, hives, and bronchospasm do not occur. C4 is low even between episodes, and diagnosis requires a low C1 inhibitor level or reduced function. C1q is normal in the hereditary forms but low in acquired deficiency. Mild trauma such as dental work, and estrogen-containing drugs, can trigger attacks. The gut is often involved, with pain that can mimic bowel obstruction, and laryngeal edema can cause stridor and sometimes death. Glucocorticoids, epinephrine, and antihistamines usually do not work. Acute attacks are treated with C1 inhibitor concentrate, icatibant (a bradykinin B2 receptor blocker), or the kallikrein inhibitors ecallantide and sebetralstat. Lanadelumab and berotralstat, which also inhibit kallikrein, prevent attacks.",
+      "whyWrong": {
+        "b": "Histamine causes allergic angioedema with hives and itching (standard teaching). MSD notes that hives and itching do not occur in C1 inhibitor deficiency.",
+        "c": "Leukotrienes cause bronchospasm and mucus in asthma (standard teaching), and bronchospasm does not occur in C1 inhibitor deficiency (MSD).",
+        "d": "C5a is a complement fragment that attracts neutrophils (standard teaching). It does not explain itch-free swelling with low C4.",
+        "e": "Prostaglandin D2 is a mast cell product of allergic reactions (standard teaching), not the cause of this swelling."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Hereditary and Acquired C1 Inhibitor Deficiency or Dysfunction",
+          "url": "https://www.msdmanuals.com/professional/immunology-allergic-disorders/allergic-autoimmune-and-other-hypersensitivity-disorders/hereditary-and-acquired-c1-inhibitor-deficiency-or-dysfunction"
         }
       ]
     }
