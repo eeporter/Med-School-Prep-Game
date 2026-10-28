@@ -7474,7 +7474,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: leucine (maple syrup urine disease, MSUD). Why: a newborn who becomes severely ill in the first days of life, with vomiting and lethargy progressing to seizures, and body fluids that smell of maple syrup (especially strong in earwax) has MSUD. A defect in the branched-chain alpha-ketoacid dehydrogenase complex blocks breakdown of the branched-chain amino acids valine, leucine, and isoleucine. Diagnosis rests on high plasma branched-chain amino acids, particularly leucine. Thiamine is a cofactor, and some patients respond to high-dose thiamine. Long-term treatment restricts branched-chain amino acids in the diet, and liver transplantation is curative. Untreated, it progresses to coma and death. Note: your table names the enzyme \"alpha-ketoacid decarboxylase\"; MSD names the whole dehydrogenase complex, with thiamine needed for the decarboxylation step, so both point at the same enzyme.",
+      "explanation": "Answer: leucine (maple syrup urine disease, MSUD). Why: a newborn who becomes severely ill in the first days of life, with vomiting and lethargy progressing to seizures, and body fluids that smell of maple syrup (especially strong in earwax) has MSUD. A defect in the branched-chain alpha-ketoacid dehydrogenase complex blocks breakdown of the branched-chain amino acids valine, leucine, and isoleucine. Diagnosis rests on high plasma branched-chain amino acids, particularly leucine. Thiamine is a cofactor, and some patients respond to high-dose thiamine. Long-term treatment restricts branched-chain amino acids in the diet, and liver transplantation is curative. Untreated, it progresses to coma and death. Other source: your table names the enzyme \"alpha-ketoacid decarboxylase\"; MSD names the whole dehydrogenase complex, with thiamine needed for the decarboxylation step, so both point at the same enzyme.",
       "whyWrong": {
         "b": "High phenylalanine is phenylketonuria, which causes slow developmental delay, not a crisis in the first week.",
         "c": "High methionine is the newborn screening marker for classic homocystinuria, which does not cause an acute crisis or a maple syrup odor.",
@@ -9290,7 +9290,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: ectopic tubal pregnancy. Why: a woman with a positive pregnancy test, pelvic pain, and bleeding, whose hCG is high enough that a pregnancy in the uterus should be visible but is not, most likely has an ectopic pregnancy. Most ectopic pregnancies are in the fallopian tube. A past chlamydial infection or pelvic inflammatory disease raises the risk, as do a prior ectopic pregnancy and tubal surgery. Most patients have pelvic pain, vaginal bleeding, or both, and rupture can cause sudden severe pain and shock. Small unruptured ectopic pregnancies are usually treated with methotrexate, and surgery is done if rupture is suspected. Recent change: your Obstetrics notes (pp. 14 and 43) use 1,500 mIU/mL as the hCG level above which a uterine sac should be seen on transvaginal ultrasound. MSD Manual says the recommended threshold has been raised to 3,500 mIU/mL, so that a wanted early pregnancy is not mistaken for an ectopic one and treated. Her hCG is above both cutoffs.",
+      "explanation": "Answer: ectopic tubal pregnancy. Why: a woman with a positive pregnancy test, pelvic pain, and bleeding, whose hCG is high enough that a pregnancy in the uterus should be visible but is not, most likely has an ectopic pregnancy. Most ectopic pregnancies are in the fallopian tube. A past chlamydial infection or pelvic inflammatory disease raises the risk, as do a prior ectopic pregnancy and tubal surgery. Most patients have pelvic pain, vaginal bleeding, or both, and rupture can cause sudden severe pain and shock. Small unruptured ectopic pregnancies can be treated with methotrexate if there are no contraindications, and surgery is done if rupture is suspected. Recent change: your Obstetrics notes (pp. 14 and 43) use 1,500 mIU/mL as the hCG level above which a uterine sac should be seen on transvaginal ultrasound. MSD Manual says the recommended threshold has been raised to 3,500 mIU/mL, so that a wanted early pregnancy is not mistaken for an ectopic one and treated. Her hCG is above both cutoffs.",
       "whyWrong": {
         "b": "Above the hCG threshold of 3,500 mIU/mL, a normal pregnancy inside the uterus should be visible on transvaginal ultrasound. None is seen here.",
         "c": "A complete mole usually makes the uterus larger than expected, with very high hCG and a uterine mass full of cysts. Her uterus is empty.",
@@ -9400,11 +9400,11 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: intravenous calcium gluconate. Why: magnesium sulfate prevents seizures in preeclampsia with severe features. It is given as a 4-g IV load over 20 minutes, then 2 g per hour, and continued for 12 to 24 hours after delivery. Too much magnesium first causes a sudden loss of reflexes and then slow, shallow breathing. MSD Manual recommends calcium gluconate 1 g IV for very high levels with significant symptoms, because calcium counteracts magnesium's effects. Checking reflexes during the infusion catches toxicity early.",
+      "explanation": "Answer: intravenous calcium gluconate. Why: magnesium sulfate prevents seizures in preeclampsia with severe features. It is given as a 4-g IV load over 20 minutes, then 2 g per hour, and continued for 12 to 24 hours after delivery. Signs of too much magnesium include a sudden decrease in reflexes, heart problems, and slow, shallow breathing (hypoventilation). MSD Manual recommends calcium gluconate 1 g IV for very high levels with significant symptoms, because calcium counteracts magnesium's effects. Checking reflexes during the infusion catches toxicity early.",
       "whyWrong": {
         "b": "Naloxone reverses opioids. She has not received an opioid, and her absent reflexes point to magnesium.",
         "c": "Flumazenil reverses benzodiazepines, is given only IV, and can cause seizures. It has no effect on magnesium toxicity.",
-        "d": "Labetalol lowers blood pressure in preeclampsia, but it does not reverse magnesium toxicity and could worsen her condition.",
+        "d": "Labetalol lowers blood pressure in preeclampsia, but it does not reverse magnesium toxicity.",
         "e": "Potassium does not counteract magnesium. Calcium is the antidote."
       },
       "sources": [
@@ -9502,7 +9502,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: neonatal hyperinsulinemia. Why: high maternal glucose reaches the fetus, whose pancreas responds by making extra insulin. After birth the supply of maternal glucose stops suddenly, but the baby's insulin stays high for a time, so the blood glucose falls. Hypoglycemia from fetal hyperinsulinemia is reported in infants of diabetic mothers. Other newborn problems include low calcium, jaundice, polycythemia, and breathing trouble. A large baby (macrosomia, birth weight over 4,000 to 4,500 g) raises the risk of shoulder dystocia. Poor control around conception and early pregnancy also raises the risk of birth defects, including heart defects and caudal regression syndrome. Gestational diabetes is screened for at 24 to 28 weeks with a 50-g glucose load.",
+      "explanation": "Answer: neonatal hyperinsulinemia. Why: high maternal glucose reaches the fetus, whose pancreas responds by making extra insulin. After birth the supply of maternal glucose stops suddenly, but the baby's insulin stays high for a time, so the blood glucose falls. Hypoglycemia from fetal hyperinsulinemia is reported in infants of diabetic mothers. Other newborn problems include low calcium, jaundice, polycythemia, and breathing trouble. A large baby (macrosomia, birth weight over 4,000 to 4,500 g) raises the risk of shoulder dystocia. Poor control around conception and early pregnancy also raises the risk of major birth defects (MSD), and StatPearls lists heart defects such as ventricular septal defects and transposition of the great arteries, and caudal regression syndrome. Gestational diabetes is screened for at 24 to 28 weeks with a 50-g glucose load.",
       "whyWrong": {
         "b": "Insulin cannot cross the placenta, so the mother's insulin does not lower the baby's glucose.",
         "c": "Glucose-6-phosphatase deficiency (von Gierke disease) causes low glucose between feeds, but the clue here is the mother's poorly controlled diabetes and a very large baby.",
@@ -9516,7 +9516,7 @@
         },
         {
           "title": "MSD Manual Professional: Diabetes Mellitus in Pregnancy",
-          "url": "https://msdmanuals.com/en-in/professional/gynecology-and-obstetrics/pregnancy-complicated-by-disease/diabetes-mellitus-in-pregnancy"
+          "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/pregnancy-complicated-by-disease/diabetes-mellitus-in-pregnancy"
         }
       ]
     },
@@ -9583,7 +9583,7 @@
       "system": "Reproductive",
       "topic": "Postpartum hemorrhage",
       "difficulty": 1,
-      "stem": "A 32-year-old woman, gravida 4, para 4, delivers twins vaginally after 20 hours of labor that required an oxytocin infusion. The placentas are delivered intact. Over the next 30 minutes she loses about 1,300 mL of blood. Her pulse is 118/min and blood pressure is 92/58 mm Hg. The uterus is soft and boggy and is felt above the umbilicus. Inspection of the vagina and cervix shows no tears.",
+      "stem": "A 32-year-old woman, gravida 6, para 5, delivers twins vaginally after 20 hours of labor that required an oxytocin infusion. The placentas are delivered intact. Over the next 30 minutes she loses about 1,300 mL of blood. Her pulse is 118/min and blood pressure is 92/58 mm Hg. The uterus is soft and boggy and is felt above the umbilicus. Inspection of the vagina and cervix shows no tears.",
       "leadIn": "Which of the following is the most likely cause of her bleeding?",
       "options": [
         {
@@ -9608,7 +9608,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: uterine atony. Why: after delivery, the uterine muscle must contract to squeeze the blood vessels at the placental site shut. A soft, boggy, enlarged uterus that does not contract is uterine atony, the most common cause of postpartum hemorrhage. Her risk factors include an overstretched uterus from twins, a long labor, and many previous births. Treatment starts with uterine massage and IV oxytocin, which should not be given as a fast IV push because it can cause severe low blood pressure. Methylergonovine is avoided in women with high blood pressure, and prostaglandin F2-alpha drugs are avoided in women with asthma. Tranexamic acid can be added if the first drugs fail. Recent change: your Obstetrics notes (p. 132) define postpartum hemorrhage as 500 mL or more after vaginal delivery or 1,000 mL after cesarean. MSD Manual now defines it as more than 1,000 mL, or blood loss with signs of low blood volume, within 24 hours of birth.",
+      "explanation": "Answer: uterine atony. Why: after delivery, the uterine muscle must contract to squeeze the blood vessels at the placental site shut. A soft, boggy, enlarged uterus that does not contract is uterine atony, the most common cause of postpartum hemorrhage. Her risk factors include an overstretched uterus from twins, a long labor, and grand multiparity (5 or more previous deliveries). Treatment starts with uterine massage and IV oxytocin, which should not be given as a fast IV push because it can cause severe low blood pressure. Methylergonovine is avoided in women with high blood pressure, and prostaglandin F2-alpha drugs are avoided in women with asthma. Tranexamic acid can be added if the first drugs fail. Recent change: your Obstetrics notes (p. 132) define postpartum hemorrhage as 500 mL or more after vaginal delivery or 1,000 mL after cesarean. MSD Manual now defines it as more than 1,000 mL, or blood loss with signs of low blood volume, within 24 hours of birth.",
       "whyWrong": {
         "b": "Retained placental tissue is another cause, but both placentas came out intact, and the soft uterus points to poor contraction.",
         "c": "Lacerations bleed even when the uterus is firm. Her uterus is soft, and no tears were found.",
@@ -9657,7 +9657,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: placenta previa. Why: placenta previa means the placenta is implanted over or near the internal opening of the cervix. It typically causes painless vaginal bleeding after 20 weeks. Risk factors include prior cesarean delivery, multiparity, and smoking. Transvaginal ultrasonography is an accurate and safe way to make the diagnosis. A digital pelvic examination is contraindicated until ultrasound has ruled out previa, because it can cause heavy bleeding. With each prior cesarean, the risk that the placenta also grows too deeply into the uterine wall (placenta accreta spectrum) rises, from about 3% after one cesarean to 67% after five or more.",
+      "explanation": "Answer: placenta previa. Why: placenta previa means the placenta is implanted over or near the internal opening of the cervix. It typically causes painless vaginal bleeding after 20 weeks. Risk factors include prior cesarean delivery, multiparity, and smoking. Transvaginal ultrasonography is an accurate and safe way to make the diagnosis. A digital pelvic examination is contraindicated until ultrasound has ruled out previa, because it can cause heavy bleeding. In women with previa, each prior cesarean raises the risk that the placenta also grows too deeply into the uterine wall (placenta accreta spectrum), from about 3% after one cesarean to 67% after five or more.",
       "whyWrong": {
         "b": "Placental abruption is usually painful, with a tender uterus. Her bleeding is painless and her uterus is soft.",
         "c": "Uterine rupture is more likely after prior cesareans but usually causes sudden pain, an abnormal fetal heart tracing, and maternal shock, especially during labor.",
@@ -9986,7 +9986,7 @@
       "explanation": "Answer: high FSH and LH, low testosterone (Klinefelter syndrome). Why: tall stature, small firm testes, gynecomastia, and no sperm with a 47,XXY karyotype is Klinefelter syndrome. It affects 1 in 500 to 1,000 males and usually results from nondisjunction. The seminiferous tubules become scarred (hyalinized), so the testes cannot make sperm or inhibin B, and testosterone is low or low-normal. Without negative feedback, the pituitary raises FSH and LH, with FSH usually higher. This is primary hypogonadism. Testosterone replacement is the core treatment, and sperm can sometimes be retrieved surgically for assisted reproduction. Affected men have a higher risk of male breast cancer.",
       "whyWrong": {
         "b": "Low FSH and LH with low testosterone is secondary (pituitary or hypothalamic) hypogonadism. In Klinefelter syndrome the testes fail, so FSH and LH rise.",
-        "c": "High LH with high testosterone fits androgen insensitivity, where the body cannot respond to testosterone. He is virilized and has a 47,XXY karyotype.",
+        "c": "High LH with high testosterone fits androgen insensitivity (standard teaching), where the body cannot respond to testosterone. He is virilized and has a 47,XXY karyotype.",
         "d": "High prolactin causes low gonadotropins and can cause breast changes, but it does not explain small testes with a 47,XXY karyotype.",
         "e": "Low FSH and LH with high testosterone suggests an outside source of androgen, such as anabolic steroid use, which suppresses the pituitary."
       },
@@ -10036,11 +10036,11 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: androgen receptor (complete androgen insensitivity syndrome). Why: a 46,XY person with testes that make testosterone, but a female body and no uterus, has androgen insensitivity. Mutations in the androgen receptor gene on the X chromosome leave the body unable to respond to testosterone. Puberty brings normal breast development because testosterone is converted to estrogen, but menarche never happens because there is no uterus. The testes are often found during hernia repair or when primary amenorrhea is evaluated. Testosterone is high-normal with an inappropriately high LH. Gonadectomy is advised because of a tumor risk that rises in adulthood.",
+      "explanation": "Answer: androgen receptor (complete androgen insensitivity syndrome). Why: a 46,XY person with testes that make testosterone, but a female body and no uterus, has androgen insensitivity. Mutations in the androgen receptor gene on the X chromosome leave the body unable to respond to testosterone. Puberty brings normal breast development, but menarche never happens because there is no uterus. In standard teaching, the breasts develop because testosterone is converted to estrogen. The testes are often found during hernia repair or when primary amenorrhea is evaluated. In standard teaching, testosterone after puberty is normal to high with a high LH, because the pituitary cannot sense androgen either. Gonadectomy is advised because of a tumor risk that rises in adulthood.",
       "whyWrong": {
         "b": "5-alpha-reductase deficiency blocks conversion of testosterone to DHT. These 46,XY individuals often have atypical genitalia at birth and frequently virilize at puberty.",
         "c": "21-hydroxylase deficiency is the most common cause of congenital adrenal hyperplasia, which virilizes 46,XX girls. It does not cause this picture.",
-        "d": "Aromatase converts testosterone to estrogen. Her breast development shows aromatase is working.",
+        "d": "Aromatase converts testosterone to estrogen. In standard teaching, her breast development shows aromatase is working.",
         "e": "Without SRY, testes would not form. She has testes that make testosterone."
       },
       "sources": [
@@ -10301,7 +10301,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: ectopic ACTH from small cell lung cancer. Why: high cortisol that is not suppressed by dexamethasone, with a very high ACTH, means the cortisol is ACTH-dependent and the ACTH comes from a source that does not respond to feedback. In a heavy smoker with a hilar lung mass, small cell carcinoma of the lung is the classic source. Severe metabolic changes such as low potassium are common in ectopic ACTH. A pituitary source (Cushing disease) usually suppresses with high-dose dexamethasone, while an adrenal tumor or ectopic ACTH does not. Many centers no longer use the high-dose test, and petrosal sinus sampling may be needed to separate a pituitary source from an ectopic one. A low or undetectable ACTH would instead point to the adrenal gland.",
+      "explanation": "Answer: ectopic ACTH from small cell lung cancer. Why: high cortisol that is not suppressed by dexamethasone, with a very high ACTH, means the cortisol is ACTH-dependent and the ACTH comes from a source that does not respond to feedback. In a heavy smoker with a hilar lung mass, small cell carcinoma of the lung is the classic source. Low potassium is a classic clue to ectopic ACTH (standard teaching), and MSD notes that adrenal enzyme inhibitors can control severe metabolic problems such as hypokalemia. A pituitary source (Cushing disease) usually suppresses with high-dose dexamethasone, while an adrenal tumor or ectopic ACTH does not. Many centers no longer use the high-dose test, and petrosal sinus sampling may be needed to separate a pituitary source from an ectopic one. A low or undetectable ACTH would instead point to the adrenal gland.",
       "whyWrong": {
         "b": "A pituitary adenoma (Cushing disease) usually suppresses with high-dose dexamethasone, and nothing points to the pituitary here.",
         "c": "A cortisol-secreting adrenal adenoma makes cortisol on its own, so ACTH would be low or undetectable, not very high.",
