@@ -16521,6 +16521,1046 @@
           "url": "https://www.msdmanuals.com/professional/psychiatric-disorders/mood-disorders/medications-for-treatment-of-depression"
         }
       ]
+    },
+    {
+      "id": "resp-a1at-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Respiratory",
+      "topic": "Emphysema: alpha-1 antitrypsin deficiency",
+      "difficulty": 2,
+      "stem": "A 39-year-old man comes to the physician because of shortness of breath with exertion that has slowly worsened over 2 years. He has smoked 1 pack of cigarettes daily for 20 years. His older brother had a liver transplant at age 45. Breath sounds are decreased at both lung bases. Spirometry shows an FEV1/FVC ratio of 0.55 that does not improve after a bronchodilator. CT of the chest shows emphysema that is worst in both lower lobes. Serum ALT is mildly increased.",
+      "leadIn": "A liver biopsy from this patient is most likely to show which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "PAS-positive globules inside hepatocytes"
+        },
+        {
+          "id": "b",
+          "text": "Mallory-Denk bodies in swollen hepatocytes"
+        },
+        {
+          "id": "c",
+          "text": "Iron deposits stained with Prussian blue"
+        },
+        {
+          "id": "d",
+          "text": "Ground-glass hepatocytes with viral antigen"
+        },
+        {
+          "id": "e",
+          "text": "Copper deposits in periportal hepatocytes"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: PAS-positive globules in liver cells (alpha-1 antitrypsin deficiency). Why: your El-Husseiny respiratory notes (p. 91) explain that alpha-1 antitrypsin is the main blocker of neutrophil elastase. When it is missing, elastase digests the alveolar walls of the whole acinus (panacinar emphysema), worst in the lower lobes. The misfolded protein gets stuck inside liver cells, so a biopsy shows pink PAS-positive globules, and smoking greatly raises the risk of lung damage. MSD adds that the protein is made in the liver, that the PI*ZZ genotype causes more than 95% of severe cases, and that the trapped protein forms polymers in liver cells, which can cause newborn cholestasis; your El-Husseiny respiratory notes also link it to cirrhosis. MSD advises testing for this condition in people who develop emphysema before about age 50, as in this smoker with an early, lower-lobe pattern and a family history of liver failure. Selected patients can receive replacement (augmentation) therapy with the protein (MSD).",
+      "whyWrong": {
+        "b": "Mallory-Denk bodies are tangled keratin in liver cells, seen mainly in alcohol-related liver disease; they do not explain early lower-lobe emphysema (standard teaching).",
+        "c": "Iron deposits point to hemochromatosis, which affects the liver, heart, pancreas, and skin, not the lungs (standard teaching).",
+        "d": "Ground-glass liver cells hold hepatitis B surface antigen; hepatitis B does not cause emphysema (standard teaching).",
+        "e": "Copper buildup is Wilson disease, which affects the liver and brain, not the lungs (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Respiratory System (Emily's file), Alpha-1 antitrypsin deficiency, p. 91"
+        },
+        {
+          "title": "MSD Manual Professional: Alpha-1 Antitrypsin Deficiency",
+          "url": "https://www.msdmanuals.com/professional/pulmonary-disorders/chronic-obstructive-pulmonary-disease-and-related-disorders/alpha-1-antitrypsin-deficiency"
+        }
+      ]
+    },
+    {
+      "id": "resp-asthma-sputum-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Immunology",
+      "system": "Respiratory",
+      "topic": "Asthma: sputum findings and eosinophils",
+      "difficulty": 2,
+      "stem": "A 20-year-old woman comes to the physician because of episodes of wheezing, chest tightness, and cough that are worse at night and after she visits a friend who has cats. She had eczema as a child. Expiratory wheezes are heard in both lungs. A complete blood count shows eosinophilia. Microscopy of her sputum shows coiled mucus casts and many tiny, double-pointed, needle-shaped crystals.",
+      "leadIn": "Which of the following cytokines most directly drives the growth and survival of the cells that form these crystals?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Interleukin-5"
+        },
+        {
+          "id": "b",
+          "text": "Interleukin-4"
+        },
+        {
+          "id": "c",
+          "text": "Interleukin-2"
+        },
+        {
+          "id": "d",
+          "text": "Interleukin-17"
+        },
+        {
+          "id": "e",
+          "text": "Interferon-gamma"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: interleukin-5 (IL-5). Why: your El-Husseiny respiratory notes (p. 94) list the classic sputum findings in asthma: Curschmann spirals (coiled mucus casts made from shed airway lining cells), eosinophils, and Charcot-Leyden crystals, which form when eosinophils break down. MSD explains that Th2 cells, eosinophils, and mast cells fill the airway wall in allergic asthma, that IL-5 drives eosinophil maturation and survival, and that IL-13 adds to eosinophil buildup, mucus gland growth, and scarring. MSD names atopy (the tendency to make IgE to allergens) as the strongest known risk factor for asthma, which fits her eczema and cat trigger. Drugs that block IL-5 are used for severe eosinophilic asthma (standard teaching).",
+      "whyWrong": {
+        "b": "IL-4 pushes T cells toward the Th2 type and switches B cells to make IgE (MSD), but it is not the main growth signal for eosinophils.",
+        "c": "IL-2 makes T cells divide; it does not directly drive eosinophil growth (standard teaching).",
+        "d": "IL-17 comes from Th17 cells and mainly recruits neutrophils, which fits neutrophil-rich, low-T2 asthma rather than this eosinophilic picture (standard teaching).",
+        "e": "Interferon-gamma is a Th1 cytokine that activates macrophages and tends to hold back Th2 responses (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Respiratory System (Emily's file), Asthma, p. 94"
+        },
+        {
+          "title": "MSD Manual Professional: Asthma",
+          "url": "https://www.msdmanuals.com/professional/pulmonary-disorders/asthma-and-related-disorders/asthma"
+        }
+      ]
+    },
+    {
+      "id": "resp-kartagener-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Genetics",
+      "system": "Respiratory",
+      "topic": "Bronchiectasis: primary ciliary dyskinesia (Kartagener syndrome)",
+      "difficulty": 2,
+      "stem": "A 27-year-old man comes to the physician because he and his wife have not conceived after 2 years of trying. He has had a daily cough with large amounts of thick sputum since childhood and frequent sinus infections. His heart sounds are loudest to the right of the sternum. Semen analysis shows a normal sperm count, but the sperm do not move. CT of the chest shows dilated, thick-walled bronchi.",
+      "leadIn": "A defect in which of the following is the most likely cause of this patient's condition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ciliary dynein arm protein"
+        },
+        {
+          "id": "b",
+          "text": "Cystic fibrosis transmembrane regulator"
+        },
+        {
+          "id": "c",
+          "text": "NADPH oxidase complex"
+        },
+        {
+          "id": "d",
+          "text": "Alpha-1 antitrypsin"
+        },
+        {
+          "id": "e",
+          "text": "Bruton tyrosine kinase"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the dynein arms of cilia (primary ciliary dyskinesia, Kartagener syndrome). Why: your El-Husseiny respiratory notes (p. 96) list Kartagener syndrome among the causes of bronchiectasis, a permanent widening of the airways, and explain that it comes from an inherited dynein arm defect that stops cilia from beating. MSD says primary ciliary dyskinesia causes sinusitis, ear infections, and male infertility, and that Kartagener syndrome is the triad of bronchiectasis, sinus disease, and situs inversus (mirror-image organs, as with a heart on the right side). MSD adds that CT shows thick, widened airways (tram lines and signet-ring signs). Sperm tails are built like cilia, so they cannot swim even when the count is normal (standard teaching).",
+      "whyWrong": {
+        "b": "CFTR defects (cystic fibrosis) also cause bronchiectasis and male infertility, but the infertility comes from a missing vas deferens with no sperm in the semen, and CF does not put the heart on the right (standard teaching). MSD notes CF bronchiectasis favors the upper lobes.",
+        "c": "NADPH oxidase defects cause chronic granulomatous disease, with catalase-positive infections and granulomas, not immotile sperm or a right-sided heart (standard teaching).",
+        "d": "Alpha-1 antitrypsin deficiency causes lower-lobe emphysema and liver disease, not sinus disease or situs inversus (MSD Alpha-1 Antitrypsin Deficiency).",
+        "e": "Bruton tyrosine kinase defects cause X-linked agammaglobulinemia, with bacterial infections from low antibody levels but normal cilia (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Respiratory System (Emily's file), Bronchiectasis, p. 96"
+        },
+        {
+          "title": "MSD Manual Professional: Bronchiectasis",
+          "url": "https://www.msdmanuals.com/professional/pulmonary-disorders/bronchiectasis-and-atelectasis/bronchiectasis"
+        }
+      ]
+    },
+    {
+      "id": "resp-asbestosis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Respiratory",
+      "topic": "Pneumoconiosis: asbestosis",
+      "difficulty": 2,
+      "stem": "A 70-year-old man comes to the physician because of slowly worsening shortness of breath for 3 years. He installed pipe insulation in shipyards for 30 years and smoked 1 pack of cigarettes daily for 40 years. Fine crackles are heard at both lung bases, and he has clubbing of the fingers. CT of the chest shows scarring in both lower lobes and calcified plaques on the pleura over the diaphragm. Bronchoalveolar lavage shows golden-brown, dumbbell-shaped rods that turn blue with Prussian blue stain.",
+      "leadIn": "This patient is at greatest risk of death from which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bronchogenic carcinoma"
+        },
+        {
+          "id": "b",
+          "text": "Malignant pleural mesothelioma"
+        },
+        {
+          "id": "c",
+          "text": "Pulmonary tuberculosis"
+        },
+        {
+          "id": "d",
+          "text": "Progressive massive fibrosis"
+        },
+        {
+          "id": "e",
+          "text": "Acute hypersensitivity pneumonitis"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: bronchogenic carcinoma (lung cancer). Why: your El-Husseiny respiratory notes (p. 100) describe asbestosis as scarring that is worst in the lower lobes, with ferruginous (asbestos) bodies, golden-brown rods that stain with Prussian blue, and calcified plaques on the parietal pleura. The same pages say lung cancer develops in about 25% of heavily exposed workers and is the leading cause of death in this group. Smoking multiplies the risk: about 6-fold with asbestos alone and about 60-fold with asbestos plus smoking. MSD agrees that asbestos and smoking act together and adds that asbestosis usually appears 20 to 40 years after exposure.",
+      "whyWrong": {
+        "b": "Mesothelioma is less common than lung cancer in asbestos workers, although it is more specific for heavy asbestos exposure (your El-Husseiny respiratory notes, p. 101).",
+        "c": "Raised tuberculosis risk is linked to silica, which damages macrophages, not to asbestos (your El-Husseiny respiratory notes, p. 102).",
+        "d": "Progressive massive fibrosis means large, merging upper-lobe scars from coal or silica dust, not lower-lobe asbestos scarring (standard teaching).",
+        "e": "Hypersensitivity pneumonitis is an immune reaction to inhaled organic material, such as bird proteins, not mineral fibers (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Respiratory System (Emily's file), Asbestosis, p. 100; mesothelioma, p. 101; silicosis, p. 102"
+        },
+        {
+          "title": "MSD Manual Professional: Asbestosis",
+          "url": "https://www.msdmanuals.com/professional/pulmonary-disorders/environmental-and-occupational-pulmonary-diseases/asbestosis"
+        }
+      ]
+    },
+    {
+      "id": "resp-mesothelioma-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Respiratory",
+      "topic": "Pleural tumors: malignant mesothelioma",
+      "difficulty": 2,
+      "stem": "A 74-year-old man comes to the physician because of shortness of breath and a dull, constant ache in the right side of his chest for 3 months. He worked replacing brake linings and building insulation from age 20 to 35. He has never smoked. Chest x-ray shows a large right pleural effusion. CT shows thick, lumpy pleura that wraps around the whole right lung. Fluid removed from the chest is bloody, and its cytology does not show a diagnosis.",
+      "leadIn": "Which of the following is the most likely diagnosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Malignant pleural mesothelioma"
+        },
+        {
+          "id": "b",
+          "text": "Adenocarcinoma with pleural metastases"
+        },
+        {
+          "id": "c",
+          "text": "Tuberculous pleurisy"
+        },
+        {
+          "id": "d",
+          "text": "Benign asbestos-related pleural plaques"
+        },
+        {
+          "id": "e",
+          "text": "Small cell lung carcinoma"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: malignant pleural mesothelioma. Why: your El-Husseiny respiratory notes (p. 101) describe mesothelioma as a rare cancer of the pleura that is more specific for heavy asbestos exposure than lung cancer. MSD gives a latency of 30 to 50 years after exposure, says the risk does not depend on smoking, and lists shortness of breath and non-pleuritic chest pain as the usual first symptoms. MSD also says up to 90% of patients have an effusion, usually on one side and bloody, that fluid cytology is usually not diagnostic, so a pleural biopsy is needed, and that median survival is only about 6 to 18 months. Other source: your El-Husseiny respiratory notes call asbestos the only known environmental risk factor. MSD also lists other mineral fibers, radiation therapy for lymphoma, and SV40 virus as possible causes.",
+      "whyWrong": {
+        "b": "Lung adenocarcinoma can spread to the pleura, but in a never-smoker, decades after asbestos work, a rind of tumor wrapping the lung points to mesothelioma (MSD).",
+        "c": "Tuberculous pleurisy causes fever and a lymphocyte-rich effusion; it does not form a thick, lumpy rind around the lung (standard teaching).",
+        "d": "Benign pleural plaques are calcified collagen patches on the parietal pleura (your El-Husseiny respiratory notes, p. 100); they do not cause a large bloody effusion or a mass encasing the lung.",
+        "e": "Small cell lung cancer is a central airway tumor of smokers (your El-Husseiny respiratory notes, p. 114), not a tumor that spreads along the pleura."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Respiratory System (Emily's file), Mesothelioma, p. 101; asbestosis, p. 100"
+        },
+        {
+          "title": "MSD Manual Professional: Mesothelioma",
+          "url": "https://www.msdmanuals.com/professional/pulmonary-disorders/environmental-and-occupational-pulmonary-diseases/mesothelioma"
+        }
+      ]
+    },
+    {
+      "id": "resp-silicosis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Respiratory",
+      "topic": "Pneumoconiosis: silicosis",
+      "difficulty": 2,
+      "stem": "A 44-year-old man comes to the physician because of a cough and shortness of breath that have worsened over 1 year. For 15 years he has cut and polished engineered stone kitchen countertops. Chest x-ray shows many small nodules in both upper lobes and enlarged hilar lymph nodes with thin rims of calcium around their edges.",
+      "leadIn": "This patient is at greatest risk of which of the following infections?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mycobacterium tuberculosis"
+        },
+        {
+          "id": "b",
+          "text": "Pneumocystis jirovecii"
+        },
+        {
+          "id": "c",
+          "text": "Nontypeable Haemophilus influenzae"
+        },
+        {
+          "id": "d",
+          "text": "Aspergillus fumigatus"
+        },
+        {
+          "id": "e",
+          "text": "Histoplasma capsulatum"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: Mycobacterium tuberculosis. Why: your El-Husseiny respiratory notes (pp. 101-102) explain that silica from foundries, sandblasting, and mining causes upper-lobe scarring and eggshell calcification of the hilar nodes. Silica is thought to break open the phagolysosomes of macrophages and impair them, which raises the risk of tuberculosis. MSD describes recent outbreaks in workers who cut engineered stone, says the eggshell pattern is typical but not unique to silicosis, and says that because the risk of mycobacterial disease is higher, these patients should be tested and treated for latent tuberculosis. MSD also notes that silica is a known human carcinogen.",
+      "whyWrong": {
+        "b": "Pneumocystis infects people with weak T-cell immunity, such as advanced HIV, not people with silicosis (standard teaching).",
+        "c": "Haemophilus influenzae commonly infects airways in chronic bronchitis, but silica's main infection risk is mycobacteria (MSD).",
+        "d": "Aspergillus can grow in old lung cavities, but silica's specific link is to tuberculosis because of macrophage damage (MSD).",
+        "e": "Histoplasma is acquired from soil with bird or bat droppings and is not tied to silica exposure (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Respiratory System (Emily's file), Silicosis, pp. 101-102"
+        },
+        {
+          "title": "MSD Manual Professional: Silicosis",
+          "url": "https://www.msdmanuals.com/professional/pulmonary-disorders/environmental-and-occupational-pulmonary-diseases/silicosis"
+        }
+      ]
+    },
+    {
+      "id": "multi-sarcoid-hypercalcemia-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Multisystem",
+      "topic": "Sarcoidosis",
+      "difficulty": 2,
+      "stem": "A 31-year-old Black woman comes to the physician because of a dry cough, tiredness, and blurred vision in her right eye for 2 months. She has red, painful nodules on both shins. Chest x-ray shows enlarged lymph nodes at both lung roots. Serum calcium is 11.6 mg/dL, and serum PTH is low. Biopsy of a lymph node shows tight clusters of macrophage-derived cells and giant cells without central necrosis.",
+      "leadIn": "Which of the following is the most likely cause of this patient's high calcium level?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Calcitriol made by granuloma macrophages"
+        },
+        {
+          "id": "b",
+          "text": "PTH-related peptide made by tumor cells"
+        },
+        {
+          "id": "c",
+          "text": "Excess PTH from a parathyroid adenoma"
+        },
+        {
+          "id": "d",
+          "text": "Bone breakdown from metastatic cancer"
+        },
+        {
+          "id": "e",
+          "text": "Low calcium excretion from a CASR defect"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: calcitriol (active vitamin D) made by macrophages in the granulomas (sarcoidosis). Why: your El-Husseiny respiratory notes (pp. 103-104) describe sarcoidosis as a CD4 T-cell disease of unknown cause in which these cells release interferon-gamma and TNF, leading to non-caseating granulomas. It is more common in young adults, women, and African Americans, and causes hilar lymph node enlargement, uveitis, erythema nodosum, raised serum ACE, and high calcium because the granuloma cells have 1-alpha-hydroxylase activity. Steroids are the treatment, but the disease often clears on its own. MSD agrees that macrophages make calcitriol (1,25-dihydroxyvitamin D), notes that ACE levels are not specific, and describes Lofgren syndrome (hilar nodes, erythema nodosum, and joint pain).",
+      "whyWrong": {
+        "b": "PTH-related peptide causes high calcium in squamous cell lung cancer (your El-Husseiny respiratory notes, p. 116), but a biopsy of non-caseating granulomas fits sarcoidosis.",
+        "c": "A parathyroid adenoma would raise PTH; here PTH is low because high calcium suppresses it (standard teaching).",
+        "d": "Bone metastases can raise calcium, but this young woman has granulomas, eye and skin signs, and no tumor (standard teaching).",
+        "e": "Familial hypocalciuric hypercalcemia (a calcium-sensing receptor defect) causes mild lifelong high calcium with normal or high PTH and no organ disease (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Respiratory System (Emily's file), Sarcoidosis, pp. 103-104"
+        },
+        {
+          "title": "MSD Manual Professional: Sarcoidosis",
+          "url": "https://www.msdmanuals.com/professional/pulmonary-disorders/sarcoidosis/sarcoidosis"
+        }
+      ]
+    },
+    {
+      "id": "resp-ards-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Respiratory",
+      "topic": "Acute respiratory distress syndrome",
+      "difficulty": 2,
+      "stem": "A 52-year-old man is admitted with severe acute pancreatitis. On day 2, he becomes short of breath and needs intubation. With PEEP of 8 cm H2O and FiO2 of 0.6, arterial PO2 is 72 mm Hg. Chest x-ray shows patchy opacities in both lungs. Echocardiography shows normal heart function, and pulmonary capillary wedge pressure is 9 mm Hg.",
+      "leadIn": "Which of the following best explains the fluid in this patient's alveoli?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Increased alveolar-capillary permeability"
+        },
+        {
+          "id": "b",
+          "text": "Increased pulmonary capillary hydrostatic pressure"
+        },
+        {
+          "id": "c",
+          "text": "Decreased plasma oncotic pressure"
+        },
+        {
+          "id": "d",
+          "text": "Blocked lymphatic drainage of the lungs"
+        },
+        {
+          "id": "e",
+          "text": "Increased negative pleural pressure"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: a leaky alveolar-capillary membrane (acute respiratory distress syndrome, ARDS). Why: your El-Husseiny respiratory notes (pp. 105-106) explain that ARDS follows direct lung injury or a distant insult such as sepsis, burns, or pancreatitis. Damage to the lining cells makes the capillaries leak protein-rich fluid into the alveoli, so the wedge pressure stays normal, unlike in heart failure. The criteria are bilateral opacities, onset within 1 week, a PaO2/FiO2 ratio below 300, and no cardiac cause. His ratio is 72/0.6 = 120, which MSD places in the moderate range (over 100 and up to 200 with PEEP of at least 5). Treatment is to fix the cause and ventilate with low tidal volumes and higher PEEP. MSD gives a tidal volume of 6 mL/kg ideal body weight or less, a plateau pressure below 30 cm H2O, and prone positioning for at least 12 hours a day in moderate to severe disease. Recent change: MSD reports that a consensus panel proposed widening the Berlin definition to include patients on high-flow oxygen of at least 30 L/min, an SpO2/FiO2 ratio of 315 or less when SpO2 is 97% or less, and ultrasound to confirm bilateral opacities.",
+      "whyWrong": {
+        "b": "High capillary hydrostatic pressure is cardiogenic edema, which would raise the wedge pressure; his is normal (your El-Husseiny respiratory notes, p. 105).",
+        "c": "Low oncotic pressure, as in nephrotic syndrome, makes fluid shift slowly and does not cause sudden respiratory failure after pancreatitis (standard teaching).",
+        "d": "Blocked lymph drainage, as with cancer in the lymphatics, causes slow interstitial fluid buildup, not sudden alveolar flooding (standard teaching).",
+        "e": "Strongly negative pleural pressure causes edema only in special cases, such as after a blocked airway is suddenly opened (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Respiratory System (Emily's file), Acute respiratory distress syndrome, pp. 105-106"
+        },
+        {
+          "title": "MSD Manual Professional: Acute Hypoxemic Respiratory Failure (AHRF), Including Acute Respiratory Distress Syndrome (ARDS)",
+          "url": "https://www.msdmanuals.com/professional/critical-care-medicine/respiratory-failure-and-mechanical-ventilation/acute-hypoxemic-respiratory-failure-ahrf-including-acute-respiratory-distress-syndrome-ards"
+        }
+      ]
+    },
+    {
+      "id": "resp-sclc-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Respiratory",
+      "topic": "Lung cancer: small cell carcinoma",
+      "difficulty": 2,
+      "stem": "A 63-year-old man comes to the physician because of confusion and a cough for 3 weeks. He has smoked 2 packs of cigarettes daily for 45 years. Serum sodium is 121 mEq/L, and his urine is inappropriately concentrated. CT of the chest shows a large mass beside the right main bronchus and enlarged nodes in the mediastinum. Biopsy shows sheets of small, dark cells with very little cytoplasm and many mitoses. The cells stain for chromogranin and synaptophysin.",
+      "leadIn": "This tumor most likely arose from which of the following cells?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Neuroendocrine (Kulchitsky) cells"
+        },
+        {
+          "id": "b",
+          "text": "Club (Clara) cells of bronchioles"
+        },
+        {
+          "id": "c",
+          "text": "Type II pneumocytes"
+        },
+        {
+          "id": "d",
+          "text": "Squamous metaplastic bronchial epithelium"
+        },
+        {
+          "id": "e",
+          "text": "Pleural mesothelial cells"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: neuroendocrine (Kulchitsky) cells (small cell lung carcinoma). Why: your El-Husseiny respiratory notes (pp. 114-115) describe small cell carcinoma as a central tumor of smokers that arises from neuroendocrine cells and is made of small dark cells with scant cytoplasm that stain for markers such as chromogranin, synaptophysin, and CD56. It can make ACTH (Cushing syndrome) or ADH (SIADH, which explains his low sodium), and it can trigger antibodies against presynaptic calcium channels (Lambert-Eaton syndrome). It is treated with chemotherapy and radiation rather than surgery. MSD gives it about 15% of lung cancers, says 70% to 80% of patients already have metastases at diagnosis, and lists SIADH and Lambert-Eaton syndrome among its paraneoplastic effects. MSD says surgery plays a limited role, and that chemotherapy and immunotherapy, with or without radiation, are given depending on stage.",
+      "whyWrong": {
+        "b": "Club cells line small bronchioles and are not the source of a central neuroendocrine tumor (standard teaching).",
+        "c": "Adenocarcinoma, a peripheral tumor that forms glands, arises from alveolar lining cells (your El-Husseiny respiratory notes, p. 115); these cells stain for neuroendocrine markers instead.",
+        "d": "Squamous cell carcinoma is also central, but it shows keratin pearls and causes high calcium through PTHrP, not SIADH (your El-Husseiny respiratory notes, p. 116).",
+        "e": "Mesothelial cells give rise to mesothelioma, a pleural tumor linked to asbestos (your El-Husseiny respiratory notes, p. 101)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Respiratory System (Emily's file), Small cell lung carcinoma, pp. 114-115"
+        },
+        {
+          "title": "MSD Manual Professional: Lung Carcinoma",
+          "url": "https://www.msdmanuals.com/professional/oncology/tumors-of-the-lungs/lung-carcinoma"
+        }
+      ]
+    },
+    {
+      "id": "resp-squamous-lung-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Respiratory",
+      "topic": "Lung cancer: squamous cell carcinoma",
+      "difficulty": 2,
+      "stem": "A 67-year-old man comes to the physician because of a cough, thirst, and constipation for 1 month. He has smoked 1 pack of cigarettes daily for 50 years. Serum calcium is 13.1 mg/dL, and serum PTH is low. CT of the chest shows a mass at the left hilum, with a central cavity, arising from a main bronchus.",
+      "leadIn": "A biopsy of this mass is most likely to show which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Keratin pearls and intercellular bridges"
+        },
+        {
+          "id": "b",
+          "text": "Small cells with scant cytoplasm and molding"
+        },
+        {
+          "id": "c",
+          "text": "Mucin-producing glands at the lung edge"
+        },
+        {
+          "id": "d",
+          "text": "Large pleomorphic cells without differentiation"
+        },
+        {
+          "id": "e",
+          "text": "Epithelioid granulomas without necrosis"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: keratin pearls and intercellular bridges (squamous cell carcinoma). Why: your El-Husseiny respiratory notes (p. 116) describe squamous cell carcinoma as a central, hilar tumor of smokers that can cavitate and that causes high calcium by making PTH-related peptide (PTHrP); under the microscope it shows keratin pearls and intercellular bridges. MSD agrees that hypercalcemia in squamous cell carcinoma comes from tumor PTHrP. The low PTH here shows that the parathyroid glands are not the cause.",
+      "whyWrong": {
+        "b": "Small cells with scant cytoplasm are small cell carcinoma, which causes SIADH or Cushing syndrome rather than high calcium (your El-Husseiny respiratory notes, p. 114).",
+        "c": "Glands with mucin describe adenocarcinoma, which usually grows in the lung periphery (your El-Husseiny respiratory notes, p. 115).",
+        "d": "Large cell carcinoma is undifferentiated and can make beta-hCG, which causes gynecomastia (your El-Husseiny respiratory notes, p. 117); it is not linked to PTHrP.",
+        "e": "Non-caseating granulomas mark sarcoidosis, where high calcium comes from macrophage vitamin D (your El-Husseiny respiratory notes, p. 103), not from a cavitating mass in a smoker."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Respiratory System (Emily's file), Squamous cell carcinoma of the lung, pp. 116-117"
+        },
+        {
+          "title": "MSD Manual Professional: Lung Carcinoma",
+          "url": "https://www.msdmanuals.com/professional/oncology/tumors-of-the-lungs/lung-carcinoma"
+        }
+      ]
+    },
+    {
+      "id": "resp-adenocarcinoma-egfr-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Respiratory",
+      "topic": "Lung cancer: adenocarcinoma and targeted therapy",
+      "difficulty": 2,
+      "stem": "A 49-year-old woman who has never smoked comes to the physician because of a cough for 2 months. She has clubbing of the fingers. CT of the chest shows a 3-cm mass at the edge of the right upper lobe and several bone lesions. Biopsy shows malignant glands that contain mucin. Tumor testing shows an activating mutation in the epidermal growth factor receptor (EGFR) gene.",
+      "leadIn": "Which of the following is the most appropriate drug for this patient?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Osimertinib"
+        },
+        {
+          "id": "b",
+          "text": "Alectinib"
+        },
+        {
+          "id": "c",
+          "text": "Imatinib"
+        },
+        {
+          "id": "d",
+          "text": "Trastuzumab"
+        },
+        {
+          "id": "e",
+          "text": "Rituximab"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: osimertinib, a tyrosine kinase inhibitor that blocks mutant EGFR. Why: your El-Husseiny respiratory notes (p. 115) call adenocarcinoma the most common primary lung cancer overall, more common in women and in people who have never smoked. It grows in the lung periphery, forms glands that often make mucin, and is linked to clubbing (hypertrophic osteoarthropathy). MSD says adenocarcinoma makes up about 40% of lung cancers and is the most common type in never-smokers. It names osimertinib as the treatment of choice for EGFR-mutant non-small cell lung cancer, with amivantamab plus lazertinib as another option.",
+      "whyWrong": {
+        "b": "MSD lists alectinib or lorlatinib for tumors with an ALK gene rearrangement, which this tumor does not have.",
+        "c": "Imatinib blocks BCR-ABL and KIT, so it treats chronic myeloid leukemia and gastrointestinal stromal tumors (standard teaching).",
+        "d": "Trastuzumab is an antibody against HER2, used mainly in HER2-positive breast and stomach cancers (standard teaching).",
+        "e": "Rituximab is an antibody against CD20 on B cells, used for B-cell lymphomas and some autoimmune diseases (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Respiratory System (Emily's file), Adenocarcinoma of the lung, p. 115"
+        },
+        {
+          "title": "MSD Manual Professional: Lung Carcinoma",
+          "url": "https://www.msdmanuals.com/professional/oncology/tumors-of-the-lungs/lung-carcinoma"
+        }
+      ]
+    },
+    {
+      "id": "resp-pancoast-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Respiratory",
+      "topic": "Lung cancer: Pancoast tumor and Horner syndrome",
+      "difficulty": 2,
+      "stem": "A 60-year-old man comes to the physician because of severe pain in his right shoulder for 2 months that spreads toward his armpit and down the inner side of his arm. He has smoked for 40 years. His right hand grip is weak, and the small muscles of the right hand are wasted. His right upper eyelid droops, his right pupil is smaller than the left, and his right forehead stays dry when he sweats. Chest x-ray shows a mass at the top of the right lung.",
+      "leadIn": "Tumor invasion of which of the following structures best explains this patient's eye and sweating findings?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cervical sympathetic ganglia"
+        },
+        {
+          "id": "b",
+          "text": "Oculomotor nerve"
+        },
+        {
+          "id": "c",
+          "text": "Lower trunk of brachial plexus"
+        },
+        {
+          "id": "d",
+          "text": "Recurrent laryngeal nerve"
+        },
+        {
+          "id": "e",
+          "text": "Phrenic nerve"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the cervical sympathetic ganglia (Horner syndrome from a Pancoast tumor). Why: your El-Husseiny respiratory notes (p. 119) explain that a tumor in the superior sulcus at the lung apex can invade nearby neck structures. Shoulder pain spreading to the armpit and arm, with hand weakness and wasting, comes from the lower brachial plexus. Ptosis, miosis, and anhidrosis on the same side come from the cervical sympathetic ganglia. Pressure on the subclavian vessels can swell the arm, and spread to the recurrent laryngeal or phrenic nerve causes hoarseness or a paralyzed diaphragm. MSD agrees that apical tumors, usually non-small cell cancers, invade the brachial plexus, pleura, or ribs, and that involvement of the sympathetic chain or stellate ganglion causes ptosis, miosis, and anhidrosis.",
+      "whyWrong": {
+        "b": "An oculomotor nerve lesion causes ptosis with a large pupil and an eye turned down and out, not a small pupil and dry skin (standard teaching).",
+        "c": "The lower brachial plexus explains his shoulder pain and hand weakness, but not the eye or sweating signs (your El-Husseiny respiratory notes, p. 119).",
+        "d": "The recurrent laryngeal nerve controls voice; its invasion causes hoarseness (your El-Husseiny respiratory notes, p. 119).",
+        "e": "The phrenic nerve supplies the diaphragm; its invasion paralyzes half of the diaphragm (your El-Husseiny respiratory notes, p. 119)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Respiratory System (Emily's file), Pancoast syndrome, p. 119"
+        },
+        {
+          "title": "MSD Manual Professional: Lung Carcinoma",
+          "url": "https://www.msdmanuals.com/professional/oncology/tumors-of-the-lungs/lung-carcinoma"
+        }
+      ]
+    },
+    {
+      "id": "immuno-scid-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Immunology",
+      "system": "Immune System",
+      "topic": "Severe combined immunodeficiency",
+      "difficulty": 2,
+      "stem": "A 4-month-old boy is brought to the physician because of diarrhea, poor weight gain, and white plaques in his mouth that keep coming back. His newborn screening test showed very low T-cell receptor excision circles. His mother's brother died of infections at 7 months of age. Chest x-ray shows no thymic shadow. Flow cytometry shows almost no T cells and no NK cells, with B cells present but not working.",
+      "leadIn": "A defect in which of the following is the most likely cause of this patient's condition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Common gamma chain of interleukin receptors"
+        },
+        {
+          "id": "b",
+          "text": "Adenosine deaminase in the purine salvage pathway"
+        },
+        {
+          "id": "c",
+          "text": "CD40 ligand on helper T cells"
+        },
+        {
+          "id": "d",
+          "text": "Bruton tyrosine kinase in B cells"
+        },
+        {
+          "id": "e",
+          "text": "22q11.2 region of chromosome 22"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the common gamma chain shared by many interleukin receptors (X-linked severe combined immunodeficiency, SCID). Why: your El-Husseiny immunology notes (p. 469) say the IL-2 receptor gamma chain defect is the most common, X-linked form of SCID, and that adenosine deaminase deficiency is second. Infants have bacterial, viral, fungal, and opportunistic infections, thrush, diarrhea, and failure to thrive in the first year. Tests show low T-cell receptor excision circles (TRECs), no thymic shadow, and no T cells, and the treatment is a bone marrow transplant. MSD says symptoms usually start by 6 months of age, that newborn screening uses TRECs, and that a stem cell transplant restores immunity in 90% to 100% of patients. The affected uncle on his mother's side fits X-linked inheritance (standard teaching).",
+      "whyWrong": {
+        "b": "Adenosine deaminase deficiency is the second most common cause (your El-Husseiny immunology notes, p. 469). It is autosomal recessive, so it would not explain an affected maternal uncle, and it removes B cells as well as T cells (standard teaching).",
+        "c": "CD40 ligand defects cause hyper-IgM syndrome, in which T cells are present but cannot help B cells switch antibody class (your El-Husseiny immunology notes, p. 470).",
+        "d": "Bruton tyrosine kinase defects cause X-linked agammaglobulinemia, with no B cells but normal T cells and a normal thymus (standard teaching).",
+        "e": "A 22q11.2 deletion (DiGeorge syndrome) can remove the thymus, but it also causes low calcium, heart defects, and facial changes, and NK cells are normal (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Severe combined immunodeficiency, p. 469"
+        },
+        {
+          "title": "MSD Manual Professional: Severe Combined Immunodeficiency (SCID)",
+          "url": "https://www.msdmanuals.com/professional/immunology-allergic-disorders/immunodeficiency-disorders/severe-combined-immunodeficiency-scid"
+        }
+      ]
+    },
+    {
+      "id": "immuno-ataxia-telangiectasia-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Genetics",
+      "system": "Immune System",
+      "topic": "Ataxia-telangiectasia",
+      "difficulty": 2,
+      "stem": "A 6-year-old girl is brought to the physician because she has had repeated sinus infections and pneumonia. Her parents say she has walked with a wide, unsteady gait since she first began walking. Examination shows small, spidery red blood vessels on the whites of both eyes and on her ears. Serum IgA is very low, and serum alpha-fetoprotein is high.",
+      "leadIn": "A defect in which of the following cellular processes is the most likely cause of this patient's condition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Repair of DNA double-strand breaks"
+        },
+        {
+          "id": "b",
+          "text": "Nucleotide excision repair"
+        },
+        {
+          "id": "c",
+          "text": "DNA mismatch repair"
+        },
+        {
+          "id": "d",
+          "text": "Base excision repair"
+        },
+        {
+          "id": "e",
+          "text": "Lysosomal trafficking regulator function"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: repair of DNA double-strand breaks (ataxia-telangiectasia). Why: your El-Husseiny immunology notes (pp. 469-470) describe an autosomal recessive mutation in the ATM gene, so cells cannot repair double-strand DNA breaks and are very sensitive to x-rays. The triad is cerebellar ataxia, telangiectasias, and sinus and lung infections from IgA deficiency, with a higher risk of lymphoma and leukemia. MSD says ataxia is often the first sign and starts when children begin to walk, telangiectasias usually appear between ages 4 and 6, IgA is low in about 80% of patients, and a high alpha-fetoprotein level is a diagnostic clue. MSD adds that cancers, such as leukemia, lymphoma, brain tumors, and stomach cancer, usually appear after age 10. Other source: your El-Husseiny immunology notes list low IgA, IgG, and IgE; MSD lists low IgA and IgE.",
+      "whyWrong": {
+        "b": "Nucleotide excision repair fails in xeroderma pigmentosum, which causes severe sun damage and skin cancers, not ataxia or IgA deficiency (standard teaching).",
+        "c": "Mismatch repair defects cause Lynch syndrome, with colon and endometrial cancers in adults (standard teaching).",
+        "d": "Base excision repair defects (such as MUTYH) cause colon polyps, not ataxia or immune deficiency (standard teaching).",
+        "e": "Lysosomal trafficking defects cause Chediak-Higashi syndrome, with albinism, giant granules, and neuropathy (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Ataxia-telangiectasia, pp. 469-470"
+        },
+        {
+          "title": "MSD Manual Professional: Ataxia-Telangiectasia",
+          "url": "https://www.msdmanuals.com/professional/immunology-allergic-disorders/immunodeficiency-disorders/ataxia-telangiectasia"
+        }
+      ]
+    },
+    {
+      "id": "immuno-hyper-igm-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Immunology",
+      "system": "Immune System",
+      "topic": "Hyper-IgM syndrome",
+      "difficulty": 2,
+      "stem": "A 7-month-old boy is brought to the physician because of fever, fast breathing, and low oxygen levels. A bronchoalveolar lavage sample shows Pneumocystis jirovecii. He had watery diarrhea from Cryptosporidium at 5 months. Serum IgM is high, and serum IgG, IgA, and IgE are very low. A lymph node biopsy shows no germinal centers.",
+      "leadIn": "A defect in which of the following is the most likely cause of this patient's condition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "CD40 ligand on helper T cells"
+        },
+        {
+          "id": "b",
+          "text": "Bruton tyrosine kinase in B cells"
+        },
+        {
+          "id": "c",
+          "text": "Common gamma chain of interleukin receptors"
+        },
+        {
+          "id": "d",
+          "text": "WAS protein in blood cells"
+        },
+        {
+          "id": "e",
+          "text": "CD18 subunit of beta-2 integrins"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: CD40 ligand on helper T cells (X-linked hyper-IgM syndrome). Why: your El-Husseiny immunology notes (p. 470) explain that helper T cells without working CD40 ligand cannot give B cells the second signal they need to switch classes, so only IgM is made, IgG, IgA, and IgE are very low, and no germinal centers form. Infants have severe pyogenic infections and opportunistic infections such as Pneumocystis, Cryptosporidium, and CMV. MSD confirms that the X-linked form is caused by a CD40 ligand (CD154) defect and lists treatment with immune globulin, trimethoprim-sulfamethoxazole to prevent Pneumocystis, and a stem cell transplant when possible.",
+      "whyWrong": {
+        "b": "Bruton tyrosine kinase defects stop B cells from forming, so all antibody classes, including IgM, are low (standard teaching).",
+        "c": "Common gamma chain defects cause SCID, with no T cells and no thymic shadow (your El-Husseiny immunology notes, p. 469), not a high IgM level.",
+        "d": "WAS protein defects cause eczema, small platelets, and infections, with high IgE and IgA (your El-Husseiny immunology notes, pp. 470-471).",
+        "e": "CD18 defects cause leukocyte adhesion deficiency, with no pus and late cord separation, not low IgG with high IgM (your El-Husseiny immunology notes, pp. 471-472)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Hyper-IgM syndrome, p. 470"
+        },
+        {
+          "title": "MSD Manual Professional: Hyper-IgM Syndrome",
+          "url": "https://www.msdmanuals.com/professional/immunology-allergic-disorders/immunodeficiency-disorders/hyper-igm-syndrome"
+        }
+      ]
+    },
+    {
+      "id": "immuno-wiskott-aldrich-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Immunology",
+      "system": "Immune System",
+      "topic": "Wiskott-Aldrich syndrome",
+      "difficulty": 2,
+      "stem": "An 18-month-old boy is brought to the physician because of bloody stools and many small purple spots on his skin. He has had eczema since early infancy and 5 ear infections. His platelet count is 28,000/mm3, and a blood smear shows that the platelets are unusually small. Serum IgE and IgA are high, and IgM is low.",
+      "leadIn": "The protein affected in this patient's condition normally controls which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Reorganization of the actin cytoskeleton"
+        },
+        {
+          "id": "b",
+          "text": "Superoxide production by NADPH oxidase"
+        },
+        {
+          "id": "c",
+          "text": "Platelet binding to von Willebrand factor"
+        },
+        {
+          "id": "d",
+          "text": "Repair of DNA double-strand breaks"
+        },
+        {
+          "id": "e",
+          "text": "Fusion of lysosomes with phagosomes"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: reorganization of the actin cytoskeleton (Wiskott-Aldrich syndrome). Why: your El-Husseiny immunology notes (pp. 470-471) describe an X-linked mutation in the WAS gene, so white cells and platelets cannot rearrange their actin skeleton. The triad is thrombocytopenia, eczema, and recurrent infections (WATER), with high IgE and IgA and fewer, smaller platelets, and the treatment is an HLA-matched bone marrow transplant. MSD confirms the WASP protein, small platelets, and low IgM, notes that about 10% of patients develop a cancer after age 10, and says a stem cell transplant is curative.",
+      "whyWrong": {
+        "b": "NADPH oxidase defects cause chronic granulomatous disease, with catalase-positive infections but normal platelets (standard teaching).",
+        "c": "Defective platelet binding to von Willebrand factor (Bernard-Soulier syndrome) gives large, not small, platelets and no eczema or immune defect (standard teaching).",
+        "d": "Double-strand break repair is the defect in ataxia-telangiectasia, which causes ataxia and telangiectasias, not small platelets (your El-Husseiny immunology notes, pp. 469-470).",
+        "e": "Failed lysosome fusion is Chediak-Higashi syndrome, with albinism, giant granules, and neuropathy (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Wiskott-Aldrich syndrome, pp. 470-471"
+        },
+        {
+          "title": "MSD Manual Professional: Wiskott-Aldrich Syndrome",
+          "url": "https://www.msdmanuals.com/professional/immunology-allergic-disorders/immunodeficiency-disorders/wiskott-aldrich-syndrome"
+        }
+      ]
+    },
+    {
+      "id": "immuno-lad1-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Immunology",
+      "system": "Immune System",
+      "topic": "Leukocyte adhesion deficiency type 1",
+      "difficulty": 2,
+      "stem": "A 5-week-old girl is brought to the physician because the skin around her umbilical cord stump is red and swollen. The cord stump is still attached. Her leukocyte count is 42,000/mm3 with mostly neutrophils. The red area is not warm to the touch and has no pus. Her parents are first cousins.",
+      "leadIn": "A defect in which of the following is the most likely cause of this patient's condition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "CD18 subunit of beta-2 integrins"
+        },
+        {
+          "id": "b",
+          "text": "NADPH oxidase complex"
+        },
+        {
+          "id": "c",
+          "text": "Lysosomal trafficking regulator protein"
+        },
+        {
+          "id": "d",
+          "text": "Myeloperoxidase enzyme"
+        },
+        {
+          "id": "e",
+          "text": "Terminal complement components"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: CD18, the shared beta-2 chain of white cell integrins such as LFA-1 (leukocyte adhesion deficiency type 1). Why: your El-Husseiny immunology notes (pp. 471-472) explain that this autosomal recessive defect stops white cells from sticking tightly to blood vessel walls and moving into tissue. Neutrophils pile up in the blood, but none reach the infection, so no pus forms. Signs include skin and mucosal infections, poor wound healing, omphalitis, and late separation of the umbilical cord. MSD names the ITGB2 gene for CD18, notes a high white cell count, and says a stem cell transplant is the only effective treatment. Other source: your El-Husseiny immunology notes define late cord separation as more than 30 days; MSD uses more than 3 weeks.",
+      "whyWrong": {
+        "b": "NADPH oxidase defects (chronic granulomatous disease) let neutrophils reach tissues, so abscesses and granulomas form (standard teaching).",
+        "c": "Lysosomal trafficking defects (Chediak-Higashi syndrome) cause albinism, giant granules, and neuropathy, and the neutrophil count is low (standard teaching).",
+        "d": "Myeloperoxidase deficiency is common and usually mild; neutrophils still reach tissue and form pus (standard teaching).",
+        "e": "Terminal complement deficiency causes repeated Neisseria infections, not late cord separation (your El-Husseiny immunology notes, p. 433)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Leukocyte adhesion deficiency, pp. 471-472"
+        },
+        {
+          "title": "MSD Manual Professional: Leukocyte Adhesion Deficiency",
+          "url": "https://www.msdmanuals.com/professional/immunology-allergic-disorders/immunodeficiency-disorders/leukocyte-adhesion-deficiency"
+        }
+      ]
+    },
+    {
+      "id": "immuno-terminal-complement-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Immunology",
+      "system": "Immune System",
+      "topic": "Complement deficiency: terminal components (C5-C9)",
+      "difficulty": 2,
+      "stem": "A 19-year-old man is brought to the emergency department because of fever, a stiff neck, and a spreading purple rash. Gram stain of cerebrospinal fluid shows gram-negative diplococci. He had the same type of meningitis at age 14. His older brother had a blood infection with the same organism. His blood counts and serum immunoglobulin levels are normal.",
+      "leadIn": "This patient most likely has a deficiency of which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Terminal complement components C5-C9"
+        },
+        {
+          "id": "b",
+          "text": "Early complement components C1 through C4"
+        },
+        {
+          "id": "c",
+          "text": "C1 esterase inhibitor"
+        },
+        {
+          "id": "d",
+          "text": "Decay-accelerating factor (CD55)"
+        },
+        {
+          "id": "e",
+          "text": "CD18 subunit of beta-2 integrins"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: terminal complement components C5 through C9, which form the membrane attack complex. Why: your El-Husseiny immunology notes (p. 433) say terminal complement deficiency raises the risk of repeated Neisseria bloodstream infections, while early deficiencies (C1 to C4) cause sinus and lung infections and, with C3 loss, immune complex disease. MSD's table lists C5 to C9 deficiencies as autosomal recessive and linked to repeated meningococcal infections and spread-out gonococcal infection. Patients should get meningococcal vaccines, and drugs that block C5, such as eculizumab, carry the same Neisseria risk (standard teaching).",
+      "whyWrong": {
+        "b": "Early component deficiency causes repeated pyogenic sinus and lung infections, and C3 loss adds immune complex disease (your El-Husseiny immunology notes, p. 433).",
+        "c": "C1 esterase inhibitor deficiency causes hereditary angioedema, with swelling from bradykinin and low C4, not infections (your El-Husseiny immunology notes, p. 433).",
+        "d": "Missing decay-accelerating factor (with CD59) causes paroxysmal nocturnal hemoglobinuria, with complement destroying red cells (standard teaching).",
+        "e": "CD18 defects cause leukocyte adhesion deficiency, with skin infections and no pus in infancy (your El-Husseiny immunology notes, pp. 471-472)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Complement protein deficiencies, p. 433"
+        },
+        {
+          "title": "MSD Manual Professional: Complement Deficiencies (table)",
+          "url": "https://www.msdmanuals.com/professional/multimedia/table/complement-deficiencies"
+        }
+      ]
+    },
+    {
+      "id": "immuno-transfusion-gvhd-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Immunology",
+      "system": "Immune System",
+      "topic": "Transfusion-associated graft-versus-host disease",
+      "difficulty": 3,
+      "stem": "A 58-year-old man is being treated with chemotherapy for acute myeloid leukemia. He receives a unit of platelets donated by his son that was not irradiated. Two weeks later, he has a fever and a red rash that spreads from his palms to his whole body. He then has watery and bloody diarrhea and turns yellow. Serum bilirubin and liver enzymes are high, and his blood counts fall sharply.",
+      "leadIn": "Which of the following is the most likely cause of this patient's condition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Donor T cells attacking the recipient's tissues"
+        },
+        {
+          "id": "b",
+          "text": "Recipient antibodies against donor ABO antigens"
+        },
+        {
+          "id": "c",
+          "text": "Donor antibodies against recipient leukocytes"
+        },
+        {
+          "id": "d",
+          "text": "Recipient antibodies against donor IgA"
+        },
+        {
+          "id": "e",
+          "text": "Bacterial contamination of the platelet unit"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: donor T cells attacking the recipient's tissues (transfusion-associated graft-versus-host disease, GVHD). Why: your El-Husseiny immunology notes (p. 478) explain that GVHD can follow bone marrow or liver transplants or transfusion of blood that was not irradiated, usually in a host with a very weak immune system. Donor T cells see the host's MHC molecules as foreign and attack, mainly the skin, liver, and gut, so blood products for immunocompromised patients should be irradiated. MSD says the reaction starts 4 to 30 days after the transfusion, with fever, rash, diarrhea, liver injury, and pancytopenia from bone marrow failure, and has a death rate over 90%. MSD adds that blood from first-degree relatives should also be irradiated, because donor and recipient can share HLA types.",
+      "whyWrong": {
+        "b": "ABO antibodies cause an acute hemolytic reaction within about an hour of the transfusion (your El-Husseiny immunology notes, p. 462), not weeks later.",
+        "c": "Donor antibodies against recipient white cells cause transfusion-related acute lung injury, with breathing trouble within 6 hours (your El-Husseiny immunology notes, p. 462).",
+        "d": "Antibodies against IgA in an IgA-deficient recipient cause an allergic or anaphylactic reaction within minutes to hours (your El-Husseiny immunology notes, p. 462).",
+        "e": "Bacterial contamination of platelets causes fever and shock during or soon after the transfusion, not rash and liver failure weeks later (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Graft-versus-host disease, p. 478; transfusion reactions, p. 462"
+        },
+        {
+          "title": "MSD Manual Professional: Complications of Transfusion",
+          "url": "https://www.msdmanuals.com/professional/hematology/transfusion-medicine/complications-of-transfusion"
+        }
+      ]
+    },
+    {
+      "id": "immuno-job-syndrome-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Immunology",
+      "system": "Immune System",
+      "topic": "Hyper-IgE syndrome (Job syndrome)",
+      "difficulty": 2,
+      "stem": "A 9-year-old girl is brought to the physician because of a large, painless swelling on her neck that drains pus when opened. She has had several similar skin abscesses that were not red or warm, and two pneumonias that left air-filled cysts in her lungs. She has had an itchy rash since infancy, and she broke her arm after a minor fall. Her face is coarse, and none of her baby teeth have fallen out. Culture of the pus grows Staphylococcus aureus. Serum IgE is 5,200 IU/mL, and she has eosinophilia.",
+      "leadIn": "A defect in which of the following is the most likely cause of this patient's condition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "STAT3 signaling for Th17 cells"
+        },
+        {
+          "id": "b",
+          "text": "NADPH oxidase complex"
+        },
+        {
+          "id": "c",
+          "text": "WAS protein in blood cells"
+        },
+        {
+          "id": "d",
+          "text": "CD18 subunit of beta-2 integrins"
+        },
+        {
+          "id": "e",
+          "text": "IL-12 receptor on T cells"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: STAT3 signaling needed to make Th17 cells (autosomal dominant hyper-IgE syndrome, or Job syndrome). Why: your El-Husseiny immunology notes (p. 467) explain that STAT3 mutations leave too few Th17 cells, so neutrophils are not recruited to infections. The features follow the ABCDEF pattern: cold staphylococcal abscesses, retained baby teeth, coarse facies, skin rash (eczema), high IgE with eosinophils, and fractures after minor trauma. MSD confirms the STAT3 defect and faulty Th17 development, lists lung cysts (pneumatoceles), and uses an IgE level over 2000 IU/mL to support the diagnosis. Treatment is lifelong antibiotics against staph, usually trimethoprim-sulfamethoxazole (MSD). Other source: MSD says the very high IgE is thought to be a result of the disease, not its cause.",
+      "whyWrong": {
+        "b": "NADPH oxidase defects (chronic granulomatous disease) cause catalase-positive infections and granulomas, but not high IgE, retained teeth, or fractures (standard teaching).",
+        "c": "WAS protein defects affect boys and cause small platelets with bleeding along with eczema (your El-Husseiny immunology notes, pp. 470-471).",
+        "d": "CD18 defects cause leukocyte adhesion deficiency, with no pus at all and late cord separation (your El-Husseiny immunology notes, pp. 471-472); this girl's abscesses drain pus.",
+        "e": "IL-12 receptor defects cause severe mycobacterial infections with low interferon-gamma (your El-Husseiny immunology notes, p. 466), not staph abscesses with high IgE."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Hyper-IgE syndrome (Job syndrome), pp. 466-467"
+        },
+        {
+          "title": "MSD Manual Professional: Hyper-IgE Syndrome",
+          "url": "https://www.msdmanuals.com/professional/immunology-allergic-disorders/immunodeficiency-disorders/hyper-ige-syndrome"
+        }
+      ]
     }
   ]
 }
