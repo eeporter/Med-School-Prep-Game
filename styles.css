@@ -118,3 +118,13 @@ input[type="search"] {
 .mode .row { display: flex; flex-wrap: wrap; gap: 8px; margin-top: auto; }
 .mode .row button { margin-top: 0; }
 button:disabled { opacity: 0.5; cursor: not-allowed; }
+
+/* Report a problem: small and quiet so it never competes with the answer. */
+details.report { margin: 10px 0 4px; padding: 0; border: none; background: none; }
+details.report summary { font-weight: normal; color: var(--muted); font-size: 0.8rem; cursor: pointer; width: fit-content; }
+.report-form { display: flex; flex-direction: column; gap: 6px; margin-top: 6px; max-width: 28rem; }
+.report-form textarea, .fallback { width: 100%; box-sizing: border-box; font: inherit; font-size: 0.9rem; padding: 6px; border-radius: 6px; border: 1px solid var(--border); background: var(--surface); color: var(--text); }
+.report-form button { align-self: flex-start; }
+.weak .row, .reports .row { display: flex; flex-wrap: wrap; gap: 8px; }
+#weak-list li { margin-bottom: 4px; }
+
