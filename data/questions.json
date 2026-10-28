@@ -19941,7 +19941,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: the interleukin-12 (IL-12) receptor. Why: your El-Husseiny immunology notes (p. 466) describe IL-12 receptor deficiency as an autosomal recessive defect in the Th1 response. Macrophages make IL-12 to drive Th1 cells to make interferon-gamma, which activates macrophages to kill intracellular microbes. Without this loop, IFN-gamma is low, and children get disseminated mycobacterial and fungal infections, sometimes after the live BCG vaccine. MSD lists Mendelian susceptibility to mycobacterial disease as caused by defects in the genes for the IFN-gamma receptor, IL-12, or the IL-12 receptor, with mycobacterial infections of varying severity.",
+      "explanation": "Answer: the interleukin-12 (IL-12) receptor. Why: your El-Husseiny immunology notes (p. 466) describe IL-12 receptor deficiency as an autosomal recessive defect in the Th1 response. They explain (p. 437) that IL-12 pushes naive helper T cells to become Th1 cells, whose interferon-gamma activates macrophages to kill intracellular microbes such as mycobacteria, and that these patients are treated with IFN-gamma. Without this loop, IFN-gamma is low, and children get disseminated mycobacterial and fungal infections, sometimes after the live BCG vaccine. MSD lists Mendelian susceptibility to mycobacterial disease as caused by defects in the genes for the IFN-gamma receptor, IL-12, or the IL-12 receptor, with mycobacterial infections of varying severity.",
       "whyWrong": {
         "b": "NADPH oxidase loss (chronic granulomatous disease) gives an abnormal oxidative burst test, which is normal here (standard teaching).",
         "c": "Adenosine deaminase deficiency causes SCID, with very low lymphocyte counts and low antibodies (standard teaching).",
@@ -19950,7 +19950,7 @@
       },
       "sources": [
         {
-          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), IL-12 receptor deficiency, p. 466"
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), IL-12 and IL-12 receptor deficiency, pp. 437, 466"
         },
         {
           "title": "MSD Manual Professional: Overview of Immunodeficiency Disorders",
@@ -20409,7 +20409,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: reassurance, with relief of itching if needed (pityriasis rosea). Why: your El-Husseiny skin notes (in the musculoskeletal book) (p. 200) describe a first large 'herald patch,' with more scaly red plaques arriving a few days later, often in a Christmas tree pattern on the trunk, with collarette scale. It may be idiopathic or linked to viral infection and clears on its own in 6 to 8 weeks. MSD describes a single 2- to 10-cm herald patch, a Christmas tree-like pattern on the back, and a collarette of scale, says the rash usually clears within 5 weeks and rarely returns, and says no specific treatment is usually needed beyond anti-itch measures. MSD advises a blood test for syphilis when the palms or soles are involved, when no herald patch is seen, or when the pattern is unusual.",
+      "explanation": "Answer: reassurance, with relief of itching if needed (pityriasis rosea). Why: your El-Husseiny skin notes (in the musculoskeletal book) (p. 200) describe a first large 'herald patch,' with more scaly red plaques arriving a few days later, often in a Christmas tree pattern on the trunk, with collarette scale. It may be idiopathic or linked to viral infection and clears on its own in 6 to 8 weeks. MSD describes a single 2- to 10-cm herald patch, a Christmas tree-like pattern on the back, and a collarette of scale. Other source: MSD says the rash usually clears within 5 weeks and rarely returns. MSD also says no specific treatment is usually needed beyond anti-itch measures. MSD advises a blood test for syphilis when the palms or soles are involved, when no herald patch is seen, or when the pattern is unusual.",
       "whyWrong": {
         "b": "Terbinafine treats tinea; tinea can look like a single patch but does not spread in a Christmas tree pattern (standard teaching).",
         "c": "Penicillin treats secondary syphilis, which usually involves the palms and soles and has no herald patch (MSD Pityriasis Rosea; standard teaching).",
