@@ -22773,6 +22773,1073 @@
           "url": "https://www.msdmanuals.com/professional/infectious-diseases/extraintestinal-protozoa/chagas-disease"
         }
       ]
+    },
+    {
+      "id": "anat-erb-palsy-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Musculoskeletal",
+      "topic": "Erb palsy (upper brachial plexus injury)",
+      "difficulty": 2,
+      "stem": "A 1-day-old boy is evaluated because he does not move his right arm. He weighed 4.6 kg (10.1 lb) at birth, and the delivery was complicated by shoulder dystocia that needed strong sideways pulling on the head. His right arm lies against his side, turned inward at the shoulder, with the elbow straight and the forearm pronated. He grasps a finger firmly with both hands. The Moro reflex is absent on the right.",
+      "leadIn": "Injury to which of the following structures is the most likely cause of these findings?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Upper trunk of the brachial plexus"
+        },
+        {
+          "id": "b",
+          "text": "Lower trunk of the brachial plexus"
+        },
+        {
+          "id": "c",
+          "text": "Radial nerve in the spiral groove"
+        },
+        {
+          "id": "d",
+          "text": "Axillary nerve at the humeral neck"
+        },
+        {
+          "id": "e",
+          "text": "Long thoracic nerve on the chest wall"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the upper trunk of the brachial plexus (Erb palsy). Why: your El-Husseiny musculoskeletal notes (p. 24) describe Erb palsy as a stretch or tear of the upper trunk (C5-C6 roots), caused in babies by sideways pulling on the neck during delivery and in adults by trauma. The muscles that lose power explain the posture, often called the 'waiter's tip': without the deltoid and supraspinatus the arm cannot abduct and hangs at the side, without the infraspinatus it cannot rotate outward so it turns inward, and without the biceps the elbow stays straight and the forearm pronated. The hand muscles come from C8-T1, so the grasp is normal. Other source: MSD's Birth Injuries page describes Erb palsy as an upper plexus injury of C5 to C7 (one level lower than your notes), with the shoulder held in adduction and internal rotation and the forearm pronated. MSD links plexus injuries to sideways stretching of the neck during shoulder dystocia, and says treatment of Erb palsy is usually supportive, with physical therapy and protective positioning.",
+      "whyWrong": {
+        "b": "A lower trunk (C8-T1) injury, or Klumpke palsy, weakens the small muscles of the hand and causes a claw hand, so the grasp would be weak (standard teaching).",
+        "c": "A radial nerve injury in the spiral groove causes wrist drop, with weak wrist and finger extension, and does not stop shoulder movement (standard teaching).",
+        "d": "The axillary nerve supplies the deltoid and teres minor, so it would not explain the straight elbow and pronated forearm (your El-Husseiny musculoskeletal notes, p. 7).",
+        "e": "The long thoracic nerve supplies the serratus anterior; injury causes a winged scapula, not this arm posture (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Erb palsy, p. 24"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Axillary nerve, p. 7"
+        },
+        {
+          "title": "MSD Manual Professional: Birth Injuries",
+          "url": "https://www.msdmanuals.com/professional/pediatrics/perinatal-problems/birth-injuries"
+        }
+      ]
+    },
+    {
+      "id": "anat-axillary-nerve-dislocation-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Musculoskeletal",
+      "topic": "Axillary nerve injury (anterior shoulder dislocation)",
+      "difficulty": 2,
+      "stem": "A 23-year-old man comes to the emergency department after a rugby tackle forced his raised, outward-turned left arm backward. The left shoulder has lost its rounded outline, and there is a fullness at the front of the armpit. X-rays show the head of the humerus in front of and below the glenoid. After the shoulder is put back in place, he has numbness over a patch of skin on the outer upper arm, and he cannot raise his arm away from his side.",
+      "leadIn": "Weakness of which other muscle is most likely in this patient?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Teres minor"
+        },
+        {
+          "id": "b",
+          "text": "Supraspinatus"
+        },
+        {
+          "id": "c",
+          "text": "Serratus anterior"
+        },
+        {
+          "id": "d",
+          "text": "Biceps brachii"
+        },
+        {
+          "id": "e",
+          "text": "Latissimus dorsi"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: teres minor, because the axillary nerve was injured. Why: your El-Husseiny musculoskeletal notes (p. 30) explain that the glenohumeral joint dislocates more often than any other joint because its socket is shallow, that most shoulder dislocations are anterior, and that they usually follow a blow to an arm that is abducted and turned outward. The axillary nerve is the nerve most often injured. It supplies the deltoid (abduction past about 15 degrees) and teres minor (outward rotation), and it carries feeling from the skin over the deltoid (your El-Husseiny musculoskeletal notes, p. 7). Loss of the deltoid outline points to an anterior dislocation. MSD's Shoulder Dislocations page agrees that shoulder dislocations are anterior in at least 95% of patients, that the mechanism is abduction and external rotation, and that axillary nerve injury causes decreased sensation over the deltoid.",
+      "whyWrong": {
+        "b": "The supraspinatus is supplied by the suprascapular nerve, which is not the nerve that wraps around the humeral neck (standard teaching).",
+        "c": "The serratus anterior is supplied by the long thoracic nerve; weakness causes a winged scapula (standard teaching).",
+        "d": "The biceps is supplied by the musculocutaneous nerve, which carries feeling from the side of the forearm, not the shoulder (standard teaching).",
+        "e": "The latissimus dorsi is supplied by the thoracodorsal nerve and is not affected by an axillary nerve injury (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Anterior dislocation of the shoulder, p. 30"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Axillary nerve, p. 7"
+        },
+        {
+          "title": "MSD Manual Professional: Shoulder Dislocations",
+          "url": "https://www.msdmanuals.com/professional/injuries-poisoning/dislocations/shoulder-dislocations"
+        }
+      ]
+    },
+    {
+      "id": "anat-ulnar-nerve-elbow-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Musculoskeletal",
+      "topic": "Ulnar nerve injury at the elbow",
+      "difficulty": 2,
+      "stem": "A 41-year-old accountant comes to the physician because of tingling in his right little finger and the inner half of his ring finger for 2 months. He spends most of the day resting his elbows on a hard desk. On examination, he has trouble holding a sheet of paper between his straightened fingers, and pain shoots into his little finger when the back of the inner elbow is tapped. Sensation over the thumb and index finger is normal.",
+      "leadIn": "Weakness of which of the following movements is most likely in this patient?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Spreading the fingers apart"
+        },
+        {
+          "id": "b",
+          "text": "Extending the wrist upward"
+        },
+        {
+          "id": "c",
+          "text": "Flexing the elbow against force"
+        },
+        {
+          "id": "d",
+          "text": "Lifting the arm out to the side"
+        },
+        {
+          "id": "e",
+          "text": "Bending the thumb at its tip joint"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: spreading the fingers apart, from an ulnar nerve injury at the elbow. Why: your El-Husseiny musculoskeletal notes (pp. 19-21) explain that the ulnar nerve passes behind the medial epicondyle, where only a thin layer of soft tissue covers it (the 'funny bone'), so this is a common place for injury. In the hand it supplies the hypothenar muscles, the medial two lumbricals, the adductor of the thumb, and all the interossei: the dorsal interossei spread the fingers apart and the palmar interossei bring them together. It carries feeling from the fifth digit and the inner half of the fourth. A lesion at the elbow weakens finger spreading and closing, and a distal lesion can cause an ulnar claw. MSD's Mononeuropathies page agrees that ulnar palsy at the elbow is often caused by trauma in the ulnar groove, causes a sensory deficit in the fifth digit and medial half of the fourth digit, and weakens the thumb adductor, fifth digit abductor, and interossei. MSD adds that severe chronic ulnar palsy causes a clawhand deformity.",
+      "whyWrong": {
+        "b": "Wrist extension comes from muscles supplied by the radial nerve; a radial injury causes wrist drop (standard teaching).",
+        "c": "Elbow flexion comes mainly from the biceps and brachialis, supplied by the musculocutaneous nerve (standard teaching).",
+        "d": "Lifting the arm out to the side needs the deltoid, supplied by the axillary nerve (your El-Husseiny musculoskeletal notes, p. 7).",
+        "e": "Bending the thumb tip uses the flexor pollicis longus, supplied by the anterior interosseous branch of the median nerve (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Ulnar nerve, pp. 19-21"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Axillary nerve, p. 7"
+        },
+        {
+          "title": "MSD Manual Professional: Mononeuropathies",
+          "url": "https://www.msdmanuals.com/professional/neurologic-disorders/peripheral-nervous-system-and-motor-unit-disorders/mononeuropathies"
+        }
+      ]
+    },
+    {
+      "id": "anat-common-peroneal-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Musculoskeletal",
+      "topic": "Common peroneal (fibular) nerve injury",
+      "difficulty": 2,
+      "stem": "A 29-year-old woman comes to the physician because she has tripped over her right toes for 1 week. She has lost 14 kg (31 lb) over 4 months on a strict diet, and she often sits for hours with her right leg crossed over her left knee. She cannot lift her right foot or turn its sole outward. Pointing the foot downward and turning the sole inward are normal. Sensation is decreased over the top of the right foot. Ankle reflexes are normal.",
+      "leadIn": "Compression at which of the following sites most likely caused these findings?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Outer side of the neck of the fibula"
+        },
+        {
+          "id": "b",
+          "text": "Tarsal tunnel behind the medial ankle"
+        },
+        {
+          "id": "c",
+          "text": "L5 nerve root in the lower spine"
+        },
+        {
+          "id": "d",
+          "text": "Tibial nerve in the popliteal fossa"
+        },
+        {
+          "id": "e",
+          "text": "Sciatic nerve deep in the buttock"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the outer side of the fibular neck, where the common peroneal (fibular) nerve lies just under the skin. Why: your El-Husseiny musculoskeletal notes (pp. 49-51) explain that the common peroneal nerve is the nerve most often injured in the leg because it wraps around the fibular neck close to the surface, and that pressure there (long surgery, leg crossing, a tight cast) or a fibular neck fracture can damage it. Its deep branch supplies the front of the leg (lifting the foot and toes) and its superficial branch supplies the outer compartment (turning the sole outward), and together they carry feeling from most of the top of the foot. Injury causes foot drop, a high-stepping gait, and numbness on top of the foot, while pointing the foot down and turning it inward still work because the tibial nerve is spared. MSD's Mononeuropathies page agrees that the nerve is typically compressed against the lateral aspect of the fibular neck, names emaciated bedbound patients and thin people who habitually cross their legs as the people most affected, and says it causes footdrop with weak dorsiflexion and eversion.",
+      "whyWrong": {
+        "b": "The tarsal tunnel holds the tibial nerve; compression causes burning and numbness of the sole, not foot drop (standard teaching).",
+        "c": "An L5 root lesion can cause foot drop, but it usually also weakens turning the sole inward and causes back pain spreading down the leg (standard teaching).",
+        "d": "The tibial nerve controls pointing the foot down and turning it inward, which are normal here (your El-Husseiny musculoskeletal notes, p. 51).",
+        "e": "A sciatic nerve lesion would also weaken the hamstrings and the calf, so pointing the foot down and the ankle reflex would be affected (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Common peroneal (fibular) nerve, pp. 49-51"
+        },
+        {
+          "title": "MSD Manual Professional: Mononeuropathies",
+          "url": "https://www.msdmanuals.com/professional/neurologic-disorders/peripheral-nervous-system-and-motor-unit-disorders/mononeuropathies"
+        }
+      ]
+    },
+    {
+      "id": "anat-scaphoid-fracture-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Musculoskeletal",
+      "topic": "Scaphoid fracture and its blood supply",
+      "difficulty": 2,
+      "stem": "A 20-year-old woman comes to the physician 2 days after she fell onto her outstretched right hand while skating. She has a dull ache on the thumb side of the wrist. There is tenderness in the hollow between the two thumb tendons on the back of the wrist. X-rays of the wrist show no fracture.",
+      "leadIn": "If this injury is not treated, which complication is she at greatest risk for?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Death of bone in the proximal pole"
+        },
+        {
+          "id": "b",
+          "text": "Median nerve compression at the wrist"
+        },
+        {
+          "id": "c",
+          "text": "Death of bone in the lunate"
+        },
+        {
+          "id": "d",
+          "text": "Ulnar nerve injury in Guyon's canal"
+        },
+        {
+          "id": "e",
+          "text": "Malunion with a dinner-fork deformity"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: death of bone (avascular necrosis) in the proximal pole of the scaphoid. Why: your El-Husseiny musculoskeletal notes (p. 36) explain that the scaphoid, the biggest bone in the first row of carpal bones, is the most often fractured carpal bone, and that the usual cause is a fall on an outstretched hand. Persistent pain and tenderness in the anatomic snuffbox after a fall should suggest it. A branch of the radial artery enters near the distal pole, so blood reaches the proximal pole in a backward (retrograde) direction, and a fracture can easily cut it off. This puts the bone at risk of avascular necrosis and nonunion. MSD's Scaphoid (Navicular) Fractures page agrees that these fractures usually come from the wrist being bent back, typically in a fall on an outstretched hand, lists tenderness in the anatomic snuffbox as a sign, and says that only around 70% of these fractures show on the first x-rays, so a normal film does not rule it out. MSD notes that the fracture can disrupt the blood supply to the proximal scaphoid, so osteonecrosis is a common complication, and that many nondisplaced fractures are treated with a thumb spica cast for up to 6 to 8 weeks.",
+      "whyWrong": {
+        "b": "Median nerve compression is carpal tunnel syndrome, which causes numbness of the thumb side of the hand (your El-Husseiny musculoskeletal notes, p. 39).",
+        "c": "Avascular necrosis of the lunate (Kienböck disease) is a separate condition and does not follow from a scaphoid fracture (standard teaching).",
+        "d": "Ulnar nerve injury in Guyon's canal is linked to a fracture of the hook of the hamate, on the little-finger side of the wrist (your El-Husseiny musculoskeletal notes, p. 20).",
+        "e": "The dinner-fork deformity is from a distal radius (Colles) fracture, which would usually show on x-ray (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Scaphoid fractures, p. 36"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Ulnar nerve, p. 20"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Carpal tunnel syndrome, p. 39"
+        },
+        {
+          "title": "MSD Manual Professional: Scaphoid (Navicular) Fractures",
+          "url": "https://www.msdmanuals.com/professional/injuries-poisoning/fractures/scaphoid-navicular-fractures"
+        }
+      ]
+    },
+    {
+      "id": "anat-carpal-tunnel-thenar-skin-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Musculoskeletal",
+      "topic": "Carpal tunnel syndrome: spared thenar sensation",
+      "difficulty": 3,
+      "stem": "A 33-year-old woman at 31 weeks' gestation comes to the physician because she wakes at night with burning and tingling in her right thumb, index finger, and middle finger. Shaking her hand helps. Tapping the front of the wrist reproduces the tingling, and so does holding both wrists fully bent for 1 minute. Sensation is decreased on the palm side of the first three fingers, but it is normal over the skin of the fleshy pad at the base of the thumb.",
+      "leadIn": "Which of the following best explains the normal sensation over the pad at the base of the thumb?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Its palmar cutaneous branch runs outside the tunnel"
+        },
+        {
+          "id": "b",
+          "text": "The recurrent motor branch carries this sensation"
+        },
+        {
+          "id": "c",
+          "text": "The ulnar nerve supplies the skin over the thenar area"
+        },
+        {
+          "id": "d",
+          "text": "The superficial radial nerve supplies this palm skin"
+        },
+        {
+          "id": "e",
+          "text": "Sensory fibers resist pressure better than motor ones"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the median nerve's palmar cutaneous branch reaches the hand outside the carpal tunnel. Why: your El-Husseiny musculoskeletal notes (p. 39) describe the carpal tunnel as the space between the carpal bones and the flexor retinaculum (transverse carpal ligament), carrying the median nerve with the long finger flexor tendons. The syndrome is linked to pregnancy, rheumatoid arthritis, hypothyroidism, diabetes, and dialysis-related amyloidosis. It causes pain and tingling in the median nerve area that is worse at night, Tinel and Phalen signs, and later thenar muscle wasting. Feeling over the thenar eminence is spared because the palmar cutaneous branch enters the hand outside the tunnel. The median nerve normally carries feeling from the thenar eminence and the lateral three and a half fingers (your El-Husseiny musculoskeletal notes, p. 14). MSD's Carpal Tunnel Syndrome page agrees that it is compression of the median nerve in the carpal tunnel, lists pregnancy-induced edema, diabetes, hypothyroidism, and rheumatoid arthritis as risk factors, and describes waking at night with numbness and tingling. MSD adds that thenar atrophy and weak thumb opposition and abduction may develop late, and that treatment includes a lightweight neutral wrist splint, especially at night.",
+      "whyWrong": {
+        "b": "The recurrent branch of the median nerve is purely motor to the thenar muscles and carries no skin sensation (your El-Husseiny musculoskeletal notes, p. 16).",
+        "c": "The ulnar nerve carries feeling from the medial one and a half fingers and the hypothenar side, not the thenar pad (your El-Husseiny musculoskeletal notes, p. 19).",
+        "d": "The superficial radial nerve supplies the back of the hand near the thumb, not the thenar skin of the palm (standard teaching).",
+        "e": "Nerve compression usually causes sensory symptoms early; thenar weakness tends to appear later, so this does not explain a spared patch (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Carpal tunnel syndrome, p. 39"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Median nerve, pp. 14-16"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Ulnar nerve, p. 19"
+        },
+        {
+          "title": "MSD Manual Professional: Carpal Tunnel Syndrome",
+          "url": "https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/hand-disorders/carpal-tunnel-syndrome"
+        }
+      ]
+    },
+    {
+      "id": "embryo-transposition-great-arteries-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Cardiovascular",
+      "topic": "Transposition of the great arteries (embryology)",
+      "difficulty": 2,
+      "stem": "A boy born at term is deeply cyanotic 3 hours after birth. His mother has type 2 diabetes. His oxygen saturation is 62% and does not improve with 100% oxygen. There is no murmur. A chest x-ray shows an egg-shaped heart with a narrow upper mediastinum. Echocardiography shows that the aorta comes off the right ventricle while the pulmonary artery leaves the left ventricle.",
+      "leadIn": "Failure of which of the following embryologic processes most likely caused this condition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Spiral growth of the aorticopulmonary septum"
+        },
+        {
+          "id": "b",
+          "text": "Fusion of the endocardial cushions in the AV canal"
+        },
+        {
+          "id": "c",
+          "text": "Forward shift of the infundibular septum"
+        },
+        {
+          "id": "d",
+          "text": "Division of the truncus into two vessels"
+        },
+        {
+          "id": "e",
+          "text": "Closure of the ductus arteriosus after birth"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: spiral growth of the aorticopulmonary septum (transposition of the great arteries). Why: your El-Husseiny cardiovascular notes (pp. 6-7) explain that in the fifth week, ridges in the truncus twist around each other to form a spiral aorticopulmonary septum, which divides the truncus into the aorta and pulmonary trunk. Neural crest cells moving into the endocardial cushions help build this septum. If the septum grows straight instead of spiraling, the aorta comes off the right ventricle and the pulmonary trunk off the left ventricle. Your notes group this with tetralogy of Fallot and persistent truncus arteriosus as cyanotic defects tied to failed neural crest migration. MSD's TGA page agrees on the anatomy, explaining that it creates independent, parallel pulmonary and systemic circulations, so the baby survives only if blood mixes through openings between the two sides. MSD notes that severe cyanosis occurs within hours of birth, that murmurs may be absent, and that the chest x-ray may show an egg-on-a-string shape with a narrow upper mediastinum. Treatment is a PGE1 infusion to keep the ductus open, balloon atrial septostomy if needed, and an arterial switch operation typically done during the first week of life.",
+      "whyWrong": {
+        "b": "Failed fusion of the endocardial cushions causes atrioventricular septal defects, linked to Down syndrome, which are not cyanotic at first (standard teaching).",
+        "c": "Forward (anterosuperior) shift of the infundibular septum causes tetralogy of Fallot, which usually has a harsh pulmonic stenosis murmur and a boot-shaped heart (standard teaching).",
+        "d": "Complete failure to divide the truncus gives persistent truncus arteriosus, one vessel leaving both ventricles, not two switched vessels (your El-Husseiny cardiovascular notes, p. 6).",
+        "e": "Closure of the ductus is normal after birth; in transposition it makes cyanosis worse, which is why PGE1 is given, but it is not the cause (your El-Husseiny cardiovascular notes, p. 10)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Cardiovascular System (Emily's file), Septation of the truncus arteriosus, pp. 6-7"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Cardiovascular System (Emily's file), Fetal-postnatal derivatives, p. 10"
+        },
+        {
+          "title": "MSD Manual Professional: Transposition of the Great Arteries (TGA)",
+          "url": "https://www.msdmanuals.com/professional/pediatrics/congenital-cardiovascular-anomalies/transposition-of-the-great-arteries-tga"
+        }
+      ]
+    },
+    {
+      "id": "embryo-patent-ductus-arteriosus-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Cardiovascular",
+      "topic": "Patent ductus arteriosus (embryology)",
+      "difficulty": 2,
+      "stem": "A girl born at 28 weeks' gestation is 5 days old in the neonatal intensive care unit. She now needs more oxygen. Her pulses are bounding, and her pulse pressure is wide. A continuous murmur is heard best below the left clavicle at the upper left sternal border. Echocardiography shows blood flowing from the aorta into the pulmonary artery through a fetal vessel that has not closed.",
+      "leadIn": "This vessel develops from which of the following embryologic structures?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Left sixth aortic arch"
+        },
+        {
+          "id": "b",
+          "text": "Left fourth aortic arch"
+        },
+        {
+          "id": "c",
+          "text": "Third aortic arches"
+        },
+        {
+          "id": "d",
+          "text": "Second aortic arches"
+        },
+        {
+          "id": "e",
+          "text": "Left umbilical vein"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the left sixth aortic arch, which forms the ductus arteriosus. Why: your El-Husseiny cardiovascular notes (pp. 10-11) explain that each pharyngeal arch has its own aortic arch: the third forms the common carotid and proximal internal carotid arteries, the fourth forms part of the aortic arch on the left and the proximal right subclavian artery on the right, and the sixth forms the proximal pulmonary arteries and, on the left only, the ductus arteriosus. In the fetus the ductus lets blood skip the lungs by flowing from the pulmonary artery to the aorta. It normally closes after birth as oxygen rises and prostaglandin E2 falls, and it then becomes the ligamentum arteriosum. If it stays open, blood shunts left to right. Indomethacin (a prostaglandin blocker) can close it, while prostaglandin E1 or E2 keeps it open. MSD's PDA page agrees that PDA is very common among preterm infants, that the rise in PaO2 and fall in prostaglandins close it, and that with no other defects the shunt is left to right, from aorta to pulmonary artery. MSD describes a continuous murmur heard best at the upper left sternal border with bounding pulses and a wide pulse pressure, and lists indomethacin or ibuprofen to close it.",
+      "whyWrong": {
+        "b": "The left fourth arch forms part of the true aortic arch (your El-Husseiny cardiovascular notes, p. 11).",
+        "c": "The third arches form the common carotid and proximal internal carotid arteries (your El-Husseiny cardiovascular notes, pp. 10-11).",
+        "d": "The second arches form the stapedial and hyoid arteries, which mostly regress (your El-Husseiny cardiovascular notes, pp. 10-11).",
+        "e": "The umbilical vein becomes the ligamentum teres hepatis; the ductus venosus, not the ductus arteriosus, links it to the IVC (your El-Husseiny cardiovascular notes, p. 10, and standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Cardiovascular System (Emily's file), Fetal-postnatal derivatives and aortic arch derivatives, pp. 10-11"
+        },
+        {
+          "title": "MSD Manual Professional: Patent Ductus Arteriosus (PDA)",
+          "url": "https://www.msdmanuals.com/professional/pediatrics/congenital-cardiovascular-anomalies/patent-ductus-arteriosus-pda"
+        }
+      ]
+    },
+    {
+      "id": "anat-rca-inferior-mi-bradycardia-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Cardiovascular",
+      "topic": "Right coronary artery: inferior MI with bradycardia",
+      "difficulty": 2,
+      "stem": "A 64-year-old man comes to the emergency department because of crushing chest pain for 1 hour. He is sweaty and lightheaded. His pulse is 42/min and blood pressure is 96/60 mm Hg. An ECG shows ST-segment elevation in leads II, III, and aVF with sinus bradycardia. Coronary angiography shows that the posterior descending artery arises from the vessel that is blocked.",
+      "leadIn": "Occlusion of which of the following arteries most likely explains both the ECG changes and the slow heart rate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Right coronary artery"
+        },
+        {
+          "id": "b",
+          "text": "Left anterior descending artery"
+        },
+        {
+          "id": "c",
+          "text": "Left circumflex artery"
+        },
+        {
+          "id": "d",
+          "text": "Left main coronary artery"
+        },
+        {
+          "id": "e",
+          "text": "First diagonal branch"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the right coronary artery. Why: your El-Husseiny cardiovascular notes (pp. 18-19) explain that the right coronary artery gives off the sinoatrial (SA) nodal artery as one of its first branches, so a blockage can cause bradycardia or heart block. In most people it ends as the posterior descending artery, which feeds the bulk of the left ventricle's underside (inferior wall), the back third of the septum, and the AV node. Your notes say the posterior descending artery comes from the right coronary artery in 85% of people (right dominance), the circumflex does in about 8% (left dominance), and both do in about 7%. The LAD supplies the front wall and front two-thirds of the septum and is the most common site of blockage. StatPearls' Inferior Myocardial Infarction page agrees that leads II, III, and aVF show the inferior wall, and that heart block and bradycardia may occur because the right coronary artery perfuses the SA node and the AV node. StatPearls adds that if the right ventricle is also infarcted, nitrates should be avoided and fluids given, because these patients depend on preload. Other source: StatPearls puts the right coronary share at 80%, with the circumflex supplying the inferior wall in the other 20%, slightly different from the figures in your notes.",
+      "whyWrong": {
+        "b": "The LAD supplies the front wall and apex, so its blockage gives ST elevation in the front (precordial) leads, not II, III, and aVF (your El-Husseiny cardiovascular notes, p. 19).",
+        "c": "The circumflex supplies the lateral wall and gives rise to the posterior descending artery only in left-dominant hearts; here the blocked vessel gives rise to the posterior descending artery and the SA node is affected (your El-Husseiny cardiovascular notes, pp. 18-19).",
+        "d": "A left main blockage affects both the LAD and circumflex areas and usually causes shock with widespread ECG changes (standard teaching).",
+        "e": "Diagonal branches come off the LAD and supply the anterolateral wall (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Cardiovascular System (Emily's file), Arterial supply of the heart, pp. 18-19"
+        },
+        {
+          "title": "StatPearls: Inferior Myocardial Infarction",
+          "url": "https://statpearls.com/articlelibrary/viewarticle/23500"
+        }
+      ]
+    },
+    {
+      "id": "anat-left-atrium-mitral-stenosis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Cardiovascular",
+      "topic": "Left atrial enlargement in mitral stenosis (Ortner syndrome)",
+      "difficulty": 2,
+      "stem": "A 37-year-old woman who moved from rural Nepal 3 years ago comes to the physician because of a hoarse voice for 2 months and shortness of breath when climbing stairs. She had joint pains and fever as a child. Auscultation shows a sharp sound soon after S2, followed by a low-pitched rumbling diastolic murmur best heard at the apex. Laryngoscopy shows a paralyzed left vocal cord.",
+      "leadIn": "Pressure from which enlarged heart chamber most likely explains her hoarseness?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Left atrium"
+        },
+        {
+          "id": "b",
+          "text": "Left ventricle"
+        },
+        {
+          "id": "c",
+          "text": "Right atrium"
+        },
+        {
+          "id": "d",
+          "text": "Right ventricle"
+        },
+        {
+          "id": "e",
+          "text": "Ascending aorta"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the left atrium. Why: your El-Husseiny cardiovascular notes (pp. 14-15) explain that the left atrium forms most of the back (posterior) surface of the heart, with the esophagus right behind it. That is why transesophageal echo shows the left atrium and mitral valve so well. Conditions that enlarge the left atrium, such as mitral stenosis or atrial fibrillation, can press on the esophagus and cause trouble swallowing, or squeeze the left recurrent laryngeal nerve (which comes from the vagus) and cause hoarseness. The front surface is mostly the right ventricle, the right border is the right atrium, and the left border and apex are the left ventricle. MSD's Mitral Stenosis page agrees that the usual cause is rheumatic fever, that left atrial enlargement predisposes to atrial fibrillation, and that hoarseness can come from compression of the left recurrent laryngeal nerve by a dilated left atrium or pulmonary artery (Ortner syndrome). MSD describes an early diastolic opening snap followed by a low-pitched rumbling diastolic murmur heard best at the apex.",
+      "whyWrong": {
+        "b": "The left ventricle is not under extra load in pure mitral stenosis, because less blood reaches it (standard teaching).",
+        "c": "The right atrium forms the right border of the heart, away from the left recurrent laryngeal nerve (your El-Husseiny cardiovascular notes, p. 14).",
+        "d": "The right ventricle forms the front surface of the heart, far from the left recurrent laryngeal nerve (your El-Husseiny cardiovascular notes, p. 14).",
+        "e": "The left recurrent laryngeal nerve hooks under the aortic arch, not the ascending aorta; and a dilated aorta is not part of mitral stenosis (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Cardiovascular System (Emily's file), Surface projections of the heart, pp. 14-15"
+        },
+        {
+          "title": "MSD Manual Professional: Mitral Stenosis",
+          "url": "https://www.msdmanuals.com/professional/cardiovascular-disorders/valvular-disorders/mitral-stenosis"
+        }
+      ]
+    },
+    {
+      "id": "embryo-tracheoesophageal-fistula-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Respiratory",
+      "topic": "Esophageal atresia with tracheoesophageal fistula",
+      "difficulty": 2,
+      "stem": "A boy born at 37 weeks' gestation has frothy saliva in his mouth and coughs, chokes, and turns blue during his first feeding. The pregnancy was complicated by too much amniotic fluid. A feeding tube cannot be passed more than 10 cm beyond the lips. A chest and abdominal x-ray shows the tube coiled in the upper chest and air in the stomach and bowel.",
+      "leadIn": "Abnormal development of which of the following structures most likely caused this condition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tracheoesophageal septum"
+        },
+        {
+          "id": "b",
+          "text": "Pleuroperitoneal membranes"
+        },
+        {
+          "id": "c",
+          "text": "Pyloric sphincter muscle"
+        },
+        {
+          "id": "d",
+          "text": "Third and fourth pharyngeal pouches"
+        },
+        {
+          "id": "e",
+          "text": "Neural crest cells of the bowel wall"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the tracheoesophageal septum. Why: your El-Husseiny respiratory notes (p. 2) explain that the respiratory system starts in the fourth week as a single outpouching of endoderm from the front of the foregut. The trachea and foregut are open to each other at first, and a mesodermal wall, the tracheoesophageal septum, grows to separate them. Faulty growth of this septum leaves an abnormal opening between the trachea and esophagus (a tracheoesophageal fistula). Air in the stomach on x-ray tells you the lower esophagus is connected to the trachea (standard teaching). MSD's Esophageal Atresia page agrees that the anomaly is usually suspected before birth because of polyhydramnios, and that typical signs are excessive secretions, coughing and cyanosis after attempts at feeding, and aspiration pneumonia. MSD says the diagnosis is made when a nasogastric or orogastric tube cannot be passed into the stomach and by x-ray, notes that a distal fistula causes abdominal distention, and says about 20% of these infants meet criteria for VACTERL.",
+      "whyWrong": {
+        "b": "Failure of the pleuroperitoneal membranes causes congenital diaphragmatic hernia, with bowel in the chest and breathing trouble, not choking at feeds (standard teaching).",
+        "c": "A thickened pyloric muscle causes projectile vomiting at 2 to 6 weeks of age, not choking with the first feed (standard teaching).",
+        "d": "Failure of the third and fourth pouches causes DiGeorge syndrome, with a missing thymus and parathyroids (standard teaching).",
+        "e": "Failed migration of neural crest cells into the bowel causes Hirschsprung disease, with delayed passage of meconium (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Respiratory System (Emily's file), Lung development, p. 2"
+        },
+        {
+          "title": "MSD Manual Professional: Esophageal Atresia",
+          "url": "https://www.msdmanuals.com/professional/pediatrics/congenital-gastrointestinal-anomalies/esophageal-atresia"
+        }
+      ]
+    },
+    {
+      "id": "anat-thoracentesis-hemothorax-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Respiratory",
+      "topic": "Thoracentesis: intercostal neurovascular bundle",
+      "difficulty": 2,
+      "stem": "A 71-year-old man has a large right pleural effusion. A trainee inserts a thoracentesis needle at the back of the chest, one space below the top of the fluid, aiming just under the lower edge of the rib above. Within minutes the man becomes pale, his blood pressure falls to 88/52 mm Hg, and repeat ultrasound shows fresh blood collecting in the pleural space.",
+      "leadIn": "Which of the following structures was most likely injured?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Intercostal artery in the costal groove"
+        },
+        {
+          "id": "b",
+          "text": "Internal thoracic artery behind the sternum"
+        },
+        {
+          "id": "c",
+          "text": "Inferior vena cava below the diaphragm"
+        },
+        {
+          "id": "d",
+          "text": "Right subclavian artery above the first rib"
+        },
+        {
+          "id": "e",
+          "text": "Azygos vein along the vertebral bodies"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: an intercostal artery running in the groove under the rib. Why: your El-Husseiny respiratory notes (pp. 13-14) explain that the intercostal vein, artery, and nerve run in the costal groove along the lower edge of each rib, so a thoracentesis needle is placed at the lower part of the intercostal space, just over the upper border of the rib below. Fluid collects in the costodiaphragmatic recess when the patient is upright, and your notes give safe lower limits for the needle at different lines on the chest so that abdominal organs such as the liver are not hit. MSD's How To Do Thoracentesis page agrees that the needle must be placed over the upper edge of the rib to avoid the neurovascular bundle at the lower edge, which includes the intercostal vein, artery, and nerve. MSD places the needle in the mid-scapular line one intercostal space below the top of the effusion, and lists pneumothorax and hemothorax from damaged intercostal vessels among the major complications.",
+      "whyWrong": {
+        "b": "The internal thoracic arteries run just beside the sternum at the front of the chest, far from a posterior needle site (standard teaching).",
+        "c": "Going too low risks abdominal organs, but this needle was placed one space below the fluid level, and the IVC lies deep in the middle of the body (your El-Husseiny respiratory notes, pp. 13-14).",
+        "d": "The subclavian artery lies above the first rib near the base of the neck, nowhere near a low posterior thoracentesis (standard teaching).",
+        "e": "The azygos vein lies in the posterior mediastinum next to the spine, deep to the pleura and medial to a normal needle site (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Respiratory System (Emily's file), Pleura and thoracentesis, pp. 13-14"
+        },
+        {
+          "title": "MSD Manual Professional: How To Do Thoracentesis",
+          "url": "https://www.msdmanuals.com/professional/pulmonary-disorders/how-to-do-pulmonary-procedures/how-to-do-thoracentesis"
+        }
+      ]
+    },
+    {
+      "id": "anat-phrenic-referred-pain-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Respiratory",
+      "topic": "Phrenic nerve: referred shoulder pain from the pleura",
+      "difficulty": 2,
+      "stem": "A 26-year-old woman has had fever and cough for 4 days. Today she has a sharp pain at the tip of her right shoulder that gets worse when she breathes in deeply. She has no injury, and moving the shoulder does not change the pain. A chest x-ray shows pneumonia in the lower part of the right lower lobe, touching the center of the right side of the diaphragm.",
+      "leadIn": "Pain fibers from the irritated area enter the spinal cord at which of the following levels?",
+      "options": [
+        {
+          "id": "a",
+          "text": "C3 to C5"
+        },
+        {
+          "id": "b",
+          "text": "C6 to C8"
+        },
+        {
+          "id": "c",
+          "text": "T1 to T4"
+        },
+        {
+          "id": "d",
+          "text": "T5 to T9"
+        },
+        {
+          "id": "e",
+          "text": "T10 to L1"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: C3 to C5, through the phrenic nerve. Why: your El-Husseiny respiratory notes (p. 13) explain that the parietal pleura has somatic nerves, so its pain is sharp and easy to localize, while the visceral pleura does not feel pain. The phrenic nerve, from the C3-C5 roots, moves the diaphragm and also brings pain signals from the pleura covering the diaphragm and the mediastinum. Irritation there is felt as pain in the C3-C5 skin area, around the lower neck and the top of the shoulder. The rest of the parietal pleura sends pain through the intercostal nerves. StatPearls' Anatomy, Thorax, Phrenic Nerves page agrees that the phrenic nerve comes from the anterior rami of C3 through C5, gives all the motor supply to the diaphragm and feeling to its central tendon, and carries touch and pain from the mediastinal pleura. StatPearls adds that pain from the diaphragm is often referred to the tip of the shoulder, called the Kehr sign.",
+      "whyWrong": {
+        "b": "C6 to C8 supply the lower arm and hand, not the shoulder tip, and do not carry fibers from the diaphragm (standard teaching).",
+        "c": "Upper thoracic levels carry pain from the heart and upper chest wall; the central diaphragm and its pleura send pain through the phrenic nerve (your El-Husseiny respiratory notes, p. 13).",
+        "d": "Middle intercostal nerves carry pain from the costal pleura, which would be felt in the chest wall itself, not the shoulder (your El-Husseiny respiratory notes, p. 13).",
+        "e": "Lower intercostal nerves supply the outer edge of the diaphragm and the abdominal wall; this pain is at the shoulder tip (your El-Husseiny respiratory notes, p. 13, and standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Respiratory System (Emily's file), Pleura: innervation, p. 13"
+        },
+        {
+          "title": "StatPearls: Anatomy, Thorax, Phrenic Nerves",
+          "url": "https://www.statpearls.com/point-of-care/32314"
+        }
+      ]
+    },
+    {
+      "id": "histo-respiratory-bronchiole-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "Respiratory",
+      "topic": "Airway histology: respiratory bronchiole",
+      "difficulty": 3,
+      "stem": "A lung biopsy from a 55-year-old man is examined. One small airway has no cartilage plates and no goblet cells. It is lined by simple cuboidal cells, some with cilia and many that are dome-shaped and non-ciliated. A thin layer of smooth muscle lies under the lining, and a few thin-walled alveoli open directly from the airway wall.",
+      "leadIn": "This airway segment is best described by which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "First airway segment where gas exchange occurs"
+        },
+        {
+          "id": "b",
+          "text": "Last part of the airway that has cartilage plates"
+        },
+        {
+          "id": "c",
+          "text": "Airway lined by pseudostratified ciliated cells"
+        },
+        {
+          "id": "d",
+          "text": "Airway with the highest total airflow resistance"
+        },
+        {
+          "id": "e",
+          "text": "Airway whose wall is made only of alveoli"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the first part of the airway where gas exchange occurs, which is the respiratory bronchiole. Why: your El-Husseiny respiratory notes (p. 4) explain that the conducting zone (nose to terminal bronchioles) warms, filters, and humidifies air but does not exchange gas, and is called anatomic dead space. Cartilage and goblet cells go only as far as the end of the bronchi, and pseudostratified ciliated columnar cells line the bronchi before giving way to cuboidal cells. The respiratory zone (respiratory bronchioles, alveolar ducts, and alveoli) takes part in gas exchange. Respiratory bronchioles are mostly cuboidal, and cilia, the last feature to disappear, end there. Terminal bronchioles are so numerous and side by side that they have the lowest resistance. Osmosis' bronchioles and alveoli histology lesson agrees that small bronchioles lack the cartilage plates of bronchi, that terminal bronchioles contain club (Clara) cells instead of goblet cells, and that respiratory bronchioles have a mix of simple cuboidal and columnar cells with even more club cells. Club cells are the non-ciliated dome-shaped cells here; your notes say they secrete part of the surfactant and break down toxins (your El-Husseiny respiratory notes, p. 9).",
+      "whyWrong": {
+        "b": "Cartilage plates end with the bronchi, well before this airway (your El-Husseiny respiratory notes, p. 4).",
+        "c": "Pseudostratified ciliated columnar cells line the bronchi; this airway has simple cuboidal cells (your El-Husseiny respiratory notes, p. 4).",
+        "d": "Small airways are so many and arranged side by side that their total resistance is lowest; medium-sized bronchi have the highest (standard teaching; your El-Husseiny respiratory notes, p. 4).",
+        "e": "Alveolar ducts are made almost entirely of alveolar openings; this airway still has a wall of cuboidal cells and smooth muscle (your El-Husseiny respiratory notes, p. 4, and standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Respiratory System (Emily's file), Respiratory tree and respiratory zone, p. 4"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Respiratory System (Emily's file), Pneumocytes, p. 9"
+        },
+        {
+          "title": "Osmosis: Bronchioles and alveoli histology",
+          "url": "https://www.osmosis.org/learn/Bronchioles_and_alveoli_histology"
+        }
+      ]
+    },
+    {
+      "id": "phys-carotid-sinus-hypersensitivity-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Cardiovascular",
+      "topic": "Baroreceptor reflex: carotid sinus hypersensitivity",
+      "difficulty": 2,
+      "stem": "A 76-year-old man comes to the physician because he has fainted twice in 2 months, once while shaving his neck and once after turning his head quickly while wearing a tight shirt collar. He has a history of high cholesterol and a bruit over the right carotid artery. With ECG monitoring, gentle massage of the right carotid sinus causes a 5-second pause in the heartbeat.",
+      "leadIn": "The afferent signals that start this reflex travel in which of the following nerves?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Glossopharyngeal nerve"
+        },
+        {
+          "id": "b",
+          "text": "Vagus nerve"
+        },
+        {
+          "id": "c",
+          "text": "Phrenic nerve"
+        },
+        {
+          "id": "d",
+          "text": "Sympathetic cervical chain"
+        },
+        {
+          "id": "e",
+          "text": "Hypoglossal nerve"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the glossopharyngeal nerve (cranial nerve IX). Why: your Osmosis physiology notes (p. 105) describe the baroreceptor reflex as a fast nerve response to changes in blood pressure. Stretch receptors in the carotid sinus send signals along the carotid sinus nerve, a branch of the glossopharyngeal nerve (CN IX), and those in the aortic arch send signals along the vagus nerve (CN X). Both reach the nucleus tractus solitarius in the medulla, which then raises parasympathetic output to the heart and lowers sympathetic output, slowing the heart and widening blood vessels. Carotid sinus receptors respond to both rises and falls in pressure, while aortic arch receptors mostly respond to rises. In atherosclerosis, the receptors can become oversensitive (carotid sinus syndrome), so even light pressure on the carotid sinus causes extreme bradycardia. StatPearls' carotid sinus hypersensitivity page agrees that carotid sinus signals travel in the glossopharyngeal nerve and aortic arch signals in the vagus. It notes the condition is about 4 times more common in men and very unlikely before age 50, and lists tight collars, shaving, and sudden neck movements as triggers. StatPearls says monitored carotid massage is the best way to diagnose it and a dual-chamber pacemaker is the cornerstone of treatment for the cardioinhibitory type.",
+      "whyWrong": {
+        "b": "The vagus nerve carries the afferent signal from the aortic arch and the efferent signal that slows the heart, but signals from the carotid sinus travel in CN IX (your Osmosis physiology notes, p. 105).",
+        "c": "The phrenic nerve moves the diaphragm and carries no baroreceptor fibers (standard teaching).",
+        "d": "Sympathetic output is turned down in this reflex; the sympathetic chain is not the sensory limb from the carotid sinus (your Osmosis physiology notes, p. 105).",
+        "e": "The hypoglossal nerve moves the tongue and has no role in blood pressure control (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Baroreceptors, p. 105"
+        },
+        {
+          "title": "StatPearls: Carotid Sinus Hypersensitivity",
+          "url": "https://www.statpearls.com/sp/md/81/18973/"
+        }
+      ]
+    },
+    {
+      "id": "phys-cholecystokinin-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Gastrointestinal",
+      "topic": "Cholecystokinin (CCK)",
+      "difficulty": 2,
+      "stem": "A 44-year-old woman comes to the physician because of episodes of cramping pain in the right upper abdomen for 3 months. Each episode starts about 30 minutes after a large meal of fried food and lasts about 2 hours. Ultrasound shows several gallstones in a gallbladder with a normal wall. The pain is caused by the gallbladder squeezing against a stone stuck in its outlet.",
+      "leadIn": "The hormone that most directly triggers this squeezing is released by which of the following cells?",
+      "options": [
+        {
+          "id": "a",
+          "text": "I cells in the small intestine"
+        },
+        {
+          "id": "b",
+          "text": "S cells in the small intestine"
+        },
+        {
+          "id": "c",
+          "text": "G cells in the gastric antrum"
+        },
+        {
+          "id": "d",
+          "text": "K cells in the upper intestine"
+        },
+        {
+          "id": "e",
+          "text": "D cells in the pancreatic islets"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: I cells in the small intestine, which release cholecystokinin (CCK). Why: your Osmosis physiology notes (p. 306) list CCK as a hormone made by enteroendocrine I cells. It is released when food is eaten, especially fatty acids and amino acids, and it increases gallbladder contraction, increases the output of pancreatic enzymes, and controls how food moves from the stomach into the small intestine. A fatty meal releases CCK, the gallbladder squeezes, and a stone blocking the cystic duct causes biliary colic. StatPearls' Biochemistry, Cholecystokinin page agrees that CCK is made by I cells in the intestinal mucosa, that fatty acids and proteins stimulate its release by acting directly on I cells, and that it causes the gallbladder to contract in response to food. StatPearls adds that CCK controls the release of pancreatic digestive enzymes and can slow stomach emptying by relaxing the upper stomach.",
+      "whyWrong": {
+        "b": "S cells release secretin, which mainly raises bicarbonate and water secretion from the pancreas and bile ducts (your Osmosis physiology notes, p. 306).",
+        "c": "G cells in the antrum release gastrin, which raises stomach acid; it does not drive gallbladder contraction (standard teaching).",
+        "d": "K cells release GIP (glucose-dependent insulinotropic peptide), which raises insulin release (your Osmosis physiology notes, p. 306, and standard teaching).",
+        "e": "D cells release somatostatin, which inhibits the release of secretin and other gut hormones, so it would not cause this squeezing (your Osmosis physiology notes, p. 306, and standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Gastrointestinal hormones, p. 306"
+        },
+        {
+          "title": "StatPearls: Biochemistry, Cholecystokinin",
+          "url": "https://www.statpearls.com/point-of-care/19452"
+        }
+      ]
+    },
+    {
+      "id": "phys-starling-forces-nephrotic-edema-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Renal & Urinary",
+      "topic": "Starling forces: edema from low oncotic pressure",
+      "difficulty": 2,
+      "stem": "A 5-year-old boy is brought to the physician because his eyelids have been puffy every morning for 1 week and his legs are now swollen. His blood pressure is normal. Urinalysis shows 4+ protein and no blood. His serum albumin concentration is 1.6 g/dL (normal 3.5-5.5). Pressing on his shins leaves deep dents.",
+      "leadIn": "A change in which of the following capillary forces is most likely causing his swelling?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Decreased plasma oncotic pressure"
+        },
+        {
+          "id": "b",
+          "text": "Increased capillary hydrostatic pressure"
+        },
+        {
+          "id": "c",
+          "text": "Increased capillary wall permeability"
+        },
+        {
+          "id": "d",
+          "text": "Blocked lymphatic drainage of the legs"
+        },
+        {
+          "id": "e",
+          "text": "Decreased interstitial fluid pressure"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: decreased plasma oncotic pressure. Why: your Osmosis physiology notes (pp. 155-156) explain that fluid movement across capillaries depends on Starling forces. Capillary hydrostatic pressure pushes fluid out, and plasma oncotic pressure, made mainly by albumin, pulls fluid back in. At the arterial end the outward push wins, and at the venous end the inward pull wins. Lymphatics return what is left. Edema happens when these forces are out of balance: higher capillary pressure (heart failure, a blocked vein), lower plasma protein (liver failure, malnutrition, nephrotic syndrome), leaky capillaries (burns, inflammation), or poor lymph drainage. Losing albumin in the urine lowers the pull that keeps fluid in the vessels. MSD's Edema page agrees, listing decreased plasma oncotic pressure among the mechanisms of edema, with examples such as nephrotic syndrome, protein-losing enteropathy, liver failure, and starvation.",
+      "whyWrong": {
+        "b": "High capillary hydrostatic pressure causes edema in heart failure or venous blockage; his blood pressure is normal and his albumin is very low (your Osmosis physiology notes, p. 156).",
+        "c": "Leaky capillaries cause edema in burns and inflammation; there is no sign of those here (your Osmosis physiology notes, p. 156).",
+        "d": "Blocked lymph drainage (for example, from filariasis or lymph node removal) causes swelling of one area, not puffy eyelids with heavy proteinuria (your Osmosis physiology notes, p. 156).",
+        "e": "Interstitial fluid pressure is near zero normally and rises, rather than falls, as fluid builds up; a fall would not cause edema (your Osmosis physiology notes, p. 155, and standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Microcirculation and Starling forces, pp. 155-156"
+        },
+        {
+          "title": "MSD Manual Professional: Edema",
+          "url": "https://www.msdmanuals.com/professional/cardiovascular-disorders/symptoms-of-cardiovascular-disorders/edema"
+        }
+      ]
+    },
+    {
+      "id": "phys-sa-node-action-potential-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Cardiovascular",
+      "topic": "Pacemaker (SA node) action potential",
+      "difficulty": 2,
+      "stem": "A researcher records action potentials from cells taken from the wall of the right atrium near the opening of the superior vena cava. The cells fire about 75 times per minute without any stimulus. Between beats the membrane slowly depolarizes. The upstroke is slow and is followed directly by repolarization, with no plateau. Adding tetrodotoxin, which blocks fast sodium channels, does not change the upstroke.",
+      "leadIn": "Which of the following currents is most responsible for the upstroke in these cells?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Inward Ca2+ through L-type channels"
+        },
+        {
+          "id": "b",
+          "text": "Inward Na+ through fast Na+ channels"
+        },
+        {
+          "id": "c",
+          "text": "Inward Na+ through funny channels"
+        },
+        {
+          "id": "d",
+          "text": "Outward K+ through delayed rectifiers"
+        },
+        {
+          "id": "e",
+          "text": "Outward Cl- through chloride channels"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: inward calcium through L-type channels. Why: your Osmosis physiology notes (p. 121) explain that pacemaker cells set off their own action potentials (automaticity). The SA node lies in the wall of the right atrium and fires at 60 to 100 per minute, the AV node at 40 to 60, and the His bundle and Purkinje fibers at 20 to 40. In phase 4, sodium enters through 'funny' channels that open when the cell is hyperpolarized, slowly depolarizing it to threshold. Phase 0, the upstroke, is a strong inward calcium current, and phase 3 is potassium leaving the cell. Phases 1 and 2 are missing, so there is no plateau. Klabunde's CV Physiology page on sinoatrial node action potentials agrees that phase 0 depolarization is primarily caused by increased calcium conductance through L-type calcium channels, and that the phase 0 slope is much slower than in other heart cells. It adds that there are no fast sodium channels and currents operating in SA nodal cells.",
+      "whyWrong": {
+        "b": "Fast sodium channels make the rapid upstroke of atrial and ventricular muscle cells; tetrodotoxin had no effect here (standard teaching).",
+        "c": "The funny sodium current drives the slow depolarization of phase 4, not the upstroke (your Osmosis physiology notes, p. 121).",
+        "d": "Outward potassium current causes phase 3 repolarization (your Osmosis physiology notes, p. 121).",
+        "e": "Chloride current plays no major part in the pacemaker action potential (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Action potentials in pacemaker cells, p. 121"
+        },
+        {
+          "title": "CV Physiology (Klabunde): Sinoatrial Node Action Potentials",
+          "url": "https://cvphysiology.com/arrhythmias/a004"
+        }
+      ]
+    },
+    {
+      "id": "phys-ejection-fraction-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Cardiovascular",
+      "topic": "Ejection fraction calculation",
+      "difficulty": 2,
+      "stem": "A 61-year-old man is evaluated 6 weeks after a large anterior myocardial infarction. He becomes short of breath after one flight of stairs. Echocardiography shows that the left ventricle holds 150 mL at the end of diastole and 90 mL at the end of systole.",
+      "leadIn": "Which of the following best describes this patient's left ventricular ejection fraction?",
+      "options": [
+        {
+          "id": "a",
+          "text": "40%, in the reduced range"
+        },
+        {
+          "id": "b",
+          "text": "60%, in the normal range"
+        },
+        {
+          "id": "c",
+          "text": "60%, in the reduced range"
+        },
+        {
+          "id": "d",
+          "text": "67%, in the normal range"
+        },
+        {
+          "id": "e",
+          "text": "40%, in the normal range"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: 40%, which is in the reduced range. Why: your Osmosis physiology notes (p. 120) define stroke volume as the end-diastolic volume minus the end-systolic volume, and ejection fraction as stroke volume divided by end-diastolic volume, with an average of 50% to 65%. Here, stroke volume is 150 - 90 = 60 mL, and ejection fraction is 60 / 150 = 40%. StatPearls' Heart Failure and Ejection Fraction page defines heart failure with reduced ejection fraction (HFrEF) as an LVEF of 40% or less and preserved ejection fraction as 50% or more, so a value of 40% with symptoms fits HFrEF.",
+      "whyWrong": {
+        "b": "60% comes from dividing the end-systolic volume by the end-diastolic volume (90/150); that fraction is what stays in the ventricle, not what is ejected (standard teaching).",
+        "c": "60% is the wrong number (it is the fraction left behind), and 60% would not be reduced (standard teaching).",
+        "d": "67% comes from dividing stroke volume by end-systolic volume (60/90); the denominator must be end-diastolic volume (standard teaching).",
+        "e": "40% is the right number, but it is below the average range of 50% to 65% (your Osmosis physiology notes, p. 120)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Stroke volume, ejection fraction, and cardiac output, p. 120"
+        },
+        {
+          "title": "StatPearls: Heart Failure and Ejection Fraction",
+          "url": "https://www.statpearls.com/point-of-care/20486"
+        }
+      ]
+    },
+    {
+      "id": "phys-2-3-bpg-oxygen-curve-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Respiratory",
+      "topic": "Oxygen-hemoglobin dissociation curve: 2,3-BPG at high altitude",
+      "difficulty": 2,
+      "stem": "A 27-year-old woman moves from sea level to a mountain town at 3,800 m (12,500 ft). Three weeks later, a blood sample shows that the concentration of 2,3-bisphosphoglycerate (2,3-BPG) in her red blood cells has risen.",
+      "leadIn": "Which of the following best describes the effect of this change?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Right shift with more O2 released to tissues"
+        },
+        {
+          "id": "b",
+          "text": "Left shift with more O2 released to tissues"
+        },
+        {
+          "id": "c",
+          "text": "Right shift with tighter O2 binding in tissues"
+        },
+        {
+          "id": "d",
+          "text": "Left shift with tighter O2 binding in tissues"
+        },
+        {
+          "id": "e",
+          "text": "No shift but a higher maximum O2 saturation"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the curve shifts right, so hemoglobin releases more oxygen to the tissues. Why: your Osmosis physiology notes (pp. 612-614) explain that the curve is S-shaped because each oxygen that binds makes the next bind more easily. P50, the oxygen pressure at which hemoglobin is 50% saturated, measures its affinity. A right shift raises P50 and lowers affinity, so oxygen is unloaded more easily, while a left shift does the opposite. 2,3-BPG (called 2,3-DPG in your notes), a byproduct of glycolysis, binds the beta chains of deoxyhemoglobin and lowers its oxygen affinity. Its production rises when oxygen is low, for example when living at high altitude, so more oxygen is delivered to tissues. Higher CO2, lower pH (the Bohr effect), and higher temperature also shift the curve right. Fetal hemoglobin, which binds 2,3-BPG poorly, and carbon monoxide shift it left. MSD's oxyhemoglobin dissociation curve figure agrees that increased red blood cell 2,3-DPG, H+, temperature, and PCO2 shift the curve right with decreased affinity for oxygen, and that decreases in these shift it left with increased affinity.",
+      "whyWrong": {
+        "b": "A left shift raises affinity and makes oxygen harder to unload (your Osmosis physiology notes, p. 614).",
+        "c": "A right shift lowers affinity, so oxygen is held less tightly in the tissues, not more (your Osmosis physiology notes, p. 613).",
+        "d": "A left shift is caused by lower 2,3-BPG, higher pH, lower temperature, fetal hemoglobin, or carbon monoxide, not by a rise in 2,3-BPG (your Osmosis physiology notes, p. 614).",
+        "e": "2,3-BPG changes affinity and shifts the curve; it does not raise the maximum saturation (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Oxygen-hemoglobin dissociation curve, pp. 612-614"
+        },
+        {
+          "title": "MSD Manual Professional: Oxyhemoglobin Dissociation Curve (figure)",
+          "url": "https://www.msdmanuals.com/professional/multimedia/image/oxyhemoglobin-dissociation-curve"
+        }
+      ]
     }
   ]
 }
