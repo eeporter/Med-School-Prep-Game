@@ -3476,17 +3476,17 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: intravitreal anti-VEGF therapy. Why: drusen are the hallmark of age-related macular degeneration (AMD). Fluid and hemorrhage from new choroidal vessels, with distortion (metamorphopsia), mean exudative (wet) AMD, the major cause of severe vision loss from AMD. Ranibizumab, bevacizumab, and aflibercept, which block vascular endothelial growth factor (VEGF), are the drugs most often used. Faricimab, approved in 2022, blocks both VEGF and angiopoietin-2. Dry AMD makes up 85% to 90% of cases. Recent change: her eye notes say anti-VEGF drugs treat wet AMD but not dry AMD, which is still true. In 2023, the FDA approved the first treatments for geographic atrophy, the advanced form of dry AMD: pegcetacoplan (a C3 inhibitor) and avacincaptad pegol (a C5 inhibitor), both given by intravitreal injection. Her notes also list pegaptanib, which was the first anti-VEGF drug approved for AMD, in 2004.",
+      "explanation": "Answer: intravitreal anti-VEGF therapy. Why: drusen are a hallmark of age-related macular degeneration (AMD). New vessels under the retina (choroidal neovascularization) with subretinal fluid and hemorrhage, plus curving of straight lines (metamorphopsia), mean wet (exudative) AMD. About 85% of people with AMD have only dry AMD, but wet AMD causes 80% to 90% of severe vision loss from AMD, and vision can drop over days to weeks. Treatment is intravitreal injections of drugs that block vascular endothelial growth factor (VEGF), usually ranibizumab, bevacizumab, or aflibercept. Faricimab binds both VEGF-A and angiopoietin-2, and brolucizumab is also available. Recent change: her eye notes say anti-VEGF drugs treat wet AMD but not dry AMD, which is still true. In 2023 the FDA approved the first treatments for geographic atrophy, the advanced form of dry AMD: pegcetacoplan (a C3 inhibitor) and avacincaptad pegol (a C5 inhibitor). Both are complement inhibitors given by intravitreal injection. Her notes also list pegaptanib, which current MSD guidance does not include among the usual drugs.",
       "whyWrong": {
-        "b": "Complement inhibitors are approved for geographic atrophy, the advanced form of dry AMD, not for wet AMD with new vessels.",
-        "c": "AREDS supplements reduce the risk of AMD progression, but they do not treat active new vessels.",
+        "b": "Complement inhibitors are used for advanced dry AMD (geographic atrophy), not for wet AMD with new vessels.",
+        "c": "Daily AREDS-type supplements reduce the risk of developing advanced AMD by about 25%, but they do not treat active new vessels.",
         "d": "Latanoprost is a glaucoma drug that lowers eye pressure; it does not treat macular new vessels.",
-        "e": "Wet AMD is the major cause of severe vision loss from AMD, so it should be treated now."
+        "e": "Wet AMD causes most severe vision loss from AMD, and vision can drop over days to weeks, so it should be treated now."
       },
       "sources": [
         {
-          "title": "EyeWiki (American Academy of Ophthalmology): Age-Related Macular Degeneration",
-          "url": "https://eyewiki.org/Age-Related_Macular_Degeneration"
+          "title": "MSD Manual Professional: Age-Related Macular Degeneration (reviewed Jun 2026)",
+          "url": "https://www.msdmanuals.com/professional/eye-disorders/retinal-disorders/age-related-macular-degeneration-amd-or-armd"
         },
         {
           "title": "AHDB: FDA approval of Syfovre (pegcetacoplan) and Izervay (avacincaptad pegol) for geographic atrophy",
@@ -3521,7 +3521,7 @@
         },
         {
           "id": "d",
-          "text": "A sulfonamide reaction made the lens swell"
+          "text": "Increased aqueous drainage through the trabecular meshwork"
         },
         {
           "id": "e",
@@ -3529,17 +3529,21 @@
         }
       ],
       "answer": "b",
-      "explanation": "Answer: muscarinic blockade causing pupillary block. Why: this is acute angle-closure glaucoma. Drugs with parasympatholytic (anticholinergic) or sympathomimetic effects can trigger it in eyes with narrow angles. Ipratropium is an anticholinergic that causes mydriasis and can precipitate angle closure. In a mid-dilated pupil, the pupil margin presses against the lens all the way around (pupillary block). Aqueous builds up behind the iris and bows it forward, closing the drainage angle, and eye pressure rises. Typical symptoms are a red, painful eye, headache, nausea and vomiting, blurred vision, and colored halos. Other anticholinergic triggers include dilating eye drops and tricyclic antidepressants.",
+      "explanation": "Answer: muscarinic blockade causing pupillary block. Why: this is acute angle-closure glaucoma. Ipratropium is an anticholinergic (parasympatholytic) drug that blocks acetylcholine at muscarinic receptors. Its label warns that if the nebulized solution reaches the eyes, it can cause pupil dilation (mydriasis), eye pain, blurred vision, and can precipitate or worsen narrow-angle glaucoma. In an eye with a narrow angle, a dilating pupil increases contact between the iris and the lens, which blocks aqueous flow through the pupil (pupillary block). Aqueous keeps being made behind the iris and pushes the peripheral iris forward (iris bombe), closing the angle, so eye pressure rises within hours, often above 40 mm Hg. Typical findings are severe eye pain and redness, decreased vision, colored halos, headache, nausea and vomiting, a hazy cornea, and a fixed mid-dilated pupil. Other triggers include dilating drops (cyclopentolate, phenylephrine), scopolamine, and other drugs with anticholinergic effects. Treatment is an emergency: drops such as pilocarpine, timolol, and brimonidine, plus acetazolamide, then laser peripheral iridotomy.",
       "whyWrong": {
         "a": "Ipratropium is an anticholinergic, not a beta-2 agonist.",
-        "c": "Ciliary muscle contraction is a cholinergic effect, the opposite of what an anticholinergic such as ipratropium does.",
-        "d": "Sulfa drugs such as topiramate can cause angle closure through lens swelling and choroidal effusion, but ipratropium is not a sulfa drug.",
+        "c": "Ciliary muscle contraction is a cholinergic effect, the opposite of what ipratropium does; the cholinergic miotic pilocarpine is part of the treatment.",
+        "d": "More drainage would lower eye pressure. Here the angle is closed and pressure is high.",
         "e": "Ipratropium does not act on alpha receptors, and relaxing the dilator would make the pupil smaller, not larger."
       },
       "sources": [
         {
-          "title": "EyeWiki (American Academy of Ophthalmology): Drug-induced Acute Angle Closure Glaucoma",
-          "url": "https://eyewiki.org/Drug-induced_Acute_Angle_Closure_Glaucoma"
+          "title": "MSD Manual Professional: Angle-Closure Glaucoma (reviewed Mar 2025)",
+          "url": "https://www.msdmanuals.com/professional/eye-disorders/glaucoma/angle-closure-glaucoma"
+        },
+        {
+          "title": "Ipratropium Bromide Inhalation Solution 0.02%: FDA label (DrugCentral)",
+          "url": "https://drugcentral.org/label/f625d3e3-c175-4d9a-99ea-dab410b262f1/view"
         }
       ]
     },
@@ -3562,7 +3566,7 @@
         },
         {
           "id": "b",
-          "text": "The fovea has no nerve fiber layer to swell and turn pale"
+          "text": "The thin fovea lets the perfused choroid show through"
         },
         {
           "id": "c",
@@ -3578,21 +3582,21 @@
         }
       ],
       "answer": "b",
-      "explanation": "Answer: the fovea has no overlying nerve fiber layer. Why: this is a central retinal artery occlusion (CRAO), which causes sudden, painless vision loss over seconds. Ischemia makes the nerve fiber layer swell and turn opaque, so the retina looks white. The fovea has no nerve fiber layer over it, so it stays red: the cherry-red spot. Blood flow in the retinal vessels may look segmented ('boxcarring'). In older patients the usual causes are atherosclerosis and emboli, so the workup includes echocardiography and carotid ultrasound. Sudden vision loss in anyone over 50 should also raise suspicion for giant cell arteritis. Note: her eye notes give the cherry-red spot. Current EyeWiki guidance adds that acute retinal artery occlusion is an emergency that needs urgent evaluation for stroke, with immediate referral to the nearest stroke center.",
+      "explanation": "Answer: the perfused choroid shows through the thin fovea. Why: this is a central retinal artery occlusion (CRAO), which causes sudden, painless loss of vision in one eye. Ischemia causes diffuse retinal edema, so the retina looks pale and opaque and the arteries look thin. The fovea is thin, so the normal, perfused choroid beneath it still shows through: the cherry-red spot. Carotid artery plaques are a common source of emboli, so the workup includes carotid Doppler ultrasound and echocardiography. Giant cell arteritis is an important cause; if it is suspected, ESR, CRP, and a platelet count are checked immediately. Note: her eye notes give the cherry-red spot. Current MSD guidance adds that the patient should be referred immediately to a specialized stroke center, because stroke risk is raised, especially in the first weeks.",
       "whyWrong": {
-        "a": "The red spot is normal fovea seen against pale, swollen retina, not bleeding.",
-        "c": "New vessels under the fovea are choroidal neovascularization (wet macular degeneration), which causes distortion and fluid, not sudden painless loss with retinal whitening.",
+        "a": "The red spot is the normal choroid seen through the fovea against pale, swollen retina, not bleeding.",
+        "c": "New vessels under the retina are choroidal neovascularization (wet macular degeneration), which causes distortion with fluid and bleeding, not sudden painless loss with a pale retina.",
         "d": "Optic disc swelling does not explain a pale retina with a red center.",
-        "e": "This is ischemia from a blocked artery. The retina around the fovea is pale because ischemic nerve fiber tissue swells, not because of stored lipid."
+        "e": "This is ischemia from a blocked artery. The retina is pale because of ischemic edema, not stored lipid."
       },
       "sources": [
         {
-          "title": "EyeWiki (American Academy of Ophthalmology): Retinal Artery Occlusion",
-          "url": "https://eyewiki.org/Retinal_Artery_Occlusion"
+          "title": "MSD Manual Professional: Central and Branch Retinal Artery Occlusion (reviewed Jun 2026)",
+          "url": "https://www.msdmanuals.com/professional/eye-disorders/retinal-disorders/central-retinal-artery-occlusion-and-branch-retinal-artery-occlusion"
         },
         {
-          "title": "EyeWiki (American Academy of Ophthalmology): Age-Related Macular Degeneration",
-          "url": "https://eyewiki.org/Age-Related_Macular_Degeneration"
+          "title": "MSD Manual Professional: Age-Related Macular Degeneration (reviewed Jun 2026)",
+          "url": "https://www.msdmanuals.com/professional/eye-disorders/retinal-disorders/age-related-macular-degeneration-amd-or-armd"
         }
       ]
     }
