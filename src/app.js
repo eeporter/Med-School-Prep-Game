@@ -440,6 +440,20 @@ function renderFeedback(q, presented, choice, correct, confidence, gained, note 
     src.appendChild(li);
   }
 
+  const more = $('fb-readmore');
+  more.replaceChildren();
+  for (const r of q.readMore || []) {
+    const li = el('li');
+    const a = el('a', r.title);
+    a.href = r.url;
+    a.target = '_blank';
+    a.rel = 'noopener noreferrer';
+    li.appendChild(a);
+    more.appendChild(li);
+  }
+  more.hidden = more.children.length === 0;
+  $('fb-readmore-head').hidden = more.hidden;
+
   for (const label of $('q-options').querySelectorAll('label')) {
     const id = label.querySelector('input').value;
     if (id === q.answer) label.classList.add('key');
