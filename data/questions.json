@@ -27190,7 +27190,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: hepatic stellate (Ito) cells. Why: your Osmosis GI notes (p. 104) explain that in cirrhosis, damage to the liver activates stellate cells, which sit between the sinusoids and the hepatocytes in the perisinusoidal space. They release TGF-beta 1, which turns them into myofibroblasts that lay down scar, and they release TIMP 1 and 2, which block the enzymes that would break the scar down. Bands of fibrous tissue then cut the liver into regenerating nodules. your Osmosis physiology notes (p. 334) add that stellate (Ito) cells are scattered among the hepatocytes, are the main storage site for vitamin A, control the turnover of the liver's extracellular matrix, and are responsible for cirrhosis. StatPearls (Physiology, Liver) agrees that Ito cells sit in the space of Disse and store fat such as vitamin A, and that the fibrosis in cirrhosis comes from TGF-beta released by Ito cells. The MSD Manual (Hepatic Fibrosis) adds that activation of these fat-storing Ito cells starts fibrosis, and that they become contractile myofibroblasts that make too much collagen and other matrix.",
+      "explanation": "Answer: hepatic stellate (Ito) cells. Why: your Osmosis GI notes (p. 104) explain that in cirrhosis, damage to the liver activates stellate cells, which sit between the sinusoids and the hepatocytes in the perisinusoidal space. They release TGF-beta 1, which turns them into myofibroblasts that lay down scar, and they release TIMP 1 and 2, which block the enzymes that would break the scar down. Bands of fibrous tissue then cut the liver into regenerating nodules. Your Osmosis physiology notes (p. 334) add that stellate (Ito) cells are scattered among the hepatocytes, are the main storage site for vitamin A, control the turnover of the liver's extracellular matrix, and are responsible for cirrhosis. StatPearls (Physiology, Liver) agrees that Ito cells sit in the space of Disse and store fat such as vitamin A, and that the fibrosis in cirrhosis comes from TGF-beta released by Ito cells. The MSD Manual (Hepatic Fibrosis) adds that activation of these fat-storing Ito cells starts fibrosis, and that they become contractile myofibroblasts that make too much collagen and other matrix.",
       "whyWrong": {
         "b": "Kupffer cells are the liver's own macrophages and line the sinusoids (your Osmosis physiology notes, p. 334); they protect against gut germs and release inflammatory signals, but stellate cells make the collagen (your Osmosis physiology notes, p. 334).",
         "c": "Injured hepatocytes form regenerative nodules between the fibrous bands (your Osmosis GI notes, p. 104); they are not the cells that make the scar.",
@@ -27872,23 +27872,23 @@
       "options": [
         {
           "id": "a",
-          "text": "About 20%"
+          "text": "20%"
         },
         {
           "id": "b",
-          "text": "About 82%"
+          "text": "82%"
         },
         {
           "id": "c",
-          "text": "About 90%"
+          "text": "90%"
         },
         {
           "id": "d",
-          "text": "About 95%"
+          "text": "95%"
         },
         {
           "id": "e",
-          "text": "About 97%"
+          "text": "97%"
         }
       ],
       "answer": "e",
