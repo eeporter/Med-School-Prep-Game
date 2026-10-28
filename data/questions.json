@@ -9812,7 +9812,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: endometrial carcinoma. Why: irregular periods from infrequent ovulation, signs of excess androgen (acne, hirsutism), and polycystic ovaries meet the Rotterdam criteria for polycystic ovary syndrome, which need any 2 of these 3. Insulin resistance with high insulin levels is central, and high insulin may increase ovarian androgen production. The dark, velvety skin is acanthosis nigricans, caused by high insulin. Because she ovulates rarely, her estrogen is not regularly opposed by progesterone, which raises the risk of endometrial hyperplasia and cancer. Estrogen-progestin contraceptives are often first-line to regulate periods and protect the endometrium. Metformin can improve insulin sensitivity, and clomiphene or letrozole can induce ovulation when she wants to conceive. Recent change: in 2026 the condition was renamed polyendocrine metabolic ovarian syndrome (PMOS), and MSD Manual now uses that name. Both names may appear.",
+      "explanation": "Answer: endometrial carcinoma. Why: irregular periods from infrequent ovulation, signs of excess androgen (acne, hirsutism), and polycystic ovaries meet the Rotterdam criteria for polycystic ovary syndrome, which need any 2 of these 3. Insulin resistance with high insulin levels is central, and high insulin may increase ovarian androgen production. The dark, velvety skin is acanthosis nigricans, caused by high insulin. Because she ovulates rarely, her estrogen is not regularly opposed by progesterone, which raises the risk of endometrial hyperplasia and cancer. Estrogen-progestin contraceptives are often first-line to regulate periods and protect the endometrium. Metformin can improve insulin sensitivity, and clomiphene or letrozole can induce ovulation when she wants to conceive. Recent change: in May 2026 a global consensus published in The Lancet renamed the condition polyendocrine metabolic ovarian syndrome (PMOS), with a 3-year transition, and MSD Manual now uses that name. Both names may appear.",
       "whyWrong": {
         "b": "Cervical squamous cell carcinoma is linked to HPV infection, smoking, and immune deficiency, not to polycystic ovary syndrome.",
         "c": "Women with polycystic ovary syndrome are not estrogen deficient. Their estrogen is unopposed by progesterone.",
@@ -9821,12 +9821,16 @@
       },
       "sources": [
         {
-          "title": "MSD Manual Professional: Polycystic Ovary Syndrome (PCOS)",
-          "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/menstrual-abnormalities/polycystic-ovary-syndrome-pcos"
+          "title": "MSD Manual Professional: Polyendocrine Metabolic Ovarian Syndrome (PMOS)",
+          "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/abnormal-uterine-bleeding/polyendocrine-metabolic-ovarian-syndrome-pmos"
         },
         {
           "title": "MSD Manual Professional: Cervical Cancer",
           "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/gynecologic-tumors/cervical-cancer"
+        },
+        {
+          "title": "Contemporary OB/GYN (12 May 2026): Global consensus renames PCOS to polyendocrine metabolic ovarian syndrome (PMOS)",
+          "url": "https://contemporaryobgyn.net/view/global-consensus-renames-pcos-to-polyendocrine-metabolic-ovarian-syndrome-pmos-"
         }
       ]
     },
@@ -10350,7 +10354,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: an immune cross-reaction after group A streptococcal throat infection (rheumatic heart disease). Why: acute rheumatic fever follows group A streptococcal pharyngitis by about 2 to 3 weeks, most often in children aged 5 to 15. Skin infections do not cause it. Antigens of rheumatogenic strains, including M proteins, share features with proteins in joints, heart muscle, and heart valves, so the immune response attacks them too (molecular mimicry). Migratory polyarthritis and carditis are major Jones criteria. Granulomatous collections called Aschoff bodies are typical. Years later, chronic rheumatic heart disease most often involves the mitral and aortic valves, and mitral stenosis is its most common lasting result. Monthly injections of penicillin G benzathine prevent recurrences.",
+      "explanation": "Answer: an immune cross-reaction after group A streptococcal throat infection (rheumatic heart disease). Why: acute rheumatic fever follows group A streptococcal pharyngitis by about 2 to 3 weeks, most often in children aged 5 to 15. Skin infections do not cause it. Antigens of rheumatogenic strains, including M proteins, share features with proteins in joints, heart muscle, and heart valves, so the immune response attacks them too (molecular mimicry). Migratory polyarthritis and carditis are major Jones criteria. Granulomatous collections called Aschoff bodies are typical. Years later, chronic rheumatic heart disease most often involves the mitral and aortic valves, and mitral stenosis is its most common lasting result. Injections of penicillin G benzathine every 3 to 4 weeks prevent recurrences. Your Osmosis notes (PDF pp. 95 to 97) also cover molecular mimicry, Aschoff bodies, and long-term penicillin prophylaxis.",
       "whyWrong": {
         "b": "Direct infection of a valve is infective endocarditis, which causes fever and vegetations, not a slowly narrowing valve after childhood rheumatic fever.",
         "c": "Calcific valve disease is a disease of older adults and usually affects the aortic valve. Her childhood illness points to rheumatic disease.",
@@ -10383,7 +10387,7 @@
       "topic": "Infective endocarditis: right-sided",
       "difficulty": 2,
       "stem": "A 29-year-old man who injects heroin comes to the emergency department because of fever, chills, and cough for 5 days. He has had sharp chest pain when he breathes in and coughed up streaks of blood. His temperature is 39.4°C. There are needle tracks on both arms. A holosystolic murmur is heard at the lower left sternal border. A chest CT scan shows several round lesions in both lungs, some with cavities. Two of 3 blood culture sets grow gram-positive cocci in clusters.",
-      "leadIn": "Which heart valve is most likely infected?",
+      "leadIn": "Where is the infection most likely located?",
       "options": [
         {
           "id": "a",
@@ -10403,16 +10407,16 @@
         },
         {
           "id": "e",
-          "text": "Bicuspid aortic valve"
+          "text": "Ventricular septal defect"
         }
       ],
       "answer": "a",
-      "explanation": "Answer: the tricuspid valve (right-sided infective endocarditis). Why: people who inject drugs have a much higher rate of right-sided endocarditis, which makes up about 5 to 10% of all cases. A vegetation on the tricuspid valve causes a tricuspid regurgitation murmur and sheds infected clots into the lungs (septic pulmonary emboli), which cause cough, pleuritic chest pain, and coughing up blood. Streptococci and Staphylococcus aureus cause 80 to 90% of endocarditis cases, and gram-positive cocci in clusters point to staphylococci. At least 2, ideally 3, sets of blood cultures are drawn before antibiotics. Transthoracic echocardiography is done first. Acute endocarditis develops over days, while subacute endocarditis develops over weeks to months.",
+      "explanation": "Answer: the tricuspid valve (right-sided infective endocarditis). Why: people who inject drugs have a much higher rate of right-sided endocarditis, which makes up about 5 to 10% of all cases. Your Osmosis notes (PDF p. 90) list IV drug use as a risk, especially for the tricuspid valve. A vegetation on the tricuspid valve causes a tricuspid regurgitation murmur and sheds infected clots into the lungs (septic pulmonary emboli), which cause cough, pleuritic chest pain, and coughing up blood. Streptococci and Staphylococcus aureus cause 80 to 90% of endocarditis cases, and gram-positive cocci in clusters point to staphylococci. At least 2, ideally 3, sets of blood cultures are drawn before antibiotics. Transthoracic echocardiography is done first. Acute endocarditis develops over days, while subacute endocarditis develops over weeks to months.",
       "whyWrong": {
         "b": "Mitral valve endocarditis sends emboli to the body, such as the brain, kidneys, or skin, not to the lungs.",
         "c": "Aortic valve endocarditis also sends emboli to the body rather than the lungs, and it causes a diastolic murmur when the valve leaks.",
         "d": "The pulmonic valve can be infected, but right-sided infection in people who inject drugs usually involves the tricuspid valve.",
-        "e": "A bicuspid aortic valve is a risk for left-sided endocarditis, which would not cause septic lung emboli."
+        "e": "An infected ventricular septal defect can also cause a holosystolic murmur at the lower left sternal border, but MSD Manual says such sites are infected only occasionally, and he has no known defect."
       },
       "sources": [
         {
@@ -10456,12 +10460,12 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: cystic medial degeneration (also called cystic medial necrosis), in a man with features of Marfan syndrome. Why: sudden tearing chest pain that travels to the back, a blood pressure difference between the arms, and a widened mediastinum point to aortic dissection. An intimal tear lets blood flow into the media, creating a false channel. Hypertension contributes in more than two-thirds of patients, but in a young man with tall stature, long limbs, and lens dislocation, the weak medial layer of Marfan syndrome is the likely cause. Bicuspid aortic valve and Ehlers-Danlos syndrome are other predisposing conditions. CT angiography is usually the first imaging test. A beta-blocker is the first drug, to lower heart rate and blood pressure. A dissection of the ascending aorta (Stanford type A) almost always needs surgery, while an uncomplicated descending (type B) dissection can often be treated with medicine alone.",
+      "explanation": "Answer: cystic medial degeneration (also called cystic medial necrosis), in a man with features of Marfan syndrome. Why: sudden tearing chest pain that travels to the back, a blood pressure difference between the arms, and a widened mediastinum point to aortic dissection. An intimal tear lets blood flow into the media, creating a false channel. Hypertension contributes in more than two-thirds of patients, but in a young man with tall stature, long limbs, and lens dislocation, the weak medial layer of Marfan syndrome is the likely cause. Bicuspid aortic valve and Ehlers-Danlos syndrome are other predisposing conditions. CT angiography is usually the first imaging test. A beta-blocker is the first drug, to lower heart rate and blood pressure. A dissection of the ascending aorta (Stanford type A) almost always needs surgery, while an uncomplicated descending (type B) dissection can often be treated with medicine alone. Your Osmosis notes (PDF pp. 18 and 22) cover aortic dissection, including cystic medial necrosis.",
       "whyWrong": {
         "b": "Atherosclerosis and hypertension are the usual setting for dissection in older adults, not in a 26-year-old with Marfan features.",
         "c": "Granulomatous inflammation of the aorta occurs in large-vessel vasculitis such as giant cell arteritis, which affects people over 50.",
         "d": "Hyaline arteriolosclerosis affects small arteries and arterioles in diabetes and hypertension, not the aortic media.",
-        "e": "Medial calcific sclerosis (Mönckeberg) makes medium arteries rigid without narrowing them. It does not cause aortic dissection."
+        "e": "Medial calcific sclerosis (Mönckeberg) makes medium arteries rigid without narrowing them (standard teaching). It does not cause aortic dissection."
       },
       "sources": [
         {
@@ -10513,7 +10517,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: cigarette smoking. Why: an abdominal aortic diameter of 3 cm or more is an abdominal aortic aneurysm, and most begin below the renal arteries. MSD Manual lists smoking as the strongest risk factor. Male sex, older age (peak at 70 to 80 years), and a family history (in 15 to 25%) also add risk, and atherosclerosis often weakens the wall. Screening men over 65 who have ever smoked with abdominal ultrasound lowers death from these aneurysms. Elective repair is recommended for aneurysms over 5.5 cm in men and over 5 cm in women. Rupture causes abdominal or back pain, low blood pressure, and a fast pulse.",
+      "explanation": "Answer: cigarette smoking. Why: an abdominal aortic diameter of 3 cm or more is an abdominal aortic aneurysm, and most begin below the renal arteries. MSD Manual lists smoking as the strongest risk factor. Male sex, older age (peak at 70 to 80 years), and a family history (in 15 to 25%) also add risk, and atherosclerosis often weakens the wall. Screening men over 65 who have ever smoked with abdominal ultrasound lowers death from these aneurysms. Elective repair is recommended for aneurysms over 5.5 cm in men and over 5 cm in women. Rupture causes abdominal or back pain, low blood pressure, and a fast pulse. Your Osmosis notes (PDF pp. 18 to 19) also list smoking, high blood pressure, and family history as risks.",
       "whyWrong": {
         "b": "A family history is a real risk factor, found in 15 to 25% of patients, but smoking is the strongest.",
         "c": "Risk rises with age, but MSD Manual names smoking as the strongest risk factor.",
@@ -10680,7 +10684,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: an NSAID (or aspirin) plus colchicine. Why: sharp chest pain that eases when sitting up and leaning forward, a friction rub, and diffuse ST elevation with PR depression after a viral illness is acute pericarditis. In North America and Western Europe, infectious pericarditis is most often viral or idiopathic. Unlike myocardial infarction, pericarditis does not cause reciprocal ST depression, except in aVR and V1. First-line treatment is aspirin or an NSAID, usually with colchicine. Colchicine for 3 months significantly lowers the chance that pericarditis comes back. Your Osmosis notes also pair an NSAID with colchicine.",
+      "explanation": "Answer: an NSAID (or aspirin) plus colchicine. Why: sharp chest pain that eases when sitting up and leaning forward, a friction rub, and diffuse ST elevation with PR depression after a viral illness is acute pericarditis. In North America and Western Europe, infectious pericarditis is most often viral or idiopathic. Unlike myocardial infarction, pericarditis does not cause reciprocal ST depression, except in aVR and V1. First-line treatment is aspirin or an NSAID, usually with colchicine. Colchicine for 3 months significantly lowers the chance that pericarditis comes back. Your Osmosis notes (PDF p. 102) also pair an NSAID with colchicine.",
       "whyWrong": {
         "b": "Coronary angiography is for myocardial infarction. Diffuse ST elevation without reciprocal changes, PR depression, and a normal troponin point to pericarditis.",
         "c": "Heparin is not a treatment for pericarditis and could cause bleeding into the pericardium.",
@@ -10729,7 +10733,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: impaired diastolic filling of the heart (cardiac tamponade). Why: fluid in the pericardial sac under pressure squeezes the heart so it cannot fill. Less filling means a smaller stroke volume and low blood pressure. Low blood pressure, distended neck veins, and muffled heart sounds form Beck's triad, though MSD Manual notes that the triad is not reliable on its own. A drop in systolic blood pressure of more than 10 mm Hg during inspiration is pulsus paradoxus. Low voltage and electrical alternans on the ECG suggest tamponade but are neither sensitive nor specific. Echocardiography shows the effusion with collapse of the right heart chambers, but tamponade is mainly a clinical diagnosis. Pericardiocentesis removes the fluid. Cancer is one of the causes of pericardial effusion.",
+      "explanation": "Answer: impaired diastolic filling of the heart (cardiac tamponade). Why: fluid in the pericardial sac under pressure squeezes the heart so it cannot fill. Less filling means a smaller stroke volume and low blood pressure. Low blood pressure, distended neck veins, and muffled heart sounds form Beck's triad, though MSD Manual notes that the triad is not reliable on its own. A drop in systolic blood pressure of more than 10 mm Hg during inspiration is pulsus paradoxus. Low voltage and electrical alternans on the ECG suggest tamponade but are neither sensitive nor specific. Echocardiography shows the effusion with collapse of the right heart chambers, but tamponade is mainly a clinical diagnosis. Pericardiocentesis removes the fluid. Cancer is one of the causes of pericardial effusion. Your Osmosis notes cover pericardial disease and Beck's triad on PDF pp. 103 to 107.",
       "whyWrong": {
         "b": "Loss of heart muscle after a large myocardial infarction causes cardiogenic shock with wet lungs, not pulsus paradoxus with electrical alternans.",
         "c": "Outflow obstruction, as in hypertrophic cardiomyopathy or aortic stenosis, causes a loud systolic murmur, not faint heart sounds.",
@@ -10782,7 +10786,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: start glucocorticoids now (giant cell arteritis). Why: a new headache after age 50 with scalp tenderness, jaw claudication, a tender temporal artery, and very high inflammatory markers is giant cell arteritis. The average age at onset is about 70, and 40 to 60% of patients also have polymyalgia rheumatica (morning stiffness of the shoulders and hips). Vision loss from arteritis of the ophthalmic artery branches is the feared complication, and jaw claudication raises that risk. Treatment should not be delayed to do the biopsy. A temporal artery biopsy can still be useful up to 2 weeks after glucocorticoids start. It shows granulomas of T cells and macrophages, sometimes with giant cells near the elastic lamina, in segments that alternate with normal artery. Recent change: tocilizumab, an IL-6 receptor blocker, should be considered when glucocorticoids are started so they can be tapered faster.",
+      "explanation": "Answer: start glucocorticoids now (giant cell arteritis). Why: a new headache after age 50 with scalp tenderness, jaw claudication, a tender temporal artery, and very high inflammatory markers is giant cell arteritis. The average age at onset is about 70, and 40 to 60% of patients also have polymyalgia rheumatica (morning stiffness of the shoulders and hips). Vision loss from arteritis of the ophthalmic artery branches is the feared complication, and jaw claudication raises that risk. Treatment should not be delayed to do the biopsy. A temporal artery biopsy can still be useful up to 2 weeks after glucocorticoids start. It shows granulomas of T cells and macrophages, sometimes with giant cells near the elastic lamina, in segments that alternate with normal artery. Recent change: tocilizumab, an IL-6 receptor blocker, should be considered when glucocorticoids are started so they can be tapered faster. Your Osmosis notes (PDF p. 171) also describe the temporal artery biopsy findings.",
       "whyWrong": {
         "b": "Waiting for the biopsy delays treatment and risks blindness. The biopsy stays useful for up to 2 weeks after glucocorticoids start.",
         "c": "Brain imaging does not show giant cell arteritis, and it would delay treatment.",
@@ -10937,7 +10941,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: right-to-left flow across a ventricular septal defect (tetralogy of Fallot). Why: tetralogy of Fallot combines a large, malaligned VSD, an overriding aorta, obstruction below the pulmonary valve, and right ventricular hypertrophy. The more severe the right ventricular outflow obstruction, the more blood shunts from the right ventricle into the aorta, bypassing the lungs. During \"tet spells,\" right-to-left flow increases and oxygen saturation falls. Knee-chest positioning raises systemic vascular resistance, which pushes more blood through the lungs. The chest x-ray shows a boot-shaped heart. About 20 to 25% of cases have a genetic syndrome, including 22q11.2 deletion.",
+      "explanation": "Answer: right-to-left flow across a ventricular septal defect (tetralogy of Fallot). Why: tetralogy of Fallot combines a large, malaligned VSD, an overriding aorta, obstruction below the pulmonary valve, and right ventricular hypertrophy. The more severe the right ventricular outflow obstruction, the more blood shunts from the right ventricle into the aorta, bypassing the lungs. During \"tet spells,\" right-to-left flow increases and oxygen saturation falls. Knee-chest positioning raises systemic vascular resistance, which pushes more blood through the lungs. The chest x-ray shows a boot-shaped heart. About 20 to 25% of cases have a genetic syndrome, including 22q11.2 deletion. Your Osmosis notes (PDF pp. 51 to 52) also describe the boot-shaped heart.",
       "whyWrong": {
         "b": "An atrial septal defect shunts left to right and does not cause cyanotic spells in infancy.",
         "c": "Two parallel circulations describe transposition of the great arteries, which causes severe cyanosis from birth.",
@@ -10965,7 +10969,7 @@
       "system": "Cardiovascular",
       "topic": "Congenital heart disease: coarctation of the aorta",
       "difficulty": 2,
-      "stem": "A 15-year-old girl is brought to the physician because of headaches. She is 142 cm tall and has a broad chest and a webbed neck. She has not started menstruating. Blood pressure is 162/94 mm Hg in the right arm and 104/68 mm Hg in the leg. The femoral pulses are weak and arrive later than the radial pulses. A chest x-ray shows notching of the lower edges of several ribs.",
+      "stem": "A 19-year-old man comes to the physician because of headaches and aching in his calves when he runs. Blood pressure is 158/92 mm Hg in the right arm and 108/70 mm Hg in the leg. The femoral pulses are weak and arrive later than the radial pulses. A systolic murmur is heard over his back between the shoulder blades. A chest x-ray shows notching of the lower edges of several ribs.",
       "leadIn": "Which of the following best explains the rib notching?",
       "options": [
         {
@@ -10990,9 +10994,9 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: enlarged intercostal collateral arteries (coarctation of the aorta). Why: coarctation is a narrowing of the aorta, usually just past the left subclavian artery at the site of the ductus arteriosus. Blood pressure is high in the arms and lower in the legs, usually by more than 20 mm Hg, and the femoral pulses are weak and delayed. Blood bypasses the narrowing through collateral circulation in the intercostal arteries, which enlarge and erode the undersides of the ribs. The chest x-ray can also show a \"figure 3 sign.\" Coarctation is frequently seen in Turner syndrome, which fits her short stature, webbed neck, and absent periods, and a bicuspid aortic valve is found in 45 to 75% of patients. In newborns, closure of the ductus can cause sudden shock.",
+      "explanation": "Answer: enlarged intercostal collateral arteries (coarctation of the aorta). Why: coarctation is a narrowing of the aorta. Blood pressure is high in the arms and lower in the legs, usually by more than 20 mm Hg, and the femoral pulses are weak and delayed. Older children and adults can have headaches, nosebleeds, or leg discomfort during exercise, and a murmur is often heard over the back between the shoulder blades. Blood bypasses the narrowing through the intercostal arteries, which enlarge and erode the undersides of the ribs. The chest x-ray can also show a \"figure 3 sign.\" A bicuspid aortic valve often comes with it, and coarctation is frequently seen in Turner syndrome. Your Osmosis notes (PDF p. 12) describe two types: postductal coarctation, past the ligamentum arteriosum, which presents in adulthood like this patient; and preductal coarctation, which is linked to Turner syndrome and a patent ductus arteriosus. Other source: StatPearls does not use these two types. It says the narrowing typically sits just past the left subclavian artery at the site of the ductus arteriosus. In newborns, closure of the ductus can cause sudden shock.",
       "whyWrong": {
-        "b": "Lytic metastases destroy bone in irregular patches. They do not cause smooth notches under several ribs in a teenager with high arm blood pressure.",
+        "b": "Lytic metastases destroy bone in irregular patches. They do not cause smooth notches under several ribs in a young man with high arm blood pressure.",
         "c": "Rickets causes bowed legs and widened growth plates, not rib notching with a blood pressure gap.",
         "d": "Hyperparathyroidism causes bone loss and high calcium, not notching under the ribs.",
         "e": "Marrow expansion from chronic hemolysis widens bones such as the skull. It does not explain her arm-leg blood pressure difference."
@@ -11096,12 +11100,12 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: neutrophils among necrotic myocytes. Why: after a myocardial infarction, the dead muscle goes through a set series of changes. Within 0.5 to 4 hours, fibers look wavy. From 4 to 12 hours, coagulation necrosis and edema begin, and by about 12 to 24 hours neutrophils predominate. Your Osmosis notes (PDF p. 5) place extensive necrosis with neutrophils at 1 to 3 days. Macrophages then clear dead cells over the next 3 to 7 days. Granulation tissue appears at 7 to 10 days, collagen is laid down after 10 days, and a scar forms by about 2 months. Troponin peaks at about 12 hours and stays raised for about 7 days.",
+      "explanation": "Answer: neutrophils among necrotic myocytes. Why: after a myocardial infarction, the dead muscle goes through a set series of changes. Your Osmosis notes (PDF p. 5) give this timeline: in the first 24 hours, early coagulation necrosis, edema, and wavy fibers; at 1 to 3 days, extensive necrosis with acute inflammation by neutrophils; at 3 to 14 days, macrophages and granulation tissue at the margins; and after 14 days, a contracted scar. At 2 days, this patient is in the neutrophil phase. Other source: StatPearls splits the timeline more finely: wavy fibers at 0.5 to 4 hours, neutrophils predominating by about 12 to 24 hours, macrophages clearing dead cells at 3 to 7 days, granulation tissue at 7 to 10 days, and a scar by about 2 months. Troponin peaks at about 12 hours and stays raised for about 7 days.",
       "whyWrong": {
-        "b": "Wavy fibers without inflammation are seen within the first few hours, before neutrophils arrive.",
-        "c": "Macrophages clearing dead cells appear over days 3 to 7, after the neutrophil phase.",
-        "d": "Granulation tissue appears at about 7 to 10 days.",
-        "e": "A dense collagen scar takes about 2 months to form."
+        "b": "Wavy fibers without inflammation are seen in the first hours, before neutrophils arrive (within the first 24 hours in your notes).",
+        "c": "Macrophages clearing dead cells come after the neutrophil phase: at 3 to 14 days in your notes, or 3 to 7 days in StatPearls.",
+        "d": "Granulation tissue appears at 3 to 14 days in your notes, or 7 to 10 days in StatPearls.",
+        "e": "A contracted scar forms after 14 days in your notes, and by about 2 months in StatPearls."
       },
       "sources": [
         {
@@ -11145,7 +11149,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: monocyte-derived macrophages. Why: in atherosclerosis, LDL builds up in the intima and is oxidized and otherwise modified. Activated endothelial cells express adhesion molecules such as VCAM-1 that recruit monocytes. Inside the intima, monocytes become macrophages with scavenger receptors that take up the modified lipoprotein, turning them into foam cells, a hallmark of the early plaque. Smooth muscle cells from the media then migrate into the intima, and smooth muscle cells and collagen form a fibrous cap over the lipid core. Plaques with a large lipid core and a thin cap are prone to rupture, the most common cause of the clot in acute myocardial infarction.",
+      "explanation": "Answer: monocyte-derived macrophages. Why: in atherosclerosis, LDL builds up in the intima and is oxidized and otherwise modified. Activated endothelial cells express adhesion molecules such as VCAM-1 that recruit monocytes. Inside the intima, monocytes become macrophages with scavenger receptors that take up the modified lipoprotein, turning them into foam cells, a hallmark of the early plaque. Smooth muscle cells from the media then migrate into the intima, and smooth muscle cells and collagen form a fibrous cap over the lipid core. Plaques with a large lipid core and a thin cap are prone to rupture, the most common cause of the clot in acute myocardial infarction. Your Osmosis notes (PDF p. 111) describe the same steps, from foam cell formation to plaque.",
       "whyWrong": {
         "b": "Endothelial cells recruit monocytes by expressing adhesion molecules, but they are not the main source of foam cells.",
         "c": "Neutrophils are short-lived cells of acute inflammation and do not become foam cells.",
@@ -11247,7 +11251,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: polyarteritis nodosa. Why: polyarteritis nodosa causes segmental, transmural necrotizing inflammation of medium-sized (and sometimes small) muscular arteries, most often at branch points, with lesions at all stages of development and healing. About 20% of patients have hepatitis B or C. Nerve involvement causes mononeuritis multiplex, such as his foot drop. Gut involvement causes abdominal pain, kidney involvement causes high blood pressure and kidney injury, and the skin can show livedo reticularis, ulcers, or tender nodules. The lungs are usually spared. Diagnosis is by biopsy of affected tissue or by angiography showing aneurysms in medium-sized arteries. It does not cause granulomas.",
+      "explanation": "Answer: polyarteritis nodosa. Why: polyarteritis nodosa causes segmental, transmural necrotizing inflammation of medium-sized (and sometimes small) muscular arteries, most often at branch points, with lesions at all stages of development and healing. About 20% of patients have hepatitis B or C. Nerve involvement causes mononeuritis multiplex, such as his foot drop. Gut involvement causes abdominal pain, kidney involvement causes high blood pressure and kidney injury, and the skin can show livedo reticularis, ulcers, or tender nodules. The lungs are usually spared. Diagnosis is by biopsy of affected tissue or by angiography showing aneurysms in medium-sized arteries. It does not cause granulomas. Your Osmosis notes (PDF p. 176) link it to hepatitis B and C.",
       "whyWrong": {
         "b": "Granulomatosis with polyangiitis causes granulomas and usually involves the lungs and upper airway (standard teaching). His lungs are clear, and MSD notes that polyarteritis nodosa does not form granulomas.",
         "c": "Giant cell arteritis affects large arteries in people over 50, causing headache and jaw claudication.",
@@ -11308,7 +11312,7 @@
       "whyWrong": {
         "b": "Light-chain (AL) amyloidosis comes from a plasma cell clone that makes a monoclonal protein, which was not found. Cardiac AL amyloidosis has the worst prognosis.",
         "c": "Serum amyloid A deposits in chronic inflammatory diseases and usually affects the kidneys rather than the heart.",
-        "d": "Beta-2 microglobulin amyloid occurs in long-term dialysis patients and mainly affects joints and bones.",
+        "d": "Beta-2 microglobulin amyloid occurs in long-term dialysis patients and mainly affects joints and bones (standard teaching).",
         "e": "Amyloid beta deposits in the brain in Alzheimer disease, not in the heart."
       },
       "sources": [
@@ -11353,7 +11357,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: viridans streptococci (subacute infective endocarditis). Why: a damaged valve, dental work, and fevers with weight loss developing over weeks is subacute endocarditis, which progresses slowly over weeks to months. Bacteremia from the mouth, even from toothbrushing or chewing in people with gingivitis, is usually caused by viridans streptococci, which are alpha-hemolytic, gram-positive cocci in chains. Splinter hemorrhages and painless macules on the palms (Janeway lesions) are typical signs. Painful nodules on the fingertips are Osler nodes, and retinal hemorrhages with pale centers are Roth spots. Most dental procedures that need antibiotic prophylaxis involve patients at high risk, such as those with prosthetic valves or previous endocarditis.",
+      "explanation": "Answer: viridans streptococci (subacute infective endocarditis). Why: a damaged valve, dental work, and fevers with weight loss developing over weeks is subacute endocarditis, which progresses slowly over weeks to months. Bacteremia from the mouth, even from toothbrushing or chewing in people with gingivitis, is usually caused by viridans streptococci, which are alpha-hemolytic, gram-positive cocci in chains. Splinter hemorrhages and painless macules on the palms (Janeway lesions) are typical signs. Painful nodules on the fingertips are Osler nodes, and retinal hemorrhages with pale centers are Roth spots. Antibiotic prophylaxis before dental procedures is recommended only for high-risk patients, such as those with prosthetic valves or previous endocarditis.",
       "whyWrong": {
         "b": "Staphylococcus aureus grows in clusters and usually causes acute endocarditis that progresses over days.",
         "c": "Enterococci cause endocarditis, often after urinary or bowel procedures (standard teaching), rather than after dental work.",
