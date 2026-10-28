@@ -8118,6 +8118,1142 @@
           "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK507860/"
         }
       ]
+    },
+    {
+      "id": "heme-apl-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Acute myeloid leukemia: acute promyelocytic leukemia",
+      "difficulty": 2,
+      "stem": "A 31-year-old woman comes to the emergency department because of bleeding gums and large bruises on her arms and legs for 5 days. She has felt tired for 3 weeks. There are scattered ecchymoses and oozing from a recent venipuncture site. Hemoglobin is 8.1 g/dL, leukocyte count is 2,400/mm3, and platelet count is 22,000/mm3. Prothrombin time and partial thromboplastin time are prolonged, fibrinogen is low, and D-dimer is markedly elevated. A blood smear shows abnormal promyelocytes with dense granules and bundles of Auer rods.",
+      "leadIn": "Which of the following genetic abnormalities is most likely present in her leukemic cells?",
+      "options": [
+        {
+          "id": "a",
+          "text": "t(15;17) forming PML::RARA"
+        },
+        {
+          "id": "b",
+          "text": "t(9;22) forming BCR::ABL1"
+        },
+        {
+          "id": "c",
+          "text": "t(8;21) forming RUNX1::RUNX1T1"
+        },
+        {
+          "id": "d",
+          "text": "t(8;14) joining MYC to IGH"
+        },
+        {
+          "id": "e",
+          "text": "JAK2 V617F point mutation"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: t(15;17) forming PML::RARA (acute promyelocytic leukemia, APL). Why: a young adult with abnormal promyelocytes, Auer rods, and bleeding with the labs of disseminated intravascular coagulation (DIC: low platelets and fibrinogen, long clotting times, high D-dimer) has APL until proven otherwise. APL is the AML subtype defined by t(15;17) and the PML::RARA fusion, and patients commonly present with a coagulation disorder such as DIC. Auer rods are linear inclusions in the cytoplasm of blasts and point to AML. APL is an emergency because tretinoin (all-trans retinoic acid) corrects the DIC within 2 to 5 days. Recent change: tretinoin plus arsenic trioxide, with no conventional chemotherapy, is now the standard for low- and intermediate-risk APL, with a complete remission rate of 100% and a cure rate above 90%.",
+      "whyWrong": {
+        "b": "t(9;22) with BCR::ABL1 defines chronic myeloid leukemia. It can occur in AML, but it is not the change behind promyelocytes with DIC.",
+        "c": "t(8;21) with RUNX1::RUNX1T1 is a different AML subtype. It is not the abnormal-promyelocyte leukemia that presents with DIC.",
+        "d": "MYC joined to the immunoglobulin heavy-chain gene on chromosome 14 causes Burkitt lymphoma, a B-cell cancer, not a myeloid leukemia.",
+        "e": "JAK2 V617F drives polycythemia vera and related myeloproliferative neoplasms, which raise blood counts rather than causing a sudden leukemia with bleeding."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Acute Myeloid Leukemia (AML)",
+          "url": "https://www.msdmanuals.com/professional/oncology/leukemias/acute-myeloid-leukemia-aml"
+        },
+        {
+          "title": "MSD Manual Professional: Chronic Myeloid Leukemia (CML)",
+          "url": "https://www.msdmanuals.com/professional/oncology/leukemias/chronic-myeloid-leukemia-cml"
+        },
+        {
+          "title": "MSD Manual Professional: Burkitt Lymphoma",
+          "url": "https://www.msdmanuals.com/professional/oncology/lymphomas/burkitt-lymphoma"
+        },
+        {
+          "title": "MSD Manual Professional: Polycythemia Vera",
+          "url": "https://www.msdmanuals.com/professional/hematology-and-oncology/myeloproliferative-disorders/polycythemia-vera"
+        }
+      ]
+    },
+    {
+      "id": "heme-cml-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Chronic myeloid leukemia: tyrosine kinase inhibitors",
+      "difficulty": 1,
+      "stem": "A 52-year-old man comes to the physician because of fatigue and a feeling of fullness in his left upper abdomen after small meals for 2 months. The spleen tip is palpable 8 cm below the left costal margin. Hemoglobin is 11.2 g/dL, leukocyte count is 148,000/mm3, and platelet count is 510,000/mm3. A blood smear shows neutrophils at every stage of maturation, with increased basophils and eosinophils and fewer than 2% blasts. Testing of his blood finds the Philadelphia chromosome. He is started on imatinib.",
+      "leadIn": "Which of the following is the mechanism of action of this drug?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Inhibits the BCR::ABL1 kinase"
+        },
+        {
+          "id": "b",
+          "text": "Inhibits Bruton tyrosine kinase"
+        },
+        {
+          "id": "c",
+          "text": "Blocks cleavage of complement C5"
+        },
+        {
+          "id": "d",
+          "text": "Activates the thrombopoietin receptor"
+        },
+        {
+          "id": "e",
+          "text": "Inhibits xanthine oxidase"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: inhibits the BCR::ABL1 tyrosine kinase. Why: a large spleen, a very high white count with mature and maturing neutrophils, extra basophils and eosinophils, and the Philadelphia chromosome is chronic myeloid leukemia (CML). The t(9;22) translocation fuses BCR to ABL1, and the fusion protein has uncontrolled tyrosine kinase activity that drives the leukemia. Splenomegaly is found in 60 to 70% of patients. Tyrosine kinase inhibitors such as imatinib, nilotinib, dasatinib, bosutinib, and ponatinib block this kinase. They are not curative, but they are extremely effective. Asciminib works at a different site on ABL1 and is used, for example, when the T315I mutation makes other inhibitors fail.",
+      "whyWrong": {
+        "b": "Bruton tyrosine kinase inhibitors (such as ibrutinib) treat B-cell cancers such as chronic lymphocytic leukemia and Waldenström macroglobulinemia, not CML.",
+        "c": "Blocking complement C5 (eculizumab, ravulizumab) treats paroxysmal nocturnal hemoglobinuria, not CML.",
+        "d": "Thrombopoietin receptor agonists raise platelet counts in immune thrombocytopenia. This patient's platelets are already high.",
+        "e": "Xanthine oxidase inhibitors (allopurinol) lower uric acid. They do not act on the leukemia itself."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Chronic Myeloid Leukemia (CML)",
+          "url": "https://www.msdmanuals.com/professional/oncology/leukemias/chronic-myeloid-leukemia-cml"
+        },
+        {
+          "title": "MSD Manual Professional: Chronic Lymphocytic Leukemia (CLL)",
+          "url": "https://www.msdmanuals.com/professional/oncology/leukemias/chronic-lymphocytic-leukemia-cll"
+        },
+        {
+          "title": "MSD Manual Professional: Paroxysmal Nocturnal Hemoglobinuria (PNH)",
+          "url": "https://www.msdmanuals.com/professional/hematology-and-oncology/anemias-caused-by-hemolysis/paroxysmal-nocturnal-hemoglobinuria-pnh"
+        },
+        {
+          "title": "MSD Manual Professional: Immune Thrombocytopenia (ITP)",
+          "url": "https://www.msdmanuals.com/professional/hematology-and-oncology/thrombocytopenia-and-platelet-dysfunction/immune-thrombocytopenia-itp"
+        }
+      ]
+    },
+    {
+      "id": "heme-cll-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Chronic lymphocytic leukemia",
+      "difficulty": 2,
+      "stem": "A 72-year-old man comes to the physician because of fatigue for 2 months. He has painless, rubbery lymph nodes in his neck and armpits. Hemoglobin is 9.0 g/dL, leukocyte count is 48,000/mm3 with 85% small mature-appearing lymphocytes, and platelet count is 165,000/mm3. The reticulocyte count and indirect bilirubin are increased, and a direct antiglobulin (Coombs) test is positive. A blood smear shows many smudge cells.",
+      "leadIn": "Flow cytometry of his blood is most likely to show B cells that express which of the following markers?",
+      "options": [
+        {
+          "id": "a",
+          "text": "CD5, CD19, and CD23"
+        },
+        {
+          "id": "b",
+          "text": "CD15 and CD30"
+        },
+        {
+          "id": "c",
+          "text": "CD11c, CD25, and CD103"
+        },
+        {
+          "id": "d",
+          "text": "CD1a and CD207 (langerin)"
+        },
+        {
+          "id": "e",
+          "text": "Myeloperoxidase and CD34"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: CD5, CD19, and CD23 (chronic lymphocytic leukemia, CLL). Why: an older adult with lymph node swelling, a high count of small mature lymphocytes, and smudge cells has CLL. The average age at diagnosis is 70. Smudge cells are the fragile lymphocytes broken during smear preparation. The circulating cells express CD5, CD19, CD20, and CD23 with a single light chain (kappa or lambda), and the diagnosis needs at least 5,000 clonal B lymphocytes per microliter. CD5 is usually a T-cell marker, so a B cell carrying CD5 and CD23 is the CLL clue. His anemia with a positive direct antiglobulin test is autoimmune hemolytic anemia, a known complication of CLL. Up to two-thirds of patients also develop low antibody levels, so infections are common.",
+      "whyWrong": {
+        "b": "CD15 and CD30 mark the Reed-Sternberg cells of Hodgkin lymphoma, which are found in lymph nodes, not in large numbers in the blood.",
+        "c": "CD11c, CD25, and CD103 mark hairy cell leukemia, which usually causes low blood counts, a big spleen, and few lymph nodes.",
+        "d": "CD1a and CD207 mark Langerhans cell histiocytosis, a disorder of dendritic cells rather than B lymphocytes.",
+        "e": "Myeloperoxidase marks myeloid cells such as the blasts of AML. CLL cells are mature B lymphocytes."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Chronic Lymphocytic Leukemia (CLL)",
+          "url": "https://www.msdmanuals.com/professional/oncology/leukemias/chronic-lymphocytic-leukemia-cll"
+        },
+        {
+          "title": "StatPearls: Chronic Lymphocytic Leukemia",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK470433/"
+        },
+        {
+          "title": "StatPearls: Hodgkin Lymphoma",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK499969/"
+        },
+        {
+          "title": "StatPearls: Hairy Cell Leukemia",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK499845/"
+        },
+        {
+          "title": "MSD Manual Professional: Langerhans Cell Histiocytosis",
+          "url": "https://www.msdmanuals.com/professional/hematology-and-oncology/histiocytic-syndromes/langerhans-cell-histiocytosis"
+        }
+      ]
+    },
+    {
+      "id": "heme-hairy-cell-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Hairy cell leukemia",
+      "difficulty": 2,
+      "stem": "A 55-year-old man comes to the physician because of fatigue and early satiety for 3 months. He has had pneumonia twice this year. He has no lymph node enlargement. The spleen tip is palpable 10 cm below the left costal margin. Hemoglobin is 9.4 g/dL, leukocyte count is 1,900/mm3 with very few monocytes, and platelet count is 68,000/mm3. A bone marrow aspiration yields no fluid. A blood smear shows a few lymphocytes with fine, thread-like projections from the cell surface. Flow cytometry shows B cells that express CD11c, CD25, and CD103.",
+      "leadIn": "Which of the following mutations is most likely present in these cells?",
+      "options": [
+        {
+          "id": "a",
+          "text": "BRAF V600E"
+        },
+        {
+          "id": "b",
+          "text": "JAK2 V617F"
+        },
+        {
+          "id": "c",
+          "text": "MYD88 L265P"
+        },
+        {
+          "id": "d",
+          "text": "PIGA loss of function"
+        },
+        {
+          "id": "e",
+          "text": "BCR::ABL1 fusion"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: BRAF V600E (hairy cell leukemia). Why: a middle-aged man with a large spleen, low counts of all three cell lines, very low monocytes, a \"dry tap\" when marrow is aspirated, and B cells with hair-like surface projections has hairy cell leukemia. The median age is about 55, and it is about 4 times more common in men. The cells express CD11c, CD25, CD103, and CD123. BRAF V600E is present in nearly all cases of classic hairy cell leukemia. The purine analogs cladribine and pentostatin are first-line treatment. Correction: your Heme-Onc notes (El-Husseiny, p. 66) call cladribine an adenosine deaminase inhibitor. The FDA label says cladribine is resistant to breakdown by adenosine deaminase, which is why it builds up in lymphocytes. Page 104 of the same notes has it right: cladribine is a purine analog.",
+      "whyWrong": {
+        "b": "JAK2 V617F is found in most cases of polycythemia vera, which raises red cell counts rather than lowering all counts.",
+        "c": "MYD88 mutation is typical of Waldenström macroglobulinemia, which makes large amounts of IgM.",
+        "d": "PIGA mutation causes paroxysmal nocturnal hemoglobinuria, which presents with hemolysis and blood clots, not a large spleen with hairy cells.",
+        "e": "BCR::ABL1 defines chronic myeloid leukemia, which causes a very high white count, not a low one."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Hairy Cell Leukemia",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK499845/"
+        },
+        {
+          "title": "Drugs.com: Cladribine Injection Prescribing Information (FDA label)",
+          "url": "https://www.drugs.com/pro/cladribine.html"
+        },
+        {
+          "title": "MSD Manual Professional: Polycythemia Vera",
+          "url": "https://www.msdmanuals.com/professional/hematology-and-oncology/myeloproliferative-disorders/polycythemia-vera"
+        },
+        {
+          "title": "MSD Manual Professional: Macroglobulinemia",
+          "url": "https://msdmanuals.com/professional/hematology-and-oncology/plasma-cell-disorders/macroglobulinemia"
+        },
+        {
+          "title": "MSD Manual Professional: Paroxysmal Nocturnal Hemoglobinuria (PNH)",
+          "url": "https://www.msdmanuals.com/professional/hematology-and-oncology/anemias-caused-by-hemolysis/paroxysmal-nocturnal-hemoglobinuria-pnh"
+        }
+      ]
+    },
+    {
+      "id": "heme-hodgkin-ns-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Hodgkin lymphoma: nodular sclerosis",
+      "difficulty": 2,
+      "stem": "A 24-year-old woman comes to the physician because of a painless lump in her neck for 6 weeks. She has had night sweats and has lost 5 kg without trying. She says the lump aches for a short time after she drinks alcohol. A firm, nontender, 3-cm supraclavicular lymph node is palpable. A chest x-ray shows a widened mediastinum. A biopsy of the node shows bands of collagen dividing the node into nodules. Within the nodules are large cells that sit in clear spaces in the tissue.",
+      "leadIn": "Immunohistochemical staining of these large cells is most likely to be positive for which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "CD15 and CD30"
+        },
+        {
+          "id": "b",
+          "text": "CD5 and CD23"
+        },
+        {
+          "id": "c",
+          "text": "CD10 and MYC"
+        },
+        {
+          "id": "d",
+          "text": "CD38 and CD138"
+        },
+        {
+          "id": "e",
+          "text": "CD1a and S-100"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: CD15 and CD30 (Hodgkin lymphoma, nodular sclerosis type). Why: a young adult with a painless neck node, a mediastinal mass, B symptoms (night sweats and weight loss), and node pain after alcohol has Hodgkin lymphoma. Nodular sclerosis is the most common type, about 70% of cases, and is typical of young adults. Bands of fibrous tissue divide the node into nodules, and the tumor cells shrink away from the tissue when it is processed, leaving them in a clear space (lacunar cells). Reed-Sternberg cells and their variants express CD30 and CD15. Hodgkin lymphoma peaks between ages 15 and 40 and again after 60. EBV is linked mainly to the mixed cellularity and lymphocyte-depleted types.",
+      "whyWrong": {
+        "b": "CD5 and CD23 on B cells is the pattern of chronic lymphocytic leukemia, a disease of older adults with many small lymphocytes in the blood.",
+        "c": "MYC is rearranged in Burkitt lymphoma, which shows sheets of medium-sized cells in a \"starry sky\" pattern, not fibrous bands with lacunar cells.",
+        "d": "CD38 and CD138 mark plasma cells, such as those of multiple myeloma.",
+        "e": "CD1a and S-100 mark Langerhans cells. Langerhans cell histiocytosis usually affects children and causes bone lesions."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Hodgkin Lymphoma",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK499969/"
+        },
+        {
+          "title": "MSD Manual Professional: Hodgkin Lymphoma",
+          "url": "https://www.msdmanuals.com/professional/hematology-and-oncology/lymphomas/hodgkin-lymphoma"
+        },
+        {
+          "title": "MSD Manual Professional: Chronic Lymphocytic Leukemia (CLL)",
+          "url": "https://www.msdmanuals.com/professional/oncology/leukemias/chronic-lymphocytic-leukemia-cll"
+        },
+        {
+          "title": "MSD Manual Professional: Burkitt Lymphoma",
+          "url": "https://www.msdmanuals.com/professional/oncology/lymphomas/burkitt-lymphoma"
+        },
+        {
+          "title": "MSD Manual Professional: Langerhans Cell Histiocytosis",
+          "url": "https://www.msdmanuals.com/professional/hematology-and-oncology/histiocytic-syndromes/langerhans-cell-histiocytosis"
+        }
+      ]
+    },
+    {
+      "id": "heme-burkitt-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Burkitt lymphoma: tumor lysis syndrome",
+      "difficulty": 2,
+      "stem": "A 9-year-old boy is brought to the physician because of abdominal pain and swelling for 2 weeks. A CT scan shows a large mass at the junction of the small and large intestine. A biopsy shows sheets of medium-sized lymphoid cells with many dividing cells, scattered among pale macrophages that have eaten dead tumor cells. The tumor cells carry a translocation between chromosomes 8 and 14. Intensive chemotherapy is planned.",
+      "leadIn": "This patient is at greatest risk for which of the following complications in the first days of treatment?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tumor lysis syndrome"
+        },
+        {
+          "id": "b",
+          "text": "Disseminated intravascular coagulation"
+        },
+        {
+          "id": "c",
+          "text": "Hyperviscosity syndrome"
+        },
+        {
+          "id": "d",
+          "text": "PTH-related peptide hypercalcemia"
+        },
+        {
+          "id": "e",
+          "text": "Hepatic vein thrombosis"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: tumor lysis syndrome. Why: a child with an abdominal mass near the ileum and cecum, very rapidly dividing B cells with a \"starry sky\" look (macrophages among the tumor cells), and t(8;14) has sporadic Burkitt lymphoma. The translocation moves MYC on chromosome 8 next to the immunoglobulin heavy-chain gene on chromosome 14, which drives nonstop growth. Burkitt lymphoma is the most rapidly growing human tumor. When chemotherapy kills so many cells at once, they spill potassium, phosphate, and uric acid into the blood, and tumor lysis syndrome is common with treatment. Patients get aggressive fluids and drugs that lower uric acid. The endemic African form is linked to EBV and often involves the jaw. The sporadic form usually presents in the abdomen.",
+      "whyWrong": {
+        "b": "Disseminated intravascular coagulation is a classic presenting problem of acute promyelocytic leukemia, not of Burkitt lymphoma treatment.",
+        "c": "Hyperviscosity comes from very high levels of a large antibody such as IgM in Waldenström macroglobulinemia.",
+        "d": "PTH-related peptide is made by some solid tumors such as squamous cell carcinomas. It is not the main early risk of treating Burkitt lymphoma.",
+        "e": "Hepatic vein thrombosis is linked to clotting disorders such as polycythemia vera and paroxysmal nocturnal hemoglobinuria."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Burkitt Lymphoma",
+          "url": "https://www.msdmanuals.com/professional/oncology/lymphomas/burkitt-lymphoma"
+        },
+        {
+          "title": "MSD Manual Professional: Acute Myeloid Leukemia (AML)",
+          "url": "https://www.msdmanuals.com/professional/oncology/leukemias/acute-myeloid-leukemia-aml"
+        },
+        {
+          "title": "MSD Manual Professional: Macroglobulinemia",
+          "url": "https://msdmanuals.com/professional/hematology-and-oncology/plasma-cell-disorders/macroglobulinemia"
+        },
+        {
+          "title": "MSD Manual Professional: Hypercalcemia",
+          "url": "https://www.msdmanuals.com/professional/nephrology/electrolyte-disorders/hypercalcemia"
+        },
+        {
+          "title": "MSD Manual Professional: Paroxysmal Nocturnal Hemoglobinuria (PNH)",
+          "url": "https://www.msdmanuals.com/professional/hematology-and-oncology/anemias-caused-by-hemolysis/paroxysmal-nocturnal-hemoglobinuria-pnh"
+        }
+      ]
+    },
+    {
+      "id": "heme-myeloma-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Multiple myeloma: hypercalcemia",
+      "difficulty": 2,
+      "stem": "A 67-year-old man comes to the physician because of low back pain for 3 months and increasing thirst and constipation for 2 weeks. He takes no medications. Hemoglobin is 9.6 g/dL. Serum calcium is 12.8 mg/dL, creatinine is 2.1 mg/dL, and total protein is 9.4 g/dL with a normal albumin. Serum protein electrophoresis shows a narrow spike in the gamma region. A blood smear shows red cells stacked like coins. X-rays of the skull show several round, punched-out lytic lesions.",
+      "leadIn": "Which of the following is the most likely cause of his increased serum calcium?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Osteoclast activation by tumor cytokines"
+        },
+        {
+          "id": "b",
+          "text": "PTH from a parathyroid adenoma"
+        },
+        {
+          "id": "c",
+          "text": "PTH-related peptide from a carcinoma"
+        },
+        {
+          "id": "d",
+          "text": "Calcitriol made in granulomas"
+        },
+        {
+          "id": "e",
+          "text": "Reduced renal calcium excretion from a thiazide"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: osteoclast activation by cytokines from the tumor cells (multiple myeloma). Why: an older adult with bone pain, anemia, high calcium, kidney injury, a high protein level with an M-spike, rouleaux (red cells stacked like coins), and punched-out skull lesions has multiple myeloma. Clonal plasma cells in the marrow release substances that switch on osteoclasts, which dissolve bone and release calcium into the blood. The same process makes the lytic lesions and bone pain. Light chains clog the distal tubules and injure the kidney. Diagnosis needs at least 10% clonal plasma cells in the marrow, and IgG is the most common M protein (50 to 55%). Newer treatment options include anti-CD38 antibodies, CAR-T cells, and bispecific antibodies.",
+      "whyWrong": {
+        "b": "A parathyroid adenoma causes primary hyperparathyroidism. It would not explain the M-spike, rouleaux, or anemia.",
+        "c": "PTH-related peptide causes high calcium in solid cancers such as squamous cell carcinoma of the lung. In myeloma, the calcium comes from bone destroyed locally by the tumor.",
+        "d": "Granulomas in sarcoidosis and other diseases can make calcitriol, which raises calcium. Nothing here suggests granulomas.",
+        "e": "Thiazides can raise calcium slightly, but he takes no medications."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Multiple Myeloma",
+          "url": "https://msdmanuals.com/professional/hematology-and-oncology/plasma-cell-disorders/multiple-myeloma"
+        },
+        {
+          "title": "MSD Manual Professional: Hypercalcemia",
+          "url": "https://www.msdmanuals.com/professional/nephrology/electrolyte-disorders/hypercalcemia"
+        }
+      ]
+    },
+    {
+      "id": "heme-waldenstrom-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Waldenström macroglobulinemia: hyperviscosity",
+      "difficulty": 3,
+      "stem": "A 70-year-old man comes to the physician because of headaches, blurred vision, and nosebleeds for 3 weeks. He has mild enlargement of lymph nodes and spleen. Funduscopic examination shows widened, sausage-like retinal veins with scattered hemorrhages. Serum protein electrophoresis shows a large monoclonal spike that is identified as IgM. A bone marrow biopsy shows small lymphocytes and plasma-like cells. There are no lytic bone lesions.",
+      "leadIn": "Which of the following best explains his headaches and vision changes?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hyperviscosity from circulating IgM"
+        },
+        {
+          "id": "b",
+          "text": "Plasma cell tumors pressing on the brain"
+        },
+        {
+          "id": "c",
+          "text": "Amyloid deposits in cerebral vessels"
+        },
+        {
+          "id": "d",
+          "text": "Hypercalcemia from bone destruction"
+        },
+        {
+          "id": "e",
+          "text": "Cryoglobulin vasculitis of the retina"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: thick (hyperviscous) blood from a large circulating protein (Waldenström macroglobulinemia). Why: an older adult with a monoclonal IgM spike, lymph node and spleen enlargement, marrow full of lymphoplasmacytic cells, and no bone lesions has Waldenström macroglobulinemia. IgM is a large pentamer, so high levels make the blood thick. Slow, sludging flow causes headaches, blurred vision, bleeding from the nose and gums, and swollen retinal veins. MSD Manual calls a MYD88 mutation the hallmark of the disease. Hyperviscosity is treated first with plasma exchange, which removes the IgM quickly, and the tumor is then treated, for example with a Bruton tyrosine kinase inhibitor.",
+      "whyWrong": {
+        "b": "Plasma cell tumors fit multiple myeloma, which causes lytic bone lesions. A mass would not explain swollen retinal veins and nosebleeds.",
+        "c": "Amyloid deposits can come from light chains, but they do not explain swollen, sausage-like retinal veins and nosebleeds, which come from thick blood.",
+        "d": "Hypercalcemia from bone destruction is typical of multiple myeloma. This patient has no lytic lesions.",
+        "e": "Some IgM proteins act as cryoglobulins, but the swollen, sludging retinal veins here are the classic sign of hyperviscosity."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Macroglobulinemia",
+          "url": "https://msdmanuals.com/professional/hematology-and-oncology/plasma-cell-disorders/macroglobulinemia"
+        },
+        {
+          "title": "MSD Manual Professional: Multiple Myeloma",
+          "url": "https://msdmanuals.com/professional/hematology-and-oncology/plasma-cell-disorders/multiple-myeloma"
+        }
+      ]
+    },
+    {
+      "id": "heme-pv-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Polycythemia vera",
+      "difficulty": 2,
+      "stem": "A 61-year-old man comes to the physician because of headaches and itching all over his body after hot showers for 4 months. He has also had episodes of burning pain and redness in his fingers. He does not smoke and has no lung or heart disease. His face is ruddy. The spleen tip is palpable. Hemoglobin is 19.5 g/dL, hematocrit is 58%, leukocyte count is 13,500/mm3, and platelet count is 610,000/mm3. Oxygen saturation is 98% on room air.",
+      "leadIn": "Which of the following laboratory findings is most likely in this patient?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Low serum erythropoietin"
+        },
+        {
+          "id": "b",
+          "text": "High serum erythropoietin"
+        },
+        {
+          "id": "c",
+          "text": "Low arterial oxygen tension"
+        },
+        {
+          "id": "d",
+          "text": "High carboxyhemoglobin level"
+        },
+        {
+          "id": "e",
+          "text": "Low red cell mass"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: low serum erythropoietin (polycythemia vera). Why: a high hemoglobin with high white cells and platelets, a large spleen, itching after hot water (aquagenic pruritus), a ruddy face, and burning, red fingers (erythromelalgia) in someone with normal oxygen levels is polycythemia vera. The marrow makes red cells on its own because of a JAK2 mutation (V617F in about 90%, exon 12 in about 5%), not because of an erythropoietin signal. The extra red cells shut off the kidney's erythropoietin output, so the level is low or low-normal. Treatment aims for hematocrit below 45% in men and 42% in women by phlebotomy, plus low-dose aspirin. Peginterferon or ruxolitinib is now often preferred when cell-lowering drugs are needed, because hydroxyurea may raise the risk of leukemia.",
+      "whyWrong": {
+        "b": "High erythropoietin is the body's normal response to low oxygen, as in lung disease or high altitude, or comes from an erythropoietin-making tumor. In polycythemia vera it is low.",
+        "c": "Low arterial oxygen would cause a secondary polycythemia. His oxygen saturation is normal.",
+        "d": "Carbon monoxide exposure, as in heavy smoking, causes a secondary polycythemia without high white cells, high platelets, or a large spleen.",
+        "e": "Red cell mass is increased in polycythemia vera. A normal red cell mass with high hematocrit would suggest low plasma volume instead."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Polycythemia Vera",
+          "url": "https://www.msdmanuals.com/professional/hematology-and-oncology/myeloproliferative-disorders/polycythemia-vera"
+        }
+      ]
+    },
+    {
+      "id": "heme-lch-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Langerhans cell histiocytosis",
+      "difficulty": 3,
+      "stem": "A 3-year-old boy is brought to the physician because he has been drinking large amounts of water and wetting the bed for 2 months. He also has a scaly, red rash on his scalp. His right eye bulges forward. X-rays show several punched-out lesions in the skull. A biopsy of a skull lesion shows sheets of cells that stain positive for CD1a, CD207 (langerin), and S-100.",
+      "leadIn": "His excessive thirst and urination are most likely due to which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lack of antidiuretic hormone"
+        },
+        {
+          "id": "b",
+          "text": "Kidney resistance to antidiuretic hormone"
+        },
+        {
+          "id": "c",
+          "text": "Hyperglycemia from insulin deficiency"
+        },
+        {
+          "id": "d",
+          "text": "Hypercalcemia from bone destruction"
+        },
+        {
+          "id": "e",
+          "text": "Primary (psychogenic) polydipsia"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: lack of antidiuretic hormone, that is central diabetes insipidus (Langerhans cell histiocytosis). Why: a young child with lytic skull lesions, a bulging eye, a scaly scalp rash, and excess urination has Langerhans cell histiocytosis. Lytic skull lesions, exophthalmos, and diabetes insipidus form the classic triad. The abnormal Langerhans cells express CD1a, CD207 (langerin), and S-100, and about two-thirds carry BRAF V600E. Diabetes insipidus occurs in 5 to 50% of patients because the cells infiltrate the hypothalamus or pituitary stalk and stop antidiuretic hormone (ADH) release. The disease most often appears between ages 2 and 5.",
+      "whyWrong": {
+        "b": "Kidney resistance to ADH (nephrogenic diabetes insipidus) comes from kidney or drug causes such as lithium. Here the problem is in the brain.",
+        "c": "Type 1 diabetes causes thirst and urination from high glucose, but it would not explain skull lesions or a bulging eye.",
+        "d": "High calcium can cause thirst and urination, but the classic link between this disease and excess urination is loss of ADH.",
+        "e": "Primary polydipsia is drinking too much from a behavioral cause. The skull and eye findings point to infiltration of the pituitary area."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Langerhans Cell Histiocytosis",
+          "url": "https://www.msdmanuals.com/professional/hematology-and-oncology/histiocytic-syndromes/langerhans-cell-histiocytosis"
+        }
+      ]
+    },
+    {
+      "id": "heme-hemophilia-a-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Hemophilia A: emicizumab",
+      "difficulty": 3,
+      "stem": "A 4-year-old boy with severe hemophilia A has had three bleeds into his knee this year despite factor VIII infusions three times a week. His factor VIII activity is less than 1%. He now has an antibody (inhibitor) against infused factor VIII. His physician starts weekly subcutaneous injections of emicizumab to prevent bleeding.",
+      "leadIn": "Which of the following is the mechanism of action of this drug?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bridges activated factor IX and factor X"
+        },
+        {
+          "id": "b",
+          "text": "Lowers antithrombin levels"
+        },
+        {
+          "id": "c",
+          "text": "Blocks tissue factor pathway inhibitor"
+        },
+        {
+          "id": "d",
+          "text": "Releases stored factor VIII from endothelium"
+        },
+        {
+          "id": "e",
+          "text": "Blocks cleavage of complement C5"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: bridges activated factor IX and factor X (emicizumab). Why: in the intrinsic pathway, factor VIII normally holds activated factor IX next to factor X so that factor X is activated. Emicizumab is an antibody with two arms, one binding activated factor IX and one binding factor X, so it does factor VIII's job. Because it is not factor VIII, inhibitor antibodies against factor VIII do not block it, and it is given under the skin. Hemophilia A is X-linked, accounts for about 80% of hemophilia, and prolongs the PTT with a normal PT and platelet count. Severe disease means factor activity below 1%, and about 30% of patients with severe hemophilia A develop inhibitors. Recent change: other non-factor drugs now act on natural anticoagulants instead, as in options B and C.",
+      "whyWrong": {
+        "b": "Lowering antithrombin is how fitusiran works, a different non-factor treatment that removes a natural anticoagulant.",
+        "c": "Blocking tissue factor pathway inhibitor is how concizumab works, another non-factor treatment that removes a natural brake on clotting.",
+        "d": "Desmopressin releases stored factor VIII and von Willebrand factor, but it helps only mild hemophilia A, not severe disease with factor below 1%.",
+        "e": "Blocking complement C5 treats paroxysmal nocturnal hemoglobinuria and has no role in hemophilia."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Hemophilia",
+          "url": "https://www.msdmanuals.com/professional/hematology-and-oncology/coagulation-disorders/hemophilia"
+        },
+        {
+          "title": "MSD Manual Professional: Paroxysmal Nocturnal Hemoglobinuria (PNH)",
+          "url": "https://www.msdmanuals.com/professional/hematology-and-oncology/anemias-caused-by-hemolysis/paroxysmal-nocturnal-hemoglobinuria-pnh"
+        }
+      ]
+    },
+    {
+      "id": "heme-vwd-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Von Willebrand disease",
+      "difficulty": 1,
+      "stem": "A 16-year-old girl comes to the physician because of heavy menstrual periods since menarche, frequent nosebleeds, and bleeding for a day after a tooth extraction. Her mother has similar symptoms. Platelet count is 260,000/mm3. Prothrombin time is normal, and partial thromboplastin time is slightly prolonged.",
+      "leadIn": "Further testing is most likely to show a low level of which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Von Willebrand factor antigen"
+        },
+        {
+          "id": "b",
+          "text": "Factor IX activity"
+        },
+        {
+          "id": "c",
+          "text": "Platelet count on repeat testing"
+        },
+        {
+          "id": "d",
+          "text": "Fibrinogen"
+        },
+        {
+          "id": "e",
+          "text": "Factor VII activity"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: von Willebrand factor antigen (von Willebrand disease). Why: lifelong mucosal bleeding (heavy periods, nosebleeds, bleeding after dental work) in a girl whose mother is affected, with a normal platelet count, points to von Willebrand disease. Type 1 is the most common and is autosomal dominant, with a low amount of normal von Willebrand factor. Von Willebrand factor helps platelets stick to injured vessels and carries factor VIII in the blood, so factor VIII falls too and the PTT can be mildly long. Testing measures von Willebrand factor antigen, its activity, and factor VIII. Desmopressin releases stored factor and helps type 1, but it does not work in types 2 and 3 and can worsen type 2B. Other source: your Heme-Onc notes (El-Husseiny, p. 23) list an increased bleeding time for von Willebrand disease. MSD Manual says bleeding time testing is unreliable and no longer done, so expect von Willebrand factor tests instead.",
+      "whyWrong": {
+        "b": "Low factor IX is hemophilia B, which is X-linked and mostly affects males with joint and muscle bleeding.",
+        "c": "Her platelet count is normal, and the bleeding pattern with an affected mother points to a problem with platelet adhesion, not platelet number.",
+        "d": "Low fibrinogen would prolong both the PT and the PTT, and it is rare as an inherited cause of heavy periods.",
+        "e": "Low factor VII would prolong the PT, which is normal here."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Von Willebrand Disease",
+          "url": "https://www.msdmanuals.com/professional/hematology/thrombocytopenia-and-platelet-dysfunction/von-willebrand-disease"
+        },
+        {
+          "title": "MSD Manual Professional: Hemophilia",
+          "url": "https://www.msdmanuals.com/professional/hematology-and-oncology/coagulation-disorders/hemophilia"
+        }
+      ]
+    },
+    {
+      "id": "heme-itp-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Immune thrombocytopenia (ITP)",
+      "difficulty": 1,
+      "stem": "A 5-year-old girl is brought to the physician because of tiny red spots on her legs and bruises on her arms for 2 days. She had a cold 3 weeks ago and now feels well. She is afebrile. There are scattered petechiae and ecchymoses. There is no lymph node, liver, or spleen enlargement. Hemoglobin is 12.5 g/dL, leukocyte count is 7,800/mm3 with a normal differential, and platelet count is 9,000/mm3. A blood smear shows a few large platelets and no other abnormal cells.",
+      "leadIn": "Which of the following best explains her low platelet count?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Splenic removal of antibody-coated platelets"
+        },
+        {
+          "id": "b",
+          "text": "Marrow replacement by leukemic blasts"
+        },
+        {
+          "id": "c",
+          "text": "Platelet clumping in microvascular clots"
+        },
+        {
+          "id": "d",
+          "text": "Consumption from widespread clotting activation"
+        },
+        {
+          "id": "e",
+          "text": "Pooling of platelets in an enlarged spleen"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: removal of antibody-coated platelets in the spleen (immune thrombocytopenia, ITP). Why: a well child with sudden bruising and petechiae a few weeks after a viral illness, a very low platelet count, and an otherwise normal blood count and smear has ITP. Autoantibodies coat the platelets, and macrophages in the spleen remove them early. The marrow responds by making more, so the platelets on the smear are often large. In children it often follows a viral infection and usually resolves on its own. Treatment, when needed, includes glucocorticoids or IV immune globulin. Recent change: for ITP that persists, options now include thrombopoietin receptor agonists, rituximab, fostamatinib, and rilzabrutinib, and splenectomy is often not necessary.",
+      "whyWrong": {
+        "b": "Leukemia would usually also lower the hemoglobin or white cells and might show blasts on the smear. Her other counts are normal.",
+        "c": "Platelet clumping in small clots is the mechanism of thrombotic thrombocytopenic purpura, which also causes hemolytic anemia with fragmented red cells.",
+        "d": "Consumption from widespread clotting is disseminated intravascular coagulation, which happens in very sick patients and prolongs clotting times.",
+        "e": "Pooling in a large spleen requires splenomegaly, and her spleen is not enlarged."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Immune Thrombocytopenia (ITP)",
+          "url": "https://www.msdmanuals.com/professional/hematology-and-oncology/thrombocytopenia-and-platelet-dysfunction/immune-thrombocytopenia-itp"
+        },
+        {
+          "title": "MSD Manual Professional: Thrombotic Thrombocytopenic Purpura (TTP)",
+          "url": "https://www.msdmanuals.com/professional/hematology-and-oncology/thrombocytopenia-and-platelet-dysfunction/thrombotic-thrombocytopenic-purpura-ttp"
+        },
+        {
+          "title": "MSD Manual Professional: Disseminated Intravascular Coagulation (DIC)",
+          "url": "https://www.msdmanuals.com/professional/hematology-and-oncology/coagulation-disorders/disseminated-intravascular-coagulation-dic"
+        }
+      ]
+    },
+    {
+      "id": "heme-ttp-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Thrombotic thrombocytopenic purpura (TTP)",
+      "difficulty": 2,
+      "stem": "A 38-year-old woman is brought to the emergency department because of confusion and slurred speech for 1 day. She has had fatigue and easy bruising for a week. Her temperature is 37.1°C. There are scattered petechiae. Hemoglobin is 7.8 g/dL, platelet count is 14,000/mm3, LDH is markedly increased, and haptoglobin is undetectable. A blood smear shows many fragmented red cells (schistocytes). Direct antiglobulin test is negative. Prothrombin time and partial thromboplastin time are normal. Serum creatinine is 1.1 mg/dL.",
+      "leadIn": "Which of the following is the most likely underlying cause of her condition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Autoantibody against ADAMTS13"
+        },
+        {
+          "id": "b",
+          "text": "Shiga toxin injuring the endothelium"
+        },
+        {
+          "id": "c",
+          "text": "Autoantibody against red cell surface antigens"
+        },
+        {
+          "id": "d",
+          "text": "Consumption of clotting factors in DIC"
+        },
+        {
+          "id": "e",
+          "text": "Loss of complement-regulating proteins on red cells"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: autoantibody against ADAMTS13 (thrombotic thrombocytopenic purpura, TTP). Why: anemia with schistocytes, a very low platelet count, brain symptoms, and normal clotting times is TTP. Most adult cases are caused by an autoantibody that blocks ADAMTS13, the enzyme that cuts very large von Willebrand factor strands. Without it, the long strands catch platelets and form clots in small vessels, which shear red cells and injure the brain. ADAMTS13 activity below 10% supports the diagnosis. The direct antiglobulin test is negative because the red cells are broken mechanically, not by antibody. Severe kidney failure is rare, unlike in hemolytic-uremic syndrome. Treatment is urgent plasma exchange with glucocorticoids and rituximab; caplacizumab is used only rarely. Other source: your Heme-Onc notes (El-Husseiny, p. 16) list fever among the findings, following the classic teaching. MSD Manual says fever does not usually occur, so do not wait for fever to make the diagnosis.",
+      "whyWrong": {
+        "b": "Shiga toxin causes hemolytic-uremic syndrome, usually after bloody diarrhea, with prominent kidney failure.",
+        "c": "Autoantibodies against red cells cause autoimmune hemolytic anemia, which gives a positive direct antiglobulin test and spherocytes rather than schistocytes.",
+        "d": "Disseminated intravascular coagulation uses up clotting factors and prolongs the PT and PTT. Hers are normal.",
+        "e": "Loss of complement-regulating proteins is paroxysmal nocturnal hemoglobinuria, which does not cause schistocytes with this pattern."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Thrombotic Thrombocytopenic Purpura (TTP)",
+          "url": "https://www.msdmanuals.com/professional/hematology-and-oncology/thrombocytopenia-and-platelet-dysfunction/thrombotic-thrombocytopenic-purpura-ttp"
+        },
+        {
+          "title": "MSD Manual Professional: Overview of Hemolytic Anemia",
+          "url": "https://www.msdmanuals.com/professional/hematology/anemias-caused-by-hemolysis/overview-of-hemolytic-anemia"
+        },
+        {
+          "title": "MSD Manual Professional: Paroxysmal Nocturnal Hemoglobinuria (PNH)",
+          "url": "https://www.msdmanuals.com/professional/hematology-and-oncology/anemias-caused-by-hemolysis/paroxysmal-nocturnal-hemoglobinuria-pnh"
+        },
+        {
+          "title": "MSD Manual Professional: Disseminated Intravascular Coagulation (DIC)",
+          "url": "https://www.msdmanuals.com/professional/hematology-and-oncology/coagulation-disorders/disseminated-intravascular-coagulation-dic"
+        }
+      ]
+    },
+    {
+      "id": "heme-dic-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Disseminated intravascular coagulation (DIC)",
+      "difficulty": 2,
+      "stem": "A 34-year-old woman at 35 weeks' gestation is brought to the emergency department because of sudden severe abdominal pain and vaginal bleeding. The uterus is firm and tender. Shortly afterward, she begins oozing blood from her IV sites and gums. Platelet count is 48,000/mm3. Prothrombin time and partial thromboplastin time are prolonged, fibrinogen is low, and D-dimer is markedly increased. A blood smear shows a few fragmented red cells.",
+      "leadIn": "Which of the following best explains her bleeding?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Consumption of platelets and clotting factors"
+        },
+        {
+          "id": "b",
+          "text": "Antibody destruction of platelets in the spleen"
+        },
+        {
+          "id": "c",
+          "text": "Deficiency of vitamin K-dependent factors"
+        },
+        {
+          "id": "d",
+          "text": "Inherited lack of von Willebrand factor"
+        },
+        {
+          "id": "e",
+          "text": "An inhibitor antibody against factor VIII"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: consumption of platelets and clotting factors (disseminated intravascular coagulation, DIC). Why: placental abruption releases tissue factor into the mother's blood. Tissue factor sets off clotting throughout the small vessels, which uses up platelets and clotting factors faster than the body can replace them. The result is bleeding from many sites at once, with a low platelet count, long PT and PTT, low fibrinogen, and high D-dimer from broken-down clots. Fragmented red cells come from the small clots. Treatment is to fix the cause, here delivery, and to replace what was used up. Factor VIII helps tell DIC from liver disease: it is low in DIC but normal or even high in liver disease.",
+      "whyWrong": {
+        "b": "Antibody destruction in the spleen is immune thrombocytopenia, which lowers platelets but leaves PT, PTT, and fibrinogen normal.",
+        "c": "Vitamin K deficiency prolongs the PT and PTT, but platelets and fibrinogen stay normal and D-dimer is not raised.",
+        "d": "Inherited von Willebrand disease causes lifelong mucosal bleeding, not sudden bleeding from every site with low fibrinogen.",
+        "e": "A factor VIII inhibitor prolongs the PTT alone. It would not lower platelets or fibrinogen."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Disseminated Intravascular Coagulation (DIC)",
+          "url": "https://www.msdmanuals.com/professional/hematology-and-oncology/coagulation-disorders/disseminated-intravascular-coagulation-dic"
+        },
+        {
+          "title": "MSD Manual Professional: Immune Thrombocytopenia (ITP)",
+          "url": "https://www.msdmanuals.com/professional/hematology-and-oncology/thrombocytopenia-and-platelet-dysfunction/immune-thrombocytopenia-itp"
+        },
+        {
+          "title": "MSD Manual Professional: Von Willebrand Disease",
+          "url": "https://www.msdmanuals.com/professional/hematology/thrombocytopenia-and-platelet-dysfunction/von-willebrand-disease"
+        },
+        {
+          "title": "MSD Manual Professional: Hemophilia",
+          "url": "https://www.msdmanuals.com/professional/hematology-and-oncology/coagulation-disorders/hemophilia"
+        }
+      ]
+    },
+    {
+      "id": "heme-factor-v-leiden-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Inherited thrombophilia: factor V Leiden",
+      "difficulty": 1,
+      "stem": "A 26-year-old woman comes to the emergency department because of pain and swelling in her left calf for 3 days. She started a combined estrogen-progestin oral contraceptive 4 months ago. Her father had a pulmonary embolism at age 40. Duplex ultrasonography shows a deep vein thrombosis in the left popliteal vein. Later testing shows that adding activated protein C to her plasma does not prolong its clotting time as it should.",
+      "leadIn": "Which of the following is the most likely underlying mechanism of her clotting tendency?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Factor V resists inactivation by protein C"
+        },
+        {
+          "id": "b",
+          "text": "Antithrombin is reduced in amount"
+        },
+        {
+          "id": "c",
+          "text": "Prothrombin is made in excess"
+        },
+        {
+          "id": "d",
+          "text": "Platelets lack glycoprotein IIb/IIIa"
+        },
+        {
+          "id": "e",
+          "text": "Antibodies bind phospholipid-binding proteins"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: factor V resists inactivation by activated protein C (factor V Leiden). Why: a young woman with a deep vein thrombosis after starting estrogen, with a family history of clots, most likely has an inherited thrombophilia. Factor V Leiden is the most common one. A single change in factor V stops activated protein C from cutting and switching it off, so clotting keeps going. That is why adding activated protein C fails to prolong her plasma clotting time (activated protein C resistance). About 5% of White Americans carry the mutation. It raises the risk of venous clots, especially with estrogen, but it is not a risk factor for arterial clots. A clotting-based resistance assay screens for it, and a DNA test confirms it.",
+      "whyWrong": {
+        "b": "Antithrombin deficiency is another inherited thrombophilia, but it would not cause resistance to activated protein C.",
+        "c": "Prothrombin gene mutation raises the prothrombin level and the risk of venous clots, but the plasma still responds to activated protein C.",
+        "d": "Lack of glycoprotein IIb/IIIa (Glanzmann thrombasthenia) makes platelets unable to clump, causing bleeding rather than clots.",
+        "e": "Antiphospholipid antibodies cause clots and pregnancy loss, but they do not cause the specific failure of activated protein C to work on factor V."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Factor V Resistance to Activated Protein C (APC)",
+          "url": "https://www.msdmanuals.com/professional/hematology-and-oncology/thrombotic-disorders/factor-v-resistance-to-activated-protein-c-apc"
+        }
+      ]
+    },
+    {
+      "id": "heme-g6pd-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "Blood & Lymphoreticular",
+      "topic": "G6PD deficiency",
+      "difficulty": 2,
+      "stem": "A 24-year-old African American man is brought to the physician because of fatigue and dark urine for 2 days. Five days ago, he started dapsone to prevent Pneumocystis pneumonia. He has mild jaundice. Hemoglobin is 8.4 g/dL, reticulocyte count is 7%, LDH and indirect bilirubin are increased, and haptoglobin is low. A blood smear shows red cells that look as if a bite has been taken out of them, and a special stain shows small round inclusions inside red cells.",
+      "leadIn": "A defect in which of the following pathways is most likely responsible for this patient's anemia?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hexose monophosphate shunt"
+        },
+        {
+          "id": "b",
+          "text": "Glycolysis at the pyruvate kinase step"
+        },
+        {
+          "id": "c",
+          "text": "Heme synthesis in the mitochondria"
+        },
+        {
+          "id": "d",
+          "text": "Red cell membrane spectrin assembly"
+        },
+        {
+          "id": "e",
+          "text": "GPI anchor synthesis in marrow stem cells"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the hexose monophosphate (pentose phosphate) shunt, that is G6PD deficiency. Why: sudden hemolysis a few days after starting an oxidant drug, with bite cells and inclusions of clumped hemoglobin (Heinz bodies), is G6PD deficiency. G6PD is the first enzyme of the hexose monophosphate shunt and makes NADPH. Red cells need NADPH to keep glutathione in its active form, which protects hemoglobin and the membrane from oxidant damage. Without it, oxidized hemoglobin clumps into Heinz bodies, which spleen macrophages bite out of the cells. G6PD deficiency is X-linked and affects more than 10% of African American males. Triggers include dapsone, primaquine, rasburicase, and methylene blue, as well as infection. G6PD levels can look falsely normal during an episode, because the oldest, most deficient cells have already been destroyed, so testing is repeated weeks later.",
+      "whyWrong": {
+        "b": "Pyruvate kinase deficiency is a glycolysis defect that causes ongoing hemolysis from birth, not sudden hemolysis after an oxidant drug.",
+        "c": "Heme synthesis defects cause sideroblastic anemia or porphyrias, not drug-triggered hemolysis with bite cells.",
+        "d": "Spectrin defects cause hereditary spherocytosis, which shows spherocytes rather than bite cells and Heinz bodies.",
+        "e": "Loss of GPI anchors causes paroxysmal nocturnal hemoglobinuria, in which complement attacks red cells. It is not triggered by oxidant drugs."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Glucose-6-Phosphate Dehydrogenase (G6PD) Deficiency",
+          "url": "https://www.msdmanuals.com/en-in/professional/hematology-and-oncology/anemias-caused-by-hemolysis/glucose-6-phosphate-dehydrogenase-g6pd-deficiency"
+        },
+        {
+          "title": "MSD Manual Professional: Overview of Hemolytic Anemia",
+          "url": "https://www.msdmanuals.com/professional/hematology/anemias-caused-by-hemolysis/overview-of-hemolytic-anemia"
+        },
+        {
+          "title": "MSD Manual Professional: Paroxysmal Nocturnal Hemoglobinuria (PNH)",
+          "url": "https://www.msdmanuals.com/professional/hematology-and-oncology/anemias-caused-by-hemolysis/paroxysmal-nocturnal-hemoglobinuria-pnh"
+        }
+      ]
+    },
+    {
+      "id": "heme-pnh-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Paroxysmal nocturnal hemoglobinuria (PNH)",
+      "difficulty": 3,
+      "stem": "A 35-year-old man comes to the physician because of fatigue and episodes of dark urine, most noticeable in the morning, for 6 months. Last month he was treated for a clot in his hepatic veins. Hemoglobin is 8.8 g/dL, leukocyte count is 3,600/mm3, platelet count is 105,000/mm3, LDH is markedly increased, and haptoglobin is undetectable. Direct antiglobulin test is negative. Flow cytometry shows that many of his red cells and granulocytes lack CD55 and CD59.",
+      "leadIn": "Which of the following best explains his hemolysis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Complement attack on GPI-deficient cells"
+        },
+        {
+          "id": "b",
+          "text": "Warm IgG autoantibodies against red cell antigens"
+        },
+        {
+          "id": "c",
+          "text": "Oxidant damage from a lack of NADPH"
+        },
+        {
+          "id": "d",
+          "text": "Mechanical shearing on small-vessel clots"
+        },
+        {
+          "id": "e",
+          "text": "Loss of spectrin from the red cell membrane"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: complement attack on cells that lack GPI-anchored complement regulators (paroxysmal nocturnal hemoglobinuria, PNH). Why: hemolysis with a negative direct antiglobulin test, a clot in an unusual site such as the hepatic veins, low counts of other cell lines, and cells missing CD55 and CD59 is PNH. An acquired mutation in PIGA in a blood stem cell blocks the making of the GPI anchor that holds CD55 and CD59 on the cell surface. These proteins normally stop complement, so without them complement destroys red cells inside the vessels. Only about 30% of patients notice dark urine. Flow cytometry, including the FLAER test, confirms it. PNH is linked to aplastic anemia. Recent change: besides the C5 blockers eculizumab and ravulizumab, newer drugs block C3 (pegcetacoplan), factor B (iptacopan), and factor D (danicopan). Patients need meningococcal vaccination at least 2 weeks before complement-blocking therapy.",
+      "whyWrong": {
+        "b": "Warm IgG autoantibodies cause autoimmune hemolytic anemia, which gives a positive direct antiglobulin test. His test is negative.",
+        "c": "Lack of NADPH from G6PD deficiency causes hemolysis after oxidant drugs or infection, with bite cells and Heinz bodies.",
+        "d": "Shearing on small clots causes schistocytes in conditions such as TTP and DIC, which would not explain missing CD55 and CD59.",
+        "e": "Spectrin loss is hereditary spherocytosis, an inherited red cell disorder that does not lower white cells or platelets."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Paroxysmal Nocturnal Hemoglobinuria (PNH)",
+          "url": "https://www.msdmanuals.com/professional/hematology-and-oncology/anemias-caused-by-hemolysis/paroxysmal-nocturnal-hemoglobinuria-pnh"
+        },
+        {
+          "title": "MSD Manual Professional: Overview of Hemolytic Anemia",
+          "url": "https://www.msdmanuals.com/professional/hematology/anemias-caused-by-hemolysis/overview-of-hemolytic-anemia"
+        },
+        {
+          "title": "MSD Manual Professional: Glucose-6-Phosphate Dehydrogenase (G6PD) Deficiency",
+          "url": "https://www.msdmanuals.com/en-in/professional/hematology-and-oncology/anemias-caused-by-hemolysis/glucose-6-phosphate-dehydrogenase-g6pd-deficiency"
+        }
+      ]
+    },
+    {
+      "id": "heme-lead-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Lead poisoning",
+      "difficulty": 1,
+      "stem": "A 2-year-old boy is brought to the physician because of irritability, poor appetite, and stomach pain for 1 month. He plays less than before. His family lives in a house built in 1955 that is being renovated, and he has been seen putting paint chips in his mouth. Hemoglobin is 9.8 g/dL with a mean corpuscular volume of 72 fL. A blood smear shows red cells with fine blue dots spread through the cytoplasm. A fingerstick (capillary) lead screen is high.",
+      "leadIn": "Which of the following is the most appropriate next step to confirm the diagnosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Venous blood lead level"
+        },
+        {
+          "id": "b",
+          "text": "Hemoglobin electrophoresis"
+        },
+        {
+          "id": "c",
+          "text": "Serum ferritin concentration"
+        },
+        {
+          "id": "d",
+          "text": "Bone marrow biopsy"
+        },
+        {
+          "id": "e",
+          "text": "X-ray of the knees"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: measure a venous blood lead level. Why: a toddler in an older house that is being remodeled who eats paint chips, with irritability, belly pain, less play, microcytic anemia, and basophilic stippling (fine blue dots in red cells), most likely has lead poisoning. Houses painted before 1978 carry the greatest risk, especially during remodeling. A capillary (fingerstick) test is good for screening, but every positive result should be confirmed with a blood lead level, and CDC recommends a venous draw for that confirmation. The diagnosis is definite at 3.5 mcg/dL or higher. Weeks of irritability and less play can come before lead encephalopathy, which is an emergency. Children with very high levels receive chelation, such as succimer by mouth.",
+      "whyWrong": {
+        "b": "Hemoglobin electrophoresis looks for thalassemia or sickle cell disease. It would not confirm lead exposure.",
+        "c": "Serum ferritin checks iron stores. Iron deficiency often coexists with lead exposure, but ferritin does not confirm lead poisoning.",
+        "d": "Bone marrow biopsy is invasive and not needed when a blood test can confirm the diagnosis.",
+        "e": "Knee x-rays can show lead lines at the ends of long bones, but they are supportive. The blood lead level confirms the diagnosis."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Lead Poisoning",
+          "url": "https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/lead-poisoning"
+        },
+        {
+          "title": "CDC: Recommended Actions Based on Blood Lead Level",
+          "url": "https://www.cdc.gov/lead-prevention/hcp/clinical-guidance/index.html"
+        }
+      ]
+    },
+    {
+      "id": "heme-spherocytes-dat-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Hemolytic anemia: spherocytes and the direct antiglobulin test",
+      "difficulty": 2,
+      "stem": "A 28-year-old woman comes to the physician because of fatigue and yellow eyes for 2 weeks. She has had no prior anemia, and no one in her family has had anemia, gallstones, or splenectomy. She has not had a transfusion. Hemoglobin is 7.9 g/dL, reticulocyte count is 9%, LDH and indirect bilirubin are increased, and haptoglobin is low. A blood smear shows many small, round red cells without central pallor.",
+      "leadIn": "Which of the following tests best distinguishes between the two most likely causes of these red cell changes?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Direct antiglobulin (Coombs) test"
+        },
+        {
+          "id": "b",
+          "text": "Osmotic fragility test"
+        },
+        {
+          "id": "c",
+          "text": "Hemoglobin electrophoresis"
+        },
+        {
+          "id": "d",
+          "text": "Glucose-6-phosphate dehydrogenase level"
+        },
+        {
+          "id": "e",
+          "text": "Serum iron and ferritin"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the direct antiglobulin (Coombs) test. Why: anemia with high reticulocytes, high LDH and indirect bilirubin, and low haptoglobin means hemolysis. Many spherocytes on the smear point to either hereditary spherocytosis or autoimmune hemolytic anemia (warm antibody type). The direct antiglobulin test tells them apart: it is positive in autoimmune hemolytic anemia, where IgG coats the red cells, and negative in hereditary spherocytosis, where the defect is in the red cell membrane proteins. Her new symptoms in adulthood and empty family history favor the autoimmune cause. If she had been transfused in the last 3 months, a positive result could instead reflect antibodies against donor cells. Warm autoimmune hemolysis is treated first with glucocorticoids.",
+      "whyWrong": {
+        "b": "Osmotic fragility is abnormal in both hereditary spherocytosis and autoimmune hemolytic anemia, because both have spherocytes. It does not separate them.",
+        "c": "Hemoglobin electrophoresis detects abnormal hemoglobins such as sickle hemoglobin. It does not explain spherocytes.",
+        "d": "G6PD deficiency causes bite cells and Heinz bodies after an oxidant trigger, not a smear full of spherocytes.",
+        "e": "Iron studies evaluate microcytic anemia from low iron. They do not distinguish causes of hemolysis."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Overview of Hemolytic Anemia",
+          "url": "https://www.msdmanuals.com/professional/hematology/anemias-caused-by-hemolysis/overview-of-hemolytic-anemia"
+        }
+      ]
     }
   ]
 }
