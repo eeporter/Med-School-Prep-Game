@@ -15172,7 +15172,7 @@
         "b": "Fibrocystin is the protein of autosomal recessive polycystic kidney disease, which usually shows up in infants (standard teaching), not the chromosome 16 adult disease.",
         "c": "The alpha-5 chain of type IV collagen is the X-linked Alport gene, which causes nephritis with deafness, not cysts (your El-Husseiny nephrology notes, p. 83).",
         "d": "Tuberin is the TSC2 gene product in tuberous sclerosis, which can cause kidney cysts but also skin, brain, and heart lesions (standard teaching).",
-        "e": "The VHL gene is on chromosome 3 and causes von Hippel-Lindau disease with kidney cysts and renal cell cancer (your El-Husseiny nephrology notes, p. 135)."
+        "e": "The VHL gene is on chromosome 3 and causes von Hippel-Lindau disease with renal cell cancer (your El-Husseiny nephrology notes, p. 135) and kidney cysts (standard teaching)."
       },
       "sources": [
         {
@@ -15493,6 +15493,1032 @@
         {
           "title": "MSD Manual Professional: Renal Atheroembolism",
           "url": "https://www.msdmanuals.com/professional/nephrology/renovascular-disorders/renal-atheroembolism"
+        }
+      ]
+    },
+    {
+      "id": "psych-prolonged-grief-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Behavioral Science",
+      "system": "Behavioral Health",
+      "topic": "Grief: prolonged grief disorder",
+      "difficulty": 2,
+      "stem": "A 58-year-old woman comes to the physician because she cannot get back to her life since her husband died suddenly 14 months ago. Nearly every day for the past several months, she has longed intensely for him. She says it feels as if part of her died with him, she still cannot believe he is gone, and she avoids the park where they walked. She has stopped going to her book club and feels that life has no meaning without him. Her family says her grief is far longer and deeper than is usual in their community. Outside of thoughts about him, she enjoys her grandchildren and does not feel worthless.",
+      "leadIn": "Which of the following is the most likely diagnosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Prolonged grief disorder"
+        },
+        {
+          "id": "b",
+          "text": "Normal (uncomplicated) grief"
+        },
+        {
+          "id": "c",
+          "text": "Major depressive disorder"
+        },
+        {
+          "id": "d",
+          "text": "Adjustment disorder"
+        },
+        {
+          "id": "e",
+          "text": "Posttraumatic stress disorder"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: prolonged grief disorder. Why: DSM-5-TR (pp. 322-323) requires a close person's death at least 12 months earlier (6 months for children and adolescents). For at least the last month, the person has had, nearly every day, intense yearning for the person or preoccupation with them. At least 3 of 8 other symptoms are also present, such as feeling that part of oneself has died, disbelief, avoiding reminders, intense emotional pain, trouble rejoining activities, emotional numbness, feeling that life is meaningless, and intense loneliness. The reaction must cause distress or impairment and clearly exceed cultural norms. She has yearning plus at least 5 of these symptoms, 14 months after the death. Prolonged grief disorder was added in the DSM-5-TR (2022) (standard teaching).",
+      "whyWrong": {
+        "b": "Normal grief can be intense, but hers is past 12 months, impairs her, and clearly exceeds the norms of her community, which defines the disorder (DSM-5-TR, p. 323).",
+        "c": "Major depressive disorder involves low mood or loss of pleasure that spreads beyond thoughts of the loss, often with worthlessness; she still enjoys her grandchildren and does not feel worthless (standard teaching).",
+        "d": "Adjustment disorder is used when a stress reaction fits no more specific diagnosis; her picture fits prolonged grief exactly (standard teaching).",
+        "e": "PTSD centers on intrusive memories, nightmares, and hyperarousal tied to a traumatic event, not yearning for the person who died (MSD PTSD)."
+      },
+      "sources": [
+        {
+          "title": "DSM-5-TR (Emily's file), Prolonged grief disorder, pp. 322-323"
+        },
+        {
+          "title": "MSD Manual Professional: Posttraumatic Stress Disorder (PTSD)",
+          "url": "https://www.msdmanuals.com/professional/psychiatric-disorders/anxiety-and-trauma-and-stressor-related-disorders/posttraumatic-stress-disorder-ptsd"
+        }
+      ]
+    },
+    {
+      "id": "psych-schizophreniform-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Behavioral Science",
+      "system": "Behavioral Health",
+      "topic": "Psychotic disorders: schizophreniform disorder",
+      "difficulty": 2,
+      "stem": "A 22-year-old man is brought to the physician by his parents because he has been acting strangely for 10 weeks. He says that the FBI has put a chip in his tooth and that he hears two voices commenting on what he does. He has stopped showering and speaks very little, with a flat face. He has had no episodes of depression or mania. Urine toxicology screen is negative, and physical examination and laboratory studies are normal. Before these 10 weeks, he was doing well in college.",
+      "leadIn": "Which of the following is the most likely diagnosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Schizophreniform disorder"
+        },
+        {
+          "id": "b",
+          "text": "Brief psychotic disorder"
+        },
+        {
+          "id": "c",
+          "text": "Schizophrenia"
+        },
+        {
+          "id": "d",
+          "text": "Delusional disorder"
+        },
+        {
+          "id": "e",
+          "text": "Bipolar I disorder with psychotic features"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: schizophreniform disorder. Why: DSM-5-TR (p. 111) requires 2 or more core symptoms (delusions, hallucinations, disorganized speech, disorganized or catatonic behavior, negative symptoms), at least one of them delusions, hallucinations, or disorganized speech, for an episode of 1 month or longer but shorter than 6 months. MSD likewise defines it as schizophrenia-like symptoms lasting at least 1 month and under 6 months; beyond 6 months the diagnosis is likely schizophrenia, and treatment is antipsychotics with supportive care, continued for at least 12 months after symptoms resolve. Mood disorders with psychosis must be ruled out. If the person has not yet recovered, the diagnosis is called provisional. He has delusions, hallucinations, and negative symptoms (flat affect, little speech, poor self-care) for 10 weeks. Schizophrenia requires the disturbance to last at least 6 months (DSM-5-TR, pp. 113-114).",
+      "whyWrong": {
+        "b": "Brief psychotic disorder lasts less than 1 month; once psychotic symptoms last 1 month or longer, another diagnosis applies (DSM-5-TR, p. 111).",
+        "c": "Schizophrenia needs continuous signs for at least 6 months (DSM-5-TR, p. 114); he has had symptoms for only 10 weeks.",
+        "d": "Delusional disorder involves delusions without prominent hallucinations or negative symptoms, and functioning is usually intact (standard teaching).",
+        "e": "He has had no manic or depressive episodes, which must be ruled out before diagnosing schizophreniform disorder (DSM-5-TR, p. 111)."
+      },
+      "sources": [
+        {
+          "title": "DSM-5-TR (Emily's file), Schizophreniform disorder, p. 111; schizophrenia, pp. 113-114"
+        },
+        {
+          "title": "MSD Manual Professional: Schizophreniform Disorder",
+          "url": "https://www.msdmanuals.com/professional/psychiatric-disorders/schizophrenia-and-related-disorders/schizophreniform-disorder"
+        }
+      ]
+    },
+    {
+      "id": "psych-fnd-hoover-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Behavioral Science",
+      "system": "Behavioral Health",
+      "topic": "Somatic symptom disorders: functional neurological symptom disorder",
+      "difficulty": 2,
+      "stem": "A 27-year-old woman is brought to the emergency department because she suddenly could not move her right leg after an argument with her partner 6 hours ago. She lies on the stretcher and cannot push her right heel down into the examiner's hand. When she is asked to lift her left leg against resistance, her right hip pushes down with full strength. Reflexes and sensation are normal, and the toes point down when the soles are stroked. MRI of the brain and spine is normal. She is not seeking time off work or money, and nothing suggests she is faking the weakness.",
+      "leadIn": "Which of the following is the most likely diagnosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Functional neurological symptom disorder"
+        },
+        {
+          "id": "b",
+          "text": "Factitious disorder imposed on self"
+        },
+        {
+          "id": "c",
+          "text": "Malingering"
+        },
+        {
+          "id": "d",
+          "text": "Multiple sclerosis"
+        },
+        {
+          "id": "e",
+          "text": "Illness anxiety disorder, care-seeking type"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: functional neurological symptom disorder (conversion disorder). Why: the finding is Hoover's sign. DSM-5-TR (p. 362) describes it as weak hip extension that returns to normal strength when the other hip flexes against resistance. It is a positive sign showing that the weakness does not fit known neurological disease. The diagnosis is not made just because tests are normal, and it can coexist with neurological disease. DSM-5-TR (p. 363) says la belle indifférence (lack of concern about the symptom) is not specific enough to diagnose it, and that about 1 in 5 people with functional seizures also have epilepsy. MSD says the symptoms develop without conscious intent, often start suddenly after stress, and affect women in 60 to 80% of cases. Explaining the diagnosis is a key treatment, and cognitive behavioral therapy and physical therapy help some people (MSD).",
+      "whyWrong": {
+        "b": "Factitious disorder requires deliberate falsification with deception, even without external reward (DSM-5-TR, pp. 367-368); nothing here suggests she is faking.",
+        "c": "Malingering is intentional feigning for an external incentive such as money, avoiding work, or drugs (DSM-5-TR, p. 835); she seeks no gain.",
+        "d": "Multiple sclerosis would show upper motor neuron signs and lesions on MRI; Hoover's sign shows the weakness does not match neurological disease (standard teaching).",
+        "e": "Illness anxiety disorder is worry about having a serious illness with few or no symptoms; she has a sudden, clear deficit (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "DSM-5-TR (Emily's file), Functional neurological symptom disorder, pp. 362-363"
+        },
+        {
+          "title": "MSD Manual Professional: Functional Neurological Symptom Disorder",
+          "url": "https://www.msdmanuals.com/professional/psychiatric-disorders/somatic-symptom-and-related-disorders/functional-neurological-symptom-disorder"
+        }
+      ]
+    },
+    {
+      "id": "psych-malingering-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Behavioral Science",
+      "system": "Behavioral Health",
+      "topic": "Malingering vs factitious disorder",
+      "difficulty": 1,
+      "stem": "A 35-year-old man is referred by his attorney for evaluation of severe neck pain after a minor car crash 4 months ago. He has a lawsuit pending against the other driver. He says he cannot turn his head at all and cannot work. In the waiting room, he was seen turning his head freely to talk to the man next to him. He refuses to sign a release for his previous medical records. Neurologic examination and imaging are normal.",
+      "leadIn": "Which of the following is the most likely explanation for his symptoms?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Malingering"
+        },
+        {
+          "id": "b",
+          "text": "Factitious disorder imposed on self"
+        },
+        {
+          "id": "c",
+          "text": "Functional neurological symptom disorder"
+        },
+        {
+          "id": "d",
+          "text": "Somatic symptom disorder"
+        },
+        {
+          "id": "e",
+          "text": "Illness anxiety disorder"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: malingering. Why: DSM-5-TR (p. 835) describes malingering as intentionally producing false or grossly exaggerated symptoms for an external incentive, such as money, avoiding work or military duty, evading prosecution, or getting drugs. It should be strongly suspected with a medicolegal context (such as referral by an attorney), a large gap between claimed disability and objective findings, poor cooperation, or antisocial personality disorder. He has all of the first three. MSD contrasts this with factitious disorder, in which the deception is deliberate but the aim is to take on the sick role, with no obvious external incentive such as money or time off work. Malingering is not itself a mental disorder (standard teaching).",
+      "whyWrong": {
+        "b": "Factitious disorder is deception without an obvious external reward (DSM-5-TR, p. 835); his pending lawsuit is an external reward.",
+        "c": "Functional neurological symptom disorder is not intentionally produced, and the external incentive here points away from it (DSM-5-TR, p. 835).",
+        "d": "Somatic symptom disorder involves real distress and excessive worry about symptoms, not deliberate exaggeration for gain (standard teaching).",
+        "e": "Illness anxiety disorder is fear of having a serious disease with few symptoms, not feigned disability (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "DSM-5-TR (Emily's file), Malingering, p. 835"
+        },
+        {
+          "title": "MSD Manual Professional: Factitious Disorder Imposed on Self",
+          "url": "https://www.msdmanuals.com/professional/psychiatric-disorders/somatic-symptom-and-related-disorders/factitious-disorder-imposed-on-self"
+        }
+      ]
+    },
+    {
+      "id": "psych-factitious-on-another-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Behavioral Science",
+      "system": "Behavioral Health",
+      "topic": "Factitious disorder imposed on another",
+      "difficulty": 2,
+      "stem": "A 3-year-old boy has been admitted 4 times in 6 months for episodes of hypoglycemia with sweating and drowsiness. Every episode began while his mother, a nurse, was alone with him. She is very attentive, knows his chart in detail, and is friendly with the staff. During the latest episode, his serum insulin was high and his C-peptide was very low. No episodes occur when she is away.",
+      "leadIn": "Which of the following is the most likely diagnosis for the mother?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Factitious disorder imposed on another"
+        },
+        {
+          "id": "b",
+          "text": "Factitious disorder imposed on self"
+        },
+        {
+          "id": "c",
+          "text": "Malingering"
+        },
+        {
+          "id": "d",
+          "text": "Delusional disorder, somatic type"
+        },
+        {
+          "id": "e",
+          "text": "Illness anxiety disorder, care-seeking type"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: factitious disorder imposed on another (formerly factitious disorder by proxy). Why: DSM-5-TR (pp. 367-368) describes falsifying or causing illness in another person, with identified deception, and presenting that person as ill, even when there is no obvious external reward. The perpetrator, not the victim, receives the diagnosis, and the victim may receive an abuse diagnosis. MSD says the caregiver, usually a parent, may harm the child with drugs or other agents, often appears deeply concerned and protective, and the child has frequent hospitalizations without a firm diagnosis. High insulin with low C-peptide means the insulin came from outside the body, because the pancreas releases C-peptide along with its own insulin (standard teaching). Child protective services should be contacted (MSD).",
+      "whyWrong": {
+        "b": "Factitious disorder imposed on self means falsifying one's own illness; here she causes illness in her son (DSM-5-TR, p. 368).",
+        "c": "Malingering requires an external incentive such as money (DSM-5-TR, p. 835); none is present.",
+        "d": "Delusional disorder involves a fixed false belief; her behavior is deliberate deception, not a delusion (standard teaching).",
+        "e": "Illness anxiety disorder is worry about one's own health, not causing illness in another (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "DSM-5-TR (Emily's file), Factitious disorder, pp. 367-368; malingering, p. 835"
+        },
+        {
+          "title": "MSD Manual Professional: Factitious Disorder Imposed on Another",
+          "url": "https://www.msdmanuals.com/professional/psychiatric-disorders/somatic-symptom-and-related-disorders/factitious-disorder-imposed-on-another"
+        }
+      ]
+    },
+    {
+      "id": "psych-avoidant-pd-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Behavioral Science",
+      "system": "Behavioral Health",
+      "topic": "Personality disorders: avoidant vs schizoid",
+      "difficulty": 2,
+      "stem": "A 29-year-old man comes to the physician because he feels lonely. He works night shifts doing data entry and has turned down two promotions because they would require leading team meetings, where he fears he would be criticized. He would like to have friends and a girlfriend but does not join coworkers for lunch unless he is sure they like him. He sees himself as dull and inferior to others. He has felt this way since his teens. He has no odd beliefs.",
+      "leadIn": "Which of the following is the most likely diagnosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Avoidant personality disorder"
+        },
+        {
+          "id": "b",
+          "text": "Schizoid personality disorder"
+        },
+        {
+          "id": "c",
+          "text": "Schizotypal personality disorder"
+        },
+        {
+          "id": "d",
+          "text": "Dependent personality disorder"
+        },
+        {
+          "id": "e",
+          "text": "Paranoid personality disorder"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: avoidant personality disorder. Why: DSM-5-TR (pp. 764-765) describes a long-standing pattern of shyness with others, feeling inadequate, and being very sensitive to being judged, starting by early adulthood. Examples include avoiding jobs with a lot of contact with people because of fear of criticism or rejection, getting involved with people only when sure of being liked, and seeing oneself as inept or inferior; at least 4 of 7 features are needed. The key contrast is that he wants relationships but fears rejection. In schizoid personality disorder, the person neither wants nor enjoys close relationships (DSM-5-TR, p. 742). MSD puts it this way: schizoid patients are isolated because they are not interested in others, while avoidant patients long for contact but are hypersensitive to rejection or criticism. Group cognitive behavioral therapy focused on social skills is considered effective (MSD).",
+      "whyWrong": {
+        "b": "Schizoid personality disorder means not wanting or enjoying close relationships (DSM-5-TR, p. 742); he wants friends and a partner.",
+        "c": "Schizotypal personality disorder includes odd beliefs, magical thinking, and eccentric behavior (standard teaching); he has none.",
+        "d": "Dependent personality disorder centers on needing others to make decisions and fear of being alone, not avoiding people (standard teaching).",
+        "e": "Paranoid personality disorder centers on distrust and suspicion that others mean harm, not fear of criticism (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "DSM-5-TR (Emily's file), Avoidant personality disorder, pp. 764-765; schizoid personality disorder, p. 742"
+        },
+        {
+          "title": "MSD Manual Professional: Avoidant Personality Disorder (AVPD)",
+          "url": "https://www.msdmanuals.com/professional/psychiatric-disorders/personality-disorders/avoidant-personality-disorder-avpd"
+        }
+      ]
+    },
+    {
+      "id": "psych-borderline-dbt-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Behavioral Science",
+      "system": "Behavioral Health",
+      "topic": "Personality disorders: borderline treatment",
+      "difficulty": 2,
+      "stem": "A 24-year-old woman comes to the physician after cutting her forearms when her boyfriend said he might leave. She describes intense relationships that swing from adoring people to hating them; last week she called her therapist perfect, and today she says the therapist is useless. She often feels empty, spends money impulsively, and is terrified of being alone. She has no psychotic symptoms and is not depressed most of the time.",
+      "leadIn": "Which of the following is the most appropriate treatment?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dialectical behavior therapy"
+        },
+        {
+          "id": "b",
+          "text": "Scheduled alprazolam"
+        },
+        {
+          "id": "c",
+          "text": "Methylphenidate"
+        },
+        {
+          "id": "d",
+          "text": "Electroconvulsive therapy"
+        },
+        {
+          "id": "e",
+          "text": "Long-term haloperidol therapy"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: dialectical behavior therapy (DBT) for borderline personality disorder. Why: MSD describes intolerance of being alone, fear of abandonment, a shift from idealizing to devaluing people (black-and-white thinking), feeling empty, and impulsivity with self-harm. The suicide risk is 40 times that of the general population, and about 8 to 10% of patients die by suicide (MSD). Psychotherapy is the mainstay of treatment, and DBT, a cognitive-behavioral therapy that combines individual and group sessions, is one option. Medications do not consistently help the core symptoms and are mainly used for coexisting conditions such as depression (MSD).",
+      "whyWrong": {
+        "b": "MSD says benzodiazepines are not recommended in borderline personality disorder because of dependence, overdose, and diversion.",
+        "c": "MSD says stimulants are not recommended because of dependence, overdose, and diversion; she has no ADHD.",
+        "d": "Electroconvulsive therapy is for severe depression or catatonia, not the core features of a personality disorder (standard teaching).",
+        "e": "Medications are not consistently effective for core borderline symptoms (MSD), and she has no psychosis that would call for long-term antipsychotics."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Borderline Personality Disorder (BPD)",
+          "url": "https://www.msdmanuals.com/professional/psychiatric-disorders/personality-disorders/borderline-personality-disorder-bpd"
+        }
+      ]
+    },
+    {
+      "id": "pharm-mirtazapine-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Behavioral Health",
+      "topic": "Antidepressants: mirtazapine",
+      "difficulty": 2,
+      "stem": "A 78-year-old woman with major depressive disorder has trouble sleeping and has lost 6 kg (13 lb) over 3 months because of poor appetite. Her physician chooses an antidepressant that often causes sedation and weight gain and has fewer sexual adverse effects than SSRIs. She takes it at bedtime.",
+      "leadIn": "This drug's antidepressant effect comes mainly from blocking which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Alpha-2 adrenergic autoreceptors"
+        },
+        {
+          "id": "b",
+          "text": "Serotonin reuptake transporters (SERT)"
+        },
+        {
+          "id": "c",
+          "text": "Monoamine oxidase type A"
+        },
+        {
+          "id": "d",
+          "text": "Norepinephrine and dopamine reuptake"
+        },
+        {
+          "id": "e",
+          "text": "Postsynaptic 5-HT1A receptors"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: alpha-2 adrenergic autoreceptors (mirtazapine). Why: MSD says mirtazapine blocks alpha-2 adrenergic autoreceptors as well as 5-HT2 and 5-HT3 receptors. It causes weight gain and sedation through histamine H1 blockade and has fewer sexual adverse effects than SSRIs and SNRIs. Alpha-2 autoreceptors normally act as a brake on norepinephrine release, so blocking them increases norepinephrine and serotonin release (standard teaching). Its sedation and appetite effects can help an older patient with insomnia and weight loss. Correction: your Pharmacology High Yield notes (PDF p. 60) say mirtazapine blocks 5-HT1A plus alpha-2. MSD lists alpha-2, 5-HT2, and 5-HT3, not 5-HT1A. Buspirone is the drug that acts on 5-HT1A receptors, as a partial agonist (standard teaching).",
+      "whyWrong": {
+        "b": "Blocking the serotonin transporter is how SSRIs work; SSRIs cause more sexual side effects than mirtazapine (MSD).",
+        "c": "Monoamine oxidase inhibitors block breakdown of monoamines and need dietary tyramine limits (standard teaching); this is not mirtazapine's action.",
+        "d": "Blocking norepinephrine and dopamine reuptake is bupropion's action, a norepinephrine-dopamine reuptake inhibitor (MSD), which does not cause weight gain (standard teaching).",
+        "e": "MSD does not list 5-HT1A among mirtazapine's targets; buspirone is the 5-HT1A drug (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Medications for Treatment of Depression",
+          "url": "https://www.msdmanuals.com/professional/psychiatric-disorders/mood-disorders/medications-for-treatment-of-depression"
+        },
+        {
+          "title": "Pharmacology High Yield (Emily's file), Atypical antidepressants, PDF p. 60"
+        }
+      ]
+    },
+    {
+      "id": "pharm-bupropion-bulimia-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Behavioral Health",
+      "topic": "Eating disorders: bulimia nervosa and bupropion",
+      "difficulty": 2,
+      "stem": "A 20-year-old woman comes to the physician because she binge eats and then makes herself vomit 4 times a week. This has gone on for 8 months. Her BMI is 22 kg/m2. She has swollen glands in front of both ears, worn enamel on the back of her front teeth, and scars on the backs of her fingers. Serum potassium is 3.1 mEq/L. She also wants to quit smoking and asks for a pill that could help both her mood and smoking.",
+      "leadIn": "Which of the following drugs is contraindicated in this patient?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bupropion"
+        },
+        {
+          "id": "b",
+          "text": "Fluoxetine"
+        },
+        {
+          "id": "c",
+          "text": "Sertraline"
+        },
+        {
+          "id": "d",
+          "text": "Nicotine patch"
+        },
+        {
+          "id": "e",
+          "text": "Varenicline"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: bupropion. Why: MSD says bupropion, a norepinephrine-dopamine reuptake inhibitor, is contraindicated in patients who have bulimia or are seizure-prone, and it can raise seizure risk with other drugs. Electrolyte problems from purging add to the seizure risk (standard teaching). She has bulimia nervosa: MSD notes that patients are typically of normal weight, and that vomiting can erode dental enamel, swell the parotid glands, scar the backs of the hands, and cause low potassium. Cognitive behavioral therapy is the treatment of choice, and fluoxetine is often used in adults (MSD).",
+      "whyWrong": {
+        "b": "Fluoxetine is often used to treat bulimia nervosa in adults (MSD Bulimia Nervosa).",
+        "c": "SSRIs such as sertraline do not carry bupropion's contraindication in bulimia (standard teaching).",
+        "d": "Nicotine replacement is a safe option to help her stop smoking (standard teaching).",
+        "e": "Varenicline is a smoking-cessation drug without bupropion's seizure contraindication in eating disorders (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Medications for Treatment of Depression",
+          "url": "https://www.msdmanuals.com/professional/psychiatric-disorders/mood-disorders/medications-for-treatment-of-depression"
+        },
+        {
+          "title": "MSD Manual Professional: Bulimia Nervosa",
+          "url": "https://www.msdmanuals.com/professional/psychiatric-disorders/feeding-and-eating-disorders/bulimia-nervosa"
+        }
+      ]
+    },
+    {
+      "id": "pharm-zuranolone-ppd-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Behavioral Health",
+      "topic": "Postpartum depression: zuranolone",
+      "difficulty": 2,
+      "stem": "A 31-year-old woman comes to the physician 5 weeks after giving birth because of low mood, loss of interest, guilt, poor concentration, and trouble sleeping for 3 weeks. She has no psychotic symptoms or thoughts of harming herself or her baby. She is prescribed an oral drug to take once daily in the evening with a fatty meal for 14 days and is told not to drive for at least 12 hours after each dose.",
+      "leadIn": "This drug most likely acts by enhancing the activity of which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "GABA-A receptors"
+        },
+        {
+          "id": "b",
+          "text": "NMDA glutamate receptors"
+        },
+        {
+          "id": "c",
+          "text": "Serotonin transporters"
+        },
+        {
+          "id": "d",
+          "text": "Dopamine D2 receptors"
+        },
+        {
+          "id": "e",
+          "text": "Mu opioid receptors"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: GABA-A receptors (zuranolone). Why: FDA approved zuranolone (Zurzuvae) on 4 August 2023 as the first oral drug for postpartum depression in adults, taken once daily in the evening with a fatty meal for 14 days. Before that, drug treatment for postpartum depression was only available as an IV injection given in certain health care facilities (FDA). The boxed warning says it impairs driving, so patients should not drive for at least 12 hours after a dose. The label says its mechanism is thought to be positive allosteric modulation of GABA-A receptors. Recent change: zuranolone was approved in 2023, so older review sources may not list it.",
+      "whyWrong": {
+        "b": "Blocking NMDA receptors is how esketamine works (standard teaching); MSD lists esketamine nasal spray for treatment-resistant depression, not a 14-day oral course.",
+        "c": "Blocking the serotonin transporter is how SSRIs work; that is a different drug class (standard teaching).",
+        "d": "D2 blockade is the action of antipsychotics, used for psychosis, which she does not have (standard teaching).",
+        "e": "Mu opioid receptors are not a target of depression treatment (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "FDA: FDA Approves First Oral Treatment for Postpartum Depression (4 Aug 2023)",
+          "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-oral-treatment-postpartum-depression"
+        },
+        {
+          "title": "FDA label: Zurzuvae (zuranolone) capsules, 2023",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2023/217369s000lbl.pdf"
+        }
+      ]
+    },
+    {
+      "id": "pharm-risperidone-prolactin-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Behavioral Health",
+      "topic": "Antipsychotics: hyperprolactinemia",
+      "difficulty": 2,
+      "stem": "A 26-year-old woman with schizophrenia has taken risperidone for 4 months, and her psychosis has improved. She now has no menstrual periods and a milky discharge from both nipples. A urine pregnancy test is negative. Serum prolactin is high. She has no tremor or rigidity.",
+      "leadIn": "Blocking dopamine receptors in which pathway most likely caused these findings?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tuberoinfundibular pathway"
+        },
+        {
+          "id": "b",
+          "text": "Nigrostriatal pathway"
+        },
+        {
+          "id": "c",
+          "text": "Mesolimbic pathway"
+        },
+        {
+          "id": "d",
+          "text": "Mesocortical pathway"
+        },
+        {
+          "id": "e",
+          "text": "Chemoreceptor trigger zone in the medulla"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the tuberoinfundibular pathway. Why: dopamine released from the hypothalamus into the pituitary portal blood normally inhibits prolactin release. Blocking D2 receptors there raises prolactin, causing galactorrhea and missed periods (standard teaching). MSD says second-generation antipsychotics block dopamine and serotonin receptors, which lowers the risk of motor (extrapyramidal) side effects. Most raise prolactin only slightly or not at all, except risperidone, which raises it as much as first-generation drugs and can cause galactorrhea (MSD). Correction: your Pharmacology High Yield notes (PDF p. 52) say atypical antipsychotics have no action on D2. MSD says they do block dopamine receptors, which is why risperidone can raise prolactin and why atypicals can still cause motor side effects, though less often.",
+      "whyWrong": {
+        "b": "Nigrostriatal D2 blockade causes motor (extrapyramidal) side effects such as rigidity and tremor (standard teaching); she has none.",
+        "c": "Mesolimbic D2 blockade is thought to cause the antipsychotic effect on positive symptoms (standard teaching), not high prolactin.",
+        "d": "The mesocortical pathway is linked to negative and cognitive symptoms (standard teaching), not prolactin release.",
+        "e": "Blocking D2 in the chemoreceptor trigger zone gives an antinausea effect (standard teaching), not high prolactin."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Antipsychotic Medications",
+          "url": "https://www.msdmanuals.com/professional/psychiatric-disorders/schizophrenia-and-related-disorders/antipsychotic-medications"
+        },
+        {
+          "title": "Pharmacology High Yield (Emily's file), Antipsychotics, PDF p. 52"
+        }
+      ]
+    },
+    {
+      "id": "pharm-clozapine-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Behavioral Health",
+      "topic": "Antipsychotics: clozapine",
+      "difficulty": 2,
+      "stem": "A 30-year-old man with schizophrenia has had little improvement despite adequate trials of haloperidol, risperidone, and olanzapine. Two months ago he attempted suicide. His psychiatrist starts the antipsychotic most likely to help treatment-resistant illness and to reduce suicidal behavior.",
+      "leadIn": "Which of the following must be monitored regularly while he takes this drug?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Blood cell counts"
+        },
+        {
+          "id": "b",
+          "text": "Slit-lamp eye exams"
+        },
+        {
+          "id": "c",
+          "text": "Thyroid function tests"
+        },
+        {
+          "id": "d",
+          "text": "Serum creatine kinase"
+        },
+        {
+          "id": "e",
+          "text": "Hearing tests"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: blood cell counts, specifically the neutrophil count (clozapine). Why: MSD says clozapine helps about 40% of patients who do not respond to first-generation antipsychotics and reduces suicidality. Its most serious adverse effect is agranulocytosis, in fewer than 1% of patients, so blood counts are checked often. Clozapine can also cause dose-related seizures, metabolic syndrome, and myocarditis (MSD). Recent change: FDA removed the clozapine REMS program, effective 13 June 2025 (announced 27 Aug 2025). Prescribers and pharmacies no longer have to enroll in it or report ANC results, but FDA still recommends monitoring the absolute neutrophil count (ANC) as the label directs. FDA says the risk of severe neutropenia is greatest in the first months of treatment and never goes away.",
+      "whyWrong": {
+        "b": "Slit-lamp exams are not the standard monitoring test for clozapine; its key risk is low neutrophils (MSD).",
+        "c": "Thyroid tests are monitored with lithium (standard teaching), not clozapine.",
+        "d": "Creatine kinase is checked when neuroleptic malignant syndrome is suspected (standard teaching), not routinely with clozapine.",
+        "e": "Hearing tests are not part of antipsychotic monitoring (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Antipsychotic Medications",
+          "url": "https://www.msdmanuals.com/professional/psychiatric-disorders/schizophrenia-and-related-disorders/antipsychotic-medications"
+        },
+        {
+          "title": "FDA Drug Safety Communication: FDA removes REMS program for clozapine (27 Aug 2025)",
+          "url": "https://www.fda.gov/drugs/drug-safety-communications/fda-removes-risk-evaluation-and-mitigation-strategy-rems-program-antipsychotic-drug-clozapine"
+        }
+      ]
+    },
+    {
+      "id": "pharm-xanomeline-trospium-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Behavioral Health",
+      "topic": "Antipsychotics: xanomeline-trospium",
+      "difficulty": 3,
+      "stem": "A 34-year-old man with schizophrenia had severe rigidity with one antipsychotic and breast enlargement with another. He is switched to a newer capsule that combines two drugs. One of them acts in the brain without affecting dopamine D2 receptors. The other stays outside the brain and is added to reduce nausea, vomiting, and other side effects of the first.",
+      "leadIn": "The antipsychotic drug in this combination acts mainly on which receptors?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Muscarinic receptors"
+        },
+        {
+          "id": "b",
+          "text": "Dopamine D2 receptors"
+        },
+        {
+          "id": "c",
+          "text": "Histamine H1 receptors"
+        },
+        {
+          "id": "d",
+          "text": "NMDA receptors"
+        },
+        {
+          "id": "e",
+          "text": "Opioid receptors"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: muscarinic (cholinergic) receptors, with xanomeline-trospium (Cobenfy). Why: FDA approved it on 26 September 2024 as the first antipsychotic for schizophrenia that targets cholinergic receptors instead of dopamine receptors. MSD says it is the first antipsychotic with no effect on D2 receptors, it improves both positive and negative symptoms in trials, and trospium is a peripheral anticholinergic that counters xanomeline's cholinergic side effects. Xanomeline is a muscarinic receptor agonist (standard teaching). FDA lists nausea, indigestion, constipation, vomiting, and high blood pressure among common side effects, and urinary retention, moderate or severe kidney or liver disease, gastric retention, and untreated narrow-angle glaucoma as contraindications. Recent change: approved in 2024, so it is not in older review sources.",
+      "whyWrong": {
+        "b": "MSD says this is the first antipsychotic with no effect on D2 receptors.",
+        "c": "Histamine H1 blockade causes sedation and weight gain with some antipsychotics (standard teaching); it is not this drug's main action.",
+        "d": "NMDA blockade is linked to ketamine and esketamine (standard teaching), not this antipsychotic.",
+        "e": "Opioid receptors are not a target of antipsychotics (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Antipsychotic Medications",
+          "url": "https://www.msdmanuals.com/professional/psychiatric-disorders/schizophrenia-and-related-disorders/antipsychotic-medications"
+        },
+        {
+          "title": "FDA: FDA Approves Drug with New Mechanism of Action for Treatment of Schizophrenia (26 Sep 2024)",
+          "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-drug-new-mechanism-action-treatment-schizophrenia"
+        }
+      ]
+    },
+    {
+      "id": "pharm-buprenorphine-naloxone-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Behavioral Health",
+      "topic": "Opioid use disorder: buprenorphine-naloxone",
+      "difficulty": 2,
+      "stem": "A 32-year-old man with opioid use disorder who has injected heroin for 3 years asks for treatment. He is started on a film placed under the tongue that contains buprenorphine and naloxone.",
+      "leadIn": "Which of the following is the main reason naloxone is included in this product?",
+      "options": [
+        {
+          "id": "a",
+          "text": "To discourage injecting the drug"
+        },
+        {
+          "id": "b",
+          "text": "To prevent respiratory depression"
+        },
+        {
+          "id": "c",
+          "text": "To extend buprenorphine's half-life"
+        },
+        {
+          "id": "d",
+          "text": "To reduce opioid-induced constipation"
+        },
+        {
+          "id": "e",
+          "text": "To block withdrawal symptoms on day 1"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: to discourage injection. Why: MSD says naloxone is inactive when buprenorphine-naloxone is taken under the tongue, but it causes acute withdrawal if the product is injected. Buprenorphine is a partial agonist at the mu opioid receptor with a ceiling effect that limits breathing suppression and sedation. Its strong binding to the receptor protects against overdose when other opioids are used (MSD). Low-dose induction lets buprenorphine start without precipitating withdrawal. Methadone, a full agonist, can prolong the QTc interval (MSD). Recent change: MSD notes that U.S. rules on prescribing buprenorphine, including extra training requirements, were relaxed after December 2022.",
+      "whyWrong": {
+        "b": "Buprenorphine's own ceiling effect, as a partial agonist, limits respiratory depression (MSD); naloxone is inactive when taken under the tongue.",
+        "c": "Naloxone does not lengthen buprenorphine's action (standard teaching).",
+        "d": "Naloxone in this product is inactive when taken as directed (MSD), so it does not treat constipation.",
+        "e": "Naloxone causes withdrawal rather than blocking it when injected (MSD)."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Opioid Use Disorder",
+          "url": "https://www.msdmanuals.com/professional/psychiatric-disorders/opioid-use-disorder/opioid-use-disorder"
+        }
+      ]
+    },
+    {
+      "id": "pharm-naltrexone-timing-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Behavioral Health",
+      "topic": "Opioid use disorder: naltrexone timing",
+      "difficulty": 2,
+      "stem": "A 40-year-old man who has misused oxycodone daily for 2 years wants to stop and asks for a monthly extended-release naltrexone injection. His last oxycodone dose was 20 hours ago. He has mild yawning and a runny nose.",
+      "leadIn": "If naltrexone is injected today, which of the following is most likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Precipitated opioid withdrawal"
+        },
+        {
+          "id": "b",
+          "text": "Respiratory depression"
+        },
+        {
+          "id": "c",
+          "text": "Serotonin syndrome"
+        },
+        {
+          "id": "d",
+          "text": "Acute liver failure"
+        },
+        {
+          "id": "e",
+          "text": "A disulfiram-like flushing reaction"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: precipitated opioid withdrawal. Why: naltrexone is an opioid receptor antagonist; given while oxycodone is still bound to receptors, it pushes the opioid off and causes sudden, severe withdrawal (standard teaching). MSD says naltrexone cannot be given within 7 days of the last full dose of an opioid agonist. MSD names buprenorphine (a partial agonist) and methadone (a full agonist) as other treatments for opioid use disorder.",
+      "whyWrong": {
+        "b": "Naltrexone blocks opioid receptors, so it does not cause respiratory depression (standard teaching).",
+        "c": "Serotonin syndrome comes from serotonergic drugs, not naltrexone (standard teaching).",
+        "d": "Liver failure is not the expected result of a single dose given too early (standard teaching).",
+        "e": "A disulfiram-like reaction follows alcohol with drugs such as metronidazole, not naltrexone with opioids (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Opioid Use Disorder",
+          "url": "https://www.msdmanuals.com/professional/psychiatric-disorders/opioid-use-disorder/opioid-use-disorder"
+        }
+      ]
+    },
+    {
+      "id": "psych-anorexia-refeeding-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Behavioral Science",
+      "system": "Behavioral Health",
+      "topic": "Eating disorders: anorexia nervosa and refeeding syndrome",
+      "difficulty": 2,
+      "stem": "A 17-year-old girl with restricting-type anorexia nervosa is admitted to the hospital. Her BMI is 14.6 kg/m2. Her pulse is 42/min, blood pressure falls when she stands, and she has fine downy hair on her back. Nutrition is started. On the third day, she becomes weak and confused and has new swelling of her ankles.",
+      "leadIn": "Which of the following laboratory abnormalities is most likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hypophosphatemia"
+        },
+        {
+          "id": "b",
+          "text": "Hypernatremia"
+        },
+        {
+          "id": "c",
+          "text": "Hypercalcemia"
+        },
+        {
+          "id": "d",
+          "text": "Hyperkalemia"
+        },
+        {
+          "id": "e",
+          "text": "Hyperphosphatemia"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: hypophosphatemia (refeeding syndrome). Why: MSD describes refeeding syndrome as a potentially serious metabolic problem marked by low phosphate and other electrolyte abnormalities, seen rarely and mostly in the most undernourished patients. Feeding starts at about 30 to 40 kcal/kg/day and is raised gradually (MSD). Feeding raises insulin, which drives phosphate into cells to make ATP, so blood phosphate falls (standard teaching). DSM-5-TR (p. 381) defines anorexia nervosa by restricted intake causing significantly low weight, intense fear of gaining weight, and a disturbed view of body weight or shape; restricting type means no bingeing or purging in the last 3 months. A BMI under 15 is extreme severity (DSM-5-TR, p. 382). MSD lists slow heart rate, low blood pressure (especially on standing), low body temperature, and lanugo hair as common, and recommends family-based treatment for children and adolescents.",
+      "whyWrong": {
+        "b": "High sodium is not the hallmark of refeeding; low phosphate is (MSD).",
+        "c": "Refeeding lowers rather than raises electrolytes, with low phosphate as the hallmark (MSD).",
+        "d": "Refeeding moves potassium into cells, lowering it (standard teaching).",
+        "e": "Phosphate falls during refeeding, it does not rise (MSD)."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Anorexia Nervosa",
+          "url": "https://www.msdmanuals.com/professional/psychiatric-disorders/feeding-and-eating-disorders/anorexia-nervosa"
+        },
+        {
+          "title": "DSM-5-TR (Emily's file), Anorexia nervosa, pp. 381-382"
+        }
+      ]
+    },
+    {
+      "id": "psych-narcolepsy-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Behavioral Science",
+      "system": "Behavioral Health",
+      "topic": "Sleep-wake disorders: narcolepsy",
+      "difficulty": 2,
+      "stem": "A 19-year-old college student comes to the physician because she falls asleep in class and while studying, even after a full night of sleep. When she laughs hard, her knees buckle and her jaw goes slack for a few seconds, but she stays awake and aware. She sometimes sees vivid figures in her room just as she falls asleep and occasionally wakes up unable to move. A multiple sleep latency test shows an average sleep latency of 4 minutes and REM sleep at the start of 3 naps.",
+      "leadIn": "Loss of which of the following is the most likely cause?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hypothalamic orexin (hypocretin) neurons"
+        },
+        {
+          "id": "b",
+          "text": "Dopamine neurons in the substantia nigra pars compacta"
+        },
+        {
+          "id": "c",
+          "text": "Serotonin neurons of the raphe nuclei"
+        },
+        {
+          "id": "d",
+          "text": "Cholinergic neurons of the nucleus basalis"
+        },
+        {
+          "id": "e",
+          "text": "Melatonin-secreting pineal cells"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: hypocretin (orexin) neurons in the hypothalamus (narcolepsy type 1). Why: MSD says type 1 narcolepsy is thought to be due to hypocretin deficiency, with low hypocretin-1 in spinal fluid, possibly from autoimmune destruction of hypocretin-making cells in the lateral hypothalamus, and it is strongly linked to certain HLA types. Cataplexy is brief weakness triggered by strong emotion such as laughter, with consciousness preserved. Hallucinations at sleep onset and sleep paralysis are also typical. Polysomnography followed by a multiple sleep latency test shows an average sleep latency of 8 minutes or less and REM periods at sleep onset. Oxybates or pitolisant treat cataplexy, modafinil is added for sleepiness, and classic stimulants are third- or fourth-line (MSD).",
+      "whyWrong": {
+        "b": "Loss of substantia nigra dopamine neurons causes Parkinson disease, with tremor and rigidity, not cataplexy (standard teaching).",
+        "c": "Raphe serotonin neurons are not the lesion in narcolepsy, which is caused by hypocretin deficiency (MSD).",
+        "d": "Loss of nucleus basalis cholinergic neurons is linked to Alzheimer disease (standard teaching).",
+        "e": "Pineal melatonin affects circadian timing, not cataplexy or sleep-onset REM (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Narcolepsy",
+          "url": "https://www.msdmanuals.com/professional/neurologic-disorders/sleep-and-wakefulness-disorders/narcolepsy"
+        }
+      ]
+    },
+    {
+      "id": "psych-acute-stress-disorder-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Behavioral Science",
+      "system": "Behavioral Health",
+      "topic": "Trauma disorders: acute stress disorder",
+      "difficulty": 1,
+      "stem": "A 26-year-old woman comes to the physician 10 days after she was assaulted while walking home. Since then she has had nightmares and vivid flashbacks of the attack, avoids the street where it happened, feels as if things around her are unreal, sleeps poorly, and startles at small noises. She had no mental health problems before.",
+      "leadIn": "Which of the following is the most likely diagnosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Acute stress disorder"
+        },
+        {
+          "id": "b",
+          "text": "Posttraumatic stress disorder"
+        },
+        {
+          "id": "c",
+          "text": "Adjustment disorder"
+        },
+        {
+          "id": "d",
+          "text": "Generalized anxiety disorder"
+        },
+        {
+          "id": "e",
+          "text": "Panic disorder"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: acute stress disorder. Why: DSM-5-TR (p. 315) limits acute stress disorder to symptoms lasting 3 days to 1 month after a traumatic event. MSD says PTSD can only be diagnosed at least 1 month after the trauma, and acute stress disorder can progress to PTSD. MSD groups PTSD symptoms into intrusions (unwanted memories, nightmares), avoidance, negative changes in thinking and mood, and changes in arousal. If symptoms last beyond 1 month, the diagnosis becomes PTSD. Trauma-focused cognitive behavioral therapy has the strongest evidence for PTSD (MSD).",
+      "whyWrong": {
+        "b": "PTSD can only be diagnosed at least 1 month after the trauma (MSD); it has been 10 days.",
+        "c": "Adjustment disorder is used when a stress reaction fits no more specific diagnosis; her trauma symptoms fit acute stress disorder (standard teaching).",
+        "d": "Generalized anxiety disorder is broad, ongoing worry for at least 6 months, not trauma-linked flashbacks (standard teaching).",
+        "e": "Panic disorder involves unexpected panic attacks and worry about having more, not flashbacks of a trauma (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "DSM-5-TR (Emily's file), Acute stress disorder, p. 315"
+        },
+        {
+          "title": "MSD Manual Professional: Posttraumatic Stress Disorder (PTSD)",
+          "url": "https://www.msdmanuals.com/professional/psychiatric-disorders/anxiety-and-trauma-and-stressor-related-disorders/posttraumatic-stress-disorder-ptsd"
+        }
+      ]
+    },
+    {
+      "id": "pharm-ptsd-prazosin-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Behavioral Health",
+      "topic": "Trauma disorders: PTSD nightmares",
+      "difficulty": 2,
+      "stem": "A 41-year-old veteran has had posttraumatic stress disorder for 2 years. Trauma-focused cognitive behavioral therapy and sertraline have helped his daytime symptoms, but he still has nightmares about combat several nights a week that wake him in a sweat.",
+      "leadIn": "Which of the following drugs is most appropriate to add?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Prazosin"
+        },
+        {
+          "id": "b",
+          "text": "Alprazolam"
+        },
+        {
+          "id": "c",
+          "text": "Haloperidol"
+        },
+        {
+          "id": "d",
+          "text": "Methylphenidate"
+        },
+        {
+          "id": "e",
+          "text": "Lithium carbonate"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: prazosin. Why: MSD says prazosin appears helpful in reducing nightmares in PTSD, SSRIs improve PTSD symptoms, and trauma-focused cognitive behavioral therapy has the strongest evidence. Prazosin blocks alpha-1 adrenergic receptors, reducing the effect of norepinephrine, which is thought to drive nightmares and arousal (standard teaching). MSD advises that benzodiazepines be used sparingly, if at all.",
+      "whyWrong": {
+        "b": "MSD advises benzodiazepines be used sparingly, if at all, in PTSD.",
+        "c": "Haloperidol is for psychosis; he has no psychotic symptoms (standard teaching).",
+        "d": "Methylphenidate is a stimulant that would worsen arousal and sleep (standard teaching).",
+        "e": "Lithium is a mood stabilizer for bipolar disorder, not PTSD nightmares (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Posttraumatic Stress Disorder (PTSD)",
+          "url": "https://www.msdmanuals.com/professional/psychiatric-disorders/anxiety-and-trauma-and-stressor-related-disorders/posttraumatic-stress-disorder-ptsd"
+        }
+      ]
+    },
+    {
+      "id": "pharm-ssri-sexual-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Behavioral Health",
+      "topic": "Antidepressants: SSRI sexual dysfunction",
+      "difficulty": 2,
+      "stem": "A 34-year-old man with major depressive disorder has taken sertraline for 3 months. His mood, sleep, and energy are much better, but he now has great difficulty reaching orgasm, which upsets him and his partner. He wants to keep treating his depression.",
+      "leadIn": "Which of the following is the most appropriate change in his treatment?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Switch to bupropion"
+        },
+        {
+          "id": "b",
+          "text": "Switch to paroxetine"
+        },
+        {
+          "id": "c",
+          "text": "Switch to venlafaxine"
+        },
+        {
+          "id": "d",
+          "text": "Stop sertraline without a taper"
+        },
+        {
+          "id": "e",
+          "text": "Add a benzodiazepine"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: switch to bupropion. Why: MSD says sexual dysfunction, especially difficulty reaching orgasm, occurs in more than half of patients taking SSRIs, and that lowering the dose or changing to a serotonin modulator or a norepinephrine-dopamine reuptake inhibitor may help. Bupropion is a norepinephrine-dopamine reuptake inhibitor (MSD). Bupropion does not increase serotonin, which is why it rarely causes sexual side effects (standard teaching).",
+      "whyWrong": {
+        "b": "Paroxetine is another SSRI and would likely cause the same problem (standard teaching).",
+        "c": "Venlafaxine is an SNRI; MSD says mirtazapine has fewer sexual effects than SSRIs and SNRIs, meaning SNRIs also cause them.",
+        "d": "Stopping an SSRI abruptly can cause discontinuation symptoms and risks relapse; he wants to keep treatment (standard teaching).",
+        "e": "A benzodiazepine does not treat the sexual side effect and adds dependence risk (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Medications for Treatment of Depression",
+          "url": "https://www.msdmanuals.com/professional/psychiatric-disorders/mood-disorders/medications-for-treatment-of-depression"
         }
       ]
     }
