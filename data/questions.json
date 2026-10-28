@@ -8341,7 +8341,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: BRAF V600E (hairy cell leukemia). Why: a middle-aged man with a large spleen, low counts of all three cell lines, very low monocytes, a \"dry tap\" when marrow is aspirated, and B cells with hair-like surface projections has hairy cell leukemia. The median age is about 55, and it is about 4 times more common in men. The cells express CD11c, CD25, CD103, and CD123. BRAF V600E is present in nearly all cases of classic hairy cell leukemia. The purine analogs cladribine and pentostatin are first-line treatment. Correction: your notes call cladribine an adenosine deaminase inhibitor. The FDA label says cladribine is resistant to breakdown by adenosine deaminase, which is why it builds up in lymphocytes.",
+      "explanation": "Answer: BRAF V600E (hairy cell leukemia). Why: a middle-aged man with a large spleen, low counts of all three cell lines, very low monocytes, a \"dry tap\" when marrow is aspirated, and B cells with hair-like surface projections has hairy cell leukemia. The median age is about 55, and it is about 4 times more common in men. The cells express CD11c, CD25, CD103, and CD123. BRAF V600E is present in nearly all cases of classic hairy cell leukemia. The purine analogs cladribine and pentostatin are first-line treatment. Correction: your Heme-Onc notes (El-Husseiny, p. 66) call cladribine an adenosine deaminase inhibitor. The FDA label says cladribine is resistant to breakdown by adenosine deaminase, which is why it builds up in lymphocytes. Page 104 of the same notes has it right: cladribine is a purine analog.",
       "whyWrong": {
         "b": "JAK2 V617F is found in most cases of polycythemia vera, which raises red cell counts rather than lowering all counts.",
         "c": "MYD88 mutation is typical of Waldenström macroglobulinemia, which makes large amounts of IgM.",
@@ -8420,7 +8420,7 @@
         },
         {
           "title": "MSD Manual Professional: Hodgkin Lymphoma",
-          "url": "https://www.msdmanuals.com/en-gb/professional/hematology-and-oncology/lymphomas/hodgkin-lymphoma"
+          "url": "https://www.msdmanuals.com/professional/hematology-and-oncology/lymphomas/hodgkin-lymphoma"
         },
         {
           "title": "MSD Manual Professional: Chronic Lymphocytic Leukemia (CLL)",
@@ -8589,10 +8589,10 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: thick (hyperviscous) blood from a large circulating protein (Waldenström macroglobulinemia). Why: an older adult with a monoclonal IgM spike, lymph node and spleen enlargement, marrow full of lymphoplasmacytic cells, and no bone lesions has Waldenström macroglobulinemia. IgM is a large pentamer, so high levels make the blood thick. Slow, sludging flow causes headaches, blurred vision, bleeding from the nose and gums, and swollen retinal veins. Most cases carry a MYD88 mutation. Hyperviscosity is treated first with plasma exchange, which removes the IgM quickly, and the tumor is then treated, for example with a Bruton tyrosine kinase inhibitor.",
+      "explanation": "Answer: thick (hyperviscous) blood from a large circulating protein (Waldenström macroglobulinemia). Why: an older adult with a monoclonal IgM spike, lymph node and spleen enlargement, marrow full of lymphoplasmacytic cells, and no bone lesions has Waldenström macroglobulinemia. IgM is a large pentamer, so high levels make the blood thick. Slow, sludging flow causes headaches, blurred vision, bleeding from the nose and gums, and swollen retinal veins. MSD Manual calls a MYD88 mutation the hallmark of the disease. Hyperviscosity is treated first with plasma exchange, which removes the IgM quickly, and the tumor is then treated, for example with a Bruton tyrosine kinase inhibitor.",
       "whyWrong": {
-        "b": "Plasma cell tumors pressing on nerves fit multiple myeloma, which usually makes IgG or IgA and causes lytic bone lesions.",
-        "c": "Amyloid deposits can come from light chains, but they do not explain the swollen retinal veins and quick improvement after plasma exchange.",
+        "b": "Plasma cell tumors fit multiple myeloma, which causes lytic bone lesions. A mass would not explain swollen retinal veins and nosebleeds.",
+        "c": "Amyloid deposits can come from light chains, but they do not explain swollen, sausage-like retinal veins and nosebleeds, which come from thick blood.",
         "d": "Hypercalcemia from bone destruction is typical of multiple myeloma. This patient has no lytic lesions.",
         "e": "Some IgM proteins act as cryoglobulins, but the swollen, sludging retinal veins here are the classic sign of hyperviscosity."
       },
@@ -8793,7 +8793,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: von Willebrand factor antigen (von Willebrand disease). Why: lifelong mucosal bleeding (heavy periods, nosebleeds, bleeding after dental work) in a girl whose mother is affected, with a normal platelet count, points to von Willebrand disease. Type 1 is the most common and is autosomal dominant, with a low amount of normal von Willebrand factor. Von Willebrand factor helps platelets stick to injured vessels and carries factor VIII in the blood, so factor VIII falls too and the PTT can be mildly long. Testing measures von Willebrand factor antigen, its activity, and factor VIII. Desmopressin releases stored factor and helps type 1, but it does not work in types 2 and 3 and can worsen type 2B. Recent change: the bleeding time test is unreliable and no longer done.",
+      "explanation": "Answer: von Willebrand factor antigen (von Willebrand disease). Why: lifelong mucosal bleeding (heavy periods, nosebleeds, bleeding after dental work) in a girl whose mother is affected, with a normal platelet count, points to von Willebrand disease. Type 1 is the most common and is autosomal dominant, with a low amount of normal von Willebrand factor. Von Willebrand factor helps platelets stick to injured vessels and carries factor VIII in the blood, so factor VIII falls too and the PTT can be mildly long. Testing measures von Willebrand factor antigen, its activity, and factor VIII. Desmopressin releases stored factor and helps type 1, but it does not work in types 2 and 3 and can worsen type 2B. Other source: your Heme-Onc notes (El-Husseiny, p. 23) list an increased bleeding time for von Willebrand disease. MSD Manual says bleeding time testing is unreliable and no longer done, so expect von Willebrand factor tests instead.",
       "whyWrong": {
         "b": "Low factor IX is hemophilia B, which is X-linked and mostly affects males with joint and muscle bleeding.",
         "c": "Her platelet count is normal, and the bleeding pattern with an affected mother points to a problem with platelet adhesion, not platelet number.",
@@ -8903,7 +8903,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: autoantibody against ADAMTS13 (thrombotic thrombocytopenic purpura, TTP). Why: anemia with schistocytes, a very low platelet count, brain symptoms, and normal clotting times is TTP. Most adult cases are caused by an autoantibody that blocks ADAMTS13, the enzyme that cuts very large von Willebrand factor strands. Without it, the long strands catch platelets and form clots in small vessels, which shear red cells and injure the brain. ADAMTS13 activity below 10% supports the diagnosis. The direct antiglobulin test is negative because the red cells are broken mechanically, not by antibody. Severe kidney failure is rare, unlike in hemolytic-uremic syndrome. Treatment is urgent plasma exchange with glucocorticoids, and often rituximab and caplacizumab. Note: your notes list fever in the classic findings. MSD Manual says fever does not usually occur, so do not wait for fever to make the diagnosis.",
+      "explanation": "Answer: autoantibody against ADAMTS13 (thrombotic thrombocytopenic purpura, TTP). Why: anemia with schistocytes, a very low platelet count, brain symptoms, and normal clotting times is TTP. Most adult cases are caused by an autoantibody that blocks ADAMTS13, the enzyme that cuts very large von Willebrand factor strands. Without it, the long strands catch platelets and form clots in small vessels, which shear red cells and injure the brain. ADAMTS13 activity below 10% supports the diagnosis. The direct antiglobulin test is negative because the red cells are broken mechanically, not by antibody. Severe kidney failure is rare, unlike in hemolytic-uremic syndrome. Treatment is urgent plasma exchange with glucocorticoids and rituximab; caplacizumab is used only rarely. Other source: your Heme-Onc notes (El-Husseiny, p. 16) list fever among the findings, following the classic teaching. MSD Manual says fever does not usually occur, so do not wait for fever to make the diagnosis.",
       "whyWrong": {
         "b": "Shiga toxin causes hemolytic-uremic syndrome, usually after bloody diarrhea, with prominent kidney failure.",
         "c": "Autoantibodies against red cells cause autoimmune hemolytic anemia, which gives a positive direct antiglobulin test and spherocytes rather than schistocytes.",
@@ -9000,7 +9000,7 @@
       "system": "Blood & Lymphoreticular",
       "topic": "Inherited thrombophilia: factor V Leiden",
       "difficulty": 1,
-      "stem": "A 26-year-old woman comes to the emergency department because of pain and swelling in her left calf for 3 days. She started a combined estrogen-progestin oral contraceptive 4 months ago. Her father had a pulmonary embolism at age 40. Duplex ultrasonography shows a deep vein thrombosis in the left popliteal vein. Testing later shows that her plasma clots normally when activated protein C is added.",
+      "stem": "A 26-year-old woman comes to the emergency department because of pain and swelling in her left calf for 3 days. She started a combined estrogen-progestin oral contraceptive 4 months ago. Her father had a pulmonary embolism at age 40. Duplex ultrasonography shows a deep vein thrombosis in the left popliteal vein. Later testing shows that adding activated protein C to her plasma does not prolong its clotting time as it should.",
       "leadIn": "Which of the following is the most likely underlying mechanism of her clotting tendency?",
       "options": [
         {
@@ -9025,7 +9025,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: factor V resists inactivation by activated protein C (factor V Leiden). Why: a young woman with a deep vein thrombosis after starting estrogen, with a family history of clots, most likely has an inherited thrombophilia. Factor V Leiden is the most common one. A single change in factor V stops activated protein C from cutting and switching it off, so clotting keeps going. That is why adding activated protein C fails to slow her plasma clotting (activated protein C resistance). About 5% of White Americans carry the mutation. It raises the risk of venous clots, especially with estrogen, but it is not a risk factor for arterial clots. A clotting-based resistance assay screens for it, and a DNA test confirms it.",
+      "explanation": "Answer: factor V resists inactivation by activated protein C (factor V Leiden). Why: a young woman with a deep vein thrombosis after starting estrogen, with a family history of clots, most likely has an inherited thrombophilia. Factor V Leiden is the most common one. A single change in factor V stops activated protein C from cutting and switching it off, so clotting keeps going. That is why adding activated protein C fails to prolong her plasma clotting time (activated protein C resistance). About 5% of White Americans carry the mutation. It raises the risk of venous clots, especially with estrogen, but it is not a risk factor for arterial clots. A clotting-based resistance assay screens for it, and a DNA test confirms it.",
       "whyWrong": {
         "b": "Antithrombin deficiency is another inherited thrombophilia, but it would not cause resistance to activated protein C.",
         "c": "Prothrombin gene mutation raises the prothrombin level and the risk of venous clots, but the plasma still responds to activated protein C.",
@@ -9188,7 +9188,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: measure a venous blood lead level. Why: a toddler in an older house that is being remodeled who eats paint chips, with irritability, belly pain, less play, microcytic anemia, and basophilic stippling (fine blue dots in red cells), most likely has lead poisoning. Houses painted before 1978 carry the greatest risk, especially during remodeling. A capillary (fingerstick) test is good for screening, but every positive result should be confirmed with a blood lead level from a vein. The diagnosis is definite at 3.5 mcg/dL or higher. Weeks of irritability and less play can come before lead encephalopathy, which is an emergency. Children with very high levels receive chelation, such as succimer by mouth.",
+      "explanation": "Answer: measure a venous blood lead level. Why: a toddler in an older house that is being remodeled who eats paint chips, with irritability, belly pain, less play, microcytic anemia, and basophilic stippling (fine blue dots in red cells), most likely has lead poisoning. Houses painted before 1978 carry the greatest risk, especially during remodeling. A capillary (fingerstick) test is good for screening, but every positive result should be confirmed with a blood lead level, and CDC recommends a venous draw for that confirmation. The diagnosis is definite at 3.5 mcg/dL or higher. Weeks of irritability and less play can come before lead encephalopathy, which is an emergency. Children with very high levels receive chelation, such as succimer by mouth.",
       "whyWrong": {
         "b": "Hemoglobin electrophoresis looks for thalassemia or sickle cell disease. It would not confirm lead exposure.",
         "c": "Serum ferritin checks iron stores. Iron deficiency often coexists with lead exposure, but ferritin does not confirm lead poisoning.",
@@ -9199,6 +9199,10 @@
         {
           "title": "MSD Manual Professional: Lead Poisoning",
           "url": "https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/lead-poisoning"
+        },
+        {
+          "title": "CDC: Recommended Actions Based on Blood Lead Level",
+          "url": "https://www.cdc.gov/lead-prevention/hcp/clinical-guidance/index.html"
         }
       ]
     },
