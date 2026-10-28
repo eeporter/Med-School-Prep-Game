@@ -34,7 +34,12 @@ export function nextEase(ease, q) {
 }
 
 // Returns a new card state; never mutates the input.
-export function review(card, { correct, confidence }, todayStr) {
+// With an exam date set, the next gap is capped at half the days left, so a
+// card keeps coming back on a shrinking schedule that converges on the test
+// instead of drifting past it. The best gap is a fraction of the time until
+// the test (about 20-40% for a 1-week delay; Cepeda et al., 2008), and capping
+// at a fraction rather than "the day before" spreads reviews across days.
+export function review(card, { correct, confidence }, todayStr, { examDate = null } = {}) {
   const q = gradeFor(correct, confidence);
   const prev = { ...newCard(), ...card };
   const ease = nextEase(prev.ease, q);
@@ -49,11 +54,15 @@ export function review(card, { correct, confidence }, todayStr) {
     else if (reps === 2) interval = 6;
     else interval = Math.max(prev.interval + 1, Math.round(prev.interval * ease));
   }
+  // Only the due date is capped; the SM-2 interval (which also drives mastery)
+  // keeps growing normally.
+  const daysToExam = examDate ? daysBetween(todayStr, examDate) : null;
+  const gap = daysToExam !== null && daysToExam >= 1 ? Math.min(interval, Math.max(1, Math.floor(daysToExam / 2))) : interval;
   return {
     reps,
     interval,
     ease,
-    due: addDays(todayStr, interval),
+    due: addDays(todayStr, gap),
     lapses: prev.lapses + (correct ? 0 : 1),
     seen: prev.seen + 1,
     misconception: !correct && confidence === 'sure' ? true : correct ? false : prev.misconception,
@@ -69,6 +78,17 @@ export function isDue(card, todayStr) {
   return daysBetween(card.due, todayStr) >= 0;
 }
 
+// Only the first answer on a given day updates the schedule; later answers the
+// same day (another session, or Focus after Rounds) are practice.
+export function reviewedOn(card, todayStr) {
+  return Boolean(card) && card.lastReviewed === todayStr;
+}
+
 export function isMastered(card) {
   return Boolean(card) && card.interval >= MASTERED_INTERVAL;
+}
+
+// Missed at least once and not yet back to a mastered interval.
+export function isStruggling(card) {
+  return Boolean(card) && card.lapses > 0 && !isMastered(card);
 }

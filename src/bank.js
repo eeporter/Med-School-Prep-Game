@@ -42,8 +42,9 @@ export function validateQuestion(q) {
   if (!nonEmpty(q.topic)) err('topic is empty');
   if (![1, 2, 3].includes(q.difficulty)) err('difficulty must be 1, 2, or 3');
 
-  if (!Array.isArray(q.options) || q.options.length < 4 || q.options.length > 6) {
-    err('options must have 4 to 6 entries');
+  // Every item has exactly 5 options, matching the bank standard and the prompt kit.
+  if (!Array.isArray(q.options) || q.options.length !== 5) {
+    err('options must have exactly 5 entries');
   } else {
     const ids = q.options.map((o) => o && o.id);
     if (new Set(ids).size !== ids.length) err('option ids must be unique');
@@ -73,6 +74,13 @@ export function validateQuestion(q) {
     }
     for (const s of q.sources) {
       if (s.url !== undefined && !/^https:\/\/\S+$/.test(s.url)) err(`source url must be https: ${s.url}`);
+    }
+  }
+  // Optional "Read more" links for the student. These are not sources: the
+  // facts in the question must still be backed by `sources`.
+  if (q.readMore !== undefined) {
+    if (!Array.isArray(q.readMore) || !q.readMore.every((r) => r && nonEmpty(r.title) && typeof r.url === 'string' && /^https:\/\/\S+$/.test(r.url))) {
+      err('readMore must list links with a title and an https url');
     }
   }
   return errors;
