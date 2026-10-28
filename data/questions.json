@@ -21449,7 +21449,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: bosentan, an endothelin receptor antagonist. Why: your El-Husseiny respiratory notes (p. 109) describe primary (heritable) pulmonary arterial hypertension in young women, often from an inherited inactivating mutation in BMPR2 with autosomal dominant inheritance and variable penetrance. A second hit then raises endothelin (a vasoconstrictor) and lowers nitric oxide and prostacyclin (vasodilators), leading to vessel narrowing, smooth muscle growth, fibrosis, and clots in the small pulmonary arteries. MSD agrees that BMPR2 mutations cause 75% of heritable PAH, inherited as autosomal dominant with incomplete penetrance, describes higher endothelin-1 and thromboxane activity with lower prostacyclin and nitric oxide,. Recent change: MSD defines pulmonary hypertension by a mean pulmonary artery pressure above 20 mm Hg; your notes use the older cutoff of more than 25 mm Hg. The 48 mm Hg here fits both. MSD treats patients who respond to vasodilator testing with a calcium channel blocker, and otherwise uses oral endothelin-receptor antagonists (bosentan, ambrisentan, macitentan), PDE5 inhibitors, prostacyclin analogs, riociguat, and sotatercept.",
+      "explanation": "Answer: bosentan, an endothelin receptor antagonist. Why: your El-Husseiny respiratory notes (p. 109) describe primary (heritable) pulmonary arterial hypertension in young women, often from an inherited inactivating mutation in BMPR2 with autosomal dominant inheritance and variable penetrance. A second hit then raises endothelin (a vasoconstrictor) and lowers nitric oxide and prostacyclin (vasodilators), leading to vessel narrowing, smooth muscle growth, fibrosis, and clots in the small pulmonary arteries. MSD agrees that BMPR2 mutations cause 75% of heritable PAH, inherited as autosomal dominant with incomplete penetrance, describes higher endothelin-1 and thromboxane activity with lower prostacyclin and nitric oxide. Recent change: MSD defines pulmonary hypertension by a mean pulmonary artery pressure above 20 mm Hg; your notes use the older cutoff of more than 25 mm Hg. The 48 mm Hg here fits both. MSD treats patients who respond to vasodilator testing with a calcium channel blocker, and otherwise uses oral endothelin-receptor antagonists (bosentan, ambrisentan, macitentan), PDE5 inhibitors, prostacyclin analogs, riociguat, and sotatercept.",
       "whyWrong": {
         "b": "Sildenafil blocks PDE5, raising cGMP to boost the nitric oxide pathway; it does not block a vasoconstrictor receptor (MSD Pulmonary Hypertension; standard teaching).",
         "c": "Epoprostenol replaces the missing vasodilator prostacyclin rather than blocking a vasoconstrictor (MSD Pulmonary Hypertension).",
@@ -21723,6 +21723,1054 @@
         {
           "title": "MSD Manual Professional: Preterm Labor",
           "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/abnormalities-and-complications-of-labor-and-delivery/preterm-labor"
+        }
+      ]
+    },
+    {
+      "id": "micro-cryptococcal-meningitis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Nervous System & Special Senses",
+      "topic": "Cryptococcus neoformans (meningitis)",
+      "difficulty": 2,
+      "stem": "A 34-year-old man with HIV infection who stopped his antiretroviral therapy 2 years ago comes to the emergency department because of headache, nausea, and fever for 2 weeks. Today his partner noticed he was confused. His CD4+ T-lymphocyte count is 45/mm3. Cerebrospinal fluid shows a mildly increased leukocyte count with mostly lymphocytes, a high protein concentration, and a low glucose concentration. An India ink preparation of the fluid shows round budding yeasts, each surrounded by a wide clear zone.",
+      "leadIn": "Which of the following features of this organism is most responsible for the clear zone seen on this stain?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Thick polysaccharide capsule"
+        },
+        {
+          "id": "b",
+          "text": "Mycolic acid in the cell wall"
+        },
+        {
+          "id": "c",
+          "text": "Pseudohyphae with germ tubes"
+        },
+        {
+          "id": "d",
+          "text": "Spherules filled with endospores"
+        },
+        {
+          "id": "e",
+          "text": "Septate hyphae with acute branching"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: a thick polysaccharide capsule (Cryptococcus neoformans meningitis). Why: your El-Husseiny microbiology notes (pp. 196-197) explain that Cryptococcus causes disease in people with weak cell-mediated immunity, such as those with HIV, sarcoidosis, leukemia, or high-dose steroid use, and that meningitis is its most common presentation, with headache, nausea, vomiting, and confusion. The CSF shows low glucose, high protein, and a low leukocyte count with lymphocytes. India ink darkens the background but not the yeast, so the thick capsule shows up as a clear ring around each cell. The capsular antigen test (latex agglutination) is more sensitive and specific than the stain, and treatment is amphotericin B plus flucytosine, then fluconazole. MSD agrees that cryptococcosis defines advanced HIV infection, usually with CD4 counts under 100/mcL, that India ink shows the capsule as a halo, and that the capsular antigen lateral flow assay has sensitivity and specificity above 99%. MSD gives liposomal amphotericin B plus flucytosine for the first 2 weeks, then oral fluconazole for 8 weeks.",
+      "whyWrong": {
+        "b": "Mycolic acid makes Mycobacterium tuberculosis acid-fast; it does not cause a clear zone on India ink (standard teaching).",
+        "c": "Pseudohyphae and germ tubes point to Candida albicans, which rarely causes meningitis in this setting (standard teaching).",
+        "d": "Spherules with endospores are the tissue form of Coccidioides, which is linked to the US Southwest (standard teaching).",
+        "e": "Septate hyphae branching at acute angles are Aspergillus, a mold rather than a budding yeast (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Cryptococcus neoformans, pp. 196-197"
+        },
+        {
+          "title": "MSD Manual Professional: Cryptococcosis",
+          "url": "https://www.msdmanuals.com/professional/infectious-diseases/fungi/cryptococcosis"
+        }
+      ]
+    },
+    {
+      "id": "micro-infant-botulism-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Nervous System & Special Senses",
+      "topic": "Clostridium botulinum (infant botulism)",
+      "difficulty": 2,
+      "stem": "A 4-month-old boy is brought to the physician because of constipation for 4 days and poor feeding for 2 days. His mother says his suck and cry have become weak. His grandmother has been dipping his pacifier in honey. His temperature is 37.0°C (98.6°F). He has drooping eyelids, a weak gag, poor head control, and low muscle tone in all four limbs.",
+      "leadIn": "Which of the following is the most likely mechanism of this infant's weakness?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Blocked acetylcholine release from nerve endings"
+        },
+        {
+          "id": "b",
+          "text": "Antibodies blocking postsynaptic acetylcholine receptors"
+        },
+        {
+          "id": "c",
+          "text": "Blocked glycine release from spinal inhibitory neurons"
+        },
+        {
+          "id": "d",
+          "text": "Loss of anterior horn cells from a viral infection"
+        },
+        {
+          "id": "e",
+          "text": "Demyelination of peripheral nerves after an infection"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: blocked release of acetylcholine from nerve endings (infant botulism). Why: your El-Husseiny microbiology notes (pp. 70-72) explain that infant botulism usually comes from eating C. botulinum spores, for example in honey (more than 12% of honey samples contain spores). The spores germinate in the infant's gut, which does not yet have competing flora, and the bacteria make toxin there. Adult botulism, by contrast, comes from eating toxin already made in canned food. It affects babies aged 2 weeks to 6 months, with constipation, a weak suck, and general weakness, and severe cases look 'floppy'. The toxin acts at the neuromuscular junction to block acetylcholine release, and like tetanus toxin it cleaves SNARE proteins. Almost all infants recover. MSD agrees that most infant cases come from swallowed spores, typically in honey, with toxin made in the gut, and that the toxin irreversibly blocks acetylcholine release at peripheral nerve endings. MSD treats infant botulism types A and B with human botulinum immune globulin (BabyBIG).",
+      "whyWrong": {
+        "b": "Antibodies to postsynaptic acetylcholine receptors cause myasthenia gravis, which is not caused by eating honey (standard teaching).",
+        "c": "Blocking glycine and GABA release from inhibitory neurons is how tetanus toxin causes spastic paralysis, not floppiness (your El-Husseiny microbiology notes, p. 68).",
+        "d": "Poliovirus destroys anterior horn cells and causes asymmetric flaccid weakness with fever, not constipation and bulbar weakness after honey (standard teaching).",
+        "e": "Guillain-Barré syndrome causes ascending weakness after an infection and is rare at this age (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Clostridium tetani and C. botulinum, pp. 68, 70-72"
+        },
+        {
+          "title": "MSD Manual Professional: Botulism",
+          "url": "https://www.msdmanuals.com/professional/infectious-diseases/anaerobic-bacteria/botulism"
+        }
+      ]
+    },
+    {
+      "id": "micro-hsv-encephalitis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Nervous System & Special Senses",
+      "topic": "Herpes simplex virus encephalitis",
+      "difficulty": 2,
+      "stem": "A 38-year-old woman is brought to the emergency department because of fever, headache, and confusion for 2 days. This morning she said she smelled burning rubber and then had a generalized seizure. She has trouble understanding speech. She takes no medications. MRI of the brain shows swelling of the right temporal lobe. Cerebrospinal fluid shows increased lymphocytes, many red blood cells, and a high protein concentration.",
+      "leadIn": "Which of the following is the most likely cause?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Herpes simplex virus type 1"
+        },
+        {
+          "id": "b",
+          "text": "Enterovirus such as echovirus"
+        },
+        {
+          "id": "c",
+          "text": "Streptococcus pneumoniae"
+        },
+        {
+          "id": "d",
+          "text": "West Nile virus"
+        },
+        {
+          "id": "e",
+          "text": "JC polyomavirus"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: HSV-1 (herpes simplex virus type 1), causing encephalitis. Why: your El-Husseiny microbiology notes (pp. 248-250) explain that HSV-1 stays latent in the trigeminal ganglion and that, among sporadic (non-epidemic) encephalitis, HSV-1 is the leading cause of death. The virus reaches the brain along the olfactory tract or after reactivation in the trigeminal ganglion. Patients have headache, fever, mental status changes, and seizures, and temporal lobe damage can cause receptive aphasia and personality changes. Imaging shows a swollen temporal lobe with bleeding and tissue death (hemorrhagic necrosis), the diagnosis is made by CSF PCR, and untreated mortality is 70%. MSD agrees that most cases are due to HSV-1, notes that olfactory seizures with foul smells point to temporal lobe involvement, and describes MRI edema in the orbitofrontal and temporal areas. MSD explains that hemorrhagic necrosis puts red blood cells into the CSF, calls CSF PCR particularly sensitive and specific, and starts IV acyclovir promptly, usually for 14 days.",
+      "whyWrong": {
+        "b": "Enteroviruses are a common cause of viral meningitis, which usually lacks focal temporal lobe signs and bloody CSF (standard teaching).",
+        "c": "Pneumococcal meningitis gives a CSF with many neutrophils and low glucose, not a focal temporal lobe lesion (standard teaching).",
+        "d": "West Nile virus is spread by mosquitoes and can cause encephalitis with flaccid weakness, but it does not favor the temporal lobe (standard teaching).",
+        "e": "JC virus causes progressive multifocal leukoencephalopathy in people with weak immunity, with slow white-matter damage and no fever (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Herpes simplex virus, pp. 248-250"
+        },
+        {
+          "title": "MSD Manual Professional: Encephalitis",
+          "url": "https://www.msdmanuals.com/professional/neurologic-disorders/brain-infections/encephalitis"
+        }
+      ]
+    },
+    {
+      "id": "micro-legionella-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Respiratory",
+      "topic": "Legionella pneumophila",
+      "difficulty": 2,
+      "stem": "A 63-year-old man comes to the emergency department because of high fever, cough, and watery diarrhea for 3 days. He returned from a cruise 5 days ago. He smokes and has COPD. He is confused. His temperature is 39.6°C (103.3°F). Serum sodium is 128 mEq/L. A chest x-ray shows consolidation of the right lower lobe. A sputum Gram stain shows many neutrophils but few organisms.",
+      "leadIn": "Which of the following tests is most likely to confirm the diagnosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Urine antigen test"
+        },
+        {
+          "id": "b",
+          "text": "Cold agglutinin titer"
+        },
+        {
+          "id": "c",
+          "text": "Sputum acid-fast stain"
+        },
+        {
+          "id": "d",
+          "text": "Heterophile antibody test"
+        },
+        {
+          "id": "e",
+          "text": "Serum cryptococcal antigen"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: a urine antigen test for Legionella pneumophila. Why: your El-Husseiny microbiology notes (pp. 116-117) describe Legionella as a gram-negative rod that stains poorly on Gram stain, lives in water (air conditioning systems, hot water tanks), and spreads by aerosols. It grows inside cells, so cell-mediated immunity matters, and it is cultured on buffered charcoal yeast extract agar with cysteine and iron. Suspect it after a cruise or hotel stay when pneumonia comes with fever above 39°C, confusion, and diarrhea, especially in smokers and people with chronic lung disease. Hyponatremia is common and thought to come from inappropriate ADH or kidney tubule damage. The sputum shows many neutrophils but few organisms, the diagnosis is most often made by urine antigen, and treatment is levofloxacin or azithromycin. MSD agrees that infection comes from inhaling aerosols of contaminated water, is more frequent and severe in smokers, people with COPD, and older adults, and causes diarrhea, confusion, and hyponatremia. MSD notes the urine antigen test detects only L. pneumophila serogroup 1, and treats with a respiratory fluoroquinolone or azithromycin.",
+      "whyWrong": {
+        "b": "Cold agglutinins point to Mycoplasma pneumoniae, which causes a milder 'walking pneumonia' in young adults (your El-Husseiny microbiology notes, p. 170).",
+        "c": "An acid-fast stain looks for Mycobacterium tuberculosis, which causes a slower illness with weight loss and upper lobe disease (standard teaching).",
+        "d": "The heterophile (Monospot) test diagnoses Epstein-Barr virus mononucleosis (your El-Husseiny microbiology notes, p. 254).",
+        "e": "Cryptococcal antigen is tested in suspected Cryptococcus infection, usually meningitis in people with advanced HIV (your El-Husseiny microbiology notes, pp. 196-197)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Legionella, pp. 116-117"
+        },
+        {
+          "title": "MSD Manual Professional: Legionella Infections",
+          "url": "https://www.msdmanuals.com/professional/infectious-diseases/gram-negative-bacilli/legionella-infections"
+        }
+      ]
+    },
+    {
+      "id": "micro-mycoplasma-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Respiratory",
+      "topic": "Mycoplasma pneumoniae",
+      "difficulty": 1,
+      "stem": "A 19-year-old military recruit comes to the physician because of a sore throat, low-grade fever, tiredness, and a dry, hacking cough for 10 days. Several others in his barracks have similar symptoms. He looks well. Chest x-ray shows patchy interstitial infiltrates in both lower lobes that look worse than expected from his exam. When a sample of his blood in an EDTA tube is placed on ice, the red cells clump, and the clumps disappear when the tube is warmed.",
+      "leadIn": "Which of the following best explains why amoxicillin would not treat this infection?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The organism has no cell wall"
+        },
+        {
+          "id": "b",
+          "text": "The organism makes a beta-lactamase"
+        },
+        {
+          "id": "c",
+          "text": "The organism lives only inside cells"
+        },
+        {
+          "id": "d",
+          "text": "The organism has altered penicillin-binding proteins"
+        },
+        {
+          "id": "e",
+          "text": "The organism pumps the drug out of the cell"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the organism has no cell wall (Mycoplasma pneumoniae). Why: your El-Husseiny microbiology notes (pp. 169-170) explain that mycoplasmas are the smallest free-living bacteria and have no peptidoglycan cell wall, so beta-lactam drugs do not work and the organisms do not show up on Gram stain. They are the only bacteria with sterols in their cell membrane. They spread by droplets among people in close contact, such as families, military recruits, and medical school classes, and attach to airway cells with the P1 protein. They cause 'walking pneumonia' with a persistent dry cough, and the x-ray looks worse than the patient. Cross-reacting IgM antibodies (cold agglutinins) clump red cells in the cold, which can be shown at the bedside with an EDTA tube and ice, and can cause mild hemolysis. MSD agrees that mycoplasmas lack a cell wall, so drugs that target cell-wall synthesis, such as penicillins and cephalosporins, are ineffective, and describes outbreaks in congregate settings such as schools and summer camps. MSD also explains that cold agglutinins are almost always IgM and react below 37°C, and lists mycoplasmal pneumonia as a cause of cold agglutinin disease.",
+      "whyWrong": {
+        "b": "Beta-lactamase production explains penicillin resistance in organisms such as Staphylococcus aureus, which have a cell wall to target (standard teaching).",
+        "c": "Obligate intracellular bacteria include Chlamydia and Rickettsia; Mycoplasma is extracellular (your El-Husseiny microbiology notes, pp. 162, 169).",
+        "d": "Altered penicillin-binding proteins explain MRSA and resistant pneumococci, not organisms that have no cell wall at all (standard teaching).",
+        "e": "Efflux pumps are a common cause of tetracycline resistance, not the reason beta-lactams fail here (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Mycoplasma, pp. 169-170"
+        },
+        {
+          "title": "MSD Manual Professional: Mycoplasmas",
+          "url": "https://www.msdmanuals.com/professional/infectious-diseases/chlamydiae-and-mycoplasmas/mycoplasmas"
+        },
+        {
+          "title": "MSD Manual Professional: Autoimmune Hemolytic Anemia",
+          "url": "https://www.msdmanuals.com/professional/hematology/anemias-caused-by-hemolysis/autoimmune-hemolytic-anemia"
+        }
+      ]
+    },
+    {
+      "id": "micro-influenza-shift-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Respiratory",
+      "topic": "Influenza virus: antigenic shift",
+      "difficulty": 2,
+      "stem": "Public health officials identify a new influenza A strain whose hemagglutinin and neuraminidase are unlike those of any strain that has circulated in people. Genetic testing suggests it arose in a pig that was infected with a human influenza A strain and a swine influenza A strain at the same time. Within months it spreads worldwide and makes many young adults ill, because few people have antibodies against it.",
+      "leadIn": "Which of the following processes most likely produced this strain?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Reassortment of genome segments"
+        },
+        {
+          "id": "b",
+          "text": "Point mutations in the hemagglutinin gene"
+        },
+        {
+          "id": "c",
+          "text": "Phenotypic mixing of coat proteins"
+        },
+        {
+          "id": "d",
+          "text": "Complementation by a helper virus"
+        },
+        {
+          "id": "e",
+          "text": "Transduction of genes by a phage"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: reassortment of genome segments (antigenic shift). Why: your El-Husseiny microbiology notes (p. 296) explain that the influenza genome is segmented, so when one cell is infected with two different strains, some new virions carry a mix of segments from both. This antigenic shift happens only in influenza A, for example when human and swine influenza A viruses reassort, and it makes a new virus that the population has no immunity to, which is what causes pandemics. Yearly epidemics are caused by both influenza A and B. Influenza also damages the airway lining, so bacterial pneumonia (S. aureus, S. pneumoniae, H. influenzae) often follows. MSD defines antigenic drift as minor, progressive mutations in existing H and NA antigens and antigenic shift as a rare, abrupt, major change from new combinations of H and/or NA that arises from reassortment of the viral genome. MSD explains that shift can cause pandemics because antibodies against other strains give little protection, and that hemagglutinin binds host sialic acid while neuraminidase removes it so new virions can leave the cell.",
+      "whyWrong": {
+        "b": "Point mutations in hemagglutinin cause antigenic drift, the small yearly changes behind seasonal epidemics, not a brand-new H and N (MSD Influenza).",
+        "c": "Phenotypic mixing swaps coat proteins for one generation without changing the genome, so it cannot create a lasting new strain (standard teaching).",
+        "d": "Complementation lets one virus supply a missing protein for another, but neither genome changes (standard teaching).",
+        "e": "Transduction moves bacterial genes by bacteriophage; it does not occur between influenza viruses (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Influenza virus, p. 296"
+        },
+        {
+          "title": "MSD Manual Professional: Influenza",
+          "url": "https://www.msdmanuals.com/professional/infectious-diseases/respiratory-viruses/influenza"
+        }
+      ]
+    },
+    {
+      "id": "micro-hbv-window-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Gastrointestinal",
+      "topic": "Hepatitis B virus serology",
+      "difficulty": 2,
+      "stem": "A 29-year-old man who injects drugs comes to the physician for follow-up. Two months ago he had fatigue, dark urine, and jaundice. He now feels better, and his jaundice has faded. Serum ALT has fallen from 1,450 U/L to 210 U/L. Tests show: HBsAg negative; anti-HBs negative; IgM anti-HBc positive; IgM anti-HAV negative; anti-HCV negative.",
+      "leadIn": "Which of the following best describes this patient's hepatitis B status?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Acute infection in the window period"
+        },
+        {
+          "id": "b",
+          "text": "Immunity from hepatitis B vaccination"
+        },
+        {
+          "id": "c",
+          "text": "Chronic infection with active replication"
+        },
+        {
+          "id": "d",
+          "text": "Resolved infection from many years ago"
+        },
+        {
+          "id": "e",
+          "text": "Never infected and not immune"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: acute hepatitis B infection in the window period. Why: your El-Husseiny microbiology notes (pp. 303-304) explain that people who inject drugs are at high risk and that more than 95% of infected adults have an acute illness that resolves. HBsAg is the first marker and stays positive through the symptomatic phase. Anti-HBs appears after vaccination or after HBsAg clears and lasts for life, but there is a gap between HBsAg disappearing and anti-HBs appearing, called the window period. IgM anti-HBc is present during that window, which makes it the most specific marker of acute hepatitis B, while IgG anti-HBc means past or chronic infection. HBeAg means active replication and high infectivity. MSD agrees that HBsAg appears during the incubation period and disappears during convalescence, that anti-HBs appears weeks or months later after recovery, and that IgM anti-HBc is a sensitive marker of acute infection that is occasionally the only marker, reflecting the window between loss of HBsAg and appearance of anti-HBs.",
+      "whyWrong": {
+        "b": "Vaccination gives anti-HBs alone, because the vaccine contains only HBsAg; this patient has no anti-HBs (your El-Husseiny microbiology notes, p. 304; standard teaching).",
+        "c": "Chronic infection keeps HBsAg positive, with IgG rather than IgM anti-HBc (your El-Husseiny microbiology notes, p. 304).",
+        "d": "An old resolved infection shows anti-HBs with IgG anti-HBc, not IgM anti-HBc (your El-Husseiny microbiology notes, p. 304).",
+        "e": "A person never infected or vaccinated has no hepatitis B markers, but this patient has IgM anti-HBc (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Hepatitis B virus, pp. 303-304"
+        },
+        {
+          "title": "MSD Manual Professional: Hepatitis B, Acute",
+          "url": "https://www.msdmanuals.com/professional/hepatic-and-biliary-disorders/hepatitis/hepatitis-b-acute"
+        }
+      ]
+    },
+    {
+      "id": "micro-cholera-ppi-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Gastrointestinal",
+      "topic": "Vibrio cholerae",
+      "difficulty": 2,
+      "stem": "A 58-year-old woman who has taken omeprazole for reflux for 6 years comes to the emergency department because of sudden, painless, profuse watery diarrhea for 1 day. She returned 2 days ago from a trip to an area with a cholera outbreak. Her stools are gray and cloudy with flecks of mucus. Her blood pressure is 84/50 mm Hg and pulse is 124/min. Stool microscopy shows no leukocytes or red blood cells, and culture grows curved, gram-negative, oxidase-positive rods. Her husband ate the same meals and is well.",
+      "leadIn": "Which of the following most likely made her more susceptible than her husband?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Reduced gastric acid killing of bacteria"
+        },
+        {
+          "id": "b",
+          "text": "Recent antibiotic loss of normal colonic flora"
+        },
+        {
+          "id": "c",
+          "text": "Low serum IgA from a primary defect"
+        },
+        {
+          "id": "d",
+          "text": "Absent spleen after an old injury"
+        },
+        {
+          "id": "e",
+          "text": "Reduced bile salt secretion with age"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: less stomach acid to kill the bacteria (Vibrio cholerae). Why: your El-Husseiny microbiology notes (pp. 122-123) describe V. cholerae as a comma-shaped, oxidase-positive, gram-negative rod with 'shooting star' motility. It is sensitive to stomach acid, so a large dose (more than 10^7 organisms) is normally needed to cause disease, but with achlorhydria, including achlorhydria from long-term proton pump inhibitor use such as omeprazole, very few organisms are needed. The toxin ADP-ribosylates Gs, raising cAMP and pushing chloride and water into the gut. This causes sudden, massive 'rice-water' diarrhea that can lead to shock. Because the bacteria do not invade the gut wall, stool microscopy shows no leukocytes or red cells, and prompt oral rehydration is needed. MSD agrees that hypochlorhydria and achlorhydria, including from acid-suppressing drugs, predispose to cholera, that the toxin makes the small bowel secrete large amounts of isotonic fluid, that stools are often white liquid without fecal matter (rice-water stool), and that few or no white cells are found because the organisms do not invade. MSD treats mild cases with oral rehydration solution.",
+      "whyWrong": {
+        "b": "Antibiotics that kill normal colonic flora raise the risk of Clostridioides difficile colitis, not cholera (standard teaching).",
+        "c": "Selective IgA deficiency is often silent and is classically linked to Giardia, not to cholera after a shared meal (standard teaching).",
+        "d": "An absent spleen raises the risk from encapsulated organisms such as pneumococcus and Salmonella, not Vibrio cholerae (your El-Husseiny microbiology notes, p. 139).",
+        "e": "Lower bile salt output is not a known risk factor for cholera (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Vibrio cholerae, pp. 122-123"
+        },
+        {
+          "title": "MSD Manual Professional: Cholera",
+          "url": "https://www.msdmanuals.com/professional/infectious-diseases/gram-negative-bacilli/cholera"
+        }
+      ]
+    },
+    {
+      "id": "micro-typhoid-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Gastrointestinal",
+      "topic": "Salmonella Typhi (typhoid fever)",
+      "difficulty": 2,
+      "stem": "A 24-year-old man comes to the physician because of fever, headache, abdominal pain, and constipation for 9 days. His fever has risen a little each day. He returned 10 days ago from visiting relatives in South Asia. His temperature is 39.8°C (103.6°F) and pulse is 78/min. Faint pink spots that fade with pressure are seen on his abdomen, and the tip of his spleen is palpable. Leukocyte count is 3,800/mm3. Blood cultures grow a gram-negative rod.",
+      "leadIn": "Which of the following best explains how this organism spreads through the body?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It survives inside macrophages"
+        },
+        {
+          "id": "b",
+          "text": "It invades only the intestinal lining cells"
+        },
+        {
+          "id": "c",
+          "text": "It spreads from cell to cell using actin tails"
+        },
+        {
+          "id": "d",
+          "text": "It travels along nerves to reach the brain"
+        },
+        {
+          "id": "e",
+          "text": "It stays on the gut surface and makes a toxin"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: it survives inside macrophages (Salmonella Typhi, typhoid fever). Why: your El-Husseiny microbiology notes (pp. 137-139) explain that typhoid fever is caused only by Salmonella Typhi or Paratyphi and, in developed countries, is suspected after travel to Asia, Africa, or Latin America. The bacteria cross the gut lining through enterocytes and the M cells over Peyer patches, are taken up by macrophages, and survive inside them. The macrophages carry them to the liver, spleen, and bone marrow, causing hepatosplenomegaly and bacteremia. Early symptoms are mild cramping with fever and diarrhea or constipation, followed by salmon-colored 'rose spots'. Inflammation of Peyer patches can cause bleeding or perforation, and bacteria that settle in the gallbladder can make a person a chronic carrier. The Vi capsule helps the bacteria resist phagocytosis. MSD agrees that typhoid in the US occurs mainly in returning travelers, describes pink, blanching rose spots in crops on the chest and abdomen, prolonged fever with relative bradycardia, early constipation, splenomegaly, and leukopenia, and notes hemorrhage or perforation, usually of the distal ileum. MSD adds that about 3% of untreated patients become gallbladder carriers and that blood cultures are usually positive only in the first 2 weeks.",
+      "whyWrong": {
+        "b": "Nontyphoidal Salmonella invade the intestinal lining cells rather than macrophages and cause gastroenteritis, not a 9-day fever with rose spots (your El-Husseiny microbiology notes, p. 137).",
+        "c": "Actin-tail spread from cell to cell is how Listeria and Shigella move, not Salmonella Typhi (standard teaching).",
+        "d": "Travel along nerves to the brain is typical of rabies virus and herpesviruses, not a bacterium causing fever and splenomegaly (standard teaching).",
+        "e": "Staying on the gut surface and making a toxin describes Vibrio cholerae, which causes watery diarrhea without bacteremia (your El-Husseiny microbiology notes, p. 123)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Salmonella, pp. 137-139"
+        },
+        {
+          "title": "MSD Manual Professional: Typhoid Fever",
+          "url": "https://www.msdmanuals.com/professional/infectious-diseases/gram-negative-bacilli/typhoid-fever"
+        }
+      ]
+    },
+    {
+      "id": "micro-ehec-hus-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Renal & Urinary",
+      "topic": "Enterohemorrhagic E. coli and hemolytic uremic syndrome",
+      "difficulty": 1,
+      "stem": "A 4-year-old girl is brought to the emergency department because she is pale and has passed very little urine for 1 day. One week ago, 3 days after eating a hamburger at a county fair, she had abdominal cramps and bloody diarrhea with little fever, which has since stopped. She has scattered petechiae. Hemoglobin is 7.2 g/dL, platelet count is 38,000/mm3, and serum creatinine is 2.4 mg/dL. A blood smear shows many fragmented red cells.",
+      "leadIn": "Which of the following is the most likely cause of her illness?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Escherichia coli O157:H7"
+        },
+        {
+          "id": "b",
+          "text": "Enterotoxigenic Escherichia coli"
+        },
+        {
+          "id": "c",
+          "text": "Salmonella enterica serotype Typhi"
+        },
+        {
+          "id": "d",
+          "text": "Vibrio cholerae"
+        },
+        {
+          "id": "e",
+          "text": "Campylobacter jejuni"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: Escherichia coli O157:H7 (enterohemorrhagic E. coli) causing hemolytic uremic syndrome. Why: your El-Husseiny microbiology notes (p. 145) explain that enterohemorrhagic E. coli (EHEC), also called Shiga toxin-producing E. coli, makes a Shiga-like toxin that inactivates the 60S ribosomal subunit, stopping protein synthesis and killing cells. EHEC causes bloody diarrhea without invading the gut wall and can lead to hemolytic uremic syndrome (HUS). HUS is the triad of microangiopathic hemolytic anemia with schistocytes, low platelets from consumption, and kidney failure. O157:H7 is the most common strain, outbreaks have come from undercooked beef (hamburger), and this strain does not ferment sorbitol. MSD agrees that EHEC makes Shiga toxin and causes bloody diarrhea, that fever is usually absent or low grade, and that outbreaks follow undercooked ground beef. MSD notes that up to 22% of cases, mostly in children under 5 and adults over 60, are complicated by HUS, that antibiotics have not been shown to prevent HUS, and that fluoroquinolones are suspected of raising toxin release and HUS risk.",
+      "whyWrong": {
+        "b": "Enterotoxigenic E. coli causes watery traveler's diarrhea through cAMP and cGMP toxins, not bloody diarrhea with HUS (your El-Husseiny microbiology notes, p. 145).",
+        "c": "Salmonella Typhi causes typhoid fever, with a long fever, rose spots, and splenomegaly (your El-Husseiny microbiology notes, pp. 137-138).",
+        "d": "Vibrio cholerae causes massive watery rice-water diarrhea without blood (your El-Husseiny microbiology notes, p. 123).",
+        "e": "Campylobacter jejuni causes bloody diarrhea with fever and is linked to Guillain-Barré syndrome, but it is not the classic cause of HUS (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Escherichia coli, p. 145"
+        },
+        {
+          "title": "MSD Manual Professional: Infection by Escherichia coli O157:H7 and Other Enterohemorrhagic E. coli (EHEC)",
+          "url": "https://www.msdmanuals.com/professional/infectious-diseases/gram-negative-bacilli/infection-by-escherichia-coli-o157-h7-and-other-enterohemorrhagic-e-coli-ehec"
+        }
+      ]
+    },
+    {
+      "id": "micro-chlamydia-life-cycle-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Reproductive",
+      "topic": "Chlamydia trachomatis",
+      "difficulty": 2,
+      "stem": "A 21-year-old woman comes to the clinic for routine screening. She has had a small amount of vaginal discharge for 2 weeks but no pain. She has had two new sexual partners this year and uses condoms inconsistently. Pelvic examination shows a friable cervix with yellow mucopurulent discharge. A Gram stain of the discharge shows neutrophils but no organisms. A nucleic acid amplification test is positive for an organism that cannot be grown on standard laboratory agar.",
+      "leadIn": "Which of the following features of this organism best explains why it cannot be grown on standard agar?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It must use ATP from host cells"
+        },
+        {
+          "id": "b",
+          "text": "It needs cholesterol in its medium"
+        },
+        {
+          "id": "c",
+          "text": "It needs charcoal yeast with iron"
+        },
+        {
+          "id": "d",
+          "text": "It grows only at 42 degrees C"
+        },
+        {
+          "id": "e",
+          "text": "It requires factors X and V"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: it must use ATP made by host cells (Chlamydia trachomatis). Why: your El-Husseiny microbiology notes (pp. 162-164) explain that chlamydiae are obligate intracellular bacteria that cannot make ATP and are not seen on Gram stain, because their cell wall lacks muramic acid. They have two forms. The elementary body is the small, metabolically inactive, infectious form that enters the cell by phagocytosis. Inside the cell it becomes a reticulate body, which divides by binary fission and then matures back into elementary bodies that are released when the cell bursts. Serotypes D through K cause urethritis and cervicitis, the most common bacterial STD in the US, and chronic or repeated infection can cause pelvic inflammatory disease, infertility, and ectopic pregnancy. MSD agrees that chlamydiae are obligate intracellular bacteria that depend on the host cell for 3 of their 4 nucleoside triphosphates and use host ATP directly for energy, and that the elementary body is the infectious form while the reticulate body is the replicative form. MSD adds that C. trachomatis causes most mucopurulent cervicitis, that women are usually asymptomatic, that NAAT is the preferred test, and that treatment is doxycycline 100 mg orally twice a day for 7 days.",
+      "whyWrong": {
+        "b": "A cholesterol-enriched medium is needed for Mycoplasma, which has sterols in its membrane but makes its own ATP (your El-Husseiny microbiology notes, pp. 162, 169).",
+        "c": "Buffered charcoal yeast extract agar with cysteine and iron is used to grow Legionella (your El-Husseiny microbiology notes, p. 116).",
+        "d": "Growth at 42°C on selective media is a feature of Campylobacter jejuni (your El-Husseiny microbiology notes, p. 118).",
+        "e": "Factors X (hemin) and V (NAD+) are needed to grow Haemophilus influenzae (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Chlamydiaceae, pp. 162-164"
+        },
+        {
+          "title": "MSD Manual Professional: Chlamydiae",
+          "url": "https://www.msdmanuals.com/professional/infectious-diseases/chlamydiae-and-mycoplasmas/chlamydiae"
+        },
+        {
+          "title": "MSD Manual Professional: Urogenital Chlamydial Infections",
+          "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/urogenital-chlamydial-infections"
+        }
+      ]
+    },
+    {
+      "id": "micro-trichomonas-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Reproductive",
+      "topic": "Trichomonas vaginalis",
+      "difficulty": 1,
+      "stem": "A 27-year-old woman comes to the physician because of vaginal itching, burning, and discharge for 1 week. The discharge is yellow-green, frothy, and smells fishy. She has one male sexual partner. Speculum examination shows small red spots on the cervix. A saline wet mount of the discharge, examined right away, shows motile, pear-shaped organisms with flagella.",
+      "leadIn": "Which of the following is the most appropriate treatment?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Metronidazole for her and her partner"
+        },
+        {
+          "id": "b",
+          "text": "Fluconazole for her and her partner"
+        },
+        {
+          "id": "c",
+          "text": "Clindamycin cream for her alone"
+        },
+        {
+          "id": "d",
+          "text": "Ceftriaxone plus doxycycline for both of them"
+        },
+        {
+          "id": "e",
+          "text": "Acyclovir for her and her partner"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: metronidazole for her and her sexual partner (trichomoniasis). Why: your El-Husseiny microbiology notes (pp. 216, 347) explain that Trichomonas vaginalis spreads by sexual contact and cannot live outside the body because it does not form cysts. It causes vaginitis with a foul-smelling, greenish discharge, itching, and burning, and should not be confused with bacterial vaginosis from Gardnerella vaginalis. Diagnosis is by seeing motile trophozoites on a wet mount, and the cervix can look like a 'strawberry'. Treatment is metronidazole for the patient and the partner. MSD agrees that women can have a copious, yellow-green, frothy discharge with a fishy odor, and that red 'strawberry' spots come from small bleeding points on the vaginal walls and cervix. MSD says the wet mount should be examined right away, because trichomonads may be motile then, and that NAATs are more sensitive than microscopy or culture in women. MSD treats women with metronidazole 500 mg by mouth twice a day for 7 days, and says recent sex partners should be seen and treated.",
+      "whyWrong": {
+        "b": "Fluconazole treats vulvovaginal candidiasis, which causes a thick, white discharge without a fishy odor (standard teaching).",
+        "c": "Clindamycin cream treats bacterial vaginosis, and treating only her would let her partner reinfect her (standard teaching).",
+        "d": "Ceftriaxone plus doxycycline treats gonorrhea and chlamydia, which do not show motile flagellated organisms on a wet mount (standard teaching).",
+        "e": "Acyclovir treats genital herpes, which causes painful vesicles and ulcers rather than a frothy discharge (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Trichomonas vaginalis, pp. 216, 347"
+        },
+        {
+          "title": "MSD Manual Professional: Trichomoniasis",
+          "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/trichomoniasis"
+        }
+      ]
+    },
+    {
+      "id": "micro-congenital-cmv-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Reproductive",
+      "topic": "Congenital cytomegalovirus infection",
+      "difficulty": 2,
+      "stem": "A newborn boy is small for gestational age. Examination shows petechiae, jaundice, a small head, and an enlarged liver and spleen. He fails his newborn hearing screen, and an eye examination shows chorioretinitis. CT of the head shows calcifications lining the lateral ventricles. During the pregnancy, his mother had a week of fever, tiredness, and swollen glands, and a Monospot test at the time was negative.",
+      "leadIn": "Which of the following is the most likely cause?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cytomegalovirus"
+        },
+        {
+          "id": "b",
+          "text": "Toxoplasma gondii"
+        },
+        {
+          "id": "c",
+          "text": "Rubella virus"
+        },
+        {
+          "id": "d",
+          "text": "Treponema pallidum"
+        },
+        {
+          "id": "e",
+          "text": "Parvovirus B19"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: cytomegalovirus (congenital CMV infection). Why: your El-Husseiny microbiology notes (pp. 254, 257) explain that CMV spreads through saliva, sex, blood transfusion, and from mother to fetus, and is the most common infection passed in utero in the US. It is also the most common cause of a mononucleosis-like illness with a negative Monospot test. Congenital infection ranges from no visible problems to severe cytomegalic inclusion disease, with jaundice, a small head, an enlarged liver and spleen, purpura from low platelets ('blueberry muffin baby'), and brain damage. Babies can also have chorioretinitis, sensorineural deafness, periventricular calcifications, and seizures. MSD agrees that CMV is the most common congenital viral infection and lists microcephaly, petechiae, hepatosplenomegaly, periventricular calcifications, chorioretinitis, and sensorineural hearing loss. MSD diagnoses it by PCR of urine or saliva collected within the first 3 weeks of life, and notes that 6 months of oral valganciclovir modestly protects hearing and improves development.",
+      "whyWrong": {
+        "b": "Congenital toxoplasmosis also causes chorioretinitis, but its calcifications are scattered through the brain and it often causes hydrocephalus; it is linked to cat feces or undercooked meat (standard teaching).",
+        "c": "Congenital rubella classically causes cataracts, deafness, and a patent ductus arteriosus (standard teaching).",
+        "d": "Congenital syphilis causes a runny nose, a rash on the palms and soles, and bone changes, not periventricular calcifications (standard teaching).",
+        "e": "Parvovirus B19 in pregnancy causes fetal anemia and hydrops fetalis, not periventricular calcifications (your El-Husseiny microbiology notes, p. 240)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Epstein-Barr virus and cytomegalovirus, pp. 254, 257"
+        },
+        {
+          "title": "MSD Manual Professional: Congenital and Perinatal Cytomegalovirus Infection (CMV)",
+          "url": "https://www.msdmanuals.com/professional/pediatrics/infections-in-neonates/congenital-and-perinatal-cytomegalovirus-infection-cmv"
+        }
+      ]
+    },
+    {
+      "id": "micro-ebv-atypical-lymphocytes-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Epstein-Barr virus (infectious mononucleosis)",
+      "difficulty": 2,
+      "stem": "An 18-year-old college student comes to the physician because of fever, sore throat, and tiredness for 1 week. Two days ago he was given amoxicillin for presumed strep throat, and today he has an itchy red rash over his trunk and arms. His tonsils are enlarged with white exudate, the lymph nodes at the back of his neck are swollen, and the tip of his spleen is palpable. Leukocyte count is 14,000/mm3 with 55% lymphocytes. The blood smear shows many large lymphocytes with abundant cytoplasm.",
+      "leadIn": "These large lymphocytes on his blood smear are most likely which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "CD8+ T cells reacting to infected B cells"
+        },
+        {
+          "id": "b",
+          "text": "B cells infected with the virus"
+        },
+        {
+          "id": "c",
+          "text": "Monocytes activated by interferon-gamma release"
+        },
+        {
+          "id": "d",
+          "text": "Plasma cells making heterophile antibody"
+        },
+        {
+          "id": "e",
+          "text": "Leukemic blasts from the marrow"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: CD8+ T cells reacting to infected B cells (Epstein-Barr virus mononucleosis). Why: your El-Husseiny microbiology notes (pp. 254-255) explain that EBV spreads through saliva and infects throat cells and B cells, binding to CD21 on B cells with its gp350 protein. Infected B cells are activated in large numbers and make heterophile antibodies, and this is followed by a strong T-cell response, which shows up as many atypical lymphocytes in the blood. Typical features are fever, sore throat, swollen lymph nodes, an enlarged liver and spleen, atypical lymphocytes, and a positive Monospot test (IgM heterophile antibodies that clump horse red cells). Patients should avoid contact sports until the spleen shrinks because it can rupture, and amoxicillin can cause a typical maculopapular rash. MSD agrees that EBV infects B lymphocytes and that the atypical lymphocytes come mainly from CD8+ T cells responding to the infection, and notes that heterophile antibodies are present in only 50% of children aged 2 to 5. MSD advises avoiding heavy lifting and contact sports for 1 month and until the splenomegaly resolves, and links rash to antibiotics, particularly ampicillin.",
+      "whyWrong": {
+        "b": "EBV does infect B cells, but the large atypical lymphocytes on the smear are mostly the CD8+ T cells responding to them (MSD Infectious Mononucleosis).",
+        "c": "Activated monocytes do not make up the lymphocytosis of mononucleosis (standard teaching).",
+        "d": "Heterophile antibodies come from widespread B-cell activation, but the atypical cells on the smear are T cells (your El-Husseiny microbiology notes, p. 254).",
+        "e": "Leukemic blasts would suggest leukemia, which does not follow a sore throat with an amoxicillin rash and usually lowers normal blood counts (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Epstein-Barr virus, pp. 254-255"
+        },
+        {
+          "title": "MSD Manual Professional: Infectious Mononucleosis",
+          "url": "https://www.msdmanuals.com/professional/infectious-diseases/herpesviruses/infectious-mononucleosis"
+        }
+      ]
+    },
+    {
+      "id": "micro-parvovirus-aplastic-crisis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Parvovirus B19: transient aplastic crisis",
+      "difficulty": 2,
+      "stem": "An 8-year-old boy with sickle cell disease is brought to the physician because he has been very pale and tired for 4 days. One week ago he had a runny nose and a low-grade fever. He has no pain. His hemoglobin is 4.1 g/dL (his usual level is 8 g/dL), his reticulocyte count is 0.2% (his usual level is 12%), and his leukocyte and platelet counts are normal. His spleen is not palpable.",
+      "leadIn": "Which of the following cells is most likely infected by the cause of this crisis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Erythroid precursors in the marrow"
+        },
+        {
+          "id": "b",
+          "text": "Megakaryocytes in the bone marrow"
+        },
+        {
+          "id": "c",
+          "text": "Splenic macrophages that trap red cells"
+        },
+        {
+          "id": "d",
+          "text": "Erythropoietin-producing kidney cells"
+        },
+        {
+          "id": "e",
+          "text": "Hematopoietic stem cells in the marrow"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: erythroid (red cell) precursors in the bone marrow, infected by parvovirus B19 (transient aplastic crisis). Why: your El-Husseiny microbiology notes (pp. 239-240) explain that parvovirus B19 is the smallest DNA virus, has single-stranded DNA and no envelope, and spreads by the respiratory route. It enters red cell precursors through the P blood group antigen (globoside), and immature erythroid cells are the most vulnerable, so the virus mainly targets the bone marrow. B19 causes fifth disease, aplastic crisis in sickle cell anemia, and hydrops fetalis. In sickle cell disease, killing the red cell precursors cuts off the supply of reticulocytes needed to replace the short-lived sickle cells, so the hemoglobin falls while the reticulocyte count stays at or below the low end of normal. MSD agrees that parvovirus B19 is a single-stranded DNA virus that causes temporary suppression of red cell production, that transient aplastic crisis is usually seen in children with hemoglobinopathies such as sickle cell disease, and that these children need a CBC and reticulocyte count. MSD adds that infection in pregnancy can cause severe fetal anemia with hydrops, with the highest risk of fetal death in the first half of pregnancy.",
+      "whyWrong": {
+        "b": "The P antigen is also found on megakaryocytes, but his platelet count is normal, and the problem is anemia with no reticulocytes, which points to red cell precursors (your El-Husseiny microbiology notes, pp. 239-240).",
+        "c": "Splenic sequestration causes a sudden drop in hemoglobin with an enlarging spleen and a high reticulocyte count (standard teaching).",
+        "d": "Loss of erythropoietin-producing cells happens in chronic kidney disease and does not start suddenly after a cold (standard teaching).",
+        "e": "Damage to hematopoietic stem cells (aplastic anemia) would lower white cells and platelets too, but his are normal (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Parvovirus B19, pp. 239-240"
+        },
+        {
+          "title": "MSD Manual Professional: Erythema Infectiosum",
+          "url": "https://www.msdmanuals.com/professional/pediatrics/miscellaneous-viral-infections-in-infants-and-children/erythema-infectiosum"
+        }
+      ]
+    },
+    {
+      "id": "micro-lyme-arthritis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Musculoskeletal",
+      "topic": "Borrelia burgdorferi (Lyme arthritis)",
+      "difficulty": 1,
+      "stem": "A 32-year-old man from Connecticut comes to the physician because his right knee has been swollen for 3 weeks. The swelling has come and gone over the past month. Four months ago, after a hiking trip, he had a large red ring-shaped rash on his thigh that cleared in the center. Six weeks later, he had a left facial droop that went away on its own. He was not treated for either. The right knee is warm and swollen with a moderate effusion. His temperature is 37.2°C (99°F).",
+      "leadIn": "Which of the following is the most likely cause?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Borrelia burgdorferi"
+        },
+        {
+          "id": "b",
+          "text": "Neisseria gonorrhoeae"
+        },
+        {
+          "id": "c",
+          "text": "Staphylococcus aureus"
+        },
+        {
+          "id": "d",
+          "text": "Rickettsia rickettsii"
+        },
+        {
+          "id": "e",
+          "text": "Treponema pallidum"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: Borrelia burgdorferi (Lyme arthritis). Why: your El-Husseiny microbiology notes (pp. 159-160) explain that this large spirochete is spread by Ixodes deer ticks, often during camping or hiking in New England, and moves from the skin through the blood to the heart, joints, and nervous system. Stage 1 is erythema migrans, a red, ring-shaped rash with central clearing that grows outward from the bite. Stage 2 brings carditis with AV block, facial nerve palsy (which can be bilateral), and moving joint and muscle pains. Stage 3 brings encephalopathy and chronic arthritis. The mnemonic is 'FACE': facial palsy, arthritis, cardiac block, and erythema migrans. Doxycycline is first line, with amoxicillin as an alternative and ceftriaxone for severe illness, CNS signs, or heart block. MSD agrees that I. scapularis carries Lyme disease in the northeastern and north central US, that erythema migrans is the first sign and the best clinical indicator, that Bell palsy can be bilateral, and that AV block can occur. MSD describes Lyme arthritis as intermittent swelling and pain in a few large joints, especially the knees, recurring for several years, and notes doxycycline is avoided in children under 8.",
+      "whyWrong": {
+        "b": "Disseminated gonococcal infection causes arthritis with tenosynovitis and skin pustules in sexually active people, not after a ring-shaped rash and facial palsy (standard teaching).",
+        "c": "Staphylococcus aureus septic arthritis is usually acute, very painful, and comes with high fever (standard teaching).",
+        "d": "Rocky Mountain spotted fever causes fever with a rash that starts at the wrists and ankles; it does not cause months of knee swelling (standard teaching).",
+        "e": "Syphilis causes a painless chancre and then a rash on the palms and soles, not erythema migrans (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Borrelia burgdorferi, pp. 159-160"
+        },
+        {
+          "title": "MSD Manual Professional: Lyme Disease",
+          "url": "https://www.msdmanuals.com/professional/infectious-diseases/spirochetes/lyme-disease"
+        }
+      ]
+    },
+    {
+      "id": "micro-salmonella-osteomyelitis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Musculoskeletal",
+      "topic": "Osteomyelitis in sickle cell disease",
+      "difficulty": 2,
+      "stem": "A 10-year-old girl with sickle cell disease is brought to the physician because of fever and pain in her left lower leg for 5 days. Her pain is not like her usual pain crises. Her temperature is 39.1°C (102.4°F). The middle of the left tibia is swollen, warm, and very tender. MRI shows bone marrow edema with a small abscess. Blood cultures grow a motile gram-negative rod that does not ferment lactose, is oxidase-negative, and makes hydrogen sulfide.",
+      "leadIn": "Which of the following is the most likely cause?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Salmonella species"
+        },
+        {
+          "id": "b",
+          "text": "Pseudomonas aeruginosa"
+        },
+        {
+          "id": "c",
+          "text": "Escherichia coli"
+        },
+        {
+          "id": "d",
+          "text": "Staphylococcus aureus"
+        },
+        {
+          "id": "e",
+          "text": "Pasteurella multocida"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: Salmonella species (osteomyelitis in sickle cell disease). Why: your El-Husseiny microbiology notes (p. 139) explain that blockage of small vessels in sickle cell disease causes repeated infarcts of the spleen, leaving it unable to work (functional asplenia). Without a working spleen, encapsulated bacteria (Streptococcus pneumoniae, Haemophilus, Neisseria, and Salmonella) are harder to clear, and the Salmonella Vi capsule protects it from phagocytosis. In sickle cell anemia, Salmonella leads the list of osteomyelitis causes, followed by E. coli and then S. aureus, because vaso-occlusive crises leave small areas of dead bone where bacteria can settle. Salmonella bacteremia can spread to bones, joints, lungs, and meninges. MSD agrees, listing Salmonella species as a cause of blood-borne osteomyelitis in patients with sickle cell disease, liver disease, or weak immunity. The lab features in the stem (motile, non-lactose-fermenting, oxidase-negative, H2S-producing) are standard teaching for Salmonella.",
+      "whyWrong": {
+        "b": "Pseudomonas aeruginosa is oxidase-positive and causes osteomyelitis in people who inject drugs or after puncture wounds (MSD Osteomyelitis; standard teaching).",
+        "c": "E. coli is the second most common cause in sickle cell disease, but it ferments lactose (your El-Husseiny microbiology notes, p. 139; standard teaching).",
+        "d": "Staphylococcus aureus is a gram-positive coccus in clusters, so it does not fit a gram-negative rod (standard teaching).",
+        "e": "Pasteurella multocida infects tissues after cat or dog bites and is not linked to sickle cell disease (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Salmonella and sickle cell disease, p. 139"
+        },
+        {
+          "title": "MSD Manual Professional: Osteomyelitis",
+          "url": "https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/infections-of-joints-and-bones/osteomyelitis"
+        }
+      ]
+    },
+    {
+      "id": "micro-sporotrichosis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Sporothrix schenckii (sporotrichosis)",
+      "difficulty": 1,
+      "stem": "A 52-year-old woman comes to the physician because of a sore on her right index finger for 3 weeks. She works in a garden center and pricked the finger on a rosebush a few days before it began. The sore started as a red bump and then broke down into a painless ulcer. Over the past week, a line of firm red nodules has appeared up the back of her hand and forearm. She feels well otherwise.",
+      "leadIn": "Which of the following best describes the most likely cause?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dimorphic fungus that forms cigar-shaped yeast"
+        },
+        {
+          "id": "b",
+          "text": "Weakly acid-fast branching filaments in soil"
+        },
+        {
+          "id": "c",
+          "text": "Acid-fast rod that grows best in cool water"
+        },
+        {
+          "id": "d",
+          "text": "Mold with septate hyphae branching at acute angles"
+        },
+        {
+          "id": "e",
+          "text": "Gram-negative rod spread by a cat scratch"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: a dimorphic fungus that forms cigar-shaped yeast in tissue (Sporothrix schenckii). Why: your El-Husseiny microbiology notes (p. 185) explain that Sporothrix grows as a mold in nature, on the bark of trees, shrubs, garden plants, and plant debris, and as cigar-shaped yeast in tissue. It enters through breaks in the skin, often from a thorn prick, and spreads along the lymph channels, so sporotrichosis ('rose gardener's disease') is common in gardeners. The first lesion is a red nodule at the injury that later ulcerates, followed by nodules along the draining lymphatics. Biopsy shows a granuloma, diagnosis is by culture, and treatment is itraconazole or amphotericin B. MSD agrees that sporotrichosis is a skin infection caused by dimorphic fungi of the genus Sporothrix, which live on rose and barberry bushes, in sphagnum moss, hay, and mulch. MSD describes skin nodules that spread along the lymphatics and break down into ulcers ('sporotrichoid spread'), says culture of tissue gives the definitive diagnosis, and calls itraconazole the treatment of choice for lymphocutaneous disease.",
+      "whyWrong": {
+        "b": "Nocardia is weakly acid-fast and lives in soil; it more often causes lung or brain infection in people with weak immunity (standard teaching).",
+        "c": "Mycobacterium marinum can also spread along lymphatics, but it comes from fish tanks or water, not a rose thorn (standard teaching).",
+        "d": "Aspergillus is a mold with septate hyphae that mainly infects the lungs (standard teaching).",
+        "e": "Bartonella henselae causes cat scratch disease with a papule and swollen regional lymph nodes after a cat scratch (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Sporothrix schenckii, p. 185"
+        },
+        {
+          "title": "MSD Manual Professional: Sporotrichosis",
+          "url": "https://www.msdmanuals.com/professional/infectious-diseases/fungi/sporotrichosis"
+        }
+      ]
+    },
+    {
+      "id": "micro-measles-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Measles (rubeola)",
+      "difficulty": 1,
+      "stem": "A 2-year-old boy who has not been vaccinated is brought to the physician because of fever for 4 days, a hacking cough, a runny nose, and red, watery eyes. Yesterday a red, blotchy rash began on his face in front of and below the ears and has spread down to his trunk. His temperature is 40.0°C (104°F). Tiny white spots on a red base are seen on the inside of his cheeks opposite the molars.",
+      "leadIn": "In addition to supportive care, which of the following should be given to lower this child's risk of complications and death?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vitamin A"
+        },
+        {
+          "id": "b",
+          "text": "Oral acyclovir"
+        },
+        {
+          "id": "c",
+          "text": "Aspirin"
+        },
+        {
+          "id": "d",
+          "text": "Zinc sulfate"
+        },
+        {
+          "id": "e",
+          "text": "Oral penicillin V"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: vitamin A (measles). Why: your El-Husseiny microbiology notes (p. 287) explain that measles (rubeola) is caused by a paramyxovirus. Its classic sign is Koplik spots, small white, bluish, or gray specks on the inside of the cheek next to the molars, like grains of sand on a red base. Koplik spots with cough, coryza, and conjunctivitis (the '3 Cs') make measles likely, and a maculopapular rash then starts at the head and neck and spreads downward over 1-2 days. Vitamin A lowers measles deaths in malnourished or vitamin-deficient children, helps prevent eye damage (keratitis and corneal ulcers), and lowers the risk of pneumonia and encephalitis. Complications include encephalitis (about 1 in 1,000), giant cell pneumonia in people with weak immunity, and subacute sclerosing panencephalitis years later, and measles is prevented by the live MMR vaccine. MSD agrees that the prodrome is fever, coryza, a hacking cough, and conjunctivitis, describes Koplik spots as grains of white sand with red rings opposite the upper molars, and says the rash starts on the face in front of and below the ears and spreads downward. Other source: MSD says vitamin A lowers measles illness and death and recommends it for all children with measles, not only those who are malnourished.",
+      "whyWrong": {
+        "b": "Acyclovir treats herpes simplex and varicella-zoster infections; it does not treat measles (standard teaching).",
+        "c": "Aspirin is avoided in children with viral illnesses because of the risk of Reye syndrome (standard teaching).",
+        "d": "Zinc is used for diarrhea in children and for zinc deficiency, not to lower measles deaths (standard teaching).",
+        "e": "Penicillin does not act on viruses; antibiotics are used only if a bacterial infection follows (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Measles, p. 287"
+        },
+        {
+          "title": "MSD Manual Professional: Measles",
+          "url": "https://www.msdmanuals.com/professional/pediatrics/miscellaneous-viral-infections-in-infants-and-children/measles"
+        }
+      ]
+    },
+    {
+      "id": "micro-chagas-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Cardiovascular",
+      "topic": "Trypanosoma cruzi (Chagas disease)",
+      "difficulty": 2,
+      "stem": "A 48-year-old man who moved from rural Bolivia 10 years ago comes to the physician because of shortness of breath with exertion and palpitations for 1 year. Last month he fainted once. For several years he has had trouble swallowing both solids and liquids. Echocardiography shows enlargement of all four chambers and an aneurysm at the left ventricular apex. A barium swallow shows a dilated esophagus that narrows at the lower end.",
+      "leadIn": "Which of the following was most likely the route of this patient's infection?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Insect feces rubbed into a bite wound"
+        },
+        {
+          "id": "b",
+          "text": "Bite of an infected female sand fly"
+        },
+        {
+          "id": "c",
+          "text": "Bite of a tsetse fly in East Africa"
+        },
+        {
+          "id": "d",
+          "text": "Bite of an infected Anopheles mosquito"
+        },
+        {
+          "id": "e",
+          "text": "Eating undercooked pork with larval cysts"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: feces from a triatomine ('kissing') bug rubbed into a bite wound (Chagas disease from Trypanosoma cruzi). Why: your El-Husseiny microbiology notes (pp. 214-215) explain that T. cruzi is spread by the reduviid ('kissing') bug, which leaves infected feces at a painless bite, and is endemic in rural Central and South America. Inside cells the parasite becomes amastigotes that multiply in almost any tissue. The heart is hit hardest in the acute phase, with myocyte necrosis, fibrosis, and lymphocytic infiltrates, and one-sided swelling around the eye (Romaña sign) can appear. In the chronic phase the parasite destroys the nerve plexuses of the esophagus, colon, and ureters, causing achalasia, megacolon, and megaureter. Diagnosis is by finding trypomastigotes on a blood smear, and treatment is benznidazole or nifurtimox. MSD agrees that infected bugs leave feces with trypomastigotes on the skin while biting, that the infection is endemic in 21 Latin American countries, and that chronic cardiomyopathy often brings enlargement of all chambers and apical aneurysms, with heart failure, fainting, or sudden death from heart block or ventricular arrhythmia. MSD describes megaesophagus with dysphagia and megacolon with long periods of constipation, and notes benznidazole is generally better tolerated than nifurtimox.",
+      "whyWrong": {
+        "b": "Sand flies spread Leishmania, which causes kala-azar or skin ulcers, not cardiomyopathy with megaesophagus (your El-Husseiny microbiology notes, p. 215).",
+        "c": "Tsetse flies spread Trypanosoma brucei, which causes African sleeping sickness, not Chagas disease (standard teaching).",
+        "d": "Anopheles mosquitoes spread malaria, which causes cyclic fevers and hemolysis (standard teaching).",
+        "e": "Eating undercooked pork with larval cysts spreads Taenia solium, which can cause cysticercosis (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Trypanosoma cruzi, pp. 214-215"
+        },
+        {
+          "title": "MSD Manual Professional: Chagas Disease",
+          "url": "https://www.msdmanuals.com/professional/infectious-diseases/extraintestinal-protozoa/chagas-disease"
         }
       ]
     }
