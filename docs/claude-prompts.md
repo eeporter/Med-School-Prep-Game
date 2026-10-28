@@ -1,6 +1,6 @@
 # Claude prompt kit: study guides, game questions, and the auditor
 
-Version 0.6 (draft, 2026-10-28) · Status: **still being finalized; Emily will hand this over when it is done.**
+Version 0.7 (draft, 2026-10-28) · Status: **still being finalized; Emily will hand this over when it is done.**
 
 This kit lets you (Elissa) keep the project going with your own Claude. It has four prompts:
 
@@ -95,6 +95,93 @@ Nothing here involves Terminal. Tick each box once.
 6. When Claude says it is done, it tells you what to do next in plain words.
 
 The prompts tell Claude never to ask you to type commands. If it ever does, reply: "I don't use Terminal. Please do that step yourself or tell me what to click."
+
+## Automatic weekly questions (about 100 a week, merged automatically)
+
+Once this is on, Claude adds about 100 new questions to the game every week without you doing anything. You just keep sending it your weak spots.
+
+**How it stays safe.** Two separate routines run in the cloud on a schedule:
+- The **writer** makes the questions, following every rule in this kit, and opens them as pull requests. It never merges.
+- The **auditor** is a different chat with no stake in the questions. It checks every question against the audit checklist. It merges only the batches that pass with no Critical or Major findings and green checks. Anything else goes back to the writer, which fixes it on its next run.
+
+If a batch fails twice, it is left unmerged with a plain note for Emily. So "automatic" never means unchecked.
+
+**How your weak spots reach it.** The routines run in the cloud and cannot see your computer, so they read a "question inbox" file in the game's repository (`docs/question-inbox.md`). To add to it, open https://claude.ai/code , pick the Med-School-Prep-Game repository, and paste:
+
+> Add this to docs/question-inbox.md under "Waiting", with today's date, and save it to main: <paste your weak-spots list, report list, or struggle-log topics here>
+
+You can do that whenever you like (once a week is plenty). If the inbox is empty, the writer fills the biggest gaps in the official subject mix.
+
+### One-time setup (Elissa, about 10 minutes, after the checklist above)
+
+Menu names in Claude change from time to time. If a button below looks different, look for the closest match, or ask Claude in a claude.ai/code chat "how do I create a scheduled routine?"
+
+1. **(Recommended, Emily)** Put the course PDFs in a private Google Drive folder shared with Elissa. Never put them in the game's repository: it is public and the PDFs are copyrighted. Then the routines can read them through Elissa's Google Drive connector and cite them by page.
+2. Go to https://claude.ai/code and open **Routines** (sometimes shown as scheduled tasks). Click **New routine**.
+3. **Writer routine:**
+   - Name it "Weekly question writer".
+   - Pick the **Med-School-Prep-Game** repository.
+   - Set the schedule to **Monday and Thursday, early morning**.
+   - Turn on the **Google Drive** connector if it is offered.
+   - Paste the WRITER ROUTINE prompt below and save.
+4. **Auditor routine:**
+   - Click **New routine** again and name it "Weekly question auditor".
+   - Pick the same repository.
+   - Set the schedule to **Tuesday and Friday, early morning**.
+   - Turn on Google Drive if offered.
+   - Paste the AUDITOR ROUTINE prompt below and save.
+5. **Test:** on each routine, click **Run now** once, writer first, then auditor after it finishes. Check that a pull request appears at https://github.com/eeporter/Med-School-Prep-Game/pulls and that the auditor comments on it.
+
+To pause: open Routines and switch them off. Each run uses your Claude plan's usage, so a large weekly batch may need a plan with higher limits.
+
+### WRITER ROUTINE prompt
+
+````text
+You are the scheduled WRITER for an open-source study game for USMLE Step 1 and NBME exams (this repository). A medical student uses it; nobody is watching this run, so follow the rules exactly and leave clear notes.
+
+READ FIRST: docs/claude-prompts.md, "Rules every role follows" and "Prompt 2: Question writer". Those rules are binding here: NBME style, original questions, opened sources, document-and-page citations, the three note types (Recent change / Correction / Other source), EyeWiki only in readMore, and the Step 1 / CBSE subject mix. Also read src/bank.js and docs/question-inbox.md.
+
+EACH RUN, IN THIS ORDER
+1. FIX FIRST. List open pull requests with the label "auto-batch". For each one with auditor findings that are not yet answered, re-open the source behind each finding to confirm it. Then fix the confirmed findings on that branch, run "npm run check", push, and reply on the PR with one line per finding ID.
+2. WEEKLY TARGET. Count questions merged since last Monday plus questions in open auto-batch PRs. If that is 100 or more, stop here.
+3. PICK TOPICS, in this priority:
+   a. Report lines in docs/question-inbox.md under "Waiting": fix the named questions first, in their own PR.
+   b. Weak-spot and struggle topics under "Waiting": write new questions on them, at a new angle from the existing ones.
+   c. Otherwise, the systems furthest below the outline weights, using pathology-led vignettes.
+   Avoid duplicates: search data/questions.json for each topic first.
+4. WRITE in batches of 20-25 questions per pull request, enough to reach about 50 this run (about 100 across the week's two runs).
+   - Course documents set the content. If Google Drive is connected, read the matching pages of the course PDFs and Elissa's notes, and cite them by document and page. Never copy their text.
+   - If Drive is not available, write from opened standard sources only. Say so in the PR description, so the auditor knows no page check was possible.
+5. For each batch:
+   - Create a branch named auto/<date>-<topic>.
+   - Edit data/questions.json and run "npm run check". It must pass.
+   - Open a PR labeled "auto-batch". In the description, list each question id, topic, key, sources opened, and any notes.
+   - Wait for CI and fix any failure.
+6. INBOX. Move the inbox items you used from "Waiting" to "Done", with the PR numbers. Do this in the same PR as the questions.
+7. Never merge, and never edit a PR's questions after the auditor has cleared it.
+````
+
+### AUDITOR ROUTINE prompt
+
+````text
+You are the scheduled AUDITOR for an open-source study game for USMLE Step 1 and NBME exams (this repository). You did not write these questions; be skeptical. Nobody is watching this run, so wrong content reaching the student is the main risk.
+
+READ FIRST: docs/claude-prompts.md, the "Rules every role follows" section and "Prompt 3: Auditor". That checklist is binding here: medical accuracy with every cited page opened, the cited-page check for document claims (when Google Drive is connected), note types, originality (8-word overlap check against the documents), NBME style, subject mix, and the CI checks.
+
+EACH RUN
+1. List open pull requests labeled "auto-batch".
+2. For each one, audit every new or changed question and post ONE review comment: verdict, sources opened (✓/✗), arithmetic re-done, and a table # | Severity | Question id | Finding | Fix.
+3. MERGE RULE. Merge the PR yourself (merge commit) only if ALL of these hold:
+   - no Critical or Major findings,
+   - CI green on the latest commit,
+   - no merge conflict,
+   - every finding from your earlier reviews is fixed.
+   Minor findings may merge only if the writer already fixed them or they are style-only. Re-run "npm run check" on the merged main.
+4. If a PR has Critical or Major findings, do not merge. If a PR has failed your audit twice, add the label "needs-human" and leave a plain-English note for Emily saying what is wrong.
+5. At the end, append a short entry to docs/weekly-question-log.md and commit it to main. Include the date, PRs merged (with question counts), PRs held and why, and the bank's count by system against the outline weights.
+````
+
+---
 
 ## Rules every role follows
 
@@ -370,6 +457,7 @@ When asked to re-check fixes, verify each finding ID one by one against the upda
 
 ## Changelog
 
+- 0.7 (2026-10-28): automatic weekly questions: a writer routine and a separate auditor routine (claude.ai/code Routines) add about 100 questions a week. Only auditor-cleared, CI-green batches are auto-merged. Weak spots reach the routines through docs/question-inbox.md.
 - 0.6 (2026-10-28): audit of v0.5: document-and-page citations with an auditor page check; "Correction:" and "Other source:" notes alongside "Recent change:"; EyeWiki only as a Read-more link; next-best-step items kept to a minority; auditor appends to audit/findings.md.
 - 0.5 (2026-10-28): question writer moved to claude.ai/code with one-time GitHub setup (collaborator invite); takes the game's weak-spots and report lists; Emily's newer rules added to all prompts: content matches her course documents with "Recent change:" notes, original questions (inspiration OK, no copying), NBME item-writing style, Step 1/CBSE subject weights, and checking the auditor's findings. Added a one-time setup checklist (folder, Google Drive connector for her Google Docs notes, GitHub access), a daily routine with the game's Copy for Claude / Send to Emily / Report buttons, and a Source column in the struggle log.
 - 0.4 (2026-10-27): audit R-8 fixes: added the `resp` id prefix; textbooks may only be cited alongside an openable link.
