@@ -23840,6 +23840,1066 @@
           "url": "https://www.msdmanuals.com/professional/multimedia/image/oxyhemoglobin-dissociation-curve"
         }
       ]
+    },
+    {
+      "id": "biostats-crossover-washout-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biostatistics & Epidemiology",
+      "system": "General Principles",
+      "topic": "Study design: crossover study",
+      "difficulty": 2,
+      "stem": "Researchers enroll 24 adults with chronic stable angina. Each participant takes drug A for 4 weeks, takes no study drug for the next 2 weeks, and then takes drug B for 4 weeks. A computer randomly decides whether each participant gets drug A or drug B first. The number of angina episodes per week is compared between the two treatment periods within each participant.",
+      "leadIn": "The 2-week drug-free interval is most likely meant to reduce which of the following problems?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Carryover from the first drug"
+        },
+        {
+          "id": "b",
+          "text": "Confounding by age and sex"
+        },
+        {
+          "id": "c",
+          "text": "Recall bias about symptoms"
+        },
+        {
+          "id": "d",
+          "text": "Lead-time bias from screening"
+        },
+        {
+          "id": "e",
+          "text": "Selection bias at enrollment"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: carryover of the first drug's effect into the second period. Why: Your First Aid pages in the biostats file (p. 256) describe a crossover study as one that compares the effect of two or more treatments given in a series to the same participant. The order of treatments is randomized, and a washout period separates them. Because each participant serves as their own control, differences between people (age, sex, disease severity) are balanced out within the comparison. Penn State's STAT 509 lesson on crossover designs agrees that each patient receives different treatments in different time periods and serves as their own control, and that patients are randomized to treatment sequences. It defines the washout period as the time between treatment periods, meant to let the previous drug clear and reduce carryover, the effect of a previous treatment on later measurements. The lesson adds that the design works only for chronic, stable conditions, because a treatment that cures the patient in the first period leaves nothing for the second treatment to show, and that it can need fewer patients than a parallel design.",
+      "whyWrong": {
+        "b": "Each participant acts as their own control, so fixed traits like age and sex are already matched; the washout is not aimed at them (your First Aid pages in the biostats file, pp. 256, 261).",
+        "c": "Recall bias is a problem in retrospective studies where people with a disease remember exposures differently; here episodes are counted as they happen (your First Aid pages in the biostats file, p. 260).",
+        "d": "Lead-time bias comes from screening finding disease earlier, making survival look longer; there is no screening here (your First Aid pages in the biostats file, p. 261).",
+        "e": "Selection bias is about who gets into the study; randomizing the order and the washout period do not change who was enrolled (your First Aid pages in the biostats file, p. 260)."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Observational studies (crossover study), p. 256"
+        },
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Bias and study errors, pp. 260-261"
+        },
+        {
+          "title": "Penn State STAT 509: Lesson 15, Crossover Designs",
+          "url": "https://online.stat.psu.edu/stat509/book/export/html/749"
+        }
+      ]
+    },
+    {
+      "id": "biostats-relative-risk-calc-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biostatistics & Epidemiology",
+      "system": "General Principles",
+      "topic": "Measures of association: relative risk",
+      "difficulty": 2,
+      "stem": "A cohort study follows 400 factory workers exposed to an industrial solvent and 600 unexposed workers for 10 years. Twenty of the exposed workers and 6 of the unexposed workers develop bladder cancer.",
+      "leadIn": "What is the relative risk of bladder cancer in exposed compared with unexposed workers?",
+      "options": [
+        {
+          "id": "a",
+          "text": "5.0"
+        },
+        {
+          "id": "b",
+          "text": "5.2"
+        },
+        {
+          "id": "c",
+          "text": "0.04"
+        },
+        {
+          "id": "d",
+          "text": "0.20"
+        },
+        {
+          "id": "e",
+          "text": "25"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: 5.0. Why: Your First Aid pages in the biostats file (p. 258) define relative risk as the risk of disease in the exposed group divided by the risk in the unexposed group, written as [a/(a + b)] / [c/(c + d)], and note that it is the usual measure in cohort studies. Here the risk in exposed workers is 20/400 = 0.05 (5%) and the risk in unexposed workers is 6/600 = 0.01 (1%), so the relative risk is 0.05 / 0.01 = 5.0. Exposed workers are 5 times as likely to develop bladder cancer. An RR of 1 means no association, above 1 means the exposure is linked to more disease, and below 1 means less. The CDC's Principles of Epidemiology (Lesson 3, Section 5) agrees that the risk ratio compares the risk in the group of primary interest with the risk in a comparison group, that 1.0 means identical risk, that above 1.0 means increased risk for the group in the numerator (usually the exposed group), and that below 1.0 suggests the exposure may be protective.",
+      "whyWrong": {
+        "b": "5.2 is the odds ratio, (20/380) / (6/594); it is used in case-control studies and only approximates the RR when the disease is rare (your First Aid pages in the biostats file, p. 258).",
+        "c": "0.04 is the attributable risk, the difference in risk between the groups (0.05 - 0.01), not a ratio (your First Aid pages in the biostats file, p. 258).",
+        "d": "0.20 is the ratio turned upside down (unexposed risk divided by exposed risk) (standard teaching).",
+        "e": "25 is the number needed to harm, 1 divided by the attributable risk (1/0.04) (your First Aid pages in the biostats file, p. 258)."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Quantifying risk, p. 258"
+        },
+        {
+          "title": "CDC Principles of Epidemiology, Lesson 3: Measures of Risk, Section 5",
+          "url": "https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/lesson3/section5.html"
+        }
+      ]
+    },
+    {
+      "id": "biostats-likelihood-ratio-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biostatistics & Epidemiology",
+      "system": "General Principles",
+      "topic": "Diagnostic tests: likelihood ratios",
+      "difficulty": 2,
+      "stem": "A new blood test for pulmonary embolism has a sensitivity of 90% and a specificity of 80% when compared with CT pulmonary angiography in a large validation study.",
+      "leadIn": "What is the positive likelihood ratio of this test?",
+      "options": [
+        {
+          "id": "a",
+          "text": "4.5"
+        },
+        {
+          "id": "b",
+          "text": "0.13"
+        },
+        {
+          "id": "c",
+          "text": "1.1"
+        },
+        {
+          "id": "d",
+          "text": "9.0"
+        },
+        {
+          "id": "e",
+          "text": "0.22"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: 4.5. Why: Your First Aid pages in the biostats file (p. 257) define the likelihood ratio as how likely a given test result is in a patient with the disease compared with a patient without it. The positive likelihood ratio is sensitivity / (1 - specificity), the true-positive rate divided by the false-positive rate, and the negative likelihood ratio is (1 - sensitivity) / specificity. Here LR+ = 0.90 / (1 - 0.80) = 0.90 / 0.20 = 4.5. Your pages note that an LR+ above 10 marks a highly specific test, an LR- below 0.1 marks a highly sensitive test, and that LRs can be multiplied by the pretest odds to estimate the posttest odds. StatPearls' Diagnostic Testing Accuracy page gives the same formulas, describes LR+ as the true-positive rate divided by the false-positive rate, and notes that, unlike predictive values, likelihood ratios are not affected by disease prevalence.",
+      "whyWrong": {
+        "b": "0.13 is the negative likelihood ratio, (1 - 0.90) / 0.80 = 0.125 (your First Aid pages in the biostats file, p. 257).",
+        "c": "1.1 comes from dividing sensitivity by specificity (0.90/0.80); the denominator must be the false-positive rate, 1 - specificity (standard teaching).",
+        "d": "9.0 comes from dividing sensitivity by the false-negative rate (0.90/0.10), which is not a likelihood ratio (standard teaching).",
+        "e": "0.22 is the false-positive rate divided by sensitivity (0.20/0.90), the positive likelihood ratio turned upside down (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Evaluation of diagnostic tests (likelihood ratio), p. 257"
+        },
+        {
+          "title": "StatPearls: Diagnostic Testing Accuracy: Sensitivity, Specificity, Predictive Values and Likelihood Ratios",
+          "url": "https://www.statpearls.com/point-of-care/96435"
+        }
+      ]
+    },
+    {
+      "id": "biostats-prevalence-duration-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biostatistics & Epidemiology",
+      "system": "General Principles",
+      "topic": "Incidence vs prevalence: effect of longer survival",
+      "difficulty": 2,
+      "stem": "A new drug for a chronic, incurable lung disease lengthens average survival from 3 years to 7 years after diagnosis. It does not cure the disease and does not change how many people develop it each year. The drug is given to nearly everyone with the disease in a country for 10 years.",
+      "leadIn": "Which of the following changes is most likely over this period?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Prevalence rises; incidence stays the same"
+        },
+        {
+          "id": "b",
+          "text": "Prevalence falls; incidence stays the same"
+        },
+        {
+          "id": "c",
+          "text": "Incidence rises; prevalence stays the same"
+        },
+        {
+          "id": "d",
+          "text": "Incidence falls; prevalence falls too"
+        },
+        {
+          "id": "e",
+          "text": "Both stay the same because nobody is cured"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: prevalence rises while incidence stays the same. Why: Your First Aid pages in the biostats file (p. 259) explain that incidence counts new cases in a period among people at risk, while prevalence counts all existing cases at a point in time. Prevalence is roughly incidence multiplied by the average duration of the disease. Your table lists longer survival time as raising prevalence with no change in incidence, while faster recovery or higher mortality lowers prevalence, and wide vaccination lowers both. Chronic diseases have a prevalence well above their incidence because existing cases build up. Penn State's STAT 507 Lesson 3 agrees that because prevalence counts both new and existing cases, the duration of the disease affects prevalence, and that diseases that last longer will be more prevalent than those of shorter duration. Here people live longer with the disease, so more cases exist at any time, but the number of new cases is unchanged.",
+      "whyWrong": {
+        "b": "Prevalence falls when cases end faster, through quicker recovery or higher mortality, not when survival is longer (your First Aid pages in the biostats file, p. 259).",
+        "c": "Incidence depends on how many new people develop the disease, which the drug does not change (your First Aid pages in the biostats file, p. 259).",
+        "d": "Both fall with prevention, such as wide vaccination, which removes new cases; this drug treats existing cases (your First Aid pages in the biostats file, p. 259).",
+        "e": "A cure is not needed to change prevalence; any change in how long cases last changes it (your First Aid pages in the biostats file, p. 259)."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Incidence vs prevalence, p. 259"
+        },
+        {
+          "title": "Penn State STAT 507: Lesson 3, Measurements of Disease Occurrence and Frequency",
+          "url": "https://online.stat.psu.edu/stat507/Lesson03"
+        }
+      ]
+    },
+    {
+      "id": "biostats-confidence-interval-rr-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biostatistics & Epidemiology",
+      "system": "General Principles",
+      "topic": "Hypothesis testing: confidence intervals",
+      "difficulty": 2,
+      "stem": "A cohort study of 3,000 adults reports that regular use of a sleep medication is associated with hip fracture, with a relative risk of 1.8 and a 95% confidence interval of 0.9 to 3.6. The study used an alpha of 0.05.",
+      "leadIn": "Which of the following is the most appropriate conclusion?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The link is not statistically significant"
+        },
+        {
+          "id": "b",
+          "text": "The drug nearly doubles the risk of fracture"
+        },
+        {
+          "id": "c",
+          "text": "The drug protects against hip fracture"
+        },
+        {
+          "id": "d",
+          "text": "The p-value must be less than 0.05"
+        },
+        {
+          "id": "e",
+          "text": "A larger study would widen the interval"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the association is not statistically significant. Why: Your First Aid pages in the biostats file (p. 263) describe a confidence interval as the range in which the true value is expected to fall with a set probability, with the 95% interval matching an alpha of 0.05. If the 95% interval for a relative risk or odds ratio includes 1, or the interval for a difference in means includes 0, the null hypothesis is not rejected. As the sample size grows, the interval becomes narrower. Here the interval for the relative risk (0.9 to 3.6) includes 1, the value of no effect, so the result could be due to chance and p is above 0.05. The University of Nottingham's evidence-based practice page on confidence intervals agrees that if a confidence interval includes the value that means 'no effect', you cannot rule out that the intervention has no effect, and its table gives 1 as the no-effect value for relative risk and 0 for differences.",
+      "whyWrong": {
+        "b": "The point estimate is 1.8, but the interval includes 1, so the study cannot claim the drug raises risk (standard teaching).",
+        "c": "A protective effect would need the whole interval below 1; most of this interval lies above 1 (standard teaching).",
+        "d": "An interval that includes 1 corresponds to a p-value above 0.05, not below it (your First Aid pages in the biostats file, p. 263).",
+        "e": "Larger samples make confidence intervals narrower, not wider (your First Aid pages in the biostats file, p. 263)."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Confidence interval, p. 263"
+        },
+        {
+          "title": "University of Nottingham: Assessing statistical significance from a confidence interval",
+          "url": "https://nottingham.ac.uk/nmp/sonet/rlos/ebp/confidence_intervals/page_five.html"
+        }
+      ]
+    },
+    {
+      "id": "biostats-hawthorne-effect-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biostatistics & Epidemiology",
+      "system": "General Principles",
+      "topic": "Study bias: Hawthorne effect",
+      "difficulty": 2,
+      "stem": "A hospital studies hand hygiene on its medical wards. Nurses and physicians are told that trained observers will record their hand washing during a 2-week study period. Hand-washing rates during the study are 85%, compared with 45% measured by hidden electronic dispensers in the month before. One month after the observers leave, the dispenser data show a rate of 47%.",
+      "leadIn": "Which of the following best explains the high rate during the study period?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hawthorne effect"
+        },
+        {
+          "id": "b",
+          "text": "Pygmalion effect"
+        },
+        {
+          "id": "c",
+          "text": "Recall bias"
+        },
+        {
+          "id": "d",
+          "text": "Berkson bias"
+        },
+        {
+          "id": "e",
+          "text": "Lead-time bias"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the Hawthorne effect, a type of measurement bias. Why: Your First Aid pages in the biostats file (p. 260) list the Hawthorne effect under measurement bias: participants change their behavior when they know they are being watched. Ways to reduce measurement bias include objective, standardized data collection planned ahead of time and the use of a placebo group. Here staff washed their hands more only while they knew observers were present, and the rate went back down after the observers left. McCambridge and colleagues' systematic review of the Hawthorne effect (Journal of Clinical Epidemiology, 2014) agrees that the effect concerns research participation and the resulting awareness of being studied, with a possible impact on behavior.",
+      "whyWrong": {
+        "b": "The Pygmalion (observer-expectancy) effect is when the researcher's belief in a treatment changes the outcome they record, not when subjects change behavior (your First Aid pages in the biostats file, p. 260).",
+        "c": "Recall bias happens when people with a disease remember past exposures differently; hand washing here was directly observed (your First Aid pages in the biostats file, p. 260).",
+        "d": "Berkson bias is selection bias from choosing cases or controls in hospitals, where people are sicker than the general population (your First Aid pages in the biostats file, p. 260).",
+        "e": "Lead-time bias is when earlier detection makes survival look longer (your First Aid pages in the biostats file, p. 261)."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Bias and study errors (measurement bias), p. 260"
+        },
+        {
+          "title": "McCambridge J, Witton J, Elbourne DR. Systematic review of the Hawthorne effect. J Clin Epidemiol 2014;67(3):267-277",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3969247"
+        }
+      ]
+    },
+    {
+      "id": "biostats-cross-sectional-prevalence-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biostatistics & Epidemiology",
+      "system": "General Principles",
+      "topic": "Study design: cross-sectional study",
+      "difficulty": 1,
+      "stem": "Investigators send a single survey to 2,000 randomly chosen adults in a city. On the same day, each person reports whether they currently smoke and whether they currently have asthma. No one is followed over time.",
+      "leadIn": "This study design is best suited to measure which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Prevalence of asthma at that time"
+        },
+        {
+          "id": "b",
+          "text": "Incidence of new asthma over a year"
+        },
+        {
+          "id": "c",
+          "text": "Relative risk of asthma in smokers"
+        },
+        {
+          "id": "d",
+          "text": "Whether smoking causes asthma"
+        },
+        {
+          "id": "e",
+          "text": "Survival after an asthma diagnosis"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the prevalence of asthma at that time. Why: Your First Aid pages in the biostats file (p. 256) describe a cross-sectional study as one that measures how often a disease and its risk factors occur in the present, asking 'what is happening?' It measures disease prevalence and can show that a risk factor is associated with a disease, but it cannot establish causality. Cohort studies, which compare exposed and unexposed groups over time, give relative risk, and case-control studies, which compare people with and without the disease, give odds ratios. Penn State's STAT 507 Lesson 3 agrees that point prevalence can be estimated from a cross-sectional survey, and notes that incidence can come from a cohort study. It adds that prevalence is not generally useful for hypothesis-driven research into causes, because the cases are not new.",
+      "whyWrong": {
+        "b": "Incidence counts new cases over a period, which needs follow-up of people at risk, as in a cohort study (your First Aid pages in the biostats file, pp. 256, 259).",
+        "c": "Relative risk compares the risk of developing disease in exposed vs unexposed groups followed over time, as in a cohort study (your First Aid pages in the biostats file, pp. 256, 258).",
+        "d": "A cross-sectional study can show an association but cannot establish causality, because exposure and disease are measured at the same time (your First Aid pages in the biostats file, p. 256).",
+        "e": "Survival after diagnosis needs people to be followed over time, for example with a Kaplan-Meier analysis (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Observational studies (cross-sectional study), p. 256"
+        },
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Quantifying risk, p. 258"
+        },
+        {
+          "title": "Penn State STAT 507: Lesson 3, Measurements of Disease Occurrence and Frequency",
+          "url": "https://online.stat.psu.edu/stat507/Lesson03"
+        }
+      ]
+    },
+    {
+      "id": "histo-oligodendrocyte-ms-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "Nervous System & Special Senses",
+      "topic": "Neural cells: oligodendrocytes in multiple sclerosis",
+      "difficulty": 2,
+      "stem": "A 29-year-old woman comes to the physician because of blurred vision and pain on moving her right eye for 4 days. Two years ago she had numbness of her legs that went away over a month. When she bends her neck forward, she feels an electric shock running down her back. MRI of the brain shows several bright T2 lesions next to the lateral ventricles, some radiating outward from the corpus callosum.",
+      "leadIn": "Damage to which of the following cell types is most directly responsible for her lesions?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Oligodendrocytes"
+        },
+        {
+          "id": "b",
+          "text": "Schwann cells"
+        },
+        {
+          "id": "c",
+          "text": "Astrocytes"
+        },
+        {
+          "id": "d",
+          "text": "Microglia"
+        },
+        {
+          "id": "e",
+          "text": "Ependymal lining cells"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: oligodendrocytes, the cells that make myelin in the brain and spinal cord. Why: your Osmosis neurology notes (pp. 58-59) describe multiple sclerosis as an autoimmune disease that strips myelin from nerves in the brain and spinal cord, mainly through a cell-mediated (type IV) reaction. T cells activated by myelin proteins cross the blood-brain barrier, B cells make antibodies that tag myelin, and macrophages engulf the tagged oligodendrocytes. Early on, oligodendrocytes can recover and remyelinate, but repeated attacks kill them, and myelin and axons are lost. Your notes list optic neuritis, Lhermitte sign (an electric shock down the back on bending the neck), and MRI plaques radiating from the corpus callosum (Dawson fingers), with high antibody levels in the CSF. It usually affects young adults, and women are about twice as likely to be affected. MSD's Multiple Sclerosis page agrees that MS causes scattered patches of demyelination in the brain and spinal cord with destruction of oligodendroglia. MSD notes that optic neuritis causes vision loss and eye pain with eye movement, that MRI is the most sensitive imaging test, and that oligoclonal IgG bands can usually be found in the CSF.",
+      "whyWrong": {
+        "b": "Schwann cells make myelin in peripheral nerves; their damage causes Guillain-Barré syndrome, not brain and spinal cord plaques (standard teaching).",
+        "c": "Astrocytes support neurons and detoxify ammonia; they swell in hepatic encephalopathy rather than being the main target in MS (your Osmosis neurology notes, p. 91).",
+        "d": "Microglia are the brain's resident macrophages; they help clear damaged myelin but are not the cells that make it (standard teaching).",
+        "e": "Ependymal cells line the ventricles and help make CSF; they do not make myelin (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Neurology (Emily's file), Multiple sclerosis, pp. 58-59"
+        },
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Neurology (Emily's file), Hepatic encephalopathy, p. 91"
+        },
+        {
+          "title": "MSD Manual Professional: Multiple Sclerosis (MS)",
+          "url": "https://www.msdmanuals.com/professional/neurologic-disorders/demyelinating-disorders/multiple-sclerosis-ms"
+        }
+      ]
+    },
+    {
+      "id": "histo-sarcomere-bands-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "Musculoskeletal",
+      "topic": "Skeletal muscle: sarcomere bands during contraction",
+      "difficulty": 2,
+      "stem": "In a physiology lab, electron micrographs are taken of a single skeletal muscle fiber at rest and again during a strong contraction. The distance between neighboring Z lines is shorter during the contraction.",
+      "leadIn": "Which part of the sarcomere stays the same length during the contraction?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A band"
+        },
+        {
+          "id": "b",
+          "text": "I band"
+        },
+        {
+          "id": "c",
+          "text": "H zone"
+        },
+        {
+          "id": "d",
+          "text": "Z line to Z line"
+        },
+        {
+          "id": "e",
+          "text": "Thin filament overlap gap"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the A band. Why: your El-Husseiny musculoskeletal notes (pp. 85-86) define the sarcomere as the distance between two Z lines. Actin (thin filaments) attaches to the Z line, and myosin (thick filaments) attaches to the M line in the middle. The A band is the full length of the thick myosin filaments, including the parts overlapped by actin, so it keeps the same length during contraction (your notes say 'A band is Always the same length'). The I band holds only thin filaments and the H zone holds only thick filaments; both shrink as actin slides over myosin toward the M line. The Atlas of Microscopic Anatomy's plate on striated muscle agrees: the A band contains the myosin filaments plus thin filaments reaching in from the I band, the I band contains thin actin filaments, and the H zone bisects the A band and vanishes in contraction.",
+      "whyWrong": {
+        "b": "The I band holds only thin filaments and gets shorter as they slide over the thick filaments (your El-Husseiny musculoskeletal notes, p. 85).",
+        "c": "The H zone holds only thick filaments and shrinks, or disappears, during contraction (your El-Husseiny musculoskeletal notes, p. 86).",
+        "d": "The Z-to-Z distance is the sarcomere itself, which shortens; the stem tells you this happened (your El-Husseiny musculoskeletal notes, p. 85).",
+        "e": "The gap between the ends of thin filaments in the middle of the sarcomere closes during contraction; it is the same region as the H zone (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Sarcomere, pp. 85-86"
+        },
+        {
+          "title": "Atlas of Microscopic Anatomy: Plate 5.67, Striated Muscle",
+          "url": "https://www.anatomyatlases.org/MicroscopicAnatomy/Section05/Plate0567.shtml"
+        }
+      ]
+    },
+    {
+      "id": "histo-juxtaglomerular-cells-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "Renal & Urinary",
+      "topic": "Kidney: juxtaglomerular apparatus",
+      "difficulty": 2,
+      "stem": "A 66-year-old man with severe narrowing of the right renal artery has high blood pressure and high plasma renin activity. A kidney biopsy specimen shows enlarged cells packed with granules in the wall of the arteriole entering each glomerulus, close to a patch of tall, crowded tubule cells.",
+      "leadIn": "Which of the following best describes the granular cells?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Modified smooth muscle cells that release renin"
+        },
+        {
+          "id": "b",
+          "text": "Modified tubular cells that sense filtrate NaCl"
+        },
+        {
+          "id": "c",
+          "text": "Mesangial cells that support glomerular loops"
+        },
+        {
+          "id": "d",
+          "text": "Podocytes that form the filtration slit membrane"
+        },
+        {
+          "id": "e",
+          "text": "Interstitial cells that make erythropoietin"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: modified smooth muscle cells that release renin, the juxtaglomerular (JG) cells. Why: your El-Husseiny nephrology notes (p. 17) explain that the juxtaglomerular apparatus helps regulate kidney blood flow, GFR, and blood pressure through the renin-angiotensin-aldosterone system. JG cells are modified smooth muscle cells in the middle layer of the afferent arteriole (and to a lesser degree the efferent arteriole). They secrete renin and act as baroreceptors, releasing more renin when kidney perfusion falls, as with a narrowed renal artery or low blood volume. The macula densa is a group of modified tubule cells at the start of the distal tubule, next to the JG cells, that senses low NaCl in the tubule fluid. The Atlas of Microscopic Anatomy's plate on juxtaglomerular cells agrees that they are a granular kind of cell in the wall of the afferent arteriole, and that low perfusion pressure leads to renin release. It calls the macula densa a group of specialized cells of the straight part of the distal tubule. Kenhub's macula densa page adds that the macula densa detects Na+ and Cl- in the tubular fluid and influences renin release from the nearby JG cells.",
+      "whyWrong": {
+        "b": "This describes the macula densa, the crowded tubule cells next to the granular cells; they sense NaCl but do not store renin (your El-Husseiny nephrology notes, p. 17).",
+        "c": "Mesangial cells sit between the glomerular capillary loops, support them, and can take up debris; they are not the renin-storing cells of the arteriole wall (standard teaching).",
+        "d": "Podocytes cover the outside of the glomerular capillaries and form the filtration slits; they do not make renin (standard teaching).",
+        "e": "Erythropoietin is made by interstitial cells near the tubules in response to low oxygen, not by cells in the arteriole wall (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Nephrology (Emily's file), Juxtaglomerular apparatus, p. 17"
+        },
+        {
+          "title": "Atlas of Microscopic Anatomy: Plate 12.238, Kidney: Juxtaglomerular Cells",
+          "url": "https://www.anatomyatlases.org/MicroscopicAnatomy/Section12/Plate12238.shtml"
+        },
+        {
+          "title": "Kenhub: Macula densa",
+          "url": "https://www.kenhub.com/en/library/anatomy/macula-densa"
+        }
+      ]
+    },
+    {
+      "id": "histo-lymph-node-paracortex-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Lymph node structure: paracortex",
+      "difficulty": 2,
+      "stem": "A 17-year-old boy has had fever, sore throat, and tender swollen neck lymph nodes for 2 weeks. A heterophile antibody test is positive. Because one node keeps growing, it is removed. Microscopy shows normal outer follicles but a greatly expanded zone of small and large lymphocytes between the follicles and the medulla.",
+      "leadIn": "Which region of the lymph node is expanded?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Paracortex"
+        },
+        {
+          "id": "b",
+          "text": "Primary follicles"
+        },
+        {
+          "id": "c",
+          "text": "Germinal centers"
+        },
+        {
+          "id": "d",
+          "text": "Medullary cords"
+        },
+        {
+          "id": "e",
+          "text": "Subcapsular sinus"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the paracortex. Why: your El-Husseiny microbiology and immunology notes (pp. 395-396) explain that lymph enters a node through afferent lymphatics into the subcapsular sinus, filters through the outer cortex and its follicles, and leaves through the medulla and efferent lymphatics at the hilum. Follicles in the outer cortex are where B cells gather and multiply: primary follicles are dense and inactive, and secondary follicles have pale, active germinal centers. The paracortex, between the follicles and the medulla, houses T cells; it is underdeveloped in DiGeorge syndrome and enlarges in strong cell-mediated responses such as EBV and other viral infections (paracortical hyperplasia). The medulla has medullary cords of lymphocytes and plasma cells and medullary sinuses with macrophages. The University of Utah's WebPath lymph node image, stained for the T-cell marker CD45RO, agrees that T cells cluster around follicles and extend into the paracortex.",
+      "whyWrong": {
+        "b": "Primary follicles are dense, inactive B-cell areas in the outer cortex, which looked normal here (your El-Husseiny microbiology and immunology notes, p. 395).",
+        "c": "Germinal centers are the pale active centers of secondary follicles, where B cells multiply; they are inside the follicles, not between follicles and medulla (your El-Husseiny microbiology and immunology notes, p. 395).",
+        "d": "Medullary cords hold lymphocytes and plasma cells in the inner medulla (your El-Husseiny microbiology and immunology notes, p. 396).",
+        "e": "The subcapsular sinus is just under the capsule, where afferent lymph first enters (your El-Husseiny microbiology and immunology notes, p. 395)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Lymph node, pp. 395-396"
+        },
+        {
+          "title": "WebPath (University of Utah): Lymph node, CD45RO stain for T cells",
+          "url": "https://webpath.med.utah.edu/HISTHTML/NORMAL/IPX017.html"
+        }
+      ]
+    },
+    {
+      "id": "histo-spleen-pals-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Spleen structure: periarteriolar lymphoid sheath",
+      "difficulty": 2,
+      "stem": "A 24-year-old man has his spleen removed after a car crash. A section of the removed spleen shows small round collections of lymphocytes, each wrapped tightly around a central arteriole, surrounded by large areas of blood-filled sinusoids.",
+      "leadIn": "The lymphocytes forming the sheath directly around each central arteriole are mainly which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "T lymphocytes"
+        },
+        {
+          "id": "b",
+          "text": "B lymphocytes"
+        },
+        {
+          "id": "c",
+          "text": "Plasma cells"
+        },
+        {
+          "id": "d",
+          "text": "Macrophages"
+        },
+        {
+          "id": "e",
+          "text": "Neutrophils"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: T lymphocytes. Why: your El-Husseiny microbiology and immunology notes (p. 398) explain that the spleen starts immune responses to antigens in the blood. Branches of the splenic artery become wrapped in lymphocytes, forming the periarteriolar lymphoid sheath (PALS), and these sheaths make up the white pulp. T cells sit in the PALS, while B cells gather in white-pulp follicles. Between the white pulp and red pulp lies the marginal zone, which holds antigen-presenting cells and special B cells that capture blood-borne antigens, and nearby macrophages remove encapsulated bacteria. The arterioles end in vascular sinusoids, which form the red pulp. That is why people without a spleen are at risk from encapsulated organisms. The Australian Immunisation Handbook's page on asplenia agrees that people with absent or poorly working spleens are at risk of life-threatening infections from encapsulated bacteria, including Streptococcus pneumoniae, Neisseria meningitidis, and Haemophilus influenzae type b. It notes that the risk is highest in the first years after splenectomy but lasts for life, and recommends extra pneumococcal, meningococcal, and Hib-containing vaccines.",
+      "whyWrong": {
+        "b": "B cells are found in the follicles of the white pulp, next to the sheath rather than forming it (your El-Husseiny microbiology and immunology notes, p. 398).",
+        "c": "Plasma cells are mature B cells; in the spleen they are not the cells that form the sheath around the arteriole (your El-Husseiny microbiology and immunology notes, p. 398, and standard teaching).",
+        "d": "Macrophages in the spleen clear encapsulated bacteria and old red cells, mainly in and near the marginal zone and red pulp (your El-Husseiny microbiology and immunology notes, p. 398, and standard teaching).",
+        "e": "Neutrophils circulate in the blood and are not a resident part of the white pulp (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Spleen, p. 398"
+        },
+        {
+          "title": "Australian Immunisation Handbook: People with asplenia and hyposplenia",
+          "url": "https://immunisationhandbook.health.gov.au/node/918"
+        }
+      ]
+    },
+    {
+      "id": "histo-astrocyte-ammonia-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "Nervous System & Special Senses",
+      "topic": "Glial cells: astrocytes in hepatic encephalopathy",
+      "difficulty": 2,
+      "stem": "A 58-year-old man with alcoholic cirrhosis is brought to the emergency department because of confusion and sleepiness for 2 days. He vomited blood 3 days ago. When he holds his arms out with wrists bent back, his hands flap. His serum ammonia concentration is high.",
+      "leadIn": "Which of the following brain cells detoxifies ammonia and swells in this condition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Astrocytes"
+        },
+        {
+          "id": "b",
+          "text": "Oligodendrocytes"
+        },
+        {
+          "id": "c",
+          "text": "Microglia"
+        },
+        {
+          "id": "d",
+          "text": "Ependymal cells"
+        },
+        {
+          "id": "e",
+          "text": "Purkinje cells"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: astrocytes. Why: Your Osmosis neurology notes (p. 91) explain that hepatic encephalopathy is brain injury from toxic substances, such as ammonia from nitrogen breakdown, that a failing liver does not remove. Astrocytes detoxify ammonia, which builds up glutamine inside them, and the resulting osmotic stress makes them swell. Other insults, such as bleeding, infection, alkalosis, other metabolic problems, or medications, can bring on an episode. The Merck Manual Consumer Version page on hepatic encephalopathy agrees that toxic substances normally removed by the liver build up in the blood and reach the brain, and that some bypass the liver through abnormal connections caused by portal hypertension. It lists digestive tract bleeding, infection, dehydration, and some drugs as triggers, describes asterixis (a flapping motion of the hands), and says lactulose lowers how much ammonia is absorbed while rifaximin acts on gut bacteria.",
+      "whyWrong": {
+        "b": "Oligodendrocytes make myelin in the brain and spinal cord; they are the cells damaged in multiple sclerosis (your Osmosis neurology notes, p. 58).",
+        "c": "Microglia are resident macrophages of the brain that respond to injury; they are not the main ammonia-detoxifying cells (standard teaching).",
+        "d": "Ependymal cells line the ventricles and central canal and help make CSF (standard teaching).",
+        "e": "Purkinje cells are large neurons of the cerebellar cortex; alcohol can damage them, but they do not detoxify ammonia (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Neurology (Emily's file), Hepatic encephalopathy, p. 91"
+        },
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Neurology (Emily's file), Multiple sclerosis, p. 58"
+        },
+        {
+          "title": "Merck Manual Consumer Version: Hepatic Encephalopathy",
+          "url": "https://www.merckmanuals.com/home/liver-and-gallbladder-disorders/manifestations-of-liver-disease/hepatic-encephalopathy"
+        }
+      ]
+    },
+    {
+      "id": "neuro-guillain-barre-csf-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Nervous System & Special Senses",
+      "topic": "Guillain-Barré syndrome",
+      "difficulty": 2,
+      "stem": "A 34-year-old man comes to the emergency department because of tingling in his feet and weakness in his legs for 3 days. The weakness has now spread to his arms. Two weeks ago he had several days of bloody diarrhea after eating undercooked chicken. He is weak in all four limbs, more in the legs, and reflexes are absent throughout. Sensation is only mildly reduced in the feet.",
+      "leadIn": "Analysis of his cerebrospinal fluid is most likely to show which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "High protein with a normal cell count"
+        },
+        {
+          "id": "b",
+          "text": "Many neutrophils with a low glucose"
+        },
+        {
+          "id": "c",
+          "text": "Oligoclonal bands with few lymphocytes"
+        },
+        {
+          "id": "d",
+          "text": "Many red cells with yellow fluid"
+        },
+        {
+          "id": "e",
+          "text": "Many lymphocytes with a low glucose"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: high protein with a normal cell count (albuminocytologic dissociation). Why: your Osmosis neurology notes (pp. 196-197) describe Guillain-Barré syndrome as an acute autoimmune disease that strips myelin from peripheral nerves. Through molecular mimicry, a preceding infection, most often Campylobacter jejuni (also Mycoplasma, CMV, EBV, influenza A, Zika, and HIV), triggers antibodies and macrophages that attack peripheral myelin, slowing or blocking nerve conduction. Patients have symmetric, flaccid, ascending weakness that peaks within about 4 weeks, with lost reflexes, and the diaphragm can weaken enough to need a ventilator. The CSF shows high protein without more cells, and treatment is IVIG or plasmapheresis. MSD's Guillain-Barré Syndrome page agrees that infection is the trigger in over 50% of patients, that relatively symmetric weakness usually starts in the legs and spreads to the arms, that deep tendon reflexes are lost, and that CSF shows albuminocytologic dissociation (increased protein but a normal white cell count). MSD adds that forced vital capacity should be measured every 6 to 8 hours, that plasma exchange and IVIG are the treatments of choice, and that glucocorticoids are not indicated.",
+      "whyWrong": {
+        "b": "Many neutrophils with low glucose point to bacterial meningitis, which causes fever and a stiff neck rather than ascending weakness (standard teaching).",
+        "c": "Oligoclonal bands in the CSF are typical of multiple sclerosis, which affects the brain and spinal cord, not peripheral nerves (your Osmosis neurology notes, p. 59, and standard teaching).",
+        "d": "Red cells and yellow (xanthochromic) fluid suggest subarachnoid hemorrhage, which causes a sudden severe headache (standard teaching).",
+        "e": "Many lymphocytes with low glucose suggest tuberculous or fungal meningitis, not an autoimmune neuropathy (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Neurology (Emily's file), Guillain-Barré syndrome, pp. 196-197"
+        },
+        {
+          "title": "MSD Manual Professional: Guillain-Barré Syndrome (GBS)",
+          "url": "https://www.msdmanuals.com/professional/neurologic-disorders/peripheral-nervous-system-and-motor-unit-disorders/guillain-barr%C3%A9-syndrome-gbs"
+        }
+      ]
+    },
+    {
+      "id": "neuro-normal-pressure-hydrocephalus-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Nervous System & Special Senses",
+      "topic": "Normal pressure hydrocephalus",
+      "difficulty": 2,
+      "stem": "A 74-year-old man is brought to the physician by his daughter because he has become forgetful and walks with short, shuffling steps as if his feet were stuck to the floor over the past 8 months. He has also started wetting himself without warning. He has no tremor. MRI of the brain shows enlarged lateral ventricles that are out of proportion to only mild widening of the sulci.",
+      "leadIn": "Which of the following is the most likely cause of his symptoms?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Poor CSF absorption with large ventricles"
+        },
+        {
+          "id": "b",
+          "text": "Loss of dopamine neurons in the substantia nigra"
+        },
+        {
+          "id": "c",
+          "text": "Many small infarcts in deep white matter"
+        },
+        {
+          "id": "d",
+          "text": "Amyloid plaques spreading through the cortex"
+        },
+        {
+          "id": "e",
+          "text": "Prion-induced spongy change of the cortex"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: poor absorption of CSF causing enlarged ventricles (normal pressure hydrocephalus). Why: your Osmosis neurology notes (p. 47) describe normal pressure hydrocephalus as a buildup of CSF that slowly enlarges the lateral ventricles. The name is misleading, because pressure is mildly raised but without the usual signs of high pressure. The stretched ventricles press on fibers of the corona radiata, which causes urinary incontinence, a 'magnetic' or 'glue-footed' gait, and dementia. It can be idiopathic or follow a stroke, meningitis, trauma, or a tumor, and it is most common in older people. Imaging shows large ventricles without matching cortical atrophy, a high-volume lumbar tap that improves function supports the diagnosis, and a ventriculoperitoneal shunt can help. The Merck Manual Consumer Version page on normal-pressure hydrocephalus agrees that it causes difficulty walking, urinary incontinence, and dementia, and that it is thought to occur when CSF is not reabsorbed normally. It describes a slow, unsteady, wide-legged walk with feet that seem stuck to the floor, and says that removing CSF by spinal tap makes the diagnosis more likely if it improves gait, with a shunt as the main treatment.",
+      "whyWrong": {
+        "b": "Loss of dopamine neurons causes Parkinson disease, with resting tremor, rigidity, and slow movement, but not early incontinence and large ventricles (standard teaching).",
+        "c": "Vascular dementia from many small infarcts causes stepwise decline and white-matter lesions on MRI, not ventricles enlarged out of proportion to the sulci (standard teaching).",
+        "d": "Alzheimer disease causes memory loss with widespread cortical atrophy; gait and bladder problems come late (standard teaching).",
+        "e": "Prion disease (Creutzfeldt-Jakob) causes very fast dementia with myoclonus over months (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Neurology (Emily's file), Normal pressure hydrocephalus, p. 47"
+        },
+        {
+          "title": "Merck Manual Consumer Version: Normal-Pressure Hydrocephalus",
+          "url": "https://www.merckmanuals.com/home/brain-spinal-cord-and-nerve-disorders/delirium-and-dementia/normal-pressure-hydrocephalus"
+        }
+      ]
+    },
+    {
+      "id": "neuro-iih-abducens-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Nervous System & Special Senses",
+      "topic": "Idiopathic intracranial hypertension",
+      "difficulty": 2,
+      "stem": "A 27-year-old woman comes to the physician because of daily headaches for 3 months and brief episodes of blurred vision when she stands up. For 1 week she has seen double when looking to the left. Her BMI is 37 kg/m2. Fundoscopy shows swelling of both optic discs. Her left eye does not move outward past the midline. MRI of the brain is normal. Lumbar puncture shows an opening pressure of 340 mm H2O with normal CSF.",
+      "leadIn": "Stretching of which of the following nerves most likely explains her double vision?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Left abducens nerve"
+        },
+        {
+          "id": "b",
+          "text": "Left oculomotor nerve"
+        },
+        {
+          "id": "c",
+          "text": "Left trochlear nerve"
+        },
+        {
+          "id": "d",
+          "text": "Left optic nerve"
+        },
+        {
+          "id": "e",
+          "text": "Left facial nerve"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the left abducens nerve (cranial nerve VI). Why: your Osmosis neurology notes (p. 149) describe idiopathic intracranial hypertension (pseudotumor cerebri) as long-lasting high intracranial pressure without an obvious cause, most often in women of childbearing age who are overweight. It causes headache, papilledema, visual field loss, pulsatile tinnitus, brief visual disturbances, and double vision, and cranial nerve palsies, typically of CN VI because of its long course inside the skull. Imaging and CSF are normal, the opening pressure is high, and treatment includes weight loss and acetazolamide, which lowers CSF production. MSD's Idiopathic Intracranial Hypertension page agrees that it typically occurs in women of childbearing age, much more often with obesity, and lists transient obscuration of vision, pulsatile tinnitus, and diplopia due to sixth cranial nerve dysfunction. MSD sets the pressure as elevated above 250 mm H2O with normal CSF composition, treats with acetazolamide or topiramate plus weight loss if needed, and warns that permanent vision loss is the most serious consequence.",
+      "whyWrong": {
+        "b": "An oculomotor (CN III) palsy causes a 'down and out' eye, droopy lid, and sometimes a large pupil, not weakness looking outward (standard teaching).",
+        "c": "A trochlear (CN IV) palsy causes vertical double vision, worse looking down and in, as when reading or using stairs (standard teaching).",
+        "d": "The optic nerve is compressed in this condition, causing papilledema and vision loss, but it carries vision, not eye movement (your Osmosis neurology notes, p. 149).",
+        "e": "The facial nerve moves the face; it does not move the eye (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Neurology (Emily's file), Idiopathic intracranial hypertension, p. 149"
+        },
+        {
+          "title": "MSD Manual Professional: Idiopathic Intracranial Hypertension",
+          "url": "https://www.msdmanuals.com/professional/neurologic-disorders/headache/idiopathic-intracranial-hypertension"
+        }
+      ]
+    },
+    {
+      "id": "neuro-cluster-headache-hypothalamus-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Nervous System & Special Senses",
+      "topic": "Cluster headache",
+      "difficulty": 2,
+      "stem": "A 35-year-old man comes to the physician because of attacks of severe, stabbing pain behind his right eye for 3 weeks. The attacks wake him at about the same time each night and last 45 minutes. During attacks his right eye waters and turns red, his right nostril runs, and his right eyelid droops. He paces the room rather than lying still. He had a similar 2-month bout last year. Having a beer at night brings on an attack.",
+      "leadIn": "Functional imaging during an attack is most likely to show activation of which of the following structures?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Posterior hypothalamus"
+        },
+        {
+          "id": "b",
+          "text": "Primary visual (occipital) cortex"
+        },
+        {
+          "id": "c",
+          "text": "Substantia nigra"
+        },
+        {
+          "id": "d",
+          "text": "Cerebellar vermis"
+        },
+        {
+          "id": "e",
+          "text": "Hippocampus"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the posterior hypothalamus. Why: your Osmosis neurology notes (pp. 134-135) describe cluster headache as one-sided pain in the area of the ophthalmic branch of the trigeminal nerve, with autonomic symptoms. Activation of the posterior hypothalamus, which explains the episodic, clock-like timing, leads to trigeminal stimulation and overactivity of the parasympathetic pterygopalatine ganglion, causing tearing, red eye, and a runny nose. Inflammation in the cavernous sinus wall can injure sympathetic fibers on the internal carotid artery, causing a droopy lid and small pupil. It is more common in men, attacks come once to eight times a day in bouts lasting weeks, and patients are restless and agitated. Acute treatment is oxygen or an intranasal triptan, and verapamil is used for prevention. MSD's Cluster Headache page agrees that it affects primarily men, that the pain is always one-sided around the eye and temple, often waking patients from sleep, and that patients restlessly pace. MSD lists tearing, runny nose, nasal congestion, and Horner syndrome on the same side, says alcohol triggers attacks during a cluster, and notes that the periodicity suggests hypothalamic dysfunction. MSD treats attacks with a parenteral triptan, dihydroergotamine, or 100% oxygen.",
+      "whyWrong": {
+        "b": "The visual cortex is where migraine aura arises from a wave of spreading cortical depression; cluster headache does not have an aura of this kind (standard teaching).",
+        "c": "The substantia nigra is affected in Parkinson disease, not in cluster headache (standard teaching).",
+        "d": "The cerebellar vermis controls balance of the trunk; alcohol damages it over time, but it does not drive cluster attacks (standard teaching).",
+        "e": "The hippocampus is involved in memory and is damaged early in Alzheimer disease (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Neurology (Emily's file), Cluster headache, pp. 134-135"
+        },
+        {
+          "title": "MSD Manual Professional: Cluster Headache",
+          "url": "https://www.msdmanuals.com/professional/neurologic-disorders/headache/cluster-headache"
+        }
+      ]
+    },
+    {
+      "id": "neuro-migraine-cgrp-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Nervous System & Special Senses",
+      "topic": "Migraine: trigeminovascular mechanism",
+      "difficulty": 2,
+      "stem": "A 28-year-old woman comes to the physician because of headaches twice a month for 2 years. Each headache starts with 20 minutes of flickering zigzag lines that spread across her vision. Then a throbbing pain develops on one side of her head and lasts most of the day, with nausea and sensitivity to light and noise. Walking up stairs makes it worse. Her neurologic examination is normal between attacks.",
+      "leadIn": "Release of which of the following from trigeminal sensory nerve endings most directly contributes to her headache pain?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Calcitonin gene-related peptide"
+        },
+        {
+          "id": "b",
+          "text": "Acetylcholine from vagal fibers"
+        },
+        {
+          "id": "c",
+          "text": "Glycine from spinal interneurons"
+        },
+        {
+          "id": "d",
+          "text": "Dopamine from the substantia nigra"
+        },
+        {
+          "id": "e",
+          "text": "Norepinephrine from sympathetic fibers"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: calcitonin gene-related peptide (CGRP). Why: your Osmosis neurology notes (pp. 136-137) explain that in migraine, overexcitable neurons start a wave of spreading depression across the cortex that releases inflammatory substances and potassium, which activate trigeminal pain fibers around blood vessels. These fibers release substance P, CGRP, and neurokinin A, causing inflammation and widening of meningeal vessels, and the pain signals travel through the trigeminal nucleus caudalis to the thalamus and cortex. The spreading depression also likely causes the aura, most often visual, such as a zigzag line that spreads outward. Migraine is one-sided, pulsating, made worse by activity, and comes with nausea and sensitivity to light and sound. Your notes (p. 138) list NSAIDs and acetaminophen for mild attacks, triptans and ergots for moderate to severe attacks, and beta blockers, tricyclics, and topiramate or valproate for prevention. MSD's Migraine page agrees that the trigeminovascular system is involved, with release of neuropeptides such as CGRP causing painful inflammation in cranial vessels and the dura, and that migraine is far more common in women. Recent change: MSD now also lists drugs that block CGRP. These are the gepants ubrogepant or rimegepant for attacks when triptans cannot be used, and atogepant or rimegepant, or injectable CGRP monoclonal antibodies (for example erenumab, fremanezumab, or galcanezumab), for prevention. Your notes do not include these.",
+      "whyWrong": {
+        "b": "Acetylcholine is released by parasympathetic fibers; it is not the main pain-producing peptide from trigeminal endings (standard teaching).",
+        "c": "Glycine is an inhibitory transmitter in the spinal cord; it does not cause blood vessel inflammation in the meninges (standard teaching).",
+        "d": "Dopamine from the substantia nigra controls movement; dopamine blockers such as metoclopramide treat migraine nausea, but dopamine is not the trigeminal pain peptide (standard teaching).",
+        "e": "Norepinephrine from sympathetic fibers narrows blood vessels; it is not released by trigeminal pain fibers (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Neurology (Emily's file), Migraine, pp. 136-138"
+        },
+        {
+          "title": "MSD Manual Professional: Migraine",
+          "url": "https://www.msdmanuals.com/professional/neurologic-disorders/headache/migraine"
+        }
+      ]
+    },
+    {
+      "id": "neuro-brown-sequard-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Nervous System & Special Senses",
+      "topic": "Spinal cord hemisection (Brown-Séquard syndrome)",
+      "difficulty": 2,
+      "stem": "A 25-year-old man is stabbed in the back. MRI shows that the knife cut the left half of the spinal cord at the T10 level. He is examined 2 days later.",
+      "leadIn": "Which pattern of deficits is most likely below the level of the injury?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Left leg weak; left vibration lost; right pain lost"
+        },
+        {
+          "id": "b",
+          "text": "Left leg weak; right vibration lost; left pain lost"
+        },
+        {
+          "id": "c",
+          "text": "Right leg weak; left vibration lost; left pain lost"
+        },
+        {
+          "id": "d",
+          "text": "Both legs weak; vibration lost on both sides"
+        },
+        {
+          "id": "e",
+          "text": "Left leg weak only, with normal sensation"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: weakness and loss of vibration and position sense on the left, with loss of pain and temperature on the right. Why: your Osmosis neurology notes (p. 199) describe Brown-Séquard syndrome as damage to one half of the spinal cord. Cutting the corticospinal tract causes spastic weakness on the same side below the lesion (with flaccid weakness of muscles supplied at the level of the injury). Cutting the dorsal column causes loss of vibration, position sense, and fine touch on the same side. Cutting the spinothalamic tract causes loss of pain and temperature on the opposite side. Causes include stab and gunshot wounds, fractures, tumors, and inflammatory diseases. StatPearls' Brown-Séquard Syndrome page agrees that it follows a hemisection of the spinal cord, with weakness and loss of position and vibration sense on the side of the injury and loss of pain and temperature on the other side. StatPearls explains that pain and temperature fibers cross in the anterior white commissure soon after they enter the cord, while dorsal column fibers cross only in the caudal medulla. It notes that knife injury is the most common traumatic mechanism and that this syndrome has the best prognosis for walking among spinal cord injuries.",
+      "whyWrong": {
+        "b": "This swaps the two sensory losses; the dorsal columns carry vibration on the same side, and the spinothalamic tract carries pain from the opposite side (standard teaching).",
+        "c": "The corticospinal tract has already crossed in the medulla, so weakness is on the same side as the cord injury, not the opposite side (standard teaching).",
+        "d": "Weakness and vibration loss in both legs suggest damage across the whole cord, not one half (standard teaching).",
+        "e": "Cutting half the cord also cuts the dorsal column and spinothalamic tract on that side, so sensation is affected too (your Osmosis neurology notes, p. 199)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Neurology (Emily's file), Brown-Séquard syndrome, p. 199"
+        },
+        {
+          "title": "StatPearls: Brown-Séquard Syndrome",
+          "url": "https://statpearls.com/point-of-care/18668"
+        }
+      ]
+    },
+    {
+      "id": "neuro-syringomyelia-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Nervous System & Special Senses",
+      "topic": "Syringomyelia: cape-like sensory loss",
+      "difficulty": 3,
+      "stem": "A 33-year-old woman comes to the physician because she burned both hands on a hot pan without feeling it. She has had neck pain for years. Examination shows loss of pain and temperature sensation over her shoulders, upper back, and both arms, with normal light touch, vibration, and position sense. The small muscles of both hands are thin and weak. MRI shows the lower cerebellum extending below the foramen magnum and a fluid-filled cavity in the center of the cervical spinal cord.",
+      "leadIn": "Damage to which of the following structures best explains her sensory loss?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Anterior white commissure fibers"
+        },
+        {
+          "id": "b",
+          "text": "Dorsal columns of the cervical spinal cord"
+        },
+        {
+          "id": "c",
+          "text": "Lateral corticospinal tracts on both sides"
+        },
+        {
+          "id": "d",
+          "text": "Dorsal root ganglia of cervical nerves"
+        },
+        {
+          "id": "e",
+          "text": "Dorsal spinocerebellar tracts on both sides"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the pain and temperature fibers crossing in the anterior white commissure. Why: your Osmosis neurology notes (p. 52) describe syringomyelia as a CSF-filled cyst (syrinx) around the central canal of the spinal cord. As it grows, pressure damages the cord, and symptoms progress slowly, so diagnosis is often in adulthood. It can be congenital, linked to Chiari malformation, or acquired after trauma, tumor, or bleeding. Patients have pain, abnormal sensations, weakness, and a 'suspended' sensory level that affects only the segments involved. MRI shows the syrinx, and treatment is surgical drainage and restoring CSF flow. Pain and temperature fibers cross to the other side in the anterior white commissure soon after entering the cord (StatPearls' Brown-Séquard Syndrome page), and this commissure lies just in front of the central canal (standard teaching), so a central cavity cuts these crossing fibers first. MSD's Syrinx page agrees that a syrinx is a fluid-filled cavity in the spinal cord, often linked to Chiari malformation, that it commonly begins in the cervical cord, and that pain and temperature loss occurs early in a capelike pattern over the shoulders, arms, and back, while light touch, position, and vibration are spared. MSD adds that weakness, wasting, and lost reflexes of the hands and arms follow, that MRI with gadolinium makes the diagnosis, and that surgical decompression of the foramen magnum and upper cervical cord is the only useful treatment.",
+      "whyWrong": {
+        "b": "Damage to the dorsal columns would cause loss of vibration and position sense, which are normal here (standard teaching).",
+        "c": "Corticospinal tract damage would cause spastic weakness of the legs with brisk reflexes; her hand weakness comes from anterior horn cells next to the cavity (standard teaching).",
+        "d": "Dorsal root ganglion damage would affect all types of sensation from those segments, including touch and vibration (standard teaching).",
+        "e": "The spinocerebellar tracts carry unconscious position sense to the cerebellum; damage causes unsteadiness, not loss of pain and temperature (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Neurology (Emily's file), Syringomyelia, p. 52"
+        },
+        {
+          "title": "MSD Manual Professional: Syrinx of the Spinal Cord or Brain Stem",
+          "url": "https://www.msdmanuals.com/professional/neurologic-disorders/spinal-cord-disorders/syrinx-of-the-spinal-cord-or-brain-stem"
+        },
+        {
+          "title": "StatPearls: Brown-Séquard Syndrome",
+          "url": "https://statpearls.com/point-of-care/18668"
+        }
+      ]
     }
   ]
 }
