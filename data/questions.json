@@ -3313,7 +3313,7 @@
       "whyWrong": {
         "a": "Clarithromycin triple therapy was removed as a first-line option in the 2024 ACG guideline.",
         "c": "A PPI alone contains no antibiotic, so it cannot clear the infection.",
-        "d": "The ACG advises against levofloxacin-based regimens unless susceptibility testing shows the strain is sensitive.",
+        "d": "Levofloxacin-based therapy is not among the ACG first-line options for a treatment-naive patient; the guideline reserves it for when susceptibility testing shows the strain is sensitive.",
         "e": "Doxycycline should not replace tetracycline. The guideline summary notes that the swap lowers eradication rates by about 10 to 17 percent."
       },
       "sources": [
