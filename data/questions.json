@@ -13415,6 +13415,1046 @@
           "url": "https://www.msdmanuals.com/professional/immunology-allergic-disorders/transplantation/kidney-transplantation"
         }
       ]
+    },
+    {
+      "id": "gi-achalasia-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Gastrointestinal",
+      "topic": "Esophageal motility: achalasia",
+      "difficulty": 2,
+      "stem": "A 38-year-old woman comes to the physician because of trouble swallowing for 1 year. It began with solid food and now also happens with water. She often wakes at night coughing up undigested food from dinner, and she has lost 5 kg (11 lb). Proton pump inhibitor therapy did not help. A barium swallow shows a dilated esophagus that narrows smoothly to a beak-like point at the gastroesophageal junction. Manometry shows no peristalsis in the esophageal body and incomplete relaxation of the lower esophageal sphincter.",
+      "leadIn": "Loss of which of the following is the most likely cause of her condition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Inhibitory neurons in the myenteric plexus"
+        },
+        {
+          "id": "b",
+          "text": "Smooth muscle in the lower esophagus from fibrosis"
+        },
+        {
+          "id": "c",
+          "text": "Striated muscle in the upper esophagus"
+        },
+        {
+          "id": "d",
+          "text": "Interstitial cells of Cajal in the stomach"
+        },
+        {
+          "id": "e",
+          "text": "Squamous mucosa from chronic acid injury"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: inhibitory neurons in the myenteric plexus (achalasia). Why: MSD Manual explains that achalasia is thought to result from loss of ganglion cells in the myenteric plexus of the esophagus. Dysphagia for both solids and liquids is the main symptom, often with regurgitation of undigested food at night. Barium swallow shows a dilated esophagus that is beak-like at the lower esophageal sphincter, and manometry, the preferred test, shows incomplete sphincter relaxation and no peristalsis. Chagas disease can cause the same picture by destroying autonomic ganglia, and the risk of esophageal squamous cell carcinoma is higher than in the general population. Treatment options are pneumatic dilation, laparoscopic Heller myotomy, peroral endoscopic myotomy, or botulinum toxin for patients who cannot have the others; no treatment restores peristalsis (MSD). Your Osmosis GI notes (pp. 22-23) add that the lost neurons are the inhibitory (nonadrenergic, noncholinergic) ones that normally let the sphincter relax.",
+      "whyWrong": {
+        "b": "Fibrosis of esophageal smooth muscle, as in systemic sclerosis, weakens the sphincter and causes reflux rather than a tight sphincter (standard teaching).",
+        "c": "Weak striated muscle in the upper esophagus causes trouble starting a swallow (oropharyngeal dysphagia), not a beak-shaped lower narrowing (standard teaching).",
+        "d": "Loss of interstitial cells of Cajal in the stomach is linked to gastroparesis, not to a tight lower esophageal sphincter (standard teaching).",
+        "e": "Acid injury can cause a peptic stricture, which mainly blocks solids, and her symptoms did not respond to acid suppression (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Achalasia",
+          "url": "https://www.msdmanuals.com/professional/gastrointestinal-disorders/esophageal-and-swallowing-disorders/achalasia"
+        },
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Gastrointestinal System (Emily's file), Achalasia, pp. 22-23"
+        }
+      ]
+    },
+    {
+      "id": "gi-barrett-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Gastrointestinal",
+      "topic": "Barrett esophagus",
+      "difficulty": 1,
+      "stem": "A 58-year-old man with heartburn several times a week for 15 years has upper endoscopy. He is obese and smokes. Endoscopy shows a 4-cm tongue of salmon-colored mucosa extending up from the gastroesophageal junction into the distal esophagus. Biopsy specimens are taken from this area.",
+      "leadIn": "The biopsy is most likely to show which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Columnar epithelium with goblet cells"
+        },
+        {
+          "id": "b",
+          "text": "Squamous epithelium with many eosinophils"
+        },
+        {
+          "id": "c",
+          "text": "Normal nonkeratinized squamous epithelium"
+        },
+        {
+          "id": "d",
+          "text": "Signet ring cells invading the wall"
+        },
+        {
+          "id": "e",
+          "text": "Noncaseating granulomas in the submucosa"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: columnar epithelium with goblet cells (Barrett esophagus). Why: MSD Manual describes Barrett esophagus as replacement of the normal squamous epithelium of the distal esophagus by metaplastic columnar epithelium after long-standing reflux, and calls it a precursor of esophageal adenocarcinoma. Your Osmosis GI notes (pp. 24-25) explain that the biopsy must show goblet cells (intestinal metaplasia), which mark the path from metaplasia to dysplasia to adenocarcinoma, and list central obesity, smoking, and hiatal hernia among the risk factors. Recent change: your Osmosis GI notes suggest yearly endoscopy for nondysplastic Barrett esophagus. MSD now advises surveillance every 3 to 5 years when there is no dysplasia, and endoscopic ablation for confirmed low-grade or high-grade dysplasia (unless life-limiting illness is present).",
+      "whyWrong": {
+        "b": "Many eosinophils in squamous mucosa suggest eosinophilic esophagitis, not Barrett metaplasia (standard teaching).",
+        "c": "Normal squamous lining would not look salmon-colored; Barrett mucosa is metaplastic columnar epithelium (MSD).",
+        "d": "Signet ring cells are typical of diffuse-type gastric cancer (your Osmosis GI notes, p. 59), not of Barrett metaplasia.",
+        "e": "Noncaseating granulomas suggest Crohn disease (your Osmosis GI notes, p. 64)."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Gastroesophageal Reflux Disease (GERD)",
+          "url": "https://www.msdmanuals.com/professional/gastrointestinal-disorders/esophageal-and-swallowing-disorders/gastroesophageal-reflux-disease-gerd"
+        },
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Gastrointestinal System (Emily's file), Barrett's Esophagus, pp. 24-25"
+        }
+      ]
+    },
+    {
+      "id": "gi-crohn-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Gastrointestinal",
+      "topic": "Inflammatory bowel disease: Crohn disease",
+      "difficulty": 2,
+      "stem": "A 24-year-old man comes to the physician because of crampy right lower abdominal pain, nonbloody diarrhea, and a 6-kg (13-lb) weight loss over 5 months. He smokes. He has a painful, draining opening beside his anus. Colonoscopy shows deep linear ulcers and a cobblestone pattern in the terminal ileum and in two separate segments of the colon, with normal bowel in between. The rectum is normal. A biopsy specimen shows a noncaseating granuloma.",
+      "leadIn": "Which of the following best describes the inflammation in this disease?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Transmural, with skip areas between segments"
+        },
+        {
+          "id": "b",
+          "text": "Mucosal only, continuous upward from the rectum"
+        },
+        {
+          "id": "c",
+          "text": "Caseating granulomas with acid-fast bacilli"
+        },
+        {
+          "id": "d",
+          "text": "Flask-shaped ulcers containing trophozoites"
+        },
+        {
+          "id": "e",
+          "text": "Surface pseudomembranes of fibrin and neutrophils"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: transmural inflammation with skip areas (Crohn disease). Why: MSD Manual describes Crohn disease as a chronic transmural inflammatory bowel disease that usually affects the distal ileum and colon. Diseased segments are sharply separated from normal bowel (skip areas). The ileum is involved in about 80% of cases, and transmural inflammation causes strictures and fistulas; perianal fistulas and abscesses occur in about 20%. Noncaseating granulomas are a hallmark when found, but most patients do not have them on biopsy. Malabsorption can cause vitamin B12 and vitamin D deficiency (MSD). Your Osmosis GI notes (pp. 62-64) describe the same picture (cobblestoning, skip lesions, fistulas, noncaseating granulomas) and link it to NOD2 variants and a Th1 response, with smoking as a risk factor. Recent change: your Osmosis GI notes list sulfasalazine and antibiotics as first treatments. MSD now says 5-ASA drugs such as mesalamine lack efficacy and should not be used for Crohn disease; mild disease is treated with budesonide, and moderate to severe disease with biologics such as anti-TNF agents.",
+      "whyWrong": {
+        "b": "Continuous mucosal inflammation starting in the rectum describes ulcerative colitis (MSD; your Osmosis GI notes, p. 69).",
+        "c": "Caseating granulomas with acid-fast bacilli suggest intestinal tuberculosis, not Crohn disease (standard teaching).",
+        "d": "Flask-shaped ulcers with trophozoites are typical of Entamoeba histolytica colitis (standard teaching).",
+        "e": "Pseudomembranes are typical of Clostridioides difficile colitis after antibiotics (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Crohn Disease",
+          "url": "https://www.msdmanuals.com/professional/gastrointestinal-disorders/inflammatory-bowel-disease-ibd/crohn-disease"
+        },
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Gastrointestinal System (Emily's file), Crohn's Disease, pp. 62-64"
+        }
+      ]
+    },
+    {
+      "id": "gi-uc-colectomy-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Gastrointestinal",
+      "topic": "Inflammatory bowel disease: ulcerative colitis",
+      "difficulty": 2,
+      "stem": "A 29-year-old woman has had bloody diarrhea, urgency, and cramping in the left lower abdomen on and off for 3 years. Colonoscopy shows red, friable mucosa with shallow ulcers that begins at the anal verge and continues without interruption to the splenic flexure. The terminal ileum is normal. Biopsy specimens show crypt abscesses and inflammation limited to the mucosa and submucosa. She asks whether any treatment can cure her disease.",
+      "leadIn": "Which of the following is curative for this condition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Total proctocolectomy"
+        },
+        {
+          "id": "b",
+          "text": "Long-term daily mesalamine"
+        },
+        {
+          "id": "c",
+          "text": "Lifelong infliximab infusions"
+        },
+        {
+          "id": "d",
+          "text": "Six weeks of metronidazole"
+        },
+        {
+          "id": "e",
+          "text": "Resection of the worst segment"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: total proctocolectomy (ulcerative colitis). Why: MSD Manual explains that ulcerative colitis begins in the rectum and extends upward without gaps, and that inflammation involves the mucosa and submucosa unless disease is severe. Because the disease is limited to the colon and rectum, MSD states that total proctocolectomy is curative and restores normal life expectancy, although up to 25% of patients later develop small-bowel inflammation that looks like Crohn disease. Your Osmosis GI notes (pp. 67-69) list crypt abscesses, pseudopolyps, toxic megacolon, colon cancer risk, and extraintestinal problems such as arthritis and primary sclerosing cholangitis. Colon cancer risk rises with the duration and extent of disease, so MSD advises surveillance colonoscopy once disease has lasted more than 8 years (from diagnosis if PSC is present). Correction: your Osmosis GI notes (p. 68) say colectomy is done only if disease is localized; MSD describes total proctocolectomy as curative, used for severe or refractory disease and for dysplasia or cancer.",
+      "whyWrong": {
+        "b": "Mesalamine controls mild to moderate disease but does not remove the diseased colon, so it is not curative (standard teaching).",
+        "c": "Infliximab can induce and maintain remission but does not cure the disease (standard teaching).",
+        "d": "Metronidazole is used for Crohn disease and its perianal complications (your Osmosis GI notes, p. 64), not to cure ulcerative colitis.",
+        "e": "Ulcerative colitis is continuous from the rectum, so removing one segment leaves diseased mucosa behind (MSD)."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Ulcerative Colitis",
+          "url": "https://www.msdmanuals.com/professional/gastrointestinal-disorders/inflammatory-bowel-disease-ibd/ulcerative-colitis"
+        },
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Gastrointestinal System (Emily's file), Ulcerative Colitis, pp. 67-69"
+        }
+      ]
+    },
+    {
+      "id": "genetics-peutz-jeghers-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Genetics",
+      "system": "Gastrointestinal",
+      "topic": "Polyposis syndromes: Peutz-Jeghers",
+      "difficulty": 2,
+      "stem": "A 15-year-old girl comes to the emergency department because of crampy abdominal pain and vomiting. CT shows a small-bowel intussusception with a polyp at its leading point. She has dark brown-blue spots on her lips and the inside of her cheeks that have been present since early childhood. Her father had the same spots and was treated for pancreatic cancer at age 48. The resected polyp is a hamartoma with branching bands of smooth muscle.",
+      "leadIn": "A germline mutation in which of the following genes is most likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "STK11"
+        },
+        {
+          "id": "b",
+          "text": "APC"
+        },
+        {
+          "id": "c",
+          "text": "MUTYH"
+        },
+        {
+          "id": "d",
+          "text": "SMAD4"
+        },
+        {
+          "id": "e",
+          "text": "MLH1"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: STK11 (Peutz-Jeghers syndrome). Why: MSD Manual describes Peutz-Jeghers syndrome as an autosomal dominant disease; most cases (about 66 to 94%) have a germline mutation in the STK11 (LKB1) tumor suppressor gene. Hamartomatous polyps form in the stomach, small intestine, and colon and can bleed or cause obstruction and intussusception. Dark macules appear on the lips, gums, mouth, hands, and feet, and most (except those inside the cheek) fade by puberty. The risk of GI cancers (pancreatic, gastric, small bowel, colorectal) and non-GI cancers (breast, lung, uterine, ovarian, testicular) is markedly increased (MSD). Your Osmosis GI notes (p. 20) also name STK11 (LKB1) and intussusception. Correction: your Osmosis GI notes (p. 20) list intravenous drug use, bicuspid aortic valve, diabetes, high blood pressure, and smoking as causes; those are risk factors for infective endocarditis and do not apply here. Peutz-Jeghers syndrome is inherited (MSD).",
+      "whyWrong": {
+        "b": "APC mutations cause familial adenomatous polyposis, with hundreds of adenomas rather than hamartomas (your Osmosis GI notes, p. 16).",
+        "c": "MUTYH mutations cause an autosomal recessive form of adenomatous polyposis (your Osmosis GI notes, p. 16).",
+        "d": "SMAD4 mutations cause juvenile polyposis syndrome, without lip and mouth pigmentation (standard teaching).",
+        "e": "MLH1 is a mismatch repair gene in Lynch syndrome, which causes few polyps and no pigmented spots (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Peutz-Jeghers Syndrome",
+          "url": "https://www.msdmanuals.com/professional/gastrointestinal-disorders/tumors-of-the-gastrointestinal-tract/peutz-jeghers-syndrome"
+        },
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Gastrointestinal System (Emily's file), Peutz-Jeghers Syndrome, p. 20"
+        }
+      ]
+    },
+    {
+      "id": "gi-fap-colectomy-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Gastrointestinal",
+      "topic": "Polyposis syndromes: familial adenomatous polyposis",
+      "difficulty": 2,
+      "stem": "A 22-year-old man is referred after his mother died of colon cancer at age 41. He has a hard, painless lump on his jaw that is an osteoma, and several epidermoid cysts on his back. Genetic testing shows the same pathogenic APC variant his mother had. Colonoscopy shows several hundred small adenomatous polyps covering the colon and rectum; biopsies show low-grade dysplasia and no cancer.",
+      "leadIn": "Which of the following is the most appropriate management of his colon?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Prophylactic proctocolectomy soon after diagnosis"
+        },
+        {
+          "id": "b",
+          "text": "Yearly colonoscopy, removing every polyp that is found"
+        },
+        {
+          "id": "c",
+          "text": "Daily celecoxib in place of any surgery"
+        },
+        {
+          "id": "d",
+          "text": "Repeat colonoscopy at age 40, when cancer risk rises"
+        },
+        {
+          "id": "e",
+          "text": "Remove only the largest polyps and recheck in 5 years"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: prophylactic proctocolectomy. Why: MSD Manual explains that familial adenomatous polyposis is autosomal dominant and is diagnosed when there are more than 100 adenomas, which can carpet the colon and rectum. Colorectal cancer develops before age 40 in nearly all untreated patients, so colectomy should be done soon after diagnosis; total proctocolectomy removes the colon and rectal cancer risk. The extracolonic findings once called Gardner syndrome include desmoid tumors, osteomas of the skull or jaw, sebaceous cysts, and adenomas elsewhere in the GI tract; after colectomy, duodenal surveillance and thyroid ultrasound continue (MSD). Your Osmosis GI notes (pp. 16-17) name the APC tumor suppressor gene, note retinal pigment changes (CHRPE), and describe Gardner syndrome as an FAP variant with prominent tumors outside the colon.",
+      "whyWrong": {
+        "b": "With hundreds of polyps, removing each one is not possible, and cancer will develop in nearly all patients without colectomy (MSD).",
+        "c": "COX-2 inhibitors are listed in your Osmosis GI notes (p. 17) as medical therapy, but no drug replaces colectomy (MSD).",
+        "d": "Nearly all untreated patients develop cancer before age 40, so waiting until 40 is far too late (MSD).",
+        "e": "Leaving most adenomas in place would let cancer develop; colectomy is advised soon after diagnosis (MSD)."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Familial Adenomatous Polyposis",
+          "url": "https://www.msdmanuals.com/professional/gastrointestinal-disorders/tumors-of-the-gastrointestinal-tract/familial-adenomatous-polyposis"
+        },
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Gastrointestinal System (Emily's file), Familial Adenomatous Polyposis and Gardner's Syndrome, pp. 16-17"
+        }
+      ]
+    },
+    {
+      "id": "gi-hirschsprung-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Gastrointestinal",
+      "topic": "Congenital GI disorders: Hirschsprung disease",
+      "difficulty": 1,
+      "stem": "A 3-day-old boy with Down syndrome has not passed meconium since birth. He has had increasing abdominal distention and two episodes of green vomiting. After a rectal examination, he passes a large burst of gas and stool. A contrast enema shows a narrow rectum and sigmoid colon with a dilated colon above it.",
+      "leadIn": "A rectal suction biopsy is most likely to show which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "No ganglion cells in the submucosa"
+        },
+        {
+          "id": "b",
+          "text": "Thick meconium plugging normal bowel"
+        },
+        {
+          "id": "c",
+          "text": "Transmural noncaseating granulomas"
+        },
+        {
+          "id": "d",
+          "text": "Mucosal necrosis with gas in the wall"
+        },
+        {
+          "id": "e",
+          "text": "A blind-ending segment of jejunum"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: no ganglion cells (Hirschsprung disease). Why: MSD Manual describes Hirschsprung disease as a congenital absence of the Meissner (submucosal) and Auerbach (myenteric) plexuses in a segment of bowel, caused by failure of neural crest cells to migrate. The affected segment is always continuous, most often the distal colon. Most affected newborns do not pass meconium in the first 48 hours and develop distention and vomiting. About 12% have a chromosome abnormality such as Down syndrome. Contrast enema can show the transition zone, and rectal suction biopsy showing absent ganglion cells is the definitive test. Enterocolitis is a life-threatening complication, and treatment is surgical, with a pull-through procedure (MSD). Your Osmosis GI notes (p. 125) add RET proto-oncogene mutations and increased acetylcholinesterase staining in the biopsy.",
+      "whyWrong": {
+        "b": "Thick meconium blocking normal bowel is meconium ileus, typical of cystic fibrosis; ganglion cells are present (standard teaching).",
+        "c": "Transmural granulomas suggest Crohn disease, not a newborn bowel obstruction (MSD Crohn page).",
+        "d": "Mucosal necrosis with gas in the bowel wall suggests necrotizing enterocolitis, mostly in premature infants (standard teaching).",
+        "e": "A blind-ending jejunum is jejunal atresia, which would not narrow the rectum and sigmoid (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Hirschsprung Disease",
+          "url": "https://www.msdmanuals.com/professional/pediatrics/congenital-gastrointestinal-anomalies/hirschsprung-disease"
+        },
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Gastrointestinal System (Emily's file), Hirschsprung's Disease, p. 125"
+        }
+      ]
+    },
+    {
+      "id": "gi-meckel-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Gastrointestinal",
+      "topic": "Congenital GI disorders: Meckel diverticulum",
+      "difficulty": 1,
+      "stem": "A 2-year-old boy is brought to the emergency department because of a large amount of painless, bright red and maroon blood in his diaper. He has no abdominal pain or vomiting, and his abdomen is soft. Hemoglobin is 8.1 g/dL. A technetium-99m pertechnetate scan shows a focus of uptake in the right lower abdomen.",
+      "leadIn": "Failure of which embryonic structure to close most likely caused his bleeding?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vitelline duct"
+        },
+        {
+          "id": "b",
+          "text": "Urachus"
+        },
+        {
+          "id": "c",
+          "text": "Ductus venosus"
+        },
+        {
+          "id": "d",
+          "text": "Processus vaginalis"
+        },
+        {
+          "id": "e",
+          "text": "Umbilical vein"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the vitelline (omphalomesenteric) duct (Meckel diverticulum). Why: MSD Manual explains that a Meckel diverticulum is a true diverticulum, containing all layers of the bowel wall, on the antimesenteric side of the ileum. It is a remnant of the vitelline duct, which normally closes by about week 6 of gestation. It often contains ectopic gastric tissue, whose acid ulcerates the nearby ileum and causes painless bright red rectal bleeding in children. The technetium-99m pertechnetate (Meckel) scan detects the gastric mucosa in most bleeding children, and treatment is surgical resection (MSD). Your Osmosis GI notes (p. 130) give the \"rule of 2s\": symptoms before age 2, about 2% of people, about 2 feet from the ileocecal valve, about 2 inches long, and 2 types of ectopic tissue (gastric and pancreatic). Other source: MSD gives a prevalence of under 1% to about 3% and places it within about 200 cm of the ileocecal valve.",
+      "whyWrong": {
+        "b": "A patent urachus connects the bladder to the umbilicus and leaks urine; it does not bleed into the bowel (standard teaching).",
+        "c": "The ductus venosus becomes the ligamentum venosum of the liver (standard teaching).",
+        "d": "A patent processus vaginalis causes an indirect inguinal hernia or hydrocele (standard teaching).",
+        "e": "The umbilical vein becomes the ligamentum teres of the liver (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Meckel Diverticulum",
+          "url": "https://www.msdmanuals.com/professional/gastrointestinal-disorders/diverticular-disease/meckel-diverticulum"
+        },
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Gastrointestinal System (Emily's file), Meckel's Diverticulum, p. 130"
+        }
+      ]
+    },
+    {
+      "id": "gi-acute-pancreatitis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Gastrointestinal",
+      "topic": "Acute pancreatitis",
+      "difficulty": 2,
+      "stem": "A 46-year-old woman comes to the emergency department because of severe epigastric pain that began 6 hours after a large fatty meal and goes straight through to her back. She has vomited three times. She drinks alcohol rarely. Serum lipase is 5 times the upper limit of normal, and ALT is 3 times normal. Ultrasonography shows many gallstones in the gallbladder and a slightly dilated common bile duct.",
+      "leadIn": "Which of the following events most directly starts the injury to her pancreas?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Activation of trypsin inside acinar cells"
+        },
+        {
+          "id": "b",
+          "text": "Autoimmune attack on the islet beta cells"
+        },
+        {
+          "id": "c",
+          "text": "Bacterial infection spreading up the duct"
+        },
+        {
+          "id": "d",
+          "text": "Fibrosis and calcification of the ducts"
+        },
+        {
+          "id": "e",
+          "text": "Tumor growing into the main pancreatic duct"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: activation of trypsin inside acinar cells. Why: MSD Manual explains that gallstones and alcohol cause most cases of acute pancreatitis. Early in the disease, enzymes such as trypsin, phospholipase A2, and elastase become active inside the pancreas (intra-acinar activation) and digest the gland. Diagnosis needs 2 of 3 findings: typical pain, lipase or amylase more than 3 times the upper limit of normal, and typical imaging. Bruising around the umbilicus (Cullen sign) or flanks (Grey Turner sign) is uncommon and signals a poor outlook (MSD). Your Osmosis GI notes (p. 154) describe how a stone lodged at the sphincter of Oddi blocks the duct, pressure builds, and trypsinogen is converted to trypsin, starting autodigestion. Recent change: your Osmosis GI notes (p. 155) list complete restriction of food and antibiotics. MSD now says early enteral feeding lowers complications, mild cases can start a low-fat soft diet when tolerated, and guidelines do not recommend prophylactic antibiotics.",
+      "whyWrong": {
+        "b": "Autoimmune destruction of beta cells causes type 1 diabetes, not acute pancreatitis (standard teaching).",
+        "c": "Infection is a later complication (infected necrosis), not the starting event (MSD).",
+        "d": "Ductal fibrosis and calcification are features of chronic pancreatitis (standard teaching).",
+        "e": "A tumor can block the duct, but this patient's gallstones and sudden pain point to gallstone pancreatitis (MSD)."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Acute Pancreatitis",
+          "url": "https://www.msdmanuals.com/professional/gastrointestinal-disorders/pancreatitis/acute-pancreatitis"
+        },
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Gastrointestinal System (Emily's file), Pancreatitis (Acute), pp. 154-155"
+        }
+      ]
+    },
+    {
+      "id": "gi-pancreatic-cancer-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Gastrointestinal",
+      "topic": "Pancreatic adenocarcinoma",
+      "difficulty": 2,
+      "stem": "A 67-year-old man comes to the physician because his skin and eyes have turned yellow over 3 weeks. He has dark urine, pale stools, itching, and a 7-kg (15-lb) weight loss. He has smoked for 45 years. Diabetes was diagnosed 6 months ago. He has no abdominal pain. A nontender, enlarged gallbladder can be felt below the right costal margin. Serum direct bilirubin and alkaline phosphatase are high. CT shows a 3-cm mass in the head of the pancreas with a dilated bile duct and pancreatic duct.",
+      "leadIn": "Which of the following is the most likely diagnosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ductal adenocarcinoma of the pancreas"
+        },
+        {
+          "id": "b",
+          "text": "Cholangiocarcinoma at the liver hilum"
+        },
+        {
+          "id": "c",
+          "text": "A stone in the common bile duct"
+        },
+        {
+          "id": "d",
+          "text": "Acinar cell carcinoma of the pancreatic tail"
+        },
+        {
+          "id": "e",
+          "text": "Pseudocyst after acute pancreatitis"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: ductal adenocarcinoma of the pancreas. Why: MSD Manual explains that pancreatic cancer is mainly ductal adenocarcinoma, arising from duct cells 9 times more often than from acinar cells. About 80% occur in the head of the gland, and head tumors cause obstructive jaundice in 80 to 90% of patients. Smoking and chronic pancreatitis are key risk factors, and the cancer causes diabetes in up to half of patients. CA 19-9 is used to follow known disease, not to screen. Head tumors that can be removed are treated with a Whipple procedure, but most patients have advanced disease at diagnosis and 5-year survival is low (MSD). Your Osmosis GI notes (p. 58) add the Courvoisier sign (a nontender, palpable gallbladder from slow bile duct blockage), migratory clots from hypercoagulability, and spread to left supraclavicular and periumbilical nodes.",
+      "whyWrong": {
+        "b": "A hilar cholangiocarcinoma blocks bile above the cystic duct, so the gallbladder would not distend; CT shows a pancreatic mass (standard teaching).",
+        "c": "A common bile duct stone usually causes pain, and repeated gallstone inflammation leaves a scarred, small gallbladder (standard teaching).",
+        "d": "The mass is in the head, and tail tumors do not block the bile duct; acinar carcinomas are much rarer than ductal ones (MSD).",
+        "e": "A pseudocyst follows pancreatitis and is a fluid collection, not a solid mass with weight loss (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Pancreatic Cancer",
+          "url": "https://www.msdmanuals.com/professional/gastrointestinal-disorders/tumors-of-the-gastrointestinal-tract/pancreatic-cancer"
+        },
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Gastrointestinal System (Emily's file), Pancreatic Cancer, p. 58"
+        }
+      ]
+    },
+    {
+      "id": "gi-hemochromatosis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Gastrointestinal",
+      "topic": "Hereditary hemochromatosis",
+      "difficulty": 2,
+      "stem": "A 52-year-old man comes to the physician because of tiredness, low libido, and aching knuckles of both hands for 1 year. Diabetes was diagnosed 2 years ago. His skin is a grayish tan color, and his liver edge is felt 4 cm below the costal margin. Serum transferrin saturation is 78%, ferritin is 1,850 ng/mL, and ALT is mildly elevated. Genetic testing shows homozygosity for the C282Y variant of the HFE gene.",
+      "leadIn": "Which of the following is most likely decreased in this patient?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Serum hepcidin"
+        },
+        {
+          "id": "b",
+          "text": "Intestinal iron absorption"
+        },
+        {
+          "id": "c",
+          "text": "Transferrin saturation"
+        },
+        {
+          "id": "d",
+          "text": "Iron stored in hepatocytes"
+        },
+        {
+          "id": "e",
+          "text": "Serum ferritin"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: hepcidin. Why: StatPearls explains that hereditary hemochromatosis type 1 is autosomal recessive and most often caused by the C282Y variant of HFE. The defect leads to low hepcidin production or hepcidin resistance; because hepcidin normally limits iron absorption from food, too much iron is absorbed. Transferrin saturation above 45% or a high ferritin is the mainstay of diagnosis. Iron builds up in organs and causes cirrhosis, hepatocellular carcinoma, diabetes, skin darkening, cardiomyopathy, hypogonadism, and arthritis of the knuckle joints. Women often present later because menstrual blood loss removes iron (StatPearls). Your Osmosis GI notes (pp. 109-110) describe the same organ damage and show iron in hepatocytes staining blue with Prussian blue. Other source: your Osmosis GI notes list deferoxamine first under medications. StatPearls says phlebotomy is first-line, and iron chelation is less effective and used mainly when phlebotomy is not possible.",
+      "whyWrong": {
+        "b": "Iron absorption is increased because hepcidin, which normally limits it, is low (StatPearls).",
+        "c": "Transferrin saturation is high (78% here); above 45% supports the diagnosis (StatPearls).",
+        "d": "Iron builds up in hepatocytes and stains blue with Prussian blue (your Osmosis GI notes, p. 109).",
+        "e": "Ferritin is high, reflecting increased body iron stores (StatPearls)."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Hemochromatosis",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK430862/"
+        },
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Gastrointestinal System (Emily's file), Hemochromatosis, pp. 109-110"
+        }
+      ]
+    },
+    {
+      "id": "gi-hcc-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Gastrointestinal",
+      "topic": "Hepatocellular carcinoma",
+      "difficulty": 2,
+      "stem": "A 58-year-old man with cirrhosis from chronic hepatitis B has a routine surveillance ultrasound that shows a new 4-cm liver mass. He feels well. Serum alpha-fetoprotein is 900 ng/mL. On multiphase contrast CT, the mass lights up brightly in the arterial phase and appears darker than the surrounding liver on delayed images (washout).",
+      "leadIn": "Which of the following is the most likely diagnosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hepatocellular carcinoma"
+        },
+        {
+          "id": "b",
+          "text": "Cavernous hemangioma"
+        },
+        {
+          "id": "c",
+          "text": "Focal nodular hyperplasia"
+        },
+        {
+          "id": "d",
+          "text": "Hepatocellular adenoma"
+        },
+        {
+          "id": "e",
+          "text": "Metastatic colon cancer"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: hepatocellular carcinoma. Why: MSD Manual explains that hepatocellular carcinoma usually arises as a complication of cirrhosis. Hepatitis B carriers have more than 100 times the usual risk, and hepatitis B can cause this cancer even without cirrhosis; aflatoxins in food add to risk in subtropical regions. An alpha-fetoprotein above 400 ng/mL is found in about 40 to 65% of patients and is otherwise rare. People with cirrhosis are commonly screened with ultrasound and AFP every 6 months, and diagnosis rests on multiphase imaging showing arterial enhancement with washout on delayed images (MSD). Your Osmosis GI notes (pp. 55-56) list the same risk factors (hepatitis B and C, cirrhosis, hemochromatosis, alcohol, aflatoxin) and call AFP the classic marker. Recent change: your Osmosis GI notes list sorafenib and nivolumab for systemic treatment. MSD now prefers atezolizumab plus bevacizumab, or tremelimumab plus durvalumab, over sorafenib as first-line therapy for advanced disease.",
+      "whyWrong": {
+        "b": "A hemangioma is a benign vascular mass that does not raise AFP (standard teaching).",
+        "c": "Focal nodular hyperplasia is a benign lesion with a central scar, usually in young women without cirrhosis (standard teaching).",
+        "d": "Hepatocellular adenoma occurs mainly in young women using oral contraceptives and does not raise AFP this high (standard teaching).",
+        "e": "Colon cancer metastases are usually multiple and do not raise AFP (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Hepatocellular Carcinoma",
+          "url": "https://www.msdmanuals.com/professional/hepatic-and-biliary-disorders/liver-masses-and-granulomas/hepatocellular-carcinoma"
+        },
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Gastrointestinal System (Emily's file), Hepatocellular Carcinoma, pp. 55-56"
+        }
+      ]
+    },
+    {
+      "id": "gi-carcinoid-syndrome-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Gastrointestinal",
+      "topic": "Neuroendocrine (carcinoid) tumors",
+      "difficulty": 2,
+      "stem": "A 55-year-old man comes to the physician because of 6 months of sudden episodes of red flushing of his face and neck, cramping, and watery diarrhea. Twice he has had wheezing during an episode. A murmur of tricuspid regurgitation is heard. CT shows a 2-cm mass in the terminal ileum and several masses in the liver. His 24-hour urine 5-hydroxyindoleacetic acid (5-HIAA) level is high.",
+      "leadIn": "Which of the following best explains why his symptoms appeared only after the tumor spread?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Liver metastases bypass the liver's serotonin breakdown"
+        },
+        {
+          "id": "b",
+          "text": "The ileal tumor makes more serotonin as it grows larger"
+        },
+        {
+          "id": "c",
+          "text": "The tumor turns most dietary tryptophan into extra niacin"
+        },
+        {
+          "id": "d",
+          "text": "His lungs have lost the ability to inactivate serotonin"
+        },
+        {
+          "id": "e",
+          "text": "Gastrin from the tumor triggers histamine release"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: liver metastases release their products directly into the systemic circulation. Why: MSD Manual explains that a serotonin-producing intestinal neuroendocrine tumor usually does not cause carcinoid syndrome until it spreads to the liver. Products from a gut tumor enter the portal vein, where liver monoamine oxidase destroys serotonin; liver metastases release them straight into the systemic circulation. Flushing is the most common sign, cramps and diarrhea are often the main complaint, and only a few patients wheeze. Endocardial fibrosis causes right-sided valve disease (pulmonic stenosis and tricuspid regurgitation); left-sided lesions are rare because the lungs destroy serotonin. A high urine 5-HIAA confirms the diagnosis, and somatostatin analogs (octreotide or lanreotide) are first-line for symptoms (MSD). Your Osmosis GI notes (pp. 45-46) note that the ileum is a common site and give the mnemonic of flushing, wheezing, right-sided valve lesions, and diarrhea.",
+      "whyWrong": {
+        "b": "Tumor size is not the reason; while the tumor stays in the gut, the liver breaks down its serotonin (MSD).",
+        "c": "The tumor diverts tryptophan toward serotonin, which can rarely cause niacin deficiency (pellagra), the opposite of extra niacin (MSD).",
+        "d": "The lungs still inactivate serotonin, which is why left-sided valve lesions are rare (MSD).",
+        "e": "Gastrin-driven neuroendocrine tumors arise from enterochromaffin-like cells in the stomach (your Osmosis GI notes, p. 45), not in the ileum."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Carcinoid Syndrome",
+          "url": "https://www.msdmanuals.com/professional/endocrine-and-metabolic-disorders/carcinoid-tumors/carcinoid-syndrome"
+        },
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Gastrointestinal System (Emily's file), Carcinoid Tumor, pp. 45-46"
+        }
+      ]
+    },
+    {
+      "id": "gi-ischemic-colitis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Gastrointestinal",
+      "topic": "Intestinal ischemia: ischemic colitis",
+      "difficulty": 2,
+      "stem": "A 74-year-old woman is in the hospital 2 days after heart valve surgery, during which she had a long period of low blood pressure. She develops sudden crampy pain in the left side of her abdomen with an urgent need to defecate, followed by several bloody, loose stools. Her pain matches the mild tenderness found on examination. CT shows a thickened colon wall at the splenic flexure.",
+      "leadIn": "Which of the following is the most likely cause of her symptoms?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Low blood flow to a watershed area of the colon"
+        },
+        {
+          "id": "b",
+          "text": "An embolus blocking the superior mesenteric artery"
+        },
+        {
+          "id": "c",
+          "text": "A toxin made by Clostridioides difficile"
+        },
+        {
+          "id": "d",
+          "text": "Transmural granulomatous inflammation of the colon"
+        },
+        {
+          "id": "e",
+          "text": "Bleeding from a vessel beside a diverticulum"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: low flow to a watershed area (ischemic colitis). Why: StatPearls (Bowel Ischemia) explains that nonocclusive causes, such as low blood pressure and vasoconstricting drugs, account for almost 95% of colonic ischemia. Watershed areas, the splenic flexure (Griffiths point) and the rectosigmoid junction (Sudeck point), account for about 70% of cases. Patients, usually older than 60, have sudden crampy left-sided pain with an urgent need to defecate, and rectal bleeding or bloody diarrhea is more common than in small-bowel ischemia. Colonoscopy within 48 hours is preferred, and mild cases need only supportive care (StatPearls). Your Osmosis GI notes (pp. 83-84) list the same sites, note risk after aortic surgery or myocardial infarction, and describe thumbprinting on imaging.",
+      "whyWrong": {
+        "b": "An embolus to the superior mesenteric artery causes acute mesenteric ischemia, with severe pain out of proportion to the examination (StatPearls).",
+        "c": "C. difficile colitis usually follows antibiotic use and causes watery diarrhea, not sudden pain after low blood pressure (standard teaching).",
+        "d": "Transmural granulomatous inflammation is Crohn disease, which develops over months (MSD Crohn page).",
+        "e": "Diverticular bleeding is usually painless (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Bowel Ischemia",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK554527/"
+        },
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Gastrointestinal System (Emily's file), Ischemic Colitis, pp. 83-84"
+        }
+      ]
+    },
+    {
+      "id": "gi-pyloric-stenosis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Gastrointestinal",
+      "topic": "Hypertrophic pyloric stenosis",
+      "difficulty": 1,
+      "stem": "A 4-week-old boy, the family's first child, is brought to the physician because of forceful vomiting after every feeding for 4 days. The vomit is milk without green color, and he is hungry again right after vomiting. At 1 week of age he was given erythromycin after exposure to pertussis. He has dry lips and fewer wet diapers. A firm, olive-sized mass is felt in the upper abdomen just to the right of midline.",
+      "leadIn": "Which of the following sets of laboratory findings is most likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hypochloremic, hypokalemic metabolic alkalosis"
+        },
+        {
+          "id": "b",
+          "text": "Hyperchloremic metabolic acidosis, normal anion gap"
+        },
+        {
+          "id": "c",
+          "text": "Metabolic acidosis with a high anion gap from lactate"
+        },
+        {
+          "id": "d",
+          "text": "Hyperkalemic metabolic acidosis with low sodium"
+        },
+        {
+          "id": "e",
+          "text": "Respiratory alkalosis with a normal chloride level"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: hypochloremic, hypokalemic metabolic alkalosis. Why: MSD Manual explains that vomiting of stomach contents loses hydrochloric acid and fluid, causing a hypochloremic, hypokalemic metabolic alkalosis. Pyloric stenosis usually appears at 3 to 6 weeks of age and is rare after 12 weeks. Boys are affected about 5 times as often as girls, firstborn boys most of all, and macrolides such as erythromycin or azithromycin in the first weeks of life raise the risk. Vomiting is forceful and nonbilious, the infant stays hungry, and an olive-sized mass may be felt. Ultrasound shows a pyloric muscle about 3 mm or thicker. Fluids and electrolytes are corrected first, then a pyloromyotomy is done (MSD). Correction: your Osmosis GI notes (p. 171) say vomiting starts at or soon after birth; MSD gives a usual onset of 3 to 6 weeks of life.",
+      "whyWrong": {
+        "b": "A normal anion gap acidosis comes from losing bicarbonate, as in diarrhea, not from vomiting stomach acid (standard teaching).",
+        "c": "Lactic acidosis can occur late in severe shock, but acid loss from vomiting causes alkalosis (MSD).",
+        "d": "High potassium and acidosis suggest adrenal problems such as congenital adrenal hyperplasia, not pyloric stenosis (standard teaching).",
+        "e": "The problem is metabolic, from acid loss, and chloride is low (MSD)."
+      },
+      "sources": [
+        {
+          "title": "MSD Manual Professional: Hypertrophic Pyloric Stenosis",
+          "url": "https://www.msdmanuals.com/professional/pediatrics/gastrointestinal-disorders-in-neonates-and-infants/hypertrophic-pyloric-stenosis"
+        },
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Gastrointestinal System (Emily's file), Hypertrophic Pyloric Stenosis, p. 171"
+        }
+      ]
+    },
+    {
+      "id": "biostats-odds-ratio-calc-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biostatistics & Epidemiology",
+      "system": "General Principles",
+      "topic": "Measures of association: odds ratio",
+      "difficulty": 2,
+      "stem": "Researchers study whether working with aromatic amine dyes is linked to bladder cancer. They enroll 50 patients with bladder cancer and 50 people of similar age without it, and ask everyone about past work with these dyes. Thirty of the patients with cancer and 10 of the people without cancer report working with the dyes.",
+      "leadIn": "What is the odds ratio for dye exposure in this study?",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.17"
+        },
+        {
+          "id": "b",
+          "text": "1.5"
+        },
+        {
+          "id": "c",
+          "text": "3.0"
+        },
+        {
+          "id": "d",
+          "text": "6.0"
+        },
+        {
+          "id": "e",
+          "text": "8.0"
+        }
+      ],
+      "answer": "d",
+      "explanation": "Answer: 6.0. Why: This is a case-control study: people are chosen by whether they have the disease, then asked about past exposure, so the odds ratio is the right measure (your First Aid pages in the biostats file, p. 256). In a 2 × 2 table, a = exposed cases (30), b = exposed controls (10), c = unexposed cases (20), and d = unexposed controls (40). The odds ratio is (a/c) ÷ (b/d) = ad/bc = (30 × 40) ÷ (10 × 20) = 1,200 ÷ 200 = 6.0 (your First Aid pages in the biostats file, p. 258). StatPearls explains that an odds ratio above 1 means greater odds of the event in the exposed group, that relative risk cannot be calculated in a case-control study, and that the odds ratio approaches the relative risk when the disease is rare.",
+      "whyWrong": {
+        "a": "0.17 is the inverse (bc/ad); it would wrongly suggest the dyes protect against cancer (StatPearls).",
+        "b": "1.5 is 30/20, the odds of exposure among cases alone, without dividing by the odds among controls (your First Aid pages in the biostats file, p. 258).",
+        "c": "3.0 divides the percentage exposed (60% ÷ 20%), which treats the data like a cohort study; that is not the odds ratio (StatPearls).",
+        "e": "8.0 does not come from the correct ad/bc formula for these numbers (StatPearls)."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Observational studies, p. 256; Quantifying risk, p. 258"
+        },
+        {
+          "title": "StatPearls: Odds Ratio",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK431098/"
+        }
+      ]
+    },
+    {
+      "id": "biostats-attributable-risk-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biostatistics & Epidemiology",
+      "system": "General Principles",
+      "topic": "Measures of association: attributable risk",
+      "difficulty": 2,
+      "stem": "In a cohort study, 2,000 adults who use tanning beds and 2,000 adults who do not are followed for 10 years. Over that time, 12% of tanning-bed users and 3% of nonusers are diagnosed with a skin cancer.",
+      "leadIn": "What is the attributable risk of skin cancer due to tanning-bed use?",
+      "options": [
+        {
+          "id": "a",
+          "text": "3%"
+        },
+        {
+          "id": "b",
+          "text": "4%"
+        },
+        {
+          "id": "c",
+          "text": "9%"
+        },
+        {
+          "id": "d",
+          "text": "12%"
+        },
+        {
+          "id": "e",
+          "text": "15%"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Answer: 9%. Why: Attributable risk is the difference in risk between the exposed and unexposed groups: 12% − 3% = 9% (your First Aid pages in the biostats file, p. 258). It tells you how much of the risk in the exposed group is due to the exposure. The relative risk, used in cohort studies, is the ratio instead: 12% ÷ 3% = 4 (your First Aid pages in the biostats file, p. 258). StatPearls (Relative Risk) points out that a relative risk alone gives no information about absolute risk, which is why the risk difference is also reported.",
+      "whyWrong": {
+        "a": "3% is the risk in the unexposed group, not the extra risk from exposure (your First Aid pages in the biostats file, p. 258).",
+        "b": "4 is the relative risk (12 ÷ 3), a ratio with no units, not a difference in percentages (your First Aid pages in the biostats file, p. 258).",
+        "d": "12% is the total risk in the exposed group, which includes the baseline risk everyone has (your First Aid pages in the biostats file, p. 258).",
+        "e": "15% adds the two risks; attributable risk subtracts them (your First Aid pages in the biostats file, p. 258)."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Quantifying risk, p. 258"
+        },
+        {
+          "title": "StatPearls: Relative Risk",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK430824/"
+        }
+      ]
+    },
+    {
+      "id": "biostats-confounding-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biostatistics & Epidemiology",
+      "system": "General Principles",
+      "topic": "Study design: confounding",
+      "difficulty": 1,
+      "stem": "A cross-sectional study finds that people who carry a cigarette lighter are 6 times as likely to have lung cancer as people who do not. When the researchers split the data into smokers and nonsmokers, carrying a lighter shows no link to lung cancer in either group.",
+      "leadIn": "Which of the following best explains the original association?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Confounding"
+        },
+        {
+          "id": "b",
+          "text": "Effect modification"
+        },
+        {
+          "id": "c",
+          "text": "Selection bias"
+        },
+        {
+          "id": "d",
+          "text": "Recall bias"
+        },
+        {
+          "id": "e",
+          "text": "Lead-time bias"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: confounding by smoking. Why: Your First Aid pages in the biostats file (p. 261) describe confounding as a factor that is related to both the exposure and the outcome, is not on the causal pathway, and distorts the apparent effect of the exposure. Smoking is linked to carrying a lighter and causes lung cancer, so it created the association. StatPearls (Principles of Causation) defines a confounder the same way and lists randomization in the study design and stratification in the analysis as ways to address it. Here, stratifying by smoking made the association disappear, which is the classic sign of confounding.",
+      "whyWrong": {
+        "b": "In effect modification the exposure has different effects in different subgroups; here there was no effect in either group (your First Aid pages in the biostats file, p. 261).",
+        "c": "Selection bias comes from how participants are chosen, so the groups differ from the population; stratifying by smoking would not remove it (standard teaching).",
+        "d": "Recall bias occurs when people with a disease remember past exposures differently; carrying a lighter now is not a remembered exposure (standard teaching).",
+        "e": "Lead-time bias makes survival look longer when disease is found earlier by screening (your First Aid pages in the biostats file, p. 261)."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Bias and study errors, p. 261"
+        },
+        {
+          "title": "StatPearls: Principles of Causation",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK606119/"
+        }
+      ]
+    },
+    {
+      "id": "biostats-anova-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biostatistics & Epidemiology",
+      "system": "General Principles",
+      "topic": "Statistical tests: choosing a test",
+      "difficulty": 1,
+      "stem": "A study randomly assigns 300 adults with type 2 diabetes to one of three drugs: metformin, a GLP-1 receptor agonist, or an SGLT2 inhibitor. After 6 months, the researchers want to know whether the mean hemoglobin A1c differs among the three groups.",
+      "leadIn": "Which statistical test is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Analysis of variance (ANOVA)"
+        },
+        {
+          "id": "b",
+          "text": "Two-sample t-test"
+        },
+        {
+          "id": "c",
+          "text": "Chi-square test"
+        },
+        {
+          "id": "d",
+          "text": "Fisher exact test"
+        },
+        {
+          "id": "e",
+          "text": "Pearson correlation coefficient"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: ANOVA. Why: Your First Aid pages in the biostats file (p. 264) explain that a t-test compares the means of 2 groups, ANOVA compares the means of 3 or more groups, and the chi-square and Fisher exact tests compare proportions of categorical outcomes rather than means. StatPearls (Comparing the Means of Independent Groups) agrees that ANOVA tests whether the mean of a continuous outcome differs across three or more groups defined by one categorical variable, and that a two-sample t-test is used for two groups. Hemoglobin A1c is a continuous measurement and there are three groups, so ANOVA fits.",
+      "whyWrong": {
+        "b": "A t-test compares the means of only 2 groups (your First Aid pages in the biostats file, p. 264).",
+        "c": "Chi-square compares proportions of categorical outcomes, not mean values (your First Aid pages in the biostats file, p. 264).",
+        "d": "Fisher exact test compares 2 proportions in small samples (your First Aid pages in the biostats file, p. 264).",
+        "e": "Pearson correlation measures how strongly two continuous variables move together in a straight line (your First Aid pages in the biostats file, p. 264), not differences among group means."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Common statistical tests, p. 264"
+        },
+        {
+          "title": "StatPearls: Comparing the Means of Independent Groups: ANOVA, ANCOVA, MANOVA, and MANCOVA",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK606084/"
+        }
+      ]
+    },
+    {
+      "id": "biostats-trial-phase-4-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biostatistics & Epidemiology",
+      "system": "General Principles",
+      "topic": "Clinical trials: phases",
+      "difficulty": 1,
+      "stem": "A new oral anticoagulant is approved after randomized trials in about 3,000 patients showed it worked as well as warfarin. In the 3 years after approval, about 500,000 patients take it. Reports to the manufacturer and the FDA reveal that about 1 in 20,000 users develops severe liver injury, and a boxed warning is added to the label.",
+      "leadIn": "During which stage of drug evaluation was this adverse effect most likely detected?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Phase IV"
+        },
+        {
+          "id": "b",
+          "text": "Phase I"
+        },
+        {
+          "id": "c",
+          "text": "Phase II"
+        },
+        {
+          "id": "d",
+          "text": "Phase III"
+        },
+        {
+          "id": "e",
+          "text": "Preclinical animal testing"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: phase IV (postmarketing surveillance). Why: Your First Aid pages in the biostats file (p. 256) describe four phases. Phase I tests safety, toxicity, and drug handling in a small number of people. Phase II tests efficacy, dosing, and side effects in a moderate number of patients. Phase III randomly compares the drug with standard care or placebo in a large number of patients. Phase IV is surveillance after approval, which finds rare or long-term adverse effects and can lead to boxed warnings or withdrawal. FDA describes phase 3 as 300 to 3,000 people and phase 4 as post-market safety monitoring after approval. An effect in 1 in 20,000 people is unlikely to appear in 3,000 trial patients but shows up once hundreds of thousands use the drug.",
+      "whyWrong": {
+        "b": "Phase I uses a small number of people to test safety and drug handling (your First Aid pages in the biostats file, p. 256); far too few to find a 1-in-20,000 effect.",
+        "c": "Phase II includes up to several hundred patients (FDA), too few to find this rare effect.",
+        "d": "Phase III included about 3,000 patients before approval (FDA), so a 1-in-20,000 effect would likely be missed.",
+        "e": "Animal testing comes before human studies and cannot show how often a rare effect occurs in people (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Clinical trial, p. 256"
+        },
+        {
+          "title": "FDA: The Drug Development Process, Step 3: Clinical Research",
+          "url": "https://www.fda.gov/patients/drug-development-process/step-3-clinical-research"
+        }
+      ]
     }
   ]
 }
