@@ -66,9 +66,37 @@ export function interleave(questions, key = (q) => q.system, rng = Math.random) 
   return out;
 }
 
+// A question needs relearning in the same session when it was missed or only
+// guessed right (SM-2 grade below 4). Wozniak's SM-2 repeats such items at the
+// end of the day's session until they score at least 4, and successive
+// relearning (Rawson & Dunlosky) retrieves each item to criterion in every
+// spaced session.
+export function needsRelearning(correct, confidence) {
+  return !correct || confidence === 'guess';
+}
+
+// Share of "sure" answers that were right, or null if there are none.
+export function sureAccuracy(history) {
+  const sure = history.filter((h) => h.confidence === 'sure');
+  if (!sure.length) return null;
+  return { right: sure.filter((h) => h.correct).length, total: sure.length };
+}
+
 export function updateStreak(streak, todayStr, daysBetweenFn) {
   const s = { count: 0, lastDay: null, ...streak };
   if (s.lastDay === todayStr) return s;
   const gap = s.lastDay ? daysBetweenFn(s.lastDay, todayStr) : null;
   return { count: gap === 1 ? s.count + 1 : 1, lastDay: todayStr };
+}
+
+// Focus picks. Topics are keyed by system too, because the same topic name
+// (for example acid-base compensation) can sit under more than one system.
+export function topicKey(q) {
+  return `${q.system}|${q.topic}`;
+}
+
+// A question joins a Focus drill if it matches any pick: a ticked NBME subject,
+// a ticked topic, or (with "missed" on) a question she is still struggling with.
+export function matchesFocus(q, { subjects = [], topics = [], missed = false } = {}, struggling = false) {
+  return subjects.includes(q.discipline) || topics.includes(topicKey(q)) || (missed && struggling);
 }
