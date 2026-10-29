@@ -47501,6 +47501,1060 @@
           "url": "https://www.msdmanuals.com/professional/neurologic-disorders/movement-and-cerebellar-disorders/tremor"
         }
       ]
+    },
+    {
+      "id": "genetics-alpha-thalassemia-hbh-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Genetics",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Alpha-thalassemia: hemoglobin H disease and gene number",
+      "difficulty": 2,
+      "stem": "A 24-year-old man whose parents moved to the United States from Laos comes to the physician because of tiredness for several years. His spleen is palpable 3 cm below the left costal margin. Hemoglobin is 8.9 g/dL, mean corpuscular volume is 61 fL, the reticulocyte count is 6%, and serum ferritin is normal. The blood smear shows target cells. Hemoglobin electrophoresis shows a fast-moving hemoglobin made of four beta chains.",
+      "leadIn": "How many working alpha-globin genes does this patient most likely have?",
+      "options": [
+        {
+          "id": "a",
+          "text": "One"
+        },
+        {
+          "id": "b",
+          "text": "Two"
+        },
+        {
+          "id": "c",
+          "text": "Three"
+        },
+        {
+          "id": "d",
+          "text": "Four"
+        },
+        {
+          "id": "e",
+          "text": "None"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: one. Why: Each person normally carries four alpha-globin genes, two on each copy of chromosome 16. When three are deleted, so few alpha chains are made that the extra beta chains pair up in fours to form hemoglobin H, which damages red cells and causes a moderate to severe hemolytic, microcytic anemia with a big spleen. Your El-Husseiny hematology notes (p. 34) lay out the gene count: one deletion is silent, two give mild anemia, three give HbH disease, and four are lethal before birth with Hb Barts. MSD says alpha-thalassemia comes from \"a deletion of one or more alpha genes,\" that the excess chains form \"tetramers of excess beta-chains termed Hb H,\" and that it \"is particularly common among people with African, Mediterranean, or Southeast Asian ancestry.\" Your notes (p. 34) add that the two-gene deletion on the same chromosome (cis), the form that lets two carrier parents have a child with HbH disease or hydrops, is the one seen in Asian families.",
+      "whyWrong": {
+        "b": "Two working genes (two deleted) cause alpha-thalassemia trait: mild microcytic anemia with a normal or high red cell count, no HbH on electrophoresis and usually no big spleen (your El-Husseiny hematology notes, p. 34).",
+        "c": "Three working genes (one deleted) make a silent carrier with normal blood counts (your El-Husseiny hematology notes, p. 34).",
+        "d": "Four working alpha genes are normal. A microcytic anemia with normal alpha genes would point instead to beta-thalassemia or iron deficiency, and his ferritin is normal.",
+        "e": "With no working alpha genes, the fetus makes Hb Barts from four gamma chains and dies before birth from hydrops fetalis (your El-Husseiny hematology notes, p. 34; MSD)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Hematology-Oncology (Emily's file), Alpha-thalassemia, p. 34"
+        },
+        {
+          "title": "MSD Manual Professional: Thalassemias",
+          "url": "https://www.msdmanuals.com/professional/hematology-and-oncology/anemias-caused-by-hemolysis/thalassemias"
+        }
+      ]
+    },
+    {
+      "id": "path-bernard-soulier-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Bernard-Soulier syndrome: defective platelet adhesion (GpIb)",
+      "difficulty": 2,
+      "stem": "A 9-year-old is brought to the physician because of frequent nosebleeds and bleeding gums since early childhood. The child's parents are first cousins. Platelet count is 70,000/mm3, and many platelets on the smear are nearly as large as red cells. PT, PTT and von Willebrand factor levels are normal. Platelets clump normally with ADP, collagen and arachidonic acid, but they do not clump with ristocetin, and adding normal plasma does not fix this.",
+      "leadIn": "Which platelet function is most likely impaired?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Adhesion to von Willebrand factor"
+        },
+        {
+          "id": "b",
+          "text": "Binding of fibrinogen between platelets"
+        },
+        {
+          "id": "c",
+          "text": "Production of thromboxane A2"
+        },
+        {
+          "id": "d",
+          "text": "Release of ADP from dense granules"
+        },
+        {
+          "id": "e",
+          "text": "Exposure of phosphatidylserine for clotting"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: adhesion to von Willebrand factor. Why: Giant platelets, a low platelet count and absent clumping with ristocetin that normal plasma does not correct point to Bernard-Soulier syndrome, an inherited lack of the platelet receptor for von Willebrand factor (glycoprotein Ib). Your El-Husseiny hematology notes say GpIb is the vWF receptor (p. 4) and that in Bernard-Soulier syndrome platelets cannot adhere, the ristocetin test is abnormal and the platelets are large (p. 17). StatPearls explains that \"BSS involves a defect of the GPIb-IX-V complex,\" which \"is the receptor for vWF and thrombin,\" and that patients \"always have low to absent aggregation of platelets in response to ristocetin\" and that adding normal plasma does not restore this response; \"The responses to ADP, collagen, and arachidonic acid are normal.\" StatPearls adds that \"Most of these mutations are inherited in an autosomal recessive pattern,\" which fits the parents being cousins.",
+      "whyWrong": {
+        "b": "Fibrinogen bridging between platelets needs GpIIb/IIIa. Its loss (Glanzmann thrombasthenia) blocks clumping with ADP and collagen while ristocetin clumping and platelet size stay normal (your El-Husseiny hematology notes, p. 17).",
+        "c": "Loss of thromboxane A2, as after aspirin, weakens clumping to arachidonic acid and collagen, which are normal here (your El-Husseiny hematology notes, p. 17).",
+        "d": "A dense granule release defect weakens the second wave of clumping to ADP and collagen; it does not cause giant platelets or an isolated ristocetin defect.",
+        "e": "The procoagulant platelet surface helps clotting factors work, so a defect there would not explain absent clumping with ristocetin and giant platelets."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Hematology-Oncology (Emily's file), Platelets and the vWF receptor, p. 4; Bernard-Soulier syndrome, p. 17"
+        },
+        {
+          "title": "StatPearls: Bernard-Soulier Syndrome",
+          "url": "https://www.statpearls.com/point-of-care/18225"
+        }
+      ]
+    },
+    {
+      "id": "biochem-acute-intermittent-porphyria-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Acute intermittent porphyria: drug-triggered attack and treatment",
+      "difficulty": 3,
+      "stem": "A 27-year-old woman is brought to the emergency department because of 2 days of severe, constant abdominal pain, vomiting and constipation. Ten days ago, she started taking carbamazepine for seizures, and she has been on a very low-carbohydrate diet. Her pulse is 118/min, and blood pressure is 156/96 mm Hg. The abdomen is soft with only mild tenderness and no guarding. She is anxious and has weakness of both arms. There is no rash. A urine sample darkens to a reddish-brown color after standing, and urine porphobilinogen is markedly increased. Abdominal CT is normal.",
+      "leadIn": "Which of the following is the most appropriate treatment?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Intravenous hemin"
+        },
+        {
+          "id": "b",
+          "text": "Repeated phlebotomy"
+        },
+        {
+          "id": "c",
+          "text": "Oral succimer"
+        },
+        {
+          "id": "d",
+          "text": "Oral pyridoxine"
+        },
+        {
+          "id": "e",
+          "text": "Exploratory laparotomy"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: intravenous hemin. Why: Severe abdominal pain out of proportion to the exam, weakness from a motor neuropathy, a racing pulse and high blood pressure, and dark urine full of porphobilinogen after a new drug and a low-carbohydrate diet describe an attack of acute intermittent porphyria. Your NBME Top Concepts (p. 186) lists the features as a painful abdomen, port-wine urine, polyneuropathy and psychosis, and it tells you to watch for triggers such as CYP-inducing drugs, anticonvulsants and alcohol. MSD names the enzyme to measure as \"PBG deaminase (hydroxymethylbilane synthase [HMBS]),\" says \"Abdominal pain may be excruciating and is disproportionate to abdominal tenderness or other physical signs,\" and notes \"The urine is often red or reddish brown and strongly positive for porphobilinogen during an attack.\" For treatment, MSD says \"Attacks are treated with glucose or, if more severe, IV heme\"; \"IV heme is more effective than dextrose and should be given immediately in severe attacks,\" and \"Dextrose 300 to 500 g daily down-regulates hepatic ALA synthase (ALAS 1).\" The trigger drug should also be stopped.",
+      "whyWrong": {
+        "b": "Phlebotomy lowers liver iron and treats porphyria cutanea tarda, which causes blisters on sun-exposed skin rather than acute abdominal attacks.",
+        "c": "Succimer is a chelator for lead poisoning. Lead can cause abdominal pain and neuropathy, but it causes a microcytic anemia with basophilic stippling, not a large rise in urine porphobilinogen.",
+        "d": "Pyridoxine treats sideroblastic anemia from low vitamin B6 (for example, with isoniazid); it does not stop a porphyria attack.",
+        "e": "The soft abdomen without guarding and the normal CT argue against a surgical emergency; MSD warns the pain in an attack is out of proportion to the exam."
+      },
+      "sources": [
+        {
+          "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Acute intermittent porphyria, p. 186"
+        },
+        {
+          "title": "MSD Manual Professional: Acute Porphyrias",
+          "url": "https://www.msdmanuals.com/professional/endocrine-and-metabolic-disorders/porphyrias/acute-porphyrias"
+        }
+      ]
+    },
+    {
+      "id": "path-leukemoid-reaction-cml-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Leukemoid reaction versus chronic myeloid leukemia",
+      "difficulty": 3,
+      "stem": "A 71-year-old woman is admitted with severe pneumonia. Her temperature is 39.4°C (103°F). Leukocyte count is 58,000/mm3, mostly mature neutrophils with many band forms and some metamyelocytes. Hemoglobin is 12.1 g/dL, and platelet count is 340,000/mm3. The spleen is not enlarged. Her doctors want to know whether this is a reaction to the infection or chronic myeloid leukemia.",
+      "leadIn": "Which additional finding would most strongly favor a reactive cause?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Döhle bodies in the neutrophils"
+        },
+        {
+          "id": "b",
+          "text": "Increased basophils and eosinophils"
+        },
+        {
+          "id": "c",
+          "text": "A low leukocyte alkaline phosphatase score"
+        },
+        {
+          "id": "d",
+          "text": "A BCR::ABL1 fusion gene on FISH"
+        },
+        {
+          "id": "e",
+          "text": "Many small, mature-looking lymphocytes"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: Döhle bodies in the neutrophils. Why: A very high neutrophil count in someone with a severe infection is most often a leukemoid reaction, a reactive leukocytosis. Your El-Husseiny hematology notes (p. 66) list the ways to tell it from CML: in a leukemoid reaction the leukocyte alkaline phosphatase (LAP) stain is positive, basophils are not increased, there is no t(9;22), and the neutrophils can show Döhle bodies, pale blue patches of rough endoplasmic reticulum near the cell edge. StatPearls agrees that \"Most causes of reactive leukocytosis show toxic changes, such as toxic granulation and Döhle bodies,\" that in reactive leukocytosis \"Basophilia is also absent,\" and that in chronic-phase CML \"Basophilia and eosinophilia are common.\"",
+      "whyWrong": {
+        "b": "More basophils and eosinophils point toward CML, not a reaction to infection (StatPearls; your El-Husseiny hematology notes, p. 66).",
+        "c": "A low LAP score points toward CML; neutrophils in a leukemoid reaction are LAP positive (your El-Husseiny hematology notes, p. 66).",
+        "d": "StatPearls says \"The diagnosis of CML requires the presence of the BCR::ABL1 translocation,\" so finding it would confirm leukemia.",
+        "e": "Many small, mature lymphocytes suggest chronic lymphocytic leukemia, which would not explain a count made mostly of neutrophils and bands."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Hematology-Oncology (Emily's file), CML versus leukemoid reaction, p. 66"
+        },
+        {
+          "title": "StatPearls: Chronic Myelogenous Leukemia",
+          "url": "https://www.statpearls.com/point-of-care/19535"
+        }
+      ]
+    },
+    {
+      "id": "anat-spleen-rib-fracture-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Spleen anatomy: injury with lower left rib fractures",
+      "difficulty": 1,
+      "stem": "A 22-year-old man is brought to the emergency department after his motorcycle hit a guardrail, striking his left side. His pulse is 128/min, and blood pressure is 88/54 mm Hg. He has tenderness over the left lower chest wall and the left upper abdomen. Chest x-ray shows fractures of the left 9th and 10th ribs along the side of the chest. Bedside ultrasound shows free fluid in the abdomen.",
+      "leadIn": "Which organ is the most likely source of the bleeding?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Spleen"
+        },
+        {
+          "id": "b",
+          "text": "Liver"
+        },
+        {
+          "id": "c",
+          "text": "Left kidney"
+        },
+        {
+          "id": "d",
+          "text": "Tail of the pancreas"
+        },
+        {
+          "id": "e",
+          "text": "Stomach"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: spleen. Why: The spleen sits under the left lower ribs, so fractures of the left 9th and 10th ribs plus shock and free fluid in the abdomen point to splenic rupture. StatPearls places the spleen \"relatively below the left costal margin between the ninth and eleventh ribs,\" says \"Splenic rupture should be carefully considered in cases of left rib fractures,\" and notes it \"is among the abdominal organs with the highest incidence of injury.\" Its artery \"originates from the celiac trunk.\" Your El-Husseiny hematology notes (p. 4) add that about a third of the body's platelets are stored in the spleen, which is why platelet counts rise after it is removed.",
+      "whyWrong": {
+        "b": "The liver lies mostly under the right ribs, so right-sided rib fractures would point to it.",
+        "c": "The left kidney is also near these ribs, but it lies behind the peritoneum; bleeding from it usually stays in the space around the kidney and causes blood in the urine rather than free fluid in the abdomen.",
+        "d": "The tail of the pancreas reaches the splenic hilum but is protected deep in the abdomen; pancreatic injury usually comes from a blow to the upper midline, such as a handlebar.",
+        "e": "The stomach rarely bleeds from blunt trauma, and a hollow organ injury would more often leak air or contents than cause rapid bleeding and shock."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Anatomy, Abdomen and Pelvis: Spleen",
+          "url": "https://www.statpearls.com/point-of-care/29374"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Hematology-Oncology (Emily's file), Platelets stored in the spleen, p. 4"
+        }
+      ]
+    },
+    {
+      "id": "histo-platelet-alpha-granules-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Platelet alpha granules: gray platelet syndrome",
+      "difficulty": 3,
+      "stem": "A 15-year-old is brought to the physician because of easy bruising, frequent nosebleeds and heavy bleeding after a tooth was pulled. Platelet count is 85,000/mm3. On the blood smear, the platelets are large and look pale gray because they lack the usual fine purple granules. Electron microscopy shows that the platelets have almost no alpha granules; their dense granules look normal. Genetic testing shows mutations in both copies of NBEAL2.",
+      "leadIn": "Release of which of the following is most likely reduced in this patient's platelets?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Von Willebrand factor and fibrinogen"
+        },
+        {
+          "id": "b",
+          "text": "ADP and serotonin"
+        },
+        {
+          "id": "c",
+          "text": "Calcium and histamine"
+        },
+        {
+          "id": "d",
+          "text": "Thromboxane A2 made by cyclooxygenase"
+        },
+        {
+          "id": "e",
+          "text": "Prostacyclin made by endothelial cells"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: von Willebrand factor and fibrinogen. Why: Platelets carry two kinds of storage granules. Your El-Husseiny hematology notes (p. 4) say dense granules hold calcium, ADP, serotonin and histamine (CASH), while alpha granules hold von Willebrand factor, fibrinogen, fibronectin and platelet factor 4; page 12 adds that vWF comes from endothelial Weibel-Palade bodies and platelet alpha granules. MedlinePlus Genetics explains that in gray platelet syndrome \"Mutations in the NBEAL2 gene disrupt the normal production of alpha-granules,\" that \"The abnormal platelets also appear gray when viewed under a microscope,\" and that the \"platelets are unusually large and fewer in number than usual.\" With empty alpha granules, these platelets cannot release their vWF and fibrinogen at a wound.",
+      "whyWrong": {
+        "b": "ADP and serotonin sit in dense granules, which are normal here (your El-Husseiny hematology notes, p. 4).",
+        "c": "Calcium and histamine are also dense granule contents (your El-Husseiny hematology notes, p. 4).",
+        "d": "Thromboxane A2 is not stored in granules; activated platelets make it on demand through cyclooxygenase, the enzyme aspirin blocks.",
+        "e": "Prostacyclin comes from the endothelium and works against platelet clumping; it is not a platelet granule product."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Hematology-Oncology (Emily's file), Platelet granules, p. 4; von Willebrand factor, p. 12"
+        },
+        {
+          "title": "MedlinePlus Genetics: Gray platelet syndrome",
+          "url": "https://medlineplus.gov/genetics/condition/gray-platelet-syndrome/"
+        }
+      ]
+    },
+    {
+      "id": "path-adult-t-cell-leukemia-htlv1-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Adult T-cell leukemia/lymphoma: HTLV-1, hypercalcemia and lytic lesions",
+      "difficulty": 2,
+      "stem": "A 58-year-old man who was born in Jamaica comes to the physician because of confusion, thirst and constipation for 2 weeks. He has red, raised skin plaques on his trunk, enlarged lymph nodes in his neck and groin, and an enlarged liver and spleen. Serum calcium is 14.2 mg/dL. Skull x-ray shows several punched-out lytic lesions. Leukocyte count is 32,000/mm3 with many lymphocytes whose nuclei are deeply folded into several lobes. Flow cytometry shows the abnormal cells are mature CD4+ T cells.",
+      "leadIn": "Which of the following is most strongly linked to this disease?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Infection with HTLV-1"
+        },
+        {
+          "id": "b",
+          "text": "Infection with Epstein-Barr virus"
+        },
+        {
+          "id": "c",
+          "text": "Infection with human herpesvirus 8"
+        },
+        {
+          "id": "d",
+          "text": "Chronic Helicobacter pylori gastritis"
+        },
+        {
+          "id": "e",
+          "text": "A clone of plasma cells making light chains"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: infection with HTLV-1. Why: A cancer of mature CD4+ T cells with skin plaques, swollen nodes, a big liver and spleen, lytic bone lesions and high calcium in a person from the Caribbean is adult T-cell leukemia/lymphoma. Your El-Husseiny hematology notes (p. 74) describe it as a tumor of mature CD4 T cells tied to HTLV-1, most often seen in Japan and the Caribbean, with a skin rash, lymph nodes, hepatosplenomegaly and punched-out lytic lesions with hypercalcemia. StatPearls says it \"is primarily caused by HTLV-1 infection,\" that the virus \"is endemic in the north and south parts of Japan, the Caribbean region, Africa,\" that cells shaped like a \"flower cell\" or \"cloverleaf\" are \"pathognomonic for ATL,\" and that \"Hypercalcemia is noted in approximately 70% of ATL patients\"; \"PTHrP is overexpressed in ATL cells, and it is associated with lytic bone lesions.\" HTLV-1 spreads through sex, blood and prolonged breastfeeding, and the disease \"carries a poor prognosis.\"",
+      "whyWrong": {
+        "b": "Epstein-Barr virus is linked to Burkitt lymphoma, Hodgkin lymphoma and nasopharyngeal cancer, which are B-cell or epithelial tumors, not CD4+ T-cell leukemia.",
+        "c": "Human herpesvirus 8 causes Kaposi sarcoma and primary effusion lymphoma, not a leukemia of CD4+ T cells.",
+        "d": "Chronic H. pylori gastritis is linked to MALT lymphoma of the stomach, a B-cell tumor.",
+        "e": "Multiple myeloma also causes lytic lesions and high calcium, but the tumor cells are plasma cells in the marrow, not circulating CD4+ T cells with skin plaques."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Hematology-Oncology (Emily's file), Adult T-cell leukemia/lymphoma, p. 74"
+        },
+        {
+          "title": "StatPearls: Adult T-Cell Leukemia",
+          "url": "https://www.statpearls.com/point-of-care/24210"
+        }
+      ]
+    },
+    {
+      "id": "genetics-marfan-pleiotropy-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Genetics",
+      "system": "Musculoskeletal",
+      "topic": "Marfan syndrome: pleiotropy from one FBN1 mutation",
+      "difficulty": 2,
+      "stem": "A 17-year-old girl comes to the physician for a sports physical. She is 188 cm (6 ft 2 in) tall, and her arm span is greater than her height. She has long, thin fingers, a sunken breastbone, loose joints and a curved spine. Her eye examination shows both lenses shifted upward and outward. Echocardiography shows a dilated aortic root and mitral valve prolapse. Genetic testing shows a mutation in FBN1. Her father, who has the same mutation, is tall but has never had heart or eye problems.",
+      "leadIn": "Problems in her skeleton, eyes and heart from this one mutation are an example of which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pleiotropy"
+        },
+        {
+          "id": "b",
+          "text": "Variable expressivity"
+        },
+        {
+          "id": "c",
+          "text": "Incomplete penetrance"
+        },
+        {
+          "id": "d",
+          "text": "Locus heterogeneity"
+        },
+        {
+          "id": "e",
+          "text": "Genetic anticipation"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: pleiotropy. Why: Pleiotropy means one gene change produces effects in several different organs. Your El-Husseiny biochemistry notes (p. 79) define it as many different features, often in separate organ systems, from a single genetic defect, and they use Marfan syndrome as the model: fibrillin sits in the coverings of bone and cartilage, the ligaments that hold the lens, and the aortic wall, so one faulty protein explains the long bones, loose joints, displaced lenses, mitral prolapse and aortic aneurysm. Page 50 adds that the FBN1 gene is on chromosome 15 and the lenses usually shift upward and outward. Mouse Genome Informatics defines pleiotropy as \"The production of a phenotype affecting multiple traits by a single mutation.\" MedlinePlus Genetics says \"Mutations in the FBN1 gene cause Marfan syndrome,\" the condition follows an \"autosomal dominant pattern,\" and \"At least 25 percent of Marfan syndrome cases result from a new mutation.\"",
+      "whyWrong": {
+        "b": "Variable expressivity means people with the same mutation have different severity, as with her milder father (your El-Husseiny biochemistry notes, p. 77). It describes differences between people, not the many organs hit in one person.",
+        "c": "Incomplete penetrance means some people with the mutation show no features at all (your El-Husseiny biochemistry notes, p. 77). Her father, who is tall, does show the trait.",
+        "d": "Locus heterogeneity means mutations in different genes cause the same disease, as in osteogenesis imperfecta (your El-Husseiny biochemistry notes, p. 80); here one gene is involved.",
+        "e": "Anticipation means a disease gets worse or starts earlier in each generation, typical of trinucleotide repeat disorders such as Huntington disease (your El-Husseiny biochemistry notes, p. 79)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Pleiotropy, p. 79; variable expressivity and incomplete penetrance, p. 77; Marfan syndrome, p. 50"
+        },
+        {
+          "title": "Mouse Genome Informatics (The Jackson Laboratory) glossary: Pleiotropy",
+          "url": "https://informatics.jax.org/glossary/pleiotropy"
+        },
+        {
+          "title": "MedlinePlus Genetics: Marfan syndrome",
+          "url": "https://medlineplus.gov/genetics/condition/marfan-syndrome/"
+        }
+      ]
+    },
+    {
+      "id": "anat-anterior-interosseous-nerve-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Musculoskeletal",
+      "topic": "Anterior interosseous nerve injury after supracondylar fracture",
+      "difficulty": 2,
+      "stem": "An 8-year-old is brought to the physician 2 days after a fall on an outstretched hand that caused a supracondylar fracture of the humerus, which was reduced and put in a cast. The child cannot bend the tip of the thumb or the tip of the index finger. When asked to make a circle with the thumb and index finger, the child pinches them together with both tip joints held straight. Sensation over the palm and all fingers is normal. Hand grip is otherwise strong.",
+      "leadIn": "Which nerve is most likely injured?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Anterior interosseous nerve"
+        },
+        {
+          "id": "b",
+          "text": "Recurrent branch of the median nerve"
+        },
+        {
+          "id": "c",
+          "text": "Deep branch of the ulnar nerve"
+        },
+        {
+          "id": "d",
+          "text": "Posterior interosseous nerve"
+        },
+        {
+          "id": "e",
+          "text": "Median nerve in the carpal tunnel"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: anterior interosseous nerve. Why: This purely motor branch of the median nerve leaves it in the forearm and supplies the long flexor of the thumb, the deep flexor to the index and middle fingers and the pronator quadratus. Losing it means the tips of the thumb and index finger cannot bend, so the child cannot make a round \"OK\" sign, yet skin sensation is normal. StatPearls says the nerve supplies \"the index and long fingers of the flexor digitorum profundus (FDP)\" along with the thumb's long flexor and pronator quadratus, that \"No sensory changes should be appreciated,\" and that \"Among the traumatic causes are forearm fractures such as supracondylar fractures.\" Your El-Husseiny musculoskeletal notes (pp. 14-15) describe the median nerve's path between the two heads of pronator teres and list a supracondylar humerus fracture as the classic cause of a proximal median nerve injury.",
+      "whyWrong": {
+        "b": "The recurrent branch supplies the thenar muscles that oppose the thumb; it does not bend the fingertips.",
+        "c": "The deep branch of the ulnar nerve supplies the interossei and the adductor of the thumb, so injury weakens spreading the fingers, not bending the thumb and index fingertips.",
+        "d": "The posterior interosseous nerve, from the radial nerve, straightens the fingers and thumb; injury causes finger drop, not loss of tip flexion (your El-Husseiny musculoskeletal notes, p. 11).",
+        "e": "Compression in the carpal tunnel causes numbness of the thumb, index and middle fingers and weak thenar muscles; the long finger flexors, supplied in the forearm, are spared (your El-Husseiny musculoskeletal notes, p. 14)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Median nerve, pp. 14-15; radial nerve, p. 11"
+        },
+        {
+          "title": "StatPearls: Anterior Interosseous Syndrome",
+          "url": "https://www.statpearls.com/point-of-care/17649"
+        }
+      ]
+    },
+    {
+      "id": "anat-de-quervain-tenosynovitis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Musculoskeletal",
+      "topic": "De Quervain tenosynovitis: first dorsal compartment tendons",
+      "difficulty": 1,
+      "stem": "A 31-year-old woman comes to the physician because of pain on the thumb side of her right wrist for 4 weeks. She gave birth 2 months ago and often lifts the baby with her thumb spread out. There is tenderness and mild swelling over the radial styloid. Pain is reproduced when she folds her thumb into her palm, closes her fingers over it and bends her wrist toward the little finger. X-rays are normal.",
+      "leadIn": "Thickening of the sheath around which tendons is most likely causing her pain?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Abductor pollicis longus and extensor pollicis brevis"
+        },
+        {
+          "id": "b",
+          "text": "Extensor carpi radialis longus and brevis"
+        },
+        {
+          "id": "c",
+          "text": "Flexor carpi radialis and palmaris longus"
+        },
+        {
+          "id": "d",
+          "text": "Extensor pollicis longus and extensor indicis"
+        },
+        {
+          "id": "e",
+          "text": "Flexor pollicis longus and flexor digitorum profundus"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: abductor pollicis longus and extensor pollicis brevis. Why: Pain over the radial styloid that worsens when the thumb is tucked in and the wrist is bent toward the little finger (a positive Finkelstein test) in a new mother is De Quervain tenosynovitis. Your El-Husseiny musculoskeletal notes (p. 106) describe thickening of these two tendons with tenderness at the radial styloid, classically in new mothers holding a baby with the thumb abducted and extended, and a positive Finkelstein test. StatPearls places both tendons in the first dorsal compartment of the wrist, says patients have \"radial-sided wrist pain typically worsened by thumb and wrist motion,\" and that the condition \"typically affects women in the late pregnancy or the postpartum period.\" It also warns that \"The superficial radial nerve overlying the first dorsal compartment can be injured\" during injection or surgery.",
+      "whyWrong": {
+        "b": "The radial wrist extensors lie in the second dorsal compartment; where the first compartment tendons cross over them, a different problem (intersection syndrome) causes pain higher on the forearm.",
+        "c": "Flexor carpi radialis and palmaris longus run on the palm side of the wrist and do not cause pain at the radial styloid with the Finkelstein maneuver.",
+        "d": "Extensor pollicis longus runs in the third compartment around Lister's tubercle, and extensor indicis in the fourth; neither sits over the radial styloid.",
+        "e": "These are deep flexors on the palm side; their sheaths are irritated in trigger finger, not De Quervain disease."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), De Quervain tenosynovitis, p. 106"
+        },
+        {
+          "title": "StatPearls: De Quervain Tenosynovitis",
+          "url": "https://www.statpearls.com/point-of-care/20270"
+        }
+      ]
+    },
+    {
+      "id": "histo-articular-hyaline-cartilage-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "Musculoskeletal",
+      "topic": "Articular hyaline cartilage: avascular tissue heals poorly",
+      "difficulty": 2,
+      "stem": "A 19-year-old soccer player comes to the physician because of knee pain and swelling after twisting the knee during a game. Arthroscopy shows a 1-cm area where the smooth, glassy covering of the femoral condyle has been torn away; the bone beneath it is intact. A year later, repeat imaging shows the defect has not filled in.",
+      "leadIn": "Which feature of this tissue best explains its poor healing?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It has no blood vessels"
+        },
+        {
+          "id": "b",
+          "text": "Its matrix is mostly type I collagen"
+        },
+        {
+          "id": "c",
+          "text": "It is rich in elastic fibers"
+        },
+        {
+          "id": "d",
+          "text": "Its cells are osteoblasts that need bone"
+        },
+        {
+          "id": "e",
+          "text": "It is replaced daily by synovial cells"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: it has no blood vessels. Why: The joint surface is hyaline cartilage. Your El-Husseiny musculoskeletal notes (p. 134) describe the articular surfaces as hyaline cartilage made with type II collagen. OpenStax explains that \"Cartilaginous tissue is avascular, thus all nutrients need to diffuse through the matrix to reach the chondrocytes,\" and that \"This is a factor contributing to the very slow healing of cartilaginous tissues.\" With no blood supply, no clot forms in the defect and no repair cells are delivered to it, so a defect that does not reach the bone stays unfilled.",
+      "whyWrong": {
+        "b": "Hyaline cartilage is built mainly of type II collagen; type I collagen is the main collagen of bone, tendon and skin (your El-Husseiny musculoskeletal notes, p. 134).",
+        "c": "Elastic fibers are typical of elastic cartilage in the ear and epiglottis, not joint surfaces.",
+        "d": "The cells of cartilage are chondrocytes sitting in small spaces (lacunae); osteoblasts make bone.",
+        "e": "Synovial cells line the joint capsule and make lubricating fluid (your El-Husseiny musculoskeletal notes, p. 134); they do not rebuild cartilage."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Joints and hyaline cartilage, p. 134"
+        },
+        {
+          "title": "OpenStax Anatomy and Physiology 2e, 4.3 Connective Tissue Supports and Protects",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-3-connective-tissue-supports-and-protects"
+        }
+      ]
+    },
+    {
+      "id": "path-polymyalgia-rheumatica-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Musculoskeletal",
+      "topic": "Polymyalgia rheumatica: low-dose corticosteroid treatment",
+      "difficulty": 2,
+      "stem": "A 71-year-old woman comes to the physician because of 2 months of aching and stiffness in her neck, shoulders and hips. The stiffness lasts about 2 hours each morning, and she has trouble lifting her arms to put on a coat and getting out of bed. She has lost 3 kg (7 lb). She has taken atorvastatin for 6 years. Muscle strength is normal when tested, though movement is painful. Erythrocyte sedimentation rate is 86 mm/h, C-reactive protein is high and creatine kinase is normal. She has no headache, jaw pain or vision changes.",
+      "leadIn": "Which of the following is the most appropriate treatment?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Low-dose oral prednisone"
+        },
+        {
+          "id": "b",
+          "text": "Stopping the atorvastatin"
+        },
+        {
+          "id": "c",
+          "text": "Oral pyridostigmine"
+        },
+        {
+          "id": "d",
+          "text": "Intravenous immune globulin"
+        },
+        {
+          "id": "e",
+          "text": "Gradual aerobic exercise alone"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: low-dose oral prednisone. Why: An older adult with aching and morning stiffness of the shoulder and hip girdles, a very high ESR and CRP, a normal CK and no true weakness has polymyalgia rheumatica. Your El-Husseiny musculoskeletal notes (p. 154) describe pain and stiffness in the shoulders and hips in people over 50, high ESR and CRP with a normal CK, no muscle weakness, a link with giant cell arteritis, and a quick response to low-dose corticosteroids. Your NBME Top Concepts (p. 32) also pairs it with giant cell arteritis. MSD says the disorder \"affects adults > 50 years,\" causes \"bilateral proximal aching of the shoulder and hip girdle muscles,\" that \"objective muscle weakness is not a feature of the disorder,\" and that prednisone 15 to 20 mg daily produces \"dramatic improvement.\" Because it is \"closely associated with giant cell arteritis,\" ask about headache, jaw pain and vision changes, which would call for much higher doses.",
+      "whyWrong": {
+        "b": "A statin can cause muscle pain, but after 6 years with a normal CK and a very high ESR, statin myopathy is unlikely.",
+        "c": "Pyridostigmine treats myasthenia gravis, which causes weakness that worsens with use, not stiffness with a high ESR.",
+        "d": "Immune globulin is used for some inflammatory muscle diseases such as dermatomyositis, which causes real weakness and a high CK.",
+        "e": "Exercise alone is the main treatment for fibromyalgia, which has tender points but a normal ESR (your El-Husseiny musculoskeletal notes, p. 154)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Polymyalgia rheumatica and fibromyalgia, p. 154"
+        },
+        {
+          "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Polymyalgia rheumatica and giant cell arteritis, p. 32"
+        },
+        {
+          "title": "MSD Manual Professional: Polymyalgia Rheumatica",
+          "url": "https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/vasculitis/polymyalgia-rheumatica"
+        }
+      ]
+    },
+    {
+      "id": "micro-gonococcal-septic-arthritis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Musculoskeletal",
+      "topic": "Disseminated gonococcal infection: arthritis-dermatitis syndrome",
+      "difficulty": 2,
+      "stem": "A 23-year-old woman comes to the emergency department because of fever and joint pain for 4 days. The pain moved from her left wrist to her right ankle and is now in her right knee, which is hot and swollen. The tendons on the back of her left hand are tender. She has five small pustules on a red base on her forearms and ankles. She has had a new sexual partner for 2 months. Knee fluid has 48,000 leukocytes/mm3, mostly neutrophils, and no crystals.",
+      "leadIn": "Which of the following best describes the organism most likely responsible?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Gram-negative diplococcus that does not ferment maltose"
+        },
+        {
+          "id": "b",
+          "text": "Gram-negative diplococcus that ferments glucose and maltose"
+        },
+        {
+          "id": "c",
+          "text": "Gram-positive cocci in clusters that make coagulase"
+        },
+        {
+          "id": "d",
+          "text": "Gram-negative rod that does not ferment lactose"
+        },
+        {
+          "id": "e",
+          "text": "Spirochete spread by the bite of Ixodes ticks"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: a gram-negative diplococcus that does not ferment maltose (Neisseria gonorrhoeae). Why: Fever, joint pain that moves, tenosynovitis and a few pustules in a sexually active young adult describe disseminated gonococcal infection. Your El-Husseiny musculoskeletal notes (p. 146) say N. gonorrhoeae is the leading cause of septic arthritis in young adults who are sexually active, ahead of S. aureus. Your El-Husseiny microbiology notes (p. 102) describe gonococci as gram-negative, kidney bean-shaped diplococci that do not ferment maltose and are grown on Thayer-Martin medium. MSD says this infection is \"also called arthritis-dermatitis syndrome\" and \"typically manifests with fever, migratory pain or joint swelling (arthritis), and pustular skin lesions\"; \"Gonococcal septic arthritis is a more localized form of DGI.\" Swabs should be \"rapidly plated on an appropriate medium (eg, modified Thayer-Martin).\"",
+      "whyWrong": {
+        "b": "Neisseria meningitidis also looks like a gram-negative diplococcus, but it ferments maltose as well as glucose and causes meningitis and sepsis rather than this pattern (your El-Husseiny microbiology notes, p. 98).",
+        "c": "Staphylococcus aureus is the second most common cause of septic arthritis (your El-Husseiny musculoskeletal notes, p. 146), but it does not cause migrating joint pain with tenosynovitis and scattered pustules.",
+        "d": "Salmonella, a non-lactose-fermenting gram-negative rod, is a classic cause of bone infection in sickle cell disease (your El-Husseiny musculoskeletal notes, p. 126), not of this syndrome.",
+        "e": "Borrelia burgdorferi, carried by Ixodes ticks, causes Lyme arthritis of large joints weeks to months after a bite and a spreading target-like rash, not pustules."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Septic arthritis, p. 146; osteomyelitis organisms, p. 126"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Neisseria gonorrhoeae, p. 102; N. meningitidis, p. 98"
+        },
+        {
+          "title": "MSD Manual Professional: Gonorrhea",
+          "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/gonorrhea"
+        }
+      ]
+    },
+    {
+      "id": "path-chondrosarcoma-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Musculoskeletal",
+      "topic": "Chondrosarcoma: malignant cartilage tumor of the pelvis treated by surgery",
+      "difficulty": 2,
+      "stem": "A 58-year-old man comes to the physician because of a deep, aching pain in his right hip for 8 months that is now worse at night. A firm mass is felt over the right iliac bone. X-ray shows a large lytic lesion in the ilium with scattered ring-and-arc calcifications and scalloping of the inner surface of the cortex. Biopsy shows malignant chondrocytes in an abundant blue-gray matrix. There are no metastases.",
+      "leadIn": "Which of the following is the primary treatment for this tumor?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wide surgical excision"
+        },
+        {
+          "id": "b",
+          "text": "Chemotherapy as the only treatment"
+        },
+        {
+          "id": "c",
+          "text": "Radiation therapy as the only treatment"
+        },
+        {
+          "id": "d",
+          "text": "Denosumab to block RANKL"
+        },
+        {
+          "id": "e",
+          "text": "Observation with yearly x-rays"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: wide surgical excision. Why: A malignant cartilage-forming tumor of the pelvis in an older adult, with ring-and-arc calcification and endosteal scalloping, is a chondrosarcoma. Your El-Husseiny musculoskeletal notes (p. 132) describe a tumor of malignant chondrocytes in the medulla of the pelvis, proximal femur and humerus, and page 130 notes that the cartilage cap of an osteochondroma can rarely turn into chondrosarcoma. StatPearls says \"The majority of patients are older than 50 years of age at diagnosis,\" that imaging shows \"endosteal scalloping\" and \"popcorn calcification or rings and arcs calcification,\" and that \"The primary treatment modality of chondrosarcoma is surgical excision\"; \"Chemotherapy is generally not efficient in conventional chondrosarcoma.\"",
+      "whyWrong": {
+        "b": "StatPearls says chemotherapy is generally not effective for conventional chondrosarcoma, so it cannot be the main treatment.",
+        "c": "StatPearls describes radiation as an add-on to improve local control after incomplete removal of high-risk tumors, not as the main treatment.",
+        "d": "Denosumab blocks RANKL and is used for giant cell tumor of bone, a tumor of the ends of long bones in young adults.",
+        "e": "Watching with x-rays suits a benign enchondroma without pain, not a painful, growing malignant tumor."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Osteochondroma, p. 130; chondrosarcoma, p. 132"
+        },
+        {
+          "title": "StatPearls: Chondrosarcoma",
+          "url": "https://www.statpearls.com/point-of-care/19483"
+        }
+      ]
+    },
+    {
+      "id": "genetics-arpkd-recurrence-risk-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Genetics",
+      "system": "Renal & Urinary",
+      "topic": "Autosomal recessive polycystic kidney disease: recurrence risk",
+      "difficulty": 2,
+      "stem": "A newborn is evaluated because of breathing problems at birth. During the pregnancy there was very little amniotic fluid. The baby has a flat face and small chest. Both kidneys are hugely enlarged and bright on ultrasound, with many tiny cysts from dilated collecting ducts. Liver biopsy later shows congenital hepatic fibrosis. Genetic testing finds two altered copies of PKHD1. Both parents are healthy, and there is no family history of kidney disease.",
+      "leadIn": "What is the chance that the parents' next child will have the same disease?",
+      "options": [
+        {
+          "id": "a",
+          "text": "25%"
+        },
+        {
+          "id": "b",
+          "text": "50%"
+        },
+        {
+          "id": "c",
+          "text": "75%"
+        },
+        {
+          "id": "d",
+          "text": "100%"
+        },
+        {
+          "id": "e",
+          "text": "Nearly 0%"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: 25%. Why: Autosomal recessive polycystic kidney disease shows up at or before birth with huge kidneys made of dilated collecting ducts, liver fibrosis and, in severe cases, too little amniotic fluid causing small lungs and a flat face (Potter sequence). Your El-Husseiny nephrology notes (p. 132) describe cystic dilation of the collecting ducts, onset in infancy, congenital hepatic fibrosis and, when severe, oligohydramnios with Potter sequence and high mortality. MedlinePlus Genetics says \"Mutations in the PKHD1 gene cause autosomal recessive polycystic kidney disease\" and \"People with this form of the condition have two altered copies of the PKHD1 gene in each cell,\" while each unaffected parent carries one altered copy. Two carrier parents have a 1 in 4 chance with each pregnancy of a child who inherits both altered copies.",
+      "whyWrong": {
+        "b": "50% is the risk for a child of a person with an autosomal dominant disorder, such as the adult form of polycystic kidney disease from PKD1 or PKD2; neither parent here is affected.",
+        "c": "75% is the chance that each child of two carriers will NOT have the disease (half will be carriers and a quarter will have two normal copies).",
+        "d": "100% would happen only if both parents had the disease themselves.",
+        "e": "Nearly 0% would fit a new mutation, but this child has two altered copies, so each healthy parent must carry one, and the risk repeats with each pregnancy."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Nephrology (Emily's file), Autosomal recessive polycystic kidney disease, p. 132"
+        },
+        {
+          "title": "MedlinePlus Genetics: Polycystic kidney disease",
+          "url": "https://medlineplus.gov/genetics/condition/polycystic-kidney-disease/"
+        }
+      ]
+    },
+    {
+      "id": "anat-ureteral-stone-narrowing-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Renal & Urinary",
+      "topic": "Ureter anatomy: where stones most often lodge",
+      "difficulty": 1,
+      "stem": "A 40-year-old man comes to the emergency department because of severe, waves of pain in his left flank for 3 hours that now spreads to his left groin. He is restless and cannot find a comfortable position. Urinalysis shows red blood cells. CT shows a 4-mm stone in the left ureter with mild swelling of the left renal pelvis.",
+      "leadIn": "At which of the following sites is this stone most likely to be found?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Where the ureter enters the bladder wall"
+        },
+        {
+          "id": "b",
+          "text": "Where the ureter crosses the iliac vessels"
+        },
+        {
+          "id": "c",
+          "text": "Where the renal pelvis narrows into the ureter"
+        },
+        {
+          "id": "d",
+          "text": "Where the gonadal vessels cross the ureter"
+        },
+        {
+          "id": "e",
+          "text": "Where the ductus deferens crosses the ureter"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: where the ureter enters the bladder wall. Why: Stones tend to stick where the ureter is narrowest. StatPearls names three such places, the ureteropelvic junction, the crossing of the iliac vessels at the pelvic brim and the ureterovesical junction, saying \"they are areas where renal calculi can potentially lodge and obstruct urinary flow.\" It calls the segment inside the bladder wall \"the ureter's narrowest portion and the most common location for ureteral calculus obstruction.\" Your El-Husseiny nephrology notes (p. 96) describe the typical picture of a kidney stone: one-sided colicky flank pain that spreads to the groin, blood in the urine and passage of a stone.",
+      "whyWrong": {
+        "b": "The pelvic brim, where the ureter crosses the iliac vessels, is a real narrowing where stones can stick, but StatPearls names the bladder wall segment as the most common site.",
+        "c": "The ureteropelvic junction is also a narrowing, but it is not the narrowest point; StatPearls names the bladder wall segment as the most common site of blockage.",
+        "d": "The gonadal vessels cross in front of the ureter but do not narrow its lumen, so stones do not usually stop there.",
+        "e": "The ductus deferens crosses the ureter near the bladder, but the crossing itself is not a recognized narrowing."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Anatomy, Abdomen and Pelvis: Ureter",
+          "url": "https://www.statpearls.com/point-of-care/30808"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Nephrology (Emily's file), Nephrolithiasis, p. 96"
+        }
+      ]
+    },
+    {
+      "id": "histo-podocyte-slit-diaphragm-nephrin-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "Renal & Urinary",
+      "topic": "Glomerular filtration barrier: nephrin and the slit diaphragm",
+      "difficulty": 3,
+      "stem": "A 3-week-old infant whose parents are both from Finland is brought to the physician because of swelling of the face, belly and legs. The urine contains large amounts of protein, and serum albumin is 1.2 g/dL. Serum creatinine is normal. Electron microscopy of a kidney biopsy shows effacement of the visceral epithelial cells covering the capillary loops. Genetic testing shows two nonfunctional copies of the NPHS1 gene.",
+      "leadIn": "The protein made from this gene normally forms part of which structure?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The slit diaphragm between podocytes"
+        },
+        {
+          "id": "b",
+          "text": "The lamina densa of the basement membrane"
+        },
+        {
+          "id": "c",
+          "text": "Fenestrations in the glomerular endothelium"
+        },
+        {
+          "id": "d",
+          "text": "Tight junctions between proximal tubule cells"
+        },
+        {
+          "id": "e",
+          "text": "The mesangial matrix supporting the capillaries"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the slit diaphragm between podocytes. Why: Babies with the Finnish type of congenital nephrotic syndrome lack nephrin, a protein of the slit diaphragm that bridges neighboring podocyte foot processes. Your El-Husseiny nephrology notes (pp. 25-26) describe the three layers of the filtration barrier: fenestrated endothelium that stops cells and molecules over 100 nm, the basement membrane, and podocyte foot processes joined by a slit diaphragm that blocks molecules over about 50-60 nm. MedlinePlus Genetics says \"The NPHS1 gene provides instructions for making a protein called nephrin,\" \"nephrin is found in cells called podocytes,\" it \"is located at the cell surface in the area between two podocytes called the slit diaphragm,\" and \"The slit diaphragm is known as a filtration barrier because it captures proteins in blood.\" The condition is autosomal recessive, begins \"between birth and 3 months,\" and is \"estimated to affect 1 in 10,000 children\" in Finland.",
+      "whyWrong": {
+        "b": "The lamina densa is built from type IV collagen; defects there cause Alport syndrome or thin basement membrane disease with blood in the urine, not massive protein loss at birth.",
+        "c": "The endothelial fenestrations stop blood cells and very large molecules (your El-Husseiny nephrology notes, p. 26), and they are not made by NPHS1.",
+        "d": "Tight junctions in the proximal tubule control reabsorption after filtration; they are not part of the glomerular barrier.",
+        "e": "Mesangial cells and their matrix support the capillary loops and are where IgA deposits in IgA nephropathy; they are not the protein filter."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Nephrology (Emily's file), Glomerular filtration barrier, pp. 25-26"
+        },
+        {
+          "title": "MedlinePlus Genetics: NPHS1 gene",
+          "url": "https://medlineplus.gov/genetics/gene/nphs1/"
+        },
+        {
+          "title": "MedlinePlus Genetics: Congenital nephrotic syndrome",
+          "url": "https://medlineplus.gov/genetics/condition/congenital-nephrotic-syndrome/"
+        }
+      ]
+    },
+    {
+      "id": "path-renal-oncocytoma-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Renal & Urinary",
+      "topic": "Renal oncocytoma: benign tumor with a central scar",
+      "difficulty": 2,
+      "stem": "A 66-year-old man has a 5-cm mass in the right kidney found on CT done for back pain. He has no blood in his urine and no weight loss. CT shows a well-defined mass with a central star-shaped scar. After partial nephrectomy, the tumor is a well-circumscribed, mahogany-brown mass. Microscopy shows sheets and nests of uniform round cells with abundant, granular, pink cytoplasm; there are no clear cells or necrosis.",
+      "leadIn": "Which of the following is most likely true of this tumor?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It is a benign tumor that rarely spreads"
+        },
+        {
+          "id": "b",
+          "text": "It is the most common kidney cancer in adults"
+        },
+        {
+          "id": "c",
+          "text": "It is linked to loss of the VHL gene on chromosome 3"
+        },
+        {
+          "id": "d",
+          "text": "It is made of blood vessels, smooth muscle and fat"
+        },
+        {
+          "id": "e",
+          "text": "It is the most common kidney tumor in young children"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: it is a benign tumor that rarely spreads. Why: A mahogany-brown, well-circumscribed kidney tumor with a central star-shaped scar, made of uniform cells packed with granular pink cytoplasm, is a renal oncocytoma. StatPearls says \"Renal oncocytoma is a benign neoplasm that only rarely metastasizes and has an excellent prognosis,\" that \"The tumor arises from the intercalated epithelial cells of the collecting duct,\" that the masses are \"tan-brown or mahogany-colored masses with a central stellate scar,\" and that the cells have \"abundant granular eosinophilic cytoplasm.\" Oncocytomas \"make up 3% to 7% of all renal epithelial tumors,\" and because some cancers can look similar, StatPearls says telling them apart \"should be done with immunohistochemistry.\"",
+      "whyWrong": {
+        "b": "Clear cell renal cell carcinoma, from proximal tubule cells, is the most common kidney cancer in adults; its cells are filled with lipid and glycogen and look clear (your El-Husseiny nephrology notes, p. 135).",
+        "c": "Loss of the VHL gene on chromosome 3 drives clear cell renal cell carcinoma (your El-Husseiny nephrology notes, p. 135), not oncocytoma.",
+        "d": "Blood vessels, smooth muscle and fat make up an angiomyolipoma, which is linked to tuberous sclerosis.",
+        "e": "Wilms tumor is the most common kidney tumor in young children; it is made of primitive blue cells, not uniform pink cells in an older adult."
+      },
+      "sources": [
+        {
+          "title": "StatPearls: Renal Oncocytoma",
+          "url": "https://www.statpearls.com/point-of-care/26177"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Nephrology (Emily's file), Renal cell carcinoma, p. 135"
+        }
+      ]
+    },
+    {
+      "id": "path-chronic-pyelonephritis-thyroidization-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Renal & Urinary",
+      "topic": "Chronic pyelonephritis: scarring and thyroidization of tubules",
+      "difficulty": 2,
+      "stem": "A 34-year-old woman comes to the physician because of high blood pressure found at a routine visit. She had many kidney infections as a child. Serum creatinine is 1.9 mg/dL. CT shows a small, irregular left kidney with deep cortical scars at both poles lying over blunted, club-shaped calyces. The left kidney is removed. Microscopy shows interstitial fibrosis with lymphocytes and plasma cells, and many shrunken tubules filled with pink, glassy casts that look like thyroid follicles.",
+      "leadIn": "Which of the following is the most likely diagnosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chronic pyelonephritis"
+        },
+        {
+          "id": "b",
+          "text": "Hypertensive nephrosclerosis"
+        },
+        {
+          "id": "c",
+          "text": "Renal papillary necrosis"
+        },
+        {
+          "id": "d",
+          "text": "Xanthogranulomatous pyelonephritis"
+        },
+        {
+          "id": "e",
+          "text": "Autosomal dominant polycystic kidney disease"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: chronic pyelonephritis. Why: Coarse cortical scars over deformed calyces in one kidney after repeated childhood infections, with interstitial fibrosis and atrophic tubules full of colloid-like casts, is chronic pyelonephritis. Your El-Husseiny nephrology notes (p. 110) describe interstitial fibrosis and tubular atrophy after repeated bouts of acute pyelonephritis, caused by vesicoureteral reflux in children or by obstruction, with cortical scars and blunted calyces (scars at the upper and lower poles suggest reflux), and atrophic tubules with pink material that look like thyroid follicles (thyroidization). MSD says \"Reflux of infected urine into the renal pelvis is the usual mechanism,\" lists \"obstructive uropathy, struvite calculi, and, most commonly, vesicoureteral reflux (VUR)\" as causes, and describes \"atrophy and calyceal deformity with overlying parenchymal scarring.\" It adds that \"Most patients have adequate renal function for 20 years after onset.\"",
+      "whyWrong": {
+        "b": "Hypertensive nephrosclerosis shrinks both kidneys evenly with a finely granular surface and thickened arterioles, not deep scars over clubbed calyces in one kidney.",
+        "c": "Papillary necrosis kills the tips of the papillae, often in diabetes, sickle cell disease or analgesic overuse, and causes sudden flank pain with tissue in the urine.",
+        "d": "Xanthogranulomatous pyelonephritis is a rare form with orange-yellow nodules full of lipid-laden macrophages that can look like a tumor (your El-Husseiny nephrology notes, p. 110).",
+        "e": "Adult polycystic kidney disease makes both kidneys large and full of cysts, not small and scarred."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Nephrology (Emily's file), Chronic and xanthogranulomatous pyelonephritis, p. 110"
+        },
+        {
+          "title": "MSD Manual Professional: Chronic Pyelonephritis",
+          "url": "https://www.msdmanuals.com/professional/infectious-diseases/urinary-tract-infections-utis/chronic-pyelonephritis"
+        }
+      ]
+    },
+    {
+      "id": "path-mpgn-hepatitis-c-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Renal & Urinary",
+      "topic": "Membranoproliferative glomerulonephritis: immune complexes and hepatitis C",
+      "difficulty": 3,
+      "stem": "A 49-year-old man with a history of injection drug use comes to the physician because of swelling of his legs and dark urine for 3 weeks. His blood pressure is 162/98 mm Hg. Urinalysis shows red cell casts, and he excretes 4.2 g of protein a day. Serum C3 is mildly low and C4 is low. Antibodies to hepatitis C are positive, and HCV RNA is detected. A kidney biopsy shows thickened capillary walls with a double outline on silver stain, increased mesangial cells, and granular IgG and C3 along the capillary loops; electron microscopy shows subendothelial deposits.",
+      "leadIn": "Which of the following best describes the mechanism of his glomerular injury?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Immune complexes activating the classical complement pathway"
+        },
+        {
+          "id": "b",
+          "text": "An autoantibody that keeps the alternative pathway C3 convertase active"
+        },
+        {
+          "id": "c",
+          "text": "Antibodies against type IV collagen in the glomerular basement membrane"
+        },
+        {
+          "id": "d",
+          "text": "Antibodies against the phospholipase A2 receptor on the podocytes"
+        },
+        {
+          "id": "e",
+          "text": "Podocyte injury from cytokines without immune deposits"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: immune complexes activating the classical complement pathway. Why: Nephritic and nephrotic features together, low complement, hepatitis C, double-contoured capillary walls and subendothelial deposits fit immune-complex membranoproliferative glomerulonephritis (MPGN). Your El-Husseiny nephrology notes (p. 92) describe MPGN as a mixed nephritic-nephrotic disease of the mesangium and basement membrane; type 1 is linked to hepatitis B and C with subendothelial immune complex deposits and granular immunofluorescence, type II (dense deposit disease) to C3 nephritic factor, and mesangial ingrowth splits the basement membrane into a \"tram-track.\" MSD says in this form \"chronic immune complex deposition (predominantly C3 and IgG or IgM) activates complement via the classic pathway,\" lists \"hepatitis B or C infection\" as a cause, and says \"GBM thickening is manifest here by double contours.\" Recent change: MSD now groups MPGN by cause, immune-complex MPGN versus complement-mediated MPGN, rather than only by type I and type II, and it says the immune-complex form is the more common; a low C4 points to the classical pathway, while the complement-mediated form usually has a low C3 with a normal C4.",
+      "whyWrong": {
+        "b": "C3 nephritic factor is an autoantibody that keeps the alternative pathway running. MSD calls it \"an IgG autoantibody which functions like properdin\"; it causes complement-mediated (dense deposit) disease with C3 alone in the glomeruli and a normal C4, not IgG immune complexes with low C4 (your El-Husseiny nephrology notes, p. 92).",
+        "c": "Antibodies against type IV collagen cause anti-GBM disease (Goodpasture syndrome), with linear, not granular, staining and crescents, often with lung bleeding (your El-Husseiny nephrology notes, p. 84).",
+        "d": "Antibodies against the phospholipase A2 receptor cause membranous nephropathy, which gives nephrotic syndrome with subepithelial deposits and usually no red cell casts (your El-Husseiny nephrology notes, p. 91).",
+        "e": "Cytokine-related podocyte injury without deposits describes minimal change disease, which gives protein loss without blood, red cell casts or low complement (your El-Husseiny nephrology notes, p. 89)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Nephrology (Emily's file), Membranoproliferative glomerulonephritis, p. 92; anti-GBM disease, p. 84; membranous nephropathy, p. 91; minimal change disease, p. 89"
+        },
+        {
+          "title": "MSD Manual Professional: Membranoproliferative Glomerulonephritis",
+          "url": "https://www.msdmanuals.com/professional/genitourinary-disorders/glomerular-disorders/membranoproliferative-glomerulonephritis"
+        }
+      ]
     }
   ]
 }
