@@ -29424,7 +29424,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: the stratum spinosum. Why: your Osmosis physiology notes (p. 190) describe the stratum spinosum as the second layer of the epidermis, made of 8 to 10 layers of keratinocytes that can no longer divide. Proteins on these keratinocytes hold them together, and dendritic cells in this layer look for invading microbes. StatPearls (Anatomy, Skin, Epidermis) agrees that the stratum spinosum is also called the prickle cell layer, that its cells contact neighbors through desmosomes, and that special stains show Langerhans cells in this layer. Using CD1a as the stain is standard teaching.",
+      "explanation": "Answer: the stratum spinosum. Why: your Osmosis physiology notes (p. 190) describe the stratum spinosum as the second layer of the epidermis, made of 8 to 10 layers of keratinocytes that can no longer divide. Proteins on these keratinocytes hold them together, and dendritic cells in this layer look for invading microbes. StatPearls (Anatomy, Skin, Epidermis) agrees that the stratum spinosum is also called the prickle cell layer, that its cells contact neighbors through desmosomes, and that special stains show Langerhans cells in this layer. Your Osmosis pathology notes, volume 2 (p. 375), list CD1a and S100 as the markers of Langerhans cells in Langerhans cell histiocytosis.",
       "whyWrong": {
         "b": "The stratum basale holds the dividing stem cells and melanocytes (your Osmosis physiology notes, p. 190); the cells in the stem no longer divide.",
         "c": "The stratum granulosum has diamond-shaped cells with keratohyalin and lamellar granules (StatPearls, Epidermis), not the prickly desmosome-joined cells described.",
@@ -29434,6 +29434,9 @@
       "sources": [
         {
           "title": "Osmosis High-Yield Physiology notes (Emily's file), Skin anatomy and physiology, pp. 190-191"
+        },
+        {
+          "title": "Osmosis High-Yield Pathology Notes, Volume 2 (Emily's file), Langerhans cell histiocytosis, p. 375"
         },
         {
           "title": "StatPearls: Anatomy, Skin (Integument), Epidermis",
@@ -29588,16 +29591,19 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: granulosa cells. Why: Your Osmosis physiology notes (p. 573) explain that theca cells take up cholesterol and convert it through pregnenolone and DHEA to androstenedione. The androstenedione then moves to the nearby granulosa cells, where it is converted to testosterone and then, by aromatase, to 17-beta-estradiol, the most active estrogen in the reproductive years. StatPearls (Physiology, Follicle Stimulating Hormone) agrees that FSH makes granulosa cells in ovarian follicles express aromatase, which converts androgens made by theca cells into estradiol. Aromatase inhibitors such as letrozole block this last step (standard teaching).",
+      "explanation": "Answer: granulosa cells. Why: Your Osmosis physiology notes (p. 573) explain that theca cells take up cholesterol and convert it through pregnenolone and DHEA to androstenedione. The androstenedione then moves to the nearby granulosa cells, where it is converted to testosterone and then, by aromatase, to 17-beta-estradiol, the most active estrogen in the reproductive years. StatPearls (Physiology, Follicle Stimulating Hormone) agrees that FSH makes granulosa cells in ovarian follicles express aromatase, which converts androgens made by theca cells into estradiol. Your Pharmacology High Yield notes (PDF p. 108) list letrozole with the aromatase inhibitors, which block this last step.",
       "whyWrong": {
         "b": "Theca cells make androstenedione from cholesterol, which then moves to the granulosa cells (your Osmosis physiology notes, p. 573).",
         "c": "The oocyte is the egg cell, surrounded by granulosa cells in the follicle (your Osmosis physiology notes, p. 555); it does not make estradiol.",
-        "d": "The corpus albicans is the scar left after the corpus luteum breaks down and does not make hormones (standard teaching).",
+        "d": "The corpus albicans is what the corpus luteum becomes when fertilization does not occur (your Osmosis physiology notes, p. 557); it is not where follicle estradiol is made.",
         "e": "Your notes list theca and granulosa cells as the follicle cells that make estrogen (your Osmosis physiology notes, p. 573); the surface epithelium does not."
       },
       "sources": [
         {
-          "title": "Osmosis High-Yield Physiology notes (Emily's file), Female reproductive system, p. 555; estrogen and progesterone, p. 573"
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Female reproductive system, pp. 555, 557; estrogen and progesterone, p. 573"
+        },
+        {
+          "title": "Pharmacology High Yield (Emily's file), Aromatase inhibitors, PDF p. 108"
         },
         {
           "title": "StatPearls: Physiology, Follicle Stimulating Hormone",
@@ -29851,16 +29857,19 @@
       "explanation": "Answer: the suspensory ligament of the ovary. Why: Your Osmosis physiology notes (p. 555) explain that the ovaries are held in place by the ovarian, broad, and suspensory ligaments, and that the suspensory ligaments carry the ovarian artery, vein, and nerve plexus. StatPearls (Anatomy, Abdomen and Pelvis, Ovary) agrees that the suspensory (infundibulopelvic) ligament carries the ovarian artery and vein, while the proper ligament of the ovary is a remnant of the gubernaculum with no vessels. It also warns that the ureters lie close to the ovary and its ligaments, so a ureter can be clamped by mistake.",
       "whyWrong": {
         "b": "The proper ovarian ligament joins the ovary to the uterus and has no vessels (StatPearls, Ovary).",
-        "c": "The round ligament runs from the uterus to the inguinal canal and does not carry the ovarian artery (StatPearls, Ovary; standard teaching).",
+        "c": "The round ligament leaves the abdomen through the inguinal ring (your Osmosis GI notes, p. 78); it does not carry the ovarian artery.",
         "d": "The cardinal ligament carries the uterine vessels near the cervix (your El-Husseiny nephrology notes, p. 18), not the ovarian vessels.",
-        "e": "The uterosacral ligament supports the cervix from behind and does not carry the ovarian artery (standard teaching)."
+        "e": "The uterosacral ligaments anchor the uterus to the sacrum (your Osmosis physiology notes, p. 556); they do not carry the ovarian artery."
       },
       "sources": [
         {
-          "title": "Osmosis High-Yield Physiology notes (Emily's file), Female reproductive system, p. 555"
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Female reproductive system, pp. 555-556"
         },
         {
           "title": "El-Husseiny's Essentials for USMLE Step 1: Nephrology (Emily's file), Ureter, p. 18"
+        },
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Gastrointestinal (Emily's file), Inguinal hernia, p. 78"
         },
         {
           "title": "StatPearls: Anatomy, Abdomen and Pelvis, Ovary",
@@ -29957,14 +29966,14 @@
       "answer": "a",
       "explanation": "Answer: the tibial nerve under the flexor retinaculum (tarsal tunnel syndrome). Why: Your El-Husseiny musculoskeletal notes (p. 52) explain that the tibial nerve (L4 to S3) supplies the calf muscles for plantar flexion, the long toe flexors, and tibialis posterior for inversion. It then splits into the medial and lateral plantar nerves, which carry feeling from the sole. A distal injury in the tarsal tunnel causes sensory loss on the sole and weak small foot muscles, but plantar flexion and inversion stay normal because those branches leave the nerve higher up. StatPearls (Tarsal Tunnel Syndrome) agrees that the tarsal tunnel lies behind and below the medial malleolus under the flexor retinaculum and holds the posterior tibial nerve, the posterior tibial vessels, and the tendons of tibialis posterior, flexor digitorum longus, and flexor hallucis longus. It describes numbness, tingling, and burning in the sole, and a positive Tinel sign over the tunnel.",
       "whyWrong": {
-        "b": "The deep fibular nerve supplies the front of the leg for dorsiflexion and feels the skin between the first two toes (standard teaching), not the sole.",
-        "c": "The superficial fibular nerve supplies eversion and the skin of the top of the foot (standard teaching), not the sole.",
+        "b": "The deep fibular (peroneal) nerve supplies the front of the leg for dorsiflexion and feels only the skin between the first two toes (your El-Husseiny musculoskeletal notes, p. 49), not the sole.",
+        "c": "The superficial fibular (peroneal) nerve supplies the eversion muscles and most of the skin on the top of the foot (your El-Husseiny musculoskeletal notes, p. 49), not the sole.",
         "d": "The sural nerve feels the outer side of the foot and has no muscle branches (standard teaching).",
-        "e": "The saphenous nerve feels the inner side of the leg and foot (standard teaching), not the sole."
+        "e": "The saphenous nerve, the end of the femoral nerve, feels the medial leg below the knee (your El-Husseiny musculoskeletal notes, p. 46), not the sole."
       },
       "sources": [
         {
-          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Tibial nerve, p. 52"
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Saphenous nerve, p. 46; fibular (peroneal) nerves, p. 49; tibial nerve, p. 52"
         },
         {
           "title": "StatPearls: Tarsal Tunnel Syndrome",
@@ -30011,12 +30020,15 @@
       "whyWrong": {
         "b": "In heart muscle, calcium does bind troponin C to start contraction (your Osmosis physiology notes, p. 125).",
         "c": "The cardiac SR stores calcium, held by calsequestrin, and releases it through ryanodine receptors (your Osmosis physiology notes, p. 125).",
-        "d": "Heart muscle uses calcium binding to troponin C (your Osmosis physiology notes, p. 125); calcium-calmodulin acting on myosin light chains is how smooth muscle works (standard teaching).",
+        "d": "Heart muscle uses calcium binding to troponin C (your Osmosis physiology notes, p. 125); calcium-calmodulin acting on myosin light chains is how smooth muscle works (your El-Husseiny musculoskeletal notes, p. 95).",
         "e": "Gap junctions are typical of heart muscle, where they coordinate contraction (your Osmosis physiology notes, p. 166); they do not explain the need for outside calcium."
       },
       "sources": [
         {
           "title": "Osmosis High-Yield Physiology notes (Emily's file), Cardiac excitation-contraction coupling, p. 125; cell-cell junctions, p. 166"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Smooth muscle contraction, p. 95"
         },
         {
           "title": "StatPearls: Physiology, Ryanodine Receptor",
@@ -30059,16 +30071,16 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: principal cells of the late distal tubule and collecting duct. Why: Your Osmosis physiology notes (p. 537) explain that the late distal tubule and collecting duct contain principal cells and alpha-intercalated cells. Principal cells have sodium channels (ENaC) that bring sodium in from the lumen, potassium pumps that move potassium out into the lumen, and Na+/K+ ATPases, and aldosterone increases the making of these pumps. Alpha-intercalated cells secrete H+. Your El-Husseiny endocrinology notes (p. 52) explain that aldosterone's main effect is to absorb sodium and excrete potassium and hydrogen ions in the distal tubule, so too much aldosterone causes sodium retention, high blood pressure, low potassium, and metabolic alkalosis, with very low renin. The MSD Manual (Primary Aldosteronism) agrees that aldosterone moves sodium from the lumen of the distal tubule into the cells in exchange for potassium and hydrogen, and that primary aldosteronism causes hypertension, low potassium with alkalosis, low renin, and episodes of weakness.",
+      "explanation": "Answer: principal cells of the late distal tubule and collecting duct. Why: Your Osmosis physiology notes (p. 537) explain that the late distal tubule and collecting duct contain principal cells and alpha-intercalated cells. Principal cells have sodium channels (ENaC) that bring sodium in from the lumen, a way for potassium to leave into the lumen, and Na+/K+ ATPases, and aldosterone increases the making of these transporters. Alpha-intercalated cells secrete H+. Correction: her notes call the luminal potassium route an ATP-using K+ pump. StatPearls (Physiology, Aldosterone) describes it as potassium channels on the luminal side that let potassium diffuse out passively; the ATP-using pump is the Na+/K+ ATPase on the basolateral side, which keeps up the gradients. Your El-Husseiny endocrinology notes (p. 52) explain that aldosterone's main effect is to absorb sodium and excrete potassium and hydrogen ions in the distal tubule, so too much aldosterone causes sodium retention, high blood pressure, low potassium, and metabolic alkalosis, with very low renin. The MSD Manual (Primary Aldosteronism) agrees that aldosterone moves sodium from the lumen of the distal tubule into the cells in exchange for potassium and hydrogen, and that primary aldosteronism causes hypertension, low potassium with alkalosis, low renin, and episodes of weakness.",
       "whyWrong": {
-        "b": "Proximal tubule cells reabsorb most filtered sodium (standard teaching), but aldosterone's potassium-wasting effect is in the distal nephron (MSD, Primary Aldosteronism).",
-        "c": "The thick ascending limb reabsorbs sodium through the Na-K-2Cl cotransporter, the target of loop diuretics (standard teaching), not aldosterone's main site.",
+        "b": "Proximal tubule brush border cells reabsorb sodium, potassium and other solutes into the blood (your Osmosis physiology notes, p. 535), but aldosterone's potassium-wasting effect is in the distal nephron (MSD, Primary Aldosteronism).",
+        "c": "The thick ascending limb reabsorbs sodium through the Na-K-2Cl cotransporter (your Osmosis physiology notes, p. 536), which is not aldosterone's main site.",
         "d": "The early distal tubule moves sodium with the Na-Cl cotransporter (your Osmosis physiology notes, p. 537); aldosterone acts on the principal cells of the late distal tubule.",
-        "e": "Juxtaglomerular cells release renin (standard teaching); her renin is low."
+        "e": "Juxtaglomerular cells secrete renin (your Osmosis physiology notes, p. 513); her renin is low."
       },
       "sources": [
         {
-          "title": "Osmosis High-Yield Physiology notes (Emily's file), Distal convoluted tubule, p. 537"
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Distal convoluted tubule, p. 537; proximal tubule, p. 535; thick ascending limb, p. 536; juxtaglomerular cells, p. 513"
         },
         {
           "title": "El-Husseiny's Essentials for USMLE Step 1: Endocrinology (Emily's file), Primary hyperaldosteronism, p. 52"
@@ -30076,6 +30088,10 @@
         {
           "title": "MSD Manual Professional: Primary Aldosteronism",
           "url": "https://www.msdmanuals.com/professional/endocrine-and-metabolic-disorders/adrenal-disorders/primary-aldosteronism"
+        },
+        {
+          "title": "StatPearls: Physiology, Aldosterone",
+          "url": "https://www.statpearls.com/point-of-care/17346"
         }
       ]
     },
@@ -30117,13 +30133,13 @@
       "explanation": "Answer: the distal convoluted tubule. Why: Your Osmosis physiology notes (p. 537) explain that in the early distal convoluted tubule, calcium crosses the cells through channels and leaves through a sodium-calcium exchanger on the basolateral side, and that PTH controls this calcium reabsorption by adding more of these channels. StatPearls (Physiology, Parathyroid Hormone) agrees that PTH targets the distal convoluted tubule to increase calcium reabsorption, lowers phosphate reabsorption in the proximal convoluted tubule, and turns on 1-alpha-hydroxylase in the proximal tubule. That explains both the lower urine calcium and the higher urine phosphate.",
       "whyWrong": {
         "b": "PTH acts on the proximal tubule to lower phosphate reabsorption and make active vitamin D (StatPearls, Parathyroid Hormone), not to save calcium.",
-        "c": "The thin descending limb mainly reabsorbs water (standard teaching) and is not a PTH target.",
-        "d": "The collecting duct is where ADH acts on principal cells to add aquaporins (your Osmosis physiology notes, p. 552), not where PTH saves calcium.",
+        "c": "The thin descending limb has aquaporins and lets water out (your Osmosis physiology notes, p. 536); it is not a PTH target.",
+        "d": "PTH's calcium-saving effect is mainly in the distal convoluted tubule (your Osmosis physiology notes, p. 537). The medullary collecting duct is best known as the place where ADH adds aquaporins (your Osmosis physiology notes, p. 552).",
         "e": "PTH does not act on the glomerulus to change calcium filtration (StatPearls, Parathyroid Hormone)."
       },
       "sources": [
         {
-          "title": "Osmosis High-Yield Physiology notes (Emily's file), Distal convoluted tubule, p. 537; antidiuretic hormone, p. 552"
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Thin descending limb, p. 536; distal convoluted tubule, p. 537; antidiuretic hormone, p. 552"
         },
         {
           "title": "StatPearls: Physiology, Parathyroid Hormone",
