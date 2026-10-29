@@ -34409,6 +34409,1106 @@
           "url": "https://www.medcalc.org/en/book/clinical-statistical-significance.php"
         }
       ]
+    },
+    {
+      "id": "pharm-serotonin-syndrome-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Behavioral Health",
+      "topic": "Antidepressant toxicity: serotonin syndrome",
+      "difficulty": 2,
+      "stem": "A 45-year-old woman who has taken sertraline for depression for 1 year is started on tramadol for back pain. The next day she is brought to the emergency department because she is agitated and sweating and has diarrhea. Her temperature is 38.6°C (101.5°F), pulse is 124/min, and blood pressure is 158/94 mm Hg. Her pupils are dilated. Deep tendon reflexes are brisk, and there is sustained clonus at both ankles. She has taken no other medications.",
+      "leadIn": "Which of the following is the most likely diagnosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Serotonin syndrome"
+        },
+        {
+          "id": "b",
+          "text": "Neuroleptic malignant syndrome"
+        },
+        {
+          "id": "c",
+          "text": "Anticholinergic toxicity"
+        },
+        {
+          "id": "d",
+          "text": "Malignant hyperthermia"
+        },
+        {
+          "id": "e",
+          "text": "Opioid withdrawal"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: serotonin syndrome. Why: Your El-Husseiny neurology notes (p. 215) explain that tramadol is a weak opioid agonist that also blocks the reuptake of serotonin and norepinephrine, so it can cause serotonin syndrome. Your Pharmacology High Yield notes (PDF pp. 58 and 60) list cyproheptadine, a 5-HT2 blocker, as the treatment. The MSD Manual (Serotonin Syndrome) agrees that the most common cause is taking an SSRI together with tramadol, and that the syndrome combines mental status changes, autonomic overactivity (fever, fast heart rate, high blood pressure, sweating, diarrhea) and neuromuscular overactivity (tremor, hyperreflexia and clonus). It also notes that brisk reflexes and onset within 24 hours point to serotonin syndrome rather than neuroleptic malignant syndrome. Other source: MSD advises stopping all serotonergic drugs and sedating with a benzodiazepine first, and keeps oral cyproheptadine for persistent symptoms because the evidence for it is of low quality.",
+      "whyWrong": {
+        "b": "Neuroleptic malignant syndrome follows antipsychotic drugs, usually develops over a few days, and causes lead-pipe rigidity with reflexes that are often decreased, not clonus (MSD, Neuroleptic Malignant Syndrome and Serotonin Syndrome).",
+        "c": "She takes no anticholinergic drug, and sweating and diarrhea point away from anticholinergic toxicity; the serotonergic drug pair and clonus point to serotonin syndrome (MSD, Serotonin Syndrome).",
+        "d": "Malignant hyperthermia is a reaction treated with dantrolene that your notes link to general anesthesia, not to antidepressants (El-Husseiny neurology notes, p. 232).",
+        "e": "Opioid withdrawal follows stopping an opioid, with symptoms such as yawning, tearing, runny nose and muscle aches (DSM-5-TR, p. 617). She has just started an opioid, not stopped one."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Tramadol, p. 215; malignant hyperthermia, p. 232; dantrolene, p. 237"
+        },
+        {
+          "title": "Pharmacology High Yield (Emily's file), 5-HT2 blockers and SSRIs, PDF pp. 58 and 60"
+        },
+        {
+          "title": "DSM-5-TR (Emily's file), Opioid withdrawal, p. 617"
+        },
+        {
+          "title": "MSD Manual Professional: Serotonin Syndrome",
+          "url": "https://www.msdmanuals.com/professional/injuries-poisoning/heat-illness/serotonin-syndrome"
+        },
+        {
+          "title": "MSD Manual Professional: Neuroleptic Malignant Syndrome",
+          "url": "https://www.msdmanuals.com/professional/injuries-poisoning/heat-illness/neuroleptic-malignant-syndrome"
+        }
+      ]
+    },
+    {
+      "id": "pharm-nms-dantrolene-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Behavioral Health",
+      "topic": "Antipsychotic toxicity: neuroleptic malignant syndrome",
+      "difficulty": 2,
+      "stem": "A 28-year-old man with schizophrenia was started on haloperidol 6 days ago. He is now confused and has a temperature of 40.1°C (104.2°F), pulse of 130/min, and blood pressure that swings between 100/60 and 170/100 mm Hg. His muscles are diffusely stiff with \"lead-pipe\" rigidity, and his reflexes are decreased. Serum creatine kinase is 18,000 U/L. Haloperidol is stopped and cooling measures are started, but his rigidity and fever persist.",
+      "leadIn": "Which drug is most appropriate to add next?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dantrolene"
+        },
+        {
+          "id": "b",
+          "text": "Cyproheptadine"
+        },
+        {
+          "id": "c",
+          "text": "Benztropine"
+        },
+        {
+          "id": "d",
+          "text": "Propranolol"
+        },
+        {
+          "id": "e",
+          "text": "Valbenazine"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: dantrolene. Why: Your El-Husseiny neurology notes (p. 237) explain that dantrolene is a muscle relaxant that blocks calcium release from the sarcoplasmic reticulum by acting on the ryanodine receptor, and that it is used for malignant hyperthermia and for neuroleptic malignant syndrome, which is a dangerous side effect of antipsychotics. Your Pharmacology High Yield notes (PDF p. 52) also list dantrolene as the treatment for neuroleptic malignant syndrome. The MSD Manual (Neuroleptic Malignant Syndrome) agrees that the condition comes from reduced dopamine activity, usually starts within the first 2 weeks of antipsychotic treatment, and causes altered mental status, high fever, lead-pipe rigidity, unstable blood pressure and a high creatine kinase. MSD lists stopping the drug and rapid cooling first, then dantrolene for worsening or persistent rigidity and fever, with bromocriptine or amantadine as other options.",
+      "whyWrong": {
+        "b": "Cyproheptadine, a 5-HT2 blocker, is used for serotonin syndrome (your Pharmacology High Yield notes, PDF p. 58), which causes brisk reflexes and clonus rather than decreased reflexes (MSD, Serotonin Syndrome).",
+        "c": "Benztropine is listed for acute dystonia from antipsychotics (your Pharmacology High Yield notes, PDF p. 52), not for neuroleptic malignant syndrome.",
+        "d": "Propranolol is listed for akathisia, the restless urge to move (your Pharmacology High Yield notes, PDF p. 52).",
+        "e": "Valbenazine is listed for tardive dyskinesia (your Pharmacology High Yield notes, PDF p. 52), a late movement disorder, not an acute emergency with fever."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Dantrolene, p. 237"
+        },
+        {
+          "title": "Pharmacology High Yield (Emily's file), Extrapyramidal side effects and neuroleptic malignant syndrome, PDF p. 52; 5-HT2 blockers, PDF p. 58"
+        },
+        {
+          "title": "MSD Manual Professional: Neuroleptic Malignant Syndrome",
+          "url": "https://www.msdmanuals.com/professional/injuries-poisoning/heat-illness/neuroleptic-malignant-syndrome"
+        },
+        {
+          "title": "MSD Manual Professional: Serotonin Syndrome",
+          "url": "https://www.msdmanuals.com/professional/injuries-poisoning/heat-illness/serotonin-syndrome"
+        }
+      ]
+    },
+    {
+      "id": "pharm-maoi-tyramine-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Behavioral Health",
+      "topic": "Antidepressants: MAOI and tyramine reaction",
+      "difficulty": 2,
+      "stem": "A 52-year-old man with depression that did not respond to several other antidepressants was started on phenelzine 3 weeks ago. Tonight, shortly after a dinner of aged cheese, salami and red wine, he develops a severe pounding headache. His blood pressure is 220/124 mm Hg.",
+      "leadIn": "Which of the following best explains his reaction?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Blocked breakdown of dietary tyramine by MAO"
+        },
+        {
+          "id": "b",
+          "text": "Blocked reuptake of serotonin at the synapse"
+        },
+        {
+          "id": "c",
+          "text": "Blocked dopamine D2 receptors in the brain"
+        },
+        {
+          "id": "d",
+          "text": "Blocked muscarinic receptors in the heart"
+        },
+        {
+          "id": "e",
+          "text": "Increased GABA activity at GABA-A receptors"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: blocked breakdown of dietary tyramine by monoamine oxidase (MAO). Why: Your Pharmacology High Yield notes (PDF p. 19) list MAO as one of the enzymes that break down norepinephrine, and they describe the \"cheese reaction\" when MAO is inhibited and norepinephrine rises (PDF p. 122, with linezolid). The MSD Manual (Drug Treatment of Depression) agrees that MAOIs such as phenelzine block the breakdown of norepinephrine, dopamine and serotonin, and that a hypertensive crisis can occur if a patient taking an MAOI eats food rich in tyramine. It calls this the \"cheese reaction\" because aged cheese is high in tyramine, and it advises avoiding aged cheese, cured meats and certain beers and wines.",
+      "whyWrong": {
+        "b": "Blocking serotonin reuptake is how SSRIs work (your Pharmacology High Yield notes, PDF p. 60). Combining an SSRI with an MAOI can cause serotonin syndrome, but this reaction followed tyramine-rich food (MSD, Drug Treatment of Depression).",
+        "c": "Blocking D2 receptors is how typical antipsychotics work (your Pharmacology High Yield notes, PDF p. 52). It does not explain a hypertensive crisis after eating aged cheese.",
+        "d": "Muscarinic blockade is a side effect of tricyclic antidepressants (your Pharmacology High Yield notes, PDF p. 60), not of the MAOI tyramine reaction.",
+        "e": "Benzodiazepines act on GABA-A receptors (your El-Husseiny neurology notes, pp. 226-227) and do not raise blood pressure after a tyramine-rich meal."
+      },
+      "sources": [
+        {
+          "title": "Pharmacology High Yield (Emily's file), Norepinephrine breakdown, PDF p. 19; antipsychotics, PDF p. 52; SSRIs and TCAs, PDF p. 60; linezolid, PDF p. 122"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Benzodiazepines, pp. 226-227"
+        },
+        {
+          "title": "MSD Manual Professional: Drug Treatment of Depression",
+          "url": "https://www.msdmanuals.com/professional/psychiatric-disorders/mood-disorders/drug-treatment-of-depression"
+        }
+      ]
+    },
+    {
+      "id": "pharm-tardive-dyskinesia-vmat2-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Behavioral Health",
+      "topic": "Antipsychotic adverse effects: tardive dyskinesia",
+      "difficulty": 2,
+      "stem": "A 61-year-old woman with schizoaffective disorder has taken haloperidol for 9 years. Her daughter notices that she keeps smacking her lips, pushing her tongue against her cheek and making chewing movements that she cannot stop. Her psychiatrist recommends adding valbenazine.",
+      "leadIn": "Which of the following is the mechanism of action of valbenazine?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Inhibits vesicular monoamine transporter 2 (VMAT2)"
+        },
+        {
+          "id": "b",
+          "text": "Blocks muscarinic acetylcholine receptors"
+        },
+        {
+          "id": "c",
+          "text": "Blocks dopamine D2 receptors in the striatum"
+        },
+        {
+          "id": "d",
+          "text": "Stimulates dopamine D2 receptors in the striatum"
+        },
+        {
+          "id": "e",
+          "text": "Blocks beta-adrenergic receptors in skeletal muscle"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: it inhibits vesicular monoamine transporter 2 (VMAT2). Why: Your Pharmacology High Yield notes (PDF p. 52) list tardive dyskinesia as an extrapyramidal side effect of antipsychotics and name valbenazine and deutetrabenazine as treatments. Your El-Husseiny neurology notes (p. 243) explain that tetrabenazine, a related drug, inhibits VMAT and limits the packaging and release of dopamine. A systematic review by Solmi and colleagues (Drug Design, Development and Therapy, 2018) agrees that tardive dyskinesia is a serious, possibly permanent adverse effect of antipsychotics, and that tetrabenazine, deutetrabenazine and valbenazine inhibit VMAT2 so that less dopamine is moved into presynaptic vesicles and released. It adds that the FDA approved valbenazine and deutetrabenazine for tardive dyskinesia in 2017.",
+      "whyWrong": {
+        "b": "Blocking muscarinic receptors is how benztropine works, and it is listed for acute dystonia (your Pharmacology High Yield notes, PDF p. 52), not for tardive dyskinesia.",
+        "c": "D2 blockade by haloperidol is what led to her tardive dyskinesia in the first place (your El-Husseiny neurology notes, p. 146; Solmi 2018).",
+        "d": "Valbenazine reduces dopamine release (Solmi 2018); it does not stimulate dopamine receptors.",
+        "e": "Beta blockade (propranolol) is listed for akathisia (your Pharmacology High Yield notes, PDF p. 52), not tardive dyskinesia."
+      },
+      "sources": [
+        {
+          "title": "Pharmacology High Yield (Emily's file), Extrapyramidal side effects, PDF p. 52"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Dopaminergic pathways, p. 146; tetrabenazine, p. 243"
+        },
+        {
+          "title": "Solmi M, Pigato G, Kane JM, Correll CU. Treatment of tardive dyskinesia with VMAT-2 inhibitors: a systematic review and meta-analysis of randomized controlled trials. Drug Des Devel Ther 2018;12:1215-1238",
+          "url": "https://www.dovepress.com/treatment-of-tardive-dyskinesia-with-vmat-2-inhibitors-a-systematic-re-peer-reviewed-article-DDDT"
+        }
+      ]
+    },
+    {
+      "id": "pharm-acute-dystonia-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Behavioral Health",
+      "topic": "Antipsychotic adverse effects: acute dystonia",
+      "difficulty": 1,
+      "stem": "A 19-year-old man is given intramuscular haloperidol in the emergency department for acute psychosis. Six hours later his neck twists painfully to the right and his eyes are fixed in an upward gaze. He is alert and afebrile, and his vital signs are normal.",
+      "leadIn": "Which of the following is the most appropriate treatment?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Benztropine"
+        },
+        {
+          "id": "b",
+          "text": "Dantrolene"
+        },
+        {
+          "id": "c",
+          "text": "Valbenazine"
+        },
+        {
+          "id": "d",
+          "text": "Cyproheptadine"
+        },
+        {
+          "id": "e",
+          "text": "Bromocriptine"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: benztropine. Why: Your Pharmacology High Yield notes (PDF p. 52) list acute dystonia as an extrapyramidal side effect of typical antipsychotics and name anticholinergic drugs such as benztropine as its treatment. Your El-Husseiny neurology notes (p. 146) explain that blocking dopamine in the nigrostriatal pathway causes extrapyramidal symptoms, including dystonia. StatPearls (Dystonic Reactions) agrees that all antipsychotics can cause acute dystonic reactions, usually soon after the drug is started, with presentations such as torticollis (an abnormal head and neck position) and oculogyric crisis (spasm of the eye muscles, most often upward). It adds that diphenhydramine and benztropine are the anticholinergics most often used and usually bring relief within 10 to 30 minutes when given by injection.",
+      "whyWrong": {
+        "b": "Dantrolene is used for neuroleptic malignant syndrome and malignant hyperthermia (your El-Husseiny neurology notes, p. 237). He has no fever or rigidity.",
+        "c": "Valbenazine is listed for tardive dyskinesia (your Pharmacology High Yield notes, PDF p. 52), which develops after long-term use, not hours after one dose.",
+        "d": "Cyproheptadine is used for serotonin syndrome (your Pharmacology High Yield notes, PDF p. 58).",
+        "e": "Bromocriptine, a dopamine agonist, is an option for neuroleptic malignant syndrome (MSD, Neuroleptic Malignant Syndrome), not the standard treatment for acute dystonia (StatPearls)."
+      },
+      "sources": [
+        {
+          "title": "Pharmacology High Yield (Emily's file), Extrapyramidal side effects, PDF p. 52; 5-HT2 blockers, PDF p. 58"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Dopaminergic pathways, p. 146; dantrolene, p. 237"
+        },
+        {
+          "title": "StatPearls: Dystonic Reactions",
+          "url": "https://www.statpearls.com/point-of-care/30350"
+        },
+        {
+          "title": "MSD Manual Professional: Neuroleptic Malignant Syndrome",
+          "url": "https://www.msdmanuals.com/professional/injuries-poisoning/heat-illness/neuroleptic-malignant-syndrome"
+        }
+      ]
+    },
+    {
+      "id": "neuro-dopamine-pathways-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Behavioral Health",
+      "topic": "Dopamine pathways and antipsychotic effects",
+      "difficulty": 2,
+      "stem": "A 22-year-old man with schizophrenia hears voices and believes his neighbors are spying on him. He starts risperidone, and after 4 weeks the voices and the false beliefs have faded. However, he still speaks very little, shows little emotion and has no interest in seeing friends.",
+      "leadIn": "Blockade of dopamine receptors in which pathway most likely explains the improvement in his hallucinations and delusions?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mesolimbic"
+        },
+        {
+          "id": "b",
+          "text": "Mesocortical"
+        },
+        {
+          "id": "c",
+          "text": "Nigrostriatal"
+        },
+        {
+          "id": "d",
+          "text": "Tuberoinfundibular"
+        },
+        {
+          "id": "e",
+          "text": "Retinohypothalamic"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the mesolimbic pathway. Why: Your El-Husseiny neurology notes (p. 146) describe four major dopamine pathways. Too much activity in the mesolimbic pathway causes positive symptoms (delusions, hallucinations and disorganized thinking), and this pathway is the main target of antipsychotic drugs. Too little activity in the mesocortical pathway causes negative symptoms (apathy, lack of energy and lack of spontaneity), which antipsychotics help only a little, which fits his persistent withdrawal. The Psychopharmacology Institute (The Four Dopamine Pathways) agrees that D2 blockers reduce positive symptoms, that underactivity of the mesocortical pathway may underlie negative and cognitive symptoms, that D2 blockade in the nigrostriatal pathway causes extrapyramidal symptoms, and that dopamine in the tuberoinfundibular pathway normally holds back prolactin release.",
+      "whyWrong": {
+        "b": "Low activity in the mesocortical pathway is linked to negative symptoms, which antipsychotics help only a little (your El-Husseiny neurology notes, p. 146), matching his remaining flat affect.",
+        "c": "Blocking the nigrostriatal pathway causes extrapyramidal symptoms such as dystonia and parkinsonism (your El-Husseiny neurology notes, p. 146), not relief of psychosis.",
+        "d": "Blocking the tuberoinfundibular pathway raises prolactin, which can cause galactorrhea and sexual problems (your El-Husseiny neurology notes, pp. 146-147).",
+        "e": "The retinohypothalamic tract is not one of the four dopamine pathways your notes list (El-Husseiny neurology notes, p. 146)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Dopaminergic pathways, pp. 146-147"
+        },
+        {
+          "title": "Psychopharmacology Institute: The Four Dopamine Pathways Relevant to Antipsychotics Pharmacology",
+          "url": "https://psychopharmacologyinstitute.com/publication/the-four-dopamine-pathways-relevant-to-antipsychotics-pharmacology-2096/"
+        }
+      ]
+    },
+    {
+      "id": "pharm-buspirone-gad-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Behavioral Health",
+      "topic": "Anxiolytics: buspirone",
+      "difficulty": 2,
+      "stem": "A 38-year-old accountant has worried constantly about work, money and her children's health for the past year. She has trouble sleeping and feels tense most days. She has a history of alcohol use disorder in sustained remission and asks for a medicine that is not habit-forming and will not make her drowsy at work. Her physician prescribes a drug and tells her it may take a few weeks to work.",
+      "leadIn": "This drug most likely acts as a partial agonist at which receptor?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Serotonin 5-HT1A receptor"
+        },
+        {
+          "id": "b",
+          "text": "GABA-A receptor benzodiazepine site"
+        },
+        {
+          "id": "c",
+          "text": "Histamine H1 receptor"
+        },
+        {
+          "id": "d",
+          "text": "Alpha-2 adrenergic receptor"
+        },
+        {
+          "id": "e",
+          "text": "Dopamine D2 receptor"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the serotonin 5-HT1A receptor (buspirone). Why: Your Pharmacology High Yield notes (PDF p. 59) list buspirone as a 5-HT1A agonist for anxiety. Its advantages are that it is not sedating and not habit-forming, and its disadvantage is a slow onset. StatPearls (Buspirone) agrees that buspirone is a partial agonist at 5-HT1A receptors, is used mainly for generalized anxiety disorder, carries no risk of physical dependence or withdrawal, has negligible abuse potential, and usually takes 2 to 4 weeks to work. It adds that buspirone does little for acute anxiety.",
+      "whyWrong": {
+        "b": "Benzodiazepines act at the GABA-A receptor (your El-Husseiny neurology notes, pp. 226-227). They can cause dependence, which she wants to avoid.",
+        "c": "Histamine H1 blockade causes sedation (your Pharmacology High Yield notes, PDF p. 60), the opposite of what she asked for.",
+        "d": "Mirtazapine blocks alpha-2 receptors (your Pharmacology High Yield notes, PDF p. 60); it is not a 5-HT1A partial agonist.",
+        "e": "D2 blockade is how antipsychotics work (your Pharmacology High Yield notes, PDF p. 52), not anxiolytics like buspirone."
+      },
+      "sources": [
+        {
+          "title": "Pharmacology High Yield (Emily's file), Antipsychotics, PDF p. 52; anxiety disorder, PDF p. 59; antidepressants, PDF p. 60"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Benzodiazepines, pp. 226-227"
+        },
+        {
+          "title": "StatPearls: Buspirone",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK531477/"
+        }
+      ]
+    },
+    {
+      "id": "psych-stimulant-withdrawal-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Behavioral Science",
+      "system": "Behavioral Health",
+      "topic": "Substance use: stimulant withdrawal",
+      "difficulty": 1,
+      "stem": "A 27-year-old man comes to the clinic 2 days after stopping cocaine, which he had used heavily every weekend for a year. He feels exhausted and sleeps 14 hours a day. He is very hungry, feels sad and \"flat,\" and has had vivid, unpleasant dreams. His pulse is 64/min and blood pressure is 116/72 mm Hg. Pupils are normal in size. He has no tremor, sweating or diarrhea.",
+      "leadIn": "Which of the following is the most likely diagnosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Stimulant withdrawal"
+        },
+        {
+          "id": "b",
+          "text": "Stimulant intoxication"
+        },
+        {
+          "id": "c",
+          "text": "Opioid withdrawal"
+        },
+        {
+          "id": "d",
+          "text": "Major depressive disorder"
+        },
+        {
+          "id": "e",
+          "text": "Alcohol withdrawal"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: stimulant withdrawal. Why: The DSM-5-TR (p. 643) describes stimulant withdrawal as low or irritable mood after stopping or cutting down heavy, prolonged use of cocaine or an amphetamine-type drug, together with at least two physical changes within hours to days: fatigue, vivid unpleasant dreams, sleeping too much or too little, increased appetite, and slowed or agitated movements. He has low mood, fatigue, too much sleep, hunger and unpleasant dreams. The MSD Manual (Cocaine) agrees that withdrawal after heavy use brings sleepiness, poor concentration, increased appetite and depression, and that cocaine works by blocking the reuptake of norepinephrine, dopamine and serotonin.",
+      "whyWrong": {
+        "b": "Stimulant intoxication happens during or soon after use, with signs such as dilated pupils, a fast or slow heart rate, changes in blood pressure and agitation (DSM-5-TR, p. 640). He stopped 2 days ago and has normal vital signs and pupils.",
+        "c": "Opioid withdrawal causes symptoms such as nausea, muscle aches, tearing, runny nose, dilated pupils, diarrhea, yawning and insomnia (DSM-5-TR, p. 617), which he does not have.",
+        "d": "Major depressive disorder needs at least 2 weeks of symptoms (DSM-5-TR, p. 183). His symptoms began 2 days after stopping cocaine and are explained by withdrawal (p. 643).",
+        "e": "He used cocaine, not alcohol, and he has no tremor, sweating or other signs of autonomic overactivity (DSM-5-TR, alcohol withdrawal, p. 564)."
+      },
+      "sources": [
+        {
+          "title": "DSM-5-TR (Emily's file), Major depressive disorder, p. 183; alcohol withdrawal, p. 564; opioid withdrawal, p. 617; stimulant intoxication, p. 640; stimulant withdrawal, p. 643"
+        },
+        {
+          "title": "MSD Manual Professional: Cocaine",
+          "url": "https://www.msdmanuals.com/professional/special-subjects/recreational-drugs-and-intoxicants/cocaine"
+        }
+      ]
+    },
+    {
+      "id": "psych-illness-anxiety-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Behavioral Science",
+      "system": "Behavioral Health",
+      "topic": "Somatic symptom disorders: illness anxiety disorder",
+      "difficulty": 2,
+      "stem": "A 34-year-old man has been convinced for 8 months that he has a brain tumor, and before that he feared he had ALS. He has no headaches or other symptoms. He checks his reflexes and balance several times a day and reads about brain cancer online for hours. A normal neurologic exam and a normal brain MRI reassured him for only a few days. He has no hallucinations, and when asked, he agrees that he might be worrying too much.",
+      "leadIn": "Which of the following is the most likely diagnosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Illness anxiety disorder"
+        },
+        {
+          "id": "b",
+          "text": "Somatic symptom disorder"
+        },
+        {
+          "id": "c",
+          "text": "Generalized anxiety disorder"
+        },
+        {
+          "id": "d",
+          "text": "Delusional disorder, somatic type"
+        },
+        {
+          "id": "e",
+          "text": "Functional neurological symptom disorder"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: illness anxiety disorder. Why: The DSM-5-TR (pp. 357-358) describes illness anxiety disorder as a preoccupation with having or getting a serious illness, with no physical symptoms or only mild ones, a high level of health anxiety, either too much checking or avoidance of care, and a duration of at least 6 months, although the feared illness may change. He fits each point: he has no symptoms, he keeps checking himself, and his fear has lasted 8 months and shifted from ALS to a brain tumor. The MSD Manual (Illness Anxiety Disorder) agrees that symptoms are absent or mild, that the fear lasts at least 6 months despite reassurance after a full medical evaluation, and that a steady, supportive relationship with one primary clinician is central to treatment, with cognitive-behavioral therapy and SSRIs as options.",
+      "whyWrong": {
+        "b": "Somatic symptom disorder requires one or more distressing physical symptoms (DSM-5-TR, p. 351). He has none.",
+        "c": "Generalized anxiety disorder involves excessive worry about many different areas of life (DSM-5-TR, pp. 250-251), while his worry centers on having a serious illness, which DSM lists as a separate diagnosis (p. 357).",
+        "d": "DSM-5-TR lists delusional disorder, somatic type, as a condition to rule out (p. 357). He recognizes that he may be worrying too much, so his belief is not held with delusional certainty.",
+        "e": "Functional neurological symptom disorder involves real changes in movement or sensation that do not fit a neurologic disease (DSM-5-TR, p. 360). He has no neurologic symptoms."
+      },
+      "sources": [
+        {
+          "title": "DSM-5-TR (Emily's file), Generalized anxiety disorder, pp. 250-251; somatic symptom disorder, p. 351; illness anxiety disorder, pp. 357-358; functional neurological symptom disorder, p. 360"
+        },
+        {
+          "title": "MSD Manual Professional: Illness Anxiety Disorder",
+          "url": "https://www.msdmanuals.com/professional/psychiatric-disorders/somatic-symptom-and-related-disorders/illness-anxiety-disorder"
+        }
+      ]
+    },
+    {
+      "id": "psych-adjustment-disorder-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Behavioral Science",
+      "system": "Behavioral Health",
+      "topic": "Trauma and stressor-related disorders: adjustment disorder",
+      "difficulty": 2,
+      "stem": "A 46-year-old man lost his job 5 weeks ago. Since then he has felt sad and tearful, has trouble focusing, and has stopped going to his weekly basketball game because he feels embarrassed. He sleeps and eats normally, has no thoughts of death, and still enjoys time with his children. His distress feels much greater than he expected, and he has had trouble keeping up with his job search.",
+      "leadIn": "Which of the following is the most likely diagnosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Adjustment disorder with depressed mood"
+        },
+        {
+          "id": "b",
+          "text": "Major depressive disorder"
+        },
+        {
+          "id": "c",
+          "text": "Persistent depressive disorder"
+        },
+        {
+          "id": "d",
+          "text": "Posttraumatic stress disorder"
+        },
+        {
+          "id": "e",
+          "text": "Normal, expected sadness after losing a job"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: adjustment disorder with depressed mood. Why: The DSM-5-TR (pp. 319-320) describes adjustment disorder as emotional or behavioral symptoms that start within 3 months of an identifiable stressor and are clinically significant: distress out of proportion to the stressor or a clear impact on daily functioning. Another mental disorder does not explain them better, and they do not last more than 6 months after the stressor and its effects end. The subtype with depressed mood applies when low mood and tearfulness are most prominent. Casey and Doherty (Psychiatric Times, 2013) agree with the 3-month onset and 6-month limit, add that the diagnosis is not made when another disorder's criteria are met, and describe brief psychotherapy as the treatment of choice.",
+      "whyWrong": {
+        "b": "Major depressive disorder needs at least five symptoms for 2 weeks, including low mood or loss of interest (DSM-5-TR, p. 183). He has low mood and poor focus but normal sleep, appetite and enjoyment of his children, so he does not reach five.",
+        "c": "Persistent depressive disorder requires depressed mood for at least 2 years in adults (DSM-5-TR, p. 193). His symptoms began 5 weeks ago.",
+        "d": "Posttraumatic stress disorder needs a trauma such as facing death or the threat of it, being seriously hurt, or sexual violence (DSM-5-TR, p. 301). Losing a job is not that kind of event.",
+        "e": "His distress is out of proportion to the stressor and is affecting his daily life (DSM-5-TR, p. 319), which goes beyond a normal reaction."
+      },
+      "sources": [
+        {
+          "title": "DSM-5-TR (Emily's file), Major depressive disorder, p. 183; persistent depressive disorder, p. 193; posttraumatic stress disorder, p. 301; adjustment disorders, pp. 319-320"
+        },
+        {
+          "title": "Casey P, Doherty A. Adjustment Disorders: Diagnostic and Treatment Issues. Psychiatric Times, 2013",
+          "url": "https://psychiatrictimes.com/adjustment-disorders-diagnostic-and-treatment-issues"
+        }
+      ]
+    },
+    {
+      "id": "derm-allergic-contact-dermatitis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Immunology",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Dermatitis: allergic contact dermatitis",
+      "difficulty": 1,
+      "stem": "A 24-year-old woman develops an itchy, red rash with small blisters on her earlobes and under the metal button of her jeans. The rash appeared 2 days after she started wearing new earrings and has gotten worse each day. She had a similar rash under a watch band last year.",
+      "leadIn": "Which of the following best describes the mechanism of her rash?",
+      "options": [
+        {
+          "id": "a",
+          "text": "T cells sensitized to the metal cause delayed inflammation"
+        },
+        {
+          "id": "b",
+          "text": "IgE on mast cells triggers histamine release within minutes"
+        },
+        {
+          "id": "c",
+          "text": "IgG antibodies bind to keratinocyte desmosomes"
+        },
+        {
+          "id": "d",
+          "text": "Immune complexes deposit in small dermal vessels"
+        },
+        {
+          "id": "e",
+          "text": "Direct chemical injury damages the skin barrier"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: T cells sensitized to the metal cause delayed inflammation (type IV hypersensitivity). Why: Your Osmosis dermatology notes (p. 12) explain that allergic contact dermatitis is a type IV, cell-mediated (delayed) reaction. In the induction phase, the immune system is primed to a small allergen (a hapten) such as nickel, poison ivy, fragrance or dye. In the elicitation phase, the hapten binds skin proteins, dendritic cells present it to T cells in the lymph nodes, and memory T cells then drive inflammation whenever the skin is exposed again. The rash is itchy and can appear up to 72 hours after exposure (p. 13). The MSD Manual (Contact Dermatitis) agrees that it is a type IV, T-cell-mediated delayed reaction with a sensitization phase and an elicitation phase, that nickel is the most common contact allergen, and that the rash usually appears at least 1 day after exposure and worsens over 2 to 3 days. Patch testing can identify the allergen.",
+      "whyWrong": {
+        "b": "IgE-triggered mast cell release of histamine is the mechanism of hives, which appear quickly and fade (your Osmosis dermatology notes, p. 62; MSD, Urticaria), not a blistering rash that builds over days.",
+        "c": "Antibodies against desmosomes cause pemphigus vulgaris, with fragile blisters (your Osmosis dermatology notes, p. 65 contrasts it with bullous pemphigoid), not a rash under metal.",
+        "d": "Immune complex deposition is type III hypersensitivity (your El-Husseiny microbiology and immunology notes, p. 458), not contact dermatitis.",
+        "e": "Direct chemical damage to the skin barrier describes irritant contact dermatitis (your Osmosis dermatology notes, p. 12), which tends to burn rather than itch and needs no prior sensitization."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Dermatology (Emily's file), Contact dermatitis, pp. 12-13; urticaria, p. 62; bullous pemphigoid, p. 65"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Hypersensitivity reactions, p. 458"
+        },
+        {
+          "title": "MSD Manual Professional: Contact Dermatitis",
+          "url": "https://www.msdmanuals.com/professional/dermatologic-disorders/dermatitis/contact-dermatitis"
+        },
+        {
+          "title": "MSD Manual Professional: Urticaria",
+          "url": "https://www.msdmanuals.com/professional/dermatologic-disorders/approach-to-the-dermatologic-patient/urticaria"
+        }
+      ]
+    },
+    {
+      "id": "derm-urticaria-mast-cell-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Immunology",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Urticaria: mechanism and treatment",
+      "difficulty": 1,
+      "stem": "A 30-year-old man has itchy, raised red welts with pale centers on his trunk and arms. They began 3 hours after he ate shrimp. Each welt fades within a few hours as new ones appear elsewhere. He has no lip swelling, wheezing or hypotension.",
+      "leadIn": "Release of which mediator from which cell is mainly responsible for these lesions?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Histamine from mast cells"
+        },
+        {
+          "id": "b",
+          "text": "Bradykinin from endothelial cells"
+        },
+        {
+          "id": "c",
+          "text": "Interferon-gamma from Th1 cells"
+        },
+        {
+          "id": "d",
+          "text": "Complement C5a from the liver"
+        },
+        {
+          "id": "e",
+          "text": "Leukotriene B4 from neutrophils"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: histamine from mast cells. Why: Your Osmosis dermatology notes (p. 62) explain that urticaria is a hypersensitivity reaction in which mast cells degranulate and release inflammatory mediators. This makes superficial blood vessels leaky, so fluid leaks into the skin and forms itchy, raised wheals with red edges and pale centers. Acute urticaria lasts less than 6 weeks, single lesions usually last less than 24 hours, and food is a common trigger. Treatment is avoiding triggers and taking antihistamines (p. 63). The MSD Manual (Urticaria) agrees that urticaria results from release of histamine and other vasoactive substances from mast cells, that it can be a type I reaction in which allergen-bound IgE triggers mast cells, that acute urticaria lasts less than 6 weeks, and that antihistamines are the cornerstone of treatment.",
+      "whyWrong": {
+        "b": "Bradykinin drives hereditary angioedema, which causes deep, nonitchy swelling without hives (your Osmosis dermatology notes, p. 61; MSD, Hereditary and Acquired Angioedema).",
+        "c": "Interferon-gamma from Th1 cells drives delayed, type IV reactions (your El-Husseiny microbiology and immunology notes, p. 459), not wheals that appear within hours of eating.",
+        "d": "Mast cells, not the liver, release the mediators that form hives (your Osmosis dermatology notes, p. 62; MSD, Urticaria).",
+        "e": "The main mediators of urticaria come from mast cells (your Osmosis dermatology notes, p. 62; MSD, Urticaria), not neutrophils."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Dermatology (Emily's file), Hereditary angioedema, p. 61; urticaria, pp. 62-63"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Hypersensitivity reactions, p. 459"
+        },
+        {
+          "title": "MSD Manual Professional: Urticaria",
+          "url": "https://www.msdmanuals.com/professional/dermatologic-disorders/approach-to-the-dermatologic-patient/urticaria"
+        },
+        {
+          "title": "MSD Manual Professional: Hereditary and Acquired Angioedema",
+          "url": "https://www.msdmanuals.com/professional/immunology-allergic-disorders/allergic-autoimmune-and-other-hypersensitivity-disorders/hereditary-and-acquired-angioedema"
+        }
+      ]
+    },
+    {
+      "id": "derm-hereditary-angioedema-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Immunology",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Hereditary angioedema: C1 inhibitor deficiency",
+      "difficulty": 2,
+      "stem": "A 19-year-old woman has had repeated episodes of painless swelling of her hands, lips and eyelids since childhood, each lasting 2 to 3 days. She does not itch and has never had hives. Two attacks caused severe cramping abdominal pain. Antihistamines and epinephrine have not helped. Her father has similar episodes. Serum C4 is low between attacks.",
+      "leadIn": "Which of the following is the most likely underlying cause?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Deficiency of C1 inhibitor with excess bradykinin"
+        },
+        {
+          "id": "b",
+          "text": "IgE-mediated mast cell release of histamine"
+        },
+        {
+          "id": "c",
+          "text": "Autoantibodies against the IgE receptor on mast cells"
+        },
+        {
+          "id": "d",
+          "text": "Deficiency of the membrane attack complex (C5-C9)"
+        },
+        {
+          "id": "e",
+          "text": "Deficiency of decay-accelerating factor (CD55)"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: deficiency of C1 inhibitor with excess bradykinin. Why: Your Osmosis dermatology notes (p. 61) explain that hereditary angioedema is inherited in an autosomal dominant way and is caused by mutations affecting C1 inhibitor, which normally holds back the complement pathway and is linked to coagulation factor XII. Without it, bradykinin and other vasoactive substances build up, causing painless, nonitchy swelling of the limbs, face, lips, larynx or gut, without urticaria. Attacks start in childhood and usually resolve within 72 hours, and gut swelling can mimic a surgical emergency. Your notes add that ACE inhibitors and estrogen-containing drugs should be avoided (p. 62). The MSD Manual (Hereditary and Acquired Angioedema) agrees that the disease is caused by deficiency or dysfunction of C1 inhibitor, is autosomal dominant, is bradykinin-mediated, does not cause itch or hives, shows low C4 even between episodes, and usually does not respond to glucocorticoids, epinephrine or antihistamines. Recent change: Your notes list IV C1-inhibitor concentrate, ecallantide, icatibant or fresh-frozen plasma for attacks; MSD now also lists the oral plasma kallikrein inhibitor sebetralstat among first-line options for attacks.",
+      "whyWrong": {
+        "b": "Histamine-mediated swelling comes with hives and itching and responds to antihistamines (MSD, Hereditary and Acquired Angioedema; your Osmosis dermatology notes, p. 62). Her swelling has neither.",
+        "c": "Autoantibodies that activate mast cells cause histamine release and hives (your Osmosis dermatology notes, p. 62, lists autoimmune disease as a cause of urticaria), not low C4 with painless swelling.",
+        "d": "Deficiency of the terminal complement components (C5-C9) raises the risk of Neisseria infections (your El-Husseiny microbiology and immunology notes, p. 433), not angioedema.",
+        "e": "Deficiency of decay-accelerating factor (CD55) causes paroxysmal nocturnal hemoglobinuria, with complement-mediated lysis of red cells (your El-Husseiny microbiology and immunology notes, pp. 432-433)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Dermatology (Emily's file), Hereditary angioedema, pp. 61-62; urticaria, p. 62"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Complement regulation and deficiencies, pp. 432-433"
+        },
+        {
+          "title": "MSD Manual Professional: Hereditary and Acquired Angioedema",
+          "url": "https://www.msdmanuals.com/professional/immunology-allergic-disorders/allergic-autoimmune-and-other-hypersensitivity-disorders/hereditary-and-acquired-angioedema"
+        }
+      ]
+    },
+    {
+      "id": "derm-rosacea-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Acneiform disorders: rosacea",
+      "difficulty": 1,
+      "stem": "A 44-year-old woman with fair skin has had redness across her cheeks and nose for 2 years. It flares when she drinks wine, eats spicy food or goes out in the sun. Examination shows central facial redness with visible small blood vessels and scattered small red papules and pustules. There are no blackheads or whiteheads. She also says her eyes often feel dry and gritty.",
+      "leadIn": "Which of the following is the most likely diagnosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rosacea"
+        },
+        {
+          "id": "b",
+          "text": "Acne vulgaris"
+        },
+        {
+          "id": "c",
+          "text": "Seborrheic dermatitis"
+        },
+        {
+          "id": "d",
+          "text": "Systemic lupus erythematosus"
+        },
+        {
+          "id": "e",
+          "text": "Contact dermatitis"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: rosacea. Why: Your Osmosis dermatology notes (p. 57) describe rosacea as a long-lasting inflammatory skin disease of the face that usually starts between ages 30 and 50, with persistent central facial redness, telangiectasias, flushing, and papules and pustules, but no comedones. Flares are triggered by warm weather, alcohol, certain foods, sun and stress, the eyes are often involved, and late phymatous changes can thicken the nose (rhinophyma). Treatment includes topical metronidazole, topical azelaic acid and oral doxycycline. The MSD Manual (Rosacea) agrees that rosacea most often affects fair-skinned adults aged 30 to 50 with central facial redness, telangiectasias and sterile papules and pustules, that the absence of comedones helps tell it apart from acne, that ocular rosacea is common, and that alcohol, sun and spicy foods are common triggers.",
+      "whyWrong": {
+        "b": "Acne vulgaris has comedones (blackheads and whiteheads) along with papules and pustules (your Osmosis dermatology notes, p. 45), while rosacea has none (p. 57).",
+        "c": "Seborrheic dermatitis causes red plaques with yellow, oily scales in sebaceous areas such as the scalp, eyebrows and nasal folds (your Osmosis dermatology notes, p. 14), not pustules with flushing.",
+        "d": "The flushing triggers, telangiectasias and papules and pustules here match rosacea (your Osmosis dermatology notes, p. 57; MSD, Rosacea), and she has no other features of a systemic disease.",
+        "e": "Contact dermatitis appears where an allergen or irritant touched the skin and causes an itchy or burning rash with scaling or vesicles (your Osmosis dermatology notes, pp. 12-13), not years of central facial flushing."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Dermatology (Emily's file), Contact dermatitis, pp. 12-13; seborrheic dermatitis, p. 14; acne vulgaris, p. 45; rosacea, p. 57"
+        },
+        {
+          "title": "MSD Manual Professional: Rosacea",
+          "url": "https://www.msdmanuals.com/professional/dermatologic-disorders/acne-and-related-disorders/rosacea"
+        }
+      ]
+    },
+    {
+      "id": "derm-erysipelas-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Skin infections: erysipelas",
+      "difficulty": 1,
+      "stem": "A 68-year-old woman with diabetes and chronic leg swelling has had fever and chills for 1 day. Her right lower leg has a bright red, warm, painful, raised plaque with a sharp, clearly defined edge. There is no pus or abscess. She has a small crack in the skin between her toes.",
+      "leadIn": "Which organism is the most likely cause?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Streptococcus pyogenes"
+        },
+        {
+          "id": "b",
+          "text": "Staphylococcus aureus"
+        },
+        {
+          "id": "c",
+          "text": "Pseudomonas aeruginosa"
+        },
+        {
+          "id": "d",
+          "text": "Clostridium perfringens"
+        },
+        {
+          "id": "e",
+          "text": "Pasteurella multocida"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: Streptococcus pyogenes (group A strep). Why: Your Osmosis dermatology notes (p. 47) describe erysipelas as an acute, non-necrotizing infection of the upper dermis and superficial lymphatics, usually caused by streptococci and most often Streptococcus pyogenes. It forms a raised, warm, painful, bright red plaque with a sharp border between normal and infected skin, and it is non-purulent. Risk factors include breaks in the skin, diabetes, lymphatic or venous problems, obesity and older age. Your notes contrast this with cellulitis, which affects deeper tissue and has unclear borders, and with purulent cellulitis, which is linked to Staphylococcus aureus (pp. 45-46). The MSD Manual (Erysipelas) agrees that erysipelas is a superficial cellulitis with involvement of the dermal lymphatics, is most often caused by group A beta-hemolytic streptococci, has raised lesions with distinct margins, and occurs most often on the legs and face. Penicillin is a first-line treatment.",
+      "whyWrong": {
+        "b": "Staphylococcus aureus is linked to purulent cellulitis, furuncles and abscesses (your Osmosis dermatology notes, pp. 45-46), but this plaque is non-purulent with a sharp edge, which fits streptococcal erysipelas (p. 47).",
+        "c": "Pseudomonas aeruginosa causes hot-tub folliculitis (your Osmosis dermatology notes, p. 48), not a sharply bordered red plaque.",
+        "d": "Clostridium perfringens causes gas gangrene and necrotizing infection (your El-Husseiny microbiology and immunology notes, p. 74), while erysipelas is non-necrotizing (Osmosis dermatology notes, p. 47).",
+        "e": "Pasteurella multocida infects wounds from cat or dog bites (your El-Husseiny microbiology and immunology notes, p. 111). She has no bite."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Dermatology (Emily's file), Cellulitis, pp. 45-46; erysipelas, p. 47; folliculitis, p. 48"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Clostridium perfringens, p. 74; Pasteurella multocida, p. 111"
+        },
+        {
+          "title": "MSD Manual Professional: Erysipelas",
+          "url": "https://www.msdmanuals.com/professional/dermatologic-disorders/bacterial-skin-infections/erysipelas"
+        }
+      ]
+    },
+    {
+      "id": "derm-hidradenitis-suppurativa-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Follicular disorders: hidradenitis suppurativa",
+      "difficulty": 2,
+      "stem": "A 29-year-old woman who smokes and has obesity has had painful lumps in both armpits and her groin for 4 years. They drain pus, heal with rope-like scars and then come back. Examination shows tender nodules, draining tunnels under the skin and paired blackheads (double comedones). Cultures from earlier drainages were often sterile.",
+      "leadIn": "Which of the following is the most likely diagnosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hidradenitis suppurativa"
+        },
+        {
+          "id": "b",
+          "text": "Recurrent MRSA skin abscesses"
+        },
+        {
+          "id": "c",
+          "text": "Acne vulgaris"
+        },
+        {
+          "id": "d",
+          "text": "Pseudomonas folliculitis"
+        },
+        {
+          "id": "e",
+          "text": "Erysipelas"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: hidradenitis suppurativa. Why: Your Osmosis dermatology notes (p. 49) describe hidradenitis suppurativa (acne inversa) as a long-lasting, pus-producing skin disease in which faulty hair follicles and apocrine glands become plugged and inflamed, forming painful abscesses. It occurs mostly in the armpits, groin and under the breasts, often with double comedones. Risk factors include obesity, smoking, tight clothes and shaving, and it is more common in women. Complications include scarring, sinus and fistula tracts, and squamous cell carcinoma in long-standing lesions. The MSD Manual (Hidradenitis Suppurativa) agrees that follicles become inflamed, plugged and ruptured, leading to recurrent abscesses, sinus tracts and scarring in the armpits, groin and inframammary and perianal areas, and that the nodules are often sterile. It lists obesity and smoking as contributors and names adalimumab, infliximab, secukinumab and bimekizumab as biologic options for severe disease.",
+      "whyWrong": {
+        "b": "MRSA abscesses are bacterial (your Osmosis dermatology notes, pp. 46 and 49), but sterile cultures, double comedones, tunnels and a fixed armpit and groin pattern over years point to hidradenitis suppurativa (p. 49; MSD).",
+        "c": "Acne vulgaris affects the face, neck, chest and back (your Osmosis dermatology notes, p. 45), not the armpits and groin with draining tunnels.",
+        "d": "Pseudomonas folliculitis causes small pustules around hair follicles after hot-tub use (your Osmosis dermatology notes, p. 48), not years of deep, scarring nodules.",
+        "e": "Erysipelas is an acute streptococcal infection with a sharply bordered red plaque, mostly on the legs or face (your Osmosis dermatology notes, p. 47)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Dermatology (Emily's file), Acne vulgaris and cellulitis, pp. 45-46; erysipelas, p. 47; folliculitis, pp. 48-49; hidradenitis suppurativa, p. 49"
+        },
+        {
+          "title": "MSD Manual Professional: Hidradenitis Suppurativa",
+          "url": "https://www.msdmanuals.com/professional/dermatologic-disorders/acne-and-related-disorders/hidradenitis-suppurativa"
+        }
+      ]
+    },
+    {
+      "id": "derm-telogen-effluvium-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Hair disorders: telogen effluvium",
+      "difficulty": 1,
+      "stem": "A 33-year-old woman notices large amounts of hair on her pillow and in the shower drain for the past 3 weeks. Three months ago she was hospitalized for 10 days with severe pneumonia. Her scalp looks normal, with no redness, scale, scarring or bald patches, but her hair is thinner all over. A gentle pull on about 50 hairs removes 12 hairs.",
+      "leadIn": "Which of the following is the most likely diagnosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Telogen effluvium"
+        },
+        {
+          "id": "b",
+          "text": "Alopecia areata"
+        },
+        {
+          "id": "c",
+          "text": "Tinea capitis"
+        },
+        {
+          "id": "d",
+          "text": "Discoid lupus erythematosus"
+        },
+        {
+          "id": "e",
+          "text": "Seborrheic dermatitis"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: telogen effluvium. Why: Your Osmosis dermatology notes (p. 22) describe telogen effluvium as episodes of increased hair shedding caused by a change in the hair growth cycle, with more follicles in the resting (telogen) phase. It can follow a recent major illness or surgery, drugs or poor nutrition. Hair loss is diffuse, non-scarring and less than 50%, and a hair pull test is positive when more than 6 to 10 of about 50 to 60 gently pulled hairs come out. It often gets better without treatment. Bergfeld and Mendez (Cleveland Clinic Journal of Medicine, 2026) agree that telogen effluvium is a common, non-scarring, diffuse hair shedding caused by a temporary disruption of the hair cycle, triggered by stressors such as illness, surgery, childbirth, nutritional deficiencies or drugs, and that it is usually reversible.",
+      "whyWrong": {
+        "b": "Alopecia areata causes smooth, round patches of hair loss with exclamation-point hairs (your Osmosis dermatology notes, pp. 21-22), not diffuse thinning.",
+        "c": "Her scalp is normal without scale or patches, and her diffuse shedding after a serious illness fits telogen effluvium (your Osmosis dermatology notes, p. 22).",
+        "d": "Her scalp shows no scarring, and telogen effluvium is a non-scarring hair loss (your Osmosis dermatology notes, p. 22; Bergfeld and Mendez 2026).",
+        "e": "Seborrheic dermatitis causes red plaques with yellow, oily scale on the scalp (your Osmosis dermatology notes, p. 14), not heavy shedding with a normal scalp."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Dermatology (Emily's file), Seborrheic dermatitis, p. 14; alopecia areata and telogen effluvium, pp. 21-22"
+        },
+        {
+          "title": "Bergfeld WF, Mendez D. Shedding: an updated guide to a common cause of hair loss. Cleve Clin J Med 2026;93(10):616-622",
+          "url": "https://www.ccjm.org/content/93/10/616.abstract"
+        }
+      ]
+    },
+    {
+      "id": "derm-seborrheic-dermatitis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Dermatitis: seborrheic dermatitis",
+      "difficulty": 1,
+      "stem": "A 67-year-old man with Parkinson disease has had red, flaky patches on his face for several months. Examination shows red plaques with greasy, yellow scales on his eyebrows, the folds beside his nose and behind his ears, plus fine dandruff on his scalp. There is no hair loss.",
+      "leadIn": "A normal skin organism of which type most likely contributes to his condition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lipid-dependent yeast (Malassezia)"
+        },
+        {
+          "id": "b",
+          "text": "Dermatophyte mold (Trichophyton)"
+        },
+        {
+          "id": "c",
+          "text": "Gram-positive coccus (Staphylococcus)"
+        },
+        {
+          "id": "d",
+          "text": "Mite (Demodex)"
+        },
+        {
+          "id": "e",
+          "text": "Gram-negative rod (Pseudomonas)"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: a lipid-dependent yeast (Malassezia). Why: Your Osmosis dermatology notes (p. 14) describe seborrheic dermatitis as a chronic, relapsing inflammation centered on sebaceous gland areas such as the scalp, ears, eyebrows, nasolabial folds and center of the face, with red plaques covered by yellow, oily scales. It is suspected to involve the lipid-dependent fungus Malassezia, through an immune response and irritants made by the fungus, and it is more common in people with HIV or Parkinson disease. Treatment includes topical antifungals, antifungal shampoo and topical corticosteroids (p. 15). The MSD Manual (Seborrheic Dermatitis) agrees that Malassezia, a normal skin yeast, plays an important role; that greasy, yellow scale appears on the scalp, eyebrows, nasolabial folds and behind the ears; that it is more common and more severe in Parkinson disease and HIV; that it does not cause hair loss; and that ketoconazole shampoo is highly effective.",
+      "whyWrong": {
+        "b": "Dermatophytes cause tinea infections (your Osmosis dermatology notes, p. 48 lists tinea barbae as a cause of folliculitis), not greasy scale in sebaceous areas.",
+        "c": "Staphylococcus aureus causes impetigo, folliculitis and purulent cellulitis (your Osmosis dermatology notes, pp. 46, 48 and 50), not this chronic scaly rash.",
+        "d": "Your notes and MSD link seborrheic dermatitis to Malassezia (Osmosis dermatology notes, p. 14; MSD, Seborrheic Dermatitis), not to mites.",
+        "e": "Pseudomonas aeruginosa causes hot-tub folliculitis (your Osmosis dermatology notes, p. 48), not chronic greasy scaling of the face."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Dermatology (Emily's file), Seborrheic dermatitis, pp. 14-15; cellulitis, p. 46; folliculitis, p. 48; impetigo, p. 50"
+        },
+        {
+          "title": "MSD Manual Professional: Seborrheic Dermatitis",
+          "url": "https://www.msdmanuals.com/professional/dermatologic-disorders/dermatitis/seborrheic-dermatitis"
+        }
+      ]
+    },
+    {
+      "id": "micro-hot-tub-folliculitis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Skin infections: Pseudomonas hot-tub folliculitis",
+      "difficulty": 1,
+      "stem": "A 21-year-old man has itchy red bumps and small pustules on his chest, buttocks and thighs. They appeared 2 days after a party where he spent several hours in a hotel hot tub. Each pustule is centered on a hair follicle, and the rash is worst where his swim trunks sat against the skin. Two friends who were also in the hot tub have similar rashes.",
+      "leadIn": "Which organism is the most likely cause?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pseudomonas aeruginosa"
+        },
+        {
+          "id": "b",
+          "text": "Streptococcus pyogenes"
+        },
+        {
+          "id": "c",
+          "text": "Malassezia furfur"
+        },
+        {
+          "id": "d",
+          "text": "Staphylococcus epidermidis"
+        },
+        {
+          "id": "e",
+          "text": "Herpes simplex virus"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: Pseudomonas aeruginosa. Why: Your Osmosis dermatology notes (p. 48) describe folliculitis as inflammation of hair follicles, usually from infection. Bacterial causes include Staphylococcus aureus and Pseudomonas aeruginosa, which causes \"hot-tub folliculitis,\" and risk factors include swimming pools and hot tubs. Lesions are small pustules and papules in hairy areas that may itch. The CDC (Preventing Hot Tub Rash) agrees that hot-tub rash is caused by Pseudomonas aeruginosa and causes an itchy, red, bumpy rash with pus-filled blisters around hair follicles, often worst where a swimsuit held contaminated water against the skin, usually a few days after time in a poorly maintained hot tub.",
+      "whyWrong": {
+        "b": "Streptococcus pyogenes causes erysipelas, a single sharply bordered plaque (your Osmosis dermatology notes, p. 47), not many follicular pustules after a hot tub.",
+        "c": "Malassezia is linked to seborrheic dermatitis, with greasy scale in sebaceous areas (your Osmosis dermatology notes, p. 14).",
+        "d": "Your notes name Staphylococcus aureus, not S. epidermidis, as the staphylococcal cause of folliculitis, and they link hot tubs to Pseudomonas (Osmosis dermatology notes, p. 48).",
+        "e": "Herpes simplex virus is a viral cause of folliculitis (your Osmosis dermatology notes, p. 48), but an outbreak in several people after the same hot tub points to Pseudomonas (CDC)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Dermatology (Emily's file), Seborrheic dermatitis, p. 14; erysipelas, p. 47; folliculitis, p. 48"
+        },
+        {
+          "title": "CDC Healthy Swimming: Preventing Hot Tub Rash",
+          "url": "https://www.cdc.gov/healthy-swimming/prevention/preventing-hot-tub-rash.html"
+        }
+      ]
+    },
+    {
+      "id": "derm-epidermolysis-bullosa-simplex-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Genetics",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Inherited blistering disorders: epidermolysis bullosa simplex",
+      "difficulty": 2,
+      "stem": "A 6-year-old boy gets blisters on his hands and feet whenever he walks long distances or rubs his skin. The blisters heal without scars. His mother and his maternal grandfather had the same problem as children. A skin biopsy shows that the split forms within the epidermis.",
+      "leadIn": "A variant in a gene encoding which type of protein is most likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Keratin of basal epidermal cells"
+        },
+        {
+          "id": "b",
+          "text": "Type VII collagen of anchoring fibrils"
+        },
+        {
+          "id": "c",
+          "text": "Desmoglein of desmosomes"
+        },
+        {
+          "id": "d",
+          "text": "Dystrophin of muscle cell membranes"
+        },
+        {
+          "id": "e",
+          "text": "Fibrillin of elastic fibers"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: keratin, the intermediate filament protein of basal cells. Why: Your Osmosis dermatology notes (p. 65) describe epidermolysis bullosa as a rare, inherited group of disorders in which variants in structural skin proteins (such as keratins, desmosome proteins, cell junctions and intermediate filaments) make the skin fragile, so blisters and erosions form after minor trauma or friction. Nail changes and oral lesions can also occur. MedlinePlus Genetics (Epidermolysis bullosa simplex) agrees that this form is caused by variants in KRT5 or KRT14, which code for keratin 5 and keratin 14 in the epidermis, that it is usually autosomal dominant, and that in mild cases the blisters mainly affect the hands and feet and heal without scarring. His affected mother and grandfather fit autosomal dominant inheritance.",
+      "whyWrong": {
+        "b": "Type VII collagen forms the anchoring fibrils that attach the epidermis to the dermis, and COL7A1 variants cause dystrophic epidermolysis bullosa, where the skin separates between the two layers (MedlinePlus Genetics, Dystrophic epidermolysis bullosa). This boy's split is within the epidermis, which fits the simplex form (MedlinePlus Genetics, Epidermolysis bullosa simplex).",
+        "c": "Autoantibodies against desmoglein cause pemphigus vulgaris (your Osmosis dermatology notes, p. 66), an acquired autoimmune disease of adults rather than a lifelong inherited one.",
+        "d": "Dystrophin variants cause Duchenne muscular dystrophy, a muscle disease (your El-Husseiny biochemistry notes, p. 94), not skin blistering.",
+        "e": "Fibrillin variants cause Marfan syndrome, which affects connective tissue of the eye, skeleton and aorta (your El-Husseiny biochemistry notes, pp. 50 and 79), not skin blistering."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Dermatology (Emily's file), Epidermolysis bullosa, p. 65; pemphigus vulgaris, p. 66"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Marfan syndrome, pp. 50 and 79; Duchenne muscular dystrophy, p. 94"
+        },
+        {
+          "title": "MedlinePlus Genetics: Epidermolysis bullosa simplex",
+          "url": "https://medlineplus.gov/genetics/condition/epidermolysis-bullosa-simplex"
+        },
+        {
+          "title": "MedlinePlus Genetics: Dystrophic epidermolysis bullosa",
+          "url": "https://medlineplus.gov/genetics/condition/dystrophic-epidermolysis-bullosa/"
+        }
+      ]
     }
   ]
 }
