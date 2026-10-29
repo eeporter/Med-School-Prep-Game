@@ -42694,16 +42694,16 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: persistent depressive disorder. Why: DSM-5-TR (pp. 193-194), in paraphrase, requires depressed mood on most days for at least 2 years (1 year in children and adolescents, when mood can be irritable), plus at least two of these: a change in appetite, a change in sleep, low energy, low self-esteem, poor concentration or trouble deciding, and hopelessness. During those 2 years, the person is never free of symptoms for more than 2 months, and there has never been a manic or hypomanic episode. The symptoms must not come from a substance or a medical condition such as hypothyroidism. He has low energy, low self-esteem and trouble deciding, and his normal stretches last only weeks. Your NBME Top Concepts (pp. 400, 403) pairs long-lasting depression with dysthymia, the older name for this disorder. MSD agrees that symptoms lasting at least 2 years without remission are \"classified as persistent depressive disorder (PDD),\" a category that combines what used to be called chronic major depressive disorder and dysthymic disorder, and that symptoms \"typically begin insidiously during adolescence.\"",
+      "explanation": "Answer: persistent depressive disorder. Why: DSM-5-TR (p. 193), in paraphrase, requires depressed mood on most days for at least 2 years (1 year in children and adolescents, when mood can be irritable), plus at least two of these: a change in appetite, a change in sleep, low energy, low self-esteem, poor concentration or trouble deciding, and hopelessness. During those 2 years, the person is never free of symptoms for more than 2 months, and there has never been a manic or hypomanic episode. The symptoms must not come from a substance or a medical condition such as hypothyroidism. He has low energy, low self-esteem and trouble deciding, and his normal stretches last only weeks. Your NBME Top Concepts (pp. 400, 403) pairs long-lasting depression with dysthymia, the older name for this disorder. MSD agrees that symptoms lasting at least 2 years without remission are \"classified as persistent depressive disorder (PDD),\" a category that combines what used to be called chronic major depressive disorder and dysthymic disorder, and that symptoms \"typically begin insidiously during adolescence.\"",
       "whyWrong": {
-        "b": "Cyclothymic disorder needs many periods of hypomanic symptoms as well as depressive symptoms over 2 years (DSM-5-TR, p. 160; your NBME Top Concepts, p. 403). He has never had a period of high energy.",
-        "c": "Adjustment disorder begins within 3 months of a clear stressor and ends within 6 months after the stressor is over (DSM-5-TR, pp. 319-320). He has no stressor, and his mood has been low for years.",
-        "d": "A major depressive episode needs at least five symptoms over the same 2 weeks, including depressed mood or loss of interest (DSM-5-TR, p. 183). His milder symptoms have lasted for years, and DSM-5-TR (p. 194) allows a major depressive episode to be diagnosed in addition only if its full criteria are met.",
+        "b": "Cyclothymic disorder needs many periods of hypomanic symptoms as well as depressive symptoms over 2 years (DSM-5-TR, pp. 159-160; your NBME Top Concepts, p. 403). He has never had a period of high energy.",
+        "c": "Adjustment disorder begins within 3 months of a clear stressor and ends within 6 months after the stressor is over (DSM-5-TR, p. 319). He has no stressor, and his mood has been low for years.",
+        "d": "A major depressive episode needs at least five symptoms over the same 2 weeks, including depressed mood or loss of interest (DSM-5-TR, p. 183). His milder symptoms have lasted for years, and DSM-5-TR (p. 193) allows a major depressive episode to be diagnosed in addition only if its full criteria are met.",
         "e": "Bipolar II disorder needs at least one hypomanic episode as well as a major depressive episode (DSM-5-TR, p. 152; MSD). He has never had a hypomanic episode."
       },
       "sources": [
         {
-          "title": "DSM-5-TR (Emily's file), Persistent depressive disorder, pp. 193-194; cyclothymic disorder, p. 160; bipolar II disorder, p. 152; major depressive disorder, p. 183; adjustment disorders, pp. 319-320"
+          "title": "DSM-5-TR (Emily's file), Persistent depressive disorder, p. 193; cyclothymic disorder, pp. 159-160; bipolar II disorder, p. 152; major depressive disorder, p. 183; adjustment disorders, p. 319"
         },
         {
           "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Depression variants, p. 400; long-term depression and bipolar, p. 403"
@@ -42749,7 +42749,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: cyclothymic disorder. Why: DSM-5-TR (p. 160), in paraphrase, describes at least 2 years (1 year in children and adolescents) of many periods with hypomanic symptoms that fall short of a hypomanic episode and many periods with depressive symptoms that fall short of a major depressive episode. The symptoms are present at least half the time, never absent for more than 2 months, and the person has never had a full manic, hypomanic or major depressive episode. Substances and medical causes such as hyperthyroidism must be ruled out. Your NBME Top Concepts (p. 403) puts it simply: cyclothymia is long-term bipolar, with symptoms for 2 years that are never absent for 2 months, just as dysthymia is long-term depression. MSD agrees that the hypomanic and depressive symptoms \"are less severe than those in bipolar disorder,\" and notes that cyclothymic disorder \"is commonly a precursor of bipolar I disorder or bipolar II disorder.\" Treatment is mainly education, with mood stabilizers used for some patients.",
+      "explanation": "Answer: cyclothymic disorder. Why: DSM-5-TR (pp. 159-160), in paraphrase, describes at least 2 years (1 year in children and adolescents) of many periods with hypomanic symptoms that fall short of a hypomanic episode and many periods with depressive symptoms that fall short of a major depressive episode. The symptoms are present at least half the time, never absent for more than 2 months, and the person has never had a full manic, hypomanic or major depressive episode. Substances and medical causes such as hyperthyroidism must be ruled out. Your NBME Top Concepts (p. 403) puts it simply: cyclothymia is long-term bipolar, with symptoms for 2 years that are never absent for 2 months, just as dysthymia is long-term depression. MSD agrees that the hypomanic and depressive symptoms \"are less severe than those in bipolar disorder,\" and notes that cyclothymic disorder \"is commonly a precursor of bipolar I disorder or bipolar II disorder.\" Treatment is mainly education, with mood stabilizers used for some patients.",
       "whyWrong": {
         "b": "Bipolar I disorder needs at least one manic episode (your Osmosis Pathology Volume 2 notes, p. 701). A manic episode lasts at least a week and affects daily life (p. 700), and her high spells last 2 or 3 days.",
         "c": "Bipolar II disorder needs a full hypomanic episode of at least 4 days and a full major depressive episode (DSM-5-TR, pp. 150-152). Neither has ever been met here.",
@@ -42758,7 +42758,7 @@
       },
       "sources": [
         {
-          "title": "DSM-5-TR (Emily's file), Cyclothymic disorder, p. 160; hypomanic episode, pp. 150-151; bipolar II disorder, p. 152; major depressive disorder, p. 183; persistent depressive disorder, pp. 193-194"
+          "title": "DSM-5-TR (Emily's file), Cyclothymic disorder, pp. 159-160; hypomanic episode, pp. 150-151; bipolar II disorder, p. 152; major depressive disorder, p. 183; persistent depressive disorder, p. 193"
         },
         {
           "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Long-term bipolar, p. 403"
@@ -42810,13 +42810,13 @@
       "explanation": "Answer: bipolar II disorder. Why: DSM-5-TR (pp. 150-151), in paraphrase, defines a hypomanic episode as at least 4 days in a row of elevated, expansive or irritable mood with increased energy, plus at least three symptoms such as less need for sleep, grandiosity, pressured speech or more goal-directed activity. The change is clear and others can see it, but it is not so severe that it badly disrupts work or social life or needs a hospital stay, and any psychosis makes the episode manic instead. Bipolar II disorder (DSM-5-TR, p. 152) needs one or more hypomanic episodes plus one or more major depressive episodes, with no manic episode ever. MSD agrees that hypomania \"does not involve psychotic features, marked impairment in function, or the need for hospitalization.\" Your Osmosis Pathology Volume 2 notes (pp. 700, 702) describe hypomania as lasting more than 4 days without affecting daily function, and bipolar II as at least one hypomanic and one major depressive episode. Your NBME Top Concepts (p. 401) has a practice vignette on hypomania, and your Pharmacology High Yield notes (PDF p. 63) list lamotrigine for the depressive phase of bipolar II.",
       "whyWrong": {
         "b": "Bipolar I disorder needs at least one manic episode (your Osmosis Pathology Volume 2 notes, p. 701). A manic episode lasts at least a week, impairs daily function or needs a hospital stay, or includes psychosis (p. 700; DSM-5-TR, p. 151). His high period did none of these.",
-        "c": "Cyclothymic disorder never meets the criteria for a full hypomanic or major depressive episode (DSM-5-TR, p. 160). He has had both.",
+        "c": "Cyclothymic disorder never meets the criteria for a full hypomanic or major depressive episode (DSM-5-TR, pp. 159-160). He has had both.",
         "d": "Major depressive disorder requires that there has never been a manic or hypomanic episode (your Osmosis Pathology Volume 2 notes, p. 702). His 6-day high period was a hypomanic episode.",
-        "e": "Schizoaffective disorder needs a stretch of 2 weeks or longer with delusions or hallucinations but no mood episode (DSM-5-TR, p. 122). He has never had psychotic symptoms."
+        "e": "Schizoaffective disorder needs a stretch of 2 weeks or longer with delusions or hallucinations but no mood episode (DSM-5-TR, p. 121). He has never had psychotic symptoms."
       },
       "sources": [
         {
-          "title": "DSM-5-TR (Emily's file), Hypomanic episode, pp. 150-151; bipolar II disorder, pp. 152-153; cyclothymic disorder, p. 160; schizoaffective disorder, p. 122"
+          "title": "DSM-5-TR (Emily's file), Hypomanic episode, pp. 150-151; bipolar II disorder, p. 152; cyclothymic disorder, pp. 159-160; schizoaffective disorder, p. 121"
         },
         {
           "title": "Osmosis High-Yield Pathology Notes, Volume 2 (Emily's file), Depressive and bipolar disorders, pp. 700-702"
@@ -42868,16 +42868,16 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: delusional disorder, persecutory type. Why: DSM-5-TR (pp. 105-106), in paraphrase, requires one or more delusions for at least 1 month in a person who has never met the main symptom criterion for schizophrenia. Hallucinations, if present, are not prominent and fit the delusion. Apart from the delusion and its direct effects, daily functioning stays largely intact and behavior does not look strange, and any mood episodes have been short. In the persecutory type, the person believes they are being plotted against, poisoned or harassed. Your NBME Top Concepts (p. 407) sums it up the same way: at least 1 month of isolated delusions without other psychotic symptoms and without marked impairment. MSD agrees that the delusions \"persist for at least 1 month\" and occur \"without any marked functional impairment apart from that associated with the delusion,\" that onset is usually in middle or late adult life, and that \"Antipsychotics sometimes alleviate symptoms.\" Correction: your Osmosis Pathology Volume 2 notes (p. 735) list \"affects day-to-day functioning\" as a diagnostic point. DSM-5-TR (p. 106) and MSD say the reverse: apart from the impact of the delusion, functioning is not markedly impaired.",
+      "explanation": "Answer: delusional disorder, persecutory type. Why: DSM-5-TR (pp. 104-105), in paraphrase, requires one or more delusions for at least 1 month in a person who has never met the main symptom criterion for schizophrenia. Hallucinations, if present, are not prominent and fit the delusion. Apart from the delusion and its direct effects, daily functioning stays largely intact and behavior does not look strange, and any mood episodes have been short. In the persecutory type, the person believes they are being plotted against, poisoned or harassed. Your NBME Top Concepts (p. 407) sums it up the same way: at least 1 month of isolated delusions without other psychotic symptoms and without marked impairment. MSD agrees that the delusions \"persist for at least 1 month\" and occur \"without any marked functional impairment apart from that associated with the delusion,\" that onset is usually in middle or late adult life, and that \"Antipsychotics sometimes alleviate symptoms.\" Correction: your Osmosis Pathology Volume 2 notes (p. 735) list \"affects day-to-day functioning\" as a diagnostic point. DSM-5-TR (p. 105) and MSD say the reverse: apart from the impact of the delusion, functioning is not markedly impaired.",
       "whyWrong": {
-        "b": "Brief psychotic disorder runs from 1 day to under a month, and the person returns fully to baseline (DSM-5-TR, p. 109). Her belief has lasted 8 months.",
-        "c": "Schizophrenia needs at least two core symptoms (such as delusions plus hallucinations or disorganized speech), a clear drop in functioning, and signs lasting at least 6 months (DSM-5-TR, p. 114). She has only one isolated delusion and works normally.",
+        "b": "Brief psychotic disorder runs from 1 day to under a month, and the person returns fully to baseline (DSM-5-TR, p. 108). Her belief has lasted 8 months.",
+        "c": "Schizophrenia needs at least two core symptoms (such as delusions plus hallucinations or disorganized speech), a clear drop in functioning, and signs lasting at least 6 months (DSM-5-TR, pp. 113-114). She has only one isolated delusion and works normally.",
         "d": "Schizophreniform disorder needs at least two core psychotic symptoms for 1 to 6 months (DSM-5-TR, p. 111). She has a single delusion lasting 8 months.",
-        "e": "Paranoid personality disorder is a lifelong pattern of distrust and suspicion that begins by early adulthood (DSM-5-TR, p. 738). It does not involve a fixed false belief that started recently in late adulthood."
+        "e": "Paranoid personality disorder is a lifelong pattern of distrust and suspicion that begins by early adulthood (DSM-5-TR, p. 737). It does not involve a fixed false belief that started recently in late adulthood."
       },
       "sources": [
         {
-          "title": "DSM-5-TR (Emily's file), Delusional disorder, pp. 105-106; brief psychotic disorder, p. 109; schizophreniform disorder, p. 111; schizophrenia, p. 114; paranoid personality disorder, p. 738"
+          "title": "DSM-5-TR (Emily's file), Delusional disorder, pp. 104-105; brief psychotic disorder, p. 108; schizophreniform disorder, p. 111; schizophrenia, pp. 113-114; paranoid personality disorder, p. 737"
         },
         {
           "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Delusional disorder, p. 407"
@@ -42926,16 +42926,16 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: schizoaffective disorder, bipolar type. Why: DSM-5-TR (pp. 121-122), in paraphrase, requires an unbroken period of illness in which a major mood episode (manic or depressive) happens together with the core symptoms of schizophrenia. In addition, there must be a stretch of 2 weeks or longer with delusions or hallucinations but no major mood episode, and mood episodes must fill most of the total illness. He has psychosis during manic episodes, psychosis for more than a month while his mood is normal, and mania for most of the 4 years. Your Osmosis Pathology Volume 2 notes (p. 735) describe the same three parts: schizophrenia-type symptoms plus a mood disorder, with psychotic symptoms that outlast the mood episode by 2 weeks or more. Your NBME Top Concepts (p. 406) has a practice question on this diagnosis. MSD agrees on the 2-week stretch of psychosis with normal mood and says mood episodes must be present for \"the majority (ie,> 50%) of the total duration of illness.\" For the bipolar type, MSD says a second-generation antipsychotic may be enough, with lithium, carbamazepine or valproate added if needed.",
+      "explanation": "Answer: schizoaffective disorder, bipolar type. Why: DSM-5-TR (p. 121), in paraphrase, requires an unbroken period of illness in which a major mood episode (manic or depressive) happens together with the core symptoms of schizophrenia. In addition, there must be a stretch of 2 weeks or longer with delusions or hallucinations but no major mood episode, and mood episodes must fill most of the total illness. He has psychosis during manic episodes, psychosis for more than a month while his mood is normal, and mania for most of the 4 years. Your Osmosis Pathology Volume 2 notes (p. 735) describe the same three parts: schizophrenia-type symptoms plus a mood disorder, with psychotic symptoms that outlast the mood episode by 2 weeks or more. Your NBME Top Concepts (p. 406) has a practice question on this diagnosis. MSD agrees on the 2-week stretch of psychosis with normal mood and says mood episodes must be present for \"the majority (ie,> 50%) of the total duration of illness.\" For the bipolar type, MSD says a second-generation antipsychotic may be enough, with lithium, carbamazepine or valproate added if needed.",
       "whyWrong": {
-        "b": "In bipolar I disorder with psychotic features, psychosis happens only during mood episodes. Psychosis for 2 weeks or more with normal mood points to schizoaffective disorder (DSM-5-TR, p. 122; MSD).",
-        "c": "Schizophrenia is diagnosed only if mood episodes have filled a minority of the illness (DSM-5-TR, p. 114). He has had manic symptoms for most of it.",
-        "d": "Delusional disorder requires that the core schizophrenia criterion has never been met and that mood episodes were brief (DSM-5-TR, pp. 105-106). He has prominent hallucinations and long manic episodes.",
+        "b": "In bipolar I disorder with psychotic features, psychosis happens only during mood episodes. Psychosis for 2 weeks or more with normal mood points to schizoaffective disorder (DSM-5-TR, p. 121; MSD).",
+        "c": "Schizophrenia is diagnosed only if mood episodes have filled a minority of the illness (DSM-5-TR, pp. 113-114). He has had manic symptoms for most of it.",
+        "d": "Delusional disorder requires that the core schizophrenia criterion has never been met and that mood episodes were brief (DSM-5-TR, pp. 104-105). He has prominent hallucinations and long manic episodes.",
         "e": "Schizophreniform disorder runs for 1 month to under 6 months (DSM-5-TR, p. 111). His illness has lasted 4 years."
       },
       "sources": [
         {
-          "title": "DSM-5-TR (Emily's file), Schizoaffective disorder, pp. 121-122; delusional disorder, pp. 105-106; schizophreniform disorder, p. 111; schizophrenia, p. 114"
+          "title": "DSM-5-TR (Emily's file), Schizoaffective disorder, p. 121; delusional disorder, pp. 104-105; schizophreniform disorder, p. 111; schizophrenia, pp. 113-114"
         },
         {
           "title": "Osmosis High-Yield Pathology Notes, Volume 2 (Emily's file), Schizoaffective disorder, p. 735"
