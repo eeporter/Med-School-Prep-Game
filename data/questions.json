@@ -31268,6 +31268,1046 @@
           "url": "https://medlineplus.gov/genetics/condition/cleidocranial-dysplasia"
         }
       ]
+    },
+    {
+      "id": "biostats-case-control-design-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biostatistics & Epidemiology",
+      "system": "General Principles",
+      "topic": "Study design: case-control study",
+      "difficulty": 1,
+      "stem": "Researchers want to know whether working with a certain industrial solvent is linked to a rare kidney cancer. They identify 120 adults recently diagnosed with the cancer and 240 adults of similar age without it. Trained interviewers then ask everyone in both groups about their past jobs and any work with the solvent.",
+      "leadIn": "This study design is best described as which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Case-control study"
+        },
+        {
+          "id": "b",
+          "text": "Prospective cohort study"
+        },
+        {
+          "id": "c",
+          "text": "Cross-sectional study"
+        },
+        {
+          "id": "d",
+          "text": "Randomized controlled trial"
+        },
+        {
+          "id": "e",
+          "text": "Crossover study"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: case-control study. Why: First Aid (biostats, p. 256) describes a case-control study as one that compares people who have a disease with people who do not, and then looks back to see whether past exposure differs between the groups. It asks \"What happened?\" and its measure of association is the odds ratio. StatPearls (Case Control Studies) agrees that these studies start with people who already have the outcome, look backward for exposures, and work well for rare diseases, and it warns that asking people to remember past exposures can cause recall bias. Here the groups were chosen by disease status (cancer or no cancer), and then past exposure was measured.",
+      "whyWrong": {
+        "b": "A cohort study chooses groups by exposure and follows them to see who develops disease, and it measures relative risk (First Aid, p. 256). Here the groups were chosen by disease.",
+        "c": "A cross-sectional study measures disease and risk factors at one point in time and asks \"What is happening?\" (First Aid, p. 256); it does not start from cases and controls.",
+        "d": "In a randomized controlled trial the researchers assign the exposure (First Aid, p. 256); nobody was assigned to the solvent here.",
+        "e": "A crossover study gives each participant two or more treatments in random order, with a washout period between them (First Aid, p. 256)."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Observational studies, p. 256"
+        },
+        {
+          "title": "StatPearls: Case Control Studies (PubMed record)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28846237/"
+        }
+      ]
+    },
+    {
+      "id": "biostats-incidence-calc-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biostatistics & Epidemiology",
+      "system": "General Principles",
+      "topic": "Incidence vs prevalence: calculating incidence",
+      "difficulty": 2,
+      "stem": "A town has 10,000 adults. On January 1, 200 of them already have type 2 diabetes. During that year, 490 more adults are newly diagnosed with type 2 diabetes. Nobody moves into or out of the town, and nobody dies during the year.",
+      "leadIn": "What is the incidence of type 2 diabetes in this town for that year?",
+      "options": [
+        {
+          "id": "a",
+          "text": "50 per 1,000 people per year"
+        },
+        {
+          "id": "b",
+          "text": "49 per 1,000 people per year"
+        },
+        {
+          "id": "c",
+          "text": "69 per 1,000 people per year"
+        },
+        {
+          "id": "d",
+          "text": "20 per 1,000 people per year"
+        },
+        {
+          "id": "e",
+          "text": "Cannot be calculated without disease duration"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: 50 per 1,000 people per year. Why: First Aid (biostats, p. 259) gives incidence as the number of new cases in a time period divided by the number of people at risk. People who already have the disease cannot become new cases, so they are left out of the denominator. The CDC's Principles of Epidemiology agrees that incidence describes how many people in a disease-free population develop the disease, and that the denominator should include only the population at risk. Here, 10,000 - 200 = 9,800 people were at risk, and 490 / 9,800 = 0.05, or 50 per 1,000 per year.",
+      "whyWrong": {
+        "b": "490 / 10,000 = 49 per 1,000 wrongly keeps the 200 people who already had diabetes in the denominator. They were not at risk of becoming new cases (First Aid, p. 259).",
+        "c": "690 / 10,000 = 69 per 1,000 counts all existing cases at the end of the year, which is prevalence, not incidence (First Aid, p. 259).",
+        "d": "200 / 10,000 = 20 per 1,000 is the prevalence on January 1 (First Aid, p. 259).",
+        "e": "Disease duration links prevalence to incidence (prevalence is about incidence times average duration), but incidence itself needs only new cases and people at risk (First Aid, p. 259)."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Incidence vs prevalence, p. 259"
+        },
+        {
+          "title": "CDC, Principles of Epidemiology, Lesson 3, Section 2: Morbidity frequency measures",
+          "url": "https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/lesson3/section2.html"
+        }
+      ]
+    },
+    {
+      "id": "biostats-effect-modification-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biostatistics & Epidemiology",
+      "system": "General Principles",
+      "topic": "Study bias: effect modification vs confounding",
+      "difficulty": 3,
+      "stem": "A cohort study looks at whether a new cholesterol drug raises the risk of muscle injury. In the whole study, the relative risk of muscle injury with the drug is 2.4. When the results are split by a second medicine that some patients take, the relative risk is 5.0 in patients also taking the second medicine and 1.1 in patients not taking it. Use of the second medicine is equally common among people who did and did not take the cholesterol drug.",
+      "leadIn": "Which term best describes the role of the second medicine?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Effect modifier"
+        },
+        {
+          "id": "b",
+          "text": "Confounder"
+        },
+        {
+          "id": "c",
+          "text": "Step on the causal pathway"
+        },
+        {
+          "id": "d",
+          "text": "Source of selection bias"
+        },
+        {
+          "id": "e",
+          "text": "Source of recall bias"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: effect modifier. Why: First Aid (biostats, p. 261) contrasts confounding, where an outside factor tied to both the exposure and the outcome distorts their link, with effect modification, where the exposure has different effects in subgroups split by a third factor. Foundations of Epidemiology (Bovbjerg, Effect Modification) explains that when the measure of association is clearly different in each group, the right step is to report the result for each group separately rather than adjust it into one number. Here the drug's effect is very different with and without the second medicine (5.0 vs 1.1), and the second medicine is not linked to who took the cholesterol drug, so it is not a confounder.",
+      "whyWrong": {
+        "b": "A confounder must be related to both the exposure and the outcome and makes the overall link look stronger or weaker than it is (First Aid, p. 261). Here the second medicine is equally common in both exposure groups.",
+        "c": "First Aid (p. 261) notes that a confounder is not on the causal pathway. A step on the pathway would be caused by the cholesterol drug itself, but taking another medicine is not caused by the drug.",
+        "d": "Selection bias comes from nonrandom choice of subjects, so the study group does not represent the target population (First Aid, p. 260). Nothing in the stem suggests this.",
+        "e": "Recall bias comes from people with a disease remembering exposures differently (First Aid, p. 260). Drug use here was recorded, not recalled."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Bias and study errors: confounding bias, p. 261"
+        },
+        {
+          "title": "Foundations of Epidemiology (Bovbjerg), 1.8: Effect Modification",
+          "url": "https://med.libretexts.org/Bookshelves/Medicine/Foundations_of_Epidemiology_(Bovbjerg)/01%3A_Chapters/1.08%3A_Effect_Modification"
+        }
+      ]
+    },
+    {
+      "id": "biostats-length-time-bias-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biostatistics & Epidemiology",
+      "system": "General Principles",
+      "topic": "Study bias: length-time bias",
+      "difficulty": 2,
+      "stem": "A new screening program for ovarian cancer reports that women whose cancer was found by screening live longer than women whose cancer was found after symptoms. The researchers already adjusted survival for the earlier date of diagnosis. Pathology shows that most screen-detected tumors are low grade and slow growing, while most cancers found between screening rounds are high grade and fast growing.",
+      "leadIn": "Which bias most likely explains the better survival in the screened group?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Length-time bias"
+        },
+        {
+          "id": "b",
+          "text": "Lead-time bias"
+        },
+        {
+          "id": "c",
+          "text": "Attrition bias"
+        },
+        {
+          "id": "d",
+          "text": "Recall bias"
+        },
+        {
+          "id": "e",
+          "text": "Observer-expectancy bias"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: length-time bias. Why: First Aid (biostats, p. 261) explains that screening tends to catch diseases with a long latent period, because fast-growing diseases cause symptoms between screens. A slowly progressive cancer is more likely to be found by screening than a fast one. The fix is a randomized trial that assigns people to screening or no screening. StatPearls (Study Bias) agrees that length-time bias overestimates survival because screening picks up many slow, symptom-free cases. Here the screened tumors were mostly slow growing, and the timing of diagnosis had already been corrected.",
+      "whyWrong": {
+        "b": "Lead-time bias is when an earlier diagnosis makes survival look longer even though the disease course has not changed (First Aid, p. 261). The researchers already adjusted for the earlier diagnosis date.",
+        "c": "Attrition bias comes from losing participants to follow-up when those lost have a different outcome (First Aid, p. 260). No loss to follow-up is described.",
+        "d": "Recall bias comes from people remembering past exposures differently (First Aid, p. 260); survival here was measured, not remembered.",
+        "e": "Observer-expectancy bias happens when a researcher's belief changes how outcomes are recorded (First Aid, p. 260); tumor grade and survival are objective here."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Bias and study errors, pp. 260-261"
+        },
+        {
+          "title": "StatPearls: Study Bias",
+          "url": "https://www.statpearls.com/point-of-care/137540"
+        }
+      ]
+    },
+    {
+      "id": "biostats-positive-skew-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biostatistics & Epidemiology",
+      "system": "General Principles",
+      "topic": "Distributions: positive skew",
+      "difficulty": 1,
+      "stem": "A hospital reviews how long patients stay after a common surgery. Most patients go home after 2 to 4 days, but a small number with complications stay 30 to 60 days. A histogram of the length of stay has a long tail to the right.",
+      "leadIn": "Which relationship among the measures of central tendency is most likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mean > median > mode"
+        },
+        {
+          "id": "b",
+          "text": "Mean < median < mode"
+        },
+        {
+          "id": "c",
+          "text": "Mean = median = mode"
+        },
+        {
+          "id": "d",
+          "text": "Median > mean > mode"
+        },
+        {
+          "id": "e",
+          "text": "Mode > mean > median"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: mean > median > mode. Why: First Aid (biostats, p. 262) describes positive skew as an uneven distribution with a longer tail on the right, where the mean is usually greater than the median, which is greater than the mode. OpenStax Introductory Statistics (Skewness and the Mean, Median, and Mode) agrees that in data skewed to the right the mean is usually greater than the median, because a few large values pull the mean toward the tail. Here the few very long stays pull the mean up, while the mode stays at the common 2 to 4 days.",
+      "whyWrong": {
+        "b": "Mean < median < mode is the usual pattern of negative skew, with a long tail to the left (First Aid, p. 262).",
+        "c": "Equal mean, median and mode fit a symmetric, bell-shaped normal distribution (First Aid, p. 262; standard teaching), not a skewed one.",
+        "d": "In right-skewed data the mean, not the median, is pulled furthest toward the long tail (First Aid, p. 262).",
+        "e": "In right-skewed data the mode sits at the peak, on the low side, and is usually the smallest of the three (First Aid, p. 262)."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Distributions, p. 262"
+        },
+        {
+          "title": "OpenStax Introductory Statistics, 2.6: Skewness and the Mean, Median, and Mode",
+          "url": "https://openstax.org/books/introductory-statistics/pages/2-6-skewness-and-the-mean-median-and-mode"
+        }
+      ]
+    },
+    {
+      "id": "biostats-power-sample-size-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biostatistics & Epidemiology",
+      "system": "General Principles",
+      "topic": "Hypothesis testing: statistical power",
+      "difficulty": 2,
+      "stem": "A pilot trial of 40 patients finds that a new migraine drug lowers monthly headache days slightly more than placebo, but the difference is not statistically significant (p = 0.30). The investigators believe the drug works and plan a second trial.",
+      "leadIn": "Which change to the next trial would most increase its statistical power?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Enroll many more patients"
+        },
+        {
+          "id": "b",
+          "text": "Lower α from 0.05 to 0.01"
+        },
+        {
+          "id": "c",
+          "text": "Use a less precise headache diary"
+        },
+        {
+          "id": "d",
+          "text": "Aim to detect a smaller difference"
+        },
+        {
+          "id": "e",
+          "text": "Report results without a P value"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: enroll many more patients. Why: First Aid (biostats, p. 263) defines power as 1 - β, the chance of rejecting the null hypothesis when it is really false. Power goes up with a larger sample size, a larger expected effect size and more precise measurement (\"there is power in numbers\"). LibreTexts (Geraghty, Type II Error and Statistical Power) agrees that power is 1 - β and that a larger sample size increases power. A small trial like this one can easily miss a real but modest benefit, which is a type II error.",
+      "whyWrong": {
+        "b": "Making α smaller makes it harder to reject the null hypothesis. This lowers the chance of a type I error but also lowers power (standard teaching; First Aid, p. 263, defines α and β).",
+        "c": "Less precise measurement lowers power; more precise measurement raises it (First Aid, p. 263).",
+        "d": "A smaller effect is harder to detect, so planning to find a smaller difference with the same sample size lowers power (First Aid, p. 263).",
+        "e": "How results are reported does not change power, which depends on sample size, effect size and precision (First Aid, p. 263)."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Hypothesis testing: type II error and power, p. 263"
+        },
+        {
+          "title": "LibreTexts, Inferential Statistics and Probability (Geraghty), 10.7: Type II Error and Statistical Power",
+          "url": "https://stats.libretexts.org/Bookshelves/Introductory_Statistics/Inferential_Statistics_and_Probability_-_A_Holistic_Approach_(Geraghty)/10%3A_One_Population_Hypothesis_Testing/10.07%3A_Type_II_Error_and_Statistical_Power"
+        }
+      ]
+    },
+    {
+      "id": "biostats-chi-square-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biostatistics & Epidemiology",
+      "system": "General Principles",
+      "topic": "Statistical tests: chi-square test",
+      "difficulty": 2,
+      "stem": "Researchers compare three skin antiseptics used before surgery. About 300 patients get each antiseptic. The outcome is whether or not each patient develops a surgical-site infection, and the researchers want to compare the percentage of patients with an infection in the three groups.",
+      "leadIn": "Which statistical test is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chi-square test"
+        },
+        {
+          "id": "b",
+          "text": "Two-sample t-test"
+        },
+        {
+          "id": "c",
+          "text": "Analysis of variance (ANOVA)"
+        },
+        {
+          "id": "d",
+          "text": "Fisher exact test"
+        },
+        {
+          "id": "e",
+          "text": "Pearson correlation coefficient"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: chi-square test. Why: First Aid (biostats, p. 264) says the chi-square test checks for differences between 2 or more percentages or proportions of categorical outcomes, not mean values. Penn State's STAT 500 course (Lesson 8) agrees that the chi-square test is used when both variables are categorical. Here the groups (antiseptic A, B or C) and the outcome (infection yes or no) are both categories, and the groups are large.",
+      "whyWrong": {
+        "b": "A t-test compares the means of 2 groups (First Aid, p. 264); infection yes or no has no mean, and there are 3 groups.",
+        "c": "ANOVA compares the means of 3 or more groups (First Aid, p. 264), but the outcome here is a category, not a measured number.",
+        "d": "First Aid (p. 264) says Fisher's exact test is used in place of chi-square when the groups are small. These groups have about 300 patients each.",
+        "e": "The Pearson correlation coefficient (r) measures how strongly 2 measured variables move together in a straight line (First Aid, p. 264); it does not compare proportions."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Common statistical tests, p. 264"
+        },
+        {
+          "title": "Penn State STAT 500, Lesson 8 (chi-square tests)",
+          "url": "https://online.stat.psu.edu/stat500/lesson/8"
+        }
+      ]
+    },
+    {
+      "id": "biostats-attrition-bias-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biostatistics & Epidemiology",
+      "system": "General Principles",
+      "topic": "Study bias: attrition bias",
+      "difficulty": 2,
+      "stem": "A 12-month randomized trial compares a new weight-loss drug with placebo. Forty percent of patients in the drug group stop coming to visits because of nausea, compared with 10% in the placebo group. The final analysis includes only patients who finished the trial and reports a large benefit of the drug.",
+      "leadIn": "Which type of bias most likely threatens this conclusion?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Attrition bias"
+        },
+        {
+          "id": "b",
+          "text": "Recall bias"
+        },
+        {
+          "id": "c",
+          "text": "Lead-time bias"
+        },
+        {
+          "id": "d",
+          "text": "Hawthorne effect"
+        },
+        {
+          "id": "e",
+          "text": "Length-time bias"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: attrition bias. Why: First Aid (biostats, p. 260) lists attrition bias as a kind of selection bias in which people lost to follow-up have a different outcome than those who finish the study. The Catalogue of Bias (Attrition bias) agrees that it comes from unequal loss of participants from different study groups, and it suggests an intention-to-treat analysis, which keeps everyone in the group they were assigned to. Here many more patients dropped out of the drug group, and those who could not tolerate the drug were simply left out of the results.",
+      "whyWrong": {
+        "b": "Recall bias comes from people with a disease remembering past exposures differently (First Aid, p. 260); weight is measured, not remembered.",
+        "c": "Lead-time bias is when an earlier diagnosis by screening is confused with longer survival (First Aid, p. 261).",
+        "d": "The Hawthorne effect is a change in behavior because people know they are being studied (First Aid, p. 260); it would affect both groups and does not explain the unequal dropout.",
+        "e": "Length-time bias is when screening mostly finds slow, long-latency disease (First Aid, p. 261); this trial is not about screening."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Bias and study errors, p. 260"
+        },
+        {
+          "title": "Catalogue of Bias: Attrition bias",
+          "url": "https://catalogofbias.org/biases/attrition-bias/"
+        }
+      ]
+    },
+    {
+      "id": "genetics-x-linked-recessive-risk-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Genetics",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Inheritance: X-linked recessive recurrence risk",
+      "difficulty": 2,
+      "stem": "A 28-year-old woman comes for genetic counseling before pregnancy. Her father has hemophilia A. Her mother and her husband have no bleeding problems, and nobody else in either family is affected. The couple does not plan to learn the sex of the baby before birth.",
+      "leadIn": "What is the chance that their first child will have hemophilia A?",
+      "options": [
+        {
+          "id": "a",
+          "text": "25%"
+        },
+        {
+          "id": "b",
+          "text": "50%"
+        },
+        {
+          "id": "c",
+          "text": "0%"
+        },
+        {
+          "id": "d",
+          "text": "12.5%"
+        },
+        {
+          "id": "e",
+          "text": "100%"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: 25%. Why: Your El-Husseiny biochemistry notes (p. 70) explain that every daughter of an affected man and a noncarrier woman is a carrier, because she gets his only X chromosome. When a carrier woman has children with an unaffected man, on average half of her sons are affected and half of her daughters are carriers. If the baby's sex is not known, the son's 50% risk is multiplied by the 1/2 chance of a boy, giving 25%. MedlinePlus Genetics (Hemophilia) agrees that hemophilia A is X-linked recessive, that one altered copy is enough to cause it in males, and that fathers cannot pass X-linked traits to their sons.",
+      "whyWrong": {
+        "b": "50% is the risk for a son of a carrier mother (your notes, p. 70). Since the sex is unknown, it must be multiplied by 1/2.",
+        "c": "The woman must be a carrier, because she received the X chromosome with the variant from her affected father (your notes, p. 70), so the risk is not 0%.",
+        "d": "12.5% would apply if her chance of being a carrier were only 1/2. With an affected father she is an obligate carrier (your notes, p. 70).",
+        "e": "Daughters of a carrier mother and an unaffected father are usually unaffected carriers, so not every child is affected (your notes, p. 70)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), X-linked recessive inheritance, p. 70"
+        },
+        {
+          "title": "MedlinePlus Genetics: Hemophilia",
+          "url": "https://medlineplus.gov/genetics/condition/hemophilia/"
+        }
+      ]
+    },
+    {
+      "id": "genetics-manifesting-heterozygote-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Genetics",
+      "system": "Blood & Lymphoreticular",
+      "topic": "X-inactivation: manifesting heterozygote",
+      "difficulty": 3,
+      "stem": "A 19-year-old woman has had heavy menstrual periods since they began and bled for 2 days after a tooth extraction. Her father has hemophilia A. Her platelet count and PT are normal, her aPTT is mildly prolonged, and her factor VIII activity is 25% of normal. Her karyotype is 46,XX.",
+      "leadIn": "Which mechanism best explains why she has bleeding symptoms?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Most cells silenced her normal X"
+        },
+        {
+          "id": "b",
+          "text": "Loss of one X chromosome (45,X)"
+        },
+        {
+          "id": "c",
+          "text": "Gonadal mosaicism in her mother"
+        },
+        {
+          "id": "d",
+          "text": "Expansion of a trinucleotide repeat"
+        },
+        {
+          "id": "e",
+          "text": "Heteroplasmy of mitochondrial DNA"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: most of her cells silenced the X chromosome carrying the normal gene. Why: Your El-Husseiny biochemistry notes (p. 76) explain that X-inactivation is random, so a carrier woman sometimes has the normal X switched off in most of her cells by chance. She then shows the X-linked recessive disease and is called a manifesting heterozygote, usually with milder disease than an affected male. MedlinePlus Genetics (Hemophilia) agrees that when X-inactivation is skewed so the normal copy is silenced in more than half of cells, women with one altered copy can have lower factor VIII and are at risk of abnormal bleeding.",
+      "whyWrong": {
+        "b": "Loss of one X (Turner syndrome) would make an X-linked recessive disorder more likely (your notes, p. 70), but her karyotype is 46,XX.",
+        "c": "She inherited the variant from her affected father (your notes, p. 70); gonadal mosaicism in her mother is not needed to explain it (your notes, p. 84).",
+        "d": "Trinucleotide repeat expansion causes disorders such as Huntington disease and fragile X syndrome (your notes, p. 99), not hemophilia A.",
+        "e": "Heteroplasmy affects mitochondrial DNA, which is passed from the mother (your notes, p. 80); the factor VIII gene is on the X chromosome."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), X-linked recessive, p. 70; manifesting heterozygotes, p. 76; heteroplasmy, p. 80; mosaicism, p. 84; trinucleotide repeats, p. 99"
+        },
+        {
+          "title": "MedlinePlus Genetics: Hemophilia",
+          "url": "https://medlineplus.gov/genetics/condition/hemophilia/"
+        }
+      ]
+    },
+    {
+      "id": "genetics-incomplete-penetrance-calc-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Genetics",
+      "system": "Nervous System & Special Senses",
+      "topic": "Inheritance: incomplete penetrance calculation",
+      "difficulty": 2,
+      "stem": "A 30-year-old man had tumors removed from both eyes as an infant and was found to carry a germline loss-of-function variant in one copy of the RB1 gene. His wife has no history of eye tumors and does not carry the variant. They ask about the risk for their first child.",
+      "leadIn": "What is the chance that their child will develop retinoblastoma?",
+      "options": [
+        {
+          "id": "a",
+          "text": "45%"
+        },
+        {
+          "id": "b",
+          "text": "50%"
+        },
+        {
+          "id": "c",
+          "text": "90%"
+        },
+        {
+          "id": "d",
+          "text": "25%"
+        },
+        {
+          "id": "e",
+          "text": "100%"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: 45%. Why: Your El-Husseiny biochemistry notes (p. 77) describe incomplete penetrance, where some people with a disease-causing genotype show no disease at all. They use hereditary retinoblastoma as the example: it is autosomal dominant, and about 10% of people who inherit the RB1 variant never get a second hit in the normal copy, so penetrance is 90%. The risk of disease equals penetrance times the chance of inheriting the variant: 0.9 x 0.5 = 0.45, or 45%. MedlinePlus Genetics (What are reduced penetrance and variable expressivity?) agrees that with reduced penetrance some people who carry a disease-causing variant do not develop the condition.",
+      "whyWrong": {
+        "b": "50% is the chance of inheriting the variant from a heterozygous parent; it must be multiplied by the 90% penetrance (your notes, p. 77).",
+        "c": "90% is the risk only for a child who has already inherited the variant (your notes, p. 77). Each child has a 50% chance of inheriting it.",
+        "d": "25% would fit an autosomal recessive disorder with two carrier parents, not an autosomal dominant disorder with one heterozygous parent (your notes, p. 77).",
+        "e": "Not every child inherits the variant, and not every carrier develops a tumor (your notes, p. 77)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Incomplete penetrance, p. 77"
+        },
+        {
+          "title": "MedlinePlus Genetics: What are reduced penetrance and variable expressivity?",
+          "url": "https://medlineplus.gov/genetics/understanding/inheritance/penetranceexpressivity"
+        }
+      ]
+    },
+    {
+      "id": "genetics-variable-expressivity-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Genetics",
+      "system": "Multisystem",
+      "topic": "Inheritance: variable expressivity",
+      "difficulty": 1,
+      "stem": "A 40-year-old woman with neurofibromatosis type 1 has only a few light-brown skin patches and some freckling in her armpits. Her 14-year-old son has the same NF1 variant but has many light-brown skin patches and dozens of soft skin nodules on his trunk. Both have the disease, but its severity is very different.",
+      "leadIn": "Which genetic principle best explains this difference?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Variable expressivity"
+        },
+        {
+          "id": "b",
+          "text": "Incomplete penetrance"
+        },
+        {
+          "id": "c",
+          "text": "Locus heterogeneity"
+        },
+        {
+          "id": "d",
+          "text": "Uniparental disomy"
+        },
+        {
+          "id": "e",
+          "text": "Mitochondrial heteroplasmy"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: variable expressivity. Why: Your El-Husseiny biochemistry notes (p. 77) define variable expressivity as people with the same genotype having different phenotypes, and they use neurofibromatosis type 1 as the example: two people with NF1 can have very different disease severity. They also explain how this differs from incomplete penetrance, in which a person with the genotype shows no signs at all. MedlinePlus Genetics (What are reduced penetrance and variable expressivity?) agrees that variable expressivity means signs and symptoms differ among people with the same genetic variant. Here both mother and son are affected, just to different degrees.",
+      "whyWrong": {
+        "b": "Incomplete penetrance means some people with the genotype show no disease at all (your notes, p. 77). Both people here are affected.",
+        "c": "Locus heterogeneity means variants in different genes cause a similar disease (your notes, p. 80). Mother and son share the same variant.",
+        "d": "Uniparental disomy means both copies of a chromosome come from one parent (your notes, p. 83); it does not explain different severity of a shared dominant variant.",
+        "e": "Heteroplasmy is a mix of normal and mutant mitochondrial DNA (your notes, p. 80); NF1 is a nuclear gene."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Variable expressivity and incomplete penetrance, p. 77; locus heterogeneity and heteroplasmy, p. 80; uniparental disomy, p. 83"
+        },
+        {
+          "title": "MedlinePlus Genetics: What are reduced penetrance and variable expressivity?",
+          "url": "https://medlineplus.gov/genetics/understanding/inheritance/penetranceexpressivity"
+        }
+      ]
+    },
+    {
+      "id": "genetics-anticipation-myotonic-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Genetics",
+      "system": "Musculoskeletal",
+      "topic": "Trinucleotide repeats: anticipation in myotonic dystrophy",
+      "difficulty": 2,
+      "stem": "A 64-year-old man had cataracts removed at age 60 but has no other problems. His 38-year-old daughter has weakness in her hands and cannot quickly let go after a firm handshake. Her 15-year-old son already has clear muscle weakness and the same trouble releasing his grip. Genetic testing in the family shows the disease-causing repeat is longer in each generation.",
+      "leadIn": "Which genetic change most likely explains this family's disease?",
+      "options": [
+        {
+          "id": "a",
+          "text": "CTG repeat in the DMPK gene"
+        },
+        {
+          "id": "b",
+          "text": "CAG repeat in the huntingtin gene"
+        },
+        {
+          "id": "c",
+          "text": "CGG repeat in the FMR1 gene"
+        },
+        {
+          "id": "d",
+          "text": "GAA repeat in the frataxin gene"
+        },
+        {
+          "id": "e",
+          "text": "Deletion in the dystrophin gene"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: a CTG repeat in the DMPK gene (myotonic dystrophy type 1). Why: Your El-Husseiny biochemistry notes (pp. 96 and 99) explain that myotonic dystrophy type 1 is autosomal dominant and caused by a CTG trinucleotide repeat expansion in the DMPK gene. Features include cataracts, early balding and myotonia, which is trouble relaxing a muscle such as a grip. Trinucleotide repeat disorders can show anticipation: the disease gets more severe and starts earlier in each new generation (p. 99), and the repeat grows from generation to generation (p. 116). MedlinePlus Genetics (What do geneticists mean by anticipation?) agrees that anticipation is often caused by repeat expansions that get longer when passed on, and names myotonic dystrophy as an example.",
+      "whyWrong": {
+        "b": "A CAG repeat causes Huntington disease, which affects the caudate (your notes, p. 99); it does not cause cataracts and grip myotonia.",
+        "c": "A CGG repeat in FMR1 causes fragile X syndrome, with a protruding chin and enlarged testes (your notes, pp. 97 and 99), not cataracts and myotonia.",
+        "d": "A GAA repeat causes Friedreich ataxia, which is autosomal recessive (your notes, p. 99), so it would not pass straight down three generations.",
+        "e": "Dystrophin deletions cause Duchenne muscular dystrophy, which is X-linked recessive (your notes, p. 70), so an affected father would not pass it to his daughter as a disease; it also does not cause cataracts or grip myotonia (your notes, p. 96)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), X-linked recessive, p. 70; myotonic dystrophy type 1, p. 96; fragile X, p. 97; trinucleotide repeat disorders, p. 99; RFLP and anticipation, p. 116"
+        },
+        {
+          "title": "MedlinePlus Genetics: What do geneticists mean by anticipation?",
+          "url": "https://medlineplus.gov/genetics/understanding/inheritance/anticipation"
+        }
+      ]
+    },
+    {
+      "id": "genetics-locus-heterogeneity-oi-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Genetics",
+      "system": "Musculoskeletal",
+      "topic": "Inheritance: locus heterogeneity",
+      "difficulty": 2,
+      "stem": "Two unrelated newborns die shortly after birth from the severe perinatal form of osteogenesis imperfecta, with many fractures already present at delivery. Gene sequencing shows that the first infant has a variant in a type I collagen gene on chromosome 17, while the second infant has a variant in a type I collagen gene on chromosome 7.",
+      "leadIn": "Which genetic principle is best shown by these two infants?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Locus heterogeneity"
+        },
+        {
+          "id": "b",
+          "text": "Allelic heterogeneity"
+        },
+        {
+          "id": "c",
+          "text": "Variable expressivity"
+        },
+        {
+          "id": "d",
+          "text": "Gonadal mosaicism"
+        },
+        {
+          "id": "e",
+          "text": "Genetic anticipation"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: locus heterogeneity. Why: Your El-Husseiny biochemistry notes (p. 80) define locus heterogeneity as variants at different gene locations producing a similar phenotype. Their example is severe perinatal osteogenesis imperfecta (type 2): type I collagen is a triple helix, two of its three chains are made from a chromosome 17 gene, while the remaining chain is made from a chromosome 7 gene, and a variant in either gene causes faulty collagen and the same disease. MedlinePlus Genetics (Osteogenesis imperfecta) agrees that OI can be caused by variants in one of several genes and that COL1A1 and COL1A2 cause about 90% of cases.",
+      "whyWrong": {
+        "b": "Allelic heterogeneity means different variants in the same gene cause the same disease, as in β-thalassemia (your notes, p. 80). These infants have variants in two different genes.",
+        "c": "Variable expressivity means people with the same genotype have different severity (your notes, p. 77). These infants have different genotypes and the same severe disease.",
+        "d": "Gonadal mosaicism is a germline variant in a parent who looks unaffected (your notes, p. 84); it does not explain why two different genes cause the same disease.",
+        "e": "Anticipation is earlier onset and greater severity in later generations, usually from repeat expansions (your notes, p. 99)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Variable expressivity, p. 77; locus and allelic heterogeneity, p. 80; mosaicism, p. 84; anticipation, p. 99"
+        },
+        {
+          "title": "MedlinePlus Genetics: Osteogenesis imperfecta",
+          "url": "https://medlineplus.gov/genetics/condition/osteogenesis-imperfecta/"
+        }
+      ]
+    },
+    {
+      "id": "genetics-hardy-weinberg-carrier-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Genetics",
+      "system": "General Principles",
+      "topic": "Population genetics: Hardy-Weinberg carrier frequency",
+      "difficulty": 2,
+      "stem": "An autosomal recessive metabolic disease affects 1 in 40,000 newborns in a large population that mates at random. A couple from this population asks how common carriers are.",
+      "leadIn": "Assuming Hardy-Weinberg equilibrium, about what fraction of this population are carriers?",
+      "options": [
+        {
+          "id": "a",
+          "text": "1 in 100"
+        },
+        {
+          "id": "b",
+          "text": "1 in 200"
+        },
+        {
+          "id": "c",
+          "text": "1 in 400"
+        },
+        {
+          "id": "d",
+          "text": "1 in 20,000"
+        },
+        {
+          "id": "e",
+          "text": "1 in 40,000"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: 1 in 100. Why: Your El-Husseiny biochemistry notes (pp. 111-112) explain the Hardy-Weinberg equation, p^2 + 2pq + q^2 = 1. For an autosomal recessive disease, q^2 is the disease prevalence, q is the frequency of the disease allele, and 2pq is the carrier frequency. Because p is close to 1, the carrier frequency is about 2q. Here q^2 = 1/40,000, so q = 1/200, and 2q = 2/200 = 1/100. LibreTexts (Hardy-Weinberg equilibrium) agrees that 2pq is the frequency of heterozygotes and works the same kind of example, taking the square root of the affected fraction to find q. The equation assumes a large, randomly mating population with no mutation, selection or migration.",
+      "whyWrong": {
+        "b": "1 in 200 is q, the frequency of the disease allele, not the carrier frequency, which is about 2q (your notes, p. 112).",
+        "c": "1 in 400 comes from dividing q by 2 instead of multiplying it by 2 (your notes, p. 112).",
+        "d": "1 in 20,000 comes from doubling the disease prevalence without first taking the square root to find q (your notes, p. 112).",
+        "e": "1 in 40,000 is the disease prevalence (q^2), not the carrier frequency (your notes, p. 112)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Hardy-Weinberg population genetics, pp. 111-112"
+        },
+        {
+          "title": "LibreTexts Biology (Modern Genetics), 11.1: Hardy-Weinberg equilibrium",
+          "url": "https://bio.libretexts.org/Workbench/Modern_Genetics/11:_Population_genetics/11.01:_Hardy-Weinberg_equilibrium"
+        }
+      ]
+    },
+    {
+      "id": "genetics-gonadal-mosaicism-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Genetics",
+      "system": "Musculoskeletal",
+      "topic": "Mosaicism: gonadal (germline) mosaicism",
+      "difficulty": 2,
+      "stem": "A healthy couple of average height has three children. Two of them have the same autosomal dominant skeletal disorder, and both carry the identical heterozygous variant in the same gene. Testing of DNA from the blood of both parents does not find the variant, and paternity is confirmed. The third child is unaffected.",
+      "leadIn": "Which explanation for the two affected children is most likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Germline mosaicism in one parent"
+        },
+        {
+          "id": "b",
+          "text": "Incomplete penetrance in one parent"
+        },
+        {
+          "id": "c",
+          "text": "Uniparental disomy in both children"
+        },
+        {
+          "id": "d",
+          "text": "Autosomal recessive inheritance"
+        },
+        {
+          "id": "e",
+          "text": "Two separate new variants by chance"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: germline (gonadal) mosaicism in one parent. Why: Your El-Husseiny biochemistry notes (p. 84) explain that gonadal mosaicism affects the cells that make eggs or sperm, so the variant can be passed to children while the parent shows no disease. They advise thinking of it when neither the parents nor other relatives are affected, and they note that the chance of another affected child depends on how many gametes carry the variant. StatPearls (Genetics, Mosaicism) agrees that a parent can be clinically unaffected if the disease-causing variant is limited to germ cells. Here the variant is missing from both parents' blood, yet two children carry the same one.",
+      "whyWrong": {
+        "b": "A parent with incomplete penetrance would carry the variant in every cell, so the blood test would find it (your notes, p. 77).",
+        "c": "Uniparental disomy means both copies of a chromosome come from one parent (your notes, p. 83); it does not create a new dominant variant shared by two siblings.",
+        "d": "The children each have one altered copy and the disorder is dominant (your notes, p. 84), so two carrier parents are not needed, and neither parent carries it in blood.",
+        "e": "The identical variant appearing twice by chance in the same family is far less likely than one parent's germ cells carrying it (your notes, p. 84)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Incomplete penetrance, p. 77; uniparental disomy, p. 83; mosaicism, p. 84"
+        },
+        {
+          "title": "StatPearls: Genetics, Mosaicism",
+          "url": "https://www.statpearls.com/ArticleLibrary/viewarticle/22173"
+        }
+      ]
+    },
+    {
+      "id": "genetics-lynch-syndrome-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Genetics",
+      "system": "Gastrointestinal",
+      "topic": "Familial cancer: Lynch syndrome and mismatch repair",
+      "difficulty": 2,
+      "stem": "A 46-year-old woman is diagnosed with endometrial cancer. Her mother had colon cancer at age 48, and her maternal uncle had colon cancer at age 52. Colonoscopies in the family have not shown large numbers of polyps.",
+      "leadIn": "A germline defect in which DNA repair process is most likely in this family?",
+      "options": [
+        {
+          "id": "a",
+          "text": "DNA mismatch repair"
+        },
+        {
+          "id": "b",
+          "text": "Nucleotide excision repair"
+        },
+        {
+          "id": "c",
+          "text": "Base excision repair"
+        },
+        {
+          "id": "d",
+          "text": "Homologous recombination repair"
+        },
+        {
+          "id": "e",
+          "text": "Nonhomologous end joining"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: DNA mismatch repair (Lynch syndrome). Why: Your El-Husseiny biochemistry notes (pp. 20 and 22) explain that mismatch repair finds and removes wrongly paired nucleotides on the newly made DNA strand, and that Lynch syndrome, also called hereditary nonpolyposis colorectal cancer, is inherited in an autosomal dominant way and results from faulty mismatch repair. Variants in MSH2 and MLH1 cause about 90% of cases. MedlinePlus Genetics (Lynch syndrome) agrees that it is autosomal dominant, that it is caused by variants in MLH1, MSH2, MSH6, PMS2 or EPCAM, that cancer often appears in a person's 40s or 50s, and that it raises the risk of endometrial and ovarian cancer as well as colorectal cancer.",
+      "whyWrong": {
+        "b": "Defective nucleotide excision repair causes xeroderma pigmentosum, which prevents repair of UV-induced pyrimidine dimers (your notes, pp. 19 and 21).",
+        "c": "Base excision repair is a separate single-strand repair pathway (your notes, p. 19); it is not the defect behind Lynch syndrome.",
+        "d": "Homologous recombination repair of double-strand breaks is defective with BRCA1 variants in breast and ovarian cancer and in Fanconi anemia (your notes, p. 21), not in hereditary nonpolyposis colon cancer.",
+        "e": "Nonhomologous end joining joins broken DNA ends without a template and is defective in ataxia telangiectasia (your notes, p. 21), not Lynch syndrome."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), DNA repair, pp. 19-21; Lynch syndrome, p. 22"
+        },
+        {
+          "title": "MedlinePlus Genetics: Lynch syndrome",
+          "url": "https://medlineplus.gov/genetics/condition/lynch-syndrome"
+        }
+      ]
+    },
+    {
+      "id": "genetics-robertsonian-down-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Genetics",
+      "system": "Multisystem",
+      "topic": "Chromosomal disorders: Robertsonian translocation Down syndrome",
+      "difficulty": 3,
+      "stem": "A 3-month-old girl has features of Down syndrome. Her karyotype shows 46 chromosomes, with an extra long arm of chromosome 21 joined to one chromosome 14. Her 26-year-old mother is healthy, and her karyotype shows 45 chromosomes, with one chromosome 14 and one chromosome 21 fused into a single chromosome.",
+      "leadIn": "Compared with ordinary trisomy 21, this finding most changes which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Risk of Down syndrome in future pregnancies"
+        },
+        {
+          "id": "b",
+          "text": "Need for a screening echocardiogram in infancy"
+        },
+        {
+          "id": "c",
+          "text": "Expected degree of intellectual disability"
+        },
+        {
+          "id": "d",
+          "text": "Risk of early-onset Alzheimer disease"
+        },
+        {
+          "id": "e",
+          "text": "Need for thyroid function testing"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the risk of Down syndrome in future pregnancies. Why: Your El-Husseiny biochemistry notes (pp. 101 and 107) explain that unbalanced Robertsonian translocations cause 2-3% of Down syndrome cases: the child has a normal count of 46 chromosomes, yet one other chromosome carries an added chromosome 21 arm. In a Robertsonian translocation the long arms of two acrocentric chromosomes (13, 14, 15, 21 or 22) fuse, and the lost short arms hold no essential genes, so a balanced carrier like this mother is healthy. Her eggs can still pass on an unbalanced form, causing miscarriage or Down syndrome. MedlinePlus Genetics (Down syndrome) agrees that translocation Down syndrome can be inherited from an unaffected parent who carries a balanced rearrangement between chromosome 21 and another chromosome. Ordinary trisomy 21 usually comes from a new nondisjunction event (p. 101), so the recurrence risk differs.",
+      "whyWrong": {
+        "b": "Heart defects occur in about half of infants with Down syndrome (your notes, p. 101). This child still has extra chromosome 21 material, so heart screening is needed either way (standard teaching).",
+        "c": "Translocation and trisomy 21 both add extra chromosome 21 material (your notes, p. 101), so the expected features, including intellectual disability, are the same (standard teaching).",
+        "d": "Early-onset Alzheimer disease comes from the extra copy of the amyloid precursor protein gene on chromosome 21 (your notes, p. 101), which this child has just as in trisomy 21.",
+        "e": "Thyroid screening is part of routine Down syndrome care whatever the cause of the extra chromosome 21 material (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Down syndrome, p. 101; Robertsonian translocation, p. 107"
+        },
+        {
+          "title": "MedlinePlus Genetics: Down syndrome",
+          "url": "https://medlineplus.gov/genetics/condition/down-syndrome/"
+        }
+      ]
+    },
+    {
+      "id": "genetics-li-fraumeni-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Genetics",
+      "system": "Multisystem",
+      "topic": "Familial cancer: Li-Fraumeni syndrome",
+      "difficulty": 2,
+      "stem": "A 29-year-old woman is diagnosed with breast cancer. Her brother had osteosarcoma of the femur at age 15, and her mother died of a soft tissue sarcoma at age 38. A maternal cousin had an adrenal cortical carcinoma as a young child.",
+      "leadIn": "A germline variant in which gene is most likely in this family?",
+      "options": [
+        {
+          "id": "a",
+          "text": "TP53"
+        },
+        {
+          "id": "b",
+          "text": "BRCA1"
+        },
+        {
+          "id": "c",
+          "text": "APC"
+        },
+        {
+          "id": "d",
+          "text": "RB1"
+        },
+        {
+          "id": "e",
+          "text": "MLH1"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: TP53 (Li-Fraumeni syndrome). Why: Your El-Husseiny biochemistry notes (pp. 4, 78 and 86) list Li-Fraumeni syndrome as an autosomal dominant disease caused by loss of a tumor suppressor gene, which allows unchecked cell division. MedlinePlus Genetics (Li-Fraumeni syndrome) agrees that it is autosomal dominant and caused by TP53 variants, and that it raises the risk of breast cancer, osteosarcoma, soft tissue sarcomas, brain tumors, blood cancers and adrenocortical carcinoma, often at young ages. It also explains that nearly everyone who inherits one altered TP53 copy later loses the second copy in some cells. This family's mix of sarcomas, early breast cancer and a childhood adrenal cortical carcinoma fits TP53.",
+      "whyWrong": {
+        "b": "BRCA1 raises the risk of breast and ovarian cancer (your notes, pp. 21 and 77), but not osteosarcoma, soft tissue sarcoma or childhood adrenal cortical carcinoma.",
+        "c": "APC variants cause familial adenomatous polyposis, with hundreds of colon polyps (standard teaching), not sarcomas and adrenal tumors.",
+        "d": "Germline RB1 variants cause retinoblastoma (your notes, p. 77), and the cancers here are not eye tumors.",
+        "e": "MLH1 is a mismatch repair gene in Lynch syndrome (your notes, p. 22), which mainly causes colorectal and endometrial cancer."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Tumor suppressor genes, p. 4; DNA repair, p. 21; Lynch syndrome, p. 22; penetrance, p. 77; tumor suppressors, p. 78; Li-Fraumeni, p. 86"
+        },
+        {
+          "title": "MedlinePlus Genetics: Li-Fraumeni syndrome",
+          "url": "https://medlineplus.gov/genetics/condition/li-fraumeni-syndrome"
+        }
+      ]
+    },
+    {
+      "id": "genetics-x-linked-dominant-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Genetics",
+      "system": "Musculoskeletal",
+      "topic": "Inheritance: X-linked dominant (hypophosphatemic rickets)",
+      "difficulty": 2,
+      "stem": "A 30-year-old man has short stature and bowed legs from childhood rickets that did not improve with vitamin D. His serum phosphate is low, and genetic testing shows a PHEX variant causing X-linked hypophosphatemia. His wife is unaffected. They plan to have children.",
+      "leadIn": "Which pattern is expected among their children?",
+      "options": [
+        {
+          "id": "a",
+          "text": "All daughters and no sons affected"
+        },
+        {
+          "id": "b",
+          "text": "All sons and no daughters affected"
+        },
+        {
+          "id": "c",
+          "text": "Half of sons and half of daughters"
+        },
+        {
+          "id": "d",
+          "text": "Half of sons and no daughters affected"
+        },
+        {
+          "id": "e",
+          "text": "No children affected; daughters carry it"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: all daughters and no sons affected. Why: Your El-Husseiny biochemistry notes (p. 71) explain that in X-linked dominant inheritance one altered copy is enough, so women with one copy are affected, and there is no male-to-male transmission. An affected father passes his X to every daughter and his Y to every son, so all daughters and no sons are affected. They name hypophosphatemic rickets as an example. MedlinePlus Genetics (X-linked hypophosphatemia) agrees that PHEX variants cause it, that it causes low blood phosphate, bowed legs and short stature, and that fathers pass it to all of their daughters and none of their sons.",
+      "whyWrong": {
+        "b": "Sons get their father's Y chromosome, not his X, so a father cannot pass an X-linked disease to his sons (your notes, p. 71).",
+        "c": "Half of sons and half of daughters is the pattern when the mother is the affected parent (your notes, p. 71).",
+        "d": "That pattern fits a carrier mother with an X-linked recessive disease (your notes, p. 70), not an affected father with an X-linked dominant one.",
+        "e": "In X-linked dominant disease, one altered X is enough to cause disease, so daughters are affected, not silent carriers (your notes, p. 71)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), X-linked recessive, p. 70; X-linked dominant, p. 71"
+        },
+        {
+          "title": "MedlinePlus Genetics: X-linked hypophosphatemia",
+          "url": "https://medlineplus.gov/genetics/condition/hereditary-hypophosphatemic-rickets/"
+        }
+      ]
     }
   ]
 }
