@@ -29128,6 +29128,1060 @@
           "url": "https://www.statpearls.com/point-of-care/25404"
         }
       ]
+    },
+    {
+      "id": "histo-gap-junction-connexin-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "Cardiovascular",
+      "topic": "Cell junctions: gap junctions in heart muscle",
+      "difficulty": 2,
+      "stem": "A research team studies a mouse with a mutation in a membrane protein of heart muscle cells. Each mutant cardiac myocyte contracts normally when stimulated on its own. In the intact heart, however, the electrical impulse spreads slowly and unevenly from cell to cell, so the ventricles do not contract together. Electron microscopy shows that the cells are still firmly attached to one another.",
+      "leadIn": "The mutated protein most likely forms which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Gap junctions (connexins)"
+        },
+        {
+          "id": "b",
+          "text": "Tight junctions (claudins)"
+        },
+        {
+          "id": "c",
+          "text": "Adherens junctions (cadherins)"
+        },
+        {
+          "id": "d",
+          "text": "Hemidesmosomes"
+        },
+        {
+          "id": "e",
+          "text": "Desmosomes"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: gap junctions made of connexins. Why: your Osmosis physiology notes (p. 166) describe three main junction types. Gap junctions, found for example in the heart, are built from connexins. They form tube-like channels that join neighboring cells and let charged particles pass, so electrical signals spread quickly and heart muscle contracts in a coordinated way. Tight junctions seal neighboring cells near the apical surface and are made of claudins and occludins. Adherens junctions anchor cells together using cadherins linked to actin. StatPearls (Histology, Epithelial Cell) agrees that gap junctions are channels between cells that let ions and small molecules pass, while desmosomes are anchoring junctions and hemidesmosomes attach cells to the basal lamina. Here the cells stay attached (anchoring junctions are fine) but the impulse spreads poorly, which points to gap junctions.",
+      "whyWrong": {
+        "b": "Tight junctions seal the space between cells to block leaks of water and proteins (your Osmosis physiology notes, p. 166); they do not carry the impulse from cell to cell.",
+        "c": "Adherens junctions use cadherins to anchor cells together and give strength (your Osmosis physiology notes, p. 166); the cells here are still firmly attached.",
+        "d": "Hemidesmosomes attach the base of a cell to the basal lamina (StatPearls, Histology, Epithelial Cell), not one cell to the next.",
+        "e": "Desmosomes anchor cells tightly together (StatPearls, Histology, Epithelial Cell); the cells here are still firmly attached, so anchoring is not the problem."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Cell-cell junctions, p. 166"
+        },
+        {
+          "title": "StatPearls: Histology, Epithelial Cell",
+          "url": "https://www.statpearls.com/point-of-care/21260"
+        }
+      ]
+    },
+    {
+      "id": "histo-tight-junction-claudin-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "Gastrointestinal",
+      "topic": "Cell junctions: tight junctions seal the gaps between cells",
+      "difficulty": 2,
+      "stem": "In a cell culture experiment, intestinal epithelial cells grow as a single sheet on a porous filter. A small dye placed in the fluid above the cells does not reach the fluid below, even though the dye cannot enter the cells. After an antibody that blocks claudin proteins is added, the dye quickly leaks through the spaces between the cells.",
+      "leadIn": "The antibody most likely disrupted which structure?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tight junctions near the apical surface"
+        },
+        {
+          "id": "b",
+          "text": "Gap junctions between neighboring cells"
+        },
+        {
+          "id": "c",
+          "text": "Desmosomes along the lateral membranes"
+        },
+        {
+          "id": "d",
+          "text": "Hemidesmosomes at the basal lamina"
+        },
+        {
+          "id": "e",
+          "text": "Microvilli on the apical surface"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: tight junctions near the apical surface. Why: your Osmosis physiology notes (p. 166) explain that tight junctions, found for example in the gut and brain, seal the membranes of neighboring cells near the apical surface. They block the passage of water, small proteins, and bacteria between cells, and they are made of claudins and occludins in the cell membranes. In 'leaky' epithelia, such as the kidney's proximal tubule, tight junctions let certain ions pass through pores. Blocking claudins opens the space between the cells, so the dye leaks through. StatPearls (Histology, Epithelial Cell) agrees that tight junctions are occluding junctions that control the movement of fluid and solutes between cells.",
+      "whyWrong": {
+        "b": "Gap junctions are channels that let ions pass directly from one cell's cytoplasm into the next (your Osmosis physiology notes, p. 166); they do not seal the space between cells.",
+        "c": "Desmosomes anchor cells tightly to each other (StatPearls, Histology, Epithelial Cell), but the seal against leaks between cells is the tight junction.",
+        "d": "Hemidesmosomes attach the base of the cell to the basal lamina (StatPearls, Histology, Epithelial Cell).",
+        "e": "Microvilli add surface area, and actin helps support them (your Osmosis physiology notes, p. 177); they do not seal the space between cells."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Cell-cell junctions, p. 166; cytoskeleton, p. 177"
+        },
+        {
+          "title": "StatPearls: Histology, Epithelial Cell",
+          "url": "https://www.statpearls.com/point-of-care/21260"
+        }
+      ]
+    },
+    {
+      "id": "histo-apoptosis-intrinsic-cytochrome-c-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "General Principles",
+      "topic": "Cell death: the intrinsic (mitochondrial) pathway of apoptosis",
+      "difficulty": 2,
+      "stem": "In a lab study, lymphoma cells are exposed to radiation that badly damages their DNA. Within hours, the cells shrink, their chromatin condenses, and they break into small membrane-bound pieces that macrophages eat without any inflammation. Before these changes, a protein normally held between the inner and outer mitochondrial membranes appears in the cytoplasm.",
+      "leadIn": "Which of the following is the next key step in this pathway?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cytochrome c binds APAF-1 and activates caspase 9"
+        },
+        {
+          "id": "b",
+          "text": "Fas ligand binds the Fas receptor and activates caspase 8"
+        },
+        {
+          "id": "c",
+          "text": "ATP loss makes cells swell and then burst"
+        },
+        {
+          "id": "d",
+          "text": "Perforin pores let water rush into the cell"
+        },
+        {
+          "id": "e",
+          "text": "Lysosomes rupture and release enzymes"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: cytochrome c binds APAF-1 and activates caspase 9. Why: this is the intrinsic (mitochondrial) pathway of apoptosis. Your Osmosis physiology notes (p. 181) explain that stress such as radiation triggers proteins BAX and BAK to pierce the mitochondrial membrane, so cytochrome c leaks out. Cytochrome c joins with ATP and APAF-1 to form the apoptosome, which turns pro-caspase 9 into caspase 9. Caspase 9 then activates caspase 3, which cuts proteins of the nucleus, organelles, and cytoskeleton. The cell forms blebs that break off and are eaten. StatPearls (Apoptosis and Cell Death) agrees that DNA damage from radiation triggers the intrinsic pathway, that cytochrome c leaks into the cytosol and binds APAF-1 to activate caspase 9, that BCL-2 blocks cytochrome c release, and that apoptosis does not cause inflammation.",
+      "whyWrong": {
+        "b": "Fas ligand binding Fas starts the extrinsic (death receptor) pathway through caspase 8 (your Osmosis physiology notes, p. 183); the stem describes a mitochondrial protein leaking out.",
+        "c": "Loss of ATP with swelling and bursting is necrosis (oncosis), which triggers inflammation (your Osmosis physiology notes, p. 181).",
+        "d": "Perforin is made by cytotoxic T cells to make pores in target cells (StatPearls, Apoptosis and Cell Death); radiation alone does not supply it.",
+        "e": "The stem describes orderly apoptosis without inflammation; in necrosis, cells burst and inflammation follows (your Osmosis physiology notes, p. 181)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Necrosis and apoptosis, pp. 181-182"
+        },
+        {
+          "title": "StatPearls: Apoptosis and Cell Death: Signaling in Health and Diseases",
+          "url": "https://www.statpearls.com/point-of-care/17780"
+        }
+      ]
+    },
+    {
+      "id": "histo-apoptosis-extrinsic-fas-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "Immune System",
+      "topic": "Cell death: the extrinsic (death receptor) pathway",
+      "difficulty": 2,
+      "stem": "A virus-infected liver cell displays viral peptides on MHC class I. A CD8+ cytotoxic T cell recognizes the cell and expresses a ligand on its surface that binds a receptor on the infected cell. Within minutes, a signaling complex forms on the inner side of the infected cell's membrane, and the cell undergoes programmed cell death.",
+      "leadIn": "Which enzyme is the first caspase activated in the infected cell by this pathway?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Caspase 8"
+        },
+        {
+          "id": "b",
+          "text": "Caspase 9"
+        },
+        {
+          "id": "c",
+          "text": "Caspase 3"
+        },
+        {
+          "id": "d",
+          "text": "Caspase 1"
+        },
+        {
+          "id": "e",
+          "text": "Caspase 7"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: caspase 8. Why: this is the extrinsic (death receptor) pathway. Your Osmosis physiology notes (p. 183) explain that a cytotoxic T cell that sees foreign antigen on a cell expresses FAS ligand, which binds the FAS death receptor. The inside part of the receptor (the death domain) changes shape and gathers other proteins into a signaling complex (DISC). This complex turns pro-caspase 8 into caspase 8, which then activates caspase 3. Macrophages can start the same pathway with TNF-alpha binding TNF receptor 1. StatPearls (Apoptosis and Cell Death) agrees that T cells release Fas ligand that binds Fas, that the extrinsic pathway leads to activation of caspase 8, a key initiator, and that TNF-alpha binding TNFR1 also activates caspases.",
+      "whyWrong": {
+        "b": "Caspase 9 is the starting caspase of the intrinsic (mitochondrial) pathway, triggered by cytochrome c and APAF-1 (your Osmosis physiology notes, p. 181).",
+        "c": "Caspase 3 is the executioner caspase that both pathways activate later (your Osmosis physiology notes, pp. 181, 183); it is not the first one in the extrinsic pathway.",
+        "d": "Caspase 1 is linked to inflammation, not to the Fas death receptor pathway (standard teaching).",
+        "e": "Your notes name caspase 8 as the initiator and caspase 3 as the executioner in the death receptor pathway (your Osmosis physiology notes, p. 183); caspase 7 is not the first step."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Necrosis and apoptosis: extrinsic pathway, p. 183"
+        },
+        {
+          "title": "StatPearls: Apoptosis and Cell Death: Signaling in Health and Diseases",
+          "url": "https://www.statpearls.com/point-of-care/17780"
+        }
+      ]
+    },
+    {
+      "id": "histo-stratum-basale-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Skin histology: the stratum basale",
+      "difficulty": 1,
+      "stem": "A 35-year-old man has a split-thickness skin graft taken from his thigh after a burn. The surgeon explains that the donor site will heal on its own because the deepest layer of the epidermis, which sits on the basement membrane, is left behind in many places. That layer contains dividing cells that make new keratinocytes and also contains the pigment cells of the skin.",
+      "leadIn": "Which layer of the epidermis is being described?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Stratum basale"
+        },
+        {
+          "id": "b",
+          "text": "Stratum spinosum"
+        },
+        {
+          "id": "c",
+          "text": "Stratum granulosum"
+        },
+        {
+          "id": "d",
+          "text": "Stratum lucidum"
+        },
+        {
+          "id": "e",
+          "text": "Stratum corneum"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the stratum basale. Why: your Osmosis physiology notes (pp. 190-191) describe five layers of the epidermis from deep to surface. The stratum basale is the innermost layer, a single layer of dividing stem cells that make keratinocytes. It also holds melanocytes, which make melanin and pass it up to keratinocytes, where it scatters UVB light. Above it, the stratum spinosum has 8 to 10 layers of keratinocytes that no longer divide, the stratum granulosum has cells that are flattening and dying while forming the skin barrier, the stratum lucidum is found only in thick skin such as the palms and soles, and the stratum corneum is the top layer of dead cells that are shed. StatPearls (Anatomy, Skin, Epidermis) agrees that the stratum basale holds dividing stem cells that constantly make keratinocytes, contains melanocytes, and is attached to the basement membrane by hemidesmosomes.",
+      "whyWrong": {
+        "b": "The stratum spinosum is made of keratinocytes that can no longer divide (your Osmosis physiology notes, p. 190).",
+        "c": "In the stratum granulosum, keratinocytes are flattening and dying while forming the skin barrier (your Osmosis physiology notes, p. 190).",
+        "d": "The stratum lucidum is a thin layer of dead keratinocytes found only in thick skin such as the palms and soles (your Osmosis physiology notes, p. 190).",
+        "e": "The stratum corneum is the top layer of dead keratinocytes that are shed from the surface (your Osmosis physiology notes, p. 191)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Skin anatomy and physiology, pp. 190-191"
+        },
+        {
+          "title": "StatPearls: Anatomy, Skin (Integument), Epidermis",
+          "url": "https://www.statpearls.com/point-of-care/21212"
+        }
+      ]
+    },
+    {
+      "id": "histo-epidermal-dendritic-cells-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Skin histology: dendritic (Langerhans) cells of the epidermis",
+      "difficulty": 2,
+      "stem": "A dermatology researcher stains a skin biopsy for CD1a to find the antigen-presenting dendritic cells of the epidermis. The stained cells are scattered among keratinocytes that are joined to one another by many desmosomes, giving the cells a 'prickly' look. These keratinocytes no longer divide.",
+      "leadIn": "In which layer of the epidermis are these stained cells mainly found?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Stratum spinosum"
+        },
+        {
+          "id": "b",
+          "text": "Stratum basale"
+        },
+        {
+          "id": "c",
+          "text": "Stratum granulosum"
+        },
+        {
+          "id": "d",
+          "text": "Stratum lucidum"
+        },
+        {
+          "id": "e",
+          "text": "Stratum corneum"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the stratum spinosum. Why: your Osmosis physiology notes (p. 190) describe the stratum spinosum as the second layer of the epidermis, made of 8 to 10 layers of keratinocytes that can no longer divide. Proteins on these keratinocytes hold them together, and dendritic cells in this layer look for invading microbes. StatPearls (Anatomy, Skin, Epidermis) agrees that the stratum spinosum is also called the prickle cell layer, that its cells contact neighbors through desmosomes, and that special stains show Langerhans cells in this layer. Using CD1a as the stain is standard teaching.",
+      "whyWrong": {
+        "b": "The stratum basale holds the dividing stem cells and melanocytes (your Osmosis physiology notes, p. 190); the cells in the stem no longer divide.",
+        "c": "The stratum granulosum has diamond-shaped cells with keratohyalin and lamellar granules (StatPearls, Epidermis), not the prickly desmosome-joined cells described.",
+        "d": "The stratum lucidum is made of dead keratinocytes and is found only in thick skin such as the palms and soles (your Osmosis physiology notes, p. 190).",
+        "e": "The stratum corneum is made of 20 to 30 layers of dead keratinocytes (your Osmosis physiology notes, p. 191)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Skin anatomy and physiology, pp. 190-191"
+        },
+        {
+          "title": "StatPearls: Anatomy, Skin (Integument), Epidermis",
+          "url": "https://www.statpearls.com/point-of-care/21212"
+        }
+      ]
+    },
+    {
+      "id": "histo-sertoli-inhibin-fsh-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "Reproductive",
+      "topic": "Testis histology: Sertoli cells and inhibin",
+      "difficulty": 2,
+      "stem": "A 26-year-old man had chemotherapy for Hodgkin lymphoma 2 years ago. He and his partner have not been able to conceive. Semen analysis shows no sperm. His testes are small and soft. Serum testosterone and LH are normal, but FSH is markedly high, and inhibin B is very low.",
+      "leadIn": "Loss of which cell type best explains his high FSH?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sertoli cells of the seminiferous tubules"
+        },
+        {
+          "id": "b",
+          "text": "Leydig cells in the interstitium"
+        },
+        {
+          "id": "c",
+          "text": "Gonadotroph cells of the anterior pituitary"
+        },
+        {
+          "id": "d",
+          "text": "Smooth muscle cells of the epididymis"
+        },
+        {
+          "id": "e",
+          "text": "Epithelial cells of the seminal vesicles"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: Sertoli cells. Why: Your Osmosis physiology notes (pp. 577-578) explain that Sertoli cells stretch from the edge of the seminiferous tubule to its lumen, feed developing sperm, and form the blood-testis barrier. FSH acts on Sertoli cells to make androgen-binding protein, which brings testosterone to the germ cells. Sertoli cells also secrete inhibin, which gives negative feedback to the pituitary and lowers FSH. Leydig cells respond to LH and make testosterone, which feeds back to lower LH. Damage to the tubules lowers inhibin, so FSH rises, while Leydig cells are spared, so LH and testosterone stay normal. StatPearls (Physiology, Male Reproductive System) agrees that FSH drives Sertoli cells to support sperm production and release inhibin B, that inhibin is the negative feedback on FSH, and that Sertoli cells form the blood-testis barrier. StatPearls (Physiology, Follicle Stimulating Hormone) adds that FSH receptors are on Sertoli cells and that inhibin B from Sertoli cells inhibits FSH.",
+      "whyWrong": {
+        "b": "Leydig cells make testosterone under LH (your Osmosis physiology notes, p. 577); their loss would lower testosterone and raise LH, but both are normal.",
+        "c": "Loss of pituitary gonadotrophs would lower FSH and LH, not raise FSH (StatPearls, Follicle Stimulating Hormone).",
+        "d": "The epididymis stores and moves sperm (your Osmosis physiology notes, pp. 577-578); it does not control FSH.",
+        "e": "The seminal vesicles make fructose for sperm energy (StatPearls, Male Reproductive System); they do not give feedback on FSH."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Male reproductive system, pp. 576-578"
+        },
+        {
+          "title": "StatPearls: Physiology, Male Reproductive System",
+          "url": "https://www.statpearls.com/point-of-care/770"
+        },
+        {
+          "title": "StatPearls: Physiology, Follicle Stimulating Hormone",
+          "url": "https://www.statpearls.com/point-of-care/21867"
+        }
+      ]
+    },
+    {
+      "id": "histo-leydig-anabolic-steroids-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "Reproductive",
+      "topic": "Testis histology: Leydig cells and exogenous testosterone",
+      "difficulty": 2,
+      "stem": "A 29-year-old bodybuilder has injected testosterone and other anabolic steroids for 2 years. He now has breast enlargement and small, soft testes, and a semen analysis shows a very low sperm count. Serum LH and FSH are very low.",
+      "leadIn": "Which change in the testes best explains his small testes?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Low LH, so Leydig cells shut down and sperm output falls"
+        },
+        {
+          "id": "b",
+          "text": "Leydig cell tumor making too much estrogen"
+        },
+        {
+          "id": "c",
+          "text": "Autoimmune destruction of the seminiferous tubules by antibodies"
+        },
+        {
+          "id": "d",
+          "text": "Twisting of the spermatic cord with infarction"
+        },
+        {
+          "id": "e",
+          "text": "Blocked outflow of sperm in the vas deferens"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: inactive Leydig cells from low LH, with less spermatogenesis. Why: Your Osmosis physiology notes (pp. 577-578) explain that the pituitary releases LH and FSH under GnRH. LH binds Leydig cells to make testosterone, and testosterone gives negative feedback to the pituitary to lower LH. FSH acts on Sertoli cells to support spermatogenesis. Injected testosterone shuts down LH and FSH, so the Leydig cells and the seminiferous tubules lose their signals and the testes shrink. The MSD Manual (Anabolic Androgenic Steroids) agrees that outside testosterone and anabolic steroids lower gonadotropins, causing low sperm count, testicular atrophy, and subfertility, along with gynecomastia. It adds that stopping can restore sperm production, but recovery may take months to years. StatPearls (Physiology, Male Reproductive System) agrees that LH stimulates Leydig cells to make testosterone.",
+      "whyWrong": {
+        "b": "A Leydig cell tumor would not explain very low LH and FSH together with a history of steroid injections (MSD, Anabolic Androgenic Steroids).",
+        "c": "Nothing in the stem suggests autoimmune disease; his low LH and FSH point to suppression from outside hormones (MSD, Anabolic Androgenic Steroids).",
+        "d": "Torsion causes sudden, severe pain in one testis (standard teaching), not slow shrinking of both testes.",
+        "e": "Blocked outflow lowers sperm count but does not shrink the testes or lower LH and FSH (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Male reproductive system, pp. 577-578"
+        },
+        {
+          "title": "MSD Manual Professional: Anabolic Androgenic Steroids",
+          "url": "https://www.msdmanuals.com/professional/genitourinary-disorders/male-reproductive-endocrinology-and-related-disorders/anabolic-androgenic-steroids"
+        },
+        {
+          "title": "StatPearls: Physiology, Male Reproductive System",
+          "url": "https://www.statpearls.com/point-of-care/770"
+        }
+      ]
+    },
+    {
+      "id": "histo-theca-granulosa-aromatase-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "Reproductive",
+      "topic": "Ovarian histology: theca and granulosa cells make estradiol together",
+      "difficulty": 2,
+      "stem": "A 54-year-old woman with estrogen receptor-positive breast cancer is started on letrozole, which blocks aromatase. Her doctor explains that before menopause, most estradiol came from the ovarian follicles, where two cell types work together: one makes androgens from cholesterol and the other converts them to estradiol.",
+      "leadIn": "In the ovarian follicle, which cell type converts androgens into estradiol?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Granulosa cells"
+        },
+        {
+          "id": "b",
+          "text": "Theca cells"
+        },
+        {
+          "id": "c",
+          "text": "Oocytes"
+        },
+        {
+          "id": "d",
+          "text": "Corpus albicans cells"
+        },
+        {
+          "id": "e",
+          "text": "Ovarian surface epithelial cells"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: granulosa cells. Why: Your Osmosis physiology notes (p. 573) explain that theca cells take up cholesterol and convert it through pregnenolone and DHEA to androstenedione. The androstenedione then moves to the nearby granulosa cells, where it is converted to testosterone and then, by aromatase, to 17-beta-estradiol, the most active estrogen in the reproductive years. StatPearls (Physiology, Follicle Stimulating Hormone) agrees that FSH makes granulosa cells in ovarian follicles express aromatase, which converts androgens made by theca cells into estradiol. Aromatase inhibitors such as letrozole block this last step (standard teaching).",
+      "whyWrong": {
+        "b": "Theca cells make androstenedione from cholesterol, which then moves to the granulosa cells (your Osmosis physiology notes, p. 573).",
+        "c": "The oocyte is the egg cell, surrounded by granulosa cells in the follicle (your Osmosis physiology notes, p. 555); it does not make estradiol.",
+        "d": "The corpus albicans is the scar left after the corpus luteum breaks down and does not make hormones (standard teaching).",
+        "e": "Your notes list theca and granulosa cells as the follicle cells that make estrogen (your Osmosis physiology notes, p. 573); the surface epithelium does not."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Female reproductive system, p. 555; estrogen and progesterone, p. 573"
+        },
+        {
+          "title": "StatPearls: Physiology, Follicle Stimulating Hormone",
+          "url": "https://www.statpearls.com/point-of-care/21867"
+        }
+      ]
+    },
+    {
+      "id": "histo-hypertrophy-vs-hyperplasia-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "Cardiovascular",
+      "topic": "Cell adaptation: hypertrophy vs hyperplasia",
+      "difficulty": 2,
+      "stem": "A 63-year-old man with poorly controlled high blood pressure for 20 years dies of a stroke. At autopsy, the left ventricular wall is 19 mm thick (normal about 10 mm) with a normal-sized chamber. Under the microscope, the heart muscle cells are much larger than normal, with large, boxcar-shaped nuclei, but the number of muscle cells per area is not increased.",
+      "leadIn": "Which of the following best explains why the heart muscle grew this way?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Existing myocytes grew larger by adding myofilaments"
+        },
+        {
+          "id": "b",
+          "text": "Cardiac stem cells divided to add many new muscle cells"
+        },
+        {
+          "id": "c",
+          "text": "Fibroblasts turned into new contractile muscle cells"
+        },
+        {
+          "id": "d",
+          "text": "Fluid built up inside the cells from injury"
+        },
+        {
+          "id": "e",
+          "text": "Fat cells filled the spaces between muscle fibers"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the existing myocytes grew larger by adding myofilaments, because adult heart muscle cells cannot divide. Why: Your Osmosis physiology notes (p. 185) explain that cells adapt to stress in two ways. In hyperplasia, the number of cells goes up, but that requires tissue whose stem cells are able to divide and mature. In hypertrophy, the cells get bigger. In hypertension, for example, heart muscle cells make more myofilaments and grow larger. StatPearls (Left Ventricular Hypertrophy) agrees that long-standing hypertension causes concentric hypertrophy, with thicker walls from sarcomeres added in parallel, and that at the cell level the muscle cells grow larger and make more protein. That heart muscle cells do not divide in adults is standard teaching.",
+      "whyWrong": {
+        "b": "Hyperplasia needs stem cells that can divide (your Osmosis physiology notes, p. 185); the stem shows bigger cells, not more of them.",
+        "c": "Fibroblasts make scar tissue and do not become working heart muscle (standard teaching).",
+        "d": "Swelling from fluid entering injured cells is a sign of cell injury and necrosis (your Osmosis physiology notes, p. 181), not of adaptation to high blood pressure.",
+        "e": "Fat between the muscle fibers would not make the muscle cells themselves larger (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Hyperplasia and hypertrophy, p. 185; necrosis, p. 181"
+        },
+        {
+          "title": "StatPearls: Left Ventricular Hypertrophy",
+          "url": "https://www.statpearls.com/point-of-care/87825"
+        }
+      ]
+    },
+    {
+      "id": "embryo-third-pouch-ectopic-parathyroid-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Endocrine",
+      "topic": "Embryology: inferior parathyroids and the thymus share the third pouch",
+      "difficulty": 2,
+      "stem": "A 57-year-old woman has primary hyperparathyroidism with a serum calcium of 11.8 mg/dL. At neck surgery, the surgeon finds and removes only three normal-sized parathyroid glands, and her calcium stays high afterward. A sestamibi scan shows a small glowing mass in the anterior mediastinum, inside the thymus.",
+      "leadIn": "The missing gland most likely developed from which embryonic structure?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Third pharyngeal pouch"
+        },
+        {
+          "id": "b",
+          "text": "Fourth pharyngeal pouch"
+        },
+        {
+          "id": "c",
+          "text": "First pharyngeal pouch"
+        },
+        {
+          "id": "d",
+          "text": "Second pharyngeal arch"
+        },
+        {
+          "id": "e",
+          "text": "Thyroid diverticulum at the base of the tongue"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the third pharyngeal pouch. Why: Your Osmosis physiology notes (p. 251) explain that the third and fourth pharyngeal pouches each split into dorsal and ventral parts. The dorsal part of the third pouch becomes the inferior parathyroid gland, and the ventral part becomes the thymus, which later moves down into the chest. The dorsal part of the fourth pouch becomes the superior parathyroid gland. Because the inferior parathyroids start out with the thymus, they can be pulled down into the chest with it. StatPearls (Anatomy, Head and Neck, Parathyroid, Ectopic Glands) agrees that the lower parathyroid glands travel with the thymus from the third pouch, the upper glands come from the fourth pouch and travel a shorter distance, and the most common ectopic sites are the mediastinum, thymus, and thyroid. It adds that high calcium that persists after surgery is a clue to a missed ectopic gland.",
+      "whyWrong": {
+        "b": "The fourth pouch forms the superior parathyroid glands, which stay with the thyroid (your Osmosis physiology notes, p. 251; StatPearls, Ectopic Glands).",
+        "c": "The first pouch forms the middle ear cavity and eustachian tube (your Osmosis physiology notes, p. 251).",
+        "d": "The second arch forms the stapes, the styloid process, part of the hyoid, and muscles supplied by the facial nerve (your Osmosis physiology notes, p. 250).",
+        "e": "The thyroid develops from tissue at the base of the tongue, apart from the pharyngeal apparatus, and moves down the neck (your Osmosis physiology notes, p. 251); it does not form parathyroid glands."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Pharyngeal arches, pouches and clefts, pp. 250-251"
+        },
+        {
+          "title": "StatPearls: Anatomy, Head and Neck, Parathyroid, Ectopic Glands",
+          "url": "https://www.statpearls.com/point-of-care/20885"
+        }
+      ]
+    },
+    {
+      "id": "embryo-second-arch-derivatives-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Nervous System & Special Senses",
+      "topic": "Embryology: second pharyngeal arch derivatives",
+      "difficulty": 2,
+      "stem": "A newborn has a malformed, fixed stapes in the middle ear and a short, abnormal styloid process on the same side. Imaging also shows that the lesser horn of the hyoid bone on that side did not form normally.",
+      "leadIn": "Which muscle most likely shares its embryonic origin with these malformed structures?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Posterior belly of the digastric"
+        },
+        {
+          "id": "b",
+          "text": "Anterior belly of the digastric"
+        },
+        {
+          "id": "c",
+          "text": "Stylopharyngeus"
+        },
+        {
+          "id": "d",
+          "text": "Cricothyroid"
+        },
+        {
+          "id": "e",
+          "text": "Tensor tympani in the middle ear"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the posterior belly of the digastric. Why: the stapes, styloid process, and lesser horn of the hyoid all come from the second pharyngeal arch. Your Osmosis physiology notes (pp. 249-250) explain that each arch has its own cranial nerve. The second arch is supplied by the facial nerve (CN VII) and forms the stapes, the styloid process, and the lesser horn and upper part of the hyoid, along with the stylohyoid muscle, the posterior belly of the digastric, and the stapedius. StatPearls (Embryology, Branchial Arches) agrees that the second arch is supplied by the facial nerve and forms the stapes, part of the hyoid, and the muscles of facial expression. It adds that the first arch, supplied by the trigeminal nerve (V2 and V3), forms the mandible, malleus, incus, and the muscles of chewing.",
+      "whyWrong": {
+        "b": "The anterior belly of the digastric comes from the first arch, supplied by the mandibular nerve (V3) (your Osmosis physiology notes, p. 249).",
+        "c": "The stylopharyngeus comes from the third arch, supplied by the glossopharyngeal nerve (CN IX) (your Osmosis physiology notes, p. 250).",
+        "d": "The cricothyroid comes from the fourth arch, supplied by the superior laryngeal branch of the vagus (your Osmosis physiology notes, p. 250).",
+        "e": "The tensor tympani comes from the first arch, like the chewing muscles (your Osmosis physiology notes, p. 249; StatPearls, Branchial Arches)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Pharyngeal arches, pouches and clefts, pp. 249-250"
+        },
+        {
+          "title": "StatPearls: Embryology, Branchial Arches",
+          "url": "https://www.statpearls.com/point-of-care/36369"
+        }
+      ]
+    },
+    {
+      "id": "embryo-first-arch-nerve-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Nervous System & Special Senses",
+      "topic": "Embryology: first pharyngeal arch and its nerve",
+      "difficulty": 2,
+      "stem": "A newborn has a very small lower jaw and conductive hearing loss. CT shows malformed malleus and incus bones in both middle ears. The muscles of chewing are also underdeveloped.",
+      "leadIn": "These structures all develop from the pharyngeal arch supplied by which nerve?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mandibular branch of the trigeminal nerve (V3)"
+        },
+        {
+          "id": "b",
+          "text": "Facial nerve (CN VII)"
+        },
+        {
+          "id": "c",
+          "text": "Glossopharyngeal nerve (CN IX)"
+        },
+        {
+          "id": "d",
+          "text": "Superior laryngeal branch of the vagus nerve (CN X)"
+        },
+        {
+          "id": "e",
+          "text": "Recurrent laryngeal branch of the vagus"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the mandibular branch of the trigeminal nerve (V3). Why: Your Osmosis physiology notes (p. 249) explain that the first pharyngeal arch is supplied by the mandibular branch of the trigeminal nerve (V3). It forms the maxilla, mandible, and parts of the temporal and zygomatic bones, and two small pieces of it become the malleus and incus of the middle ear. Its muscles include the chewing muscles (temporalis, masseter, pterygoids) and the tensor tympani, tensor veli palatini, mylohyoid, and anterior belly of the digastric. StatPearls (Embryology, Branchial Arches) agrees that the first arch is supplied by V2 and V3 and forms the mandible, incus, malleus, and muscles of mastication.",
+      "whyWrong": {
+        "b": "The facial nerve supplies the second arch, which forms the stapes, the styloid process, and the stapedius (your Osmosis physiology notes, p. 250).",
+        "c": "The glossopharyngeal nerve supplies the third arch, which forms the stylopharyngeus and the rest of the hyoid (your Osmosis physiology notes, p. 250).",
+        "d": "The superior laryngeal branch of the vagus supplies the fourth arch, which forms the cricothyroid and pharyngeal constrictors (your Osmosis physiology notes, p. 250).",
+        "e": "The recurrent laryngeal branch of the vagus supplies the sixth arch, which forms most of the intrinsic muscles of the larynx (your Osmosis physiology notes, p. 250)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Pharyngeal arches, pouches and clefts, pp. 249-250"
+        },
+        {
+          "title": "StatPearls: Embryology, Branchial Arches",
+          "url": "https://www.statpearls.com/point-of-care/36369"
+        }
+      ]
+    },
+    {
+      "id": "anat-ovarian-suspensory-ligament-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Reproductive",
+      "topic": "Pelvic anatomy: the suspensory ligament carries the ovarian vessels",
+      "difficulty": 2,
+      "stem": "A 47-year-old woman is having her left ovary removed for a large benign cyst. To control the main blood supply to the ovary, the surgeon must clamp and tie the ligament that runs from the ovary up to the side wall of the pelvis.",
+      "leadIn": "Which ligament contains the vessels the surgeon must tie?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Suspensory ligament of the ovary"
+        },
+        {
+          "id": "b",
+          "text": "Proper ovarian ligament"
+        },
+        {
+          "id": "c",
+          "text": "Round ligament of the uterus"
+        },
+        {
+          "id": "d",
+          "text": "Cardinal (transverse cervical) ligament"
+        },
+        {
+          "id": "e",
+          "text": "Uterosacral ligament"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the suspensory ligament of the ovary. Why: Your Osmosis physiology notes (p. 555) explain that the ovaries are held in place by the ovarian, broad, and suspensory ligaments, and that the suspensory ligaments carry the ovarian artery, vein, and nerve plexus. StatPearls (Anatomy, Abdomen and Pelvis, Ovary) agrees that the suspensory (infundibulopelvic) ligament carries the ovarian artery and vein, while the proper ligament of the ovary is a remnant of the gubernaculum with no vessels. It also warns that the ureters lie close to the ovary and its ligaments, so a ureter can be clamped by mistake.",
+      "whyWrong": {
+        "b": "The proper ovarian ligament joins the ovary to the uterus and has no vessels (StatPearls, Ovary).",
+        "c": "The round ligament runs from the uterus to the inguinal canal and does not carry the ovarian artery (StatPearls, Ovary; standard teaching).",
+        "d": "The cardinal ligament carries the uterine vessels near the cervix (your El-Husseiny nephrology notes, p. 18), not the ovarian vessels.",
+        "e": "The uterosacral ligament supports the cervix from behind and does not carry the ovarian artery (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Female reproductive system, p. 555"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Nephrology (Emily's file), Ureter, p. 18"
+        },
+        {
+          "title": "StatPearls: Anatomy, Abdomen and Pelvis, Ovary",
+          "url": "https://www.statpearls.com/point-of-care/26459"
+        }
+      ]
+    },
+    {
+      "id": "anat-fallopian-ampulla-ectopic-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Reproductive",
+      "topic": "Pelvic anatomy: the ampulla of the fallopian tube",
+      "difficulty": 2,
+      "stem": "A 28-year-old woman with a history of pelvic inflammatory disease has 7 weeks of missed periods and lower abdominal pain. Her serum hCG is positive, and transvaginal ultrasound shows an empty uterus and a mass in the right fallopian tube. At laparoscopy, the pregnancy is in the long, wide part of the tube between the funnel-shaped end with fimbriae and the narrow part near the uterus.",
+      "leadIn": "Which part of the tube is described?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ampulla"
+        },
+        {
+          "id": "b",
+          "text": "Isthmus"
+        },
+        {
+          "id": "c",
+          "text": "Infundibulum"
+        },
+        {
+          "id": "d",
+          "text": "Intramural (interstitial) part"
+        },
+        {
+          "id": "e",
+          "text": "Fimbriae"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the ampulla. Why: Your Osmosis physiology notes (p. 555) trace the fallopian tube from the fimbriae around the ovary to the infundibulum, then the ampulla, where fertilization most often happens, then the isthmus, which opens into the uterus. The tube is lined with smooth muscle and cilia that sweep the zygote toward the uterus. StatPearls (Anatomy, Abdomen and Pelvis: Fallopian Tube) agrees that the ampulla lies lateral to the isthmus and is the most common site of both fertilization and ectopic pregnancy. It adds that tubal muscle, cilia, and secretions work together to move the egg. That the ampulla is the longest and widest part is standard teaching.",
+      "whyWrong": {
+        "b": "The isthmus is the narrow part that opens into the uterus (your Osmosis physiology notes, p. 555; StatPearls, Fallopian Tube).",
+        "c": "The infundibulum is the funnel-shaped end next to the fimbriae (your Osmosis physiology notes, p. 555).",
+        "d": "The intramural part runs through the wall of the uterus (standard teaching), not between the infundibulum and the isthmus.",
+        "e": "The fimbriae are the finger-like ends that surround the ovary (your Osmosis physiology notes, p. 555)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Female reproductive system, p. 555"
+        },
+        {
+          "title": "StatPearls: Anatomy, Abdomen and Pelvis: Fallopian Tube",
+          "url": "https://www.statpearls.com/point-of-care/21596"
+        }
+      ]
+    },
+    {
+      "id": "anat-tibial-nerve-tarsal-tunnel-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Musculoskeletal",
+      "topic": "Lower limb nerves: tibial nerve in the tarsal tunnel",
+      "difficulty": 2,
+      "stem": "A 44-year-old runner has had burning pain and numbness on the sole of her right foot for 3 months. Tapping just behind and below the medial malleolus brings on tingling in the sole. She can stand on her toes and turn her foot inward normally, but the small muscles of the foot are slightly weak.",
+      "leadIn": "Which nerve is most likely compressed?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tibial nerve"
+        },
+        {
+          "id": "b",
+          "text": "Deep fibular (peroneal) nerve"
+        },
+        {
+          "id": "c",
+          "text": "Superficial fibular (peroneal) nerve"
+        },
+        {
+          "id": "d",
+          "text": "Sural nerve"
+        },
+        {
+          "id": "e",
+          "text": "Saphenous nerve"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the tibial nerve under the flexor retinaculum (tarsal tunnel syndrome). Why: Your El-Husseiny musculoskeletal notes (p. 52) explain that the tibial nerve (L4 to S3) supplies the calf muscles for plantar flexion, the long toe flexors, and tibialis posterior for inversion. It then splits into the medial and lateral plantar nerves, which carry feeling from the sole. A distal injury in the tarsal tunnel causes sensory loss on the sole and weak small foot muscles, but plantar flexion and inversion stay normal because those branches leave the nerve higher up. StatPearls (Tarsal Tunnel Syndrome) agrees that the tarsal tunnel lies behind and below the medial malleolus under the flexor retinaculum and holds the posterior tibial nerve, the posterior tibial vessels, and the tendons of tibialis posterior, flexor digitorum longus, and flexor hallucis longus. It describes numbness, tingling, and burning in the sole, and a positive Tinel sign over the tunnel.",
+      "whyWrong": {
+        "b": "The deep fibular nerve supplies the front of the leg for dorsiflexion and feels the skin between the first two toes (standard teaching), not the sole.",
+        "c": "The superficial fibular nerve supplies eversion and the skin of the top of the foot (standard teaching), not the sole.",
+        "d": "The sural nerve feels the outer side of the foot and has no muscle branches (standard teaching).",
+        "e": "The saphenous nerve feels the inner side of the leg and foot (standard teaching), not the sole."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Tibial nerve, p. 52"
+        },
+        {
+          "title": "StatPearls: Tarsal Tunnel Syndrome",
+          "url": "https://www.statpearls.com/point-of-care/29876"
+        }
+      ]
+    },
+    {
+      "id": "phys-cardiac-calcium-induced-calcium-release-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Cardiovascular",
+      "topic": "Cardiac muscle: calcium-induced calcium release",
+      "difficulty": 2,
+      "stem": "In an experiment, isolated ventricular muscle cells and isolated skeletal muscle fibers are each placed in a bath with no calcium and then stimulated electrically. The skeletal muscle fibers still contract strongly. The ventricular cells show normal action potentials but contract very weakly.",
+      "leadIn": "Which of the following best explains the ventricular cells' weak contraction?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Calcium entry via L-type channels is needed to trigger SR calcium release"
+        },
+        {
+          "id": "b",
+          "text": "Troponin C in heart muscle cannot bind calcium"
+        },
+        {
+          "id": "c",
+          "text": "Cardiac sarcoplasmic reticulum stores no calcium"
+        },
+        {
+          "id": "d",
+          "text": "Heart muscle depends on calcium-calmodulin binding to myosin light chains"
+        },
+        {
+          "id": "e",
+          "text": "Skeletal muscle has gap junctions that heart muscle lacks"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: calcium entry through L-type channels is needed to trigger calcium release from the sarcoplasmic reticulum (SR). Why: Your Osmosis physiology notes (p. 125) explain that during the plateau of the cardiac action potential, calcium enters through L-type voltage-gated channels. This calcium triggers release of much more calcium from the SR through ryanodine receptors, which is called calcium-induced calcium release. The released calcium binds troponin C, tropomyosin moves, and actin-myosin cross-bridges form, and tension is proportional to the calcium level inside the cell. StatPearls (Physiology, Ryanodine Receptor) agrees that in heart muscle, calcium entering through the dihydropyridine receptor opens type 2 ryanodine receptors by calcium-induced calcium release, so the heart depends on calcium outside the cell. In skeletal muscle, the dihydropyridine receptor opens type 1 ryanodine receptors through a direct protein-to-protein link.",
+      "whyWrong": {
+        "b": "In heart muscle, calcium does bind troponin C to start contraction (your Osmosis physiology notes, p. 125).",
+        "c": "The cardiac SR stores calcium, held by calsequestrin, and releases it through ryanodine receptors (your Osmosis physiology notes, p. 125).",
+        "d": "Heart muscle uses calcium binding to troponin C (your Osmosis physiology notes, p. 125); calcium-calmodulin acting on myosin light chains is how smooth muscle works (standard teaching).",
+        "e": "Gap junctions are typical of heart muscle, where they coordinate contraction (your Osmosis physiology notes, p. 166); they do not explain the need for outside calcium."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Cardiac excitation-contraction coupling, p. 125; cell-cell junctions, p. 166"
+        },
+        {
+          "title": "StatPearls: Physiology, Ryanodine Receptor",
+          "url": "https://www.statpearls.com/point-of-care/28676"
+        }
+      ]
+    },
+    {
+      "id": "phys-aldosterone-principal-cells-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Renal & Urinary",
+      "topic": "Renal physiology: aldosterone acts on principal cells",
+      "difficulty": 2,
+      "stem": "A 45-year-old woman has high blood pressure, muscle weakness, and a serum potassium of 2.9 mEq/L with metabolic alkalosis. Her plasma aldosterone is high and plasma renin activity is low. CT shows a 1.5-cm left adrenal adenoma.",
+      "leadIn": "Her low potassium comes mainly from the hormone's action on which cells?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Principal cells of the collecting duct"
+        },
+        {
+          "id": "b",
+          "text": "Proximal tubule cells with a brush border"
+        },
+        {
+          "id": "c",
+          "text": "Thick ascending limb cells in the loop of Henle"
+        },
+        {
+          "id": "d",
+          "text": "Macula densa cells of the early distal tubule"
+        },
+        {
+          "id": "e",
+          "text": "Juxtaglomerular cells of the afferent arteriole"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: principal cells of the late distal tubule and collecting duct. Why: Your Osmosis physiology notes (p. 537) explain that the late distal tubule and collecting duct contain principal cells and alpha-intercalated cells. Principal cells have sodium channels (ENaC) that bring sodium in from the lumen, potassium pumps that move potassium out into the lumen, and Na+/K+ ATPases, and aldosterone increases the making of these pumps. Alpha-intercalated cells secrete H+. Your El-Husseiny endocrinology notes (p. 52) explain that aldosterone's main effect is to absorb sodium and excrete potassium and hydrogen ions in the distal tubule, so too much aldosterone causes sodium retention, high blood pressure, low potassium, and metabolic alkalosis, with very low renin. The MSD Manual (Primary Aldosteronism) agrees that aldosterone moves sodium from the lumen of the distal tubule into the cells in exchange for potassium and hydrogen, and that primary aldosteronism causes hypertension, low potassium with alkalosis, low renin, and episodes of weakness.",
+      "whyWrong": {
+        "b": "Proximal tubule cells reabsorb most filtered sodium (standard teaching), but aldosterone's potassium-wasting effect is in the distal nephron (MSD, Primary Aldosteronism).",
+        "c": "The thick ascending limb reabsorbs sodium through the Na-K-2Cl cotransporter, the target of loop diuretics (standard teaching), not aldosterone's main site.",
+        "d": "The early distal tubule moves sodium with the Na-Cl cotransporter (your Osmosis physiology notes, p. 537); aldosterone acts on the principal cells of the late distal tubule.",
+        "e": "Juxtaglomerular cells release renin (standard teaching); her renin is low."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Distal convoluted tubule, p. 537"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Endocrinology (Emily's file), Primary hyperaldosteronism, p. 52"
+        },
+        {
+          "title": "MSD Manual Professional: Primary Aldosteronism",
+          "url": "https://www.msdmanuals.com/professional/endocrine-and-metabolic-disorders/adrenal-disorders/primary-aldosteronism"
+        }
+      ]
+    },
+    {
+      "id": "phys-pth-distal-tubule-calcium-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Renal & Urinary",
+      "topic": "Renal physiology: PTH and calcium reabsorption",
+      "difficulty": 2,
+      "stem": "In a physiology experiment, a healthy volunteer receives an infusion of parathyroid hormone (PTH). Over the next hours, urinary calcium excretion falls, urinary phosphate excretion rises, and serum calcium rises slightly.",
+      "leadIn": "PTH lowered urinary calcium mainly by acting on which part of the nephron?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Distal convoluted tubule"
+        },
+        {
+          "id": "b",
+          "text": "Proximal convoluted tubule"
+        },
+        {
+          "id": "c",
+          "text": "Thin descending limb of the loop of Henle"
+        },
+        {
+          "id": "d",
+          "text": "Medullary collecting duct"
+        },
+        {
+          "id": "e",
+          "text": "Glomerulus"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the distal convoluted tubule. Why: Your Osmosis physiology notes (p. 537) explain that in the early distal convoluted tubule, calcium crosses the cells through channels and leaves through a sodium-calcium exchanger on the basolateral side, and that PTH controls this calcium reabsorption by adding more of these channels. StatPearls (Physiology, Parathyroid Hormone) agrees that PTH targets the distal convoluted tubule to increase calcium reabsorption, lowers phosphate reabsorption in the proximal convoluted tubule, and turns on 1-alpha-hydroxylase in the proximal tubule. That explains both the lower urine calcium and the higher urine phosphate.",
+      "whyWrong": {
+        "b": "PTH acts on the proximal tubule to lower phosphate reabsorption and make active vitamin D (StatPearls, Parathyroid Hormone), not to save calcium.",
+        "c": "The thin descending limb mainly reabsorbs water (standard teaching) and is not a PTH target.",
+        "d": "The collecting duct is where ADH acts on principal cells to add aquaporins (your Osmosis physiology notes, p. 552), not where PTH saves calcium.",
+        "e": "PTH does not act on the glomerulus to change calcium filtration (StatPearls, Parathyroid Hormone)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Distal convoluted tubule, p. 537; antidiuretic hormone, p. 552"
+        },
+        {
+          "title": "StatPearls: Physiology, Parathyroid Hormone",
+          "url": "https://www.statpearls.com/point-of-care/26662"
+        }
+      ]
+    },
+    {
+      "id": "phys-cryptorchidism-temperature-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Reproductive",
+      "topic": "Male reproductive physiology: why the testes sit in the scrotum",
+      "difficulty": 2,
+      "stem": "A 24-year-old man is evaluated for infertility. As a child, his right testis was found in the inguinal canal and was not moved into the scrotum until he was 11 years old. His left testis was normal. Semen analysis shows a low sperm count. Serum testosterone is normal.",
+      "leadIn": "Damage to sperm production in an undescended testis is mainly due to which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Higher temperature outside the scrotum"
+        },
+        {
+          "id": "b",
+          "text": "Lack of LH reaching the testicular Leydig cells"
+        },
+        {
+          "id": "c",
+          "text": "Too little FSH from the pituitary"
+        },
+        {
+          "id": "d",
+          "text": "Absence of Sertoli cells from birth"
+        },
+        {
+          "id": "e",
+          "text": "Antibodies against sperm"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: higher temperature outside the scrotum. Why: Your Osmosis physiology notes (p. 576) explain that the testes make sperm in the seminiferous tubules and testosterone in Leydig cells, that they move down into the scrotum from the abdomen around the seventh month of pregnancy, and that the scrotum gives the cooler environment that spermatogenesis needs. The MSD Manual (Cryptorchidism) agrees that undescended testes can lower fertility and are linked to testicular cancer, and that surgery at about 6 months of age in term infants improves fertility potential and may lower cancer risk. His normal testosterone fits Leydig cells, which keep working at body temperature (standard teaching).",
+      "whyWrong": {
+        "b": "LH reaches both testes through the blood (your Osmosis physiology notes, p. 577); his normal testosterone shows that the Leydig cells are getting LH.",
+        "c": "FSH comes from the pituitary and reaches both testes (your Osmosis physiology notes, p. 577); his pituitary is not the problem.",
+        "d": "Nothing suggests he was born without Sertoli cells; the damage comes from the testis being outside the scrotum (MSD, Cryptorchidism).",
+        "e": "Antisperm antibodies are not the main reason an undescended testis makes fewer sperm (MSD, Cryptorchidism)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Male reproductive system, pp. 576-577"
+        },
+        {
+          "title": "MSD Manual Professional: Cryptorchidism",
+          "url": "https://www.msdmanuals.com/professional/pediatrics/congenital-renal-and-genitourinary-anomalies/cryptorchidism"
+        }
+      ]
     }
   ]
 }
