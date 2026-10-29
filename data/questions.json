@@ -32311,6 +32311,1053 @@
           "url": "https://medlineplus.gov/genetics/condition/hereditary-hypophosphatemic-rickets/"
         }
       ]
+    },
+    {
+      "id": "neuro-hemiballismus-subthalamic-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Nervous System & Special Senses",
+      "topic": "Basal ganglia: hemiballismus",
+      "difficulty": 2,
+      "stem": "A 71-year-old man with long-standing hypertension suddenly develops wild, flinging movements of his left arm and left leg. The movements are large and involuntary and stop only during sleep. He has no weakness or sensory loss.",
+      "leadIn": "A small infarct in which structure most likely explains these movements?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Right subthalamic nucleus"
+        },
+        {
+          "id": "b",
+          "text": "Left subthalamic nucleus"
+        },
+        {
+          "id": "c",
+          "text": "Right caudate nucleus"
+        },
+        {
+          "id": "d",
+          "text": "Right substantia nigra pars compacta"
+        },
+        {
+          "id": "e",
+          "text": "Right cerebellar hemisphere"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the right subthalamic nucleus. Why: Your El-Husseiny neurology notes (pp. 103 and 106) explain that damage to the subthalamic nucleus, which helps control basal ganglia output through the indirect pathway, causes hemiballismus: wild, flinging movements of the limbs on the opposite side. The most common cause is a lacunar stroke in a patient with long-standing hypertension. StatPearls (Neuroanatomy, Subthalamic Nucleus) agrees that damage to the subthalamic nucleus can cause ballistic flailing of a limb on the side opposite the lesion, and that stroke is the most common cause. Left-sided movements point to the right subthalamic nucleus.",
+      "whyWrong": {
+        "b": "The movements appear on the side opposite the lesion (your notes, p. 106), so left-sided flinging points to the right subthalamic nucleus.",
+        "c": "Loss of neurons in the caudate causes the chorea of Huntington disease (your notes, p. 102), which develops slowly rather than suddenly on one side.",
+        "d": "Loss of dopamine neurons in the substantia nigra causes Parkinson disease (your notes, p. 101), with slow movement and tremor rather than flinging.",
+        "e": "A cerebellar hemisphere lesion causes ataxia, intention tremor and dysmetria on the same side (your notes, p. 95), not flinging movements."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Parkinson disease, p. 101; Huntington disease, p. 102; hemiballismus, p. 103; subthalamus, p. 106; cerebellar lesions, p. 95"
+        },
+        {
+          "title": "StatPearls: Neuroanatomy, Subthalamic Nucleus",
+          "url": "https://www.statpearls.com/point-of-care/29646"
+        }
+      ]
+    },
+    {
+      "id": "neuro-korsakoff-mammillary-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Behavioral Health",
+      "topic": "Limbic system: Korsakoff syndrome and the mammillary bodies",
+      "difficulty": 2,
+      "stem": "A 54-year-old man with long-standing heavy alcohol use is brought in by his sister. For the past year he has been unable to remember new information for more than a few minutes and cannot recall many events from before that. When asked what he did yesterday, he confidently describes a fishing trip that never happened. He seems unaware that anything is wrong.",
+      "leadIn": "Damage to which brain structure most likely explains his memory problems?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mammillary bodies"
+        },
+        {
+          "id": "b",
+          "text": "Amygdala"
+        },
+        {
+          "id": "c",
+          "text": "Caudate nucleus"
+        },
+        {
+          "id": "d",
+          "text": "Cerebellar vermis"
+        },
+        {
+          "id": "e",
+          "text": "Subthalamic nucleus"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the mammillary bodies. Why: Your El-Husseiny neurology notes (pp. 132-134) explain that Korsakoff syndrome is seen mainly in people with alcohol use disorder who are thiamine deficient. The mammillary bodies, part of the Papez circuit for memory and emotion, are the structures most often damaged. Korsakoff syndrome causes anterograde and retrograde amnesia, confabulation (filling memory gaps with invented stories the patient believes) and lack of insight, and the memory loss is permanent. Neuropathology (Chapter 8, Wernicke-Korsakoff syndrome) agrees that the syndrome is caused by thiamine deficiency, is most common in alcoholics, always involves the mammillary bodies, and causes anterograde and retrograde amnesia.",
+      "whyWrong": {
+        "b": "Bilateral amygdala damage causes Klüver-Bucy syndrome, with disinhibited behavior such as hyperorality and hypersexuality (your notes, pp. 133-134), not confabulation.",
+        "c": "Caudate atrophy is the hallmark of Huntington disease (your notes, p. 102), which causes chorea and dementia without this pattern of confabulation.",
+        "d": "Damage to the cerebellar vermis causes truncal ataxia with a wide-based, unsteady gait (your notes, p. 96), not memory loss.",
+        "e": "Damage to the subthalamic nucleus causes hemiballismus (your notes, p. 106), not amnesia."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Huntington disease, p. 102; vermis lesions, p. 96; subthalamus, p. 106; limbic system and Korsakoff syndrome, pp. 132-134"
+        },
+        {
+          "title": "Neuropathology (neuropathology-web.org), Chapter 8: Nutritional disorders (Wernicke-Korsakoff syndrome; alcoholic cerebellar degeneration)",
+          "url": "https://neuropathology-web.org/chapter8/chapter8Nutritional.html"
+        }
+      ]
+    },
+    {
+      "id": "neuro-kluver-bucy-amygdala-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Behavioral Health",
+      "topic": "Limbic system: Klüver-Bucy syndrome",
+      "difficulty": 3,
+      "stem": "A 9-year-old boy recovers from herpes simplex encephalitis that affected both temporal lobes. Over the following months his parents report that he puts nonfood objects in his mouth, eats far more than before, behaves in sexually inappropriate ways, and shows no fear of things that used to scare him.",
+      "leadIn": "Bilateral damage to which structure best explains this behavior?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Amygdala"
+        },
+        {
+          "id": "b",
+          "text": "Mammillary bodies"
+        },
+        {
+          "id": "c",
+          "text": "Hippocampus"
+        },
+        {
+          "id": "d",
+          "text": "Ventromedial hypothalamus"
+        },
+        {
+          "id": "e",
+          "text": "Subthalamic nucleus"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the amygdala. Why: Your El-Husseiny neurology notes (pp. 132-134) explain that the amygdala gives emotional meaning to stimuli, and that bilateral amygdala damage causes Klüver-Bucy syndrome, with disinhibited behavior such as hyperphagia, hypersexuality and hyperorality. StatPearls (Kluver-Bucy Syndrome) agrees that it is caused by lesions of both temporal lobes, especially the hippocampus and amygdala, that herpes simplex encephalitis is a frequent cause in children, and that its features include hyperorality, hypersexuality and placidity.",
+      "whyWrong": {
+        "b": "Mammillary body damage from thiamine deficiency causes Korsakoff syndrome with amnesia and confabulation (your notes, pp. 132-134), not hyperorality.",
+        "c": "Bilateral hippocampal damage mainly causes anterograde amnesia, the inability to form new memories (your notes, pp. 132 and 134).",
+        "d": "A ventromedial hypothalamus lesion causes overeating and obesity (your notes, p. 106), but not hyperorality, hypersexuality or loss of fear.",
+        "e": "Subthalamic nucleus damage causes hemiballismus, a movement disorder (your notes, p. 106)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Hypothalamic nuclei and subthalamus, p. 106; limbic system, amygdala and Klüver-Bucy syndrome, pp. 132-134"
+        },
+        {
+          "title": "StatPearls: Kluver-Bucy Syndrome",
+          "url": "https://www.statpearls.com/point-of-care/23911"
+        }
+      ]
+    },
+    {
+      "id": "neuro-vermis-truncal-ataxia-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Nervous System & Special Senses",
+      "topic": "Cerebellum: vermis lesion and truncal ataxia",
+      "difficulty": 2,
+      "stem": "A 58-year-old man who has drunk heavily for 30 years has had a slowly worsening, wide-based, unsteady gait. He sways and nearly falls when standing with his feet together, with his eyes either open or closed. Finger-to-nose and rapid alternating hand movements are nearly normal, and vibration and position sense in his feet are intact.",
+      "leadIn": "Damage to which structure most likely explains his findings?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cerebellar vermis"
+        },
+        {
+          "id": "b",
+          "text": "Lateral cerebellar hemisphere"
+        },
+        {
+          "id": "c",
+          "text": "Dorsal columns of the spinal cord"
+        },
+        {
+          "id": "d",
+          "text": "Mammillary bodies"
+        },
+        {
+          "id": "e",
+          "text": "Subthalamic nucleus"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the cerebellar vermis. Why: Your El-Husseiny neurology notes (pp. 92 and 96) explain that the midline vermis controls the axial (trunk) and proximal limb muscles, so a vermis lesion causes truncal ataxia with a wide-based, unsteady gait. They add that a cerebellar patient sways with the eyes open or closed, while a dorsal column patient sways only with the eyes closed (a positive Romberg sign). Neuropathology (Chapter 8, alcoholic cerebellar degeneration) agrees that in alcoholic cerebellar degeneration the lesions are usually limited to the superior vermis and cause ataxia of stance and gait, with the arms relatively spared.",
+      "whyWrong": {
+        "b": "A lateral hemisphere lesion causes limb problems such as intention tremor, dysmetria and dysdiadochokinesia on the same side (your notes, p. 95), but his hand movements are nearly normal.",
+        "c": "With a dorsal column lesion, a patient sways only when the eyes are closed (your notes, p. 96), and vibration and position sense would be lost.",
+        "d": "Mammillary body damage from thiamine deficiency causes Korsakoff amnesia (your notes, pp. 132-134), not an isolated gait disorder.",
+        "e": "Subthalamic nucleus damage causes one-sided flinging movements (hemiballismus) (your notes, p. 106)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Cerebellum, pp. 92 and 95-96; subthalamus, p. 106; Korsakoff syndrome, pp. 132-134"
+        },
+        {
+          "title": "Neuropathology (neuropathology-web.org), Chapter 8: Nutritional disorders (Wernicke-Korsakoff syndrome; alcoholic cerebellar degeneration)",
+          "url": "https://neuropathology-web.org/chapter8/chapter8Nutritional.html"
+        }
+      ]
+    },
+    {
+      "id": "neuro-hypoglossal-palsy-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Nervous System & Special Senses",
+      "topic": "Cranial nerves: hypoglossal nerve lesion",
+      "difficulty": 1,
+      "stem": "A 47-year-old woman has surgery to remove a mass from the right side of her upper neck. Afterward, her tongue points to the right when she sticks it out. Over the next few months, the right side of her tongue becomes thin and shows small twitching movements. Her uvula is in the midline and her gag reflex is normal.",
+      "leadIn": "Which nerve was most likely injured?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Right hypoglossal nerve"
+        },
+        {
+          "id": "b",
+          "text": "Left hypoglossal nerve"
+        },
+        {
+          "id": "c",
+          "text": "Right vagus nerve"
+        },
+        {
+          "id": "d",
+          "text": "Right glossopharyngeal nerve"
+        },
+        {
+          "id": "e",
+          "text": "Right facial nerve"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the right hypoglossal nerve. Why: Your El-Husseiny neurology notes (pp. 80 and 88) explain that the hypoglossal nerve (CN XII) is purely motor and supplies all tongue muscles except palatoglossus, which is supplied by the vagus nerve. A lesion makes the tongue deviate toward the side of the lesion when it is stuck out (\"the tongue licks the lesion\"), because the muscles on that side are weak. Physiopedia (Hypoglossal Nerve) agrees that with damage to one hypoglossal nerve the protruded tongue deviates toward the damaged side, and that a nerve (lower motor neuron) lesion also causes atrophy of that side of the tongue.",
+      "whyWrong": {
+        "b": "A left hypoglossal lesion would make the tongue point to the left, toward the weak side (your notes, p. 80).",
+        "c": "A vagus nerve lesion makes the uvula point away from the affected side and weakens the gag reflex (your notes, pp. 77 and 87); her uvula is midline.",
+        "d": "The glossopharyngeal nerve carries sensation and taste from the back third of the tongue and is the sensory limb of the gag reflex (your notes, p. 77); it does not move the tongue.",
+        "e": "The facial nerve carries taste from the front two-thirds of the tongue (your notes, p. 60); it does not move the tongue."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Facial nerve, p. 60; glossopharyngeal and vagus nerves, p. 77; hypoglossal nerve, p. 80; CN X lesions, p. 87; tongue innervation, p. 88"
+        },
+        {
+          "title": "Physiopedia: Hypoglossal Nerve",
+          "url": "https://physio-pedia.com/Hypoglossal_Nerve"
+        }
+      ]
+    },
+    {
+      "id": "neuro-anterior-spinal-artery-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Nervous System & Special Senses",
+      "topic": "Spinal cord: anterior spinal artery occlusion",
+      "difficulty": 2,
+      "stem": "A 68-year-old man wakes after open repair of a thoracoabdominal aortic aneurysm unable to move his legs. He cannot feel pinprick or temperature below the level of his umbilicus. Vibration and joint position sense in his toes are normal.",
+      "leadIn": "Occlusion of which artery best explains these findings?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Anterior spinal artery"
+        },
+        {
+          "id": "b",
+          "text": "Posterior spinal arteries"
+        },
+        {
+          "id": "c",
+          "text": "Posterior inferior cerebellar artery"
+        },
+        {
+          "id": "d",
+          "text": "Anterior cerebral artery"
+        },
+        {
+          "id": "e",
+          "text": "Middle cerebral artery"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the anterior spinal artery. Why: Your El-Husseiny neurology notes (p. 34) explain that anterior spinal artery occlusion cuts off blood to the front (ventrolateral) part of the spinal cord and can be caused by aortic aneurysm repair. It damages the motor pathways and the spinothalamic tracts, causing weakness and loss of pain and temperature sensation, while the dorsal columns are spared because the posterior spinal arteries supply them. StatPearls (Anterior Spinal Artery Syndrome) agrees that the artery supplies the corticospinal and spinothalamic tracts on both sides, that proprioception, vibration and fine touch are usually preserved, and that aortic surgery is the most common cause.",
+      "whyWrong": {
+        "b": "The posterior spinal arteries supply the dorsal columns (your notes, p. 34), so their occlusion would remove vibration and position sense, which are normal here.",
+        "c": "PICA supplies the lateral medulla (your notes, pp. 81-83); its occlusion causes Wallenberg syndrome, not leg paralysis with a sensory level.",
+        "d": "Anterior cerebral artery occlusion causes weakness and sensory loss in the opposite leg only (your notes, p. 126), not both legs with a sensory level at the umbilicus.",
+        "e": "Middle cerebral artery occlusion mainly affects the opposite lower face and arm (your notes, p. 126), not both legs with a spinal sensory level."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Anterior spinal artery occlusion, p. 34; blood supply of the medulla and PICA, pp. 81-83; middle and anterior cerebral arteries, p. 126"
+        },
+        {
+          "title": "StatPearls: Anterior Spinal Artery Syndrome",
+          "url": "https://www.statpearls.com/point-of-care/97919"
+        }
+      ]
+    },
+    {
+      "id": "neuro-lambert-eaton-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Musculoskeletal",
+      "topic": "Neuromuscular junction: Lambert-Eaton myasthenic syndrome",
+      "difficulty": 2,
+      "stem": "A 63-year-old man who has smoked for 40 years has had trouble climbing stairs and getting out of chairs for 3 months. He also has a dry mouth. His hip and shoulder muscles are weak, and his knee reflexes are reduced. When he squeezes the examiner's hand repeatedly, his grip becomes stronger for a short time, and his reflexes briefly improve after exercise. A chest CT shows a central lung mass.",
+      "leadIn": "His weakness is most likely caused by antibodies against which target?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Presynaptic voltage-gated calcium channels"
+        },
+        {
+          "id": "b",
+          "text": "Postsynaptic nicotinic acetylcholine receptors"
+        },
+        {
+          "id": "c",
+          "text": "Acetylcholinesterase at the motor end plate"
+        },
+        {
+          "id": "d",
+          "text": "Myelin of peripheral motor nerves"
+        },
+        {
+          "id": "e",
+          "text": "Voltage-gated sodium channels in muscle"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: presynaptic voltage-gated calcium channels. Why: Your Osmosis neurology notes (p. 180) explain that Lambert-Eaton myasthenic syndrome is an autoimmune (type II) disorder in which antibodies block voltage-gated calcium channels on the presynaptic motor nerve, so less acetylcholine is released. Weakness is mainly proximal and improves for a short time with repeated use (warm-up), reflexes are reduced but recover with muscle activation, dry mouth is the most common autonomic symptom, and small-cell lung cancer is strongly associated. The MSD Manual (Lambert-Eaton Syndrome) agrees that antibodies interfere with acetylcholine release, that it often occurs with lung cancer, especially small cell lung cancer, that weakness starts in the hip and thigh muscles, that strength may improve for a short time with repeated use, and that the mouth is dry.",
+      "whyWrong": {
+        "b": "Antibodies against postsynaptic acetylcholine receptors cause myasthenia gravis, in which weakness gets worse, not better, with repeated use (standard teaching; your Osmosis notes, p. 180, contrast the warm-up in Lambert-Eaton).",
+        "c": "Blocking acetylcholinesterase would increase acetylcholine at the junction; it is how drugs for myasthenia gravis work (standard teaching), not an antibody target that causes this syndrome.",
+        "d": "Guillain-Barré syndrome, a demyelinating nerve disease (standard teaching), causes symmetric ascending weakness with lost reflexes after an infection (your El-Husseiny neurology notes, p. 160), and strength does not improve with exercise.",
+        "e": "Lambert-Eaton targets presynaptic calcium channels on the nerve ending, not sodium channels in muscle (your Osmosis notes, p. 180)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Neurology (Emily's file), Lambert-Eaton myasthenic syndrome, p. 180"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Guillain-Barré syndrome, p. 160"
+        },
+        {
+          "title": "MSD Manual Consumer Version: Lambert-Eaton Syndrome",
+          "url": "https://www.msdmanuals.com/home/brain-spinal-cord-and-nerve-disorders/peripheral-nerve-and-related-disorders/lambert-eaton-syndrome"
+        }
+      ]
+    },
+    {
+      "id": "neuro-sturge-weber-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Multisystem",
+      "topic": "Neurocutaneous syndromes: Sturge-Weber syndrome",
+      "difficulty": 2,
+      "stem": "A 10-month-old girl has had a flat, dark red birthmark over her right forehead and upper eyelid since birth. She has now had two seizures affecting her left arm. A skull radiograph shows curved, parallel lines of calcification over the right side of the brain. Nobody else in the family has similar problems.",
+      "leadIn": "This infant is at greatest risk for which eye problem?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Glaucoma"
+        },
+        {
+          "id": "b",
+          "text": "Lisch nodules"
+        },
+        {
+          "id": "c",
+          "text": "Optic nerve glioma"
+        },
+        {
+          "id": "d",
+          "text": "Retinal hemangioblastoma"
+        },
+        {
+          "id": "e",
+          "text": "Juvenile cataracts"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: glaucoma. Why: Your El-Husseiny neurology notes (pp. 181 and 183) describe Sturge-Weber syndrome as a sporadic (not inherited) condition caused by a GNAQ variant, with a port-wine stain on the face, a leptomeningeal angioma on the same side, \"tram-track\" calcification on skull films, seizures, intellectual disability and early-onset glaucoma from raised eye pressure. MedlinePlus Genetics (Sturge-Weber syndrome) agrees that it causes a port-wine birthmark, usually on one side of the face, a leptomeningeal angioma, seizures that often start by age 2, and glaucoma, and that it is caused by a somatic GNAQ variant and is not inherited.",
+      "whyWrong": {
+        "b": "Lisch nodules are pigmented iris hamartomas in neurofibromatosis type 1 (your notes, p. 182), which causes café-au-lait spots rather than a port-wine stain.",
+        "c": "Optic nerve gliomas occur in neurofibromatosis type 1 (your notes, p. 182).",
+        "d": "Retinal capillary hemangioblastomas occur in von Hippel-Lindau disease (your notes, p. 183).",
+        "e": "Juvenile cataracts occur in neurofibromatosis type 2, with bilateral vestibular schwannomas (your notes, p. 183)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Neurocutaneous disorders, pp. 181-183"
+        },
+        {
+          "title": "MedlinePlus Genetics: Sturge-Weber syndrome",
+          "url": "https://medlineplus.gov/genetics/condition/sturge-weber-syndrome"
+        }
+      ]
+    },
+    {
+      "id": "neuro-area-postrema-ctz-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Gastrointestinal",
+      "topic": "Brainstem: area postrema and chemotherapy-induced vomiting",
+      "difficulty": 2,
+      "stem": "A 55-year-old woman receiving cisplatin for ovarian cancer has severe nausea and vomiting within hours of each infusion. She is given ondansetron, a 5-HT3 receptor antagonist, before her next dose, and her vomiting improves.",
+      "leadIn": "Part of this drug's effect is in a medullary region that can sense chemicals in the blood. Which region is this?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Area postrema"
+        },
+        {
+          "id": "b",
+          "text": "Raphe nuclei"
+        },
+        {
+          "id": "c",
+          "text": "Locus coeruleus"
+        },
+        {
+          "id": "d",
+          "text": "Nucleus accumbens"
+        },
+        {
+          "id": "e",
+          "text": "Mammillary bodies"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the area postrema. Why: Your El-Husseiny neurology notes (p. 145) explain that the area postrema is a circumventricular organ with leaky (fenestrated) capillaries and no blood-brain barrier, so substances in the blood can reach it. It contains the chemoreceptor trigger zone, which feeds into the vomiting center in the medulla and has muscarinic, D2, H1, 5-HT3 and NK-1 receptors. Blocking 5-HT3, D2 or NK-1 receptors treats chemotherapy-induced vomiting. StatPearls (Physiology, Chemoreceptor Trigger Zone) agrees that the trigger zone lies on the floor of the fourth ventricle, that its capillaries lack tight junctions so it can sense toxins in the blood, and that ondansetron blocks 5-HT3 receptors to prevent chemotherapy-induced vomiting.",
+      "whyWrong": {
+        "b": "The raphe nuclei are where the brain makes serotonin (your notes, p. 144), but they are not the blood-sensing site that triggers vomiting.",
+        "c": "The locus coeruleus in the pons is the main site of norepinephrine synthesis in the brain (your notes, p. 144).",
+        "d": "The nucleus accumbens is listed in your notes as a GABA site (p. 144), and it is not a chemoreceptor trigger zone.",
+        "e": "The mammillary bodies are part of the Papez circuit for memory and emotion (your notes, p. 132), not a site that senses chemicals in the blood."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Mammillary bodies, p. 132; neurotransmitters, p. 144; circumventricular organs and vomiting, p. 145"
+        },
+        {
+          "title": "StatPearls: Physiology, Chemoreceptor Trigger Zone",
+          "url": "https://www.statpearls.com/point-of-care/19371"
+        }
+      ]
+    },
+    {
+      "id": "neuro-tuberous-sclerosis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Multisystem",
+      "topic": "Neurocutaneous syndromes: tuberous sclerosis complex",
+      "difficulty": 2,
+      "stem": "A 6-year-old boy has had seizures since infancy and has developmental delay. Examination shows several pale, leaf-shaped patches on his trunk and small red-brown bumps over his nose and cheeks. An echocardiogram done when he was a baby showed a benign tumor in the heart muscle. His father had a kidney tumor made of fat, blood vessels and smooth muscle.",
+      "leadIn": "A pathogenic variant in the gene for which protein is most likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tuberin"
+        },
+        {
+          "id": "b",
+          "text": "Neurofibromin"
+        },
+        {
+          "id": "c",
+          "text": "Merlin"
+        },
+        {
+          "id": "d",
+          "text": "VHL protein"
+        },
+        {
+          "id": "e",
+          "text": "Gαq (GNAQ)"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: tuberin (TSC2), or hamartin (TSC1). Why: Your El-Husseiny neurology notes (p. 181) describe tuberous sclerosis as an autosomal dominant disorder caused by variants in the tumor suppressor genes TSC1 or TSC2, which code for hamartin and tuberin. Cortical tubers and subependymal hamartomas cause seizures and intellectual disability, and patients can have cardiac rhabdomyomas, facial angiofibromas, pale ash-leaf patches and renal angiomyolipomas. MedlinePlus Genetics (Tuberous sclerosis complex) agrees that TSC1 or TSC2 variants cause it, that hamartin and tuberin work together as tumor suppressors, that it is autosomal dominant, and that it causes seizures, skin changes, facial angiofibromas, heart rhabdomyomas and kidney growths.",
+      "whyWrong": {
+        "b": "Neurofibromin is the NF1 gene product (your notes, p. 182); NF1 causes café-au-lait spots and neurofibromas, not ash-leaf patches.",
+        "c": "Merlin is the NF2 gene product (your notes, p. 183); NF2 causes bilateral vestibular schwannomas.",
+        "d": "VHL variants cause hemangioblastomas, pheochromocytoma and renal cell carcinoma (your notes, p. 183), not angiomyolipomas with ash-leaf patches.",
+        "e": "Somatic GNAQ variants cause Sturge-Weber syndrome, with a facial port-wine stain (your notes, p. 181), and it is not inherited."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Sturge-Weber syndrome and tuberous sclerosis, p. 181; NF1, p. 182; NF2 and VHL, p. 183"
+        },
+        {
+          "title": "MedlinePlus Genetics: Tuberous sclerosis complex",
+          "url": "https://medlineplus.gov/genetics/condition/tuberous-sclerosis-complex"
+        }
+      ]
+    },
+    {
+      "id": "immuno-hib-conjugate-vaccine-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Immunology",
+      "system": "Immune System",
+      "topic": "Vaccines: polysaccharide-protein conjugate vaccines",
+      "difficulty": 2,
+      "stem": "A health department explains why the Haemophilus influenzae type b (Hib) vaccine given to 2-month-old infants is made by chemically linking the bacterium's capsular polysaccharide to tetanus or diphtheria toxoid. Plain capsular polysaccharide vaccines work poorly in children younger than 2 years.",
+      "leadIn": "Linking the polysaccharide to a protein improves the infant's response mainly because of which change?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Helper T cells can now aid the B cells"
+        },
+        {
+          "id": "b",
+          "text": "The vaccine now activates complement directly"
+        },
+        {
+          "id": "c",
+          "text": "The toxoid neutralizes Hib endotoxin"
+        },
+        {
+          "id": "d",
+          "text": "Infant B cells respond best to polysaccharide alone"
+        },
+        {
+          "id": "e",
+          "text": "Maternal IgG to the toxoid boosts the response"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: helper T cells can now help the B cells. Why: Your El-Husseiny microbiology and immunology notes (pp. 21 and 109-110) explain that a polysaccharide alone cannot be presented to T cells. Linking it to a carrier protein such as diphtheria or tetanus toxoid makes it a T-cell-dependent antigen, which promotes T-cell activation and class switching and raises the vaccine's immunogenicity. Polysaccharides alone act as T-cell-independent antigens, which give a weaker, IgM-only response without memory (p. 418). The CDC's 1991 ACIP recommendations on Hib conjugate vaccines agree that the response to plain Hib polysaccharide resembles a T-cell-independent response, poor in infants under 18 months, and that conjugation was designed to overcome this. The CDC Pink Book adds that T-cell-independent polysaccharide vaccines are not consistently immunogenic in children younger than 2 years.",
+      "whyWrong": {
+        "b": "Conjugation works by bringing in T-cell help for B cells (your notes, p. 21), not by activating complement.",
+        "c": "Hib is not given toxoid to neutralize a toxin; the toxoid is a carrier protein that makes the polysaccharide T-cell dependent (your notes, p. 110). Endotoxin is part of the outer membrane of gram-negative bacteria (p. 21).",
+        "d": "Pure polysaccharide is a T-cell-independent antigen that works poorly in young children (your notes, p. 418; CDC Pink Book).",
+        "e": "Maternal IgG gives only short-lived protection in the first months of life (your notes, p. 109); it is not why conjugation works."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Vaccines and endotoxin, p. 21; Hib conjugate vaccine, pp. 109-110; T-cell-independent antigens, p. 418"
+        },
+        {
+          "title": "CDC MMWR (1991): Haemophilus b conjugate vaccines for prevention of Hib disease among infants and children (ACIP)",
+          "url": "https://www.cdc.gov/MMWR/preview/mmwrhtml/00041736.htm"
+        },
+        {
+          "title": "CDC Pink Book, Chapter 1: Principles of Vaccination",
+          "url": "https://www.cdc.gov/vaccines/pubs/pinkbook/prinvac.html"
+        }
+      ]
+    },
+    {
+      "id": "immuno-tetanus-passive-active-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Immunology",
+      "system": "Immune System",
+      "topic": "Immunization: passive vs active (tetanus wound care)",
+      "difficulty": 2,
+      "stem": "A 34-year-old farmworker steps on a rusty nail, causing a deep puncture wound contaminated with soil. He has never received any vaccines. The wound is cleaned and debrided.",
+      "leadIn": "Which is the best way to prevent tetanus in this patient?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Toxoid vaccine plus tetanus immune globulin"
+        },
+        {
+          "id": "b",
+          "text": "Tetanus toxoid vaccine alone"
+        },
+        {
+          "id": "c",
+          "text": "Tetanus immune globulin alone"
+        },
+        {
+          "id": "d",
+          "text": "No prophylaxis; watch for muscle spasms"
+        },
+        {
+          "id": "e",
+          "text": "Tetanus immune globulin only if spasms start"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: tetanus toxoid vaccine and tetanus immune globulin. Why: Your El-Husseiny microbiology and immunology notes (p. 447) explain that passive immunity means receiving preformed antibodies, which act fast but last only weeks, while active immunity comes from exposure to an antigen, such as a toxoid vaccine, and gives long-lasting memory. Unvaccinated patients exposed to tetanus toxin are given preformed antibodies, and some exposures call for combined passive and active immunization. The CDC (Clinical Guidance for Wound Management to Prevent Tetanus) agrees that people with an unknown or incomplete tetanus vaccine history need a tetanus vaccine, and that those with a dirty or major wound also need tetanus immune globulin, which neutralizes circulating toxin and gives temporary protection.",
+      "whyWrong": {
+        "b": "A toxoid vaccine alone takes time to produce antibodies (your notes, p. 447). With a dirty wound and no vaccine history, he also needs immediate passive protection (CDC).",
+        "c": "Immune globulin alone protects only for a few weeks and leaves no memory (your notes, p. 447); he also needs active immunization (CDC).",
+        "d": "An unvaccinated patient with a dirty wound needs both vaccine and immune globulin now (CDC wound guidance).",
+        "e": "Tetanus immune globulin cannot neutralize toxin already bound to nerve endings (CDC wound guidance), so waiting for spasms is too late."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Passive vs active immunity, p. 447"
+        },
+        {
+          "title": "CDC: Clinical Guidance for Wound Management to Prevent Tetanus",
+          "url": "https://cdc.gov/tetanus/hcp/clinical-guidance/index.html"
+        }
+      ]
+    },
+    {
+      "id": "immuno-maternal-igg-passive-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Immunology",
+      "system": "Reproductive",
+      "topic": "Passive immunity: transplacental maternal IgG",
+      "difficulty": 1,
+      "stem": "A healthy, formula-fed 6-week-old girl is exposed to a cousin with chickenpox. Her mother had chickenpox as a child. The infant does not become ill. Her pediatrician explains that antibodies she received before birth probably protected her.",
+      "leadIn": "Which antibody class and type of immunity best explain her protection?",
+      "options": [
+        {
+          "id": "a",
+          "text": "IgG; natural passive immunity"
+        },
+        {
+          "id": "b",
+          "text": "IgA; natural passive immunity"
+        },
+        {
+          "id": "c",
+          "text": "IgM; natural passive immunity"
+        },
+        {
+          "id": "d",
+          "text": "IgG; natural active immunity"
+        },
+        {
+          "id": "e",
+          "text": "IgG; artificial passive immunity"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: IgG, natural passive immunity. Why: Your El-Husseiny microbiology and immunology notes (p. 447) list maternal IgG crossing the placenta as an example of natural passive immunity: preformed antibodies that act right away but do not last. They also note that in the first months of life infants are protected by IgG acquired across the placenta, but only for a short time (p. 109). The CDC Pink Book (Principles of Vaccination) agrees that maternal antibody is carried across the placenta, mainly in the last 1 to 2 months of pregnancy, that it can protect infants in the first few months of life, and that passive immunity fades over weeks to months.",
+      "whyWrong": {
+        "b": "IgA in breast milk is another kind of natural passive immunity (your notes, p. 447), but this infant is formula-fed.",
+        "c": "IgM does not cross the placenta; maternal IgG does (your notes, pp. 109 and 447).",
+        "d": "Active immunity requires the infant's own immune system to respond to an antigen (your notes, p. 447); she received ready-made antibodies.",
+        "e": "Artificial passive immunity means antibodies given as a product, such as an antitoxin or monoclonal antibody (your notes, p. 447)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), H. influenzae and maternal IgG, p. 109; passive vs active immunity, p. 447"
+        },
+        {
+          "title": "CDC Pink Book, Chapter 1: Principles of Vaccination",
+          "url": "https://www.cdc.gov/vaccines/pubs/pinkbook/prinvac.html"
+        }
+      ]
+    },
+    {
+      "id": "immuno-acute-hemolytic-transfusion-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Immunology",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Type II hypersensitivity: acute hemolytic transfusion reaction",
+      "difficulty": 2,
+      "stem": "A 64-year-old man is given a unit of packed red cells after hip surgery. Within 15 minutes he develops fever, chills, pain in his lower back and flanks, and a fall in blood pressure. His urine turns red-brown, and his urine dipstick is positive for blood with no red cells seen on microscopy. Investigation later finds that the unit was meant for a different patient.",
+      "leadIn": "Which mechanism best explains this reaction?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Recipient anti-A or anti-B on donor red cells"
+        },
+        {
+          "id": "b",
+          "text": "Recipient IgE binding donor plasma proteins"
+        },
+        {
+          "id": "c",
+          "text": "Donor T cells attacking recipient tissues"
+        },
+        {
+          "id": "d",
+          "text": "Donor antibodies binding recipient neutrophils"
+        },
+        {
+          "id": "e",
+          "text": "Cytokines from stored donor white cells"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: recipient ABO antibodies binding donor red cells. Why: Your El-Husseiny microbiology and immunology notes (pp. 456 and 462) explain that an acute hemolytic transfusion reaction is a type II (antibody-mediated) hypersensitivity reaction caused by ABO incompatibility. The recipient's anti-A or anti-B antibodies bind the donor red cells and activate complement, causing intravascular hemolysis within about an hour, with fever, hypotension, flank pain and hemoglobinuria. The MSD Manual (Complications of Transfusion) agrees that ABO incompatibility is the most common cause, that the hemolysis is intravascular with hemoglobinuria, that symptoms include fever, chills and severe lower back pain, and that mislabeling or failing to match the patient with the blood product is the usual cause. The transfusion must be stopped right away.",
+      "whyWrong": {
+        "b": "IgE against donor plasma proteins causes allergic or anaphylactic reactions with hives, wheezing and shock (your notes, p. 462), not hemolysis with hemoglobinuria.",
+        "c": "Donor T cells attacking the recipient cause transfusion-associated graft-versus-host disease, which develops over days to weeks (standard teaching), not within minutes.",
+        "d": "Donor antibodies against recipient neutrophils cause transfusion-related acute lung injury, with breathing trouble and noncardiogenic pulmonary edema (your notes, p. 462).",
+        "e": "Cytokines from stored donor white cells cause a febrile nonhemolytic reaction with fever and chills but no hemolysis (your notes, p. 462)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Type II hypersensitivity: acute hemolytic transfusion reaction, p. 456; blood transfusion reactions, p. 462"
+        },
+        {
+          "title": "MSD Manual Professional: Complications of Transfusion",
+          "url": "https://www.msdmanuals.com/professional/hematology-and-oncology/transfusion-medicine/complications-of-transfusion"
+        }
+      ]
+    },
+    {
+      "id": "immuno-il5-eosinophilia-helminth-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Immunology",
+      "system": "Immune System",
+      "topic": "Cytokines: Th2 cells and IL-5 in helminth infection",
+      "difficulty": 2,
+      "stem": "A 26-year-old man returns from 6 months of volunteer work in a rural tropical area, where he often walked barefoot. He has mild abdominal pain and diarrhea. His white blood cell count is 11,000/mm3 with 28% eosinophils, and his stool shows hookworm eggs.",
+      "leadIn": "Which cytokine most directly drives his high eosinophil count?",
+      "options": [
+        {
+          "id": "a",
+          "text": "IL-5"
+        },
+        {
+          "id": "b",
+          "text": "IL-2"
+        },
+        {
+          "id": "c",
+          "text": "IL-4"
+        },
+        {
+          "id": "d",
+          "text": "IL-10"
+        },
+        {
+          "id": "e",
+          "text": "Interferon-γ"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: IL-5. Why: Your El-Husseiny microbiology and immunology notes (pp. 414 and 445) explain that Th2 cells secrete several cytokines, including IL-4, IL-5, IL-13 and IL-10, and that IL-5 stimulates the growth and differentiation of eosinophils (it also promotes class switching to IgA). The MSD Manual (Eosinophil Production and Function) agrees that T cells control eosinophil production through growth factors including GM-CSF, IL-3 and IL-5, that IL-5 increases eosinophil production exclusively, and that eosinophils help defend against parasitic infections.",
+      "whyWrong": {
+        "b": "IL-2 mainly drives the growth of T cells of several types and of NK cells (your notes, p. 445), not eosinophils.",
+        "c": "IL-4 promotes Th2 differentiation and class switching to IgE (your notes, p. 445). IgE rises in helminth infection, but IL-5 is the cytokine that drives eosinophil production.",
+        "d": "IL-10 calms the immune response by lowering MHC class II and Th1 cytokines (your notes, p. 445).",
+        "e": "Interferon-γ comes from Th1 and NK cells and activates macrophages (your notes, p. 445); it does not drive eosinophilia."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Th2 cytokines, p. 414; cytokines from Th1 and Th2 cells, p. 445"
+        },
+        {
+          "title": "MSD Manual Professional: Eosinophil Production and Function",
+          "url": "https://www.msdmanuals.com/professional/hematology-and-oncology/eosinophilic-disorders/eosinophil-production-and-function"
+        }
+      ]
+    },
+    {
+      "id": "immuno-class-switch-recombination-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Immunology",
+      "system": "Immune System",
+      "topic": "B cells: isotype (class) switching",
+      "difficulty": 3,
+      "stem": "A researcher follows the antibody response of a healthy volunteer after a first dose of a new protein vaccine. In the first week, the antigen-specific antibodies are mostly IgM. By week 3, most of the antibodies are IgG, and they bind exactly the same epitope as the earlier IgM. A B-cell clone that has switched to IgG can never again make IgM.",
+      "leadIn": "Which process in the B cells best explains these findings?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Deletion of DNA between switch regions"
+        },
+        {
+          "id": "b",
+          "text": "Alternative splicing of one RNA transcript"
+        },
+        {
+          "id": "c",
+          "text": "New V(D)J recombination of the variable region"
+        },
+        {
+          "id": "d",
+          "text": "Random point mutations in the variable region"
+        },
+        {
+          "id": "e",
+          "text": "Replacement of the light chain by a new one"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: deletion of DNA between switch regions (class switch recombination). Why: Your El-Husseiny microbiology and immunology notes (p. 420) explain that cytokine signals from Th2 cells trigger isotype switching, in which switch regions cause the DNA between them to loop out, be cut out and be degraded. The same variable region is joined to a new heavy-chain constant region, so the antibody keeps its antigen specificity but gains a new function. Because the DNA is lost, the switch is one-way, which is why IgM dominates the primary response and other classes appear later. Switching needs CD40-CD40 ligand contact with T cells. Life: The Science of Biology (Chapter 41) agrees that switching from IgM to IgG involves a DNA deletion that places a different constant-region gene next to the same variable region, keeping the same antigen specificity.",
+      "whyWrong": {
+        "b": "Alternative RNA splicing lets naive B cells carry both IgM and IgD at the same time (your notes, p. 381; standard teaching for the splicing mechanism). It does not permanently remove the ability to make IgM.",
+        "c": "A new V(D)J rearrangement would change the variable region and the antigen it binds, but the IgG here binds the same epitope (your notes, p. 420).",
+        "d": "Somatic hypermutation changes the variable region and leads to affinity maturation (your notes, p. 422), not a change in antibody class.",
+        "e": "The antibody class is set by the heavy-chain constant region, not the light chain (your notes, p. 420)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Naive B-cell receptors, p. 381; isotype switching, p. 420; somatic hypermutation, p. 422"
+        },
+        {
+          "title": "Life: The Science of Biology, 11th ed. (Macmillan), Chapter 41: class switching",
+          "url": "https://digfir-published.macmillanusa.com/life11e/life11e_ch41_26.html"
+        }
+      ]
+    },
+    {
+      "id": "immuno-mhc2-invariant-chain-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Immunology",
+      "system": "Immune System",
+      "topic": "Antigen processing: the MHC class II pathway",
+      "difficulty": 3,
+      "stem": "In an experiment, dendritic cells are treated with a drug that raises the pH inside their endosomes and lysosomes. The cells are then given a soluble protein antigen that they take up by endocytosis. Afterward, they fail to activate CD4+ T cells specific for that antigen, although they can still activate CD8+ T cells against a virus growing inside them.",
+      "leadIn": "Which step is most directly blocked?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Release of invariant chain from MHC class II"
+        },
+        {
+          "id": "b",
+          "text": "Transport of peptides into the ER by TAP"
+        },
+        {
+          "id": "c",
+          "text": "Breakdown of cytosolic proteins by proteasomes"
+        },
+        {
+          "id": "d",
+          "text": "Pairing of MHC class I with β2-microglobulin"
+        },
+        {
+          "id": "e",
+          "text": "Binding of CD8 to MHC class I molecules"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: removal of the invariant chain from MHC class II. Why: Your El-Husseiny microbiology and immunology notes (p. 409) explain that MHC class II molecules are made in the rough ER with an invariant chain sitting in their peptide-binding groove. When the vesicles carrying them fuse with acidified phagolysosomes holding foreign antigen, the invariant chain is broken down and antigen peptide is loaded. Without lysosomal acidification, class II antigen processing fails. The University of Southampton's immunology course (MHC Class II Presentation) agrees that the invariant chain blocks the groove and guides MHC class II to the endosomal pathway, where it is cut down to a small fragment, CLIP, that must be released before the antigen peptide can bind. The class I pathway still works here, so CD8+ responses are spared.",
+      "whyWrong": {
+        "b": "TAP moves cytosolic peptides into the ER for MHC class I (your notes, p. 408); the class I pathway still works here.",
+        "c": "Proteasomes break down cytosolic proteins for the MHC class I pathway (your notes, p. 408), which is still working.",
+        "d": "Pairing of MHC class I with β2-microglobulin is part of the class I pathway (standard teaching), which is intact because CD8+ T cells are still activated.",
+        "e": "CD8 binding to MHC class I is part of the class I pathway (your notes, p. 394), which is still working here."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Thymic selection, p. 394; MHC class I pathway, p. 408; MHC class II pathway, p. 409"
+        },
+        {
+          "title": "University of Southampton, Immunology fundamentals: MHC Class II Presentation",
+          "url": "https://www.med.soton.ac.uk/restricted/msc/mscallergy/immunology/linkers/mhc/mhc3.aspx?page=3"
+        }
+      ]
+    },
+    {
+      "id": "immuno-aire-aps1-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Immunology",
+      "system": "Endocrine",
+      "topic": "Central tolerance: AIRE and autoimmune polyglandular syndrome type 1",
+      "difficulty": 3,
+      "stem": "An 11-year-old girl has had repeated oral thrush and fungal nail infections since early childhood. She now has muscle cramps and tingling around her mouth, with low serum calcium and low parathyroid hormone. A year later she develops fatigue, low blood pressure and darkening of her skin. Her parents are unaffected first cousins.",
+      "leadIn": "A pathogenic variant in which gene is most likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "AIRE"
+        },
+        {
+          "id": "b",
+          "text": "FOXP3"
+        },
+        {
+          "id": "c",
+          "text": "STAT3"
+        },
+        {
+          "id": "d",
+          "text": "BTK"
+        },
+        {
+          "id": "e",
+          "text": "CYBB"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: AIRE. Why: Your El-Husseiny microbiology and immunology notes (p. 467) explain that chronic mucocutaneous candidiasis is a T-cell defect in immunity against Candida, and that its classic form is caused by defects in AIRE. They also explain that developing T cells undergo negative selection in the thymic medulla, which removes cells with self-reactive (\"bad\") receptors (p. 394). NIH GARD (Polyglandular autoimmune syndrome, type 1) agrees that this condition is linked to AIRE, is autosomal recessive, and has three main features: chronic mucocutaneous candidiasis, hypoparathyroidism and adrenal insufficiency (Addison disease), usually starting in childhood or adolescence.",
+      "whyWrong": {
+        "b": "FOXP3 is needed for regulatory T cells, and its deficiency causes autoimmunity (your notes, p. 415), but not this triad of candidiasis, hypoparathyroidism and Addison disease.",
+        "c": "STAT3 variants cause hyper-IgE (Job) syndrome, with Th17 deficiency, high IgE and eosinophils (your notes, p. 467), not endocrine failure.",
+        "d": "BTK variants cause X-linked agammaglobulinemia, with few B cells and recurrent bacterial infections in boys (your notes, p. 464).",
+        "e": "CYBB codes for part of NADPH oxidase, which is missing in chronic granulomatous disease (your notes, p. 473; gene name: standard teaching), with catalase-positive infections rather than endocrine failure."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Thymic selection, p. 394; regulatory T cells, p. 415; X-linked agammaglobulinemia, p. 464; hyper-IgE and chronic mucocutaneous candidiasis, p. 467; chronic granulomatous disease, p. 473"
+        },
+        {
+          "title": "NIH GARD: Polyglandular autoimmune syndrome, type 1",
+          "url": "https://rarediseases.info.nih.gov/diseases/8466/polyglandular-autoimmune-syndrome-type-1"
+        }
+      ]
+    },
+    {
+      "id": "immuno-endotoxin-cytokines-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Immunology",
+      "system": "Cardiovascular",
+      "topic": "Innate immunity: endotoxin, macrophage cytokines and septic shock",
+      "difficulty": 2,
+      "stem": "A 72-year-old woman with a urinary tract infection becomes confused and has a fever of 39.4°C (103°F). Her skin is warm and flushed, and her blood pressure is 82/44 mm Hg despite intravenous fluids. Blood cultures grow Escherichia coli.",
+      "leadIn": "Her low blood pressure is driven mainly by which host response?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Macrophage release of TNF-α and IL-1"
+        },
+        {
+          "id": "b",
+          "text": "IgE-mediated mast cell degranulation"
+        },
+        {
+          "id": "c",
+          "text": "Immune complexes deposited in vessel walls"
+        },
+        {
+          "id": "d",
+          "text": "Superantigen binding of MHC II and T cells"
+        },
+        {
+          "id": "e",
+          "text": "Complement-mediated lysis of red blood cells"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: macrophage release of TNF-α and IL-1. Why: Your El-Husseiny microbiology and immunology notes (p. 21) explain that endotoxin (lipopolysaccharide) is part of the outer membrane of gram-negative bacteria such as E. coli, and that its lipid A portion causes gram-negative sepsis and septic shock by activating macrophages and granulocytes to release IL-1, tumor necrosis factor-α, prostaglandins and other mediators. The MSD Manual (Sepsis and Septic Shock) agrees that a bacterial toxin triggers release of TNF and IL-1, which release many other mediators, and that arteries and arterioles dilate early in septic shock (\"warm shock\") before blood pressure falls.",
+      "whyWrong": {
+        "b": "IgE cross-linking on mast cells causes type I hypersensitivity and anaphylaxis (your notes, pp. 450-451), not gram-negative septic shock.",
+        "c": "Immune complex deposition causes type III hypersensitivity, such as the Arthus reaction (your notes, pp. 458 and 461).",
+        "d": "Superantigens are exotoxins of gram-positive bacteria such as toxic shock syndrome toxin from Staphylococcus aureus (your notes, pp. 41 and 43), not E. coli endotoxin.",
+        "e": "Complement lysis of red cells is the mechanism of an acute hemolytic transfusion reaction (your notes, p. 456), not sepsis."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Endotoxin, p. 21; superantigens, pp. 41 and 43; type I hypersensitivity, pp. 450-451; type II, p. 456; type III, pp. 458 and 461"
+        },
+        {
+          "title": "MSD Manual Professional: Sepsis and Septic Shock",
+          "url": "https://www.msdmanuals.com/professional/critical-care-medicine/sepsis-and-septic-shock/sepsis-and-septic-shock"
+        }
+      ]
+    },
+    {
+      "id": "immuno-chediak-higashi-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Immunology",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Phagocyte disorders: Chédiak-Higashi syndrome",
+      "difficulty": 2,
+      "stem": "A 4-year-old boy has had repeated skin abscesses and pneumonias caused by Staphylococcus aureus and streptococci. He has very light skin and silvery hair compared with his siblings, and he bruises easily. His parents are healthy. A peripheral blood smear shows neutrophils containing abnormally large cytoplasmic granules.",
+      "leadIn": "A defect in which protein is most likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lysosomal trafficking regulator"
+        },
+        {
+          "id": "b",
+          "text": "NADPH oxidase"
+        },
+        {
+          "id": "c",
+          "text": "CD18 subunit of β2 integrins"
+        },
+        {
+          "id": "d",
+          "text": "Wiskott-Aldrich syndrome protein"
+        },
+        {
+          "id": "e",
+          "text": "Bruton tyrosine kinase"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: lysosomal trafficking regulator (LYST). Why: Your El-Husseiny microbiology and immunology notes (p. 472) explain that Chédiak-Higashi syndrome is an autosomal recessive defect in the LYST gene that causes microtubule dysfunction in phagosome-lysosome fusion. It causes giant granules in granulocytes and platelets, partial albinism, repeated pus-forming infections with staphylococci and streptococci, nerve damage (peripheral neuropathy and worsening neurodegeneration) and mild clotting defects. MedlinePlus Genetics (Chediak-Higashi syndrome) agrees that LYST variants cause it, that the LYST protein helps move materials into lysosomes, that faulty LYST makes lysosomes abnormally large, and that the condition causes recurrent infections, albinism and easy bruising, with autosomal recessive inheritance.",
+      "whyWrong": {
+        "b": "NADPH oxidase deficiency causes chronic granulomatous disease (your notes, pp. 406 and 473), with infections by catalase-positive organisms but no albinism or giant granules.",
+        "c": "CD18 deficiency causes leukocyte adhesion deficiency (your notes, pp. 402 and 472), with delayed umbilical cord separation and infections without pus.",
+        "d": "WAS protein defects cause Wiskott-Aldrich syndrome, with eczema, thrombocytopenia and recurrent infections (your notes, pp. 470-471).",
+        "e": "BTK defects cause X-linked agammaglobulinemia, with absent B cells (your notes, p. 464), not albinism or giant granules."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), CD18 and leukocyte adhesion, p. 402; X-linked agammaglobulinemia, p. 464; Wiskott-Aldrich syndrome, pp. 470-471; Chédiak-Higashi syndrome, p. 472; chronic granulomatous disease, p. 473"
+        },
+        {
+          "title": "MedlinePlus Genetics: Chediak-Higashi syndrome",
+          "url": "https://medlineplus.gov/genetics/condition/chediak-higashi-syndrome"
+        }
+      ]
     }
   ]
 }
