@@ -43199,6 +43199,1099 @@
           "title": "DSM-5-TR (Emily's file), Major depressive disorder, p. 183"
         }
       ]
+    },
+    {
+      "id": "path-urothelial-carcinoma-cyclophosphamide-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Renal & Urinary",
+      "topic": "Bladder cancer: urothelial carcinoma and drug-related risk",
+      "difficulty": 2,
+      "stem": "A 58-year-old man comes to the physician because he has seen red urine without any pain three times in the past 2 weeks. He has never smoked and works as an accountant. Ten years ago, he was treated for granulomatosis with polyangiitis with several immunosuppressive drugs, and the disease has been in remission since. Urine culture is negative. Cystoscopy shows a papillary mass on the bladder wall, and biopsy shows a cancer arising from the lining of the bladder.",
+      "leadIn": "Which of the following drugs most likely increased his risk of this cancer?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cyclophosphamide"
+        },
+        {
+          "id": "b",
+          "text": "Rituximab"
+        },
+        {
+          "id": "c",
+          "text": "Methotrexate"
+        },
+        {
+          "id": "d",
+          "text": "Prednisone"
+        },
+        {
+          "id": "e",
+          "text": "Mycophenolate mofetil"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: cyclophosphamide. Why: Painless blood in the urine in an older adult points to a cancer of the lining of the urinary tract until proven otherwise. Your NBME Top Concepts (p. 338) lists the clues for transitional cell carcinoma of the bladder: painless hematuria, smoking, aniline dyes and cyclophosphamide. Your El-Husseiny nephrology notes (pp. 138-139) say these urothelial (transitional cell) carcinomas make up about 90% of bladder cancers, can arise anywhere from the renal pelvis to the bladder, and are linked to phenacetin, smoking, aniline dyes and cyclophosphamide. MSD agrees: \"Transitional cell carcinomas (urothelial carcinoma), which account for > 90% of bladder cancers,\" smoking is \"the most common risk factor, causing ≥ 50% of new cases,\" and the risk factors include \"Long-term cyclophosphamide use.\" MSD adds that \"Patients usually present with hematuria (most commonly) or irritative voiding symptoms such as frequency and/or urgency.\" Your Pharmacology High Yield notes (PDF p. 106) explain the bladder link: cyclophosphamide is broken down to acrolein, which causes hemorrhagic cystitis, and mesna is given to protect the bladder. He has no smoking or dye exposure, so his past cyclophosphamide is the best explanation.",
+      "whyWrong": {
+        "b": "Rituximab is an antibody against CD20 on B cells, used for lymphomas, CLL and autoimmune diseases (your Pharmacology High Yield notes, PDF p. 112). It is not a bladder carcinogen.",
+        "c": "Methotrexate is an antifolate whose main toxic effects are bone marrow suppression, GI and liver toxicity, and rarely pneumonitis (your Pharmacology High Yield notes, PDF p. 102). It does not damage the bladder lining.",
+        "d": "Long courses of glucocorticoids such as prednisone are the strongest risk factor for osteonecrosis (MSD), but they are not a cause of bladder cancer.",
+        "e": "The mycophenolate label warns of lymphoma and skin cancer, not bladder cancer (FDA label). Its main effect is blocking guanine nucleotide synthesis in lymphocytes."
+      },
+      "sources": [
+        {
+          "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Tumors of the urinary tract, p. 338"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Nephrology (Emily's file), Urothelial carcinoma, pp. 138-139"
+        },
+        {
+          "title": "MSD Manual Professional: Bladder Cancer",
+          "url": "https://www.msdmanuals.com/professional/genitourinary-disorders/genitourinary-cancer/bladder-cancer"
+        },
+        {
+          "title": "Pharmacology High Yield (Emily's file), Cyclophosphamide, PDF p. 106; rituximab, PDF p. 112; methotrexate, PDF p. 102"
+        },
+        {
+          "title": "FDA prescribing information: CellCept (mycophenolate mofetil), via DailyMed",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=37241e87-4af4-4dc3-a1aa-ea6f20d8dc40"
+        },
+        {
+          "title": "MSD Manual Professional: Osteonecrosis (ON)",
+          "url": "https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/osteonecrosis/osteonecrosis-on"
+        }
+      ]
+    },
+    {
+      "id": "path-lupus-nephritis-subendothelial-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Renal & Urinary",
+      "topic": "Lupus nephritis: diffuse proliferative glomerulonephritis",
+      "difficulty": 3,
+      "stem": "A 24-year-old woman with systemic lupus erythematosus has had swelling of both legs and dark, foamy urine for 3 weeks. Blood pressure is 152/96 mm Hg. Urinalysis shows 3+ protein, red blood cells and red blood cell casts. Serum creatinine is 1.9 mg/dL, C3 and C4 are low, and anti-dsDNA antibody titers are high. Kidney biopsy shows that more than half of the glomeruli are crowded with cells, and many capillary walls look thick and rigid.",
+      "leadIn": "Electron microscopy of the biopsy is most likely to show immune deposits in which location?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Subendothelial"
+        },
+        {
+          "id": "b",
+          "text": "Subepithelial"
+        },
+        {
+          "id": "c",
+          "text": "Mesangium only"
+        },
+        {
+          "id": "d",
+          "text": "Linear along the basement membrane"
+        },
+        {
+          "id": "e",
+          "text": "None (podocyte effacement only)"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: subendothelial. Why: Your NBME Top Concepts lists diffuse proliferative glomerulonephritis with capillary \"wire loops\" among the kidney findings of lupus (p. 390), and its practice question explains lupus kidney damage by immune complex deposition (p. 388). Your El-Husseiny nephrology notes (p. 81) say diffuse proliferative glomerulonephritis is the leading cause of death in lupus, shows wire-loop capillaries on light microscopy, and has IgG immune complexes with C3 under the endothelium (sometimes within the membrane), with a granular pattern on immunofluorescence. It often gives nephritic and nephrotic features together, as here. MSD calls this class IV: \"Endocapillary and extracapillary cellular hypercellularity and inflammation in > 50% of glomeruli,\" with \"Frequently hypertension, nephrotic syndrome, and elevated serum creatinine.\" MSD notes that \"Subendothelial, intramembranous, subepithelial, or mesangial deposits are characteristic\" of lupus nephritis overall, and that \"Elevated anti-dsDNA antibody titers and low complement levels often indicate active lupus nephritis.\"",
+      "whyWrong": {
+        "b": "Subepithelial deposits mark membranous (class V) lupus nephritis. MSD describes it as \"Thickening of the glomerular basement membrane with subepithelial and intramembranous immune complex deposition,\" and your NBME Top Concepts (p. 390) gives its \"spike and dome\" look. Class V does not cause this cell-crowded, nephritic picture.",
+        "c": "Class II disease has \"Immune complexes in the mesangium only and mesangial hypercellularity\" (MSD). It is a milder form that would not involve more than half of the glomeruli with a falling GFR.",
+        "d": "Linear IgG along the basement membrane is seen on immunofluorescence in anti-GBM disease (type 1 RPGN), not with lupus immune complexes (your El-Husseiny nephrology notes, p. 84). Lupus gives a granular pattern (p. 81).",
+        "e": "Effacement of podocyte foot processes with no deposits is the electron microscopy finding of minimal change disease (your El-Husseiny nephrology notes, p. 89). That causes a nephrotic picture, not this nephritic one with red cell casts."
+      },
+      "sources": [
+        {
+          "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Lupus, pp. 388, 390"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Nephrology (Emily's file), Diffuse proliferative glomerulonephritis, p. 81; type 1 RPGN, p. 84; minimal change disease, p. 89"
+        },
+        {
+          "title": "MSD Manual Professional: Lupus Nephritis",
+          "url": "https://www.msdmanuals.com/professional/genitourinary-disorders/glomerular-disorders/lupus-nephritis"
+        }
+      ]
+    },
+    {
+      "id": "histo-proximal-tubule-fanconi-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "Renal & Urinary",
+      "topic": "Kidney histology: proximal tubule cells in Fanconi syndrome",
+      "difficulty": 2,
+      "stem": "A 19-year-old who was treated with ifosfamide for a sarcoma at age 12 comes to the physician because of increased thirst and urination. Serum glucose is 88 mg/dL, but the urine dipstick shows 2+ glucose. Serum phosphate is low, and there is a metabolic acidosis with a normal anion gap. The urine contains large amounts of amino acids.",
+      "leadIn": "The damaged kidney cells are best identified by which normal feature?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Apical brush border of microvilli"
+        },
+        {
+          "id": "b",
+          "text": "Aquaporin-2 channels inserted in response to ADH"
+        },
+        {
+          "id": "c",
+          "text": "Luminal Na-K-2Cl cotransporters"
+        },
+        {
+          "id": "d",
+          "text": "A thin, flat lining that water crosses freely"
+        },
+        {
+          "id": "e",
+          "text": "Renin granules in modified smooth muscle cells"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: an apical brush border of microvilli, the mark of proximal tubule cells. Why: Glucose, amino acids, phosphate and bicarbonate all being lost in the urine with a normal blood glucose is Fanconi syndrome. MSD: \"Fanconi syndrome consists of multiple defects in renal proximal tubular reabsorption, causing glucosuria, phosphaturia, generalized aminoaciduria, and bicarbonate wasting.\" MSD lists chemotherapy drugs (\"eg, ifosfamide, streptozocin\") among the causes and says diagnosis rests on glucosuria \"(in the presence of normal serum glucose), phosphaturia, and aminoaciduria.\" Your El-Husseiny nephrology notes (p. 126) describe the same picture: a general failure of proximal tubule cells, probably from a problem with cell energy, caused by drugs such as ifosfamide, cisplatin and tenofovir, lead, myeloma or inherited diseases such as cystinosis, and leading to type 2 (proximal) renal tubular acidosis. Your Osmosis physiology notes (p. 535) describe these cells: the proximal convoluted tubule is lined by brush border cells whose apical surface facing the lumen is covered with microvilli, which give a large surface for reabsorption.",
+      "whyWrong": {
+        "b": "Aquaporin-2 channels that move to the luminal membrane under ADH belong to the principal cells of the collecting duct (your Osmosis physiology notes, p. 537). Their failure causes water loss, not loss of glucose and amino acids.",
+        "c": "The Na-K-2Cl cotransporter is the main transporter of the thick ascending limb (your Osmosis physiology notes, p. 536). That segment does not reabsorb glucose, amino acids or phosphate.",
+        "d": "The thin descending limb has a thin lining that lets water out into the salty medulla (your Osmosis physiology notes, p. 536). It does not reclaim filtered glucose or amino acids.",
+        "e": "Juxtaglomerular cells are modified smooth muscle cells of the afferent arteriole that secrete renin (your Osmosis physiology notes, p. 513). They do not reabsorb solutes."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Nephrology (Emily's file), Fanconi syndrome, p. 126"
+        },
+        {
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Proximal convoluted tubule, p. 535; loop of Henle, p. 536; collecting duct, p. 537; JG cells, p. 513"
+        },
+        {
+          "title": "MSD Manual Professional: Fanconi Syndrome",
+          "url": "https://www.msdmanuals.com/professional/genitourinary-disorders/renal-transport-abnormalities/fanconi-syndrome"
+        }
+      ]
+    },
+    {
+      "id": "pharm-loop-diuretic-ototoxicity-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Renal & Urinary",
+      "topic": "Diuretics: loop diuretics and ototoxicity",
+      "difficulty": 2,
+      "stem": "A 72-year-old man with chronic kidney disease is admitted with pneumonia and worsening heart failure with lung congestion. He is treated with intravenous gentamicin and with large, rapidly given intravenous doses of a diuretic, and his breathing improves. On day 4, he reports ringing in both ears and trouble following conversation. Serum potassium is 3.1 mEq/L, and serum magnesium is low.",
+      "leadIn": "The diuretic most likely acts on which target?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Na-K-2Cl cotransporter"
+        },
+        {
+          "id": "b",
+          "text": "Na-Cl cotransporter"
+        },
+        {
+          "id": "c",
+          "text": "Epithelial sodium channel"
+        },
+        {
+          "id": "d",
+          "text": "Carbonic anhydrase"
+        },
+        {
+          "id": "e",
+          "text": "Mineralocorticoid receptor"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the Na-K-2Cl cotransporter. Why: A diuretic given intravenously in large doses for lung congestion that causes low potassium, low magnesium and hearing problems is a loop diuretic such as furosemide. Your El-Husseiny nephrology notes (pp. 144-145) say loop diuretics work in the thick ascending limb, where they block the Na/K/2Cl cotransporter, which makes them the most powerful diuretics, the drugs of choice for acute pulmonary edema, and causes loss of potassium, magnesium and calcium. The notes add that ototoxicity is more likely with high doses, rapid intravenous dosing, or use with other ototoxic drugs such as aminoglycosides, salicylates and cisplatin; it shows up as tinnitus, vertigo or hearing loss, is usually reversible, and is worst with ethacrynic acid. MSD warns: \"Ethacrynic acid and furosemide given IV have caused profound, permanent hearing loss in patients with renal failure\" who were also getting aminoglycosides, and \"The risk of ototoxicity increases with the use of multiple medications that have ototoxic potential.\"",
+      "whyWrong": {
+        "b": "Thiazides block the Na-Cl cotransporter in the distal convoluted tubule (your El-Husseiny nephrology notes, pp. 146-147). They increase calcium reabsorption, while loop diuretics make the kidney lose calcium.",
+        "c": "Amiloride and triamterene block the epithelial sodium channel in the collecting duct (your El-Husseiny nephrology notes, pp. 53, 147). They spare potassium, so they would not cause hypokalemia.",
+        "d": "Carbonic anhydrase inhibitors such as acetazolamide act in the proximal tubule and cause bicarbonate loss (your El-Husseiny nephrology notes, pp. 142-143). Loop diuretics, not these, are the drugs of choice for acute pulmonary edema (p. 144).",
+        "e": "Spironolactone and eplerenone block the aldosterone (mineralocorticoid) receptor in the collecting duct (your El-Husseiny nephrology notes, p. 147). They spare potassium, so they would not cause hypokalemia."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Nephrology (Emily's file), Loop diuretics, pp. 144-145; thiazides, p. 146; potassium-sparing diuretics, pp. 53, 147; carbonic anhydrase inhibitors, pp. 142-143"
+        },
+        {
+          "title": "MSD Manual Professional: Drug-Induced Ototoxicity",
+          "url": "https://www.msdmanuals.com/professional/ear-nose-and-throat-disorders/inner-ear-disorders/drug-induced-ototoxicity"
+        }
+      ]
+    },
+    {
+      "id": "micro-staph-saprophyticus-uti-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Renal & Urinary",
+      "topic": "Urinary tract infection: Staphylococcus saprophyticus",
+      "difficulty": 2,
+      "stem": "A 20-year-old woman comes to the student health clinic because of 2 days of burning with urination and an urgent need to urinate. Her symptoms began a few days after she became sexually active with a new partner. She has no fever or flank pain. Urinalysis shows many white blood cells, and the nitrite test is negative. Urine culture grows gram-positive cocci in clusters that are catalase-positive and coagulase-negative.",
+      "leadIn": "Which laboratory result would best identify the organism?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Resistance to novobiocin"
+        },
+        {
+          "id": "b",
+          "text": "Sensitivity to novobiocin"
+        },
+        {
+          "id": "c",
+          "text": "Sensitivity to optochin"
+        },
+        {
+          "id": "d",
+          "text": "Sensitivity to bacitracin"
+        },
+        {
+          "id": "e",
+          "text": "Growth in 6.5% sodium chloride"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: resistance to novobiocin, which identifies Staphylococcus saprophyticus. Why: Your El-Husseiny microbiology notes (pp. 45-46) say S. saprophyticus is a catalase-positive, coagulase-negative staphylococcus that causes almost half of urinary tract infections in sexually active young women, second only to E. coli, and that novobiocin separates it from S. epidermidis: S. saprophyticus is resistant and S. epidermidis is sensitive. StatPearls agrees that it is \"a common cause of uncomplicated urinary tract infections (UTIs), particularly in young sexually active females,\" that \"In females ages 16 to 25, it causes up to 42% of all infections,\" and that \"S. saprophyticus can be differentiated from another coagulase-negative staphylococcus by its resistance to Novobiocin.\" It also explains her negative nitrite test: \"Like most other gram-positive uropathogens, S. saprophyticus does not reduce nitrate to nitrite.\"",
+      "whyWrong": {
+        "b": "Novobiocin sensitivity identifies S. epidermidis (your El-Husseiny microbiology notes, pp. 45-46), a skin organism that infects catheters, prosthetic valves and joints rather than causing cystitis in healthy young women.",
+        "c": "Optochin sensitivity identifies Streptococcus pneumoniae, which is catalase-negative (your El-Husseiny microbiology notes, p. 47).",
+        "d": "Bacitracin sensitivity identifies group A streptococcus (Streptococcus pyogenes), which is catalase-negative (your El-Husseiny microbiology notes, pp. 47, 49).",
+        "e": "Growth in 6.5% salt and bile identifies enterococci (your El-Husseiny microbiology notes, p. 61). Enterococci can cause UTIs, but they are catalase-negative streptococci, not staphylococci in clusters."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Staphylococci, pp. 45-46; streptococci, pp. 47, 49, 61"
+        },
+        {
+          "title": "StatPearls: Staphylococcus saprophyticus Infection",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK482367/"
+        }
+      ]
+    },
+    {
+      "id": "neuro-spinal-cord-injury-bladder-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Renal & Urinary",
+      "topic": "Neurogenic bladder: spinal cord injury above the sacral cord",
+      "difficulty": 2,
+      "stem": "A 31-year-old man had a complete spinal cord injury at the T6 level in a motorcycle crash 4 months ago. He now leaks small amounts of urine several times a day without warning. Ultrasonography right after he tries to void shows a moderate volume of urine left in the bladder. Reflexes in both legs are brisk, and toes go up on plantar testing.",
+      "leadIn": "Urodynamic testing is most likely to show which pattern?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Detrusor contractions with a contracting external sphincter"
+        },
+        {
+          "id": "b",
+          "text": "A large, atonic bladder that fills without contracting"
+        },
+        {
+          "id": "c",
+          "text": "Leakage only with coughing, with normal detrusor activity"
+        },
+        {
+          "id": "d",
+          "text": "Normal detrusor activity with outflow blocked by the prostate"
+        },
+        {
+          "id": "e",
+          "text": "Normal bladder filling and coordinated, complete emptying"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: detrusor contractions while the external sphincter also contracts (detrusor-sphincter dyssynergia). Why: The brain and brainstem normally hold back the bladder reflex and make the sphincter relax when the bladder contracts. MSD says \"The CNS inhibits voiding until the appropriate time and coordinates and facilitates input from the lower urinary tract.\" A spinal cord injury above the sacral segments cuts these descending pathways. MSD says a spastic bladder \"usually results from brain damage or spinal cord damage above T12,\" that \"Bladder contraction and external urinary sphincter relaxation are typically uncoordinated (detrusor-sphincter dyssynergia),\" and that \"sphincter spasm during voiding may prevent complete bladder emptying.\" That is why he leaks small amounts and still has urine left over. Your El-Husseiny nephrology notes (pp. 104, 106) explain that normal voiding needs bladder pressure to rise while urethral pressure falls, and that a spinal cord lesion (for example in multiple sclerosis) leaves a spastic bladder because the inhibiting upper motor neuron control is lost. His brisk reflexes and upgoing toes are other upper motor neuron signs.",
+      "whyWrong": {
+        "b": "A large bladder that does not contract is a flaccid bladder. MSD says it \"may result from peripheral nerve damage or spinal cord damage at the S2 to S4 level,\" and \"Overflow incontinence is the primary symptom.\" His injury is at T6, above the sacral reflex center.",
+        "c": "Leakage only with coughing or sneezing is stress incontinence from a weak pelvic floor, which your El-Husseiny nephrology notes (p. 105) link to childbirth, obesity and pelvic or prostate surgery.",
+        "d": "Outlet blockage by an enlarged prostate causes overflow incontinence in older men (your El-Husseiny nephrology notes, p. 107). A 31-year-old with a cord injury and brisk reflexes has a neurologic cause.",
+        "e": "Normal filling and complete emptying would not explain his leaks or the leftover urine, and the injury cuts the pathways that coordinate voiding (MSD)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Nephrology (Emily's file), Continence and incontinence, pp. 104-107"
+        },
+        {
+          "title": "MSD Manual Professional: Neurogenic Bladder",
+          "url": "https://www.msdmanuals.com/professional/genitourinary-disorders/voiding-disorders/neurogenic-bladder"
+        }
+      ]
+    },
+    {
+      "id": "biostats-smr-dialysis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biostatistics & Epidemiology",
+      "system": "Renal & Urinary",
+      "topic": "Mortality measures: standardized mortality ratio",
+      "difficulty": 2,
+      "stem": "A regional health department reviews deaths at its dialysis centers over 1 year. For one center that treated 500 patients, it applies the age-specific death rates of a national reference population of dialysis patients to the ages of that center's patients and finds that 40 deaths would be expected. The center actually had 50 deaths during the year.",
+      "leadIn": "What is the standardized mortality ratio for this center?",
+      "options": [
+        {
+          "id": "a",
+          "text": "1.25"
+        },
+        {
+          "id": "b",
+          "text": "0.80"
+        },
+        {
+          "id": "c",
+          "text": "0.10"
+        },
+        {
+          "id": "d",
+          "text": "0.08"
+        },
+        {
+          "id": "e",
+          "text": "10"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: 1.25. Why: The standardized mortality ratio (SMR) is observed deaths divided by expected deaths, as your biostatistics summary sheet (first page of your biostats file) states. Here that is 50 ÷ 40 = 1.25. The expected number comes from applying a standard population's age-specific death rates to the study group, which removes the effect of the group being older or younger. The New Jersey health department's guide gives the same definition: \"the number of observed deaths in the study population divided by the number of expected deaths,\" with expected deaths found by multiplying each standard age-specific death rate by the study group's numbers. That guide multiplies the ratio by 100, so this center's SMR would be shown as 125, and \"A SMR of above 100 means the number of observed deaths is greater than what would be expected.\" In plain words, this center had 25% more deaths than expected for patients of the same ages.",
+      "whyWrong": {
+        "b": "0.80 is expected divided by observed (40 ÷ 50), the ratio upside down. An SMR below 1 would wrongly suggest fewer deaths than expected.",
+        "c": "0.10 is the crude proportion of patients who died (50 ÷ 500). It ignores the age-based expected count that the SMR is built on.",
+        "d": "0.08 is the expected proportion of deaths (40 ÷ 500), not a comparison of observed with expected deaths.",
+        "e": "10 is the number of excess deaths (50 - 40). The SMR is a ratio, not a difference."
+      },
+      "sources": [
+        {
+          "title": "USMLE Epidemiology and Biostatistics summary sheet by Rishi Kumar (first page of Emily's biostats file), standardized mortality ratio"
+        },
+        {
+          "title": "New Jersey Department of Health, State Health Assessment Data: Standardized Mortality Ratio (Indirect Age-Adjusted Death Rate)",
+          "url": "https://www-doh.nj.gov/doh-shad/contentfile/sharedstatic/StandardizedMortalityRatio.pdf"
+        }
+      ]
+    },
+    {
+      "id": "path-osteoid-osteoma-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Musculoskeletal",
+      "topic": "Benign bone tumors: osteoid osteoma",
+      "difficulty": 2,
+      "stem": "A 17-year-old boy has had aching pain in the right thigh for 3 months. The pain is worst at night and often wakes him, and it goes away within an hour after he takes ibuprofen. He has had no injury, fever or weight loss. Examination shows mild tenderness over the front of the right femur, with no swelling or warmth.",
+      "leadIn": "CT of the femur is most likely to show which finding?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Small lucent nidus with dense surrounding sclerosis"
+        },
+        {
+          "id": "b",
+          "text": "Sunburst periosteal reaction with a Codman triangle"
+        },
+        {
+          "id": "c",
+          "text": "Onion-skin layering of the periosteum"
+        },
+        {
+          "id": "d",
+          "text": "Expansile lytic lesion with a soap-bubble look"
+        },
+        {
+          "id": "e",
+          "text": "Bony stalk capped by cartilage"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: a small lucent nidus surrounded by dense sclerotic bone, the picture of osteoid osteoma. Why: Your El-Husseiny musculoskeletal notes (p. 129) describe osteoid osteoma as a benign tumor of osteoblasts making osteoid, ringed by reactive bone, seen mostly in young males under 25 in the cortex of long bones such as the femur. It causes bone pain that is worse at night and goes away with aspirin, and imaging shows a mass under 2 cm with a lucent center. MSD agrees that patients are \"commonly aged 5 to 25,\" that \"It can cause pain that is usually worse at night,\" and that \"Pain is characteristically relieved by nonsteroidal anti-inflammatory drugs (NSAIDs) that target prostaglandins.\" MSD: \"Characteristic appearance on imaging studies is a small radiolucent nidus surrounded by a sclerotic zone,\" and \"percutaneous radiofrequency ablation (RFA) provides permanent relief in most cases.\" The notes add that osteoblastoma looks similar but is larger than 2 cm, favors the vertebrae and is not relieved by aspirin.",
+      "whyWrong": {
+        "b": "A sunburst periosteal reaction and Codman triangle are the x-ray signs of osteosarcoma, which usually arises in the metaphysis near the knee and presents with pain, swelling or a fracture (your El-Husseiny musculoskeletal notes, p. 131). Its pain does not melt away with ibuprofen.",
+        "c": "Onion-skin periosteal reaction is the sign of Ewing sarcoma, an aggressive small round blue cell tumor of the diaphysis in children, usually under 15 (your El-Husseiny musculoskeletal notes, p. 132).",
+        "d": "A soap-bubble lytic lesion in the epiphysis near the knee is a giant cell tumor of young adults (your El-Husseiny musculoskeletal notes, p. 130). MSD describes these as \"expansile lytic lesions on imaging.\"",
+        "e": "A bony outgrowth capped by cartilage is an osteochondroma, the most common benign bone tumor (your El-Husseiny musculoskeletal notes, p. 130; MSD). It is usually a painless lump, not a cause of night pain relieved by NSAIDs."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Bone tumors, pp. 129-132"
+        },
+        {
+          "title": "MSD Manual Professional: Benign Bone Tumors and Cysts",
+          "url": "https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/tumors-of-bones-and-joints/benign-bone-tumors-and-cysts"
+        }
+      ]
+    },
+    {
+      "id": "path-psoriatic-arthritis-nails-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Musculoskeletal",
+      "topic": "Seronegative arthritis: psoriatic arthritis",
+      "difficulty": 2,
+      "stem": "A 44-year-old man has had pain and swelling in several finger joints for 6 months. The involved joints are the distal interphalangeal joints of the left index finger and the right ring finger, and his whole left third toe is swollen like a sausage. X-rays of the hands show erosions at the distal interphalangeal joints, where the end of one bone has worn to a narrow point that sits in a widened, cup-shaped base. Serum rheumatoid factor is negative.",
+      "leadIn": "Further examination is most likely to show which finding?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pitting of the fingernails"
+        },
+        {
+          "id": "b",
+          "text": "Heberden nodes with no inflammation"
+        },
+        {
+          "id": "c",
+          "text": "Nodules on the extensor forearms"
+        },
+        {
+          "id": "d",
+          "text": "Chalky nodules on the ear helix"
+        },
+        {
+          "id": "e",
+          "text": "Rash over the cheeks and nose"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: pitting of the fingernails. Why: Swelling of whole digits (dactylitis), uneven involvement of the distal interphalangeal joints and \"pencil-in-cup\" erosions are psoriatic arthritis. Your NBME Top Concepts (p. 385) ties the pencil-in-cup x-ray to a patient with a scaly rash and arthritis. Your El-Husseiny musculoskeletal notes (p. 140) say psoriatic arthritis occurs in about 10% of people with psoriasis, goes with skin and nail lesions, is asymmetric and patchy, favors the distal interphalangeal joints, and causes sausage digits and pencil-in-cup changes. MSD agrees that it has \"a tendency to affect distal interphalangeal joints of fingers and toes,\" that \"Inflammation of the flexor tendons of fingers, toes, or both may lead to sausage-shaped deformities (dactylitis),\" and that \"these patients should be examined for psoriasis and nail pitting.\" MSD adds that \"Risk is increased in patients with human leukocyte antigen B27 (HLA-B27) or some other specific alleles,\" and that RF is only occasionally positive.",
+      "whyWrong": {
+        "b": "Heberden nodes are bony outgrowths at the distal interphalangeal joints in osteoarthritis (your El-Husseiny musculoskeletal notes, p. 134). Osteoarthritis does not cause sausage digits or pencil-in-cup erosions.",
+        "c": "Rheumatoid nodules over pressure points are an extra-articular feature of rheumatoid arthritis (your El-Husseiny musculoskeletal notes, p. 138). RA usually spares the distal interphalangeal joints.",
+        "d": "Chalky nodules on the ear are tophi, uric acid deposits of chronic gout that also form at the olecranon bursa and Achilles tendon (your El-Husseiny musculoskeletal notes, p. 144).",
+        "e": "A butterfly rash over the cheeks and nose is a feature of lupus (your NBME Top Concepts, p. 390). Lupus arthritis does not erode bone into a pencil-in-cup shape."
+      },
+      "sources": [
+        {
+          "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Seronegative spondyloarthritis, p. 385; lupus, p. 390"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Psoriatic arthritis, p. 140; osteoarthritis, p. 134; rheumatoid arthritis, p. 138; gout, p. 144"
+        },
+        {
+          "title": "MSD Manual Professional: Psoriatic Arthritis",
+          "url": "https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/joint-disorders/psoriatic-arthritis"
+        }
+      ]
+    },
+    {
+      "id": "histo-type-i-muscle-fibers-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "Musculoskeletal",
+      "topic": "Skeletal muscle: type I (slow oxidative) fibers",
+      "difficulty": 2,
+      "stem": "As part of a research study, a muscle biopsy is taken from the paraspinal muscles of a 26-year-old marathon runner. Most fibers are small, each is surrounded by many capillaries, and the fresh sample looks dark red.",
+      "leadIn": "Compared with the other main fiber type, these fibers have which property?",
+      "options": [
+        {
+          "id": "a",
+          "text": "More mitochondria and myoglobin"
+        },
+        {
+          "id": "b",
+          "text": "Faster myosin ATPase activity"
+        },
+        {
+          "id": "c",
+          "text": "Larger motor units"
+        },
+        {
+          "id": "d",
+          "text": "Greater reliance on anaerobic glycolysis"
+        },
+        {
+          "id": "e",
+          "text": "Larger glycogen stores"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: more mitochondria and myoglobin. Why: Small, red fibers with many capillaries in a postural muscle of an endurance athlete are type I (slow oxidative) fibers. Your El-Husseiny musculoskeletal notes (p. 84) describe type I fibers as small, slow and red, with small motor units, lower ATPase activity, aerobic metabolism, many capillaries and a lot of myoglobin and mitochondria. They give low, steady force for posture, and the paraspinal muscles are mostly made of them. Type II (fast white) fibers are larger, have large motor units and high ATPase activity, depend on anaerobic glycolysis and have little myoglobin. OpenStax agrees: \"The SO fibers possess a large number of mitochondria,\" \"The myoglobin stores some of the needed O2 within the fibers themselves,\" and \"SO fibers are extensively supplied with blood capillaries,\" which gives them their red color.",
+      "whyWrong": {
+        "b": "Fast myosin ATPase belongs to type II fibers. OpenStax: \"Fast fibers hydrolyze ATP approximately twice as quickly as slow fibers.\"",
+        "c": "Large motor units go with type II fibers, which make brief, forceful movements; type I fibers have small motor units (your El-Husseiny musculoskeletal notes, p. 84).",
+        "d": "Fast glycolytic fibers depend on anaerobic glycolysis. OpenStax: \"FG fibers primarily use anaerobic glycolysis as their ATP source.\"",
+        "e": "Large glycogen stores belong to fast glycolytic fibers. OpenStax: \"They have a large diameter and possess high amounts of glycogen.\""
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Muscle fiber types, p. 84"
+        },
+        {
+          "title": "OpenStax Anatomy and Physiology 2e, 10.5 Types of Muscle Fibers",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-5-types-of-muscle-fibers"
+        }
+      ]
+    },
+    {
+      "id": "neuro-golgi-tendon-organ-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Musculoskeletal",
+      "topic": "Muscle proprioceptors: Golgi tendon organ and autogenic inhibition",
+      "difficulty": 2,
+      "stem": "During a strength test, a 30-year-old weightlifter tries to curl a dumbbell heavier than any lifted before. While the biceps contracts as hard as possible against the load, the arm suddenly gives way and the weight drops. There is no pain, and arm strength is normal a few minutes later.",
+      "leadIn": "Which receptor most likely triggered the sudden relaxation?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Golgi tendon organ"
+        },
+        {
+          "id": "b",
+          "text": "Muscle spindle"
+        },
+        {
+          "id": "c",
+          "text": "Pacinian corpuscle"
+        },
+        {
+          "id": "d",
+          "text": "Meissner corpuscle"
+        },
+        {
+          "id": "e",
+          "text": "Free nerve ending"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the Golgi tendon organ. Why: Your El-Husseiny musculoskeletal notes (p. 85) say the Golgi tendon organ senses tension and, when a muscle pulls too hard, inhibits that muscle so it suddenly relaxes, which protects the muscle and tendon from damage. It is a negative feedback system for muscle tension. Neuroscience Online explains the circuit: \"When tension is applied to a muscle, the Group Ib fibers that innervate the Golgi tendon organ are activated.\" The Ib fiber excites an interneuron in the spinal cord, and \"This interneuron makes an inhibitory synapse onto the alpha motor neuron that innervates the same muscle.\" It adds: \"The Golgi tendon organ is involved in a spinal reflex known as the autogenic inhibition reflex.\"",
+      "whyWrong": {
+        "b": "The muscle spindle senses muscle length and how fast it stretches, through type Ia and II fibers, and it makes the stretched muscle contract (your El-Husseiny musculoskeletal notes, p. 84). Neuroscience Online: \"The myotatic reflex is initiated by the muscle spindle, not the Golgi tendon organ.\"",
+        "c": "Pacinian corpuscles in deep skin, ligaments and joints sense pressure and high-frequency vibration (your El-Husseiny neurology notes, p. 142). They do not shut off a contracting muscle.",
+        "d": "Meissner corpuscles in hairless skin sense light touch and low-frequency vibration (your El-Husseiny neurology notes, p. 142).",
+        "e": "Free nerve endings carry pain and temperature over Aδ and C fibers (your El-Husseiny neurology notes, p. 142). He had no pain, and these fibers do not drive autogenic inhibition."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Muscle proprioceptors, pp. 84-85"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Sensory receptors, p. 142"
+        },
+        {
+          "title": "Neuroscience Online (UTHealth Houston), Section 3, Chapter 2: Spinal Reflexes and Descending Motor Pathways",
+          "url": "https://nba.uth.tmc.edu/neuroscience/s3/chapter02.html"
+        }
+      ]
+    },
+    {
+      "id": "biostats-rrr-hip-fracture-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biostatistics & Epidemiology",
+      "system": "Musculoskeletal",
+      "topic": "Measures of risk: relative risk reduction",
+      "difficulty": 2,
+      "stem": "In a 3-year randomized trial, 2,000 postmenopausal women with osteoporosis are assigned to a new bone-building drug or to placebo. Hip fractures occur in 30 of the 1,000 women in the placebo group and in 18 of the 1,000 women in the drug group.",
+      "leadIn": "What is the relative risk reduction with the drug?",
+      "options": [
+        {
+          "id": "a",
+          "text": "40%"
+        },
+        {
+          "id": "b",
+          "text": "60%"
+        },
+        {
+          "id": "c",
+          "text": "1.2%"
+        },
+        {
+          "id": "d",
+          "text": "3.0%"
+        },
+        {
+          "id": "e",
+          "text": "12%"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: 40%. Why: The risk of hip fracture is 30/1,000 = 3.0% with placebo and 18/1,000 = 1.8% with the drug. The relative risk is 1.8% ÷ 3.0% = 0.6. Your First Aid biostatistics pages (p. 258) define the relative risk reduction as the share of the baseline risk that the treatment removes, worked out from the relative risk. The Cochrane Handbook says \"Relative risk reduction (RRR) is a convenient way of re-expressing a risk ratio as a percentage reduction,\" with \"RRR = 100% × (1 – RR).\" Here that is 100% × (1 - 0.6) = 40%. The same result as an absolute risk reduction is only 1.2 percentage points, and the number needed to treat for 3 years to prevent one hip fracture is 1 ÷ 0.012, about 83 (First Aid, p. 258).",
+      "whyWrong": {
+        "b": "60% is the relative risk itself (0.6) written as a percentage. It is the risk that remains, not the risk removed.",
+        "c": "1.2% is the absolute risk reduction (3.0% - 1.8%). Cochrane calls this difference the absolute risk reduction, which is not the same as the relative reduction.",
+        "d": "3.0% is the baseline risk in the placebo group, not a measure of the drug's effect.",
+        "e": "12% comes from misplacing a decimal in the absolute risk reduction (12 fewer fractures per 1,000 is 1.2%)."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Quantifying risk, p. 258"
+        },
+        {
+          "title": "Cochrane Handbook for Systematic Reviews of Interventions (v5.1), 12.5.1: Relative and absolute risk reductions",
+          "url": "https://training-noproxy.cochrane.org/handbook/archive/v5.1/chapter_12/12_5_1_relative_and_absolute_risk_reductions.htm"
+        }
+      ]
+    },
+    {
+      "id": "pharm-methotrexate-dhfr-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Musculoskeletal",
+      "topic": "Rheumatoid arthritis drugs: methotrexate",
+      "difficulty": 2,
+      "stem": "A 52-year-old woman with rheumatoid arthritis starts a drug that she takes once a week, and over the next 2 months her morning stiffness and joint swelling improve. She then develops painful sores in her mouth. Her mean corpuscular volume has risen from 90 to 104 fL. A daily vitamin supplement is added, and the sores heal while she continues the weekly drug.",
+      "leadIn": "The weekly drug most likely inhibits which enzyme?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dihydrofolate reductase"
+        },
+        {
+          "id": "b",
+          "text": "Dihydroorotate dehydrogenase"
+        },
+        {
+          "id": "c",
+          "text": "Inosine monophosphate dehydrogenase"
+        },
+        {
+          "id": "d",
+          "text": "Xanthine oxidase"
+        },
+        {
+          "id": "e",
+          "text": "Cyclooxygenase-2"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: dihydrofolate reductase, the target of methotrexate. Why: Your El-Husseiny musculoskeletal notes (pp. 212-213) say methotrexate is the usual first-line disease-modifying drug for moderate to severe rheumatoid arthritis and helps about 60-70% of patients. Your Pharmacology High Yield notes (PDF p. 102) list it as an antifolate that competitively inhibits dihydrofolate reductase, with bone marrow suppression, GI toxicity and liver damage as side effects. Your El-Husseiny hematology notes (p. 37) list methotrexate among the drug causes of folate deficiency, which gives a macrocytic anemia with an MCV over 100 fL. MSD: \"Methotrexate is a folate antagonist with immunosuppressive effects at high dose,\" given as \"Methotrexate 10 to 15 mg orally once a week (with folic acid 1 mg orally once/day),\" and \"Supplemental folate, typically given as folic acid 1 mg orally once/day, reduces the likelihood of adverse effects.\" MSD lists stomatitis and bone marrow suppression among its adverse effects. For a serious overdose, the antidote is folinic acid (leucovorin) (your Pharmacology High Yield notes, PDF p. 110).",
+      "whyWrong": {
+        "b": "Leflunomide inhibits dihydroorotate dehydrogenase and blocks pyrimidine synthesis (your El-Husseiny musculoskeletal notes, p. 213). It is not a folate antagonist.",
+        "c": "Mycophenolate inhibits inosine monophosphate dehydrogenase and blocks guanine nucleotide synthesis in lymphocytes (FDA label). It is not a weekly rheumatoid arthritis drug.",
+        "d": "Allopurinol inhibits xanthine oxidase to lower uric acid in chronic gout (your El-Husseiny musculoskeletal notes, p. 218). It does not treat rheumatoid arthritis.",
+        "e": "Celecoxib selectively inhibits cyclooxygenase-2 (your El-Husseiny musculoskeletal notes, p. 210). NSAIDs ease symptoms but do not change the course of rheumatoid arthritis, and they do not cause folate-related mouth sores."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Disease-modifying antirheumatic drugs, pp. 212-213; celecoxib, p. 210; allopurinol, p. 218"
+        },
+        {
+          "title": "Pharmacology High Yield (Emily's file), Methotrexate, PDF pp. 102, 110"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Hematology-Oncology (Emily's file), Folate deficiency, p. 37"
+        },
+        {
+          "title": "MSD Manual Professional: Rheumatoid Arthritis (RA)",
+          "url": "https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/joint-disorders/rheumatoid-arthritis-ra"
+        },
+        {
+          "title": "FDA prescribing information: CellCept (mycophenolate mofetil), via DailyMed",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=37241e87-4af4-4dc3-a1aa-ea6f20d8dc40"
+        }
+      ]
+    },
+    {
+      "id": "path-osteonecrosis-glucocorticoid-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Musculoskeletal",
+      "topic": "Osteonecrosis of the femoral head",
+      "difficulty": 2,
+      "stem": "A 34-year-old woman with systemic lupus erythematosus has had deep, aching pain in the right groin for 6 weeks. The pain spreads to the thigh and is worse when she walks. Eighteen months ago, a lupus flare was treated with high-dose prednisone for several months. She has no fever. X-rays of the hip are normal. MRI shows a sharply outlined area of abnormal signal just beneath the joint surface at the top of the right femoral head.",
+      "leadIn": "Which mechanism best explains her hip pain?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Loss of blood supply to bone"
+        },
+        {
+          "id": "b",
+          "text": "Bacterial infection of the joint space"
+        },
+        {
+          "id": "c",
+          "text": "Wear of cartilage with osteophytes"
+        },
+        {
+          "id": "d",
+          "text": "Crystal deposits in the joint"
+        },
+        {
+          "id": "e",
+          "text": "Slipping of the femoral head at the growth plate"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: loss of blood supply to bone (osteonecrosis, also called avascular necrosis). Why: Your El-Husseiny musculoskeletal notes (p. 56) say that in osteonecrosis, part of a bone dies after its blood supply is cut off. The femoral head depends mostly on the medial femoral circumflex artery, and blocked end arteries lead to necrosis and collapse of the bone and cartilage under the joint. The notes say it is a common complication of lupus because of vessel wall injury, and that glucocorticoid treatment greatly raises the risk. MSD lists \"Glucocorticoid use (particularly with prolonged use and/or higher doses)\" and lupus as risk factors and says \"the use of glucocorticoids as part of the treatment remains the strongest predictor of osteonecrosis risk.\" MSD: \"Osteonecrosis most commonly affects the hip (femoral head),\" and \"Osteonecrosis of the hip causes groin pain that may radiate down the thigh or into the buttock.\" X-rays \"may show no abnormalities for months,\" while MRI is \"much more sensitive and more specific.\" Without treatment, the dead area often collapses.",
+      "whyWrong": {
+        "b": "Septic arthritis usually presents as a warm joint with limited motion, often with fever, a high white cell count and a high ESR (your El-Husseiny musculoskeletal notes, p. 146). She has no fever, and the MRI shows a lesion inside the femoral head.",
+        "c": "Osteoarthritis comes from wear of cartilage with osteophytes, joint space narrowing and subchondral sclerosis that show on x-ray (your El-Husseiny musculoskeletal notes, p. 134). Her x-rays are normal.",
+        "d": "Crystal arthritis such as gout causes sudden attacks of a red, hot joint, and chronic gout forms tophi (your El-Husseiny musculoskeletal notes, p. 144). That does not match her slow, deep hip pain after steroids.",
+        "e": "Slipped capital femoral epiphysis is a fracture through the weak growth plate in early adolescence, classically in an obese child, and is seen on x-ray (your El-Husseiny musculoskeletal notes, p. 111). She is an adult with normal x-rays."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Avascular necrosis of the femoral head, p. 56; slipped capital femoral epiphysis, p. 111; osteoarthritis, p. 134; gout, p. 144; septic arthritis, p. 146"
+        },
+        {
+          "title": "MSD Manual Professional: Osteonecrosis (ON)",
+          "url": "https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/osteonecrosis/osteonecrosis-on"
+        }
+      ]
+    },
+    {
+      "id": "path-mantle-cell-lymphoma-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Non-Hodgkin lymphoma: mantle cell lymphoma",
+      "difficulty": 2,
+      "stem": "A 66-year-old man has had night sweats, a 6-kg (13-lb) weight loss and painless swelling in his neck and groin for 3 months. Examination shows enlarged lymph nodes in several areas and an enlarged spleen. Colonoscopy, done because of blood in the stool, shows many small polyps throughout the colon, and biopsy shows sheets of small lymphocytes. Flow cytometry of a lymph node shows B cells that are CD5-positive and CD23-negative.",
+      "leadIn": "Which chromosomal translocation is most likely present in the tumor cells?",
+      "options": [
+        {
+          "id": "a",
+          "text": "t(11;14)"
+        },
+        {
+          "id": "b",
+          "text": "t(14;18)"
+        },
+        {
+          "id": "c",
+          "text": "t(8;14)"
+        },
+        {
+          "id": "d",
+          "text": "t(11;18)"
+        },
+        {
+          "id": "e",
+          "text": "t(9;22)"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: t(11;14). Why: An older man with widespread lymph nodes, gut involvement and small B cells that are CD5-positive but CD23-negative has mantle cell lymphoma. Your El-Husseiny hematology-oncology notes (p. 73) describe it as a cancer of small CD20-positive B cells that expands the mantle zone, presents in late adulthood with painless lymph node swelling, and is driven by t(11;14), which moves the cyclin D1 gene next to the immunoglobulin heavy chain gene. Too much cyclin D1 pushes cells through the G1/S checkpoint. StatPearls agrees: \"MCL is characterized by reciprocal chromosomal translocation t(11;14)(q13:q32),\" which \"leads to constitutive expression of cyclin D1 (CCND1).\" It explains the flow result: \"Both SLL/CLL and mantle cell lymphoma are CD5-positive, mature B-cell lymphomas,\" but \"Mantle cell lymphoma is typically negative for CD23.\" It adds that MCL \"is more common in men (3 to 1),\" that the median age is 60 to 70, and that \"Extranodal involvement, especially of the gastrointestinal tract, spleen, and bone marrow, is fairly common in MCL.\"",
+      "whyWrong": {
+        "b": "t(14;18) moves BCL2 next to the heavy chain gene in follicular lymphoma, blocking apoptosis (your El-Husseiny hematology-oncology notes, p. 72). Follicular lymphoma cells are not CD5-positive.",
+        "c": "t(8;14) moves c-myc in Burkitt lymphoma, which classically presents in a child or young adult as a fast-growing extranodal mass in the jaw or abdomen (your El-Husseiny hematology-oncology notes, p. 73).",
+        "d": "t(11;18) is linked to marginal zone lymphoma, which arises in chronic inflammation such as Sjögren syndrome, Hashimoto thyroiditis or H. pylori gastritis (your El-Husseiny hematology-oncology notes, p. 73).",
+        "e": "t(9;22), the Philadelphia chromosome, makes the BCR-ABL fusion protein of chronic myeloid leukemia (your El-Husseiny hematology-oncology notes, p. 66). It is not a B-cell lymphoma translocation."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Hematology-Oncology (Emily's file), Non-Hodgkin lymphomas, pp. 72-73; CML, p. 66"
+        },
+        {
+          "title": "StatPearls: Mantle Cell Lymphoma",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK536985/"
+        }
+      ]
+    },
+    {
+      "id": "path-myelofibrosis-megakaryocytes-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Myeloproliferative neoplasms: primary myelofibrosis",
+      "difficulty": 3,
+      "stem": "A 68-year-old woman has had fatigue, early fullness after meals and night sweats for 4 months. Examination shows a spleen that reaches 12 cm below the left costal margin. Hemoglobin is 8.9 g/dL. The blood smear shows red cells shaped like teardrops, nucleated red cells and immature granulocytes. A bone marrow aspirate yields no cells, and the biopsy shows dense reticulin and collagen fibers. Testing finds a JAK2 V617F mutation.",
+      "leadIn": "Growth factors released by which cell type mainly drive the marrow fibrosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Megakaryocytes"
+        },
+        {
+          "id": "b",
+          "text": "Plasma cells"
+        },
+        {
+          "id": "c",
+          "text": "Mast cells"
+        },
+        {
+          "id": "d",
+          "text": "Osteoclasts"
+        },
+        {
+          "id": "e",
+          "text": "Activated T lymphocytes"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: megakaryocytes. Why: Teardrop cells, a leukoerythroblastic smear, a dry tap and a huge spleen point to primary myelofibrosis. Your El-Husseiny hematology-oncology notes (p. 70) describe it as a cancerous growth of mature myeloid cells, especially megakaryocytes, linked to JAK2 in 30-50% of cases. The megakaryocytes release too much platelet-derived growth factor (PDGF), which scars the marrow; blood cells are then made in the spleen, which enlarges, and the smear shows teardrop cells. A review in Stem Cell Investigation (Agarwal and colleagues, 2016) describes the release of \"transforming growth factor beta (TGF-β); platelet derived growth factor (PDGF)\" and says \"These growth factors then stimulate fibroblasts to cause fibrosis,\" with \"fibroblasts that are polyclonal in nature.\" The fibrosis is a reaction, not part of the cancer clone. MSD: \"The primary myelofibrosis progeny cells stimulate bone marrow fibroblasts,\" \"teardrop-shaped RBCs (dacryocytes) are a characteristic morphologic feature,\" there is \"extramedullary hematopoiesis (primarily in the spleen),\" and the diagnosis \"is confirmed by detecting a mutation in JAK2, CALR, or MPL.\"",
+      "whyWrong": {
+        "b": "Plasma cells are the cancer cells of multiple myeloma, which make a monoclonal antibody (your El-Husseiny hematology-oncology notes, p. 9). They do not drive marrow fibrosis in this disease.",
+        "c": "Mast cells hold histamine granules (your El-Husseiny hematology-oncology notes, p. 7). In polycythemia vera, more mast cells cause itching after a bath (p. 68), but they are not the source of the fibrosis.",
+        "d": "Osteoclasts resorb bone (your El-Husseiny musculoskeletal notes, pp. 100-101). They do not lay down reticulin and collagen in the marrow.",
+        "e": "The scarring comes from fibroblasts stimulated by growth factors from the neoplastic myeloid cells, mainly megakaryocytes (Agarwal and colleagues; your El-Husseiny hematology-oncology notes, p. 70), not from lymphocytes."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Hematology-Oncology (Emily's file), Myelofibrosis, p. 70; polycythemia vera, p. 68; mast cells, p. 7; plasma cells, p. 9"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Osteoclasts, pp. 100-101"
+        },
+        {
+          "title": "MSD Manual Professional: Primary Myelofibrosis",
+          "url": "https://www.msdmanuals.com/professional/hematology-and-oncology/myeloproliferative-disorders/primary-myelofibrosis"
+        },
+        {
+          "title": "Agarwal A, Morrone K, Bartenstein M, et al. Bone marrow fibrosis in primary myelofibrosis: pathogenic mechanisms and the role of TGF-β. Stem Cell Investigation, 2016",
+          "url": "https://sci.amegroups.org/article/view/9309/9849"
+        }
+      ]
+    },
+    {
+      "id": "histo-reticulocyte-ribosomal-rna-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Red blood cells: reticulocytes and residual RNA",
+      "difficulty": 1,
+      "stem": "Five days after heavy bleeding from a duodenal ulcer, a 47-year-old man has a hemoglobin of 9.1 g/dL. His Wright-stained blood smear shows many red cells that are slightly larger than normal and have a faint blue-gray color. When the blood is stained with new methylene blue, these same cells show a fine, dark network inside them.",
+      "leadIn": "The blue-gray color of these cells is caused by which component?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Leftover ribosomal RNA"
+        },
+        {
+          "id": "b",
+          "text": "Denatured, oxidized hemoglobin"
+        },
+        {
+          "id": "c",
+          "text": "Fragments of nuclear DNA"
+        },
+        {
+          "id": "d",
+          "text": "Iron-laden mitochondria"
+        },
+        {
+          "id": "e",
+          "text": "Excess cell membrane"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: leftover ribosomal RNA. Why: These are reticulocytes, young red cells that the marrow releases in larger numbers after blood loss. Your El-Husseiny hematology-oncology notes say a reticulocyte is an immature red cell whose count reflects how hard the marrow is making red cells, and that its bluish color on Wright-Giemsa stain comes from leftover ribosomal RNA (p. 3). After about a day in the blood, reticulocytes become mature red cells (p. 30). MSD: \"Red cell reticulin is composed of RNA, which is present only in young red cells,\" and \"Reticulocytes are best visualized when blood is stained with a supravital stain.\" On a routine smear they look bluish (polychromasia), and \"The presence of polychromatophilia can provide a rough estimate of reticulocyte production on a routine blood smear.\" MSD adds that, with anemia, \"reticulocytosis suggests excessive RBC destruction, blood loss, or recovery from anemia,\" which fits his recent bleed.",
+      "whyWrong": {
+        "b": "Oxidized, denatured hemoglobin forms Heinz bodies, as in G6PD deficiency, and splenic macrophages bite them out to leave bite cells (your El-Husseiny hematology-oncology notes, p. 50; your NBME Top Concepts, p. 216).",
+        "c": "Fragments of nuclear material in red cells are Howell-Jolly bodies, seen after splenectomy (your El-Husseiny hematology-oncology notes, p. 44). They are small dots, not a diffuse blue color.",
+        "d": "Iron-laden mitochondria ringing the nucleus define ringed sideroblasts, which are red cell precursors in the bone marrow seen with Prussian blue stain (your El-Husseiny hematology-oncology notes, p. 32).",
+        "e": "Excess membrane makes target cells, as in liver disease or after splenectomy (your El-Husseiny hematology-oncology notes, p. 36). MSD describes target cells as \"thin RBCs with a central dot of hemoglobin.\""
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Hematology-Oncology (Emily's file), Reticulocytes, pp. 3, 30; sideroblastic anemia, p. 32; target cells, p. 36; Howell-Jolly bodies, p. 44; Heinz bodies, p. 50"
+        },
+        {
+          "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), RBC inclusions, p. 216"
+        },
+        {
+          "title": "MSD Manual Professional: Evaluation of Anemia",
+          "url": "https://www.msdmanuals.com/professional/hematology-and-oncology/approach-to-the-patient-with-anemia/evaluation-of-anemia"
+        }
+      ]
+    },
+    {
+      "id": "micro-babesiosis-asplenia-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Tick-borne protozoa: babesiosis",
+      "difficulty": 2,
+      "stem": "In July, a 71-year-old man who lives on Nantucket Island, Massachusetts, has had fever, chills, sweats and dark urine for 5 days. His spleen was removed after a car crash 10 years ago. He has not traveled outside the United States. Hemoglobin is 9.0 g/dL, and serum LDH is high. A Giemsa-stained blood smear shows small ring-shaped organisms inside red cells, some red cells contain four organisms arranged in a cross, and no pigment is seen.",
+      "leadIn": "Which is the most appropriate treatment?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Atovaquone plus azithromycin"
+        },
+        {
+          "id": "b",
+          "text": "Chloroquine and then primaquine"
+        },
+        {
+          "id": "c",
+          "text": "Doxycycline alone"
+        },
+        {
+          "id": "d",
+          "text": "Intravenous artesunate"
+        },
+        {
+          "id": "e",
+          "text": "Supportive care only"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: atovaquone plus azithromycin. Why: Hemolysis with ring forms and four-organism \"Maltese cross\" forms in an asplenic man from the northeastern United States is babesiosis. Your El-Husseiny microbiology notes (p. 213) say Babesia microti is spread by the Ixodes tick (the same tick as Lyme disease), causes fever and hemolytic anemia mainly in the northeastern US, is most severe without a spleen, shows ring forms and the Maltese cross on Giemsa stain, and is treated with atovaquone plus azithromycin. MSD: \"Tetrad forms (the so-called Maltese cross formation), although not common, are unique to Babesia,\" Babesia trophozoites \"do not produce pigment,\" and \"Disease is most severe in asplenic patients, older adults, and patients with advanced HIV infection.\" MSD: \"Treat symptomatic patients with atovaquone plus azithromycin or, as an alternative, quinine plus clindamycin,\" and \"Exchange transfusion has been used in severely ill patients with high-grade (> 10% of erythrocytes) parasitemia.\"",
+      "whyWrong": {
+        "b": "Chloroquine treats chloroquine-sensitive malaria, and primaquine is added to clear the dormant liver forms of P. vivax and P. ovale (your El-Husseiny microbiology notes, p. 212). He has not left the US, and the tetrads and lack of pigment point to Babesia (MSD).",
+        "c": "Doxycycline is the first-line drug for Lyme disease (your El-Husseiny microbiology notes, p. 160). MSD notes that Ixodes ticks can carry both organisms, but doxycycline alone does not treat Babesia.",
+        "d": "Artesunate is used for life-threatening malaria (your El-Husseiny microbiology notes, p. 359). It is not the treatment for babesiosis.",
+        "e": "MSD says to treat symptomatic patients, and he is older, has no spleen and has hemolysis, the setting for severe disease."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Babesia, p. 213; malaria, pp. 212, 359; Lyme disease, p. 160"
+        },
+        {
+          "title": "MSD Manual Professional: Babesiosis",
+          "url": "https://www.msdmanuals.com/professional/infectious-diseases/extraintestinal-protozoa/babesiosis"
+        }
+      ]
+    },
+    {
+      "id": "biostats-case-fatality-ttp-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biostatistics & Epidemiology",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Mortality measures: case fatality rate",
+      "difficulty": 2,
+      "stem": "A state registry follows every patient diagnosed with thrombotic thrombocytopenic purpura (TTP) over 5 years in a population of 4 million people. During that time, 200 new cases are diagnosed, and 30 of these patients die of TTP.",
+      "leadIn": "What is the case fatality rate of TTP in this registry?",
+      "options": [
+        {
+          "id": "a",
+          "text": "15%"
+        },
+        {
+          "id": "b",
+          "text": "85%"
+        },
+        {
+          "id": "c",
+          "text": "3% per year"
+        },
+        {
+          "id": "d",
+          "text": "0.15 per 100,000 per year"
+        },
+        {
+          "id": "e",
+          "text": "1 per 100,000 per year"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: 15%. Why: The case fatality rate is the share of people with a disease who die of it: deaths ÷ cases × 100 (your First Aid biostatistics pages, p. 258). Here that is 30 ÷ 200 = 15%. The CDC defines it the same way: \"The case-fatality rate is the proportion of persons with a particular condition (cases) who die from that condition,\" with the numerator the deaths among the cases and the denominator the \"Total number of incident cases.\" The CDC adds: \"It is a measure of the severity of the condition.\" The whole population of 4 million is not part of this calculation, because only people with the disease can die of it.",
+      "whyWrong": {
+        "b": "85% is the share of patients who survived (170 ÷ 200), the opposite of what was asked.",
+        "c": "3% per year spreads the 15% over 5 years. The case fatality rate is a proportion of the cases, not a rate per year.",
+        "d": "0.15 per 100,000 per year is the TTP mortality rate: 30 deaths ÷ (4 million people × 5 years). The CDC says a mortality rate measures \"the frequency of occurrence of death in a defined population,\" so its denominator is everyone, not just the cases.",
+        "e": "1 per 100,000 per year is the incidence of TTP: 200 new cases ÷ (4 million × 5 years). It counts new cases, not deaths."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Quantifying risk, p. 258"
+        },
+        {
+          "title": "CDC, Principles of Epidemiology, Lesson 3, Section 3: Mortality frequency measures",
+          "url": "https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/lesson3/section3.html"
+        }
+      ]
+    },
+    {
+      "id": "pharm-warfarin-reversal-pcc-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Anticoagulant reversal: warfarin-related bleeding",
+      "difficulty": 2,
+      "stem": "A 78-year-old woman with atrial fibrillation who takes warfarin is brought to the emergency department 1 hour after she suddenly developed weakness of the right arm and slurred speech. CT of the head shows a 3-cm hemorrhage in the left basal ganglia. INR is 4.8, and platelet count is 210,000/mm³.",
+      "leadIn": "Which is the most appropriate treatment to reverse her anticoagulation?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Prothrombin complex concentrate and IV vitamin K"
+        },
+        {
+          "id": "b",
+          "text": "Protamine sulfate"
+        },
+        {
+          "id": "c",
+          "text": "Idarucizumab"
+        },
+        {
+          "id": "d",
+          "text": "Andexanet alfa"
+        },
+        {
+          "id": "e",
+          "text": "Oral vitamin K alone, with an INR check the next day"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: prothrombin complex concentrate (PCC) and intravenous vitamin K. Why: Your NBME Top Concepts (p. 207) says warfarin blocks vitamin K epoxide reductase, so factors II, VII, IX and X and proteins C and S are not gamma-carboxylated and stay inactive. It says acute bleeding is treated by replacing clotting factors with fresh frozen plasma or PCC, while vitamin K is the longer-term fix. Your El-Husseiny hematology-oncology notes (pp. 88-89) add that warfarin is followed with the PT/INR and that bleeding risk rises above an INR of 3. MSD says that in brain hemorrhage, anticoagulant effects \"are reversed when possible\" with fresh frozen plasma, \"prothrombin complex concentrate, vitamin K, or platelet transfusions as indicated.\" StatPearls also lists prothrombin complex concentrate for significant bleeding, followed by intravenous vitamin K, and notes that after vitamin K, \"A reduction in INR should occur within 24 hours of administration.\" PCC gives back working clotting factors right away, and vitamin K lets the liver make its own.",
+      "whyWrong": {
+        "b": "Protamine reverses heparin, not warfarin (your NBME Top Concepts, p. 207).",
+        "c": "MSD: \"Antidotes for direct oral anticoagulants are idarucizumab for dabigatran and andexanet alfa for apixaban and rivaroxaban.\" Idarucizumab does not affect warfarin.",
+        "d": "Andexanet alfa reverses apixaban and rivaroxaban (MSD). It does not replace the vitamin K-dependent factors that warfarin depletes.",
+        "e": "Vitamin K alone works too slowly for a brain bleed: StatPearls says the INR falls \"within 24 hours\" of giving it. Her bleeding needs clotting factors replaced at once."
+      },
+      "sources": [
+        {
+          "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Warfarin vs heparin, p. 207"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Hematology-Oncology (Emily's file), Warfarin, pp. 88-89"
+        },
+        {
+          "title": "MSD Manual Professional: Intracerebral Hemorrhage",
+          "url": "https://www.msdmanuals.com/professional/neurologic-disorders/stroke/intracerebral-hemorrhage"
+        },
+        {
+          "title": "StatPearls: Warfarin",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK470313/"
+        }
+      ]
     }
   ]
 }
