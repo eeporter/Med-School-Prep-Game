@@ -46454,6 +46454,1053 @@
           "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/24-3-lipid-metabolism"
         }
       ]
+    },
+    {
+      "id": "path-anaplastic-thyroid-carcinoma-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Endocrine",
+      "topic": "Anaplastic thyroid carcinoma: aggressive growth in older adults",
+      "difficulty": 2,
+      "stem": "A 74-year-old woman comes to the physician because of a neck mass that has grown quickly over 5 weeks. It is now tender, and she has a hoarse voice, trouble swallowing solid food and shortness of breath when lying flat. She has had a small, stable goiter for many years. A hard, fixed 7-cm mass is felt in the left lobe of the thyroid. Fine-needle aspiration shows large, bizarre spindle-shaped and giant cells with many mitoses; there are no psammoma bodies or nuclear grooves.",
+      "leadIn": "Which of the following is most likely true of this tumor?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It grows aggressively and carries a poor prognosis"
+        },
+        {
+          "id": "b",
+          "text": "It usually has an excellent prognosis after surgery"
+        },
+        {
+          "id": "c",
+          "text": "It secretes calcitonin and has amyloid in its stroma"
+        },
+        {
+          "id": "d",
+          "text": "It arises from B cells in a gland with Hashimoto disease"
+        },
+        {
+          "id": "e",
+          "text": "It is the most common type of thyroid cancer"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: it grows aggressively and carries a poor prognosis. Why: A rapidly enlarging, hard, fixed thyroid mass in an older patient, with hoarseness, trouble swallowing and breathlessness, and cytology showing bizarre spindle and giant cells without the features of papillary cancer, is anaplastic (undifferentiated) thyroid carcinoma. Your El-Husseiny endocrine notes (p. 83) describe a highly aggressive cancer with a grim outlook that shows up as a rapidly enlarging neck mass with compressive symptoms (dyspnea, dysphagia, hoarseness), and they point out that it lacks the psammoma bodies and ground-glass nuclei typical of papillary cancer. MSD says it \"occurs mostly in older patients and slightly more often in women,\" that \"The tumor is characterized by rapid, painful enlargement,\" and that although it \"accounts for approximately 1% of thyroid cancers,\" \"it contributes to 20% of the annual thyroid cancer-related mortality.\"",
+      "whyWrong": {
+        "b": "An excellent prognosis after surgery describes papillary carcinoma, which shows psammoma bodies, nuclear grooves and ground-glass nuclei, none of which are present here (your El-Husseiny endocrine notes, p. 83).",
+        "c": "Calcitonin secretion with amyloid stroma describes medullary thyroid carcinoma, which comes from the parafollicular C cells and is linked to MEN 2.",
+        "d": "Thyroid lymphoma also causes rapid enlargement, usually in a gland with Hashimoto thyroiditis, but its cells are sheets of lymphocytes, not bizarre spindle and giant cells.",
+        "e": "Anaplastic carcinoma is rare, about 1% of thyroid cancers according to MSD. Papillary carcinoma is the most common type."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Endocrinology (Emily's file), Thyroid cancers, p. 83"
+        },
+        {
+          "title": "MSD Manual Professional: Thyroid Cancers",
+          "url": "https://www.msdmanuals.com/professional/endocrine-and-metabolic-disorders/thyroid-disorders/thyroid-cancers"
+        }
+      ]
+    },
+    {
+      "id": "path-type-2-diabetes-islet-amyloid-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Endocrine",
+      "topic": "Type 2 diabetes: islet amyloid polypeptide (amylin) deposits",
+      "difficulty": 3,
+      "stem": "A 68-year-old man with obesity and type 2 diabetes for 22 years dies of a myocardial infarction. For the last 6 years he needed insulin injections because oral drugs no longer controlled his glucose. At autopsy, many pancreatic islets contain pink, amorphous material between the endocrine cells. The material shows apple-green birefringence under polarized light after Congo red staining. There is no inflammatory infiltrate in the islets.",
+      "leadIn": "The deposited protein is normally which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Co-secreted with insulin by beta cells"
+        },
+        {
+          "id": "b",
+          "text": "Made by the liver during inflammation"
+        },
+        {
+          "id": "c",
+          "text": "A light chain made by plasma cells"
+        },
+        {
+          "id": "d",
+          "text": "Released by alpha cells to raise glucose"
+        },
+        {
+          "id": "e",
+          "text": "A thyroxine carrier made in the liver"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: co-secreted with insulin by beta cells. Why: Congo red-positive amyloid in the islets of a person with long-standing type 2 diabetes is made of islet amyloid polypeptide (amylin). Your El-Husseiny endocrine notes (pp. 106-107) contrast the two types: type 1 shows a leukocytic infiltrate of the islets (insulitis), while type 2 shows islet amyloid polypeptide; amylin is stored in insulin granules and co-secreted with insulin by beta cells, its deposits are found in the islets of nearly all patients with type 2 diabetes, and it may help cause beta-cell death and poor insulin secretion. A 2022 review in Life says the peptide \"is secreted from β-cells together with insulin,\" that deposits \"have been reported in up to 90% of all T2DM patients,\" and that \"HIAPP aggregates and oligomeric species have been shown to be crucial for β-cell apoptosis and for T2DM development.\" Losing beta cells this way helps explain why he eventually needed insulin.",
+      "whyWrong": {
+        "b": "Serum amyloid A is an acute-phase protein made by the liver. It forms AA amyloid in chronic inflammatory diseases such as rheumatoid arthritis, mainly in the kidneys, liver and spleen.",
+        "c": "Light chains from a plasma cell clone form AL amyloid, which affects the kidneys, heart and nerves. It is not the amyloid found in the islets in type 2 diabetes.",
+        "d": "Glucagon comes from alpha cells, but it does not form amyloid deposits in the islets.",
+        "e": "Transthyretin, the liver protein that carries thyroxine, forms amyloid in the heart and nerves, not in the pancreatic islets of people with diabetes."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Endocrinology (Emily's file), Type 1 versus type 2 diabetes and amylin, pp. 106-107"
+        },
+        {
+          "title": "Sevcuka A, White K, Terry C. Factors that contribute to hIAPP amyloidosis in type 2 diabetes mellitus. Life 2022;12:583",
+          "url": "https://discovery.ucl.ac.uk/id/eprint/10148592/1/life-12-00583.pdf"
+        }
+      ]
+    },
+    {
+      "id": "path-glucagonoma-necrolytic-erythema-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Endocrine",
+      "topic": "Glucagonoma: necrolytic migratory erythema and diabetes",
+      "difficulty": 2,
+      "stem": "A 56-year-old woman comes to the physician because of a painful, itchy rash for 6 months. Red patches appear in her groin, on her buttocks and on her lower legs, blister and crust over, spread outward and then heal with brown discoloration while new patches form elsewhere. She has lost 9 kg (20 lb) and was diagnosed with diabetes 4 months ago. Her tongue is red and smooth. Hemoglobin is 9.8 g/dL with normal-sized red cells. Serum amino acid levels are low. CT shows a 4-cm mass in the tail of the pancreas.",
+      "leadIn": "This tumor most likely arises from which of the following cells?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Alpha cells of the pancreatic islets"
+        },
+        {
+          "id": "b",
+          "text": "Beta cells of the pancreatic islets"
+        },
+        {
+          "id": "c",
+          "text": "Delta cells of the pancreatic islets"
+        },
+        {
+          "id": "d",
+          "text": "Enterochromaffin cells of the small bowel"
+        },
+        {
+          "id": "e",
+          "text": "Chromaffin cells of the adrenal medulla"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: alpha cells of the pancreatic islets. Why: A migrating, blistering and crusting rash (necrolytic migratory erythema), new diabetes, weight loss, anemia and low amino acid levels with a pancreatic mass point to a glucagonoma. Your El-Husseiny endocrine notes (p. 119) describe it as a rare tumor of the alpha cells of the islets that characteristically presents with necrolytic migratory erythema, along with hyperglycemia, weight loss and a normocytic anemia, and they say the diagnosis is made by finding a high serum glucagon. MSD says glucagonomas \"arise from the alpha cells of the pancreas,\" \"Most glucagonomas are malignant,\" and the rash is \"termed necrolytic migratory erythema\"; \"Frequently, weight loss, normochromic anemia, hypoaminoacidemia, and hypolipidemia are present.\"",
+      "whyWrong": {
+        "b": "Beta-cell tumors (insulinomas) cause low blood glucose with confusion and sweating, not diabetes and a migrating rash.",
+        "c": "Delta-cell tumors (somatostatinomas) can cause diabetes, but with gallstones and fatty stools rather than necrolytic migratory erythema (your El-Husseiny endocrine notes, p. 120).",
+        "d": "Enterochromaffin-cell tumors (carcinoids) cause flushing, diarrhea and wheezing once they spread to the liver, not this blistering rash and diabetes.",
+        "e": "Chromaffin-cell tumors of the adrenal medulla (pheochromocytomas) cause episodes of high blood pressure, headache and sweating."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Endocrinology (Emily's file), Glucagonoma, p. 119; somatostatinoma, p. 120"
+        },
+        {
+          "title": "MSD Manual Professional: Glucagonoma",
+          "url": "https://www.msdmanuals.com/professional/oncology/gastrointestinal-and-pancreatic-neuroendocrine-tumors-nets/glucagonoma"
+        }
+      ]
+    },
+    {
+      "id": "phys-secondary-hyperparathyroidism-ckd-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Endocrine",
+      "topic": "Secondary hyperparathyroidism in chronic kidney disease",
+      "difficulty": 2,
+      "stem": "A 58-year-old man with chronic kidney disease from diabetes comes to the physician because of aching bones and itching. His estimated GFR is 12 mL/min/1.73 m2, and he is planning to start dialysis. Serum studies show calcium 8.1 mg/dL, phosphate 7.2 mg/dL, alkaline phosphatase increased, parathyroid hormone (PTH) 640 pg/mL (normal 10 to 65), and low 1,25-dihydroxyvitamin D. Neck ultrasound shows four mildly enlarged parathyroid glands.",
+      "leadIn": "Which of the following best explains his high PTH level?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Phosphate retention and low calcitriol"
+        },
+        {
+          "id": "b",
+          "text": "An autonomous adenoma in one parathyroid gland"
+        },
+        {
+          "id": "c",
+          "text": "Kidney resistance to PTH from a Gs protein defect"
+        },
+        {
+          "id": "d",
+          "text": "A calcium-sensing receptor loss-of-function mutation"
+        },
+        {
+          "id": "e",
+          "text": "Ectopic secretion of PTH-related peptide"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: phosphate retention and low calcitriol. Why: Failing kidneys cannot excrete phosphate and make less active vitamin D (calcitriol), so calcium absorption falls, phosphate rises, and all four parathyroid glands are driven to make more PTH. Your El-Husseiny endocrine notes (p. 91) explain that renal 1-alpha-hydroxylase activity falls in chronic kidney disease, phosphate rises because the kidney cannot clear it, and PTH secretion increases (secondary hyperparathyroidism); calcium stays normal to slightly low because PTH cannot raise it without 1-alpha-hydroxylase. Page 92 adds that long-standing stimulation can make the glands autonomous (tertiary hyperparathyroidism) and that this disorder leads to renal osteodystrophy. The McMaster Textbook of Internal Medicine lists \"elevated serum creatinine and phosphate levels in patients with CKD,\" \"diminished 1-25(OH)2D3 levels,\" and \"High serum PTH levels, frequently hypocalcemia,\" which \"leads to the development of renal osteodystrophy associated with high bone turnover\"; treatment includes \"Correction of hyperphosphatemia,\" active vitamin D such as calcitriol, and the calcimimetic cinacalcet.",
+      "whyWrong": {
+        "b": "A single autonomous adenoma is primary hyperparathyroidism, which causes high calcium and low phosphate, the opposite of his pattern.",
+        "c": "A Gs protein defect causing PTH resistance is pseudohypoparathyroidism, usually found in children with short stature and short fourth and fifth fingers, not in advanced CKD.",
+        "d": "Loss of function in the calcium-sensing receptor causes familial hypocalciuric hypercalcemia, with high calcium and low urine calcium.",
+        "e": "PTH-related peptide from a tumor causes high calcium with a suppressed PTH, not a high PTH with low calcium."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Endocrinology (Emily's file), Secondary and tertiary hyperparathyroidism, pp. 91-92"
+        },
+        {
+          "title": "McMaster Textbook of Internal Medicine: Secondary Hyperparathyroidism",
+          "url": "https://empendium.com/mcmtextbook/chapter/B31.II.10.2.2"
+        }
+      ]
+    },
+    {
+      "id": "pharm-pioglitazone-heart-failure-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Endocrine",
+      "topic": "Thiazolidinediones: PPAR-gamma and fluid retention",
+      "difficulty": 2,
+      "stem": "A 66-year-old woman with type 2 diabetes and a history of a myocardial infarction comes to the physician because of swollen ankles and worsening shortness of breath for 3 weeks. Four months ago a new oral drug was added to her metformin. Since then her hemoglobin A1c has fallen from 8.6% to 7.2%, but she has gained 5 kg (11 lb). She has crackles at both lung bases and pitting edema to the knees.",
+      "leadIn": "The new drug most likely acts by which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Activating PPAR-gamma, a nuclear receptor"
+        },
+        {
+          "id": "b",
+          "text": "Closing ATP-sensitive K+ channels on beta cells"
+        },
+        {
+          "id": "c",
+          "text": "Blocking SGLT2 in the proximal tubule"
+        },
+        {
+          "id": "d",
+          "text": "Activating GLP-1 receptors to boost insulin release"
+        },
+        {
+          "id": "e",
+          "text": "Blocking DPP-4 to slow incretin breakdown"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: activating PPAR-gamma, a nuclear receptor. Why: Better glucose control with weight gain, edema and new heart failure after adding an oral drug points to a thiazolidinedione such as pioglitazone. Your El-Husseiny endocrine notes (p. 142) say thiazolidinediones lower glucose by reducing insulin resistance through binding PPAR-gamma, a nuclear receptor, and that their main side effects are fluid retention, weight gain and worsening congestive heart failure, plus a higher risk of fractures. MSD says these drugs \"bind a nuclear receptor primarily present in fat cells,\" that they \"may cause peripheral edema, especially in patients taking insulin,\" that \"Weight gain, due to fluid retention and increased adipose tissue mass, is common,\" and that \"Pioglitazone may increase the risk of bladder cancer (although data are conflicting), heart failure, and fractures.\"",
+      "whyWrong": {
+        "b": "Closing ATP-sensitive K+ channels is how sulfonylureas work. They cause weight gain and low blood glucose, but not marked fluid retention and heart failure (your El-Husseiny endocrine notes, p. 141).",
+        "c": "SGLT2 blockers cause weight loss and fluid loss through the urine, and they lower the risk of heart failure admissions rather than causing heart failure.",
+        "d": "GLP-1 receptor agonists cause weight loss and nausea, not weight gain and edema.",
+        "e": "DPP-4 inhibitors are weight neutral and are not the classic cause of edema and new heart failure."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Endocrinology (Emily's file), Sulfonylureas, p. 141; thiazolidinediones, p. 142"
+        },
+        {
+          "title": "MSD Manual Professional: Medications for Diabetes Mellitus Treatment",
+          "url": "https://www.msdmanuals.com/professional/endocrine-and-metabolic-disorders/diabetes-mellitus-and-hypoglycemia/medications-for-diabetes-mellitus-treatment"
+        }
+      ]
+    },
+    {
+      "id": "pharm-sulfonylurea-hypoglycemia-ckd-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Endocrine",
+      "topic": "Sulfonylureas: prolonged hypoglycemia in older adults with kidney disease",
+      "difficulty": 2,
+      "stem": "An 81-year-old man is brought to the emergency department because his daughter found him confused and sweaty. He has type 2 diabetes and chronic kidney disease (estimated GFR 26 mL/min/1.73 m2) and takes glyburide. He has been eating poorly because of a cold. Blood glucose is 36 mg/dL. He becomes alert after IV dextrose, but 5 hours later his glucose falls to 41 mg/dL again despite a dextrose infusion.",
+      "leadIn": "Which of the following best explains why his low blood glucose keeps coming back?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A long-acting drug that his kidneys clear slowly"
+        },
+        {
+          "id": "b",
+          "text": "An insulin-secreting tumor of the pancreas"
+        },
+        {
+          "id": "c",
+          "text": "Failure of the adrenal glands to make cortisol"
+        },
+        {
+          "id": "d",
+          "text": "Metformin blocking glucose production in the liver"
+        },
+        {
+          "id": "e",
+          "text": "Alcohol blocking gluconeogenesis in the liver"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: a long-acting drug that his kidneys clear slowly. Why: Glyburide is a sulfonylurea that closes ATP-sensitive K+ channels on beta cells, depolarizing them so that calcium enters and insulin is released. Your El-Husseiny endocrine notes (p. 141) list hypoglycemia as the main side effect of second-generation sulfonylureas and say its risk rises in kidney failure. MSD says \"Their long duration of action may lead to serious hypoglycemia, especially in older patients,\" lists \"use of long-acting medications (especially chlorpropamide, glyburide, or glipizide)\" and \"kidney or hepatic insufficiency\" as risk factors, and warns that \"Hypoglycemia caused by long-acting medications may last for days after treatment cessation.\" That is why he needs observation and a continued glucose infusion rather than one dose of dextrose.",
+      "whyWrong": {
+        "b": "An insulinoma also raises insulin, but the timing with poor eating, an old patient with kidney disease and a known sulfonylurea makes the drug far more likely. Your notes (pp. 98 and 116) say C-peptide is high with both, so a sulfonylurea level is checked to tell them apart.",
+        "c": "Adrenal insufficiency can cause low glucose, but it comes with low blood pressure, fatigue and electrolyte changes, and it does not explain hypoglycemia that keeps returning on a dextrose infusion in a person taking glyburide.",
+        "d": "Metformin does not stimulate insulin release and rarely causes hypoglycemia when used alone. He is not taking it.",
+        "e": "Alcohol can cause fasting hypoglycemia by blocking gluconeogenesis, but nothing in his history suggests drinking."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Endocrinology (Emily's file), Insulinoma versus sulfonylurea use, pp. 98 and 116; sulfonylureas, p. 141"
+        },
+        {
+          "title": "MSD Manual Professional: Medications for Diabetes Mellitus Treatment",
+          "url": "https://www.msdmanuals.com/professional/endocrine-and-metabolic-disorders/diabetes-mellitus-and-hypoglycemia/medications-for-diabetes-mellitus-treatment"
+        }
+      ]
+    },
+    {
+      "id": "pharm-postpartum-thyroiditis-beta-blocker-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Endocrine",
+      "topic": "Postpartum (silent) thyroiditis: treat symptoms with a beta-blocker",
+      "difficulty": 2,
+      "stem": "A 29-year-old woman comes to the physician 3 months after delivering a healthy baby because of palpitations, anxiety, heat intolerance and a 4-kg (9-lb) weight loss for 3 weeks. Pulse is 108/min. Her thyroid is slightly enlarged and not tender. She has no eye findings. TSH is low, and free T4 is high. Thyroid peroxidase antibodies are positive. The 24-hour radioactive iodine uptake is low.",
+      "leadIn": "Which of the following is the most appropriate treatment?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Propranolol"
+        },
+        {
+          "id": "b",
+          "text": "Methimazole"
+        },
+        {
+          "id": "c",
+          "text": "Radioactive iodine ablation"
+        },
+        {
+          "id": "d",
+          "text": "Total thyroidectomy"
+        },
+        {
+          "id": "e",
+          "text": "Oral prednisone"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: propranolol. Why: Hyperthyroidism a few months after delivery, with a painless gland, positive peroxidase antibodies and a low radioactive iodine uptake, is postpartum (silent lymphocytic) thyroiditis. The gland is leaking stored hormone rather than making too much, so only the symptoms need treatment. Your El-Husseiny endocrine notes (p. 74) say postpartum thyroiditis can cause a short-lived overactive phase, an underactive phase, or one followed by the other, with a painless, normal-sized gland and a lymphocytic infiltrate. MSD says it \"affects mostly women in the postpartum period,\" \"usually begins within 12 to 16 weeks after childbirth,\" and is \"often followed by transient hypothyroidism due to depleted thyroid hormone stores\"; it usually requires \"only a beta-blocker (eg, propranolol) during the hyperthyroid phase,\" while \"Antithyroid medications, surgery, and radioiodine therapy are contraindicated.\" MSD's hyperthyroidism chapter adds that when hyperthyroidism is due to thyroiditis, \"radioactive iodine uptake is low,\" whereas it is usually raised in Graves disease.",
+      "whyWrong": {
+        "b": "Methimazole blocks new hormone synthesis, which is the problem in Graves disease. In thyroiditis the hormone was already made and is leaking out, so MSD lists antithyroid drugs as contraindicated.",
+        "c": "Radioiodine needs a gland that takes up iodine, and her uptake is low. MSD lists it as contraindicated in silent thyroiditis.",
+        "d": "Thyroidectomy is not needed for a self-limited condition, and MSD lists surgery as contraindicated.",
+        "e": "Glucocorticoids can help painful subacute (de Quervain) thyroiditis, which follows a viral illness and causes a tender gland. Her gland is not tender."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Endocrinology (Emily's file), Postpartum thyroiditis, p. 74"
+        },
+        {
+          "title": "MSD Manual Professional: Silent Lymphocytic Thyroiditis",
+          "url": "https://www.msdmanuals.com/professional/endocrine-and-metabolic-disorders/thyroid-disorders/silent-lymphocytic-thyroiditis"
+        },
+        {
+          "title": "MSD Manual Professional: Hyperthyroidism",
+          "url": "https://www.msdmanuals.com/professional/endocrine-and-metabolic-disorders/thyroid-disorders/hyperthyroidism"
+        }
+      ]
+    },
+    {
+      "id": "path-melanoma-breslow-depth-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Melanoma: depth of invasion predicts prognosis",
+      "difficulty": 2,
+      "stem": "A 52-year-old man comes to the physician because his wife noticed that a mole on his upper back has grown and darkened over 6 months. The lesion is 1.4 cm across, asymmetric, with an irregular, notched border and areas of black, brown and gray. Excisional biopsy shows atypical melanocytes spreading along the epidermis and forming nests that extend down into the dermis. Surgical margins are clear.",
+      "leadIn": "Which of the following features of the excised tumor best predicts this patient's prognosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The depth of invasion measured in millimeters"
+        },
+        {
+          "id": "b",
+          "text": "The diameter of the lesion on the skin surface"
+        },
+        {
+          "id": "c",
+          "text": "The number of colors within the lesion"
+        },
+        {
+          "id": "d",
+          "text": "The amount of melanin pigment in the tumor"
+        },
+        {
+          "id": "e",
+          "text": "The age at which the mole first appeared"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the depth of invasion measured in millimeters (Breslow thickness). Why: An asymmetric, growing lesion with an irregular border, several colors and atypical melanocytes invading the dermis is a melanoma. Your Osmosis dermatology notes (pp. 26-28) explain that melanoma first grows sideways in a radial phase (under 1 mm thick, rarely spreads) and then down into the dermis in a vertical phase (over 1 mm, able to spread through lymph and blood vessels); the T stage is set by tumor thickness, and the prognosis depends directly on the depth of invasion, which also sets the surgical margin. MSD says \"Recommended staging studies depend on the Breslow depth (how deeply tumor cells have invaded),\" that \"ulceration indicates higher risk in melanomas that are < 0.8 mm Breslow depth,\" and that \"Sentinel lymph node biopsy (SLNB), a minimally invasive microstaging technique, is a major advance.\"",
+      "whyWrong": {
+        "b": "Diameter is one of the ABCDE warning signs used to decide whether to biopsy, but once the lesion is removed, thickness, not surface width, sets the T stage (your Osmosis dermatology notes, pp. 27-28).",
+        "c": "Color variation is another ABCDE warning sign. It raises suspicion of melanoma but does not grade its prognosis.",
+        "d": "The amount of pigment does not predict outcome; some aggressive melanomas make little pigment.",
+        "e": "Whether the mole was old or new does not stage the tumor. Melanoma can arise from an existing mole or start fresh (your Osmosis dermatology notes, p. 26)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Dermatology (Emily's file), Melanoma, pp. 26-28"
+        },
+        {
+          "title": "MSD Manual Professional: Melanoma",
+          "url": "https://www.msdmanuals.com/professional/dermatologic-disorders/cancers-of-the-skin/melanoma"
+        }
+      ]
+    },
+    {
+      "id": "path-mycosis-fungoides-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Mycosis fungoides: malignant CD4+ T cells in the skin",
+      "difficulty": 2,
+      "stem": "A 61-year-old man comes to the physician because of itchy, scaly red patches on his buttocks and trunk for 6 years. Several topical corticosteroids have not helped, and some patches have become thick, raised plaques. He feels well and has no enlarged lymph nodes. A skin biopsy shows a band of atypical lymphocytes in the upper dermis; many of these cells have folded, brain-like nuclei and have moved up into the epidermis, where they form small clusters.",
+      "leadIn": "These atypical cells are most likely which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Malignant CD4+ helper T cells"
+        },
+        {
+          "id": "b",
+          "text": "Langerhans cells that express CD1a"
+        },
+        {
+          "id": "c",
+          "text": "Malignant B cells that express CD20"
+        },
+        {
+          "id": "d",
+          "text": "Mast cells packed with histamine granules"
+        },
+        {
+          "id": "e",
+          "text": "Keratinocytes with atypical nuclei"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: malignant CD4+ helper T cells. Why: Years of itchy, steroid-resistant patches that turn into plaques, with atypical lymphocytes that have cerebriform nuclei and collect in small clusters in the epidermis (Pautrier microabscesses), is mycosis fungoides, a cutaneous T-cell lymphoma. Your El-Husseiny hematology-oncology notes (pp. 74-75) describe it as a proliferation of mature CD4 T cells that infiltrate the skin, producing rash, plaques and nodules, with clusters of tumor cells in the epidermis (Pautrier microabscesses); the cells can spread to the blood as Sézary syndrome, with cerebriform Sézary cells on the smear. The National Cancer Institute says these lymphomas are \"neoplasias of malignant T lymphocytes that usually possess the helper/inducer cell surface phenotype,\" that diagnosis needs \"a band-like upper dermal infiltrate, and epidermal infiltrations with Pautrier abscesses,\" that \"Sézary syndrome presents with generalized erythroderma (T4) and peripheral blood involvement,\" and that \"Patients with stage IA disease have a median survival of 20 years or more.\"",
+      "whyWrong": {
+        "b": "Langerhans cell histiocytosis is made of CD1a-positive dendritic cells with Birbeck granules, usually in children with bone lesions, not adults with years of patches and plaques.",
+        "c": "Cutaneous B-cell lymphomas form nodules or tumors in the dermis and do not move into the epidermis to form small clusters.",
+        "d": "Mast cell infiltrates (urticaria pigmentosa) give brown spots that swell into hives when rubbed, not cerebriform lymphocytes in the epidermis.",
+        "e": "Atypical keratinocytes are squamous cell carcinoma in situ. The atypical cells here are lymphocytes with folded nuclei."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Hematology-Oncology (Emily's file), Mycosis fungoides, pp. 74-75"
+        },
+        {
+          "title": "National Cancer Institute PDQ: Mycosis Fungoides (Including Sézary Syndrome) Treatment, Health Professional Version",
+          "url": "https://www.cancer.gov/types/lymphoma/hp/mycosis-fungoides-treatment-pdq"
+        }
+      ]
+    },
+    {
+      "id": "path-eruptive-xanthomas-triglycerides-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Eruptive xanthomas: severe hypertriglyceridemia",
+      "difficulty": 2,
+      "stem": "A 44-year-old man with poorly controlled type 2 diabetes comes to the physician because crops of small, yellow bumps with red halos appeared on his buttocks, elbows and knees over 3 weeks. He drinks about six beers daily. His fasting serum looks milky. Triglycerides are 2,600 mg/dL, and hemoglobin A1c is 11.2%. On eye exam, his retinal vessels look creamy white.",
+      "leadIn": "A biopsy of one of the bumps would most likely show which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dermal macrophages filled with lipid"
+        },
+        {
+          "id": "b",
+          "text": "Amyloid deposits around dermal blood vessels"
+        },
+        {
+          "id": "c",
+          "text": "Keratin-filled cysts lined by squamous cells"
+        },
+        {
+          "id": "d",
+          "text": "Collections of neutrophils in the upper dermis"
+        },
+        {
+          "id": "e",
+          "text": "Noncaseating granulomas of epithelioid cells"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: dermal macrophages filled with lipid. Why: Sudden crops of small yellow papules with red rims on the buttocks and extensor surfaces, milky serum, very high triglycerides and creamy retinal vessels (lipemia retinalis) are eruptive xanthomas from severe hypertriglyceridemia, here driven by uncontrolled diabetes and alcohol. Your El-Husseiny biochemistry notes (p. 187) describe eruptive xanthomas as small yellow papules with surrounding redness, mainly on the extensor surfaces of the limbs, seen with high triglycerides, and say pancreatitis risk rises sharply with triglycerides above 1000 mg/dL; page 188 explains that xanthomas are made of benign macrophages packed with fine, foamy lipid vacuoles. MSD says \"Eruptive xanthomas are skin manifestations of elevated triglyceride levels,\" found \"over the trunk, back, elbows, buttocks, knees, hands, and feet\" with \"Severe elevations of triglycerides\"; very high levels \"can also give retinal arteries and veins a creamy white appearance (lipemia retinalis).\"",
+      "whyWrong": {
+        "b": "Amyloid around dermal vessels causes waxy papules and easy bruising (for example, pinch purpura in AL amyloidosis), not yellow papules that appear with very high triglycerides.",
+        "c": "Keratin-filled cysts lined by squamous epithelium are epidermoid cysts or milia, which do not erupt in crops with high triglycerides.",
+        "d": "Neutrophil collections in the upper dermis are seen in folliculitis or abscesses, which are red, tender pustules rather than yellow papules.",
+        "e": "Noncaseating granulomas in the skin suggest sarcoidosis, which causes red-brown papules or plaques, not milky serum and lipemia retinalis."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Familial hyperchylomicronemia and eruptive xanthomas, p. 187; xanthoma histology, p. 188"
+        },
+        {
+          "title": "MSD Manual Professional: Dyslipidemia",
+          "url": "https://www.msdmanuals.com/professional/endocrine-and-metabolic-disorders/lipid-disorders/dyslipidemia"
+        }
+      ]
+    },
+    {
+      "id": "path-pyoderma-gangrenosum-pathergy-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Pyoderma gangrenosum: noninfectious neutrophilic ulcer",
+      "difficulty": 3,
+      "stem": "A 34-year-old woman with ulcerative colitis comes to the physician because of a painful ulcer on her right shin. It began 3 weeks ago as a small pustule after she bumped her leg on a table, then broke down into a 5-cm ulcer with a purple, ragged edge that overhangs the ulcer base. A surgeon debrided it a week ago, and since then it has grown to 8 cm. Wound and blood cultures are negative, and her leg pulses are normal.",
+      "leadIn": "This ulcer is best explained by which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Noninfectious neutrophilic inflammation of the skin"
+        },
+        {
+          "id": "b",
+          "text": "Bacterial infection spreading along the fascia"
+        },
+        {
+          "id": "c",
+          "text": "Ischemic necrosis from peripheral artery disease"
+        },
+        {
+          "id": "d",
+          "text": "Squamous cell carcinoma arising in a long-standing wound"
+        },
+        {
+          "id": "e",
+          "text": "Venous hypertension from incompetent leg veins"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: noninfectious neutrophilic inflammation of the skin (pyoderma gangrenosum). Why: A painful ulcer with a purple, undermined edge that started after minor trauma and grew after debridement, with negative cultures, in a patient with inflammatory bowel disease, is pyoderma gangrenosum. Your Osmosis GI notes (pp. 63 and 67) list pyoderma gangrenosum among the extraintestinal skin findings of inflammatory bowel disease, and your NBME Top Concepts (p. 161) names it as the classic skin association of IBD. MSD calls it \"a rare, noninfectious, neutrophilic dermatosis\" that \"can be associated with various systemic illnesses in 50% of patients,\" including \"inflammatory bowel disease, rheumatoid arthritis, cancers, and hematologic disorders\"; ulcers \"occur after trauma or injury to the skin in approximately 30% of patients\" (pathergy), and \"An undermined border (ie, loss of underlying support tissue at the border) is common, if not pathognomonic.\" MSD warns that \"Surgical debridement should be avoided because of the risk of pathergy and wound extension\" and that \"Expansion of ulceration after surgical debridement strongly suggests pyoderma gangrenosum\"; systemic corticosteroids such as prednisone are a common first-line treatment for severe disease.",
+      "whyWrong": {
+        "b": "Necrotizing fasciitis spreads quickly with severe pain, fever and toxicity, and cultures usually grow organisms. Her cultures are negative.",
+        "c": "Arterial ulcers occur on the feet and toes with weak or absent pulses. Her pulses are normal.",
+        "d": "Squamous cell carcinoma can arise in a scar or chronic wound (a Marjolin ulcer), but only after many years, not within weeks of a bump.",
+        "e": "Venous ulcers form slowly near the inner ankle with swelling and brown skin changes. They do not explode after debridement."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Gastrointestinal (Emily's file), Crohn disease and ulcerative colitis, extraintestinal findings, pp. 63 and 67"
+        },
+        {
+          "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Inflammatory bowel disease, p. 161"
+        },
+        {
+          "title": "MSD Manual Professional: Pyoderma Gangrenosum",
+          "url": "https://www.msdmanuals.com/professional/dermatologic-disorders/hypersensitivity-and-reactive-skin-disorders/pyoderma-gangrenosum"
+        }
+      ]
+    },
+    {
+      "id": "micro-tuberculoid-leprosy-cell-mediated-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Tuberculoid leprosy: strong cell-mediated immunity",
+      "difficulty": 2,
+      "stem": "A 30-year-old man who moved from northeastern Brazil 2 years ago comes to the physician because of a pale patch on his forearm for 1 year. It is a 6-cm hypopigmented plaque with a sharp, raised border. The plaque does not feel a pin prick or temperature. The ulnar nerve at the elbow is thickened. Biopsy shows well-formed granulomas that surround small dermal nerves, and acid-fast stains show no organisms.",
+      "leadIn": "Which of the following best explains why so few organisms are found?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A strong cell-mediated immune response"
+        },
+        {
+          "id": "b",
+          "text": "A strong antibody response that neutralizes the bacteria"
+        },
+        {
+          "id": "c",
+          "text": "Rapid killing of the bacteria by neutrophils"
+        },
+        {
+          "id": "d",
+          "text": "Resistance of the organism to acid-fast staining"
+        },
+        {
+          "id": "e",
+          "text": "Growth of the organism only at core body temperature"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: a strong cell-mediated immune response. Why: A single numb, hypopigmented plaque with a sharp border, a thickened nerve and granulomas with almost no bacilli is tuberculoid leprosy. Your El-Husseiny microbiology and immunology notes (pp. 94-95) explain that leprosy favors the cooler parts of the body, that how severe it becomes is set by how strong the cell-mediated response is, and that in tuberculoid leprosy cell-mediated immunity forms granulomas that destroy most of the mycobacteria, leaving few acid-fast bacilli (paucibacillary disease); lepromatous leprosy is the severe form with weak cell-mediated immunity. MSD says \"People with tuberculoid leprosy typically have a strong cell-mediated response,\" \"which limits disease to a few skin lesions (paucibacillary),\" with \"one or a few hypoesthetic, centrally hypopigmented macules with sharp, raised borders\" and nerves that \"may be palpably enlarged\"; in lepromatous disease, with \"poor cell-mediated immunity,\" bacilli \"are present in large numbers.\"",
+      "whyWrong": {
+        "b": "Antibodies do not control Mycobacterium leprae, which lives inside macrophages. Patients with lepromatous leprosy make plenty of antibody yet have huge numbers of bacilli.",
+        "c": "Neutrophils are not the main defense against intracellular mycobacteria. Granulomas, built by activated macrophages and T cells, contain them.",
+        "d": "M. leprae is acid-fast. In lepromatous leprosy, the same stain shows clusters of many bacilli (MSD).",
+        "e": "M. leprae prefers cooler parts of the body such as the skin, nerves near the surface, ears and nose (your El-Husseiny microbiology notes, p. 94)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Mycobacterium leprae, pp. 94-95"
+        },
+        {
+          "title": "MSD Manual Professional: Leprosy",
+          "url": "https://www.msdmanuals.com/professional/infectious-diseases/mycobacteria/leprosy"
+        }
+      ]
+    },
+    {
+      "id": "micro-cutaneous-anthrax-edema-factor-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Cutaneous anthrax: edema factor raises cAMP",
+      "difficulty": 3,
+      "stem": "A 45-year-old man who makes drums from imported goat hides comes to the physician because of a sore on his forearm for 6 days. It began as a painless, itchy bump, formed small blisters, and is now a 2-cm painless ulcer covered by a black crust. The surrounding forearm is markedly swollen. Tender lymph nodes are felt at the elbow. A smear of fluid from the blisters shows large gram-positive rods in chains.",
+      "leadIn": "The marked swelling is caused mainly by a toxin that acts by which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Raising cAMP as an adenylate cyclase"
+        },
+        {
+          "id": "b",
+          "text": "ADP-ribosylating elongation factor 2"
+        },
+        {
+          "id": "c",
+          "text": "Cleaving SNARE proteins at nerve endings"
+        },
+        {
+          "id": "d",
+          "text": "Forming pores in host cell membranes"
+        },
+        {
+          "id": "e",
+          "text": "Splitting lecithin in host cell membranes"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: raising cAMP as an adenylate cyclase. Why: A painless black eschar with marked swelling in someone who handles imported animal hides, with large gram-positive rods, is cutaneous anthrax (Bacillus anthracis). Your El-Husseiny microbiology and immunology notes (pp. 64-65) explain that its polypeptide capsule is antiphagocytic, that neither of its toxins can enter cells without protective antigen, and that edema factor is a calmodulin-dependent adenylate cyclase that raises cAMP and causes fluid to build up within and between cells; cutaneous anthrax (malignant pustule) gives a painless eschar surrounded by marked edema. MSD says cutaneous infection \"accounts for > 95% of cases,\" begins \"as a painless, pruritic, reddish brown papule\" with \"marked edema,\" and ends in \"a black eschar (the malignant pustule)\"; \"Edema toxin causes massive local edema,\" and spores \"can remain viable in soil, wool, and animal hair and hides for decades.\"",
+      "whyWrong": {
+        "b": "ADP-ribosylation of elongation factor 2 is how diphtheria toxin and Pseudomonas exotoxin A stop protein synthesis.",
+        "c": "Cleaving SNARE proteins is how tetanus and botulinum toxins block neurotransmitter release.",
+        "d": "Pore formation is how toxins such as Staphylococcus aureus alpha toxin and streptolysin O damage cells. Anthrax edema factor works by raising cAMP.",
+        "e": "Splitting lecithin (phospholipase C) is the alpha toxin of Clostridium perfringens, which causes painful gas gangrene, not a painless eschar."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Bacillus anthracis, pp. 64-65"
+        },
+        {
+          "title": "MSD Manual Professional: Anthrax",
+          "url": "https://www.msdmanuals.com/professional/infectious-diseases/gram-positive-bacilli/anthrax"
+        }
+      ]
+    },
+    {
+      "id": "neuro-pacinian-corpuscle-vibration-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Skin mechanoreceptors: Pacinian corpuscles sense vibration",
+      "difficulty": 2,
+      "stem": "A 62-year-old woman with type 2 diabetes for 18 years comes for a foot exam. When a vibrating tuning fork is placed on the tip of each great toe, she cannot feel the buzzing, although she feels it at both ankles. She can feel a wisp of cotton lightly brushed on her fingertips and feet. Her ankle reflexes are reduced.",
+      "leadIn": "Loss of function in which of the following receptors best explains the abnormal finding at her toes?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pacinian corpuscles"
+        },
+        {
+          "id": "b",
+          "text": "Meissner corpuscles"
+        },
+        {
+          "id": "c",
+          "text": "Merkel discs"
+        },
+        {
+          "id": "d",
+          "text": "Ruffini endings"
+        },
+        {
+          "id": "e",
+          "text": "Free nerve endings"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: Pacinian corpuscles. Why: Vibration from a tuning fork is sensed mainly by Pacinian (lamellated) corpuscles, and diabetic neuropathy has dulled this sense at her toes. Your Osmosis physiology notes (pp. 484-485) describe Pacinian corpuscles as encapsulated, fast-adapting receptors with large receptive fields, located deep in the dermis and subcutaneous tissue and sensitive to vibration, and they contrast them with Meissner corpuscles and Merkel discs. OpenStax Anatomy and Physiology says \"Deep pressure and vibration is transduced by lamellated (Pacinian) corpuscles,\" which are \"found deep in the dermis, or subcutaneous tissue,\" while \"Light touch is transduced by the encapsulated endings known as tactile (Meissner) corpuscles\" and \"Stretching of the skin is transduced by stretch receptors known as bulbous corpuscles.\"",
+      "whyWrong": {
+        "b": "Meissner corpuscles sense light touch in the papillary dermis, especially in the fingertips. Her light touch is still intact.",
+        "c": "Merkel discs (cells) in the basal epidermis sense steady pressure and low-frequency vibration, but the tuning fork test is classically a test of Pacinian corpuscle and dorsal column function.",
+        "d": "Ruffini (bulbous) corpuscles sense skin stretch, not vibration (OpenStax).",
+        "e": "Free nerve endings sense pain and temperature. These sensations travel in a different pathway and are not tested by the tuning fork."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Mechanoreceptors, pp. 484-485"
+        },
+        {
+          "title": "OpenStax Anatomy and Physiology 2e, 14.1 Sensory Perception",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception"
+        }
+      ]
+    },
+    {
+      "id": "biostats-pearson-correlation-tanning-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biostatistics & Epidemiology",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Pearson correlation coefficient: strength, direction and causation",
+      "difficulty": 2,
+      "stem": "Researchers survey 400 adults about how many indoor tanning sessions they have had in their lives and count the moles (melanocytic nevi) on each person's back. The Pearson correlation coefficient between tanning sessions and mole count is r = +0.35 (p < 0.001).",
+      "leadIn": "Which of the following is the best interpretation of this result?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A weak positive linear relationship between the two"
+        },
+        {
+          "id": "b",
+          "text": "A strong positive relationship that proves causation"
+        },
+        {
+          "id": "c",
+          "text": "Tanning explains 35% of the variation in mole count"
+        },
+        {
+          "id": "d",
+          "text": "A weak negative linear relationship between the two"
+        },
+        {
+          "id": "e",
+          "text": "No relationship, because r is less than 0.5"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: a weak positive linear relationship between the two. Why: r runs from -1 to +1; the sign gives the direction and the distance from zero gives the strength. Your First Aid biostatistics pages (p. 264) say that an r nearer to +1 or -1 means a tighter straight-line relationship; a positive r means both variables rise together; the coefficient of determination r squared is the share of variance in one variable explained by the other; and the figure labels r = +0.4 as a weak positive correlation. The Lumen Learning statistics text (adapted from OpenStax) says \"A positive value of r means that when x increases, y tends to increase,\" \"Values of r close to –1 or to +1 indicate a stronger linear relationship,\" and \"A strong correlation does not suggest that x causes y or y causes x.\" A small p-value only says the relationship is unlikely to be zero; it does not make it strong.",
+      "whyWrong": {
+        "b": "An r of 0.35 is weak, and correlation never proves causation (Lumen Learning, from OpenStax).",
+        "c": "The share of variation explained is r squared, about 0.12 or 12%, not 35% (your First Aid pages, p. 264).",
+        "d": "The sign of r is positive, so mole count tends to rise as tanning sessions rise.",
+        "e": "Any r other than zero shows some linear relationship, and with p < 0.001 this one is unlikely to be due to chance. Values below 0.5 are weak, not absent."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Pearson correlation coefficient, p. 264"
+        },
+        {
+          "title": "Lumen Learning, Introduction to Statistics Corequisite (adapted from OpenStax Introductory Statistics): The Correlation Coefficient r",
+          "url": "https://courses.lumenlearning.com/introstatscorequisite/chapter/the-regression-equation-2"
+        }
+      ]
+    },
+    {
+      "id": "biostats-type-1-error-hba1c-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biostatistics & Epidemiology",
+      "system": "Endocrine",
+      "topic": "Type I error: a false-positive trial result",
+      "difficulty": 2,
+      "stem": "A randomized, double-blind trial of 60 adults with type 2 diabetes reports that a new herbal supplement lowered hemoglobin A1c more than placebo (p = 0.04; significance level 0.05). Over the next 5 years, three much larger, well-designed trials with a total of 9,000 patients find no effect at all, and a pooled analysis confirms that the supplement has no effect on hemoglobin A1c.",
+      "leadIn": "Assuming the supplement truly has no effect, the result of the first trial is best described as which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Type I error"
+        },
+        {
+          "id": "b",
+          "text": "Type II error"
+        },
+        {
+          "id": "c",
+          "text": "Correct rejection of the null hypothesis"
+        },
+        {
+          "id": "d",
+          "text": "Lack of statistical power"
+        },
+        {
+          "id": "e",
+          "text": "Effect modification"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: type I error. Why: The first trial rejected the null hypothesis (no difference) when the null hypothesis was in fact true, which is a false-positive or type I error. Your First Aid biostatistics pages (p. 263) define a type I error (alpha) as stating that an effect exists when none does, and explain that alpha, usually set at 0.05, is the chance of making that kind of error; with p < 0.05, the chance of getting the result purely by chance is under 5%, not zero. OpenStax Introductory Statistics defines a type I error as \"The decision is to reject H0 when H0 is true\" and states \"α = probability of a Type I error.\"",
+      "whyWrong": {
+        "b": "A type II error is failing to find a difference that truly exists (a false negative). The first trial did find a difference, and the supplement truly has none.",
+        "c": "Rejecting the null hypothesis was not correct here, because the supplement truly has no effect.",
+        "d": "Low power causes type II errors (missed true effects). It does not explain a false-positive result (your First Aid pages, p. 263).",
+        "e": "Effect modification means a true effect differs across subgroups. Here there is no true effect at all."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Outcomes of statistical hypothesis testing, p. 263"
+        },
+        {
+          "title": "OpenStax Introductory Statistics 2e, 9.2 Outcomes and the Type I and Type II Errors",
+          "url": "https://openstax.org/books/introductory-statistics-2e/pages/9-2-outcomes-and-the-type-i-and-type-ii-errors"
+        }
+      ]
+    },
+    {
+      "id": "biostats-confidence-interval-includes-zero-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biostatistics & Epidemiology",
+      "system": "Endocrine",
+      "topic": "Confidence interval for a mean difference that includes zero",
+      "difficulty": 2,
+      "stem": "In a randomized trial of 240 adults with type 2 diabetes, a new oral drug is compared with placebo for 6 months. The mean change in hemoglobin A1c is -0.6% with the drug and -0.3% with placebo. The difference between groups is -0.3 percentage points (95% confidence interval, -0.7 to 0.1).",
+      "leadIn": "Which of the following is the most appropriate conclusion?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The difference is not statistically significant at the 0.05 level"
+        },
+        {
+          "id": "b",
+          "text": "The drug significantly lowers A1c, because the difference is below 0"
+        },
+        {
+          "id": "c",
+          "text": "The trial proves that the drug has no effect on A1c"
+        },
+        {
+          "id": "d",
+          "text": "The p-value for the difference must be less than 0.05"
+        },
+        {
+          "id": "e",
+          "text": "A 99% confidence interval would be narrower than this one"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the difference is not statistically significant at the 0.05 level. Why: The 95% confidence interval for the difference in means runs from -0.7 to +0.1, so it includes zero (no difference). Your First Aid biostatistics pages (p. 263) say that if the 95% confidence interval for a mean difference includes 0, there is no significant difference and the null hypothesis is not rejected; they also note that the 95% interval uses Z = 1.96 and the 99% interval uses Z = 2.58, and that larger samples narrow the interval. LibreTexts (Lane) says \"If the 95% confidence interval contains zero\" ... \"then the effect will not be significant at the 0.05 level.\"",
+      "whyWrong": {
+        "b": "A point estimate below zero is not enough. The interval also includes values above zero, so the data are consistent with no difference.",
+        "c": "Not finding a significant difference is not proof of no effect. The interval still allows a true reduction of up to 0.7 points, and a larger trial might detect one.",
+        "d": "A 95% interval that includes zero means the p-value is above 0.05, not below it.",
+        "e": "A 99% interval uses a larger Z value (2.58 versus 1.96), so it is wider than the 95% interval, not narrower (your First Aid pages, p. 263)."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Confidence interval, p. 263"
+        },
+        {
+          "title": "LibreTexts, Introductory Statistics (Lane), 11.8: Significance Testing and Confidence Intervals",
+          "url": "https://stats.libretexts.org/Bookshelves/Introductory_Statistics/Introductory_Statistics_(Lane)/11%3A_Logic_of_Hypothesis_Testing/11.08%3A_Significance_Testing_and_Confidence_Intervals"
+        }
+      ]
+    },
+    {
+      "id": "neuro-diabetic-cn3-pupil-sparing-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Nervous System & Special Senses",
+      "topic": "Diabetic third nerve palsy: why the pupil is spared",
+      "difficulty": 3,
+      "stem": "A 64-year-old man with long-standing type 2 diabetes and hypertension comes to the emergency department because of double vision and a drooping left eyelid that began the day before, with a dull ache above the left eye. The left upper eyelid covers most of the pupil. In primary gaze the left eye rests down and out, and it cannot move up, down or inward. Both pupils are 3 mm and react briskly to light. MR angiography shows no aneurysm.",
+      "leadIn": "Which of the following best explains why his pupil is normal?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Outer pupil fibers escape the ischemic core"
+        },
+        {
+          "id": "b",
+          "text": "Pupil fibers run in a separate nerve to the eye"
+        },
+        {
+          "id": "c",
+          "text": "Sympathetic fibers have taken over pupil constriction"
+        },
+        {
+          "id": "d",
+          "text": "The light reflex does not use cranial nerve III"
+        },
+        {
+          "id": "e",
+          "text": "Ischemia damages only the nerve's outer layer"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the outer pupil fibers escape the ischemic core. Why: In diabetes, small-vessel ischemia damages the center of the oculomotor nerve, where the motor fibers run, while the parasympathetic fibers to the pupil lie at the edge of the nerve and are better supplied. Your El-Husseiny neurology notes (p. 53) explain that cranial nerve III has motor fibers in the middle and parasympathetic fibers at the periphery, so ischemia spares the pupil because the motor fibers are hit harder; compression from outside, as by a posterior communicating artery aneurysm or uncal herniation, affects the outer pupil fibers early. MSD lists \"Ischemia of the third cranial nerve (usually due to diabetes or hypertension) or of the midbrain\" as the usual cause of palsies that spare the pupil, and \"Aneurysms (especially of the posterior communicating artery)\" among causes that affect it; \"Diplopia and ptosis (drooping of the upper eyelid) occur,\" and \"The affected eye may deviate slightly out and down in straight-ahead gaze.\"",
+      "whyWrong": {
+        "b": "The parasympathetic fibers for pupil constriction travel inside cranial nerve III to the ciliary ganglion; there is no separate nerve for them.",
+        "c": "Sympathetic fibers dilate the pupil. They cannot constrict it, and they do not take over when the third nerve is damaged.",
+        "d": "The light reflex constricts the pupil through the parasympathetic fibers carried in cranial nerve III, the same fibers your El-Husseiny neurology notes (p. 53) describe at the edge of the nerve.",
+        "e": "This is backwards: ischemia hits the core of the nerve, which is why the outer pupil fibers are spared."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Cranial nerve III damage, p. 53"
+        },
+        {
+          "title": "MSD Manual Professional: Third Cranial (Oculomotor) Nerve Disorders",
+          "url": "https://www.msdmanuals.com/professional/neurologic-disorders/neuro-ophthalmologic-and-cranial-nerve-disorders/third-cranial-oculomotor-nerve-disorders"
+        }
+      ]
+    },
+    {
+      "id": "neuro-trigeminal-neuralgia-vascular-loop-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Nervous System & Special Senses",
+      "topic": "Trigeminal neuralgia: vascular compression of the nerve root",
+      "difficulty": 2,
+      "stem": "A 67-year-old woman comes to the physician because of attacks of severe, electric-shock-like pain in her right cheek and lower jaw for 3 months. Each attack lasts a few seconds, and dozens occur each day. Chewing, brushing her teeth and a cold wind on her face set them off, and she has stopped eating on the right side. Between attacks she has no pain. Neurologic exam, including facial sensation and the corneal reflex, is normal.",
+      "leadIn": "Which of the following is the most likely cause of her pain?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An artery loop pressing on the nerve root"
+        },
+        {
+          "id": "b",
+          "text": "Reactivation of varicella-zoster virus in the ganglion"
+        },
+        {
+          "id": "c",
+          "text": "Inflammation of the facial nerve in its bony canal"
+        },
+        {
+          "id": "d",
+          "text": "Spasm of the chewing muscles from jaw joint disease"
+        },
+        {
+          "id": "e",
+          "text": "Cluster headache from hypothalamic activation"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: an artery loop pressing on the nerve root. Why: Brief, stabbing, one-sided attacks in the territory of the maxillary and mandibular divisions, set off by chewing or touching the face, with a normal exam, are classic trigeminal neuralgia. Your El-Husseiny neurology notes (p. 57) attribute it to compression of the trigeminal nerve rootlets at the brainstem by aberrant loops of the cerebellar arteries, triggered by jaw movement such as laughing, brushing the teeth or chewing, and give carbamazepine as the drug of choice; page 220 repeats that carbamazepine is first-line. MSD says it is usually due to \"Compression of the trigeminal nerve at its root by an aberrant loop of an intracranial artery,\" \"occasionally a multiple sclerosis plaque at the root entry zone (usually in younger patients)\"; \"The pain is paroxysmal, lasting seconds up to 2 minutes,\" \"Neurologic examination is normal,\" and \"Trigeminal neuralgia is treated with carbamazepine.\" When drugs fail, microvascular decompression places a sponge between the nerve and the compressing artery.",
+      "whyWrong": {
+        "b": "Zoster reactivation causes a painful, blistering rash in one dermatome, and pain after zoster (postherpetic neuralgia) is constant and burning rather than seconds-long electric shocks.",
+        "c": "Inflammation of the facial nerve (Bell palsy) causes facial weakness, not paroxysms of facial pain with a normal exam.",
+        "d": "Jaw joint disease causes aching pain with chewing and jaw clicking or tenderness, not electric shocks triggered by touching the face.",
+        "e": "Cluster headaches are 15- to 180-minute attacks of pain around one eye with tearing and nasal congestion, not seconds-long shocks in the cheek and jaw."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Trigeminal neuralgia, p. 57; carbamazepine, p. 220"
+        },
+        {
+          "title": "MSD Manual Professional: Trigeminal Neuralgia",
+          "url": "https://www.msdmanuals.com/professional/neurologic-disorders/neuro-ophthalmologic-and-cranial-nerve-disorders/trigeminal-neuralgia"
+        }
+      ]
+    },
+    {
+      "id": "neuro-essential-tremor-propranolol-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Nervous System & Special Senses",
+      "topic": "Essential tremor: postural tremor treated with propranolol",
+      "difficulty": 2,
+      "stem": "A 45-year-old man comes to the physician because of shaking of both hands for 5 years. The shaking makes it hard to hold a cup of coffee or sign his name, and his head sometimes shakes side to side. His father had a similar tremor. The tremor eases for a few hours after a glass of wine. On exam, a fine tremor of both hands appears when he holds his arms out in front of him and when he reaches for an object; it is absent when his hands rest in his lap. Muscle tone, gait and movement speed are normal.",
+      "leadIn": "Which of the following is the most appropriate first-line drug?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Propranolol"
+        },
+        {
+          "id": "b",
+          "text": "Carbidopa-levodopa"
+        },
+        {
+          "id": "c",
+          "text": "Benztropine"
+        },
+        {
+          "id": "d",
+          "text": "Tetrabenazine"
+        },
+        {
+          "id": "e",
+          "text": "Pramipexole"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: propranolol. Why: A symmetric tremor of both hands that appears when holding a posture or moving, spares rest, involves the head, runs in the family and eases with alcohol is essential tremor. Your El-Husseiny neurology notes (p. 103) call it the most commonly diagnosed movement disorder, thought to be autosomal dominant (familial tremor), with a slowly progressive, symmetric postural or kinetic tremor of the upper limbs that patients say improves with alcohol, and they give nonselective beta-blockers such as propranolol as first-line treatment. MSD lists essential tremor as the usual cause of action and postural tremors, \"usually symmetric and affecting both upper extremities and sometimes the head and voice,\" which \"May be suppressed with low doses of alcohol\" (though alcohol is not recommended as treatment), and says \"Propranolol (or other beta-blockers) is often effective, as is primidone.\"",
+      "whyWrong": {
+        "b": "Carbidopa-levodopa treats Parkinson disease, whose tremor is a one-sided resting (pill-rolling) tremor with rigidity and slow movement. His tremor is absent at rest and his tone is normal.",
+        "c": "Benztropine is an anticholinergic used for parkinsonian tremor and drug-induced parkinsonism, not essential tremor.",
+        "d": "Tetrabenazine depletes dopamine and is used for chorea, as in Huntington disease, not for postural tremor.",
+        "e": "Pramipexole is a dopamine agonist used for Parkinson disease and restless legs syndrome, not essential tremor."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Types of tremors and essential tremor, p. 103"
+        },
+        {
+          "title": "MSD Manual Professional: Tremor",
+          "url": "https://www.msdmanuals.com/professional/neurologic-disorders/movement-and-cerebellar-disorders/tremor"
+        }
+      ]
     }
   ]
 }
