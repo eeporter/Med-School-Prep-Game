@@ -30393,13 +30393,19 @@
       "explanation": "Answer: gamma-carboxylation of clotting factors. Why: Your El-Husseiny biochemistry notes (p. 248) explain that reduced vitamin K is the cofactor for gamma-carboxylation of glutamic acid residues on factors II, VII, IX and X and on proteins C and S. Newborns are at risk because their gut has no bacteria yet to make vitamin K, breast milk contains little, and their liver stores are small. Deficiency causes bleeding with a long PT and aPTT but a normal bleeding time, which is why babies are given a vitamin K injection at birth. StatPearls (Vitamin K Deficiency in Neonates and Adults) agrees that nearly all newborns are vitamin K deficient, citing poor transfer across the placenta, low levels in breast milk and a gut not yet colonized by vitamin K-making bacteria, that platelet count and fibrinogen are normal, and that routine vitamin K is recommended for all newborns.",
       "whyWrong": {
         "b": "A platelet adhesion defect would prolong the bleeding time, which stays normal in vitamin K deficiency (your El-Husseiny biochemistry notes, p. 248), and it would not prolong the PT.",
-        "c": "Factor VIII is not one of the vitamin K-dependent factors (II, VII, IX and X; your El-Husseiny biochemistry notes, p. 248), and low factor VIII alone does not prolong the PT (standard teaching).",
-        "d": "Factor XIII deficiency causes bleeding with a normal PT and PTT (standard teaching).",
+        "c": "Factor VIII is not one of the vitamin K-dependent factors (II, VII, IX and X; your El-Husseiny biochemistry notes, p. 248), and it is part of the intrinsic pathway measured by the PTT, not the PT (your El-Husseiny hematology-oncology notes, p. 20).",
+        "d": "Factor XIIIa cross-links the fibrin mesh after thrombin acts (your Osmosis physiology notes, p. 367), and its deficiency causes bleeding with a normal PT and PTT (standard teaching).",
         "e": "Too much fibrinolysis by plasmin would use up fibrinogen (standard teaching); his fibrinogen is normal."
       },
       "sources": [
         {
           "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Vitamin K, p. 248"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Hematology-Oncology (Emily's file), Coagulation tests, p. 20"
+        },
+        {
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Coagulation cascade, p. 367"
         },
         {
           "title": "StatPearls: Vitamin K Deficiency in Neonates and Adults",
@@ -30603,11 +30609,14 @@
         "b": "Galactokinase deficiency is mild: it puts galactose in the blood and urine and causes infant cataracts, but not liver disease or sepsis (your El-Husseiny biochemistry notes, p. 139; MedlinePlus Genetics, Galactosemia).",
         "c": "Aldolase B deficiency (hereditary fructose intolerance) causes symptoms after fructose or sucrose, not after milk (your El-Husseiny biochemistry notes, p. 143).",
         "d": "Fructokinase deficiency (essential fructosuria) causes no symptoms (your El-Husseiny biochemistry notes, p. 143).",
-        "e": "Lactase deficiency causes bloating and diarrhea after milk (standard teaching), not liver disease, cataracts or sepsis."
+        "e": "Lactose intolerance causes cramping, abdominal distention, gas and diarrhea after milk (your Osmosis GI notes, p. 136), not liver disease, cataracts or sepsis."
       },
       "sources": [
         {
           "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Galactose metabolism, pp. 139-140; fructose metabolism, p. 143"
+        },
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Gastrointestinal (Emily's file), Lactose intolerance, p. 136"
         },
         {
           "title": "MedlinePlus Medical Encyclopedia: Galactosemia",
@@ -30950,7 +30959,7 @@
       "topic": "Organelles: rough endoplasmic reticulum in plasma cells",
       "difficulty": 2,
       "stem": "A 66-year-old man has back pain, anemia and a high total serum protein. His bone marrow shows sheets of cells with an off-center nucleus, a pale zone next to the nucleus and deeply blue-staining cytoplasm. Electron microscopy shows the cytoplasm packed with stacked, flattened membranes studded with ribosomes.",
-      "leadIn": "The organelle described is where these cells mainly",
+      "leadIn": "Which of the following is the main function of this organelle in these cells?",
       "options": [
         {
           "id": "a",
@@ -31026,7 +31035,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: making steroid hormones from cholesterol. Why: Your Osmosis physiology notes (p. 160) explain that smooth endoplasmic reticulum (SER) has no ribosomes and is the site of lipid and steroid synthesis, calcium storage in muscle, glycogen metabolism and detoxification in the liver. Digital Histology (Endoplasmic reticulum 12) agrees that SER is the main site of lipid synthesis and is therefore well developed in steroid-secreting cells, shown in an adrenal cortex cell, and that it also detoxifies drugs and stores and releases calcium. The zona fasciculata makes cortisol (standard teaching).",
+      "explanation": "Answer: making steroid hormones from cholesterol. Why: Your Osmosis physiology notes (p. 160) explain that smooth endoplasmic reticulum (SER) has no ribosomes and is the site of lipid and steroid synthesis, calcium storage in muscle, glycogen metabolism and detoxification in the liver. Digital Histology (Endoplasmic reticulum 12) agrees that SER is the main site of lipid synthesis and is therefore well developed in steroid-secreting cells, shown in an adrenal cortex cell, and that it also detoxifies drugs and stores and releases calcium. Your notes (p. 277) also explain that the zona fasciculata makes glucocorticoids such as cortisol.",
       "whyWrong": {
         "b": "Mannose-6-phosphate is added to lysosomal enzymes in the Golgi apparatus (your El-Husseiny biochemistry notes, pp. 42-43).",
         "c": "Proteins for secretion, such as antibodies, are folded in rough ER, which has ribosomes (your Osmosis physiology notes, p. 160).",
@@ -31035,7 +31044,7 @@
       },
       "sources": [
         {
-          "title": "Osmosis High-Yield Physiology notes (Emily's file), Cellular structure and function, p. 160; nuclear structure, p. 179; atrophy, p. 186"
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Cellular structure and function, p. 160; nuclear structure, p. 179; atrophy, p. 186; adrenal cortex, p. 277"
         },
         {
           "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Golgi apparatus and mannose-6-phosphate, pp. 42-43"
