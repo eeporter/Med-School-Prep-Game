@@ -34570,12 +34570,12 @@
       "whyWrong": {
         "b": "Blocking serotonin reuptake is how SSRIs work (your Pharmacology High Yield notes, PDF p. 60). Combining an SSRI with an MAOI can cause serotonin syndrome, but this reaction followed tyramine-rich food (MSD, Drug Treatment of Depression).",
         "c": "Blocking D2 receptors is how typical antipsychotics work (your Pharmacology High Yield notes, PDF p. 52). It does not explain a hypertensive crisis after eating aged cheese.",
-        "d": "Muscarinic blockade is a side effect of tricyclic antidepressants (your Pharmacology High Yield notes, PDF p. 60), not of the MAOI tyramine reaction.",
+        "d": "Muscarinic blockade is a side effect of tricyclic antidepressants (your Pharmacology High Yield notes, PDF p. 61), not of the MAOI tyramine reaction.",
         "e": "Benzodiazepines act on GABA-A receptors (your El-Husseiny neurology notes, pp. 226-227) and do not raise blood pressure after a tyramine-rich meal."
       },
       "sources": [
         {
-          "title": "Pharmacology High Yield (Emily's file), Norepinephrine breakdown, PDF p. 19; antipsychotics, PDF p. 52; SSRIs and TCAs, PDF p. 60; linezolid, PDF p. 122"
+          "title": "Pharmacology High Yield (Emily's file), Norepinephrine breakdown, PDF p. 19; antipsychotics, PDF p. 52; SSRIs, PDF p. 60; TCAs, PDF p. 61; linezolid, PDF p. 122"
         },
         {
           "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Benzodiazepines, pp. 226-227"
@@ -34790,13 +34790,13 @@
       "explanation": "Answer: the serotonin 5-HT1A receptor (buspirone). Why: Your Pharmacology High Yield notes (PDF p. 59) list buspirone as a 5-HT1A agonist for anxiety. Its advantages are that it is not sedating and not habit-forming, and its disadvantage is a slow onset. StatPearls (Buspirone) agrees that buspirone is a partial agonist at 5-HT1A receptors, is used mainly for generalized anxiety disorder, carries no risk of physical dependence or withdrawal, has negligible abuse potential, and usually takes 2 to 4 weeks to work. It adds that buspirone does little for acute anxiety.",
       "whyWrong": {
         "b": "Benzodiazepines act at the GABA-A receptor (your El-Husseiny neurology notes, pp. 226-227). They can cause dependence, which she wants to avoid.",
-        "c": "Histamine H1 blockade causes sedation (your Pharmacology High Yield notes, PDF p. 60), the opposite of what she asked for.",
+        "c": "Histamine H1 blockade causes sedation (your Pharmacology High Yield notes, PDF p. 61, tricyclic antidepressants), the opposite of what she asked for.",
         "d": "Mirtazapine blocks alpha-2 receptors (your Pharmacology High Yield notes, PDF p. 60); it is not a 5-HT1A partial agonist.",
         "e": "D2 blockade is how antipsychotics work (your Pharmacology High Yield notes, PDF p. 52), not anxiolytics like buspirone."
       },
       "sources": [
         {
-          "title": "Pharmacology High Yield (Emily's file), Antipsychotics, PDF p. 52; anxiety disorder, PDF p. 59; antidepressants, PDF p. 60"
+          "title": "Pharmacology High Yield (Emily's file), Antipsychotics, PDF p. 52; anxiety disorder, PDF p. 59; SSRIs and mirtazapine, PDF p. 60; TCAs, PDF p. 61"
         },
         {
           "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Benzodiazepines, pp. 226-227"
@@ -35001,13 +35001,13 @@
       "explanation": "Answer: T cells sensitized to the metal cause delayed inflammation (type IV hypersensitivity). Why: Your Osmosis dermatology notes (p. 12) explain that allergic contact dermatitis is a type IV, cell-mediated (delayed) reaction. In the induction phase, the immune system is primed to a small allergen (a hapten) such as nickel, poison ivy, fragrance or dye. In the elicitation phase, the hapten binds skin proteins, dendritic cells present it to T cells in the lymph nodes, and memory T cells then drive inflammation whenever the skin is exposed again. The rash is itchy and can appear up to 72 hours after exposure (p. 13). The MSD Manual (Contact Dermatitis) agrees that it is a type IV, T-cell-mediated delayed reaction with a sensitization phase and an elicitation phase, that nickel is the most common contact allergen, and that the rash usually appears at least 1 day after exposure and worsens over 2 to 3 days. Patch testing can identify the allergen.",
       "whyWrong": {
         "b": "IgE-triggered mast cell release of histamine is the mechanism of hives, which appear quickly and fade (your Osmosis dermatology notes, p. 62; MSD, Urticaria), not a blistering rash that builds over days.",
-        "c": "Antibodies against desmosomes cause pemphigus vulgaris, with fragile blisters (your Osmosis dermatology notes, p. 65 contrasts it with bullous pemphigoid), not a rash under metal.",
+        "c": "Antibodies against desmosomes cause pemphigus vulgaris, with fragile blisters (your Osmosis dermatology notes, p. 66; p. 65 contrasts it with bullous pemphigoid), not a rash under metal.",
         "d": "Immune complex deposition is type III hypersensitivity (your El-Husseiny microbiology and immunology notes, p. 458), not contact dermatitis.",
         "e": "Direct chemical damage to the skin barrier describes irritant contact dermatitis (your Osmosis dermatology notes, p. 12), which tends to burn rather than itch and needs no prior sensitization."
       },
       "sources": [
         {
-          "title": "Osmosis High-Yield Pathology Notes: Dermatology (Emily's file), Contact dermatitis, pp. 12-13; urticaria, p. 62; bullous pemphigoid, p. 65"
+          "title": "Osmosis High-Yield Pathology Notes: Dermatology (Emily's file), Contact dermatitis, pp. 12-13; urticaria, p. 62; bullous pemphigoid, p. 65; pemphigus vulgaris, p. 66"
         },
         {
           "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Hypersensitivity reactions, p. 458"
@@ -35278,7 +35278,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: hidradenitis suppurativa. Why: Your Osmosis dermatology notes (p. 49) describe hidradenitis suppurativa (acne inversa) as a long-lasting, pus-producing skin disease in which faulty hair follicles and apocrine glands become plugged and inflamed, forming painful abscesses. It occurs mostly in the armpits, groin and under the breasts, often with double comedones. Risk factors include obesity, smoking, tight clothes and shaving, and it is more common in women. Complications include scarring, sinus and fistula tracts, and squamous cell carcinoma in long-standing lesions. The MSD Manual (Hidradenitis Suppurativa) agrees that follicles become inflamed, plugged and ruptured, leading to recurrent abscesses, sinus tracts and scarring in the armpits, groin and inframammary and perianal areas, and that the nodules are often sterile. It lists obesity and smoking as contributors and names adalimumab, infliximab, secukinumab and bimekizumab as biologic options for severe disease.",
+      "explanation": "Answer: hidradenitis suppurativa. Why: Your Osmosis dermatology notes (p. 49) describe hidradenitis suppurativa (acne inversa) as a long-lasting, pus-producing skin disease in which faulty hair follicles and apocrine glands become plugged and inflamed, forming painful abscesses. It occurs mostly in the armpits, groin and under the breasts, often with double comedones. Risk factors include obesity, smoking, tight clothes and shaving, and it is more common in women. Complications include scarring, sinus and fistula tracts, and squamous cell carcinoma in long-standing lesions. Treatment in your notes (p. 50) includes corticosteroids, anti-androgens, oral antibiotics, TNF inhibitors, incision and drainage, and stopping smoking and losing weight. The MSD Manual (Hidradenitis Suppurativa) agrees that follicles become inflamed, plugged and ruptured, leading to recurrent abscesses, sinus tracts and scarring in the armpits, groin and inframammary and perianal areas, and that the nodules are often sterile. It lists obesity and smoking as contributors. Recent change: your notes list TNF inhibitors (such as adalimumab and infliximab) as the biologic option, and MSD now also lists the IL-17 inhibitors secukinumab and bimekizumab for severe disease.",
       "whyWrong": {
         "b": "MRSA abscesses are bacterial (your Osmosis dermatology notes, pp. 46 and 49), but sterile cultures, double comedones, tunnels and a fixed armpit and groin pattern over years point to hidradenitis suppurativa (p. 49; MSD).",
         "c": "Acne vulgaris affects the face, neck, chest and back (your Osmosis dermatology notes, p. 45), not the armpits and groin with draining tunnels.",
@@ -35287,7 +35287,7 @@
       },
       "sources": [
         {
-          "title": "Osmosis High-Yield Pathology Notes: Dermatology (Emily's file), Acne vulgaris and cellulitis, pp. 45-46; erysipelas, p. 47; folliculitis, pp. 48-49; hidradenitis suppurativa, p. 49"
+          "title": "Osmosis High-Yield Pathology Notes: Dermatology (Emily's file), Acne vulgaris and cellulitis, pp. 45-46; erysipelas, p. 47; folliculitis, pp. 48-49; hidradenitis suppurativa, pp. 49-50"
         },
         {
           "title": "MSD Manual Professional: Hidradenitis Suppurativa",
