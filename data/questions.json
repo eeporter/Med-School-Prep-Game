@@ -33243,7 +33243,7 @@
         "b": "FOXP3 is needed for regulatory T cells, and its deficiency causes autoimmunity (your notes, p. 415), but not this triad of candidiasis, hypoparathyroidism and Addison disease.",
         "c": "STAT3 variants cause hyper-IgE (Job) syndrome, with Th17 deficiency, high IgE and eosinophils (your notes, p. 467), not endocrine failure.",
         "d": "BTK variants cause X-linked agammaglobulinemia, with few B cells and recurrent bacterial infections in boys (your notes, p. 464).",
-        "e": "CYBB codes for part of NADPH oxidase, which is missing in chronic granulomatous disease (your notes, p. 473; gene name: standard teaching), with catalase-positive infections rather than endocrine failure."
+        "e": "CYBB codes for part of NADPH oxidase, which is missing in chronic granulomatous disease (your notes, p. 473; MedlinePlus Genetics lists CYBB among the NADPH oxidase genes), with catalase-positive infections rather than endocrine failure."
       },
       "sources": [
         {
@@ -33256,6 +33256,10 @@
         {
           "title": "NIH GARD: Polyglandular autoimmune syndrome, type 1",
           "url": "https://rarediseases.info.nih.gov/diseases/8466/polyglandular-autoimmune-syndrome-type-1"
+        },
+        {
+          "title": "MedlinePlus Genetics: Chronic granulomatous disease",
+          "url": "https://medlineplus.gov/genetics/condition/chronic-granulomatous-disease/"
         }
       ]
     },
