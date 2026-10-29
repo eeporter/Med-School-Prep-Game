@@ -44822,7 +44822,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: gastroduodenal artery. Why: Your NBME Top Concepts (p. 181, Complications of PUD) teaches that duodenal ulcers bleed from the gastroduodenal artery, while gastric ulcers on the lesser curvature bleed from the left gastric artery. Your Osmosis GI notes (p. 42) note that peptic ulcers are the most common cause of upper GI bleeding and that they often sit in the proximal duodenum. Radiopaedia explains the anatomy: \"The gastroduodenal artery is a terminal branch of the common hepatic artery\" that \"passes inferiorly behind the first part of the duodenum,\" and \"Due to its proximity to the posterior wall of the first part of the duodenum,\" it \"is one of the most important sources of upper gastrointestinal bleeding,\" \"mostly secondary to peptic ulcer disease.\" A deep ulcer in the posterior wall of the duodenal bulb therefore erodes straight into it.",
+      "explanation": "Answer: gastroduodenal artery. Why: Your NBME Top Concepts (p. 181, Complications of PUD) teaches that duodenal ulcers bleed from the gastroduodenal artery, while gastric ulcers on the lesser curvature bleed from the left gastric artery. Your Osmosis GI notes (p. 42) note that peptic ulcers are the most common cause of upper GI bleeding and that they often sit in the proximal duodenum. StatPearls explains the anatomy: the common hepatic artery \"gives off the proper hepatic, gastroduodenal, and right gastric arteries,\" and \"Duodenal ulcers most commonly occur on the posterior duodenal wall, an area supplied by the gastroduodenal artery.\" The artery runs down just behind the first part of the duodenum, so a deep ulcer in the posterior wall of the duodenal bulb erodes straight into it.",
       "whyWrong": {
         "b": "The left gastric artery runs along the lesser curvature of the stomach and is the classic bleeding source for gastric, not duodenal, ulcers (your NBME Top Concepts, p. 181).",
         "c": "The splenic artery runs behind the stomach along the upper edge of the pancreas, far from the first part of the duodenum.",
@@ -44837,52 +44837,58 @@
           "title": "Osmosis High-Yield Pathology Notes: Gastrointestinal (Emily's file), Peptic ulcer, p. 42"
         },
         {
+          "title": "StatPearls: Anatomy, Abdomen and Pelvis: Celiac Trunk",
+          "url": "https://www.statpearls.com/point-of-care/19101"
+        }
+      ],
+      "readMore": [
+        {
           "title": "Radiopaedia: Gastroduodenal artery",
           "url": "https://www.radiopaedia.org/articles/gastroduodenal-artery?lang=us"
         }
       ]
     },
     {
-      "id": "anat-esophageal-varices-left-gastric-001",
+      "id": "anat-esophageal-varices-azygos-001",
       "exams": [
         "usmle-step1",
         "nbme"
       ],
       "discipline": "Anatomy",
       "system": "Gastrointestinal",
-      "topic": "Portal hypertension: esophageal varices and the left gastric vein",
+      "topic": "Portal hypertension: esophageal varices drain to the azygos vein",
       "difficulty": 2,
       "stem": "A 54-year-old woman with cirrhosis from long-standing hepatitis C comes for follow-up. She has had no bleeding. Examination shows a palpable spleen tip, shifting dullness and spider angiomas on the chest. Platelet count is 72,000/mm3. Screening upper endoscopy shows several large, bluish, dilated veins running along the lower third of the esophagus.",
-      "leadIn": "Portal blood reaches these dilated veins mainly through which of the following vessels?",
+      "leadIn": "Blood in these dilated veins bypasses the liver and returns to the heart mainly through which of the following veins?",
       "options": [
         {
           "id": "a",
-          "text": "Left gastric vein"
+          "text": "Azygos vein"
         },
         {
           "id": "b",
-          "text": "Superior rectal vein"
+          "text": "Inferior rectal veins"
         },
         {
           "id": "c",
-          "text": "Paraumbilical vein"
+          "text": "Superficial epigastric veins"
         },
         {
           "id": "d",
-          "text": "Inferior mesenteric vein"
+          "text": "Left renal vein"
         },
         {
           "id": "e",
-          "text": "Right gonadal vein"
+          "text": "Superior mesenteric vein"
         }
       ],
       "answer": "a",
-      "explanation": "Answer: left gastric vein. Why: In portal hypertension, blood backs up in the portal system and escapes through connections with the systemic veins. Your Osmosis GI notes (p. 118) say cirrhosis is the most common cause of portal hypertension, and that portosystemic collaterals form esophageal varices, hemorrhoids and caput medusae, with variceal bleeding the most life-threatening complication. Your NBME Top Concepts (pp. 41-42) shows esophageal varices as a result of the imbalance between the portal and caval systems. Radiopaedia names the esophageal pathway: the \"left gastric (coronary) vein and short gastric veins to distal esophageal veins,\" which then drain to the \"azygos and hemiazygos veins.\" StatPearls adds that \"Gastroesophageal collaterals drain into the azygos vein and contribute to the development of esophageal varices.\" So the portal side of an esophageal varix is the left gastric vein, and the systemic side is the azygos system.",
+      "explanation": "Answer: azygos vein. Why: In portal hypertension, blood backs up in the portal system and escapes through connections with the systemic veins. Your Osmosis GI notes (p. 118) say cirrhosis is the most common cause of portal hypertension, and that portosystemic collaterals form esophageal varices, hemorrhoids and caput medusae, with variceal bleeding the most life-threatening complication. Your NBME Top Concepts (pp. 41-42) shows esophageal varices as a result of the imbalance between the portal and caval systems. At the lower esophagus, gastric veins of the portal system meet esophageal veins of the systemic system. OpenStax Anatomy and Physiology says \"the hepatic portal vein also receives branches from the gastric veins of the stomach,\" while the esophageal vein \"Drains the inferior portions of the esophagus and leads to the azygos vein.\" StatPearls describes varices as \"dilated submucosal distal esophageal veins connecting the portal and systemic circulations\" and says \"Gastroesophageal collaterals drain into the azygos vein and contribute to the development of esophageal varices.\" The azygos vein then empties into the superior vena cava.",
       "whyWrong": {
-        "b": "The superior rectal vein (portal) joins the middle and inferior rectal veins (systemic) to form rectal varices, not esophageal varices.",
-        "c": "The paraumbilical veins (portal) join the veins of the abdominal wall to form caput medusae around the umbilicus (your Osmosis GI notes, p. 118).",
-        "d": "The inferior mesenteric vein drains the left colon into the splenic vein. It feeds the rectal pathway through the superior rectal vein, not the esophagus.",
-        "e": "The right gonadal vein drains into the inferior vena cava. It is a systemic vein, not part of the portal system."
+        "b": "The inferior rectal veins are the systemic side of the rectal collaterals (with the superior rectal vein on the portal side), which form rectal varices, not esophageal varices.",
+        "c": "The superficial epigastric veins of the abdominal wall are the systemic side of the paraumbilical collaterals that form caput medusae (your Osmosis GI notes, p. 118).",
+        "d": "The left renal vein drains the left kidney into the inferior vena cava. The veins of the lower esophagus lead to the azygos vein instead (OpenStax).",
+        "e": "The superior mesenteric vein is part of the portal system: it joins the splenic vein to form the hepatic portal vein (OpenStax). It carries blood toward the liver, not around it."
       },
       "sources": [
         {
@@ -44892,8 +44898,8 @@
           "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Esophageal varices, pp. 41-42"
         },
         {
-          "title": "Radiopaedia: Portosystemic collateral pathways",
-          "url": "https://images.radiopaedia.org/articles/varices?lang=us"
+          "title": "OpenStax Anatomy and Physiology 2e, 20.5 Circulatory Pathways",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways"
         },
         {
           "title": "StatPearls: Esophageal Varices",
@@ -44939,7 +44945,7 @@
       "explanation": "Answer: visceral pain fibers that enter the spinal cord at T10. Why: Early appendicitis distends and inflames the appendix wall, which is innervated like the rest of the midgut. Its pain fibers travel with sympathetic nerves to the T10 spinal segment, the same segment that supplies the skin around the umbilicus, so the brain feels a vague ache there. Once the inflammation reaches the parietal peritoneum, somatic nerves give sharp, well-localized pain over McBurney point. Your Osmosis GI notes (p. 71) say the pain of appendicitis often begins in the umbilical area and then moves to McBurney point, from visceral nerve stimulation first and parietal peritoneum irritation later. The Royal College of Emergency Medicine (RCEMLearning) explains that inflammation \"activates afferent sympathetic fibres\" \"which enter the spinal cord at T10 resulting in referred colicky pain to the periumbilical area,\" because \"the appendix is innervated by the autonomic nervous supply to the mid-gut.\" Later, inflammation will \"irritate the surrounding parietal peritoneum\" \"resulting in constant local pain in the RIF\" (right iliac fossa).",
       "whyWrong": {
         "b": "Parietal peritoneal irritation explains the later sharp, localized right lower quadrant pain, not the early vague ache around the umbilicus (RCEMLearning).",
-        "c": "Phrenic nerve irritation from fluid or pus under the diaphragm refers pain to the shoulder (C5), not the umbilicus (your El-Husseiny cardiovascular notes, p. 23).",
+        "c": "Phrenic nerve irritation from fluid or pus under the diaphragm refers pain to the shoulder (C3-C5), not the umbilicus (your El-Husseiny cardiovascular notes, p. 23).",
         "d": "A pelvic appendix touching the obturator internus causes pain with internal rotation of the flexed right hip (obturator sign), not periumbilical pain (your Osmosis GI notes, p. 71).",
         "e": "The median umbilical ligament is the remnant of the urachus. It is not inflamed in appendicitis and does not explain the referred pain."
       },
