@@ -37667,6 +37667,1068 @@
           "url": "https://www.msdmanuals.com/professional/infectious-diseases/spirochetes/leptospirosis"
         }
       ]
+    },
+    {
+      "id": "biostats-two-sample-t-test-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biostatistics & Epidemiology",
+      "system": "Behavioral Health",
+      "topic": "Statistical tests: two-sample t-test",
+      "difficulty": 1,
+      "stem": "Researchers randomly assign 80 adults with chronic insomnia to 8 weeks of cognitive behavioral therapy for insomnia or to 8 weeks of sleep hygiene education. The outcome is the score on a 0-to-28 insomnia severity scale at the end of treatment. Scores are roughly normally distributed in both groups. The researchers want to know whether the average score differs between the two groups.",
+      "leadIn": "Which statistical test is most appropriate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Two-sample t-test"
+        },
+        {
+          "id": "b",
+          "text": "Analysis of variance (ANOVA) across three or more groups"
+        },
+        {
+          "id": "c",
+          "text": "Chi-square test of two proportions"
+        },
+        {
+          "id": "d",
+          "text": "Fisher exact test"
+        },
+        {
+          "id": "e",
+          "text": "Pearson correlation coefficient"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: a two-sample t-test. Why: Your First Aid biostatistics file (Public Health Sciences, p. 264) sorts the common tests by what is being compared. A t-test checks whether the means of 2 groups differ (\"tea is meant for 2\"). ANOVA does the same job for 3 or more groups. Chi-square and Fisher exact tests compare percentages or proportions of a categorical outcome, not means, and Fisher is used instead of chi-square when the sample is small. Here the outcome is a numerical score, the question is about average values, and there are exactly 2 groups, so the t-test fits. Penn State's applied statistics course explains that this test is meant for two independent samples and assumes that each population is normally distributed or that each sample is large enough. Both conditions hold in this trial.",
+      "whyWrong": {
+        "b": "ANOVA compares the means of 3 or more groups (your First Aid biostatistics file, p. 264). This trial has only 2 groups.",
+        "c": "Chi-square compares percentages or proportions of a categorical outcome, not mean values (your First Aid biostatistics file, p. 264). The outcome here is a numerical score.",
+        "d": "Fisher exact test compares 2 proportions of a categorical outcome and replaces chi-square when the sample is small (your First Aid biostatistics file, p. 264). It does not compare means.",
+        "e": "Pearson r measures how strongly 2 numerical variables move together in a straight line (your First Aid biostatistics file, p. 264). It does not test whether 2 groups have different means."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Common statistical tests, p. 264"
+        },
+        {
+          "title": "Penn State STAT 500 (Applied Statistics), Lesson 7: comparing two independent means",
+          "url": "https://online.stat.psu.edu/stat500/Lesson07"
+        }
+      ]
+    },
+    {
+      "id": "biostats-adoption-study-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biostatistics & Epidemiology",
+      "system": "Behavioral Health",
+      "topic": "Study design: adoption study",
+      "difficulty": 1,
+      "stem": "Investigators identify 600 adults who were placed with nonrelative families shortly after birth. Using birth records, they learn whether each person's birth parents had alcohol use disorder. They also record whether the parents who raised each person had alcohol use disorder. They then compare how often alcohol use disorder develops in the adults across these groups.",
+      "leadIn": "Which type of study is this?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Adoption study"
+        },
+        {
+          "id": "b",
+          "text": "Twin concordance study"
+        },
+        {
+          "id": "c",
+          "text": "Case-control study"
+        },
+        {
+          "id": "d",
+          "text": "Cross-sectional study"
+        },
+        {
+          "id": "e",
+          "text": "Crossover study"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: an adoption study. Why: Your First Aid biostatistics file (Public Health Sciences, p. 256) describes an adoption study as one that compares siblings raised by biological versus adoptive parents. Like a twin concordance study, it measures how much of a disease comes from heredity and how much from the environment (nature versus nurture). People adopted early carry their birth parents' genes but grow up in their adoptive parents' home, so the two influences can be pulled apart. Cadoret's review of adoption research in alcoholism makes the same point: because adoptees are separated from their biological parents early in life, these studies can separate genetic from environmental influences, and they found a role for both.",
+      "whyWrong": {
+        "b": "A twin concordance study compares how often both identical twins versus both fraternal twins develop the same disease (your First Aid biostatistics file, p. 256). This study compares birth parents with the parents who raised each person, not twins.",
+        "c": "A case-control study starts with people who have a disease and people who do not, then looks back at past exposures and reports an odds ratio (your First Aid biostatistics file, p. 256). This study is built around who raised whom, not around disease status.",
+        "d": "A cross-sectional study measures disease and risk factors at one point in time and gives prevalence (your First Aid biostatistics file, p. 256). It cannot separate inherited from rearing influences.",
+        "e": "A crossover study gives each participant 2 or more treatments in random order with a washout between them (your First Aid biostatistics file, p. 256). No treatment is given here."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Observational studies: adoption study, p. 256"
+        },
+        {
+          "title": "Cadoret RJ. Adoption Studies. Alcohol Health Res World 1995;19(3):195-200",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6875765/"
+        }
+      ]
+    },
+    {
+      "id": "biostats-trial-phase-2-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biostatistics & Epidemiology",
+      "system": "Behavioral Health",
+      "topic": "Clinical trials: phase II",
+      "difficulty": 1,
+      "stem": "A new antidepressant has already been given to 60 healthy volunteers to study its safety and how the body handles it. The company now enrolls 250 adults with major depressive disorder. Each is given one of three doses for 12 weeks. The goals are to see whether depressive symptoms improve, which dose works best and which side effects occur.",
+      "leadIn": "This trial is in which phase of drug development?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Phase II"
+        },
+        {
+          "id": "b",
+          "text": "Phase I"
+        },
+        {
+          "id": "c",
+          "text": "Phase III"
+        },
+        {
+          "id": "d",
+          "text": "Phase IV"
+        },
+        {
+          "id": "e",
+          "text": "Preclinical (animal) testing"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: phase II. Why: Your First Aid biostatistics file (Public Health Sciences, p. 256) lists the four phases of drug trials (\"Does the drug SWIM?\"). Phase I uses a small number of healthy volunteers or patients and asks \"Is it Safe?\", looking at safety, toxicity and how the drug is absorbed and handled. Phase II uses a moderate number of patients who have the disease and asks \"Does it Work?\", looking at efficacy, the best dose and adverse effects. Phase III randomly assigns large numbers of patients to the new drug or to the standard of care. Phase IV is surveillance after approval. This trial follows a safety study in volunteers, enrolls a moderate number of people with depression and compares doses, so it is phase II. The FDA describes phase 2 the same way: up to several hundred people with the disease, lasting several months to 2 years, to study efficacy and side effects.",
+      "whyWrong": {
+        "b": "Phase I is the first step, in a small number of healthy volunteers or patients, and asks whether the drug is safe (your First Aid biostatistics file, p. 256). That step was already done in the 60 volunteers. The FDA puts phase 1 at about 20 to 100 people.",
+        "c": "Phase III randomly assigns a large number of patients to the new drug or to the current standard of care or placebo (your First Aid biostatistics file, p. 256). The FDA puts phase 3 at about 300 to 3,000 people. This trial is comparing doses, not testing the drug against standard care.",
+        "d": "Phase IV is postmarketing surveillance after approval, which finds rare or long-term adverse effects (your First Aid biostatistics file, p. 256). This drug is not yet approved.",
+        "e": "Preclinical testing comes before any study in people, and clinical research begins only after it (FDA, Step 3: Clinical Research). This drug has already been given to people."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Clinical trial phases, p. 256"
+        },
+        {
+          "title": "U.S. Food and Drug Administration: Step 3, Clinical Research (drug trial phases)",
+          "url": "https://www.fda.gov/patients/drug-development-process/step-3-clinical-research"
+        }
+      ]
+    },
+    {
+      "id": "neuro-locus-ceruleus-anxiety-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Behavioral Health",
+      "topic": "Neurotransmitters in anxiety: locus ceruleus",
+      "difficulty": 2,
+      "stem": "A 31-year-old has had repeated sudden episodes of a pounding heartbeat, sweating, trembling, shortness of breath and fear of dying. Each episode peaks within minutes. Between episodes, the patient worries about having another one. Physical examination, ECG and thyroid tests are normal. ",
+      "leadIn": "Overactivity of which structure is most closely linked to these symptoms?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Locus ceruleus of the pons"
+        },
+        {
+          "id": "b",
+          "text": "Raphe nuclei of the brainstem"
+        },
+        {
+          "id": "c",
+          "text": "Ventral tegmental area"
+        },
+        {
+          "id": "d",
+          "text": "Basal nucleus of Meynert"
+        },
+        {
+          "id": "e",
+          "text": "Substantia nigra pars compacta"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the locus ceruleus. Why: Your El-Husseiny neurology notes (p. 143) give a table of where each neurotransmitter is made and how it changes in disease. Norepinephrine is made in the locus ceruleus of the pons and is increased in anxiety and decreased in depression. The notes add that the locus ceruleus is a paired nucleus in the upper (rostral) pons near the floor of the fourth ventricle and is the brain's main site of norepinephrine synthesis. The same table shows serotonin from the raphe nuclei, dopamine from the ventral tegmentum and substantia nigra, and acetylcholine from the basal nucleus of Meynert. A psychopharmacology review from the American College of Neuropsychopharmacology agrees that the locus ceruleus is the brain's major norepinephrine nucleus, that it fires more under threat, and that abnormal noradrenergic function is thought to play a part in panic disorder and PTSD.",
+      "whyWrong": {
+        "b": "The raphe nuclei make serotonin, which your El-Husseiny neurology notes (p. 143) list as decreased, not increased, in anxiety. They are the target of SSRIs, not the main norepinephrine source.",
+        "c": "The ventral tegmental area makes dopamine (your El-Husseiny neurology notes, p. 143). Dopamine is increased in schizophrenia in that table, but it is not the transmitter that rises in anxiety.",
+        "d": "The basal nucleus of Meynert makes acetylcholine, which falls in Alzheimer disease (your El-Husseiny neurology notes, p. 143). It is not the source of norepinephrine.",
+        "e": "The substantia nigra pars compacta makes dopamine, and its loss causes Parkinson disease (your El-Husseiny neurology notes, p. 143). It is not the brain's norepinephrine source."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Neurotransmitters: location of synthesis and changes with disease, p. 143"
+        },
+        {
+          "title": "American College of Neuropsychopharmacology (2000): Noradrenergic Neural Substrates for Anxiety and Fear, Table 1 (the locus coeruleus)",
+          "url": "https://acnp.org/g4/GN401000036/36_1.html"
+        }
+      ]
+    },
+    {
+      "id": "neuro-prefrontal-lobe-syndrome-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Behavioral Health",
+      "topic": "Cortical lesions: prefrontal cortex and frontal lobe syndrome",
+      "difficulty": 2,
+      "stem": "Over the past year, a 58-year-old has changed. The person, who was once careful with money, has made several reckless purchases, tells crude jokes at work meetings, and has lost interest in family and hobbies. The person has trouble planning simple tasks, but can still recall recent events and find the way around town. Strength, sensation and vision are normal. When the examiner strokes the patient's palm, the patient's fingers close around the examiner's hand.",
+      "leadIn": "A lesion in which area best explains these findings?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Prefrontal cortex"
+        },
+        {
+          "id": "b",
+          "text": "Both amygdalae"
+        },
+        {
+          "id": "c",
+          "text": "Nondominant (right) parietal lobe"
+        },
+        {
+          "id": "d",
+          "text": "Angular gyrus of the dominant parietal lobe"
+        },
+        {
+          "id": "e",
+          "text": "Both hippocampi"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the prefrontal cortex. Why: Your El-Husseiny neurology notes (p. 114) explain that the prefrontal cortex, which sits in front of the premotor area and makes up about a quarter of the cortex, organizes and plans the intellectual and emotional sides of behavior. A lesion there causes frontal lobe syndrome: poor judgment, trouble concentrating and solving problems, apathy, socially inappropriate behavior, and the return of infant reflexes such as grasping and sucking that are normally suppressed in adults (disinhibition). This patient has all of these, with memory, strength, sensation and vision spared. MSD describes the same pattern in frontotemporal dementia, which damages the frontal lobes: behavior and personality change more than memory, patients lose social inhibitions and act impulsively, and frontal release signs such as grasp, suck and snout reflexes appear.",
+      "whyWrong": {
+        "b": "Damage to both amygdalae causes Kluver-Bucy syndrome, whose disinhibited behavior is hyperphagia, hypersexuality and putting objects in the mouth (your El-Husseiny neurology notes, p. 132). It does not cause apathy, poor planning or a grasp reflex.",
+        "c": "A right parietal lesion causes hemispatial neglect: the patient ignores the left side of space and the body (your El-Husseiny neurology notes, p. 117). This patient has no neglect.",
+        "d": "A lesion of the dominant angular gyrus causes Gerstmann syndrome, with trouble reading, writing and calculating, finger agnosia and right-left confusion (your El-Husseiny neurology notes, p. 118). It does not change personality or judgment.",
+        "e": "Damage to both hippocampi causes anterograde amnesia (your El-Husseiny neurology notes, p. 133). This patient's memory is intact."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Frontal lobe: prefrontal cortex and frontal lobe syndrome, p. 114; parietal lobe, pp. 117-118; limbic system, pp. 132-133"
+        },
+        {
+          "title": "MSD Manual Professional: Frontotemporal Dementia (FTD)",
+          "url": "https://www.msdmanuals.com/professional/neurologic-disorders/delirium-and-dementia/frontotemporal-dementia-ftd"
+        }
+      ]
+    },
+    {
+      "id": "neuro-sleep-terrors-n3-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Behavioral Health",
+      "topic": "Parasomnias: sleep terrors (NREM sleep arousal disorder)",
+      "difficulty": 2,
+      "stem": "The parents of a 6-year-old say that several nights a week, about an hour after falling asleep, the child suddenly sits up screaming. During these episodes the child is sweating, breathing fast and has a racing heart and wide pupils. The child cannot be calmed and does not seem to know the parents are there. After a few minutes the child falls back asleep. In the morning the child remembers nothing and describes no dream.",
+      "leadIn": "These episodes most likely begin during which stage of sleep?",
+      "options": [
+        {
+          "id": "a",
+          "text": "N3 (slow-wave) sleep"
+        },
+        {
+          "id": "b",
+          "text": "Rapid eye movement (REM) sleep"
+        },
+        {
+          "id": "c",
+          "text": "N1 sleep at sleep onset"
+        },
+        {
+          "id": "d",
+          "text": "Wakefulness with full alertness"
+        },
+        {
+          "id": "e",
+          "text": "Lightest NREM sleep with no delta waves"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: N3 (slow-wave) sleep. Why: This child has sleep terrors, which DSM-5-TR groups with sleepwalking under the arousal disorders of non-REM (NREM) sleep. DSM-5-TR (p. 452) describes these as repeated incomplete awakenings, usually in the first third of the main sleep period. They can start in any NREM stage but most often begin in slow-wave sleep, which is why they cluster early in the night. In sleep terrors (p. 453), the person wakes suddenly in terror, usually with a panicky scream, and shows strong signs of autonomic arousal such as wide pupils, a fast heart rate, fast breathing and sweating. The person is hard to wake or comfort, recalls little or no dream, and has amnesia for the event the next day (p. 452). MSD agrees that sleep terrors are most common in children and arise during partial arousal from N3 sleep, while nightmares occur during REM sleep.",
+      "whyWrong": {
+        "b": "Nightmares usually come from REM sleep, tend to happen later in the night, and are remembered with a vivid dream (DSM-5-TR, p. 455). REM sleep behavior disorder also arises from REM sleep, and the person wakes easily and reports a detailed dream (p. 456). This child has no dream recall and no memory of the event.",
+        "c": "Arousal disorders usually begin in slow-wave sleep during the first third of the night (DSM-5-TR, p. 452), not at the very start of sleep. MSD places sleep terrors in N3 (MSD, Parasomnias).",
+        "d": "The child is not fully awake. DSM-5-TR describes these as incomplete awakenings, with the person hard to comfort and amnesic afterward (pp. 452-453). Nocturnal panic attacks are the contrast: they wake the person fully, without confusion or amnesia (p. 456).",
+        "e": "These episodes most often begin in slow-wave (deep) sleep (DSM-5-TR, p. 452), not light NREM sleep. MSD places sleep terrors in N3 (MSD, Parasomnias)."
+      },
+      "sources": [
+        {
+          "title": "DSM-5-TR (Emily's file), Non-rapid eye movement sleep arousal disorders, pp. 452-453; differential diagnosis, pp. 455-456"
+        },
+        {
+          "title": "MSD Manual Professional: Parasomnias",
+          "url": "https://www.msdmanuals.com/professional/neurologic-disorders/sleep-and-wakefulness-disorders/parasomnias"
+        }
+      ]
+    },
+    {
+      "id": "neuro-rem-sleep-behavior-disorder-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Behavioral Health",
+      "topic": "Parasomnias: REM sleep behavior disorder and synucleinopathy",
+      "difficulty": 2,
+      "stem": "A 66-year-old is brought in by a spouse who has been punched and kicked during the night several times in recent months. The episodes happen in the second half of the night. Once, the patient fell out of bed while shouting. When woken, the patient is alert right away and describes a vivid dream of fighting off an attacker. Neurologic examination is normal. Polysomnography shows high muscle tone in the chin and limbs during periods of rapid eye movements.",
+      "leadIn": "This patient is at greatest risk of later developing which condition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Parkinson disease"
+        },
+        {
+          "id": "b",
+          "text": "Narcolepsy with cataplexy"
+        },
+        {
+          "id": "c",
+          "text": "Obstructive sleep apnea"
+        },
+        {
+          "id": "d",
+          "text": "Huntington disease"
+        },
+        {
+          "id": "e",
+          "text": "Generalized anxiety disorder"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: Parkinson disease. Why: DSM-5-TR (p. 461) defines REM sleep behavior disorder as repeated arousals with vocalizing or complex movements that arise from REM sleep. Because of this they usually start more than 90 minutes after falling asleep and are more frequent later in the night. On waking the person is fully alert and not confused. The diagnosis needs either REM sleep without the normal loss of muscle tone (atonia) on polysomnography or a suggestive history in someone with an established synucleinopathy such as Parkinson disease or multiple system atrophy. DSM-5-TR (p. 462) adds that patients act out their dreams, can injure themselves or a bed partner, and in the idiopathic form are at high risk of later developing a neurodegenerative disease, most often a synucleinopathy. MSD agrees: it mostly affects older adults, alpha-synuclein builds up in the brain, and Parkinson disease, multiple system atrophy or dementia with Lewy bodies may follow years later. Clonazepam or melatonin at bedtime is used, along with making the bedroom safe.",
+      "whyWrong": {
+        "b": "Type 1 narcolepsy is thought to come from a loss of hypocretin (orexin), and it causes daytime sleepiness and cataplexy (MSD, Narcolepsy). It is not the neurodegenerative disease that REM sleep behavior disorder predicts (DSM-5-TR, p. 462).",
+        "c": "Sleep apnea is a breathing disorder, not a neurodegenerative one. The polysomnography here shows REM sleep without atonia, which is the finding that defines REM sleep behavior disorder (DSM-5-TR, p. 461).",
+        "d": "Huntington disease is an autosomal dominant CAG repeat disorder that destroys GABA neurons in the caudate (your El-Husseiny neurology notes, p. 101). It is not a synucleinopathy, which is what REM sleep behavior disorder foreshadows (DSM-5-TR, p. 462).",
+        "e": "Generalized anxiety disorder is not linked to dream enactment. The disease that REM sleep behavior disorder predicts is a neurodegenerative synucleinopathy (DSM-5-TR, p. 462; MSD, Parasomnias)."
+      },
+      "sources": [
+        {
+          "title": "DSM-5-TR (Emily's file), Rapid eye movement sleep behavior disorder, pp. 461-462"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Huntington disease, p. 101"
+        },
+        {
+          "title": "MSD Manual Professional: Parasomnias",
+          "url": "https://www.msdmanuals.com/professional/neurologic-disorders/sleep-and-wakefulness-disorders/parasomnias"
+        },
+        {
+          "title": "MSD Manual Professional: Narcolepsy",
+          "url": "https://www.msdmanuals.com/professional/neurologic-disorders/sleep-and-wakefulness-disorders/narcolepsy"
+        }
+      ]
+    },
+    {
+      "id": "psych-pmdd-prospective-ratings-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Behavioral Science",
+      "system": "Behavioral Health",
+      "topic": "Depressive disorders: premenstrual dysphoric disorder",
+      "difficulty": 2,
+      "stem": "A 27-year-old says that for the past year, in the week before each menstrual period, she becomes irritable, tearful and anxious, argues with her partner, sleeps poorly and has breast tenderness and bloating. The symptoms ease within a few days after bleeding starts, and she feels well during the week after her period ends. They have caused her to miss work. She takes no medications or drugs, and her thyroid tests are normal. She recalls these symptoms clearly from memory but has never tracked them.",
+      "leadIn": "Which step is needed to confirm the diagnosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Daily symptom ratings over at least two cycles"
+        },
+        {
+          "id": "b",
+          "text": "Low serum progesterone level in the luteal phase"
+        },
+        {
+          "id": "c",
+          "text": "Symptoms that also continue through the follicular phase"
+        },
+        {
+          "id": "d",
+          "text": "Pelvic ultrasonography that shows multiple ovarian cysts"
+        },
+        {
+          "id": "e",
+          "text": "A detailed history recalled over the past 12 months"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: prospective daily symptom ratings over at least two cycles. Why: This woman most likely has premenstrual dysphoric disorder (PMDD). DSM-5-TR (p. 197) requires at least 5 symptoms in the final week before menses, improving within a few days after menses starts and becoming minimal or absent in the week after. At least one must be a mood symptom, such as marked mood swings, irritability, depressed mood or anxiety. Others include trouble sleeping and physical symptoms such as breast tenderness and bloating. The pattern must occur in most cycles of the past year, cause real distress or impairment, and not be explained by a drug or a medical illness. Criterion F (p. 197) requires that the pattern be confirmed by prospective daily ratings over at least two symptomatic cycles. Until then, the diagnosis is only provisional. DSM-5-TR (p. 198) adds that the key feature is a follicular phase that is free of symptoms. MSD agrees that PMDD is a severe form of premenstrual syndrome that is diagnosed with daily symptom records over 2 or more cycles, and it lists SSRIs, taken every day or only in the luteal phase, as a treatment.",
+      "whyWrong": {
+        "b": "No hormone level is part of the DSM-5-TR criteria (p. 197). The diagnosis rests on the timing of symptoms, confirmed by daily ratings.",
+        "c": "PMDD symptoms must improve after menses starts and be minimal or absent in the week after (DSM-5-TR, p. 197), and a symptom-free follicular period is central to the diagnosis (p. 198). Symptoms that continue all month point to another disorder.",
+        "d": "An ultrasound showing many ovarian cysts would suggest polycystic ovary syndrome, not PMDD. DSM-5-TR requires no imaging (p. 197).",
+        "e": "Recalled history is how she presents, but DSM-5-TR requires the pattern to be confirmed by prospective daily ratings, and estimates based on recall tend to be higher than those based on daily ratings (pp. 197-198)."
+      },
+      "sources": [
+        {
+          "title": "DSM-5-TR (Emily's file), Premenstrual dysphoric disorder, pp. 197-198"
+        },
+        {
+          "title": "MSD Manual Professional: Premenstrual Syndrome (PMS)",
+          "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/menstrual-abnormalities/premenstrual-syndrome-pms"
+        }
+      ]
+    },
+    {
+      "id": "psych-tourette-disorder-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Behavioral Science",
+      "system": "Behavioral Health",
+      "topic": "Tic disorders: Tourette disorder",
+      "difficulty": 1,
+      "stem": "A 9-year-old has had repeated, sudden eye blinking and shoulder shrugging for 18 months. For the past year the child has also made frequent throat-clearing and sniffing sounds. The movements and sounds come and go in frequency. The child says an uncomfortable feeling builds up right before each one and that they can be held back for a short time in class. The child takes no medications, and the neurologic examination is otherwise normal.",
+      "leadIn": "Which is the most likely diagnosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tourette disorder"
+        },
+        {
+          "id": "b",
+          "text": "Persistent (chronic) motor tic disorder"
+        },
+        {
+          "id": "c",
+          "text": "Provisional tic disorder"
+        },
+        {
+          "id": "d",
+          "text": "Stereotypic movement disorder"
+        },
+        {
+          "id": "e",
+          "text": "Obsessive-compulsive disorder"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: Tourette disorder. Why: DSM-5-TR (p. 93) defines a tic as a sudden, rapid, recurrent, nonrhythmic movement or vocalization. Tourette disorder needs multiple motor tics and at least one vocal tic at some point, though not necessarily at the same time. The tics may wax and wane but must have lasted more than 1 year since the first one, must start before age 18, and must not be caused by a substance or another medical condition. This child has blinking and shrugging (motor tics) plus throat clearing and sniffing (vocal tics) for more than a year. DSM-5-TR (p. 94) adds that most people feel an uncomfortable sensation or urge before a tic and that tics can be held back for a while, as this child describes. MSD agrees that Tourette syndrome needs both motor and vocal tics for more than 1 year, often starts at ages 4 to 6, and is most often accompanied by ADHD. Behavioral therapy is first-line, and clonidine or guanfacine is often the first drug choice.",
+      "whyWrong": {
+        "b": "The persistent (chronic) tic diagnosis is for motor tics or vocal tics, but not both, for more than 1 year (DSM-5-TR, pp. 93-94). This child has both kinds.",
+        "c": "Provisional tic disorder is for tics present less than 1 year (DSM-5-TR, p. 94). This child's tics have lasted 18 months.",
+        "d": "DSM-5-TR describes stereotypic movements as seemingly driven but apparently purposeless, and separates them from tics partly by the premonitory urge that comes before many tics (p. 92). This child has vocal tics and an urge before each one.",
+        "e": "In OCD, the person feels driven to repeat behaviors in response to an obsession or to rigid rules (DSM-5-TR, p. 92). This child reports no obsessions, only an uncomfortable feeling before each movement, which is the premonitory urge of tics (p. 94). MSD notes that OCD can occur alongside Tourette syndrome but is a separate diagnosis."
+      },
+      "sources": [
+        {
+          "title": "DSM-5-TR (Emily's file), Tic disorders, pp. 93-94; stereotypic movement disorder, differential diagnosis, p. 92"
+        },
+        {
+          "title": "MSD Manual Professional: Tic Disorders and Tourette Syndrome in Children and Adolescents",
+          "url": "https://www.msdmanuals.com/professional/pediatrics/neurologic-disorders-in-children/tic-disorders-and-tourette-syndrome-in-children-and-adolescents"
+        }
+      ]
+    },
+    {
+      "id": "biostats-meta-analysis-limits-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biostatistics & Epidemiology",
+      "system": "Reproductive",
+      "topic": "Study design: meta-analysis",
+      "difficulty": 2,
+      "stem": "Investigators want to know whether vaginal progesterone reduces preterm birth in pregnant women with a short cervix. They find 9 randomized trials on the question. Each trial was small and its result was not statistically significant. The investigators combine the summary results of all 9 trials into one pooled relative risk, which has a much narrower confidence interval than any single trial.",
+      "leadIn": "Which is the most important limitation of this approach?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Its result is only as sound as the trials it includes"
+        },
+        {
+          "id": "b",
+          "text": "It has less statistical power than each trial it pools"
+        },
+        {
+          "id": "c",
+          "text": "It cannot estimate how much results differ between trials"
+        },
+        {
+          "id": "d",
+          "text": "It requires each woman's raw data from every one of the trials"
+        },
+        {
+          "id": "e",
+          "text": "It removes any bias in how the trials were chosen"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: its result can be no better than the trials it pools. Why: Your First Aid biostatistics file (Public Health Sciences, p. 264) defines meta-analysis as pooling summary data, such as means or relative risks, from several studies to get a sharper estimate of how big an effect is. It also estimates how much the effect sizes vary between studies (heterogeneity). It improves power, strength of evidence and generalizability. Its limits are the quality of the individual studies and bias in how studies were selected. The Cochrane Handbook agrees that more information usually gives a better estimate, that variation between studies must be considered, and that a meta-analysis can seriously mislead if biases within the included studies, or biases in which results were reported, are not carefully considered.",
+      "whyWrong": {
+        "b": "Pooling improves power (your First Aid biostatistics file, p. 264). That is why the pooled confidence interval is narrower than any single trial's.",
+        "c": "A meta-analysis also estimates heterogeneity, meaning how much effect sizes differ between studies (your First Aid biostatistics file, p. 264). The Cochrane Handbook describes the chi-squared test and the I-squared statistic for this.",
+        "d": "A meta-analysis pools summary data such as relative risks (your First Aid biostatistics file, p. 264). It does not need each patient's raw data.",
+        "e": "Bias in selecting studies is one of its main limits, not something it removes (your First Aid biostatistics file, p. 264). The Cochrane Handbook also warns about reporting biases."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Meta-analysis, p. 264"
+        },
+        {
+          "title": "Cochrane Handbook for Systematic Reviews of Interventions, Chapter 10: Analysing data and undertaking meta-analyses",
+          "url": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-10"
+        }
+      ]
+    },
+    {
+      "id": "biostats-procedure-bias-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biostatistics & Epidemiology",
+      "system": "Reproductive",
+      "topic": "Bias: procedure (performance) bias",
+      "difficulty": 2,
+      "stem": "In an unblinded trial, women in preterm labor are randomly assigned to a new tocolytic drug or to usual care. The research nurses know which group each woman is in. Women in the drug group get hourly nurse check-ins, extra fetal monitoring and more time with the obstetrician. Women in the usual-care group get routine ward care. The drug group has fewer deliveries within 48 hours.",
+      "leadIn": "The trial's result is most at risk from which type of bias?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Procedure bias"
+        },
+        {
+          "id": "b",
+          "text": "Selection bias"
+        },
+        {
+          "id": "c",
+          "text": "Recall bias"
+        },
+        {
+          "id": "d",
+          "text": "Lead-time bias"
+        },
+        {
+          "id": "e",
+          "text": "Length-time bias"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: procedure bias. Why: Your First Aid biostatistics file (Public Health Sciences, p. 260) defines procedure bias as subjects in different groups not being treated the same. Its example is patients in a treatment group getting more attention. It is reduced by blinding and by using a placebo, so that patients and staff do not know who is getting the active treatment. Here the drug group also got extra nursing, monitoring and physician time, so any benefit could come from that extra care rather than from the drug. The Catalogue of Bias calls this performance bias: systematic differences in the care given to groups, apart from the treatment being studied. It notes that blinding participants and staff helps prevent it, and that trials without blinding tended to overstate treatment effects.",
+      "whyWrong": {
+        "b": "Selection bias comes from nonrandom sampling or treatment allocation, so the study group does not represent the target population (your First Aid biostatistics file, p. 260). These women were randomly assigned.",
+        "c": "Recall bias happens when people with an outcome remember past exposures differently from those without it, a problem of retrospective studies (your First Aid biostatistics file, p. 260). This trial measured outcomes as they happened.",
+        "d": "Lead-time bias is an apparent survival gain from earlier diagnosis by screening (your First Aid biostatistics file, p. 261). This is a treatment trial, not a screening study.",
+        "e": "Length-time bias occurs when screening picks up more slowly progressing disease (your First Aid biostatistics file, p. 261). It does not apply to a treatment trial."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Bias and study errors, pp. 260-261"
+        },
+        {
+          "title": "Catalogue of Bias (University of Oxford): Performance bias",
+          "url": "https://catalogofbias.org/biases/performance-bias/"
+        }
+      ]
+    },
+    {
+      "id": "biostats-retrospective-cohort-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biostatistics & Epidemiology",
+      "system": "Reproductive",
+      "topic": "Study design: retrospective cohort study",
+      "difficulty": 2,
+      "stem": "Researchers use a health system's records from 2010 to 2020. They identify 4,000 pregnant patients who filled a prescription for a certain antiemetic in the first trimester and 12,000 pregnant patients who did not. They then search the same records for which of these pregnancies ended in an infant with a cleft lip or palate. The researchers report the risk of cleft in exposed pregnancies divided by the risk in unexposed pregnancies.",
+      "leadIn": "Which type of study is this?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Retrospective cohort study"
+        },
+        {
+          "id": "b",
+          "text": "Case-control study"
+        },
+        {
+          "id": "c",
+          "text": "Cross-sectional study"
+        },
+        {
+          "id": "d",
+          "text": "Phase III randomized clinical trial"
+        },
+        {
+          "id": "e",
+          "text": "Twin concordance study"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: a retrospective cohort study. Why: Your First Aid biostatistics file (Public Health Sciences, p. 256) explains that a cohort study compares a group with an exposure to a group without it and looks at whether the exposure is linked to later disease. A cohort study can be prospective or retrospective, and its measure is the relative risk. Here the groups are defined by exposure (the prescription), the outcome (cleft) is checked afterward, and the result is a risk ratio, so it is a cohort study. Because every event had already happened and was found in existing records, it is retrospective. Penn State's epidemiology course describes the retrospective, or historical, cohort the same way: the investigator uses past records of who was exposed and not exposed and starts the study after the disease has already appeared. It notes that this design needs good earlier exposure data and can be more prone to bias.",
+      "whyWrong": {
+        "b": "A case-control study starts with people who have the disease and people who do not, then compares past exposure and reports an odds ratio (your First Aid biostatistics file, p. 256). This study started from exposure and reported a relative risk.",
+        "c": "A cross-sectional study measures disease and risk factors at the same point in time and gives prevalence (your First Aid biostatistics file, p. 256). Here exposure in the first trimester comes before the outcome at birth.",
+        "d": "A clinical trial is an experiment in which researchers assign the treatments (your First Aid biostatistics file, p. 256). These patients chose their own drugs, and researchers only looked at records.",
+        "e": "A twin concordance study compares how often both identical twins versus both fraternal twins develop a disease (your First Aid biostatistics file, p. 256). No twins are compared here."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Observational studies: cohort study, p. 256"
+        },
+        {
+          "title": "Penn State STAT 507 (Epidemiological Research Methods), Lesson 6: cohort study designs",
+          "url": "https://online.stat.psu.edu/stat507/Lesson06"
+        }
+      ]
+    },
+    {
+      "id": "biostats-measurement-bias-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biostatistics & Epidemiology",
+      "system": "Reproductive",
+      "topic": "Bias: measurement bias from a faulty instrument",
+      "difficulty": 2,
+      "stem": "A prenatal clinic studies weight gain during pregnancy. Patients enrolled in the morning are weighed on a newly calibrated scale. Patients enrolled in the afternoon are weighed on an older scale in another room. Later, the older scale is found to read 1.5 kg too high every time. The afternoon group appears to gain more weight than the morning group.",
+      "leadIn": "This error is best described as which type of bias?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Measurement bias"
+        },
+        {
+          "id": "b",
+          "text": "Recall bias"
+        },
+        {
+          "id": "c",
+          "text": "Procedure bias"
+        },
+        {
+          "id": "d",
+          "text": "Observer-expectancy bias"
+        },
+        {
+          "id": "e",
+          "text": "Attrition bias"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: measurement bias. Why: Your First Aid biostatistics file (Public Health Sciences, p. 260) defines measurement bias as information gathered in a way that distorts it in a consistent direction. Its example is a faulty automatic blood pressure cuff. It is reduced by using objective, standardized and pretested methods of data collection. A scale that always reads 1.5 kg too high in one group is the same kind of problem. The Catalogue of Bias groups this under information bias, meaning systematic differences in how information is collected, recorded or handled. It recommends standardized methods and devices to prevent it. When the error affects one group more than another (differential misclassification), the result can be pushed in either direction.",
+      "whyWrong": {
+        "b": "Recall bias comes from how people remember past exposures, usually in retrospective studies (your First Aid biostatistics file, p. 260). Weight was measured directly here, not recalled.",
+        "c": "Procedure bias means the groups are treated differently, such as one group getting more attention (your First Aid biostatistics file, p. 260). Both groups had the same care. Only the instrument differed.",
+        "d": "Observer-expectancy bias happens when a researcher's beliefs about the result change how outcomes are judged (your First Aid biostatistics file, p. 260). A miscalibrated scale gives the same error whatever the observer believes.",
+        "e": "Attrition bias comes from losing participants to follow-up in a way that differs between groups (your First Aid biostatistics file, p. 260). No one was lost here."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Bias and study errors: measurement bias, p. 260"
+        },
+        {
+          "title": "Catalogue of Bias (University of Oxford): Information bias",
+          "url": "https://catalogofbias.org/biases/information-bias/"
+        }
+      ]
+    },
+    {
+      "id": "neuro-oxytocin-milk-letdown-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Reproductive",
+      "topic": "Hypothalamus: oxytocin and the milk ejection reflex",
+      "difficulty": 2,
+      "stem": "A 29-year-old who gave birth 2 weeks ago is breastfeeding. She says that within a minute of the baby latching on she feels a tingling in her breasts, and milk starts to drip from the other breast. She also feels mild cramping in her lower abdomen during each feeding.",
+      "leadIn": "The hormone that causes both the milk flow and the cramping is made in which structure?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Supraoptic and paraventricular nuclei"
+        },
+        {
+          "id": "b",
+          "text": "Lactotroph cells of the anterior pituitary"
+        },
+        {
+          "id": "c",
+          "text": "Arcuate nucleus of the hypothalamus"
+        },
+        {
+          "id": "d",
+          "text": "Suprachiasmatic nucleus of the hypothalamus"
+        },
+        {
+          "id": "e",
+          "text": "Myoepithelial cells around the alveoli"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the supraoptic and paraventricular nuclei of the hypothalamus. Why: The hormone is oxytocin. Your El-Husseiny endocrinology notes (pp. 14-15) explain that the posterior pituitary releases ADH and oxytocin, but both are made in the hypothalamus. Oxytocin makes the uterus contract and drives the milk letdown reflex in response to suckling. Your El-Husseiny neurology notes (p. 105) name the supraoptic and paraventricular nuclei as the sites where ADH and oxytocin are made. OpenStax Anatomy and Physiology explains the reflex: suckling sends nerve signals to the hypothalamus, the posterior pituitary releases oxytocin, and oxytocin makes the myoepithelial cells around the milk-filled alveoli contract and squeeze milk out. Prolactin, by contrast, builds and keeps up the milk supply. The same oxytocin surge causes the uterine cramping she feels while nursing.",
+      "whyWrong": {
+        "b": "Lactotrophs make prolactin, which keeps up milk production (OpenStax, 28.6 Lactation). Prolactin does not squeeze milk out or make the uterus contract. Your El-Husseiny endocrinology notes (p. 15) give that role to oxytocin.",
+        "c": "The arcuate nucleus makes dopamine (your El-Husseiny neurology notes, p. 105). It does not make oxytocin.",
+        "d": "The suprachiasmatic nucleus sets the body's circadian rhythm (your El-Husseiny neurology notes, p. 105). It does not make oxytocin.",
+        "e": "Myoepithelial cells are the target that contracts in response to oxytocin (OpenStax, 28.6 Lactation). They do not make the hormone."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Endocrinology (Emily's file), Posterior pituitary: ADH and oxytocin, pp. 14-15"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Hypothalamic nuclei, p. 105"
+        },
+        {
+          "title": "OpenStax Anatomy and Physiology 2e, 28.6 Lactation",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/28-6-lactation"
+        }
+      ]
+    },
+    {
+      "id": "biochem-hyperemesis-wernicke-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "Reproductive",
+      "topic": "Hyperemesis gravidarum: Wernicke encephalopathy",
+      "difficulty": 2,
+      "stem": "A 24-year-old at 11 weeks' gestation has vomited many times a day for 3 weeks and has lost 7% of her prepregnancy weight. Urinalysis shows ketones. Serum studies show low potassium and chloride and a high bicarbonate. Over the past 2 days she has become confused. Examination shows nystagmus, weakness of eye movements and an unsteady, wide-based gait.",
+      "leadIn": "Her new neurologic findings are most likely due to deficiency of which vitamin?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Thiamine (vitamin B1)"
+        },
+        {
+          "id": "b",
+          "text": "Cobalamin (vitamin B12)"
+        },
+        {
+          "id": "c",
+          "text": "Niacin (vitamin B3)"
+        },
+        {
+          "id": "d",
+          "text": "Pyridoxine (vitamin B6)"
+        },
+        {
+          "id": "e",
+          "text": "Folate (vitamin B9)"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: thiamine (vitamin B1). Why: Your El-Husseiny obstetrics notes (p. 22) describe hyperemesis gravidarum as severe vomiting in the first to early second trimester with ketonuria, lab abnormalities, dehydration and usually more than 5% weight loss. Loss of stomach acid and volume depletion cause a hypochloremic metabolic alkalosis with hypokalemia, as in this patient. Wernicke encephalopathy is a complication caused by thiamine deficiency from the vomiting, and it presents with encephalopathy, problems with eye movements and gait ataxia. Glucose given before thiamine can make it worse, so thiamine comes first. Your El-Husseiny biochemistry notes (p. 235) add that thiamine deficiency impairs glucose breakdown, so the brain fails first, and that the classic triad is confusion, ophthalmoplegia and ataxia. MSD agrees that hyperemesis gravidarum can cause Wernicke encephalopathy and advises giving thiamine 100 mg IV before any dextrose-containing fluid.",
+      "whyWrong": {
+        "b": "Vitamin B12 deficiency causes a megaloblastic anemia with tingling and subacute combined degeneration of the spinal cord (your El-Husseiny biochemistry notes, p. 242). It does not cause the triad of confusion, eye-movement problems and ataxia that this patient has (p. 235).",
+        "c": "Niacin deficiency causes pellagra, the \"three Ds\": dermatitis, diarrhea and dementia (your El-Husseiny biochemistry notes, p. 237). It does not cause ophthalmoplegia and ataxia.",
+        "d": "Vitamin B6 deficiency causes convulsions, irritability and peripheral neuropathy and can be caused by isoniazid (your El-Husseiny biochemistry notes, p. 239). It does not cause this triad.",
+        "e": "Folate deficiency causes a megaloblastic anemia without neurologic symptoms (your El-Husseiny biochemistry notes, p. 240). In pregnancy its main risk is neural tube defects (p. 241)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials of Obstetrics (Emily's file), Hyperemesis gravidarum, p. 22"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Thiamine, p. 235; niacin, p. 237; vitamin B6, p. 239; folate, pp. 240-241; vitamin B12, p. 242"
+        },
+        {
+          "title": "MSD Manual Professional: Hyperemesis Gravidarum",
+          "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/early-pregnancy-disorders/hyperemesis-gravidarum"
+        }
+      ]
+    },
+    {
+      "id": "path-placenta-accreta-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Reproductive",
+      "topic": "Abnormal placentation: placenta accreta spectrum",
+      "difficulty": 2,
+      "stem": "A 36-year-old has had two cesarean deliveries. She gives birth vaginally at 38 weeks. Thirty minutes after delivery, the placenta has still not separated. Gentle traction on the cord does not free it. During attempted manual removal there is heavy bleeding, and no plane can be found between the placenta and the uterine wall. Pathology later shows that the villi attach deep into the decidua basalis but do not enter the myometrium.",
+      "leadIn": "Which is the most likely diagnosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Placenta accreta"
+        },
+        {
+          "id": "b",
+          "text": "Placenta increta"
+        },
+        {
+          "id": "c",
+          "text": "Placenta percreta"
+        },
+        {
+          "id": "d",
+          "text": "Abruptio placentae"
+        },
+        {
+          "id": "e",
+          "text": "Retained placenta from uterine atony"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: placenta accreta. Why: Your El-Husseiny obstetrics notes (p. 52) explain that placental villi normally invade only the surface layer of the decidua basalis. When they invade too deeply, the depth decides the name. In placenta accreta (about 80% of cases), the villi reach the deep decidua basalis but do not enter the myometrium. In placenta increta (about 15%), they invade the myometrium but not the serosa. In placenta percreta (about 5%), they reach the uterine serosa or the bladder. Risk factors are a prior cesarean delivery, a past dilation and curettage, and maternal age over 35. If it is not found before delivery, the placenta will not detach, and manual removal is followed by severe bleeding, as in this patient. When it is found on ultrasound before delivery, the plan is a cesarean hysterectomy. MSD agrees that prior cesarean delivery is the main risk factor, that there is no plane of separation, and that traction can cause massive hemorrhage. It adds that accreta is most common when placenta previa is also present.",
+      "whyWrong": {
+        "b": "In placenta increta, the villi invade the myometrium (your El-Husseiny obstetrics notes, p. 52). In this patient the villi stopped short of the myometrium.",
+        "c": "In placenta percreta, the villi reach the uterine serosa or the bladder (your El-Husseiny obstetrics notes, p. 52). That is deeper than in this patient.",
+        "d": "Abruptio placentae is early separation of a normally implanted placenta before delivery, typically with painful bleeding (your El-Husseiny obstetrics notes, pp. 47-49). Here the problem is a placenta that will not separate after delivery.",
+        "e": "With uterine atony, the uterus fails to contract after delivery, but a normal placenta still has a plane of separation. The absence of any plane and villi set into the deep decidua point to abnormal placental attachment (your El-Husseiny obstetrics notes, p. 52; MSD, Placenta Accreta)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials of Obstetrics (Emily's file), Placenta accreta, increta and percreta, p. 52; abruptio placentae, pp. 47-49"
+        },
+        {
+          "title": "MSD Manual Professional: Placenta Accreta",
+          "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/intrapartum-complications/placenta-accreta"
+        }
+      ]
+    },
+    {
+      "id": "path-twin-twin-transfusion-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Reproductive",
+      "topic": "Twin pregnancy: monochorionic twins and twin-twin transfusion",
+      "difficulty": 2,
+      "stem": "A 30-year-old is pregnant with identical twins. Ultrasonography at 9 weeks showed a single placenta with a thin membrane dividing two amniotic sacs. At 20 weeks, one twin is much smaller and is surrounded by very little fluid, and its bladder cannot be seen. The other twin is larger and is surrounded by a large volume of fluid.",
+      "leadIn": "The zygote most likely split at what time after fertilization?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Between 4 and 8 days, at the blastocyst stage"
+        },
+        {
+          "id": "b",
+          "text": "Within 3 days, at the morula stage"
+        },
+        {
+          "id": "c",
+          "text": "Between 9 and 12 days, from the embryonic disk"
+        },
+        {
+          "id": "d",
+          "text": "More than 12 days after fertilization"
+        },
+        {
+          "id": "e",
+          "text": "At fertilization, from two separate ova"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: between 4 and 8 days, at the blastocyst stage. Why: Your El-Husseiny obstetrics notes (p. 58) explain that fraternal twins come from 2 ova and are always dichorionic and diamniotic. For identical twins, the timing of the split decides the layout. A split within 72 hours (morula stage) gives two placentas and two sacs, the lowest-risk type. A split between days 4 and 8 (blastocyst stage) gives one placenta and two sacs (monochorionic, diamniotic). About 15% of these develop twin-twin transfusion, because the twins share one placenta unequally. The donor twin gets less blood and develops growth restriction, low amniotic fluid and anemia. The recipient gets more and develops excess growth, too much amniotic fluid and polycythemia. Treatment is fetal surgery to laser the connecting vessels on the placenta. A split between days 9 and 12 gives one placenta and one sac, with a risk of cord entanglement, and a split after day 12 gives conjoined twins (p. 59). MSD agrees that twins who share a chorion are at risk of twin-twin transfusion, which shows up as unequal amniotic fluid and growth.",
+      "whyWrong": {
+        "b": "A split within 72 hours, at the morula stage, gives dichorionic, diamniotic twins with two placentas (your El-Husseiny obstetrics notes, p. 58). This pregnancy has one placenta.",
+        "c": "A split between days 9 and 12 gives monochorionic, monoamniotic twins in a single sac (your El-Husseiny obstetrics notes, p. 59). These twins have a dividing membrane and two sacs.",
+        "d": "A split after day 12 gives conjoined twins (your El-Husseiny obstetrics notes, p. 59). These twins are separate.",
+        "e": "Two separate ova give fraternal twins, who are always dichorionic and diamniotic (your El-Husseiny obstetrics notes, p. 58). These twins are identical and share a placenta."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials of Obstetrics (Emily's file), Twin gestation, pp. 58-59"
+        },
+        {
+          "title": "MSD Manual Professional: Multifetal Gestation",
+          "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/approach-to-the-pregnant-woman-and-prenatal-care/multifetal-gestation"
+        }
+      ]
+    },
+    {
+      "id": "phys-heat-stroke-cooling-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Multisystem",
+      "topic": "Heat stroke: failed heat dissipation and rapid cooling",
+      "difficulty": 2,
+      "stem": "A 17-year-old collapses during football practice on a hot, humid afternoon. On arrival, the patient is confused and the rectal temperature is 41.2 C (106.2 F). Pulse is 136/min and respirations are 30/min. The skin is hot and dry. Serum creatine kinase and creatinine are elevated. The patient has no infection symptoms and takes no medications.",
+      "leadIn": "Which is the most appropriate first step in treatment?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Immersion in ice water or cold water"
+        },
+        {
+          "id": "b",
+          "text": "Acetaminophen given through a nasogastric tube"
+        },
+        {
+          "id": "c",
+          "text": "Intravenous dantrolene"
+        },
+        {
+          "id": "d",
+          "text": "Empiric intravenous ceftriaxone"
+        },
+        {
+          "id": "e",
+          "text": "Oral fluids and rest in a shaded area"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: rapid cooling by immersion in ice water or cold water. Why: Your NBME Top Concepts file (Thermoregulation, p. 27) uses this exact picture, a football player who faints in summer with a high temperature, rigid muscles, high CPK and rising creatinine. The mechanism is a failed hypothalamic thermoregulatory response. The body normally sheds heat by hypothalamus-driven skin vasodilation and by sweating, and exam patients often have no sweating. Very high body temperature denatures proteins, damages cell membranes and leads to multi-organ failure. Your El-Husseiny neurology notes (p. 179) contrast fever, which is caused by cytokines and is usually below 40 C, with heat stroke, which is a failure to get rid of heat, is usually above 40 C, and causes confusion, end-organ damage, ARDS and rhabdomyolysis. Treatment is rapid external cooling, fluids and correction of electrolytes. MSD defines heatstroke as a temperature above 40 C with altered mental status. It says that immersion in ice water or cold water has the lowest morbidity and mortality, and that antipyretics and dantrolene are not recommended.",
+      "whyWrong": {
+        "b": "Acetaminophen is used for comfort in fever, which is driven by cytokines (your El-Husseiny neurology notes, p. 179). Heat stroke is a failure to shed heat, not a cytokine fever, and MSD says antipyretics are not recommended (MSD, Heatstroke).",
+        "c": "Dantrolene treats malignant hyperthermia, which follows general anesthesia (your El-Husseiny neurology notes, p. 232). MSD states that it is not recommended for heat stroke (MSD, Heatstroke).",
+        "d": "Antibiotics treat infection-driven fever when indicated (your El-Husseiny neurology notes, p. 179). This temperature rise comes from exercise in the heat, not infection, and cooling must not be delayed.",
+        "e": "Rehydration is part of treatment, but the priority is rapid external cooling (your El-Husseiny neurology notes, p. 179). MSD says immersion in ice water or cold water has the lowest morbidity and mortality (MSD, Heatstroke)."
+      },
+      "sources": [
+        {
+          "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Thermoregulation: heat stroke and heat dissipation, p. 27"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Fever vs heat stroke, p. 179; malignant hyperthermia, p. 232"
+        },
+        {
+          "title": "MSD Manual Professional: Heatstroke",
+          "url": "https://www.msdmanuals.com/professional/injuries-poisoning/heat-illness/heatstroke"
+        }
+      ]
+    },
+    {
+      "id": "biochem-marasmus-calorie-deficiency-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "Multisystem",
+      "topic": "Protein-energy malnutrition: marasmus",
+      "difficulty": 1,
+      "stem": "A 2-year-old is brought to a clinic in a region affected by a long drought and famine. The child is far below normal weight for age. The ribs and hip bones stand out, the limbs are very thin with little muscle, and the skin hangs in loose folds. The face looks old and shrunken. There is no swelling of the legs, feet or abdomen, and the liver is not enlarged.",
+      "leadIn": "Which dietary problem best explains this child's condition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Too few total calories, with no nutrient absent"
+        },
+        {
+          "id": "b",
+          "text": "Enough total calories but far too little protein"
+        },
+        {
+          "id": "c",
+          "text": "Lack of zinc in an otherwise adequate diet"
+        },
+        {
+          "id": "d",
+          "text": "Lack of niacin in a mostly corn-based diet"
+        },
+        {
+          "id": "e",
+          "text": "Excess iron from contaminated drinking water"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: too few total calories, with no single nutrient fully missing. Why: This child has marasmus. Your El-Husseiny biochemistry notes (p. 249) describe two forms of protein-energy malnutrition. In marasmus, the diet lacks calories but no nutrient is entirely absent. There is no edema, and the main finding is muscle wasting. In kwashiorkor, the problem is protein malnutrition. It causes skin lesions, edema from low plasma oncotic pressure, and a fatty liver from reduced apolipoprotein synthesis, remembered as MEALS (malnutrition, edema, anemia, liver, skin). This child has severe wasting with no edema and no enlarged liver, so the picture is marasmus. MSD agrees that marasmus causes weight loss with depleted fat and muscle, with bones standing out, while kwashiorkor causes edema from low albumin. It also warns that refeeding can cause a dangerous drop in phosphate.",
+      "whyWrong": {
+        "b": "A diet with too little protein but enough calories causes kwashiorkor, with edema, skin lesions and a fatty liver (your El-Husseiny biochemistry notes, p. 249). This child has none of these.",
+        "c": "Zinc deficiency causes poor wound healing, low immunity, hypogonadism, loss of taste and smell, and acrodermatitis enteropathica (your El-Husseiny biochemistry notes, p. 249). It does not cause this severe wasting.",
+        "d": "Niacin deficiency causes pellagra, with dermatitis, diarrhea and dementia (your El-Husseiny biochemistry notes, p. 237). This child has wasting without a rash.",
+        "e": "Iron excess causes vomiting and GI bleeding when acute or organ damage when chronic (your El-Husseiny hematology-oncology notes, p. 60). It does not cause starvation-type wasting."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Protein-energy malnutrition and zinc, p. 249; niacin, p. 237"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Hematology-Oncology (Emily's file), Iron poisoning, p. 60"
+        },
+        {
+          "title": "MSD Manual Professional: Protein-Energy Undernutrition (PEU)",
+          "url": "https://www.msdmanuals.com/professional/nutritional-disorders/undernutrition/protein-energy-undernutrition-peu"
+        }
+      ]
+    },
+    {
+      "id": "pharm-acute-iron-poisoning-deferoxamine-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Multisystem",
+      "topic": "Toxicology: acute iron poisoning",
+      "difficulty": 2,
+      "stem": "A 3-year-old is brought to the emergency department 2 hours after eating most of a bottle of a parent's prenatal tablets, which look like candy. The child has vomited several times, and the vomit contains blood. The child is now lethargic and has abdominal pain. An abdominal x-ray shows many small dense objects in the stomach. Serum studies show a metabolic acidosis.",
+      "leadIn": "Which is the most appropriate treatment to bind the absorbed toxin?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Intravenous deferoxamine"
+        },
+        {
+          "id": "b",
+          "text": "Oral activated charcoal"
+        },
+        {
+          "id": "c",
+          "text": "Intramuscular dimercaprol"
+        },
+        {
+          "id": "d",
+          "text": "Oral succimer (DMSA)"
+        },
+        {
+          "id": "e",
+          "text": "Intravenous fomepizole"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: intravenous deferoxamine. Why: Your El-Husseiny hematology-oncology notes (p. 60) explain that acute iron poisoning has a high death rate when children swallow adult iron tablets, which can look like candy. Free iron kills cells by peroxidation of membrane lipids. It causes nausea, vomiting, GI bleeding and lethargy, and scarring can later block the GI tract. Treatment is chelation with IV deferoxamine, plus gastric lavage. Chronic iron overload, by contrast, damages the joints, liver, heart, pancreas and gonads. MSD describes the course: GI symptoms in the first hours, a possible quiet phase, then shock and metabolic acidosis, then liver failure and later gastric outlet obstruction. MSD gives deferoxamine IV for serious poisoning. It notes that tablets may be seen on x-ray, though dissolved iron may not show, and that activated charcoal does not bind iron.",
+      "whyWrong": {
+        "b": "MSD states that activated charcoal does not adsorb iron (MSD, Iron Poisoning). Your El-Husseiny notes list deferoxamine and gastric lavage instead (p. 60).",
+        "c": "Dimercaprol is a first-line chelator for lead poisoning (your El-Husseiny hematology-oncology notes, p. 33). It is not used for iron.",
+        "d": "Succimer is used to chelate lead in children (your El-Husseiny hematology-oncology notes, p. 33). It is not the antidote for iron.",
+        "e": "Fomepizole blocks alcohol dehydrogenase and is the antidote for methanol and ethylene glycol poisoning (your El-Husseiny biochemistry notes, p. 251). It does not bind iron."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Hematology-Oncology (Emily's file), Iron poisoning, p. 60; lead poisoning chelators, p. 33"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Fomepizole, p. 251"
+        },
+        {
+          "title": "MSD Manual Professional: Iron Poisoning",
+          "url": "https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/iron-poisoning"
+        }
+      ]
     }
   ]
 }
