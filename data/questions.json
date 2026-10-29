@@ -43046,21 +43046,25 @@
         },
         {
           "id": "e",
-          "text": "Increasing cannabis use"
+          "text": "Laparoscopic cholecystectomy"
         }
       ],
       "answer": "a",
       "explanation": "Answer: stopping cannabis use. Why: Repeated bouts of vomiting in a heavy cannabis user, eased by hot showers, point to cannabinoid hyperemesis syndrome. MSD says it \"may develop in frequent users of marijuana\" and is \"a syndrome of cyclic episodes of nausea and vomiting.\" It adds: \"Hot bathing ameliorates these symptoms and, if this is reported by a patient, it is a clinical clue to the diagnosis.\" MSD is clear about treatment: \"The main treatment is to discontinue use of marijuana.\" During an attack, patients may need intravenous fluids, antiemetics, haloperidol or topical capsaicin on the abdomen, but the evidence for haloperidol and capsaicin is anecdotal. Your Osmosis Pathology Volume 2 notes (pp. 750-751) explain why quitting can be hard. Regular use downregulates cannabinoid receptors, so tolerance develops, and stopping brings cravings, irritability, anxiety and trouble sleeping. The notes list motivational interviewing as the psychotherapy for cannabis use disorder. DSM-5-TR (p. 582) describes the very different acute picture of cannabis intoxication: a fast heart rate, red eyes, a dry mouth and a bigger appetite.",
       "whyWrong": {
-        "b": "Antiemetics help during an attack (MSD), but they do not remove the cause. MSD names stopping marijuana as the main treatment.",
+        "b": "Antiemetics are given during an attack (MSD), but they do not remove the cause. StatPearls describes the syndrome's \"classic resistance to mainstay antiemetic therapy\" such as ondansetron and metoclopramide.",
         "c": "MSD lists topical capsaicin on the abdomen for an acute attack, based only on anecdotal reports. It does not prevent future episodes while cannabis use continues.",
         "d": "MSD lists haloperidol for acute episodes, based on anecdotal reports that have not been tested in clinical studies. It is not a long-term treatment.",
-        "e": "Cannabis is the cause of the syndrome, so using more keeps it going. MSD says the main treatment is to stop using marijuana."
+        "e": "Ultrasonography shows no gallstones, and the lipase and liver tests are normal, so there is no gallbladder disease to treat. StatPearls says a careful history avoids \"a costly workup, inappropriate referrals to specialists\" and that \"The only definitive treatment of cannabis hyperemesis syndrome is the removal of cannabis exposure.\""
       },
       "sources": [
         {
           "title": "MSD Manual Professional: Marijuana (Cannabis)",
           "url": "https://www.msdmanuals.com/professional/special-subjects/illicit-drugs-and-intoxicants/marijuana-cannabis"
+        },
+        {
+          "title": "StatPearls: Cannabinoid Hyperemesis Syndrome",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK549915/"
         },
         {
           "title": "Osmosis High-Yield Pathology Notes, Volume 2 (Emily's file), Cannabis dependence, pp. 750-751"
@@ -43097,27 +43101,27 @@
         },
         {
           "id": "d",
-          "text": "Intravenous flumazenil"
+          "text": "Gastric lavage"
         },
         {
           "id": "e",
-          "text": "Intravenous naloxone"
+          "text": "Forced diuresis with furosemide"
         }
       ],
       "answer": "a",
-      "explanation": "Answer: hemodialysis. Why: Your NBME Top Concepts (p. 402) says lithium has a narrow therapeutic index and lists NSAIDs, thiazide diuretics and dehydration as triggers for toxicity. Your Pharmacology High Yield notes (PDF p. 63) say diuretics, NSAIDs and low sodium make lithium toxicity worse, that the maintenance range in bipolar disorder is 0.5 to 0.8 mEq/L, that toxic symptoms appear above 1.5 mEq/L, and that hemodialysis is needed at 4 mEq/L. MSD agrees that nonsteroidal anti-inflammatory drugs (other than aspirin) can raise lithium levels, along with \"Thiazide diuretics, angiotensin-converting enzyme (ACE) inhibitors.\" MSD says acute toxicity starts with \"gross tremor, increased deep tendon reflexes, persistent headache, vomiting, and confusion\" and can progress to stupor, seizures and arrhythmias. Lithium is on MSD's list of \"Common toxins that may require dialysis or hemoperfusion.\" Here the level is above 4 mEq/L, he has had a seizure, and his kidneys are clearing less of the drug.",
+      "explanation": "Answer: hemodialysis. Why: Your NBME Top Concepts (p. 402) says lithium has a narrow therapeutic index and lists NSAIDs, thiazide diuretics and dehydration as triggers for toxicity. Your Pharmacology High Yield notes (PDF p. 63) say diuretics, NSAIDs and low sodium make lithium toxicity worse, that the maintenance range in bipolar disorder is 0.5 to 0.8 mEq/L, that toxic symptoms appear above 1.5 mEq/L, and that hemodialysis is needed at 4 mEq/L. MSD agrees that nonsteroidal anti-inflammatory drugs (other than aspirin) can raise lithium levels, along with \"Thiazide diuretics, angiotensin-converting enzyme (ACE) inhibitors.\" MSD says acute toxicity starts with \"gross tremor, increased deep tendon reflexes, persistent headache, vomiting, and confusion\" and can progress to stupor, seizures and arrhythmias. Lithium is on MSD's list of \"Common toxins that may require dialysis or hemoperfusion.\" StatPearls recommends hemodialysis when \"Kidney function is impaired, and the serum lithium concentration exceeds 4.0 mmol/L\" or when \"Decreased level of consciousness, seizures, or life-threatening dysrhythmias are present, regardless of lithium concentration.\" He meets both: the level is above 4 mEq/L, his creatinine has risen, and he has had a seizure.",
       "whyWrong": {
         "b": "MSD says \"Charcoal is ineffective for caustics, alcohols, and simple ions (eg, cyanide, iron, other metals, lithium).\"",
         "c": "MSD says alkalinizing the urine \"enhances elimination of weak acids (eg, salicylates, phenobarbital).\" Lithium is a simple ion, not a weak acid.",
-        "d": "Flumazenil reverses benzodiazepines (your Pharmacology High Yield notes, PDF p. 45; MSD). It has no effect on lithium.",
-        "e": "Naloxone reverses opioids (MSD; your NBME Top Concepts, p. 412). It has no effect on lithium."
+        "d": "MSD says gastric lavage \"has not been shown to be effective and now is only rarely performed\" and \"does not clearly reduce overall morbidity or mortality.\" His lithium built up over 2 weeks of naproxen use, so there are no recently swallowed tablets to wash out.",
+        "e": "Your Pharmacology High Yield notes (PDF p. 63) list diuretics among the things that make lithium toxicity worse. StatPearls supports renal clearance with \"intravenous isotonic fluids,\" which he is already getting, and names hemodialysis as \"the preferred extracorporeal treatment.\""
       },
       "sources": [
         {
-          "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Lithium narrow therapeutic index, p. 402; drugs of abuse, p. 412"
+          "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Lithium narrow therapeutic index, p. 402"
         },
         {
-          "title": "Pharmacology High Yield (Emily's file), Lithium, PDF p. 63; flumazenil, PDF p. 45"
+          "title": "Pharmacology High Yield (Emily's file), Lithium, PDF p. 63"
         },
         {
           "title": "MSD Manual Professional: Medications for Treatment of Bipolar Disorders",
@@ -43128,12 +43132,8 @@
           "url": "https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/general-principles-of-poisoning"
         },
         {
-          "title": "MSD Manual Professional: Opioid Toxicity and Withdrawal",
-          "url": "https://www.msdmanuals.com/professional/psychiatric-disorders/opioid-use-disorder/opioid-toxicity-and-withdrawal"
-        },
-        {
-          "title": "MSD Manual Professional: Benzodiazepines and Barbiturates",
-          "url": "https://www.msdmanuals.com/professional/special-subjects/illicit-drugs-and-intoxicants/benzodiazepines-and-barbiturates"
+          "title": "StatPearls: Lithium Toxicity",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK499992/"
         }
       ]
     },
@@ -43164,11 +43164,11 @@
         },
         {
           "id": "d",
-          "text": "Do you drink caffeinated beverages?"
+          "text": "Are you having side effects from sertraline?"
         },
         {
           "id": "e",
-          "text": "When was your last menstrual period?"
+          "text": "Would you like to try a different antidepressant?"
         }
       ],
       "answer": "a",
@@ -43176,8 +43176,8 @@
       "whyWrong": {
         "b": "Poor sleep is already known and counts toward the diagnosis of a depressive episode (DSM-5-TR, p. 183). Measuring it more precisely does not change her immediate safety.",
         "c": "Appetite and weight change are also depressive symptoms (DSM-5-TR, p. 183), and she has already reported weight loss. This does not address the danger she describes.",
-        "d": "Caffeine intake might bear on her sleep, but it does nothing to reduce suicide risk. Means restriction does (WHO; MSD).",
-        "e": "A pregnancy question can matter for drug choice, but it is not the priority when a patient has active suicidal thoughts and has thought about a method (WHO; MSD)."
+        "d": "Side effects matter for whether she keeps taking sertraline, and they should be asked about later in the visit. MSD says patients with depression \"require appropriate counseling and monitoring for suicide risk,\" and with active thoughts and a method in mind, finding and limiting lethal means comes first (WHO; MSD).",
+        "e": "MSD says \"Improvement may not be apparent until after 1 to 4 weeks of pharmacotherapy,\" so at 3 weeks it is early to judge sertraline. A change of drug also does nothing about the danger she describes today."
       },
       "sources": [
         {
@@ -43190,6 +43190,10 @@
         {
           "title": "World Health Organization fact sheet: Suicide",
           "url": "https://www.who.int/news-room/fact-sheets/detail/suicide"
+        },
+        {
+          "title": "MSD Manual Professional: Depressive Disorders",
+          "url": "https://www.msdmanuals.com/professional/psychiatric-disorders/mood-disorders/depressive-disorders"
         },
         {
           "title": "DSM-5-TR (Emily's file), Major depressive disorder, p. 183"
