@@ -47641,7 +47641,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: intravenous hemin. Why: Severe abdominal pain out of proportion to the exam, weakness from a motor neuropathy, a racing pulse and high blood pressure, and dark urine full of porphobilinogen after a new drug and a low-carbohydrate diet describe an attack of acute intermittent porphyria. Your NBME Top Concepts (p. 186) lists the features as a painful abdomen, port-wine urine, polyneuropathy and psychosis, and it tells you to watch for triggers such as CYP-inducing drugs, anticonvulsants and alcohol. MSD names the enzyme to measure as \"PBG deaminase (hydroxymethylbilane synthase [HMBS]),\" says \"Abdominal pain may be excruciating and is disproportionate to abdominal tenderness or other physical signs,\" and notes \"The urine is often red or reddish brown and strongly positive for porphobilinogen during an attack.\" For treatment, MSD says \"Attacks are treated with glucose or, if more severe, IV heme\"; \"IV heme is more effective than dextrose and should be given immediately in severe attacks,\" and \"Dextrose 300 to 500 g daily down-regulates hepatic ALA synthase (ALAS 1).\" The trigger drug should also be stopped.",
+      "explanation": "Answer: intravenous hemin. Why: Severe abdominal pain out of proportion to the exam, weakness from a motor neuropathy, a racing pulse and high blood pressure, and dark urine full of porphobilinogen after a new drug and a low-carbohydrate diet describe an attack of acute intermittent porphyria. Your NBME Top Concepts (p. 186) lists the features as a painful abdomen, port-wine urine, polyneuropathy and psychosis, and it tells you to watch for triggers such as CYP-inducing drugs, anticonvulsants and alcohol. Your El-Husseiny hematology notes (pp. 58-59) give the treatment as hemin and glucose: heme and glucose both turn down ALA synthase, so IV heme and a dextrose load ease an acute attack, while CYP450 inducers (most antiepileptic drugs), alcohol and starvation can bring one on. MSD names the enzyme to measure as \"PBG deaminase (hydroxymethylbilane synthase [HMBS]),\" says \"Abdominal pain may be excruciating and is disproportionate to abdominal tenderness or other physical signs,\" and notes \"The urine is often red or reddish brown and strongly positive for porphobilinogen during an attack.\" For treatment, MSD says \"Attacks are treated with glucose or, if more severe, IV heme\"; \"IV heme is more effective than dextrose and should be given immediately in severe attacks,\" and \"Dextrose 300 to 500 g daily down-regulates hepatic ALA synthase (ALAS 1).\" The trigger drug should also be stopped.",
       "whyWrong": {
         "b": "Phlebotomy lowers liver iron and treats porphyria cutanea tarda, which causes blisters on sun-exposed skin rather than acute abdominal attacks.",
         "c": "Succimer is a chelator for lead poisoning. Lead can cause abdominal pain and neuropathy, but it causes a microcytic anemia with basophilic stippling, not a large rise in urine porphobilinogen.",
@@ -47649,6 +47649,9 @@
         "e": "The soft abdomen without guarding and the normal CT argue against a surgical emergency; MSD warns the pain in an attack is out of proportion to the exam."
       },
       "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Hematology-Oncology (Emily's file), Acute intermittent porphyria, pp. 58-59"
+        },
         {
           "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Acute intermittent porphyria, p. 186"
         },
@@ -47693,7 +47696,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: Döhle bodies in the neutrophils. Why: A very high neutrophil count in someone with a severe infection is most often a leukemoid reaction, a reactive leukocytosis. Your El-Husseiny hematology notes (p. 66) list the ways to tell it from CML: in a leukemoid reaction the leukocyte alkaline phosphatase (LAP) stain is positive, basophils are not increased, there is no t(9;22), and the neutrophils can show Döhle bodies, pale blue patches of rough endoplasmic reticulum near the cell edge. StatPearls agrees that \"Most causes of reactive leukocytosis show toxic changes, such as toxic granulation and Döhle bodies,\" that in reactive leukocytosis \"Basophilia is also absent,\" and that in chronic-phase CML \"Basophilia and eosinophilia are common.\"",
+      "explanation": "Answer: Döhle bodies in the neutrophils. Why: A very high neutrophil count in someone with a severe infection is most often a leukemoid reaction, a reactive leukocytosis. Your El-Husseiny hematology notes (p. 66) list the ways to tell it from CML: in a leukemoid reaction the leukocyte alkaline phosphatase (LAP) stain is positive, basophils are not increased, there is no t(9;22), and the neutrophils can show Döhle bodies, pale blue patches of rough endoplasmic reticulum near the cell edge. StatPearls agrees that most reactive leukocytoses \"show toxic changes, such as toxic granulation and Döhle bodies,\" that in reactive leukocytosis \"Basophilia is also absent,\" and that in chronic-phase CML \"Basophilia and eosinophilia are common.\"",
       "whyWrong": {
         "b": "More basophils and eosinophils point toward CML, not a reaction to infection (StatPearls; your El-Husseiny hematology notes, p. 66).",
         "c": "A low LAP score points toward CML; neutrophils in a leukemoid reaction are LAP positive (your El-Husseiny hematology notes, p. 66).",
@@ -47957,7 +47960,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: anterior interosseous nerve. Why: This purely motor branch of the median nerve leaves it in the forearm and supplies the long flexor of the thumb, the deep flexor to the index and middle fingers and the pronator quadratus. Losing it means the tips of the thumb and index finger cannot bend, so the child cannot make a round \"OK\" sign, yet skin sensation is normal. StatPearls says the nerve supplies \"the index and long fingers of the flexor digitorum profundus (FDP)\" along with the thumb's long flexor and pronator quadratus, that \"No sensory changes should be appreciated,\" and that \"Among the traumatic causes are forearm fractures such as supracondylar fractures.\" Your El-Husseiny musculoskeletal notes (pp. 14-15) describe the median nerve's path between the two heads of pronator teres and list a supracondylar humerus fracture as the classic cause of a proximal median nerve injury.",
+      "explanation": "Answer: anterior interosseous nerve. Why: This purely motor branch of the median nerve leaves it in the forearm and supplies the long flexor of the thumb, the deep flexor to the index and middle fingers and the pronator quadratus. Losing it means the tips of the thumb and index finger cannot bend, so the child cannot make a round \"OK\" sign, yet skin sensation is normal. Your El-Husseiny musculoskeletal notes (pp. 14-15) describe the median nerve's path between the two heads of pronator teres and list a supracondylar humerus fracture as the classic cause of a proximal median nerve injury. StatPearls explains that the anterior interosseous nerve supplies the thumb's long flexor, the deep flexor to the index and middle fingers and the pronator quadratus, that it carries no skin sensation so sensation stays normal, and that fractures of the forearm and elbow are among its traumatic causes.",
       "whyWrong": {
         "b": "The recurrent branch supplies the thenar muscles that oppose the thumb; it does not bend the fingertips.",
         "c": "The deep branch of the ulnar nerve supplies the interossei and the adductor of the thumb, so injury weakens spreading the fingers, not bending the thumb and index fingertips.",
@@ -48118,11 +48121,11 @@
         "b": "A statin can cause muscle pain, but after 6 years with a normal CK and a very high ESR, statin myopathy is unlikely.",
         "c": "Pyridostigmine treats myasthenia gravis, which causes weakness that worsens with use, not stiffness with a high ESR.",
         "d": "Immune globulin is used for some inflammatory muscle diseases such as dermatomyositis, which causes real weakness and a high CK.",
-        "e": "Exercise alone is the main treatment for fibromyalgia, which has tender points but a normal ESR (your El-Husseiny musculoskeletal notes, p. 154)."
+        "e": "Fibromyalgia has normal ESR, CRP and CK and is treated with regular exercise, antidepressants or gabapentin, not steroids (your El-Husseiny musculoskeletal notes, p. 155)."
       },
       "sources": [
         {
-          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Polymyalgia rheumatica and fibromyalgia, p. 154"
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Polymyalgia rheumatica, p. 154; fibromyalgia, p. 155"
         },
         {
           "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Polymyalgia rheumatica and giant cell arteritis, p. 32"
@@ -48327,7 +48330,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: where the ureter enters the bladder wall. Why: Stones tend to stick where the ureter is narrowest. StatPearls names three such places, the ureteropelvic junction, the crossing of the iliac vessels at the pelvic brim and the ureterovesical junction, saying \"they are areas where renal calculi can potentially lodge and obstruct urinary flow.\" It calls the segment inside the bladder wall \"the ureter's narrowest portion and the most common location for ureteral calculus obstruction.\" Your El-Husseiny nephrology notes (p. 96) describe the typical picture of a kidney stone: one-sided colicky flank pain that spreads to the groin, blood in the urine and passage of a stone.",
+      "explanation": "Answer: where the ureter enters the bladder wall. Why: Stones tend to stick where the ureter is narrowest. StatPearls describes \"3 physiologic constrictions\": the ureteropelvic junction, the crossing of the iliac vessels at the pelvic brim and the ureterovesical junction, saying \"they are areas where renal calculi can potentially lodge and obstruct urinary flow.\" It calls the segment inside the bladder wall \"the ureter's narrowest portion and the most common location for ureteral calculus obstruction.\" Your El-Husseiny nephrology notes (p. 96) describe the typical picture of a kidney stone: one-sided colicky flank pain that spreads to the groin, blood in the urine and passage of a stone.",
       "whyWrong": {
         "b": "The pelvic brim, where the ureter crosses the iliac vessels, is a real narrowing where stones can stick, but StatPearls names the bladder wall segment as the most common site.",
         "c": "The ureteropelvic junction is also a narrowing, but it is not the narrowest point; StatPearls names the bladder wall segment as the most common site of blockage.",
@@ -48435,7 +48438,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: it is a benign tumor that rarely spreads. Why: A mahogany-brown, well-circumscribed kidney tumor with a central star-shaped scar, made of uniform cells packed with granular pink cytoplasm, is a renal oncocytoma. StatPearls says \"Renal oncocytoma is a benign neoplasm that only rarely metastasizes and has an excellent prognosis,\" that \"The tumor arises from the intercalated epithelial cells of the collecting duct,\" that the masses are \"tan-brown or mahogany-colored masses with a central stellate scar,\" and that the cells have \"abundant granular eosinophilic cytoplasm.\" Oncocytomas \"make up 3% to 7% of all renal epithelial tumors,\" and because some cancers can look similar, StatPearls says telling them apart \"should be done with immunohistochemistry.\"",
+      "explanation": "Answer: it is a benign tumor that rarely spreads. Why: A mahogany-brown, well-circumscribed kidney tumor with a central star-shaped scar, made of uniform cells packed with granular pink cytoplasm, is a renal oncocytoma. Your El-Husseiny nephrology notes (p. 137) describe a benign epithelial tumor from the collecting ducts with a central scar, made of large pink cells packed with mitochondria (oncocytes), that is often removed anyway to rule out renal cell carcinoma. Your NBME Top Concepts (p. 432) also calls it a benign collecting duct tumor with large eosinophilic cells rich in mitochondria. StatPearls says \"Renal oncocytoma is a benign neoplasm that only rarely metastasizes and has an excellent prognosis,\" that \"The tumor arises from the intercalated epithelial cells of the collecting duct,\" that the masses are \"tan-brown or mahogany-colored masses with a central stellate scar,\" and that the cells have \"abundant granular eosinophilic cytoplasm.\" Oncocytomas \"make up 3% to 7% of all renal epithelial tumors,\" and because some cancers can look similar, StatPearls says telling them apart \"should be done with immunohistochemistry.\"",
       "whyWrong": {
         "b": "Clear cell renal cell carcinoma, from proximal tubule cells, is the most common kidney cancer in adults; its cells are filled with lipid and glycogen and look clear (your El-Husseiny nephrology notes, p. 135).",
         "c": "Loss of the VHL gene on chromosome 3 drives clear cell renal cell carcinoma (your El-Husseiny nephrology notes, p. 135), not oncocytoma.",
@@ -48444,11 +48447,14 @@
       },
       "sources": [
         {
-          "title": "StatPearls: Renal Oncocytoma",
-          "url": "https://www.statpearls.com/point-of-care/26177"
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Nephrology (Emily's file), Renal oncocytoma, p. 137; renal cell carcinoma, p. 135"
         },
         {
-          "title": "El-Husseiny's Essentials for USMLE Step 1: Nephrology (Emily's file), Renal cell carcinoma, p. 135"
+          "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Renal oncocytoma, p. 432"
+        },
+        {
+          "title": "StatPearls: Renal Oncocytoma",
+          "url": "https://www.statpearls.com/point-of-care/26177"
         }
       ]
     },
