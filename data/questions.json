@@ -38729,6 +38729,1070 @@
           "url": "https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/iron-poisoning"
         }
       ]
+    },
+    {
+      "id": "anat-lad-anterior-wall-infarct-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Cardiovascular",
+      "topic": "Coronary anatomy: left anterior descending artery territory",
+      "difficulty": 1,
+      "stem": "A 61-year-old who smokes has 2 hours of crushing chest pain and sweating. Troponin I is elevated. Echocardiography shows that the anterior wall of the left ventricle, the front two-thirds of the interventricular septum and the apex are not moving. The lateral and inferior walls move normally.",
+      "leadIn": "Occlusion of which artery best explains these findings?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Left anterior descending artery"
+        },
+        {
+          "id": "b",
+          "text": "Right coronary artery"
+        },
+        {
+          "id": "c",
+          "text": "Left circumflex artery"
+        },
+        {
+          "id": "d",
+          "text": "Left main coronary artery"
+        },
+        {
+          "id": "e",
+          "text": "Posterior descending (interventricular) artery"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the left anterior descending (LAD) artery. Why: Your El-Husseiny cardiovascular notes (p. 19) explain that the left main coronary artery splits into the LAD and the circumflex artery. The LAD runs down the anterior interventricular groove and supplies the anterior wall of the left ventricle, the anterior two-thirds of the interventricular septum, the bundle of His and the apex. It is the artery most often blocked. The pathology chapter (p. 140) adds that an LAD occlusion causes an infarct of the anterior wall and anterior septum, and that the LAD is involved in about 45% of myocardial infarctions. Your NBME Top Concepts file (Post myocardial infarction complications, p. 33) uses a complete LAD occlusion as its sudden-death example and names ventricular fibrillation as the most common cause of death before patients reach the hospital. OpenStax Anatomy and Physiology agrees that the anterior interventricular artery, also called the LAD, follows the anterior interventricular sulcus.",
+      "whyWrong": {
+        "b": "An RCA occlusion causes an infarct of the posterior wall and posterior septum (your El-Husseiny cardiovascular notes, p. 140). This patient's damage is anterior.",
+        "c": "A circumflex occlusion causes an infarct of the lateral wall of the left ventricle (your El-Husseiny cardiovascular notes, p. 140). The lateral wall moves normally here.",
+        "d": "The left main artery gives rise to both the LAD and the circumflex (your El-Husseiny cardiovascular notes, p. 19), so blocking it would also stop the lateral wall from moving. Only the LAD territory is affected here.",
+        "e": "The posterior descending artery supplies the AV node and in 85% of people comes from the RCA (your El-Husseiny cardiovascular notes, p. 19). It does not supply the anterior wall or apex."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Cardiovascular System (Emily's file), Coronary arteries, p. 19; myocardial infarction, p. 140"
+        },
+        {
+          "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Post myocardial infarction complications, p. 33"
+        },
+        {
+          "title": "OpenStax Anatomy and Physiology 2e, 19.1 Heart Anatomy (coronary circulation)",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy"
+        }
+      ]
+    },
+    {
+      "id": "pharm-digoxin-toxicity-hypokalemia-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Cardiovascular",
+      "topic": "Digoxin toxicity: hypokalemia as a risk factor",
+      "difficulty": 2,
+      "stem": "A 74-year-old with heart failure and atrial fibrillation has taken the same dose of digoxin for 2 years. Three weeks ago, furosemide was started for leg swelling. The patient now has nausea, loss of appetite, confusion and says that everything looks yellow and blurry. ECG shows frequent premature ventricular beats. Kidney function is unchanged from last year.",
+      "leadIn": "Which change most likely made this patient prone to toxicity from the same dose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Low serum potassium from the new diuretic"
+        },
+        {
+          "id": "b",
+          "text": "Faster renal clearance of digoxin by the kidney"
+        },
+        {
+          "id": "c",
+          "text": "High serum potassium from the new diuretic"
+        },
+        {
+          "id": "d",
+          "text": "Increased binding of digoxin to tissue sites"
+        },
+        {
+          "id": "e",
+          "text": "Faster breakdown of digoxin by the liver"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: low serum potassium caused by the new diuretic. Why: Your El-Husseiny cardiovascular notes (p. 204) explain that digoxin has a narrow therapeutic index, so toxicity is common. Hypokalemia makes toxicity more likely because digoxin and potassium compete for the same binding site on the Na+/K+-ATPase, and less potassium lets more digoxin bind. Diuretics cause hypokalemia and so enhance digoxin toxicity. Other risk factors are renal failure, which lowers excretion, and drugs such as verapamil, amiodarone and quinidine that displace digoxin or lower its clearance. Toxicity causes GI symptoms (anorexia, nausea, vomiting), neurologic symptoms (fatigue, confusion, weakness), blurry yellow vision, and dangerous arrhythmias of almost any type. Treatment includes slowly correcting potassium, pacing, magnesium and anti-digoxin Fab fragments. MedlinePlus agrees that digoxin is used for heart failure and arrhythmias and lists blurred or yellow vision and irregular heartbeat among its side effects.",
+      "whyWrong": {
+        "b": "Digoxin is cleared mainly by the kidneys (your El-Husseiny cardiovascular notes, p. 205). Faster clearance would lower the level, and it is renal failure that raises the risk (p. 204). This patient's kidney function is unchanged.",
+        "c": "Loop diuretics cause hypokalemia, not hyperkalemia (your El-Husseiny cardiovascular notes, p. 204). High potassium is a sign of digoxin toxicity, not the trigger in this patient.",
+        "d": "The drugs that raise digoxin levels do so by displacing it from tissue binding sites, not by increasing binding (your El-Husseiny cardiovascular notes, p. 204).",
+        "e": "Digoxin is cleared mainly by the kidneys (your El-Husseiny cardiovascular notes, p. 205). Faster breakdown would lower its level, not cause toxicity."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Cardiovascular System (Emily's file), Digoxin, pp. 204-205"
+        },
+        {
+          "title": "MedlinePlus Drug Information: Digoxin",
+          "url": "https://medlineplus.gov/druginfo/meds/a682301.html"
+        }
+      ]
+    },
+    {
+      "id": "immuno-dressler-syndrome-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Immunology",
+      "system": "Cardiovascular",
+      "topic": "Post-infarction pericarditis: Dressler syndrome",
+      "difficulty": 2,
+      "stem": "A 58-year-old had a large anterior myocardial infarction 4 weeks ago. The patient now has fever, sharp chest pain that is worse with breathing in and better when leaning forward, and aching joints. A pericardial friction rub is heard, and chest x-ray shows small bilateral pleural effusions. Troponin has not risen again, and echocardiography shows no rupture of the heart wall.",
+      "leadIn": "Which mechanism best explains this condition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Autoimmune reaction to antigens from the injured heart"
+        },
+        {
+          "id": "b",
+          "text": "Inflammation spreading from adjacent necrotic muscle"
+        },
+        {
+          "id": "c",
+          "text": "Blood in the pericardial sac from a ruptured heart wall"
+        },
+        {
+          "id": "d",
+          "text": "Ischemia from a new occlusion of a coronary artery"
+        },
+        {
+          "id": "e",
+          "text": "Mural thrombus in a ventricular aneurysm"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: an autoimmune reaction to antigens released from the injured heart (Dressler syndrome). Why: Your El-Husseiny cardiovascular notes (p. 145) list Dressler syndrome as a complication from 2 weeks to several months after an MI. It is an autoimmune inflammatory reaction to new antigens formed in the damaged myocardium, which causes autoimmune pericarditis. It takes weeks for the antibodies to develop, which separates it from the fibrinous pericarditis that comes soon after the infarct. The notes (p. 146) add that pericarditis causes a sharp chest pain that worsens with breathing and gets better when the patient leans forward. Early pericarditis appears 2 to 4 days after a transmural MI as a reaction to the dead muscle next to the pericardium, while Dressler syndrome begins 1 week to a few months after the MI and is thought to be an autoimmune polyserositis. MSD agrees that this post-infarction syndrome usually occurs more than a week after the MI and can cause a pericardial effusion with fever, a friction rub, pleural inflammation, pleural effusions and joint pain. It notes that the syndrome has become very rare since early reperfusion became routine.",
+      "whyWrong": {
+        "b": "Inflammation from neighboring necrotic muscle is early pericarditis, which develops 2 to 4 days after a transmural MI (your El-Husseiny cardiovascular notes, p. 146). This patient's symptoms began 4 weeks later.",
+        "c": "Free wall rupture leads to cardiac tamponade (your El-Husseiny cardiovascular notes, p. 145). Echocardiography shows no rupture here.",
+        "d": "A new occlusion would cause a new infarct, with crushing chest pain and a fresh rise in cardiac enzymes (your El-Husseiny cardiovascular notes, p. 140). Troponin has not risen again, and the pain is pleuritic.",
+        "e": "Aneurysm and mural thrombus are late complications of an MI (your El-Husseiny cardiovascular notes, p. 145), but they do not cause fever, a friction rub and pleural effusions."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Cardiovascular System (Emily's file), Complications of myocardial infarction, pp. 145-146; myocardial infarction, p. 140"
+        },
+        {
+          "title": "MSD Manual Professional: Pericarditis",
+          "url": "https://www.msdmanuals.com/professional/cardiovascular-disorders/myocarditis-and-pericarditis/pericarditis"
+        }
+      ]
+    },
+    {
+      "id": "path-mitral-valve-prolapse-myxomatous-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Cardiovascular",
+      "topic": "Valve disease: mitral valve prolapse and myxomatous degeneration",
+      "difficulty": 2,
+      "stem": "A 24-year-old who is very tall, with long fingers and a history of lens dislocation, has a routine checkup. Auscultation at the apex shows a mid-systolic click followed by a short late systolic murmur. When the patient stands up from a squat, the click moves earlier and the murmur becomes louder and longer.",
+      "leadIn": "Which process is most likely responsible for this valve disease?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Myxomatous degeneration of the mitral leaflets"
+        },
+        {
+          "id": "b",
+          "text": "Rheumatic damage from an earlier strep infection"
+        },
+        {
+          "id": "c",
+          "text": "Age-related calcification of the valve"
+        },
+        {
+          "id": "d",
+          "text": "Sterile vegetations linked to lupus"
+        },
+        {
+          "id": "e",
+          "text": "Bacterial vegetations of infective endocarditis"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: myxomatous degeneration of the mitral leaflets (mitral valve prolapse). Why: Your NBME Top Concepts file (Endocarditis page, p. 71) names mitral valve prolapse as the leading cause of mitral regurgitation. It describes the leaflets bulging into the left atrium during systole because of redundant valve tissue, links it to Marfan syndrome, Ehlers-Danlos syndrome and Klinefelter syndrome, and says Valsalva and standing make the murmur louder. Your El-Husseiny cardiovascular notes (p. 64) describe a late systolic crescendo murmur after a mid-systolic click, caused by the chordae suddenly tensing as the leaflets prolapse, best heard at the apex. MVP is the most common valve lesion. It can be caused by myxomatous degeneration, either on its own or secondary to a connective tissue disease such as Marfan syndrome, and it can predispose to endocarditis. This patient's height, long fingers and lens dislocation suggest Marfan syndrome. MSD agrees that most cases come from myxomatous degeneration of the leaflets and chordae, in which the fibrous collagen layer thins and mucoid material builds up. MSD adds that standing and Valsalva move the click toward S1 and make the murmur louder, while squatting has the opposite effect.",
+      "whyWrong": {
+        "b": "Mitral stenosis is usually a late result of rheumatic fever, and it gives an opening snap and a mid-diastolic rumble (your El-Husseiny cardiovascular notes, p. 70). This patient has a systolic click and murmur.",
+        "c": "Age-related calcification is the usual cause of aortic stenosis in older adults (your El-Husseiny cardiovascular notes, p. 62). It does not fit a 24-year-old with a mitral click.",
+        "d": "Libman-Sacks endocarditis is caused by sterile vegetations in lupus and leads to mitral regurgitation (your El-Husseiny cardiovascular notes, p. 172). It does not cause a click that moves with standing, and this patient has features of Marfan syndrome, not lupus.",
+        "e": "Infective endocarditis is a possible complication of MVP, not its cause (your El-Husseiny cardiovascular notes, p. 64). This patient has no fever or signs of infection."
+      },
+      "sources": [
+        {
+          "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Endocarditis page: mitral valve prolapse, p. 71"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Cardiovascular System (Emily's file), Mitral valve prolapse, p. 64; aortic stenosis, p. 62; mitral stenosis, p. 70; Libman-Sacks endocarditis, p. 172"
+        },
+        {
+          "title": "MSD Manual Professional: Mitral Valve Prolapse (MVP)",
+          "url": "https://www.msdmanuals.com/professional/cardiovascular-disorders/valvular-disorders/mitral-valve-prolapse-mvp"
+        }
+      ]
+    },
+    {
+      "id": "path-takayasu-arteritis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Cardiovascular",
+      "topic": "Large-vessel vasculitis: Takayasu arteritis",
+      "difficulty": 2,
+      "stem": "A 26-year-old woman has 4 months of fatigue, night sweats and aching in her left arm when she lifts objects or brushes her hair. Twice she has had brief dizziness with blurred vision. The left radial pulse is very weak, and blood pressure is 30 mm Hg lower in the left arm than in the right. A bruit is heard over the left subclavian artery. ESR is elevated.",
+      "leadIn": "Which is the most likely diagnosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Takayasu arteritis"
+        },
+        {
+          "id": "b",
+          "text": "Giant cell (temporal) arteritis"
+        },
+        {
+          "id": "c",
+          "text": "Polyarteritis nodosa"
+        },
+        {
+          "id": "d",
+          "text": "Kawasaki disease"
+        },
+        {
+          "id": "e",
+          "text": "Thromboangiitis obliterans"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: Takayasu arteritis. Why: Your El-Husseiny cardiovascular notes (p. 181) describe Takayasu arteritis as a granulomatous inflammation of large arteries, typically the aortic arch where its branches come off. It occurs in adults younger than 40, classically young Asian women, with visual and neurologic symptoms and a weak or absent pulse in an arm (\"pulseless disease\"). TIA and stroke can follow from blocked vessels. The best test is aortic arteriography or MR angiography rather than biopsy, and treatment is corticosteroids. The notes add that Takayasu arteritis and giant cell arteritis share granulomatous inflammation of the media, so age is often what tells them apart. MSD agrees that the disease mainly affects young women and involves the aorta and its branches. It notes limb claudication, weak or uneven pulses, lower blood pressure in one arm and bruits over the subclavian arteries, and it makes the diagnosis by aortic arteriography or MR angiography.",
+      "whyWrong": {
+        "b": "Giant cell arteritis also causes granulomatous inflammation of the media, but it tends to develop after age 50 and causes headache and jaw claudication (your El-Husseiny cardiovascular notes, p. 181). This patient is 26 and has arm claudication with unequal pulses.",
+        "c": "Polyarteritis nodosa is a necrotizing vasculitis of medium and small arteries that affects the kidneys, gut, nerves and skin and spares the lungs (your El-Husseiny cardiovascular notes, p. 182). It does not cause pulseless arms.",
+        "d": "Kawasaki disease is a medium-vessel vasculitis of young children with fever, conjunctivitis and mucosal changes, and its danger is coronary aneurysms (your El-Husseiny cardiovascular notes, pp. 182-183).",
+        "e": "Thromboangiitis obliterans affects the digits of heavy smokers (your El-Husseiny cardiovascular notes, p. 183). It does not narrow the aortic arch branches."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Cardiovascular System (Emily's file), Takayasu and giant cell arteritis, p. 181; polyarteritis nodosa and Kawasaki disease, pp. 182-183; Buerger disease, p. 183"
+        },
+        {
+          "title": "MSD Manual Professional: Takayasu Arteritis",
+          "url": "https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/vasculitis/takayasu-arteritis"
+        }
+      ]
+    },
+    {
+      "id": "path-buerger-disease-smoking-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Cardiovascular",
+      "topic": "Vasculitis: thromboangiitis obliterans (Buerger disease)",
+      "difficulty": 2,
+      "stem": "A 36-year-old who has smoked two packs of cigarettes a day since age 15 has had cramping pain in the arches of both feet when walking for 6 months. Now there is pain at rest in two toes, which have a dark, painful ulcer at the tip. The fingers turn white and then blue in the cold. The patient has also had tender red cords along veins of the lower legs that came and went. Radial and dorsalis pedis pulses are weak. The patient has no diabetes, hypertension or high cholesterol.",
+      "leadIn": "Which is the most likely diagnosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Thromboangiitis obliterans"
+        },
+        {
+          "id": "b",
+          "text": "Atherosclerotic peripheral artery disease"
+        },
+        {
+          "id": "c",
+          "text": "Polyarteritis nodosa"
+        },
+        {
+          "id": "d",
+          "text": "Granulomatosis with polyangiitis"
+        },
+        {
+          "id": "e",
+          "text": "Takayasu arteritis"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: thromboangiitis obliterans (Buerger disease). Why: Your El-Husseiny cardiovascular notes (pp. 183-184) describe Buerger disease as a necrotizing vasculitis of the digits that is strongly linked to heavy smoking. It may come from direct toxic injury to the endothelium by tobacco products or from hypersensitivity to them. It causes intermittent claudication and can lead to gangrene, autoamputation of digits and superficial nodular phlebitis, and Raynaud phenomenon is often present. Under the microscope the artery wall shows both acute and chronic inflammatory cells and the lumen holds a clot, and the process spreads into nearby veins and nerves, which is rare in other vasculitides. Treatment is stopping smoking. MSD agrees: nearly all patients use tobacco, the disease mainly affects men in their 30s and 40s, it causes inflammatory clotting in small and medium arteries and often superficial veins of the hands and feet, and Raynaud phenomenon and migratory superficial phlebitis are common. Without stopping tobacco, it usually progresses and often leads to amputation.",
+      "whyWrong": {
+        "b": "Claudication is almost always caused by atherosclerosis of larger named arteries (your El-Husseiny cardiovascular notes, p. 127), but this young patient has no other risk factors besides smoking and also has Raynaud phenomenon and migratory phlebitis, which point to Buerger disease (pp. 183-184).",
+        "c": "Polyarteritis nodosa mainly affects the kidneys, gut, nerves and skin and is linked to hepatitis B (your El-Husseiny cardiovascular notes, p. 182). It does not cause migratory phlebitis in a heavy smoker.",
+        "d": "Granulomatosis with polyangiitis involves the nose and sinuses, lungs and kidneys and is linked to c-ANCA (your El-Husseiny cardiovascular notes, p. 184). This patient has no airway or kidney disease.",
+        "e": "Takayasu arteritis involves the aortic arch and its branches in young women and causes weak arm pulses (your El-Husseiny cardiovascular notes, p. 181). It does not cause toe ulcers and phlebitis."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Cardiovascular System (Emily's file), Buerger disease, pp. 183-184; claudication, p. 127; polyarteritis nodosa, p. 182; granulomatosis with polyangiitis, p. 184; Takayasu arteritis, p. 181"
+        },
+        {
+          "title": "MSD Manual Professional: Thromboangiitis Obliterans",
+          "url": "https://www.msdmanuals.com/professional/cardiovascular-disorders/peripheral-arterial-disorders/thromboangiitis-obliterans"
+        }
+      ]
+    },
+    {
+      "id": "path-constrictive-pericarditis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Cardiovascular",
+      "topic": "Pericardial disease: constrictive pericarditis",
+      "difficulty": 2,
+      "stem": "A 52-year-old received radiation therapy to the chest for Hodgkin lymphoma 18 years ago. Over the past year the patient has had fatigue, worsening leg swelling and a swollen abdomen. Blood pressure is 118/76 mm Hg. The jugular veins are distended and rise further when the patient breathes in. A sharp extra sound is heard early in diastole. The abdomen contains fluid, and both legs have pitting edema. Echocardiography shows a normal ejection fraction and no pericardial fluid.",
+      "leadIn": "Which is the most likely diagnosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Constrictive pericarditis"
+        },
+        {
+          "id": "b",
+          "text": "Cardiac tamponade"
+        },
+        {
+          "id": "c",
+          "text": "Acute fibrinous pericarditis"
+        },
+        {
+          "id": "d",
+          "text": "Dilated cardiomyopathy"
+        },
+        {
+          "id": "e",
+          "text": "Dressler syndrome after infarction"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: constrictive pericarditis. Why: Your El-Husseiny cardiovascular notes (p. 175) describe constrictive pericarditis as a chronic condition in which scarring turns the pericardium into a stiff, thickened sac that keeps the ventricles from filling fully, eventually causing heart failure. Causes include chest radiation, cardiac surgery and tuberculosis. Poor right ventricular filling raises the jugular venous pressure. Normally the JVP falls when a person breathes in, but in constriction it often rises (Kussmaul sign), because the stiff right ventricle cannot take the extra venous return of inspiration. A pericardial knock may be heard earlier in diastole than an S3, and CT often shows a thickened, calcified pericardium. MSD agrees that prior radiation and cardiac surgery are common causes, that the stiff pericardium impairs ventricular filling, and that Kussmaul sign, a pericardial knock, peripheral edema, hepatomegaly and later ascites appear while the ejection fraction is usually preserved. Treatment for chronic constriction is usually removal of the pericardium.",
+      "whyWrong": {
+        "b": "Tamponade is fluid in the pericardial sac. It causes Beck triad (hypotension, distended neck veins and muffled heart sounds) and pulsus paradoxus (your El-Husseiny cardiovascular notes, p. 176). This patient has normal blood pressure and no pericardial fluid.",
+        "c": "Acute pericarditis causes sharp, pleuritic chest pain that improves when leaning forward (your El-Husseiny cardiovascular notes, p. 146). This patient has a year of slowly worsening right-sided congestion without chest pain.",
+        "d": "Dilated cardiomyopathy weakens contraction and lowers the ejection fraction (your El-Husseiny cardiovascular notes, p. 152). Here the ejection fraction is normal, and MSD notes that it is usually preserved in constriction (MSD, Pericarditis).",
+        "e": "Dressler syndrome is an autoimmune pericarditis weeks to months after a myocardial infarction (your El-Husseiny cardiovascular notes, pp. 145-146). This patient has had no infarction."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Cardiovascular System (Emily's file), Constrictive pericarditis, p. 175; cardiac tamponade, p. 176; pericarditis after infarction, pp. 145-146; dilated cardiomyopathy, p. 152"
+        },
+        {
+          "title": "MSD Manual Professional: Pericarditis",
+          "url": "https://www.msdmanuals.com/professional/cardiovascular-disorders/myocarditis-and-pericarditis/pericarditis"
+        }
+      ]
+    },
+    {
+      "id": "path-eisenmenger-shunt-reversal-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Cardiovascular",
+      "topic": "Congenital heart disease: Eisenmenger syndrome",
+      "difficulty": 2,
+      "stem": "A 9-year-old who recently moved from a country with limited health care is brought in for tiredness and bluish lips during play. A loud murmur was heard in infancy, but no surgery was done. The child was not blue as a baby. Now there is cyanosis of the lips, clubbing of the fingers, a loud second heart sound, and a right ventricular heave. Hemoglobin is high. Echocardiography shows a large ventricular septal defect with flow now going from the right ventricle to the left.",
+      "leadIn": "Which change best explains the new cyanosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pulmonary vascular remodeling that reversed the shunt"
+        },
+        {
+          "id": "b",
+          "text": "Spontaneous closure of the ventricular septal defect"
+        },
+        {
+          "id": "c",
+          "text": "A right-to-left shunt that has been present since birth"
+        },
+        {
+          "id": "d",
+          "text": "Left ventricular failure with fluid filling the alveoli"
+        },
+        {
+          "id": "e",
+          "text": "Bacterial endocarditis growing on the defect"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: remodeling of the pulmonary vessels that reversed the shunt (Eisenmenger syndrome). Why: Your El-Husseiny cardiovascular notes (p. 113) explain that an uncorrected left-to-right shunt (VSD, ASD or PDA) sends extra blood through the lungs. Over time this remodels the pulmonary vessels and causes pulmonary arterial hypertension. The right ventricle thickens to compensate, and the shunt reverses to right-to-left. The result is late cyanosis with right ventricular hypertrophy, polycythemia (low oxygen drives the kidney to make more erythropoietin) and clubbing. Left-to-right shunts cause \"later\" cyanosis, while right-to-left shunts cause early cyanosis. A VSD is the most common congenital heart defect, and large ones can lead to Eisenmenger syndrome. MSD agrees that Eisenmenger syndrome is a complication of large uncorrected left-to-right shunts, causes cyanosis, clubbing and secondary polycythemia, and appears within the first few years of life with a VSD or PDA. Once it develops, there is no specific treatment other than heart and lung transplantation, so repair at the right age is the best prevention.",
+      "whyWrong": {
+        "b": "Small VSDs may close on their own (your El-Husseiny cardiovascular notes, p. 113), but closure would end the shunt, not cause cyanosis. Echocardiography shows that the large defect is still open.",
+        "c": "Right-to-left shunts cause early cyanosis (your El-Husseiny cardiovascular notes, p. 113). This child was pink in infancy, so the shunt began left-to-right and reversed later.",
+        "d": "The heave, the loud second sound and right-to-left flow point to pulmonary hypertension and a strained right ventricle (your El-Husseiny cardiovascular notes, p. 113), not a failing left ventricle.",
+        "e": "Endocarditis is a risk in Eisenmenger syndrome (MSD, Eisenmenger Syndrome), but it would cause fever and does not explain why blood now flows right to left."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Cardiovascular System (Emily's file), Left-to-right shunts and Eisenmenger syndrome, p. 113"
+        },
+        {
+          "title": "MSD Manual Professional: Eisenmenger Syndrome",
+          "url": "https://www.msdmanuals.com/professional/pediatrics/congenital-cardiovascular-anomalies/eisenmenger-syndrome"
+        }
+      ]
+    },
+    {
+      "id": "pharm-nitroglycerin-venodilation-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Cardiovascular",
+      "topic": "Antianginal drugs: nitroglycerin and preload",
+      "difficulty": 2,
+      "stem": "A 66-year-old gets pressure-like chest pain after walking up two flights of stairs. It goes away with 5 minutes of rest. ECG during an episode shows ST-segment depression. A sublingual tablet is prescribed. Within 2 minutes of taking it during the next episode, the pain eases, and the patient gets a throbbing headache and feels lightheaded on standing.",
+      "leadIn": "The drug relieves this patient's pain mainly through which effect?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Venous dilation that lowers preload"
+        },
+        {
+          "id": "b",
+          "text": "Beta-1 blockade that slows the heart rate"
+        },
+        {
+          "id": "c",
+          "text": "Increased contractility of the heart muscle"
+        },
+        {
+          "id": "d",
+          "text": "Widening of the fixed atherosclerotic narrowing"
+        },
+        {
+          "id": "e",
+          "text": "Inhibition of platelet aggregation"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: dilation of veins, which lowers preload. Why: Your NBME Top Concepts file (Post myocardial infarction complications, p. 33) describes stable angina as chest pain brought on by activity and relieved by rest or nitroglycerin, treated with vasodilation by increasing nitric oxide (NO) in vascular smooth muscle. Your El-Husseiny cardiovascular notes (pp. 199-200) explain that nitrates are turned into NO in smooth muscle cells. NO activates guanylate cyclase, which raises cGMP, lowers intracellular calcium and relaxes the muscle. Nitrates are mainly venodilators. They increase venous capacity, which lowers preload, so the left ventricle holds less blood and less pressure at the end of diastole. That reduces wall stress and myocardial oxygen demand. They also dilate arterioles a little. Side effects include flushing, headache, orthostatic hypotension and reflex tachycardia, as in this patient. MSD agrees that nitroglycerin relaxes smooth muscle, acts mainly on veins and on the coronary arteries, and lowers wall tension, a major driver of myocardial oxygen need.",
+      "whyWrong": {
+        "b": "Beta-blockers lower oxygen demand by slowing the heart (your El-Husseiny cardiovascular notes, p. 199). Nitrates cause reflex tachycardia instead (p. 200).",
+        "c": "Raising contractility is what digoxin and beta agonists do (your El-Husseiny cardiovascular notes, p. 203), and it would raise oxygen demand. Nitrates do not increase contractility.",
+        "d": "MSD notes that nitroglycerin dilates coronary vessels in areas without atheroma (MSD, Angina Pectoris). A fixed stenosis from plaque does not open up, and your notes say the main effect is on veins (your El-Husseiny cardiovascular notes, p. 200).",
+        "e": "Blocking platelet aggregation is how aspirin works, by inactivating cyclooxygenase so that platelets make less thromboxane A2 (your El-Husseiny hematology-oncology notes, p. 17). It does not relieve angina within minutes."
+      },
+      "sources": [
+        {
+          "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Post myocardial infarction complications: stable angina, p. 33"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Cardiovascular System (Emily's file), Nitrates, pp. 199-200; inotropes, p. 203"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Hematology-Oncology (Emily's file), Qualitative platelet disorders: aspirin, p. 17"
+        },
+        {
+          "title": "MSD Manual Professional: Angina Pectoris",
+          "url": "https://www.msdmanuals.com/professional/cardiovascular-disorders/coronary-artery-disease/angina-pectoris"
+        }
+      ]
+    },
+    {
+      "id": "immuno-passive-maternal-igg-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Immunology",
+      "system": "Immune System",
+      "topic": "Passive vs active immunity: maternal IgG across the placenta",
+      "difficulty": 1,
+      "stem": "A pregnant patient receives a Tdap vaccine at 30 weeks' gestation. At birth, the newborn has high levels of antibody against pertussis toxin, although the infant has never been vaccinated or infected. By 4 months of age, these antibody levels have dropped a great deal.",
+      "leadIn": "The newborn's protection at birth is best described as which type of immunity?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Natural passive immunity"
+        },
+        {
+          "id": "b",
+          "text": "Natural active immunity"
+        },
+        {
+          "id": "c",
+          "text": "Artificial active immunity"
+        },
+        {
+          "id": "d",
+          "text": "Artificial passive immunity"
+        },
+        {
+          "id": "e",
+          "text": "Innate immunity from complement"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: natural passive immunity. Why: Your El-Husseiny microbiology and immunology notes (p. 447) explain that passive immunity means receiving antibodies that were already made, while active immunity means the body makes its own after meeting an antigen. Passive immunity starts fast but lasts only a short time, because the antibodies have a half-life of about 3 weeks. Active immunity starts slowly but gives long-lasting memory. Natural passive immunity comes from IgA in breast milk and maternal IgG crossing the placenta. Artificial passive immunity comes from antitoxins and humanized monoclonal antibodies. Natural active immunity comes from recovering from an infection, and artificial active immunity comes from vaccines and toxoids. The mother's vaccine gave her active immunity, but the infant only received her ready-made IgG across the placenta, so the infant's protection is natural passive immunity that fades. A CDC report on Tdap in pregnancy agrees that infants of vaccinated mothers are born with higher levels of pertussis antibody because of efficient transfer across the placenta, and that these maternal antibodies decline rapidly, with a half-life of about 6 weeks.",
+      "whyWrong": {
+        "b": "Natural active immunity follows recovery from an infection (your El-Husseiny microbiology and immunology notes, p. 447). The infant has never been infected.",
+        "c": "Artificial active immunity comes from a vaccine or toxoid (your El-Husseiny microbiology and immunology notes, p. 447). The mother was vaccinated, not the infant.",
+        "d": "Artificial passive immunity means giving ready-made antibodies such as an antitoxin or a monoclonal antibody (your El-Husseiny microbiology and immunology notes, p. 447). The infant received the mother's IgG naturally across the placenta.",
+        "e": "Antibodies specific to pertussis toxin are part of adaptive immunity (your El-Husseiny microbiology and immunology notes, p. 447). Complement does not provide antigen-specific protection."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Passive vs active immunity, p. 447"
+        },
+        {
+          "title": "CDC MMWR 2011;60(41): ACIP recommendations on Tdap vaccine in pregnancy",
+          "url": "https://www.cdc.gov/MMWR/preview/mmwrhtml/mm6041a4.htm"
+        }
+      ]
+    },
+    {
+      "id": "immuno-chronic-mucocutaneous-candidiasis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Immunology",
+      "system": "Immune System",
+      "topic": "T-cell immunity: chronic mucocutaneous candidiasis",
+      "difficulty": 2,
+      "stem": "A 7-year-old has had repeated oral thrush since age 2, along with thick, crumbling fingernails and red, scaly skin patches that grow Candida albicans. Antifungal treatment helps, but the infections keep returning. The child has never had a blood or organ infection with Candida, and bacterial infections have been ordinary. Neutrophil counts and immunoglobulin levels are normal. An intradermal Candida antigen test produces no reaction after 48 hours, and the child's T cells do not multiply when mixed with Candida antigen in the laboratory.",
+      "leadIn": "This child's immune defect most likely affects which part of host defense?",
+      "options": [
+        {
+          "id": "a",
+          "text": "T-cell responses to Candida"
+        },
+        {
+          "id": "b",
+          "text": "The NADPH oxidase of neutrophils"
+        },
+        {
+          "id": "c",
+          "text": "Maturation of B cells into plasma cells"
+        },
+        {
+          "id": "d",
+          "text": "The beta-2 integrin CD18 on leukocytes"
+        },
+        {
+          "id": "e",
+          "text": "The terminal complement proteins C5-C9"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: T-cell responses to Candida. Why: Your El-Husseiny microbiology and immunology notes (p. 467) describe chronic mucocutaneous candidiasis as a group of T-cell defects that impair cell-mediated immunity against Candida. The classic form is caused by defects in AIRE. Patients have Candida albicans infections of the skin and mucous membranes that do not invade deeper tissues. T cells do not multiply in response to Candida antigens in the laboratory, and there is no skin reaction to Candida antigen. The notes explain that T cells, especially helper T cells, prevent superficial Candida infection, while neutrophils prevent spread into the blood. That is why these patients get thrush and skin and nail infections but not disseminated disease. The Candida skin test measures a delayed (type IV) hypersensitivity reaction (p. 468). MedlinePlus Genetics agrees that AIRE mutations cause APECED, in which chronic mucocutaneous candidiasis is usually the first feature in childhood, along with hypoparathyroidism and adrenal insufficiency. It explains that autoantibodies against the IL-17 pathway, which defends against Candida, are thought to cause the candidiasis.",
+      "whyWrong": {
+        "b": "NADPH oxidase deficiency causes chronic granulomatous disease, in which neutrophils cannot make the oxidative burst (your El-Husseiny microbiology and immunology notes, p. 473). Those patients get deep infections with catalase-positive organisms, not isolated thrush.",
+        "c": "B-cell maturation fails in X-linked (Bruton) agammaglobulinemia because of a BTK defect (your El-Husseiny microbiology and immunology notes, p. 464). This child has normal immunoglobulin levels.",
+        "d": "Lack of CD18 causes leukocyte adhesion deficiency, in which leukocytes cannot stick to vessel walls and move into tissues (your El-Husseiny microbiology and immunology notes, p. 471). It causes bacterial infections, not isolated mucocutaneous Candida.",
+        "e": "Terminal complement deficiency causes recurrent Neisseria bacteremia (your El-Husseiny microbiology and immunology notes, p. 433). It does not cause chronic thrush with absent T-cell responses to Candida."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Chronic mucocutaneous candidiasis, pp. 467-468; terminal complement, p. 433; Bruton agammaglobulinemia, p. 464; LAD, p. 471; CGD, p. 473"
+        },
+        {
+          "title": "MedlinePlus Genetics: Autoimmune polyendocrinopathy-candidiasis-ectodermal dystrophy",
+          "url": "https://medlineplus.gov/genetics/condition/autoimmune-polyendocrinopathy-candidiasis-ectodermal-dystrophy/"
+        }
+      ]
+    },
+    {
+      "id": "immuno-arthus-reaction-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Immunology",
+      "system": "Immune System",
+      "topic": "Type III hypersensitivity: Arthus reaction",
+      "difficulty": 2,
+      "stem": "A 45-year-old landscaper received a tetanus-diphtheria booster 3 years ago and another booster after a deep cut 6 months ago. After a third booster today for a dog bite, the deltoid becomes red, swollen, hard and very painful within 6 hours. Over the next day the center of the area turns dark, and a small patch of skin dies. There is no hives, wheezing or low blood pressure.",
+      "leadIn": "Which mechanism best explains this reaction?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Local antigen-IgG complexes activating complement"
+        },
+        {
+          "id": "b",
+          "text": "IgE cross-linking on mast cells"
+        },
+        {
+          "id": "c",
+          "text": "Sensitized T cells releasing cytokines over 2 to 3 days"
+        },
+        {
+          "id": "d",
+          "text": "Antibodies against the patient's own red blood cells"
+        },
+        {
+          "id": "e",
+          "text": "Bacterial toxin spreading from the bite wound"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: local complexes of antigen and IgG that activate complement (an Arthus reaction). Why: Your El-Husseiny microbiology and immunology notes (p. 458) explain that type III hypersensitivity is caused by immune complexes of antigen and antibody, mostly IgG, that activate complement. Complement draws in neutrophils, which release lysosomal enzymes. The Arthus reaction is the local form. When antigen is injected into the skin of a person who already has a lot of circulating IgG against it, immune complexes form in the skin, causing edema, necrosis and complement activation. Repeated boosters close together leave high antibody levels, so a new dose forms complexes at the injection site. StatPearls agrees that the Arthus reaction forms immune complexes in the small blood vessels of the skin at the site of a booster vaccine. It causes painful local swelling and redness within a few hours, usually peaks within 24 hours, and in severe cases leads to local skin necrosis.",
+      "whyWrong": {
+        "b": "IgE cross-linking on mast cells is type I (immediate) hypersensitivity, which causes hives, wheezing and anaphylaxis within minutes (your El-Husseiny microbiology and immunology notes, pp. 450 and 462). This reaction has no hives or wheezing.",
+        "c": "Sensitized T cells cause type IV (delayed) hypersensitivity (your El-Husseiny microbiology and immunology notes, p. 459), which takes 2 to 3 days to develop. This reaction began within hours, and the notes describe the Arthus reaction as antibody-mediated (p. 458).",
+        "d": "Antibodies against the patient's own red blood cells are a type II reaction that destroys cells (your El-Husseiny microbiology and immunology notes, p. 458 lists type II and III separately). This reaction stays at the injection site.",
+        "e": "A bite infection would center on the wound, not on the vaccine site, and the notes describe this pattern of swelling and necrosis at an injection site as the Arthus reaction (your El-Husseiny microbiology and immunology notes, p. 458)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Type III hypersensitivity and the Arthus reaction, p. 458; type I, pp. 450 and 462; type IV, p. 459"
+        },
+        {
+          "title": "Saavedra Torres JS, Annamaraju P. Type III Hypersensitivity Reaction. StatPearls (NCBI Bookshelf)",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK559122/"
+        }
+      ]
+    },
+    {
+      "id": "immuno-tnf-inhibitor-tb-granuloma-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Immunology",
+      "system": "Immune System",
+      "topic": "Cytokines: TNF-alpha and containment of tuberculosis",
+      "difficulty": 2,
+      "stem": "A 42-year-old with severe Crohn disease is about to start infliximab, a monoclonal antibody that blocks tumor necrosis factor-alpha (TNF-alpha). The patient grew up in a country where tuberculosis is common. Before the first dose, the physician orders an interferon-gamma release assay and a chest x-ray.",
+      "leadIn": "Screening is needed because TNF-alpha normally does which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Maintains granulomas that wall off bacilli"
+        },
+        {
+          "id": "b",
+          "text": "Drives B-cell class switching to IgE"
+        },
+        {
+          "id": "c",
+          "text": "Stimulates the growth of eosinophils"
+        },
+        {
+          "id": "d",
+          "text": "Activates natural killer cells and Th1 cells"
+        },
+        {
+          "id": "e",
+          "text": "Stimulates the growth of helper T cells"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: it maintains the granulomas that keep the bacteria walled off. Why: Your El-Husseiny microbiology and immunology notes (p. 444) list the main actions of TNF-alpha. It mediates septic shock, activates the endothelium, recruits white blood cells, causes vascular leak and cachexia in cancer, and maintains granulomas in tuberculosis. The notes also explain (p. 435) that macrophages activated by interferon-gamma make TNF, which recruits monocytes to the area, and that reactivation of M. tuberculosis after immune suppression or TNF-alpha inhibitor use favors the lung apices, which have the highest oxygen pressure (p. 19). Blocking TNF can loosen the granulomas around latent TB and let the infection reactivate, so latent TB must be looked for first. A CDC report on TB with TNF-alpha blocking agents agrees that TNF-alpha plays a crucial role in the host response to M. tuberculosis and that blocking it can let TB disease emerge from latent infection.",
+      "whyWrong": {
+        "b": "Class switching to IgE is driven by IL-4 (your El-Husseiny microbiology and immunology notes, p. 445). That is not why TNF blockade risks TB.",
+        "c": "IL-5 stimulates eosinophil growth and class switching to IgA (your El-Husseiny microbiology and immunology notes, p. 445).",
+        "d": "IL-12 drives T cells toward Th1 and activates NK cells (your El-Husseiny microbiology and immunology notes, p. 444). Infliximab blocks TNF-alpha, not IL-12.",
+        "e": "IL-2 is a growth signal for T cells (helper, cytotoxic and regulatory) and for NK cells (your El-Husseiny microbiology and immunology notes, p. 445)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Cytokines, pp. 444-445; tuberculosis granulomas, p. 435; aerobes and TB reactivation, p. 19"
+        },
+        {
+          "title": "CDC MMWR 2004: Tuberculosis Associated with Blocking Agents Against Tumor Necrosis Factor-Alpha, California, 2002-2003",
+          "url": "https://www.cdc.gov/mmWR/preview/mmwrhtml/mm5330a4.htm"
+        }
+      ]
+    },
+    {
+      "id": "immuno-live-influenza-vaccine-pregnancy-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Immunology",
+      "system": "Immune System",
+      "topic": "Vaccines: live attenuated vaccines in pregnancy",
+      "difficulty": 1,
+      "stem": "A 28-year-old at 14 weeks' gestation asks for a flu vaccine at a pharmacy in October. She is healthy and has no allergies. The pharmacy offers both a flu shot and a nasal spray flu vaccine, and she would prefer the spray because she dislikes needles.",
+      "leadIn": "Which is the most appropriate advice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Give the flu shot, because the nasal spray is a live vaccine"
+        },
+        {
+          "id": "b",
+          "text": "Give the nasal spray, because it causes fewer side effects"
+        },
+        {
+          "id": "c",
+          "text": "Wait until after delivery, because no flu vaccine is safe in pregnancy"
+        },
+        {
+          "id": "d",
+          "text": "Give either vaccine, because both use killed virus"
+        },
+        {
+          "id": "e",
+          "text": "Give the nasal spray, because it gives a stronger cellular response"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: give the flu shot, because the nasal spray is a live vaccine. Why: Your El-Husseiny microbiology and immunology notes (p. 447) explain that a live attenuated vaccine uses a microorganism that has lost its ability to cause disease but can still grow briefly in the person who receives it. It produces strong, often lifelong immunity with both cellular and antibody responses, but it can revert to a virulent form and is often contraindicated in pregnancy and in people with immune deficiency. The notes list intranasal influenza among the live vaccines. The CDC agrees: pregnant people should get a flu shot and not the nasal spray, which is a live attenuated influenza vaccine (LAIV) and should not be used during pregnancy. The CDC adds that antibodies made after vaccination in pregnancy pass to the developing baby and help protect the baby after birth.",
+      "whyWrong": {
+        "b": "The nasal spray is a live attenuated vaccine (your El-Husseiny microbiology and immunology notes, p. 447), and the CDC says it should not be used during pregnancy (CDC, Flu Vaccine Safety and Pregnancy).",
+        "c": "The CDC recommends the flu shot during pregnancy (CDC, Flu Vaccine Safety and Pregnancy). Waiting would leave both the mother and the newborn unprotected.",
+        "d": "Only the injection is inactivated. The notes list intranasal influenza with the live attenuated vaccines (your El-Husseiny microbiology and immunology notes, p. 447).",
+        "e": "Live vaccines do give strong cellular and antibody responses, but they are often contraindicated in pregnancy (your El-Husseiny microbiology and immunology notes, p. 447). A stronger response does not make the spray the right choice here."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Vaccine types: live attenuated vaccines, p. 447"
+        },
+        {
+          "title": "CDC: Flu Vaccine Safety and Pregnancy",
+          "url": "https://www.cdc.gov/flu/highrisk/qa_vacpregnant.htm"
+        }
+      ]
+    },
+    {
+      "id": "path-aplastic-anemia-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Bone marrow failure: aplastic anemia",
+      "difficulty": 2,
+      "stem": "A 23-year-old has had 3 weeks of tiredness, nosebleeds, easy bruising and two bouts of fever. Two months ago the patient had a hepatitis that cleared on its own, with negative tests for the known hepatitis viruses. Examination shows pallor and many petechiae, with no enlarged lymph nodes, liver or spleen. Hemoglobin is 7.1 g/dL, the white cell count is 1,400/mm3 with few neutrophils, the platelet count is 12,000/mm3, and the reticulocyte count is very low. The cells on the blood smear look normal. A bone marrow biopsy shows marrow that is mostly fat, with very few blood-forming cells.",
+      "leadIn": "Which is the most likely diagnosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Aplastic anemia"
+        },
+        {
+          "id": "b",
+          "text": "Acute myeloid leukemia"
+        },
+        {
+          "id": "c",
+          "text": "Transient aplastic crisis from parvovirus"
+        },
+        {
+          "id": "d",
+          "text": "Immune thrombocytopenia"
+        },
+        {
+          "id": "e",
+          "text": "Myelofibrosis with a packed marrow"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: aplastic anemia. Why: Your NBME Top Concepts file (Hematology: aplastic anemia, p. 228) lists the main causes as autoimmune, infections such as parvovirus, and drugs such as carbamazepine, chloramphenicol and sulfonamides. It shows the classic triad of findings: pallor and fatigue, recurrent infections, and mucosal bleeding and petechiae. Your El-Husseiny hematology-oncology notes (p. 55) explain that aplastic anemia is damage to the blood-forming stem cells, which causes pancytopenia (anemia, thrombocytopenia and leukopenia) with a low reticulocyte count. Causes include idiopathic immune-mediated disease, which may follow acute hepatitis, as well as radiation, drugs, viruses and Fanconi anemia. The marrow aspirate is often \"dry\", and biopsy shows marrow replaced by fat and fibrous stroma. Treatment is stopping any causative drug, supportive transfusions and growth factors, immune suppression and, as a last resort, bone marrow transplant. MSD agrees that aplastic anemia is a stem cell disorder with cytopenias and a hypocellular marrow. It lists hepatitis that tests negative for the hepatitis viruses among its causes and explains that most acquired cases come from an immune attack on the stem cells. Other source: MSD prefers stem cell transplant as the curative first choice for younger patients with a matched donor, and otherwise uses antithymocyte globulin and cyclosporine, with or without eltrombopag.",
+      "whyWrong": {
+        "b": "Acute leukemia fills the marrow with more than 20% blasts (your El-Husseiny hematology-oncology notes, p. 62). This marrow is empty and fatty, and the smear shows no abnormal cells.",
+        "c": "A parvovirus aplastic crisis causes anemia only, not loss of all three cell lines (your El-Husseiny hematology-oncology notes, p. 55).",
+        "d": "ITP is autoimmune destruction of platelets by IgG antibodies (your El-Husseiny hematology-oncology notes, p. 15). It lowers platelets alone and does not empty the marrow or lower the white cells and red cells.",
+        "e": "In aplastic anemia the marrow is replaced by fat and fibrous stroma (your El-Husseiny hematology-oncology notes, p. 55), not packed with other tissue. MSD describes the marrow as hypocellular (MSD, Aplastic Anemia)."
+      },
+      "sources": [
+        {
+          "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Hematology: aplastic anemia, p. 228"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Hematology-Oncology (Emily's file), Aplastic anemia, p. 55; ITP, p. 15; acute leukemias, p. 62"
+        },
+        {
+          "title": "MSD Manual Professional: Aplastic Anemia",
+          "url": "https://www.msdmanuals.com/professional/hematology-and-oncology/anemias-caused-by-deficient-erythropoiesis/aplastic-anemia"
+        }
+      ]
+    },
+    {
+      "id": "path-glanzmann-thrombasthenia-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Platelet function disorders: Glanzmann thrombasthenia",
+      "difficulty": 2,
+      "stem": "A 6-year-old whose parents are first cousins has had many nosebleeds that needed packing, bleeding gums and easy bruising since infancy. The platelet count is 280,000/mm3, and the platelets are normal in size on the smear. PT, PTT and von Willebrand factor levels are normal. In platelet aggregation studies, the platelets do not clump in response to ADP, collagen or epinephrine. They do clump in response to ristocetin.",
+      "leadIn": "A defect in which platelet protein is most likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Glycoprotein IIb/IIIa"
+        },
+        {
+          "id": "b",
+          "text": "Glycoprotein Ib"
+        },
+        {
+          "id": "c",
+          "text": "Cyclooxygenase"
+        },
+        {
+          "id": "d",
+          "text": "Von Willebrand factor"
+        },
+        {
+          "id": "e",
+          "text": "Factor VIII"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: glycoprotein IIb/IIIa (Glanzmann thrombasthenia). Why: Your El-Husseiny hematology-oncology notes (p. 17) separate the inherited platelet function disorders by which step fails. In Bernard-Soulier syndrome, the defect is in GPIb, so platelet adhesion fails, the ristocetin test is abnormal and the platelets are large. In Glanzmann thrombasthenia, the defect is in GPIIb/IIIa, so platelet aggregation fails. Aspirin also impairs aggregation, by permanently blocking cyclooxygenase so platelets cannot make thromboxane A2. This child has a normal count of normal-sized platelets that will not aggregate with ADP, collagen or epinephrine but do respond to ristocetin, which is the Glanzmann pattern. MSD agrees that Glanzmann thrombasthenia is a rare autosomal recessive defect of the IIb/IIIa receptor that stops platelets from aggregating with epinephrine, collagen or even high levels of ADP, while they still clump briefly with ristocetin. It notes that severe mucosal bleeding, such as nosebleeds that stop only after packing, may need platelet transfusion.",
+      "whyWrong": {
+        "b": "A GPIb defect is Bernard-Soulier syndrome, which impairs adhesion, gives an abnormal ristocetin test and causes large platelets (your El-Husseiny hematology-oncology notes, p. 17). This child's platelets are normal in size and respond to ristocetin.",
+        "c": "Blocking cyclooxygenase is how aspirin impairs aggregation (your El-Husseiny hematology-oncology notes, p. 17). It is acquired from a drug, not inherited since infancy.",
+        "d": "Von Willebrand disease lowers von Willebrand factor, which impairs platelet adhesion and can prolong the PTT (your El-Husseiny hematology-oncology notes, p. 23). This child's VWF level and PTT are normal.",
+        "e": "Factor VIII deficiency is hemophilia A, which prolongs the PTT (your El-Husseiny hematology-oncology notes, pp. 20-21). This child's PTT is normal."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Hematology-Oncology (Emily's file), Qualitative platelet disorders, p. 17; hemophilia, pp. 20-21; von Willebrand disease, p. 23"
+        },
+        {
+          "title": "MSD Manual Professional: Inherited Platelet Function Disorders",
+          "url": "https://www.msdmanuals.com/professional/hematology-and-oncology/thrombocytopenia-and-platelet-dysfunction/inherited-platelet-function-disorders"
+        }
+      ]
+    },
+    {
+      "id": "path-anemia-chronic-disease-hepcidin-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Anemia of chronic disease: hepcidin and iron sequestration",
+      "difficulty": 2,
+      "stem": "A 57-year-old with long-standing rheumatoid arthritis has fatigue. Hemoglobin is 10.2 g/dL with a mean corpuscular volume of 84 fL. Serum iron is low, total iron-binding capacity is low, transferrin saturation is low, and serum ferritin is high. CRP is elevated. The stool test for blood is negative.",
+      "leadIn": "Increased levels of which protein best explain this patient's anemia?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hepcidin"
+        },
+        {
+          "id": "b",
+          "text": "Transferrin"
+        },
+        {
+          "id": "c",
+          "text": "Erythropoietin"
+        },
+        {
+          "id": "d",
+          "text": "Ferroportin"
+        },
+        {
+          "id": "e",
+          "text": "Haptoglobin"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: hepcidin. Why: Your NBME Top Concepts file (Hematology: microcytic anemia, p. 194) uses a patient with rheumatoid arthritis as the classic case of anemia of chronic disease. It explains that hepcidin, an acute phase reactant, rises and lowers iron absorption, and that ferritin is high while TIBC is low. It reminds readers to look for inflammatory conditions such as SLE, RA and chronic infections. Your El-Husseiny hematology-oncology notes (p. 54) add that chronic disease drives the liver to make acute phase reactants, including hepcidin. Hepcidin binds ferroportin on gut cells and macrophages and blocks iron export, so less iron is released from macrophages and less is absorbed from the gut, which keeps iron away from bacteria. Labs show high ferritin, low TIBC, low serum iron and low saturation. Treatment is to address the underlying disease. MSD agrees that hepcidin rises with inflammation, partly driven by IL-6, and blocks iron absorption and recycling, so iron is trapped. It notes that serum iron and transferrin are typically low while ferritin is normal or high, and that the red cells are normocytic early and may become microcytic with time.",
+      "whyWrong": {
+        "b": "Transferrin carries iron in the blood, and the TIBC measures it (MSD, Anemia of Chronic Disease). Here the TIBC is low, not high.",
+        "c": "Erythropoietin from the kidney is lower in renal failure (your El-Husseiny hematology-oncology notes, p. 54). MSD notes that inflammatory cytokines lower erythropoietin production in this anemia rather than raise it.",
+        "d": "Ferroportin is the iron exporter that hepcidin binds and blocks (your El-Husseiny hematology-oncology notes, p. 54). Its function is reduced here, not increased.",
+        "e": "Haptoglobin binds free hemoglobin and falls in hemolysis (your El-Husseiny hematology-oncology notes, p. 49). This patient has no signs of hemolysis."
+      },
+      "sources": [
+        {
+          "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Hematology: anemia of chronic disease, p. 194"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Hematology-Oncology (Emily's file), Anemia of chronic disease, p. 54; hemolysis, p. 49"
+        },
+        {
+          "title": "MSD Manual Professional: Anemia of Chronic Disease",
+          "url": "https://www.msdmanuals.com/professional/hematology-and-oncology/anemias-caused-by-deficient-erythropoiesis/anemia-of-chronic-disease"
+        }
+      ]
+    },
+    {
+      "id": "pharm-rivaroxaban-factor-xa-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Anticoagulants: direct factor Xa inhibitors",
+      "difficulty": 1,
+      "stem": "A 55-year-old has a deep vein thrombosis in the left leg after a long flight. The patient is started on an oral anticoagulant that needs no routine blood tests to adjust the dose. The drug binds directly to the active site of a clotting factor and stops thrombin from forming. If life-threatening bleeding occurs, it can be reversed with andexanet alfa.",
+      "leadIn": "Which drug was most likely prescribed?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rivaroxaban"
+        },
+        {
+          "id": "b",
+          "text": "Warfarin"
+        },
+        {
+          "id": "c",
+          "text": "Dabigatran"
+        },
+        {
+          "id": "d",
+          "text": "Enoxaparin"
+        },
+        {
+          "id": "e",
+          "text": "Unfractionated heparin"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: rivaroxaban. Why: Your El-Husseiny hematology-oncology notes (p. 95) describe the direct factor Xa inhibitors, apixaban and rivaroxaban. They bind to the active site of factor Xa and stop thrombin from forming. Rivaroxaban treats and prevents DVT and PE, and both drugs prevent stroke in atrial fibrillation. They are taken by mouth on their own and need no routine lab monitoring. Their main adverse effect is bleeding, which can be reversed with andexanet alfa. The same page describes the direct thrombin inhibitors (bivalirudin, argatroban and dabigatran), which block thrombin itself and are reversed with idarucizumab for dabigatran. MedlinePlus agrees that rivaroxaban is a factor Xa inhibitor used to prevent and treat DVT and PE. It warns that a clot near the spine can form after spinal or epidural procedures and that stopping the drug early raises the risk of stroke in atrial fibrillation.",
+      "whyWrong": {
+        "b": "Warfarin blocks vitamin K-dependent factor synthesis and needs INR monitoring (your El-Husseiny hematology-oncology notes, pp. 25 and 89). It does not bind factor Xa directly.",
+        "c": "Dabigatran is the only oral direct thrombin inhibitor, and it is reversed with idarucizumab (your El-Husseiny hematology-oncology notes, p. 95). It blocks thrombin, not factor Xa.",
+        "d": "Enoxaparin is a low molecular weight heparin that works by binding antithrombin (your El-Husseiny hematology-oncology notes, p. 93). It is injected, and it does not bind factor Xa directly.",
+        "e": "Unfractionated heparin works by activating antithrombin and is reversed with protamine (your El-Husseiny hematology-oncology notes, pp. 91-92). It is given by injection or IV."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Hematology-Oncology (Emily's file), Direct thrombin and factor Xa inhibitors, p. 95; warfarin, pp. 25 and 89; heparin, pp. 91-93"
+        },
+        {
+          "title": "MedlinePlus Drug Information: Rivaroxaban",
+          "url": "https://www.medlineplus.gov/druginfo/meds/a611049.html"
+        }
+      ]
+    },
+    {
+      "id": "histo-eosinophil-helminth-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Blood cells: eosinophil structure and function",
+      "difficulty": 1,
+      "stem": "A 9-year-old living in a rural area has had abdominal pain and weight loss. Stool tests show eggs of a parasitic worm. A peripheral blood smear shows many cells that make up 18% of the white blood cells. Each has a nucleus with two lobes, and the cytoplasm is packed with large, uniform granules that stain bright orange-pink with eosin.",
+      "leadIn": "These cells kill helminths mainly by releasing which substance?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Major basic protein"
+        },
+        {
+          "id": "b",
+          "text": "Myeloperoxidase"
+        },
+        {
+          "id": "c",
+          "text": "Histamine and heparin"
+        },
+        {
+          "id": "d",
+          "text": "Perforin and granzymes"
+        },
+        {
+          "id": "e",
+          "text": "Immunoglobulin E"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: major basic protein. Why: Your El-Husseiny hematology-oncology notes (p. 6) describe the eosinophil as a cell with a two-lobed nucleus packed with large eosinophilic granules of uniform size. It defends against helminths with major basic protein, a toxin for worms, and it also makes histaminase. It is highly phagocytic for antigen-antibody complexes. The causes of eosinophilia are summed up as NAACP: neoplasia, asthma, allergic processes, chronic adrenal insufficiency and invasive parasites. OpenStax Anatomy and Physiology agrees that the eosinophil nucleus usually has two to three lobes, that the granules stain red to orange with eosin, and that some of the granules contain molecules toxic to parasitic worms. OpenStax notes that eosinophils normally make up 2 to 4 percent of white cells, so 18% is a clear eosinophilia.",
+      "whyWrong": {
+        "b": "Myeloperoxidase in phagocyte lysosomes turns hydrogen peroxide and chloride into hypochlorite, the active part of bleach, to kill ingested microbes (your El-Husseiny microbiology and immunology notes, p. 405). It is not the eosinophil's main weapon against worms.",
+        "c": "Histamine and heparin are packed in the dense granules of basophils and mast cells, which mediate allergic reactions (your El-Husseiny hematology-oncology notes, p. 7). Eosinophils make histaminase, which breaks histamine down (p. 6).",
+        "d": "Perforin and granzymes are used by cytotoxic T cells and NK cells to kill target cells (your El-Husseiny microbiology and immunology notes, pp. 438-439). They are not the eosinophil's weapon against worms.",
+        "e": "IgE is made by plasma cells, not by eosinophils (your El-Husseiny microbiology and immunology notes, p. 445 describes IL-4 driving class switching to IgE)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Hematology-Oncology (Emily's file), Eosinophil, p. 6; basophil, p. 7"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Intracellular killing, p. 405; CTL and NK killing, pp. 438-439; IL-4 and IgE, p. 445"
+        },
+        {
+          "title": "OpenStax Anatomy and Physiology 2e, 18.4 Leukocytes and Platelets",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets"
+        }
+      ]
+    },
+    {
+      "id": "anat-thoracic-duct-chylothorax-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Lymphatic anatomy: thoracic duct and chylothorax",
+      "difficulty": 2,
+      "stem": "Three days after surgery to remove the esophagus for cancer, a 63-year-old has increasing shortness of breath. A chest x-ray shows a large left pleural effusion. The fluid drained from the chest is milky white, and its triglyceride level is very high. The amount of drainage rises when the patient starts eating.",
+      "leadIn": "Injury to which structure most likely caused this effusion?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Thoracic duct"
+        },
+        {
+          "id": "b",
+          "text": "Right lymphatic duct"
+        },
+        {
+          "id": "c",
+          "text": "Azygos vein"
+        },
+        {
+          "id": "d",
+          "text": "Left internal jugular vein"
+        },
+        {
+          "id": "e",
+          "text": "Left subclavian artery"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the thoracic duct. Why: Your El-Husseiny respiratory notes (p. 123) describe a lymphatic pleural effusion, or chylothorax, caused by injury to the thoracic duct from trauma or cancer. The fluid is milky and high in triglycerides. The notes (p. 8) explain that the thoracic duct collects lymph from everything below the diaphragm plus the left half of the body above it. The right lymphatic duct handles only the upper right quarter: the right arm, right chest and right half of the head and neck. Your El-Husseiny cardiovascular notes (p. 23) list the thoracic duct with the aorta and azygos vein as structures that pass through the diaphragm at T12. Because the duct carries fat absorbed from the gut, the drainage rises when the patient eats. StatPearls agrees that the thoracic duct starts at the cisterna chyli, passes up through the aortic hiatus into the posterior mediastinum, and empties into the junction of the left subclavian and internal jugular veins. It drains the whole body except the right head and neck, right chest and right arm, and thoracic surgery can injure it and cause chylothorax.",
+      "whyWrong": {
+        "b": "The right lymphatic duct collects lymph only from the upper right quarter of the body (your El-Husseiny respiratory notes, p. 8). It does not carry fat-rich lymph from the gut.",
+        "c": "The azygos vein passes through the diaphragm at T12 with the thoracic duct (your El-Husseiny cardiovascular notes, p. 23), but injury to it would cause a bloody effusion, not milky fluid high in triglycerides.",
+        "d": "The left internal jugular vein is where the thoracic duct empties, with the subclavian vein (StatPearls, Thoracic Duct). Injury to the vein would cause bleeding, not chyle in the chest.",
+        "e": "Injury to the subclavian artery would cause bleeding into the chest. A milky effusion high in triglycerides points to a lymphatic leak (your El-Husseiny respiratory notes, p. 123)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Respiratory System (Emily's file), Lymphatic drainage, p. 8; chylothorax, p. 123"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Cardiovascular System (Emily's file), Diaphragm openings, p. 23"
+        },
+        {
+          "title": "StatPearls (NCBI Bookshelf): Anatomy, Thorax, Thoracic Duct",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK513227/"
+        }
+      ]
     }
   ]
 }
