@@ -33366,6 +33366,1049 @@
           "url": "https://medlineplus.gov/genetics/condition/chediak-higashi-syndrome"
         }
       ]
+    },
+    {
+      "id": "ethics-minor-sti-consent-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Behavioral Science",
+      "system": "General Principles",
+      "topic": "Ethics: consent for minors (STI care)",
+      "difficulty": 1,
+      "stem": "A 16-year-old girl comes to the clinic alone because of vaginal discharge and burning with urination for 4 days. She has one male sexual partner. She lives with her parents, is not married and is in high school. She asks that her parents not be told about the visit because they do not know she is sexually active. Pelvic examination shows mucopurulent discharge from the cervix.",
+      "leadIn": "Which of the following is the most appropriate next step?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Test and treat her today without contacting her parents"
+        },
+        {
+          "id": "b",
+          "text": "Call her parents to get their consent before any testing"
+        },
+        {
+          "id": "c",
+          "text": "Postpone testing until a parent or guardian can come in"
+        },
+        {
+          "id": "d",
+          "text": "Ask a judge to declare her emancipated before treating her"
+        },
+        {
+          "id": "e",
+          "text": "Treat her only after she agrees to tell her parents about the visit"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: test and treat her today without contacting her parents. Why: First Aid (biostats file, p. 265) explains that a minor is usually anyone under 18 and that parental consent is generally needed, but there are exceptions. Care related to sex (contraception, sexually transmitted infections and pregnancy), substance use and emergencies usually does not need a parent's consent, and emancipated minors can consent for themselves. The physician should still ask for the teen's own agreement (assent) and encourage healthy communication with her parents. The Guttmacher Institute (Minors' Access to STI Services) agrees that all 50 states and Washington, DC let minors consent to STI testing and treatment without a parent. A few states set a minimum age of 12 to 14, and some let, but do not require, providers to tell parents.",
+      "whyWrong": {
+        "b": "Parental consent is not needed for STI care in a minor (First Aid, p. 265), and every state lets minors consent to STI testing and treatment on their own (Guttmacher).",
+        "c": "Waiting for a parent only delays care that she can legally agree to herself (First Aid, p. 265; Guttmacher).",
+        "d": "Emancipation (for example, through marriage, military service or supporting oneself) is a separate route around parental consent (First Aid, p. 265). She does not need it, because STI care is already an exception.",
+        "e": "Valid consent must be voluntary, free from pressure (First Aid, p. 265). The physician should encourage her to talk with her parents, not make treatment depend on it."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Informed consent and consent for minors, p. 265"
+        },
+        {
+          "title": "Guttmacher Institute: Minors' Access to STI Services",
+          "url": "https://guttmacher.org/node/26258"
+        }
+      ]
+    },
+    {
+      "id": "ethics-family-nondisclosure-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Behavioral Science",
+      "system": "General Principles",
+      "topic": "Ethics: family asks to withhold a diagnosis",
+      "difficulty": 2,
+      "stem": "A 74-year-old man is admitted with weight loss and jaundice. A biopsy shows metastatic pancreatic cancer. Before the physician meets with him, his daughter pulls the physician aside and asks that her father not be told the diagnosis, saying the news \"would destroy him.\" The patient is alert and oriented, has made his own decisions throughout the admission, and has no history of depression or thoughts of self-harm.",
+      "leadIn": "Which of the following is the most appropriate response to the daughter?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Explore her concern, then explain he has a right to know"
+        },
+        {
+          "id": "b",
+          "text": "Agree to withhold the diagnosis to respect the family's wishes"
+        },
+        {
+          "id": "c",
+          "text": "Tell her the diagnosis will be withheld under therapeutic privilege"
+        },
+        {
+          "id": "d",
+          "text": "Ask the hospital ethics committee to decide what he will be told"
+        },
+        {
+          "id": "e",
+          "text": "Give the diagnosis to the daughter and let her decide when to tell him"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: explore her concern, then explain that he has a right to know. Why: First Aid (biostats file, p. 268) advises that when a relative asks the physician to hide a poor prognosis, the physician should first try to learn why the relative thinks the news would hurt the patient. The physician then explains that while the patient can still make his own decisions and has not asked otherwise, information about his own care will not be kept from him. Respect for autonomy includes telling patients the truth (p. 265). Withholding information under therapeutic privilege is allowed only when the physician believes telling the patient would lead him to seriously harm himself or others, or would badly undermine his ability to make decisions (pp. 265 and 268). Nothing in this case suggests that. The AMA Code of Medical Ethics (Opinion 2.1.3, Withholding Information from Patients) agrees that withholding information without the patient's knowledge or consent is ethically unacceptable outside an emergency. It also says physicians should honor a patient's own request not to receive certain information and fit how much they share to the patient's wishes, so the physician can ask the patient how much he wants to know.",
+      "whyWrong": {
+        "b": "Hiding the diagnosis from a patient with capacity goes against autonomy, which includes truth-telling (First Aid, p. 265). A relative's wishes do not override his right to information about his own care (p. 268).",
+        "c": "Therapeutic privilege is kept for cases where telling the patient would cause serious harm, such as a real risk of self-harm (First Aid, pp. 265 and 268). This patient has capacity and no such risk.",
+        "d": "The answer here is already clear: a patient with capacity is told about his own care unless he says otherwise (First Aid, p. 268). An ethics committee is not needed to decide this.",
+        "e": "Physicians should not discuss a patient's condition with relatives without the patient's permission (First Aid, p. 268)."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Core ethical principles and informed consent, p. 265; Ethical situations, p. 268"
+        },
+        {
+          "title": "AMA Code of Medical Ethics, Opinion 2.1.3: Withholding Information from Patients",
+          "url": "https://code-medical-ethics.ama-assn.org/sites/amacoedb/files/2022-08/2.1.3.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ethics-health-care-agent-capacity-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Behavioral Science",
+      "system": "General Principles",
+      "topic": "Ethics: medical power of attorney when the patient has capacity",
+      "difficulty": 2,
+      "stem": "A 68-year-old woman with severe COPD named her son as her medical power of attorney last year. She is admitted with pneumonia and worsening shortness of breath. She is alert, can describe her condition and the likely result of declining a breathing tube, and has said the same thing to her doctors and her pastor for several days: she does not want to be intubated. Her son, who is at the bedside, insists that as her agent he wants her intubated if her breathing gets worse.",
+      "leadIn": "Whose decision should guide her care?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The patient's, because she has decision-making capacity"
+        },
+        {
+          "id": "b",
+          "text": "The son's, because he is her named health care agent"
+        },
+        {
+          "id": "c",
+          "text": "The son's, because the power of attorney took effect at admission"
+        },
+        {
+          "id": "d",
+          "text": "The ethics committee's, because the patient and agent disagree"
+        },
+        {
+          "id": "e",
+          "text": "The physician's, based on what is medically best for her"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the patient's, because she has decision-making capacity. Why: First Aid (biostats file, p. 266) explains that a medical power of attorney names an agent to make medical decisions if the patient loses decision-making capacity, and that the patient can revoke it while her capacity is intact. Capacity is judged by the physician for a specific decision. The patient should be informed, express a clear choice, make a choice that fits her values, not be affected by delirium, psychosis, intoxication or a mood disorder, stay consistent over time, and be an adult (p. 266). She meets each of these, so her own informed choice is followed, which respects her autonomy (p. 265). StatPearls (Advance Directives) agrees that a health care proxy makes decisions for a patient who cannot communicate her wishes, and that as long as a patient has decision-making capacity, she keeps the right to make her own decisions.",
+      "whyWrong": {
+        "b": "The agent decides only after the patient loses capacity (First Aid, p. 266). While she can decide for herself, her choice comes first.",
+        "c": "Being admitted to the hospital does not give the agent authority. Loss of capacity does (First Aid, p. 266).",
+        "d": "When a patient with capacity makes an informed choice, that choice is honored (First Aid, pp. 265-266). Her agent disagreeing does not create a decision for a committee to make.",
+        "e": "Acting in the patient's best interest (beneficence) can conflict with autonomy, and a patient who understands her options gets to make the choice (First Aid, p. 265)."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Core ethical principles, p. 265; Decision-making capacity and advance directives, p. 266"
+        },
+        {
+          "title": "StatPearls: Advance Directives",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK459133/"
+        }
+      ]
+    },
+    {
+      "id": "ethics-impaired-colleague-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Behavioral Science",
+      "system": "General Principles",
+      "topic": "Ethics: impaired physician colleague",
+      "difficulty": 1,
+      "stem": "A second-year surgery resident notices that the attending surgeon smells strongly of alcohol, is slurring his words and is unsteady on his feet while scrubbing in for an elective gallbladder operation. When the resident asks if he is all right, the attending says he is \"fine\" and walks toward the operating room.",
+      "leadIn": "Which of the following is the most appropriate action by the resident?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Report him right away to the chief of surgery"
+        },
+        {
+          "id": "b",
+          "text": "Wait until after surgery and talk with him privately"
+        },
+        {
+          "id": "c",
+          "text": "Report him to the state medical licensing board first"
+        },
+        {
+          "id": "d",
+          "text": "Assist in the case so she can watch him for mistakes"
+        },
+        {
+          "id": "e",
+          "text": "Say nothing unless a patient is harmed during the case"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: report him right away to the chief of surgery. Why: First Aid (biostats file, p. 269) explains that a colleague who is impaired or not competent puts patients in danger. The situation should be reported to local supervisors, and the state licensing board should be told only if the organization fails to act. The AMA Code of Medical Ethics (Opinion 9.3.2, Physician Responsibilities to Impaired Colleagues) agrees that physicians should step in, with respect and compassion, when a colleague cannot practice safely. The goal is to make sure the colleague stops putting patients at risk and gets evaluation and care, using institutional policies and the law.",
+      "whyWrong": {
+        "b": "Waiting lets an impaired surgeon operate. The goal is to stop him from putting patients at risk now (AMA Opinion 9.3.2).",
+        "c": "The state licensing board is the next step only if the hospital fails to act (First Aid, p. 269).",
+        "d": "Watching him during the case does not remove the danger to the patient (First Aid, p. 269; AMA Opinion 9.3.2).",
+        "e": "A colleague who is impaired already puts patients in danger before any harm happens (First Aid, p. 269)."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Ethical situations, p. 269"
+        },
+        {
+          "title": "AMA Code of Medical Ethics, Opinion 9.3.2: Physician Responsibilities to Impaired Colleagues",
+          "url": "https://code-medical-ethics.ama-assn.org/sites/default/files/2022-08/9.3.2.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ethics-industry-gift-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Behavioral Science",
+      "system": "General Principles",
+      "topic": "Ethics: gifts from the drug industry",
+      "difficulty": 1,
+      "stem": "A family physician is visited by a sales representative from a drug company. The representative offers to pay for the physician and her spouse to spend a weekend at a beach resort for a company dinner about its new diabetes drug. He adds that the company hopes she will \"keep the new drug in mind\" when she writes prescriptions.",
+      "leadIn": "Which of the following is the most appropriate response?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Decline the trip"
+        },
+        {
+          "id": "b",
+          "text": "Accept the trip but tell her patients about it"
+        },
+        {
+          "id": "c",
+          "text": "Accept the trip if she pays for her spouse herself"
+        },
+        {
+          "id": "d",
+          "text": "Accept the trip only if the new drug is truly better"
+        },
+        {
+          "id": "e",
+          "text": "Accept the trip if the dinner offers education credit"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: decline the trip. Why: First Aid (biostats file, p. 269) advises physicians to turn down gifts and sponsorships from drug companies to avoid any appearance of a conflict of interest. It lists a few exceptions: gifts that directly help patients, gifts worth very little, education funding for trainees (students, residents and fellows), grants given to people picked by independent criteria, and money handed out without naming the sponsor. The AMA Code of Medical Ethics (Opinion 9.6.2, Gifts to Physicians from Industry) agrees that physicians should decline any gift for which something is expected in return, should decline cash in any amount, and may accept an in-kind gift only if it directly benefits patients and is of minimal value. A resort weekend tied to prescribing fits none of these exceptions.",
+      "whyWrong": {
+        "b": "Telling patients about the gift does not change that the company expects something in return, so it should still be declined (AMA Opinion 9.6.2).",
+        "c": "Paying for her spouse still leaves a valuable gift that comes with an expected return (AMA Opinion 9.6.2; First Aid, p. 269).",
+        "d": "Whether the drug is good does not matter. The gift is offered in exchange for prescribing, and such gifts should be declined (AMA Opinion 9.6.2).",
+        "e": "The education exception covers funding for students, residents and fellows chosen by independent criteria, without naming the sponsor (First Aid, p. 269; AMA Opinion 9.6.2), not a trip offered by a sales representative."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Ethical situations, p. 269"
+        },
+        {
+          "title": "AMA Code of Medical Ethics, Opinion 9.6.2: Gifts to Physicians from Industry",
+          "url": "https://code-medical-ethics.ama-assn.org/sites/amacoedb/files/2022-08/9.6.2.pdf"
+        }
+      ]
+    },
+    {
+      "id": "hcd-quaternary-prevention-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Behavioral Science",
+      "system": "General Principles",
+      "topic": "Health care delivery: levels of disease prevention",
+      "difficulty": 2,
+      "stem": "A primary care clinic is sorting its services by level of disease prevention for a quality report.",
+      "leadIn": "Which of the following services is an example of quaternary prevention?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Reducing medications for an older adult with polypharmacy"
+        },
+        {
+          "id": "b",
+          "text": "Giving the HPV vaccine to an 11-year-old girl"
+        },
+        {
+          "id": "c",
+          "text": "Doing a Pap smear in a woman with no symptoms"
+        },
+        {
+          "id": "d",
+          "text": "Starting chemotherapy for a woman with breast cancer"
+        },
+        {
+          "id": "e",
+          "text": "Screening every adult for high blood pressure at each clinic visit"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: reducing medications for an older adult with polypharmacy. Why: First Aid (biostats file, p. 270) describes four levels of prevention. Primary prevention stops a disease before it starts (such as HPV vaccination). Secondary prevention finds and manages disease early, before symptoms (such as a Pap smear). Tertiary prevention treats ongoing disease to reduce complications (such as chemotherapy). Quaternary prevention avoids medical care that is not needed, to limit harm from it, such as unnecessary imaging or extra drugs in a patient with polypharmacy. The WONCA group on quaternary prevention agrees that it protects patients from tests, interventions and treatments that offer them no benefit, and was first defined as finding patients at risk of overmedicalization and protecting them from more medical intervention.",
+      "whyWrong": {
+        "b": "A vaccine prevents disease before it starts, which is primary prevention (First Aid, p. 270).",
+        "c": "A Pap smear screens for disease before symptoms appear, which is secondary prevention (First Aid, p. 270).",
+        "d": "Chemotherapy treats an existing disease to reduce its complications, which is tertiary prevention (First Aid, p. 270).",
+        "e": "Screening people without symptoms to find disease early is secondary prevention (First Aid, p. 270)."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Disease prevention, p. 270"
+        },
+        {
+          "title": "WONCA Special Interest Group on Quaternary Prevention and Overmedicalization",
+          "url": "https://globalfamilydoctor.com/groups/SpecialInterestGroups/QuaternaryPrevention.aspx"
+        }
+      ]
+    },
+    {
+      "id": "hcd-capitation-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Behavioral Science",
+      "system": "General Principles",
+      "topic": "Health care delivery: payment models",
+      "difficulty": 1,
+      "stem": "A primary care physician joins a health plan that pays her a fixed amount each month for every patient assigned to her practice. She receives the same payment for a patient whether that patient visits 10 times in the month or not at all.",
+      "leadIn": "Which payment model does this plan use?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Capitation"
+        },
+        {
+          "id": "b",
+          "text": "Fee-for-service"
+        },
+        {
+          "id": "c",
+          "text": "Bundled payment"
+        },
+        {
+          "id": "d",
+          "text": "Global payment"
+        },
+        {
+          "id": "e",
+          "text": "Discounted fee-for-service"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: capitation. Why: First Aid (biostats file, p. 271) explains that in capitation, physicians receive a set amount for each patient assigned to them for a period of time, no matter how much care the patient uses. Some HMOs use it. A health plan glossary (Blue Cross and Blue Shield of Kansas) agrees that capitation is a fixed monthly payment per member to a primary care physician for a set period, no matter how many times the member uses the services.",
+      "whyWrong": {
+        "b": "In fee-for-service, payment is made for each separate service (First Aid, p. 271), so more visits would mean more payment.",
+        "c": "A bundled payment is a set amount for one service, shared among all the providers and facilities involved (First Aid, p. 271), not a monthly amount per patient.",
+        "d": "A global payment covers all costs of a single episode of care, such as an elective surgery with its visits before and after (First Aid, p. 271).",
+        "e": "In discounted fee-for-service, each service is still paid separately, at a lower rate agreed on in advance, as in PPOs (First Aid, p. 271)."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Healthcare payment models, p. 271"
+        },
+        {
+          "title": "Blue Cross and Blue Shield of Kansas glossary: Capitation",
+          "url": "https://www.bcbsks.com/glossary/capitation"
+        }
+      ]
+    },
+    {
+      "id": "hcd-double-effect-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Behavioral Science",
+      "system": "General Principles",
+      "topic": "End-of-life care: principle of double effect",
+      "difficulty": 2,
+      "stem": "A 70-year-old man with metastatic lung cancer is in home hospice. He has severe pain and feels very short of breath despite his current dose of morphine. His physician raises the dose to relieve his suffering, knowing the higher dose might slow his breathing and could shorten his life. The patient and his wife agree with the plan.",
+      "leadIn": "Which ethical principle best supports the physician's decision?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Principle of double effect"
+        },
+        {
+          "id": "b",
+          "text": "Justice"
+        },
+        {
+          "id": "c",
+          "text": "Therapeutic privilege"
+        },
+        {
+          "id": "d",
+          "text": "Implied consent in an emergency"
+        },
+        {
+          "id": "e",
+          "text": "Nonmaleficence over beneficence"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the principle of double effect. Why: First Aid (biostats file, p. 272) explains that hospice care focuses on comfort rather than cure for patients expected to live less than 6 months. In end-of-life care, relieving pain and distress comes first, even with possible side effects such as slowed breathing, and putting the good effect ahead of the harmful one is called the principle of double effect. First Aid (p. 268) also notes that most states do not allow physician-assisted death, but physicians may prescribe appropriate pain medicine even if it shortens the patient's life. Fohr (Journal of Palliative Medicine, 1998) describes the conditions of double effect: the act itself is good or neutral, only the good effect is intended even if the bad one is foreseen, the good effect does not come about through the bad one, and the good outweighs the bad. Other source: Fohr also argues that with careful dose adjustment, opioids rarely cause dangerous breathing problems and that appropriate pain medicine does not hasten death.",
+      "whyWrong": {
+        "b": "Justice means treating people fairly and equitably, as in triage (First Aid, p. 265). It does not address this dosing choice.",
+        "c": "Therapeutic privilege means withholding information when telling the patient would seriously harm him (First Aid, p. 265). Nothing is being withheld here.",
+        "d": "Implied consent applies in emergencies when consent cannot be obtained (First Aid, p. 265). This patient and his wife agreed to the plan.",
+        "e": "Nonmaleficence (\"do no harm\") must be weighed against beneficence (First Aid, p. 265). Putting harm avoidance first would argue against the higher dose, not for it."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Core ethical principles and informed consent, p. 265; Ethical situations, p. 268; Hospice care, p. 272"
+        },
+        {
+          "title": "Fohr SA. The double effect of pain medication: separating myth from reality. J Palliat Med 1998;1:315-328 (reprinted by IAHPC)",
+          "url": "https://hospicecare.com/resources/ethical-issues/essays-and-articles-on-ethics-in-palliative-care/the-double-effect-of-pain-medication-separating-myth-from-reality"
+        }
+      ]
+    },
+    {
+      "id": "quality-balancing-measure-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Behavioral Science",
+      "system": "General Principles",
+      "topic": "Quality improvement: types of quality measures",
+      "difficulty": 2,
+      "stem": "A hospital starts a program to send patients home one day earlier after a hip replacement. The quality team tracks three things: the average length of stay, the percentage of patients who receive the new discharge checklist, and the percentage of these patients who are readmitted within 30 days.",
+      "leadIn": "Tracking the 30-day readmission rate is best described as which type of quality measure?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Balancing measure"
+        },
+        {
+          "id": "b",
+          "text": "Outcome measure"
+        },
+        {
+          "id": "c",
+          "text": "Process measure"
+        },
+        {
+          "id": "d",
+          "text": "Structural measure"
+        },
+        {
+          "id": "e",
+          "text": "Never event"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: balancing measure. Why: First Aid (biostats file, p. 273) lists four kinds of quality measures. Structural measures count physical equipment, resources and facilities. Process measures show whether the system is working as planned. Outcome measures show the effect on patients. Balancing measures watch for effects on other parts of the system or other outcomes, such as low blood sugar in a program meant to lower HbA1c. Here the program aims to shorten the stay, and the readmission rate checks whether going home sooner causes a problem somewhere else. The Institute for Healthcare Improvement (Establishing Measures) agrees that balancing measures ask whether a change made to improve one part of the system is causing new problems in other parts, and gives this exact example: when reducing hospital length of stay, make sure readmission rates are not rising.",
+      "whyWrong": {
+        "b": "The outcome this program targets is a shorter stay (First Aid, p. 273). Readmissions are watched to catch an unwanted side effect of that change.",
+        "c": "A process measure checks whether the system works as planned (First Aid, p. 273), like the percentage of patients who receive the checklist.",
+        "d": "A structural measure counts equipment, resources or facilities (First Aid, p. 273), such as the number of physical therapists.",
+        "e": "A never event is a serious, identifiable and usually preventable adverse event, such as a scalpel left in a patient (First Aid, p. 274), not a quality measure."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Quality measurements, p. 273; Types of medical errors, p. 274"
+        },
+        {
+          "title": "Institute for Healthcare Improvement: Model for Improvement, Establishing Measures",
+          "url": "https://www.ihi.org/resources/how-to-improve/model-for-improvement-establishing-measures"
+        }
+      ]
+    },
+    {
+      "id": "safety-latent-error-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Behavioral Science",
+      "system": "General Principles",
+      "topic": "Patient safety: active vs latent errors",
+      "difficulty": 2,
+      "stem": "A hospital stocks two brands of insulin pens on its wards. The pens look almost the same, but one contains a much more concentrated insulin. A nurse who usually works on a ward that stocks only one brand gives a patient a dose from the concentrated pen, and the patient develops severe hypoglycemia. A review finds that staff had raised concerns about the look-alike pens months earlier.",
+      "leadIn": "Stocking the two look-alike pens is best described as which type of error?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Latent error"
+        },
+        {
+          "id": "b",
+          "text": "Active error"
+        },
+        {
+          "id": "c",
+          "text": "Never event"
+        },
+        {
+          "id": "d",
+          "text": "Burnout-related error"
+        },
+        {
+          "id": "e",
+          "text": "Fatigue-related error"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: latent error. Why: First Aid (biostats file, p. 274) explains that a latent error lies in processes away from the person giving care but still affects patients. It is \"an accident waiting to happen,\" such as a hospital using different kinds of IV pumps. An active error happens at the level of the frontline worker and has an immediate effect, such as a wrong dose programmed into a pump. Here the stocking decision is the latent error and the nurse's dose is the active error. The Swiss cheese model (p. 273) explains that harm happens when the gaps in several layers of defense line up, which is why it focuses on systems rather than on one person's mistake. AHRQ PSNet (Systems Approach) agrees that active errors almost always involve frontline staff at the point where a person meets the system, while latent errors are failures of organization or design, \"accidents waiting to happen,\" that let active errors cause harm.",
+      "whyWrong": {
+        "b": "The active error is the nurse's dose, made at the front line with an immediate effect (First Aid, p. 274). The stocking decision sits further back in the system.",
+        "c": "A never event is a serious, usually preventable event that should never happen, such as a scalpel left in a patient (First Aid, p. 274). The question asks about the system flaw behind this error.",
+        "d": "Burnout comes from long-lasting stress and leads to errors from a lack of concern (First Aid, p. 274). Nothing here points to burnout.",
+        "e": "Fatigue comes from lack of sleep and leads to errors from impaired thinking (First Aid, p. 274). Nothing here points to fatigue."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Swiss cheese model, p. 273; Types of medical errors and burnout vs fatigue, p. 274"
+        },
+        {
+          "title": "AHRQ PSNet Primer: Systems Approach",
+          "url": "https://psnet.ahrq.gov/primer/systems-approach"
+        }
+      ]
+    },
+    {
+      "id": "biostats-observer-expectancy-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biostatistics & Epidemiology",
+      "system": "General Principles",
+      "topic": "Study bias: observer-expectancy (Pygmalion) bias",
+      "difficulty": 2,
+      "stem": "In a trial of a new drug for knee osteoarthritis, the physicians who enroll patients also rate each patient's walking ability after 12 weeks. The physicians know which patients received the new drug, and they expect it to work. Their ratings are much better in the drug group, but a step counter worn by every patient shows no difference in daily steps between the groups.",
+      "leadIn": "Which type of bias most likely explains the better ratings in the drug group?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Observer-expectancy bias"
+        },
+        {
+          "id": "b",
+          "text": "Recall bias"
+        },
+        {
+          "id": "c",
+          "text": "Lead-time bias"
+        },
+        {
+          "id": "d",
+          "text": "Attrition (loss to follow-up) bias"
+        },
+        {
+          "id": "e",
+          "text": "Hawthorne effect"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: observer-expectancy bias. Why: First Aid (biostats file, p. 260) explains that observer-expectancy bias, also called the Pygmalion effect, happens when a researcher's belief that a treatment works changes how its results are recorded. An observer who expects the treatment group to improve is more likely to record good outcomes. Blinding and a placebo reduce this bias, because neither the participants nor the researchers know who is in which group. In a double-blind trial, neither the patient nor the doctor knows who gets the treatment (p. 256). The Catalogue of Bias (Observer bias) agrees that observers can record information with systematic errors, that the main way to prevent this is to keep outcome assessors blinded to which group each participant is in, and that objective outcomes are much less prone to this bias than judgments.",
+      "whyWrong": {
+        "b": "Recall bias happens when knowing about a disease changes what subjects remember about past exposures, mostly in studies that look back in time (First Aid, p. 260). Here the raters' expectations are the problem.",
+        "c": "Lead-time bias happens when finding a disease earlier is mistaken for longer survival (First Aid, p. 261). This trial does not measure survival.",
+        "d": "Attrition bias happens when participants who drop out have a different prognosis from those who finish (First Aid, p. 260). Nothing suggests patients dropped out.",
+        "e": "The Hawthorne effect happens when participants change their behavior because they know they are being watched (First Aid, p. 260). Here the step counts did not change; only the physicians' ratings did."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Observational studies and clinical trials, p. 256; Bias and study errors, pp. 260-261"
+        },
+        {
+          "title": "Catalogue of Bias: Observer bias",
+          "url": "https://catalogofbias.org/?p=9038"
+        }
+      ]
+    },
+    {
+      "id": "biostats-twin-concordance-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biostatistics & Epidemiology",
+      "system": "General Principles",
+      "topic": "Study design: twin concordance study",
+      "difficulty": 1,
+      "stem": "Researchers want to learn how much of the risk of type 1 diabetes comes from genes and how much from the environment. They find pairs of twins in which at least one twin has type 1 diabetes. They compare how often both twins have the disease in identical (monozygotic) pairs and in fraternal (dizygotic) pairs.",
+      "leadIn": "Which study design is this?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Twin concordance study"
+        },
+        {
+          "id": "b",
+          "text": "Adoption study"
+        },
+        {
+          "id": "c",
+          "text": "Crossover study"
+        },
+        {
+          "id": "d",
+          "text": "Case-control study"
+        },
+        {
+          "id": "e",
+          "text": "Prospective cohort study"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: twin concordance study. Why: First Aid (biostats file, p. 256) explains that a twin concordance study compares how often both identical twins develop the same disease with how often both fraternal twins do. It measures heritability and the influence of the environment (\"nature vs nurture\"). If identical twins share the disease much more often than fraternal twins, genes play a larger role. Encyclopaedia Britannica (Inferences from twin studies) agrees that concordance means both twins share a trait, and that a much higher concordance in identical twins than in fraternal twins points to a hereditary contribution. It adds a caution: identical twins often share similar environments too, so concordance alone does not fully separate heredity from environment.",
+      "whyWrong": {
+        "b": "An adoption study compares siblings raised by their biological parents with siblings raised by adoptive parents (First Aid, p. 256).",
+        "c": "In a crossover study, each participant receives two or more treatments in random order, with a washout period between them (First Aid, p. 256).",
+        "d": "A case-control study compares people with a disease to people without it and looks for differences in past exposures, using an odds ratio (First Aid, p. 256).",
+        "e": "A cohort study compares people with and without an exposure and follows them to see who develops disease, using relative risk (First Aid, p. 256)."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Observational studies, p. 256"
+        },
+        {
+          "title": "Encyclopaedia Britannica, Human genetics: Inferences from twin studies",
+          "url": "https://www.Britannica.Com/science/human-genetics/Inferences-from-twin-studies"
+        }
+      ]
+    },
+    {
+      "id": "biostats-nnh-calc-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biostatistics & Epidemiology",
+      "system": "General Principles",
+      "topic": "Measures of risk: number needed to harm",
+      "difficulty": 2,
+      "stem": "In a randomized trial, 6% of patients taking a new anticoagulant have a major bleeding event within 1 year, compared with 2% of patients taking placebo.",
+      "leadIn": "What is the number needed to harm for one additional major bleeding event?",
+      "options": [
+        {
+          "id": "a",
+          "text": "25"
+        },
+        {
+          "id": "b",
+          "text": "4"
+        },
+        {
+          "id": "c",
+          "text": "17"
+        },
+        {
+          "id": "d",
+          "text": "50"
+        },
+        {
+          "id": "e",
+          "text": "3"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: 25. Why: First Aid (biostats file, p. 258) defines attributable risk as the difference in risk between the exposed and unexposed groups, and the number needed to harm as 1 divided by the attributable risk. Here the attributable risk is 6% − 2% = 4%, or 0.04, so the number needed to harm is 1 / 0.04 = 25. About 25 patients would need to take the drug for 1 year for one extra major bleed to occur. A higher number needed to harm means a safer exposure. The University of Nottingham (Numbers needed to harm) agrees that you subtract the control group's event rate from the treated group's to get the absolute risk increase, then divide 1 by it.",
+      "whyWrong": {
+        "b": "4 is the attributable risk written as a percentage (6% − 2%), not the number needed to harm (First Aid, p. 258).",
+        "c": "17 comes from 1 / 0.06, which uses the drug group's risk alone instead of the difference between groups (First Aid, p. 258).",
+        "d": "50 comes from 1 / 0.02, which uses the placebo group's risk alone (First Aid, p. 258).",
+        "e": "3 is the relative risk (6% / 2%), not the number needed to harm (First Aid, p. 258)."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Quantifying risk, p. 258"
+        },
+        {
+          "title": "University of Nottingham HELM: Numbers needed to harm",
+          "url": "https://www.nottingham.ac.uk/helmopen/rlos/ebp/designing_research/nnt_nnh/page_six.html"
+        }
+      ]
+    },
+    {
+      "id": "biostats-roc-curve-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biostatistics & Epidemiology",
+      "system": "General Principles",
+      "topic": "Diagnostic tests: ROC curve and area under the curve",
+      "difficulty": 2,
+      "stem": "Two blood tests for sepsis are studied in the same group of patients. A receiver operating characteristic (ROC) curve is drawn for each test. Test X has an area under the curve (AUC) of 0.92, and Test Y has an AUC of 0.55.",
+      "leadIn": "Which of the following is the best conclusion?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Test X separates septic from nonseptic patients better"
+        },
+        {
+          "id": "b",
+          "text": "Test Y is nearly perfect at telling the two groups apart"
+        },
+        {
+          "id": "c",
+          "text": "Test X gives no false-positive results at any cutoff"
+        },
+        {
+          "id": "d",
+          "text": "Both tests work equally well because both AUCs are above 0.5"
+        },
+        {
+          "id": "e",
+          "text": "Test Y is the better choice because its curve is closer to the diagonal"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: Test X separates septic from nonseptic patients better. Why: First Aid (biostats file, p. 260) explains that an ROC curve shows how well a test can tell two groups apart, such as sick and healthy patients. It plots the true-positive rate (sensitivity) against the false-positive rate (1 − specificity). The better test has the larger area under the curve, with its curve closer to the upper left corner. An AUC of 1 is an ideal test, and an AUC of 0.5 (the diagonal line) means the test has no predictive value. Test Y, at 0.55, is barely better than chance. Çorbacıoğlu and Aksel (Turkish Journal of Emergency Medicine, 2023) agree that an AUC of 0.5 means the test is no better than chance and 1.0 means perfect discrimination, and that values above 0.80 are generally considered clinically useful.",
+      "whyWrong": {
+        "b": "An AUC of 0.55 is close to 0.5, which means almost no ability to tell the groups apart (First Aid, p. 260).",
+        "c": "Only an ideal test has an AUC of 1 (First Aid, p. 260). At 0.92, Test X is very good but still gives some false positives.",
+        "d": "An AUC near 0.5 means almost no predictive value, and the test with the larger AUC performs better (First Aid, p. 260).",
+        "e": "The diagonal line (AUC 0.5) shows no predictive value (First Aid, p. 260), so being closer to it is worse, not better."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Receiver operating characteristic curve, p. 260"
+        },
+        {
+          "title": "Çorbacıoğlu ŞK, Aksel G. Receiver operating characteristic curve analysis in diagnostic accuracy studies: a guide to interpreting the area under the curve value. Turk J Emerg Med 2023;23(4):195-198",
+          "url": "https://doaj.org/article/8c4465cd998d41e8a83a656961341dda"
+        }
+      ]
+    },
+    {
+      "id": "biostats-bimodal-distribution-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biostatistics & Epidemiology",
+      "system": "General Principles",
+      "topic": "Distributions: bimodal distribution",
+      "difficulty": 2,
+      "stem": "Researchers measure blood levels of isoniazid 6 hours after giving the same dose to 500 healthy adults. A histogram of the results shows two separate peaks, one at low levels and one at high levels, with few values in between.",
+      "leadIn": "Which explanation is most likely for this pattern?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Two groups that break down the drug at different rates"
+        },
+        {
+          "id": "b",
+          "text": "A positive skew caused by a few very high values"
+        },
+        {
+          "id": "c",
+          "text": "A normal distribution with a large standard deviation"
+        },
+        {
+          "id": "d",
+          "text": "Random measurement error in the laboratory assay"
+        },
+        {
+          "id": "e",
+          "text": "A sample size that is too small to show the true curve"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: two groups that break down the drug at different rates. Why: First Aid (biostats file, p. 262) explains that a bimodal distribution (two peaks) suggests two different populations, for example a genetic difference in drug metabolism such as fast and slow acetylators. Your El-Husseiny microbiology and immunology notes (p. 350) explain that isoniazid is broken down in the liver by acetylation and that the rate of acetylation is genetically determined, so fast and slow acetylators have different isoniazid half-lives. Slow acetylators keep higher levels and form the high peak. GeneCards (NAT2) agrees that variants in the NAT2 gene cause this acetylation difference, so people fall into rapid, intermediate and slow acetylator groups, and it lists isoniazid as a NAT2 substrate.",
+      "whyWrong": {
+        "b": "A positive skew has one peak with a long tail to the right (First Aid, p. 262), not two separate peaks.",
+        "c": "A normal distribution is bell-shaped with one peak, where the mean, median and mode are equal (First Aid, p. 262).",
+        "d": "Random error lowers precision and makes results less consistent (First Aid, p. 259). It spreads values out rather than splitting them into two groups.",
+        "e": "500 people is a large sample, and the standard error gets smaller as the sample grows (First Aid, p. 262). Two clear peaks point to two different populations (p. 262)."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Precision vs accuracy, p. 259; Statistical distribution, p. 262"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Isoniazid, p. 350"
+        },
+        {
+          "title": "GeneCards: NAT2 gene (N-acetyltransferase 2)",
+          "url": "https://www.genecards.org/card/NAT2"
+        }
+      ]
+    },
+    {
+      "id": "biostats-standard-error-calc-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biostatistics & Epidemiology",
+      "system": "General Principles",
+      "topic": "Measures of dispersion: standard error of the mean",
+      "difficulty": 2,
+      "stem": "In a sample of 100 healthy adults, the mean fasting glucose is 95 mg/dL with a standard deviation of 10 mg/dL.",
+      "leadIn": "What is the standard error of the mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "1 mg/dL"
+        },
+        {
+          "id": "b",
+          "text": "0.1 mg/dL"
+        },
+        {
+          "id": "c",
+          "text": "10 mg/dL"
+        },
+        {
+          "id": "d",
+          "text": "100 mg/dL"
+        },
+        {
+          "id": "e",
+          "text": "1.96 mg/dL"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: 1 mg/dL. Why: First Aid (biostats file, p. 262) defines the standard error as an estimate of how much the means of repeated samples would vary around the true population mean. It equals the standard deviation divided by the square root of the sample size. Here that is 10 / √100 = 10 / 10 = 1 mg/dL. The standard error gets smaller as the sample size grows. First Aid (p. 263) adds that the 95% confidence interval for a sample mean is the mean ± 1.96 × the standard error, which here is about 93 to 97 mg/dL. OpenStax Introductory Statistics (Chapter 7 key terms) agrees that the standard error of the mean is the standard deviation of the distribution of sample means, equal to σ / √n.",
+      "whyWrong": {
+        "b": "0.1 comes from dividing the standard deviation by the sample size (10 / 100) instead of by its square root (First Aid, p. 262).",
+        "c": "10 mg/dL is the standard deviation itself, which describes how spread out individual values are, not sample means (First Aid, p. 262).",
+        "d": "100 is the variance (the standard deviation squared), not the standard error (First Aid, p. 262).",
+        "e": "1.96 is the standard error multiplied by the Z value for a 95% confidence interval (First Aid, p. 263), which gives the margin of the interval, not the standard error."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Statistical distribution, p. 262; Confidence interval, p. 263"
+        },
+        {
+          "title": "OpenStax Introductory Statistics, Chapter 7 Key Terms",
+          "url": "https://openstax.org/books/introductory-statistics/pages/7-key-terms"
+        }
+      ]
+    },
+    {
+      "id": "biostats-normal-distribution-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biostatistics & Epidemiology",
+      "system": "General Principles",
+      "topic": "Distributions: normal distribution and standard deviation",
+      "difficulty": 2,
+      "stem": "In healthy adults, the blood level of a certain hormone follows a normal distribution with a mean of 50 ng/mL and a standard deviation of 5 ng/mL.",
+      "leadIn": "About what percentage of healthy adults have a level above 60 ng/mL?",
+      "options": [
+        {
+          "id": "a",
+          "text": "2.5%"
+        },
+        {
+          "id": "b",
+          "text": "5%"
+        },
+        {
+          "id": "c",
+          "text": "16%"
+        },
+        {
+          "id": "d",
+          "text": "0.15%"
+        },
+        {
+          "id": "e",
+          "text": "32%"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: 2.5%. Why: First Aid (biostats file, p. 262) explains that in a normal (bell-shaped) distribution, about 68% of values fall within 1 standard deviation of the mean, 95% within 2, and 99.7% within 3. A level of 60 ng/mL is 2 standard deviations above the mean (50 + 2 × 5). About 5% of people fall outside 2 standard deviations, split evenly between the two tails, so about 2.5% are above 60 ng/mL. Watts (Introduction to Statistics, adapted from OpenStax) agrees with the 68%, 95% and 99.7% rule and adds that the normal curve is symmetric about the mean, which is why the outside share splits evenly between the two tails.",
+      "whyWrong": {
+        "b": "5% is the total outside 2 standard deviations on both sides. Only half of that is above the mean (First Aid, p. 262).",
+        "c": "16% is the share above 1 standard deviation (55 ng/mL): half of the 32% outside ±1 SD (First Aid, p. 262).",
+        "d": "0.15% is the share above 3 standard deviations (65 ng/mL): half of the 0.3% outside ±3 SD (First Aid, p. 262).",
+        "e": "32% is the total outside 1 standard deviation on both sides (First Aid, p. 262), not the share above 60 ng/mL."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Statistical distribution, p. 262"
+        },
+        {
+          "title": "Watts V. Introduction to Statistics, 5.3: The Normal Distribution (adapted from OpenStax)",
+          "url": "https://ecampusontario.pressbooks.pub/introstats/chapter/5-3-the-normal-distribution/"
+        }
+      ]
+    },
+    {
+      "id": "biostats-fisher-exact-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biostatistics & Epidemiology",
+      "system": "General Principles",
+      "topic": "Statistical tests: Fisher exact test",
+      "difficulty": 2,
+      "stem": "A study compares two skin cleansers used before surgery. The outcome is whether each patient develops a wound infection (yes or no). There are 12 patients in each group; 1 patient in group A and 4 patients in group B develop an infection.",
+      "leadIn": "Which statistical test is most appropriate to compare the two groups?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Fisher exact test"
+        },
+        {
+          "id": "b",
+          "text": "Chi-square test"
+        },
+        {
+          "id": "c",
+          "text": "t-test"
+        },
+        {
+          "id": "d",
+          "text": "ANOVA"
+        },
+        {
+          "id": "e",
+          "text": "Pearson correlation"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: Fisher exact test. Why: First Aid (biostats file, p. 264) explains that the Fisher exact test compares two percentages or proportions of a categorical outcome and is used instead of the chi-square test when the groups are small. Here the outcome is categorical (infection or no infection), there are two groups, and each group has only 12 patients. Penn State STAT 504 (Fisher's Exact Test) agrees that an exact test is used instead of the chi-square approximation when the sample is small and many cells have expected counts below 5, and it ties the Fisher test to 2 × 2 tables like this one.",
+      "whyWrong": {
+        "b": "The chi-square test also compares proportions of a categorical outcome, but it is used for larger samples. Fisher exact is preferred when groups are small (First Aid, p. 264).",
+        "c": "A t-test compares the means of two groups (First Aid, p. 264). Infection is a yes-or-no outcome, not a measured number with a mean.",
+        "d": "ANOVA compares the means of three or more groups (First Aid, p. 264).",
+        "e": "Pearson correlation measures how strongly two numeric variables are linearly related (First Aid, p. 264), not whether two groups differ in a proportion."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Common statistical tests, p. 264"
+        },
+        {
+          "title": "Penn State STAT 504, 4.5: Fisher's Exact Test",
+          "url": "https://online.stat.psu.edu/stat504/book/export/html/708"
+        }
+      ]
+    },
+    {
+      "id": "biostats-coefficient-determination-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biostatistics & Epidemiology",
+      "system": "General Principles",
+      "topic": "Correlation: Pearson r and coefficient of determination",
+      "difficulty": 2,
+      "stem": "A study of 200 adults finds a Pearson correlation coefficient of r = −0.6 between the number of minutes of exercise per day and resting heart rate.",
+      "leadIn": "Which of the following is the best interpretation?",
+      "options": [
+        {
+          "id": "a",
+          "text": "36% of the variance in heart rate is explained by exercise time"
+        },
+        {
+          "id": "b",
+          "text": "60% of the variance in heart rate is explained by exercise time"
+        },
+        {
+          "id": "c",
+          "text": "There is a weak positive correlation between the two variables"
+        },
+        {
+          "id": "d",
+          "text": "People who exercise more tend to have a higher resting heart rate"
+        },
+        {
+          "id": "e",
+          "text": "Each extra minute of exercise lowers heart rate by 0.6 beats per minute"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: 36% of the variance in heart rate is explained by exercise time. Why: First Aid (biostats file, p. 264) explains that the Pearson correlation coefficient (r) ranges from −1 to +1. A negative r means that as one variable rises, the other falls, and the closer r is to −1 or +1, the stronger the linear relationship. The coefficient of determination, r², shows how much of the variance in one variable can be explained by the variance in the other. Here r² = (−0.6)² = 0.36, or 36%. A correlation shows that two things are linked, not that one causes the other; First Aid notes that observational designs such as cross-sectional studies can show an association but do not establish cause (p. 256). LibreTexts (Shafer and Zhang, The Coefficient of Determination) agrees that the coefficient of determination is the square of the correlation coefficient and gives the share of the variability in one variable that is accounted for by its linear relationship with the other.",
+      "whyWrong": {
+        "b": "60% uses r instead of r². The share of variance explained is r², which is 0.36 (First Aid, p. 264).",
+        "c": "The sign of r is negative, so the correlation is negative, not positive (First Aid, p. 264).",
+        "d": "A negative r means that as exercise goes up, heart rate goes down (First Aid, p. 264).",
+        "e": "r measures the strength and direction of a linear relationship (First Aid, p. 264). It is not the change in heart rate per minute of exercise."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Observational studies, p. 256; Pearson correlation coefficient, p. 264"
+        },
+        {
+          "title": "LibreTexts, Introductory Statistics (Shafer and Zhang), 10.6: The Coefficient of Determination",
+          "url": "https://stats.libretexts.org/Bookshelves/Introductory_Statistics/Introductory_Statistics_(Shafer_and_Zhang)/10%3A_Correlation_and_Regression/10.06%3A_The_Coefficient_of_Determination"
+        }
+      ]
+    },
+    {
+      "id": "biostats-statistical-vs-clinical-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biostatistics & Epidemiology",
+      "system": "General Principles",
+      "topic": "Hypothesis testing: p-values and clinical significance",
+      "difficulty": 2,
+      "stem": "A trial of 20,000 adults with hypertension finds that a new drug lowers systolic blood pressure by 1 mm Hg more than the standard drug (p = 0.01). The new drug costs much more than the standard drug.",
+      "leadIn": "Which of the following is the best interpretation?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Statistically significant, but possibly too small to matter clinically"
+        },
+        {
+          "id": "b",
+          "text": "The new drug is clearly better and should replace the standard drug now"
+        },
+        {
+          "id": "c",
+          "text": "There is a 1% chance that the new drug truly works better than the old one"
+        },
+        {
+          "id": "d",
+          "text": "The study is underpowered, so a type II error is likely in this result"
+        },
+        {
+          "id": "e",
+          "text": "The alternative hypothesis is now proven, so the new drug works better"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: statistically significant, but possibly too small to matter clinically. Why: First Aid (biostats file, p. 263) explains that the p-value is compared with a preset significance level, usually 0.05. If p < 0.05, there is less than a 5% probability that a result this large would arise by chance alone. First Aid also stresses that statistical significance is not the same as clinical significance. Power rises with sample size (p. 263), so a very large trial can detect a very small difference, like 1 mm Hg, that may not be worth the extra cost to patients. The MedCalc manual (Clinical vs statistical significance) agrees that with a large enough sample any nonzero effect becomes statistically significant, that this does not make it clinically important, and that a p-value says nothing about whether an effect is big enough to matter to patients.",
+      "whyWrong": {
+        "b": "A statistically significant result is not automatically clinically important (First Aid, p. 263). A 1 mm Hg difference may not justify a much more expensive drug.",
+        "c": "The p-value is the chance of getting a result this large by chance alone if there were no real difference. It is not the chance that the drug truly works (First Aid, p. 263).",
+        "d": "A type II error means missing a real difference (First Aid, p. 263). Here the null hypothesis was rejected, and 20,000 patients gives high power.",
+        "e": "You can never prove the alternative hypothesis. You can only reject the null hypothesis as very unlikely (First Aid, p. 263)."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Outcomes of statistical hypothesis testing, p. 263"
+        },
+        {
+          "title": "MedCalc Statistical Software Manual: Clinical vs statistical significance",
+          "url": "https://www.medcalc.org/en/book/clinical-statistical-significance.php"
+        }
+      ]
     }
   ]
 }
