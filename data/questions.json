@@ -44296,6 +44296,1114 @@
           "url": "https://www.ahajournals.org/doi/10.1161/STR.0000000000000407"
         }
       ]
+    },
+    {
+      "id": "genetics-jervell-lange-nielsen-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Genetics",
+      "system": "Cardiovascular",
+      "topic": "Long QT syndrome: Jervell and Lange-Nielsen syndrome",
+      "difficulty": 2,
+      "stem": "A 6-year-old child is brought to the physician after fainting twice in the past month, once while swimming and once after being startled by a loud alarm. The child has had profound hearing loss in both ears since birth and uses a cochlear implant. The parents are first cousins and are both healthy, with normal hearing. An ECG shows sinus rhythm with a corrected QT interval of 560 msec (normal is under about 440 msec).",
+      "leadIn": "Which of the following best describes the underlying defect?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Loss of an outward potassium current during repolarization"
+        },
+        {
+          "id": "b",
+          "text": "Gain of function in a cardiac sodium channel that stays open"
+        },
+        {
+          "id": "c",
+          "text": "An extra conduction pathway between the atria and ventricles"
+        },
+        {
+          "id": "d",
+          "text": "Mutation in a sarcomere protein that thickens the septum"
+        },
+        {
+          "id": "e",
+          "text": "Failure of the cochlear hair cells to release glutamate"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: loss of an outward potassium current during repolarization. Why: Deafness from birth plus fainting with exercise or a sudden fright and a long QT interval is Jervell and Lange-Nielsen syndrome. Your El-Husseiny cardiovascular notes (p. 100) explain congenital long QT syndrome: mutations in a K+ channel protein that carries the delayed rectifier current lower the outward K+ current during repolarization, which lengthens the QT and raises the risk of torsades de pointes and sudden death. The same page separates the two classic forms: Romano-Ward is autosomal dominant with a heart-only picture, while Jervell and Lange-Nielsen is autosomal recessive with sensorineural deafness. Your Osmosis cardiovascular notes (p. 187) list it the same way. MedlinePlus Genetics says the syndrome \"is caused by mutations in the KCNE1 and KCNQ1 genes,\" whose proteins form a channel that moves potassium out of cells in both the inner ear and heart muscle, and that it \"is inherited in an autosomal recessive pattern.\" Healthy first-cousin parents fit two carriers of the same recessive variant.",
+      "whyWrong": {
+        "b": "A sodium channel that fails to close (gain of function) is a different, rarer cause of long QT. It does not cause deafness, because the inner-ear defect comes from the shared KCNQ1/KCNE1 potassium channel (MedlinePlus Genetics).",
+        "c": "An accessory pathway (bundle of Kent) is Wolff-Parkinson-White syndrome. It gives a short PR interval and a delta wave, not a long QT (your El-Husseiny cardiovascular notes, p. 103).",
+        "d": "Sarcomere protein mutations cause hypertrophic cardiomyopathy. Fainting is possible, but it does not explain deafness from birth or a long QT interval.",
+        "e": "Hair cell transmitter release is not the problem here. The hearing loss comes from the same potassium channel defect that affects the heart, since the channel is needed for normal inner ear function (MedlinePlus Genetics)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Cardiovascular System (Emily's file), Congenital long QT syndrome, p. 100; Wolff-Parkinson-White syndrome, p. 103"
+        },
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Cardiovascular (Emily's file), Long QT syndrome, p. 187"
+        },
+        {
+          "title": "MedlinePlus Genetics: Jervell and Lange-Nielsen syndrome",
+          "url": "https://medlineplus.gov/genetics/condition/jervell-and-lange-nielsen-syndrome/"
+        }
+      ]
+    },
+    {
+      "id": "path-aortic-regurgitation-pulse-pressure-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Cardiovascular",
+      "topic": "Aortic regurgitation: wide pulse pressure",
+      "difficulty": 2,
+      "stem": "A 55-year-old man comes to the physician because of shortness of breath when climbing stairs for 6 months. He says he can feel his heartbeat pounding when he lies on his left side. Blood pressure is 172/48 mm Hg. His head bobs slightly with each heartbeat, and the carotid pulses rise sharply and then collapse quickly. A high-pitched, blowing murmur starts right after the second heart sound and fades through diastole; it is loudest at the left sternal border when he sits up and leans forward.",
+      "leadIn": "Which of the following best explains his very low diastolic blood pressure?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Blood flowing back into the left ventricle during diastole"
+        },
+        {
+          "id": "b",
+          "text": "Fixed narrowing of the left ventricular outflow tract"
+        },
+        {
+          "id": "c",
+          "text": "Rapid runoff of aortic blood through a patent ductus arteriosus"
+        },
+        {
+          "id": "d",
+          "text": "Reduced stroke volume from a stiff, thickened left ventricle"
+        },
+        {
+          "id": "e",
+          "text": "Backflow of blood from the left ventricle into the left atrium"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: blood flowing back into the left ventricle during diastole. Why: An early diastolic, decrescendo, blowing murmur heard best leaning forward, with a wide pulse pressure, water-hammer pulses and head bobbing, is chronic aortic regurgitation. Your El-Husseiny cardiovascular notes (p. 67) explain it: the leaky valve lets blood flow back from the aorta into the left ventricle, the larger end-diastolic volume raises stroke volume and systolic pressure, and the backflow drops diastolic pressure, giving a wide pulse pressure; the same page links the water-hammer pulses and de Musset sign (head bobbing) to this large stroke volume. Page 68 adds the rapid fall in aortic pressure during diastole. Your Osmosis cardiovascular notes (p. 65) list the wide pulse pressure and Corrigan (water-hammer) pulse. MSD says \"systolic blood pressure increases while diastolic blood pressure decreases, creating a widened pulse pressure\"; the murmur is \"heard best with the diaphragm of the stethoscope when the patient is leaning forward.\"",
+      "whyWrong": {
+        "b": "A fixed outflow narrowing is aortic stenosis. It gives a systolic crescendo-decrescendo murmur and a slow-rising, weak pulse with a narrow pulse pressure.",
+        "c": "A patent ductus arteriosus can also widen the pulse pressure, but it gives a continuous machine-like murmur, not an isolated early diastolic murmur at the left sternal border.",
+        "d": "A stiff, thick ventricle (diastolic dysfunction) gives a small stroke volume and an S4, not bounding pulses and a huge stroke volume.",
+        "e": "Backflow into the left atrium during systole is mitral regurgitation, which gives a holosystolic murmur loudest at the apex (your El-Husseiny cardiovascular notes, p. 59)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Cardiovascular System (Emily's file), Aortic regurgitation, pp. 67-68; mitral regurgitation, p. 59"
+        },
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Cardiovascular (Emily's file), Aortic regurgitation, p. 65"
+        },
+        {
+          "title": "MSD Manual Professional: Aortic Regurgitation",
+          "url": "https://www.msdmanuals.com/professional/cardiovascular-disorders/valvular-disorders/aortic-regurgitation"
+        }
+      ]
+    },
+    {
+      "id": "micro-strep-gallolyticus-colon-cancer-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Cardiovascular",
+      "topic": "Infective endocarditis: Streptococcus gallolyticus and colon cancer",
+      "difficulty": 2,
+      "stem": "A 71-year-old woman comes to the physician because of fatigue, night sweats and a low-grade fever for 5 weeks. She has lost 4 kg (9 lb). Temperature is 38.1°C (100.6°F). A new soft holosystolic murmur is heard at the apex. Hemoglobin is 9.6 g/dL with small, pale red blood cells, and a fecal immunochemical test is positive. Echocardiography shows a small vegetation on the mitral valve. Colonoscopy shows an ulcerated mass in the sigmoid colon, and biopsy shows adenocarcinoma. Three sets of blood cultures grow gram-positive cocci in chains.",
+      "leadIn": "Which of the following organisms is most likely growing in her blood cultures?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Streptococcus gallolyticus"
+        },
+        {
+          "id": "b",
+          "text": "Enterococcus faecalis"
+        },
+        {
+          "id": "c",
+          "text": "Streptococcus sanguinis"
+        },
+        {
+          "id": "d",
+          "text": "Streptococcus pyogenes"
+        },
+        {
+          "id": "e",
+          "text": "Streptococcus agalactiae (group B)"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: Streptococcus gallolyticus (formerly S. bovis). Why: Subacute endocarditis with gram-positive cocci in chains in a patient with colon cancer points to S. gallolyticus. Your El-Husseiny cardiovascular notes (p. 170) tie S. bovis (gallolyticus) endocarditis to an underlying colorectal cancer. Your El-Husseiny microbiology and immunology notes (pp. 61-62) say it is a non-enterococcal group D streptococcus that is part of normal colon flora, grows in bile but not in 6.5% salt, and that bacteremia or endocarditis with it is linked to colon cancer in about 25% of cases; every such patient needs a search for a GI cancer. Your NBME Top Concepts (p. 425) teaches the same link from the other direction: S. bovis in the blood means colonoscopy next. MSD lists S. gallolyticus with \"Colonic adenomas or carcinomas, endocarditis\" and notes the organism \"remains susceptible to penicillin and aminoglycosides.\"",
+      "whyWrong": {
+        "b": "Enterococcus faecalis is also group D colon flora and causes subacute endocarditis, usually in older men after GI or GU procedures such as cystoscopy. Unlike S. gallolyticus, it grows in 6.5% salt and it is not the organism tied to colon cancer (your El-Husseiny microbiology notes, p. 61).",
+        "c": "Streptococcus sanguinis is a viridans streptococcus from the mouth. It causes subacute endocarditis after dental work on damaged valves, not in association with colon cancer (your El-Husseiny cardiovascular notes, pp. 169-170).",
+        "d": "Streptococcus pyogenes (group A) causes pharyngitis, skin infections and rheumatic fever. It is not a classic cause of subacute endocarditis linked to a colon tumor.",
+        "e": "Streptococcus agalactiae (group B) is a cause of neonatal sepsis and meningitis. It is not the organism linked to colon cancer."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Cardiovascular System (Emily's file), Infective endocarditis organisms, pp. 169-170"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Group D streptococci and S. bovis, pp. 61-62"
+        },
+        {
+          "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Colonic carcinoma, p. 425"
+        },
+        {
+          "title": "MSD Manual Professional: Streptococcal Infections",
+          "url": "https://www.msdmanuals.com/professional/infectious-diseases/gram-positive-cocci/streptococcal-infections"
+        }
+      ]
+    },
+    {
+      "id": "path-syphilitic-aortitis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Cardiovascular",
+      "topic": "Tertiary syphilis: aortitis and ascending aortic aneurysm",
+      "difficulty": 3,
+      "stem": "A 67-year-old man comes to the physician because of a dull, constant ache in the upper chest for 3 months. Forty years ago, he had a painless genital sore that healed without treatment. A blowing early diastolic murmur is heard along the right sternal border. Chest x-ray shows a widened mediastinum with thin, linear calcification in the wall of the ascending aorta. CT shows a 6-cm aneurysm of the ascending aorta and arch, with a normal abdominal aorta. A treponemal antibody test is positive.",
+      "leadIn": "Which of the following is the main mechanism that weakened this patient's aortic wall?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Endarteritis that narrows the vasa vasorum"
+        },
+        {
+          "id": "b",
+          "text": "Cystic medial degeneration from a fibrillin-1 defect"
+        },
+        {
+          "id": "c",
+          "text": "Atherosclerotic plaque that thins the aortic media"
+        },
+        {
+          "id": "d",
+          "text": "Granulomatous inflammation with giant cells in the media"
+        },
+        {
+          "id": "e",
+          "text": "Immune complex necrosis of medium-sized artery walls"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: endarteritis that narrows the vasa vasorum. Why: An ascending aortic aneurysm with linear calcification, aortic regurgitation and a positive treponemal test decades after an untreated chancre is tertiary (cardiovascular) syphilis. Your El-Husseiny cardiovascular notes (p. 133) explain that a syphilitic thoracic aneurysm begins with endarteritis and obliteration of the vasa vasorum, which leads to inflammation, ischemia and weakening of the aortic wall; its major complication is dilation of the aortic root with aortic regurgitation, and FTA-ABS is the specific test. Your El-Husseiny microbiology notes (p. 155) list aortitis from vasa vasorum destruction under tertiary syphilis. A case report in the European Heart Journal describes \"an endarteritis of the vasa vasorum associated with a mesoaortitis\" with \"patchy necrosis of the media with the destruction of the elastic fibres,\" most often at the ascending aorta and arch, appearing \"between 10 and 30 years after the primary infection.\" MSD says cardiovascular syphilis appears \"10 to 25 years after the initial infection\" as \"Aneurysmal dilation of the ascending aorta,\" \"Insufficiency of the aortic valve,\" or \"Narrowing of the coronary arteries,\" with \"linear calcification on the walls of the ascending aorta.\"",
+      "whyWrong": {
+        "b": "Cystic medial degeneration from a fibrillin-1 defect is Marfan syndrome, which also dilates the aortic root, but in young, tall patients without a positive treponemal test (your El-Husseiny cardiovascular notes, p. 133).",
+        "c": "Atherosclerosis mainly causes aneurysms of the abdominal aorta below the renal arteries, and his abdominal aorta is normal.",
+        "d": "Giant cell (granulomatous) inflammation of the aorta is seen in giant cell arteritis and Takayasu arteritis, not in tertiary syphilis (your El-Husseiny cardiovascular notes, p. 181).",
+        "e": "Immune complex necrosis of medium-sized arteries is polyarteritis nodosa, which spares the aorta and causes kidney, gut and nerve infarcts (your El-Husseiny cardiovascular notes, p. 182)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Cardiovascular System (Emily's file), Thoracic aortic aneurysm, p. 133; vasculitis, pp. 181-182"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Tertiary syphilis, p. 155"
+        },
+        {
+          "title": "Berhil T, Radi FZ, El Boussaadani B, Raissouni Z. Tertiary syphilis and cardiovascular disease: the united triad: case report. Eur Heart J Case Rep 2024;8(3):ytae013",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10928481/"
+        },
+        {
+          "title": "MSD Manual Professional: Syphilis",
+          "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/syphilis"
+        }
+      ]
+    },
+    {
+      "id": "genetics-hht-osler-weber-rendu-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Genetics",
+      "system": "Cardiovascular",
+      "topic": "Hereditary hemorrhagic telangiectasia: inheritance",
+      "difficulty": 1,
+      "stem": "A 34-year-old woman comes to the physician because of nosebleeds several times a week since childhood and tiredness for 1 year. She has many small red spots on her lips, tongue and fingertips that blanch with pressure. Hemoglobin is 8.9 g/dL with small, pale red blood cells. Chest CT shows an abnormal direct connection between a pulmonary artery and vein in the left lower lobe. Her father has the same red spots and frequent nosebleeds and had a brain hemorrhage at age 50. Her mother and her older brother are unaffected.",
+      "leadIn": "Which of the following is the most likely mode of inheritance of this condition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Autosomal dominant"
+        },
+        {
+          "id": "b",
+          "text": "Autosomal recessive"
+        },
+        {
+          "id": "c",
+          "text": "X-linked recessive"
+        },
+        {
+          "id": "d",
+          "text": "Mitochondrial"
+        },
+        {
+          "id": "e",
+          "text": "Multifactorial"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: autosomal dominant. Why: Recurrent nosebleeds, skin and mucosal telangiectasias, iron deficiency from chronic blood loss and a lung arteriovenous malformation (AVM) in a parent and child is hereditary hemorrhagic telangiectasia (HHT, Osler-Weber-Rendu disease). Your Osmosis cardiovascular notes (p. 146) list Osler-Weber-Rendu disease (HHT) as a genetic cause of AVMs in the brain and lungs, where arteries connect straight to veins with no capillary bed between them. MedlinePlus Genetics says nosebleeds \"are very common,\" that the abnormal vessels are \"called arteriovenous malformations,\" that mutations in \"the ACVRL1, ENG, and SMAD4 genes\" cause it, and that \"one copy of the altered gene in each cell is sufficient to cause the disorder\": autosomal dominant inheritance. An affected parent and child in back-to-back generations, with a 50% risk for each child, fits that pattern.",
+      "whyWrong": {
+        "b": "Autosomal recessive disease usually skips generations and appears in siblings of unaffected carrier parents. Here an affected father has an affected child.",
+        "c": "An X-linked recessive disease is not passed from father to daughter as a full disease; a father passes his X to every daughter, who would usually be a carrier only.",
+        "d": "Mitochondrial disease passes only through the mother. Her father, not her mother, is affected.",
+        "e": "Multifactorial traits cluster in families without a clear single-gene pattern. HHT is a single-gene disease with a clear dominant pattern (MedlinePlus Genetics)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Cardiovascular (Emily's file), Arteriovenous malformation, p. 146"
+        },
+        {
+          "title": "MedlinePlus Genetics: Hereditary hemorrhagic telangiectasia",
+          "url": "https://medlineplus.gov/genetics/condition/hereditary-hemorrhagic-telangiectasia/"
+        }
+      ]
+    },
+    {
+      "id": "anat-patent-foramen-ovale-paradoxical-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Cardiovascular",
+      "topic": "Patent foramen ovale: paradoxical embolism",
+      "difficulty": 2,
+      "stem": "A 32-year-old man is brought to the emergency department 1 hour after he suddenly could not speak properly and his right hand became weak during a coughing fit. Two days ago, he returned from a 14-hour flight, and his left calf has been swollen and sore since then. He has no history of heart disease, high blood pressure or diabetes. MRI shows an acute infarct in the left middle cerebral artery territory. Ultrasound shows a clot in the left popliteal vein. On echocardiography, injected agitated saline bubbles cross from the right atrium into the left atrium when he strains, with no defect seen at rest.",
+      "leadIn": "Which of the following processes most likely failed in this patient?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Fusion of the septum primum with the septum secundum"
+        },
+        {
+          "id": "b",
+          "text": "Growth of the endocardial cushions toward each other"
+        },
+        {
+          "id": "c",
+          "text": "Fusion of the muscular and membranous ventricular septum"
+        },
+        {
+          "id": "d",
+          "text": "Spiral growth of the aorticopulmonary septum"
+        },
+        {
+          "id": "e",
+          "text": "Closure of the ductus arteriosus after birth"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: fusion of the septum primum with the septum secundum. Why: A clot from a leg vein that causes a stroke after straining or coughing, with bubbles crossing between the atria, is a paradoxical embolism through a patent foramen ovale (PFO). Your El-Husseiny cardiovascular notes (pp. 4-5) explain that at birth left atrial pressure rises above right atrial pressure and pushes the septum primum against the septum secundum, closing the foramen ovale; a PFO is caused by failure of these two septa to fuse after birth and can lead to paradoxical emboli. Page 52 adds that atrial shunts allow paradoxical embolism during brief shunt reversal with straining or coughing. StatPearls says \"A PFO may be found in up to 30% of the population,\" that paradoxical embolism \"occurs when a thrombus crosses an intracardiac defect into the systemic circulation,\" and that \"Valsalva maneuvers such as coughing, squatting, or defecating can transiently increase right atrial pressure leading to a transient shunt reversal.\"",
+      "whyWrong": {
+        "b": "Failed endocardial cushion growth causes atrioventricular septal (canal) defects, a large defect in the center of the heart rather than a flap between the atria that opens only with straining. The endocardial cushions also help form the membranous ventricular septum (your El-Husseiny cardiovascular notes, p. 5).",
+        "c": "Failure of the membranous ventricular septum causes a ventricular septal defect, so bubbles would cross between the ventricles, not the atria.",
+        "d": "Failure of spiral growth of the aorticopulmonary septum causes transposition of the great arteries, which presents with cyanosis at birth.",
+        "e": "A patent ductus arteriosus connects the aorta and pulmonary artery. It does not let venous bubbles pass from the right atrium to the left atrium."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Cardiovascular System (Emily's file), Foramen ovale and patent foramen ovale, pp. 4-5; paradoxical embolism, p. 52"
+        },
+        {
+          "title": "StatPearls: Paradoxical Embolism",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK470196/"
+        }
+      ]
+    },
+    {
+      "id": "neuro-angina-referred-pain-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Cardiovascular",
+      "topic": "Angina pectoris: referred pain to the arm",
+      "difficulty": 2,
+      "stem": "A 61-year-old woman comes to the physician because of pressure in the center of her chest when she walks uphill for 2 months. The pressure spreads to the inner side of her left arm and goes away within 5 minutes of rest. She has type 2 diabetes and smokes. Examination of the arm and neck is normal, with full strength, normal reflexes and normal pulses. An exercise stress test brings on her symptoms along with ST-segment depression.",
+      "leadIn": "Which of the following best explains why she feels this pain in her arm?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Heart and arm pain fibers share the same spinal neurons"
+        },
+        {
+          "id": "b",
+          "text": "Ischemia of the arm muscles from the same narrowed artery"
+        },
+        {
+          "id": "c",
+          "text": "Compression of the brachial plexus by an enlarged heart"
+        },
+        {
+          "id": "d",
+          "text": "Irritation of the phrenic nerve by an inflamed pericardium"
+        },
+        {
+          "id": "e",
+          "text": "Vagus nerve fibers from the heart that also supply the arm"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: heart and arm pain fibers share the same spinal neurons. Why: Exertional chest pressure that goes away with rest and spreads to the left arm or jaw is stable angina (your El-Husseiny cardiovascular notes, p. 137). The heart has no map of its own in the sensory cortex. Pain fibers from the heart travel with sympathetic nerves into the upper thoracic spinal cord, where they end on the same dorsal horn neurons that receive pain from the skin of the chest wall and inner arm. The brain reads the signal as coming from those body areas. Foreman (Cleveland Clinic Journal of Medicine, 2007) explains that \"Pain of visceral origin is referred to somatic regions that are innervated from the same spinal segments as the heart,\" that cells with \"convergence of somatic and cardiac input\" were found \"at the T1-T5 segments,\" and that \"Neuronal convergence onto STT cells underlies the referred pain associated with angina pectoris.\"",
+      "whyWrong": {
+        "b": "The coronary arteries do not supply the arm, and her arm pulses and strength are normal. The pain is referred, not caused by arm ischemia.",
+        "c": "The heart does not compress the brachial plexus, and her arm exam is normal.",
+        "d": "Phrenic nerve (C3-C5) irritation from pericarditis or the diaphragm refers pain to the shoulder, not the inner arm, and her pain is exertional and relieved by rest (your El-Husseiny cardiovascular notes, p. 23).",
+        "e": "Vagal fibers carry cardiac reflex signals to the brainstem and do not supply the skin of the arm. Cardiac pain travels with sympathetic afferents to the T1-T5 cord (Foreman 2007)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Cardiovascular System (Emily's file), Angina, p. 137; referred diaphragm pain, p. 23"
+        },
+        {
+          "title": "Foreman RD. Neurological mechanisms of chest pain and cardiac disease. Cleve Clin J Med 2007;74(Suppl 1):S30-S33",
+          "url": "https://www.ccjm.org/content/74/2_suppl_1/S30.full.pdf"
+        }
+      ]
+    },
+    {
+      "id": "path-wpw-preexcitation-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Cardiovascular",
+      "topic": "Wolff-Parkinson-White syndrome: pre-excitation",
+      "difficulty": 2,
+      "stem": "A 22-year-old college student comes to the physician because of sudden episodes of a racing heartbeat that start and stop abruptly, two or three times a month. Each episode lasts about 20 minutes. Between episodes, the student feels well. Examination is normal. A resting ECG shows sinus rhythm at 72/min with a PR interval of 0.09 sec, a slurred upstroke at the start of each QRS complex, and a QRS duration of 0.12 sec.",
+      "leadIn": "Which of the following best explains the resting ECG findings?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Early activation of the ventricles by an extra pathway"
+        },
+        {
+          "id": "b",
+          "text": "Delayed conduction of every impulse through the AV node"
+        },
+        {
+          "id": "c",
+          "text": "Complete block of the right bundle branch"
+        },
+        {
+          "id": "d",
+          "text": "Prolonged repolarization from a potassium channel defect"
+        },
+        {
+          "id": "e",
+          "text": "A reentry circuit confined to the AV node itself"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: early activation of the ventricles by an extra (accessory) pathway. Why: A short PR interval, a delta wave (slurred QRS upstroke) and a wide QRS in a young person with episodes of supraventricular tachycardia is Wolff-Parkinson-White (WPW) syndrome. Your El-Husseiny cardiovascular notes (p. 103) explain that an abnormal fast pathway (the bundle of Kent) carries the impulse from atrium to ventricle around the AV node, which normally slows it, so part of the ventricle depolarizes early: a delta wave, a widened QRS and a shortened PR interval. The same page warns not to slow AV node conduction (digoxin, beta blockers, calcium channel blockers, adenosine) in WPW. Your Osmosis cardiovascular notes (p. 115) list the delta wave. A 2025 review in the Cleveland Clinic Journal of Medicine describes \"an alternate atrioventricular conduction route that bypasses both the atrioventricular node and the His system,\" which \"results in preexcitation,\" with \"a short PR interval (< 120 ms) and the pathognomonic finding of a delta wave,\" and says \"a diagnosis of WPW syndrome means the patient has a WPW pattern and symptoms.\"",
+      "whyWrong": {
+        "b": "Slowed AV node conduction is first-degree AV block, which gives a long PR interval, not a short one.",
+        "c": "Right bundle branch block widens the QRS, but the PR interval is normal and there is no delta wave.",
+        "d": "A potassium channel defect prolongs the QT interval (long QT syndrome), not the start of the QRS (your El-Husseiny cardiovascular notes, p. 100).",
+        "e": "AV nodal reentrant tachycardia causes the same kind of sudden racing episodes, but the resting ECG between episodes is normal, with no short PR or delta wave."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Cardiovascular System (Emily's file), Wolff-Parkinson-White syndrome, p. 103; congenital long QT syndrome, p. 100"
+        },
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Cardiovascular (Emily's file), Wolff-Parkinson-White syndrome, p. 115"
+        },
+        {
+          "title": "Barat M, Torres Barba D, Ho G. Wolff-Parkinson-White syndrome: diagnostic and management strategies. Cleve Clin J Med 2025;92(2):119-127",
+          "url": "https://www.ccjm.org/content/92/2/119"
+        }
+      ]
+    },
+    {
+      "id": "biostats-ecological-study-smoking-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biostatistics & Epidemiology",
+      "system": "Cardiovascular",
+      "topic": "Study design: ecological study",
+      "difficulty": 2,
+      "stem": "Researchers collect national data from 30 countries. For each country, they record the number of cigarettes sold per adult per year and the death rate from coronary heart disease. Countries with higher cigarette sales per adult have higher coronary death rates (correlation coefficient r = 0.71). No information is gathered on whether the individual people who died had ever smoked.",
+      "leadIn": "Which of the following best describes the design of this study?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ecological study"
+        },
+        {
+          "id": "b",
+          "text": "Cross-sectional study"
+        },
+        {
+          "id": "c",
+          "text": "Case-control study"
+        },
+        {
+          "id": "d",
+          "text": "Prospective cohort study"
+        },
+        {
+          "id": "e",
+          "text": "Meta-analysis"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: ecological study. Why: The unit of analysis is the country, not the person. Each data point is a population average (sales per adult, death rate), and nothing is known about whether the people who died smoked. Health Knowledge, a public health textbook, defines it: \"Descriptive studies that examine populations, or groups, as the unit of observation are known as ecological studies,\" and notes that they are \"a useful means of performing international comparisons\"; its own example compares cardiovascular death rates with cigarette sales per head. The main pitfall is the ecological fallacy: \"The ecological fallacy is an error in the interpretation of the results of an ecological study,\" in which a group-level link is wrongly applied to individuals. To show that smokers themselves die more often, you need individual data, as in a cohort or case-control study. Your First Aid biostats file (p. 256, study types table) defines the individual-level designs used as the distractors here.",
+      "whyWrong": {
+        "b": "A cross-sectional study measures exposure and disease in the same individuals at one point in time to estimate prevalence (your First Aid biostats file, p. 256). This study has no individual-level data.",
+        "c": "A case-control study starts with individuals who have the disease and compares their past exposures with those of individual controls, giving an odds ratio.",
+        "d": "A prospective cohort study follows individuals with and without an exposure forward in time to compare incidence, giving a relative risk.",
+        "e": "A meta-analysis pools results from several earlier studies. This study collects new national data from 30 countries."
+      },
+      "sources": [
+        {
+          "title": "Health Knowledge (public health textbook): The design, applications, strengths and weaknesses of descriptive studies and ecological studies",
+          "url": "https://www.healthknowledge.org.uk/index.php/public-health-textbook/research-methods/1a-epidemiology/descriptive-studies-ecological-studies"
+        },
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Study types, p. 256"
+        }
+      ]
+    },
+    {
+      "id": "anat-posterior-duodenal-ulcer-gda-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Gastrointestinal",
+      "topic": "Peptic ulcer bleeding: gastroduodenal artery",
+      "difficulty": 2,
+      "stem": "A 63-year-old man is brought to the emergency department after vomiting blood twice and passing black, tarry stools. He takes naproxen every day for knee osteoarthritis. Pulse is 118/min, and blood pressure is 88/54 mm Hg. After fluids and blood transfusion, upper endoscopy shows a deep ulcer in the posterior wall of the first part of the duodenum with a visible vessel at its base that is spurting blood.",
+      "leadIn": "Which of the following arteries is most likely bleeding?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Gastroduodenal artery"
+        },
+        {
+          "id": "b",
+          "text": "Left gastric artery"
+        },
+        {
+          "id": "c",
+          "text": "Splenic artery"
+        },
+        {
+          "id": "d",
+          "text": "Superior mesenteric artery"
+        },
+        {
+          "id": "e",
+          "text": "Inferior pancreaticoduodenal artery"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: gastroduodenal artery. Why: Your NBME Top Concepts (p. 181, Complications of PUD) teaches that duodenal ulcers bleed from the gastroduodenal artery, while gastric ulcers on the lesser curvature bleed from the left gastric artery. Your Osmosis GI notes (p. 42) note that peptic ulcers are the most common cause of upper GI bleeding and that they often sit in the proximal duodenum. StatPearls explains the anatomy: the common hepatic artery \"gives off the proper hepatic, gastroduodenal, and right gastric arteries,\" and \"Duodenal ulcers most commonly occur on the posterior duodenal wall, an area supplied by the gastroduodenal artery.\" The artery runs down just behind the first part of the duodenum, so a deep ulcer in the posterior wall of the duodenal bulb erodes straight into it.",
+      "whyWrong": {
+        "b": "The left gastric artery runs along the lesser curvature of the stomach and is the classic bleeding source for gastric, not duodenal, ulcers (your NBME Top Concepts, p. 181).",
+        "c": "The splenic artery runs behind the stomach along the upper edge of the pancreas, far from the first part of the duodenum.",
+        "d": "The superior mesenteric artery passes in front of the third part of the duodenum, not behind the first part.",
+        "e": "The inferior pancreaticoduodenal artery comes from the superior mesenteric artery and supplies the lower duodenum and pancreatic head, not the posterior wall of the duodenal bulb."
+      },
+      "sources": [
+        {
+          "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Complications of PUD, p. 181"
+        },
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Gastrointestinal (Emily's file), Peptic ulcer, p. 42"
+        },
+        {
+          "title": "StatPearls: Anatomy, Abdomen and Pelvis: Celiac Trunk",
+          "url": "https://www.statpearls.com/point-of-care/19101"
+        }
+      ],
+      "readMore": [
+        {
+          "title": "Radiopaedia: Gastroduodenal artery",
+          "url": "https://www.radiopaedia.org/articles/gastroduodenal-artery?lang=us"
+        }
+      ]
+    },
+    {
+      "id": "anat-esophageal-varices-azygos-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Gastrointestinal",
+      "topic": "Portal hypertension: esophageal varices drain to the azygos vein",
+      "difficulty": 2,
+      "stem": "A 54-year-old woman with cirrhosis from long-standing hepatitis C comes for follow-up. She has had no bleeding. Examination shows a palpable spleen tip, shifting dullness and spider angiomas on the chest. Platelet count is 72,000/mm3. Screening upper endoscopy shows several large, bluish, dilated veins running along the lower third of the esophagus.",
+      "leadIn": "Blood in these dilated veins bypasses the liver and returns to the heart mainly through which of the following veins?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azygos vein"
+        },
+        {
+          "id": "b",
+          "text": "Inferior rectal veins"
+        },
+        {
+          "id": "c",
+          "text": "Superficial epigastric veins"
+        },
+        {
+          "id": "d",
+          "text": "Left renal vein"
+        },
+        {
+          "id": "e",
+          "text": "Superior mesenteric vein"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: azygos vein. Why: In portal hypertension, blood backs up in the portal system and escapes through connections with the systemic veins. Your Osmosis GI notes (p. 118) say cirrhosis is the most common cause of portal hypertension, and that portosystemic collaterals form esophageal varices, hemorrhoids and caput medusae, with variceal bleeding the most life-threatening complication. Your NBME Top Concepts (pp. 41-42) shows esophageal varices as a result of the imbalance between the portal and caval systems. At the lower esophagus, gastric veins of the portal system meet esophageal veins of the systemic system. OpenStax Anatomy and Physiology says \"the hepatic portal vein also receives branches from the gastric veins of the stomach,\" while the esophageal vein \"Drains the inferior portions of the esophagus and leads to the azygos vein.\" StatPearls describes varices as \"dilated submucosal distal esophageal veins connecting the portal and systemic circulations\" and says \"Gastroesophageal collaterals drain into the azygos vein and contribute to the development of esophageal varices.\" The azygos vein then empties into the superior vena cava.",
+      "whyWrong": {
+        "b": "The inferior rectal veins are the systemic side of the rectal collaterals (with the superior rectal vein on the portal side), which form rectal varices, not esophageal varices.",
+        "c": "The superficial epigastric veins of the abdominal wall are the systemic side of the paraumbilical collaterals that form caput medusae (your Osmosis GI notes, p. 118).",
+        "d": "The left renal vein drains the left kidney into the inferior vena cava. The veins of the lower esophagus lead to the azygos vein instead (OpenStax).",
+        "e": "The superior mesenteric vein is part of the portal system: it joins the splenic vein to form the hepatic portal vein (OpenStax). It carries blood toward the liver, not around it."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Gastrointestinal (Emily's file), Portal hypertension, p. 118"
+        },
+        {
+          "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Esophageal varices, pp. 41-42"
+        },
+        {
+          "title": "OpenStax Anatomy and Physiology 2e, 20.5 Circulatory Pathways",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways"
+        },
+        {
+          "title": "StatPearls: Esophageal Varices",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK448078/"
+        }
+      ]
+    },
+    {
+      "id": "neuro-appendicitis-referred-pain-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Gastrointestinal",
+      "topic": "Appendicitis: visceral periumbilical pain",
+      "difficulty": 2,
+      "stem": "A 19-year-old college student comes to the emergency department because of abdominal pain for 14 hours. The pain began as a dull, poorly localized ache around the umbilicus, along with loss of appetite and nausea. Over the past 4 hours, it has become sharp and constant in the right lower quadrant. Temperature is 38.0°C (100.4°F). There is tenderness with guarding one-third of the way from the right anterior superior iliac spine to the umbilicus. Leukocyte count is 14,500/mm3.",
+      "leadIn": "Which of the following best explains the early pain around the umbilicus?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Visceral pain fibers that enter the spinal cord at T10"
+        },
+        {
+          "id": "b",
+          "text": "Irritation of the parietal peritoneum over the appendix"
+        },
+        {
+          "id": "c",
+          "text": "Irritation of the phrenic nerve by pus under the diaphragm"
+        },
+        {
+          "id": "d",
+          "text": "Pressure on the obturator nerve by a pelvic appendix"
+        },
+        {
+          "id": "e",
+          "text": "Inflammation of the median umbilical ligament"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: visceral pain fibers that enter the spinal cord at T10. Why: Early appendicitis distends and inflames the appendix wall, which is innervated like the rest of the midgut. Its pain fibers travel with sympathetic nerves to the T10 spinal segment, the same segment that supplies the skin around the umbilicus, so the brain feels a vague ache there. Once the inflammation reaches the parietal peritoneum, somatic nerves give sharp, well-localized pain over McBurney point. Your Osmosis GI notes (p. 71) say the pain of appendicitis often begins in the umbilical area and then moves to McBurney point, from visceral nerve stimulation first and parietal peritoneum irritation later. The Royal College of Emergency Medicine (RCEMLearning) explains that inflammation \"activates afferent sympathetic fibres\" \"which enter the spinal cord at T10 resulting in referred colicky pain to the periumbilical area,\" because \"the appendix is innervated by the autonomic nervous supply to the mid-gut.\" Later, inflammation will \"irritate the surrounding parietal peritoneum\" \"resulting in constant local pain in the RIF\" (right iliac fossa).",
+      "whyWrong": {
+        "b": "Parietal peritoneal irritation explains the later sharp, localized right lower quadrant pain, not the early vague ache around the umbilicus (RCEMLearning).",
+        "c": "Phrenic nerve irritation from fluid or pus under the diaphragm refers pain to the shoulder (C3-C5), not the umbilicus (your El-Husseiny cardiovascular notes, p. 23).",
+        "d": "A pelvic appendix touching the obturator internus causes pain with internal rotation of the flexed right hip (obturator sign), not periumbilical pain (your Osmosis GI notes, p. 71).",
+        "e": "The median umbilical ligament is the remnant of the urachus. It is not inflamed in appendicitis and does not explain the referred pain."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Gastrointestinal (Emily's file), Appendicitis, p. 71"
+        },
+        {
+          "title": "RCEMLearning (Royal College of Emergency Medicine), Appendicitis in a patient with right iliac fossa pain: Pain relocation",
+          "url": "https://www.rcemlearning.co.uk/modules/appendicitis-in-a-patient-with-right-iliac-fossa-pain/lessons/clinical-assessment-and-risk-stratification-30/topic/pain-relocation/"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Cardiovascular System (Emily's file), Referred diaphragm pain, p. 23"
+        }
+      ]
+    },
+    {
+      "id": "path-whipple-disease-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Gastrointestinal",
+      "topic": "Whipple disease: PAS-positive macrophages",
+      "difficulty": 2,
+      "stem": "A 54-year-old man comes to the physician because of chronic diarrhea with greasy stools and a 9-kg (20-lb) weight loss over 8 months. For 5 years, he has had pain and swelling that move between his knees, wrists and ankles. His wife says he has become forgetful. He works at a wastewater treatment plant. Examination shows darkened skin and enlarged lymph nodes in the neck. An upper endoscopy with biopsy of the duodenum is done.",
+      "leadIn": "Which of the following is most likely to be seen on the biopsy?",
+      "options": [
+        {
+          "id": "a",
+          "text": "PAS-positive macrophages filling the lamina propria"
+        },
+        {
+          "id": "b",
+          "text": "Flattened villi with many intraepithelial lymphocytes"
+        },
+        {
+          "id": "c",
+          "text": "Noncaseating granulomas extending through the bowel wall"
+        },
+        {
+          "id": "d",
+          "text": "Enterocytes filled with clear lipid vacuoles"
+        },
+        {
+          "id": "e",
+          "text": "Pear-shaped trophozoites attached to the villus surface"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: PAS-positive macrophages filling the lamina propria. Why: Malabsorptive diarrhea, weight loss, migrating arthritis, memory problems, skin darkening and lymph node enlargement in a middle-aged man exposed to sewage is Whipple disease, caused by Tropheryma whipplei. Your Osmosis GI notes (p. 139) say the pathognomonic finding is numerous macrophages in the lamina propria filled with periodic acid-Schiff (PAS) positive material, list the four cardinal signs (diarrhea, weight loss, abdominal pain and arthralgias) and name middle-aged men of European ancestry and sewage workers or farmers as risk groups. Your El-Husseiny microbiology notes (p. 17) note that the PAS stain is used to diagnose Whipple disease. MSD describes \"periodic acid-Schiff–positive macrophages that distort the villus architecture,\" calls arthralgia, diarrhea, abdominal pain and weight loss the \"4 cardinal symptoms,\" and says treatment starts with \"intravenous ceftriaxone or penicillin G for 2 to 4 weeks,\" followed by long-term oral trimethoprim/sulfamethoxazole.",
+      "whyWrong": {
+        "b": "Flattened villi with intraepithelial lymphocytes are celiac disease. It does not cause migrating arthritis, darkened skin or memory loss.",
+        "c": "Transmural noncaseating granulomas are Crohn disease, which usually affects the terminal ileum, not the PAS-positive macrophage picture.",
+        "d": "Enterocytes full of lipid are abetalipoproteinemia, an inherited disease of childhood with acanthocytes.",
+        "e": "Pear-shaped trophozoites on the villi are Giardia. It causes greasy diarrhea but not arthritis, lymph node enlargement or memory problems."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Gastrointestinal (Emily's file), Whipple disease, p. 139"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), PAS stain, p. 17"
+        },
+        {
+          "title": "MSD Manual Professional: Whipple Disease",
+          "url": "https://www.msdmanuals.com/professional/gastrointestinal-disorders/malabsorption-syndromes/whipple-disease"
+        }
+      ]
+    },
+    {
+      "id": "path-boerhaave-transmural-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Gastrointestinal",
+      "topic": "Boerhaave syndrome: transmural esophageal rupture",
+      "difficulty": 2,
+      "stem": "A 46-year-old man is brought to the emergency department 2 hours after sudden, severe pain behind his breastbone that began during a bout of forceful vomiting after a night of heavy drinking. He is sweaty and breathing fast. Pulse is 124/min. Crackling is felt under the skin above both collarbones, and a crunching sound is heard over the heart with each beat. CT of the chest shows air around the esophagus in the mediastinum and a left pleural effusion.",
+      "leadIn": "Which of the following best describes the injury in this patient?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Full-thickness tear of the lower esophageal wall"
+        },
+        {
+          "id": "b",
+          "text": "Mucosal laceration at the gastroesophageal junction"
+        },
+        {
+          "id": "c",
+          "text": "Mucosal pouch above the upper esophageal sphincter"
+        },
+        {
+          "id": "d",
+          "text": "Dilated submucosal veins in the lower esophagus"
+        },
+        {
+          "id": "e",
+          "text": "Herniation of the gastric cardia into the chest"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: full-thickness tear of the lower esophageal wall. Why: Forceful vomiting followed by severe chest pain, subcutaneous emphysema (crackling under the skin) and Hamman sign (a crunch with each heartbeat from air in the mediastinum) is Boerhaave syndrome, a spontaneous rupture of all layers of the esophagus. Your Osmosis GI notes (pp. 26-27) explain that vomiting against a closed glottis sharply raises the pressure inside the esophagus, the wall ruptures, usually at the left posterolateral distal esophagus just above the hiatus, and gastric contents enter the mediastinum; they list Mackler triad (chest pain, vomiting, subcutaneous emphysema) and Hamman sign. Your NBME Top Concepts (p. 150) contrasts this with Mallory-Weiss tears. StatPearls defines it: \"Boerhaave syndrome is a transmural perforation of the esophagus,\" unlike \"a nontransmural esophageal tear also associated with vomiting\" (Mallory-Weiss), and reports \"a mortality rate of up to 60% with intervention.\" MSD says \"The most common site of rupture is the distal esophagus on the left side.\"",
+      "whyWrong": {
+        "b": "A partial-thickness tear of the mucosa and submucosa at the gastroesophageal junction is a Mallory-Weiss tear. It causes vomiting of blood, not air in the mediastinum (your Osmosis GI notes, p. 31).",
+        "c": "A mucosal pouch above the upper esophageal sphincter is a Zenker diverticulum, which causes dysphagia, regurgitation of old food and bad breath.",
+        "d": "Dilated submucosal veins are esophageal varices from portal hypertension. They bleed, but they do not rupture the wall or leak air.",
+        "e": "Herniation of the stomach into the chest (hiatal hernia) causes reflux symptoms. It does not cause sudden subcutaneous and mediastinal air after vomiting."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Gastrointestinal (Emily's file), Boerhaave syndrome, pp. 26-27; Mallory-Weiss syndrome, p. 31"
+        },
+        {
+          "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Mallory-Weiss vs. Boerhaave syndrome, p. 150"
+        },
+        {
+          "title": "StatPearls: Boerhaave Syndrome",
+          "url": "https://www.statpearls.com/point-of-care/18428"
+        },
+        {
+          "title": "MSD Manual Professional: Esophageal Rupture",
+          "url": "https://www.msdmanuals.com/professional/gastrointestinal-disorders/esophageal-and-swallowing-disorders/esophageal-rupture"
+        }
+      ]
+    },
+    {
+      "id": "path-esophageal-squamous-carcinoma-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Gastrointestinal",
+      "topic": "Esophageal cancer: squamous cell carcinoma",
+      "difficulty": 2,
+      "stem": "A 66-year-old man comes to the physician because of trouble swallowing for 4 months. At first, only meat and bread got stuck; now soft foods and sometimes liquids get stuck too. He has lost 11 kg (24 lb). He has smoked 2 packs of cigarettes a day for 45 years and drinks 6 to 8 beers a day. He has no history of heartburn. Upper endoscopy shows an ulcerated mass narrowing the middle third of the esophagus, with normal mucosa at the gastroesophageal junction.",
+      "leadIn": "Biopsy of the mass is most likely to show which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Squamous cell carcinoma"
+        },
+        {
+          "id": "b",
+          "text": "Adenocarcinoma"
+        },
+        {
+          "id": "c",
+          "text": "Gastrointestinal stromal tumor"
+        },
+        {
+          "id": "d",
+          "text": "Leiomyoma"
+        },
+        {
+          "id": "e",
+          "text": "Small cell carcinoma"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: squamous cell carcinoma. Why: Progressive dysphagia from solids to liquids with weight loss means a narrowing mass. A tumor in the middle third of the esophagus in a heavy smoker and drinker with no reflux is squamous cell carcinoma. Your Osmosis GI notes (p. 51) list squamous cell carcinoma and adenocarcinoma as the two main types, with smoking and alcohol (especially together) as risk factors and dysphagia and weight loss as the signs. MSD says \"The most common malignant tumor in the proximal two-thirds of the esophagus is squamous cell carcinoma,\" \"Alcohol and tobacco are risk factors for squamous cell carcinoma,\" while \"Adenocarcinoma occurs in the distal esophagus\" and \"Most adenocarcinomas arise in Barrett esophagus.\" MSD also notes \"Squamous cell carcinoma is the most common esophageal cancer worldwide,\" but \"in the United States, adenocarcinoma is about twice as common.\" On progression, \"The patient first has difficulty swallowing solid food, then semisolid food, and finally liquids and saliva.\"",
+      "whyWrong": {
+        "b": "Adenocarcinoma arises from Barrett esophagus after long-standing reflux and sits in the distal third, near the gastroesophageal junction. He has no reflux, a normal junction and a mid-esophageal tumor (MSD).",
+        "c": "A gastrointestinal stromal tumor arises from the wall beneath the mucosa (most often in the stomach) and does not typically cause an ulcerated mucosal mass in a heavy smoker and drinker.",
+        "d": "A leiomyoma is a benign smooth muscle tumor beneath intact mucosa. It grows slowly and does not cause rapid weight loss.",
+        "e": "Small cell carcinoma of the esophagus is very rare. Squamous cell carcinoma is far more likely in this setting."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Gastrointestinal (Emily's file), Esophageal cancer, p. 51"
+        },
+        {
+          "title": "MSD Manual Professional: Esophageal Cancer",
+          "url": "https://www.msdmanuals.com/professional/gastrointestinal-disorders/tumors-of-the-gastrointestinal-tract/esophageal-cancer"
+        }
+      ]
+    },
+    {
+      "id": "path-colonic-diverticula-false-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Gastrointestinal",
+      "topic": "Diverticular disease: false diverticula",
+      "difficulty": 2,
+      "stem": "A 69-year-old woman comes to the emergency department because of steady pain in the left lower abdomen for 2 days, with fever and loose stools. She has had chronic constipation for years and eats very little fruit or vegetables. Temperature is 38.4°C (101.1°F). The left lower quadrant is tender. CT shows several small outpouchings of the sigmoid colon wall, one of which is surrounded by inflamed fat and thickened bowel wall.",
+      "leadIn": "The wall of these outpouchings is most likely made of which of the following layers?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mucosa and submucosa only"
+        },
+        {
+          "id": "b",
+          "text": "All layers of the bowel wall"
+        },
+        {
+          "id": "c",
+          "text": "Muscularis propria and serosa only"
+        },
+        {
+          "id": "d",
+          "text": "Serosa and subserosal fat only"
+        },
+        {
+          "id": "e",
+          "text": "Submucosa and muscularis propria only"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: mucosa and submucosa only. Why: Left lower quadrant pain with fever and an inflamed outpouching of the sigmoid colon is diverticulitis. Colonic diverticula are false (pseudo-) diverticula. Your Osmosis GI notes (pp. 72-74) say they are most common in the sigmoid colon, where the bowel is narrowest and pressure is highest; that a false diverticulum includes only the mucosa and submucosa, which herniate where the small arteries (vasa recta) pass through the muscle layer; and that a low-fiber diet, constipation and older age raise the risk. They contrast this with a true diverticulum such as Meckel diverticulum, which includes all layers (see also your NBME Top Concepts, p. 158). MSD says \"Colonic diverticula are pseudodiverticula\" and \"False or pseudo-diverticula are mucosal and submucosal protrusions through the muscular wall of the bowel.\" For diverticulitis, MSD notes that \"Patients have left lower quadrant abdominal pain and tenderness and often have a palpable sigmoid\" and that CT is the preferred test.",
+      "whyWrong": {
+        "b": "All layers of the bowel wall make up a true diverticulum, such as Meckel diverticulum, not a colonic diverticulum (your NBME Top Concepts, p. 158).",
+        "c": "The muscularis propria is the layer the lining pushes through, so it is not part of the pouch wall.",
+        "d": "The serosa covers the outside of the pouch, but the wall itself is the mucosa and submucosa that bulge outward.",
+        "e": "The submucosa is in the pouch, but the muscularis propria is not. The muscle layer is the weak point that is crossed, not a layer of the wall."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Gastrointestinal (Emily's file), Diverticulitis and diverticulosis, pp. 72-74"
+        },
+        {
+          "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Meckel diverticulum, p. 158"
+        },
+        {
+          "title": "MSD Manual Professional: Definition of Diverticular Disease",
+          "url": "https://www.msdmanuals.com/professional/gastrointestinal-disorders/diverticular-disease/definition-of-diverticular-disease"
+        },
+        {
+          "title": "MSD Manual Professional: Diverticulitis",
+          "url": "https://www.msdmanuals.com/professional/gastrointestinal-disorders/diverticular-disease/diverticulitis"
+        }
+      ]
+    },
+    {
+      "id": "micro-hepatitis-d-hbsag-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Gastrointestinal",
+      "topic": "Hepatitis D: dependence on hepatitis B",
+      "difficulty": 2,
+      "stem": "A 37-year-old man who injects drugs comes to the physician because of fatigue, dark urine and yellow eyes for 1 week. He has known chronic hepatitis B, and his liver tests had been stable for 3 years. Serum ALT is 1,240 U/L. Hepatitis B surface antigen is positive and IgM antibody to hepatitis B core antigen is negative. Testing shows a new infection with a small RNA virus that cannot make its own envelope proteins.",
+      "leadIn": "This newly acquired virus can infect liver cells only when it is coated with which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hepatitis B surface antigen"
+        },
+        {
+          "id": "b",
+          "text": "Hepatitis B core antigen"
+        },
+        {
+          "id": "c",
+          "text": "Hepatitis B e antigen"
+        },
+        {
+          "id": "d",
+          "text": "Hepatitis B DNA polymerase"
+        },
+        {
+          "id": "e",
+          "text": "Hepatitis C envelope glycoprotein"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: hepatitis B surface antigen. Why: A sudden flare in a stable chronic hepatitis B carrier who injects drugs, with negative IgM anti-HBc (so not new hepatitis B), and a new defective RNA virus is hepatitis D (delta) superinfection. Your El-Husseiny microbiology and immunology notes (p. 309) describe HDV as a defective RNA virus that can infect only when wrapped in the surface antigen (HBsAg) of hepatitis B; HBsAg must coat the delta antigen before the virus can infect hepatocytes. They describe two patterns: coinfection (acquired with HBV) and superinfection of a chronic HBV carrier, as here, and note that universal HBsAg vaccination would stop HDV. Your Osmosis GI notes (p. 97) list IgM and IgG antibodies for hepatitis D testing. MSD says HDV is an \"Incomplete RNA\" virus that \"requires presence of hepatitis B virus for replication,\" that active infection \"requires HBsAg positivity,\" and that \"prevention of HBV infection prevents HDV infection.\"",
+      "whyWrong": {
+        "b": "Hepatitis B core antigen forms the inner capsid around HBV DNA inside the virus. HDV borrows the outer envelope, not the core.",
+        "c": "Hepatitis B e antigen is a secreted protein that marks active HBV replication and high infectivity. It is not an envelope protein.",
+        "d": "HBV DNA polymerase (a reverse transcriptase) copies HBV DNA. HDV is an RNA virus that uses host enzymes to copy its genome, not HBV's polymerase.",
+        "e": "Hepatitis C is a separate RNA virus. HDV depends on hepatitis B, not hepatitis C (MSD)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Hepatitis D, p. 309; hepatitis comparison table, p. 300"
+        },
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Gastrointestinal (Emily's file), Viral hepatitis serology, p. 97"
+        },
+        {
+          "title": "MSD Manual Professional: Overview of Acute Viral Hepatitis",
+          "url": "https://www.msdmanuals.com/professional/hepatic-and-biliary-disorders/hepatitis/overview-of-acute-viral-hepatitis"
+        }
+      ]
+    },
+    {
+      "id": "genetics-cf-meconium-ileus-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Genetics",
+      "system": "Gastrointestinal",
+      "topic": "Cystic fibrosis: meconium ileus and the delta F508 variant",
+      "difficulty": 3,
+      "stem": "A newborn girl has not passed stool 36 hours after birth and has a swollen abdomen and green vomit. Abdominal x-ray shows many dilated loops of small bowel with a bubbly pattern in the right lower quadrant and no air-fluid levels. At surgery, the terminal ileum is blocked by thick, sticky, tar-like meconium, and the colon is small but has normal ganglion cells on biopsy. Genetic testing shows that she is homozygous for the most common disease-causing variant in the gene responsible.",
+      "leadIn": "This variant most likely causes which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Misfolded channel protein broken down inside the cell"
+        },
+        {
+          "id": "b",
+          "text": "A channel that reaches the cell membrane but cannot open"
+        },
+        {
+          "id": "c",
+          "text": "Failed migration of neural crest cells into the bowel wall"
+        },
+        {
+          "id": "d",
+          "text": "Absent lactase enzyme in the small bowel brush border cells"
+        },
+        {
+          "id": "e",
+          "text": "Defective dynein arms in the microtubules of the cilia"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: misfolded channel protein broken down inside the cell. Why: Meconium ileus (thick meconium blocking the terminal ileum in a newborn, with normal ganglion cells) is a classic first sign of cystic fibrosis. Your El-Husseiny biochemistry notes (p. 87) say CF is autosomal recessive from a defect in the CFTR gene on chromosome 7; the most common variant, ΔF508, removes the phenylalanine at position 508; the protein folds wrongly, is not glycosylated properly, and is destroyed inside the cell instead of reaching the apical membrane. Without this chloride channel, mucosal surfaces such as the bowel are not hydrated, and secretions become thick. Your Osmosis GI notes (p. 76) list meconium in CF as a cause of bowel obstruction. MedlinePlus Genetics says \"Some affected babies have meconium ileus,\" and that in the most common variant, \"delta F508,\" \"The resulting abnormal channel breaks down shortly after it is made, so it never reaches the cell membrane.\"",
+      "whyWrong": {
+        "b": "Some less common CFTR variants make a channel that reaches the membrane but cannot open properly (a gating defect). The most common variant, ΔF508, instead causes misfolding and breakdown before the protein reaches the membrane (your El-Husseiny biochemistry notes, p. 87).",
+        "c": "Failed neural crest migration is Hirschsprung disease, which also causes delayed passage of meconium, but the biopsy would show no ganglion cells, and hers are normal (your Osmosis GI notes, p. 125).",
+        "d": "Lactase deficiency causes diarrhea and bloating after milk, not a newborn bowel blocked by sticky meconium (your Osmosis GI notes, pp. 136-137).",
+        "e": "Defective dynein arms are primary ciliary dyskinesia (Kartagener syndrome), which causes sinus and lung infections and situs inversus, not meconium ileus."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Cystic fibrosis, p. 87"
+        },
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Gastrointestinal (Emily's file), Bowel obstruction, p. 76; Hirschsprung disease, p. 125; lactose intolerance, pp. 136-137"
+        },
+        {
+          "title": "MedlinePlus Genetics: Cystic fibrosis",
+          "url": "https://medlineplus.gov/genetics/condition/cystic-fibrosis/"
+        },
+        {
+          "title": "MedlinePlus Genetics: CFTR gene",
+          "url": "https://medlineplus.gov/genetics/gene/cftr/"
+        }
+      ]
+    },
+    {
+      "id": "path-cholesterol-gallstones-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Gastrointestinal",
+      "topic": "Gallstones: cholesterol stone formation",
+      "difficulty": 1,
+      "stem": "A 41-year-old woman comes to the physician because of episodes of steady pain in the right upper abdomen that start about an hour after fatty meals and last 2 to 3 hours. She has had four pregnancies, and her BMI is 36 kg/m2. She has no history of anemia or liver disease. Abdominal x-ray is normal. Ultrasound shows several stones in the gallbladder with acoustic shadowing and a normal-sized common bile duct.",
+      "leadIn": "Which of the following most likely caused these stones to form?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bile with more cholesterol than bile salts can dissolve"
+        },
+        {
+          "id": "b",
+          "text": "Excess unconjugated bilirubin from chronic red cell breakdown"
+        },
+        {
+          "id": "c",
+          "text": "Bacterial enzymes that break down bilirubin in the bile ducts"
+        },
+        {
+          "id": "d",
+          "text": "High calcium in the bile from excess parathyroid hormone"
+        },
+        {
+          "id": "e",
+          "text": "Rapid emptying of the gallbladder after every meal"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: bile with more cholesterol than bile salts can dissolve. Why: Gallstones in an overweight woman who has had several pregnancies, with no hemolysis or infection, that do not show on plain x-ray are most likely cholesterol stones. Your Osmosis GI notes (p. 10) say cholesterol stones are the most common type, form when cholesterol precipitates out of bile from supersaturation, too little bile salts or phospholipids, and gallbladder stasis, and are radiolucent; black pigment stones come from hemolysis, and brown pigment stones from biliary infection. MSD explains that \"Normally, water-insoluble cholesterol is made water soluble by combining with bile salts and lecithin,\" that supersaturation \"most commonly results from excessive cholesterol secretion,\" and that \"Cholesterol stones account for > 85% of gallstones in the Western world.\" MSD lists female sex, obesity and older age as risk factors and notes that sludge forms during gallbladder stasis such as pregnancy.",
+      "whyWrong": {
+        "b": "Excess unconjugated bilirubin from chronic hemolysis (such as sickle cell disease or hereditary spherocytosis) forms black pigment stones. She has no anemia or hemolysis (your Osmosis GI notes, p. 10).",
+        "c": "Bacterial enzymes that break down bilirubin form brown pigment stones, usually in infected bile ducts, often in parts of Asia with liver flukes (MSD).",
+        "d": "High parathyroid hormone causes kidney stones and high blood calcium, not the common type of gallstone.",
+        "e": "Gallbladder stasis (slow or poor emptying), not rapid emptying, helps stones form, as in pregnancy (MSD)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Gastrointestinal (Emily's file), Gallstones, p. 10"
+        },
+        {
+          "title": "MSD Manual Professional: Cholelithiasis",
+          "url": "https://www.msdmanuals.com/professional/hepatic-and-biliary-disorders/gallbladder-and-bile-duct-disorders/cholelithiasis"
+        }
+      ]
+    },
+    {
+      "id": "biostats-intention-to-treat-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biostatistics & Epidemiology",
+      "system": "Gastrointestinal",
+      "topic": "Clinical trials: intention-to-treat analysis",
+      "difficulty": 2,
+      "stem": "A randomized controlled trial tests a new drug for keeping ulcerative colitis in remission. Four hundred patients are randomly assigned to the drug or to placebo. During the year, 38 patients in the drug group stop taking it because of side effects, and 12 patients in the placebo group switch to the active drug outside the study after flares. The investigators want an analysis that keeps the balance of known and unknown prognostic factors created by randomization.",
+      "leadIn": "Which of the following analyses should be used for the main result?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Intention-to-treat analysis"
+        },
+        {
+          "id": "b",
+          "text": "Per-protocol analysis"
+        },
+        {
+          "id": "c",
+          "text": "As-treated analysis"
+        },
+        {
+          "id": "d",
+          "text": "Subgroup analysis by adherence"
+        },
+        {
+          "id": "e",
+          "text": "Analysis of completers only"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: intention-to-treat analysis. Why: In an intention-to-treat (ITT) analysis, every randomized patient is counted in the group they were assigned to, whatever they actually took. That keeps the two groups comparable, because patients who stop a drug or switch arms often differ in prognosis from those who stay on it. McCoy (Western Journal of Emergency Medicine, 2017) says that in ITT \"all participants who are randomized are included in the statistical analysis\" and \"analyzed according to the group they were originally assigned, regardless of what treatment (if any) they received\" (\"once randomized, always analyzed\"). It notes that this \"preserves the benefits of randomization, which cannot be assumed when using other methods of analysis,\" and that \"Both per-protocol and as-treated analyses increase the risk of bias.\" Your First Aid biostats file (p. 256) notes that study quality improves when a trial is randomized, controlled and double-blinded; ITT is how the analysis keeps that randomization.",
+      "whyWrong": {
+        "b": "A per-protocol analysis includes only patients who took the treatment as assigned. Dropping the 38 who stopped the drug breaks the balance created by randomization (McCoy 2017).",
+        "c": "An as-treated analysis groups patients by the treatment they actually received, so the 12 placebo patients who switched would be moved to the drug group, which also breaks randomization (McCoy 2017).",
+        "d": "Splitting patients into adherent and nonadherent subgroups compares groups that were not randomized. Adherent patients often do better for reasons unrelated to the drug (the healthy adherer effect).",
+        "e": "Analyzing only patients who finish the study is a form of per-protocol analysis. It removes dropouts, who usually differ from completers, and can bias the result."
+      },
+      "sources": [
+        {
+          "title": "McCoy CE. Understanding the intention-to-treat principle in randomized controlled trials. West J Emerg Med 2017;18(6):1075-1078",
+          "url": "https://westjem.com/articles/understanding-the-intention-to-treat-principle-in-randomized-controlled-trials.html"
+        },
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Clinical trial, p. 256"
+        }
+      ]
     }
   ]
 }
