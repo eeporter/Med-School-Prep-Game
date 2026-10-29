@@ -41284,7 +41284,7 @@
       "topic": "Pituitary apoplexy: cranial nerve compression",
       "difficulty": 2,
       "stem": "A 54-year-old man has had headaches and low sex drive for 6 months. While lifting a heavy box, he develops a sudden, severe headache with vomiting and double vision. His blood pressure is 86/52 mm Hg. His left upper eyelid droops, and when the lid is lifted, the left eye rests looking down and out. The left pupil is dilated and does not react to light. Visual field testing shows loss of the outer half of the visual field in each eye. MRI shows a sellar mass with fresh blood that extends into the left cavernous sinus.",
-      "leadIn": "Compression of which structure best explains the findings in the left eye?",
+      "leadIn": "Compression of which structure best explains the left eyelid, eye position and pupil findings?",
       "options": [
         {
           "id": "a",
@@ -41591,7 +41591,7 @@
       },
       "sources": [
         {
-          "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Regional circulation (practice item), p. 87"
+          "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Idiopathic pulmonary fibrosis practice question, p. 87"
         },
         {
           "title": "El-Husseiny's Essentials for USMLE Step 1: Respiratory System (Emily's file), Obstructive vs restrictive patterns, p. 20; chronic bronchitis and emphysema, pp. 89-90; restrictive diseases, p. 97; pulmonary fibrosis, p. 98"
@@ -41641,7 +41641,7 @@
       "whyWrong": {
         "b": "Carotid body oxygen sensors respond to arterial PO2 and are strongly stimulated only by a dramatic fall in PO2 (your El-Husseiny respiratory notes, p. 54; NBME Top Concepts, p. 82). This volunteer's PO2 is very high.",
         "c": "Peripheral chemoreceptors measure dissolved oxygen (PO2), not oxygen content (your El-Husseiny respiratory notes, p. 54), and O2 here is high. The aortic bodies add only a small share to the CO2 drive.",
-        "d": "The chemoreceptor trigger zone in the area postrema senses toxins and drugs in the blood and triggers vomiting (StatPearls), not the CO2 drive to breathe.",
+        "d": "The chemoreceptor trigger zone sits in the area postrema, a circumventricular organ with no blood-brain barrier, and it drives vomiting (your El-Husseiny neurology notes, p. 145; StatPearls). It is not the CO2 drive to breathe.",
         "e": "Carotid sinus baroreceptors fire in response to stretch of the artery wall from blood pressure (your El-Husseiny cardiovascular notes, pp. 76-77), not to blood gases. The chemical sensors for breathing are the central and peripheral chemoreceptors (your El-Husseiny respiratory notes, pp. 53-54; OpenStax)."
       },
       "sources": [
@@ -41653,6 +41653,9 @@
         },
         {
           "title": "El-Husseiny's Essentials for USMLE Step 1: Cardiovascular System (Emily's file), Baroreceptors, pp. 76-77"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Area postrema and the chemoreceptor trigger zone, p. 145"
         },
         {
           "title": "OpenStax Anatomy and Physiology 2e, 22.3 The Process of Breathing",
@@ -41866,7 +41869,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: meningococcal vaccination. Why: The patient has paroxysmal nocturnal hemoglobinuria (PNH), in which red cells lack GPI-anchored proteins that protect them from complement. Your Osmosis pathology notes, Volume 2 (p. 433), list eculizumab as a monoclonal antibody that reduces complement-mediated hemolysis, warn that it raises the risk of life-threatening neisserial infections, and advise vaccinating against Neisseria meningitidis. Your Pharmacology High Yield file (p. 116) gives its target as complement C5. Blocking C5 stops the membrane attack complex (C5 to C9) from forming, and your El-Husseiny microbiology notes (p. 101) list defects in the terminal complement components as a major risk for meningococcal disease. MSD lists \"People treated with eculizumab or ravulizumab (terminal complement activation blocking agents)\" among those at high risk of meningococcal disease. MSD's vaccine page recommends two doses of MenACWY at least 8 weeks apart, with a booster every 5 years, plus a MenB series for people taking these drugs. MSD's PNH page adds that \"patients should receive the meningococcal vaccine at least 14 days before starting therapy\" or start preventive antibiotics, and that flow cytometry for missing surface proteins such as CD55 and CD59 makes the diagnosis.",
+      "explanation": "Answer: meningococcal vaccination. Why: The patient has paroxysmal nocturnal hemoglobinuria (PNH), in which red cells lack GPI-anchored proteins that protect them from complement. Your Osmosis pathology notes, Volume 2 (p. 433), list eculizumab as a monoclonal antibody that reduces complement-mediated hemolysis, warn that it raises the risk of life-threatening neisserial infections, and advise vaccinating against Neisseria meningitidis. Your Pharmacology High Yield file (p. 116) gives its target as complement C5. Blocking C5 stops the membrane attack complex (C5 to C9) from forming, and your El-Husseiny microbiology notes (p. 101) list defects in the terminal complement components as a major risk for meningococcal disease. MSD lists \"People treated with eculizumab or ravulizumab (terminal complement activation blocking agents)\" among those at high risk of meningococcal disease. MSD's vaccine page recommends two doses of MenACWY at least 8 weeks apart, with a booster every 5 years, plus a MenB series for people taking these drugs. MSD's PNH page adds that \"patients should receive the meningococcal vaccine at least 14 days before starting therapy\" or start preventive antibiotics, and that flow cytometry for missing surface proteins such as CD55 and CD59 makes the diagnosis. Correction: your Osmosis notes (Volume 2, p. 433, and Hematology, p. 66) list the direct antiglobulin (Coombs) test as positive in PNH. PNH red cells are destroyed by complement, not by antibodies: StatPearls explains that the loss of complement inhibition \"produces chronic complement-mediated hemolysis of PNH cells,\" and a Blood case review by Townsley and Young describes PNH hemolysis \"in the presence of a negative direct antiglobulin test.\" Expect a negative Coombs test in untreated PNH, which helps separate it from autoimmune hemolytic anemia.",
       "whyWrong": {
         "b": "TNF-alpha blockers are linked to tuberculosis, so latent TB screening comes before those drugs (CDC MMWR). Eculizumab blocks C5, and its main infection risk is Neisseria.",
         "c": "PNH causes iron loss in the urine as hemoglobin and hemosiderin, so these patients may need iron supplements (your Osmosis pathology notes, Volume 2, p. 433), not iron removal.",
@@ -41876,6 +41879,9 @@
       "sources": [
         {
           "title": "Osmosis High-Yield Pathology Notes, Volume 2 (Emily's file), Paroxysmal nocturnal hemoglobinuria, p. 433"
+        },
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Hematology (Emily's file), Paroxysmal nocturnal hemoglobinuria, p. 66"
         },
         {
           "title": "Pharmacology High Yield (Emily's file), Monoclonal antibodies (PDF p. 116)"
@@ -41894,6 +41900,14 @@
         {
           "title": "MSD Manual Professional: Meningococcal Vaccine",
           "url": "https://www.msdmanuals.com/professional/infectious-diseases/immunization/meningococcal-vaccine"
+        },
+        {
+          "title": "StatPearls: Paroxysmal Nocturnal Hemoglobinuria",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK562292/"
+        },
+        {
+          "title": "Townsley DM, Young NS. Blood consult: paroxysmal nocturnal hemoglobinuria and its complications. Blood. 2013;122(16):2795-2798 (PMC)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3798994/"
         },
         {
           "title": "CDC MMWR 2004: Tuberculosis Associated with Blocking Agents Against Tumor Necrosis Factor-Alpha, California, 2002-2003",
@@ -41968,23 +41982,23 @@
       "options": [
         {
           "id": "a",
-          "text": "CD16, a receptor for the Fc of IgG"
+          "text": "CD16"
         },
         {
           "id": "b",
-          "text": "CD56, an adhesion marker of these cells"
+          "text": "CD56"
         },
         {
           "id": "c",
-          "text": "CD40 ligand, a costimulatory molecule"
+          "text": "CD40 ligand"
         },
         {
           "id": "d",
-          "text": "CD21, the receptor that binds EBV"
+          "text": "CD21"
         },
         {
           "id": "e",
-          "text": "CD14, a receptor on macrophages"
+          "text": "CD14"
         }
       ],
       "answer": "a",
