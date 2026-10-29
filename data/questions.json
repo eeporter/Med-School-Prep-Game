@@ -42036,7 +42036,7 @@
       "system": "Reproductive",
       "topic": "Ovarian tumors: high-grade serous carcinoma",
       "difficulty": 2,
-      "stem": "A 63-year-old woman who has never been pregnant comes to the physician because of bloating and a feeling of fullness after only a few bites of food for 3 months. Her waist size has grown even though she is eating less. Abdominal examination shows shifting dullness. Pelvic examination shows firm masses in both adnexa. CT scan shows complex solid and cystic masses in both ovaries, ascites, and many small nodules on the omentum. Serum CA 125 is markedly increased.",
+      "stem": "A 66-year-old woman comes to the physician because of 2 months of abdominal swelling, indigestion, constipation and urinating more often. Genetic testing done after her sister developed breast cancer showed that she carries a BRCA1 mutation. Abdominal examination shows shifting dullness. Pelvic examination shows firm masses in both adnexa. CT scan shows complex solid and cystic masses in both ovaries, ascites, and many small nodules on the omentum. Serum CA 125 is markedly increased.",
       "leadIn": "Biopsy of an omental nodule is most likely to show which tumor type?",
       "options": [
         {
@@ -42061,7 +42061,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: serous carcinoma. Why: Your NBME Top Concepts (pp. 355-356) says tumors of the ovarian surface make up about 90% of ovarian tumors, present with fullness, early satiety and a swollen abdomen, and are followed with CA-125, the marker for epithelial ovarian cancer. The same page splits them into serous tumors (watery secretions; the cystadenocarcinoma is often bilateral) and mucinous tumors (thick mucus; the cystadenocarcinoma causes gelatinous ascites). MSD agrees: \"Most (90%) ovarian cancers develop from epithelial cells,\" and \"High-grade serous ovarian carcinoma is the most common subtype (> 70%) of epithelial carcinomas.\" MSD adds that CA 125 \"is elevated in 80% of advanced epithelial ovarian cancers but may be within normal range in early stages,\" that early symptoms such as bloating and early satiety are vague, and that ascites comes later. Never having been pregnant is a risk factor, and estrogen-progestin contraceptives lower the risk (MSD).",
+      "explanation": "Answer: serous carcinoma. Why: Your NBME Top Concepts (pp. 355-356) says tumors of the ovarian surface make up about 90% of ovarian tumors, present with fullness, early satiety and a swollen abdomen, and are followed with CA-125, the marker for epithelial ovarian cancer. The same page splits them into serous tumors (watery secretions; the cystadenocarcinoma is often bilateral) and mucinous tumors (thick mucus; the cystadenocarcinoma causes gelatinous ascites). MSD agrees: \"Most (90%) ovarian cancers develop from epithelial cells,\" and \"High-grade serous ovarian carcinoma is the most common subtype (> 70%) of epithelial carcinomas.\" MSD adds that CA 125 \"is elevated in 80% of advanced epithelial ovarian cancers but may be within normal range in early stages,\" and that early symptoms are vague (\"dyspepsia, bloating, early satiety, change in bowel habits, urinary frequency\"), with ascites coming later. Her BRCA1 mutation is a major risk factor: \"Women with BRCA1 mutations have a 20 to 40% lifetime risk of developing ovarian cancer.\" MSD also lists nulliparity as a risk factor and says \"Estrogen-progestin contraceptive use is associated with a decreased risk of ovarian cancer.\"",
       "whyWrong": {
         "b": "A mature cystic teratoma is a benign germ cell tumor made of tissue from all three germ layers, mostly ectoderm (MSD; your NBME Top Concepts, p. 357). It does not seed the omentum or cause malignant ascites.",
         "c": "A granulosa cell tumor is a stromal tumor that makes estrogen and causes problems such as postmenopausal bleeding (your NBME Top Concepts, p. 358). This patient's picture is peritoneal spread with a high CA 125.",
@@ -42316,7 +42316,7 @@
       "system": "Reproductive",
       "topic": "Primary amenorrhea: Müllerian agenesis vs androgen insensitivity",
       "difficulty": 2,
-      "stem": "A 16-year-old girl is brought to the physician because she has never had a menstrual period. Her breast development and pubic and axillary hair are at Tanner stage 5, and her height is normal. External genitalia are normal, but the vagina is short and ends blindly, with no cervix. Pelvic ultrasonography shows no uterus and two normal-sized ovaries with follicles. Serum FSH, estradiol and testosterone are within the reference ranges for an adult female. Renal ultrasonography shows the left kidney low in the pelvis.",
+      "stem": "A 17-year-old girl comes to the physician with her mother because all of her friends began menstruating years ago and she has not. Her breasts began to develop at age 11. Breasts and pubic hair are now Tanner stage 5. A speculum can be inserted only about 2 cm before it reaches a closed pouch, and no cervix is seen. Pelvic MRI shows two normal ovaries, no uterus, and a left kidney that lies low in the pelvis. Serum FSH, estradiol and testosterone are within the reference ranges for an adult female.",
       "leadIn": "Failure of which embryonic structure to develop best explains these findings?",
       "options": [
         {
@@ -42404,7 +42404,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: 5-alpha-reductase (type 2). Why: Your Osmosis Physiology notes (p. 580) say 5-alpha-reductase in target tissues turns testosterone into dihydrotestosterone (DHT), and DHT drives the fetal formation of the penis, scrotum and prostate. Page 582 adds that testosterone itself builds the male internal ducts and that anti-Müllerian hormone from Sertoli cells makes the Müllerian ducts shrink. So with working testes but no DHT, the internal organs are male, there is no uterus, and the external genitalia look female or ambiguous at birth. Your NBME Top Concepts (p. 347) says children with 5-alpha-reductase deficiency have male internal genital organs and ambiguous genitalia at birth. MedlinePlus explains why puberty changes things: the testes make more testosterone, which brings \"increased muscle mass, deepening of the voice, development of pubic hair, and a growth spurt,\" while facial and body hair stay sparse. It says the cause is variants in the SRD5A2 gene, that \"This condition is inherited in an autosomal recessive pattern,\" and that most affected people cannot have biological children without assisted reproduction.",
+      "explanation": "Answer: 5-alpha-reductase (type 2). Why: Your Osmosis Physiology notes (p. 580) say 5-alpha-reductase in target tissues turns testosterone into dihydrotestosterone (DHT), and DHT drives the fetal formation of the penis, scrotum and prostate. Page 582 adds that testosterone itself builds the male internal ducts and that anti-Müllerian hormone from Sertoli cells makes the Müllerian ducts shrink. So with working testes but no DHT, the internal organs are male, there is no uterus, and the external genitalia look female or ambiguous at birth. Your NBME Top Concepts (p. 347) says children with 5-alpha-reductase deficiency have male internal genital organs and ambiguous genitalia at birth. MedlinePlus explains why puberty changes things: the testes make more testosterone, which brings \"increased muscle mass, deepening of the voice, development of pubic hair, and a growth spurt,\" while facial and body hair stay sparse. It says the cause is variants in the SRD5A2 gene, that \"This condition is inherited in an autosomal recessive pattern,\" and that most affected people cannot have biological children without assisted reproduction. Correction: your NBME Top Concepts (p. 347) says there is no phallic growth at puberty. MedlinePlus says \"The penis and scrotum (the sac of skin that holds the testes) may grow larger\" at puberty, as testosterone rises.",
       "whyWrong": {
         "b": "A defective androgen receptor (androgen insensitivity syndrome) blocks the effects of testosterone and DHT alike. People with the complete form have sparse or absent pubic hair and do not virilize at puberty (MedlinePlus; your NBME Top Concepts, p. 349).",
         "c": "Aromatase turns testosterone into estradiol, and aromatase inhibitors such as anastrozole lower estrogen (your NBME Top Concepts, p. 347). A placental aromatase defect virilizes the mother and the fetus, which is not this picture.",
@@ -42498,46 +42498,46 @@
       ],
       "discipline": "Pathology",
       "system": "Reproductive",
-      "topic": "Breast cancer: inflammatory carcinoma",
+      "topic": "Breast cancer: inflammatory carcinoma and its first treatment",
       "difficulty": 2,
-      "stem": "A 49-year-old woman comes to the physician because her right breast has been red, swollen and warm for 5 weeks. She has no fever and is not breastfeeding. A 10-day course of cephalexin did not help. Examination shows redness over more than a third of the breast, with thickened skin that is dimpled like the peel of an orange. No discrete mass can be felt. There are hard, fixed lymph nodes in the right axilla. Ultrasonography shows no abscess.",
-      "leadIn": "A skin biopsy is most likely to show which finding?",
+      "stem": "A 44-year-old woman comes to the physician because her left breast has grown larger and heavier over 3 weeks. The skin over more than half of the breast is red, warm, thickened and pitted, and the breast feels firm all over, with no separate lump. Core biopsy of the breast shows high-grade invasive ductal carcinoma, and a punch biopsy of the red skin shows clusters of tumor cells inside small lymphatic channels of the dermis. CT scans of the chest, abdomen and pelvis show no distant spread.",
+      "leadIn": "Which is the most appropriate first treatment?",
       "options": [
         {
           "id": "a",
-          "text": "Tumor cells plugging dermal lymphatics"
+          "text": "Chemotherapy before surgery"
         },
         {
           "id": "b",
-          "text": "Neutrophils filling a breast abscess"
+          "text": "Immediate breast-conserving lumpectomy"
         },
         {
           "id": "c",
-          "text": "Dilated ducts with plasma cells"
+          "text": "Mastectomy as the first step"
         },
         {
           "id": "d",
-          "text": "Clear cells within the nipple epidermis"
+          "text": "Incision and drainage"
         },
         {
           "id": "e",
-          "text": "Leaf-like stroma around ductal spaces"
+          "text": "Oral dicloxacillin for 2 weeks"
         }
       ],
       "answer": "a",
-      "explanation": "Answer: tumor cells plugging the dermal lymphatics. Why: This is inflammatory breast cancer. Your NBME Top Concepts (p. 440) links the orange-peel skin (peau d'orange) to inflammatory breast cancer. Your Elnemr breast pathology notes (p. 10) explain that peau d'orange comes from lymphedema caused by blocked lymphatics, which pushes the skin out except where hair follicles anchor it. On p. 12, the notes call inflammatory carcinoma a clinical diagnosis of a big, red, swollen breast thought to be due to tumor plugging the dermal lymphatics, usually from a high-grade ductal carcinoma, and the most aggressive form of breast cancer. MSD agrees: \"histology reveals tumor emboli within the dermal lymphatics,\" there is often \"no palpable breast lump,\" and \"It has a poor prognosis.\" MSD gives treatment as \"chemotherapy, mastectomy, and radiation,\" with chemotherapy first.",
+      "explanation": "Answer: chemotherapy before surgery (neoadjuvant chemotherapy). Why: Red, thick, pitted skin over a large part of a breast with tumor cells in the dermal lymphatics is inflammatory breast cancer. Your NBME Top Concepts (p. 440) links the orange-peel skin (peau d'orange) to inflammatory breast cancer. Your Elnemr breast pathology notes explain that peau d'orange comes from lymphedema caused by blocked lymphatics (p. 10), and that inflammatory carcinoma is a clinical diagnosis, usually from a high-grade ductal carcinoma, and the most aggressive form of breast cancer (p. 12). MSD agrees: \"For breast cancer staging, the tumor in inflammatory breast cancer is classified as T4d,\" and one diagnostic criterion is \"Erythema occupying at least one-third of the breast.\" A punch biopsy of the skin can show \"dermal lymphovascular tumor emboli,\" although their absence does not rule the disease out. For treatment, MSD says it \"is typically treated with neoadjuvant chemotherapy,\" with anti-HER2 antibodies added for HER2-positive tumors. \"If the patient responds to the neoadjuvant chemotherapy, this is followed by mastectomy and chest wall radiation.\"",
       "whyWrong": {
-        "b": "Acute mastitis and breast abscess usually occur during breastfeeding, come from staphylococci entering through cracked nipples, and show neutrophils (your Elnemr breast pathology notes, p. 1). She is not breastfeeding, antibiotics failed, and ultrasonography shows no abscess.",
-        "c": "Plasma cell mastitis (duct ectasia) shows dilated ducts with thick secretions surrounded by plasma cells, and it forms a firm, tender mass (your Elnemr breast pathology notes, p. 2). It does not cause diffuse peau d'orange with hard axillary nodes.",
-        "d": "Large clear cells in the epidermis of the nipple are Paget cells. Paget disease causes a red, scaly, ulcerated nipple (your Elnemr breast pathology notes, p. 11).",
-        "e": "Leaf-like, very cellular stroma around benign ducts describes a phyllodes tumor, which forms a large mass (your Elnemr breast pathology notes, p. 6)."
+        "b": "MSD gives the surgery for inflammatory breast cancer as mastectomy and lymph node dissection, done after chemotherapy. A lumpectomy as the first step does not fit a cancer that fills the dermal lymphatics of more than half the breast.",
+        "c": "MSD places mastectomy after neoadjuvant chemotherapy, once the tumor has responded, not as the first treatment.",
+        "d": "Incision and drainage treats a breast abscess, a collection of neutrophils that usually forms during breastfeeding (your Elnemr breast pathology notes, p. 1). Her biopsy shows cancer, not pus.",
+        "e": "An antistaphylococcal antibiotic treats acute mastitis, which usually comes from staphylococci entering through cracked nipples during breastfeeding (your Elnemr breast pathology notes, p. 1). Her biopsy already shows cancer."
       },
       "sources": [
         {
           "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Breast cancer summary, p. 440"
         },
         {
-          "title": "Dr. Elnemr Reproductive Pathology: Breast (Emily's file), Mastitis, p. 1; plasma cell mastitis, p. 2; phyllodes tumor, p. 6; peau d'orange, p. 10; Paget disease, p. 11; inflammatory carcinoma, p. 12"
+          "title": "Dr. Elnemr Reproductive Pathology: Breast (Emily's file), Mastitis and abscess, p. 1; peau d'orange, p. 10; inflammatory carcinoma, p. 12"
         },
         {
           "title": "MSD Manual Professional: Inflammatory Breast Cancer",
@@ -42560,27 +42560,27 @@
       "options": [
         {
           "id": "a",
-          "text": "HER2 receptor tyrosine kinase"
+          "text": "HER2"
         },
         {
           "id": "b",
-          "text": "Vascular endothelial growth factor"
+          "text": "VEGF-A"
         },
         {
           "id": "c",
-          "text": "Nuclear estrogen receptor"
+          "text": "Estrogen receptor"
         },
         {
           "id": "d",
-          "text": "Aromatase enzyme"
+          "text": "Aromatase"
         },
         {
           "id": "e",
-          "text": "CD30 on lymphoma cells"
+          "text": "CD30"
         }
       ],
       "answer": "a",
-      "explanation": "Answer: the HER2 receptor tyrosine kinase. Why: Your NBME Top Concepts (p. 440) lists HER2/neu (gene amplification, tyrosine kinase receptor) among the breast cancer stains and gives the chain to remember: a HER2-positive cancer is treated with trastuzumab, and trastuzumab is cardiotoxic. Your Elnemr breast pathology notes (p. 13) say HER2/neu is an oncogene in the EGFR family and that HER2-positive tumors are aggressive and need targeted therapy with trastuzumab. Your Pharmacology High Yield notes (PDF p. 115) list trastuzumab and pertuzumab as HER2 antibodies for HER2-positive breast cancer, with infusion reactions and cardiomyopathy as side effects. MSD agrees: HER2 is overexpressed in about 15% of breast cancers and predicts a worse outlook, trastuzumab with chemotherapy \"substantially reduces recurrence and mortality rates,\" and \"A serious potential adverse effect of both these anti-HER2 medications is a decreased cardiac ejection fraction.\"",
+      "explanation": "Answer: HER2, a receptor tyrosine kinase. Why: Your NBME Top Concepts (p. 440) lists HER2/neu (gene amplification, tyrosine kinase receptor) among the breast cancer stains and gives the chain to remember: a HER2-positive cancer is treated with trastuzumab, and trastuzumab is cardiotoxic. Your Elnemr breast pathology notes (p. 13) say HER2/neu is an oncogene in the EGFR family and that HER2-positive tumors are aggressive and need targeted therapy with trastuzumab. Your Pharmacology High Yield notes (PDF p. 115) list trastuzumab and pertuzumab as HER2 antibodies for HER2-positive breast cancer, with infusion reactions and cardiomyopathy as side effects. MSD agrees: HER2 is overexpressed in about 15% of breast cancers and predicts a worse outlook, trastuzumab with chemotherapy \"substantially reduces recurrence and mortality rates,\" and \"A serious potential adverse effect of both these anti-HER2 medications is a decreased cardiac ejection fraction.\"",
       "whyWrong": {
         "b": "Bevacizumab targets VEGF and is used for metastatic colorectal cancer, renal cell carcinoma and diabetic retinopathy (your Pharmacology High Yield notes, PDF p. 115). Her tumor has an amplified receptor gene, which points to HER2.",
         "c": "The estrogen receptor is a nuclear receptor blocked by tamoxifen (your NBME Top Concepts, p. 440; MSD). Her tumor is receptor-negative, and tamoxifen is a small molecule, not an antibody.",
@@ -42950,7 +42950,7 @@
       ]
     },
     {
-      "id": "neuro-pcp-nmda-antagonism-001",
+      "id": "neuro-pcp-ketamine-nmda-001",
       "exams": [
         "usmle-step1",
         "nbme"
@@ -42959,37 +42959,37 @@
       "system": "Behavioral Health",
       "topic": "Drugs of abuse: phencyclidine (PCP) and NMDA receptors",
       "difficulty": 2,
-      "stem": "A 22-year-old man is brought to the emergency department by police after he fought four officers outside a party. He did not seem to notice a deep cut on his forearm. He is agitated, shouting and hard to calm. His temperature is 38.0°C (100.4°F), pulse is 126/min, and blood pressure is 172/104 mm Hg. His pupils are mid-sized and react to light, and his skin is dry. There is nystagmus in both the vertical and horizontal directions. His speech is slurred, his gait is ataxic, and his muscles are rigid.",
-      "leadIn": "The drug this patient most likely used acts mainly by which mechanism?",
+      "stem": "A 17-year-old is brought to the emergency department from a party, where friends found the teen standing in a corner, staring, not speaking and not answering questions. In the department, the patient holds the arms stiffly in odd positions, then suddenly kicks at a nurse who touches the patient's leg. Temperature is 38.2°C (100.8°F), pulse is 122/min, and blood pressure is 166/102 mm Hg. The pupils are mid-sized and react to light. There is nystagmus in both the vertical and horizontal directions, and a pinprick on the foot draws no response.",
+      "leadIn": "The drug most likely taken shares its main mechanism of action with which anesthetic?",
       "options": [
         {
           "id": "a",
-          "text": "NMDA receptor antagonism"
+          "text": "Ketamine"
         },
         {
           "id": "b",
-          "text": "Mu-opioid receptor agonism"
+          "text": "Midazolam"
         },
         {
           "id": "c",
-          "text": "Enhanced GABA-A receptor activity"
+          "text": "Thiopental"
         },
         {
           "id": "d",
-          "text": "Blockade of dopamine reuptake"
+          "text": "Fentanyl"
         },
         {
           "id": "e",
-          "text": "Cannabinoid receptor agonism"
+          "text": "Dexmedetomidine"
         }
       ],
       "answer": "a",
-      "explanation": "Answer: NMDA receptor antagonism, from phencyclidine (PCP). Why: DSM-5-TR (pp. 594-595), in paraphrase, describes PCP intoxication as recent use with problem behavior such as fighting, impulsiveness, agitation and poor judgment, plus at least two signs within 1 hour. The signs include vertical or horizontal nystagmus, high blood pressure or a fast heart rate, numbness or less response to pain, ataxia, slurred speech, muscle rigidity, seizures or coma, and sensitivity to sound. This patient has nearly all of them. Your NBME Top Concepts (p. 412) links superhuman strength, high blood pressure, a fast pulse and vertical nystagmus to NMDA antagonism. MSD agrees that \"PCP is a noncompetitive N-Methyl-D-aspartate (NMDA) receptor antagonist,\" that users \"may present with violent or dangerous behavior,\" and that they \"may be impervious to pain.\" MSD advises a quiet, calm room with close observation and \"Benzodiazepines can be used to manage agitation and seizures.\"",
+      "explanation": "Answer: ketamine. Why: Staring, mutism and stiff posturing that switch suddenly to violence, with high blood pressure, a fast pulse, vertical and horizontal nystagmus and no response to pain, point to phencyclidine (PCP). DSM-5-TR (pp. 594-595), in paraphrase, lists problem behaviors such as belligerence, impulsiveness and agitation, plus at least two signs within 1 hour: nystagmus in either direction, high blood pressure or a fast heart rate, less response to pain, ataxia, slurred speech, muscle rigidity, seizures or coma, and sensitivity to sound. Your NBME Top Concepts (p. 412) ties vertical nystagmus with hypertension and tachycardia to NMDA antagonism. MSD explains the link to ketamine: \"Ketamine and phencyclidine (PCP) are dissociative anesthetics with similar chemical structures,\" \"PCP is a noncompetitive N-Methyl-D-aspartate (NMDA) receptor antagonist,\" and \"Ketamine is as potent an NMDA receptor antagonist as PCP by the same mechanism of action.\" PCP was first meant to be an anesthetic but is not used clinically because of its side effects (MSD). Your Pharmacology High Yield notes (PDF p. 49) list ketamine, xenon and nitrous oxide as NMDA blockers. For agitation, MSD advises a quiet room, close observation and benzodiazepines.",
       "whyWrong": {
-        "b": "Opioids act on mu receptors and cause drowsiness, respiratory depression and small pupils: \"Pupils are miotic in an overdose\" (MSD; your NBME Top Concepts, p. 412). This patient is agitated and his pupils are mid-sized.",
-        "c": "Benzodiazepines bind GABA-A receptors and \"increase the affinity of the receptor for GABA\" (MSD). Intoxication causes somnolence, depressed reflexes and respiratory depression, not violent agitation with hypertension.",
-        "d": "Cocaine blocks the reuptake of dopamine, norepinephrine and serotonin, and MSD says \"mydriasis and diaphoresis are apparent\" on examination. His pupils are mid-sized and his skin is dry, and vertical nystagmus fits PCP (your NBME Top Concepts, p. 412).",
-        "e": "THC binds cannabinoid receptors, and its physical effects are mild in most people: a fast heart rate, red eyes and dry mouth (MSD). It does not cause vertical nystagmus or violent agitation with rigidity."
+        "b": "Midazolam is a short-acting benzodiazepine used in anesthesia (your Pharmacology High Yield notes, PDF p. 44). Benzodiazepines bind GABA-A receptors and \"increase the affinity of the receptor for GABA\" (MSD).",
+        "c": "Thiopental is an ultrashort-acting barbiturate used for intravenous induction of anesthesia (your Pharmacology High Yield notes, PDF p. 45). It is not on the list of NMDA blockers (PDF p. 49).",
+        "d": "Fentanyl is an opioid. Opioid overdose causes drowsiness, respiratory depression and pupils that \"are miotic in an overdose\" (MSD), not agitation with mid-sized pupils.",
+        "e": "Dexmedetomidine is an alpha-2 agonist used for sedation in ICU patients (your Pharmacology High Yield notes, PDF p. 20). It is not an NMDA blocker."
       },
       "sources": [
         {
@@ -42999,193 +42999,185 @@
           "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Drugs of abuse, p. 412"
         },
         {
-          "title": "MSD Manual Professional: Ketamine and Phencyclidine (PCP)",
-          "url": "https://www.msdmanuals.com/professional/special-subjects/illicit-drugs-and-intoxicants/ketamine-and-phencyclidine-pcp"
+          "title": "Pharmacology High Yield (Emily's file), Alpha-2 agonists, PDF p. 20; benzodiazepines, PDF p. 44; barbiturates, PDF p. 45; NMDA blockers, PDF p. 49"
         },
         {
-          "title": "MSD Manual Professional: Opioid Toxicity and Withdrawal",
-          "url": "https://www.msdmanuals.com/professional/psychiatric-disorders/opioid-use-disorder/opioid-toxicity-and-withdrawal"
+          "title": "MSD Manual Professional: Ketamine and Phencyclidine (PCP)",
+          "url": "https://www.msdmanuals.com/professional/special-subjects/illicit-drugs-and-intoxicants/ketamine-and-phencyclidine-pcp"
         },
         {
           "title": "MSD Manual Professional: Benzodiazepines and Barbiturates",
           "url": "https://www.msdmanuals.com/professional/special-subjects/illicit-drugs-and-intoxicants/benzodiazepines-and-barbiturates"
         },
         {
-          "title": "MSD Manual Professional: Cocaine",
-          "url": "https://www.msdmanuals.com/professional/special-subjects/illicit-drugs-and-intoxicants/cocaine"
-        },
-        {
-          "title": "MSD Manual Professional: Marijuana (Cannabis)",
-          "url": "https://www.msdmanuals.com/professional/special-subjects/illicit-drugs-and-intoxicants/marijuana-cannabis"
+          "title": "MSD Manual Professional: Opioid Toxicity and Withdrawal",
+          "url": "https://www.msdmanuals.com/professional/psychiatric-disorders/opioid-use-disorder/opioid-toxicity-and-withdrawal"
         }
       ]
     },
     {
-      "id": "psych-cannabis-intoxication-001",
+      "id": "psych-cannabis-hyperemesis-001",
       "exams": [
         "usmle-step1",
         "nbme"
       ],
       "discipline": "Behavioral Science",
       "system": "Behavioral Health",
-      "topic": "Substance intoxication: cannabis",
-      "difficulty": 1,
-      "stem": "A 19-year-old college student is brought to the student health center by a roommate. An hour after a party, the student began giggling at nothing, then became anxious and said that time had slowed down. The student has since eaten a large pizza and two bags of chips. The student is oriented but slow to answer and has trouble walking a straight line. Pulse is 116/min, blood pressure is 128/80 mm Hg, and respirations are 16/min. The mouth is dry.",
-      "leadIn": "Which additional finding is most likely on examination?",
+      "topic": "Cannabis: cannabinoid hyperemesis syndrome",
+      "difficulty": 2,
+      "stem": "A 26-year-old comes to the emergency department for the third time in 6 months because of 2 days of nausea and vomiting many times a day. Between episodes, the patient feels well. The patient has smoked cannabis several times a day for 4 years and says that standing in a hot shower for long periods is the only thing that eases the nausea. Temperature is 37.0°C (98.6°F), and the abdomen is soft and only mildly tender. Serum lipase, liver tests and a pregnancy test are normal, and abdominal ultrasonography shows no gallstones. Intravenous fluids and an antiemetic are given.",
+      "leadIn": "Which is the most effective long-term treatment?",
       "options": [
         {
           "id": "a",
-          "text": "Conjunctival injection"
+          "text": "Stopping cannabis use"
         },
         {
           "id": "b",
-          "text": "Pinpoint pupils"
+          "text": "Daily oral ondansetron"
         },
         {
           "id": "c",
-          "text": "Vertical nystagmus"
+          "text": "Topical capsaicin on the abdomen"
         },
         {
           "id": "d",
-          "text": "Dilated pupils with sweating"
+          "text": "Haloperidol at bedtime"
         },
         {
           "id": "e",
-          "text": "Depressed deep tendon reflexes"
+          "text": "Increasing cannabis use"
         }
       ],
       "answer": "a",
-      "explanation": "Answer: conjunctival injection (red eyes). Why: This is cannabis intoxication. DSM-5-TR (p. 582), in paraphrase, requires recent cannabis use with problem changes in behavior or mood, such as poor coordination, euphoria, anxiety, a feeling that time has slowed, poor judgment or social withdrawal. It also requires at least two signs within 2 hours of use: a fast heart rate, red eyes (conjunctival injection), a dry mouth and a bigger appetite. This student has the last three, so red eyes are the likely remaining finding. Your NBME Top Concepts (p. 412) pairs this kind of vignette with conjunctival injection. MSD agrees: \"Tachycardia, conjunctival injection, and dry mouth occur regularly,\" \"Appetite often increases,\" and THC \"binds at cannabinoid receptors, which are present throughout the brain.\" Your Osmosis Pathology Volume 2 notes (pp. 750-751) add that regular use causes tolerance as cannabinoid receptors are downregulated, and that withdrawal brings cravings, irritability, anxiety and trouble sleeping. MSD notes that frequent users can develop cannabinoid hyperemesis syndrome, with cycles of nausea and vomiting.",
+      "explanation": "Answer: stopping cannabis use. Why: Repeated bouts of vomiting in a heavy cannabis user, eased by hot showers, point to cannabinoid hyperemesis syndrome. MSD says it \"may develop in frequent users of marijuana\" and is \"a syndrome of cyclic episodes of nausea and vomiting.\" It adds: \"Hot bathing ameliorates these symptoms and, if this is reported by a patient, it is a clinical clue to the diagnosis.\" MSD is clear about treatment: \"The main treatment is to discontinue use of marijuana.\" During an attack, patients may need intravenous fluids, antiemetics, haloperidol or topical capsaicin on the abdomen, but the evidence for haloperidol and capsaicin is anecdotal. Your Osmosis Pathology Volume 2 notes (pp. 750-751) explain why quitting can be hard. Regular use downregulates cannabinoid receptors, so tolerance develops, and stopping brings cravings, irritability, anxiety and trouble sleeping. The notes list motivational interviewing as the psychotherapy for cannabis use disorder. DSM-5-TR (p. 582) describes the very different acute picture of cannabis intoxication: a fast heart rate, red eyes, a dry mouth and a bigger appetite.",
       "whyWrong": {
-        "b": "Pinpoint pupils point to opioids, which cause drowsiness and respiratory depression (MSD; your NBME Top Concepts, p. 412). This student is alert, anxious and eating.",
-        "c": "Vertical nystagmus is a sign of phencyclidine intoxication, which also causes agitation, violence and high blood pressure (DSM-5-TR, p. 595; your NBME Top Concepts, p. 412).",
-        "d": "Dilated pupils with sweating, along with a fast heart rate and high blood pressure, point to cocaine (MSD).",
-        "e": "Depressed deep tendon reflexes, along with somnolence and ataxia, fit benzodiazepine or barbiturate intoxication (MSD). This student is anxious and hungry, not sedated."
+        "b": "Antiemetics help during an attack (MSD), but they do not remove the cause. MSD names stopping marijuana as the main treatment.",
+        "c": "MSD lists topical capsaicin on the abdomen for an acute attack, based only on anecdotal reports. It does not prevent future episodes while cannabis use continues.",
+        "d": "MSD lists haloperidol for acute episodes, based on anecdotal reports that have not been tested in clinical studies. It is not a long-term treatment.",
+        "e": "Cannabis is the cause of the syndrome, so using more keeps it going. MSD says the main treatment is to stop using marijuana."
       },
       "sources": [
-        {
-          "title": "DSM-5-TR (Emily's file), Cannabis intoxication, p. 582; phencyclidine intoxication, p. 595"
-        },
-        {
-          "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Drugs of abuse, p. 412"
-        },
-        {
-          "title": "Osmosis High-Yield Pathology Notes, Volume 2 (Emily's file), Cannabis dependence, pp. 750-751"
-        },
         {
           "title": "MSD Manual Professional: Marijuana (Cannabis)",
           "url": "https://www.msdmanuals.com/professional/special-subjects/illicit-drugs-and-intoxicants/marijuana-cannabis"
         },
         {
-          "title": "MSD Manual Professional: Opioid Toxicity and Withdrawal",
-          "url": "https://www.msdmanuals.com/professional/psychiatric-disorders/opioid-use-disorder/opioid-toxicity-and-withdrawal"
+          "title": "Osmosis High-Yield Pathology Notes, Volume 2 (Emily's file), Cannabis dependence, pp. 750-751"
         },
         {
-          "title": "MSD Manual Professional: Cocaine",
-          "url": "https://www.msdmanuals.com/professional/special-subjects/illicit-drugs-and-intoxicants/cocaine"
-        },
-        {
-          "title": "MSD Manual Professional: Benzodiazepines and Barbiturates",
-          "url": "https://www.msdmanuals.com/professional/special-subjects/illicit-drugs-and-intoxicants/benzodiazepines-and-barbiturates"
+          "title": "DSM-5-TR (Emily's file), Cannabis intoxication, p. 582"
         }
       ]
     },
     {
-      "id": "pharm-lithium-thiazide-toxicity-001",
+      "id": "pharm-lithium-toxicity-hemodialysis-001",
       "exams": [
         "usmle-step1",
         "nbme"
       ],
       "discipline": "Pharmacology",
       "system": "Behavioral Health",
-      "topic": "Lithium: drug interactions and toxicity",
+      "topic": "Lithium: severe toxicity and its treatment",
       "difficulty": 2,
-      "stem": "A 52-year-old woman with bipolar I disorder has been stable for 9 years on the same dose of a mood stabilizer. Three weeks ago, her physician started a new drug for high blood pressure. For 4 days, she has had a coarse tremor of both hands, vomiting, a headache that will not go away and confusion. She is unsteady on her feet. Deep tendon reflexes are brisk. Her serum level of the mood stabilizer is 2.1 mEq/L (her usual level is 0.7 mEq/L). Serum sodium is 133 mEq/L.",
-      "leadIn": "Which class of drug was most likely started 3 weeks ago?",
+      "stem": "A 61-year-old man with bipolar I disorder has taken lithium for 15 years. Two weeks ago, he began taking naproxen twice daily for knee osteoarthritis. His wife brings him to the emergency department because he has become confused and has had vomiting and diarrhea for 2 days. In the department, he has a generalized seizure. Examination shows a coarse tremor and brisk reflexes. Serum lithium is 4.4 mEq/L (his usual level is 0.7 mEq/L), and serum creatinine has risen from 1.0 to 1.9 mg/dL. Intravenous normal saline is started.",
+      "leadIn": "Which is the most appropriate next step to remove the drug from his body?",
       "options": [
         {
           "id": "a",
-          "text": "Thiazide diuretic"
+          "text": "Hemodialysis"
         },
         {
           "id": "b",
-          "text": "Calcium channel blocker"
+          "text": "Activated charcoal"
         },
         {
           "id": "c",
-          "text": "Beta-adrenergic blocker"
+          "text": "Urine alkalinization with bicarbonate"
         },
         {
           "id": "d",
-          "text": "Alpha-1 adrenergic blocker"
+          "text": "Intravenous flumazenil"
         },
         {
           "id": "e",
-          "text": "Central alpha-2 agonist"
+          "text": "Intravenous naloxone"
         }
       ],
       "answer": "a",
-      "explanation": "Answer: a thiazide diuretic, such as hydrochlorothiazide. Why: The mood stabilizer is lithium. Your NBME Top Concepts (pp. 401-402) says lithium has a narrow therapeutic index and lists thiazide diuretics, NSAIDs and dehydration as triggers for toxicity, along with its other problems: Ebstein anomaly in pregnancy, nephrogenic diabetes insipidus, hypothyroidism and a fine tremor. Your Pharmacology High Yield notes (PDF p. 63) say hyponatremia, diuretics and NSAIDs make lithium toxicity worse, that maintenance levels for bipolar disorder are 0.5 to 0.8 mEq/L, that toxic symptoms appear above 1.5 mEq/L, and that hemodialysis is needed at 4 mEq/L. MSD agrees that \"Thiazide diuretics, angiotensin-converting enzyme (ACE) inhibitors, and nonsteroidal anti-inflammatory drugs\" (other than aspirin) can raise lithium levels, and that toxicity is more likely with sodium loss, for example from diuretics. MSD says acute toxicity starts with \"gross tremor, increased deep tendon reflexes, persistent headache, vomiting, and confusion\" and can progress to stupor, seizures and arrhythmias.",
+      "explanation": "Answer: hemodialysis. Why: Your NBME Top Concepts (p. 402) says lithium has a narrow therapeutic index and lists NSAIDs, thiazide diuretics and dehydration as triggers for toxicity. Your Pharmacology High Yield notes (PDF p. 63) say diuretics, NSAIDs and low sodium make lithium toxicity worse, that the maintenance range in bipolar disorder is 0.5 to 0.8 mEq/L, that toxic symptoms appear above 1.5 mEq/L, and that hemodialysis is needed at 4 mEq/L. MSD agrees that nonsteroidal anti-inflammatory drugs (other than aspirin) can raise lithium levels, along with \"Thiazide diuretics, angiotensin-converting enzyme (ACE) inhibitors.\" MSD says acute toxicity starts with \"gross tremor, increased deep tendon reflexes, persistent headache, vomiting, and confusion\" and can progress to stupor, seizures and arrhythmias. Lithium is on MSD's list of \"Common toxins that may require dialysis or hemoperfusion.\" Here the level is above 4 mEq/L, he has had a seizure, and his kidneys are clearing less of the drug.",
       "whyWrong": {
-        "b": "Calcium channel blockers such as amlodipine are not among the drugs your notes or MSD list as raising lithium levels (your NBME Top Concepts, p. 402; MSD). The trigger here is a drug that causes sodium loss.",
-        "c": "Beta-blockers are not on the list of lithium triggers in your notes or MSD. Your NBME Top Concepts (p. 402) names thiazides, NSAIDs and dehydration.",
-        "d": "Alpha-1 blockers such as doxazosin are not listed as raising lithium levels (your Pharmacology High Yield notes, PDF p. 63; MSD). The low sodium points to a diuretic.",
-        "e": "Central alpha-2 agonists such as clonidine are not listed as raising lithium levels (your NBME Top Concepts, p. 402; MSD)."
+        "b": "MSD says \"Charcoal is ineffective for caustics, alcohols, and simple ions (eg, cyanide, iron, other metals, lithium).\"",
+        "c": "MSD says alkalinizing the urine \"enhances elimination of weak acids (eg, salicylates, phenobarbital).\" Lithium is a simple ion, not a weak acid.",
+        "d": "Flumazenil reverses benzodiazepines (your Pharmacology High Yield notes, PDF p. 45; MSD). It has no effect on lithium.",
+        "e": "Naloxone reverses opioids (MSD; your NBME Top Concepts, p. 412). It has no effect on lithium."
       },
       "sources": [
         {
-          "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Lithium drug interaction, p. 401; narrow therapeutic index, p. 402"
+          "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Lithium narrow therapeutic index, p. 402; drugs of abuse, p. 412"
         },
         {
-          "title": "Pharmacology High Yield (Emily's file), Lithium, PDF p. 63"
+          "title": "Pharmacology High Yield (Emily's file), Lithium, PDF p. 63; flumazenil, PDF p. 45"
         },
         {
           "title": "MSD Manual Professional: Medications for Treatment of Bipolar Disorders",
           "url": "https://www.msdmanuals.com/professional/psychiatric-disorders/mood-disorders/medications-for-treatment-of-bipolar-disorders"
+        },
+        {
+          "title": "MSD Manual Professional: General Principles of Poisoning",
+          "url": "https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/general-principles-of-poisoning"
+        },
+        {
+          "title": "MSD Manual Professional: Opioid Toxicity and Withdrawal",
+          "url": "https://www.msdmanuals.com/professional/psychiatric-disorders/opioid-use-disorder/opioid-toxicity-and-withdrawal"
+        },
+        {
+          "title": "MSD Manual Professional: Benzodiazepines and Barbiturates",
+          "url": "https://www.msdmanuals.com/professional/special-subjects/illicit-drugs-and-intoxicants/benzodiazepines-and-barbiturates"
         }
       ]
     },
     {
-      "id": "bs-suicide-risk-prior-attempt-001",
+      "id": "bs-suicide-means-firearm-001",
       "exams": [
         "usmle-step1",
         "nbme"
       ],
       "discipline": "Behavioral Science",
       "system": "Behavioral Health",
-      "topic": "Suicide: risk factors",
+      "topic": "Suicide risk assessment: asking about lethal means",
       "difficulty": 2,
-      "stem": "A 46-year-old man is evaluated in the emergency department after his sister found him writing goodbye letters. He has major depressive disorder. Eighteen months ago, he was hospitalized after an overdose of acetaminophen. He has had chronic low back pain for 10 years, has lived alone since his divorce, and drinks two beers most nights. His uncle died by suicide. He says he feels hopeless.",
-      "leadIn": "Which factor in his history most increases his risk of dying by suicide?",
+      "stem": "A 38-year-old woman with major depressive disorder comes for a follow-up visit 3 weeks after starting sertraline. She says she still sleeps poorly, has lost 3 kg (6.6 lb), and feels like a burden to her family. When asked directly, she says that over the past week she has thought about ending her life and has thought about how she would do it. She has never acted on these thoughts. She lives with her husband and two teenagers in a rural area.",
+      "leadIn": "Which question is most important to ask her next?",
       "options": [
         {
           "id": "a",
-          "text": "Prior suicide attempt"
+          "text": "Do you have access to a firearm?"
         },
         {
           "id": "b",
-          "text": "Chronic low back pain"
+          "text": "How many hours do you sleep each night?"
         },
         {
           "id": "c",
-          "text": "Living alone since a divorce"
+          "text": "Have you had any recent change in appetite?"
         },
         {
           "id": "d",
-          "text": "Nightly alcohol use"
+          "text": "Do you drink caffeinated beverages?"
         },
         {
           "id": "e",
-          "text": "An uncle's death by suicide"
+          "text": "When was your last menstrual period?"
         }
       ],
       "answer": "a",
-      "explanation": "Answer: his prior suicide attempt. Why: Your NBME Top Concepts (p. 399) names a prior attempt as the risk factor that poses the highest risk of completed suicide. It lists other risk factors as psychiatric disorders, owning a firearm, a family member who died by suicide, male sex and poor social support. All of those also apply here, which is why the question asks for the strongest one. MSD lists \"Previous suicide attempt\" under a history of suicidality, notes that males \"die by suicide at more than twice the rate of females,\" and says depression is \"One of the most common, potent, and remediable risk factors for suicide.\" The WHO fact sheet agrees that \"A prior suicide attempt is an important risk factor for suicide in the general population.\" This patient needs a safety assessment now, including asking about access to firearms and other means; WHO lists limiting access to means of suicide as a key prevention step.",
+      "explanation": "Answer: whether she has access to a firearm. Why: She has active thoughts of suicide and has thought about a method, so the next step is to find out what lethal means she can reach. MSD says \"firearms were the most common method used in completed suicides.\" The WHO fact sheet lists, as a key prevention step, to \"limit access to the means of suicide (e.g. pesticides, firearms, certain medications).\" Your NBME Top Concepts (p. 399) lists firearm possession among the risk factors for completed suicide, along with psychiatric disorders, a relative who died by suicide, male sex and poor social support. A prior attempt carries the highest risk on that page. MSD adds that depression is \"One of the most common, potent, and remediable risk factors for suicide.\" Asking directly about suicidal thoughts does not cause them, so the physician should go on to ask about her plan, intent and means, and about medications at home that could be taken in overdose.",
       "whyWrong": {
-        "b": "Chronic pain does raise risk: MSD says \"Serious medical conditions, especially those that are chronic and painful, contribute significantly to suicides.\" But your NBME Top Concepts (p. 399) ranks a prior attempt highest.",
-        "c": "Social isolation and poor social support are risk factors (MSD; your NBME Top Concepts, p. 399), but they rank below a prior attempt.",
-        "d": "MSD says that \"Over one third of people who die by suicide have consumed alcohol before the attempt,\" so alcohol matters, but it is not the strongest factor in this history (your NBME Top Concepts, p. 399).",
-        "e": "A family history of suicide raises risk (MSD; your NBME Top Concepts, p. 399), but a person's own prior attempt carries more risk."
+        "b": "Poor sleep is already known and counts toward the diagnosis of a depressive episode (DSM-5-TR, p. 183). Measuring it more precisely does not change her immediate safety.",
+        "c": "Appetite and weight change are also depressive symptoms (DSM-5-TR, p. 183), and she has already reported weight loss. This does not address the danger she describes.",
+        "d": "Caffeine intake might bear on her sleep, but it does nothing to reduce suicide risk. Means restriction does (WHO; MSD).",
+        "e": "A pregnancy question can matter for drug choice, but it is not the priority when a patient has active suicidal thoughts and has thought about a method (WHO; MSD)."
       },
       "sources": [
         {
@@ -43198,6 +43190,9 @@
         {
           "title": "World Health Organization fact sheet: Suicide",
           "url": "https://www.who.int/news-room/fact-sheets/detail/suicide"
+        },
+        {
+          "title": "DSM-5-TR (Emily's file), Major depressive disorder, p. 183"
         }
       ]
     }
