@@ -32347,16 +32347,16 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: the right subthalamic nucleus. Why: Your El-Husseiny neurology notes (pp. 103 and 106) explain that damage to the subthalamic nucleus, which helps control basal ganglia output through the indirect pathway, causes hemiballismus: wild, flinging movements of the limbs on the opposite side. The most common cause is a lacunar stroke in a patient with long-standing hypertension. StatPearls (Neuroanatomy, Subthalamic Nucleus) agrees that damage to the subthalamic nucleus can cause ballistic flailing of a limb on the side opposite the lesion, and that stroke is the most common cause. Left-sided movements point to the right subthalamic nucleus.",
+      "explanation": "Answer: the right subthalamic nucleus. Why: Your El-Husseiny neurology notes (pp. 102 and 105) explain that damage to the subthalamic nucleus, which helps control basal ganglia output through the indirect pathway, causes hemiballismus: wild, flinging movements of the limbs on the opposite side. The most common cause is a lacunar stroke in a patient with long-standing hypertension. StatPearls (Neuroanatomy, Subthalamic Nucleus) agrees that damage to the subthalamic nucleus can cause ballistic flailing of a limb on the side opposite the lesion, and that stroke is the most common cause. Left-sided movements point to the right subthalamic nucleus.",
       "whyWrong": {
-        "b": "The movements appear on the side opposite the lesion (your notes, p. 106), so left-sided flinging points to the right subthalamic nucleus.",
-        "c": "Loss of neurons in the caudate causes the chorea of Huntington disease (your notes, p. 102), which develops slowly rather than suddenly on one side.",
-        "d": "Loss of dopamine neurons in the substantia nigra causes Parkinson disease (your notes, p. 101), with slow movement and tremor rather than flinging.",
-        "e": "A cerebellar hemisphere lesion causes ataxia, intention tremor and dysmetria on the same side (your notes, p. 95), not flinging movements."
+        "b": "The movements appear on the side opposite the lesion (your notes, p. 105), so left-sided flinging points to the right subthalamic nucleus.",
+        "c": "Loss of neurons in the caudate causes the chorea of Huntington disease (your notes, p. 101), which develops slowly rather than suddenly on one side.",
+        "d": "Loss of dopamine neurons in the substantia nigra causes Parkinson disease (your notes, p. 100), with slow movement and tremor rather than flinging.",
+        "e": "A cerebellar hemisphere lesion causes ataxia, intention tremor and dysmetria on the same side (your notes, p. 94), not flinging movements."
       },
       "sources": [
         {
-          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Parkinson disease, p. 101; Huntington disease, p. 102; hemiballismus, p. 103; subthalamus, p. 106; cerebellar lesions, p. 95"
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Parkinson disease, p. 100; Huntington disease, p. 101; hemiballismus, p. 102; subthalamus, p. 105; cerebellar lesions, p. 94"
         },
         {
           "title": "StatPearls: Neuroanatomy, Subthalamic Nucleus",
@@ -32399,16 +32399,16 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: the mammillary bodies. Why: Your El-Husseiny neurology notes (pp. 132-134) explain that Korsakoff syndrome is seen mainly in people with alcohol use disorder who are thiamine deficient. The mammillary bodies, part of the Papez circuit for memory and emotion, are the structures most often damaged. Korsakoff syndrome causes anterograde and retrograde amnesia, confabulation (filling memory gaps with invented stories the patient believes) and lack of insight, and the memory loss is permanent. Neuropathology (Chapter 8, Wernicke-Korsakoff syndrome) agrees that the syndrome is caused by thiamine deficiency, is most common in alcoholics, always involves the mammillary bodies, and causes anterograde and retrograde amnesia.",
+      "explanation": "Answer: the mammillary bodies. Why: Your El-Husseiny neurology notes (pp. 131-133) explain that Korsakoff syndrome is seen mainly in people with alcohol use disorder who are thiamine deficient. The mammillary bodies, part of the Papez circuit for memory and emotion, are the structures most often damaged. Korsakoff syndrome causes anterograde and retrograde amnesia, confabulation (filling memory gaps with invented stories the patient believes) and lack of insight, and the memory loss is permanent. Neuropathology (Chapter 8, Wernicke-Korsakoff syndrome) agrees that the syndrome is caused by thiamine deficiency, is most common in alcoholics, always involves the mammillary bodies, and causes anterograde and retrograde amnesia.",
       "whyWrong": {
-        "b": "Bilateral amygdala damage causes Klüver-Bucy syndrome, with disinhibited behavior such as hyperorality and hypersexuality (your notes, pp. 133-134), not confabulation.",
-        "c": "Caudate atrophy is the hallmark of Huntington disease (your notes, p. 102), which causes chorea and dementia without this pattern of confabulation.",
-        "d": "Damage to the cerebellar vermis causes truncal ataxia with a wide-based, unsteady gait (your notes, p. 96), not memory loss.",
-        "e": "Damage to the subthalamic nucleus causes hemiballismus (your notes, p. 106), not amnesia."
+        "b": "Bilateral amygdala damage causes Klüver-Bucy syndrome, with disinhibited behavior such as hyperorality and hypersexuality (your notes, pp. 132-133), not confabulation.",
+        "c": "Caudate atrophy is the hallmark of Huntington disease (your notes, p. 101), which causes chorea and dementia without this pattern of confabulation.",
+        "d": "Damage to the cerebellar vermis causes truncal ataxia with a wide-based, unsteady gait (your notes, p. 95), not memory loss.",
+        "e": "Damage to the subthalamic nucleus causes hemiballismus (your notes, p. 105), not amnesia."
       },
       "sources": [
         {
-          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Huntington disease, p. 102; vermis lesions, p. 96; subthalamus, p. 106; limbic system and Korsakoff syndrome, pp. 132-134"
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Huntington disease, p. 101; vermis lesions, p. 95; subthalamus, p. 105; limbic system and Korsakoff syndrome, pp. 131-133"
         },
         {
           "title": "Neuropathology (neuropathology-web.org), Chapter 8: Nutritional disorders (Wernicke-Korsakoff syndrome; alcoholic cerebellar degeneration)",
@@ -32451,16 +32451,16 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: the amygdala. Why: Your El-Husseiny neurology notes (pp. 132-134) explain that the amygdala gives emotional meaning to stimuli, and that bilateral amygdala damage causes Klüver-Bucy syndrome, with disinhibited behavior such as hyperphagia, hypersexuality and hyperorality. StatPearls (Kluver-Bucy Syndrome) agrees that it is caused by lesions of both temporal lobes, especially the hippocampus and amygdala, that herpes simplex encephalitis is a frequent cause in children, and that its features include hyperorality, hypersexuality and placidity.",
+      "explanation": "Answer: the amygdala. Why: Your El-Husseiny neurology notes (pp. 131-133) explain that the amygdala gives emotional meaning to stimuli, and that bilateral amygdala damage causes Klüver-Bucy syndrome, with disinhibited behavior such as hyperphagia, hypersexuality and hyperorality. StatPearls (Kluver-Bucy Syndrome) agrees that it is caused by lesions of both temporal lobes, especially the hippocampus and amygdala, that herpes simplex encephalitis is a frequent cause in children, and that its features include hyperorality, hypersexuality and placidity.",
       "whyWrong": {
-        "b": "Mammillary body damage from thiamine deficiency causes Korsakoff syndrome with amnesia and confabulation (your notes, pp. 132-134), not hyperorality.",
-        "c": "Bilateral hippocampal damage mainly causes anterograde amnesia, the inability to form new memories (your notes, pp. 132 and 134).",
-        "d": "A ventromedial hypothalamus lesion causes overeating and obesity (your notes, p. 106), but not hyperorality, hypersexuality or loss of fear.",
-        "e": "Subthalamic nucleus damage causes hemiballismus, a movement disorder (your notes, p. 106)."
+        "b": "Mammillary body damage from thiamine deficiency causes Korsakoff syndrome with amnesia and confabulation (your notes, pp. 131-133), not hyperorality.",
+        "c": "Bilateral hippocampal damage mainly causes anterograde amnesia, the inability to form new memories (your notes, pp. 131 and 133).",
+        "d": "A ventromedial hypothalamus lesion causes overeating and obesity (your notes, p. 105), but not hyperorality, hypersexuality or loss of fear.",
+        "e": "Subthalamic nucleus damage causes hemiballismus, a movement disorder (your notes, p. 105)."
       },
       "sources": [
         {
-          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Hypothalamic nuclei and subthalamus, p. 106; limbic system, amygdala and Klüver-Bucy syndrome, pp. 132-134"
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Hypothalamic nuclei and subthalamus, p. 105; limbic system, amygdala and Klüver-Bucy syndrome, pp. 131-133"
         },
         {
           "title": "StatPearls: Kluver-Bucy Syndrome",
@@ -32503,16 +32503,16 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: the cerebellar vermis. Why: Your El-Husseiny neurology notes (pp. 92 and 96) explain that the midline vermis controls the axial (trunk) and proximal limb muscles, so a vermis lesion causes truncal ataxia with a wide-based, unsteady gait. They add that a cerebellar patient sways with the eyes open or closed, while a dorsal column patient sways only with the eyes closed (a positive Romberg sign). Neuropathology (Chapter 8, alcoholic cerebellar degeneration) agrees that in alcoholic cerebellar degeneration the lesions are usually limited to the superior vermis and cause ataxia of stance and gait, with the arms relatively spared.",
+      "explanation": "Answer: the cerebellar vermis. Why: Your El-Husseiny neurology notes (pp. 91 and 95) explain that the midline vermis controls the axial (trunk) and proximal limb muscles, so a vermis lesion causes truncal ataxia with a wide-based, unsteady gait. They add that a cerebellar patient sways with the eyes open or closed, while a dorsal column patient sways only with the eyes closed (a positive Romberg sign). Neuropathology (Chapter 8, alcoholic cerebellar degeneration) agrees that in alcoholic cerebellar degeneration the lesions are usually limited to the superior vermis and cause ataxia of stance and gait, with the arms relatively spared.",
       "whyWrong": {
-        "b": "A lateral hemisphere lesion causes limb problems such as intention tremor, dysmetria and dysdiadochokinesia on the same side (your notes, p. 95), but his hand movements are nearly normal.",
-        "c": "With a dorsal column lesion, a patient sways only when the eyes are closed (your notes, p. 96), and vibration and position sense would be lost.",
-        "d": "Mammillary body damage from thiamine deficiency causes Korsakoff amnesia (your notes, pp. 132-134), not an isolated gait disorder.",
-        "e": "Subthalamic nucleus damage causes one-sided flinging movements (hemiballismus) (your notes, p. 106)."
+        "b": "A lateral hemisphere lesion causes limb problems such as intention tremor, dysmetria and dysdiadochokinesia on the same side (your notes, p. 94), but his hand movements are nearly normal.",
+        "c": "With a dorsal column lesion, a patient sways only when the eyes are closed (your notes, p. 95), and vibration and position sense would be lost.",
+        "d": "Mammillary body damage from thiamine deficiency causes Korsakoff amnesia (your notes, pp. 131-133), not an isolated gait disorder.",
+        "e": "Subthalamic nucleus damage causes one-sided flinging movements (hemiballismus) (your notes, p. 105)."
       },
       "sources": [
         {
-          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Cerebellum, pp. 92 and 95-96; subthalamus, p. 106; Korsakoff syndrome, pp. 132-134"
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Cerebellum, pp. 91 and 94-95; subthalamus, p. 105; Korsakoff syndrome, pp. 131-133"
         },
         {
           "title": "Neuropathology (neuropathology-web.org), Chapter 8: Nutritional disorders (Wernicke-Korsakoff syndrome; alcoholic cerebellar degeneration)",
@@ -32555,20 +32555,20 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: the right hypoglossal nerve. Why: Your El-Husseiny neurology notes (pp. 80 and 88) explain that the hypoglossal nerve (CN XII) is purely motor and supplies all tongue muscles except palatoglossus, which is supplied by the vagus nerve. A lesion makes the tongue deviate toward the side of the lesion when it is stuck out (\"the tongue licks the lesion\"), because the muscles on that side are weak. Physiopedia (Hypoglossal Nerve) agrees that with damage to one hypoglossal nerve the protruded tongue deviates toward the damaged side, and that a nerve (lower motor neuron) lesion also causes atrophy of that side of the tongue.",
+      "explanation": "Answer: the right hypoglossal nerve. Why: Your El-Husseiny neurology notes (pp. 79 and 87) explain that the hypoglossal nerve (CN XII) is purely motor and supplies all tongue muscles except palatoglossus, which is supplied by the vagus nerve. A lesion makes the tongue deviate toward the side of the lesion when it is stuck out (\"the tongue licks the lesion\"), because the muscles on that side are weak. StatPearls (Neuroanatomy, Cranial Nerve 12) agrees that after damage to one hypoglossal nerve the tongue deviates toward the injured side when protruded and that side of the tongue wastes away (atrophy), and that palatoglossus is the one tongue muscle supplied by the vagus nerve instead.",
       "whyWrong": {
-        "b": "A left hypoglossal lesion would make the tongue point to the left, toward the weak side (your notes, p. 80).",
-        "c": "A vagus nerve lesion makes the uvula point away from the affected side and weakens the gag reflex (your notes, pp. 77 and 87); her uvula is midline.",
-        "d": "The glossopharyngeal nerve carries sensation and taste from the back third of the tongue and is the sensory limb of the gag reflex (your notes, p. 77); it does not move the tongue.",
+        "b": "A left hypoglossal lesion would make the tongue point to the left, toward the weak side (your notes, p. 79).",
+        "c": "A vagus nerve lesion makes the uvula point away from the affected side and weakens the gag reflex (your notes, pp. 76 and 86); her uvula is midline.",
+        "d": "The glossopharyngeal nerve carries sensation and taste from the back third of the tongue and is the sensory limb of the gag reflex (your notes, p. 76); it does not move the tongue.",
         "e": "The facial nerve carries taste from the front two-thirds of the tongue (your notes, p. 60); it does not move the tongue."
       },
       "sources": [
         {
-          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Facial nerve, p. 60; glossopharyngeal and vagus nerves, p. 77; hypoglossal nerve, p. 80; CN X lesions, p. 87; tongue innervation, p. 88"
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Facial nerve, p. 60; glossopharyngeal and vagus nerves, p. 76; hypoglossal nerve, p. 79; CN X lesions, p. 86; tongue innervation, p. 87"
         },
         {
-          "title": "Physiopedia: Hypoglossal Nerve",
-          "url": "https://physio-pedia.com/Hypoglossal_Nerve"
+          "title": "StatPearls: Neuroanatomy, Cranial Nerve 12 (Hypoglossal)",
+          "url": "https://www.statpearls.com/point-of-care/23265"
         }
       ]
     },
@@ -32607,16 +32607,16 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: the anterior spinal artery. Why: Your El-Husseiny neurology notes (p. 34) explain that anterior spinal artery occlusion cuts off blood to the front (ventrolateral) part of the spinal cord and can be caused by aortic aneurysm repair. It damages the motor pathways and the spinothalamic tracts, causing weakness and loss of pain and temperature sensation, while the dorsal columns are spared because the posterior spinal arteries supply them. StatPearls (Anterior Spinal Artery Syndrome) agrees that the artery supplies the corticospinal and spinothalamic tracts on both sides, that proprioception, vibration and fine touch are usually preserved, and that aortic surgery is the most common cause.",
+      "explanation": "Answer: the anterior spinal artery. Why: Your El-Husseiny neurology notes (p. 33) explain that anterior spinal artery occlusion cuts off blood to the front (ventrolateral) part of the spinal cord and can be caused by aortic aneurysm repair. It damages the motor pathways and the spinothalamic tracts, causing weakness and loss of pain and temperature sensation, while the dorsal columns are spared because the posterior spinal arteries supply them. StatPearls (Anterior Spinal Artery Syndrome) agrees that the artery supplies the corticospinal and spinothalamic tracts on both sides, that proprioception, vibration and fine touch are usually preserved, and that aortic surgery is the most common cause.",
       "whyWrong": {
-        "b": "The posterior spinal arteries supply the dorsal columns (your notes, p. 34), so their occlusion would remove vibration and position sense, which are normal here.",
-        "c": "PICA supplies the lateral medulla (your notes, pp. 81-83); its occlusion causes Wallenberg syndrome, not leg paralysis with a sensory level.",
-        "d": "Anterior cerebral artery occlusion causes weakness and sensory loss in the opposite leg only (your notes, p. 126), not both legs with a sensory level at the umbilicus.",
-        "e": "Middle cerebral artery occlusion mainly affects the opposite lower face and arm (your notes, p. 126), not both legs with a spinal sensory level."
+        "b": "The posterior spinal arteries supply the dorsal columns (your notes, p. 33), so their occlusion would remove vibration and position sense, which are normal here.",
+        "c": "PICA supplies the lateral medulla (your notes, pp. 80-82); its occlusion causes Wallenberg syndrome, not leg paralysis with a sensory level.",
+        "d": "Anterior cerebral artery occlusion causes weakness and sensory loss in the opposite leg only (your notes, p. 125), not both legs with a sensory level at the umbilicus.",
+        "e": "Middle cerebral artery occlusion mainly affects the opposite lower face and arm (your notes, p. 125), not both legs with a spinal sensory level."
       },
       "sources": [
         {
-          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Anterior spinal artery occlusion, p. 34; blood supply of the medulla and PICA, pp. 81-83; middle and anterior cerebral arteries, p. 126"
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Anterior spinal artery occlusion, p. 33; blood supply of the medulla and PICA, pp. 80-82; middle and anterior cerebral arteries, p. 125"
         },
         {
           "title": "StatPearls: Anterior Spinal Artery Syndrome",
@@ -32659,23 +32659,23 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: presynaptic voltage-gated calcium channels. Why: Your Osmosis neurology notes (p. 180) explain that Lambert-Eaton myasthenic syndrome is an autoimmune (type II) disorder in which antibodies block voltage-gated calcium channels on the presynaptic motor nerve, so less acetylcholine is released. Weakness is mainly proximal and improves for a short time with repeated use (warm-up), reflexes are reduced but recover with muscle activation, dry mouth is the most common autonomic symptom, and small-cell lung cancer is strongly associated. The MSD Manual (Lambert-Eaton Syndrome) agrees that antibodies interfere with acetylcholine release, that it often occurs with lung cancer, especially small cell lung cancer, that weakness starts in the hip and thigh muscles, that strength may improve for a short time with repeated use, and that the mouth is dry.",
+      "explanation": "Answer: presynaptic voltage-gated calcium channels. Why: Your Osmosis neurology notes (p. 180) explain that Lambert-Eaton myasthenic syndrome is an autoimmune (type II) disorder in which antibodies block voltage-gated calcium channels on the presynaptic motor nerve, so less acetylcholine is released. Weakness is mainly proximal and improves for a short time with repeated use (warm-up), reflexes are reduced but recover with muscle activation, dry mouth is the most common autonomic symptom, and small-cell lung cancer is strongly associated. The MSD Manual Professional Edition (Disorders of Neuromuscular Transmission) agrees that in this autoimmune disorder acetylcholine release from the presynaptic nerve ending is impaired because P/Q-type voltage-gated calcium channels are lost, that 50 to 60% of patients develop small cell lung cancer, and that the nerve-conduction response grows larger after a short burst of maximal exercise.",
       "whyWrong": {
-        "b": "Antibodies against postsynaptic acetylcholine receptors cause myasthenia gravis, in which weakness gets worse, not better, with repeated use (standard teaching; your Osmosis notes, p. 180, contrast the warm-up in Lambert-Eaton).",
-        "c": "Blocking acetylcholinesterase would increase acetylcholine at the junction; it is how drugs for myasthenia gravis work (standard teaching), not an antibody target that causes this syndrome.",
-        "d": "Guillain-Barré syndrome, a demyelinating nerve disease (standard teaching), causes symmetric ascending weakness with lost reflexes after an infection (your El-Husseiny neurology notes, p. 160), and strength does not improve with exercise.",
+        "b": "Antibodies against postsynaptic acetylcholine receptors cause myasthenia gravis, in which weakness gets worse, not better, with repeated use (your Osmosis notes, p. 182; your El-Husseiny neurology notes, p. 237).",
+        "c": "Blocking acetylcholinesterase would increase acetylcholine at the junction; it is how pyridostigmine treats myasthenia gravis (your Osmosis notes, p. 183), not an antibody target that causes this syndrome.",
+        "d": "Guillain-Barré syndrome causes segmental demyelination of peripheral nerves, with symmetric ascending weakness and lost reflexes after an infection (your El-Husseiny neurology notes, p. 159), and strength does not improve with exercise.",
         "e": "Lambert-Eaton targets presynaptic calcium channels on the nerve ending, not sodium channels in muscle (your Osmosis notes, p. 180)."
       },
       "sources": [
         {
-          "title": "Osmosis High-Yield Pathology Notes: Neurology (Emily's file), Lambert-Eaton myasthenic syndrome, p. 180"
+          "title": "Osmosis High-Yield Pathology Notes: Neurology (Emily's file), Lambert-Eaton myasthenic syndrome, p. 180; myasthenia gravis, pp. 182-183"
         },
         {
-          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Guillain-Barré syndrome, p. 160"
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Guillain-Barré syndrome, p. 159; myasthenia gravis, p. 237"
         },
         {
-          "title": "MSD Manual Consumer Version: Lambert-Eaton Syndrome",
-          "url": "https://www.msdmanuals.com/home/brain-spinal-cord-and-nerve-disorders/peripheral-nerve-and-related-disorders/lambert-eaton-syndrome"
+          "title": "MSD Manual Professional: Disorders of Neuromuscular Transmission",
+          "url": "https://www.msdmanuals.com/professional/neurologic-disorders/peripheral-nervous-system-and-motor-unit-disorders/disorders-of-neuromuscular-transmission"
         }
       ]
     },
@@ -32714,16 +32714,16 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: glaucoma. Why: Your El-Husseiny neurology notes (pp. 181 and 183) describe Sturge-Weber syndrome as a sporadic (not inherited) condition caused by a GNAQ variant, with a port-wine stain on the face, a leptomeningeal angioma on the same side, \"tram-track\" calcification on skull films, seizures, intellectual disability and early-onset glaucoma from raised eye pressure. MedlinePlus Genetics (Sturge-Weber syndrome) agrees that it causes a port-wine birthmark, usually on one side of the face, a leptomeningeal angioma, seizures that often start by age 2, and glaucoma, and that it is caused by a somatic GNAQ variant and is not inherited.",
+      "explanation": "Answer: glaucoma. Why: Your El-Husseiny neurology notes (pp. 180 and 182) describe Sturge-Weber syndrome as a sporadic (not inherited) condition caused by a GNAQ variant, with a port-wine stain on the face, a leptomeningeal angioma on the same side, \"tram-track\" calcification on skull films, seizures, intellectual disability and early-onset glaucoma from raised eye pressure. MedlinePlus Genetics (Sturge-Weber syndrome) agrees that it causes a port-wine birthmark, usually on one side of the face, a leptomeningeal angioma, seizures that often start by age 2, and glaucoma, and that it is caused by a somatic GNAQ variant and is not inherited.",
       "whyWrong": {
-        "b": "Lisch nodules are pigmented iris hamartomas in neurofibromatosis type 1 (your notes, p. 182), which causes café-au-lait spots rather than a port-wine stain.",
-        "c": "Optic nerve gliomas occur in neurofibromatosis type 1 (your notes, p. 182).",
-        "d": "Retinal capillary hemangioblastomas occur in von Hippel-Lindau disease (your notes, p. 183).",
-        "e": "Juvenile cataracts occur in neurofibromatosis type 2, with bilateral vestibular schwannomas (your notes, p. 183)."
+        "b": "Lisch nodules are pigmented iris hamartomas in neurofibromatosis type 1 (your notes, p. 181), which causes café-au-lait spots rather than a port-wine stain.",
+        "c": "Optic nerve gliomas occur in neurofibromatosis type 1 (your notes, p. 181).",
+        "d": "Retinal capillary hemangioblastomas occur in von Hippel-Lindau disease (your notes, p. 182).",
+        "e": "Juvenile cataracts occur in neurofibromatosis type 2, with bilateral vestibular schwannomas (your notes, p. 182)."
       },
       "sources": [
         {
-          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Neurocutaneous disorders, pp. 181-183"
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Neurocutaneous disorders, pp. 180-182"
         },
         {
           "title": "MedlinePlus Genetics: Sturge-Weber syndrome",
@@ -32768,14 +32768,14 @@
       "answer": "a",
       "explanation": "Answer: the area postrema. Why: Your El-Husseiny neurology notes (p. 145) explain that the area postrema is a circumventricular organ with leaky (fenestrated) capillaries and no blood-brain barrier, so substances in the blood can reach it. It contains the chemoreceptor trigger zone, which feeds into the vomiting center in the medulla and has muscarinic, D2, H1, 5-HT3 and NK-1 receptors. Blocking 5-HT3, D2 or NK-1 receptors treats chemotherapy-induced vomiting. StatPearls (Physiology, Chemoreceptor Trigger Zone) agrees that the trigger zone lies on the floor of the fourth ventricle, that its capillaries lack tight junctions so it can sense toxins in the blood, and that ondansetron blocks 5-HT3 receptors to prevent chemotherapy-induced vomiting.",
       "whyWrong": {
-        "b": "The raphe nuclei are where the brain makes serotonin (your notes, p. 144), but they are not the blood-sensing site that triggers vomiting.",
-        "c": "The locus coeruleus in the pons is the main site of norepinephrine synthesis in the brain (your notes, p. 144).",
-        "d": "The nucleus accumbens is listed in your notes as a GABA site (p. 144), and it is not a chemoreceptor trigger zone.",
+        "b": "The raphe nuclei are where the brain makes serotonin (your notes, p. 143), but they are not the blood-sensing site that triggers vomiting.",
+        "c": "The locus coeruleus in the pons is the main site of norepinephrine synthesis in the brain (your notes, p. 143).",
+        "d": "The nucleus accumbens is listed in your notes as a GABA site (p. 143), and it is not a chemoreceptor trigger zone.",
         "e": "The mammillary bodies are part of the Papez circuit for memory and emotion (your notes, p. 132), not a site that senses chemicals in the blood."
       },
       "sources": [
         {
-          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Mammillary bodies, p. 132; neurotransmitters, p. 144; circumventricular organs and vomiting, p. 145"
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Mammillary bodies, p. 132; neurotransmitters, p. 143; circumventricular organs and vomiting, p. 145"
         },
         {
           "title": "StatPearls: Physiology, Chemoreceptor Trigger Zone",
@@ -32818,16 +32818,16 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: tuberin (TSC2), or hamartin (TSC1). Why: Your El-Husseiny neurology notes (p. 181) describe tuberous sclerosis as an autosomal dominant disorder caused by variants in the tumor suppressor genes TSC1 or TSC2, which code for hamartin and tuberin. Cortical tubers and subependymal hamartomas cause seizures and intellectual disability, and patients can have cardiac rhabdomyomas, facial angiofibromas, pale ash-leaf patches and renal angiomyolipomas. MedlinePlus Genetics (Tuberous sclerosis complex) agrees that TSC1 or TSC2 variants cause it, that hamartin and tuberin work together as tumor suppressors, that it is autosomal dominant, and that it causes seizures, skin changes, facial angiofibromas, heart rhabdomyomas and kidney growths.",
+      "explanation": "Answer: tuberin (TSC2), or hamartin (TSC1). Why: Your El-Husseiny neurology notes (p. 180) describe tuberous sclerosis as an autosomal dominant disorder caused by variants in the tumor suppressor genes TSC1 or TSC2, which code for hamartin and tuberin. Cortical tubers and subependymal hamartomas cause seizures and intellectual disability, and patients can have cardiac rhabdomyomas, facial angiofibromas, pale ash-leaf patches and renal angiomyolipomas. MedlinePlus Genetics (Tuberous sclerosis complex) agrees that TSC1 or TSC2 variants cause it, that hamartin and tuberin work together as tumor suppressors, that it is autosomal dominant, and that it causes seizures, skin changes, facial angiofibromas, heart rhabdomyomas and kidney growths.",
       "whyWrong": {
-        "b": "Neurofibromin is the NF1 gene product (your notes, p. 182); NF1 causes café-au-lait spots and neurofibromas, not ash-leaf patches.",
-        "c": "Merlin is the NF2 gene product (your notes, p. 183); NF2 causes bilateral vestibular schwannomas.",
-        "d": "VHL variants cause hemangioblastomas, pheochromocytoma and renal cell carcinoma (your notes, p. 183), not angiomyolipomas with ash-leaf patches.",
-        "e": "Somatic GNAQ variants cause Sturge-Weber syndrome, with a facial port-wine stain (your notes, p. 181), and it is not inherited."
+        "b": "Neurofibromin is the NF1 gene product (your notes, p. 181); NF1 causes café-au-lait spots and neurofibromas, not ash-leaf patches.",
+        "c": "Merlin is the NF2 gene product (your notes, p. 182); NF2 causes bilateral vestibular schwannomas.",
+        "d": "VHL variants cause hemangioblastomas, pheochromocytoma and renal cell carcinoma (your notes, p. 182), not angiomyolipomas with ash-leaf patches.",
+        "e": "Somatic GNAQ variants cause Sturge-Weber syndrome, with a facial port-wine stain (your notes, p. 180), and it is not inherited."
       },
       "sources": [
         {
-          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Sturge-Weber syndrome and tuberous sclerosis, p. 181; NF1, p. 182; NF2 and VHL, p. 183"
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Sturge-Weber syndrome and tuberous sclerosis, p. 180; NF1, p. 181; NF2 and VHL, p. 182"
         },
         {
           "title": "MedlinePlus Genetics: Tuberous sclerosis complex",
@@ -33033,13 +33033,13 @@
       "explanation": "Answer: recipient ABO antibodies binding donor red cells. Why: Your El-Husseiny microbiology and immunology notes (pp. 456 and 462) explain that an acute hemolytic transfusion reaction is a type II (antibody-mediated) hypersensitivity reaction caused by ABO incompatibility. The recipient's anti-A or anti-B antibodies bind the donor red cells and activate complement, causing intravascular hemolysis within about an hour, with fever, hypotension, flank pain and hemoglobinuria. The MSD Manual (Complications of Transfusion) agrees that ABO incompatibility is the most common cause, that the hemolysis is intravascular with hemoglobinuria, that symptoms include fever, chills and severe lower back pain, and that mislabeling or failing to match the patient with the blood product is the usual cause. The transfusion must be stopped right away.",
       "whyWrong": {
         "b": "IgE against donor plasma proteins causes allergic or anaphylactic reactions with hives, wheezing and shock (your notes, p. 462), not hemolysis with hemoglobinuria.",
-        "c": "Donor T cells attacking the recipient cause transfusion-associated graft-versus-host disease, which develops over days to weeks (standard teaching), not within minutes.",
+        "c": "Donor T cells attacking the recipient cause transfusion-associated graft-versus-host disease (your notes, p. 478), which starts 4 to 30 days after the transfusion (MSD), not within minutes.",
         "d": "Donor antibodies against recipient neutrophils cause transfusion-related acute lung injury, with breathing trouble and noncardiogenic pulmonary edema (your notes, p. 462).",
         "e": "Cytokines from stored donor white cells cause a febrile nonhemolytic reaction with fever and chills but no hemolysis (your notes, p. 462)."
       },
       "sources": [
         {
-          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Type II hypersensitivity: acute hemolytic transfusion reaction, p. 456; blood transfusion reactions, p. 462"
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Type II hypersensitivity: acute hemolytic transfusion reaction, p. 456; blood transfusion reactions, p. 462; transfusion-associated GVHD, p. 478"
         },
         {
           "title": "MSD Manual Professional: Complications of Transfusion",
@@ -33136,7 +33136,7 @@
       "answer": "a",
       "explanation": "Answer: deletion of DNA between switch regions (class switch recombination). Why: Your El-Husseiny microbiology and immunology notes (p. 420) explain that cytokine signals from Th2 cells trigger isotype switching, in which switch regions cause the DNA between them to loop out, be cut out and be degraded. The same variable region is joined to a new heavy-chain constant region, so the antibody keeps its antigen specificity but gains a new function. Because the DNA is lost, the switch is one-way, which is why IgM dominates the primary response and other classes appear later. Switching needs CD40-CD40 ligand contact with T cells. Life: The Science of Biology (Chapter 41) agrees that switching from IgM to IgG involves a DNA deletion that places a different constant-region gene next to the same variable region, keeping the same antigen specificity.",
       "whyWrong": {
-        "b": "Alternative RNA splicing lets naive B cells carry both IgM and IgD at the same time (your notes, p. 381; standard teaching for the splicing mechanism). It does not permanently remove the ability to make IgM.",
+        "b": "Naive B cells carry IgM and IgD at the same time (your notes, p. 381), and RNA splicing only changes which message is made (your notes, p. 385). No DNA is lost, so splicing cannot explain a one-way switch away from IgM (your notes, p. 420).",
         "c": "A new V(D)J rearrangement would change the variable region and the antigen it binds, but the IgG here binds the same epitope (your notes, p. 420).",
         "d": "Somatic hypermutation changes the variable region and leads to affinity maturation (your notes, p. 422), not a change in antibody class.",
         "e": "The antibody class is set by the heavy-chain constant region, not the light chain (your notes, p. 420)."
@@ -33186,20 +33186,20 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: removal of the invariant chain from MHC class II. Why: Your El-Husseiny microbiology and immunology notes (p. 409) explain that MHC class II molecules are made in the rough ER with an invariant chain sitting in their peptide-binding groove. When the vesicles carrying them fuse with acidified phagolysosomes holding foreign antigen, the invariant chain is broken down and antigen peptide is loaded. Without lysosomal acidification, class II antigen processing fails. The University of Southampton's immunology course (MHC Class II Presentation) agrees that the invariant chain blocks the groove and guides MHC class II to the endosomal pathway, where it is cut down to a small fragment, CLIP, that must be released before the antigen peptide can bind. The class I pathway still works here, so CD8+ responses are spared.",
+      "explanation": "Answer: removal of the invariant chain from MHC class II. Why: Your El-Husseiny microbiology and immunology notes (p. 409) explain that MHC class II molecules are made in the rough ER with an invariant chain sitting in their peptide-binding groove. When the vesicles carrying them fuse with acidified phagolysosomes holding foreign antigen, the invariant chain is broken down and antigen peptide is loaded. Without lysosomal acidification, class II antigen processing fails. StatPearls (Genetics, Histocompatibility Antigen) agrees that the invariant chain stops peptides from binding MHC class II in the ER, that the complex then travels to an endosome where only a small piece called CLIP stays in the groove, and that HLA-DM removes CLIP so a peptide from outside the cell can bind. The class I pathway still works here, so CD8+ responses are spared.",
       "whyWrong": {
         "b": "TAP moves cytosolic peptides into the ER for MHC class I (your notes, p. 408); the class I pathway still works here.",
         "c": "Proteasomes break down cytosolic proteins for the MHC class I pathway (your notes, p. 408), which is still working.",
-        "d": "Pairing of MHC class I with β2-microglobulin is part of the class I pathway (standard teaching), which is intact because CD8+ T cells are still activated.",
+        "d": "Pairing of MHC class I with β2-microglobulin is part of the class I pathway (your notes, p. 392), which is intact because CD8+ T cells are still activated.",
         "e": "CD8 binding to MHC class I is part of the class I pathway (your notes, p. 394), which is still working here."
       },
       "sources": [
         {
-          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Thymic selection, p. 394; MHC class I pathway, p. 408; MHC class II pathway, p. 409"
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), MHC class I structure, p. 392; thymic selection, p. 394; MHC class I pathway, p. 408; MHC class II pathway, p. 409"
         },
         {
-          "title": "University of Southampton, Immunology fundamentals: MHC Class II Presentation",
-          "url": "https://www.med.soton.ac.uk/restricted/msc/mscallergy/immunology/linkers/mhc/mhc3.aspx?page=3"
+          "title": "StatPearls: Genetics, Histocompatibility Antigen",
+          "url": "https://www.statpearls.com/point-of-care/22909"
         }
       ]
     },
@@ -33238,7 +33238,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: AIRE. Why: Your El-Husseiny microbiology and immunology notes (p. 467) explain that chronic mucocutaneous candidiasis is a T-cell defect in immunity against Candida, and that its classic form is caused by defects in AIRE. They also explain that developing T cells undergo negative selection in the thymic medulla, which removes cells with self-reactive (\"bad\") receptors (p. 394). NIH GARD (Polyglandular autoimmune syndrome, type 1) agrees that this condition is linked to AIRE, is autosomal recessive, and has three main features: chronic mucocutaneous candidiasis, hypoparathyroidism and adrenal insufficiency (Addison disease), usually starting in childhood or adolescence.",
+      "explanation": "Answer: AIRE. Why: Your El-Husseiny microbiology and immunology notes (p. 467) explain that chronic mucocutaneous candidiasis is a T-cell defect in immunity against Candida, and that its classic form is caused by defects in AIRE. They also explain that developing T cells undergo negative selection in the thymic medulla, which removes cells with self-reactive (\"bad\") receptors (p. 394). MedlinePlus Genetics (APECED) agrees that this condition is caused by variants in AIRE, a gene that helps the immune system tell the body's own proteins from foreign ones, that it is autosomal recessive, and that its main features are chronic mucocutaneous candidiasis, hypoparathyroidism and adrenal insufficiency (Addison disease), usually starting in childhood or adolescence. NIH GARD (Polyglandular autoimmune syndrome, type 1) lists the same three features and autosomal recessive inheritance.",
       "whyWrong": {
         "b": "FOXP3 is needed for regulatory T cells, and its deficiency causes autoimmunity (your notes, p. 415), but not this triad of candidiasis, hypoparathyroidism and Addison disease.",
         "c": "STAT3 variants cause hyper-IgE (Job) syndrome, with Th17 deficiency, high IgE and eosinophils (your notes, p. 467), not endocrine failure.",
@@ -33248,6 +33248,10 @@
       "sources": [
         {
           "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Thymic selection, p. 394; regulatory T cells, p. 415; X-linked agammaglobulinemia, p. 464; hyper-IgE and chronic mucocutaneous candidiasis, p. 467; chronic granulomatous disease, p. 473"
+        },
+        {
+          "title": "MedlinePlus Genetics: Autoimmune polyendocrinopathy-candidiasis-ectodermal dystrophy",
+          "url": "https://medlineplus.gov/genetics/condition/autoimmune-polyendocrinopathy-candidiasis-ectodermal-dystrophy/"
         },
         {
           "title": "NIH GARD: Polyglandular autoimmune syndrome, type 1",
