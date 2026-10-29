@@ -42025,6 +42025,1181 @@
           "url": "https://openstax.org/books/microbiology/pages/18-1-overview-of-specific-adaptive-immunity"
         }
       ]
+    },
+    {
+      "id": "path-serous-ovarian-carcinoma-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Reproductive",
+      "topic": "Ovarian tumors: high-grade serous carcinoma",
+      "difficulty": 2,
+      "stem": "A 63-year-old woman who has never been pregnant comes to the physician because of bloating and a feeling of fullness after only a few bites of food for 3 months. Her waist size has grown even though she is eating less. Abdominal examination shows shifting dullness. Pelvic examination shows firm masses in both adnexa. CT scan shows complex solid and cystic masses in both ovaries, ascites, and many small nodules on the omentum. Serum CA 125 is markedly increased.",
+      "leadIn": "Biopsy of an omental nodule is most likely to show which tumor type?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Serous carcinoma"
+        },
+        {
+          "id": "b",
+          "text": "Mature cystic teratoma"
+        },
+        {
+          "id": "c",
+          "text": "Granulosa cell tumor"
+        },
+        {
+          "id": "d",
+          "text": "Dysgerminoma"
+        },
+        {
+          "id": "e",
+          "text": "Mucinous cystadenoma"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: serous carcinoma. Why: Your NBME Top Concepts (pp. 355-356) says tumors of the ovarian surface make up about 90% of ovarian tumors, present with fullness, early satiety and a swollen abdomen, and are followed with CA-125, the marker for epithelial ovarian cancer. The same page splits them into serous tumors (watery secretions; the cystadenocarcinoma is often bilateral) and mucinous tumors (thick mucus; the cystadenocarcinoma causes gelatinous ascites). MSD agrees: \"Most (90%) ovarian cancers develop from epithelial cells,\" and \"High-grade serous ovarian carcinoma is the most common subtype (> 70%) of epithelial carcinomas.\" MSD adds that CA 125 \"is elevated in 80% of advanced epithelial ovarian cancers but may be within normal range in early stages,\" that early symptoms such as bloating and early satiety are vague, and that ascites comes later. Never having been pregnant is a risk factor, and estrogen-progestin contraceptives lower the risk (MSD).",
+      "whyWrong": {
+        "b": "A mature cystic teratoma is a benign germ cell tumor made of tissue from all three germ layers, mostly ectoderm (MSD; your NBME Top Concepts, p. 357). It does not seed the omentum or cause malignant ascites.",
+        "c": "A granulosa cell tumor is a stromal tumor that makes estrogen and causes problems such as postmenopausal bleeding (your NBME Top Concepts, p. 358). This patient's picture is peritoneal spread with a high CA 125.",
+        "d": "Dysgerminoma is a germ cell tumor, the ovarian counterpart of seminoma (your NBME Top Concepts, p. 357). MSD says germ cell cancers usually occur in women younger than 30.",
+        "e": "A mucinous cystadenoma is a benign multilocular mass filled with thick mucus (your NBME Top Concepts, p. 356). Being benign, it does not spread to the omentum."
+      },
+      "sources": [
+        {
+          "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Ovarian tumors, pp. 355-357"
+        },
+        {
+          "title": "MSD Manual Professional: Ovarian, Fallopian Tube, and Peritoneal Cancer",
+          "url": "https://www.msdmanuals.com/professional/oncology/gynecologic-tumors/ovarian-fallopian-tube-and-peritoneal-cancer"
+        },
+        {
+          "title": "MSD Manual Professional: Benign Adnexal Masses",
+          "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/miscellaneous-gynecologic-disorders/benign-ovarian-masses"
+        }
+      ]
+    },
+    {
+      "id": "path-mature-cystic-teratoma-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Reproductive",
+      "topic": "Ovarian tumors: mature cystic teratoma and torsion",
+      "difficulty": 1,
+      "stem": "A 24-year-old woman has sudden, severe pain in the left lower abdomen that began while she was running. She has vomited twice. Her last menstrual period was 2 weeks ago, and a urine pregnancy test is negative. Ultrasonography shows a 7-cm left adnexal mass with a fat-fluid level and a calcified nodule, and Doppler shows reduced blood flow to the left ovary. At laparoscopy, the left ovary is twisted on its pedicle. The removed cyst contains hair, greasy yellow material and a tooth.",
+      "leadIn": "This tumor arose from which type of cell?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Germ cells"
+        },
+        {
+          "id": "b",
+          "text": "Surface epithelial cells"
+        },
+        {
+          "id": "c",
+          "text": "Granulosa cells"
+        },
+        {
+          "id": "d",
+          "text": "Theca cells"
+        },
+        {
+          "id": "e",
+          "text": "Sertoli-Leydig cells"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: germ cells. Why: Hair, sebum and a tooth inside an ovarian cyst describe a mature cystic teratoma (dermoid cyst). Your NBME Top Concepts (p. 356) says ovarian germ cells can turn into fetal tissue, yolk sac, germ cell or placental tissue, and p. 357 places the benign cystic teratoma on the fetal tissue branch. The table on p. 357 lists three points to know: it can cause ovarian torsion, the pathologist must rule out squamous cell carcinoma or immature tissue, and a teratoma made mostly of thyroid tissue (struma ovarii) can cause a fast heart rate and palpitations. MSD agrees: \"These are germ cell tumors; they are also called dermoid cysts,\" and although they come from all three germ layers, they are mostly ectoderm. MSD also notes that severe pain can come from \"adnexal torsion of a cyst or mass, usually > 4 cm,\" as happened here.",
+      "whyWrong": {
+        "b": "Surface epithelial cells give rise to serous and mucinous tumors, which make up about 90% of ovarian tumors (your NBME Top Concepts, p. 356; MSD). They do not contain hair or teeth.",
+        "c": "Granulosa cells give rise to granulosa-theca tumors, which make estrogen and show Call-Exner bodies (your NBME Top Concepts, p. 358).",
+        "d": "Theca cells are part of the ovarian stroma. Your NBME Top Concepts (p. 358) groups them with granulosa cells in estrogen-making tumors, and a thecoma falls with fibroma among the fibrous stromal tumors. None of these form hair or teeth.",
+        "e": "Sertoli-Leydig cell tumors make androgens, which cause facial hair and rapid virilization, and they show Reinke crystals (your NBME Top Concepts, p. 358)."
+      },
+      "sources": [
+        {
+          "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Ovarian tumors, pp. 356-358"
+        },
+        {
+          "title": "MSD Manual Professional: Benign Adnexal Masses",
+          "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/miscellaneous-gynecologic-disorders/benign-ovarian-masses"
+        }
+      ]
+    },
+    {
+      "id": "path-yolk-sac-tumor-ovary-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Reproductive",
+      "topic": "Ovarian tumors: yolk sac (endodermal sinus) tumor",
+      "difficulty": 2,
+      "stem": "A 17-year-old girl is brought to the physician because her abdomen has swollen quickly over 10 days and she has pelvic pain. Abdominal examination shows a large, firm mass rising out of the pelvis. Ultrasonography shows a 15-cm solid mass in the right ovary. Serum beta-hCG is within the reference range, and serum alpha-fetoprotein is markedly increased. Microscopy of the removed tumor shows tumor cells wrapped around central blood vessels, forming structures that look like small glomeruli.",
+      "leadIn": "Which is the most likely diagnosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yolk sac tumor"
+        },
+        {
+          "id": "b",
+          "text": "Dysgerminoma"
+        },
+        {
+          "id": "c",
+          "text": "Choriocarcinoma"
+        },
+        {
+          "id": "d",
+          "text": "Granulosa cell tumor"
+        },
+        {
+          "id": "e",
+          "text": "Serous carcinoma"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: yolk sac (endodermal sinus) tumor. Why: Your NBME Top Concepts (p. 357) lists three features of this germ cell tumor: young patients, a high AFP and glomerulus-like structures. StatPearls agrees that \"The Schiller-Duval body is pathognomonic of yolk sac tumors and appears as a glomerulus with a fibrovascular core,\" although it is present in only about two-thirds to three-quarters of these tumors. StatPearls also says AFP \"is specific for yolk sac tumors but not sensitive,\" that a higher AFP means a worse outlook, and that the tumor grows so fast that most patients have had symptoms for 7 days or less. Most ovarian yolk sac tumors cause abdominal swelling, and treatment is surgery and chemotherapy. MSD adds that germ cell cancers usually occur in women younger than 30 and that tumor markers such as AFP are checked mainly in young patients.",
+      "whyWrong": {
+        "b": "Dysgerminoma is the ovarian counterpart of seminoma (your NBME Top Concepts, p. 357). StatPearls describes AFP as the marker that points to yolk sac tumor, and dysgerminoma does not form glomerulus-like structures.",
+        "c": "Choriocarcinoma is made of placenta-like tissue without villi and spreads through the blood (your NBME Top Concepts, p. 357). MSD lists beta-hCG among germ cell tumor markers, and this patient's beta-hCG is normal.",
+        "d": "A granulosa cell tumor is a stromal tumor that makes estrogen and shows Call-Exner bodies, not glomerulus-like structures with a high AFP (your NBME Top Concepts, p. 358).",
+        "e": "Serous carcinoma comes from the ovarian surface epithelium, is followed with CA 125, and mostly affects older women (your NBME Top Concepts, p. 356; MSD)."
+      },
+      "sources": [
+        {
+          "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Ovarian germ cell tumors, p. 357"
+        },
+        {
+          "title": "StatPearls: Yolk Sac Tumors",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK563163/"
+        },
+        {
+          "title": "MSD Manual Professional: Ovarian, Fallopian Tube, and Peritoneal Cancer",
+          "url": "https://www.msdmanuals.com/professional/oncology/gynecologic-tumors/ovarian-fallopian-tube-and-peritoneal-cancer"
+        }
+      ]
+    },
+    {
+      "id": "histo-granulosa-cell-tumor-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "Reproductive",
+      "topic": "Ovarian stromal tumors: granulosa cell tumor",
+      "difficulty": 2,
+      "stem": "A 58-year-old woman comes to the physician because of vaginal bleeding for 2 months. Her last menstrual period was at age 51. She takes no hormones. Her breasts have become tender. Endometrial biopsy shows endometrial hyperplasia without atypia. Pelvic ultrasonography shows an 8-cm solid mass in the right ovary. The removed tumor is yellow on cut section. Microscopy shows sheets of small cells with pale, grooved nuclei shaped like coffee beans and many small spaces filled with pink fluid.",
+      "leadIn": "Which is the most likely diagnosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Granulosa cell tumor"
+        },
+        {
+          "id": "b",
+          "text": "Sertoli-Leydig cell tumor"
+        },
+        {
+          "id": "c",
+          "text": "Ovarian fibroma"
+        },
+        {
+          "id": "d",
+          "text": "Serous carcinoma"
+        },
+        {
+          "id": "e",
+          "text": "Krukenberg tumor"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: granulosa cell tumor. Why: Your NBME Top Concepts (p. 358) says granulosa-theca cells of the ovarian stroma make estrogen, and the tumors they form cause precocious puberty, heavy menstrual bleeding or postmenopausal bleeding. The histology clue is Call-Exner bodies, the small fluid-filled spaces. StatPearls describes Call-Exner bodies as \"eosinophilic fluid-filled spaces\" seen in about 30% of cases, and it lists \"coffee-bean nuclei\" as another key feature. It also says \"Postmenopausal bleeding is the usual presentation in older women,\" that endometrial sampling finds hyperplasia in 25% to 50% of patients, and that the alpha subunit of inhibin is one of the most useful markers. More than 95% of the adult type carry a FOXL2 mutation. Your NBME Top Concepts (p. 364) lists estrogen-making tumors among the causes of unopposed estrogen that lead to endometrial hyperplasia, which explains this patient's biopsy.",
+      "whyWrong": {
+        "b": "Sertoli-Leydig cell tumors make androgens, which cause facial hair and rapid virilization, and they show Reinke crystals (your NBME Top Concepts, p. 358). This patient has signs of too much estrogen.",
+        "c": "An ovarian fibroma is made of fibrous tissue and is known for Meigs syndrome: ascites, a pleural effusion and an ovarian mass (your NBME Top Concepts, p. 358; MSD).",
+        "d": "Serous carcinoma comes from the surface epithelium and is followed with CA 125 (your NBME Top Concepts, p. 356). It does not make estrogen or form Call-Exner bodies.",
+        "e": "A Krukenberg tumor is a metastasis made of mucin-filled signet ring cells, usually from the stomach, and it usually involves both ovaries (your NBME Top Concepts, p. 359; StatPearls)."
+      },
+      "sources": [
+        {
+          "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Ovarian stromal tumors, p. 358; unopposed estrogen, p. 364"
+        },
+        {
+          "title": "StatPearls: Granulosa Theca Cell Tumors of the Ovary",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK565872/"
+        },
+        {
+          "title": "MSD Manual Professional: Benign Adnexal Masses",
+          "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/miscellaneous-gynecologic-disorders/benign-ovarian-masses"
+        },
+        {
+          "title": "StatPearls: Krukenberg Tumor",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK482284/"
+        }
+      ]
+    },
+    {
+      "id": "path-krukenberg-tumor-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Reproductive",
+      "topic": "Ovarian tumors: Krukenberg tumor (metastasis)",
+      "difficulty": 2,
+      "stem": "A 52-year-old woman comes to the physician because of early fullness after meals, upper abdominal discomfort and a 7-kg (15-lb) weight loss over 4 months. Pelvic examination shows masses in both adnexa. CT scan shows solid masses in both ovaries and a thickened, stiff stomach wall. Biopsy of an ovarian mass shows cells with large mucin vacuoles that push the nucleus to the edge of the cell. The cells stain strongly for mucin.",
+      "leadIn": "Which is the most likely primary site of this tumor?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Stomach"
+        },
+        {
+          "id": "b",
+          "text": "Endometrium"
+        },
+        {
+          "id": "c",
+          "text": "Ovarian surface epithelium"
+        },
+        {
+          "id": "d",
+          "text": "Fallopian tube epithelium"
+        },
+        {
+          "id": "e",
+          "text": "Ovarian germ cells"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the stomach. Why: Cells full of mucin with the nucleus pushed aside are signet ring cells. Your NBME Top Concepts (p. 359) traces signet ring cells in both ovaries back to diffuse-type gastric cancer and reminds you to note whether the ovarian tumors are on one side or both: a primary mucinous cystadenocarcinoma of the ovary is unilateral. StatPearls calls a Krukenberg tumor a \"metastatic signet-ring cell adenocarcinoma of the ovary\" and says it \"originates in the stomach in about 70% of cases,\" that the tumors \"are bilateral in 80% of cases,\" and that \"Spread is often via lymphatics.\" The outlook is poor, with a median overall survival of about 14 months. MSD lists cancers of the gastrointestinal tract and breast as sources of metastases to the ovary.",
+      "whyWrong": {
+        "b": "Endometrial carcinoma comes from unopposed estrogen and usually presents with postmenopausal bleeding (your NBME Top Concepts, p. 364). It does not form signet ring cells in both ovaries.",
+        "c": "A primary mucinous cystadenocarcinoma of the ovary is usually unilateral (your NBME Top Concepts, p. 359). Masses in both ovaries with a stiff stomach wall point to gastric cancer that has spread.",
+        "d": "MSD covers fallopian tube cancer together with epithelial ovarian cancer, where high-grade serous carcinoma is the main type. Your NBME Top Concepts (p. 356) describes serous tumors as making watery fluid and papillary structures, not mucin-filled signet ring cells.",
+        "e": "Ovarian germ cells give rise to teratomas, dysgerminomas, yolk sac tumors and choriocarcinomas (your NBME Top Concepts, p. 357). None of these is made of signet ring cells."
+      },
+      "sources": [
+        {
+          "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Metastasis to the ovary, p. 359; ovarian tumors, pp. 356-357; endometrium, p. 364"
+        },
+        {
+          "title": "StatPearls: Krukenberg Tumor",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK482284/"
+        },
+        {
+          "title": "MSD Manual Professional: Ovarian, Fallopian Tube, and Peritoneal Cancer",
+          "url": "https://www.msdmanuals.com/professional/oncology/gynecologic-tumors/ovarian-fallopian-tube-and-peritoneal-cancer"
+        }
+      ]
+    },
+    {
+      "id": "anat-mullerian-agenesis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Reproductive",
+      "topic": "Primary amenorrhea: Müllerian agenesis vs androgen insensitivity",
+      "difficulty": 2,
+      "stem": "A 16-year-old girl is brought to the physician because she has never had a menstrual period. Her breast development and pubic and axillary hair are at Tanner stage 5, and her height is normal. External genitalia are normal, but the vagina is short and ends blindly, with no cervix. Pelvic ultrasonography shows no uterus and two normal-sized ovaries with follicles. Serum FSH, estradiol and testosterone are within the reference ranges for an adult female. Renal ultrasonography shows the left kidney low in the pelvis.",
+      "leadIn": "Failure of which embryonic structure to develop best explains these findings?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Müllerian ducts"
+        },
+        {
+          "id": "b",
+          "text": "Wolffian ducts"
+        },
+        {
+          "id": "c",
+          "text": "Urogenital sinus"
+        },
+        {
+          "id": "d",
+          "text": "Labioscrotal swellings"
+        },
+        {
+          "id": "e",
+          "text": "Gonadal ridges"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the Müllerian (paramesonephric) ducts. Why: This is Müllerian agenesis (Mayer-Rokitansky-Küster-Hauser syndrome). Your Osmosis Physiology notes (p. 583) say that in a female embryo, with no anti-Müllerian hormone, the Müllerian ducts persist and form the fallopian tubes, the uterus and the upper third of the vagina, while the rest of the female tract comes from the urogenital sinus. That is why the uterus and cervix are missing and the vagina is short and blind. Your NBME Top Concepts (pp. 348-349) gives the way to tell it apart from androgen insensitivity syndrome (AIS). Both cause primary amenorrhea with breast development, a blind vagina and no internal female organs. In Müllerian agenesis, pubic hair is present and the karyotype is 46,XX. In AIS, pubic hair is scant, the karyotype is 46,XY, and the testes must be removed to prevent seminoma. MedlinePlus agrees that people with this syndrome have a 46,XX chromosome pattern, \"normal external genitalia and functioning ovaries,\" and \"normal breast and pubic hair development,\" that missed periods are often the first sign, and that type 2 can include kidney problems. MedlinePlus describes the opposite pattern in AIS: \"sparse or absent hair in the pubic area and under the arms.\"",
+      "whyWrong": {
+        "b": "The Wolffian (mesonephric) ducts form the male internal genital tract under testosterone; in a female embryo, the lack of testosterone makes them degenerate (your Osmosis Physiology notes, pp. 582-583). Their normal loss does not explain a missing uterus.",
+        "c": "The urogenital sinus forms the external genitalia and the lower part of the female tract (your Osmosis Physiology notes, p. 583). Her external genitalia and lower vagina are present.",
+        "d": "The labioscrotal swellings become the labia majora and mons pubis in a female (your Osmosis Physiology notes, p. 583). Her external genitalia are normal.",
+        "e": "The gonadal ridges become the gonads (your Osmosis Physiology notes, p. 581). Her ovaries are normal and make estrogen, which explains her breast development (MedlinePlus)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Sexual development, pp. 581-583"
+        },
+        {
+          "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Müllerian agenesis vs AIS, pp. 348-349"
+        },
+        {
+          "title": "MedlinePlus Genetics: Mayer-Rokitansky-Küster-Hauser syndrome",
+          "url": "https://medlineplus.gov/genetics/condition/mayer-rokitansky-kuster-hauser-syndrome/"
+        },
+        {
+          "title": "MedlinePlus Genetics: Androgen insensitivity syndrome",
+          "url": "https://medlineplus.gov/genetics/condition/androgen-insensitivity-syndrome/"
+        },
+        {
+          "title": "StatPearls: Amenorrhea",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK482168/"
+        }
+      ]
+    },
+    {
+      "id": "biochem-5-alpha-reductase-deficiency-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "Reproductive",
+      "topic": "Disorders of sex development: 5-alpha-reductase deficiency",
+      "difficulty": 2,
+      "stem": "A 14-year-old who has been raised as a girl is brought to the physician because over the past year the voice has deepened, muscle mass has increased, and there has been a growth spurt. There has been no menstrual period. At birth, the external genitalia looked mostly female. Examination shows pubic hair but very little facial or body hair, a short vaginal pouch, and a firm, smooth mass in each inguinal canal. Ultrasonography shows no uterus. The karyotype is 46,XY, and serum testosterone is within the adult male reference range.",
+      "leadIn": "A defect in which protein is the most likely cause?",
+      "options": [
+        {
+          "id": "a",
+          "text": "5-alpha-reductase"
+        },
+        {
+          "id": "b",
+          "text": "Androgen receptor"
+        },
+        {
+          "id": "c",
+          "text": "Aromatase"
+        },
+        {
+          "id": "d",
+          "text": "21-hydroxylase"
+        },
+        {
+          "id": "e",
+          "text": "Anti-Müllerian hormone"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: 5-alpha-reductase (type 2). Why: Your Osmosis Physiology notes (p. 580) say 5-alpha-reductase in target tissues turns testosterone into dihydrotestosterone (DHT), and DHT drives the fetal formation of the penis, scrotum and prostate. Page 582 adds that testosterone itself builds the male internal ducts and that anti-Müllerian hormone from Sertoli cells makes the Müllerian ducts shrink. So with working testes but no DHT, the internal organs are male, there is no uterus, and the external genitalia look female or ambiguous at birth. Your NBME Top Concepts (p. 347) says children with 5-alpha-reductase deficiency have male internal genital organs and ambiguous genitalia at birth. MedlinePlus explains why puberty changes things: the testes make more testosterone, which brings \"increased muscle mass, deepening of the voice, development of pubic hair, and a growth spurt,\" while facial and body hair stay sparse. It says the cause is variants in the SRD5A2 gene, that \"This condition is inherited in an autosomal recessive pattern,\" and that most affected people cannot have biological children without assisted reproduction.",
+      "whyWrong": {
+        "b": "A defective androgen receptor (androgen insensitivity syndrome) blocks the effects of testosterone and DHT alike. People with the complete form have sparse or absent pubic hair and do not virilize at puberty (MedlinePlus; your NBME Top Concepts, p. 349).",
+        "c": "Aromatase turns testosterone into estradiol, and aromatase inhibitors such as anastrozole lower estrogen (your NBME Top Concepts, p. 347). A placental aromatase defect virilizes the mother and the fetus, which is not this picture.",
+        "d": "21-hydroxylase deficiency pushes steroid precursors into adrenal androgens. It causes ambiguous genitalia in 46,XX females, while males have normal genitalia (your El-Husseiny endocrinology notes, p. 56).",
+        "e": "Without anti-Müllerian hormone, the Müllerian ducts would persist and form a uterus (your Osmosis Physiology notes, p. 583). This patient has no uterus, so the hormone worked."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Dihydrotestosterone, p. 580; sexual development, pp. 582-583"
+        },
+        {
+          "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Testosterone disorders, p. 347; AIS, p. 349"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Endocrinology (Emily's file), 21-hydroxylase deficiency, p. 56"
+        },
+        {
+          "title": "MedlinePlus Genetics: 5-alpha reductase deficiency",
+          "url": "https://medlineplus.gov/genetics/condition/5-alpha-reductase-deficiency/"
+        },
+        {
+          "title": "MedlinePlus Genetics: Androgen insensitivity syndrome",
+          "url": "https://medlineplus.gov/genetics/condition/androgen-insensitivity-syndrome/"
+        }
+      ]
+    },
+    {
+      "id": "anat-genitofemoral-cremasteric-reflex-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Reproductive",
+      "topic": "Testicular torsion: cremasteric reflex and the genitofemoral nerve",
+      "difficulty": 2,
+      "stem": "A 14-year-old boy wakes up with sudden, severe pain in the left scrotum and has vomited twice. He has had no injury and is not sexually active. The left testis is very tender, sits higher than the right, and lies horizontally. When the physician strokes the skin of the upper inner thigh on each side, the right testis rises but the left testis does not move. Urinalysis is normal. Doppler ultrasonography shows no blood flow to the left testis.",
+      "leadIn": "The muscle that produces the normal response on the right side is supplied by which nerve?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Genitofemoral nerve"
+        },
+        {
+          "id": "b",
+          "text": "Femoral nerve"
+        },
+        {
+          "id": "c",
+          "text": "Obturator nerve"
+        },
+        {
+          "id": "d",
+          "text": "Pudendal nerve"
+        },
+        {
+          "id": "e",
+          "text": "Lateral femoral cutaneous nerve"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the genitofemoral nerve (genital branch). Why: Stroking the upper inner thigh makes the cremaster muscle pull the testis up. This is the cremasteric reflex. Your El-Husseiny MSK notes (p. 44) say the genitofemoral nerve (L1-L2) gives motor supply to the cremaster and sensation to the scrotum or labia majora and the upper medial thigh, and that injury to it causes an absent cremasteric reflex. StatPearls agrees that the genital branch \"enters the inguinal canal via the deep inguinal ring\" and supplies the cremaster, and that \"The cremasteric reflex is a function of genitofemoral nerve innervation.\" Your NBME Top Concepts (p. 155) lists the genital branch of the genitofemoral nerve among the contents of the spermatic cord, the structure that twists in torsion. MSD says torsion is most common between ages 12 and 18, starts with sudden severe pain, nausea and vomiting, and that \"The cremasteric reflex is usually absent on the affected side.\" Salvage of the testis falls from 80 to 100% at 6 to 8 hours to near zero at 12 hours (MSD), so this is a surgical emergency.",
+      "whyWrong": {
+        "b": "The femoral nerve supplies the quadriceps, sartorius and pectineus and carries the patellar reflex (your El-Husseiny MSK notes, p. 46). It does not supply the cremaster.",
+        "c": "The obturator nerve supplies the thigh adductors and the skin of the medial thigh (your El-Husseiny MSK notes, p. 44).",
+        "d": "The pudendal nerve (S2-S4) supplies the external urethral and anal sphincters and the skin of the perineum (your El-Husseiny MSK notes, p. 55).",
+        "e": "The lateral femoral cutaneous nerve is purely sensory to the anterior and lateral thigh, so it cannot make a muscle contract (your El-Husseiny MSK notes, p. 44)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Genitofemoral, obturator and lateral femoral cutaneous nerves, p. 44; femoral nerve, p. 46; pudendal nerve, p. 55"
+        },
+        {
+          "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Testicular torsion and spermatic cord contents, p. 155"
+        },
+        {
+          "title": "StatPearls: Anatomy, Abdomen and Pelvis: Genitofemoral Nerve",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK430733/"
+        },
+        {
+          "title": "MSD Manual Professional: Testicular Torsion",
+          "url": "https://www.msdmanuals.com/professional/genitourinary-disorders/penile-and-scrotal-disorders/testicular-torsion"
+        }
+      ]
+    },
+    {
+      "id": "path-inflammatory-breast-cancer-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Reproductive",
+      "topic": "Breast cancer: inflammatory carcinoma",
+      "difficulty": 2,
+      "stem": "A 49-year-old woman comes to the physician because her right breast has been red, swollen and warm for 5 weeks. She has no fever and is not breastfeeding. A 10-day course of cephalexin did not help. Examination shows redness over more than a third of the breast, with thickened skin that is dimpled like the peel of an orange. No discrete mass can be felt. There are hard, fixed lymph nodes in the right axilla. Ultrasonography shows no abscess.",
+      "leadIn": "A skin biopsy is most likely to show which finding?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tumor cells plugging dermal lymphatics"
+        },
+        {
+          "id": "b",
+          "text": "Neutrophils filling a breast abscess"
+        },
+        {
+          "id": "c",
+          "text": "Dilated ducts with plasma cells"
+        },
+        {
+          "id": "d",
+          "text": "Clear cells within the nipple epidermis"
+        },
+        {
+          "id": "e",
+          "text": "Leaf-like stroma around ductal spaces"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: tumor cells plugging the dermal lymphatics. Why: This is inflammatory breast cancer. Your NBME Top Concepts (p. 440) links the orange-peel skin (peau d'orange) to inflammatory breast cancer. Your Elnemr breast pathology notes (p. 10) explain that peau d'orange comes from lymphedema caused by blocked lymphatics, which pushes the skin out except where hair follicles anchor it. On p. 12, the notes call inflammatory carcinoma a clinical diagnosis of a big, red, swollen breast thought to be due to tumor plugging the dermal lymphatics, usually from a high-grade ductal carcinoma, and the most aggressive form of breast cancer. MSD agrees: \"histology reveals tumor emboli within the dermal lymphatics,\" there is often \"no palpable breast lump,\" and \"It has a poor prognosis.\" MSD gives treatment as \"chemotherapy, mastectomy, and radiation,\" with chemotherapy first.",
+      "whyWrong": {
+        "b": "Acute mastitis and breast abscess usually occur during breastfeeding, come from staphylococci entering through cracked nipples, and show neutrophils (your Elnemr breast pathology notes, p. 1). She is not breastfeeding, antibiotics failed, and ultrasonography shows no abscess.",
+        "c": "Plasma cell mastitis (duct ectasia) shows dilated ducts with thick secretions surrounded by plasma cells, and it forms a firm, tender mass (your Elnemr breast pathology notes, p. 2). It does not cause diffuse peau d'orange with hard axillary nodes.",
+        "d": "Large clear cells in the epidermis of the nipple are Paget cells. Paget disease causes a red, scaly, ulcerated nipple (your Elnemr breast pathology notes, p. 11).",
+        "e": "Leaf-like, very cellular stroma around benign ducts describes a phyllodes tumor, which forms a large mass (your Elnemr breast pathology notes, p. 6)."
+      },
+      "sources": [
+        {
+          "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Breast cancer summary, p. 440"
+        },
+        {
+          "title": "Dr. Elnemr Reproductive Pathology: Breast (Emily's file), Mastitis, p. 1; plasma cell mastitis, p. 2; phyllodes tumor, p. 6; peau d'orange, p. 10; Paget disease, p. 11; inflammatory carcinoma, p. 12"
+        },
+        {
+          "title": "MSD Manual Professional: Inflammatory Breast Cancer",
+          "url": "https://www.msdmanuals.com/professional/oncology/breast-cancer/inflammatory-breast-cancer"
+        }
+      ]
+    },
+    {
+      "id": "pharm-trastuzumab-her2-cardiotoxicity-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Reproductive",
+      "topic": "Breast cancer drugs: trastuzumab and low ejection fraction",
+      "difficulty": 2,
+      "stem": "A 51-year-old woman with invasive ductal carcinoma of the left breast is treated with paclitaxel and a monoclonal antibody given every 3 weeks. Her tumor is negative for estrogen and progesterone receptors. Fluorescence in situ hybridization shows amplification of a gene that encodes a cell-surface growth factor receptor. Before treatment, her left ventricular ejection fraction was 62%. After 4 months of treatment, she has shortness of breath when climbing stairs, and echocardiography shows an ejection fraction of 41%.",
+      "leadIn": "The monoclonal antibody most likely targets which molecule?",
+      "options": [
+        {
+          "id": "a",
+          "text": "HER2 receptor tyrosine kinase"
+        },
+        {
+          "id": "b",
+          "text": "Vascular endothelial growth factor"
+        },
+        {
+          "id": "c",
+          "text": "Nuclear estrogen receptor"
+        },
+        {
+          "id": "d",
+          "text": "Aromatase enzyme"
+        },
+        {
+          "id": "e",
+          "text": "CD30 on lymphoma cells"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the HER2 receptor tyrosine kinase. Why: Your NBME Top Concepts (p. 440) lists HER2/neu (gene amplification, tyrosine kinase receptor) among the breast cancer stains and gives the chain to remember: a HER2-positive cancer is treated with trastuzumab, and trastuzumab is cardiotoxic. Your Elnemr breast pathology notes (p. 13) say HER2/neu is an oncogene in the EGFR family and that HER2-positive tumors are aggressive and need targeted therapy with trastuzumab. Your Pharmacology High Yield notes (PDF p. 115) list trastuzumab and pertuzumab as HER2 antibodies for HER2-positive breast cancer, with infusion reactions and cardiomyopathy as side effects. MSD agrees: HER2 is overexpressed in about 15% of breast cancers and predicts a worse outlook, trastuzumab with chemotherapy \"substantially reduces recurrence and mortality rates,\" and \"A serious potential adverse effect of both these anti-HER2 medications is a decreased cardiac ejection fraction.\"",
+      "whyWrong": {
+        "b": "Bevacizumab targets VEGF and is used for metastatic colorectal cancer, renal cell carcinoma and diabetic retinopathy (your Pharmacology High Yield notes, PDF p. 115). Her tumor has an amplified receptor gene, which points to HER2.",
+        "c": "The estrogen receptor is a nuclear receptor blocked by tamoxifen (your NBME Top Concepts, p. 440; MSD). Her tumor is receptor-negative, and tamoxifen is a small molecule, not an antibody.",
+        "d": "Aromatase inhibitors such as anastrozole are pills that lower estrogen (your NBME Top Concepts, p. 347). They help only receptor-positive cancers, and hers is receptor-negative.",
+        "e": "Brentuximab targets CD30 and is used for Hodgkin lymphoma (your Pharmacology High Yield notes, PDF p. 115). It is not a breast cancer drug."
+      },
+      "sources": [
+        {
+          "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Breast cancer staining, p. 440; aromatase inhibitors, p. 347"
+        },
+        {
+          "title": "Dr. Elnemr Reproductive Pathology: Breast (Emily's file), Hormone receptors and HER2, p. 13"
+        },
+        {
+          "title": "Pharmacology High Yield (Emily's file), Monoclonal antibodies, PDF p. 115"
+        },
+        {
+          "title": "MSD Manual Professional: Breast Cancer",
+          "url": "https://www.msdmanuals.com/professional/oncology/breast-cancer/breast-cancer"
+        }
+      ]
+    },
+    {
+      "id": "pharm-estrogen-progestin-endometrium-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Reproductive",
+      "topic": "Menopausal hormone therapy: why a progestin is added",
+      "difficulty": 1,
+      "stem": "A 53-year-old woman comes to the physician because of hot flashes and night sweats that wake her several times a night. Her last menstrual period was 14 months ago. She has never had surgery, and pelvic examination shows a normal uterus. She has no history of breast cancer, blood clots or liver disease. The physician starts oral estradiol and adds a second hormone to be taken with it.",
+      "leadIn": "The second hormone is added mainly to lower the risk of which condition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Endometrial cancer"
+        },
+        {
+          "id": "b",
+          "text": "Breast cancer"
+        },
+        {
+          "id": "c",
+          "text": "Osteoporosis"
+        },
+        {
+          "id": "d",
+          "text": "Venous thromboembolism"
+        },
+        {
+          "id": "e",
+          "text": "Vaginal atrophy"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: endometrial cancer. Why: Your NBME Top Concepts (p. 364) lists unopposed estrogen, from sources such as estrogen-only therapy, obesity, never having children, late menopause, PCOS, anovulatory cycles and estrogen-making tumors, as the cause of endometrial hyperplasia. Hyperplasia can progress through atypia (dysplasia) to endometrial carcinoma, which usually presents with postmenopausal bleeding. MSD says that in a woman with a uterus, estrogen \"must be given in combination with a progestogen (progesterone or synthetic progestin)\" because \"unopposed estrogen increases risk of endometrial hyperplasia and cancer.\" A woman who has had a hysterectomy can take estrogen alone. StatPearls adds that hyperplasia \"results from estrogen predominance and relative progesterone insufficiency\" and that progestin treatment lowers the risk of progression to cancer about threefold to fivefold.",
+      "whyWrong": {
+        "b": "The progestin does not protect the breast. MSD says breast cancer risk \"begins to increase after 3 to 5 years of combination therapy when the standard dose is used.\"",
+        "c": "Estrogen itself protects bone: MSD says estrogen therapy \"has beneficial effects on bone density and reduces the incidence of fractures.\" A progestin is not added for this reason.",
+        "d": "A progestin does not lower clot risk. MSD notes that the risk of venous thromboembolism and stroke may be lower with low-dose transdermal estrogen than with oral estrogen, which is a choice about the estrogen, not about adding a progestin.",
+        "e": "Vaginal atrophy improves with estrogen. MSD says vaginal hormone therapy is preferred when symptoms are only urogenital, and at the lowest doses a progestogen is not needed."
+      },
+      "sources": [
+        {
+          "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Unopposed estrogen and endometrial hyperplasia, p. 364"
+        },
+        {
+          "title": "MSD Manual Professional: Menopause",
+          "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/menopause/menopause"
+        },
+        {
+          "title": "StatPearls: Endometrial Hyperplasia",
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK560693/"
+        }
+      ]
+    },
+    {
+      "id": "psych-persistent-depressive-disorder-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Behavioral Science",
+      "system": "Behavioral Health",
+      "topic": "Depressive disorders: persistent depressive disorder",
+      "difficulty": 2,
+      "stem": "A 34-year-old man comes to the physician because he has felt down most days for as long as he can remember, and certainly for the past 3 years. He has little energy, thinks of himself as a failure, and has trouble making decisions at work. The longest stretch in which he has felt normal was about 3 weeks. He still works full time and sees a few friends, but he says life feels joyless. He has never had a period of unusually high energy or a reduced need for sleep. He drinks alcohol rarely and uses no drugs. Serum TSH is normal.",
+      "leadIn": "Which is the most likely diagnosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Persistent depressive disorder"
+        },
+        {
+          "id": "b",
+          "text": "Cyclothymic disorder"
+        },
+        {
+          "id": "c",
+          "text": "Adjustment disorder with depressed mood"
+        },
+        {
+          "id": "d",
+          "text": "Major depressive disorder, single episode"
+        },
+        {
+          "id": "e",
+          "text": "Bipolar II disorder"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: persistent depressive disorder. Why: DSM-5-TR (pp. 193-194), in paraphrase, requires depressed mood on most days for at least 2 years (1 year in children and adolescents, when mood can be irritable), plus at least two of these: a change in appetite, a change in sleep, low energy, low self-esteem, poor concentration or trouble deciding, and hopelessness. During those 2 years, the person is never free of symptoms for more than 2 months, and there has never been a manic or hypomanic episode. The symptoms must not come from a substance or a medical condition such as hypothyroidism. He has low energy, low self-esteem and trouble deciding, and his normal stretches last only weeks. Your NBME Top Concepts (pp. 400, 403) pairs long-lasting depression with dysthymia, the older name for this disorder. MSD agrees that symptoms lasting at least 2 years without remission are \"classified as persistent depressive disorder (PDD),\" a category that combines what used to be called chronic major depressive disorder and dysthymic disorder, and that symptoms \"typically begin insidiously during adolescence.\"",
+      "whyWrong": {
+        "b": "Cyclothymic disorder needs many periods of hypomanic symptoms as well as depressive symptoms over 2 years (DSM-5-TR, p. 160; your NBME Top Concepts, p. 403). He has never had a period of high energy.",
+        "c": "Adjustment disorder begins within 3 months of a clear stressor and ends within 6 months after the stressor is over (DSM-5-TR, pp. 319-320). He has no stressor, and his mood has been low for years.",
+        "d": "A major depressive episode needs at least five symptoms over the same 2 weeks, including depressed mood or loss of interest (DSM-5-TR, p. 183). His milder symptoms have lasted for years, and DSM-5-TR (p. 194) allows a major depressive episode to be diagnosed in addition only if its full criteria are met.",
+        "e": "Bipolar II disorder needs at least one hypomanic episode as well as a major depressive episode (DSM-5-TR, p. 152; MSD). He has never had a hypomanic episode."
+      },
+      "sources": [
+        {
+          "title": "DSM-5-TR (Emily's file), Persistent depressive disorder, pp. 193-194; cyclothymic disorder, p. 160; bipolar II disorder, p. 152; major depressive disorder, p. 183; adjustment disorders, pp. 319-320"
+        },
+        {
+          "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Depression variants, p. 400; long-term depression and bipolar, p. 403"
+        },
+        {
+          "title": "MSD Manual Professional: Depressive Disorders",
+          "url": "https://www.msdmanuals.com/professional/psychiatric-disorders/mood-disorders/depressive-disorders"
+        }
+      ]
+    },
+    {
+      "id": "psych-cyclothymic-disorder-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Behavioral Science",
+      "system": "Behavioral Health",
+      "topic": "Bipolar spectrum: cyclothymic disorder",
+      "difficulty": 2,
+      "stem": "A 27-year-old graphic designer comes to the physician because her mood has been swinging up and down for about 3 years. Every few weeks she has 2 or 3 days when she sleeps 5 hours a night, feels full of ideas, talks more and starts several new projects. These spells alternate with stretches of a week or two when she feels flat, tired and unmotivated but still works. She has never felt normal for more than about a month at a time. Her low periods have never included more than three symptoms, and her high periods have never lasted 4 days. She has never been hospitalized or had psychotic symptoms. She uses no drugs, and serum TSH is normal.",
+      "leadIn": "Which is the most likely diagnosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cyclothymic disorder"
+        },
+        {
+          "id": "b",
+          "text": "Bipolar I disorder"
+        },
+        {
+          "id": "c",
+          "text": "Bipolar II disorder"
+        },
+        {
+          "id": "d",
+          "text": "Persistent depressive disorder"
+        },
+        {
+          "id": "e",
+          "text": "Major depressive disorder, recurrent"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: cyclothymic disorder. Why: DSM-5-TR (p. 160), in paraphrase, describes at least 2 years (1 year in children and adolescents) of many periods with hypomanic symptoms that fall short of a hypomanic episode and many periods with depressive symptoms that fall short of a major depressive episode. The symptoms are present at least half the time, never absent for more than 2 months, and the person has never had a full manic, hypomanic or major depressive episode. Substances and medical causes such as hyperthyroidism must be ruled out. Your NBME Top Concepts (p. 403) puts it simply: cyclothymia is long-term bipolar, with symptoms for 2 years that are never absent for 2 months, just as dysthymia is long-term depression. MSD agrees that the hypomanic and depressive symptoms \"are less severe than those in bipolar disorder,\" and notes that cyclothymic disorder \"is commonly a precursor of bipolar I disorder or bipolar II disorder.\" Treatment is mainly education, with mood stabilizers used for some patients.",
+      "whyWrong": {
+        "b": "Bipolar I disorder needs at least one manic episode (your Osmosis Pathology Volume 2 notes, p. 701). A manic episode lasts at least a week and affects daily life (p. 700), and her high spells last 2 or 3 days.",
+        "c": "Bipolar II disorder needs a full hypomanic episode of at least 4 days and a full major depressive episode (DSM-5-TR, pp. 150-152). Neither has ever been met here.",
+        "d": "Persistent depressive disorder needs depressed mood on most days for at least 2 years (DSM-5-TR, p. 193). Her low stretches alternate with high spells, and swings in both directions fit cyclothymia (your NBME Top Concepts, p. 403).",
+        "e": "Major depressive disorder needs episodes with at least five symptoms over 2 weeks (DSM-5-TR, p. 183). Her low periods have never had more than three symptoms."
+      },
+      "sources": [
+        {
+          "title": "DSM-5-TR (Emily's file), Cyclothymic disorder, p. 160; hypomanic episode, pp. 150-151; bipolar II disorder, p. 152; major depressive disorder, p. 183; persistent depressive disorder, pp. 193-194"
+        },
+        {
+          "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Long-term bipolar, p. 403"
+        },
+        {
+          "title": "Osmosis High-Yield Pathology Notes, Volume 2 (Emily's file), Depressive and bipolar disorders, pp. 700-701"
+        },
+        {
+          "title": "MSD Manual Professional: Cyclothymic Disorder",
+          "url": "https://www.msdmanuals.com/professional/psychiatric-disorders/mood-disorders/cyclothymic-disorder"
+        }
+      ]
+    },
+    {
+      "id": "psych-bipolar-ii-disorder-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Behavioral Science",
+      "system": "Behavioral Health",
+      "topic": "Bipolar spectrum: bipolar II disorder",
+      "difficulty": 2,
+      "stem": "A 31-year-old man comes to the physician because of 6 weeks of low mood, sleeping 11 hours a day, guilt, poor concentration and thoughts that he would be better off dead. He has missed several days of work. Two years ago, he had a 6-day stretch when he slept 3 to 4 hours a night without feeling tired, felt unusually confident, talked fast and drafted plans for three new businesses. His coworkers commented that he seemed like a different person, but he kept working, was never hospitalized and had no psychotic symptoms. He uses no drugs, and he was not taking any medication at the time.",
+      "leadIn": "Which is the most likely diagnosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bipolar II disorder"
+        },
+        {
+          "id": "b",
+          "text": "Bipolar I disorder"
+        },
+        {
+          "id": "c",
+          "text": "Cyclothymic disorder"
+        },
+        {
+          "id": "d",
+          "text": "Major depressive disorder"
+        },
+        {
+          "id": "e",
+          "text": "Schizoaffective disorder, bipolar type"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: bipolar II disorder. Why: DSM-5-TR (pp. 150-151), in paraphrase, defines a hypomanic episode as at least 4 days in a row of elevated, expansive or irritable mood with increased energy, plus at least three symptoms such as less need for sleep, grandiosity, pressured speech or more goal-directed activity. The change is clear and others can see it, but it is not so severe that it badly disrupts work or social life or needs a hospital stay, and any psychosis makes the episode manic instead. Bipolar II disorder (DSM-5-TR, p. 152) needs one or more hypomanic episodes plus one or more major depressive episodes, with no manic episode ever. MSD agrees that hypomania \"does not involve psychotic features, marked impairment in function, or the need for hospitalization.\" Your Osmosis Pathology Volume 2 notes (pp. 700, 702) describe hypomania as lasting more than 4 days without affecting daily function, and bipolar II as at least one hypomanic and one major depressive episode. Your NBME Top Concepts (p. 401) has a practice vignette on hypomania, and your Pharmacology High Yield notes (PDF p. 63) list lamotrigine for the depressive phase of bipolar II.",
+      "whyWrong": {
+        "b": "Bipolar I disorder needs at least one manic episode (your Osmosis Pathology Volume 2 notes, p. 701). A manic episode lasts at least a week, impairs daily function or needs a hospital stay, or includes psychosis (p. 700; DSM-5-TR, p. 151). His high period did none of these.",
+        "c": "Cyclothymic disorder never meets the criteria for a full hypomanic or major depressive episode (DSM-5-TR, p. 160). He has had both.",
+        "d": "Major depressive disorder requires that there has never been a manic or hypomanic episode (your Osmosis Pathology Volume 2 notes, p. 702). His 6-day high period was a hypomanic episode.",
+        "e": "Schizoaffective disorder needs a stretch of 2 weeks or longer with delusions or hallucinations but no mood episode (DSM-5-TR, p. 122). He has never had psychotic symptoms."
+      },
+      "sources": [
+        {
+          "title": "DSM-5-TR (Emily's file), Hypomanic episode, pp. 150-151; bipolar II disorder, pp. 152-153; cyclothymic disorder, p. 160; schizoaffective disorder, p. 122"
+        },
+        {
+          "title": "Osmosis High-Yield Pathology Notes, Volume 2 (Emily's file), Depressive and bipolar disorders, pp. 700-702"
+        },
+        {
+          "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Understanding hypomania, p. 401"
+        },
+        {
+          "title": "Pharmacology High Yield (Emily's file), Bipolar disorder treatment, PDF p. 63"
+        },
+        {
+          "title": "MSD Manual Professional: Bipolar Disorders",
+          "url": "https://www.msdmanuals.com/professional/psychiatric-disorders/mood-disorders/bipolar-disorders"
+        }
+      ]
+    },
+    {
+      "id": "psych-delusional-disorder-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Behavioral Science",
+      "system": "Behavioral Health",
+      "topic": "Psychotic disorders: delusional disorder",
+      "difficulty": 2,
+      "stem": "A 58-year-old retired postal worker is brought to the physician by her son. For 8 months, she has been sure that her neighbor is pumping car exhaust into her house through the vents to drive her out. She has called the police four times and installed air filters in every room. Apart from this, she pays her bills, cooks, drives and goes to church each week. Her speech is clear and logical, her mood is normal, and she denies hearing voices. Physical examination, laboratory studies and an MRI of the brain are normal. She drinks no alcohol and takes no drugs.",
+      "leadIn": "Which is the most likely diagnosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Delusional disorder"
+        },
+        {
+          "id": "b",
+          "text": "Brief psychotic disorder"
+        },
+        {
+          "id": "c",
+          "text": "Schizophrenia"
+        },
+        {
+          "id": "d",
+          "text": "Schizophreniform disorder"
+        },
+        {
+          "id": "e",
+          "text": "Paranoid personality disorder"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: delusional disorder, persecutory type. Why: DSM-5-TR (pp. 105-106), in paraphrase, requires one or more delusions for at least 1 month in a person who has never met the main symptom criterion for schizophrenia. Hallucinations, if present, are not prominent and fit the delusion. Apart from the delusion and its direct effects, daily functioning stays largely intact and behavior does not look strange, and any mood episodes have been short. In the persecutory type, the person believes they are being plotted against, poisoned or harassed. Your NBME Top Concepts (p. 407) sums it up the same way: at least 1 month of isolated delusions without other psychotic symptoms and without marked impairment. MSD agrees that the delusions \"persist for at least 1 month\" and occur \"without any marked functional impairment apart from that associated with the delusion,\" that onset is usually in middle or late adult life, and that \"Antipsychotics sometimes alleviate symptoms.\" Correction: your Osmosis Pathology Volume 2 notes (p. 735) list \"affects day-to-day functioning\" as a diagnostic point. DSM-5-TR (p. 106) and MSD say the reverse: apart from the impact of the delusion, functioning is not markedly impaired.",
+      "whyWrong": {
+        "b": "Brief psychotic disorder runs from 1 day to under a month, and the person returns fully to baseline (DSM-5-TR, p. 109). Her belief has lasted 8 months.",
+        "c": "Schizophrenia needs at least two core symptoms (such as delusions plus hallucinations or disorganized speech), a clear drop in functioning, and signs lasting at least 6 months (DSM-5-TR, p. 114). She has only one isolated delusion and works normally.",
+        "d": "Schizophreniform disorder needs at least two core psychotic symptoms for 1 to 6 months (DSM-5-TR, p. 111). She has a single delusion lasting 8 months.",
+        "e": "Paranoid personality disorder is a lifelong pattern of distrust and suspicion that begins by early adulthood (DSM-5-TR, p. 738). It does not involve a fixed false belief that started recently in late adulthood."
+      },
+      "sources": [
+        {
+          "title": "DSM-5-TR (Emily's file), Delusional disorder, pp. 105-106; brief psychotic disorder, p. 109; schizophreniform disorder, p. 111; schizophrenia, p. 114; paranoid personality disorder, p. 738"
+        },
+        {
+          "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Delusional disorder, p. 407"
+        },
+        {
+          "title": "Osmosis High-Yield Pathology Notes, Volume 2 (Emily's file), Delusional disorder, pp. 734-735"
+        },
+        {
+          "title": "MSD Manual Professional: Delusional Disorder",
+          "url": "https://www.msdmanuals.com/professional/psychiatric-disorders/schizophrenia-and-related-disorders/delusional-disorder"
+        }
+      ]
+    },
+    {
+      "id": "psych-schizoaffective-disorder-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Behavioral Science",
+      "system": "Behavioral Health",
+      "topic": "Psychotic disorders: schizoaffective disorder",
+      "difficulty": 3,
+      "stem": "A 33-year-old man has been ill for 4 years. He has been hospitalized three times for episodes lasting several weeks in which he slept very little, believed he was destined to lead a world government and spent his savings. During these episodes, he also heard voices. Between episodes, after his mood has been normal for more than a month, he still hears voices commenting on what he does and believes his neighbors put a tracking chip in his tooth. Counting all his episodes, he has had manic symptoms for most of the 4 years. He does not use drugs.",
+      "leadIn": "Which is the most likely diagnosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Schizoaffective disorder"
+        },
+        {
+          "id": "b",
+          "text": "Bipolar I disorder with psychotic features"
+        },
+        {
+          "id": "c",
+          "text": "Schizophrenia"
+        },
+        {
+          "id": "d",
+          "text": "Delusional disorder"
+        },
+        {
+          "id": "e",
+          "text": "Schizophreniform disorder"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: schizoaffective disorder, bipolar type. Why: DSM-5-TR (pp. 121-122), in paraphrase, requires an unbroken period of illness in which a major mood episode (manic or depressive) happens together with the core symptoms of schizophrenia. In addition, there must be a stretch of 2 weeks or longer with delusions or hallucinations but no major mood episode, and mood episodes must fill most of the total illness. He has psychosis during manic episodes, psychosis for more than a month while his mood is normal, and mania for most of the 4 years. Your Osmosis Pathology Volume 2 notes (p. 735) describe the same three parts: schizophrenia-type symptoms plus a mood disorder, with psychotic symptoms that outlast the mood episode by 2 weeks or more. Your NBME Top Concepts (p. 406) has a practice question on this diagnosis. MSD agrees on the 2-week stretch of psychosis with normal mood and says mood episodes must be present for \"the majority (ie,> 50%) of the total duration of illness.\" For the bipolar type, MSD says a second-generation antipsychotic may be enough, with lithium, carbamazepine or valproate added if needed.",
+      "whyWrong": {
+        "b": "In bipolar I disorder with psychotic features, psychosis happens only during mood episodes. Psychosis for 2 weeks or more with normal mood points to schizoaffective disorder (DSM-5-TR, p. 122; MSD).",
+        "c": "Schizophrenia is diagnosed only if mood episodes have filled a minority of the illness (DSM-5-TR, p. 114). He has had manic symptoms for most of it.",
+        "d": "Delusional disorder requires that the core schizophrenia criterion has never been met and that mood episodes were brief (DSM-5-TR, pp. 105-106). He has prominent hallucinations and long manic episodes.",
+        "e": "Schizophreniform disorder runs for 1 month to under 6 months (DSM-5-TR, p. 111). His illness has lasted 4 years."
+      },
+      "sources": [
+        {
+          "title": "DSM-5-TR (Emily's file), Schizoaffective disorder, pp. 121-122; delusional disorder, pp. 105-106; schizophreniform disorder, p. 111; schizophrenia, p. 114"
+        },
+        {
+          "title": "Osmosis High-Yield Pathology Notes, Volume 2 (Emily's file), Schizoaffective disorder, p. 735"
+        },
+        {
+          "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Psychotic disorders, p. 406"
+        },
+        {
+          "title": "MSD Manual Professional: Schizoaffective Disorder",
+          "url": "https://www.msdmanuals.com/professional/psychiatric-disorders/schizophrenia-and-related-disorders/schizoaffective-disorder"
+        }
+      ]
+    },
+    {
+      "id": "neuro-pcp-nmda-antagonism-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Behavioral Health",
+      "topic": "Drugs of abuse: phencyclidine (PCP) and NMDA receptors",
+      "difficulty": 2,
+      "stem": "A 22-year-old man is brought to the emergency department by police after he fought four officers outside a party. He did not seem to notice a deep cut on his forearm. He is agitated, shouting and hard to calm. His temperature is 38.0°C (100.4°F), pulse is 126/min, and blood pressure is 172/104 mm Hg. His pupils are mid-sized and react to light, and his skin is dry. There is nystagmus in both the vertical and horizontal directions. His speech is slurred, his gait is ataxic, and his muscles are rigid.",
+      "leadIn": "The drug this patient most likely used acts mainly by which mechanism?",
+      "options": [
+        {
+          "id": "a",
+          "text": "NMDA receptor antagonism"
+        },
+        {
+          "id": "b",
+          "text": "Mu-opioid receptor agonism"
+        },
+        {
+          "id": "c",
+          "text": "Enhanced GABA-A receptor activity"
+        },
+        {
+          "id": "d",
+          "text": "Blockade of dopamine reuptake"
+        },
+        {
+          "id": "e",
+          "text": "Cannabinoid receptor agonism"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: NMDA receptor antagonism, from phencyclidine (PCP). Why: DSM-5-TR (pp. 594-595), in paraphrase, describes PCP intoxication as recent use with problem behavior such as fighting, impulsiveness, agitation and poor judgment, plus at least two signs within 1 hour. The signs include vertical or horizontal nystagmus, high blood pressure or a fast heart rate, numbness or less response to pain, ataxia, slurred speech, muscle rigidity, seizures or coma, and sensitivity to sound. This patient has nearly all of them. Your NBME Top Concepts (p. 412) links superhuman strength, high blood pressure, a fast pulse and vertical nystagmus to NMDA antagonism. MSD agrees that \"PCP is a noncompetitive N-Methyl-D-aspartate (NMDA) receptor antagonist,\" that users \"may present with violent or dangerous behavior,\" and that they \"may be impervious to pain.\" MSD advises a quiet, calm room with close observation and \"Benzodiazepines can be used to manage agitation and seizures.\"",
+      "whyWrong": {
+        "b": "Opioids act on mu receptors and cause drowsiness, respiratory depression and small pupils: \"Pupils are miotic in an overdose\" (MSD; your NBME Top Concepts, p. 412). This patient is agitated and his pupils are mid-sized.",
+        "c": "Benzodiazepines bind GABA-A receptors and \"increase the affinity of the receptor for GABA\" (MSD). Intoxication causes somnolence, depressed reflexes and respiratory depression, not violent agitation with hypertension.",
+        "d": "Cocaine blocks the reuptake of dopamine, norepinephrine and serotonin, and MSD says \"mydriasis and diaphoresis are apparent\" on examination. His pupils are mid-sized and his skin is dry, and vertical nystagmus fits PCP (your NBME Top Concepts, p. 412).",
+        "e": "THC binds cannabinoid receptors, and its physical effects are mild in most people: a fast heart rate, red eyes and dry mouth (MSD). It does not cause vertical nystagmus or violent agitation with rigidity."
+      },
+      "sources": [
+        {
+          "title": "DSM-5-TR (Emily's file), Phencyclidine intoxication, pp. 594-595"
+        },
+        {
+          "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Drugs of abuse, p. 412"
+        },
+        {
+          "title": "MSD Manual Professional: Ketamine and Phencyclidine (PCP)",
+          "url": "https://www.msdmanuals.com/professional/special-subjects/illicit-drugs-and-intoxicants/ketamine-and-phencyclidine-pcp"
+        },
+        {
+          "title": "MSD Manual Professional: Opioid Toxicity and Withdrawal",
+          "url": "https://www.msdmanuals.com/professional/psychiatric-disorders/opioid-use-disorder/opioid-toxicity-and-withdrawal"
+        },
+        {
+          "title": "MSD Manual Professional: Benzodiazepines and Barbiturates",
+          "url": "https://www.msdmanuals.com/professional/special-subjects/illicit-drugs-and-intoxicants/benzodiazepines-and-barbiturates"
+        },
+        {
+          "title": "MSD Manual Professional: Cocaine",
+          "url": "https://www.msdmanuals.com/professional/special-subjects/illicit-drugs-and-intoxicants/cocaine"
+        },
+        {
+          "title": "MSD Manual Professional: Marijuana (Cannabis)",
+          "url": "https://www.msdmanuals.com/professional/special-subjects/illicit-drugs-and-intoxicants/marijuana-cannabis"
+        }
+      ]
+    },
+    {
+      "id": "psych-cannabis-intoxication-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Behavioral Science",
+      "system": "Behavioral Health",
+      "topic": "Substance intoxication: cannabis",
+      "difficulty": 1,
+      "stem": "A 19-year-old college student is brought to the student health center by a roommate. An hour after a party, the student began giggling at nothing, then became anxious and said that time had slowed down. The student has since eaten a large pizza and two bags of chips. The student is oriented but slow to answer and has trouble walking a straight line. Pulse is 116/min, blood pressure is 128/80 mm Hg, and respirations are 16/min. The mouth is dry.",
+      "leadIn": "Which additional finding is most likely on examination?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Conjunctival injection"
+        },
+        {
+          "id": "b",
+          "text": "Pinpoint pupils"
+        },
+        {
+          "id": "c",
+          "text": "Vertical nystagmus"
+        },
+        {
+          "id": "d",
+          "text": "Dilated pupils with sweating"
+        },
+        {
+          "id": "e",
+          "text": "Depressed deep tendon reflexes"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: conjunctival injection (red eyes). Why: This is cannabis intoxication. DSM-5-TR (p. 582), in paraphrase, requires recent cannabis use with problem changes in behavior or mood, such as poor coordination, euphoria, anxiety, a feeling that time has slowed, poor judgment or social withdrawal. It also requires at least two signs within 2 hours of use: a fast heart rate, red eyes (conjunctival injection), a dry mouth and a bigger appetite. This student has the last three, so red eyes are the likely remaining finding. Your NBME Top Concepts (p. 412) pairs this kind of vignette with conjunctival injection. MSD agrees: \"Tachycardia, conjunctival injection, and dry mouth occur regularly,\" \"Appetite often increases,\" and THC \"binds at cannabinoid receptors, which are present throughout the brain.\" Your Osmosis Pathology Volume 2 notes (pp. 750-751) add that regular use causes tolerance as cannabinoid receptors are downregulated, and that withdrawal brings cravings, irritability, anxiety and trouble sleeping. MSD notes that frequent users can develop cannabinoid hyperemesis syndrome, with cycles of nausea and vomiting.",
+      "whyWrong": {
+        "b": "Pinpoint pupils point to opioids, which cause drowsiness and respiratory depression (MSD; your NBME Top Concepts, p. 412). This student is alert, anxious and eating.",
+        "c": "Vertical nystagmus is a sign of phencyclidine intoxication, which also causes agitation, violence and high blood pressure (DSM-5-TR, p. 595; your NBME Top Concepts, p. 412).",
+        "d": "Dilated pupils with sweating, along with a fast heart rate and high blood pressure, point to cocaine (MSD).",
+        "e": "Depressed deep tendon reflexes, along with somnolence and ataxia, fit benzodiazepine or barbiturate intoxication (MSD). This student is anxious and hungry, not sedated."
+      },
+      "sources": [
+        {
+          "title": "DSM-5-TR (Emily's file), Cannabis intoxication, p. 582; phencyclidine intoxication, p. 595"
+        },
+        {
+          "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Drugs of abuse, p. 412"
+        },
+        {
+          "title": "Osmosis High-Yield Pathology Notes, Volume 2 (Emily's file), Cannabis dependence, pp. 750-751"
+        },
+        {
+          "title": "MSD Manual Professional: Marijuana (Cannabis)",
+          "url": "https://www.msdmanuals.com/professional/special-subjects/illicit-drugs-and-intoxicants/marijuana-cannabis"
+        },
+        {
+          "title": "MSD Manual Professional: Opioid Toxicity and Withdrawal",
+          "url": "https://www.msdmanuals.com/professional/psychiatric-disorders/opioid-use-disorder/opioid-toxicity-and-withdrawal"
+        },
+        {
+          "title": "MSD Manual Professional: Cocaine",
+          "url": "https://www.msdmanuals.com/professional/special-subjects/illicit-drugs-and-intoxicants/cocaine"
+        },
+        {
+          "title": "MSD Manual Professional: Benzodiazepines and Barbiturates",
+          "url": "https://www.msdmanuals.com/professional/special-subjects/illicit-drugs-and-intoxicants/benzodiazepines-and-barbiturates"
+        }
+      ]
+    },
+    {
+      "id": "pharm-lithium-thiazide-toxicity-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Behavioral Health",
+      "topic": "Lithium: drug interactions and toxicity",
+      "difficulty": 2,
+      "stem": "A 52-year-old woman with bipolar I disorder has been stable for 9 years on the same dose of a mood stabilizer. Three weeks ago, her physician started a new drug for high blood pressure. For 4 days, she has had a coarse tremor of both hands, vomiting, a headache that will not go away and confusion. She is unsteady on her feet. Deep tendon reflexes are brisk. Her serum level of the mood stabilizer is 2.1 mEq/L (her usual level is 0.7 mEq/L). Serum sodium is 133 mEq/L.",
+      "leadIn": "Which class of drug was most likely started 3 weeks ago?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Thiazide diuretic"
+        },
+        {
+          "id": "b",
+          "text": "Calcium channel blocker"
+        },
+        {
+          "id": "c",
+          "text": "Beta-adrenergic blocker"
+        },
+        {
+          "id": "d",
+          "text": "Alpha-1 adrenergic blocker"
+        },
+        {
+          "id": "e",
+          "text": "Central alpha-2 agonist"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: a thiazide diuretic, such as hydrochlorothiazide. Why: The mood stabilizer is lithium. Your NBME Top Concepts (pp. 401-402) says lithium has a narrow therapeutic index and lists thiazide diuretics, NSAIDs and dehydration as triggers for toxicity, along with its other problems: Ebstein anomaly in pregnancy, nephrogenic diabetes insipidus, hypothyroidism and a fine tremor. Your Pharmacology High Yield notes (PDF p. 63) say hyponatremia, diuretics and NSAIDs make lithium toxicity worse, that maintenance levels for bipolar disorder are 0.5 to 0.8 mEq/L, that toxic symptoms appear above 1.5 mEq/L, and that hemodialysis is needed at 4 mEq/L. MSD agrees that \"Thiazide diuretics, angiotensin-converting enzyme (ACE) inhibitors, and nonsteroidal anti-inflammatory drugs\" (other than aspirin) can raise lithium levels, and that toxicity is more likely with sodium loss, for example from diuretics. MSD says acute toxicity starts with \"gross tremor, increased deep tendon reflexes, persistent headache, vomiting, and confusion\" and can progress to stupor, seizures and arrhythmias.",
+      "whyWrong": {
+        "b": "Calcium channel blockers such as amlodipine are not among the drugs your notes or MSD list as raising lithium levels (your NBME Top Concepts, p. 402; MSD). The trigger here is a drug that causes sodium loss.",
+        "c": "Beta-blockers are not on the list of lithium triggers in your notes or MSD. Your NBME Top Concepts (p. 402) names thiazides, NSAIDs and dehydration.",
+        "d": "Alpha-1 blockers such as doxazosin are not listed as raising lithium levels (your Pharmacology High Yield notes, PDF p. 63; MSD). The low sodium points to a diuretic.",
+        "e": "Central alpha-2 agonists such as clonidine are not listed as raising lithium levels (your NBME Top Concepts, p. 402; MSD)."
+      },
+      "sources": [
+        {
+          "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Lithium drug interaction, p. 401; narrow therapeutic index, p. 402"
+        },
+        {
+          "title": "Pharmacology High Yield (Emily's file), Lithium, PDF p. 63"
+        },
+        {
+          "title": "MSD Manual Professional: Medications for Treatment of Bipolar Disorders",
+          "url": "https://www.msdmanuals.com/professional/psychiatric-disorders/mood-disorders/medications-for-treatment-of-bipolar-disorders"
+        }
+      ]
+    },
+    {
+      "id": "bs-suicide-risk-prior-attempt-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Behavioral Science",
+      "system": "Behavioral Health",
+      "topic": "Suicide: risk factors",
+      "difficulty": 2,
+      "stem": "A 46-year-old man is evaluated in the emergency department after his sister found him writing goodbye letters. He has major depressive disorder. Eighteen months ago, he was hospitalized after an overdose of acetaminophen. He has had chronic low back pain for 10 years, has lived alone since his divorce, and drinks two beers most nights. His uncle died by suicide. He says he feels hopeless.",
+      "leadIn": "Which factor in his history most increases his risk of dying by suicide?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Prior suicide attempt"
+        },
+        {
+          "id": "b",
+          "text": "Chronic low back pain"
+        },
+        {
+          "id": "c",
+          "text": "Living alone since a divorce"
+        },
+        {
+          "id": "d",
+          "text": "Nightly alcohol use"
+        },
+        {
+          "id": "e",
+          "text": "An uncle's death by suicide"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: his prior suicide attempt. Why: Your NBME Top Concepts (p. 399) names a prior attempt as the risk factor that poses the highest risk of completed suicide. It lists other risk factors as psychiatric disorders, owning a firearm, a family member who died by suicide, male sex and poor social support. All of those also apply here, which is why the question asks for the strongest one. MSD lists \"Previous suicide attempt\" under a history of suicidality, notes that males \"die by suicide at more than twice the rate of females,\" and says depression is \"One of the most common, potent, and remediable risk factors for suicide.\" The WHO fact sheet agrees that \"A prior suicide attempt is an important risk factor for suicide in the general population.\" This patient needs a safety assessment now, including asking about access to firearms and other means; WHO lists limiting access to means of suicide as a key prevention step.",
+      "whyWrong": {
+        "b": "Chronic pain does raise risk: MSD says \"Serious medical conditions, especially those that are chronic and painful, contribute significantly to suicides.\" But your NBME Top Concepts (p. 399) ranks a prior attempt highest.",
+        "c": "Social isolation and poor social support are risk factors (MSD; your NBME Top Concepts, p. 399), but they rank below a prior attempt.",
+        "d": "MSD says that \"Over one third of people who die by suicide have consumed alcohol before the attempt,\" so alcohol matters, but it is not the strongest factor in this history (your NBME Top Concepts, p. 399).",
+        "e": "A family history of suicide raises risk (MSD; your NBME Top Concepts, p. 399), but a person's own prior attempt carries more risk."
+      },
+      "sources": [
+        {
+          "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Suicide risk factors, p. 399"
+        },
+        {
+          "title": "MSD Manual Professional: Suicidal Behavior",
+          "url": "https://www.msdmanuals.com/professional/psychiatric-disorders/suicidal-behavior/suicidal-behavior"
+        },
+        {
+          "title": "World Health Organization fact sheet: Suicide",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/suicide"
+        }
+      ]
     }
   ]
 }
