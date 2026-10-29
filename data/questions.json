@@ -40104,7 +40104,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: excess collagen and extracellular matrix in the dermis (keloid). Why: MSD describes keloids as smooth overgrowths of fibroblastic tissue that arise where the skin was injured, and under the microscope they show excessive collagen and extracellular matrix. The key clinical feature is that keloid tissue grows beyond the margins of the original wound, while a hypertrophic scar stays within them. Keloids are more common in people with dark skin and tend to form on the earlobes, shoulders, upper arms and front of the chest. Monthly triamcinolone injections into the lesion can flatten it, while cutting it out alone carries a risk that it returns larger than before. Her documents do not cover keloids, so this item relies on MSD.",
+      "explanation": "Answer: excess collagen and extracellular matrix in the dermis (keloid). Why: MSD describes keloids as smooth overgrowths of fibroblastic tissue that arise where the skin was injured, and under the microscope they show excessive collagen and extracellular matrix. The key clinical feature is that keloid tissue grows beyond the margins of the original wound, while a hypertrophic scar stays within them. Keloids are more common in people with dark skin and tend to form on the earlobes, shoulders, upper arms and front of the chest. Monthly triamcinolone injections into the lesion can flatten it, while cutting it out alone carries a risk that it returns larger than before. Her documents do not cover keloids. Your Osmosis physiology notes (p. 194) do explain the normal step that a keloid overdoes: in fibroplasia, dermal fibroblasts multiply and secrete collagen that forms fibrils and bundles, and during maturation the collagen is cross-linked and remodeled.",
       "whyWrong": {
         "b": "Nests of atypical melanocytes point to melanoma, a cancer of melanocytes (your Osmosis dermatology notes, p. 26). A keloid is a fibroblast and collagen overgrowth.",
         "c": "Basaloid cells that invade the dermis with clefting are the picture of basal cell carcinoma (your Osmosis dermatology notes, p. 26).",
@@ -40112,6 +40112,9 @@
         "e": "Lymphocytes clustered around the hair bulb are the biopsy finding of alopecia areata (your Osmosis dermatology notes, p. 21)."
       },
       "sources": [
+        {
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Wound healing, p. 194"
+        },
         {
           "title": "Osmosis High-Yield Pathology Notes: Dermatology (Emily's file), Melanoma and basal cell carcinoma, p. 26; alopecia areata, p. 21"
         },
@@ -40159,14 +40162,17 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: cooling the body by secreting watery sweat. Why: OpenStax Anatomy and Physiology describes eccrine sweat glands as glands found all over the skin, most plentiful on the palms, soles and forehead. Each one has a duct that rises to a pore on the skin surface. Their sweat is hypotonic, mostly water with some salt, plus small amounts of antibodies, waste and the antimicrobial peptide dermcidin. OpenStax calls them a primary part of human thermoregulation. Apocrine glands, by contrast, are larger, lie deeper, cluster in hairy areas such as the armpits and genital region, and empty into hair follicles. Her documents do not cover sweat gland histology, so this item relies on OpenStax.",
+      "explanation": "Answer: cooling the body by secreting watery sweat. Why: Your Osmosis physiology notes (p. 193) describe eccrine (merocrine) sweat glands as coiled glands in the dermis whose ducts open into pores on the skin surface. They are found almost everywhere except a few sites such as the lips and ear canal. Their sweat is hypotonic, mostly water and electrolytes, with dermcidin to kill bacteria, and it cools the body as it evaporates. The sympathetic nervous system drives them during exercise, fear and the fight-or-flight response. Apocrine glands, by contrast, are found in the armpits and genitals, become active at puberty, and make a richer secretion that bacteria break down into body odor. OpenStax Anatomy and Physiology agrees that eccrine glands are most plentiful on the palms, soles and forehead, that their ducts rise to a pore on the surface, and that they are a primary part of human thermoregulation. It adds that apocrine ducts usually empty into hair follicles.",
       "whyWrong": {
-        "b": "Sebaceous glands, most of which are attached to hair follicles, make sebum, a lipid mixture that lubricates and waterproofs skin and hair (OpenStax).",
-        "c": "Apocrine glands make a thicker sweat with organic compounds that skin bacteria break down, which causes odor (OpenStax). Their ducts usually empty into hair follicles in the armpits and genital region.",
-        "d": "The nail body is a plate of tightly packed dead cells that protects the fingertips and toe tips (OpenStax). It grows from the nail root, not from a gland.",
+        "b": "Sebaceous glands secrete sebum onto hair follicles, which softens the hair shaft and keeps moisture in (your Osmosis physiology notes, p. 193). OpenStax adds that sebum lubricates and waterproofs skin and hair.",
+        "c": "Apocrine glands in the armpits and genitals make a secretion richer in lipids and proteins that bacteria break down, causing body odor (your Osmosis physiology notes, p. 193). OpenStax notes that their ducts usually empty into hair follicles.",
+        "d": "The nail plate is made by keratinization of modified keratinocytes in the nail matrix and grows throughout life (your Osmosis physiology notes, p. 193). OpenStax describes the nail body as tightly packed dead cells that protect the fingertips. It does not come from a gland.",
         "e": "Melanin is made by melanocytes, and UV light switches on its production so it can absorb UV and protect the skin (your Osmosis dermatology notes, p. 8). Glands do not make it."
       },
       "sources": [
+        {
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Dermatology: skin structures, p. 193"
+        },
         {
           "title": "Osmosis High-Yield Pathology Notes: Dermatology (Emily's file), Sunburn and melanin, p. 8"
         },
