@@ -45420,23 +45420,23 @@
       "options": [
         {
           "id": "a",
-          "text": "Montelukast, a leukotriene receptor blocker"
+          "text": "Montelukast"
         },
         {
           "id": "b",
-          "text": "Omalizumab, an antibody that binds free IgE"
+          "text": "Omalizumab"
         },
         {
           "id": "c",
-          "text": "Cetirizine, an H1 histamine receptor blocker"
+          "text": "Cetirizine"
         },
         {
           "id": "d",
-          "text": "Cromolyn, a mast cell stabilizer"
+          "text": "Cromolyn"
         },
         {
           "id": "e",
-          "text": "Tiotropium, a muscarinic receptor blocker"
+          "text": "Ipratropium"
         }
       ],
       "answer": "a",
@@ -45445,7 +45445,7 @@
         "b": "Omalizumab treats allergic asthma with high IgE levels (your El-Husseiny respiratory notes, p. 136). An NSAID reaction in AERD is driven by a shift in arachidonic acid metabolism, not by IgE against the drug.",
         "c": "H1 blockers treat histamine-driven symptoms such as hay fever and hives. Histamine is not the main mediator of bronchospasm in AERD, and antihistamines do little for asthma.",
         "d": "Cromolyn stabilizes mast cells and is used to prevent asthma symptoms, but it is rarely used (your El-Husseiny respiratory notes, p. 136). It does not block the leukotriene receptor, so it does not target the excess leukotrienes of AERD.",
-        "e": "Tiotropium blocks acetylcholine at muscarinic receptors and is mainly a COPD drug. Cholinergic tone is not what the NSAID changes in this patient."
+        "e": "Ipratropium blocks acetylcholine at muscarinic receptors and is used mainly in COPD and as an add-on in severe asthma attacks. Cholinergic tone is not what the NSAID changes in this patient."
       },
       "sources": [
         {
@@ -45648,7 +45648,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: blood passing unventilated alveoli never meets the added oxygen. Why: The collapsed lobe is still perfused but receives no air, so blood flows through it without picking up oxygen and mixes with oxygenated blood in the left heart. This is a right-to-left intrapulmonary shunt. Your El-Husseiny respiratory notes (p. 62) define a pulmonary shunt as blood that reaches the left heart without being oxygenated, give atelectasis as an example, note the widened A-a gradient, and stress its most important feature: extra oxygen raises the PO2 in ventilated alveoli but barely raises arterial PO2. Your NBME Top Concepts (p. 85) shows the same idea as a graph. StatPearls (Hypoxia and Hypoxemia) describes shunt as blood that \"bypasses the lungs without oxygenation\" when \"Blood passes through non-ventilated alveoli, such as pneumonia, atelectasis,\" causing \"hypoxemia that proves notably resistant to correction with supplemental oxygen\"; \"oxygenation typically improves in V/Q mismatch but not in cases of shunt physiology.\"",
+      "explanation": "Answer: blood passing unventilated alveoli never meets the added oxygen. Why: The collapsed lobe is still perfused but receives no air, so blood flows through it without picking up oxygen and mixes with oxygenated blood in the left heart. This is a right-to-left intrapulmonary shunt. Your El-Husseiny respiratory notes (p. 62) define a pulmonary shunt as blood that reaches the left heart without being oxygenated, give atelectasis as an example, note the widened A-a gradient, and stress its most important feature: extra oxygen raises the PO2 in ventilated alveoli but barely raises arterial PO2. Your NBME Top Concepts (p. 85) diagrams a shunt: an alveolus with no ventilation that still receives blood. StatPearls (Hypoxia and Hypoxemia) describes shunt as blood that \"bypasses the lungs without oxygenation\" when \"Blood passes through non-ventilated alveoli, such as pneumonia, atelectasis,\" causing \"hypoxemia that proves notably resistant to correction with supplemental oxygen\"; \"oxygenation typically improves in V/Q mismatch but not in cases of shunt physiology.\"",
       "whyWrong": {
         "b": "A diffusion barrier (as in pulmonary fibrosis) also widens the A-a gradient, but raising the inspired oxygen speeds diffusion, so PaO2 rises well.",
         "c": "Hypoventilation lowers PaO2 by raising alveolar CO2, but her PaCO2 is normal, and hypoxemia from hypoventilation corrects easily with oxygen.",
@@ -46015,7 +46015,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: blocking mTOR so T cells cannot respond to IL-2. Why: High lipids, low blood counts and poor wound healing after a switch away from a calcineurin inhibitor point to sirolimus. Your El-Husseiny microbiology and immunology notes (p. 482) say sirolimus binds FKBP and inhibits mTOR, so T cells cannot be activated and B cells cannot mature in response to IL-2; it is used to prevent kidney transplant rejection and in drug-eluting stents, and its side effects include pancytopenia, insulin resistance and hyperlipidemia. The same page says the calcineurin inhibitors tacrolimus and cyclosporine instead block IL-2 production. The FDA label says sirolimus \"binds to the immunophilin, FK Binding Protein-12 (FKBP-12),\" and the complex \"binds to and inhibits the activation of the mammalian Target Of Rapamycin (mTOR),\" \"inhibiting the progression from the G1 to the S phase of the cell cycle.\" It also warns of \"Increased serum cholesterol and triglycerides\" and \"Abnormal healing following transplant surgery.\" Other source: your notes call sirolimus not nephrotoxic, but the FDA label reports that kidney function declined faster when sirolimus was combined with cyclosporine.",
+      "explanation": "Answer: blocking mTOR so T cells cannot respond to IL-2. Why: High lipids, low blood counts and poor wound healing after a switch away from a calcineurin inhibitor point to sirolimus. Your El-Husseiny microbiology and immunology notes (p. 482) say sirolimus binds FKBP and inhibits mTOR, so T cells cannot be activated and B cells cannot mature in response to IL-2; it is used to prevent kidney transplant rejection and in drug-eluting stents, and its side effects include pancytopenia, insulin resistance and hyperlipidemia. The same page says the calcineurin inhibitors tacrolimus and cyclosporine instead block IL-2 production. The FDA label says sirolimus \"binds to the immunophilin, FK Binding Protein-12 (FKBP-12),\" and the complex \"binds to and inhibits the activation of the mammalian Target Of Rapamycin (mTOR),\" \"inhibiting the progression from the G1 to the S phase of the cell cycle.\" It also warns of \"Increased serum cholesterol and triglycerides\" and \"Abnormal healing following transplant surgery.\" The FDA label ties its kidney warnings to sirolimus given with cyclosporine; kidney function was better once cyclosporine was stopped.",
       "whyWrong": {
         "b": "Calcineurin inhibition is how tacrolimus and cyclosporine work. Tremor and high blood glucose were the reasons he was switched away from such a drug (your El-Husseiny microbiology and immunology notes, p. 482).",
         "c": "IMP dehydrogenase inhibition is mycophenolate. Its main side effects are bone marrow suppression and GI upset, not a sharp rise in lipids.",
@@ -46374,7 +46374,7 @@
         },
         {
           "id": "c",
-          "text": "A complete lack of DNA repair enzymes"
+          "text": "A high water content that forms free radicals"
         },
         {
           "id": "d",
@@ -46382,16 +46382,16 @@
         },
         {
           "id": "e",
-          "text": "Radiation-induced antibodies against its cells"
+          "text": "A higher radiation dose than other tissues received"
         }
       ],
       "answer": "a",
       "explanation": "Answer: constant, rapid division of its stem cells. Why: After a whole-body dose of a few gray, the bone marrow fails first, after a quiet latent period, because its stem cells divide constantly and are killed by radiation-induced DNA damage. Your Osmosis metabolic disorders notes (pp. 11-12) explain that rapidly dividing cells are the most vulnerable in acute radiation syndrome and describe its hematopoietic, gastrointestinal, skin and neurovascular forms. The CDC says \"The major cause of this syndrome is depletion of immature parenchymal stem cells in specific tissues,\" noting that \"Stem cells in bone marrow and cells lining GI tract are dying.\" The bone marrow syndrome usually occurs with \"a dose between 0.7 and 10 Gy (70 – 1000 rads).\" In the first (prodromal) stage, \"The classic symptoms for this stage are nausea, vomiting, as well as anorexia,\" and in the latent stage \"the patient looks and feels generally healthy for a few hours or even up to a few weeks.\"",
       "whyWrong": {
         "b": "Iron stores do not explain the pattern. The CDC ties the syndrome to the death of immature stem cells in specific tissues, which is why marrow and gut lining fail first.",
-        "c": "Marrow cells have DNA repair enzymes. They are sensitive because they divide often, giving little time to repair damage before they divide again.",
+        "c": "Radiation does make free radicals from water, but every soft tissue is mostly water. Water content does not explain why the marrow fails first while neurons and heart muscle are spared.",
         "d": "Heart muscle and neurons have very high oxidative metabolism, yet they rarely divide and are among the most resistant tissues: the CDC gives about 50 Gy as the usual threshold for the cardiovascular and nervous system syndrome.",
-        "e": "Acute radiation syndrome is direct cell killing, not an antibody-mediated process."
+        "e": "This was a whole-body exposure, so his tissues received about the same dose. The marrow failed first because its stem cells divide often, not because it absorbed more radiation."
       },
       "sources": [
         {
