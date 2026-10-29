@@ -37959,7 +37959,7 @@
         },
         {
           "id": "e",
-          "text": "Lightest NREM sleep with no delta waves"
+          "text": "N2 (stage 2) NREM sleep"
         }
       ],
       "answer": "a",
@@ -37968,7 +37968,7 @@
         "b": "Nightmares usually come from REM sleep, tend to happen later in the night, and are remembered with a vivid dream (DSM-5-TR, p. 455). REM sleep behavior disorder also arises from REM sleep, and the person wakes easily and reports a detailed dream (p. 456). This child has no dream recall and no memory of the event.",
         "c": "Arousal disorders usually begin in slow-wave sleep during the first third of the night (DSM-5-TR, p. 452), not at the very start of sleep. MSD places sleep terrors in N3 (MSD, Parasomnias).",
         "d": "The child is not fully awake. DSM-5-TR describes these as incomplete awakenings, with the person hard to comfort and amnesic afterward (pp. 452-453). Nocturnal panic attacks are the contrast: they wake the person fully, without confusion or amnesia (p. 456).",
-        "e": "These episodes most often begin in slow-wave (deep) sleep (DSM-5-TR, p. 452), not light NREM sleep. MSD places sleep terrors in N3 (MSD, Parasomnias)."
+        "e": "Arousal disorders can start in any NREM stage, but they most often begin in slow-wave (deep) sleep (DSM-5-TR, p. 452). MSD places sleep terrors in N3, not N2 (MSD, Parasomnias)."
       },
       "sources": [
         {
@@ -38126,7 +38126,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: Tourette disorder. Why: DSM-5-TR (p. 93) defines a tic as a sudden, rapid, recurrent, nonrhythmic movement or vocalization. Tourette disorder needs multiple motor tics and at least one vocal tic at some point, though not necessarily at the same time. The tics may wax and wane but must have lasted more than 1 year since the first one, must start before age 18, and must not be caused by a substance or another medical condition. This child has blinking and shrugging (motor tics) plus throat clearing and sniffing (vocal tics) for more than a year. DSM-5-TR (p. 94) adds that most people feel an uncomfortable sensation or urge before a tic and that tics can be held back for a while, as this child describes. MSD agrees that Tourette syndrome needs both motor and vocal tics for more than 1 year, often starts at ages 4 to 6, and is most often accompanied by ADHD. Behavioral therapy is first-line, and clonidine or guanfacine is often the first drug choice.",
+      "explanation": "Answer: Tourette disorder. Why: DSM-5-TR (p. 93) defines a tic as a sudden, rapid, recurrent, nonrhythmic movement or vocalization. Tourette disorder needs multiple motor tics and at least one vocal tic at some point, though not necessarily at the same time. The tics may wax and wane but must have lasted more than 1 year since the first one, must start before age 18, and must not be caused by a substance or another medical condition. This child has blinking and shrugging (motor tics) plus throat clearing and sniffing (vocal tics) for more than a year. DSM-5-TR (p. 94) adds that most people feel an uncomfortable sensation or urge before a tic and that tics can be held back for a while, as this child describes. MSD agrees that Tourette syndrome needs both motor and vocal tics for more than 1 year, often starts at ages 4 to 6, and is most often accompanied by ADHD. MSD says a behavioral therapy called CBIT should be strongly considered as the first treatment. It calls clonidine and guanfacine first-line drugs for mild to moderate tics when ADHD is also present, and keeps antipsychotics as second-line drugs because of their side effects.",
       "whyWrong": {
         "b": "The persistent (chronic) tic diagnosis is for motor tics or vocal tics, but not both, for more than 1 year (DSM-5-TR, pp. 93-94). This child has both kinds.",
         "c": "Provisional tic disorder is for tics present less than 1 year (DSM-5-TR, p. 94). This child's tics have lasted 18 months.",
@@ -38710,9 +38710,9 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: intravenous deferoxamine. Why: Your El-Husseiny hematology-oncology notes (p. 60) explain that acute iron poisoning has a high death rate when children swallow adult iron tablets, which can look like candy. Free iron kills cells by peroxidation of membrane lipids. It causes nausea, vomiting, GI bleeding and lethargy, and scarring can later block the GI tract. Treatment is chelation with IV deferoxamine, plus gastric lavage. Chronic iron overload, by contrast, damages the joints, liver, heart, pancreas and gonads. MSD describes the course: GI symptoms in the first hours, a possible quiet phase, then shock and metabolic acidosis, then liver failure and later gastric outlet obstruction. MSD gives deferoxamine IV for serious poisoning. It notes that tablets may be seen on x-ray, though dissolved iron may not show, and that activated charcoal does not bind iron.",
+      "explanation": "Answer: intravenous deferoxamine. Why: Your El-Husseiny hematology-oncology notes (p. 60) explain that acute iron poisoning has a high death rate when children swallow adult iron tablets, which can look like candy. Free iron kills cells by peroxidation of membrane lipids. It causes nausea, vomiting, GI bleeding and lethargy, and scarring can later block the GI tract. Treatment is chelation with IV deferoxamine, plus gastric lavage. Chronic iron overload, by contrast, damages the joints, liver, heart, pancreas and gonads. MSD describes the course: GI symptoms in the first hours, a possible quiet phase, then shock and metabolic acidosis, then liver failure and later gastric outlet obstruction. It notes that tablets may be seen on x-ray, though dissolved iron may not show, and that activated charcoal does not bind iron. Recent change: your notes pair deferoxamine with gastric lavage, but MSD says lavage is usually not helpful, because vomiting empties the stomach better. When tablets show on x-ray, as here, MSD uses whole-bowel irrigation with polyethylene glycol until the tablets are gone. It keeps IV deferoxamine for severe toxicity: metabolic acidosis, shock, severe gastroenteritis or a serum iron above 500 mcg/dL. This child has a metabolic acidosis, so deferoxamine is indicated.",
       "whyWrong": {
-        "b": "MSD states that activated charcoal does not adsorb iron (MSD, Iron Poisoning). Your El-Husseiny notes list deferoxamine and gastric lavage instead (p. 60).",
+        "b": "MSD states that activated charcoal does not adsorb iron (MSD, Iron Poisoning). Your El-Husseiny notes list chelation with deferoxamine instead (p. 60).",
         "c": "Dimercaprol is a first-line chelator for lead poisoning (your El-Husseiny hematology-oncology notes, p. 33). It is not used for iron.",
         "d": "Succimer is used to chelate lead in children (your El-Husseiny hematology-oncology notes, p. 33). It is not the antidote for iron.",
         "e": "Fomepizole blocks alcohol dehydrogenase and is the antidote for methanol and ethylene glycol poisoning (your El-Husseiny biochemistry notes, p. 251). It does not bind iron."
