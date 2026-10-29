@@ -40879,6 +40879,1138 @@
           "url": "https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/iron-poisoning"
         }
       ]
+    },
+    {
+      "id": "path-hhs-no-ketoacidosis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Endocrine",
+      "topic": "Diabetes emergencies: hyperosmolar hyperglycemic state",
+      "difficulty": 2,
+      "stem": "A 76-year-old woman with type 2 diabetes is brought from her nursing home because she has become confused over 2 days. For a week she has been urinating often and drinking large amounts of water after starting treatment for a urinary tract infection. Her blood pressure is 94/56 mm Hg and pulse is 116/min. Her mucous membranes are dry. Plasma glucose is 1,040 mg/dL, serum osmolality is 352 mOsm/kg, arterial pH is 7.36, serum bicarbonate is 23 mEq/L, and the anion gap is 12 mEq/L. Serum ketones are trace positive.",
+      "leadIn": "Which mechanism best explains why this patient does not have significant ketoacidosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Enough insulin to suppress ketogenesis"
+        },
+        {
+          "id": "b",
+          "text": "Excess glucagon that blocks fatty acid oxidation"
+        },
+        {
+          "id": "c",
+          "text": "Metformin blocking hepatic gluconeogenesis"
+        },
+        {
+          "id": "d",
+          "text": "Insulin resistance in skeletal muscle and fat"
+        },
+        {
+          "id": "e",
+          "text": "Dehydration diluting the serum ketones"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: enough insulin to suppress ketogenesis. Why: This is the hyperosmolar hyperglycemic state (HHS). Your El-Husseiny endocrinology notes (p. 114) say HHS mainly affects people with type 2 diabetes and causes severe hyperglycemia, often above 1,000 mg/dL, with serum osmolality above 320 mOsm/kg. Ketones are absent or minimal, pH usually stays above 7.3 and bicarbonate above 20 mEq/L. The sustained glucose-driven diuresis causes profound dehydration (a water deficit of 8 to 10 liters) and neurologic signs such as confusion. MSD gives the reason ketoacidosis does not develop: \"the amount of insulin present in most patients with type 2 diabetes is adequate to suppress ketogenesis.\" Your notes (p. 99) also list lower lipolysis in fat tissue as an action of insulin. By contrast, people with type 1 diabetes make almost no insulin and are prone to ketosis (your notes, p. 105). Your NBME Top Concepts (p. 141) lists the dehydration clues seen here: tachycardia, hypotension and dry mucous membranes. For treatment, both sources say normal saline is the first step (your notes, p. 114), and MSD gives 1 L of 0.9% saline in the first hour. MSD adds that the fluid deficit can exceed 10 L.",
+      "whyWrong": {
+        "b": "Glucagon does the opposite. Your El-Husseiny endocrinology notes (p. 103) say glucagon promotes lipolysis and ketogenesis in the liver, so excess glucagon would push toward ketoacidosis.",
+        "c": "Metformin does lower glucose by blocking hepatic gluconeogenesis (your El-Husseiny endocrinology notes, p. 140), but this does not stop ketone production, and this patient's glucose is over 1,000 mg/dL.",
+        "d": "Insulin resistance is the defect that defines type 2 diabetes (your El-Husseiny endocrinology notes, p. 105). It helps explain the hyperglycemia, not the missing ketoacidosis.",
+        "e": "Water loss concentrates the blood rather than diluting it, which is why the osmolality is so high. The normal bicarbonate and anion gap show that ketoacids were not made in large amounts (your El-Husseiny endocrinology notes, p. 114)."
+      },
+      "sources": [
+        {
+          "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), DKA vs. HHS, p. 141"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Endocrinology (Emily's file), Insulin, p. 99; glucagon, p. 103; diabetes types, p. 105; HHS, p. 114; metformin, p. 140"
+        },
+        {
+          "title": "MSD Manual Professional: Acute Complications of Diabetes Mellitus",
+          "url": "https://www.msdmanuals.com/professional/endocrine-and-metabolic-disorders/diabetes-mellitus-and-hypoglycemia/acute-complications-of-diabetes-mellitus"
+        }
+      ]
+    },
+    {
+      "id": "endo-cushing-disease-pituitary-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Endocrine",
+      "topic": "Cushing syndrome: Cushing disease (pituitary ACTH)",
+      "difficulty": 2,
+      "stem": "A 36-year-old woman has gained 14 kg (31 lb) over a year, mostly around her trunk and face. She bruises easily and has wide purple stretch marks on her abdomen. Her blood pressure is 156/96 mm Hg. Twenty-four-hour urinary free cortisol is 3 times the upper limit of normal, and a 1-mg overnight dexamethasone test does not suppress her morning cortisol. Plasma ACTH is mildly elevated. After an 8-mg dose of dexamethasone, her serum cortisol falls by more than half. She takes no medications.",
+      "leadIn": "Which is the most likely source of the excess cortisol?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ACTH-secreting pituitary adenoma"
+        },
+        {
+          "id": "b",
+          "text": "Ectopic ACTH from a bronchial carcinoid"
+        },
+        {
+          "id": "c",
+          "text": "Cortisol-secreting adrenal adenoma"
+        },
+        {
+          "id": "d",
+          "text": "Adrenocortical carcinoma"
+        },
+        {
+          "id": "e",
+          "text": "Surreptitious glucocorticoid use"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: an ACTH-secreting pituitary adenoma (Cushing disease). Why: Your El-Husseiny endocrinology notes (p. 45) give a stepwise approach. First, confirm too much cortisol: high 24-hour urinary free cortisol, high late-night salivary cortisol, or no suppression on the 1-mg overnight dexamethasone test. Then measure ACTH to find the source. Low ACTH points to the adrenal gland. High ACTH points to the pituitary or to an ectopic tumor. A high-dose dexamethasone test then separates these two: ACTH from a pituitary adenoma suppresses, while ACTH from an ectopic tumor does not. MSD agrees that \"Cushing disease is Cushing syndrome that results from excess pituitary production of adrenocorticotropic hormone (ACTH)\" and that \"Suppression of cortisol on high-dose testing suggests Cushing disease.\" Recent change: MSD notes that most centers no longer use the high-dose dexamethasone test because of its limited sensitivity and specificity. Sampling both petrosal veins, which drain the pituitary, is more accurate: MSD states that \"A central-to-peripheral ACTH ratio > 3 virtually excludes ectopic ACTH syndrome.\"",
+      "whyWrong": {
+        "b": "Ectopic ACTH from a lung tumor such as a carcinoid raises ACTH, but it does not suppress with high-dose dexamethasone (your El-Husseiny endocrinology notes, p. 45). This patient's cortisol did suppress.",
+        "c": "A cortisol-secreting adrenal adenoma makes cortisol on its own and lowers ACTH (your El-Husseiny endocrinology notes, p. 45). MSD agrees that undetectable ACTH suggests a primary adrenal cause. Her ACTH is high.",
+        "d": "An adrenocortical carcinoma is also an adrenal source, so ACTH would be suppressed (MSD; your El-Husseiny endocrinology notes, p. 45). Her ACTH is high.",
+        "e": "Taking glucocorticoids suppresses the hypothalamic-pituitary-adrenal axis (your El-Husseiny endocrinology notes, p. 50), so ACTH would be low. She also takes no medications."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Endocrinology (Emily's file), Cushing syndrome diagnosis, p. 45; glucocorticoid withdrawal, p. 50"
+        },
+        {
+          "title": "MSD Manual Professional: Cushing Syndrome",
+          "url": "https://www.msdmanuals.com/professional/endocrine-and-metabolic-disorders/adrenal-disorders/cushing-syndrome"
+        }
+      ]
+    },
+    {
+      "id": "path-follicular-thyroid-carcinoma-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Endocrine",
+      "topic": "Thyroid cancer: follicular carcinoma",
+      "difficulty": 2,
+      "stem": "A 61-year-old woman has a 3-cm firm nodule in the right lobe of the thyroid gland. Thyroid function tests are normal, and a radioiodine scan shows that the nodule takes up less tracer than the rest of the gland. Fine-needle aspiration shows sheets of follicular cells and is reported as a follicular neoplasm. A right lobectomy is done. Microscopy shows small, uniform follicles without ground-glass nuclei or psammoma bodies. In several places, tumor cells extend through the full thickness of the fibrous capsule and into a vein in the capsule.",
+      "leadIn": "Which statement best describes this tumor?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It spreads mainly through the bloodstream"
+        },
+        {
+          "id": "b",
+          "text": "It spreads mainly through lymphatics to neck nodes"
+        },
+        {
+          "id": "c",
+          "text": "It arises from parafollicular C cells"
+        },
+        {
+          "id": "d",
+          "text": "It is benign because the follicles look normal"
+        },
+        {
+          "id": "e",
+          "text": "It is linked to BRAF mutations and childhood radiation"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: it spreads mainly through the bloodstream. Why: The tumor breaks through its capsule and invades a vessel, so this is follicular thyroid carcinoma. Your El-Husseiny endocrinology notes (p. 81) say follicular carcinoma is the second most common thyroid cancer, is told apart from a benign follicular adenoma by capsular and vascular invasion, and spreads through the blood to distant sites such as lung and bone. It is linked to RAS mutations and PAX8-PPAR-gamma translocations, and it lacks the ground-glass nuclei and psammoma bodies of papillary carcinoma. StatPearls agrees that capsular invasion and angioinvasion are what make a follicular lesion malignant, and that \"Fine needle aspiration cytology cannot differentiate between a follicular adenoma or carcinoma.\" Only examining the removed nodule can settle it. MSD adds that follicular carcinoma \"spreads hematogenously and carries a higher risk of distant metastases,\" and that it is more common in older patients and in regions of iodine deficiency. Your notes (p. 79) add that a cold nodule on an uptake scan is seen with adenoma and carcinoma.",
+      "whyWrong": {
+        "b": "Lymphatic spread to regional nodes is typical of papillary carcinoma (your El-Husseiny endocrinology notes, p. 79). MSD says papillary cancer reaches regional nodes in about one-third of patients.",
+        "c": "Medullary carcinoma arises from the parafollicular (C) cells and is followed with serum calcitonin (MSD). This tumor is made of follicles.",
+        "d": "Normal-looking follicles do not mean the tumor is benign. Invasion through the capsule and into a vessel is what defines follicular carcinoma (StatPearls; your El-Husseiny endocrinology notes, p. 81).",
+        "e": "RET and BRAF mutations and childhood radiation raise the risk of papillary carcinoma (your El-Husseiny endocrinology notes, p. 79). Follicular carcinoma is linked to RAS mutations and PAX8-PPAR-gamma translocations (p. 81)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Endocrinology (Emily's file), Thyroid nodules and papillary carcinoma, p. 79; follicular carcinoma, p. 81"
+        },
+        {
+          "title": "MSD Manual Professional: Thyroid Cancers",
+          "url": "https://www.msdmanuals.com/professional/endocrine-and-metabolic-disorders/thyroid-disorders/thyroid-cancers"
+        },
+        {
+          "title": "StatPearls: Follicular Adenoma",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK559320/"
+        }
+      ]
+    },
+    {
+      "id": "pharm-sglt2-genital-yeast-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Endocrine",
+      "topic": "Diabetes drugs: SGLT2 inhibitors",
+      "difficulty": 1,
+      "stem": "A 57-year-old woman with type 2 diabetes comes to the physician because of vulvar itching and a thick white vaginal discharge for 1 week. Two months ago, a second drug was added to her metformin. Her hemoglobin A1c has fallen from 8.4% to 7.3%, and she has lost 2 kg (4.4 lb). A wet mount shows budding yeast and pseudohyphae. Her plasma glucose today is 128 mg/dL, and a urine dipstick is strongly positive for glucose.",
+      "leadIn": "Which drug was most likely added?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Empagliflozin"
+        },
+        {
+          "id": "b",
+          "text": "Glipizide"
+        },
+        {
+          "id": "c",
+          "text": "Pioglitazone"
+        },
+        {
+          "id": "d",
+          "text": "Sitagliptin"
+        },
+        {
+          "id": "e",
+          "text": "Insulin glargine"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: empagliflozin, an SGLT2 inhibitor. Why: Your El-Husseiny endocrinology notes (p. 145) list canagliflozin, dapagliflozin and empagliflozin as SGLT2 inhibitors. They block glucose reabsorption in the proximal tubule, and their side effects are glycosuria, urinary tract infections and vaginal yeast infections. They work less well in chronic kidney disease, so creatinine is checked first. Here the urine is full of glucose even though the plasma glucose is near normal, which points to a drug that makes the kidney spill glucose. MSD agrees that these drugs \"inhibit SGLT2 in the proximal tubule of the kidney, which blocks glucose reabsorption, thus causing glycosuria,\" and that \"The most common adverse effects are genitourinary infections, especially mycotic infections.\" MSD adds that orthostatic symptoms can occur, that they can cause diabetic ketoacidosis in type 1 or type 2 diabetes, and that they lower cardiovascular events and heart failure hospitalizations and slow chronic kidney disease.",
+      "whyWrong": {
+        "b": "Glipizide is a sulfonylurea that closes the potassium channel of the beta cell to release insulin, and its main risk is hypoglycemia (your El-Husseiny endocrinology notes, p. 141). It does not cause glucose to spill into the urine.",
+        "c": "Pioglitazone binds the nuclear receptor PPAR-gamma to lower insulin resistance, and its main side effects are fluid retention, weight gain, heart failure and fractures (your El-Husseiny endocrinology notes, p. 142).",
+        "d": "Sitagliptin blocks DPP-4 so that GLP-1 and GIP last longer, which raises insulin release (your El-Husseiny endocrinology notes, p. 144). MSD agrees on the mechanism. It does not cause glycosuria at a normal plasma glucose.",
+        "e": "Insulin glargine lowers plasma glucose by replacing insulin. It does not make the kidney spill glucose when plasma glucose is near normal, which is the effect of blocking SGLT2 in the proximal tubule (MSD; your El-Husseiny endocrinology notes, p. 145)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Endocrinology (Emily's file), Sulfonylureas, p. 141; thiazolidinediones, p. 142; DPP-4 inhibitors, p. 144; SGLT2 inhibitors, p. 145"
+        },
+        {
+          "title": "MSD Manual Professional: Medications for Diabetes Mellitus Treatment",
+          "url": "https://www.msdmanuals.com/professional/endocrine-and-metabolic-disorders/diabetes-mellitus-and-hypoglycemia/medications-for-diabetes-mellitus-treatment"
+        }
+      ]
+    },
+    {
+      "id": "path-waterhouse-friderichsen-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Endocrine",
+      "topic": "Adrenal insufficiency: Waterhouse-Friderichsen syndrome",
+      "difficulty": 2,
+      "stem": "A previously healthy 18-year-old college student is brought to the emergency department with fever, headache and vomiting that began 10 hours ago. Purple, nonblanching spots are spreading over the legs and trunk. Blood pressure is 72/40 mm Hg and stays low after 3 liters of saline and a norepinephrine infusion. Serum sodium is 129 mEq/L and potassium is 5.8 mEq/L. Platelets are low, and prothrombin time is prolonged. Blood cultures later grow gram-negative diplococci.",
+      "leadIn": "Which process most likely explains the refractory hypotension and electrolyte changes?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bilateral hemorrhage into the adrenal glands"
+        },
+        {
+          "id": "b",
+          "text": "Autoimmune destruction of the adrenal cortex"
+        },
+        {
+          "id": "c",
+          "text": "Infarction of the anterior pituitary gland"
+        },
+        {
+          "id": "d",
+          "text": "Caseating granulomas destroying both adrenals"
+        },
+        {
+          "id": "e",
+          "text": "Atrophy of the adrenals after steroid withdrawal"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: bilateral hemorrhage into the adrenal glands (Waterhouse-Friderichsen syndrome). Why: Your El-Husseiny endocrinology notes (p. 47) describe Waterhouse-Friderichsen syndrome as sudden primary adrenal insufficiency caused by adrenal hemorrhage during septicemia, usually from Neisseria meningitidis, with DIC and endotoxic shock. Losing the whole adrenal cortex removes both cortisol and aldosterone, which explains the low sodium, high potassium and hypotension. Your notes (p. 50) add that in this adrenal crisis, giving hydrocortisone matters more than testing, because cortisol helps the blood vessels respond to norepinephrine. Your microbiology notes (p. 101) list bilateral adrenal hemorrhage, DIC and shock as a complication of meningococcemia. MSD describes the syndrome as \"septicemia, profound shock, cutaneous purpura, adrenal hemorrhage\" and says Neisseria are gram-negative diplococci. MSD's Addison disease page gives the crisis dose: \"Hydrocortisone 100 mg is injected IV over 30 seconds and repeated every 6 to 8 hours for the first 24 hours.\"",
+      "whyWrong": {
+        "b": "Autoimmune adrenalitis leads the causes of chronic primary adrenal insufficiency (Addison disease), and it develops slowly (your El-Husseiny endocrinology notes, p. 47). It does not appear within hours during sepsis.",
+        "c": "Pituitary infarction (Sheehan syndrome) happens after heavy bleeding at delivery (your El-Husseiny endocrinology notes, p. 25). Losing ACTH spares aldosterone, so hyperkalemia is not expected (p. 47).",
+        "d": "Tuberculosis is a common cause of chronic primary adrenal insufficiency in developing countries (your El-Husseiny endocrinology notes, p. 47). It does not cause sudden shock with purpura and gram-negative diplococci.",
+        "e": "Stopping long-term steroids causes adrenal crisis from a suppressed axis (your El-Husseiny endocrinology notes, p. 50). This patient was healthy and takes no steroids, and that secondary pattern spares aldosterone (p. 47)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Endocrinology (Emily's file), Sheehan syndrome, p. 25; adrenal insufficiency, p. 47; adrenal crisis, p. 50"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Neisseria meningitidis, p. 101"
+        },
+        {
+          "title": "MSD Manual Professional: Meningococcal Diseases",
+          "url": "https://www.msdmanuals.com/professional/infectious-diseases/gram-negative-cocci-and-coccobacilli/meningococcal-diseases"
+        },
+        {
+          "title": "MSD Manual Professional: Primary Adrenal Insufficiency (Addison Disease)",
+          "url": "https://www.msdmanuals.com/professional/endocrine-and-metabolic-disorders/adrenal-disorders/primary-adrenal-insufficiency-addison-disease"
+        }
+      ]
+    },
+    {
+      "id": "anat-left-adrenal-vein-renal-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Endocrine",
+      "topic": "Adrenal anatomy: venous drainage",
+      "difficulty": 2,
+      "stem": "A 48-year-old man has resistant hypertension and a serum potassium of 2.9 mEq/L. Plasma aldosterone is high and plasma renin activity is suppressed, and a saline infusion does not lower the aldosterone level. CT of the abdomen shows normal-appearing adrenal glands. To find out whether one or both glands are making the excess hormone, a radiologist passes a catheter from the femoral vein to sample blood from each adrenal vein.",
+      "leadIn": "To sample the left adrenal vein, the catheter must pass through which vessel just before entering it?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Left renal vein"
+        },
+        {
+          "id": "b",
+          "text": "Inferior vena cava"
+        },
+        {
+          "id": "c",
+          "text": "Left gonadal vein"
+        },
+        {
+          "id": "d",
+          "text": "Hepatic portal vein"
+        },
+        {
+          "id": "e",
+          "text": "Azygos vein"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the left renal vein. Why: Your El-Husseiny endocrinology notes (p. 37) give the drainage: the left adrenal vein drains into the left renal vein and then the inferior vena cava, while the right adrenal vein drains straight into the inferior vena cava. StatPearls and OpenStax agree. OpenStax states that \"The right adrenal vein enters the inferior vena cava directly, whereas the left adrenal vein enters the left renal vein.\" So the catheter goes up the inferior vena cava, into the left renal vein, and then into the left adrenal vein. MSD's primary aldosteronism page explains why this is done: high aldosterone with low renin suggests primary aldosteronism, and because imaging is relatively insensitive, most patients need catheterization of both adrenal veins to tell a one-sided adenoma from hyperplasia of both glands. MSD adds that PET imaging with radiolabeled metomidate may increasingly replace this procedure.",
+      "whyWrong": {
+        "b": "The right adrenal vein opens straight into the inferior vena cava (your El-Husseiny endocrinology notes, p. 37; StatPearls; OpenStax). The left adrenal vein does not, so the catheter must first turn into the left renal vein.",
+        "c": "The left gonadal vein is another tributary of the left renal vein (OpenStax). It does not lead to the adrenal gland.",
+        "d": "The hepatic portal vein forms from the superior mesenteric and splenic veins and carries gut blood to the liver (OpenStax). The adrenal veins drain into the systemic veins, not the portal system.",
+        "e": "The azygos vein drains the thoracic wall and empties into the superior vena cava (OpenStax). It does not receive the adrenal veins."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Endocrinology (Emily's file), Adrenal venous drainage, p. 37"
+        },
+        {
+          "title": "StatPearls: Anatomy, Abdomen and Pelvis: Adrenal Glands (Suprarenal Glands)",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK482264/"
+        },
+        {
+          "title": "OpenStax Anatomy and Physiology 2e, 20.5 Circulatory Pathways",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways"
+        },
+        {
+          "title": "MSD Manual Professional: Primary Aldosteronism",
+          "url": "https://www.msdmanuals.com/professional/endocrine-and-metabolic-disorders/adrenal-disorders/primary-aldosteronism"
+        }
+      ]
+    },
+    {
+      "id": "anat-external-superior-laryngeal-nerve-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Endocrine",
+      "topic": "Thyroid surgery: external branch of the superior laryngeal nerve",
+      "difficulty": 2,
+      "stem": "A 39-year-old choir singer has a total thyroidectomy for a large goiter. During the operation, the vessels at the upper pole of each lobe are tied off close to the thyroid. After surgery, the patient speaks clearly and has no hoarseness, but can no longer sing high notes. Swallowing and breathing are normal. Laryngoscopy shows that both vocal folds open and close normally.",
+      "leadIn": "Injury to which nerve most likely explains this change in voice?",
+      "options": [
+        {
+          "id": "a",
+          "text": "External branch of the superior laryngeal nerve"
+        },
+        {
+          "id": "b",
+          "text": "Internal branch of the superior laryngeal nerve"
+        },
+        {
+          "id": "c",
+          "text": "Recurrent laryngeal nerve"
+        },
+        {
+          "id": "d",
+          "text": "Phrenic nerve"
+        },
+        {
+          "id": "e",
+          "text": "Hypoglossal nerve"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the superior laryngeal nerve, external branch. Why: Your El-Husseiny endocrinology notes (p. 79) list the nerve injuries of thyroid surgery. The recurrent laryngeal nerve can be cut while the inferior thyroid artery is tied off, causing hoarseness. Tying off the superior thyroid vessels can injure the superior laryngeal nerve's external branch, and the resulting loss of high notes is most obvious in professional voice users. StatPearls explains the anatomy: the external branch \"contains motor fibers supplying the cricothyroid muscle\" and \"lies immediately deep to the superior thyroid artery.\" The cricothyroid muscle tightens the vocal folds, so injury can impair the ability to raise vocal pitch. Because the other muscles that open and close the vocal folds are supplied by the recurrent laryngeal nerve, the folds still move normally on laryngoscopy.",
+      "whyWrong": {
+        "b": "The internal branch of the superior laryngeal nerve carries sensation from the laryngeal lining above the vocal folds (StatPearls). It has no motor fibers, so its injury would not change pitch.",
+        "c": "The recurrent laryngeal nerve supplies nearly all the intrinsic laryngeal muscles except the cricothyroid (StatPearls). Its injury causes hoarseness and a vocal fold that does not move (your El-Husseiny endocrinology notes, p. 79). This patient is not hoarse, and both folds move.",
+        "d": "The phrenic nerve drives the diaphragm (your El-Husseiny respiratory notes, p. 54). Its injury would affect breathing, not singing pitch.",
+        "e": "The hypoglossal nerve moves the tongue (StatPearls). Its injury would cause slurred speech and a tongue that deviates, not loss of the high voice range."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Endocrinology (Emily's file), Thyroid surgery complications, p. 79"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Respiratory System (Emily's file), Central respiratory centers and the phrenic nerve, p. 54"
+        },
+        {
+          "title": "StatPearls: Anatomy, Head and Neck: Laryngeal Nerves",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK557742/"
+        },
+        {
+          "title": "StatPearls: Neuroanatomy, Cranial Nerve 12 (Hypoglossal)",
+          "url": "https://www.statpearls.com/point-of-care/23265"
+        }
+      ]
+    },
+    {
+      "id": "neuro-pituitary-apoplexy-cn3-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Endocrine",
+      "topic": "Pituitary apoplexy: cranial nerve compression",
+      "difficulty": 2,
+      "stem": "A 54-year-old man has had headaches and low sex drive for 6 months. While lifting a heavy box, he develops a sudden, severe headache with vomiting and double vision. His blood pressure is 86/52 mm Hg. His left upper eyelid droops, and when the lid is lifted, the left eye rests looking down and out. The left pupil is dilated and does not react to light. Visual field testing shows loss of the outer half of the visual field in each eye. MRI shows a sellar mass with fresh blood that extends into the left cavernous sinus.",
+      "leadIn": "Compression of which structure best explains the findings in the left eye?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Oculomotor nerve (CN III)"
+        },
+        {
+          "id": "b",
+          "text": "Abducens nerve (CN VI)"
+        },
+        {
+          "id": "c",
+          "text": "Trochlear nerve (CN IV)"
+        },
+        {
+          "id": "d",
+          "text": "Optic chiasm"
+        },
+        {
+          "id": "e",
+          "text": "Sympathetic fibers to the eye"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the oculomotor nerve (CN III). Why: This is pituitary apoplexy, sudden bleeding into the pituitary gland. Your El-Husseiny endocrinology notes (pp. 25-26) say it usually happens in a gland with a known or unknown adenoma, often after months of tumor symptoms such as headache and low libido. It presents with severe headache, bitemporal hemianopia from pressure on the optic chiasm, and ophthalmoplegia from pressure on CN III. It can cause cardiovascular collapse from ACTH deficiency, so it needs urgent glucocorticoids and neurosurgical review. MSD agrees: symptoms include \"severe headache, stiff neck, fever, visual field defects, and oculomotor palsies,\" and the patient may present with vascular collapse from deficient ACTH and cortisol. Your El-Husseiny neurology notes (p. 51) explain the eye signs of a CN III lesion: ptosis and an eye resting down and out. StatPearls adds that the eye moves down and out because the lateral rectus (CN VI) and superior oblique (CN IV) are spared and pull without opposition, and that a compressing lesion leaves the pupil dilated and fixed.",
+      "whyWrong": {
+        "b": "The abducens nerve supplies only the lateral rectus. Its lesion leaves the eye turned inward with diplopia (your El-Husseiny neurology notes, p. 58), not ptosis or a dilated pupil.",
+        "c": "The trochlear nerve supplies only the superior oblique. Its lesion causes vertical diplopia when looking down, and the eye drifts upward (your El-Husseiny neurology notes, p. 54).",
+        "d": "Pressure on the optic chiasm explains this patient's bitemporal field loss (your El-Husseiny neurology notes, p. 50; endocrinology notes, p. 25). It does not cause ptosis, a down-and-out eye or a fixed, dilated pupil.",
+        "e": "Loss of sympathetic fibers causes Horner syndrome, with mild ptosis, a small pupil and reduced sweating (your El-Husseiny neurology notes, p. 28). This pupil is dilated, not small."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Endocrinology (Emily's file), Pituitary apoplexy, pp. 25-26"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Horner syndrome, p. 28; optic chiasm, p. 50; CN III, p. 51; CN IV, p. 54; CN VI, p. 58"
+        },
+        {
+          "title": "MSD Manual Professional: Generalized Hypopituitarism",
+          "url": "https://www.msdmanuals.com/professional/endocrine-and-metabolic-disorders/pituitary-disorders/generalized-hypopituitarism"
+        },
+        {
+          "title": "StatPearls: Cranial Nerve III Palsy (Oculomotor Palsy)",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK526112/"
+        }
+      ]
+    },
+    {
+      "id": "micro-histoplasma-macrophage-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Respiratory",
+      "topic": "Systemic mycoses: histoplasmosis",
+      "difficulty": 2,
+      "stem": "A 41-year-old man from southern Ohio has had fever, a dry cough and chest pain for 2 weeks. A month ago he spent several days clearing out an old barn where pigeons roost. Chest x-ray shows patchy infiltrates and enlarged hilar lymph nodes. A transbronchial biopsy shows granulomas, and a silver stain shows many small oval yeasts packed inside macrophages.",
+      "leadIn": "Which organism is most likely responsible?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Histoplasma capsulatum"
+        },
+        {
+          "id": "b",
+          "text": "Blastomyces dermatitidis"
+        },
+        {
+          "id": "c",
+          "text": "Coccidioides immitis"
+        },
+        {
+          "id": "d",
+          "text": "Cryptococcus neoformans"
+        },
+        {
+          "id": "e",
+          "text": "Pneumocystis jirovecii"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: Histoplasma capsulatum. Why: Your El-Husseiny microbiology notes (p. 186) say Histoplasma is a dimorphic fungus that lives as a mold in soil, especially soil with bird or bat droppings. It is common in the river basins of the Ohio and Mississippi. People are infected by breathing in spores, often after exploring caves or cleaning bird coops. In the lung the fungus is eaten by macrophages and seen as small oval bodies inside them, and the immune response forms granulomas much like tuberculosis. Your notes (p. 187) add that disseminated disease affects people with weak immunity, that yeasts are found within macrophages in biopsy and bone marrow, and that antigen can be found in blood and urine. MSD agrees that \"Endemic areas for histoplasmosis include the Ohio and Mississippi River Valleys,\" that infection follows inhaling spores in soil or dust contaminated with bird or bat droppings, and that the CDC recommends confirming with a urine antigen test. For treatment, MSD advises itraconazole for mild to moderate disease and liposomal amphotericin B for severe disease.",
+      "whyWrong": {
+        "b": "Blastomyces is also found in the Ohio and Mississippi regions and around the Great Lakes, but it appears as large round yeasts with thick walls and broad-based budding (your El-Husseiny microbiology notes, p. 189), not tiny yeasts inside macrophages.",
+        "c": "Coccidioides is found in the arid southwestern United States, and in tissue it forms large spherules filled with endospores rather than yeasts (your El-Husseiny microbiology notes, pp. 187-188; MSD).",
+        "d": "Cryptococcus has a thick polysaccharide capsule seen with India ink or mucicarmine stain, and its most common presentation is meningitis in people with weak cellular immunity (your El-Husseiny microbiology notes, p. 196).",
+        "e": "Pneumocystis causes a diffuse interstitial pneumonia with ground-glass opacities in people with AIDS, and it appears as disc-shaped forms on silver stain of lung fluid (your El-Husseiny microbiology notes, p. 199). This man has no known immune defect."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Histoplasma, pp. 186-187; Coccidioides, pp. 187-188; Blastomyces, p. 189; Cryptococcus, p. 196; Pneumocystis, p. 199"
+        },
+        {
+          "title": "MSD Manual Professional: Histoplasmosis",
+          "url": "https://www.msdmanuals.com/professional/infectious-diseases/fungal-infections/histoplasmosis"
+        },
+        {
+          "title": "MSD Manual Professional: Coccidioidomycosis",
+          "url": "https://www.msdmanuals.com/professional/infectious-diseases/fungal-infections/coccidioidomycosis"
+        }
+      ]
+    },
+    {
+      "id": "micro-coccidioides-spherule-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Respiratory",
+      "topic": "Systemic mycoses: coccidioidomycosis",
+      "difficulty": 2,
+      "stem": "A 27-year-old construction worker in Phoenix, Arizona, develops fever, dry cough, chest pain and aching joints 2 weeks after digging foundations during a windy, dusty month. Tender red nodules appear on both shins. Chest x-ray shows a patchy infiltrate in the left lower lobe and enlarged hilar nodes. The patient is otherwise healthy.",
+      "leadIn": "A biopsy of the lung lesion would most likely show which form of the organism?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Spherules filled with endospores"
+        },
+        {
+          "id": "b",
+          "text": "Small oval yeasts inside macrophages"
+        },
+        {
+          "id": "c",
+          "text": "Broad-based budding yeasts"
+        },
+        {
+          "id": "d",
+          "text": "Encapsulated yeasts with narrow buds"
+        },
+        {
+          "id": "e",
+          "text": "Septate hyphae branching at acute angles"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: spherules filled with endospores. Why: This is coccidioidomycosis (valley fever). Your El-Husseiny microbiology notes (pp. 187-188) say Coccidioides immitis grows as a mold with hyphae in soil and forms spherules containing endospores at body temperature. It is endemic to the southwestern United States, including Arizona and central California, and spreads by breathing in spores, especially with dust from digging, excavation or earthquakes. In healthy people it can cause a flu-like illness with erythema nodosum and joint pain (desert rheumatism). The spherules rupture and release endospores, each of which forms a new spherule. MSD agrees that the infection is found in \"arid or semiarid regions of the southwestern United States including Arizona, the central valley of California,\" that spores in soil become airborne in dust, and that the spherules are thick-walled and filled with small endospores. MSD states that \"Erythema nodosum is the most frequent reactive eruption associated with coccidioidomycosis.\" MSD adds that pregnant people in the second or third trimester and people with weak immunity are at higher risk of spread, and that fluconazole or itraconazole treats mild to moderate disease.",
+      "whyWrong": {
+        "b": "Small oval yeasts packed inside macrophages are the tissue form of Histoplasma, which is linked to bird and bat droppings in the Ohio and Mississippi River valleys (your El-Husseiny microbiology notes, pp. 186-187).",
+        "c": "Large yeasts with broad-based budding are the tissue form of Blastomyces, found around the Great Lakes and the Ohio and Mississippi regions (your El-Husseiny microbiology notes, p. 189).",
+        "d": "Yeasts surrounded by a thick polysaccharide capsule are Cryptococcus, which most often causes meningitis in people with weak cellular immunity (your El-Husseiny microbiology notes, p. 196).",
+        "e": "Septate hyphae that branch at acute (45-degree) angles are Aspergillus, a mold that has no yeast or spherule form (your El-Husseiny microbiology notes, p. 191)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Histoplasma, pp. 186-187; Coccidioides, pp. 187-188; Blastomyces, p. 189; Aspergillus, p. 191; Cryptococcus, p. 196"
+        },
+        {
+          "title": "MSD Manual Professional: Coccidioidomycosis",
+          "url": "https://www.msdmanuals.com/professional/infectious-diseases/fungal-infections/coccidioidomycosis"
+        }
+      ]
+    },
+    {
+      "id": "immuno-abpa-asthma-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Immunology",
+      "system": "Respiratory",
+      "topic": "Hypersensitivity lung disease: allergic bronchopulmonary aspergillosis",
+      "difficulty": 2,
+      "stem": "A 23-year-old with asthma since childhood has had more frequent attacks over 6 months despite using an inhaled glucocorticoid every day. The patient coughs up brown plugs of mucus. Blood eosinophils are 17% of white cells, and total serum IgE is markedly elevated. A skin prick test to Aspergillus fumigatus is strongly positive, and serum IgG against Aspergillus is also present. CT of the chest shows dilated proximal bronchi filled with mucus and patchy infiltrates that were not present on an x-ray 3 months earlier.",
+      "leadIn": "Which mechanism best explains this patient's worsening lung disease?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Allergic reaction to fungus in the airways"
+        },
+        {
+          "id": "b",
+          "text": "Fungal invasion of lung blood vessels"
+        },
+        {
+          "id": "c",
+          "text": "Fungus ball growing in an old lung cavity"
+        },
+        {
+          "id": "d",
+          "text": "Aflatoxin released by the inhaled fungus"
+        },
+        {
+          "id": "e",
+          "text": "Noncaseating granulomas from an unknown trigger"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: an allergic reaction to fungus in the airways (allergic bronchopulmonary aspergillosis, ABPA). Why: Your El-Husseiny microbiology notes (p. 192) say Aspergillus fumigatus can colonize the bronchial lining in asthma or cystic fibrosis and complicate it through a hypersensitivity reaction rather than tissue invasion. Patients have wheezing, migratory infiltrates, very high IgE, eosinophilia, and IgE and IgG antibodies to Aspergillus. Airway inflammation and mucus plugging come and go, and repeated flares lead to proximal bronchiectasis. Treatment is with corticosteroids. MSD calls ABPA a \"mixed hypersensitivity reaction to Aspergillus species (generally A. fumigatus)\" that occurs mainly in asthma and less often in cystic fibrosis, with an IgE, IgG and cell-mediated immune response. MSD lists elevated serum IgE as an essential criterion, describes brown or dirty-green mucus plugs and \"migratory (also called fleeting) or nonresolving infiltrates,\" and calls systemic glucocorticoids \"the mainstay of therapy,\" with itraconazole added when prednisone is not enough.",
+      "whyWrong": {
+        "b": "Invasive aspergillosis happens in people with weak immunity, especially prolonged neutropenia, and the fungus invades blood vessels and spreads to other organs (your El-Husseiny microbiology notes, p. 191). This patient's immune system is intact.",
+        "c": "An aspergilloma is a fungus ball that grows inside an old cavity from tuberculosis, emphysema or sarcoidosis without invading the lung (your El-Husseiny microbiology notes, p. 192). It does not cause eosinophilia and very high IgE.",
+        "d": "Some Aspergillus species make aflatoxins, which are linked to liver cancer (your El-Husseiny microbiology notes, p. 191), not to asthma flares.",
+        "e": "Noncaseating granulomas with bilateral hilar lymph node enlargement and high ACE describe sarcoidosis (your El-Husseiny respiratory notes, p. 97). This patient's findings point to an allergic response to Aspergillus."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Aspergillus, pp. 191-192"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Respiratory System (Emily's file), Restrictive diseases, p. 97"
+        },
+        {
+          "title": "MSD Manual Professional: Allergic Bronchopulmonary Aspergillosis (ABPA)",
+          "url": "https://www.msdmanuals.com/professional/pulmonary-disorders/asthma-and-related-disorders/allergic-bronchopulmonary-aspergillosis-abpa"
+        }
+      ]
+    },
+    {
+      "id": "path-pulmonary-hamartoma-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Respiratory",
+      "topic": "Lung nodules: pulmonary hamartoma",
+      "difficulty": 2,
+      "stem": "A 46-year-old who has never smoked has a chest x-ray before elective surgery. It shows a 2-cm round, sharply outlined nodule in the right lower lobe with scattered clumps of calcium that look like popcorn. A chest x-ray from 4 years earlier showed the same nodule at the same size. Because the patient is anxious, the nodule is removed. Microscopy shows lobules of mature cartilage mixed with fat and bundles of smooth muscle, with slit-like spaces lined by airway-type epithelium.",
+      "leadIn": "Which is the most likely diagnosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pulmonary hamartoma"
+        },
+        {
+          "id": "b",
+          "text": "Healed histoplasma granuloma"
+        },
+        {
+          "id": "c",
+          "text": "Bronchial carcinoid tumor"
+        },
+        {
+          "id": "d",
+          "text": "Primary lung adenocarcinoma"
+        },
+        {
+          "id": "e",
+          "text": "Metastatic breast carcinoma"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: pulmonary hamartoma. Why: Your El-Husseiny respiratory notes (p. 113) say hamartoma is the benign lung tumor seen most often. It is a disorganized overgrowth of tissues that normally belong in the organ, so it mixes mature cartilage with fat and smooth muscle, with slit-like spaces lined by airway epithelium. It is usually an incidental, sharply outlined coin lesion with popcorn-like calcium. MSD defines a solitary pulmonary nodule as \"a discrete lesion < 3 cm in diameter that is completely surrounded by lung parenchyma\" and lists hamartoma among its benign causes. MSD says calcification \"in a popcorn configuration\" points to hamartoma, while spiculated or irregular margins point to cancer. A nodule that does not grow over years also favors a benign cause, since MSD says volume doubling times of 21 to 400 days are likely malignant. Your notes still advise ruling out cancer with tissue when the diagnosis is unclear.",
+      "whyWrong": {
+        "b": "A healed granuloma from Histoplasma or tuberculosis is a common benign coin lesion (your El-Husseiny respiratory notes, p. 113), but MSD says it calcifies in a central or concentric pattern. It would show granulomas, not cartilage and fat.",
+        "c": "Bronchial carcinoid is a neuroendocrine tumor with an excellent prognosis that can cause symptoms from its mass or from carcinoid syndrome (your El-Husseiny respiratory notes, p. 117). It is not made of cartilage and fat.",
+        "d": "Lung adenocarcinoma is more likely with older age, smoking and spiculated margins, and it grows over months (MSD). This nodule has not grown in 4 years, and its tissue is benign.",
+        "e": "Metastases to the lung are more common than primary tumors and usually appear as multiple nodules, often from breast, colon, prostate or bladder cancer (your El-Husseiny respiratory notes, p. 113). This is a single benign nodule."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Respiratory System (Emily's file), Lung cancer and benign coin lesions, p. 113; bronchial carcinoid, p. 117"
+        },
+        {
+          "title": "MSD Manual Professional: Solitary Pulmonary Nodule",
+          "url": "https://www.msdmanuals.com/professional/pulmonary-disorders/symptoms-of-pulmonary-disorders/solitary-pulmonary-nodule"
+        }
+      ]
+    },
+    {
+      "id": "phys-ipf-restrictive-pft-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Respiratory",
+      "topic": "Interstitial lung disease: idiopathic pulmonary fibrosis",
+      "difficulty": 2,
+      "stem": "A 68-year-old man who smoked for 30 years has had worsening shortness of breath on exertion and a dry cough for 14 months. He has no occupational exposures and takes no medications. Examination shows fine, dry crackles at the end of inspiration at both lung bases and clubbing of the fingers. High-resolution CT shows patchy reticular opacities under the pleura at the lung bases, with honeycombing.",
+      "leadIn": "Which set of pulmonary function results is most likely in this patient?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Low FVC, high FEV1/FVC ratio, low DLCO"
+        },
+        {
+          "id": "b",
+          "text": "Low FVC, high FEV1/FVC ratio, normal DLCO"
+        },
+        {
+          "id": "c",
+          "text": "High TLC, low FEV1/FVC ratio, low DLCO"
+        },
+        {
+          "id": "d",
+          "text": "High TLC, low FEV1/FVC ratio, normal DLCO"
+        },
+        {
+          "id": "e",
+          "text": "Normal FVC, normal FEV1/FVC ratio, high DLCO"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: low FVC, high FEV1/FVC ratio, low DLCO. Why: This is idiopathic pulmonary fibrosis (IPF). Your El-Husseiny respiratory notes (p. 98) describe progressive exertional dyspnea, a restrictive pattern, and subpleural fibrosis that ends in honeycomb lung. Your notes (p. 20) explain the restrictive pattern: stiffer lungs lower all lung volumes, the small volume is breathed out quickly and completely, and so FEV1/FVC is often increased even though FEV1 falls. Your notes (p. 97) add that interstitial lung diseases such as IPF lower DLCO and raise the A-a gradient, because scar thickens the barrier gas must cross. Your NBME Top Concepts (p. 87) uses the autopsy findings of IPF as a practice item. MSD agrees that IPF shows \"typical features of restrictive lung disease due to fibrosis\" and that \"Reduced DLCO is seen in nearly every patient with IPF.\" MSD describes fine, dry inspiratory crackles at both bases, clubbing in about half of cases, and subpleural honeycombing on CT, and says the antifibrotic drugs pirfenidone and nintedanib slow progression.",
+      "whyWrong": {
+        "b": "Restriction with a normal DLCO fits a problem outside the lung, such as weak breathing muscles or severe obesity (your El-Husseiny respiratory notes, p. 97). Scarring of the lung itself lowers DLCO.",
+        "c": "A high TLC with a low FEV1/FVC ratio and low DLCO is emphysema, where air trapping enlarges the lungs and alveolar walls are destroyed (your El-Husseiny respiratory notes, pp. 89-90). Fibrosis shrinks the lungs.",
+        "d": "A low FEV1/FVC ratio with a normal DLCO fits chronic bronchitis (your El-Husseiny respiratory notes, p. 89). That is an obstructive disease, and this patient has a restrictive one.",
+        "e": "Normal volumes and flow would not fit honeycomb fibrosis, which lowers all lung volumes (your El-Husseiny respiratory notes, p. 20) and lowers DLCO (p. 97)."
+      },
+      "sources": [
+        {
+          "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Regional circulation (practice item), p. 87"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Respiratory System (Emily's file), Obstructive vs restrictive patterns, p. 20; chronic bronchitis and emphysema, pp. 89-90; restrictive diseases, p. 97; pulmonary fibrosis, p. 98"
+        },
+        {
+          "title": "MSD Manual Professional: Idiopathic Pulmonary Fibrosis (IPF)",
+          "url": "https://www.msdmanuals.com/professional/pulmonary-disorders/interstitial-lung-diseases/idiopathic-pulmonary-fibrosis-ipf"
+        }
+      ]
+    },
+    {
+      "id": "neuro-central-chemoreceptors-co2-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Respiratory",
+      "topic": "Control of breathing: central chemoreceptors",
+      "difficulty": 2,
+      "stem": "In a physiology study, a healthy 24-year-old volunteer breathes a gas mixture of 5% carbon dioxide and 95% oxygen for 10 minutes. Arterial PO2 rises to 550 mm Hg, arterial PCO2 rises from 40 to 46 mm Hg, and arterial pH falls slightly. Minute ventilation increases to nearly three times baseline.",
+      "leadIn": "Which receptors are mainly responsible for the increase in ventilation?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chemoreceptors at the surface of the medulla"
+        },
+        {
+          "id": "b",
+          "text": "Carotid body receptors sensing low PO2"
+        },
+        {
+          "id": "c",
+          "text": "Aortic body receptors sensing low O2 content"
+        },
+        {
+          "id": "d",
+          "text": "Chemoreceptor trigger zone in the area postrema"
+        },
+        {
+          "id": "e",
+          "text": "Baroreceptors in the carotid sinus wall"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: chemoreceptors at the surface of the medulla (central chemoreceptors). Why: Your El-Husseiny respiratory notes (p. 53) say central chemoreceptors lie close to the surface of the medulla and respond to hydrogen ions and CO2 in cerebrospinal fluid. CO2 crosses the blood-brain barrier freely and forms hydrogen ions locally through carbonic anhydrase, so these receptors track arterial PCO2. They are very sensitive and are the main drive for breathing at rest. They have no PO2 sensors. Your notes (p. 54) add that peripheral chemoreceptors in the carotid and aortic bodies also respond a little to CO2 and hydrogen ions, but their oxygen sensors are strongly stimulated only by a large drop in arterial PO2. OpenStax agrees that the main driver of breathing \"is surprisingly not oxygen concentration, but rather the concentration of carbon dioxide in the blood,\" that CO2 \"readily diffuses across the blood-brain barrier,\" and that the resulting rise in hydrogen ions \"triggers the central chemoreceptors to stimulate the respiratory centers.\" OpenStax adds that peripheral chemoreceptors increase breathing when PO2 falls to about 60 mm Hg or less.",
+      "whyWrong": {
+        "b": "Carotid body oxygen sensors respond to arterial PO2 and are strongly stimulated only by a dramatic fall in PO2 (your El-Husseiny respiratory notes, p. 54; NBME Top Concepts, p. 82). This volunteer's PO2 is very high.",
+        "c": "Peripheral chemoreceptors measure dissolved oxygen (PO2), not oxygen content (your El-Husseiny respiratory notes, p. 54), and O2 here is high. The aortic bodies add only a small share to the CO2 drive.",
+        "d": "The chemoreceptor trigger zone in the area postrema senses toxins and drugs in the blood and triggers vomiting (StatPearls), not the CO2 drive to breathe.",
+        "e": "Carotid sinus baroreceptors fire in response to stretch of the artery wall from blood pressure (your El-Husseiny cardiovascular notes, pp. 76-77), not to blood gases. The chemical sensors for breathing are the central and peripheral chemoreceptors (your El-Husseiny respiratory notes, pp. 53-54; OpenStax)."
+      },
+      "sources": [
+        {
+          "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Peripheral chemoreceptors, p. 82"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Respiratory System (Emily's file), Central and peripheral chemoreceptors, pp. 53-54"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Cardiovascular System (Emily's file), Baroreceptors, pp. 76-77"
+        },
+        {
+          "title": "OpenStax Anatomy and Physiology 2e, 22.3 The Process of Breathing",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-3-the-process-of-breathing"
+        },
+        {
+          "title": "StatPearls: Physiology, Chemoreceptor Trigger Zone",
+          "url": "https://www.statpearls.com/point-of-care/19371"
+        }
+      ]
+    },
+    {
+      "id": "micro-hiv-ccr5-deletion-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Immune System",
+      "topic": "HIV entry: the CCR5 coreceptor",
+      "difficulty": 2,
+      "stem": "A 33-year-old has had many unprotected sexual contacts with partners who have untreated HIV over 8 years but has tested negative for HIV every 6 months. In a research laboratory, HIV strains taken from the partners attach to the CD4 molecules on this person's T cells and macrophages but fail to fuse with the cells. Flow cytometry shows that the cells express normal amounts of CD4.",
+      "leadIn": "Which genetic finding most likely explains this resistance to infection?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Homozygous deletion in the CCR5 gene"
+        },
+        {
+          "id": "b",
+          "text": "Heterozygous deletion in the CCR5 gene"
+        },
+        {
+          "id": "c",
+          "text": "Loss of the CD4 gene on T cells"
+        },
+        {
+          "id": "d",
+          "text": "Mutation in the viral gene for gp41"
+        },
+        {
+          "id": "e",
+          "text": "Overexpression of the CXCR4 coreceptor"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: a homozygous deletion in the CCR5 gene. Why: Your El-Husseiny microbiology notes (p. 285) explain that HIV gp120 binds CD4 on helper T cells, macrophages and microglia and then a chemokine coreceptor, CCR5 on macrophages or CXCR4 on T cells. If a cell has no CCR5 on its surface, the virus binds CD4 but cannot enter. Losing both copies of the CCR5 gene (the homozygous Δ32 deletion) makes a person resistant to HIV, while losing one copy allows infection but slows the disease. MSD agrees that \"HIV surface glycoprotein (gp)120 binds CD4 on the target cell,\" which enables binding to a coreceptor (CCR5 or CXCR4), and that gp41 then fuses the viral envelope with the cell membrane. A review abstract by Allers and Schneider adds that the Δ32 mutation \"prevents CCR5 cell surface expression,\" and that the homozygous form \"confers resistance to infection with CCR5-tropic HIV strains.\" The drug maraviroc uses the same weak point: it binds CCR5 and blocks viral docking (your notes, p. 365).",
+      "whyWrong": {
+        "b": "One deleted copy of CCR5 still allows infection, although the disease progresses more slowly (your El-Husseiny microbiology notes, p. 285). This person has stayed uninfected.",
+        "c": "Without CD4, the virus could not attach at all (your El-Husseiny microbiology notes, p. 285; MSD). Here the virus attaches, and the cells express normal CD4.",
+        "d": "gp41 is a viral protein that drives fusion (MSD). A change in it would come from the virus, but these same strains infect other people, so the defect lies in this person's cells.",
+        "e": "CXCR4 is a second HIV coreceptor on T cells (your El-Husseiny microbiology notes, p. 285; MSD). Having more of it would not block entry."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), HIV entry and CCR5, p. 285; maraviroc, p. 365"
+        },
+        {
+          "title": "MSD Manual Professional: Human Immunodeficiency Virus (HIV) Infection",
+          "url": "https://www.msdmanuals.com/professional/infectious-diseases/human-immunodeficiency-virus-hiv-infection/human-immunodeficiency-virus-hiv-infection"
+        },
+        {
+          "title": "Allers K, Schneider T. CCR5Δ32 mutation and HIV infection: basis for curative HIV therapy. Curr Opin Virol. 2015;14:24-29 (PubMed abstract)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26143158/"
+        }
+      ]
+    },
+    {
+      "id": "immuno-papain-fab-fc-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Immunology",
+      "system": "Immune System",
+      "topic": "Antibody structure: Fab and Fc fragments",
+      "difficulty": 2,
+      "stem": "In an immunology laboratory, purified human IgG is treated with the enzyme papain, which cuts each heavy chain at the hinge, on the arm side of the bonds linking the heavy chains. Three fragments result. Two are identical and each can still bind one molecule of the original antigen, but they cannot clump antigen-coated particles together. The third fragment is separated and tested.",
+      "leadIn": "The third fragment is most likely able to perform which function?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Binding Fc receptors and fixing complement"
+        },
+        {
+          "id": "b",
+          "text": "Binding the original antigen at one site"
+        },
+        {
+          "id": "c",
+          "text": "Cross-linking antigens to cause agglutination"
+        },
+        {
+          "id": "d",
+          "text": "Carrying the idiotype that defines specificity"
+        },
+        {
+          "id": "e",
+          "text": "Joining with other units to form a pentamer"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: binding Fc receptors and fixing complement. Why: Your El-Husseiny microbiology and immunology notes (p. 424) explain that papain splits the antibody at the hinge, on the arm side of the heavy-chain disulfide bonds, giving two Fab (fragment antigen binding) pieces and one Fc (fragment crystallizable) piece. Pepsin instead gives one large F(ab')2 piece, and bridging antigens to cause agglutination needs two linked binding arms. Your notes (p. 434) add that C1 must bind the Fc portions of antibodies to start the classical complement pathway, and that the complement binding site sits in the Fc portion near the hinge. Your notes (p. 442) list Fc receptors on macrophages and on NK cells (CD16). MSD agrees that Fab \"consists of a light chain and part of a heavy chain,\" and that \"the Fc portion can bind to Fc receptors on the surface of cells and is also responsible for complement activation.\" OpenStax adds that the Fc region is \"the site of complement factor binding.\"",
+      "whyWrong": {
+        "b": "Binding antigen is the job of the two Fab fragments, which keep the variable regions of the light chain and part of the heavy chain (your El-Husseiny microbiology and immunology notes, p. 424; MSD).",
+        "c": "Agglutination needs two linked antigen-binding arms, as in intact IgG or the F(ab')2 piece made by pepsin (your El-Husseiny microbiology and immunology notes, p. 424). The Fc fragment has no antigen-binding site.",
+        "d": "The idiotype comes from the antigen-binding variable region (your El-Husseiny microbiology and immunology notes, p. 441), which sits at the tips of the Fab arms (OpenStax).",
+        "e": "Pentamers are a feature of IgM, whose units are joined by a J chain (your El-Husseiny microbiology and immunology notes, p. 434). An IgG fragment cannot build one."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Humoral immunity, p. 424; complement and IgM, p. 434; ADCC, p. 441; cell surface proteins, p. 442"
+        },
+        {
+          "title": "MSD Manual Professional: Molecular Components of the Immune System",
+          "url": "https://www.msdmanuals.com/professional/immunology-allergic-disorders/biology-of-the-immune-system/molecular-components-of-the-immune-system"
+        },
+        {
+          "title": "OpenStax Microbiology, 18.1 Overview of Specific Adaptive Immunity",
+          "url": "https://openstax.org/books/microbiology/pages/18-1-overview-of-specific-adaptive-immunity"
+        }
+      ]
+    },
+    {
+      "id": "immuno-igra-after-bcg-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Immunology",
+      "system": "Immune System",
+      "topic": "Tuberculosis testing: interferon-gamma release assay after BCG",
+      "difficulty": 2,
+      "stem": "A 25-year-old nurse who moved to the United States from the Philippines 2 years ago has a tuberculin skin test as part of pre-employment screening. The nurse received the BCG vaccine as an infant. Induration at the test site measures 11 mm at 48 hours. The nurse feels well and has no cough, fever, night sweats or weight loss, and a chest x-ray is normal. Employee health wants to know whether the reaction reflects TB infection or the earlier vaccine.",
+      "leadIn": "Which test best answers this question?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Interferon-gamma release assay"
+        },
+        {
+          "id": "b",
+          "text": "Repeat tuberculin skin test"
+        },
+        {
+          "id": "c",
+          "text": "Sputum acid-fast smear and culture"
+        },
+        {
+          "id": "d",
+          "text": "Serum angiotensin-converting enzyme level"
+        },
+        {
+          "id": "e",
+          "text": "CD4+ T-cell count"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: an interferon-gamma release assay (IGRA). Why: Your El-Husseiny microbiology notes (pp. 91-92) explain that the tuberculin skin test injects purified protein derivative and is read for induration at 48 to 72 hours. Because other mycobacteria can cross-react, the cutoff depends on risk: 5 mm, 10 mm or 15 mm. Your notes (p. 93) add that IGRAs have sensitivity and specificity similar to the skin test, but they do not cross-react with the BCG vaccine and need no return visit. Neither test can tell active TB from latent infection. MSD agrees that false-positive skin tests can follow BCG vaccination and that \"Unlike the TST, prior BCG vaccination does not cause a false-positive IGRA result.\" MSD reports that in BCG-vaccinated people, IGRAs were \"clearly more specific for latent TB infection compared to TSTs (98% versus 82%),\" and that \"Like the TST, IGRAs cannot distinguish active from latent TB.\" A positive IGRA with a normal chest x-ray and no symptoms would point to latent infection.",
+      "whyWrong": {
+        "b": "A repeat skin test uses the same antigen and can cross-react with BCG again (your El-Husseiny microbiology notes, p. 91; MSD), so it cannot separate vaccine effect from infection.",
+        "c": "Sputum smear and culture look for active disease. This nurse has no symptoms and a normal chest x-ray, and the question is whether latent infection is present (your El-Husseiny microbiology notes, p. 93).",
+        "d": "A high ACE level is a finding of sarcoidosis (your El-Husseiny respiratory notes, p. 97), not a test for TB infection.",
+        "e": "A CD4+ count is used to stage HIV infection (your El-Husseiny microbiology notes, p. 285). It does not show whether the person has been infected with M. tuberculosis."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Tuberculin skin test, pp. 91-92; IGRA, p. 93; HIV staging, p. 285"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Respiratory System (Emily's file), Sarcoidosis, p. 97"
+        },
+        {
+          "title": "MSD Manual Professional: Tuberculosis (TB)",
+          "url": "https://www.msdmanuals.com/professional/infectious-diseases/mycobacteria/tuberculosis-tb"
+        }
+      ]
+    },
+    {
+      "id": "pharm-eculizumab-meningococcal-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Immune System",
+      "topic": "Complement inhibitors: eculizumab and Neisseria risk",
+      "difficulty": 2,
+      "stem": "A 29-year-old has had episodes of dark urine in the morning and tiredness for a year. Hemoglobin is 8.9 g/dL, LDH is high, haptoglobin is undetectable, and the urine is positive for hemosiderin. Flow cytometry shows red cells and granulocytes that lack CD55 and CD59. The hematologist plans to start eculizumab, a monoclonal antibody against complement component C5.",
+      "leadIn": "Which measure is most important before this drug is started?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Meningococcal vaccination"
+        },
+        {
+          "id": "b",
+          "text": "Screening for latent tuberculosis"
+        },
+        {
+          "id": "c",
+          "text": "Iron chelation with deferoxamine"
+        },
+        {
+          "id": "d",
+          "text": "High-dose glucocorticoid therapy"
+        },
+        {
+          "id": "e",
+          "text": "Splenectomy to reduce hemolysis"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: meningococcal vaccination. Why: The patient has paroxysmal nocturnal hemoglobinuria (PNH), in which red cells lack GPI-anchored proteins that protect them from complement. Your Osmosis pathology notes, Volume 2 (p. 433), list eculizumab as a monoclonal antibody that reduces complement-mediated hemolysis, warn that it raises the risk of life-threatening neisserial infections, and advise vaccinating against Neisseria meningitidis. Your Pharmacology High Yield file (p. 116) gives its target as complement C5. Blocking C5 stops the membrane attack complex (C5 to C9) from forming, and your El-Husseiny microbiology notes (p. 101) list defects in the terminal complement components as a major risk for meningococcal disease. MSD lists \"People treated with eculizumab or ravulizumab (terminal complement activation blocking agents)\" among those at high risk of meningococcal disease. MSD's vaccine page recommends two doses of MenACWY at least 8 weeks apart, with a booster every 5 years, plus a MenB series for people taking these drugs. MSD's PNH page adds that \"patients should receive the meningococcal vaccine at least 14 days before starting therapy\" or start preventive antibiotics, and that flow cytometry for missing surface proteins such as CD55 and CD59 makes the diagnosis.",
+      "whyWrong": {
+        "b": "TNF-alpha blockers are linked to tuberculosis, so latent TB screening comes before those drugs (CDC MMWR). Eculizumab blocks C5, and its main infection risk is Neisseria.",
+        "c": "PNH causes iron loss in the urine as hemoglobin and hemosiderin, so these patients may need iron supplements (your Osmosis pathology notes, Volume 2, p. 433), not iron removal.",
+        "d": "Your Osmosis pathology notes, Volume 2 (p. 433), reserve immunosuppressive therapy for PNH with aplastic anemia. It does not prevent the infection risk of eculizumab.",
+        "e": "The red cells in PNH are destroyed by complement because they lack protective GPI-anchored proteins (your Osmosis pathology notes, Volume 2, p. 433). Your notes list stem cell transplant, not splenectomy, as the surgical option."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes, Volume 2 (Emily's file), Paroxysmal nocturnal hemoglobinuria, p. 433"
+        },
+        {
+          "title": "Pharmacology High Yield (Emily's file), Monoclonal antibodies (PDF p. 116)"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Neisseria meningitidis, p. 101"
+        },
+        {
+          "title": "MSD Manual Professional: Paroxysmal Nocturnal Hemoglobinuria (PNH)",
+          "url": "https://www.msdmanuals.com/professional/hematology/anemias-caused-by-hemolysis/paroxysmal-nocturnal-hemoglobinuria-pnh"
+        },
+        {
+          "title": "MSD Manual Professional: Meningococcal Diseases",
+          "url": "https://www.msdmanuals.com/professional/infectious-diseases/gram-negative-cocci-and-coccobacilli/meningococcal-diseases"
+        },
+        {
+          "title": "MSD Manual Professional: Meningococcal Vaccine",
+          "url": "https://www.msdmanuals.com/professional/infectious-diseases/immunization/meningococcal-vaccine"
+        },
+        {
+          "title": "CDC MMWR 2004: Tuberculosis Associated with Blocking Agents Against Tumor Necrosis Factor-Alpha, California, 2002-2003",
+          "url": "https://www.cdc.gov/mmWR/preview/mmwrhtml/mm5330a4.htm"
+        }
+      ]
+    },
+    {
+      "id": "immuno-febrile-nonhemolytic-transfusion-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Immunology",
+      "system": "Immune System",
+      "topic": "Transfusion reactions: febrile nonhemolytic reaction",
+      "difficulty": 2,
+      "stem": "A 70-year-old woman with myelodysplastic syndrome who has had 4 pregnancies and many earlier transfusions receives a unit of packed red cells. Ninety minutes into the transfusion, her temperature rises from 37.0°C (98.6°F) to 38.6°C (101.5°F), and she has chills and a headache. Blood pressure, breathing and oxygen saturation are unchanged. She has no hives, wheezing or back pain. A repeat crossmatch is compatible, a direct antiglobulin test is negative, and her plasma and urine are not pink. The symptoms settle after the transfusion is stopped and she is given acetaminophen.",
+      "leadIn": "Which measure would best prevent this reaction during future transfusions?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Leukoreduced blood products"
+        },
+        {
+          "id": "b",
+          "text": "Irradiated blood products"
+        },
+        {
+          "id": "c",
+          "text": "Products from IgA-deficient donors"
+        },
+        {
+          "id": "d",
+          "text": "Bedside recheck of ABO compatibility"
+        },
+        {
+          "id": "e",
+          "text": "Screening donors for anti-leukocyte antibodies"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: leukoreduced blood products. Why: This is a febrile nonhemolytic transfusion reaction. Your El-Husseiny microbiology and immunology notes (p. 462) describe fever, chills, headache and flushing within 1 to 6 hours of a transfusion. The notes give two causes: cytokines that build up in stored blood products, and the recipient's antibodies against donor HLA on white cells. Removing white cells (leukoreduction) prevents it. MSD agrees that the reaction can come from \"Antibodies directed against white blood cell (WBC) human leukocyte antigen (HLA) in otherwise compatible donor blood,\" which is most common after many transfusions or pregnancies, or from cytokines released from white cells during storage. MSD describes a temperature rise of at least 1°C with chills, and says leukoreduction filters are used after more than one febrile reaction. The compatible crossmatch, negative antiglobulin test and clear plasma and urine rule out hemolysis.",
+      "whyWrong": {
+        "b": "Irradiation stops donor T cells from dividing and prevents transfusion-associated graft-versus-host disease, which follows transfusion of nonirradiated blood into a severely immunodeficient host (your El-Husseiny microbiology and immunology notes, p. 478).",
+        "c": "Blood without IgA prevents anaphylaxis in IgA-deficient recipients, a type I reaction with hives, wheezing and hypotension (your El-Husseiny microbiology and immunology notes, p. 462). This patient has only fever and chills.",
+        "d": "Checking ABO at the bedside prevents acute hemolytic reactions, which cause fever, hypotension, flank pain and hemoglobinuria (your El-Husseiny microbiology and immunology notes, p. 462). Her tests show no hemolysis.",
+        "e": "Donor antibodies against the recipient's white cells cause transfusion-related acute lung injury, with respiratory distress and noncardiogenic pulmonary edema (your El-Husseiny microbiology and immunology notes, p. 462; MSD). In this reaction the antibodies belong to the recipient."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Blood transfusion reactions, p. 462; graft-versus-host disease, p. 478"
+        },
+        {
+          "title": "MSD Manual Professional: Complications of Transfusion",
+          "url": "https://www.msdmanuals.com/professional/hematology-and-oncology/transfusion-medicine/complications-of-transfusion"
+        }
+      ]
+    },
+    {
+      "id": "immuno-adcc-nk-cd16-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Immunology",
+      "system": "Immune System",
+      "topic": "Effector mechanisms: antibody-dependent cell-mediated cytotoxicity",
+      "difficulty": 2,
+      "stem": "A 63-year-old with follicular lymphoma is treated with rituximab, an IgG monoclonal antibody that binds CD20 on B cells. Laboratory studies of the patient's blood show that lymphocytes that lack CD3 and CD4 attach to the antibody-coated lymphoma cells and release perforin and granzymes, killing them. These lymphocytes do not need the lymphoma cells to present antigen on MHC molecules.",
+      "leadIn": "Which molecule on these lymphocytes most likely binds the antibody-coated lymphoma cells?",
+      "options": [
+        {
+          "id": "a",
+          "text": "CD16, a receptor for the Fc of IgG"
+        },
+        {
+          "id": "b",
+          "text": "CD56, an adhesion marker of these cells"
+        },
+        {
+          "id": "c",
+          "text": "CD40 ligand, a costimulatory molecule"
+        },
+        {
+          "id": "d",
+          "text": "CD21, the receptor that binds EBV"
+        },
+        {
+          "id": "e",
+          "text": "CD14, a receptor on macrophages"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: CD16, a receptor for the Fc of IgG. Why: The killer cells are natural killer (NK) cells, and the mechanism is antibody-dependent cell-mediated cytotoxicity (ADCC). Your El-Husseiny microbiology and immunology notes (p. 441) explain that NK cells, macrophages, neutrophils and eosinophils all carry IgG Fc receptors. Once IgG coats a target cell, these effector cells latch onto its exposed Fc tail and destroy the target, while the antibody itself decides which cell is hit. Your notes (p. 442) list NK cell markers as CD16, which binds the Fc of IgG, and CD56, their unique marker. Your hematology-oncology notes (p. 72) list rituximab as an anti-CD20 antibody used for follicular lymphoma. MSD agrees that NK cells express \"CD16+ (a receptor for IgG-Fc)\" and CD56 and lack CD3. OpenStax adds that in ADCC, \"Fc receptors on effector cells (e.g., NK cells) then bind to the Fc region of the antibody,\" and the effector cell then releases cytotoxins such as perforin and granzymes.",
+      "whyWrong": {
+        "b": "CD56 is the marker that identifies NK cells (your El-Husseiny microbiology and immunology notes, p. 442; MSD), but it is not the receptor that grabs the Fc tail of IgG.",
+        "c": "CD40 ligand is found on helper T cells and binds CD40 on B cells and macrophages (your El-Husseiny microbiology and immunology notes, p. 442). These killer cells lack CD3 and CD4, so they are not helper T cells.",
+        "d": "CD21 is found on B cells and is the receptor for Epstein-Barr virus (your El-Husseiny microbiology and immunology notes, p. 442). It does not bind IgG.",
+        "e": "CD14 is a macrophage marker (your El-Husseiny microbiology and immunology notes, p. 442). The killer cells here are lymphocytes."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), ADCC, p. 441; cell surface proteins, p. 442"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Hematology-Oncology (Emily's file), Follicular lymphoma, p. 72"
+        },
+        {
+          "title": "MSD Manual Professional: Cellular Components of the Immune System",
+          "url": "https://www.msdmanuals.com/professional/immunology-allergic-disorders/biology-of-the-immune-system/cellular-components-of-the-immune-system"
+        },
+        {
+          "title": "OpenStax Microbiology, 18.1 Overview of Specific Adaptive Immunity",
+          "url": "https://openstax.org/books/microbiology/pages/18-1-overview-of-specific-adaptive-immunity"
+        }
+      ]
     }
   ]
 }
