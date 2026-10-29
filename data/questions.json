@@ -35509,6 +35509,1081 @@
           "url": "https://medlineplus.gov/genetics/condition/dystrophic-epidermolysis-bullosa/"
         }
       ]
+    },
+    {
+      "id": "histo-pituitary-acidophils-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "Endocrine",
+      "topic": "Pituitary histology: acidophils and basophils",
+      "difficulty": 2,
+      "stem": "A 44-year-old man has noticed over several years that his rings and shoes no longer fit, his facial features have coarsened and his voice has deepened. His serum IGF-1 concentration is high. MRI shows a 1.5-cm pituitary mass. After transsphenoidal surgery, the pathologist reports that the tumor cells have granular cytoplasm that stains pink with eosin (acidophilic).",
+      "leadIn": "Normal anterior pituitary cells with the same staining pattern as these tumor cells also secrete which hormone?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Prolactin"
+        },
+        {
+          "id": "b",
+          "text": "Adrenocorticotropic hormone"
+        },
+        {
+          "id": "c",
+          "text": "Thyroid-stimulating hormone"
+        },
+        {
+          "id": "d",
+          "text": "Follicle-stimulating hormone"
+        },
+        {
+          "id": "e",
+          "text": "Antidiuretic hormone"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: prolactin. Why: Your El-Husseiny endocrinology notes (p. 14) explain that the anterior pituitary (adenohypophysis) grows from Rathke's pouch and has a separate cell type for each of its major hormones. Their memory aids sort these cells by stain: acidophils make prolactin and growth hormone (\"Acid PiG\"), while basophils make FSH, LH, ACTH and TSH (\"B-FLAT\"). This tumor makes growth hormone (high IGF-1 with enlarging hands, feet and face), so it comes from acidophilic somatotrophs, and the other acidophils are the prolactin-making lactotrophs. The same page notes that ADH is made in the hypothalamus and only stored in the posterior pituitary, which develops from neuroectoderm. OpenStax Anatomy and Physiology (17.3) agrees that growth hormone and prolactin come from the anterior pituitary, and that the posterior pituitary stores and releases hormones made by hypothalamic neurons rather than making its own.",
+      "whyWrong": {
+        "b": "ACTH is made by corticotrophs, which are basophils (your El-Husseiny endocrinology notes, p. 14), not acidophils.",
+        "c": "TSH is made by thyrotrophs, which are basophils (your El-Husseiny endocrinology notes, p. 14).",
+        "d": "FSH is made by gonadotrophs, which are basophils (your El-Husseiny endocrinology notes, p. 14).",
+        "e": "ADH is made by neurons in the supraoptic and paraventricular nuclei of the hypothalamus and stored in the posterior pituitary (your El-Husseiny endocrinology notes, p. 14; OpenStax 17.3). No anterior pituitary cell makes it."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Endocrinology (Emily's file), Anterior and posterior pituitary, p. 14"
+        },
+        {
+          "title": "OpenStax Anatomy and Physiology 2e, 17.3 The Pituitary Gland and Hypothalamus",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-3-the-pituitary-gland-and-hypothalamus"
+        }
+      ]
+    },
+    {
+      "id": "histo-thyroid-colloid-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "Endocrine",
+      "topic": "Thyroid histology: follicles and colloid",
+      "difficulty": 1,
+      "stem": "A 38-year-old woman has a small, painless, diffusely enlarged thyroid gland. A biopsy shows round follicles lined by a single layer of cuboidal cells. Each follicle is filled with smooth, pink material. Small groups of paler cells sit in the connective tissue between the follicles.",
+      "leadIn": "The pink material inside the follicles consists mainly of which protein?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Thyroglobulin"
+        },
+        {
+          "id": "b",
+          "text": "Calcitonin"
+        },
+        {
+          "id": "c",
+          "text": "Thyroid peroxidase"
+        },
+        {
+          "id": "d",
+          "text": "Sodium-iodide symporter"
+        },
+        {
+          "id": "e",
+          "text": "Thyroid-stimulating hormone"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: thyroglobulin. Why: Your El-Husseiny endocrinology notes (p. 62) describe the thyroid as a gland built from follicles. Each follicle surrounds a space filled with colloid, which is thyroglobulin, and parafollicular cells sit between the follicles. The same page explains how hormone is made: follicular cells pull iodide in against its gradient through the sodium-iodide symporter, thyroid peroxidase oxidizes it, and the iodine is then attached to tyrosine residues within thyroglobulin. OpenStax Anatomy and Physiology (17.4) agrees that each follicle is a cavity filled with sticky colloid, that follicle cells secrete the glycoprotein thyroglobulin into it, and that iodine is attached to thyroglobulin there. The stored hormone stays in the colloid until TSH triggers the follicle cells to take it back up.",
+      "whyWrong": {
+        "b": "Calcitonin is made by the parafollicular (C) cells that sit between the follicles, which are the paler cells in this biopsy (your El-Husseiny endocrinology notes, p. 62; OpenStax 17.4). It is not the protein stored in the colloid.",
+        "c": "Thyroid peroxidase is the enzyme that oxidizes iodide and attaches it to tyrosines in thyroglobulin (your El-Husseiny endocrinology notes, p. 62). It is a working enzyme, not the bulk protein stored in the follicle.",
+        "d": "The sodium-iodide symporter is a transporter in the follicular cell membrane that traps iodide (your El-Husseiny endocrinology notes, p. 62). It is not stored in the colloid.",
+        "e": "TSH is made by thyrotrophs in the anterior pituitary (your El-Husseiny endocrinology notes, p. 14) and reaches the thyroid through the blood, where it stimulates follicle cells (OpenStax 17.4)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Endocrinology (Emily's file), Anterior pituitary, p. 14; thyroid structure and hormone synthesis, p. 62"
+        },
+        {
+          "title": "OpenStax Anatomy and Physiology 2e, 17.4 The Thyroid Gland",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-4-the-thyroid-gland"
+        }
+      ]
+    },
+    {
+      "id": "histo-pancreatic-islets-t1dm-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "Endocrine",
+      "topic": "Pancreatic islets: cell types and locations",
+      "difficulty": 2,
+      "stem": "A 12-year-old with 3 weeks of thirst, frequent urination and weight loss is admitted with diabetic ketoacidosis. Serum antibodies to glutamic acid decarboxylase are positive. In this disease, the pancreas shows lymphocytes infiltrating the islets of Langerhans, with a marked loss of one islet cell type.",
+      "leadIn": "Which islet cells are being destroyed?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Beta cells, mostly in the islet center"
+        },
+        {
+          "id": "b",
+          "text": "Alpha cells, mostly at the islet edge"
+        },
+        {
+          "id": "c",
+          "text": "Delta cells, scattered among the others"
+        },
+        {
+          "id": "d",
+          "text": "PP cells, making pancreatic polypeptide"
+        },
+        {
+          "id": "e",
+          "text": "Chromaffin cells, making catecholamines"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: beta cells, which sit mostly in the center of each islet. Why: Your El-Husseiny endocrinology notes (p. 97) describe the islet cell types: alpha cells (about 20%) make glucagon and lie toward the edge of the islet; beta cells (60 to 75%) lie toward the center and make insulin, which is cut from proinsulin together with C-peptide; and delta cells (about 5%) are scattered between them and make somatostatin. The diabetes table in the same notes (p. 106) explains that type 1 diabetes is T-cell mediated autoimmune destruction of beta cells, with glutamic acid decarboxylase antibodies, fewer beta cells and white cells infiltrating the islets, while type 2 diabetes shows amyloid deposits in the islets. OpenStax Anatomy and Physiology (17.9) gives similar proportions: beta cells about 75%, alpha cells about 20%, delta cells about 4% and PP cells about 1% of each islet. The MSD Manual (Diabetes Mellitus) lists glutamic acid decarboxylase among the islet autoantigens in type 1 diabetes.",
+      "whyWrong": {
+        "b": "Alpha cells at the islet edge make glucagon (your El-Husseiny endocrinology notes, p. 97). Type 1 diabetes destroys beta cells, not alpha cells (p. 106).",
+        "c": "Delta cells are scattered between the alpha and beta cells and make somatostatin (your El-Husseiny endocrinology notes, p. 97; OpenStax 17.9). They are not the target in type 1 diabetes.",
+        "d": "PP cells make pancreatic polypeptide and form only about 1% of the islet (OpenStax 17.9). Their loss would not cause insulin deficiency.",
+        "e": "Chromaffin cells make catecholamines in the adrenal medulla (your El-Husseiny endocrinology notes, p. 36), not in the pancreas."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Endocrinology (Emily's file), Adrenal medulla, p. 36; islet cells, p. 97; type 1 vs type 2 diabetes, p. 106"
+        },
+        {
+          "title": "OpenStax Anatomy and Physiology 2e, 17.9 The Endocrine Pancreas",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-9-the-endocrine-pancreas"
+        },
+        {
+          "title": "MSD Manual Professional: Diabetes Mellitus (DM)",
+          "url": "https://www.msdmanuals.com/professional/endocrine-and-metabolic-disorders/diabetes-mellitus-and-disorders-of-carbohydrate-metabolism/diabetes-mellitus-dm"
+        }
+      ]
+    },
+    {
+      "id": "histo-adrenal-medulla-chromaffin-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "Endocrine",
+      "topic": "Adrenal medulla: chromaffin cells",
+      "difficulty": 2,
+      "stem": "A 35-year-old has had episodes of pounding headache, sweating and palpitations for 6 months. During one episode, blood pressure is 210/120 mm Hg. Imaging shows a 4-cm mass in the right adrenal gland. The resected tumor arises in the adrenal medulla and is made of nests of large cells with granular cytoplasm.",
+      "leadIn": "The normal cells that this tumor arises from are best described as which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Modified postganglionic sympathetic neurons"
+        },
+        {
+          "id": "b",
+          "text": "Zona glomerulosa cells controlled by angiotensin II"
+        },
+        {
+          "id": "c",
+          "text": "Zona fasciculata cells controlled by ACTH"
+        },
+        {
+          "id": "d",
+          "text": "Zona reticularis cells that make androgens"
+        },
+        {
+          "id": "e",
+          "text": "Preganglionic parasympathetic neurons"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: modified postganglionic sympathetic neurons (chromaffin cells). Why: Your El-Husseiny endocrinology notes (p. 59) describe pheochromocytoma as a tumor arising from adrenal medullary chromaffin cells, which derive from the neural crest. Their adrenal table (p. 36) shows that the medulla is made of chromaffin cells, which are controlled by preganglionic sympathetic fibers and release epinephrine and norepinephrine, while the three cortical zones are controlled by angiotensin (glomerulosa, aldosterone) or by ACTH (fasciculata, cortisol; reticularis, androgens). OpenStax Anatomy and Physiology (17.6) agrees that the adrenal medulla is neuroendocrine tissue made of postganglionic sympathetic neurons called chromaffin cells, which make epinephrine and norepinephrine in about a 4 to 1 ratio. So these cells behave like the second neuron in a sympathetic pathway, but release their products into the blood.",
+      "whyWrong": {
+        "b": "Zona glomerulosa cells make aldosterone under control of the renin-angiotensin system (your El-Husseiny endocrinology notes, p. 36). They are in the cortex, not the medulla, and do not make catecholamines.",
+        "c": "Zona fasciculata cells make cortisol under ACTH control (your El-Husseiny endocrinology notes, p. 36). A cortisol-making tumor would not cause surges of catecholamines.",
+        "d": "Zona reticularis cells make androgens under ACTH control (your El-Husseiny endocrinology notes, p. 36). They are cortical, not medullary.",
+        "e": "The adrenal medulla receives preganglionic sympathetic fibers (your El-Husseiny endocrinology notes, p. 36), not parasympathetic ones, and the chromaffin cells themselves act as postganglionic neurons (OpenStax 17.6)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Endocrinology (Emily's file), Adrenal cortex and medulla, p. 36; pheochromocytoma, p. 59"
+        },
+        {
+          "title": "OpenStax Anatomy and Physiology 2e, 17.6 The Adrenal Glands",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-6-the-adrenal-glands"
+        }
+      ]
+    },
+    {
+      "id": "genetics-kallmann-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Genetics",
+      "system": "Endocrine",
+      "topic": "Hypogonadotropic hypogonadism: Kallmann syndrome",
+      "difficulty": 2,
+      "stem": "A 17-year-old boy is brought to the clinic because he has not started puberty. He has no facial or underarm hair, and both testes are in the scrotum but small. When asked, he says he has never been able to smell coffee or smoke. Serum LH, FSH and testosterone are all low, and prolactin is normal. MRI of the brain and pituitary is normal. A maternal uncle needed hormone treatment to go through puberty.",
+      "leadIn": "Which developmental problem best explains his condition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Failed migration of GnRH neurons to the hypothalamus"
+        },
+        {
+          "id": "b",
+          "text": "Tumor from Rathke pouch remnants compressing the stalk"
+        },
+        {
+          "id": "c",
+          "text": "Failure of the testes to descend into the scrotum"
+        },
+        {
+          "id": "d",
+          "text": "Prolactin excess suppressing hypothalamic GnRH release"
+        },
+        {
+          "id": "e",
+          "text": "Testicular failure that raises FSH and LH levels"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: failed migration of GnRH neurons to the hypothalamus (Kallmann syndrome). Why: Your El-Husseiny endocrinology notes (p. 9) list Kallmann syndrome among the migration defects: GnRH-secreting neurons fail to travel from the olfactory area to the hypothalamus. MedlinePlus Genetics (Kallmann syndrome) agrees that it is a form of hypogonadotropic hypogonadism, in which the hypothalamus does not make enough hormone to drive sexual development. It causes delayed or absent puberty together with a reduced or absent sense of smell, because olfactory neurons and GnRH neurons migrate together before birth. Without GnRH, the pituitary makes little LH and FSH, so testosterone stays low. MedlinePlus also explains that one form, caused by ANOS1 variants, is X-linked recessive, which fits an affected maternal uncle.",
+      "whyWrong": {
+        "b": "A craniopharyngioma grows from Rathke pouch remnants and can compress the pituitary stalk (your El-Husseiny endocrinology notes, pp. 12 and 24), but his MRI is normal and it would not explain a lifelong loss of smell.",
+        "c": "Failure of the testes to descend is cryptorchidism (your El-Husseiny endocrinology notes, p. 9). His testes are in the scrotum.",
+        "d": "Prolactin can suppress GnRH release (your El-Husseiny endocrinology notes, p. 21), but his prolactin is normal.",
+        "e": "His LH and FSH are low, which places the problem above the testes, in the hypothalamus (MedlinePlus Genetics, Kallmann syndrome). Primary testicular failure would raise LH and FSH."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Endocrinology (Emily's file), Kallmann syndrome and cryptorchidism, p. 9; pituitary stalk, p. 12; craniopharyngioma, p. 24; prolactin, p. 21"
+        },
+        {
+          "title": "MedlinePlus Genetics: Kallmann syndrome",
+          "url": "https://medlineplus.gov/genetics/condition/kallmann-syndrome/"
+        }
+      ]
+    },
+    {
+      "id": "genetics-fhh-casr-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Genetics",
+      "system": "Endocrine",
+      "topic": "Hypercalcemia: familial hypocalciuric hypercalcemia",
+      "difficulty": 2,
+      "stem": "A 32-year-old has a serum calcium of 10.9 mg/dL (normal 8.5 to 10.2) on routine testing and has no symptoms. Serum PTH is 62 pg/mL (normal 10 to 65). A 24-hour urine collection shows low calcium excretion. The patient's mother and brother have also had mildly high calcium levels for many years without kidney stones or bone disease.",
+      "leadIn": "Which mechanism best explains these findings?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Defective calcium-sensing receptor in parathyroid and kidney"
+        },
+        {
+          "id": "b",
+          "text": "Autonomous parathyroid adenoma making excess parathyroid hormone"
+        },
+        {
+          "id": "c",
+          "text": "PTH-related peptide secreted by an occult squamous cell cancer"
+        },
+        {
+          "id": "d",
+          "text": "Heavy intake of calcium carbonate with absorbable alkali"
+        },
+        {
+          "id": "e",
+          "text": "Granulomas making extra active vitamin D"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: a defective calcium-sensing receptor in the parathyroid glands and kidneys (familial hypocalciuric hypercalcemia). Why: Your El-Husseiny endocrinology notes (p. 93) explain that in familial hypocalciuric hypercalcemia the G protein-coupled calcium-sensing receptor on parathyroid and kidney cells does not work properly. The parathyroid glands do not sense the high calcium, so PTH is not suppressed and stays normal or slightly high, causing mild hypercalcemia. The key clue is low urine calcium at the same time as high blood calcium, because in other causes of hypercalcemia a normally sensing kidney spills calcium into the urine. Most patients have no symptoms and need no treatment. MedlinePlus Genetics (CASR gene) agrees: when calcium binds this receptor in the parathyroid glands, PTH production is blocked, and when it binds the receptor in the kidney, calcium reabsorption is blocked so more calcium leaves in the urine. A faulty receptor causes high blood calcium with low urine calcium, usually without symptoms.",
+      "whyWrong": {
+        "b": "A parathyroid adenoma causes primary hyperparathyroidism, in which the kidney senses high calcium and excretes more of it (your El-Husseiny endocrinology notes, p. 93). Low urine calcium and a lifelong family pattern point to FHH instead.",
+        "c": "PTH-related peptide made by cancers such as squamous cell carcinoma acts like PTH (your El-Husseiny endocrinology notes, p. 85), and the high calcium would suppress the patient's own PTH. This patient is well, with a normal PTH and affected relatives.",
+        "d": "Milk-alkali syndrome comes from too much calcium carbonate and absorbable alkali (your El-Husseiny endocrinology notes, p. 93). There is no such history, and urine calcium would not be low.",
+        "e": "Granulomas, as in sarcoidosis, can form in many tissues (your El-Husseiny endocrinology notes, p. 13), but granulomatous disease would not explain a lifelong, familial, symptom-free pattern with low urine calcium (MedlinePlus Genetics, CASR gene)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Endocrinology (Emily's file), Sarcoidosis, p. 13; PTH and PTHrP, p. 85; familial hypocalciuric hypercalcemia and milk-alkali syndrome, p. 93"
+        },
+        {
+          "title": "MedlinePlus Genetics: CASR gene",
+          "url": "https://medlineplus.gov/genetics/gene/casr/"
+        }
+      ]
+    },
+    {
+      "id": "genetics-turner-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Genetics",
+      "system": "Endocrine",
+      "topic": "Sex chromosome disorders: Turner syndrome",
+      "difficulty": 1,
+      "stem": "A 15-year-old girl is brought to the clinic because she has not had a menstrual period and has no breast development. Her height is below the 3rd percentile. Examination shows extra skin folds on the sides of the neck and a low hairline at the back of the neck. Her mother recalls that her hands and feet were swollen at birth. Blood pressure is higher in her arms than in her legs.",
+      "leadIn": "Which karyotype is most likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Monosomy X (45,X)"
+        },
+        {
+          "id": "b",
+          "text": "Extra X in a male (47,XXY)"
+        },
+        {
+          "id": "c",
+          "text": "Triple X (47,XXX)"
+        },
+        {
+          "id": "d",
+          "text": "Normal male (46,XY)"
+        },
+        {
+          "id": "e",
+          "text": "Trisomy 21 (47,XX,+21)"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: monosomy X (45,X), Turner syndrome. Why: MedlinePlus Genetics (Turner syndrome) explains that Turner syndrome occurs when one of a female's two X chromosomes is missing or altered; about half of patients have a single X in every cell (45,X), and others are mosaic. Short stature is the most common feature (linked to losing one copy of SHOX), most ovarian tissue breaks down early so many girls do not enter puberty without hormones, and about 30% have a webbed neck, a low hairline at the back, or swelling of the hands and feet. A third to a half have heart defects such as narrowing of the aorta, which fits her higher arm than leg blood pressure. Your El-Husseiny notes link Turner syndrome with coarctation of the aorta and bicuspid aortic valve (cardiovascular notes, pp. 116 and 118), with growth hormone use (endocrinology notes, p. 149) and with milder disease in 45,X/46,XX mosaics (biochemistry notes, p. 84). Most patients have normal intelligence.",
+      "whyWrong": {
+        "b": "47,XXY is Klinefelter syndrome, one of the two main sex chromosome aneuploidies (your El-Husseiny biochemistry notes, p. 100). It occurs in males.",
+        "c": "A third X chromosome does not cause the webbed neck, swelling at birth and aortic narrowing that MedlinePlus Genetics describes for Turner syndrome, which comes from a missing X.",
+        "d": "46,XY is a normal male karyotype. Her features match the loss of an X chromosome (MedlinePlus Genetics, Turner syndrome).",
+        "e": "Trisomy 21 is Down syndrome, usually from maternal nondisjunction (your El-Husseiny biochemistry notes, p. 101). It does not explain absent puberty with a webbed neck and short stature."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Mosaicism, p. 84; sex chromosome aneuploidies, p. 100; Down syndrome, p. 101"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Endocrinology (Emily's file), Growth hormone uses, p. 149"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Cardiovascular System (Emily's file), Coarctation of the aorta, p. 116; congenital heart disease associations, p. 118"
+        },
+        {
+          "title": "MedlinePlus Genetics: Turner syndrome",
+          "url": "https://medlineplus.gov/genetics/condition/turner-syndrome/"
+        }
+      ]
+    },
+    {
+      "id": "genetics-t1dm-hla-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Genetics",
+      "system": "Endocrine",
+      "topic": "Type 1 diabetes: HLA associations",
+      "difficulty": 2,
+      "stem": "A 9-year-old is admitted with diabetic ketoacidosis after 2 weeks of thirst, frequent urination and weight loss. Serum C-peptide is very low, and antibodies to glutamic acid decarboxylase are present. The parents ask whether genes play a part in this disease.",
+      "leadIn": "Which genetic marker is most strongly linked with this child's disease?",
+      "options": [
+        {
+          "id": "a",
+          "text": "HLA-DR3 and HLA-DR4 alleles"
+        },
+        {
+          "id": "b",
+          "text": "HLA-B27 allele"
+        },
+        {
+          "id": "c",
+          "text": "HLA-DR5 allele"
+        },
+        {
+          "id": "d",
+          "text": "HLA-B8 allele"
+        },
+        {
+          "id": "e",
+          "text": "A single mutated insulin gene"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: HLA-DR3 and HLA-DR4. Why: The diabetes table in your El-Husseiny endocrinology notes (p. 106) shows that type 1 diabetes is T-cell mediated autoimmune destruction of beta cells with glutamic acid decarboxylase antibodies, and that it is linked to HLA-DR3 and HLA-DR4 (their memory aid: \"4 - 3 = 1\"), whereas type 2 diabetes has no HLA link. The same table notes that both types are polygenic. The MSD Manual (Diabetes Mellitus) agrees that the DR3-DQ2.5 and DR4-DQ8 haplotypes are present in more than 90% of patients with type 1 diabetes who are younger than 30, that genes outside the HLA region also add risk, and that glutamic acid decarboxylase is one of the islet autoantigens. Very low C-peptide shows that the child makes little insulin of their own.",
+      "whyWrong": {
+        "b": "HLA-B27 is strongly linked with ankylosing spondylitis (your El-Husseiny musculoskeletal notes, ankylosing spondylitis), not type 1 diabetes.",
+        "c": "Your El-Husseiny endocrinology notes (p. 71) link HLA-DR5 (with DR3) to Hashimoto thyroiditis, not to type 1 diabetes.",
+        "d": "Your El-Husseiny endocrinology notes (p. 75) link HLA-B8 (with DR3) to Graves disease. The strongest diabetes link is DR3 and DR4 (p. 106).",
+        "e": "Type 1 diabetes is polygenic (your El-Husseiny endocrinology notes, p. 106; MSD, Diabetes Mellitus), not caused by one mutated insulin gene."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Endocrinology (Emily's file), Hashimoto thyroiditis, p. 71; Graves disease, p. 75; type 1 vs type 2 diabetes, p. 106"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Ankylosing spondylitis, pp. 141-142"
+        },
+        {
+          "title": "MSD Manual Professional: Diabetes Mellitus (DM)",
+          "url": "https://www.msdmanuals.com/professional/endocrine-and-metabolic-disorders/diabetes-mellitus-and-disorders-of-carbohydrate-metabolism/diabetes-mellitus-dm"
+        }
+      ]
+    },
+    {
+      "id": "genetics-avp-neurophysin-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Genetics",
+      "system": "Endocrine",
+      "topic": "Central diabetes insipidus: autosomal dominant AVP gene variants",
+      "difficulty": 3,
+      "stem": "A 6-year-old has had steadily increasing thirst and urination for 2 years and now drinks about 4 L of water a day. The father and the paternal grandmother developed the same problem in childhood and take desmopressin. During a water deprivation test, the child's urine stays dilute, but urine osmolality rises sharply after desmopressin is given. Genetic testing shows a single-copy (heterozygous) missense variant in the AVP gene in the part that encodes neurophysin II.",
+      "leadIn": "Which mechanism best explains this family's ADH deficiency?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Misfolded precursor trapped in the ER of hypothalamic neurons"
+        },
+        {
+          "id": "b",
+          "text": "Variant vasopressin V2 receptor on collecting duct cells in the kidney"
+        },
+        {
+          "id": "c",
+          "text": "Variant aquaporin-2 water channel in collecting duct cells"
+        },
+        {
+          "id": "d",
+          "text": "Excess water intake that surpasses what the kidney can excrete"
+        },
+        {
+          "id": "e",
+          "text": "Tumor from Rathke pouch remnants compressing the stalk"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: a misfolded hormone precursor trapped in the endoplasmic reticulum of hypothalamic neurons. Why: Your El-Husseiny endocrinology notes (pp. 27-28) explain that ADH is made mainly in the supraoptic nucleus of the hypothalamus, packaged with carrier proteins called neurophysins, and carried down the axons to the posterior pituitary for storage and release. Neurophysin II binds vasopressin and helps move it through the ER and Golgi into secretory granules. A point mutation in neurophysin II can make the protein fold abnormally, so it is removed from the ER together with the vasopressin bound to it, leaving less ADH to release. The notes link this to some cases of autosomal dominant hereditary central diabetes insipidus. MedlinePlus Genetics (AVP gene) agrees that variants in the AVP precursor cause it to become trapped inside the cells that make it, and the resulting shortage of ADH causes excess urination and thirst. A rise in urine concentration after desmopressin shows that the kidney responds normally, so the problem is a lack of ADH, and an affected parent in each generation fits dominant inheritance.",
+      "whyWrong": {
+        "b": "ADH acts through V2 receptors that move aquaporin-2 into the collecting duct membrane (your El-Husseiny endocrinology notes, p. 28). A faulty V2 receptor causes nephrogenic diabetes insipidus, which would not respond to desmopressin.",
+        "c": "Aquaporin-2 channels carry out ADH's effect in the collecting duct (your El-Husseiny endocrinology notes, p. 28). A defect there is nephrogenic, so desmopressin would not concentrate the urine.",
+        "d": "Primary polydipsia comes from drinking more water than the kidney can excrete, and restricting water normalizes urine output (your El-Husseiny endocrinology notes, p. 30). This child's urine stays dilute during water deprivation.",
+        "e": "A craniopharyngioma arises from Rathke pouch remnants (your El-Husseiny endocrinology notes, p. 24), but it would not explain an inherited pattern across three generations with an AVP gene variant."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Endocrinology (Emily's file), Craniopharyngioma, p. 24; posterior pituitary and ADH synthesis, pp. 27-28; primary polydipsia, p. 30"
+        },
+        {
+          "title": "MedlinePlus Genetics: AVP gene",
+          "url": "https://medlineplus.gov/genetics/gene/avp/"
+        }
+      ]
+    },
+    {
+      "id": "neuro-hypothalamus-satiety-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Endocrine",
+      "topic": "Hypothalamus: ventromedial nucleus and satiety",
+      "difficulty": 2,
+      "stem": "A 10-year-old has had headaches and blurred vision for 6 months. Over the past year the child has seemed hungry all the time and has gained 15 kg. MRI shows a cystic mass above the sella turcica that presses on the hypothalamus. Surgery later shows a craniopharyngioma.",
+      "leadIn": "Damage to which hypothalamic area best explains the weight gain?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ventromedial nucleus"
+        },
+        {
+          "id": "b",
+          "text": "Lateral nucleus"
+        },
+        {
+          "id": "c",
+          "text": "Suprachiasmatic nucleus"
+        },
+        {
+          "id": "d",
+          "text": "Supraoptic nucleus"
+        },
+        {
+          "id": "e",
+          "text": "Anterior nucleus"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the ventromedial nucleus. Why: The hypothalamic nuclei table in your El-Husseiny neurology notes (p. 105) calls the ventromedial nucleus the satiety center. Leptin stimulates it, and a lesion there, as from a craniopharyngioma, causes overeating and obesity. The lateral nucleus is the feeding center; leptin inhibits it, and a lesion there causes poor eating and failure to thrive. Your El-Husseiny endocrinology notes add that leptin from fat tissue acts on the ventromedial hypothalamus to reduce appetite (p. 124) and that craniopharyngiomas arise from remnants of Rathke's pouch (p. 24). The Tacoma Community College nutrition text (Chapter 8) agrees that damage to the ventromedial hypothalamus makes an animal eat until it is obese, damage to the lateral hypothalamus stops it from eating, and leptin stimulates the satiety region.",
+      "whyWrong": {
+        "b": "The lateral nucleus is the feeding center; damage there causes poor eating and weight loss (your El-Husseiny neurology notes, p. 105; Tacoma nutrition text, Chapter 8).",
+        "c": "The suprachiasmatic nucleus regulates circadian rhythms (your El-Husseiny neurology notes, p. 105), not appetite.",
+        "d": "The supraoptic nucleus makes ADH (your El-Husseiny neurology notes, p. 105). Damage there would cause diabetes insipidus, not overeating.",
+        "e": "The anterior nucleus controls cooling, and a lesion causes high body temperature (your El-Husseiny neurology notes, p. 105)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Hypothalamic nuclei, p. 105"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Endocrinology (Emily's file), Craniopharyngioma, p. 24; leptin, p. 124"
+        },
+        {
+          "title": "Introduction to Human Nutrition (Tacoma Community College), Chapter 8: Regulation of Energy Intake",
+          "url": "https://openwa.pressbooks.pub/tccnutrition/chapter/chapter-8-regulation-of-energy-intake/"
+        }
+      ]
+    },
+    {
+      "id": "neuro-suprachiasmatic-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Behavioral Health",
+      "topic": "Hypothalamus: suprachiasmatic nucleus and circadian rhythm",
+      "difficulty": 2,
+      "stem": "A 41-year-old who lost both eyes in an accident 10 years ago reports that sleep has become erratic. On some weeks the patient falls asleep easily at night, and on others feels wide awake at night and sleepy during the day, even with a fixed bedtime. Mood, memory and the rest of the neurologic examination are normal.",
+      "leadIn": "Loss of light input to which structure best explains this sleep problem?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Suprachiasmatic nucleus"
+        },
+        {
+          "id": "b",
+          "text": "Ventromedial nucleus"
+        },
+        {
+          "id": "c",
+          "text": "Lateral geniculate nucleus"
+        },
+        {
+          "id": "d",
+          "text": "Supraoptic nucleus"
+        },
+        {
+          "id": "e",
+          "text": "Basal nucleus of Meynert"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the suprachiasmatic nucleus. Why: The hypothalamic nuclei table in your El-Husseiny neurology notes (p. 105) states that the suprachiasmatic nucleus regulates circadian rhythms, and the next page (p. 106) explains that light controls the pineal gland through a pathway from the retina to the suprachiasmatic nucleus and on to the pineal gland. Introduction to Neurobiology (Singh, Circadian Rhythms) agrees that the suprachiasmatic nucleus is a cluster of hypothalamic cells that keeps the body's daily rhythm, that it receives light signals through the retinohypothalamic tract from a special group of light-sensitive retinal ganglion cells, and that it controls the pineal gland's release of melatonin. Without eyes, daylight can no longer reset this clock each day, so the patient's sleep-wake timing drifts away from the 24-hour day.",
+      "whyWrong": {
+        "b": "The ventromedial nucleus is the satiety center (your El-Husseiny neurology notes, p. 105). It controls appetite, not the daily sleep-wake rhythm.",
+        "c": "The lateral geniculate nucleus is the thalamic relay for vision (your El-Husseiny neurology notes, p. 104). It does not set the body clock.",
+        "d": "The supraoptic nucleus makes ADH (your El-Husseiny neurology notes, p. 105).",
+        "e": "The basal nucleus of Meynert supplies acetylcholine to the cortex for memory and thinking (your El-Husseiny neurology notes, pp. 143 and 151). This patient's memory is normal, and this nucleus does not receive light input."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Thalamic nuclei, p. 104; hypothalamic nuclei and pineal pathway, pp. 105-106; neurotransmitter nuclei, p. 143; Alzheimer disease, p. 151"
+        },
+        {
+          "title": "Singh. Introduction to Neurobiology (2024), Circadian Rhythms",
+          "url": "https://opentext.uoregon.edu/neurobiology/chapter/circadian-rhythms-2/"
+        }
+      ]
+    },
+    {
+      "id": "histo-thymus-selection-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "Immune System",
+      "topic": "Thymus: positive and negative selection",
+      "difficulty": 2,
+      "stem": "A researcher studies T-cell development in mouse thymus. Thymocytes in the outer, densely packed region of each lobule meet self-MHC molecules on thymic epithelial cells. Thymocytes whose T-cell receptors cannot bind self-MHC at all fail to mature and die there.",
+      "leadIn": "This step is best described as which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Failure of positive selection in the thymic cortex"
+        },
+        {
+          "id": "b",
+          "text": "Negative selection in the thymic medulla"
+        },
+        {
+          "id": "c",
+          "text": "Isotype switching in a lymph node germinal center"
+        },
+        {
+          "id": "d",
+          "text": "Anergy from lack of costimulation in the periphery"
+        },
+        {
+          "id": "e",
+          "text": "Clonal expansion in the splenic white pulp"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: failure of positive selection in the thymic cortex. Why: Your El-Husseiny microbiology and immunology notes (pp. 392-394) explain that developing thymocytes are shown self-MHC molecules loaded with normal self-peptides. Cells whose receptors bind self-MHC weakly get a positive selection signal and survive. Cells that cannot recognize self-MHC at all are not allowed to mature, and cells that bind self-MHC too strongly are killed by apoptosis (negative selection) because they could cause autoimmunity. Positive selection happens in the thymic cortex and negative selection in the medulla, and most T-cell precursors (95 to 99%) die in the thymus. OpenStax Anatomy and Physiology agrees that the cortex is densely packed with thymocytes while the medulla is less dense (21.1), that positive selection happens in the cortex on cortical epithelial cells, and that only about 2% of thymocytes leave as mature T cells (21.3). OpenStax places negative selection at the junction of the cortex and medulla.",
+      "whyWrong": {
+        "b": "Negative selection removes thymocytes that bind self-MHC too strongly (your El-Husseiny microbiology and immunology notes, p. 392). These cells cannot bind self-MHC at all, which is a failure of positive selection.",
+        "c": "Isotype switching happens in B cells in germinal centers (your El-Husseiny microbiology and immunology notes, p. 420), not in developing T cells in the thymus.",
+        "d": "Anergy is inactivation of mature self-reactive T cells in the periphery (your El-Husseiny microbiology and immunology notes, p. 389). These cells are still developing in the thymus.",
+        "e": "The splenic white pulp is where mature T and B cells respond to blood-borne antigens (your El-Husseiny microbiology and immunology notes, p. 398; OpenStax 21.1), not where thymocytes are selected."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Tolerance, p. 389; thymic selection, pp. 392-394; spleen, p. 398; isotype switching, p. 420"
+        },
+        {
+          "title": "OpenStax Anatomy and Physiology 2e, 21.1 Anatomy of the Lymphatic and Immune Systems",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems"
+        },
+        {
+          "title": "OpenStax Anatomy and Physiology 2e, 21.3 The Adaptive Immune Response: T Lymphocytes",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-3-the-adaptive-immune-response-t-lymphocytes-and-their-functional-types"
+        }
+      ]
+    },
+    {
+      "id": "histo-lymph-node-germinal-center-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "Immune System",
+      "topic": "Lymph node: follicles and germinal centers",
+      "difficulty": 2,
+      "stem": "A 30-year-old has a tender, enlarged lymph node in the neck 3 weeks after a skin infection on the scalp. An excisional biopsy shows many round clusters of lymphocytes in the outer cortex. Many clusters have pale centers packed with large, rapidly dividing cells.",
+      "leadIn": "The pale centers of these clusters are the main site of which process?",
+      "options": [
+        {
+          "id": "a",
+          "text": "B-cell proliferation and isotype switching"
+        },
+        {
+          "id": "b",
+          "text": "Positive selection of developing T cells"
+        },
+        {
+          "id": "c",
+          "text": "T-cell expansion in response to viruses"
+        },
+        {
+          "id": "d",
+          "text": "Filtering of lymph by macrophages in the medullary sinuses"
+        },
+        {
+          "id": "e",
+          "text": "Removal of old red blood cells"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: B-cell proliferation and isotype switching. Why: Your El-Husseiny microbiology and immunology notes (p. 395) describe lymph node follicles in the outer cortex as the place where B cells gather and multiply. Primary follicles are dense and inactive, while secondary follicles have pale germinal centers and are active. Isotype switching from IgM to other antibody classes takes place in germinal centers (p. 420), and clones with higher-affinity receptors come to dominate there (p. 422). OpenStax Anatomy and Physiology (21.1) agrees that germinal centers are made of rapidly dividing B cells surrounded by a layer of T cells and other helper cells. A reactive node draining an infected area shows many such secondary follicles.",
+      "whyWrong": {
+        "b": "Positive selection of developing T cells happens in the thymic cortex (your El-Husseiny microbiology and immunology notes, p. 394), not in lymph nodes.",
+        "c": "T cells live in the paracortex, between the follicles and the medulla, and that region enlarges in viral infections (your El-Husseiny microbiology and immunology notes, p. 396), not in the follicle centers.",
+        "d": "Macrophages that filter lymph line the medullary sinuses (your El-Husseiny microbiology and immunology notes, p. 396), not the follicle centers.",
+        "e": "Old red blood cells are removed by the spleen's red pulp (OpenStax 21.1), not by lymph nodes."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Thymic selection, p. 394; lymph node structure, pp. 395-396; isotype switching and affinity maturation, pp. 420-422"
+        },
+        {
+          "title": "OpenStax Anatomy and Physiology 2e, 21.1 Anatomy of the Lymphatic and Immune Systems",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems"
+        }
+      ]
+    },
+    {
+      "id": "histo-asplenia-howell-jolly-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "Immune System",
+      "topic": "Spleen: asplenia and Howell-Jolly bodies",
+      "difficulty": 2,
+      "stem": "A 26-year-old with hereditary spherocytosis had the spleen removed 1 year ago, and the anemia has since resolved. A routine blood smear now shows spherocytes and many red blood cells containing a single small, round, dark purple inclusion.",
+      "leadIn": "These inclusions appear because of the loss of which splenic function?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Clearing red cells with nuclear remnants via macrophages"
+        },
+        {
+          "id": "b",
+          "text": "T-cell activation in the periarteriolar lymphoid sheath (PALS)"
+        },
+        {
+          "id": "c",
+          "text": "Antibody production by B cells in white pulp follicles"
+        },
+        {
+          "id": "d",
+          "text": "Trimming of excess membrane from red cells"
+        },
+        {
+          "id": "e",
+          "text": "Capture of blood-borne antigens in the marginal zone"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: clearing red cells that carry nuclear remnants, done by red pulp macrophages. Why: Your El-Husseiny hematology-oncology notes (p. 44) explain that splenectomy treats hereditary spherocytosis, so the anemia resolves, but spherocytes remain and Howell-Jolly bodies (fragments of nuclear material inside red cells) appear on the smear. They list Howell-Jolly bodies after the autosplenectomy of sickle cell disease as well (p. 46). OpenStax Anatomy and Physiology (21.1) explains that the red pulp filters the blood with macrophages and removes dying red cells. Brigden (American Family Physician, 2001) calls Howell-Jolly bodies an important clue to asplenia or hyposplenism. Because splenic macrophages also clear bacteria, asplenic patients have a lifelong risk of severe infection with encapsulated organisms such as Streptococcus pneumoniae, Haemophilus influenzae and Neisseria meningitidis, and need vaccines against them (your El-Husseiny microbiology and immunology notes, p. 21; Brigden).",
+      "whyWrong": {
+        "b": "T cells in the periarteriolar lymphoid sheath of the white pulp start immune responses (your El-Husseiny microbiology and immunology notes, p. 398). That function does not clean inclusions out of red cells.",
+        "c": "B cells in white pulp follicles make antibody (your El-Husseiny microbiology and immunology notes, p. 398). Losing them raises infection risk but does not produce red cell inclusions.",
+        "d": "The spleen trims excess red cell membrane, and its loss produces target cells (your El-Husseiny hematology-oncology notes, p. 36), not nuclear inclusions.",
+        "e": "The marginal zone captures blood-borne antigens for lymphocytes (your El-Husseiny microbiology and immunology notes, p. 398). It does not remove nuclear fragments from red cells."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Hematology-Oncology (Emily's file), Target cells, p. 36; hereditary spherocytosis, p. 44; sickle cell disease, p. 46"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Asplenia and encapsulated organisms, p. 21; spleen, p. 398"
+        },
+        {
+          "title": "OpenStax Anatomy and Physiology 2e, 21.1 Anatomy of the Lymphatic and Immune Systems",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems"
+        },
+        {
+          "title": "Brigden. Detection, Education and Management of the Asplenic or Hyposplenic Patient. Am Fam Physician 2001;63(3):499-508",
+          "url": "https://www.aafp.org/afp/2001/0201/p499"
+        }
+      ]
+    },
+    {
+      "id": "genetics-hla-sibling-match-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Genetics",
+      "system": "Immune System",
+      "topic": "HLA inheritance: chance of a matched sibling",
+      "difficulty": 1,
+      "stem": "An 8-year-old with leukemia needs a hematopoietic stem cell transplant. The child has one full brother. The parents are not related to each other, and HLA typing has not yet been done on the brother.",
+      "leadIn": "What is the probability that the brother inherited the same two HLA haplotypes as the patient?",
+      "options": [
+        {
+          "id": "a",
+          "text": "25%"
+        },
+        {
+          "id": "b",
+          "text": "50%"
+        },
+        {
+          "id": "c",
+          "text": "100%"
+        },
+        {
+          "id": "d",
+          "text": "12.5%"
+        },
+        {
+          "id": "e",
+          "text": "0%"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: 25%. Why: Your El-Husseiny microbiology and immunology notes (p. 475) explain that the MHC genes are highly variable and expressed codominantly, and that each person inherits one complete set (haplotype) from each parent, so unrelated people almost always differ. Each parent passes one of their two haplotypes to each child. The chance that the brother received the same maternal haplotype as the patient is 1/2, and the chance that he received the same paternal haplotype is also 1/2, so the chance of a full match is 1/2 × 1/2 = 1/4. The Gift of Life Marrow Registry agrees that each person inherits half of their HLA from each parent and that every full sibling has the same 25% chance of being a match. The MSD Manual (Overview of Transplantation) adds that matching as many HLA antigens as possible improves graft survival, especially with related donors.",
+      "whyWrong": {
+        "b": "50% is the chance that the brother shares exactly one haplotype (a half match), because 1/2 × 1/2 for a match plus 1/2 × 1/2 for no match leaves 1/2 for a half match. A full match needs both haplotypes to match (Gift of Life Marrow Registry).",
+        "c": "Only an identical twin would carry the same chromosomes, and your El-Husseiny notes say even identical twins can differ slightly through somatic mutations (p. 475). A full brother has a 25% chance.",
+        "d": "12.5% would mean an extra factor of 1/2. There are only two haplotypes to inherit, one from each parent, so the chance is 1/2 × 1/2 (your El-Husseiny microbiology and immunology notes, p. 475).",
+        "e": "Full siblings often match, because they draw from the same four parental haplotypes (Gift of Life Marrow Registry)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Transplant immunology and HLA haplotypes, p. 475"
+        },
+        {
+          "title": "Gift of Life Marrow Registry: What is the chance of siblings being a stem cell or bone marrow match?",
+          "url": "https://www.giftoflife.org/posts/post/What-is-the-chance-of-siblings-being-a-stem-cell-or-bone-marrow-match"
+        },
+        {
+          "title": "MSD Manual Professional: Overview of Transplantation",
+          "url": "https://www.msdmanuals.com/professional/immunology-allergic-disorders/transplantation/overview-of-transplantation"
+        }
+      ]
+    },
+    {
+      "id": "neuro-thalamic-pure-sensory-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Nervous System & Special Senses",
+      "topic": "Thalamus: pure sensory stroke (VPL and VPM)",
+      "difficulty": 2,
+      "stem": "A 66-year-old with long-standing high blood pressure and diabetes suddenly loses feeling on the entire left side of the face, arm and leg. Touch, pain, temperature, vibration and position sense are all reduced on that side. Strength, speech, vision and coordination are normal. Four months later, the patient develops a constant burning pain on the left side that gets worse with light touch.",
+      "leadIn": "Where is the lesion most likely located?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Right thalamus, ventral posterior nuclei"
+        },
+        {
+          "id": "b",
+          "text": "Left thalamus, ventral posterior nuclei"
+        },
+        {
+          "id": "c",
+          "text": "Right lateral medulla"
+        },
+        {
+          "id": "d",
+          "text": "Right medial medulla (anterior spinal artery)"
+        },
+        {
+          "id": "e",
+          "text": "Right lateral pons"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the right thalamus, in the ventral posterior nuclei (VPL and VPM). Why: Your El-Husseiny neurology notes (p. 104) explain that the ventral posterolateral (VPL) nucleus receives the spinothalamic tract and dorsal columns from the body, while the ventral posteromedial (VPM) nucleus receives the trigeminal pathway from the face. A stroke that damages both causes loss of all sensation on the opposite side of the face and body (pure hemisensory loss). Weeks to months later, some patients develop thalamic pain syndrome, with severe burning pain made worse by light touch (allodynia). A case report in the Journal of Medical Case Reports (2012) describes complete sensory loss on the left from a small lacunar infarct in the ventral posterior nuclei of the right thalamus, followed by severe persistent pain, and notes that small strokes affecting only sensation should not be underestimated.",
+      "whyWrong": {
+        "b": "Sensory pathways cross before reaching the thalamus, so a left thalamic lesion causes right-sided loss (your El-Husseiny neurology notes, p. 104).",
+        "c": "A lateral medullary (Wallenberg) stroke causes loss of pain and temperature on the same side of the face and the opposite side of the body, with Horner syndrome, ataxia and trouble swallowing (your El-Husseiny neurology notes, p. 82). This patient has loss of all sensation on one side only.",
+        "d": "A medial medullary stroke causes weakness of the opposite limbs, loss of vibration and position sense, and tongue weakness (your El-Husseiny neurology notes, p. 82). This patient has normal strength and a normal tongue, but has lost face sensation.",
+        "e": "A lateral pontine (AICA) stroke damages cranial nerve nuclei such as the facial nucleus and causes crossed findings (your El-Husseiny neurology notes, p. 83). It would not cause pure sensory loss of the whole half body and face."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Brainstem syndromes, pp. 82-83; thalamic syndrome, p. 104"
+        },
+        {
+          "title": "Pure sensory syndromes and post-stroke pain secondary to bilateral thalamic lacunar infarcts: a case report. J Med Case Rep 2012",
+          "url": "https://doaj.org/article/f47a151fde224515ae0d1bdc1c6f121b"
+        }
+      ]
+    },
+    {
+      "id": "neuro-medial-medullary-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Nervous System & Special Senses",
+      "topic": "Brainstem stroke: medial medullary syndrome",
+      "difficulty": 2,
+      "stem": "A 70-year-old suddenly develops weakness of the right arm and leg. Examination shows increased tone and an upgoing toe on the right. Vibration and position sense are lost in the right arm and leg, while pain and temperature sensation are normal. When the patient sticks out the tongue, it deviates to the left. Facial strength and sensation are normal.",
+      "leadIn": "Occlusion of which artery most likely caused this stroke?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Left anterior spinal artery"
+        },
+        {
+          "id": "b",
+          "text": "Right anterior spinal artery"
+        },
+        {
+          "id": "c",
+          "text": "Left posterior inferior cerebellar artery"
+        },
+        {
+          "id": "d",
+          "text": "Right posterior inferior cerebellar artery"
+        },
+        {
+          "id": "e",
+          "text": "Left anterior inferior cerebellar artery"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the left anterior spinal artery (medial medullary syndrome). Why: Your El-Husseiny neurology notes explain that the anterior spinal artery supplies the medial part of the medulla (p. 81) and that medial medullary syndrome is caused by a blocked anterior spinal artery or vertebral artery (p. 82). Damage to the corticospinal tract causes spastic weakness of the opposite limbs, damage to the medial lemniscus causes loss of touch, vibration and position sense on the opposite side, and damage to the hypoglossal nucleus or fibers causes weakness of the tongue on the same side, so the tongue points toward the lesion. Here the tongue points left and the limb signs are on the right, so the lesion is in the left medial medulla. Neuroscience Online (UTHealth Houston) agrees that the medial lemniscus, pyramid and hypoglossal root are involved, causing contralateral loss of discriminative touch and position sense, contralateral hemiplegia with a Babinski sign and paralysis of the same-side half of the tongue.",
+      "whyWrong": {
+        "b": "A right medial medullary lesion would weaken the left limbs and make the tongue point right (your El-Husseiny neurology notes, p. 82).",
+        "c": "Left PICA occlusion causes lateral medullary (Wallenberg) syndrome, with loss of pain and temperature, Horner syndrome, ataxia and trouble swallowing (your El-Husseiny neurology notes, p. 82). This patient has normal pain and temperature sensation.",
+        "d": "Right PICA occlusion causes a right lateral medullary syndrome (your El-Husseiny neurology notes, p. 82), not weakness and tongue deviation.",
+        "e": "AICA supplies the lateral lower pons, and its occlusion affects the facial nucleus and hearing (your El-Husseiny neurology notes, pp. 81 and 83). This patient's face is normal."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Brainstem blood supply, p. 81; medial and lateral medullary syndromes, p. 82; lateral pontine (AICA) syndrome, p. 83"
+        },
+        {
+          "title": "Neuroscience Online (UTHealth Houston): Medial medullary syndrome",
+          "url": "https://oac22.hsc.uth.tmc.edu/courses/neuroanatomy/L10P34.html"
+        }
+      ]
+    },
+    {
+      "id": "neuro-locked-in-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Nervous System & Special Senses",
+      "topic": "Brainstem: locked-in syndrome",
+      "difficulty": 2,
+      "stem": "A 58-year-old is found unable to move the arms or legs after sudden onset of dizziness. The patient is intubated because breathing is inadequate. The eyes are open, and the patient correctly answers yes-or-no questions by blinking and looking up or down, but cannot move the eyes to either side, move the lower face, swallow or speak. MRI shows a large infarct in the base of the pons on both sides.",
+      "leadIn": "Which function is most likely still intact in this patient?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Awareness and understanding of speech"
+        },
+        {
+          "id": "b",
+          "text": "Side-to-side (horizontal) eye movements"
+        },
+        {
+          "id": "c",
+          "text": "Swallowing"
+        },
+        {
+          "id": "d",
+          "text": "Spontaneous breathing"
+        },
+        {
+          "id": "e",
+          "text": "Movement of the lower face"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: awareness and understanding of speech. Why: This is locked-in syndrome. Your El-Husseiny neurology notes (p. 160) explain that a lesion involving both sides of the pons can cause near-total paralysis and loss of speech while thinking, blinking and vertical eye movements stay intact. The MSD Manual (Locked-in Syndrome) agrees that it usually comes from a pontine stroke that causes quadriplegia and damages the lower cranial nerves and the centers for horizontal gaze. Patients are awake, can see and hear, and have normal thinking, but they lose lower facial movement, chewing, swallowing, speech, breathing, limb movement and side-to-side eye movements. Because they cannot make the usual motor responses, they may be wrongly thought to be unconscious, so MSD advises testing understanding with blinks or vertical eye movements.",
+      "whyWrong": {
+        "b": "Side-to-side eye movements are lost because the horizontal gaze centers in the pons are damaged (MSD, Locked-in Syndrome). Only vertical eye movements and blinking remain (your El-Husseiny neurology notes, p. 160).",
+        "c": "Swallowing is lost in locked-in syndrome because the lower cranial nerves are damaged (MSD, Locked-in Syndrome).",
+        "d": "Breathing is among the functions lost (MSD, Locked-in Syndrome), which is why this patient needed intubation.",
+        "e": "Movement of the lower face is lost (MSD, Locked-in Syndrome)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Osmotic demyelination and locked-in syndrome, p. 160"
+        },
+        {
+          "title": "MSD Manual Professional: Locked-in Syndrome",
+          "url": "https://www.msdmanuals.com/professional/neurologic-disorders/coma-and-impaired-consciousness/locked-in-syndrome"
+        }
+      ]
+    },
+    {
+      "id": "neuro-nucleus-basalis-ach-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Nervous System & Special Senses",
+      "topic": "Neurotransmitters: acetylcholine loss in Alzheimer disease",
+      "difficulty": 2,
+      "stem": "A 76-year-old has had slowly worsening memory for 3 years. The patient repeats questions, misplaces things and recently got lost driving home. Neurologic examination is otherwise normal, and blood tests and brain MRI show no other cause. The physician starts donepezil, a cholinesterase inhibitor.",
+      "leadIn": "Loss of neurons in which structure best explains why this drug is used?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Basal nucleus of Meynert"
+        },
+        {
+          "id": "b",
+          "text": "Locus ceruleus"
+        },
+        {
+          "id": "c",
+          "text": "Raphe nuclei"
+        },
+        {
+          "id": "d",
+          "text": "Substantia nigra pars compacta"
+        },
+        {
+          "id": "e",
+          "text": "Ventral tegmental area"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the basal nucleus of Meynert. Why: The neurotransmitter table in your El-Husseiny neurology notes (p. 143) lists the main source of each transmitter: acetylcholine from the basal nucleus of Meynert, dopamine from the ventral tegmental area and substantia nigra pars compacta, norepinephrine from the locus ceruleus and serotonin from the raphe nuclei. Their Alzheimer section (p. 151) explains that acetylcholine falls in Alzheimer disease because of a deficiency of choline acetyltransferase, the enzyme that makes it, and that the drop is most marked in the basal nucleus of Meynert and the hippocampus. Cantero and colleagues (Cerebral Cortex, 2017) agree that this nucleus sends cholinergic fibers to the whole cerebral cortex and the amygdala and that these basal forebrain cholinergic neurons are especially vulnerable to degeneration in Alzheimer disease. The MSD Manual (Alzheimer Disease) states that cholinesterase inhibitors such as donepezil modestly improve thinking and memory in some patients by boosting acetylcholine.",
+      "whyWrong": {
+        "b": "The locus ceruleus is the main source of norepinephrine in the brain (your El-Husseiny neurology notes, p. 143). A cholinesterase inhibitor raises acetylcholine, not norepinephrine.",
+        "c": "The raphe nuclei make serotonin (your El-Husseiny neurology notes, p. 143). Cholinesterase inhibitors do not target serotonin.",
+        "d": "Loss of dopamine neurons in the substantia nigra pars compacta causes Parkinson disease (your El-Husseiny neurology notes, p. 143), which is treated with dopamine-based drugs.",
+        "e": "The ventral tegmental area is a dopamine source (your El-Husseiny neurology notes, p. 143), not the cholinergic nucleus affected in Alzheimer disease."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Neurotransmitter nuclei, p. 143; Alzheimer disease, p. 151"
+        },
+        {
+          "title": "Cantero, Zaborszky and Atienza. Volume loss of the nucleus basalis of Meynert is associated with atrophy of innervated regions in mild cognitive impairment. Cereb Cortex 2017;27(8):3881-3889",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6059249"
+        },
+        {
+          "title": "MSD Manual Professional: Alzheimer Disease",
+          "url": "https://www.msdmanuals.com/professional/neurologic-disorders/delirium-and-dementia/alzheimer-disease"
+        }
+      ]
+    },
+    {
+      "id": "neuro-pituitary-stalk-effect-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Endocrine",
+      "topic": "Hypothalamic-pituitary portal system: stalk compression",
+      "difficulty": 2,
+      "stem": "A 45-year-old woman has headaches, irregular periods and a milky discharge from both breasts. Serum prolactin is mildly raised at 60 ng/mL (normal under 25), and morning cortisol and free T4 are low-normal. MRI shows a 2.5-cm nonfunctioning pituitary macroadenoma that extends upward and pushes on the pituitary stalk. Immunostaining of the tumor after surgery is negative for prolactin.",
+      "leadIn": "Which mechanism best explains her raised prolactin?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Less dopamine reaching lactotrophs through portal vessels"
+        },
+        {
+          "id": "b",
+          "text": "Prolactin secreted directly by the adenoma cells themselves"
+        },
+        {
+          "id": "c",
+          "text": "More TRH released from the hypothalamus"
+        },
+        {
+          "id": "d",
+          "text": "Increased estrogen stimulating the lactotrophs"
+        },
+        {
+          "id": "e",
+          "text": "Damage to the supraoptic nucleus reducing ADH"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: less dopamine reaching the lactotrophs through the hypophyseal portal vessels (the stalk effect). Why: Your El-Husseiny endocrinology notes (p. 12) explain that hypothalamic hormones are carried down axons and released into the hypophyseal portal system, which delivers them directly to the anterior pituitary, and that compression of the pituitary stalk by a tumor lowers all anterior pituitary hormones except prolactin, which rises. The notes (pp. 13 and 21) explain why: prolactin is the one pituitary hormone held down by the hypothalamus, through dopamine acting on D2 receptors of lactotrophs, so cutting off the dopamine supply releases prolactin. Raised prolactin then suppresses GnRH, causing irregular periods (p. 21). OpenStax Anatomy and Physiology (17.3) agrees that dopamine from hypothalamic neurons acts as the prolactin-inhibiting hormone.",
+      "whyWrong": {
+        "b": "The tumor stained negative for prolactin, and the prolactin rise is only mild. A nonfunctioning adenoma pressing on the stalk raises prolactin by blocking dopamine (your El-Husseiny endocrinology notes, p. 12).",
+        "c": "TRH raises prolactin in primary or secondary hypothyroidism (your El-Husseiny endocrinology notes, p. 21), but stalk compression lowers hypothalamic input to the pituitary rather than raising it (p. 12).",
+        "d": "Estrogen from pregnancy or oral contraceptives can raise prolactin (your El-Husseiny endocrinology notes, p. 21), but nothing here suggests extra estrogen.",
+        "e": "ADH is made in the supraoptic nucleus (your El-Husseiny endocrinology notes, p. 14). Low ADH would cause diabetes insipidus, not a raised prolactin."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Endocrinology (Emily's file), Hypophyseal portal system and stalk compression, p. 12; dopamine and prolactin, pp. 13 and 21; posterior pituitary, p. 14"
+        },
+        {
+          "title": "OpenStax Anatomy and Physiology 2e, 17.3 The Pituitary Gland and Hypothalamus",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-3-the-pituitary-gland-and-hypothalamus"
+        }
+      ]
     }
   ]
 }
