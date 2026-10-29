@@ -31352,7 +31352,7 @@
         },
         {
           "id": "e",
-          "text": "Cannot be calculated without disease duration"
+          "text": "70 per 1,000 people per year"
         }
       ],
       "answer": "a",
@@ -31361,7 +31361,7 @@
         "b": "490 / 10,000 = 49 per 1,000 wrongly keeps the 200 people who already had diabetes in the denominator. They were not at risk of becoming new cases (First Aid, p. 259).",
         "c": "690 / 10,000 = 69 per 1,000 counts all existing cases at the end of the year, which is prevalence, not incidence (First Aid, p. 259).",
         "d": "200 / 10,000 = 20 per 1,000 is the prevalence on January 1 (First Aid, p. 259).",
-        "e": "Disease duration links prevalence to incidence (prevalence is about incidence times average duration), but incidence itself needs only new cases and people at risk (First Aid, p. 259)."
+        "e": "690 / 9,800 is about 70 per 1,000. It wrongly counts the 200 people who already had diabetes as new cases while using only the people at risk as the denominator (First Aid, p. 259)."
       },
       "sources": [
         {
@@ -31515,7 +31515,7 @@
       "explanation": "Answer: mean > median > mode. Why: First Aid (biostats, p. 262) describes positive skew as an uneven distribution with a longer tail on the right, where the mean is usually greater than the median, which is greater than the mode. OpenStax Introductory Statistics (Skewness and the Mean, Median, and Mode) agrees that in data skewed to the right the mean is usually greater than the median, because a few large values pull the mean toward the tail. Here the few very long stays pull the mean up, while the mode stays at the common 2 to 4 days.",
       "whyWrong": {
         "b": "Mean < median < mode is the usual pattern of negative skew, with a long tail to the left (First Aid, p. 262).",
-        "c": "Equal mean, median and mode fit a symmetric, bell-shaped normal distribution (First Aid, p. 262; standard teaching), not a skewed one.",
+        "c": "Mean = median = mode in a normal, bell-shaped distribution (First Aid, p. 262), not a skewed one.",
         "d": "In right-skewed data the mean, not the median, is pulled furthest toward the long tail (First Aid, p. 262).",
         "e": "In right-skewed data the mode sits at the peak, on the low side, and is usually the smallest of the three (First Aid, p. 262)."
       },
@@ -31566,7 +31566,7 @@
       "answer": "a",
       "explanation": "Answer: enroll many more patients. Why: First Aid (biostats, p. 263) defines power as 1 - β, the chance of rejecting the null hypothesis when it is really false. Power goes up with a larger sample size, a larger expected effect size and more precise measurement (\"there is power in numbers\"). LibreTexts (Geraghty, Type II Error and Statistical Power) agrees that power is 1 - β and that a larger sample size increases power. A small trial like this one can easily miss a real but modest benefit, which is a type II error.",
       "whyWrong": {
-        "b": "Making α smaller makes it harder to reject the null hypothesis. This lowers the chance of a type I error but also lowers power (standard teaching; First Aid, p. 263, defines α and β).",
+        "b": "LibreTexts (Geraghty) lists raising α as a way to increase power, at the cost of more type I errors. Lowering α does the reverse: fewer type I errors but less power (First Aid, p. 263, defines α and β).",
         "c": "Less precise measurement lowers power; more precise measurement raises it (First Aid, p. 263).",
         "d": "A smaller effect is harder to detect, so planning to find a smaller difference with the same sample size lowers power (First Aid, p. 263).",
         "e": "How results are reported does not change power, which depends on sample size, effect size and precision (First Aid, p. 263)."
@@ -32008,36 +32008,36 @@
       "topic": "Population genetics: Hardy-Weinberg carrier frequency",
       "difficulty": 2,
       "stem": "An autosomal recessive metabolic disease affects 1 in 40,000 newborns in a large population that mates at random. A couple from this population asks how common carriers are.",
-      "leadIn": "Assuming Hardy-Weinberg equilibrium, about what fraction of this population are carriers?",
+      "leadIn": "Assuming Hardy-Weinberg equilibrium, about what percentage of this population are carriers?",
       "options": [
         {
           "id": "a",
-          "text": "1 in 100"
+          "text": "1%"
         },
         {
           "id": "b",
-          "text": "1 in 200"
+          "text": "0.5%"
         },
         {
           "id": "c",
-          "text": "1 in 400"
+          "text": "0.25%"
         },
         {
           "id": "d",
-          "text": "1 in 20,000"
+          "text": "0.005%"
         },
         {
           "id": "e",
-          "text": "1 in 40,000"
+          "text": "0.0025%"
         }
       ],
       "answer": "a",
-      "explanation": "Answer: 1 in 100. Why: Your El-Husseiny biochemistry notes (pp. 111-112) explain the Hardy-Weinberg equation, p^2 + 2pq + q^2 = 1. For an autosomal recessive disease, q^2 is the disease prevalence, q is the frequency of the disease allele, and 2pq is the carrier frequency. Because p is close to 1, the carrier frequency is about 2q. Here q^2 = 1/40,000, so q = 1/200, and 2q = 2/200 = 1/100. LibreTexts (Hardy-Weinberg equilibrium) agrees that 2pq is the frequency of heterozygotes and works the same kind of example, taking the square root of the affected fraction to find q. The equation assumes a large, randomly mating population with no mutation, selection or migration.",
+      "explanation": "Answer: about 1%. Why: Your El-Husseiny biochemistry notes (pp. 111-112) explain the Hardy-Weinberg equation, p^2 + 2pq + q^2 = 1. For an autosomal recessive disease, q^2 is the disease prevalence, q is the frequency of the disease allele, and 2pq is the carrier frequency. Because p is close to 1, the carrier frequency is about 2q. Here q^2 = 1/40,000 (0.0025%), so q = 1/200 (0.5%), and 2q = 2/200 = 1/100, or about 1%. LibreTexts (Hardy-Weinberg equilibrium) agrees that 2pq is the frequency of heterozygotes and works the same kind of example, taking the square root of the affected fraction to find q. The equation assumes a large, randomly mating population with no mutation, selection or migration.",
       "whyWrong": {
-        "b": "1 in 200 is q, the frequency of the disease allele, not the carrier frequency, which is about 2q (your notes, p. 112).",
-        "c": "1 in 400 comes from dividing q by 2 instead of multiplying it by 2 (your notes, p. 112).",
-        "d": "1 in 20,000 comes from doubling the disease prevalence without first taking the square root to find q (your notes, p. 112).",
-        "e": "1 in 40,000 is the disease prevalence (q^2), not the carrier frequency (your notes, p. 112)."
+        "b": "0.5% (1 in 200) is q, the frequency of the disease allele, not the carrier frequency, which is about 2q (your notes, p. 112).",
+        "c": "0.25% (1 in 400) comes from dividing q by 2 instead of multiplying it by 2 (your notes, p. 112).",
+        "d": "0.005% (1 in 20,000) comes from doubling the disease prevalence without first taking the square root to find q (your notes, p. 112).",
+        "e": "0.0025% (1 in 40,000) is the disease prevalence (q^2), not the carrier frequency (your notes, p. 112)."
       },
       "sources": [
         {
@@ -32088,7 +32088,7 @@
       "whyWrong": {
         "b": "A parent with incomplete penetrance would carry the variant in every cell, so the blood test would find it (your notes, p. 77).",
         "c": "Uniparental disomy means both copies of a chromosome come from one parent (your notes, p. 83); it does not create a new dominant variant shared by two siblings.",
-        "d": "The children each have one altered copy and the disorder is dominant (your notes, p. 84), so two carrier parents are not needed, and neither parent carries it in blood.",
+        "d": "The stem describes a dominant disorder in which one altered copy is enough, so two carrier parents are not needed, and neither parent carries the variant in blood.",
         "e": "The identical variant appearing twice by chance in the same family is far less likely than one parent's germ cells carrying it (your notes, p. 84)."
       },
       "sources": [
@@ -32168,11 +32168,11 @@
       "options": [
         {
           "id": "a",
-          "text": "Risk of Down syndrome in future pregnancies"
+          "text": "Recurrence risk in future pregnancies"
         },
         {
           "id": "b",
-          "text": "Need for a screening echocardiogram in infancy"
+          "text": "Risk of a congenital heart defect"
         },
         {
           "id": "c",
@@ -32184,16 +32184,16 @@
         },
         {
           "id": "e",
-          "text": "Need for thyroid function testing"
+          "text": "Risk of hypothyroidism"
         }
       ],
       "answer": "a",
       "explanation": "Answer: the risk of Down syndrome in future pregnancies. Why: Your El-Husseiny biochemistry notes (pp. 101 and 107) explain that unbalanced Robertsonian translocations cause 2-3% of Down syndrome cases: the child has a normal count of 46 chromosomes, yet one other chromosome carries an added chromosome 21 arm. In a Robertsonian translocation the long arms of two acrocentric chromosomes (13, 14, 15, 21 or 22) fuse, and the lost short arms hold no essential genes, so a balanced carrier like this mother is healthy. Her eggs can still pass on an unbalanced form, causing miscarriage or Down syndrome. MedlinePlus Genetics (Down syndrome) agrees that translocation Down syndrome can be inherited from an unaffected parent who carries a balanced rearrangement between chromosome 21 and another chromosome. Ordinary trisomy 21 usually comes from a new nondisjunction event (p. 101), so the recurrence risk differs.",
       "whyWrong": {
-        "b": "Heart defects occur in about half of infants with Down syndrome (your notes, p. 101). This child still has extra chromosome 21 material, so heart screening is needed either way (standard teaching).",
-        "c": "Translocation and trisomy 21 both add extra chromosome 21 material (your notes, p. 101), so the expected features, including intellectual disability, are the same (standard teaching).",
+        "b": "About half of infants with Down syndrome have a heart defect (your notes, p. 101; MedlinePlus Genetics, Down syndrome). This child has extra chromosome 21 material just as in trisomy 21, so her risk is the same.",
+        "c": "Translocation and trisomy 21 both add extra chromosome 21 material (your notes, p. 101), so the expected features, including intellectual disability, are the same. MedlinePlus Genetics (Down syndrome) explains the features by extra copies of chromosome 21 genes.",
         "d": "Early-onset Alzheimer disease comes from the extra copy of the amyloid precursor protein gene on chromosome 21 (your notes, p. 101), which this child has just as in trisomy 21.",
-        "e": "Thyroid screening is part of routine Down syndrome care whatever the cause of the extra chromosome 21 material (standard teaching)."
+        "e": "About 15% of people with Down syndrome have hypothyroidism (MedlinePlus Genetics, Down syndrome). That risk comes from the extra chromosome 21 material, whatever its cause."
       },
       "sources": [
         {
@@ -32243,13 +32243,16 @@
       "explanation": "Answer: TP53 (Li-Fraumeni syndrome). Why: Your El-Husseiny biochemistry notes (pp. 4, 78 and 86) list Li-Fraumeni syndrome as an autosomal dominant disease caused by loss of a tumor suppressor gene, which allows unchecked cell division. MedlinePlus Genetics (Li-Fraumeni syndrome) agrees that it is autosomal dominant and caused by TP53 variants, and that it raises the risk of breast cancer, osteosarcoma, soft tissue sarcomas, brain tumors, blood cancers and adrenocortical carcinoma, often at young ages. It also explains that nearly everyone who inherits one altered TP53 copy later loses the second copy in some cells. This family's mix of sarcomas, early breast cancer and a childhood adrenal cortical carcinoma fits TP53.",
       "whyWrong": {
         "b": "BRCA1 raises the risk of breast and ovarian cancer (your notes, pp. 21 and 77), but not osteosarcoma, soft tissue sarcoma or childhood adrenal cortical carcinoma.",
-        "c": "APC variants cause familial adenomatous polyposis, with hundreds of colon polyps (standard teaching), not sarcomas and adrenal tumors.",
+        "c": "Germline APC variants cause familial adenomatous polyposis, an autosomal dominant condition with hundreds to thousands of colon polyps (your Osmosis GI notes, p. 16; your El-Husseiny notes, p. 86), not sarcomas and adrenal tumors.",
         "d": "Germline RB1 variants cause retinoblastoma (your notes, p. 77), and the cancers here are not eye tumors.",
         "e": "MLH1 is a mismatch repair gene in Lynch syndrome (your notes, p. 22), which mainly causes colorectal and endometrial cancer."
       },
       "sources": [
         {
-          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Tumor suppressor genes, p. 4; DNA repair, p. 21; Lynch syndrome, p. 22; penetrance, p. 77; tumor suppressors, p. 78; Li-Fraumeni, p. 86"
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Tumor suppressor genes, p. 4; DNA repair, p. 21; Lynch syndrome, p. 22; penetrance, p. 77; tumor suppressors, p. 78; Li-Fraumeni and FAP, p. 86"
+        },
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Gastrointestinal (Emily's file), Familial adenomatous polyposis, p. 16"
         },
         {
           "title": "MedlinePlus Genetics: Li-Fraumeni syndrome",
