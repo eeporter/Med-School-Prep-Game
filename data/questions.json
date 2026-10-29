@@ -30198,6 +30198,1067 @@
           "url": "https://www.msdmanuals.com/professional/pediatrics/congenital-renal-and-genitourinary-anomalies/cryptorchidism"
         }
       ]
+    },
+    {
+      "id": "biochem-pellagra-carcinoid-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "Multisystem",
+      "topic": "Vitamins: niacin deficiency (pellagra) in carcinoid syndrome",
+      "difficulty": 2,
+      "stem": "A 61-year-old man with a small-bowel neuroendocrine tumor that has spread to the liver has had episodes of facial flushing and watery diarrhea for a year. Over the past month he has developed a rough, darkly pigmented, scaly rash on the backs of both hands and the sides of his neck, and his wife says he has become forgetful and confused.",
+      "leadIn": "His new rash and confusion are best explained by a deficiency of which vitamin?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Niacin (vitamin B3)"
+        },
+        {
+          "id": "b",
+          "text": "Thiamine (vitamin B1)"
+        },
+        {
+          "id": "c",
+          "text": "Riboflavin (vitamin B2)"
+        },
+        {
+          "id": "d",
+          "text": "Pyridoxine (vitamin B6)"
+        },
+        {
+          "id": "e",
+          "text": "Cobalamin (vitamin B12)"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: niacin (vitamin B3). Why: Your El-Husseiny biochemistry notes (p. 237) explain that the body can make niacin from the amino acid tryptophan, and that severe niacin deficiency causes pellagra. One cause they list is carcinoid syndrome, because the tumor uses up tryptophan. Pellagra is remembered as the three Ds: dermatitis, diarrhea and dementia, and the rash is typically symmetric on sun-exposed skin. StatPearls (Niacin Deficiency) agrees that a tumor making extra serotonin uses more tryptophan, leaving too little to make niacin, and that the skin lesions are symmetric on sun-exposed areas.",
+      "whyWrong": {
+        "b": "Thiamine deficiency causes beriberi and Wernicke-Korsakoff syndrome (your El-Husseiny biochemistry notes, p. 235), not a rash on sun-exposed skin.",
+        "c": "Riboflavin deficiency causes dermatitis, glossitis and cheilosis (your El-Husseiny biochemistry notes, p. 236), but carcinoid syndrome causes pellagra by using up tryptophan (your El-Husseiny biochemistry notes, p. 237).",
+        "d": "Pyridoxine deficiency causes seizures, peripheral neuropathy and sideroblastic anemia (your El-Husseiny biochemistry notes, p. 239).",
+        "e": "Vitamin B12 deficiency causes megaloblastic anemia and subacute combined degeneration of the spinal cord (your El-Husseiny biochemistry notes, p. 242), not a rash on sun-exposed skin."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Vitamin B1, p. 235; vitamin B2, p. 236; vitamin B3 and pellagra, p. 237; vitamin B6, p. 239; vitamin B12, p. 242"
+        },
+        {
+          "title": "StatPearls: Niacin Deficiency",
+          "url": "https://www.statpearls.com/ArticleLibrary/viewarticle/25874"
+        }
+      ]
+    },
+    {
+      "id": "biochem-b6-isoniazid-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "Multisystem",
+      "topic": "Vitamins: pyridoxine (B6) deficiency from isoniazid",
+      "difficulty": 2,
+      "stem": "A 34-year-old woman with latent tuberculosis started isoniazid 4 months ago and takes no other medicines. She now has burning pain and numbness in both feet in a stocking pattern. Her hemoglobin is 10.1 g/dL with a low MCV, and an iron stain of her bone marrow shows ringed sideroblasts.",
+      "leadIn": "Taking which vitamin along with isoniazid would most likely have prevented these problems?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pyridoxine (vitamin B6)"
+        },
+        {
+          "id": "b",
+          "text": "Thiamine (vitamin B1)"
+        },
+        {
+          "id": "c",
+          "text": "Folic acid (vitamin B9)"
+        },
+        {
+          "id": "d",
+          "text": "Cobalamin (vitamin B12)"
+        },
+        {
+          "id": "e",
+          "text": "Tocopherol (vitamin E)"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: pyridoxine (vitamin B6). Why: Your El-Husseiny biochemistry notes (p. 239) explain that vitamin B6 is turned into pyridoxal phosphate, a cofactor for transamination and decarboxylation reactions and for making heme and several neurotransmitters. Deficiency causes convulsions, irritability, peripheral neuropathy and sideroblastic anemia, and isoniazid is one drug that can cause it. The MSD Manual (Vitamin B6 Deficiency and Dependency) agrees that B6 deficiency is usually caused by drugs that inactivate pyridoxine, such as isoniazid, that it causes peripheral neuropathy and can cause sideroblastic anemia, and that most people taking isoniazid should also be given pyridoxine.",
+      "whyWrong": {
+        "b": "Thiamine deficiency can cause a symmetric neuropathy in dry beriberi (your El-Husseiny biochemistry notes, p. 235), but it does not cause sideroblastic anemia.",
+        "c": "Folate deficiency causes a macrocytic, megaloblastic anemia (your El-Husseiny biochemistry notes, p. 240), not a low-MCV anemia with ringed sideroblasts.",
+        "d": "Vitamin B12 deficiency causes a macrocytic anemia and subacute combined degeneration (your El-Husseiny biochemistry notes, p. 242), not ringed sideroblasts.",
+        "e": "Vitamin E deficiency causes spinocerebellar degeneration and ataxia (your El-Husseiny biochemistry notes, p. 186), not ringed sideroblasts."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Abetalipoproteinemia, p. 186; vitamin B1, p. 235; vitamin B6, p. 239; vitamin B9, p. 240; vitamin B12, p. 242"
+        },
+        {
+          "title": "MSD Manual Professional: Vitamin B6 Deficiency and Dependency",
+          "url": "https://www.msdmanuals.com/professional/nutritional-disorders/vitamin-deficiency-dependency-and-toxicity/vitamin-b6-deficiency-and-dependency"
+        }
+      ]
+    },
+    {
+      "id": "biochem-biotin-raw-egg-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "Multisystem",
+      "topic": "Vitamins: biotin deficiency from raw egg whites",
+      "difficulty": 2,
+      "stem": "A 26-year-old bodybuilder has eaten about 12 raw egg whites a day for 6 months to increase his protein intake. He now has thinning hair, a scaly red rash around his eyes, nose and mouth, and tingling in his hands.",
+      "leadIn": "Which enzyme reaction is most directly impaired in this man?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pyruvate to oxaloacetate"
+        },
+        {
+          "id": "b",
+          "text": "Pyruvate to acetyl-CoA"
+        },
+        {
+          "id": "c",
+          "text": "Homocysteine to methionine"
+        },
+        {
+          "id": "d",
+          "text": "Methylmalonyl-CoA to succinyl-CoA"
+        },
+        {
+          "id": "e",
+          "text": "Glucose-6-phosphate to free glucose"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: pyruvate to oxaloacetate. Why: Your El-Husseiny biochemistry notes (p. 240) explain that biotin (vitamin B7) is the cofactor for carboxylase enzymes that add a one-carbon group, including pyruvate carboxylase (pyruvate to oxaloacetate), acetyl-CoA carboxylase and propionyl-CoA carboxylase. Deficiency is rare and causes dermatitis, enteritis and hair loss. It can be caused by eating many raw egg whites, because avidin in egg white binds biotin and blocks its absorption. StatPearls (Biotin Deficiency) agrees that avidin binds biotin and prevents its absorption, that pyruvate carboxylase is a biotin-dependent enzyme, and that the findings include alopecia, dermatitis around the body openings, and numbness and tingling of the hands and feet.",
+      "whyWrong": {
+        "b": "Pyruvate dehydrogenase turns pyruvate into acetyl-CoA using thiamine, lipoic acid, CoA, FAD and NAD (your El-Husseiny biochemistry notes, p. 147), not biotin.",
+        "c": "Methionine synthase needs vitamin B12 as methylcobalamin (your El-Husseiny biochemistry notes, p. 242), not biotin.",
+        "d": "Methylmalonyl-CoA mutase needs vitamin B12 (your El-Husseiny biochemistry notes, p. 242), not biotin.",
+        "e": "Glucose-6-phosphatase is the enzyme missing in von Gierke disease (your El-Husseiny biochemistry notes, p. 166); it is not a biotin-dependent carboxylase."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Pyruvate dehydrogenase, p. 147; von Gierke disease, p. 166; vitamin B7, p. 240; vitamin B12, p. 242"
+        },
+        {
+          "title": "StatPearls: Biotin Deficiency",
+          "url": "https://www.statpearls.com/point-of-care/18329"
+        }
+      ]
+    },
+    {
+      "id": "biochem-vitamin-k-newborn-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Vitamins: vitamin K deficiency bleeding in the newborn",
+      "difficulty": 2,
+      "stem": "A 3-day-old boy born at home is brought in for oozing blood from his umbilical stump and a large swelling on his scalp. He is exclusively breastfed and received no injections or other medicines after birth. Prothrombin time is markedly prolonged and partial thromboplastin time is prolonged. Platelet count and fibrinogen are normal.",
+      "leadIn": "Which step is most directly impaired in this infant?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Gamma-carboxylation of clotting factors"
+        },
+        {
+          "id": "b",
+          "text": "Platelet adhesion via von Willebrand factor"
+        },
+        {
+          "id": "c",
+          "text": "Release of factor VIII from endothelial cells"
+        },
+        {
+          "id": "d",
+          "text": "Cross-linking of fibrin by factor XIII"
+        },
+        {
+          "id": "e",
+          "text": "Breakdown of fibrin by plasmin"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: gamma-carboxylation of clotting factors. Why: Your El-Husseiny biochemistry notes (p. 248) explain that reduced vitamin K is the cofactor for gamma-carboxylation of glutamic acid residues on factors II, VII, IX and X and on proteins C and S. Newborns are at risk because their gut has no bacteria yet to make vitamin K, breast milk contains little, and their liver stores are small. Deficiency causes bleeding with a long PT and aPTT but a normal bleeding time, which is why babies are given a vitamin K injection at birth. StatPearls (Vitamin K Deficiency in Neonates and Adults) agrees that nearly all newborns are vitamin K deficient, citing poor transfer across the placenta, low levels in breast milk and a gut not yet colonized by vitamin K-making bacteria, that platelet count and fibrinogen are normal, and that routine vitamin K is recommended for all newborns.",
+      "whyWrong": {
+        "b": "A platelet adhesion defect would prolong the bleeding time, which stays normal in vitamin K deficiency (your El-Husseiny biochemistry notes, p. 248), and it would not prolong the PT.",
+        "c": "Factor VIII is not one of the vitamin K-dependent factors (II, VII, IX and X; your El-Husseiny biochemistry notes, p. 248), and low factor VIII alone does not prolong the PT (standard teaching).",
+        "d": "Factor XIII deficiency causes bleeding with a normal PT and PTT (standard teaching).",
+        "e": "Too much fibrinolysis by plasmin would use up fibrinogen (standard teaching); his fibrinogen is normal."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Vitamin K, p. 248"
+        },
+        {
+          "title": "StatPearls: Vitamin K Deficiency in Neonates and Adults",
+          "url": "https://www.statpearls.com/point-of-care/31230"
+        }
+      ]
+    },
+    {
+      "id": "biochem-folate-mma-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Vitamins: folate deficiency vs vitamin B12 deficiency",
+      "difficulty": 2,
+      "stem": "A 52-year-old man with alcohol use disorder who eats little besides bread and beer has had fatigue for 2 months. Hemoglobin is 9.2 g/dL, MCV is 112 fL, and the smear shows hypersegmented neutrophils. Neurologic exam, including vibration and position sense, is normal.",
+      "leadIn": "Which pair of lab results is most likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "High homocysteine, normal methylmalonic acid"
+        },
+        {
+          "id": "b",
+          "text": "High homocysteine, high methylmalonic acid"
+        },
+        {
+          "id": "c",
+          "text": "Normal homocysteine, high methylmalonic acid"
+        },
+        {
+          "id": "d",
+          "text": "Normal homocysteine, normal methylmalonic acid"
+        },
+        {
+          "id": "e",
+          "text": "Low homocysteine, normal methylmalonic acid"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: high homocysteine with normal methylmalonic acid (MMA). Why: Your El-Husseiny biochemistry notes (p. 240) explain that folate becomes tetrahydrofolate, a carrier of one-carbon groups needed to make DNA and RNA bases. Deficiency causes a macrocytic, megaloblastic anemia with hypersegmented neutrophils and glossitis, but no neurologic signs, unlike vitamin B12 deficiency. Labs show high homocysteine with a normal MMA. The MSD Manual (Folate Deficiency) agrees that alcohol interferes with folate absorption and metabolism, that liver stores last only a few months, that a high homocysteine suggests folate deficiency, and that MMA rises in vitamin B12 deficiency but not in folate deficiency.",
+      "whyWrong": {
+        "b": "High homocysteine with high MMA is the pattern of vitamin B12 deficiency (your El-Husseiny biochemistry notes, p. 242), which usually comes with nerve damage such as loss of vibration sense.",
+        "c": "Homocysteine rises in folate deficiency (your El-Husseiny biochemistry notes, p. 240), so it would not be normal.",
+        "d": "Homocysteine rises in folate deficiency (your El-Husseiny biochemistry notes, p. 240; MSD, Folate Deficiency), so both values would not be normal.",
+        "e": "Homocysteine goes up, not down, when folate is low (your El-Husseiny biochemistry notes, p. 240)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Vitamin B9, p. 240; vitamin B12, p. 242"
+        },
+        {
+          "title": "MSD Manual Professional: Folate Deficiency",
+          "url": "https://www.msdmanuals.com/professional/nutritional-disorders/vitamin-deficiency-dependency-and-toxicity/folate-deficiency"
+        }
+      ]
+    },
+    {
+      "id": "biochem-pompe-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "Multisystem",
+      "topic": "Glycogen storage diseases: Pompe disease (type II)",
+      "difficulty": 2,
+      "stem": "A 4-month-old girl has poor feeding, a weak cry and floppy limbs. She has a large tongue and an enlarged liver. Chest x-ray shows a very large heart, and echocardiography shows thick ventricular walls. Blood glucose is normal. A muscle biopsy shows glycogen packed inside membrane-bound vacuoles.",
+      "leadIn": "Which enzyme is most likely deficient?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lysosomal acid alpha-glucosidase"
+        },
+        {
+          "id": "b",
+          "text": "Glucose-6-phosphatase in the liver and kidney"
+        },
+        {
+          "id": "c",
+          "text": "Debranching enzyme (alpha-1,6-glucosidase)"
+        },
+        {
+          "id": "d",
+          "text": "Muscle glycogen phosphorylase"
+        },
+        {
+          "id": "e",
+          "text": "Lactate dehydrogenase in skeletal muscle"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: lysosomal acid alpha-glucosidase (acid maltase). Why: Your El-Husseiny biochemistry notes (pp. 166-167) explain that Pompe disease (glycogen storage disease type II) is caused by lack of the lysosomal enzyme acid maltase (alpha-1,4-glucosidase). Glycogen builds up inside lysosomes, and heart and skeletal muscle are hit hardest. The classic infant form brings a massively enlarged heart, severe hypotonia, a large tongue and an enlarged liver, but blood glucose stays normal, unlike von Gierke disease. A muscle biopsy shows glycogen inside lysosomes. GeneReviews (Pompe Disease) agrees that the disease is due to deficient acid alpha-glucosidase (GAA), that cardiomegaly and hypertrophic cardiomyopathy appear in the first weeks of life in the infantile form, along with hypotonia, macroglossia and hepatomegaly, and that inheritance is autosomal recessive.",
+      "whyWrong": {
+        "b": "Glucose-6-phosphatase deficiency (von Gierke disease) causes severe fasting hypoglycemia, lactic acidosis and a fatty liver (your El-Husseiny biochemistry notes, p. 166); her glucose is normal.",
+        "c": "Debranching enzyme deficiency (Cori disease) causes hypoglycemia and an enlarged liver, with short-branched glycogen in the cytoplasm (your El-Husseiny biochemistry notes, p. 167), not glycogen inside lysosomes.",
+        "d": "Muscle glycogen phosphorylase deficiency (McArdle disease) causes cramps, poor exercise tolerance and red urine after hard exercise (your El-Husseiny biochemistry notes, p. 168), not an enlarged heart in infancy.",
+        "e": "Lactate dehydrogenase deficiency limits glycolysis in muscles during hard exercise (your El-Husseiny biochemistry notes, p. 136); it does not store glycogen in lysosomes."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Lactate dehydrogenase, p. 136; glycogen storage diseases, pp. 166-168"
+        },
+        {
+          "title": "GeneReviews: Pompe Disease",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK1261/"
+        }
+      ]
+    },
+    {
+      "id": "biochem-cori-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "Gastrointestinal",
+      "topic": "Glycogen storage diseases: Cori disease (type III)",
+      "difficulty": 2,
+      "stem": "A 14-month-old boy has a protruding abdomen and episodes of sweating and irritability before breakfast. The liver edge is 6 cm below the costal margin. Fasting glucose is 45 mg/dL with ketones in the urine, and triglycerides are high. Blood lactate and uric acid are normal. A liver biopsy shows glycogen with abnormally short outer branches in the cytoplasm and no fatty change.",
+      "leadIn": "Which enzyme is most likely deficient?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Debranching enzyme"
+        },
+        {
+          "id": "b",
+          "text": "Glucose-6-phosphatase"
+        },
+        {
+          "id": "c",
+          "text": "Lysosomal acid alpha-glucosidase"
+        },
+        {
+          "id": "d",
+          "text": "Muscle glycogen phosphorylase"
+        },
+        {
+          "id": "e",
+          "text": "Galactose-1-phosphate uridyltransferase"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: debranching enzyme. Why: Your El-Husseiny biochemistry notes (p. 167) explain that Cori disease (glycogen storage disease type III) is a lack of debranching enzyme (alpha-1,6-glucosidase). It is a milder form of von Gierke disease with normal blood lactate, because gluconeogenesis still works. Children have hypoglycemia, high triglycerides, ketoacidosis and an enlarged liver. Because the branch points cannot be removed, short dextrin-like glycogen collects in the cytoplasm of liver cells, and the liver is not fatty. MedlinePlus Genetics (Glycogen storage disease type III) agrees that the AGL gene makes the glycogen debranching enzyme, that partly broken-down glycogen builds up in cells, that low blood glucose can start in infancy, that the liver enlarges in childhood, and that inheritance is autosomal recessive.",
+      "whyWrong": {
+        "b": "Glucose-6-phosphatase deficiency (von Gierke disease) also causes fasting hypoglycemia and an enlarged liver, but with high lactate, high uric acid and a fatty liver (your El-Husseiny biochemistry notes, p. 166).",
+        "c": "Lysosomal acid alpha-glucosidase deficiency (Pompe disease) mainly harms heart and skeletal muscle, and blood glucose is normal (your El-Husseiny biochemistry notes, pp. 166-167).",
+        "d": "Muscle glycogen phosphorylase deficiency (McArdle disease) affects skeletal muscle during exercise (your El-Husseiny biochemistry notes, p. 168), not the liver.",
+        "e": "GALT deficiency (classic galactosemia) causes jaundice, an enlarged liver, cataracts and kidney problems once milk feeding starts (your El-Husseiny biochemistry notes, p. 140), not short-branched glycogen."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Classic galactosemia, p. 140; glycogen storage diseases, pp. 166-168"
+        },
+        {
+          "title": "MedlinePlus Genetics: Glycogen storage disease type III",
+          "url": "https://medlineplus.gov/genetics/condition/glycogen-storage-disease-type-iii"
+        }
+      ]
+    },
+    {
+      "id": "biochem-classic-galactosemia-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "Multisystem",
+      "topic": "Carbohydrate disorders: classic galactosemia",
+      "difficulty": 2,
+      "stem": "A 6-day-old girl who is breastfed has vomiting, poor feeding and jaundice. Her liver is enlarged, and a slit-lamp exam shows early cataracts in both eyes. Her urine contains a reducing sugar that is not glucose. A blood culture grows Escherichia coli.",
+      "leadIn": "Which enzyme is most likely deficient?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Galactose-1-P uridyltransferase"
+        },
+        {
+          "id": "b",
+          "text": "Galactokinase (GALK)"
+        },
+        {
+          "id": "c",
+          "text": "Aldolase B (fructose-1-P aldolase)"
+        },
+        {
+          "id": "d",
+          "text": "Fructokinase (ketohexokinase)"
+        },
+        {
+          "id": "e",
+          "text": "Lactase on the brush border"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: galactose-1-phosphate uridyltransferase (GALT). Why: Your El-Husseiny biochemistry notes (pp. 139-140) explain that classic galactosemia is an autosomal recessive lack of GALT. Galactose-1-phosphate collects in many organs, including the liver, brain and kidney, and galactitol builds up in the lens and causes cataracts. Symptoms begin once the baby starts milk, which contains lactose, and include failure to thrive, jaundice, an enlarged liver, kidney problems, cataracts and intellectual disability, with a higher risk of E. coli sepsis. Treatment is removing galactose and lactose from the diet. The MedlinePlus Medical Encyclopedia (Galactosemia) agrees that GALT deficiency is the most common and most severe form, that symptoms can start in the first few days of life when the baby is given milk, and that affected infants may develop a serious E. coli blood infection.",
+      "whyWrong": {
+        "b": "Galactokinase deficiency is mild: it puts galactose in the blood and urine and causes infant cataracts, but not liver disease or sepsis (your El-Husseiny biochemistry notes, p. 139; MedlinePlus Genetics, Galactosemia).",
+        "c": "Aldolase B deficiency (hereditary fructose intolerance) causes symptoms after fructose or sucrose, not after milk (your El-Husseiny biochemistry notes, p. 143).",
+        "d": "Fructokinase deficiency (essential fructosuria) causes no symptoms (your El-Husseiny biochemistry notes, p. 143).",
+        "e": "Lactase deficiency causes bloating and diarrhea after milk (standard teaching), not liver disease, cataracts or sepsis."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Galactose metabolism, pp. 139-140; fructose metabolism, p. 143"
+        },
+        {
+          "title": "MedlinePlus Medical Encyclopedia: Galactosemia",
+          "url": "https://medlineplus.gov/ency/article/000366.htm"
+        },
+        {
+          "title": "MedlinePlus Genetics: Galactosemia",
+          "url": "https://medlineplus.gov/genetics/condition/galactosemia/"
+        }
+      ]
+    },
+    {
+      "id": "biochem-essential-fructosuria-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "Multisystem",
+      "topic": "Carbohydrate disorders: essential fructosuria",
+      "difficulty": 2,
+      "stem": "A healthy 30-year-old man has routine urine testing before starting a new job, and fructose is found in his urine. His blood glucose, liver tests and kidney function are normal. He has never had symptoms, even after eating fruit or sweets. His sister has the same urine finding.",
+      "leadIn": "Which enzyme is most likely deficient?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Fructokinase"
+        },
+        {
+          "id": "b",
+          "text": "Aldolase B"
+        },
+        {
+          "id": "c",
+          "text": "Galactokinase"
+        },
+        {
+          "id": "d",
+          "text": "Hexokinase"
+        },
+        {
+          "id": "e",
+          "text": "Sucrase on the brush border"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: fructokinase. Why: Your El-Husseiny biochemistry notes (p. 143) explain that fructokinase in the liver normally turns fructose into fructose-1-phosphate, which aldolase B then splits. In essential fructosuria, fructokinase is missing, so fructose cannot be held inside cells. Dietary fructose is still absorbed, but it is then lost in the urine without being changed. It is a rare, autosomal recessive condition with no symptoms. The Medical Biochemistry Page (Disorders of Fructose Metabolism) agrees that essential fructosuria is a benign disorder caused by lack of fructokinase (ketohexokinase) and may go undiagnosed because it causes no symptoms, while hereditary fructose intolerance causes severe hypoglycemia and vomiting after fructose.",
+      "whyWrong": {
+        "b": "Aldolase B deficiency (hereditary fructose intolerance) is severe because fructose-1-phosphate builds up in the liver and kidney (your El-Husseiny biochemistry notes, p. 143); he has no symptoms.",
+        "c": "Galactokinase deficiency puts galactose, not fructose, in the urine and causes infant cataracts (your El-Husseiny biochemistry notes, p. 139).",
+        "d": "Hexokinase is the backup enzyme that turns some fructose into fructose-6-phosphate when fructokinase is missing (your El-Husseiny biochemistry notes, p. 143).",
+        "e": "Sucrase splits sucrose into glucose and fructose in the gut (your El-Husseiny biochemistry notes, p. 143); without it, less fructose would be absorbed, not more."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Galactokinase deficiency, p. 139; fructose metabolism and essential fructosuria, p. 143"
+        },
+        {
+          "title": "The Medical Biochemistry Page: Disorders of Fructose Metabolism",
+          "url": "https://themedicalbiochemistrypage.org/fructose-metabolism-disorders/"
+        }
+      ]
+    },
+    {
+      "id": "biochem-pyruvate-kinase-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Glycolysis: pyruvate kinase deficiency",
+      "difficulty": 2,
+      "stem": "A 9-year-old boy has had anemia, bouts of jaundice and an enlarged spleen since infancy. His parents are healthy first cousins. Hemoglobin is 8.6 g/dL with a high reticulocyte count. The smear shows many echinocytes (red cells with short, evenly spaced projections) but no spherocytes, and a supravital stain shows no Heinz bodies. Despite his anemia, he plays soccer with little fatigue.",
+      "leadIn": "Which enzyme is most likely deficient?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pyruvate kinase"
+        },
+        {
+          "id": "b",
+          "text": "Glucose-6-phosphate dehydrogenase"
+        },
+        {
+          "id": "c",
+          "text": "Lactate dehydrogenase"
+        },
+        {
+          "id": "d",
+          "text": "Pyruvate dehydrogenase"
+        },
+        {
+          "id": "e",
+          "text": "Glucose-6-phosphatase"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: pyruvate kinase. Why: Your El-Husseiny biochemistry notes (pp. 135-136) explain that red cells have no mitochondria and depend entirely on glycolysis for ATP. Among inherited enzyme defects that cause hemolytic anemia, only G6PD deficiency is more common than pyruvate kinase deficiency. Low ATP makes red cells lose their biconcave shape and their ion balance, so the spleen destroys them and enlarges from the extra work. There are no Heinz bodies, and 2,3-BPG rises, which lowers hemoglobin's oxygen affinity. StatPearls (Pyruvate Kinase Deficiency) agrees that it is autosomal recessive, that low ATP damages red cells, that echinocytes may be seen without spherocytes, and that high 2,3-DPG shifts the oxygen curve to the right so more oxygen is released to the tissues, which helps patients tolerate the anemia.",
+      "whyWrong": {
+        "b": "G6PD deficiency causes hemolysis after oxidant stress, with Heinz bodies and bite cells (your El-Husseiny biochemistry notes, p. 173), and it is X-linked (StatPearls, Pyruvate Kinase Deficiency).",
+        "c": "Lactate dehydrogenase deficiency limits glycolysis in muscles during hard exercise (your El-Husseiny biochemistry notes, p. 136), not red cell survival.",
+        "d": "Pyruvate dehydrogenase works inside mitochondria (your El-Husseiny biochemistry notes, p. 147), which mature red cells do not have (your El-Husseiny biochemistry notes, p. 136).",
+        "e": "Glucose-6-phosphatase deficiency (von Gierke disease) causes fasting hypoglycemia and an enlarged liver (your El-Husseiny biochemistry notes, p. 166), not hemolysis."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Pyruvate kinase deficiency, pp. 135-136; pyruvate dehydrogenase, p. 147; von Gierke disease, p. 166; G6PD deficiency, p. 173"
+        },
+        {
+          "title": "StatPearls: Pyruvate Kinase Deficiency",
+          "url": "https://www.statpearls.com/point-of-care/28126"
+        }
+      ]
+    },
+    {
+      "id": "biochem-pdh-deficiency-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "Multisystem",
+      "topic": "Energy metabolism: pyruvate dehydrogenase deficiency",
+      "difficulty": 2,
+      "stem": "A 7-month-old boy has developmental delay, low muscle tone and seizures. Blood lactate is high, and serum alanine is high. His lactic acidosis gets worse after feeds rich in carbohydrate. Testing shows very low activity of the enzyme complex that turns pyruvate into acetyl-CoA.",
+      "leadIn": "Which diet is most appropriate for this child?",
+      "options": [
+        {
+          "id": "a",
+          "text": "High fat, low carbohydrate (ketogenic) diet"
+        },
+        {
+          "id": "b",
+          "text": "High carbohydrate with frequent cornstarch feeds"
+        },
+        {
+          "id": "c",
+          "text": "Diet free of galactose and lactose"
+        },
+        {
+          "id": "d",
+          "text": "Diet free of fructose and sucrose"
+        },
+        {
+          "id": "e",
+          "text": "Restriction of long-chain fatty acids"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: a high-fat, low-carbohydrate (ketogenic) diet. Why: Your El-Husseiny biochemistry notes (pp. 147-148) explain that pyruvate dehydrogenase (PDH) turns pyruvate into acetyl-CoA. When PDH is missing, pyruvate is shunted to lactate and alanine, causing lactic acidosis, high alanine and neurologic problems from infancy. Carbohydrates make the lactic acidosis worse, so treatment is a ketogenic diet, high in fat and in lysine and leucine, the only purely ketogenic amino acids. This gives the body fuel without making more pyruvate. MedlinePlus Genetics (Pyruvate dehydrogenase deficiency) agrees that the PDH complex converts pyruvate to acetyl-CoA, that the most common feature is a dangerous buildup of lactic acid, that most children also have neurologic problems such as seizures and low muscle tone, and that signs usually appear soon after birth.",
+      "whyWrong": {
+        "b": "Frequent cornstarch feeds treat von Gierke disease (your El-Husseiny biochemistry notes, p. 166); more carbohydrate would make more pyruvate and lactate in PDH deficiency (your El-Husseiny biochemistry notes, p. 148).",
+        "c": "Removing galactose and lactose treats classic galactosemia (your El-Husseiny biochemistry notes, p. 140).",
+        "d": "Removing fructose and sucrose treats hereditary fructose intolerance (your El-Husseiny biochemistry notes, p. 143).",
+        "e": "Restricting long-chain fatty acids treats abetalipoproteinemia (your El-Husseiny biochemistry notes, p. 186); fat is the fuel this child needs."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Pyruvate dehydrogenase deficiency, pp. 147-148; classic galactosemia, p. 140; fructose metabolism, p. 143; von Gierke disease, p. 166; abetalipoproteinemia, p. 186"
+        },
+        {
+          "title": "MedlinePlus Genetics: Pyruvate dehydrogenase deficiency",
+          "url": "https://medlineplus.gov/genetics/condition/pyruvate-dehydrogenase-deficiency"
+        }
+      ]
+    },
+    {
+      "id": "biochem-abetalipoproteinemia-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "Gastrointestinal",
+      "topic": "Lipid disorders: abetalipoproteinemia",
+      "difficulty": 2,
+      "stem": "A 10-month-old girl has failed to gain weight and has had a swollen abdomen and pale, bulky, foul-smelling stools since starting solid food. Her parents are first cousins. Her blood smear shows many red cells with irregular thorny projections. Fasting plasma cholesterol and triglycerides are very low. A small-bowel biopsy shows normal villi, but the lining cells have clear, foamy cytoplasm filled with trapped fat.",
+      "leadIn": "Which protein is most likely defective?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Microsomal triglyceride transfer protein"
+        },
+        {
+          "id": "b",
+          "text": "Lipoprotein lipase in capillary endothelium"
+        },
+        {
+          "id": "c",
+          "text": "LDL receptor on the surface of liver cells"
+        },
+        {
+          "id": "d",
+          "text": "Apolipoprotein C-II, the lipase activator"
+        },
+        {
+          "id": "e",
+          "text": "Cystic fibrosis transmembrane regulator"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: microsomal triglyceride transfer protein (MTP). Why: Your El-Husseiny biochemistry notes (p. 186) explain that abetalipoproteinemia is an autosomal recessive inability to make apolipoprotein B. MTP acts as a chaperone that helps apoB fold and loads lipid onto new chylomicrons and VLDL. The disease appears in the first year of life with malabsorption and failure to thrive. Low fat-soluble vitamins, especially vitamin E, lead to thorny red cells called acanthocytes and to nerve problems such as ataxia. Fat that cannot leave the gut stays in the intestinal lining cells, which look foamy, and blood triglyceride and cholesterol are very low. StatPearls (Abetalipoproteinemia) agrees that the disease is caused by recessive mutations in the MTTP gene, which codes for MTP, that it presents in infants with failure to thrive, steatorrhea and abdominal swelling, and that acanthocytosis is a hallmark.",
+      "whyWrong": {
+        "b": "Lipoprotein lipase deficiency causes very high triglycerides and chylomicrons (your El-Husseiny biochemistry notes, p. 187), not very low levels.",
+        "c": "A defective LDL receptor causes very high LDL cholesterol (familial hypercholesterolemia; your El-Husseiny biochemistry notes, p. 188).",
+        "d": "Apolipoprotein C-II deficiency blocks lipoprotein lipase, so chylomicrons rise (your El-Husseiny biochemistry notes, p. 187).",
+        "e": "Cystic fibrosis causes fat malabsorption from pancreatic insufficiency (your El-Husseiny biochemistry notes, p. 90), but it does not leave the intestinal lining cells filled with trapped fat (standard teaching)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Cystic fibrosis, p. 90; abetalipoproteinemia, p. 186; familial dyslipidemias, pp. 187-188"
+        },
+        {
+          "title": "StatPearls: Abetalipoproteinemia",
+          "url": "https://www.statpearls.com/point-of-care/17033"
+        }
+      ]
+    },
+    {
+      "id": "biochem-familial-hypercholesterolemia-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "Cardiovascular",
+      "topic": "Lipid disorders: familial hypercholesterolemia",
+      "difficulty": 2,
+      "stem": "A 32-year-old man is admitted with an acute myocardial infarction. He has firm nodules on both Achilles tendons and yellow plaques on his upper eyelids. His fasting LDL cholesterol is 310 mg/dL, and triglycerides are normal. His father died of a heart attack at age 41, and his 8-year-old daughter also has a high LDL cholesterol.",
+      "leadIn": "Which mechanism best explains his lipid disorder?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Fewer working LDL receptors on liver cells"
+        },
+        {
+          "id": "b",
+          "text": "Absent lipoprotein lipase activity in capillaries"
+        },
+        {
+          "id": "c",
+          "text": "Inability to make apolipoprotein B"
+        },
+        {
+          "id": "d",
+          "text": "Deficiency of apolipoprotein C-II"
+        },
+        {
+          "id": "e",
+          "text": "Overproduction of VLDL by the liver"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: fewer working LDL receptors on liver cells. Why: Your El-Husseiny biochemistry notes (p. 188) explain that familial hypercholesterolemia is a common autosomal dominant disorder. It is caused by absent or defective LDL receptors, or by defective apoB-100, so liver cells take up less LDL. Heterozygotes have cholesterol 2 to 3 times normal from birth, and patients get early atherosclerosis (sometimes a heart attack before age 20), Achilles tendon xanthomas, xanthelasma on the eyelids and corneal arcus. MedlinePlus Genetics (Familial hypercholesterolemia) agrees that LDL receptors remove LDL from the blood, that most cases come from LDLR mutations with autosomal dominant inheritance, and that the xanthomas most often affect the Achilles tendons. The MSD Manual (Dyslipidemia) adds that Achilles tendon xanthomas are diagnostic of familial hypercholesterolemia.",
+      "whyWrong": {
+        "b": "Lipoprotein lipase deficiency raises chylomicrons and triglycerides, with pancreatitis and eruptive xanthomas, and does not usually cause early coronary disease (your El-Husseiny biochemistry notes, p. 187).",
+        "c": "Inability to make apoB (abetalipoproteinemia) makes LDL and VLDL very low (your El-Husseiny biochemistry notes, p. 186).",
+        "d": "Apolipoprotein C-II deficiency blocks lipoprotein lipase and raises chylomicrons (your El-Husseiny biochemistry notes, p. 187); his triglycerides are normal.",
+        "e": "Overproduction of VLDL by the liver causes high triglycerides (familial hypertriglyceridemia; your El-Husseiny biochemistry notes, p. 189); his triglycerides are normal."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Familial dyslipidemias, pp. 186-189"
+        },
+        {
+          "title": "MedlinePlus Genetics: Familial hypercholesterolemia",
+          "url": "https://medlineplus.gov/genetics/condition/familial-hypercholesterolemia"
+        },
+        {
+          "title": "MSD Manual Professional: Dyslipidemia",
+          "url": "https://www.msdmanuals.com/professional/endocrine-and-metabolic-disorders/lipid-disorders/dyslipidemia"
+        }
+      ]
+    },
+    {
+      "id": "biochem-lpl-deficiency-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "Gastrointestinal",
+      "topic": "Lipid disorders: lipoprotein lipase deficiency",
+      "difficulty": 2,
+      "stem": "A 9-year-old boy is admitted for the third time with severe upper abdominal pain spreading to the back and a high serum lipase. He has crops of small yellow papules with red rims on his buttocks and the backs of his arms, and his liver and spleen are enlarged. His plasma looks milky. Fasting triglycerides are 2,800 mg/dL, and fasting glucose is normal.",
+      "leadIn": "Activity of which protein is most likely deficient?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lipoprotein lipase"
+        },
+        {
+          "id": "b",
+          "text": "Microsomal triglyceride transfer protein"
+        },
+        {
+          "id": "c",
+          "text": "LDL receptor"
+        },
+        {
+          "id": "d",
+          "text": "Glucose-6-phosphatase"
+        },
+        {
+          "id": "e",
+          "text": "Apolipoprotein E"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: lipoprotein lipase. Why: Your El-Husseiny biochemistry notes (p. 187) explain that familial hyperchylomicronemia is an autosomal recessive lack of lipoprotein lipase or of its activator, apolipoprotein C-II. Lipoprotein lipase normally breaks down the triglycerides in chylomicrons, so without it, dietary fat stays in the blood as chylomicrons. Children present with very high triglycerides, pancreatitis, eruptive xanthomas on the outer surfaces of the limbs and an enlarged liver and spleen. Pancreatitis becomes much more likely when triglycerides are above 1,000 mg/dL, and the plasma looks milky. These patients are not usually at higher risk of early coronary disease. MedlinePlus Genetics (Familial lipoprotein lipase deficiency) agrees that symptoms usually begin before age 10, with pancreatitis, eruptive xanthomas, an enlarged liver and spleen, and milky-looking blood. The MSD Manual (Dyslipidemia) lists familial chylomicronemia syndrome (formerly called LPL deficiency) as recessive, with pancreatitis, eruptive xanthomas and lipemia retinalis.",
+      "whyWrong": {
+        "b": "Lack of microsomal triglyceride transfer protein (abetalipoproteinemia) means chylomicrons and VLDL are not made, so triglycerides are very low (your El-Husseiny biochemistry notes, p. 186).",
+        "c": "LDL receptor defects raise LDL cholesterol and cause tendon xanthomas and early heart disease (your El-Husseiny biochemistry notes, p. 188), not chylomicrons and pancreatitis.",
+        "d": "Glucose-6-phosphatase deficiency (von Gierke disease) can raise blood lipids, but it causes severe fasting hypoglycemia and lactic acidosis (your El-Husseiny biochemistry notes, p. 166); his glucose is normal.",
+        "e": "Apolipoprotein E defects (dysbetalipoproteinemia) slow removal of chylomicron and VLDL remnants and cause early atherosclerosis with palmar xanthomas (your El-Husseiny biochemistry notes, p. 189)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Von Gierke disease, p. 166; familial dyslipidemias, pp. 186-189"
+        },
+        {
+          "title": "MedlinePlus Genetics: Familial lipoprotein lipase deficiency",
+          "url": "https://medlineplus.gov/genetics/condition/familial-lipoprotein-lipase-deficiency"
+        },
+        {
+          "title": "MSD Manual Professional: Dyslipidemia",
+          "url": "https://www.msdmanuals.com/professional/endocrine-and-metabolic-disorders/lipid-disorders/dyslipidemia"
+        }
+      ]
+    },
+    {
+      "id": "histo-rough-er-plasma-cell-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Organelles: rough endoplasmic reticulum in plasma cells",
+      "difficulty": 2,
+      "stem": "A 66-year-old man has back pain, anemia and a high total serum protein. His bone marrow shows sheets of cells with an off-center nucleus, a pale zone next to the nucleus and deeply blue-staining cytoplasm. Electron microscopy shows the cytoplasm packed with stacked, flattened membranes studded with ribosomes.",
+      "leadIn": "The organelle described is where these cells mainly",
+      "options": [
+        {
+          "id": "a",
+          "text": "Fold and package proteins for secretion"
+        },
+        {
+          "id": "b",
+          "text": "Make steroid hormones and store calcium"
+        },
+        {
+          "id": "c",
+          "text": "Produce most of the cell's ATP"
+        },
+        {
+          "id": "d",
+          "text": "Assemble ribosomal subunits from rRNA"
+        },
+        {
+          "id": "e",
+          "text": "Destroy proteins tagged with ubiquitin"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: fold and package proteins for secretion. Why: Your Osmosis physiology notes (p. 160) explain that rough endoplasmic reticulum (RER) is a stack of flattened membrane sacs with ribosomes bound to its surface. It is where proteins meant for secretion, for lysosomes or for the cell membrane are folded and packaged into vesicles and sent to the Golgi apparatus. Plasma cells secrete large amounts of antibody, so their cytoplasm is full of RER. WebPath (University of Utah) shows an electron micrograph of a plasma cell with prominent rough endoplasmic reticulum in its cytoplasm. The pale zone next to the nucleus is the Golgi apparatus (standard teaching).",
+      "whyWrong": {
+        "b": "Making steroids and storing calcium are jobs of smooth ER, which has no ribosomes (your Osmosis physiology notes, p. 160).",
+        "c": "Mitochondria make most of the cell's ATP by aerobic respiration (your Osmosis physiology notes, p. 161).",
+        "d": "The nucleolus assembles ribosomal subunits from rRNA (your Osmosis physiology notes, p. 179).",
+        "e": "The proteasome destroys proteins tagged with ubiquitin (your Osmosis physiology notes, p. 186)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Cellular structure and function, pp. 160-161; nuclear structure, p. 179; atrophy, p. 186"
+        },
+        {
+          "title": "WebPath (University of Utah): Plasma cell, electron micrograph",
+          "url": "https://webpath.med.utah.edu/HISTHTML/EM/EM003.html"
+        }
+      ]
+    },
+    {
+      "id": "histo-smooth-er-steroid-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "Endocrine",
+      "topic": "Organelles: smooth endoplasmic reticulum in steroid-making cells",
+      "difficulty": 2,
+      "stem": "Electron microscopy of a cell from the zona fasciculata of a normal adrenal gland shows many lipid droplets, mitochondria with tubular cristae, and an extensive network of branching membrane tubules that have no ribosomes on them.",
+      "leadIn": "The membrane network described is most important for which job in this cell?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Making steroid hormones from cholesterol"
+        },
+        {
+          "id": "b",
+          "text": "Adding mannose-6-phosphate to lysosomal enzymes"
+        },
+        {
+          "id": "c",
+          "text": "Folding antibody chains for secretion"
+        },
+        {
+          "id": "d",
+          "text": "Assembling ribosomal subunits"
+        },
+        {
+          "id": "e",
+          "text": "Destroying proteins tagged with ubiquitin"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: making steroid hormones from cholesterol. Why: Your Osmosis physiology notes (p. 160) explain that smooth endoplasmic reticulum (SER) has no ribosomes and is the site of lipid and steroid synthesis, calcium storage in muscle, glycogen metabolism and detoxification in the liver. Digital Histology (Endoplasmic reticulum 12) agrees that SER is the main site of lipid synthesis and is therefore well developed in steroid-secreting cells, shown in an adrenal cortex cell, and that it also detoxifies drugs and stores and releases calcium. The zona fasciculata makes cortisol (standard teaching).",
+      "whyWrong": {
+        "b": "Mannose-6-phosphate is added to lysosomal enzymes in the Golgi apparatus (your El-Husseiny biochemistry notes, pp. 42-43).",
+        "c": "Proteins for secretion, such as antibodies, are folded in rough ER, which has ribosomes (your Osmosis physiology notes, p. 160).",
+        "d": "The nucleolus assembles ribosomal subunits (your Osmosis physiology notes, p. 179).",
+        "e": "The proteasome destroys proteins tagged with ubiquitin (your Osmosis physiology notes, p. 186)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Cellular structure and function, p. 160; nuclear structure, p. 179; atrophy, p. 186"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Golgi apparatus and mannose-6-phosphate, pp. 42-43"
+        },
+        {
+          "title": "Digital Histology: Endoplasmic reticulum 12 (smooth ER in the adrenal cortex)",
+          "url": "https://digitalhistology.org/?p=1452"
+        }
+      ]
+    },
+    {
+      "id": "histo-squamous-metaplasia-smoker-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "Respiratory",
+      "topic": "Cell adaptation: squamous metaplasia in a smoker's bronchus",
+      "difficulty": 2,
+      "stem": "A 58-year-old man who has smoked 2 packs of cigarettes a day for 35 years has a bronchoscopy for a chronic cough. A biopsy of the main bronchus shows that the normal lining has been replaced by mature, orderly layers of flat cells. The cells are uniform in size and shape, and mitoses are rare.",
+      "leadIn": "Which change best describes this finding?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Metaplasia"
+        },
+        {
+          "id": "b",
+          "text": "Dysplasia"
+        },
+        {
+          "id": "c",
+          "text": "Hyperplasia"
+        },
+        {
+          "id": "d",
+          "text": "Hypertrophy"
+        },
+        {
+          "id": "e",
+          "text": "Atrophy"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: metaplasia. Why: Your Osmosis physiology notes (p. 186) explain that metaplasia is when one mature, differentiated cell type changes into another mature cell type, often because of a stress from the environment. Their example is tobacco smoke turning the pseudostratified columnar lining of the airways into stratified squamous epithelium. It can reverse if the stress is removed. WebPath (University of Utah) shows squamous metaplasia in a smoker's larynx, where chronic irritation replaced the respiratory lining with tougher squamous epithelium, and notes that metaplasia may reverse if the irritant is removed but may be a first step toward cancer.",
+      "whyWrong": {
+        "b": "Dysplasia is disordered growth of immature cells that vary in size and shape, with dark nuclei and more mitoses, and it is precancerous (your Osmosis physiology notes, p. 186); these cells are orderly and uniform.",
+        "c": "Hyperplasia is an increase in the number of cells (your Osmosis physiology notes, p. 185), not a change to a different cell type.",
+        "d": "Hypertrophy is an increase in cell size (your Osmosis physiology notes, p. 185), not a change to a different cell type.",
+        "e": "Atrophy is a decrease in the size of a cell, tissue or organ (your Osmosis physiology notes, p. 186)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Hyperplasia and hypertrophy, p. 185; metaplasia, dysplasia and atrophy, p. 186"
+        },
+        {
+          "title": "WebPath (University of Utah): Squamous metaplasia",
+          "url": "https://webpath.med.utah.edu/CINJHTML/CINJ009.html"
+        }
+      ]
+    },
+    {
+      "id": "histo-kupffer-cells-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "Gastrointestinal",
+      "topic": "Liver histology: Kupffer cells",
+      "difficulty": 2,
+      "stem": "In a research study, fluorescent latex particles are injected into the portal vein of a rat. One hour later, the liver is examined. Most of the particles are found inside large, irregular cells that sit within the lining of the sinusoids, not inside hepatocytes.",
+      "leadIn": "Which cells most likely took up the particles?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kupffer cells"
+        },
+        {
+          "id": "b",
+          "text": "Hepatic stellate (Ito) cells"
+        },
+        {
+          "id": "c",
+          "text": "Sinusoidal endothelial cells"
+        },
+        {
+          "id": "d",
+          "text": "Pit cells (liver natural killer cells)"
+        },
+        {
+          "id": "e",
+          "text": "Bile duct cells in the portal triads"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: Kupffer cells. Why: Your Osmosis physiology notes (p. 334) explain that Kupffer cells sit in the sinusoid lining and are the liver's own macrophages. They protect against germs coming from the gut, release cytokines and inflammatory signals, and remove damaged red cells from the blood. StatPearls (Histology, Kupffer Cell) agrees that Kupffer cells are specialized macrophages in the hepatic sinusoids that clear foreign debris and particles from portal blood, can engulf pathogens and remove aged red cells, and make up 80% to 90% of all the macrophages in the body.",
+      "whyWrong": {
+        "b": "Stellate (Ito) cells sit among the hepatocytes, store vitamin A and drive scarring in cirrhosis (your Osmosis physiology notes, p. 334); they are not the liver's macrophages.",
+        "c": "Sinusoidal endothelial cells have small holes (fenestrations) that let blood and nutrients reach the hepatocytes (your Osmosis physiology notes, p. 334); they are not the large phagocytic cells.",
+        "d": "Pit cells are the liver's natural killer cells (your Osmosis physiology notes, p. 334), not its macrophages.",
+        "e": "Bile ducts sit in the portal triads and carry bile (your Osmosis physiology notes, p. 334); they are not in the sinusoids."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Liver anatomy and physiology, p. 334"
+        },
+        {
+          "title": "StatPearls: Histology, Kupffer Cell",
+          "url": "https://www.statpearls.com/point-of-care/23956"
+        }
+      ]
+    },
+    {
+      "id": "histo-urothelium-umbrella-cells-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "Renal & Urinary",
+      "topic": "Urinary histology: transitional epithelium (urothelium)",
+      "difficulty": 2,
+      "stem": "A biopsy of the wall of a normal, empty urinary bladder shows a lining 5 to 7 cells thick. The surface cells are large and dome-shaped, some have two nuclei, and their top membrane has rigid plaques. When the bladder is full, the same lining is only 2 to 3 cells thick.",
+      "leadIn": "Which type of epithelium is this?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Transitional epithelium (urothelium)"
+        },
+        {
+          "id": "b",
+          "text": "Stratified squamous epithelium"
+        },
+        {
+          "id": "c",
+          "text": "Pseudostratified ciliated columnar epithelium"
+        },
+        {
+          "id": "d",
+          "text": "Simple columnar epithelium"
+        },
+        {
+          "id": "e",
+          "text": "Simple squamous epithelium"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: transitional epithelium (urothelium). Why: Your Osmosis physiology notes (p. 513) explain that the bladder wall is lined by transitional epithelium, which lets the bladder stretch while keeping a barrier, with the detrusor muscle and a fibrous adventitia outside it. StatPearls (Histology, Bladder) agrees that the urothelium is five to seven layers thick when the bladder is relaxed and thins to two or three layers when it is full, that its surface umbrella cells are dome-shaped, often have two nuclei and are covered by uroplakin plaques, and that these cells form a barrier that urine cannot cross. It adds that urothelial carcinoma is the most common bladder cancer.",
+      "whyWrong": {
+        "b": "Stratified squamous epithelium lines the mouth, esophagus and anus (your Osmosis physiology notes, p. 294); it does not have dome-shaped umbrella cells.",
+        "c": "Pseudostratified ciliated epithelium lines the nose and airways (your Osmosis physiology notes, p. 589).",
+        "d": "Simple columnar epithelium lines most of the GI tract (your Osmosis physiology notes, p. 294) and is only one cell thick.",
+        "e": "Simple squamous epithelium is a single layer of flat cells, as in the serous pericardium (your Osmosis physiology notes, p. 84)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Serous pericardium, p. 84; GI tract layers, p. 294; urinary bladder, p. 513; nasal cavity and pharynx, p. 589"
+        },
+        {
+          "title": "StatPearls: Histology, Bladder",
+          "url": "https://www.statpearls.com/point-of-care/18355"
+        }
+      ]
+    },
+    {
+      "id": "histo-cleidocranial-intramembranous-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "Musculoskeletal",
+      "topic": "Bone development: intramembranous ossification (cleidocranial dysplasia)",
+      "difficulty": 2,
+      "stem": "A 5-year-old boy can bring his shoulders together in front of his chest. His anterior fontanelle is still open, none of his baby teeth have fallen out, and x-rays show extra unerupted teeth. His arms and legs are normal in length. His father has had similar shoulder and dental problems.",
+      "leadIn": "A defect in which process best explains his skeletal findings?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Intramembranous ossification"
+        },
+        {
+          "id": "b",
+          "text": "Endochondral ossification at the growth plates"
+        },
+        {
+          "id": "c",
+          "text": "Osteoclast resorption of bone"
+        },
+        {
+          "id": "d",
+          "text": "Synthesis of type I collagen"
+        },
+        {
+          "id": "e",
+          "text": "Mineralization of osteoid by vitamin D"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: intramembranous ossification. Why: Your Osmosis physiology notes (pp. 221-222) explain that most bones form by endochondral ossification, in which a cartilage model is replaced by bone. The exceptions include the clavicles, the parietal and frontal bones of the skull, the maxilla and the mandible, which form by intramembranous ossification: mesenchymal cells become osteoblasts and lay down osteoid directly, with no cartilage model. MedlinePlus Genetics (Cleidocranial dysplasia) agrees that people with this autosomal dominant condition have underdeveloped or absent clavicles, late closing of the skull sutures and fontanelles, delayed loss of baby teeth and extra teeth, and it explains that the RUNX2 gene acts as a master switch for genes that build bone cells.",
+      "whyWrong": {
+        "b": "Failure of endochondral ossification at the growth plates (achondroplasia, from an activating FGFR3 mutation) gives short limbs with a normal-sized head (your El-Husseiny musculoskeletal notes, p. 116); his limbs are normal.",
+        "c": "Osteoclasts break down the center of developing bone to make the marrow cavity (your Osmosis physiology notes, p. 222); a resorption problem would not explain missing clavicles and open fontanelles.",
+        "d": "Type I collagen defects (osteogenesis imperfecta) cause brittle bones that break with little trauma (your El-Husseiny biochemistry notes, p. 46).",
+        "e": "Poor mineralization from low vitamin D causes rickets in children, with bowed legs (your El-Husseiny biochemistry notes, p. 247)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Bone development, pp. 221-222"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Musculoskeletal System (Emily's file), Achondroplasia, p. 116"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Osteogenesis imperfecta, p. 46; vitamin D, p. 247"
+        },
+        {
+          "title": "MedlinePlus Genetics: Cleidocranial dysplasia",
+          "url": "https://medlineplus.gov/genetics/condition/cleidocranial-dysplasia"
+        }
+      ]
     }
   ]
 }
