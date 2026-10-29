@@ -39793,6 +39793,1086 @@
           "url": "https://www.ncbi.nlm.nih.gov/books/NBK513227/"
         }
       ]
+    },
+    {
+      "id": "path-frostbite-third-degree-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Cold injury: frostbite classification",
+      "difficulty": 2,
+      "stem": "A 34-year-old hiker is rescued after a night stranded on a mountain at -15°C (5°F). The toes of both feet were numb and white when the hiker was found. After rewarming in a warm-water bath, several toes swell and develop small blisters filled with dark, bloody fluid. Over the following weeks, the skin over those toes turns into a hard black crust.",
+      "leadIn": "Which classification of this cold injury is most likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Third-degree frostbite"
+        },
+        {
+          "id": "b",
+          "text": "Frostnip"
+        },
+        {
+          "id": "c",
+          "text": "First-degree frostbite"
+        },
+        {
+          "id": "d",
+          "text": "Second-degree frostbite"
+        },
+        {
+          "id": "e",
+          "text": "Fourth-degree frostbite"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: third-degree frostbite. Why: Your Osmosis dermatology notes (p. 6) explain that below about -4°C, ice crystals form inside tissue and damage cell membranes and small vessels, while cooling clamps the vessels down. Rewarming then opens the vessels, causing edema, and clots form in the damaged small vessels. The classification table (p. 7) grades the injury by depth. Frostnip is superficial with no ice crystals and reverses quickly. First-degree injury causes central pallor and numbness with surrounding edema and heals fully. Second-degree injury causes large blisters of clear fluid within 24 hours. Third-degree injury goes deeper: the blisters are smaller and may be bloody, and a black eschar forms over weeks. Fourth-degree injury kills the tissue down to fat, muscle or bone, and rewarming is painless. MSD agrees that blood-filled blisters signal deep damage and that third-degree frostbite has hemorrhagic blisters and edema. Both sources advise rewarming in water at 37 to 39°C, and MSD advises leaving hemorrhagic blisters intact and delaying surgery until the dead tissue is clearly marked off.",
+      "whyWrong": {
+        "b": "Frostnip is superficial cold injury without ice crystal formation, and it reverses quickly on rewarming (your Osmosis dermatology notes, p. 7). This patient has blisters and lasting tissue damage.",
+        "c": "First-degree frostbite causes central pallor and numbness with surrounding edema, and the skin recovers fully (your Osmosis dermatology notes, p. 7). It does not form blisters.",
+        "d": "Second-degree frostbite forms large blisters of clear fluid within 24 hours (your Osmosis dermatology notes, p. 7). MSD also describes clear or milky blister fluid at this stage. Bloody blisters mean a deeper injury.",
+        "e": "Fourth-degree frostbite destroys tissue down to fat, muscle or bone, and rewarming is painless (your Osmosis dermatology notes, p. 7). MSD adds that the tissue stays cyanotic with little swelling. These toes swelled and blistered."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Dermatology (Emily's file), Frostbite, pp. 6-8"
+        },
+        {
+          "title": "MSD Manual Professional: Frostbite",
+          "url": "https://www.msdmanuals.com/professional/injuries-poisoning/cold-injury/frostbite"
+        }
+      ]
+    },
+    {
+      "id": "path-sunburn-dna-damage-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Reactions to sunlight: sunburn",
+      "difficulty": 1,
+      "stem": "A fair-skinned 22-year-old spends 5 hours at the beach without sunscreen. That evening the skin of the back and shoulders becomes red, hot and painful. The next day a few small blisters appear, and a week later the skin peels.",
+      "leadIn": "Which molecular injury starts this reaction?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Thymine dimers forming in keratinocyte DNA"
+        },
+        {
+          "id": "b",
+          "text": "IgE cross-linking on dermal mast cells"
+        },
+        {
+          "id": "c",
+          "text": "Ice crystals tearing epidermal cell membranes"
+        },
+        {
+          "id": "d",
+          "text": "Donor T cells attacking host skin cells"
+        },
+        {
+          "id": "e",
+          "text": "Immune complexes lodging in dermal vessels"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: thymine dimers forming in keratinocyte DNA. Why: Your Osmosis dermatology notes (p. 8) describe sunburn as a radiation burn from too much ultraviolet light. The first event is direct DNA damage, the formation of thymine dimers, which switches on DNA repair, inflammation and death of damaged cells by apoptosis. Within about an hour, mast cells degranulate and release histamine, serotonin and TNF, which drive prostaglandin and leukotriene synthesis and bring in neutrophils and lymphocytes. MSD agrees that UVB wavelengths (280 to 320 nm) cause the most pronounced effects, that the damage to skin cell DNA triggers an inflammatory cascade, and that signs appear in 1 to 24 hours. Both sources warn that repeated sunburn raises the risk of basal cell carcinoma, squamous cell carcinoma and melanoma (your Osmosis notes, p. 9).",
+      "whyWrong": {
+        "b": "Mast cells do release histamine within an hour of a sunburn, but they are activated as a later step after the DNA damage (your Osmosis dermatology notes, p. 8). IgE cross-linking is the trigger of type I hypersensitivity (your El-Husseiny microbiology and immunology notes, p. 450), not of sunburn.",
+        "c": "Ice crystals that damage cell membranes are the injury of frostbite (your Osmosis dermatology notes, p. 6), not of sun exposure.",
+        "d": "Donor T cells attacking host skin, liver and gut is graft-versus-host disease after a transplant or a nonirradiated transfusion (your El-Husseiny microbiology and immunology notes, p. 478).",
+        "e": "Immune complexes deposited in vessel walls cause type III hypersensitivity, such as the Arthus reaction (your El-Husseiny microbiology and immunology notes, p. 458). Sunburn begins with direct light damage to DNA."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Dermatology (Emily's file), Sunburn, pp. 8-9; frostbite, p. 6"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Type I hypersensitivity, p. 450; type III, p. 458; GVHD, p. 478"
+        },
+        {
+          "title": "MSD Manual Professional: Sunburn",
+          "url": "https://www.msdmanuals.com/professional/dermatologic-disorders/reactions-to-sunlight/sunburn"
+        }
+      ]
+    },
+    {
+      "id": "immuno-alopecia-areata-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Immunology",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Hair disorders: alopecia areata",
+      "difficulty": 2,
+      "stem": "A 28-year-old notices two smooth, round, completely bald patches on the scalp that appeared over a few weeks. The skin in the patches is not red, scaly or scarred. At the edges of the patches are short, broken hairs that are thinner near the scalp than at the tip. Several fingernails have tiny pits. The patient has had vitiligo for 3 years.",
+      "leadIn": "Which mechanism most likely underlies the hair loss?",
+      "options": [
+        {
+          "id": "a",
+          "text": "T cells attacking the growing hair follicle"
+        },
+        {
+          "id": "b",
+          "text": "Fungal invasion of the hair shaft"
+        },
+        {
+          "id": "c",
+          "text": "Many follicles shifting into telogen at once"
+        },
+        {
+          "id": "d",
+          "text": "Repeated pulling out of hair by the patient"
+        },
+        {
+          "id": "e",
+          "text": "Scarring that destroys the hair follicles"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: T cells attacking the growing hair follicle (alopecia areata). Why: Your Osmosis dermatology notes (p. 21) describe alopecia areata as chronic, localized, autoimmune-related hair loss, usually on the scalp. The exact mechanism is unclear, but T cells are thought to release cytokines and chemokines that disrupt the normal hair cycle. Patients have smooth, round patches of hair loss and may have nail pitting or ridging, and the disease is associated with psoriasis, vitiligo and thyroid disease. A biopsy, when needed, shows lymphocytes clustered around the hair bulb. The notes (p. 22) describe the classic exclamation-point hairs: short, broken hairs at the edge of the patch that are narrower at the base than at the tip. MSD agrees that the hair loss is sudden, patchy and nonscarring, that it can coexist with vitiligo or thyroiditis, and that nails may be pitted. Regrowth often happens on its own within a year (your Osmosis notes, p. 21). For treatment, both sources list intralesional triamcinolone injection, which MSD calls the treatment of choice in adults. MSD adds that JAK inhibitors (baricitinib, ritlecitinib, deuruxolitinib) may be used for severe disease.",
+      "whyWrong": {
+        "b": "Tinea capitis is a dermatophyte infection of the scalp (your El-Husseiny microbiology and immunology notes, p. 182). This scalp is smooth with no scale or redness, and the nail pitting and vitiligo point to autoimmune disease.",
+        "c": "Telogen effluvium is diffuse shedding of less than half the hair after a stressor such as illness, surgery or a drug, when many follicles enter the resting phase together (your Osmosis dermatology notes, p. 22). This patient has sharply defined round patches.",
+        "d": "Trichotillomania is a disorder in which a person repeatedly pulls out their own hair until hair is lost (DSM-5-TR, p. 282). Nail pitting, vitiligo and exclamation-point hairs fit an autoimmune cause instead.",
+        "e": "Alopecia areata is a nonscarring hair loss (MSD; your Osmosis dermatology notes, p. 21), and this scalp shows no scar. Because the follicles survive, the hair can grow back."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Dermatology (Emily's file), Alopecia areata, pp. 21-22; telogen effluvium, p. 22"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Dermatophytes, p. 182"
+        },
+        {
+          "title": "DSM-5-TR (Emily's file), Trichotillomania, p. 282"
+        },
+        {
+          "title": "MSD Manual Professional: Alopecia Areata",
+          "url": "https://www.msdmanuals.com/professional/dermatologic-disorders/hair-disorders/alopecia-areata"
+        }
+      ]
+    },
+    {
+      "id": "path-pressure-injury-stage-3-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Pressure injury: staging",
+      "difficulty": 1,
+      "stem": "An 81-year-old with advanced Parkinson disease has been bedbound in a nursing home for 3 months. Examination shows an open wound over the sacrum. The epidermis and dermis are completely gone over the wound, and yellow subcutaneous fat is visible at its base. No bone, tendon or muscle can be seen, and the base is not covered by slough or eschar.",
+      "leadIn": "Which stage best describes this wound?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Stage 3 pressure injury"
+        },
+        {
+          "id": "b",
+          "text": "Stage 1 pressure injury"
+        },
+        {
+          "id": "c",
+          "text": "Stage 2 pressure injury"
+        },
+        {
+          "id": "d",
+          "text": "Stage 4 pressure injury"
+        },
+        {
+          "id": "e",
+          "text": "Unstageable pressure injury"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: stage 3 pressure injury. Why: Your Osmosis dermatology notes (p. 56) explain that a pressure ulcer comes from pressure that is not relieved, often combined with friction and shear. Pressure cuts off blood flow, causing ischemia and then necrosis, most often over bony areas such as the sacrum, heels, hips and elbows. Risk factors include poor mobility (for example after a stroke or in Parkinson disease), poor perfusion, malnutrition, moist skin from incontinence or sweating, and diabetes. In the staging list, stage III is full-thickness tissue loss in which subcutaneous fat is visible, while stage IV exposes bone, muscle or tendon. MSD gives the same stages: stage 3 is full-thickness skin loss into the subcutaneous tissue that stops short of the fascia. MSD adds that compression can cause an injury within 3 to 4 hours and that bedbound patients should be turned at least every 2 hours.",
+      "whyWrong": {
+        "b": "A stage 1 pressure injury is intact skin with nonblanchable redness (MSD; your Osmosis dermatology notes, p. 56). This skin is open.",
+        "c": "A stage 2 pressure injury is partial-thickness loss of the dermis with a red wound bed or a blister of serum (your Osmosis dermatology notes, p. 56). Fat is not visible at that stage.",
+        "d": "A stage 4 pressure injury exposes bone, muscle or tendon (MSD; your Osmosis dermatology notes, p. 56). None of these can be seen in this wound.",
+        "e": "An unstageable pressure injury has a base hidden by slough or eschar, so its depth cannot be judged (MSD; your Osmosis dermatology notes, p. 56). This wound base is clean and visible."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Dermatology (Emily's file), Pressure ulcer, p. 56"
+        },
+        {
+          "title": "MSD Manual Professional: Pressure Injuries",
+          "url": "https://www.msdmanuals.com/professional/dermatologic-disorders/pressure-injury/pressure-injuries"
+        }
+      ]
+    },
+    {
+      "id": "path-seborrheic-keratosis-leser-trelat-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Paraneoplastic skin signs: Leser-Trélat sign",
+      "difficulty": 2,
+      "stem": "A 67-year-old has noticed dozens of new tan-to-brown, waxy papules on the back and chest over the past 3 months. They look as if they were stuck onto the skin. The patient also reports feeling full after a few bites and has lost 7 kg (15 lb). A biopsy of one papule shows a benign growth of keratinocytes with small keratin-filled cysts.",
+      "leadIn": "This presentation is most strongly associated with which underlying disease?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Gastric adenocarcinoma"
+        },
+        {
+          "id": "b",
+          "text": "Cutaneous squamous cell carcinoma"
+        },
+        {
+          "id": "c",
+          "text": "Basal cell carcinoma"
+        },
+        {
+          "id": "d",
+          "text": "Kaposi sarcoma"
+        },
+        {
+          "id": "e",
+          "text": "Malignant melanoma"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: gastric adenocarcinoma. Why: Your NBME Top Concepts file (p. 464) describes the seborrheic keratosis as a waxy, stuck-on lesion and a benign neoplasm of older people, with keratin-filled cysts on pathology. It notes that many lesions appearing together are the Leser-Trélat sign, linked to GI adenocarcinoma, and it lists the Leser-Trélat sign with dermatomyositis and acanthosis nigricans as skin findings tied to internal cancer. MSD agrees that a sudden crop of many seborrheic keratoses can be a paraneoplastic sign of cancers such as GI cancer and lymphoma. This patient's early fullness and weight loss point to the stomach. Correction: The Top Concepts page files seborrheic keratosis under precursor lesions, with an arrow to GI adenocarcinoma. The lesion itself does not turn into cancer. MSD states that seborrheic keratoses are not premalignant, and the arrow means the eruption can signal a hidden cancer elsewhere in the body.",
+      "whyWrong": {
+        "b": "Cutaneous squamous cell carcinoma grows from actinic keratosis, the scaly sun-damage lesion shown as its precursor on the same Top Concepts page (p. 464). It does not cause a sudden eruption of benign stuck-on papules.",
+        "c": "Basal cell carcinoma is made of malignant basaloid cells that invade the dermis with clefting around the tumor nests (your Osmosis dermatology notes, p. 26). This biopsy is benign.",
+        "d": "Kaposi sarcoma is a vascular tumor most often seen in people with HIV/AIDS (your Osmosis pathology notes, volume 2, p. 161). It forms purple lesions, not waxy keratin-filled papules.",
+        "e": "Melanoma arises from melanocytes (your Osmosis dermatology notes, p. 26). This biopsy shows benign keratinocytes, and many new keratoses point to an internal cancer rather than a skin cancer."
+      },
+      "sources": [
+        {
+          "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Dermatology: precursor lesions to neoplasia, p. 464"
+        },
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Dermatology (Emily's file), Basal cell carcinoma and melanoma, p. 26"
+        },
+        {
+          "title": "Osmosis High-Yield Pathology Notes, Volume 2 (Emily's file), Kaposi sarcoma, p. 161"
+        },
+        {
+          "title": "MSD Manual Professional: Seborrheic Keratoses",
+          "url": "https://www.msdmanuals.com/professional/dermatologic-disorders/benign-skin-tumors-growths-and-vascular-lesions/seborrheic-keratoses"
+        }
+      ]
+    },
+    {
+      "id": "histo-keloid-excess-collagen-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Wound healing: keloid",
+      "difficulty": 2,
+      "stem": "A 19-year-old with dark skin had both earlobes pierced 6 months ago. Firm, smooth, rubbery nodules have since grown on both earlobes and now extend well beyond the edges of the original piercing sites. One nodule was cut out 2 months ago and has already come back larger than before.",
+      "leadIn": "Microscopy of the excised nodule would most likely show which finding?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Excess collagen and extracellular matrix in the dermis"
+        },
+        {
+          "id": "b",
+          "text": "Nests of atypical melanocytes at the dermal-epidermal junction"
+        },
+        {
+          "id": "c",
+          "text": "Basaloid tumor cells with clefts around the nests"
+        },
+        {
+          "id": "d",
+          "text": "Keratin-filled cysts within a benign epidermal growth"
+        },
+        {
+          "id": "e",
+          "text": "Lymphocytes clustered around the hair bulbs"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: excess collagen and extracellular matrix in the dermis (keloid). Why: MSD describes keloids as smooth overgrowths of fibroblastic tissue that arise where the skin was injured, and under the microscope they show excessive collagen and extracellular matrix. The key clinical feature is that keloid tissue grows beyond the margins of the original wound, while a hypertrophic scar stays within them. Keloids are more common in people with dark skin and tend to form on the earlobes, shoulders, upper arms and front of the chest. Monthly triamcinolone injections into the lesion can flatten it, while cutting it out alone carries a risk that it returns larger than before. Her documents do not cover keloids, so this item relies on MSD.",
+      "whyWrong": {
+        "b": "Nests of atypical melanocytes point to melanoma, a cancer of melanocytes (your Osmosis dermatology notes, p. 26). A keloid is a fibroblast and collagen overgrowth.",
+        "c": "Basaloid cells that invade the dermis with clefting are the picture of basal cell carcinoma (your Osmosis dermatology notes, p. 26).",
+        "d": "Keratin-filled cysts in a benign epidermal growth describe a seborrheic keratosis (your NBME Top Concepts file, p. 464).",
+        "e": "Lymphocytes clustered around the hair bulb are the biopsy finding of alopecia areata (your Osmosis dermatology notes, p. 21)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Dermatology (Emily's file), Melanoma and basal cell carcinoma, p. 26; alopecia areata, p. 21"
+        },
+        {
+          "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Dermatology: seborrheic keratosis, p. 464"
+        },
+        {
+          "title": "MSD Manual Professional: Keloids",
+          "url": "https://www.msdmanuals.com/professional/dermatologic-disorders/benign-skin-tumors,-growths,-and-vascular-lesions/keloids"
+        }
+      ]
+    },
+    {
+      "id": "histo-eccrine-sweat-glands-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Skin histology: eccrine sweat glands",
+      "difficulty": 2,
+      "stem": "A histology slide of skin from the palm shows many coiled tubular glands deep in the dermis. Each gland has a narrow duct that rises through the epidermis and opens directly onto the skin surface as a pore, not into a hair follicle. These glands are found over most of the body and are most numerous on the palms, soles and forehead.",
+      "leadIn": "What is the main function of these glands?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cooling the body by secreting watery sweat"
+        },
+        {
+          "id": "b",
+          "text": "Lubricating hair with a lipid-rich secretion"
+        },
+        {
+          "id": "c",
+          "text": "Making thick sweat that bacteria break down"
+        },
+        {
+          "id": "d",
+          "text": "Forming a hard plate that guards the fingertips"
+        },
+        {
+          "id": "e",
+          "text": "Producing melanin that absorbs ultraviolet light"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: cooling the body by secreting watery sweat. Why: OpenStax Anatomy and Physiology describes eccrine sweat glands as glands found all over the skin, most plentiful on the palms, soles and forehead. Each one has a duct that rises to a pore on the skin surface. Their sweat is hypotonic, mostly water with some salt, plus small amounts of antibodies, waste and the antimicrobial peptide dermcidin. OpenStax calls them a primary part of human thermoregulation. Apocrine glands, by contrast, are larger, lie deeper, cluster in hairy areas such as the armpits and genital region, and empty into hair follicles. Her documents do not cover sweat gland histology, so this item relies on OpenStax.",
+      "whyWrong": {
+        "b": "Sebaceous glands, most of which are attached to hair follicles, make sebum, a lipid mixture that lubricates and waterproofs skin and hair (OpenStax).",
+        "c": "Apocrine glands make a thicker sweat with organic compounds that skin bacteria break down, which causes odor (OpenStax). Their ducts usually empty into hair follicles in the armpits and genital region.",
+        "d": "The nail body is a plate of tightly packed dead cells that protects the fingertips and toe tips (OpenStax). It grows from the nail root, not from a gland.",
+        "e": "Melanin is made by melanocytes, and UV light switches on its production so it can absorb UV and protect the skin (your Osmosis dermatology notes, p. 8). Glands do not make it."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Dermatology (Emily's file), Sunburn and melanin, p. 8"
+        },
+        {
+          "title": "OpenStax Anatomy and Physiology 2e, 5.2 Accessory Structures of the Skin",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-2-accessory-structures-of-the-skin"
+        }
+      ]
+    },
+    {
+      "id": "genetics-xeroderma-pigmentosum-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Genetics",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "DNA repair defects: xeroderma pigmentosum",
+      "difficulty": 2,
+      "stem": "A 6-year-old has had severe sunburns after only a few minutes outdoors since infancy. The child now has heavy freckling on the face and arms, and the eyes are painfully sensitive to light. Two basal cell carcinomas have already been removed from the nose. The parents, who are first cousins, have no skin problems.",
+      "leadIn": "A defect in which process most likely explains this child's condition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nucleotide excision repair"
+        },
+        {
+          "id": "b",
+          "text": "Mismatch repair"
+        },
+        {
+          "id": "c",
+          "text": "Base excision repair"
+        },
+        {
+          "id": "d",
+          "text": "Homologous recombination repair"
+        },
+        {
+          "id": "e",
+          "text": "Nonhomologous end joining"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: nucleotide excision repair. Why: Your El-Husseiny biochemistry notes (p. 19) explain that nucleotide excision repair fixes bulky lesions that distort the DNA helix, works in G1, and is defective in xeroderma pigmentosum, so pyrimidine dimers formed by ultraviolet light are not repaired. The notes (p. 21) add that the most common defect is loss of a UV-specific endonuclease. That enzyme normally recognizes the distortion caused by a thymine dimer and cuts out the damaged single-stranded stretch, which DNA polymerase then refills and ligase seals. Xeroderma pigmentosum is autosomal recessive, which fits healthy parents who are related. MedlinePlus Genetics agrees that about half of affected children burn badly after a few minutes of sun, that almost all have freckling in sun-exposed areas by age 2, that the eyes may be painfully sensitive to light, and that the first skin cancer usually appears before age 10. It lists nucleotide excision repair as the main pathway involved and notes that about 30 percent of patients develop progressive neurologic problems.",
+      "whyWrong": {
+        "b": "Mismatch repair fixes mispaired bases in a newly made strand, mainly in S phase, and its defect causes Lynch syndrome, the hereditary colon cancer syndrome without polyposis (your El-Husseiny biochemistry notes, p. 20). It does not cause sun sensitivity.",
+        "c": "Base excision repair uses a glycosylase to remove a single damaged base, then AP endonuclease, DNA polymerase beta and ligase finish the job (your El-Husseiny biochemistry notes, p. 19). It is not the pathway that removes UV dimers.",
+        "d": "Homologous recombination repairs double-strand breaks using the sister chromosome as a template and is defective with BRCA1 mutations and in Fanconi anemia (your El-Husseiny biochemistry notes, p. 21).",
+        "e": "Nonhomologous end joining rejoins the two ends of a double-strand break without a template and is defective in ataxia-telangiectasia (your El-Husseiny biochemistry notes, p. 21)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), DNA repair, pp. 19-21"
+        },
+        {
+          "title": "MedlinePlus Genetics: Xeroderma pigmentosum",
+          "url": "https://medlineplus.gov/genetics/condition/xeroderma-pigmentosum/"
+        }
+      ]
+    },
+    {
+      "id": "bs-skin-cancer-secondary-prevention-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Behavioral Science",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Disease prevention: levels of prevention for skin cancer",
+      "difficulty": 1,
+      "stem": "A county health department wants to lower deaths from skin cancer in a sunny coastal town where many adults work outdoors. It is considering several programs for the coming year.",
+      "leadIn": "Which of the following programs is an example of secondary prevention?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Skin exams to find early, symptom-free cancers"
+        },
+        {
+          "id": "b",
+          "text": "Counseling teenagers to use broad-spectrum sunscreen"
+        },
+        {
+          "id": "c",
+          "text": "Treating known skin cancers to limit their spread"
+        },
+        {
+          "id": "d",
+          "text": "Avoiding routine scans that will not change care"
+        },
+        {
+          "id": "e",
+          "text": "Wearing protective clothing and hats outdoors"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: skin exams to find early, symptom-free cancers. Why: Your First Aid file (p. 270) defines the levels of prevention. Primary prevention stops a disease before it starts, for example HPV vaccination. Secondary prevention screens for disease that already exists but causes no symptoms yet and manages it early, for example a Pap smear. Tertiary prevention treats an established disease to reduce its complications, for example chemotherapy. Quaternary prevention avoids unnecessary medical interventions, such as needless imaging, to prevent harm. Checking the skin of people with no complaints to find cancers early is screening, so it is secondary prevention. Your Osmosis dermatology notes (p. 9) list the primary steps for preventing sun damage: avoid the peak UV hours of 10 AM to 4 PM, wear long sleeves, long trousers, wide-brimmed hats and sunglasses, and apply broad-spectrum sunscreen to exposed skin. MSD notes that sun avoidance, protective clothing and sunscreen greatly reduce sunburn, and that sunburn raises the risk of basal cell carcinoma, squamous cell carcinoma and melanoma.",
+      "whyWrong": {
+        "b": "Teaching sunscreen use prevents the sun damage that leads to skin cancer before any disease exists, so it is primary prevention (your First Aid file, p. 270; your Osmosis dermatology notes, p. 9).",
+        "c": "Treating an established cancer to reduce its complications is tertiary prevention (your First Aid file, p. 270).",
+        "d": "Avoiding unnecessary tests or treatments to prevent harm is quaternary prevention (your First Aid file, p. 270).",
+        "e": "Protective clothing and hats block UV exposure before disease starts, so this is primary prevention (your First Aid file, p. 270; your Osmosis dermatology notes, p. 9)."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Disease prevention, p. 270"
+        },
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Dermatology (Emily's file), Sunburn prevention, p. 9"
+        },
+        {
+          "title": "MSD Manual Professional: Sunburn",
+          "url": "https://www.msdmanuals.com/professional/dermatologic-disorders/reactions-to-sunlight/sunburn"
+        }
+      ]
+    },
+    {
+      "id": "path-infantile-hemangioma-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Vascular tumors: infantile hemangioma",
+      "difficulty": 2,
+      "stem": "A 4-month-old girl is brought for a well-child visit. Her parents first noticed a small flat pink mark on her cheek when she was 2 weeks old; it was not there at birth. Since then it has grown into a bright red, raised, soft, lobulated plaque 2 cm across. She was born at 32 weeks' gestation with a low birth weight. She is feeding and growing well, and the lesion is not near the eye, not ulcerated and not bleeding. It is her only skin lesion.",
+      "leadIn": "What is the most likely course of this lesion without treatment?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Growth for months, then slow shrinking over years"
+        },
+        {
+          "id": "b",
+          "text": "Growth that keeps pace with the child for life"
+        },
+        {
+          "id": "c",
+          "text": "Spread from the skin to the liver within a year"
+        },
+        {
+          "id": "d",
+          "text": "Malignant change that needs wide surgical excision"
+        },
+        {
+          "id": "e",
+          "text": "Complete fading within the first month of life"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: growth for months, then slow shrinking over years. Why: Your Osmosis pathology notes, volume 2 (p. 149), describe the infantile hemangioma as the most common tumor of infancy, a benign tumor of the endothelial cells that line blood vessels. It appears a few days to weeks after birth, and a lesion that seems to be present at birth is probably something else. Risk factors include female sex, prematurity and low birth weight. The tumor can grow for up to 6 months, and most regress by around age 5, sometimes leaving fibrofatty tissue or skin changes. Superficial lesions are bright red, raised 'strawberry' hemangiomas. Most need no treatment; beta blockers or corticosteroids are used when a lesion threatens function (p. 150). MSD agrees that lesions reach about 80% of their final size by 3 months, start to involute at 12 to 18 months and often regress within the first 3 to 5 years. MSD advises observation for most lesions and oral propranolol for complicated or high-risk ones, such as those that threaten vision or ulcerate.",
+      "whyWrong": {
+        "b": "An infantile hemangioma is a tumor whose growth phase ends within months: MSD says most growth is finished by about 5 months. Your notes add that a lesion that seems to be present at birth is probably not an infantile hemangioma (your Osmosis pathology notes, volume 2, p. 149).",
+        "c": "These tumors do not spread. Many hemangiomas (more than five) in a newborn can mean that hemangiomas are also in the liver, which is why an ultrasound is advised then (your Osmosis pathology notes, volume 2, p. 149). This infant has one lesion.",
+        "d": "Infantile hemangiomas are benign, and complications are usually absent (your Osmosis pathology notes, volume 2, p. 149). MSD says observation is usually the first step.",
+        "e": "These lesions grow during the first months of life and start to shrink only at 12 to 18 months (MSD). This one is still growing at 4 months."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes, Volume 2 (Emily's file), Hemangioma, pp. 149-150"
+        },
+        {
+          "title": "MSD Manual Professional: Infantile Hemangiomas",
+          "url": "https://www.msdmanuals.com/professional/dermatologic-disorders/benign-skin-tumors-growths-and-vascular-lesions/infantile-hemangiomas"
+        }
+      ]
+    },
+    {
+      "id": "path-necrotizing-fasciitis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Skin and soft-tissue infections: necrotizing fasciitis",
+      "difficulty": 2,
+      "stem": "A 42-year-old cut the shin on a garden tool 2 days ago. The leg now hurts so badly that the patient cannot bear weight, although the skin shows only mild redness and swelling with poorly defined borders. Over the next 6 hours the skin turns dusky purple, a few blisters filled with blood-tinged fluid appear, and the area becomes hard and woody. Temperature is 39.5°C (103.1°F), pulse is 128/min and blood pressure is 92/58 mm Hg. Serum creatine kinase is elevated.",
+      "leadIn": "Which is the most appropriate next step in management?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Emergency surgical exploration and debridement"
+        },
+        {
+          "id": "b",
+          "text": "Oral antibiotics and outpatient follow-up"
+        },
+        {
+          "id": "c",
+          "text": "Bedside drainage of the blisters only"
+        },
+        {
+          "id": "d",
+          "text": "Leg elevation, warm compresses and observation"
+        },
+        {
+          "id": "e",
+          "text": "MRI of the leg before any other treatment"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: emergency surgical exploration and debridement (necrotizing fasciitis). Why: Your Osmosis dermatology notes (p. 51) describe necrotizing fasciitis as a life-threatening infection that destroys deep soft tissue, including subcutaneous fat and fascia, as bacteria spread and release exotoxins. Type I is polymicrobial, and type II (p. 52) is a single organism, usually group A Streptococcus. The skin may look normal at first and later becomes warm, violet and woody, with bullae and sometimes crepitus. The key systemic clue is pain out of proportion to the exam, along with fever, a fast pulse and falling blood pressure, and labs may show a raised white count and creatine kinase. MSD agrees that the diagnosis is mainly clinical and that pain out of proportion is a key sign. It says early treatment is mainly surgical, that surgery should not wait for diagnostic tests, and that too little surgery is the most common error. IV broad-spectrum antibiotics and intensive supportive care start at the same time. Even with treatment, MSD gives a mortality of about 20 to 30%.",
+      "whyWrong": {
+        "b": "Outpatient oral treatment does not fit a septic patient with a rapidly spreading deep infection. MSD says treatment is mainly surgical, with IV antibiotics started right away.",
+        "c": "Draining only the blisters leaves the dead fat and fascia behind. MSD calls insufficient surgery the most common error and advises repeated debridement every 1 to 2 days.",
+        "d": "Elevation, compresses and waiting delay the surgery that this infection needs, and MSD says delay worsens the prognosis.",
+        "e": "Imaging such as CT can show gas in the soft tissue (your Osmosis dermatology notes, p. 52; MSD), but MSD says surgery should not be delayed for diagnostic testing in a patient this sick."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Dermatology (Emily's file), Necrotizing fasciitis, pp. 51-52"
+        },
+        {
+          "title": "MSD Manual Professional: Necrotizing Soft-Tissue Infection",
+          "url": "https://www.msdmanuals.com/professional/dermatologic-disorders/bacterial-skin-infections/necrotizing-soft-tissue-infection"
+        }
+      ]
+    },
+    {
+      "id": "bs-abusive-head-trauma-reporting-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Behavioral Science",
+      "system": "Multisystem",
+      "topic": "Child abuse: abusive head trauma and mandatory reporting",
+      "difficulty": 2,
+      "stem": "A 3-month-old is brought to the emergency department for lethargy, vomiting and poor feeding. The father says the infant rolled off a couch onto a carpeted floor that morning. The anterior fontanelle is bulging. CT of the head shows subdural hematomas on both sides. Funduscopy shows many retinal hemorrhages in several layers in both eyes, and a skeletal survey shows healing fractures of the posterior ribs and a metaphyseal fracture of the distal femur.",
+      "leadIn": "In addition to stabilizing the infant, which action is required?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Report suspected abuse to child protective services"
+        },
+        {
+          "id": "b",
+          "text": "Ask the parents for permission before reporting"
+        },
+        {
+          "id": "c",
+          "text": "Discharge home with a clinic follow-up in 1 week"
+        },
+        {
+          "id": "d",
+          "text": "Report only after the father admits to shaking"
+        },
+        {
+          "id": "e",
+          "text": "Keep the findings confidential to protect the family"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: report suspected abuse to child protective services. Why: Your Osmosis pathology notes, volume 2 (p. 614), describe shaken baby syndrome, also called abusive head trauma. Violent shaking throws the infant's head back and forth, and the rotational force tears bridging vessels (causing a subdural hematoma), injures axons and raises intracranial pressure. Signs include retinal hemorrhages in many layers, rib and long-bone fractures, poor feeding, lethargy, vomiting and a bulging fontanelle. The notes (p. 615) give the diagnostic triad as subdural or subarachnoid hemorrhage, metaphyseal fractures and retinal hemorrhage, and they note that suspected abuse must be reported where the law requires it. Your First Aid file (p. 269) says that when a child's injuries do not match the parents' story, the physician should contact child protective services and make sure the child is safe, because physicians must by law report any reasonable suspicion of abuse. MSD agrees that retinal hemorrhages occur in 85 to 90% of abusive head trauma but in fewer than 10% of accidental head injuries, that posterior rib fractures and bucket-handle metaphyseal fractures from shaking should raise concern, and that health professionals are mandated reporters in every US state. A short fall onto carpet does not explain these injuries.",
+      "whyWrong": {
+        "b": "No parental permission is needed to report. MSD says it is appropriate to tell caregivers that a report is being made, and that this may be delayed if telling them would put the child at greater risk.",
+        "c": "Sending the infant home without a report leaves the child in danger. Your First Aid file (p. 269) says to make sure the child is in a safe place.",
+        "d": "The law requires a report when abuse is reasonably suspected, not when it is proven or admitted (your First Aid file, p. 269). MSD adds that a good-faith reporter is protected from liability.",
+        "e": "Abuse of a child is one of the listed exceptions to patient confidentiality (your First Aid file, p. 267)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes, Volume 2 (Emily's file), Shaken baby syndrome, pp. 614-615"
+        },
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Ethics: confidentiality exceptions, p. 267; child abuse, p. 269"
+        },
+        {
+          "title": "MSD Manual Professional: Overview of Child Maltreatment",
+          "url": "https://www.msdmanuals.com/professional/pediatrics/child-maltreatment/overview-of-child-maltreatment"
+        }
+      ]
+    },
+    {
+      "id": "bs-elder-abuse-interview-alone-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Behavioral Science",
+      "system": "Multisystem",
+      "topic": "Elder abuse and neglect: evaluation",
+      "difficulty": 2,
+      "stem": "An 84-year-old with moderate dementia is brought to the clinic by an adult child who is the full-time caregiver. The patient has bruises of different colors on both upper arms, a stage 2 pressure injury on the right heel, dry mucous membranes and poor skin turgor. The caregiver answers every question for the patient and says the patient 'just bruises easily.' The patient looks down and says very little.",
+      "leadIn": "Which is the most appropriate next step?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Interview the patient alone for part of the visit"
+        },
+        {
+          "id": "b",
+          "text": "Confront the caregiver directly about the bruises"
+        },
+        {
+          "id": "c",
+          "text": "Accept the explanation and order a platelet count only"
+        },
+        {
+          "id": "d",
+          "text": "Ask the caregiver to sign consent before any report"
+        },
+        {
+          "id": "e",
+          "text": "Wait for the next visit to see if the bruises recur"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: interview the patient alone for part of the visit. Why: MSD's list of warning signs of elder abuse includes many bruises at different stages of healing, pressure ulcers, poor skin turgor or other signs of dehydration, a caregiver who insists on giving the history, and a withdrawn patient. This patient shows all of them. MSD advises that when abuse is suspected, the patient should be interviewed alone for at least part of the time, other people involved can be interviewed separately, and the caregiver should not be confronted. If abuse is identified or suspected, referral to Adult Protective Services is mandatory in most US states. Your First Aid file (p. 267) lists abuse of children, elderly people and prisoners among the exceptions to patient confidentiality.",
+      "whyWrong": {
+        "b": "MSD advises that confrontation with the caregiver should be avoided. The first step is to talk with the patient alone.",
+        "c": "Bruises of different ages together with a pressure injury, dehydration and a controlling caregiver are warning signs of abuse or neglect (MSD). A platelet count alone would not address them.",
+        "d": "The caregiver's consent is not needed. Suspected elder abuse is an exception to confidentiality (your First Aid file, p. 267), and MSD says referral to Adult Protective Services is mandatory in most states.",
+        "e": "Waiting leaves a vulnerable patient at risk. MSD says the physician should act when abuse is suspected."
+      },
+      "sources": [
+        {
+          "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Ethics: confidentiality exceptions, p. 267"
+        },
+        {
+          "title": "MSD Manual Professional: Elder Abuse",
+          "url": "https://www.msdmanuals.com/professional/geriatrics/elder-abuse/elder-abuse"
+        }
+      ]
+    },
+    {
+      "id": "genetics-mccune-albright-mosaicism-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Genetics",
+      "system": "Multisystem",
+      "topic": "Somatic mosaicism: McCune-Albright syndrome",
+      "difficulty": 3,
+      "stem": "A 5-year-old girl has breast development and episodes of vaginal bleeding. On the right side of her back are two large light-brown patches with jagged, irregular borders, and x-rays show fibrous, bubbly lesions in several bones. No family member has similar findings. Genetic testing of a blood sample finds no mutation, but testing of tissue from a bone lesion finds a mutation that keeps a stimulatory G protein permanently switched on.",
+      "leadIn": "Which genetic mechanism best explains why only some of her tissues carry the mutation?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Somatic mosaicism from a mutation early in development"
+        },
+        {
+          "id": "b",
+          "text": "Germline mutation inherited from an unaffected carrier parent"
+        },
+        {
+          "id": "c",
+          "text": "Genomic imprinting that silences the maternal allele"
+        },
+        {
+          "id": "d",
+          "text": "Uniparental disomy with two copies from one parent"
+        },
+        {
+          "id": "e",
+          "text": "Expansion of a repeat sequence in each generation"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: somatic mosaicism from a mutation early in development (McCune-Albright syndrome). Why: Your El-Husseiny biochemistry notes (p. 84) explain that in somatic mosaicism a mutation arises from an error in mitosis after fertilization and is passed on to the cells of some tissues or organs, so disease appears in the affected person. MedlinePlus Genetics describes McCune-Albright syndrome as polyostotic fibrous dysplasia, café-au-lait spots with irregular borders, and endocrine overactivity such as early puberty in girls. It is caused by a GNAS mutation that leaves a G protein constantly turning on adenylate cyclase, so several hormones are overproduced. MedlinePlus states that the syndrome is not inherited: the mutation happens at random very early in development, so some cells carry it and others do not. That is why a blood test can be negative while a bone lesion is positive.",
+      "whyWrong": {
+        "b": "A mutation passed down through an egg or sperm, even from a parent with gonadal mosaicism (your El-Husseiny biochemistry notes, p. 84), would be in every cell of the child, including blood cells. MedlinePlus says this syndrome is not inherited.",
+        "c": "Imprinting silences one parental copy of a gene by methylation, causing parent-of-origin effects such as Prader-Willi syndrome (your El-Husseiny biochemistry notes, p. 80). It does not explain a mutation found in some tissues and not others.",
+        "d": "Uniparental disomy means receiving both copies of a chromosome from one parent; the cell still has the correct number of chromosomes, and the phenotype is usually normal (your El-Husseiny biochemistry notes, p. 83).",
+        "e": "Repeat expansion causes anticipation, with worse or earlier disease in each generation, as in trinucleotide repeat diseases like Huntington disease (your El-Husseiny biochemistry notes, p. 79). No relative is affected here."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Genetics: anticipation, p. 79; imprinting, p. 80; uniparental disomy, p. 83; mosaicism, p. 84"
+        },
+        {
+          "title": "MedlinePlus Genetics: McCune-Albright syndrome",
+          "url": "https://medlineplus.gov/genetics/condition/mccune-albright-syndrome/"
+        }
+      ]
+    },
+    {
+      "id": "genetics-edwards-syndrome-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Genetics",
+      "system": "Multisystem",
+      "topic": "Autosomal trisomies: Edwards syndrome",
+      "difficulty": 1,
+      "stem": "A newborn is born to a 41-year-old after a pregnancy complicated by poor fetal growth. The infant has a small jaw, a prominent back of the head, low-set ears and clenched fists with the index finger overlapping the middle finger. The soles of the feet are rounded. Echocardiography shows a ventricular septal defect, and a membrane-covered sac of bowel protrudes at the umbilicus.",
+      "leadIn": "Which chromosomal abnormality is most likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Trisomy 18"
+        },
+        {
+          "id": "b",
+          "text": "Trisomy 13"
+        },
+        {
+          "id": "c",
+          "text": "Trisomy 21"
+        },
+        {
+          "id": "d",
+          "text": "Monosomy X"
+        },
+        {
+          "id": "e",
+          "text": "Klinefelter karyotype, 47,XXY"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: trisomy 18 (Edwards syndrome). Why: Your El-Husseiny biochemistry notes (p. 104) call trisomy 18 the second most common autosomal trisomy in live births, after Down syndrome. They sum up its findings with the memory aid PRINCE Edward. The letters stand for a prominent back of the skull, rocker-bottom feet, intellectual disability and nondisjunction as the cause, plus fists held clenched with fingers that overlap, ears set low on the head, a small jaw, heart defects and an omphalocele. Death usually occurs by age 1. The notes (p. 100) add that only trisomies 13, 18 and 21 are compatible with live birth and that most trisomies come from nondisjunction. MedlinePlus Genetics agrees on the poor growth before birth, small jaw, clenched fists with overlapping fingers and heart defects, says only 5 to 10 percent of affected children live past their first year, and notes that the risk rises with maternal age. Other source: Your notes give an incidence of about 1 in 8,000, while MedlinePlus Genetics gives about 1 in 5,000 live births.",
+      "whyWrong": {
+        "b": "Trisomy 13 (Patau syndrome) causes microphthalmia, cleft lip and palate, holoprosencephaly, polydactyly and missing patches of scalp skin (cutis aplasia) (your El-Husseiny biochemistry notes, p. 105). It can also cause rocker-bottom feet and omphalocele, but clenched fists with overlapping fingers and a prominent occiput point to trisomy 18.",
+        "c": "Trisomy 21 causes a flat face, slanted eyes, epicanthal folds, a single palmar crease and a gap between the first two toes, and its heart defects are most often an atrioventricular septal defect or a VSD (your El-Husseiny biochemistry notes, p. 101). Clenched fists with overlapping fingers and an omphalocele are not on that list.",
+        "d": "Monosomy X (Turner syndrome) causes lymphedema, a webbed neck, short stature, streak ovaries, a bicuspid aortic valve and coarctation (your NBME Top Concepts file, p. 345). It does not cause clenched fists or omphalocele.",
+        "e": "Klinefelter syndrome is a sex chromosome aneuploidy, and sex chromosome aneuploidies tend to be much milder than autosomal ones (your El-Husseiny biochemistry notes, p. 100). It does not cause these newborn birth defects."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Aneuploidy, p. 100; Down syndrome, p. 101; Edwards syndrome, p. 104; Patau syndrome, p. 105"
+        },
+        {
+          "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Genetics: Turner syndrome, p. 345"
+        },
+        {
+          "title": "MedlinePlus Genetics: Trisomy 18",
+          "url": "https://medlineplus.gov/genetics/condition/trisomy-18/"
+        }
+      ]
+    },
+    {
+      "id": "genetics-neurofibromatosis-type-1-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Genetics",
+      "system": "Multisystem",
+      "topic": "Neurocutaneous syndromes: neurofibromatosis type 1",
+      "difficulty": 2,
+      "stem": "A 12-year-old has more than ten smooth, light-brown macules on the trunk, freckles in both armpits and several soft, fleshy nodules on the skin. A slit-lamp exam shows small pigmented bumps on both irises that do not affect vision. The parent who brings the child in has many similar skin nodules.",
+      "leadIn": "A mutation in which gene most likely causes this condition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "NF1, which encodes neurofibromin"
+        },
+        {
+          "id": "b",
+          "text": "NF2, which encodes merlin"
+        },
+        {
+          "id": "c",
+          "text": "TSC2, which encodes tuberin"
+        },
+        {
+          "id": "d",
+          "text": "VHL, which encodes the VHL tumor suppressor"
+        },
+        {
+          "id": "e",
+          "text": "GNAQ, which encodes a G-protein subunit"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: NF1, which encodes neurofibromin (neurofibromatosis type 1). Why: Your El-Husseiny neurology notes (p. 181) describe neurofibromatosis type 1 (von Recklinghausen disease) as an autosomal dominant disorder caused by a mutation in the NF1 tumor suppressor gene on chromosome 17. Its features vary widely: café-au-lait spots, neurofibromas made mostly of Schwann cells, optic nerve gliomas, Lisch nodules (pigmented hamartomas of the iris that cause no symptoms), bone problems such as scoliosis, and other tumors such as pheochromocytoma. MedlinePlus Genetics agrees that almost everyone with NF1 has multiple café-au-lait spots, that freckles in the armpits and groin appear later in childhood, and that neurofibromin acts as a tumor suppressor. It adds that about half of cases are inherited from an affected parent and the rest come from new mutations.",
+      "whyWrong": {
+        "b": "NF2 encodes merlin, a tumor suppressor on chromosome 22, and causes bilateral vestibular schwannomas, juvenile cataracts, meningiomas and ependymomas (your El-Husseiny neurology notes, p. 182).",
+        "c": "TSC2 encodes tuberin, and its mutation causes tuberous sclerosis, with cortical tubers, ash-leaf patches, facial angiofibromas, cardiac rhabdomyomas and renal angiomyolipomas (your El-Husseiny neurology notes, p. 180).",
+        "d": "VHL mutations cause von Hippel-Lindau disease, with capillary hemangioblastomas of the retina, brain stem and cerebellum, plus pheochromocytoma and renal cell carcinoma (your El-Husseiny neurology notes, p. 182).",
+        "e": "An activating GNAQ mutation causes Sturge-Weber syndrome, which is sporadic and causes a port-wine stain of the face with leptomeningeal angiomas (your El-Husseiny neurology notes, p. 180). It does not run in families."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Neurocutaneous syndromes, pp. 180-182"
+        },
+        {
+          "title": "MedlinePlus Genetics: Neurofibromatosis type 1",
+          "url": "https://medlineplus.gov/genetics/condition/neurofibromatosis-type-1/"
+        }
+      ]
+    },
+    {
+      "id": "genetics-mitochondrial-heteroplasmy-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Genetics",
+      "system": "Multisystem",
+      "topic": "Mitochondrial inheritance: heteroplasmy",
+      "difficulty": 3,
+      "stem": "A 30-year-old woman has mild exercise intolerance and hearing loss. Her 8-year-old son has seizures, short stature, muscle weakness and repeated episodes of lactic acidosis, while her 5-year-old daughter has only mild muscle weakness. A muscle biopsy from the son shows red ragged fibers. The children's father and his relatives are healthy. Genetic testing finds the same mitochondrial DNA mutation in the mother and both children.",
+      "leadIn": "Which concept best explains the very different severity among these three relatives?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Heteroplasmy"
+        },
+        {
+          "id": "b",
+          "text": "Anticipation"
+        },
+        {
+          "id": "c",
+          "text": "Genomic imprinting"
+        },
+        {
+          "id": "d",
+          "text": "Locus heterogeneity"
+        },
+        {
+          "id": "e",
+          "text": "Uniparental disomy"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: heteroplasmy. Why: Your El-Husseiny biochemistry notes (p. 73) explain that mitochondrial DNA comes from the mother, because the egg has many copies and the few copies in sperm are lost at fertilization. Mitochondrial defects cause lactic acidosis and hit tissues with the highest energy use, such as nerve and muscle, and red ragged fibers appear when abnormal mitochondria collect under the muscle cell membrane. When a cell divides, its mitochondria are shared out at random, so some cells end up with mostly mutant DNA and others with mostly normal DNA. This mixture is called heteroplasmy, and the higher the share of mutant mitochondria, the more severe the disease. That explains why relatives with the same mutation can be so differently affected. MedlinePlus Genetics agrees that cells can hold a mix of mutated and normal mitochondrial DNA, that severity is thought to track the percentage of affected mitochondria, and that organs with high energy needs, such as the heart, brain and muscles, are hit hardest.",
+      "whyWrong": {
+        "b": "Anticipation means the disease gets worse or starts earlier in each generation, typical of trinucleotide repeat diseases (your El-Husseiny biochemistry notes, p. 79). Here the two children in the same generation differ, which anticipation does not explain.",
+        "c": "Imprinting silences one parent's copy of a nuclear gene by methylation, causing parent-of-origin effects (your El-Husseiny biochemistry notes, p. 80). This mutation is in mitochondrial DNA.",
+        "d": "Locus heterogeneity means mutations at different genes can cause a similar disease (your El-Husseiny biochemistry notes, p. 80). This family shares one mutation.",
+        "e": "Uniparental disomy means receiving both copies of a nuclear chromosome from one parent, and it usually causes no disease (your El-Husseiny biochemistry notes, p. 83). Mitochondrial DNA is not a paired chromosome."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Mitochondrial disorders, p. 73; anticipation, p. 79; imprinting and locus heterogeneity, p. 80; uniparental disomy, p. 83"
+        },
+        {
+          "title": "MedlinePlus Genetics: Mitochondrial DNA",
+          "url": "https://medlineplus.gov/genetics/chromosome/mitochondrial-dna/"
+        }
+      ]
+    },
+    {
+      "id": "path-septic-shock-distributive-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Multisystem",
+      "topic": "Shock: septic (distributive) shock",
+      "difficulty": 1,
+      "stem": "A 70-year-old with pyelonephritis becomes confused. Temperature is 39.4°C (102.9°F), pulse is 124/min and blood pressure is 80/42 mm Hg even after 30 mL/kg of IV crystalloid. The hands and feet are warm and flushed. There is no history of trauma or bleeding, the lungs are clear, and bedside ultrasound shows a vigorously contracting left ventricle. Serum lactate is 4.6 mmol/L.",
+      "leadIn": "Which mechanism is most responsible for this patient's low blood pressure?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Arteriolar dilation that lowers vascular resistance"
+        },
+        {
+          "id": "b",
+          "text": "Failure of the left ventricle to pump blood forward"
+        },
+        {
+          "id": "c",
+          "text": "Loss of circulating blood volume from bleeding"
+        },
+        {
+          "id": "d",
+          "text": "Blocked blood flow outside the heart"
+        },
+        {
+          "id": "e",
+          "text": "Loss of sympathetic tone after a spinal cord injury"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: arteriolar dilation that lowers vascular resistance (septic shock). Why: Your Osmosis pathology notes, volume 2 (pp. 122-123), divide shock into hypovolemic, cardiogenic, obstructive and distributive types. Distributive shock causes low blood pressure without low preload, and its main subtype is septic shock, caused by infection, which the notes call the most common form of shock in the United States. The notes (p. 124) add that a preserved or hyperdynamic left ventricle on ultrasound points to distributive shock. MSD explains that infection triggers TNF and IL-1, and that early in septic shock the arteries and arterioles dilate, lowering peripheral resistance while cardiac output usually rises. Because the skin stays warm, this stage is called warm shock. MSD defines septic shock as sepsis with hypotension that needs vasopressors to keep the mean arterial pressure at 65 mm Hg or higher, with a lactate above 2 mmol/L despite enough fluid. Most patients need at least 30 mL/kg of crystalloid in the first 3 hours, and norepinephrine or vasopressin is added if hypotension persists.",
+      "whyWrong": {
+        "b": "Pump failure is cardiogenic shock, which causes low blood pressure with signs of pulmonary edema (your Osmosis pathology notes, volume 2, p. 122). This patient's lungs are clear and the ventricle contracts vigorously.",
+        "c": "Hypovolemic shock comes from lost volume, such as bleeding or other fluid losses, and lowers preload (your Osmosis pathology notes, volume 2, p. 122). There is no bleeding, and the hypotension persisted after a large fluid load.",
+        "d": "Obstructive shock comes from blocked flow outside the heart, as in cardiac tamponade, pulmonary embolism or tension pneumothorax (your Osmosis pathology notes, volume 2, p. 122). Nothing suggests these here.",
+        "e": "Neurogenic shock is a distributive shock that follows a spinal injury, with loss of sensation, paralysis or lost reflexes (your Osmosis pathology notes, volume 2, p. 123). This patient has an infection and no injury."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes, Volume 2 (Emily's file), Shock, pp. 122-124"
+        },
+        {
+          "title": "MSD Manual Professional: Sepsis and Septic Shock",
+          "url": "https://www.msdmanuals.com/professional/critical-care-medicine/sepsis-and-septic-shock/sepsis-and-septic-shock"
+        }
+      ]
+    },
+    {
+      "id": "biochem-methanol-poisoning-formic-acid-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "Multisystem",
+      "topic": "Toxic alcohols: methanol poisoning",
+      "difficulty": 2,
+      "stem": "A 45-year-old is brought to the emergency department 18 hours after drinking a large amount of homemade liquor. The patient reports dim, blurred vision and abdominal pain, and breathing is deep and rapid. Arterial pH is 7.12, serum bicarbonate is 8 mEq/L and the anion gap is 28 mEq/L. Serum lactate and ketones are only mildly elevated.",
+      "leadIn": "Accumulation of which substance is most directly responsible for this patient's vision loss?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Formic acid"
+        },
+        {
+          "id": "b",
+          "text": "Oxalic acid"
+        },
+        {
+          "id": "c",
+          "text": "Acetaldehyde"
+        },
+        {
+          "id": "d",
+          "text": "Lactic acid"
+        },
+        {
+          "id": "e",
+          "text": "Acetoacetic acid"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: formic acid (methanol poisoning). Why: Your El-Husseiny nephrology notes (p. 67) list methanol, through its metabolite formic acid, among the causes of a high anion gap metabolic acidosis, and your Osmosis physiology notes (p. 519) list formic acid from methanol and oxalic acid from antifreeze as swallowed organic acids. Your El-Husseiny biochemistry notes (p. 251) explain that fomepizole blocks alcohol dehydrogenase, the first enzyme in the breakdown, and is the antidote for methanol or ethylene glycol overdose. MSD lists retinal injury, dimmed vision and metabolic acidosis as features of methanol poisoning and gives fomepizole, with hemodialysis as the definitive treatment. Homemade liquor is a classic source of methanol.",
+      "whyWrong": {
+        "b": "Oxalic acid comes from ethylene glycol (antifreeze) (your Osmosis physiology notes, p. 519). The vision loss here points to methanol, which MSD links to retinal injury and dimmed vision.",
+        "c": "Acetaldehyde builds up when disulfiram blocks acetaldehyde dehydrogenase after ethanol use, causing hangover-like symptoms (your El-Husseiny biochemistry notes, p. 251). It does not cause vision loss.",
+        "d": "Lactic acid rises with ethanol metabolism because the high NADH/NAD ratio pushes pyruvate to lactate (your El-Husseiny biochemistry notes, p. 251). This patient's lactate is only mildly raised, so it does not explain the severe acidosis or the vision loss.",
+        "e": "Acetoacetic acid is a ketone that builds up in alcoholic ketoacidosis (your El-Husseiny biochemistry notes, p. 251). Ketones are only mildly elevated here, so they do not explain the severe acidosis or the vision loss."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Nephrology (Emily's file), Anion gap metabolic acidosis, p. 67"
+        },
+        {
+          "title": "Osmosis High-Yield Physiology notes (Emily's file), Metabolic acidosis, p. 519"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Ethanol metabolism and fomepizole, p. 251"
+        },
+        {
+          "title": "MSD Manual Professional: Symptoms and Treatment of Specific Poisons",
+          "url": "https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/specific-poisons"
+        }
+      ]
+    },
+    {
+      "id": "pharm-tca-overdose-sodium-bicarbonate-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Multisystem",
+      "topic": "Toxicology: tricyclic antidepressant overdose",
+      "difficulty": 2,
+      "stem": "A 26-year-old being treated for depression is found confused next to an empty bottle of amitriptyline. Temperature is 38.3°C (100.9°F), pulse is 132/min and blood pressure is 84/50 mm Hg. The skin is dry and flushed, the pupils are dilated and bowel sounds are absent. An ECG shows sinus tachycardia with a QRS duration of 140 ms. During the exam, the patient has a generalized seizure, which is treated with diazepam.",
+      "leadIn": "Which treatment is most appropriate for the cardiac conduction abnormality?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sodium bicarbonate"
+        },
+        {
+          "id": "b",
+          "text": "Flumazenil"
+        },
+        {
+          "id": "c",
+          "text": "Naloxone"
+        },
+        {
+          "id": "d",
+          "text": "Fomepizole"
+        },
+        {
+          "id": "e",
+          "text": "Deferoxamine mesylate"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: intravenous sodium bicarbonate. Why: Your Pharmacology High Yield notes (p. 61) explain that tricyclic antidepressants block histamine, muscarinic and alpha-1 receptors. The muscarinic block causes dry mouth, constipation, tachycardia and urinary retention, and the alpha-1 block causes vasodilation and low blood pressure. TCA poisoning causes arrhythmias, seizures, coma and metabolic acidosis. MSD lists anticholinergic effects and cardiac effects such as QRS widening and impaired conduction, and its treatment is sodium bicarbonate given as a rapid IV injection and repeated as needed to narrow the QRS, keeping the blood pH above 7.45. MSD names diazepam for the seizures.",
+      "whyWrong": {
+        "b": "Flumazenil reverses benzodiazepines, and MSD warns that when tricyclic antidepressants are involved it may bring on seizures. It does nothing for the QRS.",
+        "c": "Naloxone reverses opioid poisoning, which causes pinpoint pupils and slow, shallow breathing (MSD). This patient has dilated pupils and a fast heart rate.",
+        "d": "Fomepizole blocks alcohol dehydrogenase and is the antidote for methanol or ethylene glycol (your El-Husseiny biochemistry notes, p. 251).",
+        "e": "Deferoxamine is the chelator for severe iron poisoning (MSD, Iron Poisoning). It has no role in a tricyclic overdose."
+      },
+      "sources": [
+        {
+          "title": "Pharmacology High Yield (Emily's file), Tricyclic antidepressants and TCA poisoning, PDF p. 61"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Fomepizole, p. 251"
+        },
+        {
+          "title": "MSD Manual Professional: Symptoms and Treatment of Specific Poisons",
+          "url": "https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/specific-poisons"
+        },
+        {
+          "title": "MSD Manual Professional: Iron Poisoning",
+          "url": "https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/iron-poisoning"
+        }
+      ]
     }
   ]
 }
