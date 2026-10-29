@@ -45404,6 +45404,1056 @@
           "title": "First Aid for the USMLE Step 1 (Emily's biostats file), Public Health Sciences: Clinical trial, p. 256"
         }
       ]
+    },
+    {
+      "id": "pharm-aerd-montelukast-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Respiratory",
+      "topic": "Aspirin-exacerbated respiratory disease: leukotriene receptor blockers",
+      "difficulty": 2,
+      "stem": "A 38-year-old woman comes to the emergency department because of wheezing and chest tightness that began 40 minutes after she took ibuprofen for a backache. Her face is flushed and her nose is running. She developed asthma at age 31 and has had nasal polyps removed twice for constant nasal blockage and loss of smell. She had a similar episode last year after taking aspirin for a headache. Her symptoms improve with inhaled albuterol.",
+      "leadIn": "Which of the following drugs most directly blocks the mediators that drive this type of reaction?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Montelukast"
+        },
+        {
+          "id": "b",
+          "text": "Omalizumab"
+        },
+        {
+          "id": "c",
+          "text": "Cetirizine"
+        },
+        {
+          "id": "d",
+          "text": "Cromolyn"
+        },
+        {
+          "id": "e",
+          "text": "Ipratropium"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: montelukast. Why: Adult-onset asthma, nasal polyps and bronchospasm after aspirin or another NSAID form the triad of aspirin-exacerbated respiratory disease (AERD). Your El-Husseiny respiratory notes (p. 71) describe this triad and say it is seen in about 10% of adults with asthma; page 135 says the leukotriene receptor blockers montelukast and zafirlukast are especially useful in aspirin-induced asthma. A review in the Journal of Asthma and Allergy explains why: AERD \"encompasses the triad of asthma, aspirin (or nonsteroidal anti-inflammatory drug) hypersensitivity, and nasal polyposis,\" the \"proinflammatory CysLTs are markedly upregulated in AERD\" while \"prostaglandin E2 (PGE2) is constitutively decreased,\" and \"Aspirin or nonselective NSAIDs further contribute to this dysregulation via COX-1 blockade and forcing arachidonic acid into the leukotriene synthesis pathway.\" Blocking the cysteinyl leukotriene receptor targets that excess.",
+      "whyWrong": {
+        "b": "Omalizumab treats allergic asthma with high IgE levels (your El-Husseiny respiratory notes, p. 136). An NSAID reaction in AERD is driven by a shift in arachidonic acid metabolism, not by IgE against the drug.",
+        "c": "H1 blockers treat histamine-driven symptoms such as hay fever and hives. Histamine is not the main mediator of bronchospasm in AERD, and antihistamines do little for asthma.",
+        "d": "Cromolyn stabilizes mast cells and is used to prevent asthma symptoms, but it is rarely used (your El-Husseiny respiratory notes, p. 136). It does not block the leukotriene receptor, so it does not target the excess leukotrienes of AERD.",
+        "e": "Ipratropium blocks acetylcholine at muscarinic receptors and is used mainly in COPD and as an add-on in severe asthma attacks. Cholinergic tone is not what the NSAID changes in this patient."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Respiratory System (Emily's file), Nasal polyps and aspirin-intolerant asthma, p. 71; leukotriene modifiers, p. 135; anti-IgE and chromones, p. 136"
+        },
+        {
+          "title": "Steinke JW, Wilson JM. Aspirin-exacerbated respiratory disease: pathophysiological insights and clinical advances. J Asthma Allergy 2016;9:37-43",
+          "url": "https://www.dovepress.com/aspirin-exacerbated-respiratory-disease-pathophysiological-insights-an-peer-reviewed-fulltext-article-JAA"
+        }
+      ]
+    },
+    {
+      "id": "path-centriacinar-emphysema-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Respiratory",
+      "topic": "Emphysema: centriacinar pattern in smokers",
+      "difficulty": 2,
+      "stem": "A 63-year-old man comes to the physician because of shortness of breath that has slowly worsened over 4 years. He now gets breathless after walking one block. He has smoked 1.5 packs of cigarettes daily for 45 years. He has a barrel-shaped chest and quiet breath sounds. Spirometry shows an FEV1/FVC ratio of 0.55 that does not improve after a bronchodilator. CT of the chest shows enlarged airspaces that are worst in the upper lobes. Serum alpha-1 antitrypsin level is normal.",
+      "leadIn": "Which of the following best describes the pattern of tissue damage in this patient's lungs?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Damage centered on the respiratory bronchioles of each acinus"
+        },
+        {
+          "id": "b",
+          "text": "Even destruction of the entire acinus from duct to alveolus"
+        },
+        {
+          "id": "c",
+          "text": "Enlargement of the distal airspaces next to the pleura"
+        },
+        {
+          "id": "d",
+          "text": "Irregular airspace enlargement around areas of old scarring"
+        },
+        {
+          "id": "e",
+          "text": "Overinflation of one lobe because of weak bronchial cartilage"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: damage centered on the respiratory bronchioles (centriacinar emphysema). Why: A heavy smoker with irreversible airflow obstruction and emphysema that is worst in the upper lobes, with a normal alpha-1 antitrypsin level, has centriacinar emphysema. Your El-Husseiny respiratory notes (p. 90) name smoking as the leading cause of emphysema, tie heavy smoking to the centriacinar type, and place its worst damage in the upper lobes; page 91 explains that alpha-1 antitrypsin deficiency instead gives panacinar emphysema, worst in the lower lobes, because neutrophil elastase acts unopposed across the whole acinus. MSD agrees: \"cigarette smoking is the primary risk factor in most countries,\" smoking-related damage is \"particularly notable in the upper lobes of the lung,\" and \"Emphysematous changes occurring predominantly in the lung bases suggest alpha-1 antitrypsin deficiency.\" In both, \"Protease activity exceeds antiprotease activity, and tissue destruction and mucus hypersecretion result.\"",
+      "whyWrong": {
+        "b": "Uniform destruction of the whole acinus is panacinar emphysema, the pattern of alpha-1 antitrypsin deficiency, and it is worst in the lower lobes (your El-Husseiny respiratory notes, p. 91). His enzyme level is normal and his disease is apical.",
+        "c": "Distal (paraseptal) emphysema sits along the pleura and septa and is linked to spontaneous pneumothorax in young adults. It is not the typical pattern of a heavy smoker with diffuse upper-lobe disease.",
+        "d": "Irregular emphysema forms around scars from old inflammation. It is common at autopsy but usually causes no symptoms, and it does not explain diffuse, progressive obstruction in a heavy smoker.",
+        "e": "Overinflation of a single lobe from weak bronchial cartilage is congenital lobar emphysema, which presents in infants with breathing trouble, not in a 63-year-old smoker."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Respiratory System (Emily's file), Centriacinar emphysema, p. 90; panacinar emphysema, p. 91"
+        },
+        {
+          "title": "MSD Manual Professional: Chronic Obstructive Pulmonary Disease (COPD)",
+          "url": "https://www.msdmanuals.com/professional/pulmonary-disorders/chronic-obstructive-pulmonary-disease-and-related-disorders/chronic-obstructive-pulmonary-disease-copd"
+        }
+      ]
+    },
+    {
+      "id": "path-bronchial-carcinoid-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Respiratory",
+      "topic": "Bronchial carcinoid tumor: slow growth and good prognosis",
+      "difficulty": 2,
+      "stem": "A 46-year-old woman who has never smoked comes to the physician because of a third episode of pneumonia in the right lower lobe in 18 months. Between episodes she has had a cough and occasional blood-streaked sputum. A localized wheeze is heard over the right lower chest. Bronchoscopy shows a smooth, red, polyp-like mass partly blocking the right lower lobe bronchus. Biopsy shows nests and ribbons of uniform cells with round nuclei, few mitoses and no necrosis; the cells stain positive for chromogranin and synaptophysin.",
+      "leadIn": "Which of the following is most likely true of this tumor?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It grows slowly and resection is often curative"
+        },
+        {
+          "id": "b",
+          "text": "It spreads early and is usually incurable when found"
+        },
+        {
+          "id": "c",
+          "text": "It most often secretes PTH-related peptide"
+        },
+        {
+          "id": "d",
+          "text": "It is strongly linked to prior asbestos exposure"
+        },
+        {
+          "id": "e",
+          "text": "It usually carries a mutation that responds to EGFR inhibitors"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: it grows slowly and resection is often curative. Why: A well-defined endobronchial mass in a young nonsmoker, with nests of uniform neuroendocrine cells (chromogranin and synaptophysin positive), few mitoses and no necrosis, is a typical bronchial carcinoid. Your El-Husseiny respiratory notes (p. 117) say bronchial carcinoid has an excellent prognosis with rare metastasis, causes symptoms through mass effect or carcinoid syndrome, and is made of chromogranin-positive nests of neuroendocrine cells. MSD describes these as \"rare, slow-growing tumors arising from bronchial mucosa\" that \"affect patients in their 40s to 60s\"; besides airway obstruction, \"Recurrent pneumonia, hemoptysis, and chest pain are also common,\" and \"5-year survival for well-differentiated (typical) neuroendocrine lung tumors was > 90%.\"",
+      "whyWrong": {
+        "b": "Early spread and a short survival describe small cell carcinoma, which is also neuroendocrine but arises centrally in heavy smokers and shows sheets of small cells with many mitoses and necrosis (your El-Husseiny respiratory notes, p. 117).",
+        "c": "PTH-related peptide with hypercalcemia is the classic paraneoplastic syndrome of squamous cell carcinoma of the lung, a smoking-related tumor.",
+        "d": "Asbestos exposure is linked to mesothelioma and bronchogenic carcinoma, not to carcinoid tumors.",
+        "e": "EGFR-mutant tumors are adenocarcinomas, often in never-smokers, but they are glandular, not nests of uniform neuroendocrine cells."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Respiratory System (Emily's file), Lung tumors and bronchial carcinoid, p. 117"
+        },
+        {
+          "title": "MSD Manual Professional: Bronchial Carcinoid",
+          "url": "https://www.msdmanuals.com/professional/pulmonary-disorders/tumors-of-the-lungs/bronchial-carcinoid"
+        }
+      ]
+    },
+    {
+      "id": "path-lung-abscess-aspiration-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Respiratory",
+      "topic": "Lung abscess: aspiration of oral anaerobes",
+      "difficulty": 2,
+      "stem": "A 52-year-old man comes to the physician because of cough, fever and night sweats for 3 weeks. He coughs up large amounts of foul-smelling, putrid sputum and has lost 4 kg (9 lb). He drinks about a liter of vodka daily and was found unconscious at home a month ago. His teeth are in poor repair. Temperature is 38.4°C (101.1°F). Chest x-ray shows a thick-walled cavity with an air-fluid level in the superior segment of the right lower lobe.",
+      "leadIn": "Which of the following best explains the cavity?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mixed oral anaerobes carried in with aspirated saliva"
+        },
+        {
+          "id": "b",
+          "text": "Reactivation of dormant Mycobacterium tuberculosis"
+        },
+        {
+          "id": "c",
+          "text": "Staphylococcus aureus seeded from right-sided endocarditis"
+        },
+        {
+          "id": "d",
+          "text": "Central necrosis of a squamous cell carcinoma"
+        },
+        {
+          "id": "e",
+          "text": "An Aspergillus fungus ball growing inside an old cavity"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: mixed oral anaerobes from aspirated saliva. Why: A person with alcohol use disorder who lost consciousness, has poor dental hygiene and now has a thick-walled cavity with an air-fluid level and foul-smelling sputum has an aspiration lung abscess. Your El-Husseiny respiratory notes (p. 80) say aspiration of oral bacteria is the most common cause, that about 90% of abscesses involve at least some anaerobes (such as Peptostreptococcus, Fusobacterium and Bacteroides), and that risk is highest with loss of consciousness or impaired swallowing, as in alcoholism or seizures; page 81 explains why the right lung is favored. MSD says a lung abscess \"is most commonly caused by aspiration of oral secretions in patients who are at risk for aspiration\" and that \"Symptoms are productive cough, fever, night sweats, and weight loss.\"",
+      "whyWrong": {
+        "b": "Reactivation tuberculosis also cavitates and causes night sweats and weight loss, but it favors the apical upper lobes and does not cause putrid, foul-smelling sputum.",
+        "c": "Septic emboli from right-sided endocarditis (as in people who inject drugs) cause many small nodules and cavities in both lungs, not one thick-walled cavity in a dependent segment.",
+        "d": "Squamous cell carcinoma can cavitate in smokers, but this short, febrile illness after a blackout, with putrid sputum, points to infection.",
+        "e": "An aspergilloma grows in a cavity that already existed (for example, from old tuberculosis). It causes hemoptysis more than fever and foul sputum."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Respiratory System (Emily's file), Lung abscess, pp. 80-81"
+        },
+        {
+          "title": "MSD Manual Professional: Lung Abscess",
+          "url": "https://www.msdmanuals.com/professional/pulmonary-disorders/lung-abscess"
+        }
+      ]
+    },
+    {
+      "id": "phys-pulmonary-shunt-o2-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Respiratory",
+      "topic": "Pulmonary shunt: hypoxemia that does not correct with oxygen",
+      "difficulty": 3,
+      "stem": "A 34-year-old woman has shortness of breath on the second day after abdominal surgery. She has been breathing shallowly because of incision pain. On room air, PaO2 is 58 mm Hg and PaCO2 is 36 mm Hg. Chest x-ray shows complete collapse of the left lower lobe with no air entering it. She is given 100% oxygen through a tight-fitting mask, and 20 minutes later her PaO2 is only 66 mm Hg.",
+      "leadIn": "Which of the following best explains why her PaO2 barely rose with oxygen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Blood passing unventilated alveoli never meets the added oxygen"
+        },
+        {
+          "id": "b",
+          "text": "A thickened alveolar wall has slowed oxygen diffusion"
+        },
+        {
+          "id": "c",
+          "text": "Shallow breathing has raised the alveolar carbon dioxide level"
+        },
+        {
+          "id": "d",
+          "text": "Poorly ventilated alveoli are limiting the oxygen uptake"
+        },
+        {
+          "id": "e",
+          "text": "Carbon monoxide bound to hemoglobin is blocking oxygen loading in the lung"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: blood passing unventilated alveoli never meets the added oxygen. Why: The collapsed lobe is still perfused but receives no air, so blood flows through it without picking up oxygen and mixes with oxygenated blood in the left heart. This is a right-to-left intrapulmonary shunt. Your El-Husseiny respiratory notes (p. 62) define a pulmonary shunt as blood that reaches the left heart without being oxygenated, give atelectasis as an example, note the widened A-a gradient, and stress its most important feature: extra oxygen raises the PO2 in ventilated alveoli but barely raises arterial PO2. Your NBME Top Concepts (p. 85) diagrams a shunt: an alveolus with no ventilation that still receives blood. StatPearls (Hypoxia and Hypoxemia) describes shunt as blood that \"bypasses the lungs without oxygenation\" when \"Blood passes through non-ventilated alveoli, such as pneumonia, atelectasis,\" causing \"hypoxemia that proves notably resistant to correction with supplemental oxygen\"; \"oxygenation typically improves in V/Q mismatch but not in cases of shunt physiology.\"",
+      "whyWrong": {
+        "b": "A diffusion barrier (as in pulmonary fibrosis) also widens the A-a gradient, but raising the inspired oxygen speeds diffusion, so PaO2 rises well.",
+        "c": "Hypoventilation lowers PaO2 by raising alveolar CO2, but her PaCO2 is normal, and hypoxemia from hypoventilation corrects easily with oxygen.",
+        "d": "Areas with low but present ventilation (V/Q mismatch) do receive the added oxygen, so PaO2 rises well. StatPearls says oxygenation \"typically improves in V/Q mismatch.\"",
+        "e": "Carbon monoxide lowers oxygen content and saturation, but it does not lower the PaO2. Her low PaO2 and collapsed lobe point to a shunt."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Respiratory System (Emily's file), Pulmonary shunt, p. 62"
+        },
+        {
+          "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), A-a gradient: shunt, p. 85"
+        },
+        {
+          "title": "StatPearls: Hypoxia and Hypoxemia",
+          "url": "https://www.statpearls.com/point-of-care/36622"
+        }
+      ]
+    },
+    {
+      "id": "pharm-theophylline-ciprofloxacin-toxicity-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Respiratory",
+      "topic": "Theophylline toxicity: drug interaction slowing its metabolism",
+      "difficulty": 3,
+      "stem": "A 68-year-old man with COPD is brought to the emergency department after a generalized seizure. For 2 days he has had vomiting, tremor and restlessness, and he has not slept. He has taken the same dose of oral theophylline for 3 years. Four days ago he began ciprofloxacin for a urinary tract infection. Pulse is 138/min and irregular. Serum creatinine is normal. Serum theophylline level is 38 mg/L (target 10 to 20).",
+      "leadIn": "Which of the following best explains his toxicity?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Inhibition of the liver enzymes that clear theophylline"
+        },
+        {
+          "id": "b",
+          "text": "Displacement of theophylline from albumin by ciprofloxacin"
+        },
+        {
+          "id": "c",
+          "text": "Reduced kidney excretion of theophylline during the infection"
+        },
+        {
+          "id": "d",
+          "text": "Induction of liver enzymes that form a toxic metabolite"
+        },
+        {
+          "id": "e",
+          "text": "Additive phosphodiesterase blockade by ciprofloxacin"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: inhibition of the liver enzymes that clear theophylline. Why: A stable theophylline dose became toxic soon after a fluoroquinolone was added. Your El-Husseiny respiratory notes (p. 136) explain that theophylline has a narrow therapeutic index, is metabolized by cytochrome P-450, and that erythromycin, cimetidine and fluoroquinolones raise its toxicity; seizures are the main cause of illness and death in theophylline poisoning, with fast heart rhythms the other major danger. The same page recommends beta-blockers for its fast heart rhythms and benzodiazepines or barbiturates for its seizures. MSD lists theophylline toxicity as \"Wakefulness, restlessness, anorexia, vomiting, dehydration, seizures, tachycardia\" and treatment with \"phenobarbital or diazepam for seizures,\" dialysis for very high levels or seizures, and \"For patients without asthma, possibly a beta-blocker (eg, esmolol).\"",
+      "whyWrong": {
+        "b": "Displacement from albumin briefly raises the free fraction of a drug, but the free drug is then cleared faster. It does not explain a total serum level twice the target range.",
+        "c": "Theophylline is cleared mainly by the liver's cytochrome P-450 system, and his creatinine is normal, so a kidney cause is unlikely.",
+        "d": "Enzyme induction would speed theophylline clearance and lower its level. The interaction here works the other way.",
+        "e": "Theophylline itself works partly by blocking phosphodiesterase (your El-Husseiny respiratory notes, p. 136). The interaction with ciprofloxacin is about slowed metabolism, which is why the serum level is high."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Respiratory System (Emily's file), Methylxanthines and theophylline intoxication, p. 136"
+        },
+        {
+          "title": "MSD Manual Professional: Symptoms and Treatment of Specific Poisons",
+          "url": "https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/specific-poisons"
+        }
+      ]
+    },
+    {
+      "id": "histo-heart-failure-cells-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "Respiratory",
+      "topic": "Lung histology: heart failure cells (hemosiderin-laden macrophages)",
+      "difficulty": 2,
+      "stem": "A 74-year-old man dies in a nursing home, and an autopsy is done. His lungs are heavy, firm and rust-brown. Microscopy shows many alveolar macrophages filled with coarse golden-brown granules. The granules turn deep blue with Prussian blue stain. The alveolar walls are thickened, and the small vessels are congested with blood.",
+      "leadIn": "These findings most strongly suggest that during life he had which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chronically raised pressure in the pulmonary veins"
+        },
+        {
+          "id": "b",
+          "text": "Heavy exposure to coal dust in an underground mine"
+        },
+        {
+          "id": "c",
+          "text": "Repeated blood transfusions for beta-thalassemia major"
+        },
+        {
+          "id": "d",
+          "text": "Recurrent aspiration of oily laxatives or nose drops"
+        },
+        {
+          "id": "e",
+          "text": "Chronic infection with Mycobacterium tuberculosis"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: chronically raised pressure in the pulmonary veins. Why: Golden-brown granules that stain blue with Prussian blue are iron (hemosiderin), so these are hemosiderin-laden alveolar macrophages, the classic heart failure cells. Your El-Husseiny cardiovascular notes (p. 157) explain that red cells leak into the alveoli in chronic lung congestion, their hemoglobin is turned into hemosiderin inside macrophages, Prussian blue detects that iron, and finding these cells in the alveoli means chronically raised pulmonary capillary pressure, most often from left-sided heart failure. A Michigan State University pathology teaching case agrees: \"These hemosiderin-laden macrophages are the classic 'heart failure cells' seen in patients with left heart disease,\" and \"This pigment represents hemosiderin from red blood cells that inevitably escape with the edema fluid.\"",
+      "whyWrong": {
+        "b": "Coal dust makes black, carbon-filled macrophages (anthracosis) that do not stain blue for iron.",
+        "c": "Transfusion iron overload deposits iron in the liver, heart, pancreas and other organs, not mainly as iron-filled macrophages inside the alveoli.",
+        "d": "Aspirated oils give lipoid pneumonia, with macrophages full of clear, foamy fat vacuoles rather than iron pigment.",
+        "e": "Tuberculosis forms caseating granulomas. It does not fill the alveoli with iron-laden macrophages."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Cardiovascular System (Emily's file), Chronic passive congestion of the lung and Prussian blue stain, p. 157"
+        },
+        {
+          "title": "HistoPath-COM (Michigan State University), Autopsy Case 3: Lung",
+          "url": "https://micrscope2024.campusad.msu.edu/Autopsy-COM/Labs/Autopsy/Case03/Autopsy-RES-C03.html"
+        }
+      ]
+    },
+    {
+      "id": "immuno-ipex-foxp3-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Immunology",
+      "system": "Immune System",
+      "topic": "IPEX syndrome: FOXP3 and regulatory T cells",
+      "difficulty": 2,
+      "stem": "A 4-month-old boy is brought to the physician because of severe watery diarrhea since he was 3 weeks old, poor weight gain and an itchy, scaly rash over most of his body. This week he became very thirsty, and his blood glucose is 420 mg/dL with antibodies to pancreatic islet cells. His mother's brother died in infancy of a similar illness. Stool cultures are negative.",
+      "leadIn": "A defect in which of the following cell types best explains this child's condition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "CD4+ CD25+ regulatory T cells"
+        },
+        {
+          "id": "b",
+          "text": "Thymic epithelial cells that express AIRE"
+        },
+        {
+          "id": "c",
+          "text": "Th17 helper cells that recruit neutrophils"
+        },
+        {
+          "id": "d",
+          "text": "Pre-B cells that need Bruton tyrosine kinase"
+        },
+        {
+          "id": "e",
+          "text": "Neutrophils that make superoxide with NADPH oxidase"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: CD4+ CD25+ regulatory T cells. Why: Severe diarrhea in early infancy, eczema-like rash and autoimmune type 1 diabetes in a boy, with an affected maternal uncle, is IPEX syndrome (immune dysregulation, polyendocrinopathy, enteropathy, X-linked). Your El-Husseiny microbiology and immunology notes (p. 415) say regulatory T cells express CD3, CD4, CD25 and FOXP3, make the calming cytokines IL-10 and TGF-beta, and that genetic FOXP3 deficiency causes IPEX with autoimmunity. MedlinePlus Genetics says IPEX \"causes severe diarrhea, which is usually the first symptom of IPEX syndrome,\" type 1 diabetes \"is the most common endocrine disorder present in people with IPEX syndrome,\" \"Mutations in the FOXP3 gene cause IPEX syndrome,\" a protein \"essential for the production and normal function of certain immune cells called regulatory T cells,\" and \"IPEX syndrome is inherited in an X-linked recessive pattern.\"",
+      "whyWrong": {
+        "b": "AIRE defects cause autoimmune polyendocrine syndrome type 1 (hypoparathyroidism, adrenal failure and chronic mucocutaneous candidiasis). It is autosomal recessive and does not usually start with severe diarrhea in the first weeks of life.",
+        "c": "Th17 defects (as in hyper-IgE syndrome) cause skin abscesses and candidiasis, not early autoimmune diabetes and enteropathy.",
+        "d": "Bruton tyrosine kinase defects (X-linked agammaglobulinemia) cause recurrent bacterial infections after maternal antibodies wane, not autoimmunity.",
+        "e": "NADPH oxidase defects (chronic granulomatous disease) cause infections with catalase-positive organisms, not autoimmune diabetes."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Regulatory T cells and IPEX syndrome, p. 415"
+        },
+        {
+          "title": "MedlinePlus Genetics: Immune dysregulation, polyendocrinopathy, enteropathy, X-linked syndrome",
+          "url": "https://medlineplus.gov/genetics/condition/immune-dysregulation-polyendocrinopathy-enteropathy-x-linked-syndrome/"
+        }
+      ]
+    },
+    {
+      "id": "phys-fever-pge2-antipyretic-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Immune System",
+      "topic": "Fever: prostaglandin E2 and the hypothalamic set point",
+      "difficulty": 2,
+      "stem": "A 24-year-old man has had fever, muscle aches and a cough for 2 days during an influenza outbreak. His temperature is 39.4°C (102.9°F), and he is shivering under a blanket even though the room is warm. He takes oral acetaminophen. One hour later he is sweating, his skin is flushed, and his temperature is 37.9°C (100.2°F).",
+      "leadIn": "Acetaminophen lowered his temperature mainly by which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Reduced prostaglandin E2 synthesis in the hypothalamus"
+        },
+        {
+          "id": "b",
+          "text": "Blocking interleukin-1 receptors on hypothalamic neurons"
+        },
+        {
+          "id": "c",
+          "text": "Stopping macrophages from releasing interleukin-6 and TNF"
+        },
+        {
+          "id": "d",
+          "text": "Directly widening skin blood vessels to shed body heat"
+        },
+        {
+          "id": "e",
+          "text": "Blocking leukotriene synthesis from arachidonic acid"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: reduced prostaglandin E2 synthesis in the hypothalamus. Why: Pyrogenic cytokines raise the hypothalamic set point through prostaglandin E2 (PGE2). The body then shivers and conserves heat to reach the new set point. When an antipyretic lowers PGE2, the set point falls and the body sheds heat by sweating and flushing. Your El-Husseiny microbiology and immunology notes (p. 21) explain that bacterial products make macrophages release endogenous pyrogens such as IL-1 and prostaglandins, and that IL-1 acts on the hypothalamus to cause fever; page 444 lists IL-1 and IL-6 as fever cytokines. StatPearls (Physiology, Fever) says fever occurs when \"pyrogens cause an elevation in the body's thermoregulatory set-point,\" that \"PGE2 acts via the EP3 receptor to affect specific neurons within the hypothalamus that aid in thermoregulation,\" and that COX inhibitors work because \"it halts the conversion of AA into PGE2\"; it lists acetaminophen among antipyretics that act by \"inhibiting the enzyme cyclooxygenase (COX).\"",
+      "whyWrong": {
+        "b": "IL-1 is upstream of PGE2, but acetaminophen does not block IL-1 receptors. A recombinant IL-1 receptor blocker (anakinra) is a separate drug.",
+        "c": "Acetaminophen does not stop cytokine release by macrophages. Cytokines keep being made; the drug acts on the PGE2 step that follows.",
+        "d": "The sweating and flushing are the body's response to a lower set point, not a direct drug effect on skin vessels.",
+        "e": "Leukotrienes come from the lipoxygenase pathway and are not the mediators of fever. Acetaminophen acts on cyclooxygenase."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Endotoxin and endogenous pyrogens, p. 21; IL-1 and IL-6, p. 444"
+        },
+        {
+          "title": "StatPearls: Physiology, Fever",
+          "url": "https://www.statpearls.com/point-of-care/21717"
+        }
+      ]
+    },
+    {
+      "id": "immuno-lps-toll-like-receptor-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Immunology",
+      "system": "Immune System",
+      "topic": "Gram-negative septic shock: LPS recognized by toll-like receptors",
+      "difficulty": 2,
+      "stem": "A 61-year-old woman is brought to the emergency department with fever, chills and confusion 3 days after symptoms of a kidney infection began. Temperature is 39.8°C (103.6°F), blood pressure is 78/40 mm Hg, and pulse is 124/min. Her hands are warm. Blood cultures grow lactose-fermenting gram-negative rods. Serum lactate is elevated.",
+      "leadIn": "Her shock began when a molecule from this organism was recognized by which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Toll-like receptors on macrophages"
+        },
+        {
+          "id": "b",
+          "text": "T-cell receptors on many CD4+ T cells at once"
+        },
+        {
+          "id": "c",
+          "text": "IgE antibodies bound to mast cells"
+        },
+        {
+          "id": "d",
+          "text": "MHC class I molecules on infected cells"
+        },
+        {
+          "id": "e",
+          "text": "Complement receptors on red blood cells"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: toll-like receptors on macrophages. Why: Gram-negative rods in the blood with fever and warm, low-pressure shock is endotoxin-driven septic shock. Your El-Husseiny microbiology and immunology notes (p. 21) explain that lipid A, the toxic part of lipopolysaccharide (LPS), activates macrophages and granulocytes to make IL-1, TNF-alpha, prostaglandins and other mediators that cause fever, low blood pressure, leaky vessels and DIC. OpenStax Microbiology says phagocytes recognize shared microbial structures \"called pathogen-associated molecular patterns (PAMPs),\" including \"lipopolysaccharide (LPS) from the outer membrane of gram-negative bacteria,\" through \"the toll-like receptors (TLRs), which bind to various PAMPs and communicate with the nucleus of the phagocyte,\" leading to \"production/secretion of cytokines.\"",
+      "whyWrong": {
+        "b": "Binding many T-cell receptors at once is how superantigens (such as toxic shock syndrome toxin of Staphylococcus aureus) cause shock. Gram-negative rods act through LPS on innate cells instead.",
+        "c": "IgE on mast cells drives anaphylaxis, which follows exposure to an allergen in a sensitized person and usually brings hives and wheezing, not fever with bacteremia.",
+        "d": "MHC class I presents peptides from inside a cell to CD8+ T cells. It does not sense LPS.",
+        "e": "Complement receptors on red cells help clear immune complexes. They do not start the cytokine storm of endotoxin shock."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Endotoxin (lipopolysaccharide), p. 21"
+        },
+        {
+          "title": "OpenStax Microbiology, 17.4 Pathogen Recognition and Phagocytosis",
+          "url": "https://openstax.org/books/microbiology/pages/17-4-pathogen-recognition-and-phagocytosis"
+        }
+      ]
+    },
+    {
+      "id": "immuno-secondary-response-memory-b-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Immunology",
+      "system": "Immune System",
+      "topic": "Secondary immune response: memory B cells",
+      "difficulty": 2,
+      "stem": "A 23-year-old nursing student had three doses of hepatitis B vaccine as an infant. Before starting clinical work, her antibody level to hepatitis B surface antigen is low. She receives one booster dose. Ten days later, the antibody level is many times higher than the peak she reached after her first childhood dose, and most of the antibody is IgG.",
+      "leadIn": "Which of the following best explains the speed and size of this response?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Memory B cells formed after the earlier doses"
+        },
+        {
+          "id": "b",
+          "text": "Naive B cells meeting the antigen for the first time"
+        },
+        {
+          "id": "c",
+          "text": "Antibody given ready-made within the booster vaccine"
+        },
+        {
+          "id": "d",
+          "text": "Long-lived plasma cells that never stopped making antibody"
+        },
+        {
+          "id": "e",
+          "text": "Natural killer cells primed by the earlier doses"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: memory B cells formed after the earlier doses. Why: A booster that produces a quick, large rise of mostly IgG is a secondary (anamnestic) response. Your El-Husseiny microbiology and immunology notes (p. 418) explain that activated B cells become both plasma cells and memory B cells; page 427 says IgG is the main isotype made after IgM, and page 420 notes that IgM leads the primary response. OpenStax Microbiology says the first exposure \"triggers a primary response,\" while \"Subsequent exposures result in a secondary response that is faster and stronger\"; its figure adds that \"the secondary response is faster and provides a much higher concentration of antibody.\"",
+      "whyWrong": {
+        "b": "Naive B cells give a primary response that is slower and smaller and starts with IgM. That is what happened after her first childhood dose, not after the booster.",
+        "c": "Hepatitis B vaccine contains surface antigen, not antibody. Ready-made antibody is hepatitis B immune globulin, which gives passive, short-lived protection.",
+        "d": "Plasma cells that kept making antibody would have kept her level high before the booster. Her level was low, and the sharp rise came from new plasma cells made by memory cells.",
+        "e": "NK cells are innate killers of infected cells. They do not make antibody and are not the source of this antibody response."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), B-cell activation, p. 418; IgM in the primary response, p. 420; antibodies of secondary immune responses, p. 427"
+        },
+        {
+          "title": "OpenStax Microbiology, 18.1 Overview of Specific Adaptive Immunity",
+          "url": "https://openstax.org/books/microbiology/pages/18-1-overview-of-specific-adaptive-immunity"
+        }
+      ]
+    },
+    {
+      "id": "pharm-sirolimus-mtor-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Immune System",
+      "topic": "Sirolimus: mTOR inhibition and its side effects",
+      "difficulty": 3,
+      "stem": "A 47-year-old man who received a kidney transplant 1 year ago is switched to a new maintenance immunosuppressant because of tremor and rising blood glucose on his previous drug. Three months later, fasting cholesterol and triglyceride levels have risen sharply, his platelet count has fallen to 98,000/mm3, and the incision from a hernia repair is slow to heal. Kidney function is stable.",
+      "leadIn": "The new drug most likely acts by which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Blocking mTOR so T cells cannot respond to IL-2"
+        },
+        {
+          "id": "b",
+          "text": "Blocking calcineurin so T cells cannot make IL-2"
+        },
+        {
+          "id": "c",
+          "text": "Blocking IMP dehydrogenase so lymphocytes lack guanine"
+        },
+        {
+          "id": "d",
+          "text": "Blocking the alpha chain (CD25) of the IL-2 receptor"
+        },
+        {
+          "id": "e",
+          "text": "Blocking CD80/CD86 costimulation of T cells"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: blocking mTOR so T cells cannot respond to IL-2. Why: High lipids, low blood counts and poor wound healing after a switch away from a calcineurin inhibitor point to sirolimus. Your El-Husseiny microbiology and immunology notes (p. 482) say sirolimus binds FKBP and inhibits mTOR, so T cells cannot be activated and B cells cannot mature in response to IL-2; it is used to prevent kidney transplant rejection and in drug-eluting stents, and its side effects include pancytopenia, insulin resistance and hyperlipidemia. The same page says the calcineurin inhibitors tacrolimus and cyclosporine instead block IL-2 production. The FDA label says sirolimus \"binds to the immunophilin, FK Binding Protein-12 (FKBP-12),\" and the complex \"binds to and inhibits the activation of the mammalian Target Of Rapamycin (mTOR),\" \"inhibiting the progression from the G1 to the S phase of the cell cycle.\" It also warns of \"Increased serum cholesterol and triglycerides\" and \"Abnormal healing following transplant surgery.\" The FDA label ties its kidney warnings to sirolimus given with cyclosporine; kidney function was better once cyclosporine was stopped.",
+      "whyWrong": {
+        "b": "Calcineurin inhibition is how tacrolimus and cyclosporine work. Tremor and high blood glucose were the reasons he was switched away from such a drug (your El-Husseiny microbiology and immunology notes, p. 482).",
+        "c": "IMP dehydrogenase inhibition is mycophenolate. Its main side effects are bone marrow suppression and GI upset, not a sharp rise in lipids.",
+        "d": "Blocking CD25 is basiliximab, an antibody used mainly at the time of transplant (induction), not as an oral maintenance drug with these effects.",
+        "e": "Blocking CD80/CD86 costimulation is belatacept, an infused fusion protein. It is not linked to high lipids and poor wound healing."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Immunosuppressant drugs: calcineurin inhibitors and sirolimus, p. 482"
+        },
+        {
+          "title": "U.S. FDA prescribing information: Rapamune (sirolimus), 2006",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2006/021083s028%2C021110s036lbl.pdf"
+        }
+      ]
+    },
+    {
+      "id": "path-aa-amyloidosis-rheumatoid-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Multisystem",
+      "topic": "AA amyloidosis in chronic inflammation",
+      "difficulty": 2,
+      "stem": "A 58-year-old woman with rheumatoid arthritis for 22 years, poorly controlled, comes to the physician because of swelling of both legs for 2 months. Her liver and spleen are enlarged. Urine protein excretion is 6 g/day. Serum and urine show no monoclonal protein. A kidney biopsy shows pink, amorphous material in the glomeruli that shows apple-green birefringence under polarized light after Congo red staining.",
+      "leadIn": "The deposited protein most likely comes from which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An acute-phase protein made by the liver"
+        },
+        {
+          "id": "b",
+          "text": "Immunoglobulin light chains from a plasma cell clone"
+        },
+        {
+          "id": "c",
+          "text": "Normal or mutant transthyretin from the liver"
+        },
+        {
+          "id": "d",
+          "text": "Beta-2 microglobulin retained during dialysis"
+        },
+        {
+          "id": "e",
+          "text": "Amyloid precursor protein cleaved in the brain"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: an acute-phase protein made by the liver (serum amyloid A). Why: Years of uncontrolled inflammation, nephrotic-range proteinuria, an enlarged liver and spleen, Congo red-positive deposits and no monoclonal protein point to AA (secondary) amyloidosis. Your NBME Top Concepts (p. 384) links rheumatoid arthritis with apple-green birefringence to AA amyloid, and page 195 lists serum amyloid A as an acute-phase reactant that can lead to amyloidosis. MSD says AA amyloidosis \"is caused by aggregation of isoforms of the acute-phase reactant serum amyloid A,\" lists rheumatoid arthritis first among predisposing inflammatory conditions, says it \"shows a predilection for the kidneys, spleen, liver, adrenal glands, and lymph nodes,\" and says amyloid deposits \"most characteristically have apple-green birefringence under polarized light microscopy after Congo red staining.\" Treatment \"is directed at the underlying infection, inflammatory disease, or cancer.\"",
+      "whyWrong": {
+        "b": "Light-chain (AL) amyloidosis comes from a plasma cell clone, so serum and urine studies usually find a monoclonal protein. She has none, and her long inflammatory disease points to AA instead.",
+        "c": "Transthyretin amyloid (hereditary or wild-type) mainly affects the heart and nerves, often in older men, and is not tied to long-standing inflammation.",
+        "d": "Beta-2 microglobulin amyloid occurs in people on long-term dialysis and deposits in joints and tendons (for example, carpal tunnel syndrome).",
+        "e": "Amyloid-beta from amyloid precursor protein forms plaques in the brain in Alzheimer disease, not kidney deposits."
+      },
+      "sources": [
+        {
+          "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Acute phase reactants, p. 195; rheumatoid arthritis, p. 384"
+        },
+        {
+          "title": "MSD Manual Professional: Amyloidosis",
+          "url": "https://www.msdmanuals.com/professional/hematology/amyloidosis/amyloidosis"
+        }
+      ]
+    },
+    {
+      "id": "path-egpa-churg-strauss-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Multisystem",
+      "topic": "Eosinophilic granulomatosis with polyangiitis",
+      "difficulty": 2,
+      "stem": "A 44-year-old man comes to the physician because of fever, weight loss and weakness of his right foot and left wrist for 2 months. He developed asthma at age 40, and he has nasal polyps and long-standing allergic rhinitis. He has a right foot drop, a left wrist drop and palpable purpura on both legs. Chest x-ray shows patchy infiltrates that have moved since an x-ray 3 weeks ago. Leukocyte count is 14,000/mm3 with 22% eosinophils. Perinuclear ANCA (anti-myeloperoxidase) is positive.",
+      "leadIn": "Which of the following is the most likely diagnosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eosinophilic granulomatosis with polyangiitis"
+        },
+        {
+          "id": "b",
+          "text": "Granulomatosis with polyangiitis (Wegener)"
+        },
+        {
+          "id": "c",
+          "text": "Polyarteritis nodosa"
+        },
+        {
+          "id": "d",
+          "text": "Allergic bronchopulmonary aspergillosis"
+        },
+        {
+          "id": "e",
+          "text": "Idiopathic hypereosinophilic syndrome with organ damage"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: eosinophilic granulomatosis with polyangiitis (EGPA, Churg-Strauss syndrome). Why: Adult-onset asthma, nasal polyps, a high eosinophil count, nerve damage in two separate nerves (mononeuritis multiplex), palpable purpura, shifting lung infiltrates and p-ANCA fit EGPA. Your El-Husseiny cardiovascular notes (p. 185) describe it as a necrotizing granulomatous vasculitis seen with asthma that starts in adulthood, a high eosinophil count and p-ANCA, with allergy and neuropathy as further clues. Your NBME Top Concepts (p. 310) separates it from microscopic polyangiitis: both are p-ANCA positive, but Churg-Strauss has asthma, eosinophilia and granulomas. MSD calls it \"a systemic small- and medium-vessel necrotizing vasculitis\" that \"occurs in people with adult-onset asthma, allergic rhinitis, nasal polyposis, or a combination\"; \"Peripheral blood and tissue eosinophilia is typical,\" \"Multiple mononeuropathy (mononeuritis multiplex) occurs in up to three-fourths of patients,\" and \"Perinuclear ANCA (p-ANCA) with antibodies against myeloperoxidase is the most common result,\" though ANCA is found in only 30% to 40% of cases.",
+      "whyWrong": {
+        "b": "Granulomatosis with polyangiitis involves the sinuses, lungs and kidneys and is usually c-ANCA (anti-PR3) positive, without asthma or marked eosinophilia (your El-Husseiny cardiovascular notes, p. 185).",
+        "c": "Polyarteritis nodosa causes mononeuritis multiplex too, but it spares the lungs, is ANCA negative and is not linked to asthma or eosinophilia.",
+        "d": "Allergic bronchopulmonary aspergillosis causes asthma, eosinophilia and shifting infiltrates, but not vasculitis with purpura, nerve damage and ANCA.",
+        "e": "Hypereosinophilic syndrome can damage the heart and nerves, but it is a diagnosis of exclusion, without asthma, nasal polyps, purpura from vasculitis or ANCA."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Cardiovascular System (Emily's file), Eosinophilic granulomatosis with polyangiitis, p. 185"
+        },
+        {
+          "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), MPA versus Churg-Strauss, p. 310"
+        },
+        {
+          "title": "MSD Manual Professional: Eosinophilic Granulomatosis with Polyangiitis (EGPA)",
+          "url": "https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/vasculitis/eosinophilic-granulomatosis-with-polyangiitis-egpa"
+        }
+      ]
+    },
+    {
+      "id": "micro-brucellosis-dairy-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Multisystem",
+      "topic": "Brucellosis: undulant fever from unpasteurized dairy",
+      "difficulty": 2,
+      "stem": "A 41-year-old man comes to the physician because of fevers that come and go for 6 weeks. Each bout lasts several days and ends with drenching sweats, then returns after a few days of feeling better. He has low back pain, fatigue and a 5-kg (11-lb) weight loss. He returned to Texas 2 months ago after a long stay with relatives on a rural farm in northern Mexico. He has tenderness over the right sacroiliac joint, and his liver and spleen are enlarged. After prolonged incubation, blood cultures grow tiny gram-negative coccobacilli.",
+      "leadIn": "Which of the following exposures most likely caused this illness?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eating cheese made from unpasteurized goat milk"
+        },
+        {
+          "id": "b",
+          "text": "Skinning a wild rabbit after a hunting trip"
+        },
+        {
+          "id": "c",
+          "text": "Wading in flood water contaminated by rat urine"
+        },
+        {
+          "id": "d",
+          "text": "Being bitten by fleas from a dead prairie dog"
+        },
+        {
+          "id": "e",
+          "text": "Eating undercooked homemade pork sausage"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: eating cheese made from unpasteurized goat milk. Why: Fever that rises and falls in waves, heavy sweats, sacroiliac and back pain, liver and spleen enlargement and tiny gram-negative coccobacilli that grow slowly point to brucellosis. Your El-Husseiny microbiology and immunology notes (pp. 114-115) say Brucella melitensis comes from goats (B. abortus from cattle, B. suis from pigs), that unpasteurized dairy products are a major source, that the fever is prolonged and undulant (rising and falling in waves), and that the organism is a facultative intracellular parasite of the reticuloendothelial system that can form granulomas. MSD says \"The most common sources of infection are farm animals and raw dairy products,\" that \"the febrile phase recurs once or repeatedly in waves (undulations),\" that \"Up to 50% of patients have hepatomegaly,\" and that bone infection is \"particularly sacroiliac or vertebral.\" For patients older than 8 years, it lists \"doxycycline plus rifampin, an aminoglycoside (streptomycin or gentamicin), or a fluoroquinolone.\"",
+      "whyWrong": {
+        "b": "Skinning a rabbit spreads Francisella tularensis, which causes an ulcer at the entry site with large regional lymph nodes, not weeks of wave-like fevers with sacroiliitis (your El-Husseiny microbiology notes, p. 112).",
+        "c": "Water contaminated with rat urine spreads Leptospira, a spirochete that causes fever, muscle pain, conjunctival redness and sometimes jaundice with kidney failure (Weil disease).",
+        "d": "Flea bites from rodents spread Yersinia pestis, which causes acute plague with a very painful swollen lymph node (bubo), not a slow, relapsing illness.",
+        "e": "Undercooked pork can carry Trichinella, which causes muscle pain, periorbital swelling and high eosinophil counts, and it would not grow in blood culture."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Tularemia, p. 112; Brucella, pp. 114-115"
+        },
+        {
+          "title": "MSD Manual Professional: Brucellosis",
+          "url": "https://www.msdmanuals.com/professional/infectious-diseases/gram-negative-bacilli/brucellosis"
+        }
+      ]
+    },
+    {
+      "id": "micro-tularemia-ulceroglandular-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Multisystem",
+      "topic": "Tularemia: ulceroglandular disease after skinning a rabbit",
+      "difficulty": 2,
+      "stem": "A 49-year-old man from Arkansas comes to the physician because of fever, headache and a painful sore on his right index finger for 4 days. Five days before the symptoms began, he skinned and cleaned several wild rabbits after a hunt. The finger has a punched-out ulcer with a clean base. Several tender, enlarged lymph nodes are felt in the right armpit, and one is draining pus. Temperature is 39.2°C (102.6°F).",
+      "leadIn": "Which of the following is the most appropriate treatment?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Streptomycin or gentamicin"
+        },
+        {
+          "id": "b",
+          "text": "Oral itraconazole"
+        },
+        {
+          "id": "c",
+          "text": "Intravenous vancomycin"
+        },
+        {
+          "id": "d",
+          "text": "Oral penicillin V"
+        },
+        {
+          "id": "e",
+          "text": "Intravenous ceftriaxone plus azithromycin"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: streptomycin or gentamicin. Why: Fever with a skin ulcer at the entry site and large, draining regional lymph nodes after handling wild rabbits is ulceroglandular tularemia, caused by Francisella tularensis. Your El-Husseiny microbiology and immunology notes (p. 112) list rabbits, deer and rodents as its reservoir and say both tick bites and injury while skinning rabbits cause ulceroglandular disease, with fever, an ulcer at the site and enlarged, necrotic regional nodes. MSD says the organism is a small gram-negative bacillus, \"Hunters, butchers, farmers, and fur handlers are most commonly infected,\" the ulceroglandular form is the most common, and \"Regional lymph nodes enlarge and may suppurate and drain profusely.\" It advises: \"Treat with streptomycin or gentamicin,\" with doxycycline or ciprofloxacin as options for mild to moderate disease. MSD also warns that \"samples and culture media from patients suspected of having tularemia should be handled with extreme caution.\"",
+      "whyWrong": {
+        "b": "Itraconazole treats sporotrichosis, which also causes a hand ulcer with spread along lymphatics, but it follows a thorn or plant injury and comes on slowly without high fever.",
+        "c": "Vancomycin covers MRSA. A staphylococcal abscess could cause a painful sore, but it would not explain the rabbit exposure and ulcer-with-nodes picture of tularemia, and vancomycin does not treat F. tularensis.",
+        "d": "Penicillin treats streptococcal skin infections and syphilis. It is not effective against F. tularensis.",
+        "e": "Ceftriaxone plus azithromycin is a regimen for community-acquired pneumonia. Beta-lactams are not used for tularemia."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Francisella tularensis, p. 112"
+        },
+        {
+          "title": "MSD Manual Professional: Tularemia",
+          "url": "https://www.msdmanuals.com/professional/infectious-diseases/gram-negative-bacilli/tularemia"
+        }
+      ]
+    },
+    {
+      "id": "pharm-beta-blocker-overdose-glucagon-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Multisystem",
+      "topic": "Beta-blocker overdose: glucagon",
+      "difficulty": 2,
+      "stem": "A 35-year-old woman is brought to the emergency department 2 hours after swallowing about 30 of her father's propranolol tablets. She is drowsy and confused. Pulse is 36/min, and blood pressure is 70/40 mm Hg. Blood glucose is 52 mg/dL. ECG shows sinus bradycardia without QRS widening. She does not respond to IV fluids and two doses of IV atropine.",
+      "leadIn": "Which of the following is the most appropriate next drug?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Glucagon"
+        },
+        {
+          "id": "b",
+          "text": "Naloxone"
+        },
+        {
+          "id": "c",
+          "text": "Flumazenil"
+        },
+        {
+          "id": "d",
+          "text": "Digoxin immune Fab"
+        },
+        {
+          "id": "e",
+          "text": "Physostigmine"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: glucagon. Why: Slow heart rate, low blood pressure, low blood glucose and confusion after a propranolol overdose that has not responded to fluids and atropine call for glucagon. Your El-Husseiny cardiovascular notes (p. 222) list saline, atropine and glucagon as the treatment of beta-blocker overdose. MSD lists beta-blocker poisoning as \"Hypotension, bradycardia, seizures, cardiac arrhythmias, hypoglycemia, altered mental status\" and its treatment as including \"glucagon 3–5 mg IV followed by infusion, calcium dichloride, IV insulin and glucose.\" University of Maryland emergency medicine teaching explains that \"Glucagon has the ability to bypass adrenergic blockade from beta and calcium channel blocking agents\" and may raise contractility, heart rate and AV conduction \"through cyclic AMP production,\" because it works through its own receptor rather than the blocked beta receptor; it also warns of a \"high risk of vomiting and subsequent risk of aspiration with administration.\"",
+      "whyWrong": {
+        "b": "Naloxone reverses opioids, which cause drowsiness and slow breathing with small pupils. It does not treat beta blockade.",
+        "c": "Flumazenil reverses benzodiazepines and can provoke seizures. Benzodiazepines do not cause this degree of bradycardia and hypotension.",
+        "d": "Digoxin immune Fab treats digoxin toxicity, which also causes bradycardia but with high potassium and typical arrhythmias, not low glucose after propranolol.",
+        "e": "Physostigmine reverses anticholinergic poisoning (fast heart, hot dry skin, big pupils). It would slow her heart further."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Cardiovascular System (Emily's file), Beta-blockers, p. 222"
+        },
+        {
+          "title": "MSD Manual Professional: Symptoms and Treatment of Specific Poisons",
+          "url": "https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/specific-poisons"
+        },
+        {
+          "title": "University of Maryland School of Medicine, UMEM Educational Pearls: Glucagon for beta-blocker toxicity",
+          "url": "https://www.medschool.umaryland.edu/em/cme/umem-educational-pearls/?id=4152"
+        }
+      ]
+    },
+    {
+      "id": "histo-lipofuscin-brown-atrophy-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Histology & Cell Biology",
+      "system": "Multisystem",
+      "topic": "Lipofuscin: wear-and-tear pigment from lipid peroxidation",
+      "difficulty": 2,
+      "stem": "An 86-year-old man with metastatic pancreatic cancer dies after months of severe weight loss. At autopsy, the heart is small and dark brown. Microscopy shows fine, yellow-brown granules clustered at both ends of the nuclei of the heart muscle cells. The granules do not stain with Prussian blue. Similar granules are seen in the liver cells.",
+      "leadIn": "This pigment forms mainly by which of the following processes?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Free radical peroxidation of membrane lipids"
+        },
+        {
+          "id": "b",
+          "text": "Breakdown of hemoglobin from red cells that leaked out"
+        },
+        {
+          "id": "c",
+          "text": "Synthesis from tyrosine by pigment-producing cells"
+        },
+        {
+          "id": "d",
+          "text": "Folding of proteins into beta-pleated sheets"
+        },
+        {
+          "id": "e",
+          "text": "Precipitation of calcium salts in dying tissue"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: free radical peroxidation of membrane lipids. Why: Fine yellow-brown granules near the nuclei of heart and liver cells in an old, wasted patient, negative for iron, are lipofuscin, the wear-and-tear pigment. Your El-Husseiny cardiovascular notes (p. 179) describe lipofuscin as an insoluble pigment of lipid polymers and protein-bound phospholipids, a marker of aging (the wear-and-tear pigment); it is a fine, yellow-brown pigment around the nucleus that results from free radical damage and lipid peroxidation, and it is often found in the heart and liver of elderly or wasted, undernourished people. PathologyOutlines describes lipochrome (lipofuscin) as \"Breakdown products within cells from oxidation of lipids and lipoproteins\" and lists it among \"“wear and tear” pigments in heart, liver, CNS, adrenal cortex.\"",
+      "whyWrong": {
+        "b": "Hemoglobin breakdown makes hemosiderin, which is iron-rich and stains blue with Prussian blue. These granules did not (your El-Husseiny cardiovascular notes, p. 157).",
+        "c": "Melanin is made from tyrosine by melanocytes. It is found in skin and some neurons, not in heart muscle cells.",
+        "d": "Beta-pleated sheet protein is amyloid, which is pink, amorphous and extracellular, and shows apple-green birefringence with Congo red.",
+        "e": "Calcium salts in dead tissue (dystrophic calcification) look purple-blue with routine stains and are not fine, perinuclear granules."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Cardiovascular System (Emily's file), Aging heart and lipofuscin, p. 179; Prussian blue stain, p. 157"
+        },
+        {
+          "title": "PathologyOutlines.com, Stains: Lipochrome (lipofuscin)",
+          "url": "https://www.pathologyoutlines.com/topic/stainslipochrome.html"
+        }
+      ]
+    },
+    {
+      "id": "path-acute-radiation-syndrome-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Multisystem",
+      "topic": "Acute radiation syndrome: rapidly dividing stem cells",
+      "difficulty": 3,
+      "stem": "A 34-year-old man is accidentally exposed to a radiation source at an industrial sterilization plant; his whole-body dose is later estimated at 4 Gy. Within 2 hours he has nausea and repeated vomiting. Over the next 2 weeks he feels almost normal. He then develops fever, mouth ulcers and bleeding gums. Leukocyte count is 600/mm3, and platelet count is 12,000/mm3.",
+      "leadIn": "Which feature of the tissue that failed made it most vulnerable to radiation?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Constant, rapid division of its stem cells"
+        },
+        {
+          "id": "b",
+          "text": "Iron stores that catalyze free radical formation"
+        },
+        {
+          "id": "c",
+          "text": "A high water content that forms free radicals"
+        },
+        {
+          "id": "d",
+          "text": "A very high rate of oxidative metabolism"
+        },
+        {
+          "id": "e",
+          "text": "A higher radiation dose than other tissues received"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: constant, rapid division of its stem cells. Why: After a whole-body dose of a few gray, the bone marrow fails first, after a quiet latent period, because its stem cells divide constantly and are killed by radiation-induced DNA damage. Your Osmosis metabolic disorders notes (pp. 11-12) explain that rapidly dividing cells are the most vulnerable in acute radiation syndrome and describe its hematopoietic, gastrointestinal, skin and neurovascular forms. The CDC says \"The major cause of this syndrome is depletion of immature parenchymal stem cells in specific tissues,\" noting that \"Stem cells in bone marrow and cells lining GI tract are dying.\" The bone marrow syndrome usually occurs with \"a dose between 0.7 and 10 Gy (70 – 1000 rads).\" In the first (prodromal) stage, \"The classic symptoms for this stage are nausea, vomiting, as well as anorexia,\" and in the latent stage \"the patient looks and feels generally healthy for a few hours or even up to a few weeks.\"",
+      "whyWrong": {
+        "b": "Iron stores do not explain the pattern. The CDC ties the syndrome to the death of immature stem cells in specific tissues, which is why marrow and gut lining fail first.",
+        "c": "Radiation does make free radicals from water, but every soft tissue is mostly water. Water content does not explain why the marrow fails first while neurons and heart muscle are spared.",
+        "d": "Heart muscle and neurons have very high oxidative metabolism, yet they rarely divide and are among the most resistant tissues: the CDC gives about 50 Gy as the usual threshold for the cardiovascular and nervous system syndrome.",
+        "e": "This was a whole-body exposure, so his tissues received about the same dose. The marrow failed first because its stem cells divide often, not because it absorbed more radiation."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Metabolic Disorders (Emily's file), Acute radiation syndrome, pp. 11-12"
+        },
+        {
+          "title": "CDC: Acute Radiation Syndrome: Information for Clinicians",
+          "url": "https://cdc.gov/radiation-emergencies/hcp/clinical-guidance/ars.html"
+        }
+      ]
+    },
+    {
+      "id": "biochem-starvation-ketone-bodies-brain-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "Multisystem",
+      "topic": "Prolonged starvation: the brain shifts to ketone bodies",
+      "difficulty": 2,
+      "stem": "A 30-year-old man on a hunger strike has taken only water and vitamins for 5 weeks. He is thin but alert, and he thinks clearly. Blood glucose is 62 mg/dL. Serum beta-hydroxybutyrate is markedly elevated, and urine nitrogen excretion is lower now than it was in the first week of fasting.",
+      "leadIn": "Which change in brain fuel use best explains his preserved mental function and lower protein breakdown?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Greater use of ketone bodies made by the liver"
+        },
+        {
+          "id": "b",
+          "text": "Direct oxidation of fatty acids from adipose tissue"
+        },
+        {
+          "id": "c",
+          "text": "Greater use of glucose made from fatty acid carbons"
+        },
+        {
+          "id": "d",
+          "text": "Breakdown of glycogen stored in brain astrocytes"
+        },
+        {
+          "id": "e",
+          "text": "Uptake of lactate released by red blood cells"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: greater use of ketone bodies made by the liver. Why: Your El-Husseiny biochemistry notes (p. 224) explain that once liver glycogen runs out, blood glucose is kept up by gluconeogenesis from lactate, glycerol and amino acids such as alanine. With prolonged starvation the body cuts back on gluconeogenesis to conserve protein and relies instead on ketone bodies made in the liver, which become the brain's main energy source. The same page notes that the brain and red cells cannot use free fatty acids and that the brain lacks its own stores of glycogen or fat. OpenStax Anatomy and Physiology says \"Ketones serve as fuel in times of prolonged starvation,\" that tissues \"such as the brain, can actually use ketones as an alternative energy source,\" and names \"β-hydroxybutyrate, the primary ketone body in the blood\"; ketogenesis \"occurs in the mitochondria of liver cells.\"",
+      "whyWrong": {
+        "b": "The brain cannot use free fatty acids as its fuel (your El-Husseiny biochemistry notes, p. 224). The liver must first convert them into ketone bodies.",
+        "c": "Fatty acids are broken down to acetyl-CoA, which is not a source of new glucose; only odd-chain fatty acids (through propionyl-CoA) and the glycerol part of fat are minor exceptions (your El-Husseiny biochemistry notes, pp. 158, 193 and 224).",
+        "d": "Your El-Husseiny biochemistry notes (p. 224) stress that the brain has no glycogen store to rely on, which is why it depends on fuel delivered in the blood.",
+        "e": "Red cells do release lactate that the liver recycles into glucose, but this cannot supply most of the brain's energy over weeks of fasting."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Fatty acids and gluconeogenesis, pp. 158 and 193; fasting and starvation, p. 224"
+        },
+        {
+          "title": "OpenStax Anatomy and Physiology 2e, 24.3 Lipid Metabolism",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/24-3-lipid-metabolism"
+        }
+      ]
     }
   ]
 }
