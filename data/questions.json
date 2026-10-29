@@ -36587,6 +36587,1086 @@
           "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-3-the-pituitary-gland-and-hypothalamus"
         }
       ]
+    },
+    {
+      "id": "micro-tinea-versicolor-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Tinea (pityriasis) versicolor: Malassezia",
+      "difficulty": 1,
+      "stem": "A 23-year-old lifeguard comes to the clinic at the end of summer because of pale patches on the upper back and chest. The patches appeared over several weeks, are finely scaly and do not itch much. They stand out because the skin around them has tanned and the patches have not. A potassium hydroxide (KOH) preparation of scale shows short hyphae mixed with clusters of round yeast cells.",
+      "leadIn": "Which organism is the most likely cause?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Malassezia furfur"
+        },
+        {
+          "id": "b",
+          "text": "Trichophyton rubrum"
+        },
+        {
+          "id": "c",
+          "text": "Microsporum canis"
+        },
+        {
+          "id": "d",
+          "text": "Epidermophyton floccosum"
+        },
+        {
+          "id": "e",
+          "text": "Sporothrix schenckii"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: Malassezia furfur. Why: Your NBME Top Concepts file (Dermatology nomenclature, p. 449) shows pityriasis versicolor as pale patches across the back and labels it an infection of the stratum corneum. Your El-Husseiny microbiology and immunology notes (p. 181) explain the rest. Malassezia furfur is a lipophilic yeast that is part of normal skin flora. It causes pityriasis (tinea) versicolor, which stays in the stratum corneum, and it is not a dermatophyte even though the disease is called tinea. It is most common in hot, humid summer weather. The yeast breaks down skin lipids into acids that damage melanocytes, so the patches are pale or pink, sit mostly on the back and chest, and show up on tanned skin because they do not tan. A KOH mount shows the classic \"spaghetti and meatballs\" picture of hyphae plus yeast. Treatment is a topical or oral antifungal, or selenium sulfide. MSD agrees: the patches favor the trunk and neck, KOH shows hyphae and budding cells, and topical azoles are used, with oral fluconazole kept for extensive disease.",
+      "whyWrong": {
+        "b": "Trichophyton is a dermatophyte, a filamentous mold that infects only skin, hair and nails, and itching is the most common symptom of tinea (your El-Husseiny microbiology and immunology notes, p. 182). The yeast-plus-hyphae KOH picture and the patches that will not tan point to Malassezia instead (p. 181).",
+        "c": "Microsporum is another dermatophyte genus (your El-Husseiny microbiology and immunology notes, p. 182). Dermatophytes are molds, not the lipophilic yeast that causes versicolor (p. 181).",
+        "d": "Epidermophyton is the third dermatophyte genus (your El-Husseiny microbiology and immunology notes, p. 182). It causes itchy tinea, not pale, poorly tanning patches with yeast on KOH.",
+        "e": "Sporothrix is a dimorphic fungus that enters through a thorn prick and forms nodules that ulcerate along the draining lymphatics (your El-Husseiny microbiology and immunology notes, p. 185). It does not cause flat, scaly, pale patches on the trunk."
+      },
+      "sources": [
+        {
+          "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Dermatology nomenclature: pityriasis versicolor, p. 449"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Malassezia furfur, p. 181; dermatophytes, p. 182; Sporothrix, p. 185"
+        },
+        {
+          "title": "MSD Manual Professional: Tinea Versicolor",
+          "url": "https://www.msdmanuals.com/professional/dermatologic-disorders/fungal-skin-infections/tinea-versicolor"
+        }
+      ]
+    },
+    {
+      "id": "pharm-scabies-permethrin-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Scabies: permethrin mechanism",
+      "difficulty": 2,
+      "stem": "A 29-year-old has had an intensely itchy rash for 3 weeks. The itching is worst at night, and the person's partner has started to itch as well. Examination shows small crusted red papules and excoriations on the flexor surfaces of both wrists, the sides of the fingers and the finger webs. A few short, thin, wavy lines are visible between the fingers. Scrapings from these lesions show mites and eggs under the microscope.",
+      "leadIn": "The first-line cream for this condition kills the organism by which mechanism?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Impairing voltage-gated sodium channels in mite nerve cells"
+        },
+        {
+          "id": "b",
+          "text": "Acting on chloride channels in invertebrate nerve and muscle cells"
+        },
+        {
+          "id": "c",
+          "text": "Inhibiting squalene epoxidase in the fungal ergosterol pathway"
+        },
+        {
+          "id": "d",
+          "text": "Binding ergosterol to form pores in the organism's cell membrane"
+        },
+        {
+          "id": "e",
+          "text": "Interfering with microtubules after depositing in new keratin"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: it impairs the mite's voltage-gated sodium channels. Why: Your El-Husseiny microbiology and immunology notes (p. 231) explain that scabies is caused by Sarcoptes scabiei, a mite that tunnels under the skin and passes between people through direct contact. The rash is intensely itchy, often worse at night, and typically affects the inner wrists, the sides of the fingers and the webs between them. The itch is a type IV (delayed) immune reaction against the mite and its eggs and droppings. Linear burrows are the most specific sign, and scrapings that show mites, eggs or feces confirm the diagnosis. First-line treatment is topical permethrin, which blocks mite nerve signaling by impairing voltage-gated sodium channels. The cream covers the body from the neck down to the feet and stays on for 8 to 14 hours. Oral ivermectin is an alternative, and is added to permethrin for crusted scabies. Clothing and bedding should be washed and close contacts treated. MSD agrees that burrows are pathognomonic, that permethrin is the first-line topical drug, and that all close contacts should be treated even without symptoms.",
+      "whyWrong": {
+        "b": "This describes oral ivermectin, which acts on chloride channels in the nerves and muscles of invertebrates (your El-Husseiny microbiology and immunology notes, p. 231). It is an alternative pill, not the first-line cream.",
+        "c": "Inhibiting squalene epoxidase is how terbinafine blocks fungal ergosterol synthesis (your El-Husseiny microbiology and immunology notes, p. 356). Scabies is caused by a mite, not a fungus.",
+        "d": "Binding membrane ergosterol is how the polyenes, amphotericin B and nystatin, act (your El-Husseiny microbiology and immunology notes, p. 355). Mites do not rely on ergosterol, and these are antifungals.",
+        "e": "Depositing in new keratin and disrupting microtubules is how griseofulvin works against dermatophytes (your El-Husseiny microbiology and immunology notes, p. 357). It has no role in scabies."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Sarcoptes scabiei, p. 231; antifungals, pp. 355-357"
+        },
+        {
+          "title": "MSD Manual Professional: Scabies",
+          "url": "https://www.msdmanuals.com/professional/dermatologic-disorders/parasitic-skin-infections/scabies"
+        }
+      ]
+    },
+    {
+      "id": "micro-herpes-zoster-latency-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Herpes zoster: latency in the dorsal root ganglion",
+      "difficulty": 1,
+      "stem": "A 71-year-old has had 3 days of burning pain over the left side of the chest. This morning a band of grouped vesicles on a red base appeared in the same area. The band runs from the spine around to the front of the chest at the level of the nipple and stops at the midline. The patient had chickenpox as a child.",
+      "leadIn": "Before this episode, where was the virus that causes this rash living?",
+      "options": [
+        {
+          "id": "a",
+          "text": "In a single dorsal root sensory ganglion"
+        },
+        {
+          "id": "b",
+          "text": "In the trigeminal ganglion on the left side"
+        },
+        {
+          "id": "c",
+          "text": "In memory B lymphocytes in the blood"
+        },
+        {
+          "id": "d",
+          "text": "In anterior horn motor neurons of the spinal cord"
+        },
+        {
+          "id": "e",
+          "text": "In basal keratinocytes of the affected skin"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: in a single dorsal root sensory ganglion. Why: Your El-Husseiny microbiology and immunology notes (p. 253) explain that herpes zoster (shingles) happens when latent varicella zoster virus (VZV) reactivates within a single dorsal root sensory ganglion. The virus then travels down that sensory nerve and produces a painful vesicular rash in its dermatome. A one-sided rash on a single dermatome in an older adult is most likely zoster, and the thoracic and trigeminal dermatomes are the most common sites. The most common neurologic complication is postherpetic neuralgia, which your notes define as dermatomal pain that lasts more than 1 month after the rash. MSD agrees that the virus reactivates from latency in a dorsal root ganglion, that the rash is usually on one side and does not cross the midline, and that antivirals (acyclovir, famciclovir, valacyclovir) help, especially for patients who are immunocompromised. MSD also recommends the recombinant zoster vaccine for adults 50 and older. Other source: MSD defines postherpetic neuralgia as pain lasting more than 3 months from the last crusted lesion, rather than the 1 month in your notes.",
+      "whyWrong": {
+        "b": "The trigeminal ganglion serves the face, and trigeminal dermatomes are the other common site of shingles (your El-Husseiny microbiology and immunology notes, p. 253). A band around the chest comes from a thoracic dorsal root ganglion.",
+        "c": "Latency in B cells is a feature of Epstein-Barr virus (your El-Husseiny microbiology and immunology notes, p. 254), not of varicella zoster virus.",
+        "d": "Anterior horn motor neurons are the cells damaged in polio, which causes floppy, hyporeflexic paralysis (your El-Husseiny microbiology and immunology notes, p. 268). VZV stays in sensory ganglia, and this patient has pain and a rash, not weakness.",
+        "e": "Skin cells are where the rash appears, but the virus hides between episodes in the sensory ganglion and reaches the skin along the nerve (your El-Husseiny microbiology and immunology notes, p. 253; MSD, Herpes Zoster)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Herpes zoster, p. 253; Epstein-Barr virus, p. 254; polio, p. 268"
+        },
+        {
+          "title": "MSD Manual Professional: Herpes Zoster",
+          "url": "https://www.msdmanuals.com/professional/infectious-diseases/herpesviruses/herpes-zoster"
+        }
+      ]
+    },
+    {
+      "id": "pharm-onychomycosis-terbinafine-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Onychomycosis: terbinafine and squalene epoxidase",
+      "difficulty": 2,
+      "stem": "A 58-year-old with type 2 diabetes has thick, yellow, crumbly nails on both big toes that have slowly worsened over 2 years. The nail plates are lifting from the nail beds, and there is scaling between the toes. A KOH preparation of subungual debris shows branching hyphae, and culture grows Trichophyton rubrum. The physician recommends an oral drug that builds up in the nail and is more effective than the azoles for this infection.",
+      "leadIn": "This drug acts by inhibiting which enzyme?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Squalene epoxidase"
+        },
+        {
+          "id": "b",
+          "text": "Lanosterol 14-alpha-demethylase"
+        },
+        {
+          "id": "c",
+          "text": "Beta-glucan synthase in the fungal wall"
+        },
+        {
+          "id": "d",
+          "text": "Thymidylate synthase after conversion to 5-FU"
+        },
+        {
+          "id": "e",
+          "text": "Fungal topoisomerase II"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: squalene epoxidase (the drug is terbinafine). Why: Your Osmosis dermatology notes (pp. 54-55) describe onychomycosis as a fungal nail infection most often caused by the dermatophyte Trichophyton rubrum, diagnosed with KOH, PAS stain or culture. Terbinafine is the drug of choice for dermatophytes, itraconazole is used for yeast and nondermatophyte molds, and topical efinaconazole is an option. Your El-Husseiny microbiology and immunology notes (p. 356) give the mechanism: terbinafine blocks ergosterol synthesis in the fungal membrane by inhibiting squalene epoxidase, and it may be better than griseofulvin for onychomycosis. MSD agrees that about 65% of cases are due to dermatophytes such as T. rubrum and that the azoles have lower cure rates than terbinafine.",
+      "whyWrong": {
+        "b": "Lanosterol 14-alpha-demethylase is the fungal P450 enzyme blocked by the azoles, such as itraconazole and fluconazole (your El-Husseiny microbiology and immunology notes, p. 355). The stem describes the drug that works better than the azoles (MSD, Onychomycosis).",
+        "c": "Beta-glucan synthesis in the fungal cell wall is blocked by the echinocandins, such as caspofungin and micafungin (your El-Husseiny microbiology and immunology notes, p. 357). They are IV drugs for invasive infections, not nail infections.",
+        "d": "Flucytosine is converted to 5-fluorouracil and blocks fungal DNA and RNA synthesis (your El-Husseiny microbiology and immunology notes, p. 356). It is paired with amphotericin B for cryptococcal meningitis (p. 197), not used for nails.",
+        "e": "None of the antifungal classes in your notes acts on topoisomerase II (your El-Husseiny microbiology and immunology notes, pp. 355-357). The nail drug terbinafine acts on squalene epoxidase (p. 356)."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Dermatology (Emily's file), Onychomycosis, pp. 54-55"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Antifungal drugs, pp. 355-357; Cryptococcus treatment, p. 197"
+        },
+        {
+          "title": "MSD Manual Professional: Onychomycosis",
+          "url": "https://www.msdmanuals.com/professional/dermatologic-disorders/nail-disorders/onychomycosis"
+        }
+      ]
+    },
+    {
+      "id": "micro-kaposi-hhv8-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Kaposi sarcoma: HHV-8 in advanced HIV",
+      "difficulty": 2,
+      "stem": "A 36-year-old man with HIV who has not taken antiretroviral therapy for 3 years has several painless purple plaques on both shins and one on the hard palate. They have grown slowly over 4 months. His CD4 count is 120 cells/mm3. A skin biopsy shows a tumor of spindle-shaped cells forming abnormal small vessels, with lymphocytic inflammation and no neutrophils.",
+      "leadIn": "Which infectious agent is most likely responsible for these lesions?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Human herpesvirus 8"
+        },
+        {
+          "id": "b",
+          "text": "Bartonella henselae"
+        },
+        {
+          "id": "c",
+          "text": "Epstein-Barr virus"
+        },
+        {
+          "id": "d",
+          "text": "Human papillomavirus 16"
+        },
+        {
+          "id": "e",
+          "text": "Cytomegalovirus"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: human herpesvirus 8 (HHV-8). Why: Your El-Husseiny microbiology and immunology notes (p. 260) explain that one HHV-8 gene switches on vascular endothelial growth factor (VEGF), and VEGF directly drives Kaposi sarcoma. Kaposi sarcoma is a tumor of endothelial cells that can involve the skin with or without internal organs, shows lymphocytic inflammation on biopsy, and is seen in HIV/AIDS and in transplant recipients. The opportunistic infection table in the same notes (p. 283) contrasts Kaposi sarcoma, whose biopsy shows lymphocytes, with Bartonella bacillary angiomatosis, whose biopsy shows neutrophils. MSD agrees that Kaposi sarcoma comes from endothelial cells infected by HHV-8, that its lesions are purple, pink, brown or red and can merge into plaques and nodules, that its tumor cells are spindle-shaped, and that HIV-associated disease responds markedly to antiretroviral therapy.",
+      "whyWrong": {
+        "b": "Bartonella henselae causes bacillary angiomatosis in immunocompromised patients, with red-purple papules (your El-Husseiny microbiology and immunology notes, p. 172). Its biopsy shows neutrophilic inflammation, not the lymphocytic pattern here (p. 283).",
+        "c": "EBV is linked to B-cell lymphomas in AIDS, including primary CNS lymphoma (your El-Husseiny microbiology and immunology notes, pp. 256 and 283). It does not cause an endothelial spindle-cell tumor of the skin.",
+        "d": "HPV infects squamous epithelial cells, and types 16 and 18 are tied to cervical cancer (your El-Husseiny microbiology and immunology notes, p. 241). It does not cause a vascular tumor.",
+        "e": "In advanced HIV, cytomegalovirus is the most common cause of visual loss from retinitis (your El-Husseiny microbiology and immunology notes, p. 367). It is not the cause of Kaposi sarcoma, which is HHV-8 (p. 260)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Bartonella, p. 172; HPV, p. 241; EBV in AIDS, p. 256; HHV-8 and Kaposi sarcoma, p. 260; infections in HIV table, p. 283; CMV retinitis, p. 367"
+        },
+        {
+          "title": "MSD Manual Professional: Kaposi Sarcoma",
+          "url": "https://www.msdmanuals.com/professional/oncology/cancers-of-the-skin/kaposi-sarcoma"
+        }
+      ]
+    },
+    {
+      "id": "biochem-porphyria-cutanea-tarda-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Porphyria cutanea tarda: uroporphyrinogen decarboxylase",
+      "difficulty": 2,
+      "stem": "A 52-year-old with chronic hepatitis C who drinks heavily has had blisters and shallow erosions on the backs of both hands for 6 months. The blisters appear after sun exposure and heal with small white cysts and scars. The skin of the hands tears with minor trauma, and there is new dark hair growth on the cheeks. The urine is dark, like tea. There has been no abdominal pain, weakness or confusion.",
+      "leadIn": "Reduced activity of which enzyme best explains this presentation?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Uroporphyrinogen decarboxylase"
+        },
+        {
+          "id": "b",
+          "text": "Porphobilinogen deaminase"
+        },
+        {
+          "id": "c",
+          "text": "Ferrochelatase"
+        },
+        {
+          "id": "d",
+          "text": "Aminolevulinic acid dehydratase"
+        },
+        {
+          "id": "e",
+          "text": "Glucose-6-phosphate dehydrogenase"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: uroporphyrinogen decarboxylase. Why: Your El-Husseiny hematology-oncology notes (p. 59) describe porphyria cutanea tarda (PCT) as the most common porphyria. Uroporphyrinogen decarboxylase is deficient, so uroporphyrin builds up and turns the urine tea-colored. Uroporphyrin absorbs light, which causes blistering photosensitivity and hyperpigmentation. PCT is made worse by alcohol and is associated with hepatitis C, and it is treated with phlebotomy, sun avoidance and antimalarials such as hydroxychloroquine. The same page notes that defects in the later steps of heme synthesis cause skin photosensitivity, while defects in the early steps cause neurovisceral attacks. MSD agrees that PCT comes from hepatic uroporphyrinogen decarboxylase deficiency, usually driven by increased liver iron, with triggers including alcohol, smoking, estrogens, hepatitis C and HIV. It also notes fragile skin on sun-exposed areas, possible facial hypertrichosis, high urine uroporphyrin with normal porphobilinogen, and that the drugs that trigger acute porphyrias do not trigger PCT.",
+      "whyWrong": {
+        "b": "Porphobilinogen deaminase is deficient in acute intermittent porphyria, which causes the 5 P's: painful abdomen, port-wine urine, polyneuropathy, psychological disturbances and attacks precipitated by drugs (your El-Husseiny hematology-oncology notes, p. 58; NBME Top Concepts, p. 186). It does not cause blisters, and this patient has no attacks.",
+        "c": "Ferrochelatase puts iron into protoporphyrin as the final step of heme synthesis, and lead inhibits it (your El-Husseiny hematology-oncology notes, pp. 31 and 33). The picture here is a blistering photosensitive porphyria in a drinker with hepatitis C, which is PCT (p. 59).",
+        "d": "Aminolevulinic acid dehydratase turns ALA into porphobilinogen early in heme synthesis and is inhibited by lead (your El-Husseiny hematology-oncology notes, pp. 31 and 33). Early-step defects cause neurovisceral symptoms, not blistering (p. 59).",
+        "e": "G6PD deficiency causes episodes of hemolysis, not a porphyria (your El-Husseiny hematology-oncology notes, p. 59 lists the porphyria enzymes). It would not cause blisters on sun-exposed skin."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Hematology-Oncology (Emily's file), Heme synthesis, p. 31; lead poisoning, p. 33; acute intermittent porphyria, p. 58; porphyria cutanea tarda, p. 59"
+        },
+        {
+          "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Heme synthesis: acute intermittent porphyria, p. 186"
+        },
+        {
+          "title": "MSD Manual Professional: Porphyria Cutanea Tarda",
+          "url": "https://www.msdmanuals.com/professional/endocrine-and-metabolic-disorders/the-porphyrias/porphyria-cutanea-tarda"
+        }
+      ]
+    },
+    {
+      "id": "path-burn-depth-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Burn depth: superficial partial-thickness",
+      "difficulty": 1,
+      "stem": "A 30-year-old cook spills boiling water on the right forearm. Seen in the emergency department the next day, the burned area is red and moist with several large, fluid-filled blisters. It is very painful to touch and blanches when pressed. Hairs in the area are firmly attached.",
+      "leadIn": "What is the deepest layer of skin involved by this burn?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Papillary dermis"
+        },
+        {
+          "id": "b",
+          "text": "Epidermis only"
+        },
+        {
+          "id": "c",
+          "text": "Reticular dermis"
+        },
+        {
+          "id": "d",
+          "text": "Entire dermis"
+        },
+        {
+          "id": "e",
+          "text": "Muscle and bone"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the papillary dermis, making this a superficial partial-thickness (second-degree) burn. Why: Your Osmosis dermatology notes (burns overview table, p. 4) sort burns by depth. Superficial (first-degree) burns involve only the epidermis and are painful, red and blanchable. Superficial partial-thickness (second-degree) burns extend into the superficial (papillary) dermis; sensation is intact, so they hurt, and they are red, blanchable and form blisters of clear fluid, with hair follicles still present. Deep partial-thickness burns extend into the reticular dermis and are yellow or white with little blanching and no sensation. Full-thickness (third-degree) burns go through the epidermis and dermis and form a stiff, leathery, numb eschar, and fourth-degree burns injure the fat, muscle or bone beneath. The previous page (p. 3) describes the zones of a burn (coagulation, stasis and hyperemia), and p. 4 lists S. aureus, P. aeruginosa and C. albicans as the most common infecting organisms. MSD agrees that superficial partial-thickness burns involve the papillary dermis, blister within 24 hours, blanch with pressure and are painful. Other source: MSD says these burns heal in 1 to 2 weeks, while your notes give 2 to 3 weeks.",
+      "whyWrong": {
+        "b": "Burns limited to the epidermis are red, painful and blanchable (your Osmosis dermatology notes, p. 4), and MSD notes that they do not blister. This burn has large blisters, which first appear at the papillary dermis level.",
+        "c": "Deep partial-thickness burns reach the reticular dermis and are yellow or white, with little blanching and no sensation (your Osmosis dermatology notes, p. 4). This burn is red, very painful and blanches.",
+        "d": "Full-thickness (third-degree) burns go through the whole dermis and leave a stiff, leathery, numb eschar with no hair follicles (your Osmosis dermatology notes, p. 4). This burn is very painful and its hairs are firmly attached.",
+        "e": "Fourth-degree burns injure the fat, muscle or bone under the skin and look black and charred (your Osmosis dermatology notes, p. 4). A painful, blistered, blanching burn is far more superficial."
+      },
+      "sources": [
+        {
+          "title": "Osmosis High-Yield Pathology Notes: Dermatology (Emily's file), Burns: zones of injury, p. 3; complications and burns overview table, p. 4"
+        },
+        {
+          "title": "MSD Manual Professional: Burns",
+          "url": "https://www.msdmanuals.com/professional/injuries-poisoning/burns/burns"
+        }
+      ]
+    },
+    {
+      "id": "pharm-sickle-hydroxyurea-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Sickle cell disease: how hydroxyurea helps",
+      "difficulty": 2,
+      "stem": "A 14-year-old with sickle cell disease has been admitted four times this year for painful vaso-occlusive crises and once for acute chest syndrome. The hematologist starts daily oral hydroxyurea, which over the next months reduces the number of painful crises.",
+      "leadIn": "Which change in the patient's red cells best explains this benefit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "More fetal hemoglobin (HbF), which does not sickle"
+        },
+        {
+          "id": "b",
+          "text": "More hemoglobin S, which carries extra oxygen"
+        },
+        {
+          "id": "c",
+          "text": "Repair of the glutamic acid-to-valine mutation"
+        },
+        {
+          "id": "d",
+          "text": "Stronger splenic removal of sickled red cells"
+        },
+        {
+          "id": "e",
+          "text": "Higher deoxygenated HbS, which keeps the cells round"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: more fetal hemoglobin (HbF). Why: Your NBME Top Concepts file (Sickle cell disease, p. 219) states that hydroxyurea lowers how often and how badly vaso-occlusive crises happen by increasing HbF, and that it inhibits ribonucleotide reductase, which affects pyrimidine synthesis. The previous page (p. 218) gives the mutation: glutamic acid is replaced by valine at the sixth position of the beta chain, inherited as autosomal recessive. Your El-Husseiny hematology-oncology notes (p. 46) explain why HbF helps. HbS polymerizes into needle-like fibers when it gives up its oxygen, and HbF protects against sickling, which is also why babies are protected for the first few months of life. Sickling is made worse by hypoxemia, dehydration and acidosis. MSD agrees that hydroxyurea, by increasing HbF and so reducing sickling, decreases painful crises, acute chest syndrome and transfusion needs.",
+      "whyWrong": {
+        "b": "More HbS would mean more sickling, because HbS is the hemoglobin that polymerizes when deoxygenated (your El-Husseiny hematology-oncology notes, p. 46). Hydroxyurea raises HbF, not HbS (NBME Top Concepts, p. 219).",
+        "c": "Hydroxyurea does not change the gene. The glutamic acid-to-valine substitution in the beta chain stays (NBME Top Concepts, p. 218); the drug acts by inhibiting ribonucleotide reductase and raising HbF (p. 219).",
+        "d": "Repeated sickling and infarction leave the spleen shrunken and fibrotic (autosplenectomy), which raises the risk of encapsulated infections (your El-Husseiny hematology-oncology notes, p. 46). Hydroxyurea does not work by restoring splenic clearance.",
+        "e": "Deoxygenated HbS is exactly what polymerizes and sickles the cell (your El-Husseiny hematology-oncology notes, p. 46; NBME Top Concepts, p. 219). Raising it would make crises worse."
+      },
+      "sources": [
+        {
+          "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Sickle cell disease, pp. 218-219"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Hematology-Oncology (Emily's file), Sickle cell anemia, pp. 45-46"
+        },
+        {
+          "title": "MSD Manual Professional: Sickle Cell Disease",
+          "url": "https://www.msdmanuals.com/professional/hematology-and-oncology/anemias-caused-by-hemolysis/sickle-cell-disease"
+        }
+      ]
+    },
+    {
+      "id": "heme-beta-thalassemia-major-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Beta-thalassemia major: excess alpha chains",
+      "difficulty": 2,
+      "stem": "A 9-month-old whose parents are both of Greek descent is brought in for pallor, poor feeding and a swollen abdomen. The infant was well until about 6 months of age. Examination shows an enlarged liver and spleen. Hemoglobin is 5.8 g/dL with a very low mean corpuscular volume. The blood smear shows small, pale red cells, target cells and nucleated red cells. Hemoglobin electrophoresis shows almost no HbA, with high HbF and HbA2.",
+      "leadIn": "What is the main reason this infant's red cell precursors die in the bone marrow?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Unpaired alpha chains clump and damage the developing red cells"
+        },
+        {
+          "id": "b",
+          "text": "Excess beta chains form HbH tetramers that damage the red cells"
+        },
+        {
+          "id": "c",
+          "text": "IgG autoantibodies coat the red cells and are removed by macrophages"
+        },
+        {
+          "id": "d",
+          "text": "Defects in spectrin or ankyrin make the red cells round and fragile"
+        },
+        {
+          "id": "e",
+          "text": "Lack of dietary iron leaves too little heme for hemoglobin"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: unpaired alpha chains clump and damage the developing red cells. Why: Your El-Husseiny hematology-oncology notes (p. 35) describe beta-thalassemia major (beta-zero/beta-zero) as the most severe form. Mutations in the beta-globin genes on chromosome 11 leave little or no beta chain. High HbF (two alpha plus two gamma chains) protects the baby at first, so symptoms start only after about 6 months, when HbF falls. Without beta chains, the leftover alpha chains form aggregates that damage red cells, causing ineffective erythropoiesis (death of precursors in the marrow) plus extravascular hemolysis in the spleen. The marrow expands, giving a crew-cut skull x-ray, chipmunk facies and extramedullary hematopoiesis with hepatosplenomegaly. The smear shows microcytic, hypochromic cells, target cells and nucleated red cells, and electrophoresis shows little or no HbA with raised HbA2 and HbF. Chronic transfusions are often needed and carry a risk of secondary hemochromatosis. MSD agrees that unpaired globin chains cause hemolysis and ineffective erythropoiesis, that HbF and HbA2 are raised, and that iron overload from transfusion can cause heart failure and needs chelation.",
+      "whyWrong": {
+        "b": "HbH is made of beta-chain tetramers and is seen in alpha-thalassemia with three alpha genes deleted (your El-Husseiny hematology-oncology notes, p. 34). Here the beta chains are missing, so it is the alpha chains that are in excess (p. 35).",
+        "c": "IgG autoantibodies on red cells cause warm autoimmune hemolytic anemia with spherocytes (your El-Husseiny hematology-oncology notes, p. 51). This infant has microcytic target cells and an abnormal electrophoresis, which point to thalassemia (p. 35).",
+        "d": "Spectrin, ankyrin or band 3 defects cause hereditary spherocytosis (your El-Husseiny hematology-oncology notes, p. 44). That gives round cells and a normal electrophoresis, not target cells with high HbF and HbA2.",
+        "e": "Iron deficiency causes a microcytic anemia, but it would not give near-absent HbA with high HbF and HbA2 (your El-Husseiny hematology-oncology notes, p. 35). Transfused thalassemia patients actually risk too much iron (p. 35; MSD, Thalassemias)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Hematology-Oncology (Emily's file), Alpha-thalassemia, p. 34; beta-thalassemia, p. 35; hereditary spherocytosis, p. 44; immunohemolytic anemia, p. 51"
+        },
+        {
+          "title": "MSD Manual Professional: Thalassemias",
+          "url": "https://www.msdmanuals.com/professional/hematology-and-oncology/anemias-caused-by-hemolysis/thalassemias"
+        }
+      ]
+    },
+    {
+      "id": "pharm-heparin-induced-thrombocytopenia-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Heparin-induced thrombocytopenia: next step",
+      "difficulty": 2,
+      "stem": "A 67-year-old has been receiving IV unfractionated heparin for 7 days for a deep vein thrombosis that developed after hip surgery. The platelet count has fallen from 260,000/mm3 on admission to 95,000/mm3. Today the patient has a new cold, painful, pale left foot, and imaging shows an arterial clot. There is no bleeding. A test for antibodies to heparin bound to platelet factor 4 is sent.",
+      "leadIn": "What is the most appropriate change to anticoagulation now?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Stop heparin and start argatroban"
+        },
+        {
+          "id": "b",
+          "text": "Switch from heparin to enoxaparin"
+        },
+        {
+          "id": "c",
+          "text": "Stop heparin and start warfarin alone"
+        },
+        {
+          "id": "d",
+          "text": "Give protamine and stop all anticoagulants"
+        },
+        {
+          "id": "e",
+          "text": "Continue heparin at a lower dose"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: stop all heparin and start a direct thrombin inhibitor such as argatroban. Why: Your El-Husseiny hematology-oncology notes (p. 92) list heparin-induced thrombocytopenia (HIT) among heparin's adverse effects. The patient makes IgG antibodies against heparin bound to platelet factor 4 (PF4). The antibody-heparin-PF4 complex activates platelets, which causes both thrombosis and thrombocytopenia. Their next pages (p. 95) list the direct thrombin inhibitors (bivalirudin, argatroban, dabigatran), which inhibit free and clot-bound thrombin and can be used in HIT. MSD agrees: heparin should be stopped immediately in a patient who becomes thrombocytopenic with a new clot or a platelet drop of more than 50%, and even very low-dose heparin such as line flushes can cause HIT. Low molecular weight heparin cannot be used because most HIT antibodies cross-react with it, and nonheparin options include argatroban, bivalirudin, fondaparinux, apixaban and rivaroxaban. Warfarin should not replace heparin in HIT and should start only after the platelet count recovers.",
+      "whyWrong": {
+        "b": "Enoxaparin is a low molecular weight heparin, and MSD notes that most HIT antibodies cross-react with it, so it cannot be used in HIT (MSD, Thrombocytopenia: Other Causes).",
+        "c": "MSD states that warfarin should not be substituted for heparin in HIT and should be started only after the platelets recover (MSD, Thrombocytopenia: Other Causes).",
+        "d": "Protamine binds heparin and reverses it (your El-Husseiny hematology-oncology notes, p. 92), but this patient is not bleeding. HIT causes new clots (p. 92), so the patient still needs a nonheparin anticoagulant (p. 95).",
+        "e": "Any heparin keeps the antibody-heparin-PF4 complexes forming (your El-Husseiny hematology-oncology notes, p. 92). MSD notes that even very low doses, such as line flushes, can cause HIT, and heparin should be stopped immediately."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Hematology-Oncology (Emily's file), Heparin and HIT, p. 92; direct thrombin inhibitors, p. 95"
+        },
+        {
+          "title": "MSD Manual Professional: Thrombocytopenia: Other Causes (heparin-induced thrombocytopenia)",
+          "url": "https://www.msdmanuals.com/professional/hematology-and-oncology/thrombocytopenia-and-platelet-dysfunction/thrombocytopenia-other-causes"
+        }
+      ]
+    },
+    {
+      "id": "immuno-cold-agglutinin-mycoplasma-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Immunology",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Cold agglutinin hemolysis after Mycoplasma",
+      "difficulty": 2,
+      "stem": "A 20-year-old college student has had 2 weeks of a dry cough, low-grade fever and headache. A chest x-ray shows patchy infiltrates that look worse than the student appears. Over the last few days the student has become tired and pale, the urine has turned dark, and the fingers turn blue in the cold. Hemoglobin is 9.1 g/dL, LDH is high and haptoglobin is low. The blood sample clumps in the tube as it cools. The direct antiglobulin (Coombs) test is positive with anti-C3 and negative with anti-IgG.",
+      "leadIn": "Which class of antibody is most responsible for this hemolysis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "IgM"
+        },
+        {
+          "id": "b",
+          "text": "IgG"
+        },
+        {
+          "id": "c",
+          "text": "IgA"
+        },
+        {
+          "id": "d",
+          "text": "IgE"
+        },
+        {
+          "id": "e",
+          "text": "IgD"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: IgM. Why: Your El-Husseiny hematology-oncology notes (p. 51) divide immune hemolytic anemia into two types. IgM binds red cells and fixes complement in the cooler blood of the hands and feet (a cold agglutinin), which usually causes intravascular hemolysis, and it is associated with Mycoplasma pneumoniae and infectious mononucleosis. IgG binds red cells at the warmer temperature of the body core (a warm agglutinin), and splenic macrophages eat the coated membrane, leaving spherocytes. The direct Coombs test detects antibody already on the red cells. Your El-Husseiny microbiology and immunology notes (p. 170) add that the IgM cold agglutinins made after M. pneumoniae infection cross-react with red cells, and they are, also seen with EBV and blood cancers. MSD agrees that cold agglutinin autoantibodies are almost always IgM, react below 37 C, can cause acrocyanosis, follow mycoplasma pneumonia or infectious mononucleosis, and give a direct antiglobulin test that is positive for C3 and negative for IgG.",
+      "whyWrong": {
+        "b": "IgG is the warm antibody, linked to SLE, CLL and drugs, and it leaves spherocytes after splenic macrophages trim the coated membrane (your El-Husseiny hematology-oncology notes, p. 51). The Coombs test here is negative for IgG.",
+        "c": "IgA is not one of the antibody classes your notes list for immune hemolysis, which are IgG (warm) and IgM (cold) (your El-Husseiny hematology-oncology notes, p. 51).",
+        "d": "IgE causes immediate (type I) hypersensitivity by cross-linking receptors on mast cells (your El-Husseiny microbiology and immunology notes, p. 452). It does not coat red cells in the cold.",
+        "e": "IgD is not among the immune hemolysis antibodies in your notes, which name IgM as the cold agglutinin after Mycoplasma (your El-Husseiny hematology-oncology notes, p. 51; microbiology and immunology notes, p. 170)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Hematology-Oncology (Emily's file), Immunohemolytic anemia, p. 51"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Mycoplasma pneumoniae cold agglutinins, p. 170; type I hypersensitivity, p. 452"
+        },
+        {
+          "title": "MSD Manual Professional: Autoimmune Hemolytic Anemia",
+          "url": "https://www.msdmanuals.com/professional/hematology-and-oncology/anemias-caused-by-hemolysis/autoimmune-hemolytic-anemia"
+        }
+      ]
+    },
+    {
+      "id": "heme-follicular-lymphoma-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Follicular lymphoma: t(14;18) and BCL2",
+      "difficulty": 2,
+      "stem": "A 63-year-old has had painless swollen lymph nodes in the neck, armpits and groin for about 2 years. The nodes have grown and shrunk on their own several times. A lymph node biopsy shows that the normal architecture is replaced by crowded, follicle-like nodules of small B cells that are CD20-positive. The cells in these follicles stain strongly for BCL2 protein, and the B cells are monoclonal.",
+      "leadIn": "Which genetic change is most likely present in the tumor cells?",
+      "options": [
+        {
+          "id": "a",
+          "text": "t(14;18) placing BCL2 next to the Ig heavy chain gene"
+        },
+        {
+          "id": "b",
+          "text": "t(8;14) placing MYC next to the Ig heavy chain gene"
+        },
+        {
+          "id": "c",
+          "text": "t(11;14) placing cyclin D1 next to the Ig heavy chain gene"
+        },
+        {
+          "id": "d",
+          "text": "t(9;22) forming a BCR-ABL fusion tyrosine kinase"
+        },
+        {
+          "id": "e",
+          "text": "JAK2 mutation causing a constantly active kinase"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: t(14;18), which places BCL2 next to the immunoglobulin heavy chain gene. Why: Your El-Husseiny hematology-oncology notes (p. 72) describe follicular lymphoma as a tumor of small CD20-positive B cells that form follicle-like nodules. It presents in late adulthood with widespread painless lymph nodes and an indolent, waxing and waning course. It is driven by t(14;18): BCL2 on chromosome 18 moves to the Ig heavy chain locus on chromosome 14, and the extra Bcl2 protein blocks apoptosis. Treatment is kept for patients with symptoms (low-dose chemotherapy or the anti-CD20 antibody rituximab), and an important complication is transformation to diffuse large B-cell lymphoma, which shows up as a fast-growing node. The same page explains how to tell it from reactive follicular hyperplasia: the node architecture is destroyed, the follicles express Bcl2, and the cells are monoclonal. The National Cancer Institute PDQ agrees that BCL2 rearrangement is present in more than 90% of patients and that overexpressed BCL2 blocks apoptosis, and it describes watchful waiting and rituximab. The SEER database notes that 25 to 35% of patients transform to diffuse large B-cell lymphoma.",
+      "whyWrong": {
+        "b": "t(8;14) moves c-myc next to the Ig heavy chain locus and drives Burkitt lymphoma, an intermediate-sized B-cell tumor (your El-Husseiny hematology-oncology notes, pp. 72-73). It does not cause a slow, waxing and waning illness with Bcl2-positive follicles.",
+        "c": "t(11;14) moves cyclin D1 next to the Ig heavy chain locus and drives mantle cell lymphoma, which expands the mantle zone (your El-Husseiny hematology-oncology notes, p. 73). The follicles here are Bcl2-positive, which fits follicular lymphoma (p. 72).",
+        "d": "t(9;22), the Philadelphia chromosome, makes the BCR-ABL fusion of chronic myeloid leukemia (your El-Husseiny hematology-oncology notes, p. 66). That is a marrow disease, not a nodal B-cell lymphoma.",
+        "e": "JAK2 mutations cause the myeloproliferative neoplasms, such as polycythemia vera (your El-Husseiny hematology-oncology notes, p. 68). They do not cause a B-cell lymphoma of the nodes."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Hematology-Oncology (Emily's file), CML, p. 66; JAK2 and polycythemia vera, p. 68; follicular lymphoma and NHL classes, p. 72; mantle cell and Burkitt lymphoma, p. 73"
+        },
+        {
+          "title": "National Cancer Institute PDQ: Adult Non-Hodgkin Lymphoma Treatment (Health Professional Version), follicular lymphoma",
+          "url": "https://www.cancer.gov/types/lymphoma/hp/adult-nhl-treatment-pdq"
+        },
+        {
+          "title": "SEER Hematopoietic and Lymphoid Neoplasm Database: Follicular lymphoma",
+          "url": "https://seer.cancer.gov/seertools/hemelymph/51f6cf57e3e27c3994bd532a/"
+        }
+      ]
+    },
+    {
+      "id": "pharm-benzocaine-methemoglobinemia-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Benzocaine-induced methemoglobinemia",
+      "difficulty": 2,
+      "stem": "A 28-year-old has an upper endoscopy after the throat is numbed with a benzocaine spray. Thirty minutes later the patient becomes short of breath and light-headed, and the lips and fingertips look blue-gray. Pulse oximetry reads 85% and does not improve with 100% oxygen. An arterial blood gas shows a normal arterial PO2. There is no history of lung or heart disease.",
+      "leadIn": "Which change in the patient's hemoglobin best explains these findings?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Heme iron oxidized from ferrous (Fe2+) to ferric (Fe3+)"
+        },
+        {
+          "id": "b",
+          "text": "Carbon monoxide tightly bound to heme in place of oxygen"
+        },
+        {
+          "id": "c",
+          "text": "Cyanide bound to cytochrome a/a3 in the mitochondria"
+        },
+        {
+          "id": "d",
+          "text": "Glutamic acid replaced by valine in the beta chain"
+        },
+        {
+          "id": "e",
+          "text": "Too little heme from a block in heme synthesis by lead"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the heme iron has been oxidized from ferrous (Fe2+) to ferric (Fe3+), forming methemoglobin. Why: Your El-Husseiny neurology notes (p. 236) list methemoglobinemia as a toxicity of the local anesthetic benzocaine. Your El-Husseiny biochemistry notes (p. 156) explain the chemistry: heme iron is usually held in its reduced, ferrous (Fe2+) form, oxidizing agents such as nitrites turn it into ferric (Fe3+) iron, and this methemoglobin cannot carry oxygen. MedlinePlus lists benzocaine, dapsone, chloroquine and nitrites as causes of acquired methemoglobinemia, describes bluish skin as a symptom, and says severe cases are treated with methylene blue, which may be unsafe in people with G6PD deficiency.",
+      "whyWrong": {
+        "b": "Carbon monoxide is an electron transport chain poison that your notes group with cyanide (your El-Husseiny biochemistry notes, p. 155). The cause here is benzocaine, which oxidizes heme iron (your El-Husseiny neurology notes, p. 236; biochemistry notes, p. 156).",
+        "c": "Cyanide binds cytochrome a/a3 (complex IV) and stops electron transfer to oxygen (your El-Husseiny biochemistry notes, p. 155). Nitrites are an antidote because they make methemoglobin, which binds cyanide (pp. 155-156). It is not what benzocaine does.",
+        "d": "The glutamic acid-to-valine substitution is the inherited sickle cell mutation (your El-Husseiny hematology-oncology notes, p. 45). It would not appear suddenly after a throat spray.",
+        "e": "Lead inhibits ALA dehydratase and ferrochelatase and lowers heme synthesis over time (your El-Husseiny hematology-oncology notes, p. 33). It does not cause sudden cyanosis 30 minutes after a procedure."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Local anesthetics: toxicity, p. 236"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Biochemistry (Emily's file), Electron transport chain inhibitors, p. 155; methemoglobin, p. 156"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Hematology-Oncology (Emily's file), Lead poisoning, p. 33; sickle cell anemia, p. 45"
+        },
+        {
+          "title": "MedlinePlus Medical Encyclopedia: Methemoglobinemia",
+          "url": "https://medlineplus.gov/ency/article/000562.htm"
+        }
+      ]
+    },
+    {
+      "id": "immuno-abo-hemolytic-disease-newborn-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Immunology",
+      "system": "Immune System",
+      "topic": "ABO hemolytic disease of the newborn",
+      "difficulty": 2,
+      "stem": "A term newborn becomes visibly jaundiced 18 hours after birth. This is the mother's first pregnancy. The mother's blood type is O, Rh-positive, and the baby's is A, Rh-positive. The baby has mild anemia, a high unconjugated bilirubin and a weakly positive direct antiglobulin (Coombs) test. Phototherapy is started.",
+      "leadIn": "Why can this condition occur in a first pregnancy, when Rh disease usually does not?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Type O mothers already have IgG anti-A and anti-B that can cross the placenta"
+        },
+        {
+          "id": "b",
+          "text": "Type O mothers make IgM anti-A, which crosses the placenta more easily than IgG"
+        },
+        {
+          "id": "c",
+          "text": "The mother was sensitized to the D antigen during this delivery and made anti-D"
+        },
+        {
+          "id": "d",
+          "text": "Maternal cytotoxic T cells cross the placenta and attack the fetal red cells"
+        },
+        {
+          "id": "e",
+          "text": "The fetal liver makes antibodies against the A antigen on its own red cells"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: type O mothers already have IgG anti-A and anti-B, which can cross the placenta. Why: Your El-Husseiny microbiology and immunology notes (p. 455) explain that in mothers with blood type A or B, the natural anti-A and anti-B antibodies are IgM, which cannot cross the placenta, so ABO hemolytic disease does not occur. In type O mothers, these antibodies are mostly IgG, which can cross and cause fetal hemolysis. Unlike Rh disease, ABO disease can affect a first baby, since anti-A and anti-B appear in early childhood after exposure to A-like and B-like antigens in foods, bacteria and viruses. A type A or B baby with a type O mother occurs in about 15% of pregnancies, but hemolytic disease occurs in only about 3% of these. The previous page (p. 454) explains Rh disease: the Rh-negative mother first meets fetal Rh-positive cells at delivery, makes memory B cells, and attacks a later Rh-positive fetus with IgG anti-D, which RhoGAM prevents. MedlinePlus agrees that an ABO mismatch is the most frequent cause and is usually mild, and that it is treated with phototherapy, or exchange transfusion in severe cases.",
+      "whyWrong": {
+        "b": "IgM cannot cross the placenta, which is exactly why mothers with type A or B blood do not cause ABO disease (your El-Husseiny microbiology and immunology notes, p. 455). It is the IgG of type O mothers that crosses.",
+        "c": "Sensitization to D at delivery is how Rh disease starts in an Rh-negative mother, and it harms a later pregnancy (your El-Husseiny microbiology and immunology notes, p. 454). This mother is Rh-positive, and the problem is ABO.",
+        "d": "Hemolytic disease of the newborn is a type II reaction in which maternal IgG crosses the placenta and binds fetal red cells (your El-Husseiny microbiology and immunology notes, pp. 453-454). It is antibody-mediated, not T-cell mediated.",
+        "e": "The harmful antibodies come from the mother, whose IgG crosses the placenta (your El-Husseiny microbiology and immunology notes, p. 455). The fetus is not attacking its own red cells."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Type II hypersensitivity, p. 453; hemolytic disease of the newborn, pp. 454-455"
+        },
+        {
+          "title": "MedlinePlus Medical Encyclopedia: Hemolytic disease of the newborn",
+          "url": "https://medlineplus.gov/ency/article/001298.htm"
+        }
+      ]
+    },
+    {
+      "id": "immuno-goodpasture-type2-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Immunology",
+      "system": "Immune System",
+      "topic": "Goodpasture (anti-GBM) disease: type II hypersensitivity",
+      "difficulty": 2,
+      "stem": "A 24-year-old who smokes a pack of cigarettes a day has coughed up blood for 1 week and has noticed dark, cola-colored urine. Serum creatinine has risen from 0.9 to 3.4 mg/dL over 10 days, and the urine contains red cell casts. A chest x-ray shows patchy opacities in both lungs. A kidney biopsy shows crescents in most glomeruli, and immunofluorescence shows smooth, linear IgG along the glomerular basement membranes.",
+      "leadIn": "Which mechanism best describes this disease?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Type II, IgG against type IV collagen in basement membranes"
+        },
+        {
+          "id": "b",
+          "text": "Type III, circulating immune complexes trapped in glomeruli"
+        },
+        {
+          "id": "c",
+          "text": "Type IV, sensitized T cells attacking glomerular cells"
+        },
+        {
+          "id": "d",
+          "text": "Type I, IgE on mast cells in the lungs and kidneys"
+        },
+        {
+          "id": "e",
+          "text": "Type II, IgG blocking acetylcholine receptors"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: a type II (antibody-mediated) reaction, with IgG against type IV collagen in the glomerular and alveolar basement membranes. Why: Your El-Husseiny microbiology and immunology notes (p. 456) explain that Goodpasture syndrome involves autoantibodies against the basement membrane collagen of the glomeruli and alveoli, a type II hypersensitivity, which inflames and destroys the basement membranes of both organs. Their summary of type II reactions (pp. 452-453) lists Goodpasture syndrome under the inflammatory form, in which antibodies bound to cell surfaces activate complement and Fc receptor-driven inflammation. MSD agrees that anti-GBM antibodies target the alpha-3 chain of type IV collagen, that the disease usually shows lung bleeding together with rapidly progressive glomerulonephritis, that immunofluorescence shows linear IgG, that smoking is the most common trigger, and that it is treated with plasma exchange, a glucocorticoid and cyclophosphamide.",
+      "whyWrong": {
+        "b": "Type III disease comes from antigen-antibody complexes formed in the blood that deposit in tissues (your El-Husseiny microbiology and immunology notes, p. 458). Immune complexes give a lumpy, granular pattern, not the smooth linear IgG of antibodies bound to the membrane itself (MSD, Anti-GBM Disease).",
+        "c": "Type IV reactions are delayed and carried out by T cells, not antibodies (your El-Husseiny microbiology and immunology notes, p. 459). The linear IgG on biopsy shows this disease is antibody-mediated.",
+        "d": "Type I reactions are immediate, with IgE cross-linked on mast cells and basophils (your El-Husseiny microbiology and immunology notes, pp. 450-452). They do not cause crescentic glomerulonephritis.",
+        "e": "Antibodies against acetylcholine receptors cause myasthenia gravis, a type II reaction that impairs function at the neuromuscular junction (your El-Husseiny microbiology and immunology notes, p. 456). They do not damage the lungs or kidneys."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Hypersensitivity types, pp. 450-453; Goodpasture syndrome and myasthenia gravis, p. 456; type III, p. 458; type IV, p. 459"
+        },
+        {
+          "title": "MSD Manual Professional: Anti-Glomerular Basement Membrane (Anti-GBM) Disease",
+          "url": "https://www.msdmanuals.com/professional/pulmonary-disorders/diffuse-alveolar-hemorrhage-and-pulmonary-renal-syndrome/anti-glomerular-basement-membrane-anti-gbm-disease"
+        }
+      ]
+    },
+    {
+      "id": "pharm-hiv-toxoplasma-pcp-prophylaxis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Immune System",
+      "topic": "HIV: TMP-SMX prophylaxis at CD4 below 100",
+      "difficulty": 2,
+      "stem": "A 40-year-old has just been diagnosed with HIV after a bout of oral thrush. The patient feels well otherwise. The CD4 count is 80 cells/mm3. Toxoplasma IgG is positive, and tests for tuberculosis, hepatitis B and cryptococcal antigen are negative. Antiretroviral therapy is started.",
+      "leadIn": "Which other medication should be started now to prevent opportunistic infection?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Daily TMP-SMX"
+        },
+        {
+          "id": "b",
+          "text": "Weekly azithromycin"
+        },
+        {
+          "id": "c",
+          "text": "Daily fluconazole"
+        },
+        {
+          "id": "d",
+          "text": "Daily ganciclovir"
+        },
+        {
+          "id": "e",
+          "text": "Daily acyclovir"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: daily trimethoprim-sulfamethoxazole (TMP-SMX). Why: Your El-Husseiny microbiology and immunology notes (p. 367) give the prophylaxis table for HIV: TMP-SMX prevents Pneumocystis pneumonia once the CD4 count is below 200 cells/mm3, and below 100 cells/mm3 it prevents both Pneumocystis pneumonia and toxoplasmosis. With a CD4 count of 80, this patient needs protection against both, and one drug covers them. The current HIV guideline on toxoplasmosis agrees: people with HIV who are Toxoplasma-seropositive and have CD4 counts below 100 cells/mm3 should receive prophylaxis, the preferred regimen is one double-strength TMP-SMX tablet daily, and that is also the preferred Pneumocystis prophylaxis. The guideline adds that infection usually comes from undercooked meat or from oocysts in cat feces, and that prophylaxis can stop once the CD4 count stays above 200 cells/mm3 for more than 3 months on suppressive antiretroviral therapy.",
+      "whyWrong": {
+        "b": "Azithromycin is not listed for prophylaxis at this CD4 count in your notes' table, which names TMP-SMX for both Pneumocystis and toxoplasmosis (your El-Husseiny microbiology and immunology notes, p. 367). It would not prevent either infection.",
+        "c": "Fluconazole is used for long-term suppression of cryptococcal meningitis after treatment (your El-Husseiny microbiology and immunology notes, p. 355). This patient's cryptococcal test is negative, and fluconazole does not prevent Pneumocystis or toxoplasmosis.",
+        "d": "Ganciclovir treats cytomegalovirus infection such as retinitis in advanced HIV and can cause neutropenia (your El-Husseiny microbiology and immunology notes, p. 367). It is not the prophylaxis your table lists at this CD4 count.",
+        "e": "Acyclovir is a herpesvirus drug, not one of the regimens in your notes' prophylaxis table (your El-Husseiny microbiology and immunology notes, p. 367). It does not prevent Pneumocystis or toxoplasmosis."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Azole uses, p. 355; HIV: ganciclovir and prophylaxis table, p. 367"
+        },
+        {
+          "title": "NIH/CDC/IDSA Guidelines for Opportunistic Infections in Adults and Adolescents with HIV: Toxoplasma gondii Encephalitis",
+          "url": "https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/toxoplasmosis"
+        }
+      ]
+    },
+    {
+      "id": "immuno-live-vaccine-hiv-cd4-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Immunology",
+      "system": "Immune System",
+      "topic": "Live vaccines in HIV with CD4 below 200",
+      "difficulty": 2,
+      "stem": "A 31-year-old with HIV works at a daycare center and asks to be brought up to date on vaccines. The patient has no record of measles vaccination and measles IgG is negative. The CD4 count is 150 cells/mm3 (11%). Antiretroviral therapy was started 2 months ago. The patient is not pregnant.",
+      "leadIn": "Which vaccine should be withheld at this time?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Measles-mumps-rubella (MMR)"
+        },
+        {
+          "id": "b",
+          "text": "Recombinant subunit zoster vaccine"
+        },
+        {
+          "id": "c",
+          "text": "Hepatitis B vaccine"
+        },
+        {
+          "id": "d",
+          "text": "Injected inactivated influenza"
+        },
+        {
+          "id": "e",
+          "text": "Tetanus-diphtheria toxoid"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the measles-mumps-rubella (MMR) vaccine. Why: Your El-Husseiny microbiology and immunology notes (p. 447) list MMR among the live attenuated vaccines, in which the microbe has lost its ability to cause disease but can still grow briefly in the host. Live vaccines give strong, often lifelong immunity, but they can revert to a virulent form and are often contraindicated in pregnancy and immunodeficiency. The same table notes that MMR and varicella vaccines can be given to people with HIV only when the CD4 count is at least 200 cells/mm3. The next page (p. 448) lists safer options: inactivated vaccines (such as injected influenza), subunit vaccines (such as hepatitis B) and toxoids (tetanus and diphtheria). CDC's adult schedule agrees that MMR and varicella vaccines are contraindicated in HIV with a CD4 percentage below 15% or a count below 200 cells/mm3, and it recommends the recombinant zoster vaccine for people with HIV regardless of CD4 count. MMR can be given once the CD4 count is at least 200 cells/mm3 and at least 15% for 6 months.",
+      "whyWrong": {
+        "b": "The recombinant zoster vaccine is not live, and CDC recommends it for people with HIV regardless of CD4 count (CDC, Adult Immunization Schedule Notes).",
+        "c": "Hepatitis B vaccine is a subunit vaccine made from HBsAg (your El-Husseiny microbiology and immunology notes, p. 448), so it cannot cause infection. CDC lists HIV as a reason to give it.",
+        "d": "The injected influenza vaccine is inactivated, which is safer than a live vaccine (your El-Husseiny microbiology and immunology notes, p. 448). It is the intranasal influenza vaccine that is live (p. 447).",
+        "e": "Tetanus and diphtheria toxoids are denatured toxins that make the body produce antibodies without being able to cause disease (your El-Husseiny microbiology and immunology notes, p. 448). They are safe in HIV at any CD4 count."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Live attenuated vaccines, p. 447; inactivated, subunit and toxoid vaccines, p. 448"
+        },
+        {
+          "title": "CDC: Adult Immunization Schedule Notes",
+          "url": "https://www.cdc.gov/vaccines/hcp/imz-schedules/adult-notes.html"
+        }
+      ]
+    },
+    {
+      "id": "micro-rmsf-vasculitis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Multisystem",
+      "topic": "Rocky Mountain spotted fever: endothelial vasculitis",
+      "difficulty": 2,
+      "stem": "A 9-year-old from North Carolina comes in with 4 days of fever and a severe headache. The child went camping 10 days ago, and a parent removed a tick from the child's scalp. The rash began 2 days ago as small pink spots on the wrists and ankles. It has since spread to the trunk and now includes the palms and soles, and some spots have become petechial. Platelets are 98,000/mm3 and serum sodium is 129 mEq/L.",
+      "leadIn": "The organism causes this illness mainly by doing what?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Infecting endothelial cells and causing vasculitis"
+        },
+        {
+          "id": "b",
+          "text": "Splitting the superficial epidermis with an exotoxin"
+        },
+        {
+          "id": "c",
+          "text": "Spreading down sensory nerves from a ganglion"
+        },
+        {
+          "id": "d",
+          "text": "Leaving immune complexes in the dermis after it is cleared"
+        },
+        {
+          "id": "e",
+          "text": "Infecting circulating monocytes and forming morulae"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: it infects endothelial cells and causes vasculitis. Why: Your El-Husseiny microbiology and immunology notes (p. 166) describe Rocky Mountain spotted fever as an infection with Rickettsia rickettsii, an obligate intracellular gram-negative bacterium carried by the Dermacentor tick. Despite the name, most cases are in the South Atlantic region of the U.S., North Carolina above all. The organism invades the endothelial cells lining capillaries and causes vasculitis in many organs, including the brain, liver, skin, lungs, kidneys and gut. The classic triad is headache, fever and rash. The rash starts as maculopapular spots on the ankles and wrists, turns petechial, and then moves inward to the trunk and also onto the palms, soles and face. The next page (p. 167) contrasts typhus, whose rash begins on the trunk and moves outward while sparing the palms and soles, with a memory aid that ties Rickettsii to the wrists and typhus to the trunk, and their tick table (p. 347) names doxycycline for tick-borne infections. CDC agrees that the rash appears 2 to 4 days after fever begins, starting as small flat pink spots on the wrists, forearms and ankles, that the petechial rash usually appears by day 5 or 6, that R. rickettsii infects the endothelial cells of blood vessels, and that doxycycline is the treatment of choice for adults and children of all ages.",
+      "whyWrong": {
+        "b": "An exfoliative exotoxin that blisters only the superficial epidermis is how Staphylococcus causes scalded skin syndrome (your El-Husseiny microbiology and immunology notes, p. 44). That gives large bullae and peeling, not a petechial rash on the palms and soles.",
+        "c": "Spreading down a sensory nerve from a ganglion is how varicella zoster virus causes shingles in one dermatome (your El-Husseiny microbiology and immunology notes, p. 253). This rash is widespread and petechial.",
+        "d": "Immune complexes that deposit in tissues cause type III hypersensitivity (your El-Husseiny microbiology and immunology notes, p. 458). In this illness the organism itself is in the vessel walls, causing vasculitis (p. 166).",
+        "e": "Morulae in monocytes are the mark of ehrlichiosis, a tick-borne infection in which rash is rare (your El-Husseiny microbiology and immunology notes, p. 167). This child has the classic spreading rash of R. rickettsii (p. 166)."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), SSSS, p. 44; Rocky Mountain spotted fever, p. 166; typhus and ehrlichiosis, p. 167; herpes zoster, p. 253; tick antibiotics, p. 347; type III hypersensitivity, p. 458"
+        },
+        {
+          "title": "CDC: Rocky Mountain Spotted Fever, Clinical Signs and Symptoms (for health care providers)",
+          "url": "https://www.cdc.gov/rocky-mountain-spotted-fever/hcp/signs-symptoms/index.html"
+        }
+      ]
+    },
+    {
+      "id": "path-al-amyloidosis-light-chains-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Multisystem",
+      "topic": "AL amyloidosis: light-chain deposits",
+      "difficulty": 2,
+      "stem": "A 64-year-old has had 3 months of leg swelling, foamy urine, fatigue and an enlarging tongue. Urine protein is 6 g per 24 hours and serum albumin is low. Serum free lambda light chains are markedly raised, and the bone marrow shows a small population of monoclonal plasma cells. An abdominal fat pad biopsy shows pink, amorphous extracellular material that shows apple-green birefringence under polarized light after Congo red staining.",
+      "leadIn": "The deposited protein most likely comes from which source?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Monoclonal immunoglobulin light chains"
+        },
+        {
+          "id": "b",
+          "text": "Serum amyloid A from chronic inflammation"
+        },
+        {
+          "id": "c",
+          "text": "Transthyretin made by the liver"
+        },
+        {
+          "id": "d",
+          "text": "Calcitonin from thyroid C cells"
+        },
+        {
+          "id": "e",
+          "text": "Amyloid-beta from amyloid precursor protein"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: monoclonal immunoglobulin light chains (AL amyloidosis). Why: Your El-Husseiny hematology-oncology notes (p. 78) list primary AL amyloidosis among the features of plasma cell disorders: free light chains made by neoplastic plasma cells circulate in the blood and deposit in tissues. Your El-Husseiny nephrology notes (p. 93) add that the kidney is the organ most often involved in systemic amyloidosis, that amyloid deposits in the mesangium and causes nephrotic syndrome, and that it shows apple-green birefringence under polarized light after Congo red staining. They name AL and AA as the two main systemic types. MSD agrees that AL amyloidosis comes from overproduction of an amyloid-forming immunoglobulin light chain, usually with a low-grade marrow plasmacytosis like that of myeloma, that kidney deposits cause proteinuria, that macroglossia is common in AL amyloidosis, and that aspiration of abdominal fat finds amyloid in about 80% of patients with AL.",
+      "whyWrong": {
+        "b": "Serum amyloid A is an acute phase reactant that can lead to AA amyloidosis in chronic inflammation (NBME Top Concepts, p. 195; MSD, Amyloidosis). This patient has a monoclonal plasma cell population making excess lambda light chains, which points to AL.",
+        "c": "Transthyretin amyloidosis is a cause of stiff-heart (diastolic) heart failure in your notes (your El-Husseiny cardiovascular notes, p. 57). It would not explain raised monoclonal light chains with nephrotic syndrome and a big tongue.",
+        "d": "Calcitonin-derived amyloid is found inside medullary thyroid carcinoma, a tumor of parafollicular C cells (your El-Husseiny endocrinology notes, p. 82). It does not cause systemic deposits with nephrotic syndrome.",
+        "e": "Amyloid-beta forms the plaques and vessel deposits of Alzheimer disease in the brain (your El-Husseiny neurology notes, p. 151). It does not deposit in the kidney, tongue or abdominal fat."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Hematology-Oncology (Emily's file), Multiple myeloma and AL amyloid, p. 78"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Nephrology (Emily's file), Amyloidosis, p. 93"
+        },
+        {
+          "title": "USMLE Step 1 NBME Top Concepts 2021 (Emily's file), Acute phase reactants, p. 195"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Cardiovascular System (Emily's file), Diastolic heart failure, p. 57"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Endocrinology (Emily's file), Medullary thyroid carcinoma, p. 82"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), Alzheimer disease, p. 151"
+        },
+        {
+          "title": "MSD Manual Professional: Amyloidosis",
+          "url": "https://www.msdmanuals.com/professional/hematology/amyloidosis/amyloidosis"
+        }
+      ]
+    },
+    {
+      "id": "micro-leptospirosis-weil-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Multisystem",
+      "topic": "Leptospirosis: conjunctival suffusion and Weil disease",
+      "difficulty": 2,
+      "stem": "A 34-year-old sewer worker has had 9 days of fever, headache and severe muscle pain, worst in the calves. On day 3 both eyes became red without pain or discharge. Over the last 2 days the worker has turned yellow, has passed little urine and has had two nosebleeds. Total bilirubin is 9.8 mg/dL, creatinine is 3.6 mg/dL and platelets are 60,000/mm3. Leptospires are not seen with routine light microscopy, but serology is sent.",
+      "leadIn": "Which organism is the most likely cause?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Leptospira interrogans"
+        },
+        {
+          "id": "b",
+          "text": "Borrelia burgdorferi"
+        },
+        {
+          "id": "c",
+          "text": "Treponema pallidum"
+        },
+        {
+          "id": "d",
+          "text": "Rickettsia rickettsii"
+        },
+        {
+          "id": "e",
+          "text": "Hepatitis A virus (HAV)"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: Leptospira interrogans. Why: Your El-Husseiny microbiology and immunology notes (p. 158) describe Leptospira as a thin spirochete with tight terminal hooks that is seen with dark-field microscopy but not with ordinary light microscopy and is usually diagnosed by serology. It is a zoonosis spread through contact with animal urine in water, entering through mucous membranes or small breaks in the skin. In the U.S., exposure comes from dog, livestock and rat urine in recreational water or at work, as in sewer workers. Most infections are a mild febrile illness, but some become a fatal illness with liver and kidney failure. Conjunctival suffusion, a red eye that looks like conjunctivitis but is not inflamed, is an important clue. Weil disease is the severe, icterohemorrhagic form: liver and kidney damage cause jaundice and a rising creatinine (azotemia), along with fever, bleeding and anemia. MSD agrees that infection comes from contact with infected urine, that farmers and sewer workers are at occupational risk, that the illness is often biphasic, that conjunctival suffusion usually appears on the third or fourth day, and that doxycycline or penicillin G works best when started early.",
+      "whyWrong": {
+        "b": "Borrelia burgdorferi causes Lyme disease. It is spread by Ixodes ticks and starts with erythema migrans (your El-Husseiny microbiology and immunology notes, p. 159), not jaundice and kidney failure after sewer exposure.",
+        "c": "Treponema pallidum causes syphilis (your El-Husseiny microbiology and immunology notes, p. 153). It is sexually transmitted and does not cause a sudden febrile illness with jaundice and kidney failure after contact with rat urine.",
+        "d": "Rickettsia rickettsii is spread by Dermacentor ticks and causes fever, headache and a rash that starts on the wrists and ankles (your El-Husseiny microbiology and immunology notes, p. 166). This patient has no rash and was exposed to sewage, not ticks.",
+        "e": "Hepatitis A spreads by the fecal-oral route and is self-limited, often without jaundice (your El-Husseiny microbiology and immunology notes, p. 301). It does not cause conjunctival suffusion, severe calf pain or kidney failure."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Microbiology & Immunology (Emily's file), Treponema, p. 153; Leptospira, p. 158; Borrelia, p. 159; Rocky Mountain spotted fever, p. 166; hepatitis A, p. 301"
+        },
+        {
+          "title": "MSD Manual Professional: Leptospirosis",
+          "url": "https://www.msdmanuals.com/professional/infectious-diseases/spirochetes/leptospirosis"
+        }
+      ]
     }
   ]
 }
