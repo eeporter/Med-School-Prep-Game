@@ -1100,27 +1100,52 @@ async function loadQuestions() {
   }
 }
 
-// A browser that kept an older copy of the page with this newer code would
-// break (the page's buttons do not match). Fetch the page fresh once, then
-// reload, instead of showing a dead screen.
-const PAGE_MARKERS = ['view-signin', 'gate-signin', 'quiz-home', 'fb-home'];
+// A browser can keep an older copy of the page next to newer code (a cached
+// or restored tab). Two checks, each reloading at most once per tab:
+// - before anything runs: if elements the code needs are missing, fetch the
+//   page fresh and reload, instead of showing a dead screen;
+// - in the background: fetch the page as the server has it now and compare
+//   its element ids, in order, with this page's. Any difference (a moved,
+//   added or removed part) means this copy is old, so reload, unless she is
+//   in the middle of a question session.
+const PAGE_MARKERS = ['view-signin', 'gate-signin', 'quiz-home', 'fb-home', 'sync-signout'];
 const RELOAD_KEY = 'med-prep-stale-reload';
+const pageIds = (root) => [...root.querySelectorAll('[id]')].map((e) => e.id).join(' ');
+const idsInHtml = (text) => [...text.matchAll(/\sid="([^"]+)"/g)].map((m) => m[1]).join(' ');
 
-async function pageIsCurrent() {
-  if (PAGE_MARKERS.every((id) => $(id))) {
-    try { sessionStorage.removeItem(RELOAD_KEY); } catch { /* nothing to clear */ }
-    return true;
-  }
+function reloadOnce() {
   let tried = false;
   try { tried = sessionStorage.getItem(RELOAD_KEY) === '1'; sessionStorage.setItem(RELOAD_KEY, '1'); } catch { tried = true; }
-  if (tried) return true; // reloaded once already; carry on rather than loop
+  return !tried; // reloaded once already (or cannot tell): carry on rather than loop
+}
+
+async function pageIsCurrent() {
+  if (PAGE_MARKERS.every((id) => $(id))) return true;
+  if (!reloadOnce()) return true;
   try { await fetch(location.pathname, { cache: 'reload' }); } catch { /* reload anyway */ }
   location.reload();
   return false;
 }
 
+async function checkPageIsFresh(ids) {
+  try {
+    const res = await fetch(location.pathname, { cache: 'no-cache' });
+    if (!res.ok) return;
+    if (idsInHtml(await res.text()) === ids) {
+      try { sessionStorage.removeItem(RELOAD_KEY); } catch { /* nothing to clear */ }
+      return;
+    }
+    if (session || !reloadOnce()) return;
+    location.reload();
+  } catch (err) {
+    console.warn(err); // offline: keep this copy
+  }
+}
+
 async function main() {
+  const ids = pageIds(document); // before any code changes the page
   if (!(await pageIsCurrent())) return;
+  checkPageIsFresh(ids);
   wire();
   // Firebase settings first, so the game's own address opens on the sign-in
   // screen and never flashes the home screen before it.
