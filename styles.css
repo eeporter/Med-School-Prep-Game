@@ -133,6 +133,11 @@ details.report summary { font-weight: normal; color: var(--muted); font-size: 0.
 
 
 /* How to play: open until she hides it, then just its title line. */
+details.section { border: none; background: none; padding: 0; margin: 0; border-radius: 0; }
+details.section > summary { min-height: 32px; }
+details.section > summary h2 { display: inline; }
+details.section[open] > summary { margin-bottom: 8px; }
+.mode-body { display: flex; flex-direction: column; gap: 10px; }
 details.howto { margin: 4px 0 16px; padding: 10px 14px; }
 details.howto > summary { font-size: 1.05rem; min-height: 32px; }
 details.howto h3 { font-size: 1rem; margin: 14px 0 4px; }
@@ -140,3 +145,14 @@ details.howto ul { padding-left: 20px; margin: 0; }
 details.howto li { margin-bottom: 6px; }
 details.howto .row { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; margin-top: 12px; }
 .notice { background: var(--ok-bg); border: 1px solid var(--ok); border-radius: 8px; padding: 10px 14px; }
+
+/* Sign-in screen: the first thing on the game's own address. */
+.gate { max-width: 32rem; margin: 32px auto; display: flex; flex-direction: column; gap: 12px; }
+.gate h2 { margin: 0; }
+.gate #gate-ready { display: flex; flex-direction: column; gap: 12px; align-items: flex-start; }
+.gate p { margin: 0; }
+.gate #gate-offline { display: flex; flex-direction: column; gap: 8px; align-items: flex-start; }
+/* Home, from any question. */
+.quiz-head { align-items: center; }
+.home-btn { min-height: 36px; }
+.fb-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }

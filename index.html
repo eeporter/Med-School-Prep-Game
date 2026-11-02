@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self'; script-src 'self' https://apis.google.com; img-src 'self' data:; connect-src 'self' https://firestore.googleapis.com https://identitytoolkit.googleapis.com https://securetoken.googleapis.com">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self'; script-src 'self' https://apis.google.com; img-src 'self' data:; frame-src 'self' https://medschool-sync.firebaseapp.com; connect-src 'self' https://firestore.googleapis.com https://identitytoolkit.googleapis.com https://securetoken.googleapis.com">
   <title>Med School Prep Game</title>
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -18,13 +18,26 @@
   </header>
 
   <main id="app">
-    <section id="view-home" class="view">
+    <section id="view-signin" class="view gate">
+      <h2>Welcome</h2>
+      <p class="meta" id="gate-checking" role="status">Loading the game...</p>
+      <div id="gate-ready" hidden>
+        <p>Sign in with your Google account to start. You do this once on each device. After that the game opens straight to your questions, and your progress stays the same on all your devices.</p>
+        <button type="button" id="gate-signin" class="primary">Sign in with Google</button>
+        <p class="meta" id="gate-status" role="status" aria-live="polite"></p>
+        <div id="gate-offline" hidden>
+          <p class="meta">If sign-in is not working right now (for example, no internet), you can still study. Your answers are saved on this device and sync once you sign in.</p>
+          <button type="button" id="gate-skip">Study without signing in</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="view-home" class="view" hidden>
       <p class="disclaimer">Study material for USMLE Step 1 and NBME exams. Not patient-care guidance.</p>
       <p class="notice" id="move-note" role="status" hidden></p>
 
-      <details class="howto" id="howto" open>
+      <details class="howto" id="howto">
         <summary>How to play</summary>
-        <p class="meta">Read this once, then tap Hide this at the bottom.</p>
         <h3>Three ways to study</h3>
         <ul>
           <li><strong>Daily Rounds</strong>: tap <strong>Start rounds</strong> every day. It brings back the questions that are due for review, plus up to 10 new ones.</li>
@@ -35,31 +48,40 @@
         <ul>
           <li>Pick an answer, then tap how sure you were: <strong>Guess</strong>, <strong>Unsure</strong> or <strong>Sure</strong>. Be honest, because it decides when the question comes back. A miss or a guess comes back at the end of the session (except in Exam Block), and sure, correct answers earn the most XP.</li>
           <li>Read the explanation and why the other choices are wrong, then tap <strong>Next</strong>.</li>
+          <li>To stop, tap <strong>Home</strong> at the top of the question (or next to Next), or use your phone's Back button. Every answer is saved as you go. Leaving an Exam Block early shows the review of the questions you answered.</li>
           <li>If a question looks wrong or unclear, tap <strong>Report a problem</strong> under the explanation, choose what is wrong, and tap <strong>Save report</strong>. Your reports collect in the <strong>Question reports</strong> box on this screen. Tap <strong>Copy for my Claude</strong> there and paste it into the Fix or change a question prompt at claude.ai/code.</li>
           <li>On a keyboard: 1 to 5 or A to E picks an answer, G, U or S says how sure you were, and Enter goes to the next question.</li>
         </ul>
         <h3>On this screen</h3>
         <ul>
+          <li>Tap any section's title to fold it away or open it again. This device remembers your choice.</li>
           <li><strong>My exams</strong>: choose the test and its date, then tap <strong>Add exam</strong>. New questions in Daily Rounds then aim at your next exam, reviews are spaced to come back before it, and Exam Block offers "My next exam".</li>
           <li><strong>My weak spots</strong>: the topics you miss, or only get right by guessing. About once a week, tap <strong>Copy for my Claude</strong> and paste it into your study buddy chat.</li>
-          <li><strong>Sync and backup</strong>: to play on more than one device, tap <strong>Sign in with Google</strong> once on each device, with the same Google account, and your progress syncs by itself. If that button is not shown, use <strong>Save a backup file</strong> on one device and <strong>Restore from a backup file</strong> on the other. A backup file now and then is a good idea anyway.</li>
+          <li>Signing in: the game asks you to tap <strong>Sign in with Google</strong> when you first open it on a device. Use the same Google account on every device, and your progress syncs by itself from then on. There is nothing else to tap.</li>
+          <li><strong>Sync and backup</strong>: shows which account you are signed in with. Now and then, tap <strong>Save a backup file</strong> and keep the file somewhere safe; <strong>Restore from a backup file</strong> adds one back.</li>
         </ul>
         <div class="row">
           <button type="button" id="howto-hide">Hide this</button>
-          <span class="meta">You can open it again any time from How to play at the top of this screen.</span>
+          <span class="meta">It stays closed until you tap How to play at the top of this screen.</span>
         </div>
       </details>
 
       <div class="cards">
         <article class="mode">
-          <h2>Daily Rounds</h2>
+          <details class="section" data-section="rounds" open>
+          <summary><h2>Daily Rounds</h2></summary>
+          <div class="mode-body">
           <p>Questions that are due for review, plus a few new ones, mixed across organ systems. This is the mode to do every day.</p>
           <p class="meta" id="due-summary"></p>
           <button class="primary" data-mode="rounds">Start rounds</button>
+          </div>
+          </details>
         </article>
 
         <article class="mode">
-          <h2>Exam Block</h2>
+          <details class="section" data-section="block" open>
+          <summary><h2>Exam Block</h2></summary>
+          <div class="mode-body">
           <p>Timed block with no feedback until the end, like the real test (about 90 seconds per question). Pick "My next exam" to match its content and block length. Review every answer afterward.</p>
           <label>Exam
             <select id="exam-select">
@@ -76,9 +98,13 @@
             </select>
           </label>
           <button data-mode="block">Start block</button>
+          </div>
+          </details>
         </article>
         <article class="mode wide" id="focus-card">
-          <h2>Focus on specific topics</h2>
+          <details class="section" data-section="focus" open>
+          <summary><h2>Focus on specific topics</h2></summary>
+          <div class="mode-body">
           <p>Tick the subjects, organ systems, or single topics you want to work on, then start. Good for a weak spot; mixed practice in Daily Rounds still builds the longest-lasting memory.</p>
           <label class="check"><input type="checkbox" id="focus-missed"> <span id="focus-missed-label">Questions I have missed and not yet mastered</span></label>
           <details>
@@ -97,11 +123,14 @@
             <button class="primary" data-mode="focus" id="focus-start">Start focus</button>
             <button type="button" id="focus-clear">Clear choices</button>
           </div>
+          </div>
+          </details>
         </article>
       </div>
 
       <section class="exams" aria-labelledby="exams-head">
-        <h2 id="exams-head">My exams</h2>
+        <details class="section" data-section="exams" open>
+        <summary><h2 id="exams-head">My exams</h2></summary>
         <p class="meta" id="exam-focus"></p>
         <ul id="exam-list"></ul>
         <div class="exam-form">
@@ -116,10 +145,12 @@
           </label>
           <button id="exam-add">Add exam</button>
         </div>
+        </details>
       </section>
 
       <section class="weak" aria-labelledby="weak-head">
-        <h2 id="weak-head">My weak spots</h2>
+        <details class="section" data-section="weak" open>
+        <summary><h2 id="weak-head">My weak spots</h2></summary>
         <p class="meta" id="weak-summary"></p>
         <ol id="weak-list"></ol>
         <div class="row" id="weak-actions">
@@ -127,10 +158,12 @@
         </div>
         <p class="meta" id="weak-status" aria-live="polite"></p>
         <textarea id="weak-fallback" class="fallback" rows="8" readonly hidden aria-label="Weak spots text to copy"></textarea>
+        </details>
       </section>
 
       <section class="reports" id="reports-box" aria-labelledby="reports-head" hidden>
-        <h2 id="reports-head">Question reports</h2>
+        <details class="section" data-section="reports" open>
+        <summary><h2 id="reports-head">Question reports</h2></summary>
         <p class="meta" id="reports-summary"></p>
         <div class="row">
           <button type="button" id="reports-copy">Copy for my Claude</button>
@@ -138,26 +171,24 @@
         </div>
         <p class="meta" id="reports-status" aria-live="polite"></p>
         <textarea id="reports-fallback" class="fallback" rows="6" readonly hidden aria-label="Reports text to copy"></textarea>
+        </details>
       </section>
 
       <section class="progress" aria-labelledby="progress-head">
-        <h2 id="progress-head">Sync and backup</h2>
-        <p class="meta">Your progress (which questions are due, what you missed, XP and streak) is saved in this browser on this device.</p>
-
+        <details class="section" data-section="progress" open>
+        <summary><h2 id="progress-head">Sync and backup</h2></summary>
         <div id="sync-box">
-          <h3>Sync</h3>
-          <p class="meta" id="sync-elsewhere">Sign-in sync works at the game's own address, <a href="https://medschool-sync.web.app/">medschool-sync.web.app</a>. Here, use a backup file (below) to move progress between devices.</p>
-          <div id="sync-off" hidden>
-            <p class="meta">Sign in with your Google account on each of your devices. Your progress then stays the same on all of them by itself.</p>
+          <p class="meta" id="sync-elsewhere">Your progress is saved in this browser. Sign-in sync works at the game's own address, <a href="https://medschool-sync.web.app/">medschool-sync.web.app</a>; here, use a backup file (below) to move progress between devices.</p>
+          <div id="sync-on" hidden>
+            <p>Signed in as <strong id="sync-user"></strong>. Your progress syncs across your devices by itself.<span class="meta" id="sync-when"></span></p>
             <div class="row">
-              <button type="button" id="sync-signin" class="primary">Sign in with Google</button>
+              <button type="button" id="sync-signout">Sign out</button>
             </div>
           </div>
-          <div id="sync-on" hidden>
-            <p>Signed in as <strong id="sync-user"></strong>. Your progress syncs by itself.</p>
+          <div id="sync-off" hidden>
+            <p class="meta">Not signed in, so your progress is only on this device for now.</p>
             <div class="row">
-              <button type="button" id="sync-now">Sync now</button>
-              <button type="button" id="sync-signout">Sign out</button>
+              <button type="button" id="sync-signin" class="primary">Sign in with Google</button>
             </div>
           </div>
           <p class="meta" id="sync-status" aria-live="polite"></p>
@@ -171,19 +202,23 @@
         </div>
         <input type="file" id="backup-file" accept=".json,application/json" hidden>
         <p class="meta" id="backup-status" aria-live="polite"></p>
+        </details>
       </section>
 
       <section class="mastery">
-        <h2>Mastery by system</h2>
+        <details class="section" data-section="mastery" open>
+        <summary><h2>Mastery by system</h2></summary>
         <p class="meta">A question counts as mastered when you have answered it correctly at spaced intervals reaching 3 weeks.</p>
         <ul id="mastery-list"></ul>
         <p class="meta" id="calibration-summary"></p>
         <p class="meta" id="misconception-summary"></p>
+        </details>
       </section>
     </section>
 
     <section id="view-quiz" class="view" hidden>
       <div class="quiz-head">
+        <button type="button" id="quiz-home" class="small home-btn">Home</button>
         <span id="quiz-progress"></span>
         <span id="quiz-timer" aria-live="off"></span>
         <span id="quiz-tags" class="meta"></span>
@@ -224,7 +259,10 @@
             <span id="report-status" class="meta" aria-live="polite"></span>
           </div>
         </details>
-        <button id="next-btn" class="primary">Next <kbd>Enter</kbd></button>
+        <div class="row fb-actions">
+          <button id="next-btn" class="primary">Next <kbd>Enter</kbd></button>
+          <button type="button" id="fb-home">Home</button>
+        </div>
       </div>
     </section>
 
@@ -240,7 +278,7 @@
   </main>
 
   <footer>
-    <p>Original questions, cited to standard references. Code MIT licensed; content CC BY 4.0. <a href="https://github.com/eeporter/Med-School-Prep-Game">Source</a></p>
+    <p>Original questions, cited to standard references. Code MIT licensed; content CC BY 4.0.</p>
   </footer>
   <script type="module" src="src/app.js"></script>
 </body>

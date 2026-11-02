@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
-import { HOWTO_KEY, howToStartsOpen, howToValue } from '../src/howto.js';
+import { SECTIONS_KEY, closedSections, sectionsValue } from '../src/sections.js';
 
 const html = readFileSync(new URL('../index.html', import.meta.url), 'utf8');
 const start = html.indexOf('<details class="howto" id="howto"');
@@ -28,12 +28,21 @@ test('the box is plain text: no scripts, inline handlers or links out', () => {
   assert.doesNotMatch(box, /<script|\son\w+=|<a\s|<iframe|<img/i);
 });
 
-test('it starts open until hidden, and remembers being hidden', () => {
-  assert.equal(HOWTO_KEY, 'med-prep-howto');
-  assert.equal(howToStartsOpen(null), true);
-  assert.equal(howToStartsOpen('open'), true);
-  assert.equal(howToStartsOpen('closed'), false);
-  assert.equal(howToStartsOpen('garbage'), true);
-  assert.equal(howToValue(false), 'closed');
-  assert.equal(howToStartsOpen(howToValue(true)), true);
+test('How to play starts collapsed, with no saved state that could open it', () => {
+  assert.match(box, /^<details class="howto" id="howto">/);
+  assert.doesNotMatch(readFileSync(new URL('../src/app.js', import.meta.url), 'utf8'), /howto\.open = true|box\.open = how/);
+});
+
+test('every home section can collapse, under a unique name', () => {
+  const home = html.slice(html.indexOf('id="view-home"'), html.indexOf('id="view-quiz"'));
+  const names = [...home.matchAll(/<details class="section" data-section="([a-z]+)" open>\s*<summary>/g)].map((m) => m[1]);
+  assert.deepEqual(names, ['rounds', 'block', 'focus', 'exams', 'weak', 'reports', 'progress', 'mastery']);
+  assert.equal(new Set(names).size, names.length);
+});
+
+test('closed sections are remembered, and bad saved data leaves everything open', () => {
+  assert.equal(SECTIONS_KEY, 'med-prep-sections');
+  assert.deepEqual([...closedSections(sectionsValue(['weak', 'exams']))], ['weak', 'exams']);
+  for (const bad of [null, '', 'garbage', '{"a":1}', '3']) assert.equal(closedSections(bad).size, 0);
+  assert.deepEqual([...closedSections('["weak",7]')], ['weak']);
 });

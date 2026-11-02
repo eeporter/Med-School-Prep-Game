@@ -6,6 +6,7 @@
 import { normalizeSyncCode } from './sync.js';
 
 export const INIT_URL = '/__/firebase/init.json';
+const REDIRECT_KEY = 'med-prep-signin-redirect';
 
 // Firebase settings for this site, or null when there are none (local copies,
 // the old GitHub Pages address). On Firebase's own domains the sign-in helper
@@ -47,6 +48,8 @@ export function signInProblem(code) {
       return null;
     case 'auth/network-request-failed':
       return 'Could not reach Google. Check your internet connection and try again.';
+    case 'auth/redirect-no-user':
+      return 'Sign-in did not finish in this browser. Try again, or study on this device for now.';
     case 'auth/unauthorized-domain':
       return 'Sign-in is not set up for this web address yet.';
     default:
@@ -54,8 +57,9 @@ export function signInProblem(code) {
   }
 }
 
-// Starts Firebase Auth. onUser(user|null) runs now and on every sign-in change.
-export async function startAccount(settings, onUser) {
+// Starts Firebase Auth. onUser(user|null) runs now and on every sign-in change;
+// onError(err) runs if a sign-in that went through a full-page redirect failed.
+export async function startAccount(settings, onUser, onError = () => {}) {
   const { initializeApp } = await import('./vendor/firebase/firebase-app.js');
   const auth = await import('./vendor/firebase/firebase-auth.js');
   const app = initializeApp(settings);
@@ -64,14 +68,30 @@ export async function startAccount(settings, onUser) {
   provider.setCustomParameters({ prompt: 'select_account' });
   auth.onAuthStateChanged(a, (user) => onUser(user));
   // Finishes a sign-in that had to go through a full-page redirect.
-  auth.getRedirectResult(a).catch((err) => console.warn(err));
+  // A redirect that comes back with no user and no error (a browser blocking
+  // the sign-in helper's storage) must not fail silently.
+  let redirected = false;
+  try {
+    redirected = sessionStorage.getItem(REDIRECT_KEY) === '1';
+    sessionStorage.removeItem(REDIRECT_KEY);
+  } catch { redirected = false; }
+  auth.getRedirectResult(a).then((result) => {
+    if (redirected && !result?.user && !a.currentUser) onError({ code: 'auth/redirect-no-user' });
+  }, (err) => {
+    console.warn(err);
+    onError(err);
+  });
   return {
     async signIn() {
       try {
         await auth.signInWithPopup(a, provider);
       } catch (err) {
-        // Some phones block pop-ups; a full-page redirect always works.
-        if (err?.code === 'auth/popup-blocked') return auth.signInWithRedirect(a, provider);
+        // Some phones block pop-ups; a full-page redirect works on the game's
+        // own address (sign-in is served from the same host there).
+        if (err?.code === 'auth/popup-blocked') {
+          try { sessionStorage.setItem(REDIRECT_KEY, '1'); } catch { /* the check is skipped */ }
+          return auth.signInWithRedirect(a, provider);
+        }
         throw err;
       }
       return undefined;

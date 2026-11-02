@@ -89,10 +89,10 @@ Step 8. Open the game and bookmark it (me)
 - Fine to skip for now: no; it takes a minute.
 
 Step 9. Keep my progress safe: sync and backup (me)
-- Progress is saved in the browser on each device. To keep my devices in step, on each device open https://medschool-sync.web.app → "Sync and backup" → Sign in with Google, using the same Google account each time (only my account and Emily's are allowed). It then says "Signed in as <my email>. Your progress syncs by itself." Sync now updates straight away; Sign out stops syncing on that device.
+- The first time I open https://medschool-sync.web.app on a device, it shows a Welcome screen with one button, Sign in with Google. I use the same Google account on every device (only my account and Emily's are allowed). After that the game opens straight to the home screen on that device and my progress syncs by itself, with nothing to tap. "Sync and backup" shows "Signed in as <my email>. Your progress syncs across your devices by itself." Sign out stops syncing on that device.
 - Backup (on any device): "Sync and backup" → Save a backup file. A file is saved to my Downloads; move it to Google Drive or iCloud Drive. To restore, use Restore from a backup file and pick that file (it adds to the progress already there; nothing is lost).
-- Test: on one device answer a question, then on the other device click Sync now: the XP at the top matches. For backup: the file appears in Downloads.
-- If it fails: if Google says my account isn't allowed, or there is no Sign in with Google button, use backup files only and tell Emily (she can add my Google address).
+- Test: on one device answer a question, then open the game on the other device (or switch back to it): within a few seconds the XP at the top matches. For backup: the file appears in Downloads.
+- If it fails: if the game says my account is not one of the accounts set up for this game, sign in again with the right Google account. If Google can't be reached, the Welcome screen offers Study without signing in: my answers are saved on that device and sync once I sign in. If it still fails, use backup files and tell Emily (she can add my Google address).
 - Fine to skip for now: sync, yes, if I use one device; still save a backup file now and then.
 
 Step 10. Turn on the weekly automatic questions (me, with Emily's folder from step 1)
