@@ -94,7 +94,7 @@ Nothing here involves Terminal. Tick each box once.
 - [ ] **Elissa:** install the Claude desktop app from https://claude.ai/download and sign in.
 - [ ] **Test:** start a new chat, attach the Handoff documentation folder (**Work in a folder** in the message box, or the **+** or folder button there), and type "List the files in study-guides." If Claude lists the guides, this part is done.
 - [ ] **Elissa:** in the Claude desktop app, make a **Project** called "Med School" (Projects → New project; on the web https://claude.ai/projects ). Attach the Handoff documentation folder to it, and paste the whole **Study buddy** prompt (below) into the project's instructions. From then on, every chat you start in that project is your study buddy: just ask your question.
-- [ ] **Test:** start a new chat inside the "Med School" project and type "List the files in study-guides." If Claude lists the guides, the project can see your folder. If it can't, attach the folder in each new chat instead (the **+** or folder button).
+- [ ] **Test:** start a new chat inside the "Med School" project and type "List the files in study-guides." If Claude lists the guides, the project can see your folder. If it can't, attach the folder in each new chat instead (**Work in a folder** in the message box, or the **+** or folder button there).
 
 **B. Elissa's own notes in Google Docs**
 - [ ] **Elissa:** in Claude, open **Settings → Connectors** (https://claude.ai/settings/connectors ), find **Google Drive**, click **Connect**, and sign in with the Google account that has your notes.
@@ -198,7 +198,7 @@ Step 5. Connect Google Drive (me)
 - Fine to skip for now: yes, if I want, but the weekly automatic questions (step 10) need it.
 
 Step 6. Make a GitHub account (me) and get Emily's invite (Emily, then me)
-- Me: first, ask me whether I already have a GitHub account. Emily has already added the account eoporter to the game: if that is mine, I do not make another one, and I go straight to the invitation below. If I have no account, go to https://github.com/signup , enter my email, a password and a username, and enter the code GitHub emails me. Send Emily my username.
+- Me: first, ask me whether I already have a GitHub account. Emily has already added my GitHub account to the game: if I have one, I do not make another one, and I go straight to the invitation below. If I have no account, go to https://github.com/signup , enter my email, a password and a username, and enter the code GitHub emails me. Send Emily my username.
 - Emily (only for a new account): open https://github.com/eeporter/Med-School-Prep-Game/settings/access → Add people → type my username → add them to the repository.
 - Me: open the email from GitHub ("invited you to collaborate") → View invitation → Accept invitation. If the email is lost, open https://github.com/eeporter/Med-School-Prep-Game/invitations while signed in.
 - Test: https://github.com/eeporter/Med-School-Prep-Game/invitations no longer shows an invitation (no invitation at all also means it was already accepted), and Emily sees my username under Collaborators at https://github.com/eeporter/Med-School-Prep-Game/settings/access .
@@ -297,7 +297,7 @@ Open the game at https://eeporter.github.io/Med-School-Prep-Game/ . There is not
 
 ## How to use a prompt (every time)
 
-1. Check the table "Where each prompt runs" above. For the study buddy, just start a new chat inside your "Med School" project (no pasting needed). For the guide writer and guide auditor, open the Claude desktop app, start a **new** chat, and attach the **Handoff documentation** folder (the folder or **+** button by the message box). For the question writer, Fix or change a question, and the game auditor, go to https://claude.ai/code and pick the **Med-School-Prep-Game** repository.
+1. Check the table "Where each prompt runs" above. For the study buddy, just start a new chat inside your "Med School" project (no pasting needed). For the guide writer and guide auditor, open the Claude desktop app, start a **new** chat, and attach the **Handoff documentation** folder (**Work in a folder** in the message box, or the **+** or folder button there). For the question writer, Fix or change a question, and the game auditor, go to https://claude.ai/code and pick the **Med-School-Prep-Game** repository.
 2. Use a new chat for each job, and never audit in the chat that wrote the material.
 3. Copy the prompt below (everything inside the grey box). In the file on your computer the box is not grey, so the easy way is to ask your Claude: "Show me Prompt 1 word for word so I can copy it" (or whichever prompt you need).
 4. Paste it into the chat. Replace the words in `<angle brackets>` with your topic.
@@ -755,7 +755,7 @@ When asked to re-check fixes, verify each finding ID one by one against the upda
 
 ## Changelog
 
-- 1.2 (2026-11-02), after testing "attach the folder and type Start" on a copy: named the "Work in a folder" button and the + next to Projects; Claude now shows the study buddy text to copy in step 4, because the grey box is not grey in the file on her computer; step 6 no longer sends Elissa to make a second GitHub account, since eoporter is already added.
+- 1.2 (2026-11-02), after testing "attach the folder and type Start" on a copy: named the "Work in a folder" button and the + next to Projects; Claude now shows the study buddy text to copy in step 4, because the grey box is not grey in the file on her computer; step 6 no longer sends Elissa to make a second GitHub account, since hers is already added.
 - 1.1 (2026-11-02), Emily's handoff requests: one "Handoff documentation" folder (was MedSchoolPrep) with a "START HERE - Claude read this first.md" file (and a CLAUDE.md copy): Elissa attaches the folder, types "Start", and her Claude walks her through setup step by step (who, where, exact buttons, a test and a fix for each step, what can wait, progress kept in setup-progress.md), then acts as her study buddy; the same text is in the new "Setup guide" section and docs/START-HERE.md; "How to play the game" section (modes, confidence and review timing, XP, reports, mastery, sync and backup, keyboard); "All the links in one place" list and links added where pages and sources are named. Audit K13: "Before handoff (Emily, once)" list at the top (build the folder, upload it to Google Drive, share as Editor and send Elissa the link, GitHub, test Start); START HERE step 1 opens Emily's link; one START HERE title.
 - 1.0 final (2026-11-02), setup: added setup instructions for Elissa's Claude (ordered steps, a test for each, failure table; folded into START HERE in 1.1); named the Google Drive folder for the routines.
 - 1.0 final (2026-11-02), how to play: added "How to play the game" at Emily's request.

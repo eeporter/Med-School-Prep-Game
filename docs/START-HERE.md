@@ -67,7 +67,7 @@ Step 5. Connect Google Drive (me)
 - Fine to skip for now: yes, if I want, but the weekly automatic questions (step 10) need it.
 
 Step 6. Make a GitHub account (me) and get Emily's invite (Emily, then me)
-- Me: first, ask me whether I already have a GitHub account. Emily has already added the account eoporter to the game: if that is mine, I do not make another one, and I go straight to the invitation below. If I have no account, go to https://github.com/signup , enter my email, a password and a username, and enter the code GitHub emails me. Send Emily my username.
+- Me: first, ask me whether I already have a GitHub account. Emily has already added my GitHub account to the game: if I have one, I do not make another one, and I go straight to the invitation below. If I have no account, go to https://github.com/signup , enter my email, a password and a username, and enter the code GitHub emails me. Send Emily my username.
 - Emily (only for a new account): open https://github.com/eeporter/Med-School-Prep-Game/settings/access → Add people → type my username → add them to the repository.
 - Me: open the email from GitHub ("invited you to collaborate") → View invitation → Accept invitation. If the email is lost, open https://github.com/eeporter/Med-School-Prep-Game/invitations while signed in.
 - Test: https://github.com/eeporter/Med-School-Prep-Game/invitations no longer shows an invitation (no invitation at all also means it was already accepted), and Emily sees my username under Collaborators at https://github.com/eeporter/Med-School-Prep-Game/settings/access .
