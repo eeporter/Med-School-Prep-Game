@@ -7,9 +7,18 @@ import { load, save, isDayString } from './storage.js';
 import { EXAM_TYPES, SUBJECT_EXAMS, SECONDS_PER_QUESTION, examLabel, examFormat, examScope, nextExam, weightedSample } from './exams.js';
 import { today, daysBetween, parseDayString } from './dates.js';
 import { REPORT_REASONS, weakSpots, weakSpotsText, describeSpot, addReport, reportsText } from './insights.js';
+import {
+  addXp, mergeStates, backupText, backupFileName, readBackup, makeSyncCode, normalizeSyncCode, formatSyncCode,
+  syncOnce, pullRemote, examKey, reportKey, markRemoved, markAdded,
+} from './sync.js';
+import { SYNC_CONFIG } from './sync-config.js';
 
 const NEW_PER_ROUNDS = 10;
 const FOCUS_KEY = 'med-prep-focus';
+const DEVICE_KEY = 'med-study-game:device';
+const SYNC_KEY = 'med-study-game:sync-code';
+// After a change, wait this long before syncing, so a run of answers goes up together.
+const SYNC_DELAY_MS = 8000;
 // A question missed again and again is re-asked at most this many extra times
 // per session, so one stubborn item cannot trap the learner.
 const MAX_RELEARN_TRIES = 3;
@@ -26,6 +35,10 @@ let storage = null;
 try { storage = window.localStorage; } catch { storage = null; }
 
 let state = load(storage);
+const deviceId = loadDeviceId();
+let syncCode = loadSyncCode();
+let syncTimer = null;
+let syncing = null;
 let questions = [];
 let session = null;
 let focus = loadFocus();
@@ -33,6 +46,86 @@ let focusChecks = [];
 
 function persist() {
   if (!save(storage, state)) console.warn('Progress could not be saved (storage unavailable).');
+  scheduleSync();
+}
+
+function randomBytes(n) {
+  const b = new Uint8Array(n);
+  crypto.getRandomValues(b);
+  return b;
+}
+
+// A random id for this browser, so XP earned here is counted once when merged.
+function loadDeviceId() {
+  try {
+    let id = storage?.getItem(DEVICE_KEY);
+    if (!id) {
+      id = `d-${makeSyncCode(randomBytes).slice(0, 12)}`;
+      storage?.setItem(DEVICE_KEY, id);
+    }
+    return id;
+  } catch {
+    return `d-${makeSyncCode(randomBytes).slice(0, 12)}`;
+  }
+}
+
+function loadSyncCode() {
+  if (!SYNC_CONFIG) return null;
+  try { return normalizeSyncCode(storage?.getItem(SYNC_KEY) ?? ''); } catch { return null; }
+}
+
+function setSyncCode(code) {
+  syncCode = code;
+  try {
+    if (code) storage?.setItem(SYNC_KEY, code);
+    else storage?.removeItem(SYNC_KEY);
+  } catch { /* the code then lasts only until the page closes */ }
+}
+
+// Replaces progress with a merged copy and redraws whatever is on screen.
+function adoptState(next) {
+  state = next;
+  save(storage, state);
+  if ($('view-home').hidden) renderStats();
+  else renderHome();
+}
+
+function scheduleSync() {
+  if (!syncCode) return;
+  clearTimeout(syncTimer);
+  syncTimer = setTimeout(() => syncNow(), SYNC_DELAY_MS);
+}
+
+// Pull, merge, push. Only one sync runs at a time; a failure leaves this
+// device's progress untouched and the next change or visit tries again.
+async function syncNow({ quiet = true } = {}) {
+  if (!syncCode || syncing) return syncing;
+  clearTimeout(syncTimer);
+  const status = $('sync-status');
+  if (!quiet) status.textContent = 'Syncing...';
+  syncing = (async () => {
+    try {
+      const merged = await syncOnce(fetch, SYNC_CONFIG, syncCode, state);
+      adoptState(merged);
+      status.textContent = `Synced at ${new Date().toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' })}.`;
+    } catch (err) {
+      console.warn(err);
+      status.textContent = navigator.onLine === false
+        ? 'Offline. Your progress is saved on this device and will sync when you are back online.'
+        : 'Could not reach the sync service just now. Your progress is safe on this device; it will try again.';
+    } finally {
+      syncing = null;
+    }
+  })();
+  return syncing;
+}
+
+function renderSync() {
+  $('sync-box').hidden = !SYNC_CONFIG;
+  if (!SYNC_CONFIG) return;
+  $('sync-off').hidden = Boolean(syncCode);
+  $('sync-on').hidden = !syncCode;
+  if (syncCode) $('sync-code').textContent = formatSyncCode(syncCode);
 }
 
 function show(view) {
@@ -88,6 +181,7 @@ function renderHome() {
     : '';
   renderWeakSpots();
   renderReports();
+  renderSync();
   show('home');
 }
 
@@ -155,6 +249,7 @@ function renderExams(t) {
     rm.setAttribute('aria-label', `Remove ${examLabel(e)} on ${e.date}`);
     rm.addEventListener('click', () => {
       state.exams = state.exams.filter((x) => x !== e);
+      markRemoved(state, examKey(e));
       persist();
       renderHome();
     });
@@ -407,7 +502,7 @@ function answer(confidence) {
     const wasDueReview = Boolean(state.cards[cur.q.id]) && isDue(card, t);
     gained = xpFor({ correct, confidence, wasDueReview });
     state.cards[cur.q.id] = review(card, { correct, confidence }, t, { examDate: examFor(cur.q, t)?.date ?? null });
-    state.xp += gained;
+    addXp(state, deviceId, gained);
     state.streak = updateStreak(state.streak, t, daysBetween);
     state.history.push({ id: cur.q.id, day: t, correct, confidence });
     persist();
@@ -578,6 +673,7 @@ function wire() {
     state.reports = addReport(state.reports, {
       id: q.id, day: today(), reason: reasonSel.value, note: $('report-note').value.trim(), choice: session.current.choice,
     });
+    markAdded(state, reportKey(state.reports[state.reports.length - 1]));
     persist();
     $('report-status').textContent = 'Thanks, saved. On the home screen, tap Copy for my Claude and paste it into your Claude chat.';
     $('report-note').value = '';
@@ -589,11 +685,13 @@ function wire() {
     $('reports-status'), $('reports-fallback'), 'Copied. Paste it into your Claude chat.'));
   $('reports-clear').addEventListener('click', () => {
     if (!window.confirm(`Clear ${state.reports.length} saved report(s)? Do this after you have sent them.`)) return;
+    for (const r of state.reports) markRemoved(state, reportKey(r));
     state.reports = [];
     persist();
     renderReports();
   });
   $('sum-home').addEventListener('click', renderHome);
+  wireProgress();
   const typeSel = $('exam-type');
   for (const [id, { name }] of Object.entries(EXAM_TYPES)) {
     const o = el('option', name);
@@ -617,6 +715,7 @@ function wire() {
       ? { type: 'nbme-subject', subject: $('exam-subject').value, date }
       : { type: typeSel.value, date };
     state.exams.push(exam);
+    markAdded(state, examKey(exam));
     persist();
     $('exam-date').value = '';
     renderHome();
@@ -661,6 +760,82 @@ function wire() {
   });
 }
 
+function wireProgress() {
+  $('backup-save').addEventListener('click', () => {
+    const blob = new Blob([backupText(state, new Date().toISOString())], { type: 'application/json' });
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = backupFileName(today());
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    setTimeout(() => URL.revokeObjectURL(a.href), 10000);
+    $('backup-status').textContent = `Saved ${a.download}. Keep it somewhere safe, like iCloud Drive or Google Drive.`;
+  });
+  $('backup-restore').addEventListener('click', () => $('backup-file').click());
+  $('backup-file').addEventListener('change', async (e) => {
+    const file = e.target.files?.[0];
+    e.target.value = '';
+    if (!file) return;
+    const got = readBackup(await file.text());
+    if (got.error) {
+      $('backup-status').textContent = got.error;
+      return;
+    }
+    const before = Object.keys(state.cards).length;
+    adoptState(mergeStates(state, got.state));
+    persist();
+    const added = Object.keys(state.cards).length - before;
+    $('backup-status').textContent = `Restored. The backup was added to this device's progress${added > 0 ? ` (${added} more question${added === 1 ? '' : 's'} with saved progress)` : ''}.`;
+  });
+
+  $('sync-start').addEventListener('click', async () => {
+    setSyncCode(makeSyncCode(randomBytes));
+    renderSync();
+    await syncNow({ quiet: false });
+  });
+  $('sync-join').addEventListener('click', async () => {
+    const code = normalizeSyncCode($('sync-code-input').value);
+    if (!code) {
+      $('sync-status').textContent = 'That code does not look right. It has 20 letters and numbers, like ABCDE-12345-FGHJK-67890.';
+      return;
+    }
+    $('sync-status').textContent = 'Checking the code...';
+    try {
+      // Joining needs progress already saved under the code, which catches typos.
+      if (!(await pullRemote(fetch, SYNC_CONFIG, code))) {
+        $('sync-status').textContent = 'No progress is saved under that code. Check it against the code shown on your other device.';
+        return;
+      }
+    } catch {
+      $('sync-status').textContent = 'Could not reach the sync service. Check your internet connection and try again.';
+      return;
+    }
+    $('sync-code-input').value = '';
+    setSyncCode(code);
+    renderSync();
+    await syncNow({ quiet: false });
+  });
+  $('sync-now').addEventListener('click', () => syncNow({ quiet: false }));
+  $('sync-copy').addEventListener('click', async () => {
+    try {
+      await navigator.clipboard.writeText(formatSyncCode(syncCode));
+      $('sync-status').textContent = 'Code copied.';
+    } catch {
+      $('sync-status').textContent = 'Copying was blocked. Write the code down, or press and hold it to copy.';
+    }
+  });
+  $('sync-stop').addEventListener('click', () => {
+    if (!window.confirm('Stop syncing on this device? Progress already here stays here. You can turn sync back on with the same code.')) return;
+    clearTimeout(syncTimer);
+    setSyncCode(null);
+    $('sync-status').textContent = 'Sync is off on this device.';
+    renderSync();
+  });
+  document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') syncNow(); });
+  window.addEventListener('online', () => syncNow());
+}
+
 async function main() {
   wire();
   try {
@@ -675,6 +850,7 @@ async function main() {
     $('exam-select').value = 'next';
     syncBlockSize();
   }
+  syncNow();
 }
 
 main();

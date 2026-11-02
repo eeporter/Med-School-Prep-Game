@@ -8,7 +8,7 @@ export const STORAGE_KEY = 'med-study-game:v1';
 export const SCHEMA_VERSION = 1;
 
 export function emptyState() {
-  return { version: SCHEMA_VERSION, cards: {}, xp: 0, streak: { count: 0, lastDay: null }, history: [], exams: [], reports: [] };
+  return { version: SCHEMA_VERSION, cards: {}, xp: 0, streak: { count: 0, lastDay: null }, history: [], exams: [], reports: [], xpParts: {}, addedAt: {}, removedAt: {} };
 }
 
 const isObj = (v) => v !== null && typeof v === 'object' && !Array.isArray(v);
@@ -29,6 +29,25 @@ function sanitizeCard(c) {
   if (card.due !== null && !isDayString(card.due)) card.due = null;
   if (card.lastReviewed !== undefined && !isDayString(card.lastReviewed)) delete card.lastReviewed;
   return card;
+}
+
+// When each exam or report was last added or removed (milliseconds), so a
+// sync can tell a removal from an older copy apart from a later re-add.
+function sanitizeTimes(raw) {
+  if (!isObj(raw)) return {};
+  const entries = Object.entries(raw).filter(([k, t]) => k.length <= 800 && Number.isFinite(t) && t >= 0);
+  entries.sort((x, y) => y[1] - x[1]);
+  return Object.fromEntries(entries.slice(0, 500));
+}
+
+// XP earned on each device (see sync.js), keyed by a random device id.
+function sanitizeXpParts(raw) {
+  const parts = {};
+  if (!isObj(raw)) return parts;
+  for (const [dev, n] of Object.entries(raw).slice(0, 50)) {
+    if (typeof dev === 'string' && dev.length <= 64 && Number.isFinite(n) && n >= 0) parts[dev] = n;
+  }
+  return parts;
 }
 
 export function sanitize(raw) {
@@ -54,6 +73,9 @@ export function sanitize(raw) {
         .map((e) => (e.type === 'nbme-subject' ? { type: e.type, subject: e.subject, date: e.date } : { type: e.type, date: e.date }))
       : [],
     reports: sanitizeReports(raw.reports),
+    xpParts: sanitizeXpParts(raw.xpParts),
+    addedAt: sanitizeTimes(raw.addedAt),
+    removedAt: sanitizeTimes(raw.removedAt),
   };
 }
 

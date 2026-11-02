@@ -1,6 +1,6 @@
 # Med School Prep Game
 
-A free, open-source study game for **USMLE Step 1** and **NBME** exams. It runs in the browser with no account and no server. Progress is saved on your own device.
+A free, open-source study game for **USMLE Step 1** and **NBME** exams. It runs in the browser with no account and no server. Progress is saved on your own device. Under **Sync and backup** you can save a backup file and restore it on another device, or turn on sync so a phone and a computer stay in step (one-time setup: [docs/sync-setup.md](docs/sync-setup.md)).
 
 > Study material only. Not patient-care guidance.
 
