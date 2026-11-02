@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self'; script-src 'self' https://apis.google.com; img-src 'self' data:; connect-src 'self' https://firestore.googleapis.com https://identitytoolkit.googleapis.com https://securetoken.googleapis.com">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self'; script-src 'self' https://apis.google.com; img-src 'self' data:; frame-src 'self' https://medschool-sync.firebaseapp.com; connect-src 'self' https://firestore.googleapis.com https://identitytoolkit.googleapis.com https://securetoken.googleapis.com">
   <title>Med School Prep Game</title>
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -26,7 +26,7 @@
         <button type="button" id="gate-signin" class="primary">Sign in with Google</button>
         <p class="meta" id="gate-status" role="status" aria-live="polite"></p>
         <div id="gate-offline" hidden>
-          <p class="meta">Google cannot be reached right now. Check the internet connection and tap Sign in with Google again, or study now: your answers are saved on this device and sync once you sign in.</p>
+          <p class="meta">If sign-in is not working right now (for example, no internet), you can still study. Your answers are saved on this device and sync once you sign in.</p>
           <button type="button" id="gate-skip">Study without signing in</button>
         </div>
       </div>

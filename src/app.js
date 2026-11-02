@@ -19,6 +19,8 @@ import { SECTIONS_KEY, closedSections, sectionsValue } from './sections.js';
 const NEW_PER_ROUNDS = 10;
 const FOCUS_KEY = 'med-prep-focus';
 const DEVICE_KEY = 'med-study-game:device';
+// The Google account this device's progress belongs to.
+const OWNER_KEY = 'med-study-game:owner';
 // After a change, wait this long before syncing, so a run of answers goes up together.
 const SYNC_DELAY_MS = 3000;
 // If Google's sign-in check has not answered by then, offer the sign-in button anyway.
@@ -44,7 +46,8 @@ let settings = null; // Firebase settings, when this site has them
 let account = null; // signed-in helpers from startAccount
 let user = null; // the signed-in Google user, or null
 // The sign-in screen: 'checking' (waiting for Google), 'ready' (show the
-// button) or 'unreachable' (Google cannot be reached; she may study offline).
+// button) or 'trouble' (Google cannot be reached or sign-in failed: the
+// button stays, and she may also study on this device for now).
 let gateMode = 'checking';
 let skipped = false; // studying on this device without signing in, this visit only
 let refused = null; // the email of an account the rules turned away
@@ -52,6 +55,12 @@ let lastSynced = null;
 let syncTimer = null;
 let syncing = null;
 let changes = 0; // counts saved changes, so a sync can tell if more came in meanwhile
+let syncedChanges = 0; // the value of changes at the last successful upload
+// The copy last uploaded, and the sign-in token used, for the quick upload
+// when the page is closed or hidden.
+let lastRemote = null;
+let lastToken = null;
+const TOKEN_FRESH_MS = 45 * 60 * 1000; // Google sign-in tokens last an hour
 let questions = [];
 let session = null;
 let focus = loadFocus();
@@ -97,6 +106,30 @@ function scheduleSync() {
   syncTimer = setTimeout(() => syncNow(), SYNC_DELAY_MS);
 }
 
+// The page is being hidden or closed: a full sync (download, then upload)
+// would usually be cut off, so send one upload that the browser finishes
+// even after the tab is gone. It is this device's progress merged with the
+// copy last uploaded; if another device synced since, its answers are not
+// lost: every device merges its own copy back in on its next sync.
+function flushOnHide() {
+  if (!user || changes === syncedChanges) return;
+  const t = lastToken;
+  if (!t || t.uid !== user.uid || Date.now() - t.at > TOKEN_FRESH_MS) {
+    syncNow();
+    return;
+  }
+  clearTimeout(syncTimer);
+  const sent = changes;
+  const body = lastRemote ? mergeStates(state, lastRemote) : state;
+  pushRemote(fetch, docUrl(settings.projectId, accountPath(t.uid)), body, t.token, { keepalive: true })
+    .then(() => { lastRemote = body; if (syncedChanges < sent) syncedChanges = sent; })
+    .catch((err) => {
+      // Too big for a keepalive upload, or offline: try a normal sync.
+      console.warn(err);
+      syncNow();
+    });
+}
+
 const timeNow = () => new Date().toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' });
 
 // Pull, merge, push. Only one sync runs at a time; a failure leaves this
@@ -111,15 +144,21 @@ async function syncNow() {
   clearTimeout(syncTimer);
   const status = $('sync-status');
   const before = changes;
+  const uid = user.uid;
   syncing = (async () => {
     try {
       const token = await account.token();
-      const merged = await syncOnce(fetch, docUrl(settings.projectId, accountPath(user.uid)), state, token);
+      const merged = await syncOnce(fetch, docUrl(settings.projectId, accountPath(uid)), state, token);
+      if (user?.uid !== uid) return; // signed out (or switched account) meanwhile
+      lastRemote = merged;
+      lastToken = { uid, token, at: Date.now() };
+      syncedChanges = before;
       // Answers given while the sync was on its way are merged in, never
       // overwritten by the copy that left before them.
       adoptState(mergeStates(state, merged));
       if (changes !== before) scheduleSync();
       lastSynced = timeNow();
+      try { storage?.setItem(OWNER_KEY, uid); } catch { /* single-account device: nothing lost */ }
       status.textContent = '';
       renderSync();
     } catch (err) {
@@ -157,7 +196,7 @@ const gateOn = () => Boolean(settings) && !user && !skipped;
 function renderGate() {
   $('gate-checking').hidden = gateMode !== 'checking';
   $('gate-ready').hidden = gateMode === 'checking';
-  $('gate-offline').hidden = gateMode !== 'unreachable';
+  $('gate-offline').hidden = gateMode !== 'trouble';
   if (refused) {
     $('gate-status').textContent = `${refused} is not one of the accounts set up for this game. Sign in with the Google account this game is set up for.`;
   }
@@ -178,14 +217,40 @@ async function signIn(status) {
     console.warn(err);
     const msg = signInProblem(err?.code);
     if (msg) status.textContent = msg;
-    if (err?.code === 'auth/network-request-failed' && gateOn()) setGate('unreachable');
+    if (msg) signInFailed(msg);
+  }
+}
+
+// A sign-in that did not work says why, and never locks her out of studying.
+function signInFailed(msg) {
+  if (gateOn()) {
+    $('gate-status').textContent = msg;
+    setGate('trouble');
+  } else {
+    $('sync-status').textContent = msg;
+  }
+}
+
+// Progress on a device belongs to the account that signed in there. If a
+// different account signs in later (after Sign out), it starts from its own
+// synced progress, never merging the last account's answers into it. The
+// last account's progress is already in its own synced copy: Sign out syncs
+// first. The owner is recorded only after a sync succeeds, so an account the
+// rules refuse never claims (or wipes) this device's progress.
+function claimProgress(uid) {
+  let owner = null;
+  try { owner = storage?.getItem(OWNER_KEY) ?? null; } catch { owner = null; }
+  if (owner && owner !== uid) {
+    state = emptyState();
+    save(storage, state);
+    lastSynced = null;
   }
 }
 
 async function startSync() {
   if (!settings) return renderSync();
   renderGate();
-  const wait = setTimeout(() => { if (gateMode === 'checking') setGate(account ? 'ready' : 'unreachable'); }, GATE_WAIT_MS);
+  const wait = setTimeout(() => { if (gateMode === 'checking') setGate(account ? 'ready' : 'trouble'); }, GATE_WAIT_MS);
   try {
     account = await startAccount(settings, (u) => {
       const was = user?.uid;
@@ -193,6 +258,7 @@ async function startSync() {
       clearTimeout(wait);
       if (u) {
         refused = null;
+        claimProgress(u.uid);
         $('gate-status').textContent = '';
         if (!$('view-signin').hidden) renderHome();
         if (u.uid !== was) syncNow();
@@ -203,11 +269,15 @@ async function startSync() {
         if (!session) renderHome();
       }
       renderSync();
+    }, (err) => {
+      const msg = signInProblem(err?.code);
+      if (msg) signInFailed(msg);
     });
   } catch (err) {
     console.warn(err);
     clearTimeout(wait);
-    setGate('unreachable');
+    $('gate-status').textContent = 'Google sign-in could not be reached. Check the internet connection and reload, or study on this device for now.';
+    setGate('trouble');
   }
   return renderSync();
 }
@@ -931,7 +1001,10 @@ function wire() {
   $('home-link').addEventListener('click', (e) => {
     e.preventDefault();
     if (session) leaveViaButton();
-    else if (!gateOn()) renderHome();
+    else if (!gateOn()) {
+      renderHome();
+      if (history.state?.session) history.back(); // from a session's summary
+    }
   });
   for (const id of ['quiz-home', 'fb-home']) $(id).addEventListener('click', leaveViaButton);
   window.addEventListener('popstate', () => {
@@ -1007,7 +1080,11 @@ function wireProgress() {
   // Sync when she comes back to the game, and straight away when she leaves
   // it (switches app, locks the phone, closes the tab), so the other device
   // has her latest answers.
-  document.addEventListener('visibilitychange', () => syncNow());
+  document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'hidden') flushOnHide();
+    else syncNow();
+  });
+  window.addEventListener('pagehide', flushOnHide);
   window.addEventListener('online', () => syncNow());
 }
 

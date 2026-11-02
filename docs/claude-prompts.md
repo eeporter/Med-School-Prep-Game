@@ -1,6 +1,6 @@
 # Claude prompt kit: study guides, game questions, and the auditor
 
-Version 1.6 (2026-11-02) · Status: **final, ready for handoff.**
+Version 1.7 (2026-11-02) · Status: **final, ready for handoff.**
 
 **Your study game:** https://medschool-sync.web.app (bookmark it, or on your phone use Share → Add to Home Screen). Only you and Emily can sync progress there, by signing in with Google.
 
@@ -761,6 +761,7 @@ When asked to re-check fixes, verify each finding ID one by one against the upda
 
 ## Changelog
 
+- 1.7 (2026-11-02), game fixes from Emily's live test: the game now opens on a Welcome screen with Sign in with Google (Study without signing in only if sign-in is not working); syncing has no button (Sync now removed) and runs by itself; Home at the top of each question and next to Next, and the phone's Back goes home; How to play starts closed and every home section folds. Step 9 and How to play updated to match.
 - 1.6 (2026-11-02), private game: the game moved to https://medschool-sync.web.app (every link updated) with Sign in with Google sync limited to Elissa and Emily (no sync codes); the game's GitHub pages need a GitHub sign-in, so the rebuild paste and kit-missing fallback no longer use public download links; routine SAFETY lines no longer say the repository is public; PDFs still never go in the repository. Audit K22-1 (waiting steps also reach the set-up checklist) and K22-2 (weak spots may also go to a question-writer chat). Audit K24: "no account", "open-source" and "main does not accept direct saves" reworded. No move-progress step: Elissa never played on the old address (Emily).
 - 1.5 (2026-11-02), Emily: everything Elissa asks and misses feeds the weekly questions. A pasted weak-spots list now also adds one "WEAK:" line to the question inbox (same path and fallbacks as STRUGGLE lines), and the writer routine writes those topics right after STRUGGLE lines, so the daily routine no longer needs a second paste. Weekly questions (START HERE step 10) are no longer skippable, and steps 5 to 7 can only wait, not be skipped; each new chat says once if the weekly questions are not running yet. Audit K21: the weak-spots list is pasted only into the study buddy (the by-hand inbox paste is the fallback); a "waiting: <what>" step no longer restarts setup in every chat (one status word everywhere); WEAK overflow stays under Waiting; distractors come from commonly confused alternatives (the game's list doesn't record her picks).
 - 1.4 (2026-11-02), from Elissa's setup: Emily installs the Claude GitHub app before handoff; step 7 tells Elissa to ask Emily if Claude says the GitHub app on eeporter isn't connected. Also from her Windows setup: the Code tab now counts as a way to attach the folder, be the study buddy (no Projects needed) and reach the game (Cloud session); a documents folder in her copy is used if present; a "create a workspace" page means stop and send Emily a screenshot; game-question requests wait in question-requests-waiting.md until claude.ai/code works. Routine steps now match Anthropic's scheduled-task screens: the presets have no two-day week, so each routine gets a Custom schedule.

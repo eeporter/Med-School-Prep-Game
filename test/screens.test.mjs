@@ -38,3 +38,15 @@ test('a sync merges answers given while it was on its way', () => {
 test('the footer does not link to the repository, which is going private', () => {
   assert.doesNotMatch(html.slice(html.indexOf('<footer')), /github\.com/);
 });
+
+test('sign-in is never a locked door: failures say why and offer studying on the device', () => {
+  assert.match(html, /id="gate-skip"[^>]*>Study without signing in</);
+  assert.match(app, /function signInFailed/);
+  // Firebase's sign-in helper frame is allowed (needed when it is not on the game's own host).
+  assert.match(html, /frame-src 'self' https:\/\/medschool-sync\.firebaseapp\.com;/);
+});
+
+test('closing or hiding the page sends one upload that outlives the tab', () => {
+  assert.match(app, /addEventListener\('pagehide', flushOnHide\)/);
+  assert.match(app, /keepalive: true/);
+});

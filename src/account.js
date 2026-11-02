@@ -54,8 +54,9 @@ export function signInProblem(code) {
   }
 }
 
-// Starts Firebase Auth. onUser(user|null) runs now and on every sign-in change.
-export async function startAccount(settings, onUser) {
+// Starts Firebase Auth. onUser(user|null) runs now and on every sign-in change;
+// onError(err) runs if a sign-in that went through a full-page redirect failed.
+export async function startAccount(settings, onUser, onError = () => {}) {
   const { initializeApp } = await import('./vendor/firebase/firebase-app.js');
   const auth = await import('./vendor/firebase/firebase-auth.js');
   const app = initializeApp(settings);
@@ -64,7 +65,10 @@ export async function startAccount(settings, onUser) {
   provider.setCustomParameters({ prompt: 'select_account' });
   auth.onAuthStateChanged(a, (user) => onUser(user));
   // Finishes a sign-in that had to go through a full-page redirect.
-  auth.getRedirectResult(a).catch((err) => console.warn(err));
+  auth.getRedirectResult(a).catch((err) => {
+    console.warn(err);
+    onError(err);
+  });
   return {
     async signIn() {
       try {

@@ -200,3 +200,12 @@ test('a failed upload or download throws so the caller keeps local progress', as
   const denied = async () => ({ ok: false, status: 403, json: async () => ({}) });
   await assert.rejects(pullRemote(denied, 'u', 't'), (e) => e instanceof SyncError && e.status === 403);
 });
+
+test('pushRemote can ask the browser to finish the upload after the page closes', async () => {
+  const { pushRemote } = await import('../src/sync.js');
+  const seen = [];
+  const fake = async (url, opts) => { seen.push(opts.keepalive); return { ok: true, status: 200 }; };
+  await pushRemote(fake, 'u', { a: 1 }, 't', { keepalive: true });
+  await pushRemote(fake, 'u', { a: 1 }, 't');
+  assert.deepEqual(seen, [true, false]);
+});

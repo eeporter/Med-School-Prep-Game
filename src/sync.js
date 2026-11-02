@@ -211,9 +211,12 @@ export async function pullRemote(fetchFn, url, token = null) {
   return sanitize(JSON.parse(text));
 }
 
-export async function pushRemote(fetchFn, url, state, token = null) {
+// keepalive lets the upload finish after the page closes (browsers cap such a
+// body at 64 KB, and reject a bigger one before sending it).
+export async function pushRemote(fetchFn, url, state, token = null, { keepalive = false } = {}) {
   const res = await fetchFn(url, {
     method: 'PATCH',
+    keepalive,
     headers: { 'Content-Type': 'application/json', ...authHeaders(token) },
     body: JSON.stringify({ fields: { data: { stringValue: JSON.stringify(state) } } }),
   });
