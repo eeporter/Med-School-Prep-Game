@@ -5,4 +5,4 @@
 // null, the game hides the Sync controls and only offers backup files.
 //
 // Example: export const SYNC_CONFIG = { projectId: 'med-prep-sync' };
-export const SYNC_CONFIG = null;
+export const SYNC_CONFIG = { projectId: 'medschool-sync' };
