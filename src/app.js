@@ -12,6 +12,7 @@ import {
   syncOnce, pullRemote, examKey, reportKey, markRemoved, markAdded,
 } from './sync.js';
 import { SYNC_CONFIG } from './sync-config.js';
+import { HOWTO_KEY, howToStartsOpen, howToValue } from './howto.js';
 
 const NEW_PER_ROUNDS = 10;
 const FOCUS_KEY = 'med-prep-focus';
@@ -657,7 +658,22 @@ function finishSession() {
   show('summary');
 }
 
+function wireHowTo() {
+  const box = $('howto');
+  let stored = null;
+  try { stored = storage?.getItem(HOWTO_KEY) ?? null; } catch { stored = null; }
+  box.open = howToStartsOpen(stored);
+  box.addEventListener('toggle', () => {
+    try { storage?.setItem(HOWTO_KEY, howToValue(box.open)); } catch { /* not saved; opens again next visit */ }
+  });
+  $('howto-hide').addEventListener('click', () => {
+    box.open = false;
+    box.querySelector('summary').focus();
+  });
+}
+
 function wire() {
+  wireHowTo();
   for (const b of document.querySelectorAll('[data-mode]')) b.addEventListener('click', () => startSession(b.dataset.mode));
   for (const b of document.querySelectorAll('[data-confidence]')) b.addEventListener('click', () => answer(b.dataset.confidence));
   $('next-btn').addEventListener('click', advance);
