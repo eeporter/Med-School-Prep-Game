@@ -131,3 +131,11 @@ details.report summary { font-weight: normal; color: var(--muted); font-size: 0.
 .code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: 0.05em; }
 #weak-list li { margin-bottom: 4px; }
 
+
+/* How to play: open until she hides it, then just its title line. */
+details.howto { margin: 4px 0 16px; padding: 10px 14px; }
+details.howto > summary { font-size: 1.05rem; min-height: 32px; }
+details.howto h3 { font-size: 1rem; margin: 14px 0 4px; }
+details.howto ul { padding-left: 20px; margin: 0; }
+details.howto li { margin-bottom: 6px; }
+details.howto .row { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; margin-top: 12px; }
