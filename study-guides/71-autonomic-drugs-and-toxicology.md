@@ -111,7 +111,7 @@ Source: El-Husseiny, pp. 67, 69; [StatPearls: Alpha-Blockers](https://www.ncbi.n
 - **Nebivolol:** β1 blockade plus β3 stimulation that raises nitric oxide.
 - **Timolol:** lowers aqueous humor in glaucoma.
 - **Side effects:** erectile dysfunction, bradycardia, AV block, heart failure, and worse asthma or COPD.
-- **Overdose antidote:** glucagon is on the MSD list; your notes add atropine and saline (p. 73). [MSD Manual: General Principles of Poisoning](https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/general-principles-of-poisoning)
+- **Overdose antidote:** your notes list atropine, glucagon and saline (p. 73). MSD lists glucagon and IV lipid emulsion. [MSD Manual: General Principles of Poisoning](https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/general-principles-of-poisoning)
 
 ### Phosphodiesterase (PDE) inhibitors (p. 71)
 | Drug | Target | Use | Key side effect |
@@ -158,7 +158,7 @@ MAO in the gut normally breaks down tyramine. With an MAO inhibitor, tyramine fr
 ### Beers criteria (p. 72)
 Drugs that older adults should generally avoid or use with care:
 - **α-blockers:** low blood pressure.
-- **Anticholinergics, antidepressants, antipsychotics, opioids:** delirium, sedation, falls, constipation, urinary retention.
+- **Anticholinergics, antidepressants, antihistamines, opioids:** delirium, sedation, falls, constipation, urinary retention.
 - **Benzodiazepines:** delirium, sedation, falls.
 - **NSAIDs:** GI bleeding, especially with anticoagulants.
 - **PPIs:** *C. difficile* infection.
@@ -172,7 +172,7 @@ Drugs that older adults should generally avoid or use with care:
 | Organophosphates | Atropine, pralidoxime |
 | Anticholinergics | Physostigmine |
 | Benzodiazepines | Flumazenil |
-| β-blockers | Glucagon (your notes also list atropine and saline) |
+| β-blockers | Atropine, glucagon, saline (MSD: glucagon, IV lipid emulsion) |
 | Carbon monoxide | 100% or hyperbaric oxygen |
 | Cyanide | Hydroxocobalamin, nitrites plus sodium thiosulfate |
 | Digoxin | Digoxin-specific antibody fragments |
@@ -187,7 +187,7 @@ Drugs that older adults should generally avoid or use with care:
 | Salicylates, tricyclics | Sodium bicarbonate |
 | Warfarin | Vitamin K, prothrombin complex concentrate or fresh frozen plasma |
 
-Source: El-Husseiny, p. 73; [MSD Manual: General Principles of Poisoning](https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/general-principles-of-poisoning). **Recent change:** MSD also lists newer reversal agents your notes do not: **idarucizumab** for dabigatran and **andexanet alfa** for apixaban, edoxaban and rivaroxaban. It marks physostigmine and flumazenil as controversial, because they can cause harm without proper monitoring.
+Source: El-Husseiny, p. 73; [MSD Manual: General Principles of Poisoning](https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/general-principles-of-poisoning). **Recent change:** MSD lists newer reversal agents your notes do not: **idarucizumab** for dabigatran and **andexanet alfa** for factor Xa inhibitors. However, andexanet alfa left the US market in December 2025. The FDA concluded that its serious risks, including fatal clots, outweigh its benefits. Its US approval had covered rivaroxaban and apixaban only. [AABB, 23 Dec 2025](https://www.aabb.org/news-resources/news/article/2025/12/23/astrazeneca-withdraws-factor-xa-reversal-agent-from-u.s.-market), [TCTMD, 22 Dec 2025](https://www.tctmd.com/news/andexanet-alfa-pulled-us-market) MSD also marks physostigmine and flumazenil as controversial, because they can cause harm without proper monitoring.
 
 ### Drug reactions to recognize
 | Reaction | Classic drugs |
@@ -272,6 +272,8 @@ A 44-year-old farm worker is brought in after spraying a field. He is drooling, 
 - [Alpha-Blockers (StatPearls)](https://www.ncbi.nlm.nih.gov/books/NBK556066/)
 - [Selective Beta-1 Blockers (StatPearls)](https://www.ncbi.nlm.nih.gov/books/NBK499982/)
 - [Phosphodiesterase Inhibitors (StatPearls)](https://www.ncbi.nlm.nih.gov/books/NBK559276/)
+- [AstraZeneca Withdraws Factor Xa Reversal Agent From U.S. Market (AABB)](https://www.aabb.org/news-resources/news/article/2025/12/23/astrazeneca-withdraws-factor-xa-reversal-agent-from-u.s.-market)
+- [Andexanet Alfa Pulled From US Market (TCTMD)](https://www.tctmd.com/news/andexanet-alfa-pulled-us-market)
 - [Overview of the Autonomic Nervous System (MSD Manual Professional)](https://www.msdmanuals.com/professional/neurologic-disorders/autonomic-nervous-system/overview-of-the-autonomic-nervous-system)
 - [Organophosphate Poisoning and Carbamate Poisoning (MSD Manual Professional)](https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/organophosphate-poisoning-and-carbamate-poisoning)
 - [General Principles of Poisoning (MSD Manual Professional)](https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/general-principles-of-poisoning)

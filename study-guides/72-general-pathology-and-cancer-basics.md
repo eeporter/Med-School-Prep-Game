@@ -266,7 +266,8 @@ Do not use these as the first tool for screening or diagnosis. They mainly track
 | Cushing syndrome | ACTH | Small cell lung cancer |
 | SIADH | ADH | Small cell lung cancer |
 | Polycythemia | Erythropoietin | Pheochromocytoma, renal cell, hepatocellular, hemangioblastoma, leiomyoma |
-| Pure red cell aplasia, Good syndrome | Unknown | Thymoma |
+| Pure red cell aplasia | Anemia with low reticulocytes | Thymoma |
+| Good syndrome | Hypogammaglobulinemia | Thymoma |
 | Trousseau syndrome, marantic endocarditis | Hypercoagulability | Adenocarcinomas, especially pancreatic |
 | Dermatomyositis, acanthosis nigricans | | Adenocarcinomas; ovarian and gastric |
 | Sign of Leser-Trélat | | GI adenocarcinomas |
@@ -328,7 +329,7 @@ A 58-year-old woman on long-term dialysis has numbness in both hands at night. A
    - **Trap:** squamous cell carcinoma, which is linked to PTHrP and high calcium.
 5. A patient with recurrent infections, delayed umbilical cord separation and no pus has a defect in CD18. Which step of leukocyte movement fails?
    - **Answer:** tight binding (adhesion) to the endothelium.
-   - **Why:** CD18 is the integrin subunit used for tight binding. (El-Husseiny, p. 14) The cord and pus details are standard teaching.
+   - **Why:** CD18 is the integrin subunit used for tight binding. (El-Husseiny, p. 14) Your Microbiology and Immunology notes give the delayed cord separation and lack of pus (p. 472).
    - **Trap:** rolling, which uses selectins and fails in adhesion deficiency type 2.
 6. A shipyard worker who smokes develops a lung tumor. Which cancer is most likely?
    - **Answer:** bronchogenic carcinoma.
@@ -337,6 +338,7 @@ A 58-year-old woman on long-term dialysis has numbness in both hands at night. A
 
 ## Sources (opened 2026-11-02)
 - El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), pp. 2-28. Page numbers are the ones printed on the page.
+- El-Husseiny's Essentials for USMLE Step 1: Microbiology and Immunology (Emily's file), p. 472.
 - [Necrosis Pathology (StatPearls)](https://www.ncbi.nlm.nih.gov/books/NBK557627/)
 - [Erythrocyte Sedimentation Rate (StatPearls)](https://www.ncbi.nlm.nih.gov/books/NBK557485/)
 - [Physiology, Acute Phase Reactants (StatPearls)](https://www.ncbi.nlm.nih.gov/books/NBK519570/)

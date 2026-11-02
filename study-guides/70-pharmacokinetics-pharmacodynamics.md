@@ -20,7 +20,7 @@ Based on your notes: El-Husseiny's Essentials: General Principles (pharmacokinet
 - **Like dissolves like:** a drug stays nonionized in a fluid of the same type, so it is reabsorbed. In the opposite pH it ionizes and is excreted (El-Husseiny, p. 32).
 - **Weak acids** (aspirin, penicillin, cephalosporins, loop and thiazide diuretics): alkalinize the urine to clear them. **Weak bases** (morphine, local anesthetics, amphetamine, PCP): acidifying the urine ionizes them (pp. 31-32).
 - Alkalinize with sodium bicarbonate or acetazolamide; your notes list ammonium chloride, vitamin C and cranberry juice as acidifiers (p. 32).
-- **Other source:** MSD confirms the principle and gives salicylate overdose as its example of alkalinizing urine. The effect is limited by how much of the drug is cleared by the kidney. [MSD Manual: Drug Excretion](https://www.msdmanuals.com/professional/clinical-pharmacology/pharmacokinetics/drug-excretion), [MSD Manual: General Principles of Poisoning](https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/general-principles-of-poisoning)
+- **MSD agrees:** it confirms the principle and gives salicylate overdose as its example of alkalinizing urine. The effect is limited by how much of the drug is cleared by the kidney. [MSD Manual: Drug Excretion](https://www.msdmanuals.com/professional/clinical-pharmacology/pharmacokinetics/drug-excretion), [MSD Manual: General Principles of Poisoning](https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/general-principles-of-poisoning)
 - **Lactulose:** gut bacteria turn it into lactic acid, which converts ammonia (NH3) to ammonium (NH4+). The charged form is trapped in the stool, which helps in hepatic encephalopathy (p. 32).
 
 ### Transport across membranes (p. 33)
@@ -105,7 +105,7 @@ Source: El-Husseiny, pp. 48-52. MSD agrees that more agonist overcomes competiti
 
 - **Physiologic antagonism:** two agonists oppose each other at different receptors, such as a vasoconstrictor and a vasodilator (p. 52).
 - **Chemical antagonism:** one compound binds the drug directly, such as protamine binding heparin (p. 52).
-- **Therapeutic index:** compares the median toxic dose (TD50) or lethal dose (LD50) with the median effective dose (ED50) (p. 52). A larger index is safer. MSD calls it the ratio of the minimum toxic concentration to the median effective concentration. [MSD Manual: Dose-Response Relationships](https://www.msdmanuals.com/professional/clinical-pharmacology/pharmacodynamics/dose-response-relationships)
+- **Therapeutic index:** compares the median toxic dose (TD50) or lethal dose (LD50) with the median effective dose (ED50) (p. 52). A larger index is safer. **Other source:** MSD defines it instead as the ratio of the minimum toxic concentration to the median effective concentration. [MSD Manual: Dose-Response Relationships](https://www.msdmanuals.com/professional/clinical-pharmacology/pharmacodynamics/dose-response-relationships)
 
 ## Clinical vignette
 A 19-year-old man is brought in 6 hours after taking a large amount of aspirin. He is breathing fast and has ringing in his ears. His team starts an infusion of sodium bicarbonate. How does this speed up removal of the drug?
@@ -121,7 +121,7 @@ A 19-year-old man is brought in 6 hours after taking a large amount of aspirin. 
 - **High Vd means low plasma level**, not high.
 - **Low albumin** raises the free fraction of a highly protein-bound drug.
 - **Competitive antagonists do not lower the maximum** when enough agonist is given.
-- **A partial agonist can lower the response** when a full agonist is present. Your notes use this idea (p. 49); buprenorphine causing withdrawal in a patient on full opioids is the classic case (see guide 53).
+- **A partial agonist can lower the response** when a full agonist is present. Your notes use this idea (p. 49); your notes name buprenorphine as a partial agonist (p. 50), and guide 53 covers the withdrawal it can trigger.
 - **Higher Km means lower affinity**, which runs opposite to what the number suggests.
 
 ## Practice questions
@@ -147,11 +147,12 @@ A 19-year-old man is brought in 6 hours after taking a large amount of aspirin. 
    - **Trap:** a noncompetitive antagonist, which lowers the maximum.
 6. A patient on warfarin starts rifampin, and the INR falls. Why?
    - **Answer:** rifampin induces CYP450, so warfarin is cleared faster.
-   - **Why:** rifampin is on your notes' list of inducers (p. 38), and MSD lists it as a CYP3A4 inducer. [MSD Manual: Drug Metabolism](https://www.msdmanuals.com/professional/clinical-pharmacology/pharmacokinetics/drug-metabolism) The warfarin example is standard teaching.
+   - **Why:** rifampin is on your notes' list of inducers (p. 38), and MSD lists it as a CYP3A4 inducer. [MSD Manual: Drug Metabolism](https://www.msdmanuals.com/professional/clinical-pharmacology/pharmacokinetics/drug-metabolism) Your Ninja Nerd notes (PDF p. 14) use warfarin as their example: an inducer lowers the active drug level.
    - **Trap:** calling rifampin an inhibitor.
 
 ## Sources (opened 2026-11-02)
 - El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), pp. 30-52. Page numbers are the ones printed on the page.
+- Ninja Nerd Pharmacology (Emily's file), PDF p. 14.
 - [Physiology, Zero- and First-Order Kinetics (StatPearls)](https://www.ncbi.nlm.nih.gov/books/NBK499866/)
 - [Clinical Significance of Volume of Distribution in Pharmacotherapy (StatPearls)](https://www.ncbi.nlm.nih.gov/books/NBK545280/)
 - [Steady State Concentration (StatPearls)](https://www.ncbi.nlm.nih.gov/books/NBK553132/)

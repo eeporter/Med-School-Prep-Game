@@ -48993,7 +48993,7 @@
         "nbme"
       ],
       "discipline": "Pharmacology",
-      "system": "Respiratory",
+      "system": "General Principles",
       "topic": "Pharmacokinetics: calculating a maintenance infusion rate",
       "difficulty": 3,
       "stem": "A 50-year-old man with a severe COPD flare receives an intravenous drug by continuous infusion. The target plasma level is 10 mg/L. His clearance of the drug is 3 L/h and its volume of distribution is 35 L.",
@@ -49181,7 +49181,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: acetylation. Why: Acetylation is a phase II reaction with fast and slow genetic types. Your El-Husseiny General Principles notes (p. 39) list drug-induced lupus in slow acetylators on hydralazine, procainamide and isoniazid. MSD confirms acetylation as a form of conjugation. Antihistone antibodies are the standard teaching marker for drug-induced lupus.",
+      "explanation": "Answer: acetylation. Why: Acetylation is a phase II reaction with fast and slow genetic types. Your El-Husseiny General Principles notes (p. 39) list drug-induced lupus in slow acetylators on hydralazine, procainamide and isoniazid. MSD confirms acetylation as a form of conjugation. Your El-Husseiny MSK notes (p. 149) call antihistone antibodies sensitive for drug-induced lupus.",
       "whyWrong": {
         "b": "Glucuronidation is inducible and reduced in newborns. It is not the reaction linked to hydralazine lupus.",
         "c": "Glutathione depletion is linked to acetaminophen liver injury.",
@@ -49191,6 +49191,9 @@
       "sources": [
         {
           "title": "El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), phase II reactions, p. 39"
+        },
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: MSK (Emily's file), lupus antibodies, p. 149"
         },
         {
           "title": "MSD Manual Professional: Drug Metabolism",
@@ -49233,7 +49236,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: CYP450 induction by rifampin. Why: Rifampin is on your El-Husseiny General Principles list of general inducers (p. 38), and MSD lists it as a CYP3A4 inducer. More enzyme means faster breakdown of the hormones, so their levels fall. The contraceptive example is standard teaching.",
+      "explanation": "Answer: CYP450 induction by rifampin. Why: Rifampin is on your El-Husseiny General Principles list of general inducers (p. 38), and MSD lists it as a CYP3A4 inducer. More enzyme means faster breakdown of the hormones, so their levels fall. Your Pharmacology High-Yield notes (PDF p. 38) cover this same interaction.",
       "whyWrong": {
         "b": "Inhibition would raise the hormone levels, which would not cause failure.",
         "c": "Pyrazinamide is not known for blocking pill absorption.",
@@ -49243,6 +49246,9 @@
       "sources": [
         {
           "title": "El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), phase I reactions, p. 38"
+        },
+        {
+          "title": "Pharmacology High-Yield (Emily's file), PDF p. 38"
         },
         {
           "title": "MSD Manual Professional: Drug Metabolism",
@@ -49389,7 +49395,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: a partial agonist has displaced a full agonist. Why: Your El-Husseiny General Principles notes (p. 49) explain the duality of partial agonists: when one displaces a full agonist from the receptor, the response falls, so it acts as an antagonist. Buprenorphine is a partial agonist at opioid receptors (standard teaching; see guide 53). The lower receptor activation brings on withdrawal. MSD says partial agonists can have both agonist and antagonist properties.",
+      "explanation": "Answer: a partial agonist has displaced a full agonist. Why: Your El-Husseiny General Principles notes (p. 49) explain the duality of partial agonists: when one displaces a full agonist from the receptor, the response falls, so it acts as an antagonist. Your notes name buprenorphine as a partial agonist at opioid μ-receptors (p. 50). The lower receptor activation brings on withdrawal. MSD says partial agonists can have both agonist and antagonist properties.",
       "whyWrong": {
         "b": "Heroin is the full agonist here, and it was given first. The later drug displaced it.",
         "c": "Buprenorphine is not a pure antagonist, and fast metabolism would not cause this.",
@@ -49398,7 +49404,7 @@
       },
       "sources": [
         {
-          "title": "El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), duality of partial agonists, p. 49"
+          "title": "El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), duality of partial agonists, pp. 49-50"
         },
         {
           "title": "MSD Manual Professional: Drug-Receptor Interactions",
@@ -49441,7 +49447,7 @@
         }
       ],
       "answer": "c",
-      "explanation": "Answer: higher therapeutic index. Why: The therapeutic index compares the toxic dose with the effective dose (your El-Husseiny General Principles notes, p. 52). Drug P: 400 ÷ 10 = 40. Drug Q: 20 ÷ 10 = 2. A higher index means a wider safety margin. MSD defines the index as the ratio of minimum toxic concentration to median effective concentration.",
+      "explanation": "Answer: higher therapeutic index. Why: The therapeutic index compares the toxic dose with the effective dose (your El-Husseiny General Principles notes, p. 52). Drug P: 400 ÷ 10 = 40. Drug Q: 20 ÷ 10 = 2. A higher index means a wider safety margin. Other source: MSD defines the index as the ratio of minimum toxic concentration to median effective concentration.",
       "whyWrong": {
         "a": "Efficacy is the maximum response, which is not given here.",
         "b": "Both have the same ED50, so they are equally potent.",
@@ -50065,7 +50071,7 @@
         "nbme"
       ],
       "discipline": "Pharmacology",
-      "system": "Immune System",
+      "system": "Multisystem",
       "topic": "Seafood toxins: scombroid poisoning",
       "difficulty": 2,
       "stem": "Three members of a family have flushing, hives and a burning feeling in the mouth 20 minutes after eating grilled tuna at a picnic. The fish had been left in the sun for several hours. None has had a reaction to fish before.",
@@ -50197,7 +50203,7 @@
         }
       ],
       "answer": "b",
-      "explanation": "Answer: diphenhydramine. Why: This antihistamine has strong anticholinergic effects. Your El-Husseiny General Principles notes (p. 72) list anticholinergics in the Beers criteria for delirium, constipation and urinary retention. MSD cites the 2023 Beers update, and says diphenhydramine has anticholinergic effects and is not recommended as a hypnotic.",
+      "explanation": "Answer: diphenhydramine. Why: This antihistamine has strong anticholinergic effects. Your El-Husseiny General Principles notes (p. 72) list anticholinergics and antihistamines in the Beers criteria for delirium, constipation and urinary retention. MSD cites the 2023 Beers update, and says diphenhydramine has anticholinergic effects and is not recommended as a hypnotic.",
       "whyWrong": {
         "a": "Acetaminophen does not cause an anticholinergic picture.",
         "c": "Melatonin does not have anticholinergic effects.",
@@ -50389,7 +50395,7 @@
         },
         {
           "id": "b",
-          "text": "Dense bodies in the mitochondria from calcium influx"
+          "text": "Mitochondrial damage with loss of electron transport"
         },
         {
           "id": "c",
@@ -50405,9 +50411,9 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: cell swelling from failure of ion pumps. Why: Less ATP means the Na+/K+ and calcium pumps fail, so cells swell. This is the earliest visible sign of reversible injury. Your El-Husseiny General Principles notes (p. 7) also say myocardial cells stop contracting after 1-2 minutes of ischemia. Dense bodies are standard teaching for irreversible mitochondrial injury.",
+      "explanation": "Answer: cell swelling from failure of ion pumps. Why: Less ATP means the Na+/K+ and calcium pumps fail, so cells swell. This is the earliest visible sign of reversible injury. Your El-Husseiny General Principles notes (p. 7) also say myocardial cells stop contracting after 1-2 minutes of ischemia.",
       "whyWrong": {
-        "b": "This means mitochondrial damage, a sign of irreversible injury.",
+        "b": "Your notes list this among the signs of irreversible injury.",
         "c": "Nuclear dissolution is a sign of cell death.",
         "d": "This is a sign of irreversible injury and autolysis.",
         "e": "Membrane breakdown marks irreversible injury, with enzymes such as troponin leaking out."
@@ -51056,12 +51062,12 @@
       "system": "Skin & Subcutaneous Tissue",
       "topic": "Immune checkpoints: CTLA-4 and PD-1",
       "difficulty": 2,
-      "stem": "A 60-year-old woman with metastatic melanoma starts ipilimumab. Her tumor shrinks over 3 months. She later develops severe diarrhea from autoimmune colitis.",
+      "stem": "A 60-year-old woman with metastatic melanoma starts ipilimumab. Her tumor shrinks over 3 months.",
       "leadIn": "Which of the following describes the molecule this drug blocks?",
       "options": [
         {
           "id": "a",
-          "text": "A T-cell protein that competes with CD28 for B7"
+          "text": "A T-cell protein that competes for B7"
         },
         {
           "id": "b",
@@ -51081,7 +51087,7 @@
         }
       ],
       "answer": "a",
-      "explanation": "Answer: a T-cell protein that competes with CD28 for B7. Why: Ipilimumab blocks CTLA-4, a T-cell protein that outcompetes CD28 for B7, which removes the T cell's costimulatory signal (your El-Husseiny General Principles notes, p. 22). The National Cancer Institute says checkpoint inhibitors block this \"off\" signal so T cells can attack cancer cells. Colitis is a standard-teaching immune side effect.",
+      "explanation": "Answer: a T-cell protein that competes for B7. Why: Ipilimumab blocks CTLA-4, a T-cell protein that outcompetes CD28 for B7, which removes the T cell's costimulatory signal (your El-Husseiny General Principles notes, p. 22). The National Cancer Institute says checkpoint inhibitors block this \"off\" signal so T cells can attack cancer cells.",
       "whyWrong": {
         "b": "CD20 is the target of rituximab.",
         "c": "This is PD-L1, the target of atezolizumab, durvalumab and avelumab.",
@@ -51397,7 +51403,7 @@
         }
       ],
       "answer": "c",
-      "explanation": "Answer: CA 125. Why: Your El-Husseiny General Principles notes (p. 26) link CA 125 with ovarian cancer, and say markers track recurrence and response, not as the first tool for diagnosis or screening. The National Cancer Institute says markers can show how treatment is working and possible recurrence, but they are not sensitive enough for general screening. An adnexal mass, ascites and early satiety at this age suggest ovarian cancer (standard teaching).",
+      "explanation": "Answer: CA 125. Why: Your El-Husseiny General Principles notes (p. 26) link CA 125 with ovarian cancer, and say markers track recurrence and response, not as the first tool for diagnosis or screening. The National Cancer Institute says markers can show how treatment is working and possible recurrence, but they are not sensitive enough for general screening.",
       "whyWrong": {
         "a": "This fits hepatocellular carcinoma and yolk sac tumor, which are rare at this age in the ovary.",
         "b": "CA 19-9 is used for pancreatic adenocarcinoma.",
@@ -51449,7 +51455,7 @@
         }
       ],
       "answer": "c",
-      "explanation": "Answer: P-glycoprotein. Why: Your El-Husseiny General Principles notes (p. 27) call this multidrug resistance protein 1. It is classically found in colon adenocarcinoma, pumping out toxins, including chemotherapy drugs. A published review calls it a promiscuous drug efflux pump linked with multidrug resistance when overexpressed in cancer cells.",
+      "explanation": "Answer: P-glycoprotein. Why: Your El-Husseiny General Principles notes (p. 27) call this multidrug resistance protein 1. It is classically seen in adrenocortical carcinoma, and other cancer cells such as colon and liver also express it. It pumps out toxins, including chemotherapy drugs. A published review calls it a promiscuous drug efflux pump linked with multidrug resistance when overexpressed in cancer cells.",
       "whyWrong": {
         "a": "This moves glucose into cells and does not pump out drugs.",
         "b": "This keeps ion gradients and does not pump out drugs.",
@@ -51892,7 +51898,7 @@
       "system": "Multisystem",
       "topic": "Neuromuscular blockers: succinylcholine and hyperkalemia",
       "difficulty": 2,
-      "stem": "A 40-year-old man with severe burns over 40% of his body needs urgent intubation 10 days after injury. He is given succinylcholine. Within minutes, his ECG shows peaked T waves and a wide QRS complex.",
+      "stem": "A 40-year-old man with severe burns over 40% of his body needs urgent intubation 3 days after injury. He is given succinylcholine. Within minutes, his ECG shows peaked T waves and a wide QRS complex.",
       "leadIn": "Which of the following best explains this reaction?",
       "options": [
         {
@@ -51901,7 +51907,7 @@
         },
         {
           "id": "b",
-          "text": "Potassium leaving muscle through nicotinic receptors"
+          "text": "Potassium leaving muscle through open channels"
         },
         {
           "id": "c",
@@ -51917,7 +51923,7 @@
         }
       ],
       "answer": "b",
-      "explanation": "Answer: potassium leaving muscle through nicotinic receptors. Why: Succinylcholine keeps the channel open, so potassium leaks out of muscle cells (your El-Husseiny Neurology notes, p. 237). StatPearls calls hyperkalemia its most common adverse effect, and says stimulation of immature receptors can cause potassium efflux. Burns are a standard-teaching risk factor.",
+      "explanation": "Answer: potassium leaving muscle through open channels. Why: Succinylcholine keeps the channel open, so potassium leaks out of muscle cells (your El-Husseiny Neurology notes, p. 237). StatPearls calls hyperkalemia its most common adverse effect, and says stimulation of immature receptors can cause potassium efflux. It also warns against the drug after recent significant burns because of acute hyperkalemia.",
       "whyWrong": {
         "a": "The kidney does not explain this immediate change.",
         "c": "No hemolysis is described, and this drug does not typically cause it.",
@@ -52420,7 +52426,7 @@
       "system": "Cardiovascular",
       "topic": "Subclavian steal syndrome",
       "difficulty": 2,
-      "stem": "A 66-year-old man who smokes has dizziness and blurred vision when he uses his left arm to paint a ceiling. The left arm also aches and tires quickly. Blood pressure is 152/88 mm Hg in the right arm and 118/70 mm Hg in the left arm.",
+      "stem": "A 66-year-old man who smokes has dizziness and blurred vision when he uses his left arm to paint a ceiling. The left arm also aches, feels cold and tingles during the work. An ultrasound is ordered to study neck vessel flow.",
       "leadIn": "Which of the following is the most likely direction of flow in the left vertebral artery during exercise?",
       "options": [
         {
@@ -52445,7 +52451,7 @@
         }
       ],
       "answer": "b",
-      "explanation": "Answer: reversed flow away from the brain. Why: A narrowed subclavian artery before the vertebral branch cannot supply an exercising arm, so blood flows backward down the vertebral artery (your El-Husseiny Neurology notes, p. 177). MSD describes the same reversal and vertebrobasilar ischemia. A large arm pressure difference fits this (standard teaching; see guide 23).",
+      "explanation": "Answer: reversed flow away from the brain. Why: A narrowed subclavian artery before the vertebral branch cannot supply an exercising arm, so blood flows backward down the vertebral artery (your El-Husseiny Neurology notes, p. 177). MSD describes the same reversal and vertebrobasilar ischemia.",
       "whyWrong": {
         "a": "This would not explain his brainstem symptoms.",
         "c": "The stenosis lies in the subclavian artery, proximal to the vertebral artery.",
