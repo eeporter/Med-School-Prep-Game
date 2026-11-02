@@ -1,10 +1,10 @@
 # START HERE - Claude read this first
 
-I am Elissa, a medical student preparing for USMLE Step 1 and NBME exams. My sister Emily built me a study game (https://eeporter.github.io/Med-School-Prep-Game/ ) and a "Handoff documentation" folder. This page may be the only thing attached to this chat: that is normal, and it tells you what to do. The folder holds:
+I am Elissa, a medical student preparing for USMLE Step 1 and NBME exams. My sister Emily built me a study game (https://medschool-sync.web.app ) and a "Handoff documentation" folder. This page may be the only thing attached to this chat: that is normal, and it tells you what to do. The folder holds:
 - claude-prompts-for-elissa.md: the full prompt kit (the study buddy, guide writer, question writer, fix-a-question, auditor, weekly routines, and every rule). It is the rulebook: follow it.
 - study-guides: my study guides and README.md (their list and audit status).
 - audit: the audit checklist, findings log, coverage trackers, subject weights and recent-changes register.
-- documents: the course PDFs. They set what guides and questions teach. They live in Emily's shared Google Drive folder and normally are not in the folder on my computer, because the whole set (about 1.1 GB) can be too big for a chat. If a documents folder is in the folder I attached, use it. Otherwise read them through the Google Drive connector, only the pages you need. If one will not open or comes back incomplete, say so plainly and ask me for that page (an upload or a photo); never guess. Never upload them anywhere public (the game's GitHub is public).
+- documents: the course PDFs. They set what guides and questions teach. They live in Emily's shared Google Drive folder and normally are not in the folder on my computer, because the whole set (about 1.1 GB) can be too big for a chat. If a documents folder is in the folder I attached, use it. Otherwise read them through the Google Drive connector, only the pages you need. If one will not open or comes back incomplete, say so plainly and ask me for that page (an upload or a photo); never guess. Never upload them to the game's GitHub or anywhere public (they are copyrighted).
 - struggle-log.md: every topic I have asked about.
 - setup-progress.md: which setup steps are done (create it if missing).
 
@@ -12,7 +12,7 @@ WHEN I TYPE "Start" (or anything, in a chat with this folder attached):
 1. See whether you can list a folder with study-guides in it. If you have only this page, that is fine: tell me in two plain sentences what we are going to do, say that you cannot save anything until my folder is attached so you will keep our list in this chat, and start at step 1 below. Never ask me to upload the whole Google Drive folder or the PDFs.
 2. If the folder is attached, read setup-progress.md in it. If step 10 (weekly questions) is not done yet, tell me once, in one plain line, that my weekly game questions are not running yet and which step is next. If every step is done, skipped or waiting (waiting steps are fine: they come back on their own), go straight to "AFTER SETUP" below. Otherwise, tell me in two plain sentences what we are going to do, then check the folder yourself first: list it and confirm study-guides, audit, claude-prompts-for-elissa.md and struggle-log.md are there. Tell me what is missing, if anything (Emily can fix the small copy; the kit's newest copy is also at https://github.com/eeporter/Med-School-Prep-Game/blob/main/docs/claude-prompts.md ). The documents folder is not needed here. If I have more than one copy of the folder, keep using the one that has my setup-progress.md or my work, and do not ask me to move it.
 3. Walk me through the setup steps below that are not done yet, one at a time, in order. Skip a waiting step until what it waits on is done (or I ask for it); then offer it again. Once the folder is attached, after each step, update setup-progress.md (done / skipped / waiting: <what it waits on>, with the date), so a new chat can pick up where we left off. What changes (the struggle log, setup progress, new guides) is saved only in that folder on my computer, not in Google Drive.
-4. When the steps are done or skipped, give me the "You're set up" checklist, then carry on as in AFTER SETUP.
+4. When the steps are done, skipped or waiting, give me the "You're set up" checklist, then carry on as in AFTER SETUP.
 
 HOW TO TALK TO ME
 - I am not technical. Never ask me to use Terminal, a command line, or to type any command. Never show me code or error messages.
@@ -32,7 +32,7 @@ Step 1. Get the "Handoff documentation" folder from Emily (Emily, then me)
 - Me: move that "Handoff documentation" folder into my Documents folder.
 - Me (optional, helps later): in Google Drive "Shared with me", right-click "Handoff documentation" → Organize → Add shortcut → My Drive.
 - Test: in Documents/Handoff documentation I can see START HERE - Claude read this first.md, claude-prompts-for-elissa.md, struggle-log.md, and the study-guides and audit folders. There is no documents folder here, and that is right.
-- If it fails: if the zip is not in the shared folder, ask Emily to add it. If the kit is missing, download it from https://github.com/eeporter/Med-School-Prep-Game/blob/main/docs/claude-prompts.md (the download button near the top right of the file) into the folder and rename it claude-prompts-for-elissa.md.
+- If it fails: if the zip is not in the shared folder, ask Emily to add it. If the kit is missing, ask Emily for the newest claude-prompts-for-elissa.md, or, signed in to GitHub, download it from https://github.com/eeporter/Med-School-Prep-Game/blob/main/docs/claude-prompts.md (the download button near the top right of the file) into the folder and rename it claude-prompts-for-elissa.md.
 - Fine to skip for now: no. Everything else depends on it.
 - Note: the folder on my computer is my working copy (the study buddy writes guides and the struggle log there). The Google Drive folder is where the course PDFs live and what the weekly routines read, so it is fine if the two differ.
 
@@ -82,17 +82,18 @@ Step 7. Connect claude.ai/code to the game (me)
 - Fine to skip for now: same as step 6.
 
 Step 8. Open the game and bookmark it (me)
-- Open https://eeporter.github.io/Med-School-Prep-Game/ . On a computer, bookmark it (in Chrome the star in the address bar; in Safari Bookmarks → Add Bookmark). On an iPhone, Safari → Share → Add to Home Screen. On Android, Chrome → the three dots → Add to Home screen.
+- Open https://medschool-sync.web.app . On a computer, bookmark it (in Chrome the star in the address bar; in Safari Bookmarks → Add Bookmark). On an iPhone, Safari → Share → Add to Home Screen. On Android, Chrome → the three dots → Add to Home screen.
 - In "My exams" on the home screen: choose the Test, (for an NBME subject exam, also the Subject), choose the Date, and click Add exam. Repeat for each exam.
 - Test: my exams show in the list, and the line under "My exams" says "Next up:" with my soonest exam.
 - If it fails: reload the page and try again.
 - Fine to skip for now: no; it takes a minute.
 
 Step 9. Keep my progress safe: sync and backup (me)
-- Progress is saved in the browser on each device. To use the game on more than one device, on my main device go to "Sync and backup" → Turn on sync. A sync code appears: click Copy code and save it somewhere private (for example a note). Then on each other device, open https://eeporter.github.io/Med-School-Prep-Game/ → "Sync and backup" → paste or type the code in "Already have a sync code from another device?" → Use this code.
+- Progress is saved in the browser on each device. To keep my devices in step, on each device open https://medschool-sync.web.app → "Sync and backup" → Sign in with Google, using the same Google account each time (only my account and Emily's are allowed). It then says "Signed in as <my email>. Your progress syncs by itself." Sync now updates straight away; Sign out stops syncing on that device.
+- If I played at the old address (eeporter.github.io/Med-School-Prep-Game), open it once on each device I used, before Emily makes the game private: it moves that device's progress to the new site by itself.
 - Backup (on any device): "Sync and backup" → Save a backup file. A file is saved to my Downloads; move it to Google Drive or iCloud Drive. To restore, use Restore from a backup file and pick that file (it adds to the progress already there; nothing is lost).
 - Test: on one device answer a question, then on the other device click Sync now: the XP at the top matches. For backup: the file appears in Downloads.
-- If it fails: if there is no Sync section, use backup files only and tell Emily. Keep the code private: anyone with it can see and change my progress.
+- If it fails: if Google says my account isn't allowed, or there is no Sign in with Google button, use backup files only and tell Emily (she can add my Google address). If an old device didn't move its progress, open the old address on it → Save a backup file, then on the new site → Restore from a backup file (only possible until Emily makes the game private).
 - Fine to skip for now: sync, yes, if I use one device; still save a backup file now and then.
 
 Step 10. Turn on the weekly automatic questions (me, with Emily's folder from step 1)
@@ -112,7 +113,7 @@ FINISH SETUP: give me this checklist, ticked or marked "skipped" or "waiting: <w
 [ ] Game bookmarked, exams added
 [ ] Sync on (or a backup file saved)
 [ ] Weekly automatic questions on
-Every day: play Daily Rounds at https://eeporter.github.io/Med-School-Prep-Game/ , then ask your "Med School" project about anything confusing."
+Every day: play Daily Rounds at https://medschool-sync.web.app , then ask your "Med School" project about anything confusing."
 
 AFTER SETUP
 - In this chat (and in every chat in my "Med School" project), be my study buddy: open claude-prompts-for-elissa.md, find the section "Study buddy", and follow its grey box exactly, including logging every medical topic in struggle-log.md and the automatic follow-ups (draft study guide, about 5 game questions). Also follow "Rules every role follows" in the same file.
