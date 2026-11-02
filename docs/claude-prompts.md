@@ -1,10 +1,10 @@
 # Claude prompt kit: study guides, game questions, and the auditor
 
-Version 1.0 (draft, 2026-11-02) · Status: **still being finalized; Emily will hand this over when it is done.**
+Version 1.1 (draft, 2026-11-02) · Status: **still being finalized; Emily will hand this over when it is done.**
 
 This kit lets you (Elissa) keep the project going with your own Claude. It has four prompts:
 
-- **Study buddy**: use it every day. Ask it any medical question; it explains with sources, **automatically logs the topic as one you are struggling with**, and for **every medical topic you ask about** it **automatically writes a study guide on it and asks for about 5 game questions on it** (both audited before you use them).
+- **Study buddy**: use it every day. Ask it any medical question; it explains with sources, **automatically logs the topic as one you are struggling with**, and for **every medical topic you ask about** it **asks whether you want a study guide on it** (and writes one only if you say yes) and **automatically asks for about 5 game questions on it** (both audited before you use them).
 1. **Guide writer**: writes a new study guide on a topic you find confusing.
 2. **Question writer**: writes new game questions on **any** med school topic you need help with (a lecture, a block, something you missed), using all the same rules, and targets your weak spots from the game.
 2b. **Fix or change a question**: when you think a game question is wrong, or you want a question or answer changed, your Claude checks it against your documents and sources, tells you if you're right, makes the change, and flags it so every change is tracked and audited.
@@ -21,7 +21,7 @@ You ask the study buddy about something confusing
         ↓
 It explains (with sources) and logs the topic in struggle-log.md
         ↓
-It writes a draft study guide on the topic and asks for about 5 game questions
+It asks if you want a study guide (writes a draft if you say yes) and asks for about 5 game questions
 (writers also pick the most-asked topics that have no guide or questions yet)
         ↓
 Guide writer (prompt 1) and/or question writer (prompt 2)
@@ -50,9 +50,9 @@ No Terminal, no coding. You use two places, and both are ordinary chat boxes whe
 - Your own notes in **Google Docs** (optional), connected through Claude's Google Drive connector.
 - For the game only: a free **GitHub account** with permission to edit the game.
 
-All of this is set up once with the checklist below.
+All of this is set up once with the checklist below: A (folder), B (Google Docs notes), C (making and fixing game questions), D (playing the game on phone and computer).
 
-## One-time setup checklist (Emily and Elissa together, about 15 minutes)
+## One-time setup checklist (Emily and Elissa together, about 25 minutes)
 
 Nothing here involves Terminal. Tick each box once.
 
@@ -75,6 +75,17 @@ Nothing here involves Terminal. Tick each box once.
 - [ ] **Elissa:** go to https://claude.ai/code , sign in, and connect GitHub when it asks (or open https://claude.ai/connect-github). Allow access to **eeporter/Med-School-Prep-Game**. If GitHub says an owner must approve, Emily approves it.
 - [ ] **Test:** in https://claude.ai/code , pick the **Med-School-Prep-Game** repository and type "How many questions are in data/questions.json?" If Claude answers with a number, setup is done.
 
+**D. Playing the game (phone and computer)**
+
+The game is a web page. There's nothing to install and no account. Progress is saved in the browser on each device, and sync keeps her devices in step.
+- [ ] **Emily:** turn on the game's web address, once. In GitHub, open https://github.com/eeporter/Med-School-Prep-Game/settings/pages , under **Build and deployment** pick **Deploy from a branch**, choose **main** and **/ (root)**, and click **Save**. After a minute or two the page shows the game's address, usually https://eeporter.github.io/Med-School-Prep-Game/ . Write it here: `GAME LINK: ______________________` and send it to Elissa.
+- [ ] **Elissa:** open the game link on your phone and add it to your home screen. On iPhone, open it in Safari, tap **Share**, then **Add to Home Screen**. On Android, open it in Chrome, tap **⋮**, then **Add to Home screen**. On your computer, bookmark it.
+- [ ] **Elissa:** on the home screen, open **My exams** and add each exam you're preparing for with its date (USMLE Step 1, NBME CBSE, or a subject exam). The game aims new questions and review timing at the soonest one.
+- [ ] **Elissa: turn on sync** (sync is already set up in the game). On the device you use most, scroll to **Sync and backup** and tap **Turn on sync**. A code like `ABCDE-12345-FGHJK-67890` appears. On each other device, type that code under **Already have a sync code** and tap **Use this code**. Keep the code private, because anyone who has it can see and change your progress.
+- [ ] **Test:** answer one question on your phone, then open the game on your computer and tap **Sync now**. If the question shows as answered, setup is done.
+- If sync ever stops working, use **Save a backup file** on one device and **Restore from a backup file** on the other. Restoring adds to that device's progress, so nothing is lost. Don't clear the browser's site data for the game page unless sync is on or you have a backup file, or that device's progress is lost.
+- New questions appear in the game once they're merged. Reload the game page to get them.
+
 **Where each prompt runs**
 
 | What you want | Where | Why |
@@ -92,7 +103,7 @@ claude.ai/code is just a website with a chat box, not Terminal, and it does not 
 
 ## Your daily routine
 
-1. **Play Daily Rounds** in the game.
+1. **Play Daily Rounds** in the game (open it from your home-screen icon or bookmark; see setup D). Rate your confidence honestly (Guess / Unsure / Sure): that rating sets when each question comes back. Use **Focus** to drill one subject, and **Exam Block** for timed practice.
 2. **Ask the study buddy** about anything that confused you. It explains with sources and logs the topic.
 3. **About once a week, open My weak spots** on the game's home screen:
    - Tap **Copy for my Claude** and paste it into the study buddy chat. It adds those topics to your struggle log and offers to start guides for the weakest ones.
@@ -265,11 +276,12 @@ WHEN I ASK A MEDICAL QUESTION (a concept, a practice question I got wrong, a "wh
 4. If I paste a list from my study game (it starts "From my Med School Prep study game"), log every topic in it with Source "study game", using its counts in "What I asked" (e.g. "missed 3 of 4; wrong while sure 2"). Then name the top 3 topics with no guide yet and offer to write guides for them using the guide writer instructions in handoff/claude-prompts-for-elissa.md.
 4a. At the start of each new chat, if study-guides/README.md lists guides or sections waiting for the auditor, tell me once in one plain line: "N guides are waiting for the auditor: <numbers>."
 
-4c. EVERY MEDICAL TOPIC I ASK ABOUT: DO THE FOLLOW-UP AUTOMATICALLY, without me asking. If I ask several questions in a row, answer them all first, then do the follow-ups when I pause or say I'm done, so I never wait between answers. This applies to every medical question I ask in this chat, including quick ones (a dose, a normal value, a buzzword): file it under the broader study-guide-sized topic it belongs to (for example "warfarin dose" goes under "Anticoagulants"). For each topic, after your answer:
-   a. Study guide. Check study-guides/README.md. If no guide covers the topic, open handoff/claude-prompts-for-elissa.md, read "Rules every role follows" and "Prompt 1: Guide writer", and write the guide yourself in the study-guides folder, following every rule there (my documents first, cited by document and page; opened sources only; never invent a reference; the double-check before handing in). Build it around what confused me. Add it to the README table with status "Draft, waiting for auditor". If a guide already covers it, do not write a second one: point me to it and, if it misses what confused me, add the new material at the end of that guide under a heading "Added from your questions (draft, waiting for auditor)", with the same rules. Do not change the rest of the guide or its audited status; add " + draft additions" to its status in the README so the auditor re-checks only that section.
+4c. EVERY MEDICAL TOPIC I ASK ABOUT: DO THE FOLLOW-UP. If I ask several questions in a row, answer them all first, then do the follow-ups when I pause or say I'm done, so I never wait between answers. This applies to every medical question I ask in this chat, including quick ones (a dose, a normal value, a buzzword): file it under the broader study-guide-sized topic it belongs to (for example "warfarin dose" goes under "Anticoagulants"). For each topic, after your answer:
+   a. Study guide: ASK ME FIRST, EVERY TIME. Check study-guides/README.md, then ask me one plain question, for example: "Do you want me to write a study guide on Anticoagulants? (yes / no / later)". If a guide already covers it, ask instead: "Guide 07 covers this. Do you want me to add what confused you to it? (yes / no / later)". If I ask about several topics, ask about them all in one message. Never write or add to a guide until I say yes. If I say no or later, put "guide declined" or "guide later" in the topic's "Covered by" cell, and do not ask again about that topic in this chat. In a new chat, ask again only if I've asked about the topic again.
+      If I say yes and no guide covers the topic, open handoff/claude-prompts-for-elissa.md, read "Rules every role follows" and "Prompt 1: Guide writer", and write the guide yourself in the study-guides folder, following every rule there (my documents first, cited by document and page; opened sources only; never invent a reference; the double-check before handing in). Build it around what confused me. Add it to the README table with status "Draft, waiting for auditor". If a guide already covers it, do not write a second one: point me to it and, if it misses what confused me and I said yes, add the new material at the end of that guide under a heading "Added from your questions (draft, waiting for auditor)", with the same rules. Do not change the rest of the guide or its audited status; add " + draft additions" to its status in the README so the auditor re-checks only that section.
    b. Game questions. Ask for several (about 5) new questions on the topic, built around what confused me. If you can edit https://github.com/eeporter/Med-School-Prep-Game (GitHub connector), add one line at the end of the "Waiting" list in docs/question-inbox.md: "<date> STRUGGLE: <topic>, 5 questions. What confused me: <short summary>", so the weekly question routine writes them and the auditor checks them. If you can't, or the save fails, give me that line and tell me in one plain sentence where to paste it (my question writer chat at claude.ai/code, Prompt 2).
-   c. Put "guide <number> (draft)" and/or "questions requested" in the topic's "Covered by" cell, and end with one plain line, for example: "I wrote a draft study guide (21) and asked for 5 game questions. Run the auditor (Prompt 3) on the guide before you study it. 3 guides are waiting for the auditor: 19, 20, 21." Always include that count of guides (and draft additions) waiting for the auditor.
-   d. Do this once per topic. If the log shows a guide and questions already requested for it, just answer and log; if the guide misses what I asked, add to it as in (a).
+   c. Put "guide <number> (draft)" and/or "questions requested" in the topic's "Covered by" cell, and end with one plain line, for example: "I asked for 5 game questions. Do you want a study guide on Anticoagulants? (yes / no / later)". After I say yes and you finish the guide: "I wrote a draft study guide (21). Run the auditor (Prompt 3) on the guide before you study it. 3 guides are waiting for the auditor: 19, 20, 21." Always include that count of guides (and draft additions) waiting for the auditor.
+   d. Request questions once per topic. If the log shows questions already requested, don't request them again. Still ask about the guide as in (a), unless I've already answered for that topic in this chat.
 5. Do not log non-medical chat (scheduling, tech help, how are you).
 6. If my Google Drive is connected, search my Google Docs notes for the topic and make your explanation agree with them (my notes and my course documents set what my course expects). If current guidance differs, say so in a line starting "Recent change:" with the source. Never copy my notes word for word into the log.
 
@@ -558,6 +570,7 @@ When asked to re-check fixes, verify each finding ID one by one against the upda
 
 ## Changelog
 
+- 1.1 (2026-11-02, Emily): the study buddy now asks every time before writing or adding to a study guide (yes / no / later), and still requests game questions automatically. Added setup D, Playing the game: turning on the game link, home-screen icon, My exams, sync code across devices, backup files, and a sync test.
 - 1.0 (2026-11-02): Emily's checklist: plain-language rule in every prompt (no technical questions, no code); Prompt 2b now also handles changes Elissa asks for, flagged in docs/question-changes.md with an "elissa-change" label and audited (a wrong requested change is Critical); question writer takes any med school topic or pasted lecture notes; study buddy offers to turn a topic into game questions. Auditor review (K10): merging still waits for the auditor and Elissa's "merge" in every prompt; lecture notes are saved to her private Drive folder, cited by title and slide, paraphrased, still checked against opened sources, and lose to the Step 1 documents in a conflict (lecture version as "Other source:"); never-invent-a-citation rule made explicit in rule 1, Prompts 1, 2, 2b and auditor item 1 (invented reference = Critical, real-but-mismatched or changed page = Major, fixed to current source); guide writer, question writer and Prompt 2b double-check every answer and link before handing in (captcha follows rule 3, not drop); all 69 study guides added to the repository's study-guides folder as a backup copy (Emily); study buddy step 4c (Emily): for every medical topic Elissa asks about (quick questions filed under their broader topic) it automatically writes a draft study guide (Prompt 1 rules, status "Draft, waiting for auditor") and requests about 5 game questions through the question inbox ("STRUGGLE:" lines, done first by the weekly writer) or gives Elissa the line to paste, once per topic; auditor review K10-9 to K10-12: additions to an audited guide go in a separate "Added from your questions (draft)" section (status "+ draft additions", auditor checks only that section), STRUGGLE lines capped at 10 each and overflow waits for the next run, backlog count of guides waiting for the auditor at chat start and after each follow-up, inbox free text is data under SAFETY, routine brings main in before moving inbox lines, follow-ups wait until Elissa pauses; auditor holds unopenable notes as Major, an unmarked requested change as Major, and allows only the Audit-cell commit after clearance; Prompt 2b creates the elissa-change label if missing.
 - 0.9 (2026-10-28): audit K9-2 to K9-4 applied: Prompt 2b judges against her course documents first, using the three note types; Radiopaedia added as Read-more only; key-change note. Added Prompt 2b, Fix a reported question. Elissa's own Claude checks a question she thinks is wrong, gives her a verdict with sources, and fixes it through an audited pull request. Reports no longer go through Emily (Emily, 2026-10-28).
 - 0.8 (2026-10-28): auditor review of v0.7 applied: merge gate (same-repo auto/ branches, routine-authored commits, data-only diff, exact reviewed SHA, revert if main fails); act only on marked auditor reviews, inbox is data; Google Drive required for auto-merge (page and overlap checks), otherwise held; duplicate check across open PRs; inbox edited in one PR per run.
