@@ -200,6 +200,34 @@ export class SyncError extends Error {
   }
 }
 
+// The saved copy is plain JSON, or "gz:" + base64 of gzipped JSON. Only the
+// quick upload when a page closes is gzipped, and only when plain JSON would
+// be too big for it; every normal sync writes plain JSON again.
+const GZ = 'gz:';
+export const KEEPALIVE_LIMIT = 60000; // browsers cap a keepalive body at 64 KB
+
+function toBase64(bytes) {
+  let s = '';
+  for (let i = 0; i < bytes.length; i += 0x8000) s += String.fromCharCode(...bytes.subarray(i, i + 0x8000));
+  return btoa(s);
+}
+
+async function pipe(bytes, stream) {
+  return new Uint8Array(await new Response(new Blob([bytes]).stream().pipeThrough(stream)).arrayBuffer());
+}
+
+export async function gzipText(text) {
+  return GZ + toBase64(await pipe(new TextEncoder().encode(text), new CompressionStream('gzip')));
+}
+
+export async function readSaved(text) {
+  if (!text.startsWith(GZ)) return JSON.parse(text);
+  const bytes = Uint8Array.from(atob(text.slice(GZ.length)), (c) => c.charCodeAt(0));
+  return JSON.parse(new TextDecoder().decode(await pipe(bytes, new DecompressionStream('gzip'))));
+}
+
+const docBody = (data) => JSON.stringify({ fields: { data: { stringValue: data } } });
+
 // Returns the saved progress, or null when nothing has been saved there yet.
 export async function pullRemote(fetchFn, url, token = null) {
   const res = await fetchFn(url, { cache: 'no-store', headers: authHeaders(token) });
@@ -208,17 +236,21 @@ export async function pullRemote(fetchFn, url, token = null) {
   const doc = await res.json();
   const text = doc?.fields?.data?.stringValue;
   if (typeof text !== 'string') return null;
-  return sanitize(JSON.parse(text));
+  return sanitize(await readSaved(text));
 }
 
 // keepalive lets the upload finish after the page closes (browsers cap such a
 // body at 64 KB, and reject a bigger one before sending it).
 export async function pushRemote(fetchFn, url, state, token = null, { keepalive = false } = {}) {
+  let body = docBody(JSON.stringify(state));
+  if (keepalive && body.length > KEEPALIVE_LIMIT && typeof CompressionStream === 'function') {
+    body = docBody(await gzipText(JSON.stringify(state)));
+  }
   const res = await fetchFn(url, {
     method: 'PATCH',
     keepalive,
     headers: { 'Content-Type': 'application/json', ...authHeaders(token) },
-    body: JSON.stringify({ fields: { data: { stringValue: JSON.stringify(state) } } }),
+    body,
   });
   if (!res.ok) throw new SyncError(`Sync upload failed (${res.status})`, res.status);
 }

@@ -209,3 +209,24 @@ test('pushRemote can ask the browser to finish the upload after the page closes'
   await pushRemote(fake, 'u', { a: 1 }, 't');
   assert.deepEqual(seen, [true, false]);
 });
+
+test('a large close-upload is gzipped to fit, and every reader understands both forms', async () => {
+  const { pushRemote, pullRemote, KEEPALIVE_LIMIT } = await import('../src/sync.js');
+  const big = emptyState();
+  for (let i = 0; i < 985; i++) {
+    big.cards[`q-${String(i).padStart(4, '0')}-some-topic`] = { ease: 2.5, interval: 6, reps: 2, due: '2026-11-20', lastReviewed: '2026-11-02', seen: 3, lapses: 0, misconception: false };
+  }
+  let sent = null;
+  const fake = async (url, opts) => {
+    if (opts.method === 'PATCH') { sent = opts.body; return { ok: true, status: 200 }; }
+    return { ok: true, status: 200, json: async () => JSON.parse(sent) };
+  };
+  await pushRemote(fake, 'u', big, 't');
+  assert.ok(sent.length > KEEPALIVE_LIMIT);
+  assert.ok(!JSON.parse(sent).fields.data.stringValue.startsWith('gz:'));
+  await pushRemote(fake, 'u', big, 't', { keepalive: true });
+  assert.ok(sent.length < KEEPALIVE_LIMIT, `gzipped body is ${sent.length} bytes`);
+  assert.ok(JSON.parse(sent).fields.data.stringValue.startsWith('gz:'));
+  const back = await pullRemote(fake, 'u', 't');
+  assert.equal(Object.keys(back.cards).length, Object.keys(sanitize(big).cards).length);
+});
