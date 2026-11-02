@@ -139,3 +139,4 @@ details.howto h3 { font-size: 1rem; margin: 14px 0 4px; }
 details.howto ul { padding-left: 20px; margin: 0; }
 details.howto li { margin-bottom: 6px; }
 details.howto .row { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; margin-top: 12px; }
+.notice { background: var(--ok-bg); border: 1px solid var(--ok); border-radius: 8px; padding: 10px 14px; }

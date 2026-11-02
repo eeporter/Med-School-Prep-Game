@@ -1,0 +1,44 @@
+name: Deploy to Firebase Hosting
+
+# Publishes the game to https://medschool-sync.web.app after every merge to
+# main, once the question bank and tests pass. It does nothing until the
+# FIREBASE_SERVICE_ACCOUNT_MEDSCHOOL_SYNC secret has been added (see
+# docs/sync-setup.md), so it never turns main red before setup.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    env:
+      HAS_KEY: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_MEDSCHOOL_SYNC != '' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Validate question bank
+        run: npm run validate
+      - name: Unit tests
+        run: npm test
+      - name: Deploy
+        if: env.HAS_KEY == 'true'
+        uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: ${{ secrets.GITHUB_TOKEN }}
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_MEDSCHOOL_SYNC }}
+          channelId: live
+          projectId: medschool-sync
+      - name: Not set up yet
+        if: env.HAS_KEY != 'true'
+        run: echo "No Firebase key yet, so nothing was deployed. See docs/sync-setup.md."

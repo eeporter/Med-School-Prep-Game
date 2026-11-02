@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self'; script-src 'self'; img-src 'self' data:; connect-src 'self' https://firestore.googleapis.com">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self'; script-src 'self' https://apis.google.com; img-src 'self' data:; connect-src 'self' https://firestore.googleapis.com https://identitytoolkit.googleapis.com https://securetoken.googleapis.com">
   <title>Med School Prep Game</title>
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -20,6 +20,7 @@
   <main id="app">
     <section id="view-home" class="view">
       <p class="disclaimer">Study material for USMLE Step 1 and NBME exams. Not patient-care guidance.</p>
+      <p class="notice" id="move-note" role="status" hidden></p>
 
       <details class="howto" id="howto" open>
         <summary>How to play</summary>
@@ -41,7 +42,7 @@
         <ul>
           <li><strong>My exams</strong>: choose the test and its date, then tap <strong>Add exam</strong>. New questions in Daily Rounds then aim at your next exam, reviews are spaced to come back before it, and Exam Block offers "My next exam".</li>
           <li><strong>My weak spots</strong>: the topics you miss, or only get right by guessing. About once a week, tap <strong>Copy for my Claude</strong> and paste it into your study buddy chat.</li>
-          <li><strong>Sync and backup</strong>: to play on more than one device, tap <strong>Turn on sync</strong> on the device that has your progress. It shows a sync code: type that code on each other device and tap <strong>Use this code</strong>. Keep the code private. Tap <strong>Save a backup file</strong> now and then, too.</li>
+          <li><strong>Sync and backup</strong>: to play on more than one device, tap <strong>Sign in with Google</strong> once on each device, with the same Google account. Your progress then syncs by itself. Tap <strong>Save a backup file</strong> now and then, too.</li>
         </ul>
         <div class="row">
           <button type="button" id="howto-hide">Hide this</button>
@@ -146,24 +147,16 @@
         <div id="sync-box" hidden>
           <h3>Sync</h3>
           <div id="sync-off">
-            <p class="meta">Keep your phone, tablet and computer in step. Turn on sync here, then type the same sync code into the game on your other devices once.</p>
+            <p class="meta">Sign in with your Google account on each of your devices. Your progress then stays the same on all of them by itself.</p>
             <div class="row">
-              <button type="button" id="sync-start">Turn on sync</button>
-            </div>
-            <label>Already have a sync code from another device?
-              <input type="text" id="sync-code-input" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="XXXXX-XXXXX-XXXXX-XXXXX">
-            </label>
-            <div class="row">
-              <button type="button" id="sync-join">Use this code</button>
+              <button type="button" id="sync-signin" class="primary">Sign in with Google</button>
             </div>
           </div>
           <div id="sync-on" hidden>
-            <p>Sync code: <strong id="sync-code" class="code"></strong></p>
-            <p class="meta">Type this code into the game on your other devices (under Sync and backup, then "Already have a sync code"). Keep it private: anyone with the code can see and change this progress.</p>
+            <p>Signed in as <strong id="sync-user"></strong>. Your progress syncs by itself.</p>
             <div class="row">
               <button type="button" id="sync-now">Sync now</button>
-              <button type="button" id="sync-copy">Copy code</button>
-              <button type="button" id="sync-stop">Stop syncing on this device</button>
+              <button type="button" id="sync-signout">Sign out</button>
             </div>
           </div>
           <p class="meta" id="sync-status" aria-live="polite"></p>
