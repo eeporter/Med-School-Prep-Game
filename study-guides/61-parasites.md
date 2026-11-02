@@ -230,7 +230,7 @@ Abbreviations: **AIDS** = acquired immunodeficiency syndrome; **ART** = antiretr
 
 **Echinococcus granulosus** (p. 227)
 - From **eggs in dog feces**; sheep are an intermediate host.
-- **Hydatid cysts in the liver**. Leaked cyst antigens can cause **anaphylaxis**, so cysts are injected with ethanol or hypertonic saline to kill daughter cysts before removal.
+- **Hydatid cysts in the liver**. Leaked cyst antigens can cause **anaphylaxis**, so before the cyst is taken out, a scolicidal agent (hypertonic saline or ethanol) is instilled to kill the daughter cysts.
 - Albendazole.
 
 **Schistosoma** (pp. 228-229)

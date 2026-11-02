@@ -1,7 +1,7 @@
 # Q fever, tuberculosis and Klebsiella pneumonia
 
 Exam focus: USMLE Step 1 and NBME · Study material, not patient care guidance · Auditor: cleared 2026-10-27
-From Elissa's question log: "etiology, transmission and diagnostic criteria for Q fever (Coxiella burnetii)" and "presentations and diagnostic steps for Mycobacterium tuberculosis and Klebsiella pneumoniae".
+From the question log: "etiology, transmission and diagnostic criteria for Q fever (Coxiella burnetii)" and "presentations and diagnostic steps for Mycobacterium tuberculosis and Klebsiella pneumoniae".
 Based on your notes: El-Husseiny's Essentials of Microbiology and Immunology (acid-fast stain p. 88, tuberculosis pp. 90-93, Klebsiella pp. 147-148, Q fever p. 168, cephalosporin spectrum p. 330, TB drugs pp. 348-351). Each fact is also checked against StatPearls, the MSD Manual and CDC; where a different source disagrees with your notes, newer guidance has changed, or a document is wrong, a marked note says so.
 
 ## In one line

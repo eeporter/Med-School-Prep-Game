@@ -1,7 +1,7 @@
 # Biostatistics: risk measures, NNT and Kaplan-Meier curves
 
 Exam focus: USMLE Step 1 and NBME · Study material, not patient care guidance · Auditor: cleared 2026-10-27
-From Elissa's question log: "formulas for odds ratios, hazard ratios, relative risk, RRR, ARR and NNT" and "interpret Kaplan-Meier survival curves and calculate cumulative incidence".
+From the question log: "formulas for odds ratios, hazard ratios, relative risk, RRR, ARR and NNT" and "interpret Kaplan-Meier survival curves and calculate cumulative incidence".
 Based on your notes: the biostatistics PDF (one-page summary PDF p. 1, risk table PDF p. 5, confidence intervals PDF p. 10, risk chapter PDF pp. 27-28; cited by PDF page because the printed numbers change between sections). Your notes do not cover Kaplan-Meier curves, so that section rests on the cited articles. Where a document is wrong, a marked note says so.
 
 ## In one line

@@ -1,7 +1,7 @@
 # Hypothyroidism, myxedema coma and adrenal insufficiency
 
 Exam focus: USMLE Step 1 and NBME · Study material, not patient care guidance · Auditor: cleared 2026-10-27
-From Elissa's question log: "causes of confusion and complications of severe hypothyroidism, including myxedema coma" and "how adrenal insufficiency and thyroid dysfunction manifest systemically".
+From the question log: "causes of confusion and complications of severe hypothyroidism, including myxedema coma" and "how adrenal insufficiency and thyroid dysfunction manifest systemically".
 Based on your notes: El-Husseiny's Essentials of Endocrinology (adrenal insufficiency and crisis pp. 47-51, hypothyroidism and Hashimoto pp. 69-71) and NBME Top Concepts 2021 (hypothyroidism, p. 131). Each fact is also checked against StatPearls and the MSD Manual; where a different source disagrees with your notes, a marked note says so.
 
 ## In one line

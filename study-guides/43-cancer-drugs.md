@@ -6,20 +6,20 @@ Based on your notes: El-Husseiny's Essentials for USMLE Step 1, Hematology & Onc
 ## In one line
 Learn every cancer drug as a pair: **what it breaks** (DNA building blocks, the DNA strand, the mitotic spindle, a growth signal) and **its signature damage** (lungs, heart, kidneys, nerves, bladder). The exam usually gives the damage and asks for the drug, or gives the drug and asks for the mechanism.
 
-**Other source (why chemo hurts normal tissue):** MSD: "The normal tissues most commonly affected are those with the highest intrinsic turnover rate", that is, **bone marrow, hair follicles and the gut lining** ([MSD: Systemic Cancer Therapy, updated Jul 2024](https://www.msdmanuals.com/professional/oncology/principles-of-cancer-therapy/systemic-cancer-therapy)). That explains why low blood counts, hair loss and mouth sores are so common.
+**Why chemo hurts normal tissue:** MSD agrees: "The normal tissues most commonly affected are those with the highest intrinsic turnover rate", that is, **bone marrow, hair follicles and the gut lining** ([MSD: Systemic Cancer Therapy, updated Oct 2026](https://www.msdmanuals.com/professional/oncology/principles-of-cancer-therapy/systemic-cancer-therapy)). That explains why low blood counts, hair loss and mouth sores are so common.
 
 ## The signature toxicity list (p. 111)
 | Damage | Drug | Memory hook |
 | --- | --- | --- |
-| **Hearing loss + kidney injury** | **Cisplatin, carboplatin** | "Cis-**plat**-in: **plat**e of ears and kidneys" (standard teaching) |
+| **Hearing loss + kidney injury** | **Cisplatin, carboplatin** | "Cis-**plat**-in: **plat**e of ears and kidneys" (memory hook) |
 | **Peripheral neuropathy** | **Vincristine** | |
-| **Lung scarring (pulmonary fibrosis)** | **Bleomycin, busulfan** (and **methotrexate**, p. 103) | "**B**leomycin, **B**usulfan = **B**reathing" (standard teaching) |
+| **Lung scarring (pulmonary fibrosis)** | **Bleomycin, busulfan** (and **methotrexate**, p. 103) | "**B**leomycin, **B**usulfan = **B**reathing" (memory hook) |
 | **Heart (dilated cardiomyopathy)** | **Doxorubicin** (anthracyclines), **trastuzumab** | |
 | **Bloody bladder (hemorrhagic cystitis)** | **Cyclophosphamide** (and ifosfamide) | "**CY**clophosphamide → **CY**stitis" |
 | **Low blood counts** | **5-FU, 6-MP, methotrexate** (and most others) | |
 
 ## Antimetabolites: fake building blocks for DNA (pp. 102-104)
-They work in the **S phase**, when cells copy DNA (standard teaching).
+They work in the **S phase**, when cells copy DNA (Pharmacology High Yield, PDF p. 101).
 
 | Drug | Mechanism | Uses | Toxicity | Pages |
 | --- | --- | --- | --- | --- |
@@ -34,13 +34,13 @@ They work in the **S phase**, when cells copy DNA (standard teaching).
 - **With methotrexate:** methotrexate blocks DHFR; leucovorin **goes around the block** and **rescues normal cells** (p. 103).
 - **With 5-FU:** 5-FU needs reduced folate to lock onto thymidylate synthase, so leucovorin **strengthens** 5-FU (and its marrow toxicity) (p. 103).
 
-**Other source (methotrexate label):** the FDA label says "Methotrexate inhibits dihydrofolic acid reductase", lists **leucovorin** and **levoleucovorin** to lessen toxicity and **glucarpidase** "for the treatment of toxic methotrexate concentrations", and warns of **embryo-fetal toxicity** and damage to "bone marrow, kidneys, liver, nervous system, gastrointestinal tract, lungs, and skin" ([Methotrexate Injection prescribing information, rev. 12/2025, via Drugs.com](https://www.drugs.com/pro/methotrexate-injection.html)).
+**Methotrexate label check:** the FDA label says "Methotrexate inhibits dihydrofolic acid reductase", lists **leucovorin** and **levoleucovorin** to lessen toxicity and **glucarpidase** "for the treatment of toxic methotrexate concentrations", and warns of **embryo-fetal toxicity** and damage to "bone marrow, kidneys, liver, nervous system, gastrointestinal tract, lungs, and skin" ([Methotrexate Injection prescribing information, rev. 12/2025, via Drugs.com](https://www.drugs.com/pro/methotrexate-injection.html)).
 
 ### 6-MP, xanthine oxidase and TPMT (p. 104)
 - Two liver enzymes break 6-MP and 6-thioguanine down: **xanthine oxidase (XO)** and **thiopurine methyltransferase (TPMT)** (p. 104).
 - **Allopurinol blocks XO**, so 6-MP builds up; your notes say the dose must be cut by **75%** (p. 104).
 
-**Other source (allopurinol dose):** the mercaptopurine label: "Reduce the dose of MERCAPTOPURINE to one-third to one-quarter of the current dosage" with allopurinol, which matches your notes' 75% cut ([Mercaptopurine prescribing information, rev. 7/2026, via Drugs.com](https://drugs.com/pro/mercaptopurine.html)).
+**Allopurinol dose, label check:** the mercaptopurine label: "Reduce the dose of MERCAPTOPURINE to one-third to one-quarter of the current dosage" with allopurinol, which matches your notes' 75% cut ([Mercaptopurine prescribing information, rev. 7/2026, via Drugs.com](https://drugs.com/pro/mercaptopurine.html)).
 
 **Recent change (genetic testing):** the current mercaptopurine label adds a second enzyme, **NUDT15**: "Consider testing for TPMT and NUDT15 deficiency in patients who experience severe myelosuppression", and "Patients with homozygous deficiency of either enzyme typically require 10% or less of the recommended dosage" (same label). Your notes cover TPMT and XO only.
 
@@ -62,7 +62,7 @@ They work in the **S phase**, when cells copy DNA (standard teaching).
 
 - Anthracycline heart damage depends on the **total (cumulative) dose** and can appear **months after** the drug is stopped. It is blamed on **free radicals**. **Dexrazoxane**, an **iron chelator**, cuts free-radical formation and is your notes' most effective way to prevent it (p. 106).
 
-**Other source (bleomycin label):** "Pulmonary fibrosis is the most severe toxicity associated with bleomycin"; in "approximately 1%" the pneumonitis "progresses to pulmonary fibrosis and death"; it causes "single, and to a lesser extent, double-stranded breaks in DNA"; and in lymphoma patients it can cause "A severe idiosyncratic reaction consisting of hypotension, mental confusion, fever, chills, and wheezing". The label does not list marrow suppression ([Bleomycin prescribing information, rev. Mar 2026, via Drugs.com](https://www.drugs.com/pro/bleomycin.html)).
+**Bleomycin label check:** "Pulmonary fibrosis is the most severe toxicity associated with bleomycin"; in "approximately 1%" the pneumonitis "progresses to pulmonary fibrosis and death"; it causes "single, and to a lesser extent, double-stranded breaks in DNA"; and in lymphoma patients it can cause "A severe idiosyncratic reaction consisting of hypotension, mental confusion, fever, chills, and wheezing". The label does not list marrow suppression ([Bleomycin prescribing information, rev. Mar 2026, via Drugs.com](https://www.drugs.com/pro/bleomycin.html)).
 
 **Other source (dexrazoxane label):** dexrazoxane is "a cyclic derivative of EDTA" that becomes "a ring-opened chelating agent that interferes with iron-mediated free radical generation"; its labeled use is "women with metastatic breast cancer who have received a cumulative doxorubicin dose of 300 mg/m2" ([Zinecard prescribing information, rev. 10/2016, via Drugs.com](https://www.drugs.com/pro/zinecard.html)).
 
@@ -73,7 +73,7 @@ They work in the **S phase**, when cells copy DNA (standard teaching).
 | Uses | Solid tumors, leukemias; **Hodgkin (vinblastine)**, **non-Hodgkin (vincristine)** | **Ovarian and breast** cancer |
 | Toxicity | **Vincristine: neuropathy** (lost reflexes, nerve pain) and **constipation / paralytic ileus**, because axons need microtubules. **Vinblastine: marrow suppression** ("vin**BLAST**ine **blasts** the bone marrow") | Marrow suppression, neuropathy, **allergic reactions** |
 
-**Other source (vincristine label):** the boxed warning says vincristine given **into the spinal fluid** "usually results in death"; the label relates its action to "inhibition of microtubule formation in mitotic spindle, resulting in an arrest of dividing cells at the metaphase stage"; neurotoxicity "appears to be dose related"; "A routine prophylactic regimen against constipation is recommended for all patients"; and "Serious bone–marrow depression is usually not a major dose–limiting event" ([Vincristine Sulfate Injection prescribing information, rev. 12/2025, via Drugs.com](https://www.drugs.com/pro/vincristine.html)).
+**Vincristine label check:** the boxed warning says vincristine given **into the spinal fluid** "usually results in death"; the label relates its action to "inhibition of microtubule formation in mitotic spindle, resulting in an arrest of dividing cells at the metaphase stage"; neurotoxicity "appears to be dose related"; "A routine prophylactic regimen against constipation is recommended for all patients"; and "Serious bone–marrow depression is usually not a major dose–limiting event" ([Vincristine Sulfate Injection prescribing information, rev. 12/2025, via Drugs.com](https://www.drugs.com/pro/vincristine.html)).
 
 ## Platinum drugs and topoisomerase blockers (pp. 108-109)
 
@@ -92,7 +92,7 @@ They work in the **S phase**, when cells copy DNA (standard teaching).
 | **Etoposide**, teniposide | **Topoisomerase II** | **Testicular, small cell lung** cancer, leukemias, lymphomas | Marrow suppression, hair loss |
 | **Irinotecan, topotecan** | **Topoisomerase I** (stops DNA unwinding) | **Colon** (irinotecan); **ovarian, small cell lung** (topotecan) | **Severe marrow suppression, diarrhea** |
 
-Memory hook (standard teaching): **"I" for irinotecan and topotecan = topo I; etoposide = topo II.**
+Memory hook: **"I" for irinotecan and topotecan = topo I; etoposide = topo II.**
 
 ## Hydroxyurea (p. 109)
 - Blocks **ribonucleotide reductase** → less DNA synthesis (**S phase**) (p. 109).
@@ -109,11 +109,11 @@ Memory hook (standard teaching): **"I" for irinotecan and topotecan = topo I; et
 | **Imatinib, dasatinib** | **BCR-ABL** (CML) and **c-KIT** (GI stromal tumors) tyrosine kinase | **CML, GIST** | **Fluid retention** |
 | **Rituximab** | Antibody against **CD20** (most B-cell cancers) | Non-Hodgkin lymphoma, **CLL**, ITP, rheumatoid arthritis | **Progressive multifocal leukoencephalopathy (PML)** |
 | **Vemurafenib, dabrafenib** | **BRAF V600E** ("**VE**mu**RAF**enib = **V**600**E** BRAF") | **Metastatic melanoma** | |
-| **Trastuzumab** | (HER2; standard teaching) | | **Cardiotoxicity** (p. 111) |
+| **Trastuzumab** | Antibody against **HER2** (Pharmacology High Yield, PDF p. 115; NBME Top Concepts p. 440) | **HER2-positive breast cancer** (Pharmacology High Yield, PDF p. 115) | **Cardiotoxicity** (p. 111; NBME Top Concepts p. 440) |
 
-**Other source (cetuximab label):** the label limits colorectal use to "K-Ras wild-type, EGFR-expressing, metastatic colorectal cancer as determined by an FDA-approved test" and states "ERBITUX is not indicated for treatment of Ras-mutant colorectal cancer". It reports an **acneiform rash** in **82%** of trial patients and warns of **low magnesium** and serious **infusion reactions** ([Erbitux prescribing information, rev. 9/2021, via Drugs.com](https://www.drugs.com/pro/erbitux.html)). Why it matters: a **mutant KRAS** is switched on **below** EGFR, so blocking EGFR cannot stop the signal (standard teaching).
+**Cetuximab label check:** the label limits colorectal use to "K-Ras wild-type, EGFR-expressing, metastatic colorectal cancer as determined by an FDA-approved test" and states "ERBITUX is not indicated for treatment of Ras-mutant colorectal cancer". It reports an **acneiform rash** in **82%** of trial patients and warns of **low magnesium** and serious **infusion reactions** ([Erbitux prescribing information, rev. 9/2021, via Drugs.com](https://www.drugs.com/pro/erbitux.html)). Why it matters: a **mutant KRAS** is switched on **below** EGFR, so blocking EGFR cannot stop the signal (standard teaching).
 
-**Other source (rituximab label):** the boxed warning covers "FATAL INFUSION-RELATED REACTIONS", "SEVERE MUCOCUTANEOUS REACTIONS", "HEPATITIS B VIRUS REACTIVATION" and "PROGRESSIVE MULTIFOCAL LEUKOENCEPHALOPATHY"; it is a "CD20-directed cytolytic antibody" labeled for NHL, CLL, RA, **GPA/MPA** (two ANCA vasculitides) and **pemphigus vulgaris** ([Rituxan prescribing information, rev. 12/2021, via Drugs.com](https://www.drugs.com/pro/rituxan.html)). Check **hepatitis B** status before starting (standard teaching, following the boxed warning). ITP use (your notes) is covered by MSD in guide 38.
+**Rituximab label check:** the boxed warning covers "FATAL INFUSION-RELATED REACTIONS", "SEVERE MUCOCUTANEOUS REACTIONS", "HEPATITIS B VIRUS REACTIVATION" and "PROGRESSIVE MULTIFOCAL LEUKOENCEPHALOPATHY"; it is a "CD20-directed cytolytic antibody" labeled for NHL, CLL, RA, **GPA/MPA** (two ANCA vasculitides) and **pemphigus vulgaris** ([Rituxan prescribing information, rev. 12/2021, via Drugs.com](https://www.drugs.com/pro/rituxan.html)). Check **hepatitis B** status before starting: the boxed warning says "Screen all patients for HBV infection before treatment initiation". ITP use (your notes) is covered by MSD in guide 38.
 
 ## Clinical vignette
 A 27-year-old man with testicular cancer receives bleomycin, etoposide and cisplatin. Three weeks later he notices ringing in his ears and trouble hearing conversations, and his creatinine has risen from 0.9 to 1.6 mg/dL. He also has a new dry cough, and fine crackles are heard at both lung bases.
@@ -156,7 +156,7 @@ A 27-year-old man with testicular cancer receives bleomycin, etoposide and cispl
 4. A 52-year-old woman finished doxorubicin-based chemotherapy for breast cancer 8 months ago (cumulative dose 480 mg/m²). She now has shortness of breath on exertion, and echocardiography shows a dilated left ventricle with an ejection fraction of 30%. Which mechanism best explains her heart damage?
    - **Answer:** **iron-dependent free radicals** generated by the anthracycline injure heart muscle cells.
    - **Why:** anthracycline cardiomyopathy is dose-dependent and can appear months later (p. 106); dexrazoxane, an iron chelator, "interferes with iron-mediated free radical generation" (Zinecard label).
-   - **Trap:** **HER2 blockade** (trastuzumab), whose heart damage is not linked to a cumulative dose (standard teaching).
+   - **Trap:** **HER2 blockade** (trastuzumab), whose heart damage is not linked to a cumulative dose (HER2 target: Pharmacology High Yield, PDF p. 115).
 
 5. A 24-year-old man being treated for Hodgkin lymphoma has a dry cough and shortness of breath. He has fine crackles at both bases, PFTs show a restrictive pattern with a low diffusing capacity, and his blood counts are normal. Which drug in his regimen most likely caused this?
    - **Answer:** **bleomycin**.
@@ -184,7 +184,7 @@ A 27-year-old man with testicular cancer receives bleomycin, etoposide and cispl
    - **Trap:** **thymidylate synthase**, the target of 5-FU.
 
 ## Sources (opened 2026-10-28)
-- [Systemic Cancer Therapy (MSD Manual Professional; updated Jul 2024)](https://www.msdmanuals.com/professional/oncology/principles-of-cancer-therapy/systemic-cancer-therapy)
+- [Systemic Cancer Therapy (MSD Manual Professional; updated Oct 2026)](https://www.msdmanuals.com/professional/oncology/principles-of-cancer-therapy/systemic-cancer-therapy)
 - [Methotrexate Injection, US prescribing information (rev. 12/2025; via Drugs.com)](https://www.drugs.com/pro/methotrexate-injection.html)
 - [Mercaptopurine, US prescribing information (rev. 7/2026; via Drugs.com)](https://drugs.com/pro/mercaptopurine.html)
 - [Bleomycin, US prescribing information (rev. Mar 2026; via Drugs.com)](https://www.drugs.com/pro/bleomycin.html)

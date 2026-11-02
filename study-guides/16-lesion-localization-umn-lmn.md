@@ -1,7 +1,7 @@
 # Localizing nerve lesions: upper vs lower motor neuron
 
 Exam focus: USMLE Step 1 and NBME · Study material, not patient care guidance · Auditor: cleared 2026-10-27
-From Elissa's question log: "high-yield neuroanatomical localization rules and presentation patterns for central vs peripheral nerve lesions".
+From the question log: "high-yield neuroanatomical localization rules and presentation patterns for central vs peripheral nerve lesions".
 Based on your notes: El-Husseiny's Essentials for USMLE Step 1 Neurology (motor pathway pp. 14-19, spinal cord rules p. 23, spinal cord lesions pp. 29-33, facial palsy p. 60, brainstem syndromes pp. 81-84, lacunar and internal capsule strokes pp. 129-130). Each fact is also checked against StatPearls and the MSD Manual; where a different source disagrees with your notes, a marked note says so.
 
 ## In one line

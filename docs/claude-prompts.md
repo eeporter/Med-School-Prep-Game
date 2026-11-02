@@ -39,7 +39,7 @@ Nothing goes into your study rotation until the auditor says **Cleared**.
 
 ## What you need
 
-No Terminal, no coding. Everything happens in the **Claude desktop app** by pasting a prompt and answering Claude in plain words. Claude does all the technical steps itself.
+No Terminal, no coding. You use two places, and both are ordinary chat boxes where you paste a prompt and answer Claude in plain words: the **Claude desktop app** (for studying and guides) and the website **https://claude.ai/code** (for anything that changes the game). Claude does all the technical steps itself.
 
 - The **Claude desktop app** (from claude.ai/download), signed in.
 - The **MedSchoolPrep folder** on your computer. It holds:
@@ -76,8 +76,19 @@ Nothing here involves Terminal. Tick each box once.
 - [ ] **Test:** in https://claude.ai/code , pick the **Med-School-Prep-Game** repository and type "How many questions are in data/questions.json?" If Claude answers with a number, setup is done.
 
 **Where each prompt runs**
-- Study buddy, guide writer, and guide auditor: the **Claude desktop app**, MedSchoolPrep folder attached.
-- Question writer and game auditor: **https://claude.ai/code** with the Med-School-Prep-Game repository picked. It is a normal chat box; Claude does the GitHub work and runs the game's checks itself. If it needs something from your folder (struggle log, a document page), it will ask you to attach or paste it.
+
+| What you want | Where | Why |
+|---|---|---|
+| Ask medical questions (study buddy), which also writes guides and requests questions automatically | Claude desktop app, in your "Med School" Project with the MedSchoolPrep folder attached | It needs your folder: guides, documents, struggle log |
+| Write a study guide yourself (Prompt 1) | Claude desktop app | Same folder |
+| Audit a study guide (Prompt 3) | Claude desktop app, new chat | Same folder |
+| Write new game questions (Prompt 2) | claude.ai/code, Med-School-Prep-Game picked | Changing the game means editing its files, running its checks and opening a pull request, which only claude.ai/code can do |
+| Fix or change a question, flagged (Prompt 2b) | claude.ai/code | Same reason |
+| Audit game questions (Prompt 3) | claude.ai/code, new chat | It runs the game's checks |
+| Merge (after the auditor clears it and you say "merge") | claude.ai/code, in the chat that made the change | Same reason |
+| Weekly automatic questions (routines) | claude.ai/code, Routines, set up once | Routines live there |
+
+claude.ai/code is just a website with a chat box, not Terminal, and it does not touch your computer. Connecting GitHub to the regular desktop chat mainly lets Claude *read* the game; it cannot run the game's checks there, so the game prompts always go to claude.ai/code. If a claude.ai/code chat needs something from your folder (struggle log, a document page), it will ask you to attach or paste it. The desktop chat can't start or direct a claude.ai/code chat for you, so the hand-off between the two is simple: if the study buddy can't add its question request to the game's inbox itself, it gives you one line to paste into claude.ai/code. Once it is in the inbox, the weekly routines pick it up on their own.
 
 ## Your daily routine
 

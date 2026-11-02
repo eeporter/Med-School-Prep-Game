@@ -1,7 +1,7 @@
 # Acute confusion in older adults (delirium)
 
 Exam focus: USMLE Step 1 and NBME · Study material, not patient care guidance · Auditor: cleared 2026-10-27
-From Elissa's question log: "most common causes and initial diagnostic evaluations for acute mental status changes in elderly patients".
+From the question log: "most common causes and initial diagnostic evaluations for acute mental status changes in elderly patients".
 Based on your notes: the DSM-5-TR chapter on delirium (Diagnostic Criteria, Specifiers, Diagnostic Features, Associated Features, Prevalence, Risk and Prognostic Factors, Diagnostic Markers, Differential Diagnosis; PDF pp. 907-915) and Ninja Nerd Pharmacology (anticholinergic adverse effects, PDF pp. 104-105). Each fact is also checked against the MSD Manual; where a different source disagrees with your notes, a marked note says so.
 
 ## In one line

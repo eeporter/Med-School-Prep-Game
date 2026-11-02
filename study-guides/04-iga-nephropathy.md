@@ -1,7 +1,7 @@
 # IgA nephropathy (Berger disease)
 
 Exam focus: USMLE Step 1 and NBME · Study material, not patient care guidance · Auditor: cleared 2026-10-27
-From Elissa's question log: "diagnostic evaluations, clinical presentation, and renal biopsy findings for IgA nephropathy".
+From the question log: "diagnostic evaluations, clinical presentation, and renal biopsy findings for IgA nephropathy".
 Based on your notes: El-Husseiny's Essentials of Nephrology (nephritic syndrome pp. 79-82), Osmosis HY Pathology Vol. 2 (IgA nephropathy, p. 831) and NBME Top Concepts 2021 (pp. 307, 335). Each fact is also checked against StatPearls and the MSD Manual; where a different source disagrees with your notes, a marked note says so.
 
 ## In one line

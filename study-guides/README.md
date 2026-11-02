@@ -53,7 +53,7 @@ Study material, not patient care guidance. Each guide follows Elissa's own cours
 | 40 | Anemia part 2: reticulocytes, hemolysis, spherocytosis, sickle cell, PNH, G6PD, immune hemolysis, aplastic anemia | New from your notes; cleared 2026-10-28 |
 | 41 | Blood cancers: acute and chronic leukemias, myeloproliferative neoplasms, lymphomas, myeloma, MGUS, Waldenström, LCH and HLH, venous insufficiency, massive transfusion | New from your notes; cleared 2026-10-28 |
 | 42 | Blood-thinning drugs: warfarin, heparins and HIT, DOACs and their antidotes, thrombolytics, antiplatelet drugs | New from your notes; cleared 2026-10-28 |
-| 43 | Cancer drugs: antimetabolites, alkylating agents, antitumor antibiotics, microtubule drugs, platinum and topoisomerase drugs, hydroxyurea, targeted drugs and antibodies | New from your notes; first audit pending |
+| 43 | Cancer drugs: antimetabolites, alkylating agents, antitumor antibiotics, microtubule drugs, platinum and topoisomerase drugs, hydroxyurea, targeted drugs and antibodies | New from your notes; audited, fixes pending |
 | 44 | Burns, frostbite, sunburn, actinic keratosis, skin cancers (BCC, SCC, melanoma), albinism, vitiligo, pityriasis alba | New from your notes; cleared 2026-10-28 |
 | 45 | Eczema and contact dermatitis, seborrheic dermatitis, erythema multiforme, SJS/TEN, alopecia areata, telogen effluvium, psoriasis, lichen planus, pityriasis rosea, pemphigus, pemphigoid, epidermolysis bullosa | New from your notes; cleared 2026-10-28 |
 | 46 | Acne, rosacea, hidradenitis, impetigo, erysipelas, cellulitis, folliculitis, necrotizing fasciitis, scalded skin syndrome, nail fungus, pressure injuries, hives, hereditary angioedema, erythema nodosum | New from your notes; cleared 2026-10-28 |

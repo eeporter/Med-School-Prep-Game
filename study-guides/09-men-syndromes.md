@@ -1,7 +1,7 @@
 # Multiple endocrine neoplasia (MEN) 1, 2A and 2B
 
 Exam focus: USMLE Step 1 and NBME · Study material, not patient care guidance · Auditor: cleared 2026-10-27
-From Elissa's question log: "diagnostic criteria and features distinguishing MEN type 1, 2A, and 2B".
+From the question log: "diagnostic criteria and features distinguishing MEN type 1, 2A, and 2B".
 Based on your notes: El-Husseiny's Essentials of Endocrinology (MEN syndromes pp. 121-122). Each fact is also checked against StatPearls and the MSD Manual; where a document is wrong, a marked note says so.
 
 ## In one line

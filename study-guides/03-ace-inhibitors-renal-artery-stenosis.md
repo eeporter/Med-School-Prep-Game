@@ -1,7 +1,7 @@
 # ACE inhibitors and renal artery stenosis
 
 Exam focus: USMLE Step 1 and NBME · Study material, not patient care guidance · Auditor: cleared 2026-10-27
-From Elissa's question log: "How do ACE inhibitors interact with unilateral vs. bilateral renal artery stenosis, and what is the effect on renal hemodynamics?"
+From the question log: "How do ACE inhibitors interact with unilateral vs. bilateral renal artery stenosis, and what is the effect on renal hemodynamics?"
 Based on your notes: El-Husseiny's Essentials of Cardiovascular (renal artery stenosis pp. 119-121) and Essentials of Nephrology (ACE inhibitors, ARBs and aliskiren pp. 150-151). Each fact is also checked against StatPearls and the MSD Manual; where a different source disagrees with your notes, a marked note says so.
 
 ## In one line

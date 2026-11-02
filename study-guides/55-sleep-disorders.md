@@ -67,7 +67,7 @@ Sleep cycles through **NREM (N1, N2, N3)** and **REM** about every 90-120 minute
   - **Polysomnography is the gold standard**. A negative home test in a symptomatic patient should be followed by polysomnography (MSD).
   - **Treatment (MSD):** **CPAP or an oral appliance** first-line. **Weight loss** helps but is not curative. Stop sedatives. Hypoglossal nerve stimulation is an option.
 - **CSA:** **5 or more central apneas per hour** (no breathing effort, not blocked airway) (p. 435).
-  - **Cheyne-Stokes breathing** is crescendo-decrescendo breathing with central apneas, typical of heart failure. DSM: central sleep apnea is seen most commonly in congestive heart failure (p. 434), and the onset of Cheyne-Stokes breathing appears tied to the development of heart failure (pp. 436-437).
+  - **Cheyne-Stokes breathing** is crescendo-decrescendo breathing with central apneas, typical of heart failure. DSM: heart failure is the condition most often linked to central sleep apnea (p. 434), and Cheyne-Stokes breathing tends to begin as heart failure develops (pp. 436-437).
   - CSA can occur **with opioid use** (opioids affect the medulla's breathing rhythm) (p. 435).
 
 **Recent change (OSA drug):** on **20 Dec 2024** the FDA approved **tirzepatide (Zepbound)**, the first medication for **moderate to severe OSA in adults with obesity**, used with a reduced-calorie diet and more exercise ([FDA](https://www.fda.gov/news-events/press-announcements/fda-approves-first-medication-obstructive-sleep-apnea)). CPAP is still first-line (MSD).
