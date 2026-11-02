@@ -57,7 +57,8 @@ The workflow `.github/workflows/deploy.yml` publishes the game to Firebase Hosti
 
 1. `npx firebase-tools login` (Emily clicks **Allow** in the browser that opens).
 2. In a copy of the repository: `npx firebase-tools init hosting:github`, choose the repository `eeporter/Med-School-Prep-Game`. It asks GitHub for permission (Emily clicks **Authorize**), creates a deploy key and saves it as the secret above. Answer **No** if it asks to overwrite `firebase.json`, and do not commit the workflow files it offers to write; `deploy.yml` already does that job.
-3. Run the **Deploy to Firebase Hosting** workflow once from the repository's **Actions** tab (or merge any pull request), then open https://medschool-sync.web.app and check that **Sync and backup** shows **Sign in with Google**.
+3. Let Google accept sign-ins that return to the game's own address. In the Google Cloud console for `medschool-sync`, open **APIs & Services** > **Credentials**, click the OAuth client named **Web client (auto created by Google Service)**, and under **Authorized redirect URIs** add `https://medschool-sync.web.app/__/auth/handler`, then **Save**. (The game runs sign-in from its own address so Safari's cookie blocking cannot break it; without this entry Google shows "Error 400: redirect_uri_mismatch".)
+4. Run the **Deploy to Firebase Hosting** workflow once from the repository's **Actions** tab (or merge any pull request), then open https://medschool-sync.web.app and check that **Sync and backup** shows **Sign in with Google**.
 
 `firebase.json` publishes only the game itself (`index.html`, `styles.css`, `src/`, `data/`). The docs, study guides, tests and scripts are not put on the website.
 
