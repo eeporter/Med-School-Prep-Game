@@ -8,7 +8,7 @@ import { EXAM_TYPES, SUBJECT_EXAMS, SECONDS_PER_QUESTION, examLabel, examFormat,
 import { today, daysBetween, parseDayString } from './dates.js';
 import { REPORT_REASONS, weakSpots, weakSpotsText, describeSpot, addReport, reportsText } from './insights.js';
 import {
-  addXp, mergeStates, backupText, backupFileName, readBackup, makeSyncCode,
+  addXp, mergeStates, makeSyncCode,
   syncOnce, pullRemote, pushRemote, docUrl, accountPath, handoverPath, hasProgress, SyncError,
   examKey, reportKey, markRemoved, markAdded,
 } from './sync.js';
@@ -184,11 +184,12 @@ async function syncNow() {
 }
 
 function renderSync() {
-  $('sync-elsewhere').hidden = Boolean(settings);
-  $('sync-off').hidden = !settings || Boolean(user);
+  // The Welcome screen has its own sign-in button, so the top bar shows one
+  // only when she chose to study without signing in.
+  $('sync-off').hidden = !settings || Boolean(user) || gateOn();
   $('sync-on').hidden = !settings || !user;
   $('sync-user').textContent = user ? (user.email || 'your Google account') : '';
-  $('sync-when').textContent = lastSynced ? ` Last synced at ${lastSynced}.` : '';
+  $('sync-when').textContent = lastSynced ? ` Progress synced at ${lastSynced}.` : '';
 }
 
 // On the game's own address, nothing shows until she is signed in (or chose
@@ -328,9 +329,7 @@ async function moveToNewSite() {
     } catch (err) {
       console.warn(err);
       note.replaceChildren(
-        'The game has a new address, but your progress could not be carried over just now. Check your internet connection and reload this page, or save a backup file below and restore it at ',
-        Object.assign(el('a', MOVED_TO), { href: MOVED_TO }),
-        '.',
+        'The game has a new address, but your progress could not be carried over just now. Check your internet connection and reload this page to try again. Until then, your progress stays safe on this device.',
       );
       return true;
     }
@@ -358,7 +357,7 @@ async function receiveHandover() {
     note.textContent = 'Welcome to the game\'s new address. Your progress from the old one is here. Bookmark this page.';
   } catch (err) {
     console.warn(err);
-    note.textContent = 'Your progress from the old address could not be brought over just now. Open the old address again to retry, or use a backup file.';
+    note.textContent = 'Your progress from the old address could not be brought over just now. Open the old address again to retry; your progress stays safe there until it moves.';
   }
 }
 
@@ -1067,34 +1066,6 @@ function wire() {
 }
 
 function wireProgress() {
-  $('backup-save').addEventListener('click', () => {
-    const blob = new Blob([backupText(state, new Date().toISOString())], { type: 'application/json' });
-    const a = document.createElement('a');
-    a.href = URL.createObjectURL(blob);
-    a.download = backupFileName(today());
-    document.body.appendChild(a);
-    a.click();
-    a.remove();
-    setTimeout(() => URL.revokeObjectURL(a.href), 10000);
-    $('backup-status').textContent = `Saved ${a.download}. Keep it somewhere safe, like iCloud Drive or Google Drive.`;
-  });
-  $('backup-restore').addEventListener('click', () => $('backup-file').click());
-  $('backup-file').addEventListener('change', async (e) => {
-    const file = e.target.files?.[0];
-    e.target.value = '';
-    if (!file) return;
-    const got = readBackup(await file.text());
-    if (got.error) {
-      $('backup-status').textContent = got.error;
-      return;
-    }
-    const before = Object.keys(state.cards).length;
-    adoptState(mergeStates(state, got.state));
-    persist();
-    const added = Object.keys(state.cards).length - before;
-    $('backup-status').textContent = `Restored. The backup was added to this device's progress${added > 0 ? ` (${added} more question${added === 1 ? '' : 's'} with saved progress)` : ''}.`;
-  });
-
   $('gate-signin').addEventListener('click', () => signIn($('gate-status')));
   $('gate-skip').addEventListener('click', () => {
     skipped = true;

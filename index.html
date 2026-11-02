@@ -15,7 +15,12 @@
       <span id="stat-xp" title="Experience points"></span>
       <span id="stat-streak" title="Study streak"></span>
     </div>
+    <div class="account" id="account-bar">
+      <span id="sync-on" hidden><span id="sync-user" class="meta"></span><span id="sync-when" class="sr-only"></span> <button type="button" id="sync-signout" class="small">Sign out</button></span>
+      <span id="sync-off" hidden><button type="button" id="sync-signin" class="small">Sign in with Google</button></span>
+    </div>
   </header>
+  <p class="meta sync-status" id="sync-status" aria-live="polite"></p>
 
   <main id="app">
     <section id="view-signin" class="view gate">
@@ -58,13 +63,46 @@
           <li><strong>My exams</strong>: choose the test and its date, then tap <strong>Add exam</strong>. New questions in Daily Rounds then aim at your next exam, reviews are spaced to come back before it, and Exam Block offers "My next exam".</li>
           <li><strong>My weak spots</strong>: the topics you miss, or only get right by guessing. About once a week, tap <strong>Copy for my Claude</strong> and paste it into your study buddy chat.</li>
           <li>Signing in: the game asks you to tap <strong>Sign in with Google</strong> when you first open it on a device. Use the same Google account on every device, and your progress syncs by itself from then on. There is nothing else to tap.</li>
-          <li><strong>Sync and backup</strong>: shows which account you are signed in with. Now and then, tap <strong>Save a backup file</strong> and keep the file somewhere safe; <strong>Restore from a backup file</strong> adds one back.</li>
+          <li>The Google account you are signed in with is shown at the top of the screen, next to <strong>Sign out</strong>.</li>
         </ul>
         <div class="row">
           <button type="button" id="howto-hide">Hide this</button>
           <span class="meta">It stays closed until you tap How to play at the top of this screen.</span>
         </div>
       </details>
+
+      <section class="exams" aria-labelledby="exams-head">
+        <details class="section" data-section="exams" open>
+        <summary><h2 id="exams-head">My exams</h2></summary>
+        <p class="meta" id="exam-focus"></p>
+        <ul id="exam-list"></ul>
+        <div class="exam-form">
+          <label>Test
+            <select id="exam-type"></select>
+          </label>
+          <label id="exam-subject-row" hidden>Subject
+            <select id="exam-subject"></select>
+          </label>
+          <label>Date
+            <input type="date" id="exam-date">
+          </label>
+          <button id="exam-add">Add exam</button>
+        </div>
+        </details>
+      </section>
+
+      <section class="weak" aria-labelledby="weak-head">
+        <details class="section" data-section="weak" open>
+        <summary><h2 id="weak-head">My weak spots</h2></summary>
+        <p class="meta" id="weak-summary"></p>
+        <ol id="weak-list"></ol>
+        <div class="row" id="weak-actions">
+          <button type="button" id="weak-copy">Copy for my Claude</button>
+        </div>
+        <p class="meta" id="weak-status" aria-live="polite"></p>
+        <textarea id="weak-fallback" class="fallback" rows="8" readonly hidden aria-label="Weak spots text to copy"></textarea>
+        </details>
+      </section>
 
       <div class="cards">
         <article class="mode">
@@ -128,39 +166,6 @@
         </article>
       </div>
 
-      <section class="exams" aria-labelledby="exams-head">
-        <details class="section" data-section="exams" open>
-        <summary><h2 id="exams-head">My exams</h2></summary>
-        <p class="meta" id="exam-focus"></p>
-        <ul id="exam-list"></ul>
-        <div class="exam-form">
-          <label>Test
-            <select id="exam-type"></select>
-          </label>
-          <label id="exam-subject-row" hidden>Subject
-            <select id="exam-subject"></select>
-          </label>
-          <label>Date
-            <input type="date" id="exam-date">
-          </label>
-          <button id="exam-add">Add exam</button>
-        </div>
-        </details>
-      </section>
-
-      <section class="weak" aria-labelledby="weak-head">
-        <details class="section" data-section="weak" open>
-        <summary><h2 id="weak-head">My weak spots</h2></summary>
-        <p class="meta" id="weak-summary"></p>
-        <ol id="weak-list"></ol>
-        <div class="row" id="weak-actions">
-          <button type="button" id="weak-copy">Copy for my Claude</button>
-        </div>
-        <p class="meta" id="weak-status" aria-live="polite"></p>
-        <textarea id="weak-fallback" class="fallback" rows="8" readonly hidden aria-label="Weak spots text to copy"></textarea>
-        </details>
-      </section>
-
       <section class="reports" id="reports-box" aria-labelledby="reports-head" hidden>
         <details class="section" data-section="reports" open>
         <summary><h2 id="reports-head">Question reports</h2></summary>
@@ -174,36 +179,6 @@
         </details>
       </section>
 
-      <section class="progress" aria-labelledby="progress-head">
-        <details class="section" data-section="progress" open>
-        <summary><h2 id="progress-head">Sync and backup</h2></summary>
-        <div id="sync-box">
-          <p class="meta" id="sync-elsewhere">Your progress is saved in this browser. Sign-in sync works at the game's own address, <a href="https://medschool-sync.web.app/">medschool-sync.web.app</a>; here, use a backup file (below) to move progress between devices.</p>
-          <div id="sync-on" hidden>
-            <p>Signed in as <strong id="sync-user"></strong>. Your progress syncs across your devices by itself.<span class="meta" id="sync-when"></span></p>
-            <div class="row">
-              <button type="button" id="sync-signout">Sign out</button>
-            </div>
-          </div>
-          <div id="sync-off" hidden>
-            <p class="meta">Not signed in, so your progress is only on this device for now.</p>
-            <div class="row">
-              <button type="button" id="sync-signin" class="primary">Sign in with Google</button>
-            </div>
-          </div>
-          <p class="meta" id="sync-status" aria-live="polite"></p>
-        </div>
-
-        <h3>Backup</h3>
-        <p class="meta">Save a backup file now and then (for example to iCloud Drive or Google Drive). Restoring adds the backup to this device's progress, so nothing here is lost.</p>
-        <div class="row">
-          <button type="button" id="backup-save">Save a backup file</button>
-          <button type="button" id="backup-restore">Restore from a backup file</button>
-        </div>
-        <input type="file" id="backup-file" accept=".json,application/json" hidden>
-        <p class="meta" id="backup-status" aria-live="polite"></p>
-        </details>
-      </section>
 
       <section class="mastery">
         <details class="section" data-section="mastery" open>

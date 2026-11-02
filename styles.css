@@ -156,3 +156,11 @@ details.howto .row { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items:
 .quiz-head { align-items: center; }
 .home-btn { min-height: 36px; }
 .fb-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+
+/* Signed-in account and Sign out, at the top of every screen. */
+.account { display: flex; align-items: center; gap: 8px; font-size: 0.85rem; min-width: 0; }
+.account > span { display: inline-flex; align-items: center; gap: 8px; min-width: 0; }
+#sync-user { overflow-wrap: anywhere; }
+.account button.small { min-height: 32px; }
+.sync-status { max-width: 820px; margin: 8px auto 0; padding: 0 16px; }
+.sync-status:empty { display: none; }

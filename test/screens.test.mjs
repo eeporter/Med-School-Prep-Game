@@ -59,3 +59,19 @@ test('the page is never served from a stale cache, and a stale copy reloads itse
     assert.match(html, new RegExp(`id="${id}"`), `${id} missing from index.html`);
   }
 });
+
+test('no backup files: Google sign-in sync replaced them', () => {
+  assert.doesNotMatch(html, /backup/i);
+  assert.doesNotMatch(app, /backup/i);
+  assert.doesNotMatch(html, /id="progress-head"/);
+});
+
+test('Sign out sits at the top of the screen; My exams and My weak spots come right after How to play', () => {
+  const top = html.slice(html.indexOf('<header'), html.indexOf('</header>'));
+  assert.match(top, /id="sync-signout"[^>]*>Sign out</);
+  const home = html.slice(html.indexOf('id="view-home"'), html.indexOf('id="view-quiz"'));
+  const at = (s) => home.indexOf(s);
+  assert.ok(at('id="howto"') < at('data-section="exams"'));
+  assert.ok(at('data-section="exams"') < at('data-section="weak"'));
+  assert.ok(at('data-section="weak"') < at('class="cards"'));
+});

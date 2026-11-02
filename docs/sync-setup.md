@@ -2,8 +2,6 @@
 
 The game lives at **https://medschool-sync.web.app** (free Firebase Hosting, in the `medschool-sync` Google Firebase project). Progress is saved in the browser on each device. **Signing in with Google** keeps every device in step: each signed-in account has one private copy of its progress in Cloud Firestore, and only the Google accounts named in the rules below can read or write theirs.
 
-**Backup files** still work with no sign-in: on the home screen, under **Sync and backup**, tap **Save a backup file**, and on another device tap **Restore from a backup file**. Restoring adds the backup to that device's progress, so nothing is lost.
-
 ## One-time setup in the Firebase console (Emily, about 5 minutes, no Terminal)
 
 Open <https://console.firebase.google.com> and click the **medschool-sync** project.
@@ -64,7 +62,7 @@ The workflow `.github/workflows/deploy.yml` publishes the game to Firebase Hosti
 
 ## Moving from the old address
 
-The game used to be at `https://eeporter.github.io/Med-School-Prep-Game/`, and each device's progress was saved under that address. When `MOVED_TO` in `src/sync-config.js` is set to the new address, opening the old address carries that device's progress across by itself: it saves a one-time copy under a random code, opens the new address, and the new address merges it in and blanks the copy. Open the old address once on every device that has progress **before** the repository is made private (a private repository on a free GitHub account turns the old address off). If a device misses that, use **Save a backup file** there and **Restore from a backup file** at the new address. Both of these only work while the old address is still up, that is, before the repository is made private.
+The game used to be at `https://eeporter.github.io/Med-School-Prep-Game/`, and each device's progress was saved under that address. When `MOVED_TO` in `src/sync-config.js` is set to the new address, opening the old address carries that device's progress across by itself: it saves a one-time copy under a random code, opens the new address, and the new address merges it in and blanks the copy. Open the old address once on every device that has progress **before** the repository is made private (a private repository on a free GitHub account turns the old address off). This only works while the old address is still up, that is, before the repository is made private.
 
 **After the move (closing step).** Once every device has moved and the repository is private, the hand-over copies are no longer needed. In the Firestore rules, replace the whole `match /progress/{code} { ... }` block with:
 
@@ -88,7 +86,7 @@ The game's own address opens on a Welcome screen with **Sign in with Google**; n
 
 **Sign out** stops syncing on that device and goes back to the Welcome screen; the progress already there stays.
 
-A Google account that is not in the rules is signed straight out again, with the message "... is not one of the accounts set up for this game." If Google cannot be reached (no internet, or Google's sign-in helper is blocked), the Welcome screen offers **Study without signing in**: answers are saved on the device and sync once she signs in from **Sync and backup**. A device that signed in before keeps working offline and syncs when it is back online.
+A Google account that is not in the rules is signed straight out again, with the message "... is not one of the accounts set up for this game." If Google cannot be reached (no internet, or Google's sign-in helper is blocked), the Welcome screen offers **Study without signing in**: answers are saved on the device and sync once she taps **Sign in with Google** at the top of the screen. A device that signed in before keeps working offline and syncs when it is back online.
 
 ## Limits
 

@@ -1,6 +1,5 @@
-// Moving progress between devices: backup files, a synced copy per signed-in
-// account, and a merge that never loses an answer. Everything here is pure
-// except pullRemote and pushRemote, which take a fetch function so tests can
+// Moving progress between devices: a synced copy per signed-in account, and
+// a merge that never loses an answer. Everything here is pure except pullRemote and pushRemote, which take a fetch function so tests can
 // stub the network.
 //
 // Merge rules (run the same on every device, so the result does not depend on
@@ -16,7 +15,6 @@
 import { sanitize, SCHEMA_VERSION } from './storage.js';
 import { MAX_REPORTS } from './insights.js';
 
-export const BACKUP_KIND = 'med-study-game-progress';
 const MAX_HISTORY = 500;
 const MAX_EXAMS = 20;
 
@@ -24,7 +22,7 @@ const MAX_EXAMS = 20;
 
 const sumParts = (parts) => Object.values(parts).reduce((a, b) => a + b, 0);
 
-// XP from before per-device tracking (or from an old backup) belongs to no device.
+// XP from before per-device tracking belongs to no device.
 export const unattributedXp = (s) => Math.max(0, s.xp - sumParts(s.xpParts));
 
 export function addXp(state, deviceId, gained) {
@@ -129,31 +127,6 @@ export function mergeStates(rawA, rawB) {
     addedAt,
     removedAt,
   });
-}
-
-// ---- Backup files ----
-
-export function backupText(state, exportedAt) {
-  return JSON.stringify({ kind: BACKUP_KIND, exportedAt, state });
-}
-
-export function backupFileName(todayStr) {
-  return `med-prep-progress-${todayStr}.json`;
-}
-
-// Accepts a backup file (or bare saved progress). Returns { state } or { error }.
-export function readBackup(text) {
-  let raw;
-  try {
-    raw = JSON.parse(text);
-  } catch {
-    return { error: 'That file is not a progress backup from this game.' };
-  }
-  const candidate = raw && raw.kind === BACKUP_KIND ? raw.state : raw;
-  if (!candidate || typeof candidate !== 'object' || candidate.version !== SCHEMA_VERSION) {
-    return { error: 'That file is not a progress backup from this game.' };
-  }
-  return { state: sanitize(candidate) };
 }
 
 // ---- Random codes (device ids and the hand-over from the old site) ----
