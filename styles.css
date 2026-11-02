@@ -133,6 +133,11 @@ details.report summary { font-weight: normal; color: var(--muted); font-size: 0.
 
 
 /* How to play: open until she hides it, then just its title line. */
+details.section { border: none; background: none; padding: 0; margin: 0; border-radius: 0; }
+details.section > summary { min-height: 32px; }
+details.section > summary h2 { display: inline; }
+details.section[open] > summary { margin-bottom: 8px; }
+.mode-body { display: flex; flex-direction: column; gap: 10px; }
 details.howto { margin: 4px 0 16px; padding: 10px 14px; }
 details.howto > summary { font-size: 1.05rem; min-height: 32px; }
 details.howto h3 { font-size: 1rem; margin: 14px 0 4px; }

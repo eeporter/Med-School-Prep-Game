@@ -14,7 +14,7 @@ import {
 } from './sync.js';
 import { OLD_HOST, MOVED_TO, HANDOVER_PROJECT } from './sync-config.js';
 import { loadFirebaseSettings, readHandoverCode, signInProblem, startAccount } from './account.js';
-import { HOWTO_KEY, howToStartsOpen, howToValue } from './howto.js';
+import { SECTIONS_KEY, closedSections, sectionsValue } from './sections.js';
 
 const NEW_PER_ROUNDS = 10;
 const FOCUS_KEY = 'med-prep-focus';
@@ -724,20 +724,30 @@ function finishSession() {
 
 function wireHowTo() {
   const box = $('howto');
-  let stored = null;
-  try { stored = storage?.getItem(HOWTO_KEY) ?? null; } catch { stored = null; }
-  box.open = howToStartsOpen(stored);
-  box.addEventListener('toggle', () => {
-    try { storage?.setItem(HOWTO_KEY, howToValue(box.open)); } catch { /* not saved; opens again next visit */ }
-  });
   $('howto-hide').addEventListener('click', () => {
     box.open = false;
     box.querySelector('summary').focus();
   });
 }
 
+// Each home section can fold away, and this device remembers which are closed.
+function wireSections() {
+  const boxes = [...document.querySelectorAll('details.section[data-section]')];
+  let stored = null;
+  try { stored = storage?.getItem(SECTIONS_KEY) ?? null; } catch { stored = null; }
+  const closed = closedSections(stored);
+  for (const box of boxes) box.open = !closed.has(box.dataset.section);
+  for (const box of boxes) {
+    box.addEventListener('toggle', () => {
+      const now = boxes.filter((b) => !b.open).map((b) => b.dataset.section);
+      try { storage?.setItem(SECTIONS_KEY, sectionsValue(now)); } catch { /* not saved; all open next visit */ }
+    });
+  }
+}
+
 function wire() {
   wireHowTo();
+  wireSections();
   for (const b of document.querySelectorAll('[data-mode]')) b.addEventListener('click', () => startSession(b.dataset.mode));
   for (const b of document.querySelectorAll('[data-confidence]')) b.addEventListener('click', () => answer(b.dataset.confidence));
   $('next-btn').addEventListener('click', advance);
