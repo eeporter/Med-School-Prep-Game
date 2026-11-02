@@ -50,3 +50,12 @@ test('closing or hiding the page sends one upload that outlives the tab', () => 
   assert.match(app, /addEventListener\('pagehide', flushOnHide\)/);
   assert.match(app, /keepalive: true/);
 });
+
+test('the page is never served from a stale cache, and a stale copy reloads itself', () => {
+  const fb = JSON.parse(readFileSync(new URL('../firebase.json', import.meta.url), 'utf8'));
+  const rule = fb.hosting.headers.find((h) => h.source === '**');
+  assert.ok(rule && rule.headers.some((x) => x.key === 'Cache-Control' && x.value === 'no-cache'));
+  for (const id of [...app.matchAll(/PAGE_MARKERS = \[([^\]]+)\]/g)][0][1].match(/'([^']+)'/g).map((x) => x.slice(1, -1))) {
+    assert.match(html, new RegExp(`id="${id}"`), `${id} missing from index.html`);
+  }
+});

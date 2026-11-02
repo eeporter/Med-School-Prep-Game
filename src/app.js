@@ -1129,7 +1129,27 @@ async function loadQuestions() {
   }
 }
 
+// A browser that kept an older copy of the page with this newer code would
+// break (the page's buttons do not match). Fetch the page fresh once, then
+// reload, instead of showing a dead screen.
+const PAGE_MARKERS = ['view-signin', 'gate-signin', 'quiz-home', 'fb-home'];
+const RELOAD_KEY = 'med-prep-stale-reload';
+
+async function pageIsCurrent() {
+  if (PAGE_MARKERS.every((id) => $(id))) {
+    try { sessionStorage.removeItem(RELOAD_KEY); } catch { /* nothing to clear */ }
+    return true;
+  }
+  let tried = false;
+  try { tried = sessionStorage.getItem(RELOAD_KEY) === '1'; sessionStorage.setItem(RELOAD_KEY, '1'); } catch { tried = true; }
+  if (tried) return true; // reloaded once already; carry on rather than loop
+  try { await fetch(location.pathname, { cache: 'reload' }); } catch { /* reload anyway */ }
+  location.reload();
+  return false;
+}
+
 async function main() {
+  if (!(await pageIsCurrent())) return;
   wire();
   // Firebase settings first, so the game's own address opens on the sign-in
   // screen and never flashes the home screen before it.
