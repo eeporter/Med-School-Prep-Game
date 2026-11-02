@@ -3,7 +3,6 @@ import assert from 'node:assert/strict';
 import { emptyState, sanitize } from '../src/storage.js';
 import {
   mergeStates, addXp, unattributedXp, markRemoved, markAdded, examKey, reportKey,
-  backupText, readBackup, backupFileName, BACKUP_KIND,
   makeSyncCode, normalizeSyncCode, CODE_LENGTH,
   docUrl, accountPath, handoverPath, pullRemote, pushRemote, syncOnce, hasProgress, SyncError,
 } from '../src/sync.js';
@@ -106,21 +105,6 @@ test('merge result does not depend on which device syncs first', () => {
   assert.deepEqual(ab.history, ba.history);
   assert.equal(ab.xp, ba.xp);
   assert.deepEqual(ab.exams, ba.exams);
-});
-
-test('backup files round-trip and reject anything else', () => {
-  const s = emptyState();
-  s.cards.q1 = card('2026-11-01', 1);
-  addXp(s, 'phone', 12);
-  const text = backupText(s, '2026-11-02T10:00:00.000Z');
-  assert.equal(JSON.parse(text).kind, BACKUP_KIND);
-  assert.deepEqual(readBackup(text).state, sanitize(s));
-  // Bare saved progress (the browser's own copy) is accepted too.
-  assert.deepEqual(readBackup(JSON.stringify(s)).state, sanitize(s));
-  assert.ok(readBackup('not json').error);
-  assert.ok(readBackup('{"kind":"something-else"}').error);
-  assert.ok(readBackup('{"version":99}').error);
-  assert.equal(backupFileName('2026-11-02'), 'med-prep-progress-2026-11-02.json');
 });
 
 test('random codes are 20 characters and forgive typing slips', () => {

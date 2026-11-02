@@ -59,3 +59,9 @@ test('the page is never served from a stale cache, and a stale copy reloads itse
     assert.match(html, new RegExp(`id="${id}"`), `${id} missing from index.html`);
   }
 });
+
+test('no backup files: Google sign-in sync replaced them', () => {
+  assert.doesNotMatch(html, /backup/i);
+  assert.doesNotMatch(app, /backup/i);
+  assert.match(html, /<summary><h2 id="progress-head">Account<\/h2><\/summary>/);
+});

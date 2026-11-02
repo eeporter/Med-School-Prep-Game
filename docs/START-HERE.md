@@ -88,12 +88,11 @@ Step 8. Open the game and bookmark it (me)
 - If it fails: reload the page and try again.
 - Fine to skip for now: no; it takes a minute.
 
-Step 9. Keep my progress safe: sync and backup (me)
-- The first time I open https://medschool-sync.web.app on a device, it shows a Welcome screen with one button, Sign in with Google. I use the same Google account on every device (only my account and Emily's are allowed). After that the game opens straight to the home screen on that device and my progress syncs by itself, with nothing to tap. "Sync and backup" shows "Signed in as <my email>. Your progress syncs across your devices by itself." Sign out stops syncing on that device.
-- Backup (on any device): "Sync and backup" → Save a backup file. A file is saved to my Downloads; move it to Google Drive or iCloud Drive. To restore, use Restore from a backup file and pick that file (it adds to the progress already there; nothing is lost).
-- Test: on one device answer a question, then open the game on the other device (or switch back to it): within a few seconds the XP at the top matches. For backup: the file appears in Downloads.
-- If it fails: if the game says my account is not one of the accounts set up for this game, sign in again with the right Google account. If Google can't be reached, the Welcome screen offers Study without signing in: my answers are saved on that device and sync once I sign in. If it still fails, use backup files and tell Emily (she can add my Google address).
-- Fine to skip for now: sync, yes, if I use one device; still save a backup file now and then.
+Step 9. Keep my progress in step on all my devices: sign in (me)
+- The first time I open https://medschool-sync.web.app on a device, it shows a Welcome screen with one button, Sign in with Google. I use the same Google account on every device (only my account and Emily's are allowed). After that the game opens straight to the home screen on that device and my progress syncs by itself, with nothing to tap. "Account" on the home screen shows "Signed in as <my email>. Your progress syncs across your devices by itself." Sign out stops syncing on that device.
+- Test: on one device answer a question, then open the game on the other device (or switch back to it): within a few seconds the XP at the top matches.
+- If it fails: if the game says my account is not one of the accounts set up for this game, sign in again with the right Google account. If Google can't be reached, the Welcome screen offers Study without signing in: my answers are saved on that device and sync once I sign in. If it still fails, tell Emily the plain words on the screen (she can add my Google address).
+- Fine to skip for now: no. The game asks me to sign in when it opens, and signing in is what keeps my progress safe.
 
 Step 10. Turn on the weekly automatic questions (me, with Emily's folder from step 1)
 - This needs steps 5, 6 and 7. Open claude-prompts-for-elissa.md at the section "Automatic weekly questions", sub-section "One-time setup", and follow it with me: show me both boxes word for word so I can copy them, then in the Code tab click Scheduled in the sidebar (or open https://claude.ai/code/routines ) → New task or New routine (if asked, choose Cloud, then Set up manually), twice: "Weekly question writer" (WRITER ROUTINE box) and "Weekly question auditor" (AUDITOR ROUTINE box). Pick the Med-School-Prep-Game repository, choose Weekly, keep Google Drive on under Connectors, and click Create. Weekly runs on one day only, so then open the menu next to the task's name → Edit → change the schedule to Custom and paste 0 11 * * 1,4 for the writer (Monday and Thursday mornings) or 0 11 * * 2,5 for the auditor (Tuesday and Friday mornings) → Save changes. The routines create any labels they need themselves.
@@ -110,7 +109,7 @@ FINISH SETUP: give me this checklist, ticked or marked "skipped" or "waiting: <w
 [ ] GitHub account, invite accepted
 [ ] claude.ai/code can see the game
 [ ] Game bookmarked, exams added
-[ ] Sync on (or a backup file saved)
+[ ] Signed in to the game (progress syncs)
 [ ] Weekly automatic questions on
 Every day: play Daily Rounds at https://medschool-sync.web.app , then ask your "Med School" project about anything confusing."
 

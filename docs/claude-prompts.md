@@ -1,6 +1,6 @@
 # Claude prompt kit: study guides, game questions, and the auditor
 
-Version 1.7 (2026-11-02) · Status: **final, ready for handoff.**
+Version 1.8 (2026-11-02) · Status: **final, ready for handoff.**
 
 **Your study game:** https://medschool-sync.web.app (bookmark it, or on your phone use Share → Add to Home Screen). Only you and Emily can sync progress there, by signing in with Google.
 
@@ -220,12 +220,11 @@ Step 8. Open the game and bookmark it (me)
 - If it fails: reload the page and try again.
 - Fine to skip for now: no; it takes a minute.
 
-Step 9. Keep my progress safe: sync and backup (me)
-- The first time I open https://medschool-sync.web.app on a device, it shows a Welcome screen with one button, Sign in with Google. I use the same Google account on every device (only my account and Emily's are allowed). After that the game opens straight to the home screen on that device and my progress syncs by itself, with nothing to tap. "Sync and backup" shows "Signed in as <my email>. Your progress syncs across your devices by itself." Sign out stops syncing on that device.
-- Backup (on any device): "Sync and backup" → Save a backup file. A file is saved to my Downloads; move it to Google Drive or iCloud Drive. To restore, use Restore from a backup file and pick that file (it adds to the progress already there; nothing is lost).
-- Test: on one device answer a question, then open the game on the other device (or switch back to it): within a few seconds the XP at the top matches. For backup: the file appears in Downloads.
-- If it fails: if the game says my account is not one of the accounts set up for this game, sign in again with the right Google account. If Google can't be reached, the Welcome screen offers Study without signing in: my answers are saved on that device and sync once I sign in. If it still fails, use backup files and tell Emily (she can add my Google address).
-- Fine to skip for now: sync, yes, if I use one device; still save a backup file now and then.
+Step 9. Keep my progress in step on all my devices: sign in (me)
+- The first time I open https://medschool-sync.web.app on a device, it shows a Welcome screen with one button, Sign in with Google. I use the same Google account on every device (only my account and Emily's are allowed). After that the game opens straight to the home screen on that device and my progress syncs by itself, with nothing to tap. "Account" on the home screen shows "Signed in as <my email>. Your progress syncs across your devices by itself." Sign out stops syncing on that device.
+- Test: on one device answer a question, then open the game on the other device (or switch back to it): within a few seconds the XP at the top matches.
+- If it fails: if the game says my account is not one of the accounts set up for this game, sign in again with the right Google account. If Google can't be reached, the Welcome screen offers Study without signing in: my answers are saved on that device and sync once I sign in. If it still fails, tell Emily the plain words on the screen (she can add my Google address).
+- Fine to skip for now: no. The game asks me to sign in when it opens, and signing in is what keeps my progress safe.
 
 Step 10. Turn on the weekly automatic questions (me, with Emily's folder from step 1)
 - This needs steps 5, 6 and 7. Open claude-prompts-for-elissa.md at the section "Automatic weekly questions", sub-section "One-time setup", and follow it with me: show me both boxes word for word so I can copy them, then in the Code tab click Scheduled in the sidebar (or open https://claude.ai/code/routines ) → New task or New routine (if asked, choose Cloud, then Set up manually), twice: "Weekly question writer" (WRITER ROUTINE box) and "Weekly question auditor" (AUDITOR ROUTINE box). Pick the Med-School-Prep-Game repository, choose Weekly, keep Google Drive on under Connectors, and click Create. Weekly runs on one day only, so then open the menu next to the task's name → Edit → change the schedule to Custom and paste 0 11 * * 1,4 for the writer (Monday and Thursday mornings) or 0 11 * * 2,5 for the auditor (Tuesday and Friday mornings) → Save changes. The routines create any labels they need themselves.
@@ -242,7 +241,7 @@ FINISH SETUP: give me this checklist, ticked or marked "skipped" or "waiting: <w
 [ ] GitHub account, invite accepted
 [ ] claude.ai/code can see the game
 [ ] Game bookmarked, exams added
-[ ] Sync on (or a backup file saved)
+[ ] Signed in to the game (progress syncs)
 [ ] Weekly automatic questions on
 Every day: play Daily Rounds at https://medschool-sync.web.app , then ask your "Med School" project about anything confusing."
 
@@ -288,7 +287,7 @@ Open the game at https://medschool-sync.web.app . There is nothing to install, a
 - **My weak spots** lists the topics you struggle with most. About once a week, tap **Copy for my Claude** and paste it into your study buddy chat.
 - **If a question looks wrong:** tap **Report a problem** under the explanation, choose what is wrong, add a note if you like, and tap **Save report**. Later, on the home screen, the **Question reports** box has **Copy for my Claude**: paste that into the **Fix or change a question** prompt (Prompt 2b) at https://claude.ai/code . **Clear** empties the box once your Claude has it.
 - **Signing in:** the first time you open the game on a device, it asks you to tap **Sign in with Google**. Use the same Google account on every device (only yours and Emily's are allowed). From then on it opens straight to the home screen and your progress syncs by itself; there is nothing to tap.
-- **Sync and backup** (on the home screen) shows which account you are signed in with. **Sign out** stops syncing on that device. Tap **Save a backup file** now and then too, and keep the file in Google Drive or iCloud Drive; **Restore from a backup file** adds it back without losing anything.
+- **Account** (on the home screen) shows which Google account you are signed in with. **Sign out** stops syncing on that device.
 - **How to play** at the top of the home screen starts closed; tap it to read it. Tap any section's title on the home screen to fold it away or open it again.
 
 ## Your daily routine
@@ -761,6 +760,7 @@ When asked to re-check fixes, verify each finding ID one by one against the upda
 
 ## Changelog
 
+- 1.8 (2026-11-02): backup files removed (Emily): Google sign-in sync replaces them; the home section is now called Account; Step 9 and the setup checklist say "Signed in to the game".
 - 1.7 (2026-11-02), game fixes from Emily's live test: the game now opens on a Welcome screen with Sign in with Google (Study without signing in only if sign-in is not working); syncing has no button (Sync now removed) and runs by itself; Home at the top of each question and next to Next, and the phone's Back goes home; How to play starts closed and every home section folds. Step 9 and How to play updated to match.
 - 1.6 (2026-11-02), private game: the game moved to https://medschool-sync.web.app (every link updated) with Sign in with Google sync limited to Elissa and Emily (no sync codes); the game's GitHub pages need a GitHub sign-in, so the rebuild paste and kit-missing fallback no longer use public download links; routine SAFETY lines no longer say the repository is public; PDFs still never go in the repository. Audit K22-1 (waiting steps also reach the set-up checklist) and K22-2 (weak spots may also go to a question-writer chat). Audit K24: "no account", "open-source" and "main does not accept direct saves" reworded. No move-progress step: Elissa never played on the old address (Emily).
 - 1.5 (2026-11-02), Emily: everything Elissa asks and misses feeds the weekly questions. A pasted weak-spots list now also adds one "WEAK:" line to the question inbox (same path and fallbacks as STRUGGLE lines), and the writer routine writes those topics right after STRUGGLE lines, so the daily routine no longer needs a second paste. Weekly questions (START HERE step 10) are no longer skippable, and steps 5 to 7 can only wait, not be skipped; each new chat says once if the weekly questions are not running yet. Audit K21: the weak-spots list is pasted only into the study buddy (the by-hand inbox paste is the fallback); a "waiting: <what>" step no longer restarts setup in every chat (one status word everywhere); WEAK overflow stays under Waiting; distractors come from commonly confused alternatives (the game's list doesn't record her picks).

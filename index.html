@@ -58,7 +58,7 @@
           <li><strong>My exams</strong>: choose the test and its date, then tap <strong>Add exam</strong>. New questions in Daily Rounds then aim at your next exam, reviews are spaced to come back before it, and Exam Block offers "My next exam".</li>
           <li><strong>My weak spots</strong>: the topics you miss, or only get right by guessing. About once a week, tap <strong>Copy for my Claude</strong> and paste it into your study buddy chat.</li>
           <li>Signing in: the game asks you to tap <strong>Sign in with Google</strong> when you first open it on a device. Use the same Google account on every device, and your progress syncs by itself from then on. There is nothing else to tap.</li>
-          <li><strong>Sync and backup</strong>: shows which account you are signed in with. Now and then, tap <strong>Save a backup file</strong> and keep the file somewhere safe; <strong>Restore from a backup file</strong> adds one back.</li>
+          <li><strong>Account</strong>: shows which Google account you are signed in with, and has <strong>Sign out</strong>.</li>
         </ul>
         <div class="row">
           <button type="button" id="howto-hide">Hide this</button>
@@ -176,9 +176,9 @@
 
       <section class="progress" aria-labelledby="progress-head">
         <details class="section" data-section="progress" open>
-        <summary><h2 id="progress-head">Sync and backup</h2></summary>
+        <summary><h2 id="progress-head">Account</h2></summary>
         <div id="sync-box">
-          <p class="meta" id="sync-elsewhere">Your progress is saved in this browser. Sign-in sync works at the game's own address, <a href="https://medschool-sync.web.app/">medschool-sync.web.app</a>; here, use a backup file (below) to move progress between devices.</p>
+          <p class="meta" id="sync-elsewhere">Your progress is saved in this browser. Sign-in sync works at the game's own address, <a href="https://medschool-sync.web.app/">medschool-sync.web.app</a>.</p>
           <div id="sync-on" hidden>
             <p>Signed in as <strong id="sync-user"></strong>. Your progress syncs across your devices by itself.<span class="meta" id="sync-when"></span></p>
             <div class="row">
@@ -194,14 +194,6 @@
           <p class="meta" id="sync-status" aria-live="polite"></p>
         </div>
 
-        <h3>Backup</h3>
-        <p class="meta">Save a backup file now and then (for example to iCloud Drive or Google Drive). Restoring adds the backup to this device's progress, so nothing here is lost.</p>
-        <div class="row">
-          <button type="button" id="backup-save">Save a backup file</button>
-          <button type="button" id="backup-restore">Restore from a backup file</button>
-        </div>
-        <input type="file" id="backup-file" accept=".json,application/json" hidden>
-        <p class="meta" id="backup-status" aria-live="polite"></p>
         </details>
       </section>
 
