@@ -148,7 +148,9 @@ async function syncNow() {
   syncing = (async () => {
     try {
       const token = await account.token();
-      const merged = await syncOnce(fetch, docUrl(settings.projectId, accountPath(uid)), state, token);
+      const url = docUrl(settings.projectId, accountPath(uid));
+      await switchOwner(uid, url, token);
+      const merged = await syncOnce(fetch, url, state, token);
       if (user?.uid !== uid) return; // signed out (or switched account) meanwhile
       lastRemote = merged;
       lastToken = { uid, token, at: Date.now() };
@@ -158,7 +160,7 @@ async function syncNow() {
       adoptState(mergeStates(state, merged));
       if (changes !== before) scheduleSync();
       lastSynced = timeNow();
-      try { storage?.setItem(OWNER_KEY, uid); } catch { /* single-account device: nothing lost */ }
+      setOwner(uid);
       status.textContent = '';
       renderSync();
     } catch (err) {
@@ -231,20 +233,49 @@ function signInFailed(msg) {
   }
 }
 
-// Progress on a device belongs to the account that signed in there. If a
+// Progress on a device belongs to the account that last synced there. If a
 // different account signs in later (after Sign out), it starts from its own
-// synced progress, never merging the last account's answers into it. The
-// last account's progress is already in its own synced copy: Sign out syncs
-// first. The owner is recorded only after a sync succeeds, so an account the
-// rules refuse never claims (or wipes) this device's progress.
-function claimProgress(uid) {
-  let owner = null;
-  try { owner = storage?.getItem(OWNER_KEY) ?? null; } catch { owner = null; }
-  if (owner && owner !== uid) {
-    state = emptyState();
-    save(storage, state);
-    lastSynced = null;
+// synced copy, and the device's progress is set aside for the earlier account
+// (merged back if it signs in here again), so unsynced answers are never lost.
+// Nothing changes until the new account's copy has downloaded, so an account
+// the rules refuse never touches this device's progress.
+const stashKey = (uid) => `med-study-game:stash:${uid}`;
+
+function readOwner() {
+  try { return storage?.getItem(OWNER_KEY) ?? null; } catch { return null; }
+}
+
+function setOwner(uid) {
+  try { storage?.setItem(OWNER_KEY, uid); } catch { /* single-account device: nothing lost */ }
+}
+
+async function switchOwner(uid, url, token) {
+  const owner = readOwner();
+  if (owner === uid) return;
+  if (owner) {
+    const remote = await pullRemote(fetch, url, token); // throws if refused: nothing changed
+    try {
+      const old = storage?.getItem(stashKey(owner));
+      const keep = old ? mergeStates(JSON.parse(old), state) : state;
+      storage?.setItem(stashKey(owner), JSON.stringify(keep));
+    } catch (err) {
+      console.warn(err);
+      return; // cannot set the old progress aside safely, so keep it in place
+    }
+    state = remote ?? emptyState();
   }
+  try {
+    const mine = storage?.getItem(stashKey(uid));
+    if (mine) {
+      state = mergeStates(state, JSON.parse(mine));
+      storage?.removeItem(stashKey(uid));
+    }
+  } catch (err) { console.warn(err); }
+  save(storage, state);
+  // Claimed now only when switching from another account (the download above
+  // proved this one is allowed); a first owner is recorded after its sync.
+  if (owner) setOwner(uid);
+  adoptState(state);
 }
 
 async function startSync() {
@@ -258,7 +289,6 @@ async function startSync() {
       clearTimeout(wait);
       if (u) {
         refused = null;
-        claimProgress(u.uid);
         $('gate-status').textContent = '';
         if (!$('view-signin').hidden) renderHome();
         if (u.uid !== was) syncNow();
@@ -1074,6 +1104,7 @@ function wireProgress() {
   $('sync-signout').addEventListener('click', async () => {
     if (!window.confirm('Sign out on this device? Progress already here stays here, but it stops syncing until you sign in again.')) return;
     await syncNow();
+    if (changes !== syncedChanges && !window.confirm('Your latest answers have not synced yet (no internet?). They stay safe on this device and sync the next time you sign in here. Sign out anyway?')) return;
     skipped = false;
     await account.signOut();
   });
