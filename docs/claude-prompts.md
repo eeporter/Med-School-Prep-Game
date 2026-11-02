@@ -1,26 +1,26 @@
 # Claude prompt kit: study guides, game questions, and the auditor
 
-Version 1.2 (2026-11-02) · Status: **final, ready for handoff.**
+Version 1.3 (2026-11-02) · Status: **final, ready for handoff.**
 
 **Your study game:** https://eeporter.github.io/Med-School-Prep-Game/ (bookmark it, or on your phone use Share → Add to Home Screen).
 
 **Before handoff (Emily, once, about 20 minutes plus upload time)**
-1. **The folder.** It is already built on your Mac at `Documents/ClaudeProjects/Handoff documentation` (2026-11-02). To rebuild it later (for example after the kit changes): in a Claude desktop chat with your `Documents/ClaudeProjects/MedSchoolPrep` folder attached, paste: "Make a copy of this MedSchoolPrep folder next to it, named Handoff documentation. In the copy: delete the handoff subfolder and guides.tgz; download https://raw.githubusercontent.com/eeporter/Med-School-Prep-Game/main/docs/claude-prompts.md and save it at the top level as claude-prompts-for-elissa.md; download https://raw.githubusercontent.com/eeporter/Med-School-Prep-Game/main/docs/START-HERE.md and save it at the top level twice, as 'START HERE - Claude read this first.md' and as CLAUDE.md; then replace the copy's study-guides folder with the one from https://github.com/eeporter/Med-School-Prep-Game/tree/main/study-guides (73 guides plus README.md), because the guides in MedSchoolPrep may be older. Then check and tell me: study-guides has 73 guides plus README.md, documents has the course PDFs, and audit and struggle-log.md are there. Don't change my original MedSchoolPrep folder." (If a download link fails, the same files are on GitHub at https://github.com/eeporter/Med-School-Prep-Game/tree/main/docs .)
+1. **The folder.** It is already built on your Mac at `Documents/ClaudeProjects/Handoff documentation` (2026-11-02). To rebuild it later (for example after the kit changes): in a Claude desktop chat with your `Documents/ClaudeProjects/MedSchoolPrep` folder attached, paste: "Make a copy of this MedSchoolPrep folder next to it, named Handoff documentation. In the copy: delete the handoff subfolder and guides.tgz; download https://raw.githubusercontent.com/eeporter/Med-School-Prep-Game/main/docs/claude-prompts.md and save it at the top level as claude-prompts-for-elissa.md; download https://raw.githubusercontent.com/eeporter/Med-School-Prep-Game/main/docs/START-HERE.md and save it at the top level twice, as 'START HERE - Claude read this first.md' and as CLAUDE.md; then replace the copy's study-guides folder with the one from https://github.com/eeporter/Med-School-Prep-Game/tree/main/study-guides (73 guides plus README.md), because the guides in MedSchoolPrep may be older. Last, make a zip named "Handoff documentation - small copy.zip" at the top level of the copy, holding a folder called Handoff documentation with everything except the documents folder and the zip itself. Then check and tell me: study-guides has 73 guides plus README.md, documents has the course PDFs, and audit and struggle-log.md are there. Don't change my original MedSchoolPrep folder." (If a download link fails, the same files are on GitHub at https://github.com/eeporter/Med-School-Prep-Game/tree/main/docs .)
 2. **Upload it.** Go to https://drive.google.com/ → **New** → **Folder upload** → pick the Handoff documentation folder (keep its name exactly "Handoff documentation": the weekly routines look for it). It is about 1.1 GB, so leave the tab open until the upload finishes.
-3. **Share it.** In Google Drive, right-click the folder → **Share** → type Elissa's email → set **Editor** → **Send**. Then right-click it again → **Share** → **Copy link**, and send that link to Elissa with this kit.
+3. **Share it.** In Google Drive, right-click the folder → **Share** → type Elissa's email → set **Editor** → **Send**. Then right-click it again → **Share** → **Copy link**, and send that link to Elissa. She needs nothing else: step 3 below says what she does with it.
 4. **GitHub.** Add Elissa's GitHub account at https://github.com/eeporter/Med-School-Prep-Game/settings/access (**Add people**), or check that the collaborator already listed there is hers.
-5. **Test it once.** On your Mac, start a new Claude desktop chat, attach the Handoff documentation folder, and type **Start**. Claude should check the folder and begin step 1 of the setup. If it doesn't, type the fallback sentence below and note which one worked. Afterwards, delete setup-progress.md from the folder (and from Google Drive if it was already uploaded) so Elissa starts fresh.
+5. **Test it once.** On your Mac, start a new Claude desktop chat, drop in only `START HERE - Claude read this first.md`, and type **Start**. Claude should begin step 1 of the setup. If it doesn't, type the fallback sentence below and note which one worked. Nothing is saved at this point, so there is nothing to clean up.
 
-**Start here (Elissa):** everything is in one folder called **Handoff documentation** that Emily shares with you on Google Drive: open the link Emily sent, or go to https://drive.google.com/ → **Shared with me**.
-1. Download it and put it in your Documents folder (right-click it in Google Drive → Download, then double-click the zip file to open it).
-2. Install the Claude desktop app from https://claude.ai/download and sign in.
-3. Start a new chat, attach the **Handoff documentation** folder (click **Work in a folder** in the message box, or the **+** or folder button there; the menu may look slightly different), and type **Start**. If you see no way to attach a folder, update the app (it needs the newest version and a paid Claude plan) or ask Emily.
+**Start here (Elissa):** Emily shares a folder called **Handoff documentation** with you on Google Drive: open the link Emily sent, or go to https://drive.google.com/ → **Shared with me**. Don't download the whole folder: it is too big, and you don't need to.
+1. Install the Claude desktop app from https://claude.ai/download and sign in.
+2. In the folder, right-click `START HERE - Claude read this first.md` → **Download**.
+3. Start a new chat, drop that one file into it (or use the **+** by the message box to add it), and type **Start**. Your Claude then gets you the small folder it saves your work in, and tells you how to attach it with **Work in a folder**. If you see no way to attach a folder, update the app (it needs the newest version and a paid Claude plan) or ask Emily.
 
-Your Claude reads the file "START HERE - Claude read this first.md" in the folder and walks you through the rest of the setup, one step at a time, with links and a check for each step. If it doesn't seem to know what to do, type: "Read START HERE - Claude read this first.md in the attached folder and follow it." After setup, the same chat is your study buddy.
+Your Claude reads "START HERE - Claude read this first.md" and walks you through the rest of the setup, one step at a time, with links and a check for each step. If it doesn't seem to know what to do, type: "Read the START HERE file I attached and follow it." After setup, your "Med School" project is your study buddy.
 
 **All the links in one place**
 - Study game: https://eeporter.github.io/Med-School-Prep-Game/
-- Claude desktop app: https://claude.ai/download · Claude Projects: https://claude.ai/projects · Connectors (Google Drive): https://claude.ai/settings/connectors · Help: https://support.claude.com/
+- Claude desktop app: https://claude.ai/download · Claude Projects: https://claude.ai/projects · Connectors (Google Drive): https://claude.ai/customize/connectors · Help: https://support.claude.com/
 - Claude for the game (claude.ai/code, where Routines also live): https://claude.ai/code · Connect GitHub to Claude: https://claude.ai/connect-github
 - Google Drive (the shared Handoff documentation folder): https://drive.google.com/
 - GitHub sign-up: https://github.com/signup · The game's code: https://github.com/eeporter/Med-School-Prep-Game · Your invitation: https://github.com/eeporter/Med-School-Prep-Game/invitations · Pull requests: https://github.com/eeporter/Med-School-Prep-Game/pulls
@@ -70,15 +70,15 @@ No Terminal, no coding. You use two places, and both are ordinary chat boxes whe
 
 - The **study game** in your web browser: https://eeporter.github.io/Med-School-Prep-Game/
 - The **Claude desktop app** (from https://claude.ai/download ), signed in.
-- The **Handoff documentation folder** on your computer (in Documents). It holds:
+- The **Handoff documentation folder** on your computer (in Documents; the small copy from Google Drive, under 1 MB as a zip). It holds:
   - `START HERE - Claude read this first.md` (and a `CLAUDE.md` copy, which some Claude apps read on their own): tells your Claude how to set you up and what to do next.
   - `claude-prompts-for-elissa.md`: this prompt kit. The study buddy reads it to write guides, so keep it the latest version (the newest copy is always at https://github.com/eeporter/Med-School-Prep-Game/blob/main/docs/claude-prompts.md).
   - `setup-progress.md`: your Claude keeps track of which setup steps are done (it creates this).
   - `struggle-log.md`: every topic you have asked Claude to explain, how many times, and whether a guide or game questions cover it yet.
   - `study-guides`: your guides (`01-acid-base.md` and so on) and a `README.md` list of them.
-  - `documents`: the course PDFs Emily collected (El-Husseiny, Osmosis HY, NBME Top Concepts, and others). These set **what** the guides and questions teach.
+  - `documents` (only in the Google Drive folder, not on your computer, because the set is about 1.1 GB): the course PDFs Emily collected (El-Husseiny, Osmosis HY, NBME Top Concepts, and others). These set **what** the guides and questions teach. Your Claude reads them through the Google Drive connector.
   - `audit`: `audit-checklist.md` (the rules), `findings.md` (the log of every audit), `coverage-tracker.md` (your weak topics), `game-coverage.md` (how many questions each topic has and needs), `exam-style-and-mix.md` (the official subject weights), and `recent-changes-register.md` (places where newer guidance differs from your documents).
-- Your own notes in **Google Docs** (optional), connected through Claude's Google Drive connector (https://claude.ai/settings/connectors).
+- Your own notes in **Google Docs** (optional), connected through Claude's Google Drive connector (https://claude.ai/customize/connectors).
 - For the game only: a free **GitHub account** with permission to edit the game.
 
 All of this is set up once: type **Start** in a chat with the folder attached and your Claude walks you through it ("Setup guide" below). The checklist below is the same setup on one page, for Emily or for checking off by hand.
@@ -88,8 +88,8 @@ All of this is set up once: type **Start** in a chat with the folder attached an
 Nothing here involves Terminal. Tick each box once.
 
 **A. The Handoff documentation folder on Elissa's computer**
-- [ ] **Emily:** give Elissa a copy of the whole `Handoff documentation` folder (`START HERE - Claude read this first.md`, `CLAUDE.md`, `claude-prompts-for-elissa.md`, study guides, audit files, `struggle-log.md`, and a `documents` folder with the course PDFs). Use a private Google Drive folder at https://drive.google.com/ (right-click the folder → Share → Elissa's email → Editor → Send) shared only with Elissa, as **Editor** (so her Claude can add lecture notes to it): the weekly routines need the course PDFs in Google Drive anyway (step 1 of "Automatic weekly questions").
-- [ ] **Elissa:** at https://drive.google.com/ open **Shared with me**, right-click **Handoff documentation** → **Download**, unzip it (double-click the zip on a Mac; right-click → Extract All on Windows), and put it in `Documents/Handoff documentation`.
+- [ ] **Emily:** give Elissa a copy of the whole `Handoff documentation` folder (`START HERE - Claude read this first.md`, `CLAUDE.md`, `claude-prompts-for-elissa.md`, study guides, audit files, `struggle-log.md`, a `documents` folder with the course PDFs, and the small zip Elissa downloads). Use a private Google Drive folder at https://drive.google.com/ (right-click the folder → Share → Elissa's email → Editor → Send) shared only with Elissa, as **Editor** (so her Claude can add lecture notes to it): the weekly routines need the course PDFs in Google Drive anyway (step 1 of "Automatic weekly questions").
+- [ ] **Elissa:** at https://drive.google.com/ open **Shared with me** → **Handoff documentation**, right-click `Handoff documentation - small copy.zip` → **Download**, unzip it (double-click on a Mac; right-click → Extract All on Windows), and move the folder inside to `Documents/Handoff documentation`. The PDFs stay in Google Drive.
 - A backup copy of all study guides (as of handoff) is also in the game's GitHub, in the `study-guides` folder: https://github.com/eeporter/Med-School-Prep-Game/tree/main/study-guides . If a guide is ever missing from the folder, ask Claude to copy it from there. The course PDFs are never put on GitHub (it is public).
 - [ ] **Elissa:** install the Claude desktop app from https://claude.ai/download and sign in.
 - [ ] **Test:** start a new chat, attach the Handoff documentation folder (**Work in a folder** in the message box, or the **+** or folder button there), and type "List the files in study-guides." If Claude lists the guides, this part is done.
@@ -97,7 +97,7 @@ Nothing here involves Terminal. Tick each box once.
 - [ ] **Test:** start a new chat inside the "Med School" project and type "List the files in study-guides." If Claude lists the guides, the project can see your folder. If it can't, attach the folder in each new chat instead (**Work in a folder** in the message box, or the **+** or folder button there).
 
 **B. Elissa's own notes in Google Docs**
-- [ ] **Elissa:** in Claude, open **Settings → Connectors** (https://claude.ai/settings/connectors ), find **Google Drive**, click **Connect**, and sign in with the Google account that has your notes.
+- [ ] **Elissa:** in Claude, open **Customize → Connectors** (https://claude.ai/customize/connectors ), find **Google Drive**, click **Connect**, and sign in with the Google account that has your notes.
 - [ ] **Test:** in a new chat, type "Search my Google Drive for my notes on <a topic> and tell me the file names." If Claude finds them, this part is done.
 - The prompts tell Claude to treat these notes like the course PDFs: they set what to teach, nothing is copied word for word, and newer guidance gets a "Recent change" note.
 
@@ -112,8 +112,8 @@ Nothing here involves Terminal. Tick each box once.
 
 | What you want | Where | Why |
 |---|---|---|
-| Set everything up (START HERE / Setup guide) | Claude desktop app: new chat, Handoff documentation folder attached, type "Start" | It reads the START HERE file in the folder and walks you through each step |
-| Ask medical questions (study buddy), which also writes guides and requests questions automatically | Claude desktop app, in your "Med School" Project with the Handoff documentation folder attached | It needs your folder: guides, documents, struggle log |
+| Set everything up (START HERE / Setup guide) | Claude desktop app: new chat, drop in only the START HERE file, type "Start" | It reads the START HERE file and walks you through each step |
+| Ask medical questions (study buddy), which also writes guides and requests questions automatically | Claude desktop app, in your "Med School" Project with the Handoff documentation folder attached | It needs your folder (guides, struggle log) and Google Drive (course PDFs) |
 | Write a study guide yourself (Prompt 1) | Claude desktop app | Same folder |
 | Audit a study guide (Prompt 3) | Claude desktop app, new chat | Same folder |
 | Write new game questions (Prompt 2) | claude.ai/code, Med-School-Prep-Game picked | Changing the game means editing its files, running its checks and opening a pull request, which only claude.ai/code can do |
@@ -128,21 +128,21 @@ claude.ai/code is just a website with a chat box, not Terminal, and it does not 
 
 ## Setup guide (START HERE)
 
-The easiest way: start a new chat in the Claude desktop app, attach the **Handoff documentation** folder, and type **Start**. Your Claude reads `START HERE - Claude read this first.md` in the folder (the text below) and walks you through every step, one at a time. If your Claude doesn't pick it up, paste the grey box below into the chat instead. If you lose track, type **Start** again in a new chat with the folder attached: your Claude checks `setup-progress.md` and carries on from where you stopped.
+The easiest way: start a new chat in the Claude desktop app, drop in only `START HERE - Claude read this first.md`, and type **Start**. Your Claude reads it (the text below) and walks you through every step, one at a time. If your Claude doesn't pick it up, paste the grey box below into the chat instead. If you lose track, type **Start** again in a new chat with the folder attached: your Claude checks `setup-progress.md` and carries on from where you stopped.
 
 ````text
-I am Elissa, a medical student preparing for USMLE Step 1 and NBME exams. My sister Emily built me a study game (https://eeporter.github.io/Med-School-Prep-Game/ ) and this "Handoff documentation" folder. It holds:
+I am Elissa, a medical student preparing for USMLE Step 1 and NBME exams. My sister Emily built me a study game (https://eeporter.github.io/Med-School-Prep-Game/ ) and a "Handoff documentation" folder. This page may be the only thing attached to this chat: that is normal, and it tells you what to do. The folder holds:
 - claude-prompts-for-elissa.md: the full prompt kit (the study buddy, guide writer, question writer, fix-a-question, auditor, weekly routines, and every rule). It is the rulebook: follow it.
 - study-guides: my study guides and README.md (their list and audit status).
 - audit: the audit checklist, findings log, coverage trackers, subject weights and recent-changes register.
-- documents: the course PDFs. They set what guides and questions teach. Never upload them anywhere public (the game's GitHub is public).
+- documents: the course PDFs. They set what guides and questions teach. They stay in Emily's shared Google Drive folder and are NOT in the folder on my computer, because the whole set (about 1.1 GB) is too big for a chat. Read them through the Google Drive connector, only the pages you need. If one will not open or comes back incomplete, say so plainly and ask me for that page (an upload or a photo); never guess. Never upload them anywhere public (the game's GitHub is public).
 - struggle-log.md: every topic I have asked about.
 - setup-progress.md: which setup steps are done (create it if missing).
 
 WHEN I TYPE "Start" (or anything, in a chat with this folder attached):
-1. Read setup-progress.md. If every step is done or skipped, go straight to "AFTER SETUP" below.
-2. Otherwise, tell me in two plain sentences what we are going to do, then check the folder yourself first: list it and confirm study-guides, audit, documents (with PDFs in it), claude-prompts-for-elissa.md and struggle-log.md are there. Tell me what is missing, if anything (Emily can add it to the shared folder; the kit's newest copy is also at https://github.com/eeporter/Med-School-Prep-Game/blob/main/docs/claude-prompts.md ).
-3. Walk me through the setup steps below that are not done yet, one at a time, in order. After each step, update setup-progress.md (done / skipped / waiting for Emily, with the date), so a new chat can pick up where we left off.
+1. See whether you can list a folder with study-guides in it. If you have only this page, that is fine: tell me in two plain sentences what we are going to do, say that you cannot save anything until my folder is attached so you will keep our list in this chat, and start at step 1 below. Never ask me to upload the whole Google Drive folder or the PDFs.
+2. If the folder is attached, read setup-progress.md in it. If every step is done or skipped, go straight to "AFTER SETUP" below. Otherwise, tell me in two plain sentences what we are going to do, then check the folder yourself first: list it and confirm study-guides, audit, claude-prompts-for-elissa.md and struggle-log.md are there. Tell me what is missing, if anything (Emily can fix the small copy; the kit's newest copy is also at https://github.com/eeporter/Med-School-Prep-Game/blob/main/docs/claude-prompts.md ). The documents folder is not expected here.
+3. Walk me through the setup steps below that are not done yet, one at a time, in order. Once the folder is attached, after each step, update setup-progress.md (done / skipped / waiting for Emily, with the date), so a new chat can pick up where we left off. What changes (the struggle log, setup progress, new guides) is saved only in that folder on my computer, not in Google Drive.
 4. When the steps are done or skipped, give me the "You're set up" checklist, then carry on as in AFTER SETUP.
 
 HOW TO TALK TO ME
@@ -157,15 +157,15 @@ HOW TO TALK TO ME
 THE SETUP STEPS (in this order; if this folder is attached, step 1 is done; ask me whether I am in the Claude desktop app, and if so step 2 is done too)
 
 Step 1. Get the "Handoff documentation" folder from Emily (Emily, then me)
-- Emily: at https://drive.google.com/ , right-click the "Handoff documentation" folder → Share → type my email → set the role to Editor → Send. It holds this START HERE file, the kit (claude-prompts-for-elissa.md), study-guides, audit, documents (the course PDFs) and struggle-log.md.
-- Me: open the link Emily sent, or open https://drive.google.com/ → "Shared with me" (left side). Right-click "Handoff documentation" → Download (from Emily's link, use the folder name's menu or the Download button at the top). Google makes a zip file (a big folder may come as several zip files; wait until all have downloaded).
-- Me: open my Downloads folder and unzip: on a Mac, double-click each zip; on Windows, right-click → Extract All. If there are several, put everything into one folder called "Handoff documentation".
-- Me: move the "Handoff documentation" folder into my Documents folder.
+- Emily: at https://drive.google.com/ , right-click the "Handoff documentation" folder → Share → type my email → set the role to Editor → Send. It holds this START HERE file, the course PDFs (documents), and "Handoff documentation - small copy.zip" (everything except the PDFs, under 1 MB).
+- Me: open the link Emily sent, or open https://drive.google.com/ → "Shared with me" (left side) → open "Handoff documentation". Right-click "Handoff documentation - small copy.zip" → Download. Do NOT download the whole folder or the documents folder: the PDFs stay in Google Drive.
+- Me: open my Downloads folder and unzip it: on a Mac, double-click it; on Windows, right-click → Extract All. Inside is a folder called "Handoff documentation".
+- Me: move that "Handoff documentation" folder into my Documents folder.
 - Me (optional, helps later): in Google Drive "Shared with me", right-click "Handoff documentation" → Organize → Add shortcut → My Drive.
-- Test: in Documents/Handoff documentation I can see START HERE - Claude read this first.md, claude-prompts-for-elissa.md, struggle-log.md, and the study-guides, audit and documents folders.
-- If it fails: if documents is empty or missing, ask Emily to add the course PDFs to the shared folder and download again. If the kit is missing, download it from https://github.com/eeporter/Med-School-Prep-Game/blob/main/docs/claude-prompts.md (the download button near the top right of the file) into the folder and rename it claude-prompts-for-elissa.md.
+- Test: in Documents/Handoff documentation I can see START HERE - Claude read this first.md, claude-prompts-for-elissa.md, struggle-log.md, and the study-guides and audit folders. There is no documents folder here, and that is right.
+- If it fails: if the zip is not in the shared folder, ask Emily to add it. If the kit is missing, download it from https://github.com/eeporter/Med-School-Prep-Game/blob/main/docs/claude-prompts.md (the download button near the top right of the file) into the folder and rename it claude-prompts-for-elissa.md.
 - Fine to skip for now: no. Everything else depends on it.
-- Note: the folder on my computer is my working copy (the study buddy writes guides and the struggle log there). The copy in Google Drive is what the weekly routines read, so it is fine if the two differ.
+- Note: the folder on my computer is my working copy (the study buddy writes guides and the struggle log there). The Google Drive folder is where the course PDFs live and what the weekly routines read, so it is fine if the two differ.
 
 Step 2. Install the Claude desktop app (me)
 - Go to https://claude.ai/download , download the version for my computer (Mac or Windows), and install it: on a Mac, open the downloaded file and drag Claude into Applications; on Windows, open the installer and follow it.
@@ -175,12 +175,13 @@ Step 2. Install the Claude desktop app (me)
 - Fine to skip for now: no.
 
 Step 3. Check Claude can read the folder (me)
-- If this chat is in the desktop app and already has the folder attached (you can list it), this step is done: mark it done and move on.
+- If this chat is in the desktop app and already has the folder attached (you can list it), this step is done: mark it done, save setup-progress.md with steps 1 to 3 done, and move on.
+- If you have only the START HERE page: tell me to start a new chat with the folder attached (these steps), and to type "Start" there. That new chat takes over and this page is no longer needed.
 - In the desktop app, start a new chat. Attach the "Handoff documentation" folder: click "Work in a folder" in the message box, or the + or folder button there (the menu may look slightly different). If it asks for permission to open the folder, click Allow.
 - Type: "List the files in study-guides."
 - Then type: "Add the line Setup test to the end of struggle-log.md, read it back to me, then remove it." If Claude asks permission, click Allow.
 - Test: Claude lists the study guides (01-acid-base.md and so on), and adds and then removes the Setup test line.
-- If it fails: make sure I attached the whole "Handoff documentation" folder, not one file inside it, and clicked Allow, then try again in a new chat.
+- If it fails: make sure I attached the "Handoff documentation" folder from my Documents (the small one, with no documents folder in it), not one file inside it, and clicked Allow, then try again in a new chat. If Claude says it is too big, I have the wrong folder.
 - Fine to skip for now: no.
 
 Step 4. Make the "Med School" project (me)
@@ -192,10 +193,10 @@ Step 4. Make the "Med School" project (me)
 - Fine to skip for now: no. This is the study buddy I'll use every day.
 
 Step 5. Connect Google Drive (me)
-- In Claude, open Settings → Connectors (https://claude.ai/settings/connectors ) → find Google Drive → Connect → sign in with the Google account that has my notes and Emily's shared folder → Allow.
-- Test: in a new chat, type "Search my Google Drive for the Handoff documentation folder and tell me what is in its documents folder." Claude names some course PDFs. If I have my own notes in Google Docs, also try "Search my Google Drive for my notes on <a topic>."
+- In Claude, open Customize → Connectors (https://claude.ai/customize/connectors ; the menu may look slightly different) → find Google Drive → Connect → sign in with the Google account that has my notes and Emily's shared folder → Allow. If a chat cannot see my Drive later: + at the lower left of the message box → Connectors → turn on Google Drive.
+- Test: in a new chat, turn on Google Drive if needed and type "Search my Google Drive for the Handoff documentation folder and tell me what is in its documents folder." Claude names some course PDFs. Then type "Open one of those PDFs and tell me the title on its first page." Claude tells me. If I have my own notes in Google Docs, also try "Search my Google Drive for my notes on <a topic>."
 - If it fails: disconnect and connect again with the right Google account; make sure Emily shared the folder with that same account.
-- Fine to skip for now: yes, if I want, but the weekly automatic questions (step 10) need it.
+- Fine to skip for now: yes, if I want, but until it is done Claude cannot check my course PDFs, and the weekly automatic questions (step 10) need it.
 
 Step 6. Make a GitHub account (me) and get Emily's invite (Emily, then me)
 - Me: first, ask me whether I already have a GitHub account. Emily has already added my GitHub account to the game: if I have one, I do not make another one, and I go straight to the invitation below. If I have no account, go to https://github.com/signup , enter my email, a password and a username, and enter the code GitHub emails me. Send Emily my username.
@@ -233,7 +234,7 @@ Step 10. Turn on the weekly automatic questions (me, with Emily's folder from st
 
 FINISH SETUP: give me this checklist, ticked or marked "skipped" or "waiting for Emily":
 "You're set up:
-[ ] "Handoff documentation" folder in Documents, with the course PDFs
+[ ] "Handoff documentation" small folder in Documents (the course PDFs stay in Google Drive)
 [ ] Claude desktop app installed and can read the folder
 [ ] "Med School" project with the study buddy instructions
 [ ] Google Drive connected
@@ -420,7 +421,7 @@ These came out of building and auditing the first 40 guides and the game's quest
 1. **Every fact cites a source page that Claude actually opened.** A search snippet or memory is not enough. An uncited claim is a Major finding. Claude never invents or guesses a citation: every link, title and page number is one it opened and checked says that fact. An invented reference (it doesn't exist, or the fact or quote appears nowhere in it) is Critical. A mismatched one (the source is real and says the fact, but the page, title or quoted wording is off, or the page has changed since) is Major, and the writer fixes it to what the source says now.
 2. **Good sources:** StatPearls (NCBI Bookshelf, https://www.ncbi.nlm.nih.gov/books/NBK430685/ ), MSD Manual Professional (https://www.msdmanuals.com/professional ), current society guidelines (AHA/ACC, ADA, KDIGO, IDSA, USPSTF, GOLD, GINA, Endocrine Society), CDC (https://www.cdc.gov/ ), FDA labels (DailyMed, https://dailymed.nlm.nih.gov/dailymed/ ), and standard texts (First Aid, Robbins, Guyton, Goodman & Gilman, Harrison's). Not Wikipedia. Claude cannot open textbooks, so a textbook may only be named **alongside** an openable link that supports the same fact, never on its own. **EyeWiki** and **Radiopaedia** are never sources (wiki-type sites; EyeWiki's terms also bar use in AI programs); they may appear only as optional "Read more" links.
 3. **StatPearls often shows a captcha to Claude.** The `www.ncbi.nlm.nih.gov/sites/books/NBKxxxxx/` form of the link sometimes opens when `/books/NBKxxxxx/` does not. If it still won't open, add an **MSD Manual Professional** link that says the same thing next to it. Every claim needs at least one source that opens today.
-4. **Your course documents set the content.** Guides and questions teach what the course documents (the `documents` folder) and your own Google Docs notes teach. Paraphrase them; never copy their text, tables, or figures. Content taken from a document is cited **by document and page**, for example "El-Husseiny Obstetrics p.64". Where the documents are thin or silent, use published medical research and standard references, opened and cited.
+4. **Your course documents set the content.** Guides and questions teach what the course documents (the `documents` folder in the shared Google Drive folder, read through the Google Drive connector) and your own Google Docs notes teach. If a PDF will not open or comes back incomplete, say which one and ask for the page; never cite a page you did not read. Paraphrase them; never copy their text, tables, or figures. Content taken from a document is cited **by document and page**, for example "El-Husseiny Obstetrics p.64". Where the documents are thin or silent, use published medical research and standard references, opened and cited.
 5. **Three kinds of notes when sources disagree.** Check `recent-changes-register.md` first; it lists the ones already found.
    - **"Recent change:"** the document was right when written but guidance has since changed. Keep the document's version (that is what your course expects) and give the current guidance with its source.
    - **"Correction:"** the document is simply wrong (for example, a wrong enzyme name). Teach the correct fact, and note what the document says and why it is wrong, with the source.
@@ -497,7 +498,7 @@ If I say "pick the next one", read struggle-log.md in the Handoff documentation 
 Why I find it confusing (optional): <what you keep getting wrong>
 
 FOLDER
-The guides are in the study-guides folder inside the Handoff documentation folder I attached. My course PDFs are in its documents folder, and my own notes are in my Google Docs (if Google Drive is connected, search them for the topic). Find the pages that cover this topic first, and make the guide teach what they teach (in your own words, never copied). Read audit/recent-changes-register.md for known differences between my documents and current guidance. Read README.md and two existing guides (01-acid-base.md is the gold standard; it passed audit) before you start, and match their format exactly. Save the new guide as the next free number (for example 74-<short-topic>.md if 73 is the last), and add a row to the README table with status "Draft, waiting for auditor".
+The guides are in the study-guides folder inside the Handoff documentation folder I attached. My course PDFs are in the documents folder of my shared Google Drive folder "Handoff documentation", not on my computer: read them through the Google Drive connector, only the pages you need. If Google Drive is not connected or a PDF will not open, say so plainly, ask me for the page, and mark the guide as not yet checked against that document. My own notes are in my Google Docs (if Google Drive is connected, search them for the topic). Find the pages that cover this topic first, and make the guide teach what they teach (in your own words, never copied). Read audit/recent-changes-register.md for known differences between my documents and current guidance. Read README.md and two existing guides (01-acid-base.md is the gold standard; it passed audit) before you start, and match their format exactly. Save the new guide as the next free number (for example 74-<short-topic>.md if 73 is the last), and add a row to the README table with status "Draft, waiting for auditor".
 
 FORMAT (in this order)
 1. Title, then the line: "Exam focus: USMLE Step 1 and NBME · Study material, not patient care guidance · Auditor: pending"
@@ -694,7 +695,7 @@ HOW TO TALK TO ME: I don't code. Make every technical decision yourself (branche
 WHAT TO AUDIT: <e.g. "study guide 20-jaundice-and-biliary-disease.md" or "the game pull request at <link>" or "re-check fixes for guide 05">
 
 FILES
-- The audit folder is inside the Handoff documentation folder I attached. Read audit-checklist.md first; it is the standard. Append results to audit/findings.md (the detailed audit log; findings-summary.md is a read-only summary) and update coverage-tracker.md. Also use exam-style-and-mix.md (official subject weights) and recent-changes-register.md. My course PDFs are in the documents folder. (If you are running in claude.ai/code without my folder, which is normal for game pull requests: use this prompt and docs/claude-prompts.md as the standard, post your findings table as a comment on the pull request instead of writing findings.md, and only ask me for a document page if Google Drive is not connected.)
+- The audit folder is inside the Handoff documentation folder I attached. Read audit-checklist.md first; it is the standard. Append results to audit/findings.md (the detailed audit log; findings-summary.md is a read-only summary) and update coverage-tracker.md. Also use exam-style-and-mix.md (official subject weights) and recent-changes-register.md. My course PDFs are in the documents folder of my shared Google Drive folder "Handoff documentation": read them through the Google Drive connector, and report any you could not open as not checked. (If you are running in claude.ai/code without my folder, which is normal for game pull requests: use this prompt and docs/claude-prompts.md as the standard, post your findings table as a comment on the pull request instead of writing findings.md, and only ask me for a document page if Google Drive is not connected.)
 - Study guides: the study-guides folder in the same place. Game: https://github.com/eeporter/Med-School-Prep-Game (open the pull request I named).
 
 MEDICAL ACCURACY (checklist section A)
@@ -755,6 +756,7 @@ When asked to re-check fixes, verify each finding ID one by one against the upda
 
 ## Changelog
 
+- 1.3 (2026-11-02), Emily: the full folder was too big for Elissa's Claude. Elissa now drops in only START HERE and types "Start". She downloads a small zip (everything except the PDFs) and attaches that folder for saving; the course PDFs stay in Google Drive and are read through the connector, which per Anthropic's page reads PDFs and creates files but does not list editing existing ones. Connector link updated to Customize → Connectors.
 - 1.2 (2026-11-02), after testing "attach the folder and type Start" on a copy: named the "Work in a folder" button and the + next to Projects; Claude now shows the study buddy text to copy in step 4, because the grey box is not grey in the file on her computer; step 6 no longer sends Elissa to make a second GitHub account, since hers is already added.
 - 1.1 (2026-11-02), Emily's handoff requests: one "Handoff documentation" folder (was MedSchoolPrep) with a "START HERE - Claude read this first.md" file (and a CLAUDE.md copy): Elissa attaches the folder, types "Start", and her Claude walks her through setup step by step (who, where, exact buttons, a test and a fix for each step, what can wait, progress kept in setup-progress.md), then acts as her study buddy; the same text is in the new "Setup guide" section and docs/START-HERE.md; "How to play the game" section (modes, confidence and review timing, XP, reports, mastery, sync and backup, keyboard); "All the links in one place" list and links added where pages and sources are named. Audit K13: "Before handoff (Emily, once)" list at the top (build the folder, upload it to Google Drive, share as Editor and send Elissa the link, GitHub, test Start); START HERE step 1 opens Emily's link; one START HERE title.
 - 1.0 final (2026-11-02), setup: added setup instructions for Elissa's Claude (ordered steps, a test for each, failure table; folded into START HERE in 1.1); named the Google Drive folder for the routines.
