@@ -9,7 +9,7 @@ Version 1.1 (2026-11-02) · Status: **final, ready for handoff.**
 2. **Upload it.** Go to https://drive.google.com/ → **New** → **Folder upload** → pick the Handoff documentation folder (keep its name exactly "Handoff documentation": the weekly routines look for it). It is about 1.1 GB, so leave the tab open until the upload finishes.
 3. **Share it.** In Google Drive, right-click the folder → **Share** → type Elissa's email → set **Editor** → **Send**. Then right-click it again → **Share** → **Copy link**, and send that link to Elissa with this kit.
 4. **GitHub.** Add Elissa's GitHub account at https://github.com/eeporter/Med-School-Prep-Game/settings/access (**Add people**), or check that the collaborator already listed there is hers.
-5. **Test it once.** On your Mac, start a new Claude desktop chat, attach the Handoff documentation folder, and type **Start**. Claude should check the folder and begin step 1 of the setup. If it doesn't, type the fallback sentence below and note which one worked.
+5. **Test it once.** On your Mac, start a new Claude desktop chat, attach the Handoff documentation folder, and type **Start**. Claude should check the folder and begin step 1 of the setup. If it doesn't, type the fallback sentence below and note which one worked. Afterwards, delete setup-progress.md from the folder (and from Google Drive if it was already uploaded) so Elissa starts fresh.
 
 **Start here (Elissa):** everything is in one folder called **Handoff documentation** that Emily shares with you on Google Drive: open the link Emily sent, or go to https://drive.google.com/ → **Shared with me**.
 1. Download it and put it in your Documents folder (right-click it in Google Drive → Download, then double-click the zip file to open it).
