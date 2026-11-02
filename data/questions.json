@@ -48561,6 +48561,4062 @@
           "url": "https://www.msdmanuals.com/professional/genitourinary-disorders/glomerular-disorders/membranoproliferative-glomerulonephritis"
         }
       ]
+    },
+    {
+      "id": "pharm-oral-bioavailability-auc-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "General Principles",
+      "topic": "Pharmacokinetics: oral bioavailability from AUC",
+      "difficulty": 2,
+      "stem": "In a phase 1 study, 12 healthy volunteers receive a new antihypertensive drug on two separate days. A 100-mg intravenous dose gives an area under the plasma concentration-time curve (AUC) of 80 mg·h/L. A 100-mg oral dose gives an AUC of 20 mg·h/L.",
+      "leadIn": "Which of the following is the oral bioavailability of this drug?",
+      "options": [
+        {
+          "id": "a",
+          "text": "20%"
+        },
+        {
+          "id": "b",
+          "text": "25%"
+        },
+        {
+          "id": "c",
+          "text": "60%"
+        },
+        {
+          "id": "d",
+          "text": "80%"
+        },
+        {
+          "id": "e",
+          "text": "400%"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Answer: 25%. Why: Bioavailability is the share of a dose that gets into the general circulation, and an IV dose counts as 100% (your El-Husseiny General Principles notes, pp. 33-34). With equal doses, f = oral AUC ÷ IV AUC = 20 ÷ 80 = 0.25, or 25%. MSD calls AUC the most reliable measure of bioavailability.",
+      "whyWrong": {
+        "a": "This is the oral AUC number read as a percentage. Bioavailability compares the oral AUC with the IV AUC.",
+        "c": "This is the difference between the two AUC values (80 - 20), not their ratio.",
+        "d": "This is the IV AUC number read as a percentage. It would need an oral AUC of 64 mg·h/L.",
+        "e": "This is the ratio upside down: IV divided by oral. Bioavailability cannot exceed 100% in this setting."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), bioavailability, pp. 33-34"
+        },
+        {
+          "title": "MSD Manual Professional: Drug Bioavailability",
+          "url": "https://www.msdmanuals.com/professional/clinical-pharmacology/pharmacokinetics/drug-bioavailability"
+        }
+      ]
+    },
+    {
+      "id": "pharm-first-pass-sublingual-nitroglycerin-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Cardiovascular",
+      "topic": "Pharmacokinetics: first-pass metabolism and route of administration",
+      "difficulty": 1,
+      "stem": "A 64-year-old man with stable angina has chest pressure when climbing stairs. He is prescribed nitroglycerin tablets and told to dissolve one under his tongue when the pain begins. He asks why he cannot simply swallow the tablet.",
+      "leadIn": "Swallowing the tablet would be less effective mainly because of which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Binding of the drug to plasma albumin"
+        },
+        {
+          "id": "b",
+          "text": "Metabolism in the liver before systemic entry"
+        },
+        {
+          "id": "c",
+          "text": "Excretion of the unchanged drug in the urine"
+        },
+        {
+          "id": "d",
+          "text": "Ionization of the drug in the alkaline saliva"
+        },
+        {
+          "id": "e",
+          "text": "Redistribution of the drug into adipose tissue"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Answer: metabolism in the liver before systemic entry. Why: Swallowed drugs enter the portal vein and pass through the liver first. Your El-Husseiny General Principles notes (pp. 34-35) use nitroglycerin as their example: first-pass metabolism leaves too little drug, so tablets are given under the tongue to enter the circulation directly. MSD describes first-pass metabolism the same way.",
+      "whyWrong": {
+        "a": "Protein binding affects how much drug is free in the blood, whatever the route. It does not explain the difference between routes.",
+        "c": "Renal excretion happens after the drug reaches the circulation, by any route.",
+        "d": "The sublingual route works well, so saliva is not the problem.",
+        "e": "Redistribution ends the action of some lipid-soluble CNS drugs. It does not explain lost oral activity."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), first-pass effect, pp. 34-35"
+        },
+        {
+          "title": "MSD Manual Professional: Drug Bioavailability",
+          "url": "https://www.msdmanuals.com/professional/clinical-pharmacology/pharmacokinetics/drug-bioavailability"
+        }
+      ]
+    },
+    {
+      "id": "pharm-volume-distribution-calculation-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "General Principles",
+      "topic": "Pharmacokinetics: calculating volume of distribution",
+      "difficulty": 2,
+      "stem": "A 70-kg man is given a single 600-mg intravenous dose of an antibiotic. Extrapolating the plasma concentration back to time zero gives a value of 15 mg/L.",
+      "leadIn": "The volume of distribution of this drug is closest to which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "3 L"
+        },
+        {
+          "id": "b",
+          "text": "9 L"
+        },
+        {
+          "id": "c",
+          "text": "40 L"
+        },
+        {
+          "id": "d",
+          "text": "90 L"
+        },
+        {
+          "id": "e",
+          "text": "9000 L"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Answer: 40 L. Why: Vd = dose ÷ initial plasma concentration (your El-Husseiny General Principles notes, p. 36). 600 mg ÷ 15 mg/L = 40 L. This is close to total body water in a 70-kg adult (40-42 L). StatPearls stresses that Vd is an apparent volume, not a real space.",
+      "whyWrong": {
+        "a": "This is plasma volume. A 600-mg dose in 3 L would give about 200 mg/L.",
+        "b": "This value has no basis in the numbers given. It would need a concentration of about 67 mg/L.",
+        "d": "This would need a concentration of about 6.7 mg/L.",
+        "e": "This is dose × concentration. The formula divides dose by concentration."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), apparent volume of distribution, p. 36"
+        },
+        {
+          "title": "StatPearls: Clinical Significance of Volume of Distribution in Pharmacotherapy",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK545280/"
+        }
+      ]
+    },
+    {
+      "id": "pharm-high-vd-tissue-binding-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "General Principles",
+      "topic": "Pharmacokinetics: what a very high volume of distribution means",
+      "difficulty": 2,
+      "stem": "A pharmacologist compares two drugs in healthy adults. Drug X has a volume of distribution of 4 L. Drug Y has a volume of distribution of 700 L. Both are given as equal intravenous doses.",
+      "leadIn": "Compared with drug X, which of the following best explains the volume of distribution of drug Y?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Greater binding to plasma albumin"
+        },
+        {
+          "id": "b",
+          "text": "Higher molecular weight"
+        },
+        {
+          "id": "c",
+          "text": "Greater electrical charge"
+        },
+        {
+          "id": "d",
+          "text": "Greater water solubility"
+        },
+        {
+          "id": "e",
+          "text": "Greater sequestration in tissues"
+        }
+      ],
+      "answer": "e",
+      "explanation": "Answer: greater sequestration in tissues. Why: A Vd far above total body water (about 42 L) means little drug stays in the plasma because it is held in tissues. Your El-Husseiny General Principles notes (p. 36) say drugs avidly bound in tissue have the highest Vd, and that high molecular weight, protein binding, charge and water solubility keep a drug in the plasma. MSD agrees that tissue-bound drugs have a high Vd.",
+      "whyWrong": {
+        "a": "High plasma protein binding keeps a drug in the plasma and lowers Vd. It fits drug X.",
+        "b": "Large molecules tend to stay in the plasma and have a low Vd.",
+        "c": "Highly charged drugs cross membranes poorly and have a low Vd.",
+        "d": "Water-soluble drugs tend to stay in the plasma, which gives a low Vd."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), apparent volume of distribution, p. 36"
+        },
+        {
+          "title": "MSD Manual Professional: Drug Distribution to Tissues",
+          "url": "https://www.msdmanuals.com/professional/clinical-pharmacology/pharmacokinetics/drug-distribution-to-tissues"
+        }
+      ]
+    },
+    {
+      "id": "pharm-half-life-calculation-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "General Principles",
+      "topic": "Pharmacokinetics: calculating half-life from Vd and clearance",
+      "difficulty": 2,
+      "stem": "A 58-year-old woman is receiving a drug that follows first-order kinetics. Its volume of distribution is 70 L and its clearance is 7 L/h.",
+      "leadIn": "Which of the following is closest to the elimination half-life of this drug?",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.7 hours"
+        },
+        {
+          "id": "b",
+          "text": "7 hours"
+        },
+        {
+          "id": "c",
+          "text": "10 hours"
+        },
+        {
+          "id": "d",
+          "text": "49 hours"
+        },
+        {
+          "id": "e",
+          "text": "70 hours"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Answer: 7 hours. Why: t½ = 0.693 × Vd ÷ clearance, for a first-order drug (StatPearls). 0.693 × 70 ÷ 7 = 6.93, or about 7 hours. Half-life rises when Vd rises and falls when clearance rises. Your El-Husseiny General Principles notes (p. 40) define half-life as the time for the plasma level to fall by 50%.",
+      "whyWrong": {
+        "a": "This omits the volume and clearance ratio.",
+        "c": "This is Vd ÷ clearance without multiplying by 0.693.",
+        "d": "This multiplies clearance by 7 rather than using the formula.",
+        "e": "This is the Vd number read as hours."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), half-life, p. 40"
+        },
+        {
+          "title": "StatPearls: Elimination Half-Life of Drugs",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK554498/"
+        }
+      ]
+    },
+    {
+      "id": "pharm-steady-state-time-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "General Principles",
+      "topic": "Pharmacokinetics: time to reach steady state",
+      "difficulty": 1,
+      "stem": "A 45-year-old man starts a constant intravenous infusion of a drug with a half-life of 8 hours. The drug follows first-order kinetics. No loading dose is given.",
+      "leadIn": "Clinical steady state will be reached after approximately how long?",
+      "options": [
+        {
+          "id": "a",
+          "text": "8 hours"
+        },
+        {
+          "id": "b",
+          "text": "16 hours"
+        },
+        {
+          "id": "c",
+          "text": "36 hours"
+        },
+        {
+          "id": "d",
+          "text": "80 hours"
+        },
+        {
+          "id": "e",
+          "text": "160 hours"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Answer: about 36 hours. Why: Clinical steady state is reached at 4-5 half-lives (your El-Husseiny General Principles notes, p. 43). 4.5 × 8 hours = 36 hours, within the 32-40-hour range. The time depends only on half-life, not on dose or infusion rate (p. 42).",
+      "whyWrong": {
+        "a": "One half-life reaches only 50% of steady state.",
+        "b": "Two half-lives reach only 75% of steady state.",
+        "d": "Ten half-lives are far more than the 4-5 usually accepted.",
+        "e": "This is 20 half-lives, far longer than needed."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), plateau principle, pp. 42-43"
+        },
+        {
+          "title": "StatPearls: Steady State Concentration",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK553132/"
+        },
+        {
+          "title": "StatPearls: Elimination Half-Life of Drugs",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK554498/"
+        }
+      ]
+    },
+    {
+      "id": "pharm-infusion-rate-doubling-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "General Principles",
+      "topic": "Pharmacokinetics: effect of doubling an infusion rate",
+      "difficulty": 2,
+      "stem": "A 60-year-old woman is receiving a continuous lidocaine infusion. The drug follows first-order kinetics with a half-life of 2 hours. At steady state, her plasma level is below the target range, so the infusion rate is doubled. No bolus is given.",
+      "leadIn": "Which of the following best describes what will happen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The new steady-state level is twice the old one, reached in about 8-10 hours"
+        },
+        {
+          "id": "b",
+          "text": "The new steady-state level is twice the old one, reached in about 4-5 hours"
+        },
+        {
+          "id": "c",
+          "text": "The new steady-state level is four times the old one, reached in about 8-10 hours"
+        },
+        {
+          "id": "d",
+          "text": "The steady-state level is unchanged, but the half-life is shortened"
+        },
+        {
+          "id": "e",
+          "text": "Steady state is not reached because elimination is saturated"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: the new steady-state level is twice the old one, reached in about 8-10 hours. Why: Your El-Husseiny General Principles notes (pp. 43-44) say the infusion rate sets the steady-state level, and doubling it doubles the level. The time to steady state depends only on half-life: 4-5 half-lives × 2 hours = 8-10 hours. A loading dose is the way to reach a target faster.",
+      "whyWrong": {
+        "b": "Doubling the rate does not shorten the time. It takes 4-5 half-lives, which is 8-10 hours here.",
+        "c": "For a first-order drug, level is proportional to rate. Twice the rate gives twice the level.",
+        "d": "Half-life does not change with infusion rate in first-order kinetics.",
+        "e": "Saturation occurs in zero-order kinetics, not in the first-order case here."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), rate of infusion, pp. 43-44"
+        },
+        {
+          "title": "StatPearls: Steady State Concentration",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK553132/"
+        }
+      ]
+    },
+    {
+      "id": "pharm-loading-dose-calculation-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Cardiovascular",
+      "topic": "Pharmacokinetics: calculating a loading dose",
+      "difficulty": 3,
+      "stem": "A 72-year-old man with atrial fibrillation needs a drug to reach a target plasma level of 2 mg/L quickly. The drug has a volume of distribution of 300 L and an oral bioavailability of 50%. It will be given by mouth.",
+      "leadIn": "Which of the following is the most appropriate oral loading dose?",
+      "options": [
+        {
+          "id": "a",
+          "text": "150 mg"
+        },
+        {
+          "id": "b",
+          "text": "300 mg"
+        },
+        {
+          "id": "c",
+          "text": "600 mg"
+        },
+        {
+          "id": "d",
+          "text": "1200 mg"
+        },
+        {
+          "id": "e",
+          "text": "2400 mg"
+        }
+      ],
+      "answer": "d",
+      "explanation": "Answer: 1200 mg. Why: Loading dose = target level × Vd ÷ bioavailability (StatPearls). 2 mg/L × 300 L = 600 mg in the body; 600 ÷ 0.5 = 1200 mg by mouth. Your El-Husseiny General Principles notes (p. 44) say a loading dose puts in the amount that should be in the body at steady state. It depends on Vd, not on clearance.",
+      "whyWrong": {
+        "a": "This ignores the target level and halves the volume.",
+        "b": "This omits bioavailability and treats the volume as the dose.",
+        "c": "This omits bioavailability. It would be the correct dose only if given IV.",
+        "e": "This corrects for bioavailability twice."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), effect of loading dose, p. 44"
+        },
+        {
+          "title": "StatPearls: Steady State Concentration",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK553132/"
+        },
+        {
+          "title": "StatPearls: Clinical Significance of Volume of Distribution in Pharmacotherapy",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK545280/"
+        }
+      ]
+    },
+    {
+      "id": "pharm-maintenance-rate-calculation-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Respiratory",
+      "topic": "Pharmacokinetics: calculating a maintenance infusion rate",
+      "difficulty": 3,
+      "stem": "A 50-year-old man with a severe COPD flare receives an intravenous drug by continuous infusion. The target plasma level is 10 mg/L. His clearance of the drug is 3 L/h and its volume of distribution is 35 L.",
+      "leadIn": "Which of the following is the correct maintenance infusion rate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "3 mg/h"
+        },
+        {
+          "id": "b",
+          "text": "13 mg/h"
+        },
+        {
+          "id": "c",
+          "text": "30 mg/h"
+        },
+        {
+          "id": "d",
+          "text": "35 mg/h"
+        },
+        {
+          "id": "e",
+          "text": "350 mg/h"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Answer: 30 mg/h. Why: At steady state, rate in equals rate out (your El-Husseiny General Principles notes, p. 42). Maintenance rate = target level × clearance ÷ bioavailability, and IV bioavailability is 1. 10 mg/L × 3 L/h = 30 mg/h. StatPearls gives this formula: maintenance dose relates to clearance, and loading dose to Vd.",
+      "whyWrong": {
+        "a": "This is the clearance alone, without the target level.",
+        "b": "This adds the target and clearance instead of multiplying them.",
+        "d": "This uses the Vd number. Maintenance rate depends on clearance, not Vd.",
+        "e": "This multiplies the target by Vd, which gives a loading dose in mg."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), steady state, p. 42"
+        },
+        {
+          "title": "StatPearls: Steady State Concentration",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK553132/"
+        }
+      ]
+    },
+    {
+      "id": "pharm-zero-order-ethanol-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "General Principles",
+      "topic": "Pharmacokinetics: zero-order elimination",
+      "difficulty": 1,
+      "stem": "A 34-year-old man is brought to the emergency department with a blood alcohol level of 300 mg/dL. Over the next 4 hours, his level falls by about 20 mg/dL each hour, and the rate of fall is the same at high and at lower levels.",
+      "leadIn": "Which of the following best explains this pattern?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Alcohol dehydrogenase is saturated"
+        },
+        {
+          "id": "b",
+          "text": "Alcohol has a constant half-life"
+        },
+        {
+          "id": "c",
+          "text": "Alcohol is cleared mainly by the kidney"
+        },
+        {
+          "id": "d",
+          "text": "Alcohol undergoes extensive first-pass metabolism"
+        },
+        {
+          "id": "e",
+          "text": "Alcohol is sequestered in adipose tissue"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: alcohol dehydrogenase is saturated. Why: A constant amount removed per hour is zero-order elimination. It happens when elimination enzymes reach Vmax (your El-Husseiny General Principles notes, pp. 40-41). StatPearls notes that alcohol dehydrogenase saturates even at moderate blood levels, giving a constant rate independent of concentration. Your notes also list phenytoin at high doses and salicylates at toxic doses.",
+      "whyWrong": {
+        "b": "A constant half-life describes first-order kinetics, where the amount removed falls as the level falls.",
+        "c": "Most alcohol is metabolized in the liver. Renal clearance would not give this pattern.",
+        "d": "First-pass metabolism affects how much reaches the circulation, not this elimination pattern.",
+        "e": "Alcohol is water soluble, so it distributes in body water. Fat storage does not explain a constant rate."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), elimination kinetics, pp. 40-41"
+        },
+        {
+          "title": "StatPearls: Physiology, Zero- and First-Order Kinetics",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK499866/"
+        }
+      ]
+    },
+    {
+      "id": "pharm-urine-alkalinization-salicylate-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Renal & Urinary",
+      "topic": "Pharmacokinetics: ion trapping and urine alkalinization",
+      "difficulty": 2,
+      "stem": "A 22-year-old woman is brought to the emergency department after taking a bottle of aspirin. She has ringing in her ears and rapid, deep breathing. An infusion of sodium bicarbonate is started to raise the urine pH to 7.5 or higher.",
+      "leadIn": "The infusion increases drug excretion by which of the following mechanisms?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Increasing the glomerular filtration rate"
+        },
+        {
+          "id": "b",
+          "text": "Increasing the ionized fraction in the tubular fluid"
+        },
+        {
+          "id": "c",
+          "text": "Increasing the nonionized fraction in the tubular fluid"
+        },
+        {
+          "id": "d",
+          "text": "Inhibiting tubular secretion of the drug"
+        },
+        {
+          "id": "e",
+          "text": "Binding of bicarbonate directly to the drug"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Answer: increasing the ionized fraction in the tubular fluid. Why: Aspirin is a weak acid. Alkaline urine ionizes it, and only the nonionized form crosses back across the tubule, so the ionized drug is trapped and excreted (your El-Husseiny General Principles notes, pp. 31-32). MSD says alkalinizing urine enhances elimination of weak acids such as salicylates, keeping urine pH at 7.5 or higher.",
+      "whyWrong": {
+        "a": "Bicarbonate is not given to raise filtration. The effect comes from urine pH.",
+        "c": "The nonionized form is the one reabsorbed. More of it would slow excretion.",
+        "d": "Less secretion would lower excretion.",
+        "e": "This describes chemical antagonism, such as protamine with heparin. It does not apply here."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), ionization and renal clearance, pp. 31-32"
+        },
+        {
+          "title": "MSD Manual Professional: Drug Excretion",
+          "url": "https://www.msdmanuals.com/professional/clinical-pharmacology/pharmacokinetics/drug-excretion"
+        },
+        {
+          "title": "MSD Manual Professional: General Principles of Poisoning",
+          "url": "https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/general-principles-of-poisoning"
+        }
+      ]
+    },
+    {
+      "id": "pharm-acetylation-drug-lupus-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Musculoskeletal",
+      "topic": "Pharmacokinetics: slow acetylators and drug-induced lupus",
+      "difficulty": 2,
+      "stem": "A 52-year-old man has been taking hydralazine for 8 months. He now has fever, joint pain and pleuritic chest pain. Antihistone antibodies are present. He has no kidney or CNS involvement.",
+      "leadIn": "A genetic difference in which of the following metabolic reactions most likely increased his risk?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Acetylation"
+        },
+        {
+          "id": "b",
+          "text": "Glucuronidation"
+        },
+        {
+          "id": "c",
+          "text": "Glutathione conjugation"
+        },
+        {
+          "id": "d",
+          "text": "Hydrolysis by esterases"
+        },
+        {
+          "id": "e",
+          "text": "Oxidation by CYP450"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: acetylation. Why: Acetylation is a phase II reaction with fast and slow genetic types. Your El-Husseiny General Principles notes (p. 39) list drug-induced lupus in slow acetylators on hydralazine, procainamide and isoniazid. MSD confirms acetylation as a form of conjugation. Antihistone antibodies are the standard teaching marker for drug-induced lupus.",
+      "whyWrong": {
+        "b": "Glucuronidation is inducible and reduced in newborns. It is not the reaction linked to hydralazine lupus.",
+        "c": "Glutathione depletion is linked to acetaminophen liver injury.",
+        "d": "Esterases handle drugs such as succinylcholine and ester anesthetics. They do not explain this picture.",
+        "e": "This phase I step is not the classic genetic risk for hydralazine lupus."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), phase II reactions, p. 39"
+        },
+        {
+          "title": "MSD Manual Professional: Drug Metabolism",
+          "url": "https://www.msdmanuals.com/professional/clinical-pharmacology/pharmacokinetics/drug-metabolism"
+        }
+      ]
+    },
+    {
+      "id": "pharm-cyp-inducer-rifampin-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "General Principles",
+      "topic": "Pharmacokinetics: CYP450 induction",
+      "difficulty": 1,
+      "stem": "A 38-year-old woman taking combined oral contraceptives is diagnosed with active pulmonary tuberculosis and starts a four-drug regimen. Two months later she has an unintended pregnancy, although she took every pill.",
+      "leadIn": "Which of the following best explains the contraceptive failure?",
+      "options": [
+        {
+          "id": "a",
+          "text": "CYP450 induction by rifampin"
+        },
+        {
+          "id": "b",
+          "text": "CYP450 inhibition by rifampin"
+        },
+        {
+          "id": "c",
+          "text": "Reduced absorption caused by pyrazinamide"
+        },
+        {
+          "id": "d",
+          "text": "Displacement of the hormones by ethambutol"
+        },
+        {
+          "id": "e",
+          "text": "Faster renal excretion caused by isoniazid"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: CYP450 induction by rifampin. Why: Rifampin is on your El-Husseiny General Principles list of general inducers (p. 38), and MSD lists it as a CYP3A4 inducer. More enzyme means faster breakdown of the hormones, so their levels fall. The contraceptive example is standard teaching.",
+      "whyWrong": {
+        "b": "Inhibition would raise the hormone levels, which would not cause failure.",
+        "c": "Pyrazinamide is not known for blocking pill absorption.",
+        "d": "Protein binding displacement does not explain this classic interaction.",
+        "e": "Isoniazid is not known for this. It is an enzyme inhibitor, if anything."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), phase I reactions, p. 38"
+        },
+        {
+          "title": "MSD Manual Professional: Drug Metabolism",
+          "url": "https://www.msdmanuals.com/professional/clinical-pharmacology/pharmacokinetics/drug-metabolism"
+        }
+      ]
+    },
+    {
+      "id": "pharm-potency-efficacy-curves-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "General Principles",
+      "topic": "Pharmacodynamics: potency vs efficacy",
+      "difficulty": 1,
+      "stem": "Researchers test three drugs acting on the same receptor. Drug A produces 100% of the maximum response with an ED50 of 1 mg. Drug B produces 100% of the maximum response with an ED50 of 10 mg. Drug C produces 60% of the maximum response with an ED50 of 1 mg.",
+      "leadIn": "Which of the following properties is greater for drug A than for drug B?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Efficacy"
+        },
+        {
+          "id": "b",
+          "text": "Potency"
+        },
+        {
+          "id": "c",
+          "text": "Therapeutic index"
+        },
+        {
+          "id": "d",
+          "text": "Half-life"
+        },
+        {
+          "id": "e",
+          "text": "Oral bioavailability"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Answer: potency. Why: Potency is how much drug is needed for an effect, seen as the curve's position on the dose axis. Efficacy is the highest response, seen as the curve's height (your El-Husseiny General Principles notes, p. 47). MSD describes both the same way. Drug A needs a lower dose for the same effect, and both have the same maximum.",
+      "whyWrong": {
+        "a": "Both reach 100% of the maximum response, so their efficacy is the same.",
+        "c": "The therapeutic index needs toxic or lethal dose data, which are not given.",
+        "d": "Half-life cannot be judged from these dose-response data.",
+        "e": "Bioavailability cannot be judged from these dose-response data."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), pharmacodynamics, p. 47"
+        },
+        {
+          "title": "MSD Manual Professional: Dose-Response Relationships",
+          "url": "https://www.msdmanuals.com/professional/clinical-pharmacology/pharmacodynamics/dose-response-relationships"
+        }
+      ]
+    },
+    {
+      "id": "pharm-competitive-antagonist-curve-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "General Principles",
+      "topic": "Pharmacodynamics: competitive antagonist on the dose-response curve",
+      "difficulty": 2,
+      "stem": "An isolated tissue contracts in response to rising doses of a full agonist. Adding a fixed concentration of a new drug shifts the curve in parallel to the right. With very high agonist doses, the tissue still reaches the same maximum contraction.",
+      "leadIn": "The new drug is best described as which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Competitive antagonist"
+        },
+        {
+          "id": "b",
+          "text": "Noncompetitive antagonist"
+        },
+        {
+          "id": "c",
+          "text": "Partial agonist given alone"
+        },
+        {
+          "id": "d",
+          "text": "Physiologic antagonist"
+        },
+        {
+          "id": "e",
+          "text": "Potentiator"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: competitive antagonist. Why: Your El-Husseiny General Principles notes (p. 52) say competitive antagonists cause a parallel right shift that more agonist can reverse, lowering apparent potency. MSD also says more agonist overcomes competitive antagonism. Noncompetitive antagonists lower apparent efficacy.",
+      "whyWrong": {
+        "b": "A noncompetitive antagonist lowers the maximum response, which is not seen here.",
+        "c": "Given alone, a partial agonist would cause a response of its own, with a lower ceiling.",
+        "d": "A physiologic antagonist acts at a different receptor with an opposing effect.",
+        "e": "A potentiator shifts the curve to the left, not the right."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), antagonism and potentiation, pp. 49-52"
+        },
+        {
+          "title": "MSD Manual Professional: Drug-Receptor Interactions",
+          "url": "https://www.msdmanuals.com/professional/clinical-pharmacology/pharmacodynamics/drug-receptor-interactions"
+        }
+      ]
+    },
+    {
+      "id": "pharm-partial-agonist-full-agonist-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Behavioral Health",
+      "topic": "Pharmacodynamics: partial agonist displacing a full agonist",
+      "difficulty": 2,
+      "stem": "A 29-year-old man has used heroin daily for 3 years. He takes a first dose of buprenorphine, obtained from a friend, 2 hours after his last heroin injection. Within 30 minutes he has yawning, sweating, abdominal cramps and dilated pupils.",
+      "leadIn": "Which of the following best explains his symptoms?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A partial agonist has displaced a full agonist from the receptor"
+        },
+        {
+          "id": "b",
+          "text": "A full agonist has displaced a partial agonist from the receptor"
+        },
+        {
+          "id": "c",
+          "text": "An opioid antagonist has been metabolized too quickly"
+        },
+        {
+          "id": "d",
+          "text": "A second full agonist has caused an overdose"
+        },
+        {
+          "id": "e",
+          "text": "CYP450 enzymes have been induced by chronic heroin use"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: a partial agonist has displaced a full agonist. Why: Your El-Husseiny General Principles notes (p. 49) explain the duality of partial agonists: when one displaces a full agonist from the receptor, the response falls, so it acts as an antagonist. Buprenorphine is a partial agonist at opioid receptors (standard teaching; see guide 53). The lower receptor activation brings on withdrawal. MSD says partial agonists can have both agonist and antagonist properties.",
+      "whyWrong": {
+        "b": "Heroin is the full agonist here, and it was given first. The later drug displaced it.",
+        "c": "Buprenorphine is not a pure antagonist, and fast metabolism would not cause this.",
+        "d": "Overdose causes pinpoint pupils and slow breathing, the opposite of this picture.",
+        "e": "Enzyme induction would not cause sudden withdrawal within 30 minutes."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), duality of partial agonists, p. 49"
+        },
+        {
+          "title": "MSD Manual Professional: Drug-Receptor Interactions",
+          "url": "https://www.msdmanuals.com/professional/clinical-pharmacology/pharmacodynamics/drug-receptor-interactions"
+        }
+      ]
+    },
+    {
+      "id": "pharm-therapeutic-index-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "General Principles",
+      "topic": "Pharmacodynamics: therapeutic index",
+      "difficulty": 1,
+      "stem": "Drug P has a median effective dose (ED50) of 10 mg and a median toxic dose (TD50) of 400 mg. Drug Q has an ED50 of 10 mg and a TD50 of 20 mg.",
+      "leadIn": "Compared with drug Q, drug P has which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Greater efficacy"
+        },
+        {
+          "id": "b",
+          "text": "Greater potency"
+        },
+        {
+          "id": "c",
+          "text": "Higher therapeutic index"
+        },
+        {
+          "id": "d",
+          "text": "Lower bioavailability"
+        },
+        {
+          "id": "e",
+          "text": "Shorter half-life"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Answer: higher therapeutic index. Why: The therapeutic index compares the toxic dose with the effective dose (your El-Husseiny General Principles notes, p. 52). Drug P: 400 ÷ 10 = 40. Drug Q: 20 ÷ 10 = 2. A higher index means a wider safety margin. MSD defines the index as the ratio of minimum toxic concentration to median effective concentration.",
+      "whyWrong": {
+        "a": "Efficacy is the maximum response, which is not given here.",
+        "b": "Both have the same ED50, so they are equally potent.",
+        "d": "Bioavailability cannot be judged from ED50 and TD50.",
+        "e": "Half-life cannot be judged from ED50 and TD50."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), toxicity and the therapeutic index, p. 52"
+        },
+        {
+          "title": "MSD Manual Professional: Dose-Response Relationships",
+          "url": "https://www.msdmanuals.com/professional/clinical-pharmacology/pharmacodynamics/dose-response-relationships"
+        }
+      ]
+    },
+    {
+      "id": "biochem-competitive-inhibitor-km-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "General Principles",
+      "topic": "Enzyme kinetics: competitive inhibitor changes Km, not Vmax",
+      "difficulty": 2,
+      "stem": "A 26-year-old man is brought in after drinking antifreeze. Fomepizole is given and competes with ethylene glycol at the active site of alcohol dehydrogenase. A laboratory then studies the enzyme with the substrate at many concentrations, with and without reversible fomepizole.",
+      "leadIn": "Which of the following changes in enzyme kinetics is most likely in the presence of fomepizole?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Km decreased, Vmax unchanged"
+        },
+        {
+          "id": "b",
+          "text": "Km increased, Vmax decreased"
+        },
+        {
+          "id": "c",
+          "text": "Km increased, Vmax unchanged"
+        },
+        {
+          "id": "d",
+          "text": "Km unchanged, Vmax decreased"
+        },
+        {
+          "id": "e",
+          "text": "Km unchanged, Vmax unchanged"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Answer: Km increased, Vmax unchanged. Why: A reversible competitive inhibitor binds the active site, so enough substrate can overcome it. Your El-Husseiny General Principles notes (p. 51) give Vmax unchanged and Km raised. On a Lineweaver-Burk plot, the y-intercept (1/Vmax) stays the same (p. 46). StatPearls contrasts this with noncompetitive inhibition, which lowers Vmax and leaves affinity unchanged. StatPearls also describes fomepizole as a competitive inhibitor of alcohol metabolism.",
+      "whyWrong": {
+        "a": "A lower Km would mean higher apparent affinity for the substrate, the opposite of what an inhibitor does.",
+        "b": "This mixed pattern is not the one your notes give for a reversible competitive inhibitor.",
+        "d": "This is the pattern of a noncompetitive inhibitor or an irreversible one.",
+        "e": "An inhibitor must change at least one value."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), Michaelis-Menten and Lineweaver-Burk, pp. 45-46, 51"
+        },
+        {
+          "title": "StatPearls: Physiology, Noncompetitive Inhibitor",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK545242/"
+        },
+        {
+          "title": "StatPearls: Physiology, Zero- and First-Order Kinetics",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK499866/"
+        }
+      ]
+    },
+    {
+      "id": "pharm-pralidoxime-weakness-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Multisystem",
+      "topic": "Organophosphate poisoning: why pralidoxime is added to atropine",
+      "difficulty": 2,
+      "stem": "A 36-year-old man is treated for pesticide poisoning. After large doses of atropine, his wheezing and secretions have improved and his pulse is 90/min. He still has muscle fasciculations and worsening limb weakness.",
+      "leadIn": "Which of the following best describes the drug that targets his remaining symptoms?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Blocks nicotinic receptors at the motor end plate"
+        },
+        {
+          "id": "b",
+          "text": "Blocks voltage-gated sodium channels in muscle"
+        },
+        {
+          "id": "c",
+          "text": "Reactivates acetylcholinesterase"
+        },
+        {
+          "id": "d",
+          "text": "Stimulates muscarinic receptors"
+        },
+        {
+          "id": "e",
+          "text": "Prevents calcium release from the sarcoplasmic reticulum"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Answer: reactivates acetylcholinesterase. Why: Atropine blocks only muscarinic receptors, so it does not help nicotinic weakness. Pralidoxime regenerates the enzyme, especially at nicotinic sites (your El-Husseiny General Principles notes, p. 61). StatPearls says it must be given before the enzyme \"ages\", when the bond becomes irreversible.",
+      "whyWrong": {
+        "a": "This would add to the paralysis. It is how neuromuscular blockers act.",
+        "b": "This describes local anesthetic-type drugs, which would not restore the enzyme.",
+        "d": "More muscarinic stimulation would undo what atropine achieved.",
+        "e": "This is dantrolene, used for malignant hyperthermia."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), anticholinesterase poisoning, p. 61"
+        },
+        {
+          "title": "StatPearls: Pralidoxime",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK558908/"
+        },
+        {
+          "title": "StatPearls: Organophosphate Toxicity",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK470430/"
+        }
+      ]
+    },
+    {
+      "id": "physio-g-protein-alpha1-phenylephrine-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Cardiovascular",
+      "topic": "Autonomic receptors: α1 and the Gq pathway",
+      "difficulty": 2,
+      "stem": "A 67-year-old man has low blood pressure during anesthesia and is given intravenous phenylephrine. His blood pressure rises from 80/45 to 118/70 mm Hg, and his pulse falls from 88 to 64/min.",
+      "leadIn": "The rise in blood pressure results from a receptor that acts mainly through which of the following second messengers?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Decreased cAMP"
+        },
+        {
+          "id": "b",
+          "text": "Increased cAMP"
+        },
+        {
+          "id": "c",
+          "text": "Increased cGMP"
+        },
+        {
+          "id": "d",
+          "text": "Increased IP3 and calcium"
+        },
+        {
+          "id": "e",
+          "text": "Tyrosine kinase phosphorylation"
+        }
+      ],
+      "answer": "d",
+      "explanation": "Answer: increased IP3 and calcium. Why: Phenylephrine activates α1 receptors on vessels. Your El-Husseiny General Principles notes (pp. 56, 58) put α1 on Gq, which activates phospholipase C to release IP3 and calcium. StatPearls agrees. The fall in pulse is a reflex response to the higher pressure.",
+      "whyWrong": {
+        "a": "This is Gi signaling, used by α2 and M2 receptors.",
+        "b": "This is Gs signaling, used by β receptors.",
+        "c": "This is the nitric oxide pathway, which relaxes smooth muscle.",
+        "e": "This is how insulin and growth factor receptors signal."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), G-protein-linked second messengers, pp. 56, 58, 66"
+        },
+        {
+          "title": "StatPearls: Physiology, Catecholamines",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK507716/"
+        },
+        {
+          "title": "StatPearls: Inotropes and Vasopressors",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK482411/"
+        }
+      ]
+    },
+    {
+      "id": "pharm-bethanechol-urinary-retention-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Renal & Urinary",
+      "topic": "Cholinergic drugs: treating urinary retention",
+      "difficulty": 1,
+      "stem": "A 71-year-old woman cannot urinate 2 days after hip surgery. Bladder ultrasound shows 700 mL of urine. There is no obstruction on evaluation, and her bladder wall is not contracting well.",
+      "leadIn": "Which of the following drugs is most likely to help bladder emptying by directly stimulating detrusor muscle?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bethanechol"
+        },
+        {
+          "id": "b",
+          "text": "Mirabegron"
+        },
+        {
+          "id": "c",
+          "text": "Oxybutynin"
+        },
+        {
+          "id": "d",
+          "text": "Tamsulosin"
+        },
+        {
+          "id": "e",
+          "text": "Tropicamide"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: bethanechol. Why: Bethanechol is a direct muscarinic agonist. It activates M3 receptors on the bladder, which contracts the detrusor (your El-Husseiny General Principles notes, pp. 60, 63). StatPearls lists urinary retention and ileus as its uses.",
+      "whyWrong": {
+        "b": "Mirabegron stimulates β3 receptors, which relaxes the detrusor and would worsen retention.",
+        "c": "Oxybutynin blocks M3 receptors and would worsen retention.",
+        "d": "Tamsulosin relaxes the bladder neck and prostate. It does not make the detrusor contract.",
+        "e": "Tropicamide is an antimuscarinic eye drop that dilates the pupil."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), cholinomimetic agents, p. 60; micturition control, p. 63"
+        },
+        {
+          "title": "StatPearls: Parasympathomimetic Medications",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK554534/"
+        }
+      ]
+    },
+    {
+      "id": "pharm-physostigmine-anticholinergic-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Nervous System & Special Senses",
+      "topic": "Anticholinergic toxicity: why physostigmine reaches the brain",
+      "difficulty": 2,
+      "stem": "A 19-year-old man is brought in after eating seeds from a wild jimsonweed plant. He is agitated and picking at the air. His temperature is 38.6°C, pulse 128/min, and his skin is dry and flushed. His pupils are 8 mm and his bowel sounds are absent.",
+      "leadIn": "Which of the following drugs would most directly reverse both his peripheral and his central signs?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Atropine"
+        },
+        {
+          "id": "b",
+          "text": "Neostigmine"
+        },
+        {
+          "id": "c",
+          "text": "Physostigmine"
+        },
+        {
+          "id": "d",
+          "text": "Pralidoxime"
+        },
+        {
+          "id": "e",
+          "text": "Pyridostigmine"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Answer: physostigmine. Why: Plant alkaloids from jimsonweed block muscarinic receptors (your El-Husseiny General Principles notes, p. 62). Physostigmine is an acetylcholinesterase inhibitor that crosses the blood-brain barrier, so more acetylcholine reaches both body and brain (p. 61). StatPearls calls it an antidote for anticholinergic toxicity. MSD marks its use as controversial, needing careful monitoring.",
+      "whyWrong": {
+        "a": "Atropine would worsen this, because it is the same type of drug as the plant toxin.",
+        "b": "Neostigmine does not cross the blood-brain barrier, so it would not reverse the central signs.",
+        "d": "Pralidoxime regenerates an enzyme blocked by organophosphates, which is not the problem here.",
+        "e": "Pyridostigmine also does not enter the brain. It is used in myasthenia gravis."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), indirect agonists, p. 61; atropine, p. 62"
+        },
+        {
+          "title": "StatPearls: Parasympathomimetic Medications",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK554534/"
+        },
+        {
+          "title": "MSD Manual Professional: General Principles of Poisoning",
+          "url": "https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/general-principles-of-poisoning"
+        }
+      ]
+    },
+    {
+      "id": "physio-sweat-glands-cholinergic-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Autonomic nervous system: sympathetic cholinergic sweat glands",
+      "difficulty": 2,
+      "stem": "An 82-year-old woman is started on oxybutynin for urge incontinence. During a heat wave she becomes flushed and confused with a temperature of 39.2°C. Her skin is hot and dry. She has had no fluid loss and has no infection.",
+      "leadIn": "Her lack of sweating is best explained by blockade of which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "α1 receptors on sweat glands"
+        },
+        {
+          "id": "b",
+          "text": "β2 receptors on sweat glands"
+        },
+        {
+          "id": "c",
+          "text": "Muscarinic receptors on sweat glands"
+        },
+        {
+          "id": "d",
+          "text": "Nicotinic receptors in autonomic ganglia"
+        },
+        {
+          "id": "e",
+          "text": "Nicotinic receptors at the motor end plate"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Answer: muscarinic receptors on sweat glands. Why: Sweat glands are part of the sympathetic system but use acetylcholine on muscarinic receptors (your El-Husseiny General Principles notes, p. 55). This is why antimuscarinics raise body temperature by reducing sweating (p. 62). MSD lists some sympathetic fibers as cholinergic.",
+      "whyWrong": {
+        "a": "Most body sweating is not driven by α1. Oxybutynin also does not block these receptors.",
+        "b": "Oxybutynin does not block β2 receptors, and these are not the main sweat gland receptors.",
+        "d": "Oxybutynin does not block ganglionic nicotinic receptors.",
+        "e": "These act on skeletal muscle, not sweat glands."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), neurotransmitters and receptors, p. 55; atropine, p. 62"
+        },
+        {
+          "title": "MSD Manual Professional: Overview of the Autonomic Nervous System",
+          "url": "https://www.msdmanuals.com/professional/neurologic-disorders/autonomic-nervous-system/overview-of-the-autonomic-nervous-system"
+        },
+        {
+          "title": "StatPearls: Muscarinic Antagonists",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK557541/"
+        }
+      ]
+    },
+    {
+      "id": "pharm-epinephrine-reversal-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Cardiovascular",
+      "topic": "Sympathetic drugs: epinephrine reversal after an α blocker",
+      "difficulty": 3,
+      "stem": "In an animal experiment, a high dose of an intravenous catecholamine raises mean arterial pressure by 40 mm Hg. After pretreatment with phentolamine, the same dose lowers mean arterial pressure by 15 mm Hg.",
+      "leadIn": "Which of the following drugs was most likely given?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Epinephrine"
+        },
+        {
+          "id": "b",
+          "text": "Isoproterenol"
+        },
+        {
+          "id": "c",
+          "text": "Norepinephrine"
+        },
+        {
+          "id": "d",
+          "text": "Phenylephrine"
+        },
+        {
+          "id": "e",
+          "text": "Vasopressin"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: epinephrine. Why: Epinephrine acts on α1 and β2 receptors. With α1 blocked, β2 vasodilation is left unopposed, so pressure falls. This is epinephrine reversal (your El-Husseiny General Principles notes, pp. 68-69). Your notes also show phenylephrine's rise is blunted but not reversed.",
+      "whyWrong": {
+        "b": "Isoproterenol has no α effect. It would lower mean pressure with or without phentolamine.",
+        "c": "Norepinephrine has little β2 effect, so an α blocker would blunt its rise but not reverse it.",
+        "d": "Phenylephrine is a pure α agonist. An α blocker blunts its effect but does not reverse it.",
+        "e": "Vasopressin acts on V1 receptors, so an α blocker would not reverse it."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), epinephrine reversal, pp. 68-69"
+        },
+        {
+          "title": "StatPearls: Inotropes and Vasopressors",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK482411/"
+        },
+        {
+          "title": "StatPearls: Alpha-Blockers",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK556066/"
+        }
+      ]
+    },
+    {
+      "id": "pharm-norepinephrine-vs-isoproterenol-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Cardiovascular",
+      "topic": "Sympathetic drugs: norepinephrine vs isoproterenol",
+      "difficulty": 2,
+      "stem": "A researcher infuses a catecholamine into a healthy volunteer. Heart rate rises from 70 to 110/min. Systolic pressure rises slightly, diastolic pressure falls from 80 to 55 mm Hg, and mean arterial pressure falls.",
+      "leadIn": "Which of the following drugs was most likely infused?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dobutamine"
+        },
+        {
+          "id": "b",
+          "text": "Isoproterenol"
+        },
+        {
+          "id": "c",
+          "text": "Norepinephrine"
+        },
+        {
+          "id": "d",
+          "text": "Phenylephrine"
+        },
+        {
+          "id": "e",
+          "text": "Vasopressin"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Answer: isoproterenol. Why: Isoproterenol acts on β1 and β2 equally. β2 vasodilation lowers diastolic and mean pressure, and the heart speeds up through β1 and by reflex (your El-Husseiny General Principles notes, pp. 66-67). StatPearls describes it as a nonselective β agonist that raises heart rate and contractility while causing peripheral vasodilation.",
+      "whyWrong": {
+        "a": "Dobutamine mainly raises contractility, with a smaller effect on heart rate and little fall in diastolic pressure at low doses.",
+        "c": "Norepinephrine raises diastolic and mean pressure through α1, and heart rate falls by reflex.",
+        "d": "Phenylephrine raises diastolic and mean pressure, and heart rate falls by reflex.",
+        "e": "Vasopressin raises pressure through V1 and does not speed the heart."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), sympathomimetics, p. 66; norepinephrine vs isoproterenol, p. 67"
+        },
+        {
+          "title": "StatPearls: Isoproterenol",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK526042/"
+        },
+        {
+          "title": "StatPearls: Inotropes and Vasopressors",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK482411/"
+        }
+      ]
+    },
+    {
+      "id": "pharm-tyramine-maoi-crisis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Behavioral Health",
+      "topic": "MAO inhibitors: tyramine and hypertensive crisis",
+      "difficulty": 2,
+      "stem": "A 47-year-old woman taking phenelzine for depression comes to the emergency department with a severe headache and a blood pressure of 228/124 mm Hg, 1 hour after a meal of aged cheese and red wine.",
+      "leadIn": "Which of the following best describes how the food caused her symptoms?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It blocks reuptake of serotonin"
+        },
+        {
+          "id": "b",
+          "text": "It directly stimulates α1 receptors"
+        },
+        {
+          "id": "c",
+          "text": "It displaces norepinephrine from nerve terminals"
+        },
+        {
+          "id": "d",
+          "text": "It inhibits catechol-O-methyltransferase"
+        },
+        {
+          "id": "e",
+          "text": "It stimulates dopamine receptors in the kidney"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Answer: it displaces norepinephrine from nerve terminals. Why: Gut MAO normally breaks down tyramine. With an MAO inhibitor, tyramine enters the nerve endings and pushes out norepinephrine, causing a hypertensive crisis (your El-Husseiny General Principles notes, p. 69). MSD calls this the cheese reaction.",
+      "whyWrong": {
+        "a": "Serotonin reuptake block causes serotonin effects, not this meal reaction.",
+        "b": "Tyramine acts indirectly, by displacing stored transmitter.",
+        "d": "This is how entacapone works. It is not the action of tyramine.",
+        "e": "This would dilate renal vessels and would not cause a hypertensive crisis."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), tyramine, p. 69"
+        },
+        {
+          "title": "MSD Manual Professional: Drug Treatment of Depression",
+          "url": "https://www.msdmanuals.com/professional/psychiatric-disorders/mood-disorders/drug-treatment-of-depression"
+        }
+      ]
+    },
+    {
+      "id": "pharm-methyldopa-coombs-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Sympathetic drugs: α2 agonists and hemolysis",
+      "difficulty": 2,
+      "stem": "A 31-year-old woman at 28 weeks' gestation has chronic hypertension treated with an oral centrally acting drug. She now has fatigue and pale skin. Hemoglobin is 8.6 g/dL, reticulocytes are raised, and the direct Coombs test is positive.",
+      "leadIn": "Which of the following drugs is the most likely cause?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hydralazine"
+        },
+        {
+          "id": "b",
+          "text": "Labetalol"
+        },
+        {
+          "id": "c",
+          "text": "Methyldopa"
+        },
+        {
+          "id": "d",
+          "text": "Nifedipine"
+        },
+        {
+          "id": "e",
+          "text": "Prazosin"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Answer: methyldopa. Why: Methyldopa is a central α2 agonist used for hypertension in pregnancy, and your El-Husseiny General Principles notes (pp. 67, 75) list positive direct Coombs hemolysis among its effects. StatPearls also lists Coombs-positive hemolytic anemia, and says it is a second-line drug used safely during pregnancy.",
+      "whyWrong": {
+        "a": "Hydralazine is linked with drug-induced lupus. It is a direct vasodilator, not a central drug.",
+        "b": "Labetalol is a blocker at α and β receptors, not a central drug, and it is not classically linked with this hemolysis.",
+        "d": "Nifedipine is a calcium channel blocker, not a central drug.",
+        "e": "Prazosin is a peripheral α1 blocker, and it is not used for hypertension in pregnancy."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), sympatholytics, p. 67; drug reactions, p. 75"
+        },
+        {
+          "title": "StatPearls: Methyldopa",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK551671/"
+        }
+      ]
+    },
+    {
+      "id": "pharm-pde5-nitrate-interaction-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Cardiovascular",
+      "topic": "PDE inhibitors: sildenafil and nitrates",
+      "difficulty": 1,
+      "stem": "A 62-year-old man with stable angina collapses at home. He took sublingual nitroglycerin for chest pain 2 hours after taking a drug for erectile dysfunction. His blood pressure is 70/40 mm Hg.",
+      "leadIn": "The drug interaction is best explained by excess accumulation of which of the following in vascular smooth muscle?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Acetylcholine"
+        },
+        {
+          "id": "b",
+          "text": "cAMP"
+        },
+        {
+          "id": "c",
+          "text": "cGMP"
+        },
+        {
+          "id": "d",
+          "text": "IP3"
+        },
+        {
+          "id": "e",
+          "text": "Norepinephrine"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Answer: cGMP. Why: Nitrates raise cGMP by giving nitric oxide, and PDE-5 inhibitors stop its breakdown. Together, they cause severe vasodilation and hypotension (your El-Husseiny General Principles notes, p. 71). StatPearls says PDE inhibitors prevent breakdown of cAMP or cGMP, and names sildenafil as a PDE-5 inhibitor.",
+      "whyWrong": {
+        "a": "Acetylcholine is not the second messenger involved in this interaction.",
+        "b": "PDE-3 inhibitors such as milrinone raise cAMP. Sildenafil targets PDE-5.",
+        "d": "IP3 raises calcium and contracts smooth muscle.",
+        "e": "Norepinephrine would raise blood pressure."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), phosphodiesterase inhibitors, p. 71"
+        },
+        {
+          "title": "StatPearls: Phosphodiesterase Inhibitors",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK559276/"
+        }
+      ]
+    },
+    {
+      "id": "pharm-scombroid-histamine-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Immune System",
+      "topic": "Seafood toxins: scombroid poisoning",
+      "difficulty": 2,
+      "stem": "Three members of a family have flushing, hives and a burning feeling in the mouth 20 minutes after eating grilled tuna at a picnic. The fish had been left in the sun for several hours. None has had a reaction to fish before.",
+      "leadIn": "Which of the following is the most likely cause?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bacterial conversion of histidine in the fish"
+        },
+        {
+          "id": "b",
+          "text": "IgE antibodies against a fish protein"
+        },
+        {
+          "id": "c",
+          "text": "Opening of sodium channels by a dinoflagellate toxin"
+        },
+        {
+          "id": "d",
+          "text": "Blockade of sodium channels by a puffer fish toxin"
+        },
+        {
+          "id": "e",
+          "text": "Staphylococcal enterotoxin in the fish"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: bacterial conversion of histidine in the fish. Why: This is scombroid poisoning, caused by histamine formed as bacteria break down spoiled dark-meat fish (your El-Husseiny General Principles notes, p. 72). MSD lists tuna, mackerel, bonito and mahi-mahi, with flushing and hives within minutes. Your notes warn it is often misdiagnosed as fish allergy.",
+      "whyWrong": {
+        "b": "True allergy would not usually affect several people at once.",
+        "c": "This is ciguatera, with hot-cold reversal after reef fish.",
+        "d": "This is tetrodotoxin, with tingling and paralysis.",
+        "e": "This causes vomiting, not flushing and hives."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), ingested seafood toxins, p. 72"
+        },
+        {
+          "title": "MSD Manual Professional: Fish Poisoning and Shellfish Poisoning",
+          "url": "https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/fish-poisoning-and-shellfish-poisoning"
+        }
+      ]
+    },
+    {
+      "id": "pharm-tetrodotoxin-ciguatera-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Nervous System & Special Senses",
+      "topic": "Seafood toxins: ciguatera and hot-cold reversal",
+      "difficulty": 2,
+      "stem": "A 35-year-old man returns from a Caribbean trip with vomiting and diarrhea, which began 4 hours after eating barracuda. Two days later he has numb lips and says cold drinks feel hot. His reflexes and strength are normal.",
+      "leadIn": "The toxin responsible most likely acts on which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Acetylcholine receptors, by blocking them"
+        },
+        {
+          "id": "b",
+          "text": "Acetylcholinesterase, by inhibiting it"
+        },
+        {
+          "id": "c",
+          "text": "Histamine release, by raising it"
+        },
+        {
+          "id": "d",
+          "text": "Sodium channels, by blocking them"
+        },
+        {
+          "id": "e",
+          "text": "Sodium channels, by opening them"
+        }
+      ],
+      "answer": "e",
+      "explanation": "Answer: sodium channels, by opening them. Why: Reef fish plus reversal of hot and cold sensation points to ciguatera. Your El-Husseiny General Principles notes (p. 72) say ciguatoxin opens sodium channels, causing depolarization. MSD confirms the reef fish and the reversal of hot and cold sensation, but does not give the channel mechanism.",
+      "whyWrong": {
+        "a": "Your notes do not link this toxin with this action, and strength is normal.",
+        "b": "This causes a cholinergic picture, which he does not have.",
+        "c": "This is scombroid, which causes flushing and hives.",
+        "d": "This is tetrodotoxin from puffer fish, which leads to paralysis."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), ingested seafood toxins, p. 72"
+        },
+        {
+          "title": "MSD Manual Professional: Fish Poisoning and Shellfish Poisoning",
+          "url": "https://www.msdmanuals.com/professional/injuries-poisoning/poisoning/fish-poisoning-and-shellfish-poisoning"
+        }
+      ]
+    },
+    {
+      "id": "pharm-beers-diphenhydramine-delirium-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Behavioral Health",
+      "topic": "Beers criteria: anticholinergic drugs in older adults",
+      "difficulty": 1,
+      "stem": "An 84-year-old woman in a nursing home has new confusion, constipation and urinary retention over 3 days. Her only medication change was a new nightly over-the-counter sleep aid. Examination shows dry mouth and pupils that react slowly. Labs and urinalysis are normal.",
+      "leadIn": "Which of the following is the most likely cause?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Acetaminophen"
+        },
+        {
+          "id": "b",
+          "text": "Diphenhydramine"
+        },
+        {
+          "id": "c",
+          "text": "Melatonin"
+        },
+        {
+          "id": "d",
+          "text": "Omeprazole"
+        },
+        {
+          "id": "e",
+          "text": "Ramelteon"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Answer: diphenhydramine. Why: This antihistamine has strong anticholinergic effects. Your El-Husseiny General Principles notes (p. 72) list anticholinergics in the Beers criteria for delirium, constipation and urinary retention. MSD cites the 2023 Beers update, and says diphenhydramine has anticholinergic effects and is not recommended as a hypnotic.",
+      "whyWrong": {
+        "a": "Acetaminophen does not cause an anticholinergic picture.",
+        "c": "Melatonin does not have anticholinergic effects.",
+        "d": "Omeprazole is not used for sleep, and on your notes' list it is linked with C. difficile.",
+        "e": "Ramelteon is a melatonin receptor agonist with no anticholinergic effects."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), Beers criteria, p. 72"
+        },
+        {
+          "title": "MSD Manual Professional: Drug Categories of Concern in Older Adults",
+          "url": "https://www.msdmanuals.com/professional/geriatrics/pharmacologic-therapy-in-older-adults/drug-categories-of-concern-in-older-adults"
+        }
+      ]
+    },
+    {
+      "id": "pharm-drug-reaction-torsades-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Cardiovascular",
+      "topic": "Drug reactions: QT prolongation",
+      "difficulty": 2,
+      "stem": "A 58-year-old woman with schizophrenia takes haloperidol. She is prescribed an antibiotic for a respiratory infection. Four days later she faints. An ECG shows a QT interval of 590 ms and a polymorphic ventricular rhythm that resolves by itself.",
+      "leadIn": "Which of the following antibiotics most likely contributed?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Amoxicillin"
+        },
+        {
+          "id": "b",
+          "text": "Azithromycin"
+        },
+        {
+          "id": "c",
+          "text": "Cefuroxime"
+        },
+        {
+          "id": "d",
+          "text": "Doxycycline"
+        },
+        {
+          "id": "e",
+          "text": "Vancomycin"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Answer: azithromycin. Why: Your El-Husseiny General Principles notes (p. 73) list agents that cause torsades de pointes: class IA and III antiarrhythmics, macrolides, antipsychotics, antidepressants and antiemetics. StatPearls says azithromycin can prolong the QTc and cause torsades, and urges caution when combining it with antipsychotics.",
+      "whyWrong": {
+        "a": "Amoxicillin is not classically linked with QT prolongation.",
+        "c": "Cefuroxime is not classically linked with QT prolongation.",
+        "d": "Doxycycline is not classically linked with QT prolongation.",
+        "e": "Vancomycin is linked with flushing and nephrotoxicity, and it is not given by mouth for a respiratory infection."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), drug reactions, cardiovascular, p. 73"
+        },
+        {
+          "title": "StatPearls: Azithromycin",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK557766/"
+        }
+      ]
+    },
+    {
+      "id": "path-necrosis-liquefactive-brain-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Nervous System & Special Senses",
+      "topic": "Necrosis patterns: liquefactive necrosis of the brain",
+      "difficulty": 1,
+      "stem": "A 76-year-old man with atrial fibrillation dies 3 weeks after a large left middle cerebral artery stroke. At autopsy, the affected region is soft and partly cystic, with many lipid-filled macrophages at its edge.",
+      "leadIn": "Which of the following best describes the pattern of tissue death?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Caseous necrosis"
+        },
+        {
+          "id": "b",
+          "text": "Coagulative necrosis"
+        },
+        {
+          "id": "c",
+          "text": "Fat necrosis"
+        },
+        {
+          "id": "d",
+          "text": "Fibrinoid necrosis"
+        },
+        {
+          "id": "e",
+          "text": "Liquefactive necrosis"
+        }
+      ],
+      "answer": "e",
+      "explanation": "Answer: liquefactive necrosis. Why: Brain infarcts liquefy because enzymes from microglia digest the tissue (your El-Husseiny General Principles notes, p. 2). Every other organ's ischemic infarct is coagulative. StatPearls notes this is an inflamed form of cell death with membrane rupture.",
+      "whyWrong": {
+        "a": "Caseous necrosis is the crumbly necrosis of tuberculosis and fungal granulomas.",
+        "b": "This is the pattern of infarcts in other organs, which keep their firm outline.",
+        "c": "Fat necrosis affects fatty tissue, as in pancreatitis or breast trauma.",
+        "d": "Fibrinoid necrosis affects vessel walls, as in malignant hypertension and vasculitis."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), necrosis, pp. 2-3"
+        },
+        {
+          "title": "StatPearls: Necrosis Pathology",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK557627/"
+        }
+      ]
+    },
+    {
+      "id": "path-fat-necrosis-pancreatitis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Gastrointestinal",
+      "topic": "Necrosis patterns: fat necrosis and saponification",
+      "difficulty": 2,
+      "stem": "A 48-year-old man with heavy alcohol use dies of severe acute pancreatitis. At autopsy, the fat around the pancreas contains chalky white patches.",
+      "leadIn": "Which of the following processes formed the white patches?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Coagulation of cell proteins"
+        },
+        {
+          "id": "b",
+          "text": "Fatty acids binding calcium"
+        },
+        {
+          "id": "c",
+          "text": "Deposition of immune complexes in fat"
+        },
+        {
+          "id": "d",
+          "text": "Hemosiderin deposition"
+        },
+        {
+          "id": "e",
+          "text": "Lipofuscin accumulation"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Answer: fatty acids binding calcium. Why: Pancreatic lipase releases fatty acids from fat, which join calcium to form soaps. This is saponification (your El-Husseiny General Principles notes, p. 3). The calcium settles on dead tissue, an example of dystrophic calcification. StatPearls also lists fat necrosis among the patterns of necrosis.",
+      "whyWrong": {
+        "a": "Protein coagulation gives firm tissue with preserved outlines, not chalky deposits.",
+        "c": "Immune complex deposits give a fibrinoid pattern in vessels.",
+        "d": "Hemosiderin is brown and comes from old bleeding.",
+        "e": "Lipofuscin is a yellow-brown pigment of aging."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), fat necrosis, p. 3"
+        },
+        {
+          "title": "StatPearls: Necrosis Pathology",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK557627/"
+        }
+      ]
+    },
+    {
+      "id": "path-reversible-injury-swelling-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Cardiovascular",
+      "topic": "Cell injury: earliest sign of reversible injury",
+      "difficulty": 2,
+      "stem": "During a coronary artery occlusion in an animal model, myocardial cells stop contracting within 2 minutes. Reperfusion at 15 minutes restores function completely. Electron microscopy taken just before reperfusion shows a change in the cells.",
+      "leadIn": "Which of the following findings is most likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cell swelling from failure of ion pumps"
+        },
+        {
+          "id": "b",
+          "text": "Dense bodies in the mitochondria from calcium influx"
+        },
+        {
+          "id": "c",
+          "text": "Karyolysis of the nucleus"
+        },
+        {
+          "id": "d",
+          "text": "Rupture of lysosomes"
+        },
+        {
+          "id": "e",
+          "text": "Rupture of the plasma membrane"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: cell swelling from failure of ion pumps. Why: Less ATP means the Na+/K+ and calcium pumps fail, so cells swell. This is the earliest visible sign of reversible injury. Your El-Husseiny General Principles notes (p. 7) also say myocardial cells stop contracting after 1-2 minutes of ischemia. Dense bodies are standard teaching for irreversible mitochondrial injury.",
+      "whyWrong": {
+        "b": "This means mitochondrial damage, a sign of irreversible injury.",
+        "c": "Nuclear dissolution is a sign of cell death.",
+        "d": "This is a sign of irreversible injury and autolysis.",
+        "e": "Membrane breakdown marks irreversible injury, with enzymes such as troponin leaking out."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), cell injury, p. 7"
+        },
+        {
+          "title": "StatPearls: Necrosis Pathology",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK557627/"
+        }
+      ]
+    },
+    {
+      "id": "path-apoptosis-bcl2-follicular-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Apoptosis: Bcl-2 and the intrinsic pathway",
+      "difficulty": 2,
+      "stem": "A 56-year-old woman has painless enlarged lymph nodes that have waxed and waned over 2 years. A biopsy shows crowded small cleaved lymphocytes in a nodular pattern. Cytogenetics shows t(14;18).",
+      "leadIn": "The translocation contributes to this tumor by which of the following mechanisms?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Activating caspases directly"
+        },
+        {
+          "id": "b",
+          "text": "Blocking cytochrome c release from mitochondria"
+        },
+        {
+          "id": "c",
+          "text": "Increasing transcription of c-MYC"
+        },
+        {
+          "id": "d",
+          "text": "Increasing tyrosine kinase activity of BCR-ABL"
+        },
+        {
+          "id": "e",
+          "text": "Mutating the Fas receptor"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Answer: blocking cytochrome c release from mitochondria. Why: t(14;18) overexpresses Bcl-2, which keeps the mitochondrial membrane closed. Less cytochrome c means less caspase activation, so cells do not die (your El-Husseiny General Principles notes, p. 5). MSD notes that gene translocations can drive cancer.",
+      "whyWrong": {
+        "a": "Caspase activation would speed cell death. This tumor survives too long.",
+        "c": "This is Burkitt lymphoma, t(8;14).",
+        "d": "This is chronic myeloid leukemia, t(9;22).",
+        "e": "Faulty Fas causes autoimmune lymphoproliferative syndrome."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), apoptosis, pp. 4-5"
+        },
+        {
+          "title": "MSD Manual Professional: Cellular and Molecular Basis of Cancer",
+          "url": "https://www.msdmanuals.com/professional/hematology-and-oncology/overview-of-cancer/cellular-and-molecular-basis-of-cancer"
+        }
+      ]
+    },
+    {
+      "id": "path-calcification-dystrophic-metastatic-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "General Principles",
+      "topic": "Dystrophic vs metastatic calcification",
+      "difficulty": 2,
+      "stem": "A 74-year-old man has a harsh systolic murmur. Valve replacement shows heavy nodular calcium on a damaged aortic valve. Serum calcium, phosphate and parathyroid hormone are normal.",
+      "leadIn": "Which of the following best describes the process in this valve?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Calcium binding to fatty acids in adipose tissue"
+        },
+        {
+          "id": "b",
+          "text": "Calcium deposits in damaged tissue"
+        },
+        {
+          "id": "c",
+          "text": "Calcium deposits in normal tissue from hypercalcemia"
+        },
+        {
+          "id": "d",
+          "text": "Calcium deposits from vitamin D toxicity"
+        },
+        {
+          "id": "e",
+          "text": "Bone formation by metastatic osteoblasts"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Answer: calcium deposits in damaged tissue. Why: This is dystrophic calcification. It occurs in injured tissue with normal serum calcium, and calcific aortic stenosis is the example in your El-Husseiny General Principles notes (p. 6). Metastatic calcification needs high calcium or a high calcium-phosphate product. StatPearls makes the same distinction.",
+      "whyWrong": {
+        "a": "This is saponification in fat necrosis, not a valve lesion.",
+        "c": "This is metastatic calcification, and his calcium is normal.",
+        "d": "Vitamin D excess causes hypercalcemia and metastatic calcification.",
+        "e": "No tumor is described, and the calcification lies on the valve."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), types of calcification, p. 6"
+        },
+        {
+          "title": "StatPearls: Calcinosis Cutis",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK448127/"
+        }
+      ]
+    },
+    {
+      "id": "path-red-vs-pale-infarct-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Respiratory",
+      "topic": "Red vs pale infarcts",
+      "difficulty": 2,
+      "stem": "A 66-year-old woman dies 4 days after hip surgery with sudden shortness of breath. At autopsy, a thrombus occludes a medium-sized pulmonary artery branch. A wedge of lung tissue at the pleura is dark and filled with blood.",
+      "leadIn": "Which of the following best explains why this infarct is hemorrhagic?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dual blood supply to the tissue"
+        },
+        {
+          "id": "b",
+          "text": "Fat embolism from the fracture site"
+        },
+        {
+          "id": "c",
+          "text": "Liquefaction by neutrophil enzymes"
+        },
+        {
+          "id": "d",
+          "text": "A single end-arterial supply"
+        },
+        {
+          "id": "e",
+          "text": "Venous blockage from torsion"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: dual blood supply. Why: Your El-Husseiny General Principles notes (p. 8) say red infarcts form with venous blockage, with reperfusion, and in tissues with several blood supplies, such as the liver, lung, intestine and testis. Pale infarcts form in solid organs with one arterial supply (p. 9). MSD names the lung's dual supply as bronchial and pulmonary.",
+      "whyWrong": {
+        "b": "Fat embolism causes petechiae and confusion. It does not explain the blood-filled wedge.",
+        "c": "This describes an abscess, which is not what the wedge shows.",
+        "d": "End-arterial organs such as the heart and kidney form pale infarcts.",
+        "e": "Torsion causes red infarcts in the testis, but this occlusion is arterial and in the lung."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), infarcts: red vs pale, pp. 8-9"
+        },
+        {
+          "title": "MSD Manual Professional: Pulmonary Embolism",
+          "url": "https://www.msdmanuals.com/professional/pulmonary-disorders/pulmonary-embolism-pe/pulmonary-embolism-pe"
+        }
+      ]
+    },
+    {
+      "id": "path-watershed-subendocardial-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Cardiovascular",
+      "topic": "Ischemia: most vulnerable regions",
+      "difficulty": 2,
+      "stem": "A 68-year-old man has massive gastrointestinal bleeding with hours of very low blood pressure and later dies. At autopsy, his coronary arteries have 50% narrowing without thrombus. The heart shows circumferential necrosis limited to the inner part of the left ventricular wall.",
+      "leadIn": "This distribution of injury is best explained by which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Greater sensitivity of the inner wall to low flow"
+        },
+        {
+          "id": "b",
+          "text": "Occlusion of the left anterior descending artery"
+        },
+        {
+          "id": "c",
+          "text": "Reperfusion injury from free radicals"
+        },
+        {
+          "id": "d",
+          "text": "Septic emboli to the coronary arteries"
+        },
+        {
+          "id": "e",
+          "text": "Vasculitis of the small coronary arteries"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: greater sensitivity of the inner wall to low flow. Why: Your El-Husseiny General Principles notes (p. 8) list the left ventricular subendocardium among regions most vulnerable to hypoxia. MSD explains that these infarcts involve the inner third of the wall, where wall tension is highest. Blood flow there is most vulnerable to circulatory changes, and they may follow prolonged hypotension. Other vulnerable regions on p. 8 are brain border zones, proximal tubule and liver zone III.",
+      "whyWrong": {
+        "b": "A single vessel occlusion gives a regional, not circumferential, pattern. No thrombus is present.",
+        "c": "He was not reperfused after an arterial blockage.",
+        "d": "No emboli or infection are described.",
+        "e": "No inflammation of the vessels is described."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), ischemia, p. 8"
+        },
+        {
+          "title": "MSD Manual Professional: Acute Myocardial Infarction",
+          "url": "https://www.msdmanuals.com/professional/cardiovascular-disorders/coronary-artery-disease/acute-myocardial-infarction-mi"
+        }
+      ]
+    },
+    {
+      "id": "path-esr-sickle-low-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Blood & Lymphoreticular",
+      "topic": "Erythrocyte sedimentation rate: raised and lowered",
+      "difficulty": 2,
+      "stem": "A 16-year-old boy with known sickle cell disease has hip pain and fever. A fracture and infarct are suspected, but the team is also concerned about osteomyelitis. His ESR comes back at 2 mm/h, which is lower than expected.",
+      "leadIn": "Which of the following best explains the low ESR in this patient?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Abnormal red cell shape prevents stacking"
+        },
+        {
+          "id": "b",
+          "text": "Excess fibrinogen coats the red cells"
+        },
+        {
+          "id": "c",
+          "text": "Low white cell count slows sedimentation"
+        },
+        {
+          "id": "d",
+          "text": "Raised C-reactive protein lowers viscosity"
+        },
+        {
+          "id": "e",
+          "text": "Severe anemia reduces the number of cells"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: abnormal red cell shape prevents stacking. Why: The ESR depends on red cells stacking and falling. Your El-Husseiny General Principles notes (p. 12) list sickle cell anemia among causes of a low ESR because of the altered shape. StatPearls explains that rouleaux formation depends on the discoid shape of red cells and on plasma proteins such as fibrinogen.",
+      "whyWrong": {
+        "b": "Fibrinogen raises the ESR by reducing the charge that keeps red cells apart.",
+        "c": "The ESR measures red cell settling, not white cells.",
+        "d": "Inflammatory proteins raise the ESR, not lower it.",
+        "e": "Most anemias raise the ESR."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), erythrocyte sedimentation rate, p. 12"
+        },
+        {
+          "title": "StatPearls: Erythrocyte Sedimentation Rate",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK557485/"
+        }
+      ]
+    },
+    {
+      "id": "path-keloid-collagen-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Keloid vs hypertrophic scar",
+      "difficulty": 1,
+      "stem": "A 23-year-old woman has an itchy, firm, shiny mass on her earlobe, 8 months after a piercing. It has spread beyond the piercing site and came back after being removed once.",
+      "leadIn": "Which of the following best describes the collagen in this lesion?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Disorganized bundles of types I and III"
+        },
+        {
+          "id": "b",
+          "text": "Normal type IV in a basement membrane pattern"
+        },
+        {
+          "id": "c",
+          "text": "Organized, parallel bundles of type III"
+        },
+        {
+          "id": "d",
+          "text": "Thin, sparse type I, with few fibroblasts"
+        },
+        {
+          "id": "e",
+          "text": "Type II in a cartilage-like pattern"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: disorganized bundles of types I and III. Why: A keloid grows past the wound border and recurs often. Your El-Husseiny General Principles notes (p. 16) give its collagen as a large excess of types I and III, disorganized, with higher risk in darker skin. StatPearls agrees that keloids spread beyond the injury and have no distinct collagen pattern.",
+      "whyWrong": {
+        "b": "Type IV is the collagen of basement membranes, not of scars.",
+        "c": "This is a hypertrophic scar, which stays within the wound.",
+        "d": "This does not fit an actively growing, excessive scar.",
+        "e": "Type II is the collagen of cartilage."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), scar formation, p. 16"
+        },
+        {
+          "title": "StatPearls: Hypertrophic Scarring and Keloids",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK537058/"
+        }
+      ]
+    },
+    {
+      "id": "path-wound-healing-collagen-zinc-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Wound healing: phases and collagen types",
+      "difficulty": 2,
+      "stem": "A 62-year-old man with chronic malabsorption had abdominal surgery 6 weeks ago. The wound is still weak. Granulation tissue formed on time, but the wound has not gained strength. Further evaluation shows low levels of a trace element needed by collagenases.",
+      "leadIn": "Which of the following steps is most directly impaired?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Clot formation by platelets"
+        },
+        {
+          "id": "b",
+          "text": "Neutrophil migration into the wound"
+        },
+        {
+          "id": "c",
+          "text": "Laying down of type III collagen by fibroblasts"
+        },
+        {
+          "id": "d",
+          "text": "Replacement of type III collagen with type I"
+        },
+        {
+          "id": "e",
+          "text": "Re-epithelialization by keratinocytes"
+        }
+      ],
+      "answer": "d",
+      "explanation": "Answer: replacement of type III collagen with type I. Why: During remodeling, collagenases break down type III collagen so type I can replace it, which raises tensile strength. Your El-Husseiny General Principles notes (p. 15) say collagenases need zinc, and zinc deficiency delays healing. Vitamin C or copper deficiency delays the proliferative phase instead. StatPearls says the wound reaches maximum strength during remodeling.",
+      "whyWrong": {
+        "a": "This is the early inflammatory phase, which went normally.",
+        "b": "This happens in the first days after injury.",
+        "c": "This is the proliferative step, and granulation tissue formed on time.",
+        "e": "This is part of the proliferative phase and does not depend on collagenases."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), wound healing, p. 15"
+        },
+        {
+          "title": "StatPearls: Wound Healing Phases",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK470443/"
+        }
+      ]
+    },
+    {
+      "id": "path-metaplasia-vs-dysplasia-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Gastrointestinal",
+      "topic": "Cell adaptation: metaplasia vs dysplasia",
+      "difficulty": 1,
+      "stem": "A 52-year-old man with long-standing heartburn has an endoscopy. Biopsy of the lower esophagus shows columnar epithelium with goblet cells in place of squamous epithelium. The cells have regular nuclei and normal polarity.",
+      "leadIn": "Which of the following best describes this change?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Anaplasia"
+        },
+        {
+          "id": "b",
+          "text": "Atrophy"
+        },
+        {
+          "id": "c",
+          "text": "Dysplasia"
+        },
+        {
+          "id": "d",
+          "text": "Hyperplasia"
+        },
+        {
+          "id": "e",
+          "text": "Metaplasia"
+        }
+      ],
+      "answer": "e",
+      "explanation": "Answer: metaplasia. Why: One adult cell type has replaced another in response to acid. Your El-Husseiny General Principles notes (p. 18) use Barrett esophagus as an example, and warn it may progress to dysplasia and then adenocarcinoma. The National Cancer Institute says dysplasia shows abnormal-looking cells and tissue organization.",
+      "whyWrong": {
+        "a": "Anaplasia is a complete loss of differentiation, seen in malignant tumors.",
+        "b": "Atrophy is shrinkage of a tissue, with no change of cell type.",
+        "c": "Dysplasia means disordered cells with abnormal nuclei, which are absent here.",
+        "d": "Hyperplasia means more of the same cell type."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), cellular adaptations, p. 18"
+        },
+        {
+          "title": "National Cancer Institute: What Is Cancer?",
+          "url": "https://www.cancer.gov/about-cancer/understanding/what-is-cancer"
+        }
+      ]
+    },
+    {
+      "id": "path-tumor-grade-vs-stage-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "General Principles",
+      "topic": "Tumor grade vs stage",
+      "difficulty": 1,
+      "stem": "A 67-year-old woman has a colon cancer removed. The pathology report describes poorly formed glands with many mitoses. The tumor invades through the muscle wall, and 4 of 18 lymph nodes contain tumor. There are no distant metastases on CT.",
+      "leadIn": "Which of the following features will most strongly predict her prognosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Degree of glandular differentiation"
+        },
+        {
+          "id": "b",
+          "text": "Extent of spread"
+        },
+        {
+          "id": "c",
+          "text": "Number of mitoses"
+        },
+        {
+          "id": "d",
+          "text": "Presence of p53 staining"
+        },
+        {
+          "id": "e",
+          "text": "Size of the cell nuclei"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Answer: extent of spread. Why: Stage is how far the tumor has spread, using TNM. Grade is how abnormal it looks. Your El-Husseiny General Principles notes (p. 20) say stage generally predicts prognosis better than grade, and that N and M often matter most. The National Cancer Institute draws the same line between grade and stage.",
+      "whyWrong": {
+        "a": "This is the grade. Stage usually has more prognostic value than grade.",
+        "c": "This is part of the grade.",
+        "d": "This is not the main prognostic measure described here.",
+        "e": "This is part of the grade."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), tumor grade vs stage, p. 20"
+        },
+        {
+          "title": "National Cancer Institute: Tumor Grade",
+          "url": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/tumor-grade"
+        }
+      ]
+    },
+    {
+      "id": "path-hamartoma-choristoma-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Gastrointestinal",
+      "topic": "Tumor naming: hamartoma vs choristoma",
+      "difficulty": 2,
+      "stem": "A 3-year-old boy has painless rectal bleeding. A technetium scan shows uptake in the right lower abdomen. Surgery removes a pouch of ileum whose wall contains normal gastric glands, which are not found in normal ileum.",
+      "leadIn": "Which of the following terms best describes the gastric tissue?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Adenoma"
+        },
+        {
+          "id": "b",
+          "text": "Choristoma"
+        },
+        {
+          "id": "c",
+          "text": "Hamartoma"
+        },
+        {
+          "id": "d",
+          "text": "Metaplasia"
+        },
+        {
+          "id": "e",
+          "text": "Teratoma"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Answer: choristoma. Why: Your El-Husseiny General Principles notes (p. 20) define a choristoma as normal tissue in a foreign location, and use gastric tissue in a Meckel diverticulum as the example. A hamartoma is disorganized overgrowth in its native location. StatPearls says acid from ectopic gastric mucosa in the diverticulum can cause bleeding.",
+      "whyWrong": {
+        "a": "An adenoma is a benign tumor of glandular epithelium.",
+        "c": "A hamartoma is disorganized tissue in its normal location, such as a Peutz-Jeghers polyp.",
+        "d": "Metaplasia means one adult cell type changing into another in place. This is a developmental rest.",
+        "e": "A teratoma is a germ cell tumor with several tissue types."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), tumor nomenclature, p. 20"
+        },
+        {
+          "title": "StatPearls: Meckel Diverticulum",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK499960/"
+        }
+      ]
+    },
+    {
+      "id": "path-hallmark-e-cadherin-invasion-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "General Principles",
+      "topic": "Hallmarks of cancer: invasion and E-cadherin",
+      "difficulty": 2,
+      "stem": "A research team studies a breast carcinoma cell line that spreads through surrounding tissue in culture. Compared with normal breast cells, these cells have lost a surface protein, so they no longer stick to each other. They also secrete more metalloproteinases.",
+      "leadIn": "The lost surface protein is most likely which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "E-cadherin"
+        },
+        {
+          "id": "b",
+          "text": "Hepatocyte growth factor"
+        },
+        {
+          "id": "c",
+          "text": "HER2/neu"
+        },
+        {
+          "id": "d",
+          "text": "Telomerase"
+        },
+        {
+          "id": "e",
+          "text": "VEGF"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: E-cadherin. Why: Loss of E-cadherin loosens junctions between cells. Metalloproteinases then break down the basement membrane and matrix, so cells can invade (your El-Husseiny General Principles notes, p. 21). MSD says metastatic cells must be able to invade, migrate and implant.",
+      "whyWrong": {
+        "b": "This is a secreted growth factor, not a cell-to-cell adhesion protein.",
+        "c": "This is a growth factor receptor that is often overexpressed, not lost.",
+        "d": "This is an intracellular enzyme that lengthens telomeres.",
+        "e": "VEGF is a secreted angiogenesis factor."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), hallmarks of cancer, p. 21"
+        },
+        {
+          "title": "MSD Manual Professional: Cellular and Molecular Basis of Cancer",
+          "url": "https://www.msdmanuals.com/professional/hematology-and-oncology/overview-of-cancer/cellular-and-molecular-basis-of-cancer"
+        }
+      ]
+    },
+    {
+      "id": "biochem-warburg-effect-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biochemistry",
+      "system": "General Principles",
+      "topic": "Hallmarks of cancer: Warburg effect",
+      "difficulty": 2,
+      "stem": "A 58-year-old man with lymphoma has a PET scan that shows very high glucose uptake by his tumor. Lab studies of the tumor cells show that they make large amounts of lactate from glucose in normal oxygen conditions.",
+      "leadIn": "Which of the following best describes this metabolic pattern?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Aerobic glycolysis"
+        },
+        {
+          "id": "b",
+          "text": "Anaerobic glycolysis from tumor hypoxia"
+        },
+        {
+          "id": "c",
+          "text": "Cori cycle activity"
+        },
+        {
+          "id": "d",
+          "text": "Increased oxidative phosphorylation"
+        },
+        {
+          "id": "e",
+          "text": "Increased gluconeogenesis"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: aerobic glycolysis. Why: This is the Warburg effect: a shift from oxidative phosphorylation toward glycolysis (your El-Husseiny General Principles notes, p. 21). A 2024 review defines it as glucose converted to lactate even with oxygen and functional mitochondria.",
+      "whyWrong": {
+        "b": "The cells make lactate in normal oxygen, so hypoxia is not the explanation.",
+        "c": "The Cori cycle moves lactate to the liver for glucose production.",
+        "d": "Tumor cells shift toward glycolysis, away from this pathway.",
+        "e": "Gluconeogenesis makes glucose rather than breaking it down."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), Warburg effect, p. 21"
+        },
+        {
+          "title": "Barba et al. Targeting the Warburg Effect in Cancer, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10970388/"
+        }
+      ]
+    },
+    {
+      "id": "immuno-checkpoint-ctla4-ipilimumab-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Immunology",
+      "system": "Skin & Subcutaneous Tissue",
+      "topic": "Immune checkpoints: CTLA-4 and PD-1",
+      "difficulty": 2,
+      "stem": "A 60-year-old woman with metastatic melanoma starts ipilimumab. Her tumor shrinks over 3 months. She later develops severe diarrhea from autoimmune colitis.",
+      "leadIn": "Which of the following describes the molecule this drug blocks?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A T-cell protein that competes with CD28 for B7"
+        },
+        {
+          "id": "b",
+          "text": "A B-cell surface protein, CD20"
+        },
+        {
+          "id": "c",
+          "text": "A tumor-cell ligand that binds PD-1"
+        },
+        {
+          "id": "d",
+          "text": "A tumor-cell growth factor receptor, HER2"
+        },
+        {
+          "id": "e",
+          "text": "A T-cell pore-forming protein, perforin"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: a T-cell protein that competes with CD28 for B7. Why: Ipilimumab blocks CTLA-4, a T-cell protein that outcompetes CD28 for B7, which removes the T cell's costimulatory signal (your El-Husseiny General Principles notes, p. 22). The National Cancer Institute says checkpoint inhibitors block this \"off\" signal so T cells can attack cancer cells. Colitis is a standard-teaching immune side effect.",
+      "whyWrong": {
+        "b": "CD20 is the target of rituximab.",
+        "c": "This is PD-L1, the target of atezolizumab, durvalumab and avelumab.",
+        "d": "HER2 is the target of trastuzumab.",
+        "e": "Perforin is released by cytotoxic T cells to kill targets. It is not a drug target here."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), immune checkpoint interactions, p. 22"
+        },
+        {
+          "title": "National Cancer Institute: Immune Checkpoint Inhibitors",
+          "url": "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/checkpoint-inhibitors"
+        }
+      ]
+    },
+    {
+      "id": "path-cancer-epidemiology-women-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Biostatistics & Epidemiology",
+      "system": "General Principles",
+      "topic": "Cancer epidemiology: incidence and mortality",
+      "difficulty": 1,
+      "stem": "A public health student reviews 2026 United States cancer estimates, not counting common skin cancers, to plan a talk for a women's health group.",
+      "leadIn": "Which of the following cancers is the leading cause of cancer death among women in the United States?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Breast cancer"
+        },
+        {
+          "id": "b",
+          "text": "Colorectal cancer"
+        },
+        {
+          "id": "c",
+          "text": "Lung cancer"
+        },
+        {
+          "id": "d",
+          "text": "Ovarian cancer"
+        },
+        {
+          "id": "e",
+          "text": "Pancreatic cancer"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Answer: lung cancer. Why: Your El-Husseiny General Principles notes (p. 22) rank lung first, breast second and colon third for women's cancer deaths, with breast first for new cases. Recent change: SEER's 2026 estimates give lung first (61,950), breast second (42,140) and pancreas third (25,510). The American Cancer Society says lung cancer will cause more deaths in 2026 than colorectal and pancreatic cancer combined.",
+      "whyWrong": {
+        "a": "Breast cancer has the most new cases in women, but it is second for deaths.",
+        "b": "Colorectal cancer ranks below lung and breast cancer for deaths in women.",
+        "d": "Ovarian cancer does not rank in the top three for deaths in women.",
+        "e": "SEER ranks pancreatic cancer third for deaths in women in 2026."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), cancer epidemiology, p. 22"
+        },
+        {
+          "title": "SEER: Common Cancer Sites",
+          "url": "https://seer.cancer.gov/statfacts/html/common.html"
+        },
+        {
+          "title": "American Cancer Society. Cancer statistics, 2026 (PubMed)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41528114/"
+        }
+      ]
+    },
+    {
+      "id": "path-bone-metastasis-blastic-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Musculoskeletal",
+      "topic": "Common metastases: lytic and blastic bone lesions",
+      "difficulty": 2,
+      "stem": "A 74-year-old man has low back pain for 2 months and has lost weight. X-ray shows several dense, sclerotic lesions in his lumbar spine and pelvis. Serum alkaline phosphatase is high, and calcium is normal.",
+      "leadIn": "Which of the following is the most likely primary tumor?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Follicular thyroid carcinoma"
+        },
+        {
+          "id": "b",
+          "text": "Multiple myeloma"
+        },
+        {
+          "id": "c",
+          "text": "Non-small cell lung cancer"
+        },
+        {
+          "id": "d",
+          "text": "Prostate adenocarcinoma"
+        },
+        {
+          "id": "e",
+          "text": "Renal cell carcinoma"
+        }
+      ],
+      "answer": "d",
+      "explanation": "Answer: prostate adenocarcinoma. Why: Your El-Husseiny General Principles notes (p. 23) list prostate and small cell lung cancer as blastic. Thyroid, kidney, non-small cell lung cancer and myeloma are lytic, and breast is mixed. Alkaline phosphatase rises with bone metastases (p. 26). MSD says prostate cancer is most often blastic.",
+      "whyWrong": {
+        "a": "Thyroid cancer gives lytic bone lesions.",
+        "b": "Myeloma gives lytic, punched-out lesions, and alkaline phosphatase is usually normal.",
+        "c": "This is listed among the lytic bone lesions in your notes.",
+        "e": "Renal cell carcinoma gives lytic bone lesions."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), common metastases, p. 23; serum tumor markers, p. 26"
+        },
+        {
+          "title": "MSD Manual Professional: Metastatic Bone Tumors",
+          "url": "https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/tumors-of-bones-and-joints/metastatic-bone-tumors"
+        }
+      ]
+    },
+    {
+      "id": "path-oncogene-ckit-gist-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Gastrointestinal",
+      "topic": "Oncogenes: matching gene to tumor",
+      "difficulty": 2,
+      "stem": "A 61-year-old woman has black stools and anemia. CT shows a 6-cm mass in the wall of the stomach. Biopsy shows spindle cells, with strong staining for a tyrosine kinase receptor. She responds to imatinib.",
+      "leadIn": "An activating mutation in which of the following genes is most likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ALK"
+        },
+        {
+          "id": "b",
+          "text": "BRAF"
+        },
+        {
+          "id": "c",
+          "text": "c-KIT"
+        },
+        {
+          "id": "d",
+          "text": "c-MYC"
+        },
+        {
+          "id": "e",
+          "text": "KRAS"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Answer: c-KIT. Why: Your El-Husseiny General Principles notes (p. 24) list c-KIT, a cytokine receptor, with gastrointestinal stromal tumor. MSD says oncogenes are abnormal forms of normal genes that raise the activity of the gene product. Imatinib is a tyrosine kinase inhibitor (p. 79).",
+      "whyWrong": {
+        "a": "ALK is linked with lung adenocarcinoma.",
+        "b": "BRAF is linked with melanoma, papillary thyroid cancer and hairy cell leukemia.",
+        "d": "c-MYC is a transcription factor linked with Burkitt lymphoma.",
+        "e": "KRAS is a GTPase linked with colon, lung and pancreatic cancer."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), oncogenes, p. 24; biologic agents, p. 79"
+        },
+        {
+          "title": "MSD Manual Professional: Cellular and Molecular Basis of Cancer",
+          "url": "https://www.msdmanuals.com/professional/hematology-and-oncology/overview-of-cancer/cellular-and-molecular-basis-of-cancer"
+        }
+      ]
+    },
+    {
+      "id": "genetics-tumor-suppressor-two-hit-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Genetics",
+      "system": "Nervous System & Special Senses",
+      "topic": "Tumor suppressors: two-hit model",
+      "difficulty": 2,
+      "stem": "A 7-month-old girl has a white pupillary reflex in both eyes. Her father had an eye removed as a young child. Genetic testing shows that the child has a germline mutation in the RB1 gene.",
+      "leadIn": "Which of the following is required for a tumor to develop in a retinal cell of this child?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Acquired loss of the second RB1 allele"
+        },
+        {
+          "id": "b",
+          "text": "Gain-of-function mutation of RB1"
+        },
+        {
+          "id": "c",
+          "text": "Inactivation of both TP53 alleles"
+        },
+        {
+          "id": "d",
+          "text": "Translocation of RB1 next to an immunoglobulin gene"
+        },
+        {
+          "id": "e",
+          "text": "Two new mutations in the RB1 alleles of the cell"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: acquired loss of the second RB1 allele. Why: Tumor suppressors need both alleles lost (your El-Husseiny General Principles notes, p. 24). Familial retinoblastoma has one mutated copy from birth, so one more hit is enough (El-Husseiny Neurology, p. 208). MSD describes the same logic: a defective inherited copy, then an acquired mutation in the functional allele.",
+      "whyWrong": {
+        "b": "RB1 is a tumor suppressor, which is lost rather than activated.",
+        "c": "This is not the required step in retinoblastoma.",
+        "d": "This mechanism is typical of B-cell lymphoma oncogenes.",
+        "e": "She already has one mutated copy in every cell. Only one more hit is needed."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), tumor suppressor genes, p. 24; El-Husseiny Neurology (Emily's file), leukocoria, p. 208"
+        },
+        {
+          "title": "MSD Manual Professional: Cellular and Molecular Basis of Cancer",
+          "url": "https://www.msdmanuals.com/professional/hematology-and-oncology/overview-of-cancer/cellular-and-molecular-basis-of-cancer"
+        }
+      ]
+    },
+    {
+      "id": "path-carcinogen-vinyl-chloride-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Gastrointestinal",
+      "topic": "Carcinogens: exposure and tumor",
+      "difficulty": 1,
+      "stem": "A 63-year-old retired worker from a plastic pipe factory has abdominal pain and an enlarged liver. A biopsy of a liver mass shows malignant, irregular vascular channels lined by atypical endothelial cells. He does not drink alcohol and has no viral hepatitis.",
+      "leadIn": "Exposure to which of the following most likely caused this tumor?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Aflatoxin"
+        },
+        {
+          "id": "b",
+          "text": "Asbestos"
+        },
+        {
+          "id": "c",
+          "text": "Aromatic amines"
+        },
+        {
+          "id": "d",
+          "text": "Radon"
+        },
+        {
+          "id": "e",
+          "text": "Vinyl chloride"
+        }
+      ],
+      "answer": "e",
+      "explanation": "Answer: vinyl chloride. Why: Your El-Husseiny General Principles notes (p. 25) link PVC pipe makers with hepatic angiosarcoma, and MSD lists vinyl chloride with hepatic angiosarcoma. Arsenic is the other cause in your notes.",
+      "whyWrong": {
+        "a": "Aflatoxin causes hepatocellular carcinoma, which forms from liver cells rather than blood vessel cells.",
+        "b": "Asbestos causes lung cancer and mesothelioma.",
+        "c": "Aromatic amines cause bladder cancer.",
+        "d": "Radon causes lung cancer."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), carcinogens, p. 25"
+        },
+        {
+          "title": "MSD Manual Professional: Common Chemical Carcinogens",
+          "url": "https://www.msdmanuals.com/professional/multimedia/table/common-chemical-carcinogens"
+        }
+      ]
+    },
+    {
+      "id": "path-tumor-marker-ca125-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Reproductive",
+      "topic": "Serum tumor markers: use and matching",
+      "difficulty": 2,
+      "stem": "A 59-year-old woman has bloating and early satiety. Ultrasound shows a complex 9-cm adnexal mass and ascites. She has surgery, and after chemotherapy her doctor plans to follow a blood test to watch for recurrence.",
+      "leadIn": "Which of the following is the most useful marker to follow in this patient?",
+      "options": [
+        {
+          "id": "a",
+          "text": "α-fetoprotein"
+        },
+        {
+          "id": "b",
+          "text": "CA 19-9"
+        },
+        {
+          "id": "c",
+          "text": "CA 125"
+        },
+        {
+          "id": "d",
+          "text": "Calcitonin"
+        },
+        {
+          "id": "e",
+          "text": "CEA"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Answer: CA 125. Why: Your El-Husseiny General Principles notes (p. 26) link CA 125 with ovarian cancer, and say markers track recurrence and response, not as the first tool for diagnosis or screening. The National Cancer Institute says markers can show how treatment is working and possible recurrence, but they are not sensitive enough for general screening. An adnexal mass, ascites and early satiety at this age suggest ovarian cancer (standard teaching).",
+      "whyWrong": {
+        "a": "This fits hepatocellular carcinoma and yolk sac tumor, which are rare at this age in the ovary.",
+        "b": "CA 19-9 is used for pancreatic adenocarcinoma.",
+        "d": "Calcitonin is used for medullary thyroid carcinoma.",
+        "e": "CEA is used mainly for colorectal and pancreatic cancer."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), serum tumor markers, p. 26"
+        },
+        {
+          "title": "National Cancer Institute: Tumor Markers",
+          "url": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/tumor-markers-fact-sheet"
+        }
+      ]
+    },
+    {
+      "id": "pharm-p-glycoprotein-chemo-resistance-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "General Principles",
+      "topic": "P-glycoprotein and chemotherapy resistance",
+      "difficulty": 2,
+      "stem": "A 48-year-old woman with colon cancer initially responds to chemotherapy, then progresses. Tumor cells are found to have stopped accumulating the drug inside the cell, because an ATP-driven transporter in their membranes pumps out several unrelated drugs.",
+      "leadIn": "Which of the following is the most likely transporter?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Glucose transporter 1"
+        },
+        {
+          "id": "b",
+          "text": "Na+/K+ ATPase"
+        },
+        {
+          "id": "c",
+          "text": "P-glycoprotein"
+        },
+        {
+          "id": "d",
+          "text": "Thiazide-sensitive cotransporter"
+        },
+        {
+          "id": "e",
+          "text": "Vesicular acetylcholine transporter"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Answer: P-glycoprotein. Why: Your El-Husseiny General Principles notes (p. 27) call this multidrug resistance protein 1. It is classically found in colon adenocarcinoma, pumping out toxins, including chemotherapy drugs. A published review calls it a promiscuous drug efflux pump linked with multidrug resistance when overexpressed in cancer cells.",
+      "whyWrong": {
+        "a": "This moves glucose into cells and does not pump out drugs.",
+        "b": "This keeps ion gradients and does not pump out drugs.",
+        "d": "This acts in the distal tubule of the kidney.",
+        "e": "This stores acetylcholine in vesicles."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), P-glycoprotein, p. 27"
+        },
+        {
+          "title": "Waghray and Zhang. Inhibit or Evade Multidrug Resistance P-glycoprotein in Cancer Treatment (J Med Chem)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6281405/"
+        }
+      ]
+    },
+    {
+      "id": "path-paraneoplastic-pthrp-squamous-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Respiratory",
+      "topic": "Paraneoplastic syndromes: matching tumor and mediator",
+      "difficulty": 2,
+      "stem": "A 65-year-old man who has smoked for 45 years has confusion, constipation and excessive urination. Serum calcium is 14.2 mg/dL, and parathyroid hormone is low. Chest CT shows a central cavitating lung mass with keratin pearls on biopsy.",
+      "leadIn": "Which of the following substances from the tumor most likely explains his calcium level?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ADH"
+        },
+        {
+          "id": "b",
+          "text": "ACTH"
+        },
+        {
+          "id": "c",
+          "text": "1,25-dihydroxyvitamin D"
+        },
+        {
+          "id": "d",
+          "text": "Erythropoietin"
+        },
+        {
+          "id": "e",
+          "text": "PTH-related protein"
+        }
+      ],
+      "answer": "e",
+      "explanation": "Answer: PTH-related protein. Why: Your El-Husseiny General Principles notes (p. 28) list PTHrP with squamous cell carcinomas of the lung, head and neck. Low PTH shows that the gland is not the source. MSD agrees that PTHrP causes hypercalcemia in squamous cell lung cancer, with polyuria, dehydration, constipation and weakness.",
+      "whyWrong": {
+        "a": "ADH causes low sodium and is linked with small cell lung cancer.",
+        "b": "ACTH causes Cushing syndrome and is linked with small cell lung cancer.",
+        "c": "Your notes link this with lymphoma.",
+        "d": "Erythropoietin causes polycythemia."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), paraneoplastic syndromes, p. 28"
+        },
+        {
+          "title": "MSD Manual Professional: Paraneoplastic Syndromes",
+          "url": "https://www.msdmanuals.com/professional/hematology-and-oncology/overview-of-cancer/paraneoplastic-syndromes"
+        }
+      ]
+    },
+    {
+      "id": "path-oncogenic-microbe-hpylori-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Gastrointestinal",
+      "topic": "Oncogenic microbes",
+      "difficulty": 1,
+      "stem": "A 57-year-old man has several months of upper abdominal pain and weight loss. Gastric biopsy shows a dense lymphoid infiltrate that invades glands and contains small B cells. Curved gram-negative rods are seen on the surface of the mucosa.",
+      "leadIn": "Which of the following tumors is most likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Adult T-cell lymphoma"
+        },
+        {
+          "id": "b",
+          "text": "Burkitt lymphoma"
+        },
+        {
+          "id": "c",
+          "text": "Cholangiocarcinoma"
+        },
+        {
+          "id": "d",
+          "text": "Kaposi sarcoma"
+        },
+        {
+          "id": "e",
+          "text": "MALT lymphoma"
+        }
+      ],
+      "answer": "e",
+      "explanation": "Answer: MALT lymphoma. Why: Curved gram-negative rods on the gastric mucosa suggest H. pylori. Your El-Husseiny General Principles notes (p. 25) link it with gastric adenocarcinoma and MALT lymphoma, and this biopsy shows a B-cell infiltrate. MSD calls MALT lymphoma a monoclonally restricted B-cell tumor, and says eradication can even cure some cases.",
+      "whyWrong": {
+        "a": "This is linked with HTLV-1, not with this organism.",
+        "b": "This is linked with EBV and has a starry-sky pattern.",
+        "c": "This bile duct tumor is linked with liver flukes.",
+        "d": "This vascular tumor is linked with HHV-8."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: General Principles (Emily's file), oncogenic microbes, p. 25"
+        },
+        {
+          "title": "MSD Manual Professional: Helicobacter pylori Infection",
+          "url": "https://www.msdmanuals.com/professional/gastrointestinal-disorders/gastritis-and-peptic-ulcer-disease/helicobacter-pylori-infection"
+        }
+      ]
+    },
+    {
+      "id": "neuro-sma-anterior-horn-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Nervous System & Special Senses",
+      "topic": "Spinal muscular atrophy: anterior horn cell loss",
+      "difficulty": 2,
+      "stem": "A 3-month-old girl is brought in for poor head control and weak feeding. She is alert and tracks faces. She has profound limb weakness, absent reflexes and fine twitching of the tongue. Both parents are healthy.",
+      "leadIn": "Which of the following is the most likely site of disease?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Anterior horn cells"
+        },
+        {
+          "id": "b",
+          "text": "Corticospinal tracts"
+        },
+        {
+          "id": "c",
+          "text": "Muscle fibers"
+        },
+        {
+          "id": "d",
+          "text": "Neuromuscular junction"
+        },
+        {
+          "id": "e",
+          "text": "Peripheral nerve myelin"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: anterior horn cells. Why: This is spinal muscular atrophy type 1. Your El-Husseiny Neurology notes (p. 30) describe it as an autosomal recessive degeneration of the anterior horns, producing a floppy baby with lower motor neuron signs. MSD names the SMN1 gene and describes hypotonia, low reflexes and tongue fasciculations. Recent change: nusinersen, risdiplam and onasemnogene abeparvovec now treat this disease.",
+      "whyWrong": {
+        "b": "Corticospinal tract disease causes spasticity and brisk reflexes.",
+        "c": "Primary muscle disease usually keeps reflexes longer and does not cause tongue fasciculations.",
+        "d": "Infant botulism causes ptosis, constipation and weak pupils.",
+        "e": "Demyelinating neuropathy would not explain this early onset with tongue twitching."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), spinal muscular atrophy, p. 30"
+        },
+        {
+          "title": "MSD Manual Professional: Spinal Muscular Atrophies",
+          "url": "https://www.msdmanuals.com/professional/neurologic-disorders/peripheral-nervous-system-and-motor-unit-disorders/spinal-muscular-atrophies-smas"
+        }
+      ]
+    },
+    {
+      "id": "neuro-polio-flaccid-paralysis-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Nervous System & Special Senses",
+      "topic": "Polio: anterior horn destruction",
+      "difficulty": 1,
+      "stem": "A 9-year-old unvaccinated boy recently arrived from an area with an outbreak. He had 3 days of fever and headache, then sudden weakness of his left leg. The leg is flaccid with absent reflexes. Sensation is normal. CSF shows mild lymphocytic pleocytosis, slightly raised protein and normal glucose.",
+      "leadIn": "This illness is most likely caused by viral damage to which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Anterior horn cells"
+        },
+        {
+          "id": "b",
+          "text": "Dorsal root ganglia"
+        },
+        {
+          "id": "c",
+          "text": "Myelin of peripheral nerves"
+        },
+        {
+          "id": "d",
+          "text": "Neuromuscular junction"
+        },
+        {
+          "id": "e",
+          "text": "Upper motor neurons"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: anterior horn cells. Why: Poliovirus spreads by the fecal-oral route and destroys ventral horn motor neurons, causing flaccid paralysis and low reflexes (your El-Husseiny Neurology notes, p. 30). Your notes also give the CSF pattern. MSD describes asymmetric flaccid paralysis without sensory loss.",
+      "whyWrong": {
+        "b": "Damage here causes sensory loss. His sensation is normal.",
+        "c": "This describes Guillain-Barré syndrome, with ascending, symmetric weakness and raised CSF protein with few cells.",
+        "d": "Botulism affects this site, with no fever or CSF change.",
+        "e": "This causes spasticity and brisk reflexes."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), poliomyelitis, p. 30"
+        },
+        {
+          "title": "MSD Manual Professional: Poliomyelitis",
+          "url": "https://www.msdmanuals.com/professional/infectious-diseases/enteroviruses/poliomyelitis"
+        }
+      ]
+    },
+    {
+      "id": "neuro-pacinian-vibration-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Neuroscience",
+      "system": "Nervous System & Special Senses",
+      "topic": "Sensory receptors: matching receptor to sense",
+      "difficulty": 2,
+      "stem": "A 62-year-old woman with long-standing diabetes has lost her ability to feel a 128-Hz tuning fork on the big toe. She can still feel a pinprick there. A researcher studying this kind of loss tests a large encapsulated receptor found deep in the skin, ligaments and joints.",
+      "leadIn": "This receptor is most likely which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Free nerve ending"
+        },
+        {
+          "id": "b",
+          "text": "Meissner corpuscle"
+        },
+        {
+          "id": "c",
+          "text": "Merkel disc"
+        },
+        {
+          "id": "d",
+          "text": "Pacinian corpuscle"
+        },
+        {
+          "id": "e",
+          "text": "Ruffini corpuscle"
+        }
+      ],
+      "answer": "d",
+      "explanation": "Answer: Pacinian corpuscle. Why: Your El-Husseiny Neurology notes (p. 142) place Pacinian corpuscles in deep skin, ligaments and joints, sensing pressure and high-frequency vibration. StatPearls calls them large encapsulated nerve endings that enable vibration detection. Your notes list Meissner corpuscles for low-frequency vibration.",
+      "whyWrong": {
+        "a": "These carry pain and temperature, which she still feels.",
+        "b": "This senses fine touch and low-frequency vibration in hairless skin, in the upper layer.",
+        "c": "This senses static touch, shapes and edges, in superficial skin.",
+        "e": "This senses stretch, slippage and joint angle."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), sensory receptors, p. 142"
+        },
+        {
+          "title": "StatPearls: Physiology, Mechanoreceptors",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK541068/"
+        }
+      ]
+    },
+    {
+      "id": "anat-jugular-foramen-syndrome-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Nervous System & Special Senses",
+      "topic": "Jugular foramen (Vernet) syndrome",
+      "difficulty": 2,
+      "stem": "A 58-year-old man has 3 months of hoarseness and trouble swallowing. He cannot shrug his right shoulder or turn his head fully to the left. His gag reflex is reduced on the right, and his uvula points to the left. The tongue protrudes in the midline. MRI shows a mass at the skull base on the right.",
+      "leadIn": "The mass most likely involves which of the following openings?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Foramen magnum"
+        },
+        {
+          "id": "b",
+          "text": "Foramen ovale"
+        },
+        {
+          "id": "c",
+          "text": "Hypoglossal canal"
+        },
+        {
+          "id": "d",
+          "text": "Internal acoustic meatus"
+        },
+        {
+          "id": "e",
+          "text": "Jugular foramen"
+        }
+      ],
+      "answer": "e",
+      "explanation": "Answer: jugular foramen. Why: Your El-Husseiny Neurology notes (p. 86) say CN IX, X and XI pass through this opening. CN IX and X explain the gag and swallowing problems, CN X the hoarseness and uvula pointing away from the lesion, and CN XI the weak shoulder and head turn. StatPearls describes the same syndrome.",
+      "whyWrong": {
+        "a": "This carries the medulla and spinal part of CN XI, and would usually cause long tract signs.",
+        "b": "This carries CN V3.",
+        "c": "This carries CN XII. His tongue is midline.",
+        "d": "This carries CN VII and VIII."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), jugular foramen syndrome, p. 86"
+        },
+        {
+          "title": "StatPearls: Jugular Foramen Syndrome",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK549871/"
+        }
+      ]
+    },
+    {
+      "id": "anat-blowout-fracture-inferior-rectus-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Nervous System & Special Senses",
+      "topic": "Orbital blowout fracture",
+      "difficulty": 1,
+      "stem": "A 27-year-old man is struck in the left eye by a baseball. He has a swollen eyelid and double vision on looking up. Upward gaze of the left eye is limited, and he has numbness over the left cheek. CT shows soft tissue hanging into the left maxillary sinus.",
+      "leadIn": "Which of the following structures is most likely trapped in the fracture?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Inferior rectus muscle"
+        },
+        {
+          "id": "b",
+          "text": "Lateral rectus muscle"
+        },
+        {
+          "id": "c",
+          "text": "Levator palpebrae superioris muscle"
+        },
+        {
+          "id": "d",
+          "text": "Optic nerve"
+        },
+        {
+          "id": "e",
+          "text": "Superior oblique muscle"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: inferior rectus muscle. Why: Your El-Husseiny Neurology notes (p. 208) explain that blunt trauma raises pressure in the orbit and breaks the thin floor, over the maxillary sinus, so contents can herniate. StatPearls lists diplopia and limited upward gaze as characteristic, along with inferior rectus entrapment and sensory loss below the orbit.",
+      "whyWrong": {
+        "b": "This muscle moves the eye outward and lies far from the orbital floor.",
+        "c": "This raises the eyelid and lies at the top of the orbit.",
+        "d": "Damage here would cause vision loss, not restricted gaze.",
+        "e": "This lies at the top of the orbit."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), orbital fracture, p. 208"
+        },
+        {
+          "title": "StatPearls: Orbital Floor Fracture",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK534825/"
+        }
+      ]
+    },
+    {
+      "id": "pharm-succinylcholine-pseudocholinesterase-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Multisystem",
+      "topic": "Neuromuscular blockers: prolonged succinylcholine paralysis",
+      "difficulty": 2,
+      "stem": "A 32-year-old woman receives succinylcholine for a short procedure. Three hours later she still cannot breathe on her own, though she is hemodynamically stable with a normal temperature. Her brother had a similar problem after surgery.",
+      "leadIn": "Which of the following is the most likely cause?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Antibodies against the acetylcholine receptor"
+        },
+        {
+          "id": "b",
+          "text": "Inherited deficiency of a plasma enzyme"
+        },
+        {
+          "id": "c",
+          "text": "Mutation in the ryanodine receptor"
+        },
+        {
+          "id": "d",
+          "text": "Reduced renal clearance of the drug"
+        },
+        {
+          "id": "e",
+          "text": "Slow redistribution of the drug into fat"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Answer: inherited deficiency of a plasma enzyme. Why: Pseudocholinesterase normally breaks down succinylcholine quickly. Your El-Husseiny Neurology notes (p. 236) say a genetic defect leaves it unmetabolized, with long recovery and possible ventilator need. StatPearls confirms that plasma cholinesterase is the main route, and that BCHE variants influence the drug's effect.",
+      "whyWrong": {
+        "a": "This describes myasthenia gravis, which would not usually run this way in a family.",
+        "c": "This causes malignant hyperthermia, with fever and rigidity.",
+        "d": "Only about 10% of the drug is excreted unchanged in the urine.",
+        "e": "This drug is short acting because of enzyme breakdown, not redistribution."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), neuromuscular blockers, p. 236"
+        },
+        {
+          "title": "StatPearls: Succinylcholine Chloride",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK499984/"
+        }
+      ]
+    },
+    {
+      "id": "pharm-succinylcholine-hyperkalemia-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Multisystem",
+      "topic": "Neuromuscular blockers: succinylcholine and hyperkalemia",
+      "difficulty": 2,
+      "stem": "A 40-year-old man with severe burns over 40% of his body needs urgent intubation 10 days after injury. He is given succinylcholine. Within minutes, his ECG shows peaked T waves and a wide QRS complex.",
+      "leadIn": "Which of the following best explains this reaction?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Block of renal potassium secretion"
+        },
+        {
+          "id": "b",
+          "text": "Potassium leaving muscle through nicotinic receptors"
+        },
+        {
+          "id": "c",
+          "text": "Hemolysis of red blood cells"
+        },
+        {
+          "id": "d",
+          "text": "Inhibition of Na+/K+ ATPase in the heart"
+        },
+        {
+          "id": "e",
+          "text": "Shift of potassium into muscle by β2 stimulation"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Answer: potassium leaving muscle through nicotinic receptors. Why: Succinylcholine keeps the channel open, so potassium leaks out of muscle cells (your El-Husseiny Neurology notes, p. 237). StatPearls calls hyperkalemia its most common adverse effect, and says stimulation of immature receptors can cause potassium efflux. Burns are a standard-teaching risk factor.",
+      "whyWrong": {
+        "a": "The kidney does not explain this immediate change.",
+        "c": "No hemolysis is described, and this drug does not typically cause it.",
+        "d": "This is how digoxin acts.",
+        "e": "This would lower serum potassium, not raise it."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), neuromuscular blockers, p. 237"
+        },
+        {
+          "title": "StatPearls: Succinylcholine Chloride",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK499984/"
+        },
+        {
+          "title": "StatPearls: Neuromuscular Blocking Agents",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK537168/"
+        }
+      ]
+    },
+    {
+      "id": "pharm-neostigmine-reversal-nondepolarizing-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Multisystem",
+      "topic": "Neuromuscular blockers: reversing a nondepolarizing block",
+      "difficulty": 2,
+      "stem": "At the end of abdominal surgery, a 55-year-old woman who received rocuronium needs reversal of her paralysis. The anesthesiologist gives one drug that raises acetylcholine at the neuromuscular junction. A second drug is given with it to prevent bradycardia and heavy secretions.",
+      "leadIn": "Which of the following is the second drug?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dantrolene"
+        },
+        {
+          "id": "b",
+          "text": "Edrophonium"
+        },
+        {
+          "id": "c",
+          "text": "Glycopyrrolate"
+        },
+        {
+          "id": "d",
+          "text": "Physostigmine"
+        },
+        {
+          "id": "e",
+          "text": "Pyridostigmine"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Answer: glycopyrrolate. Why: Nondepolarizing blockers are competitive, so neostigmine reverses them by raising acetylcholine. Your El-Husseiny Neurology notes (p. 237) add that it must be given with an antimuscarinic to prevent effects such as bradycardia. StatPearls says glycopyrrolate minimizes these muscarinic effects of neostigmine.",
+      "whyWrong": {
+        "a": "Dantrolene treats malignant hyperthermia.",
+        "b": "Edrophonium is itself an acetylcholinesterase inhibitor, so it would add to the muscarinic effects.",
+        "d": "Physostigmine raises acetylcholine too, and it enters the brain.",
+        "e": "Pyridostigmine also raises acetylcholine."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), neuromuscular blockers, p. 237"
+        },
+        {
+          "title": "StatPearls: Muscarinic Antagonists",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK557541/"
+        },
+        {
+          "title": "StatPearls: Neuromuscular Blocking Agents",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK537168/"
+        }
+      ]
+    },
+    {
+      "id": "physio-cerebral-perfusion-pressure-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Nervous System & Special Senses",
+      "topic": "Cerebral perfusion pressure calculation",
+      "difficulty": 1,
+      "stem": "A 24-year-old man has a severe head injury in a motorcycle crash. In the intensive care unit, his blood pressure is 118/71 mm Hg, giving a mean arterial pressure of 87 mm Hg. An intracranial monitor shows a pressure of 32 mm Hg.",
+      "leadIn": "Which of the following is his cerebral perfusion pressure?",
+      "options": [
+        {
+          "id": "a",
+          "text": "32 mm Hg"
+        },
+        {
+          "id": "b",
+          "text": "55 mm Hg"
+        },
+        {
+          "id": "c",
+          "text": "71 mm Hg"
+        },
+        {
+          "id": "d",
+          "text": "87 mm Hg"
+        },
+        {
+          "id": "e",
+          "text": "119 mm Hg"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Answer: 55 mm Hg. Why: CPP = mean arterial pressure - intracranial pressure (your El-Husseiny Neurology notes, p. 148). 87 - 32 = 55 mm Hg. MSD gives the same definition, and sets a goal close to 60 mm Hg in monitored patients with brain injury.",
+      "whyWrong": {
+        "a": "This is the intracranial pressure alone.",
+        "c": "This is the diastolic pressure.",
+        "d": "This is the mean arterial pressure alone.",
+        "e": "This adds the two pressures. The formula subtracts them."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), cerebral perfusion, p. 148"
+        },
+        {
+          "title": "MSD Manual Professional: Traumatic Brain Injury",
+          "url": "https://www.msdmanuals.com/professional/injuries-poisoning/traumatic-brain-injury-tbi/traumatic-brain-injury-tbi"
+        }
+      ]
+    },
+    {
+      "id": "physio-hyperventilation-icp-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Nervous System & Special Senses",
+      "topic": "Brain blood flow: hyperventilation and intracranial pressure",
+      "difficulty": 2,
+      "stem": "A 30-year-old woman has a large head bleed and a dilated right pupil. While the neurosurgical team prepares for surgery, she is briefly hyperventilated on a ventilator, and her intracranial pressure falls within minutes.",
+      "leadIn": "Which of the following best explains the fall in pressure?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dilation of brain arterioles from low PCO2"
+        },
+        {
+          "id": "b",
+          "text": "Constriction of brain arterioles from low PCO2"
+        },
+        {
+          "id": "c",
+          "text": "Constriction of brain arterioles from high PO2"
+        },
+        {
+          "id": "d",
+          "text": "Greater CSF production"
+        },
+        {
+          "id": "e",
+          "text": "Reduced brain tissue water from osmosis"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Answer: constriction of brain arterioles from low PCO2. Why: Hyperventilation lowers PCO2, which constricts brain vessels and reduces blood volume and pressure (your El-Husseiny Neurology notes, p. 148). MSD agrees, and warns that this also lowers perfusion, so it is reserved for the first hours and for pressure unresponsive to other measures.",
+      "whyWrong": {
+        "a": "Low PCO2 constricts, rather than dilates, these vessels.",
+        "c": "Oxygen affects brain flow mainly when PO2 is very low, so this is not the main driver.",
+        "d": "More CSF would raise intracranial pressure.",
+        "e": "This is how mannitol works, not hyperventilation."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), cerebral perfusion, p. 148"
+        },
+        {
+          "title": "MSD Manual Professional: Traumatic Brain Injury",
+          "url": "https://www.msdmanuals.com/professional/injuries-poisoning/traumatic-brain-injury-tbi/traumatic-brain-injury-tbi"
+        }
+      ]
+    },
+    {
+      "id": "ent-cholesteatoma-conductive-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Nervous System & Special Senses",
+      "topic": "Cholesteatoma: conductive hearing loss",
+      "difficulty": 2,
+      "stem": "A 26-year-old woman with repeated childhood ear infections has foul-smelling, painless discharge from her left ear and hearing loss. Otoscopy shows white debris at the top of the eardrum. With a tuning fork on the forehead, the sound is louder on the left. Bone conduction is louder than air conduction on the left.",
+      "leadIn": "Which of the following is the most likely diagnosis?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cholesteatoma"
+        },
+        {
+          "id": "b",
+          "text": "Ménière disease"
+        },
+        {
+          "id": "c",
+          "text": "Otosclerosis"
+        },
+        {
+          "id": "d",
+          "text": "Presbycusis"
+        },
+        {
+          "id": "e",
+          "text": "Vestibular schwannoma"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Answer: cholesteatoma. Why: Your El-Husseiny Neurology notes (p. 66) describe keratin debris in the middle ear that can erode the ossicles and mastoid, with conductive loss and painless discharge. MSD says chronic otitis media can predispose to it. The Weber test lateralizes to the affected ear, and the Rinne test reverses in conductive loss (MSD).",
+      "whyWrong": {
+        "b": "This causes sensorineural loss with vertigo and tinnitus.",
+        "c": "This causes conductive loss but has a normal eardrum and no discharge.",
+        "d": "This is sensorineural, symmetric and age-related.",
+        "e": "This causes sensorineural loss."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), cholesteatoma, p. 66"
+        },
+        {
+          "title": "MSD Manual Professional: Hearing Loss",
+          "url": "https://www.msdmanuals.com/professional/ear-nose-and-throat-disorders/hearing-loss/hearing-loss"
+        }
+      ]
+    },
+    {
+      "id": "ent-presbycusis-hair-cells-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Nervous System & Special Senses",
+      "topic": "Presbycusis: high-frequency loss at the cochlear base",
+      "difficulty": 1,
+      "stem": "A 74-year-old man says he can hear people talking but cannot make out words, especially in restaurants. Hearing loss has developed slowly in both ears. Otoscopy is normal. Air conduction is louder than bone conduction in both ears, and an audiogram shows mainly high-frequency loss.",
+      "leadIn": "Loss of which of the following most likely explains his hearing?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cochlear hair cells at the apex"
+        },
+        {
+          "id": "b",
+          "text": "Cochlear hair cells at the base"
+        },
+        {
+          "id": "c",
+          "text": "Eighth nerve myelin"
+        },
+        {
+          "id": "d",
+          "text": "Mobility of the stapes"
+        },
+        {
+          "id": "e",
+          "text": "Stapedius muscle function"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Answer: cochlear hair cells at the base. Why: Presbycusis is symmetric sensorineural loss of high-pitched sounds, from hair cell loss at the cochlear base (your El-Husseiny Neurology notes, p. 66). MSD says higher frequencies are more affected in age-related loss, and in sensorineural loss, air conduction stays louder than bone.",
+      "whyWrong": {
+        "a": "The apex senses low-frequency sound, which is preserved.",
+        "c": "This would suggest a tumor or demyelination, usually one-sided.",
+        "d": "This is otosclerosis, a conductive loss with reversed Rinne.",
+        "e": "Facial nerve lesions affect this muscle, causing hyperacusis."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), presbycusis, p. 66"
+        },
+        {
+          "title": "MSD Manual Professional: Hearing Loss",
+          "url": "https://www.msdmanuals.com/professional/ear-nose-and-throat-disorders/hearing-loss/hearing-loss"
+        }
+      ]
+    },
+    {
+      "id": "neuro-charcot-marie-tooth-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Genetics",
+      "system": "Nervous System & Special Senses",
+      "topic": "Charcot-Marie-Tooth disease",
+      "difficulty": 2,
+      "stem": "A 15-year-old boy trips often because his feet slap the floor. He has high arches, hammertoes and thin lower legs, with reduced ankle reflexes and mild loss of vibration sense in the toes. His mother has the same foot shape. Nerve conduction velocities are slow.",
+      "leadIn": "This condition most often results from a mutation affecting which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dystrophin"
+        },
+        {
+          "id": "b",
+          "text": "Frataxin"
+        },
+        {
+          "id": "c",
+          "text": "Peripheral myelin protein"
+        },
+        {
+          "id": "d",
+          "text": "Survival motor neuron protein"
+        },
+        {
+          "id": "e",
+          "text": "Voltage-gated calcium channels"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Answer: peripheral myelin protein. Why: This is Charcot-Marie-Tooth disease, a hereditary motor and sensory neuropathy (your El-Husseiny Neurology notes, pp. 162-163). MSD says type 1 results from duplication or deletion of the peripheral myelin protein-22 gene, and describes footdrop, distal muscle atrophy and stork leg deformity.",
+      "whyWrong": {
+        "a": "Dystrophin is mutated in Duchenne muscular dystrophy, which affects proximal muscle.",
+        "b": "Frataxin is linked with Friedreich ataxia, an autosomal recessive disease.",
+        "d": "This is the protein in spinal muscular atrophy, with no sensory loss.",
+        "e": "Antibodies to these cause Lambert-Eaton syndrome."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), demyelinating disease, pp. 162-163"
+        },
+        {
+          "title": "MSD Manual Professional: Hereditary Neuropathies",
+          "url": "https://www.msdmanuals.com/professional/neurologic-disorders/peripheral-nervous-system-and-motor-unit-disorders/hereditary-neuropathies"
+        }
+      ]
+    },
+    {
+      "id": "path-neonatal-ivh-germinal-matrix-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Nervous System & Special Senses",
+      "topic": "Neonatal intraventricular hemorrhage",
+      "difficulty": 2,
+      "stem": "A boy born at 26 weeks' gestation weighing 800 g has a bulging fontanelle, seizures and falling hematocrit on day 2 of life. Cranial ultrasound shows blood in the lateral ventricles.",
+      "leadIn": "The bleeding most likely started in which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bridging veins"
+        },
+        {
+          "id": "b",
+          "text": "Germinal matrix"
+        },
+        {
+          "id": "c",
+          "text": "Lenticulostriate arteries"
+        },
+        {
+          "id": "d",
+          "text": "Middle meningeal artery"
+        },
+        {
+          "id": "e",
+          "text": "Berry aneurysms of the circle of Willis"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Answer: germinal matrix. Why: Your El-Husseiny Neurology notes (p. 169) describe bleeding into the ventricles of premature, low-birth-weight babies, starting in the germinal matrix, a fragile, vascular layer with immature control of blood flow. Risk rises as birth weight falls. A published review describes the same origin in preterm infants.",
+      "whyWrong": {
+        "a": "Tears of these veins cause subdural hematoma.",
+        "c": "These bleed in hypertensive adults.",
+        "d": "Tears of this artery cause epidural hematoma.",
+        "e": "These cause subarachnoid hemorrhage in adults."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), neonatal intraventricular hemorrhage, p. 169"
+        },
+        {
+          "title": "Germinal Matrix-Intraventricular Hemorrhage: A Tale of Preterm Infants (PMC review)",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7987455/"
+        }
+      ]
+    },
+    {
+      "id": "path-diffuse-axonal-injury-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Nervous System & Special Senses",
+      "topic": "Diffuse axonal injury",
+      "difficulty": 2,
+      "stem": "A 19-year-old unbelted driver is in a high-speed crash and is comatose at the scene. CT shows no mass or major bleed. Twelve hours later he remains unresponsive, and MRI shows tiny hemorrhages in the corpus callosum and at the gray-white junction.",
+      "leadIn": "Which of the following best explains his coma?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bleeding from the middle meningeal artery"
+        },
+        {
+          "id": "b",
+          "text": "Cerebral infarction in the MCA territory"
+        },
+        {
+          "id": "c",
+          "text": "Rotational forces shearing axons"
+        },
+        {
+          "id": "d",
+          "text": "Rupture of a berry aneurysm"
+        },
+        {
+          "id": "e",
+          "text": "Tearing of bridging veins"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Answer: rotational forces shearing axons. Why: Your El-Husseiny Neurology notes (p. 170) describe rotational forces at the gray-white junction, where tissue density changes the most. MSD says rotational deceleration causes shear-type forces that disrupt axons, and that small hemorrhages appear in white matter, with MRI more sensitive than CT.",
+      "whyWrong": {
+        "a": "This causes an epidural hematoma, which would be seen on CT.",
+        "b": "This would give a focal territory, not scattered lesions.",
+        "d": "This causes subarachnoid blood, which is not seen here.",
+        "e": "This causes a subdural hematoma, which would be seen on CT."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), diffuse axonal injury, p. 170"
+        },
+        {
+          "title": "MSD Manual Professional: Traumatic Brain Injury",
+          "url": "https://www.msdmanuals.com/professional/injuries-poisoning/traumatic-brain-injury-tbi/traumatic-brain-injury-tbi"
+        }
+      ]
+    },
+    {
+      "id": "path-stroke-red-neurons-timeline-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pathology",
+      "system": "Nervous System & Special Senses",
+      "topic": "Ischemic stroke: microscopic changes over time",
+      "difficulty": 2,
+      "stem": "A 79-year-old woman has a sudden right-sided weakness and dies 18 hours later. A section of the left frontal lobe shows neurons with shrunken, dark nuclei and bright pink cytoplasm. Neutrophils and macrophages are absent.",
+      "leadIn": "Which of the following findings is most likely if she had survived for another 4 days?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A cyst lined by an astroglial scar"
+        },
+        {
+          "id": "b",
+          "text": "Macrophages filled with lipid"
+        },
+        {
+          "id": "c",
+          "text": "Normal tissue with no residual injury"
+        },
+        {
+          "id": "d",
+          "text": "Reactive gliosis with new capillaries around a healed area"
+        },
+        {
+          "id": "e",
+          "text": "Red neurons, with no inflammation"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Answer: macrophages filled with lipid. Why: Your El-Husseiny Neurology notes (p. 175) give the timeline: red neurons at 12-24 hours, necrosis and neutrophils at 24-72 hours, and macrophages clearing debris at 3-5 days. The debris contains myelin, which is why these macrophages fill with lipid. StatPearls describes this dead red neuron finding.",
+      "whyWrong": {
+        "a": "This is a late finding, seen after about 2 weeks.",
+        "c": "Neuronal death is irreversible.",
+        "d": "This is seen after 1-2 weeks, not at 4 days.",
+        "e": "This pattern would be seen at 12-24 hours, as in the section taken from her."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), ischemic stroke timeline, p. 175"
+        },
+        {
+          "title": "StatPearls: Necrosis Pathology",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK557627/"
+        }
+      ]
+    },
+    {
+      "id": "path-subclavian-steal-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Anatomy",
+      "system": "Cardiovascular",
+      "topic": "Subclavian steal syndrome",
+      "difficulty": 2,
+      "stem": "A 66-year-old man who smokes has dizziness and blurred vision when he uses his left arm to paint a ceiling. The left arm also aches and tires quickly. Blood pressure is 152/88 mm Hg in the right arm and 118/70 mm Hg in the left arm.",
+      "leadIn": "Which of the following is the most likely direction of flow in the left vertebral artery during exercise?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Normal forward flow toward the brain, at a higher rate"
+        },
+        {
+          "id": "b",
+          "text": "Reversed flow away from the brain"
+        },
+        {
+          "id": "c",
+          "text": "Reversed flow in the left carotid artery"
+        },
+        {
+          "id": "d",
+          "text": "Stopped flow from a left vertebral clot"
+        },
+        {
+          "id": "e",
+          "text": "Stopped flow from external compression by the first rib"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Answer: reversed flow away from the brain. Why: A narrowed subclavian artery before the vertebral branch cannot supply an exercising arm, so blood flows backward down the vertebral artery (your El-Husseiny Neurology notes, p. 177). MSD describes the same reversal and vertebrobasilar ischemia. A large arm pressure difference fits this (standard teaching; see guide 23).",
+      "whyWrong": {
+        "a": "This would not explain his brainstem symptoms.",
+        "c": "The stenosis lies in the subclavian artery, proximal to the vertebral artery.",
+        "d": "This would not relate to arm exercise.",
+        "e": "This describes thoracic outlet disease, which has different findings."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), subclavian steal syndrome, p. 177"
+        },
+        {
+          "title": "MSD Manual Professional: Transient Ischemic Attack",
+          "url": "https://www.msdmanuals.com/professional/neurologic-disorders/stroke/transient-ischemic-attack"
+        }
+      ]
+    },
+    {
+      "id": "eye-presbyopia-accommodation-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Physiology",
+      "system": "Nervous System & Special Senses",
+      "topic": "Refractive errors: presbyopia and accommodation",
+      "difficulty": 1,
+      "stem": "A 48-year-old accountant has needed to hold documents further away to read them over the last year. Distance vision is unchanged. Eye examination is otherwise normal, with clear lenses and normal pressures.",
+      "leadIn": "Which of the following is the most likely cause of his symptoms?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eye too long for the refractive power"
+        },
+        {
+          "id": "b",
+          "text": "Irregular curvature of the cornea"
+        },
+        {
+          "id": "c",
+          "text": "Loss of lens elasticity"
+        },
+        {
+          "id": "d",
+          "text": "Opacity of the lens"
+        },
+        {
+          "id": "e",
+          "text": "Raised intraocular pressure"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Answer: loss of lens elasticity. Why: Your El-Husseiny Neurology notes (pp. 197-198) describe presbyopia as aging-related loss of accommodation, starting around age 40-50, because the lens is less elastic. MSD agrees, and says a convex lens corrects it for near viewing.",
+      "whyWrong": {
+        "a": "This is myopia, which blurs distance vision.",
+        "b": "This is astigmatism, with blur at all distances.",
+        "d": "This is a cataract, and his lenses are clear.",
+        "e": "This is glaucoma, and his pressures are normal."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), refractive errors and presbyopia, pp. 197-198"
+        },
+        {
+          "title": "MSD Manual Professional: Overview of Refractive Error",
+          "url": "https://www.msdmanuals.com/professional/eye-disorders/refractive-error/overview-of-refractive-error"
+        }
+      ]
+    },
+    {
+      "id": "eye-cmv-retinitis-aids-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Microbiology",
+      "system": "Nervous System & Special Senses",
+      "topic": "CMV retinitis in AIDS",
+      "difficulty": 1,
+      "stem": "A 39-year-old man with untreated HIV infection has blurred vision and floaters in one eye. His CD4 count is 32/mm3. Funduscopy shows yellow-white, fluffy lesions along the retinal vessels with areas of hemorrhage.",
+      "leadIn": "Which of the following drugs is the most appropriate treatment?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Acyclovir"
+        },
+        {
+          "id": "b",
+          "text": "Amphotericin B"
+        },
+        {
+          "id": "c",
+          "text": "Ganciclovir"
+        },
+        {
+          "id": "d",
+          "text": "Pyrimethamine"
+        },
+        {
+          "id": "e",
+          "text": "Ribavirin"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Answer: ganciclovir. Why: Your El-Husseiny Neurology notes (p. 207) call CMV retinitis the most common ocular disease in untreated AIDS with CD4 under 50/mm3, with yellow-white, fluffy lesions and hemorrhage near vessels. MSD lists IV ganciclovir or oral valganciclovir as typical first-line options.",
+      "whyWrong": {
+        "a": "Acyclovir has no reliable CMV activity.",
+        "b": "This antifungal treats infections such as cryptococcal meningitis.",
+        "d": "This treats toxoplasmosis, including its retinal form, which has different findings.",
+        "e": "This antiviral is used for hepatitis C and RSV, not CMV."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), retinal disease, p. 207"
+        },
+        {
+          "title": "MSD Manual Professional: Cytomegalovirus Infection",
+          "url": "https://www.msdmanuals.com/professional/infectious-diseases/herpesviruses/cytomegalovirus-cmv-infection"
+        }
+      ]
+    },
+    {
+      "id": "pharm-suvorexant-orexin-001",
+      "exams": [
+        "usmle-step1",
+        "nbme"
+      ],
+      "discipline": "Pharmacology",
+      "system": "Behavioral Health",
+      "topic": "Insomnia drugs: mechanisms",
+      "difficulty": 2,
+      "stem": "A 58-year-old woman with long-standing insomnia wants a sleep medicine. She has had complex sleep behaviors with zolpidem. Her physician chooses a drug that blocks a wake-promoting neuropeptide signal from the hypothalamus. The physician warns that this drug should be avoided in patients with narcolepsy.",
+      "leadIn": "Which of the following drugs was most likely chosen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Diazepam"
+        },
+        {
+          "id": "b",
+          "text": "Diphenhydramine"
+        },
+        {
+          "id": "c",
+          "text": "Ramelteon"
+        },
+        {
+          "id": "d",
+          "text": "Suvorexant"
+        },
+        {
+          "id": "e",
+          "text": "Zaleplon"
+        }
+      ],
+      "answer": "d",
+      "explanation": "Answer: suvorexant. Why: Your El-Husseiny Neurology notes (p. 228) describe suvorexant as an orexin (hypocretin) receptor antagonist that is contraindicated in narcolepsy. MSD's hypnotic table lists suvorexant as an orexin receptor antagonist, ramelteon as a melatonin agonist and zolpidem as a nonbenzodiazepine benzodiazepine-receptor agonist.",
+      "whyWrong": {
+        "a": "Diazepam is a benzodiazepine, acting at the GABA-A receptor.",
+        "b": "Diphenhydramine is an H1 antagonist with anticholinergic effects.",
+        "c": "Ramelteon is a melatonin receptor agonist, acting at the suprachiasmatic nucleus.",
+        "e": "Zaleplon is a Z-drug, acting at the benzodiazepine site of the GABA-A receptor."
+      },
+      "sources": [
+        {
+          "title": "El-Husseiny's Essentials for USMLE Step 1: Neurology (Emily's file), hypnotics, p. 228"
+        },
+        {
+          "title": "MSD Manual Professional: Oral Hypnotics in Common Use",
+          "url": "https://www.msdmanuals.com/professional/multimedia/table/oral-hypnotics-in-common-use"
+        }
+      ]
     }
   ]
 }
