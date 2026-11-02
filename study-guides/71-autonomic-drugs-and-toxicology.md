@@ -1,6 +1,6 @@
 # Autonomic drugs and toxicology
 
-Exam focus: USMLE Step 1 and NBME · Study material, not patient care guidance · Auditor: pending
+Exam focus: USMLE Step 1 and NBME · Study material, not patient care guidance · Auditor: cleared 2026-11-02
 Based on your notes: El-Husseiny's Essentials: General Principles (autonomic nervous system pp. 54-58, cholinergic drugs pp. 59-63, adrenergic drugs pp. 65-70, phosphodiesterase inhibitors p. 71, toxins and antidotes pp. 72-73, drug reactions pp. 73-77). Each fact is also checked against StatPearls and the MSD Manual; where a different source adds to your notes, a marked note says so.
 
 ## In one line

@@ -1,6 +1,6 @@
 # Neurology odds and ends: anterior horn disease, Klüver-Bucy, touch receptors, vomiting, jugular foramen, blowout fracture, muscle relaxants
 
-Exam focus: USMLE Step 1 and NBME · Study material, not patient care guidance · Auditor: pending
+Exam focus: USMLE Step 1 and NBME · Study material, not patient care guidance · Auditor: cleared 2026-11-02
 Based on your notes: El-Husseiny's Essentials of Neurology (pp. 30, 86, 132-133, 142, 145, 148, 208, 236-237). These topics did not fit any earlier guide. Each fact is also checked against StatPearls and the MSD Manual; where a newer source disagrees with your notes, a marked note says so.
 
 ## In one line

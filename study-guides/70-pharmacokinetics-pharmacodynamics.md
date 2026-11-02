@@ -1,6 +1,6 @@
 # General pharmacology: how drugs move and how they act
 
-Exam focus: USMLE Step 1 and NBME · Study material, not patient care guidance · Auditor: pending
+Exam focus: USMLE Step 1 and NBME · Study material, not patient care guidance · Auditor: cleared 2026-11-02
 Based on your notes: El-Husseiny's Essentials: General Principles (pharmacokinetics pp. 30-46, pharmacodynamics pp. 47-52). Each fact is also checked against StatPearls and the MSD Manual; where a different source adds to your notes, a marked note says so.
 
 ## In one line

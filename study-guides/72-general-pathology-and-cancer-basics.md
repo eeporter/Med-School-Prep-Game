@@ -1,6 +1,6 @@
 # General pathology and cancer basics
 
-Exam focus: USMLE Step 1 and NBME · Study material, not patient care guidance · Auditor: pending
+Exam focus: USMLE Step 1 and NBME · Study material, not patient care guidance · Auditor: cleared 2026-11-02
 Based on your notes: El-Husseiny's Essentials: General Principles (cell death and injury pp. 2-10, inflammation and repair pp. 11-17, adaptation and neoplasia pp. 18-28). Each fact is also checked against StatPearls, the MSD Manual, the National Cancer Institute and the American Cancer Society; where a newer or different source disagrees with your notes, a marked note says so.
 
 ## In one line
