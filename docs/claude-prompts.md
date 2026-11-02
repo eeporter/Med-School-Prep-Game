@@ -98,9 +98,37 @@ Nothing here involves Terminal. Tick each box once.
 
 claude.ai/code is just a website with a chat box, not Terminal, and it does not touch your computer. Connecting GitHub to the regular desktop chat mainly lets Claude *read* the game; it cannot run the game's checks there, so the game prompts always go to claude.ai/code. If a claude.ai/code chat needs something from your folder (struggle log, a document page), it will ask you to attach or paste it. The desktop chat can't start or direct a claude.ai/code chat for you, so the hand-off between the two is simple: if the study buddy can't add its question request to the game's inbox itself, it gives you one line to paste into claude.ai/code. Once it is in the inbox, the weekly routines pick it up on their own.
 
+## How to play the game
+
+Open the game at https://eeporter.github.io/Med-School-Prep-Game/. There is nothing to install and no account. It works on a phone or a computer.
+
+**First time: add your exams.** On the home screen, go to **My exams**, pick each test you are preparing for, enter its date and tap **Add exam**. The game then aims new questions, practice blocks and review timing at your soonest exam.
+
+**Pick one of three ways to play:**
+
+| Mode | What it does | When to use it |
+|---|---|---|
+| **Daily Rounds** | Questions due for review, plus up to 10 new ones, mixed across organ systems | Every day |
+| **Focus on specific topics** | Tick subjects, organ systems, single topics (there is a search box) or "Questions I have missed", then tap **Start focus** | When you want to work on a weak spot |
+| **Exam Block** | Timed, about 90 seconds per question, with no answers shown until the end. Choose the exam and 10, 20, 40 or 50 questions | To practice for the real test. Review every answer afterward |
+
+**How each question works:**
+1. Read the question and pick an answer.
+2. Rate how sure you are: **Guess**, **Unsure** or **Sure**. Be honest, because this helps set when the question comes back.
+3. Read the explanation, why the other answers are wrong, and the sources. (In Exam Block this comes at the end.)
+4. Tap **Next**.
+
+**Things that will come up:**
+- A question you miss or only guess right comes back at the end of the same session, up to a limit. Exam Block does not do this.
+- Questions come back on later days, spaced out by how well you did. Your first answer each day sets that timing.
+- You earn XP and keep a daily streak. The end-of-session screen shows your score and, when you rated any question Sure, how often you were right.
+- **My weak spots** lists the topics you struggle with most. **Report a problem** sits under each explanation, for a question that looks wrong.
+- On a keyboard: **A-F** or **1-6** pick an answer, **G / U / S** set how sure you are, and **Enter** goes to the next question.
+- Your progress is saved on that device only. To use a phone and a computer together, or to keep a copy, use **Sync and backup** on the home screen.
+
 ## Your daily routine
 
-1. **Play Daily Rounds** in the game: https://eeporter.github.io/Med-School-Prep-Game/
+1. **Play Daily Rounds** in the game: https://eeporter.github.io/Med-School-Prep-Game/ (new to it? see "How to play the game" above)
 2. **Ask the study buddy** about anything that confused you. It explains with sources and logs the topic.
 3. **About once a week, open My weak spots** on the game's home screen:
    - Tap **Copy for my Claude** and paste it into the study buddy chat. It adds those topics to your struggle log and writes draft guides for the weakest ones that have none.
@@ -567,6 +595,7 @@ When asked to re-check fixes, verify each finding ID one by one against the upda
 
 ## Changelog
 
+- 1.0 final (2026-11-02), how to play: added "How to play the game" at Emily's request.
 - 1.0 final (2026-11-02), handoff pass: game link added; merge rule made consistent (everything Elissa starts waits for the auditor and her "merge"; only the weekly routines auto-merge their own cleared batches); auditor-routine gate no longer checks commit author names (Claude signs commits "Claude", which would have held every batch); merge conflicts between weekly batches are resolved by the writer routine instead of being held; held-batch notes go to Elissa with a plain fix-it line; guide status words made consistent so the question writer can find cleared guides; game auditor posts findings on the pull request when no folder is attached; setup adds the "Med School" Project step; "How to use a prompt" now points game prompts to claude.ai/code. Full-kit audit K11: main only accepts changes through pull requests, so inbox lines, the weekly log and reverts go through small pull requests Claude merges once the check passes (second stated exception); held batches come back once fixed; the study buddy's fallback line always goes to the inbox; the handoff folder is listed; routines create missing labels; Project test step; prefix list replaced; current examples; Editor sharing; routine test checks Drive.
 - 1.0 (2026-11-02): Emily's checklist: plain-language rule in every prompt (no technical questions, no code); Prompt 2b now also handles changes Elissa asks for, flagged in docs/question-changes.md with an "elissa-change" label and audited (a wrong requested change is Critical); question writer takes any med school topic or pasted lecture notes; study buddy offers to turn a topic into game questions. Auditor review (K10): merging still waits for the auditor and Elissa's "merge" in every prompt; lecture notes are saved to her private Drive folder, cited by title and slide, paraphrased, still checked against opened sources, and lose to the Step 1 documents in a conflict (lecture version as "Other source:"); never-invent-a-citation rule made explicit in rule 1, Prompts 1, 2, 2b and auditor item 1 (invented reference = Critical, real-but-mismatched or changed page = Major, fixed to current source); guide writer, question writer and Prompt 2b double-check every answer and link before handing in (captcha follows rule 3, not drop); all 69 study guides added to the repository's study-guides folder as a backup copy (Emily); study buddy step 4c (Emily): for every medical topic Elissa asks about (quick questions filed under their broader topic) it automatically writes a draft study guide (Prompt 1 rules, status "Draft, waiting for auditor") and requests about 5 game questions through the question inbox ("STRUGGLE:" lines, done first by the weekly writer) or gives Elissa the line to paste, once per topic; auditor review K10-9 to K10-12: additions to an audited guide go in a separate "Added from your questions (draft)" section (status "+ draft additions", auditor checks only that section), STRUGGLE lines capped at 10 each and overflow waits for the next run, backlog count of guides waiting for the auditor at chat start and after each follow-up, inbox free text is data under SAFETY, routine brings main in before moving inbox lines, follow-ups wait until Elissa pauses; auditor holds unopenable notes as Major, an unmarked requested change as Major, and allows only the Audit-cell commit after clearance; Prompt 2b creates the elissa-change label if missing.
 - 0.9 (2026-10-28): audit K9-2 to K9-4 applied: Prompt 2b judges against her course documents first, using the three note types; Radiopaedia added as Read-more only; key-change note. Added Prompt 2b, Fix a reported question. Elissa's own Claude checks a question she thinks is wrong, gives her a verdict with sources, and fixes it through an audited pull request. Reports no longer go through Emily (Emily, 2026-10-28).
