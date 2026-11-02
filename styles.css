@@ -125,6 +125,9 @@ details.report summary { font-weight: normal; color: var(--muted); font-size: 0.
 .report-form { display: flex; flex-direction: column; gap: 6px; margin-top: 6px; max-width: 28rem; }
 .report-form textarea, .fallback { width: 100%; box-sizing: border-box; font: inherit; font-size: 0.9rem; padding: 6px; border-radius: 6px; border: 1px solid var(--border); background: var(--surface); color: var(--text); }
 .report-form button { align-self: flex-start; }
-.weak .row, .reports .row { display: flex; flex-wrap: wrap; gap: 8px; }
+.weak .row, .reports .row, .progress .row { display: flex; flex-wrap: wrap; gap: 8px; }
+.progress h3 { font-size: 1rem; margin: 16px 0 4px; }
+.progress input[type=text] { display: block; width: 100%; max-width: 22em; font: inherit; padding: 6px; margin: 4px 0 8px; border-radius: 6px; border: 1px solid var(--border); background: var(--surface); color: var(--text); }
+.code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: 0.05em; }
 #weak-list li { margin-bottom: 4px; }
 
