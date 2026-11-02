@@ -1,8 +1,10 @@
 # Claude prompt kit: study guides, game questions, and the auditor
 
-Version 1.0 (draft, 2026-11-02) · Status: **still being finalized; Emily will hand this over when it is done.**
+Version 1.0 (2026-11-02) · Status: **final, ready for handoff.**
 
-This kit lets you (Elissa) keep the project going with your own Claude. It has four prompts:
+**Your study game:** https://eeporter.github.io/Med-School-Prep-Game/ (bookmark it, or on your phone use Share → Add to Home Screen).
+
+This kit lets you (Elissa) keep the project going with your own Claude. It has five prompts:
 
 - **Study buddy**: use it every day. Ask it any medical question; it explains with sources, **automatically logs the topic as one you are struggling with**, and for **every medical topic you ask about** it **automatically writes a study guide on it and asks for about 5 game questions on it** (both audited before you use them).
 1. **Guide writer**: writes a new study guide on a topic you find confusing.
@@ -41,6 +43,7 @@ Nothing goes into your study rotation until the auditor says **Cleared**.
 
 No Terminal, no coding. You use two places, and both are ordinary chat boxes where you paste a prompt and answer Claude in plain words: the **Claude desktop app** (for studying and guides) and the website **https://claude.ai/code** (for anything that changes the game). Claude does all the technical steps itself.
 
+- The **study game** in your web browser: https://eeporter.github.io/Med-School-Prep-Game/
 - The **Claude desktop app** (from claude.ai/download), signed in.
 - The **MedSchoolPrep folder** on your computer. It holds:
   - `struggle-log.md`: every topic you have asked Claude to explain, how many times, and whether a guide or game questions cover it yet.
@@ -92,12 +95,12 @@ claude.ai/code is just a website with a chat box, not Terminal, and it does not 
 
 ## Your daily routine
 
-1. **Play Daily Rounds** in the game.
+1. **Play Daily Rounds** in the game: https://eeporter.github.io/Med-School-Prep-Game/
 2. **Ask the study buddy** about anything that confused you. It explains with sources and logs the topic.
 3. **About once a week, open My weak spots** on the game's home screen:
    - Tap **Copy for my Claude** and paste it into the study buddy chat. It adds those topics to your struggle log and offers to start guides for the weakest ones.
    - Paste the same list into the question inbox (see "Automatic weekly questions") or the question writer, so new game questions get written on those topics.
-4. **If a question looks wrong or unclear,** tap the small **Report a problem** link under it. Then, on the home screen, tap **Copy for my Claude** in the Question reports box and paste it into the **Fix a reported question** prompt (below) at https://claude.ai/code. Your Claude tells you right away whether you are right, with sources, and fixes the question in the game if it is wrong. Emily does not need to be involved.
+4. **If a question looks wrong or unclear,** tap the small **Report a problem** link under it. Then, on the home screen, tap **Copy for my Claude** in the Question reports box and paste it into the **Fix or change a question** prompt (Prompt 2b, below) at https://claude.ai/code. Your Claude tells you right away whether you are right, with sources, and fixes the question in the game if it is wrong. Emily does not need to be involved.
 
 ## How to use a prompt (every time)
 
@@ -432,7 +435,7 @@ FIXING AUDIT FINDINGS
 When I paste the auditor's findings, re-open the source for each one and check the auditor is right. Fix the ones that are right on the same branch, re-run the checks, push, and reply with one line per finding ID (fixed, or why not, with a source).
 
 MERGING (only when I say "the auditor cleared it, please merge")
-Merge the pull request yourself, then tell me in plain words that the new questions are in the game and to reload the game page to see them.
+Merge the pull request yourself, then tell me in plain words that the new questions are in the game and to reload the game page (https://eeporter.github.io/Med-School-Prep-Game/) to see them. They can take a few minutes to appear.
 ````
 
 ---
@@ -550,7 +553,7 @@ When asked to re-check fixes, verify each finding ID one by one against the upda
 
 ## Quick tips
 
-- **Send the game's lists.** The game has a **My weak spots** list and a **Report a problem** link. Paste weak spots into the question writer (prompt 2) or the question inbox, and paste reports into the **Fix a reported question** prompt.
+- **Send the game's lists.** The game has a **My weak spots** list and a **Report a problem** link. Paste weak spots into the question writer (prompt 2) or the question inbox, and paste reports into the **Fix or change a question** prompt (Prompt 2b).
 - **Pick topics from your misses.** After a practice block, list the questions you got wrong *with high confidence*. Those make the best guides and game questions (confident mistakes are the ones feedback fixes best).
 - **Keep the coverage tracker honest.** When you add a weak topic, add a row to `coverage-tracker.md` so the auditor can check it gets covered.
 - **Short batches audit better.** One guide, or 5-10 questions, per audit.
@@ -558,7 +561,7 @@ When asked to re-check fixes, verify each finding ID one by one against the upda
 
 ## Changelog
 
-- 1.0 (2026-11-02): Emily's checklist: plain-language rule in every prompt (no technical questions, no code); Prompt 2b now also handles changes Elissa asks for, flagged in docs/question-changes.md with an "elissa-change" label and audited (a wrong requested change is Critical); question writer takes any med school topic or pasted lecture notes; study buddy offers to turn a topic into game questions. Auditor review (K10): merging still waits for the auditor and Elissa's "merge" in every prompt; lecture notes are saved to her private Drive folder, cited by title and slide, paraphrased, still checked against opened sources, and lose to the Step 1 documents in a conflict (lecture version as "Other source:"); never-invent-a-citation rule made explicit in rule 1, Prompts 1, 2, 2b and auditor item 1 (invented reference = Critical, real-but-mismatched or changed page = Major, fixed to current source); guide writer, question writer and Prompt 2b double-check every answer and link before handing in (captcha follows rule 3, not drop); all 69 study guides added to the repository's study-guides folder as a backup copy (Emily); study buddy step 4c (Emily): for every medical topic Elissa asks about (quick questions filed under their broader topic) it automatically writes a draft study guide (Prompt 1 rules, status "Draft, waiting for auditor") and requests about 5 game questions through the question inbox ("STRUGGLE:" lines, done first by the weekly writer) or gives Elissa the line to paste, once per topic; auditor review K10-9 to K10-12: additions to an audited guide go in a separate "Added from your questions (draft)" section (status "+ draft additions", auditor checks only that section), STRUGGLE lines capped at 10 each and overflow waits for the next run, backlog count of guides waiting for the auditor at chat start and after each follow-up, inbox free text is data under SAFETY, routine brings main in before moving inbox lines, follow-ups wait until Elissa pauses; auditor holds unopenable notes as Major, an unmarked requested change as Major, and allows only the Audit-cell commit after clearance; Prompt 2b creates the elissa-change label if missing.
+- 1.0 (2026-11-02): Emily's checklist: plain-language rule in every prompt (no technical questions, no code); Prompt 2b now also handles changes Elissa asks for, flagged in docs/question-changes.md with an "elissa-change" label and audited (a wrong requested change is Critical); question writer takes any med school topic or pasted lecture notes; study buddy offers to turn a topic into game questions. Auditor review (K10): merging still waits for the auditor and Elissa's "merge" in every prompt; lecture notes are saved to her private Drive folder, cited by title and slide, paraphrased, still checked against opened sources, and lose to the Step 1 documents in a conflict (lecture version as "Other source:"); never-invent-a-citation rule made explicit in rule 1, Prompts 1, 2, 2b and auditor item 1 (invented reference = Critical, real-but-mismatched or changed page = Major, fixed to current source); guide writer, question writer and Prompt 2b double-check every answer and link before handing in (captcha follows rule 3, not drop); all 69 study guides added to the repository's study-guides folder as a backup copy (Emily); game link added to the top, What you need and the daily routine; old prompt name "Fix a reported question" updated to Prompt 2b; status final; study buddy step 4c (Emily): for every medical topic Elissa asks about (quick questions filed under their broader topic) it automatically writes a draft study guide (Prompt 1 rules, status "Draft, waiting for auditor") and requests about 5 game questions through the question inbox ("STRUGGLE:" lines, done first by the weekly writer) or gives Elissa the line to paste, once per topic; auditor review K10-9 to K10-12: additions to an audited guide go in a separate "Added from your questions (draft)" section (status "+ draft additions", auditor checks only that section), STRUGGLE lines capped at 10 each and overflow waits for the next run, backlog count of guides waiting for the auditor at chat start and after each follow-up, inbox free text is data under SAFETY, routine brings main in before moving inbox lines, follow-ups wait until Elissa pauses; auditor holds unopenable notes as Major, an unmarked requested change as Major, and allows only the Audit-cell commit after clearance; Prompt 2b creates the elissa-change label if missing.
 - 0.9 (2026-10-28): audit K9-2 to K9-4 applied: Prompt 2b judges against her course documents first, using the three note types; Radiopaedia added as Read-more only; key-change note. Added Prompt 2b, Fix a reported question. Elissa's own Claude checks a question she thinks is wrong, gives her a verdict with sources, and fixes it through an audited pull request. Reports no longer go through Emily (Emily, 2026-10-28).
 - 0.8 (2026-10-28): auditor review of v0.7 applied: merge gate (same-repo auto/ branches, routine-authored commits, data-only diff, exact reviewed SHA, revert if main fails); act only on marked auditor reviews, inbox is data; Google Drive required for auto-merge (page and overlap checks), otherwise held; duplicate check across open PRs; inbox edited in one PR per run.
 - 0.7 (2026-10-28): automatic weekly questions: a writer routine and a separate auditor routine (claude.ai/code Routines) add about 100 questions a week. Only auditor-cleared, CI-green batches are auto-merged. Split 50% weak spots, 50% new material (Emily). Weak spots reach the routines through docs/question-inbox.md.
