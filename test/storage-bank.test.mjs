@@ -90,6 +90,8 @@ test('validator catches each schema problem', () => {
     [(q) => { q.difficulty = 7; }, /difficulty/],
     [(q) => { q.readMore = [{ title: 'x', url: 'http://insecure' }]; }, /readMore/],
     [(q) => { q.readMore = [{ url: 'https://example.org/b' }]; }, /readMore/],
+    [(q) => { q.whyWrong.b = 'See ({emi}, p. 40).'; }, /placeholder/],
+    [(q) => { q.explanation = 'Why: {Op} say so.'; }, /placeholder/],
   ];
   for (const [mutate, pattern] of cases) {
     const q = good();

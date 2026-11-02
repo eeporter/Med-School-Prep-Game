@@ -21,6 +21,8 @@ export const SYSTEMS = Object.freeze([
 
 const BANNED_OPTION_TEXT = /\b(all|none) of the above\b/i;
 const NEGATIVE_LEAD_IN = /\b(EXCEPT|NOT|LEAST)\b/;
+// A leftover template slot such as {emi} from the batch build scripts.
+const PLACEHOLDER = /\{[\w-]+\}/;
 
 const nonEmpty = (s) => typeof s === 'string' && s.trim().length > 0;
 
@@ -66,6 +68,12 @@ export function validateQuestion(q) {
   }
 
   if (!nonEmpty(q.explanation)) err('explanation is empty');
+
+  const texts = [q.stem, q.leadIn, q.topic, q.explanation,
+    ...(Array.isArray(q.options) ? q.options.map((o) => o && o.text) : []),
+    ...(q.whyWrong && typeof q.whyWrong === 'object' ? Object.values(q.whyWrong) : []),
+    ...(Array.isArray(q.sources) ? q.sources.map((s) => s && s.title) : [])];
+  if (texts.some((t) => typeof t === 'string' && PLACEHOLDER.test(t))) err('text contains an unfilled {placeholder}');
   if (!Array.isArray(q.sources) || q.sources.length === 0 || !q.sources.every((s) => s && nonEmpty(s.title))) {
     err('sources must list at least one source with a title');
   } else {
