@@ -1,6 +1,6 @@
 # Med School Prep Game
 
-A free, open-source study game for **USMLE Step 1** and **NBME** exams. It runs in the browser with no account and no server. Progress is saved on your own device. Under **Sync and backup** you can save a backup file and restore it on another device, or turn on sync so a phone and a computer stay in step (one-time setup: [docs/sync-setup.md](docs/sync-setup.md)).
+A free, open-source study game for **USMLE Step 1** and **NBME** exams. Play it at **https://medschool-sync.web.app**. It runs in the browser with no server of its own. Progress is saved on your own device. Under **Sync and backup** you can save a backup file and restore it on another device, or sign in with Google so a phone and a computer stay in step (setup: [docs/sync-setup.md](docs/sync-setup.md)).
 
 > Study material only. Not patient-care guidance.
 
@@ -27,7 +27,7 @@ npm run serve        # or: python3 -m http.server 8000
 # open http://localhost:8000
 ```
 
-It also works on GitHub Pages (Settings → Pages → deploy from `main`).
+The live site is published to Firebase Hosting by `.github/workflows/deploy.yml` after each merge to `main`. Sign-in only appears on the Firebase-hosted site; a local copy offers backup files only.
 
 ## Questions
 

@@ -1,6 +1,7 @@
-// Moving progress between devices: backup files, sync codes, and a merge
-// that never loses an answer. Everything here is pure except pullRemote and
-// pushRemote, which take a fetch function so tests can stub the network.
+// Moving progress between devices: backup files, a synced copy per signed-in
+// account, and a merge that never loses an answer. Everything here is pure
+// except pullRemote and pushRemote, which take a fetch function so tests can
+// stub the network.
 //
 // Merge rules (run the same on every device, so the result does not depend on
 // which device syncs first):
@@ -155,10 +156,10 @@ export function readBackup(text) {
   return { state: sanitize(candidate) };
 }
 
-// ---- Sync codes ----
+// ---- Random codes (device ids and the hand-over from the old site) ----
 
-// Crockford base32: no I, L, O or U, so a code read aloud or retyped is hard
-// to get wrong. 20 characters carry 100 random bits, too many to guess.
+// Crockford base32: no I, L, O or U. 20 characters carry 100 random bits,
+// too many to guess.
 const ALPHABET = '0123456789ABCDEFGHJKMNPQRSTVWXYZ';
 export const CODE_LENGTH = 20;
 
@@ -169,7 +170,7 @@ export function makeSyncCode(randomBytes) {
   return s;
 }
 
-// Forgiving input: any case, spaces or dashes, and I/L/O typed for 1/1/0.
+// Forgiving input: any case, spaces or dashes, and I/L/O read as 1/1/0.
 export function normalizeSyncCode(input) {
   if (typeof input !== 'string') return null;
   const s = input.toUpperCase().replace(/[\s-]/g, '').replace(/[IL]/g, '1').replace(/O/g, '0');
@@ -177,39 +178,58 @@ export function normalizeSyncCode(input) {
   return s;
 }
 
-export const formatSyncCode = (code) => code.match(/.{1,5}/g).join('-');
+// ---- Remote copy (one Firestore document, via its REST API) ----
 
-// ---- Remote copy (one Firestore document per sync code, via its REST API) ----
+const FIRESTORE = 'https://firestore.googleapis.com/v1';
 
-export function remoteUrl(config, code) {
-  const base = `https://firestore.googleapis.com/v1/projects/${encodeURIComponent(config.projectId)}/databases/(default)/documents/progress/${code}`;
-  return config.apiKey ? `${base}?key=${encodeURIComponent(config.apiKey)}` : base;
+// path is e.g. "users/<uid>" (a signed-in account) or "progress/<code>"
+// (a one-time hand-over from the old site).
+export function docUrl(projectId, path) {
+  return `${FIRESTORE}/projects/${encodeURIComponent(projectId)}/databases/(default)/documents/${path}`;
 }
 
-// Returns the saved progress, or null when nothing has been saved under this code yet.
-export async function pullRemote(fetchFn, config, code) {
-  const res = await fetchFn(remoteUrl(config, code), { cache: 'no-store' });
+export const accountPath = (uid) => `users/${encodeURIComponent(uid)}`;
+export const handoverPath = (code) => `progress/${code}`;
+
+const authHeaders = (token) => (token ? { Authorization: `Bearer ${token}` } : {});
+
+export class SyncError extends Error {
+  constructor(message, status) {
+    super(message);
+    this.status = status;
+  }
+}
+
+// Returns the saved progress, or null when nothing has been saved there yet.
+export async function pullRemote(fetchFn, url, token = null) {
+  const res = await fetchFn(url, { cache: 'no-store', headers: authHeaders(token) });
   if (res.status === 404) return null;
-  if (!res.ok) throw new Error(`Sync download failed (${res.status})`);
+  if (!res.ok) throw new SyncError(`Sync download failed (${res.status})`, res.status);
   const doc = await res.json();
   const text = doc?.fields?.data?.stringValue;
   if (typeof text !== 'string') return null;
   return sanitize(JSON.parse(text));
 }
 
-export async function pushRemote(fetchFn, config, code, state) {
-  const res = await fetchFn(remoteUrl(config, code), {
+export async function pushRemote(fetchFn, url, state, token = null) {
+  const res = await fetchFn(url, {
     method: 'PATCH',
-    headers: { 'Content-Type': 'application/json' },
+    headers: { 'Content-Type': 'application/json', ...authHeaders(token) },
     body: JSON.stringify({ fields: { data: { stringValue: JSON.stringify(state) } } }),
   });
-  if (!res.ok) throw new Error(`Sync upload failed (${res.status})`);
+  if (!res.ok) throw new SyncError(`Sync upload failed (${res.status})`, res.status);
 }
 
 // Download, merge with this device, upload the result. Returns the merged progress.
-export async function syncOnce(fetchFn, config, code, local) {
-  const remote = await pullRemote(fetchFn, config, code);
+export async function syncOnce(fetchFn, url, local, token = null) {
+  const remote = await pullRemote(fetchFn, url, token);
   const merged = remote ? mergeStates(local, remote) : sanitize(local);
-  await pushRemote(fetchFn, config, code, merged);
+  await pushRemote(fetchFn, url, merged, token);
   return merged;
+}
+
+// True when there is anything worth carrying to another site.
+export function hasProgress(s) {
+  return Object.keys(s.cards).length > 0 || s.history.length > 0 || s.xp > 0
+    || s.exams.length > 0 || s.reports.length > 0;
 }

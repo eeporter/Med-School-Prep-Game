@@ -3,21 +3,22 @@
 import { usableQuestions, DISCIPLINES, SYSTEMS } from './bank.js';
 import { review, isDue, isMastered, isStruggling, newCard, reviewedOn } from './scheduler.js';
 import { presentQuestion, isCorrect, xpFor, levelFor, interleave, shuffle, updateStreak, needsRelearning, sureAccuracy, topicKey, matchesFocus } from './quiz.js';
-import { load, save, isDayString } from './storage.js';
+import { load, save, isDayString, emptyState } from './storage.js';
 import { EXAM_TYPES, SUBJECT_EXAMS, SECONDS_PER_QUESTION, examLabel, examFormat, examScope, nextExam, weightedSample } from './exams.js';
 import { today, daysBetween, parseDayString } from './dates.js';
 import { REPORT_REASONS, weakSpots, weakSpotsText, describeSpot, addReport, reportsText } from './insights.js';
 import {
-  addXp, mergeStates, backupText, backupFileName, readBackup, makeSyncCode, normalizeSyncCode, formatSyncCode,
-  syncOnce, pullRemote, examKey, reportKey, markRemoved, markAdded,
+  addXp, mergeStates, backupText, backupFileName, readBackup, makeSyncCode,
+  syncOnce, pullRemote, pushRemote, docUrl, accountPath, handoverPath, hasProgress, SyncError,
+  examKey, reportKey, markRemoved, markAdded,
 } from './sync.js';
-import { SYNC_CONFIG } from './sync-config.js';
+import { OLD_HOST, MOVED_TO, HANDOVER_PROJECT } from './sync-config.js';
+import { loadFirebaseSettings, readHandoverCode, signInProblem, startAccount } from './account.js';
 import { HOWTO_KEY, howToStartsOpen, howToValue } from './howto.js';
 
 const NEW_PER_ROUNDS = 10;
 const FOCUS_KEY = 'med-prep-focus';
 const DEVICE_KEY = 'med-study-game:device';
-const SYNC_KEY = 'med-study-game:sync-code';
 // After a change, wait this long before syncing, so a run of answers goes up together.
 const SYNC_DELAY_MS = 8000;
 // A question missed again and again is re-asked at most this many extra times
@@ -37,7 +38,9 @@ try { storage = window.localStorage; } catch { storage = null; }
 
 let state = load(storage);
 const deviceId = loadDeviceId();
-let syncCode = loadSyncCode();
+let settings = null; // Firebase settings, when this site has them
+let account = null; // signed-in helpers from startAccount
+let user = null; // the signed-in Google user, or null
 let syncTimer = null;
 let syncing = null;
 let questions = [];
@@ -70,19 +73,6 @@ function loadDeviceId() {
   }
 }
 
-function loadSyncCode() {
-  if (!SYNC_CONFIG) return null;
-  try { return normalizeSyncCode(storage?.getItem(SYNC_KEY) ?? ''); } catch { return null; }
-}
-
-function setSyncCode(code) {
-  syncCode = code;
-  try {
-    if (code) storage?.setItem(SYNC_KEY, code);
-    else storage?.removeItem(SYNC_KEY);
-  } catch { /* the code then lasts only until the page closes */ }
-}
-
 // Replaces progress with a merged copy and redraws whatever is on screen.
 function adoptState(next) {
   state = next;
@@ -92,28 +82,35 @@ function adoptState(next) {
 }
 
 function scheduleSync() {
-  if (!syncCode) return;
+  if (!user) return;
   clearTimeout(syncTimer);
   syncTimer = setTimeout(() => syncNow(), SYNC_DELAY_MS);
 }
 
+const timeNow = () => new Date().toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' });
+
 // Pull, merge, push. Only one sync runs at a time; a failure leaves this
 // device's progress untouched and the next change or visit tries again.
 async function syncNow({ quiet = true } = {}) {
-  if (!syncCode || syncing) return syncing;
+  if (!user || syncing) return syncing;
   clearTimeout(syncTimer);
   const status = $('sync-status');
   if (!quiet) status.textContent = 'Syncing...';
   syncing = (async () => {
     try {
-      const merged = await syncOnce(fetch, SYNC_CONFIG, syncCode, state);
+      const token = await account.token();
+      const merged = await syncOnce(fetch, docUrl(settings.projectId, accountPath(user.uid)), state, token);
       adoptState(merged);
-      status.textContent = `Synced at ${new Date().toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' })}.`;
+      status.textContent = `Synced at ${timeNow()}.`;
     } catch (err) {
       console.warn(err);
-      status.textContent = navigator.onLine === false
-        ? 'Offline. Your progress is saved on this device and will sync when you are back online.'
-        : 'Could not reach the sync service just now. Your progress is safe on this device; it will try again.';
+      if (err instanceof SyncError && err.status === 403) {
+        status.textContent = 'This Google account is not allowed to sync here. Sign out, then sign in with the account Emily set up.';
+      } else {
+        status.textContent = navigator.onLine === false
+          ? 'Offline. Your progress is saved on this device and will sync when you are back online.'
+          : 'Could not reach the sync service just now. Your progress is safe on this device; it will try again.';
+      }
     } finally {
       syncing = null;
     }
@@ -122,11 +119,78 @@ async function syncNow({ quiet = true } = {}) {
 }
 
 function renderSync() {
-  $('sync-box').hidden = !SYNC_CONFIG;
-  if (!SYNC_CONFIG) return;
-  $('sync-off').hidden = Boolean(syncCode);
-  $('sync-on').hidden = !syncCode;
-  if (syncCode) $('sync-code').textContent = formatSyncCode(syncCode);
+  $('sync-elsewhere').hidden = Boolean(settings);
+  $('sync-off').hidden = !settings || Boolean(user);
+  $('sync-on').hidden = !settings || !user;
+  $('sync-user').textContent = user ? (user.email || 'your Google account') : '';
+}
+
+async function startSync() {
+  settings = await loadFirebaseSettings(fetch, location.hostname);
+  if (!settings) return renderSync();
+  try {
+    account = await startAccount(settings, (u) => {
+      const was = user?.uid;
+      user = u;
+      renderSync();
+      if (u && u.uid !== was) syncNow({ quiet: false });
+      if (!u) clearTimeout(syncTimer);
+    });
+  } catch (err) {
+    console.warn(err);
+    settings = null;
+  }
+  return renderSync();
+}
+
+// The old address hands this device's progress to the new one: a copy goes up
+// under a random one-time code, and the new address picks it up and merges it.
+async function moveToNewSite() {
+  if (location.hostname !== OLD_HOST || !MOVED_TO) return false;
+  const note = $('move-note');
+  note.hidden = false;
+  note.textContent = 'The game has a new address. Taking your progress there...';
+  let target = MOVED_TO;
+  if (hasProgress(state)) {
+    const code = makeSyncCode(randomBytes);
+    try {
+      await pushRemote(fetch, docUrl(HANDOVER_PROJECT, handoverPath(code)), state);
+      target = `${MOVED_TO}#move=${code}`;
+    } catch (err) {
+      console.warn(err);
+      note.replaceChildren(
+        'The game has a new address, but your progress could not be carried over just now. Check your internet connection and reload this page, or save a backup file below and restore it at ',
+        Object.assign(el('a', MOVED_TO), { href: MOVED_TO }),
+        '.',
+      );
+      return true;
+    }
+  }
+  location.replace(target);
+  return true;
+}
+
+// The new address picks up progress handed over from the old one.
+async function receiveHandover() {
+  const code = readHandoverCode(location.hash);
+  if (!code) return;
+  history.replaceState(null, '', location.pathname + location.search);
+  const note = $('move-note');
+  note.hidden = false;
+  try {
+    const url = docUrl(HANDOVER_PROJECT, handoverPath(code));
+    const moved = await pullRemote(fetch, url);
+    if (moved) {
+      adoptState(mergeStates(state, moved));
+      persist();
+      // The one-time copy is no longer needed; blank it out.
+      await pushRemote(fetch, url, emptyState()).catch((err) => console.warn(err));
+    }
+    note.textContent = 'Welcome to the game\'s new address. Your progress from the old one is here. Bookmark this page, and sign in with Google below to sync your devices.';
+  } catch (err) {
+    console.warn(err);
+    note.textContent = 'Your progress from the old address could not be brought over just now. Open the old address again to retry, or use a backup file.';
+  }
 }
 
 function show(view) {
@@ -805,48 +869,22 @@ function wireProgress() {
     $('backup-status').textContent = `Restored. The backup was added to this device's progress${added > 0 ? ` (${added} more question${added === 1 ? '' : 's'} with saved progress)` : ''}.`;
   });
 
-  $('sync-start').addEventListener('click', async () => {
-    setSyncCode(makeSyncCode(randomBytes));
-    renderSync();
-    await syncNow({ quiet: false });
-  });
-  $('sync-join').addEventListener('click', async () => {
-    const code = normalizeSyncCode($('sync-code-input').value);
-    if (!code) {
-      $('sync-status').textContent = 'That code does not look right. It has 20 letters and numbers, like ABCDE-12345-FGHJK-67890.';
-      return;
-    }
-    $('sync-status').textContent = 'Checking the code...';
+  $('sync-signin').addEventListener('click', async () => {
+    $('sync-status').textContent = '';
     try {
-      // Joining needs progress already saved under the code, which catches typos.
-      if (!(await pullRemote(fetch, SYNC_CONFIG, code))) {
-        $('sync-status').textContent = 'No progress is saved under that code. Check it against the code shown on your other device.';
-        return;
-      }
-    } catch {
-      $('sync-status').textContent = 'Could not reach the sync service. Check your internet connection and try again.';
-      return;
+      await account.signIn();
+    } catch (err) {
+      console.warn(err);
+      const msg = signInProblem(err?.code);
+      if (msg) $('sync-status').textContent = msg;
     }
-    $('sync-code-input').value = '';
-    setSyncCode(code);
-    renderSync();
-    await syncNow({ quiet: false });
   });
   $('sync-now').addEventListener('click', () => syncNow({ quiet: false }));
-  $('sync-copy').addEventListener('click', async () => {
-    try {
-      await navigator.clipboard.writeText(formatSyncCode(syncCode));
-      $('sync-status').textContent = 'Code copied.';
-    } catch {
-      $('sync-status').textContent = 'Copying was blocked. Write the code down, or press and hold it to copy.';
-    }
-  });
-  $('sync-stop').addEventListener('click', () => {
-    if (!window.confirm('Stop syncing on this device? Progress already here stays here. You can turn sync back on with the same code.')) return;
-    clearTimeout(syncTimer);
-    setSyncCode(null);
-    $('sync-status').textContent = 'Sync is off on this device.';
-    renderSync();
+  $('sync-signout').addEventListener('click', async () => {
+    if (!window.confirm('Sign out on this device? Progress already here stays here, but it stops syncing until you sign in again.')) return;
+    await syncNow();
+    await account.signOut();
+    $('sync-status').textContent = 'Signed out. This device keeps its progress but no longer syncs.';
   });
   document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') syncNow(); });
   window.addEventListener('online', () => syncNow());
@@ -866,7 +904,9 @@ async function main() {
     $('exam-select').value = 'next';
     syncBlockSize();
   }
-  syncNow();
+  if (await moveToNewSite()) return;
+  await receiveHandover();
+  await startSync();
 }
 
 main();

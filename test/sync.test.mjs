@@ -4,8 +4,8 @@ import { emptyState, sanitize } from '../src/storage.js';
 import {
   mergeStates, addXp, unattributedXp, markRemoved, markAdded, examKey, reportKey,
   backupText, readBackup, backupFileName, BACKUP_KIND,
-  makeSyncCode, normalizeSyncCode, formatSyncCode, CODE_LENGTH,
-  remoteUrl, pullRemote, pushRemote, syncOnce,
+  makeSyncCode, normalizeSyncCode, CODE_LENGTH,
+  docUrl, accountPath, handoverPath, pullRemote, pushRemote, syncOnce, hasProgress, SyncError,
 } from '../src/sync.js';
 
 const card = (lastReviewed, seen, extra = {}) => ({ reps: 1, interval: 1, ease: 2.5, due: '2026-11-03', lapses: 0, seen, misconception: false, lastReviewed, ...extra });
@@ -123,14 +123,11 @@ test('backup files round-trip and reject anything else', () => {
   assert.equal(backupFileName('2026-11-02'), 'med-prep-progress-2026-11-02.json');
 });
 
-test('sync codes are 20 easy-to-type characters and forgive typing slips', () => {
+test('random codes are 20 characters and forgive typing slips', () => {
   const code = makeSyncCode((n) => Uint8Array.from({ length: n }, (_, i) => i * 7));
   assert.equal(code.length, CODE_LENGTH);
   assert.match(code, /^[0-9A-HJKMNP-TV-Z]{20}$/);
-  const shown = formatSyncCode(code);
-  assert.match(shown, /^(.{5}-){3}.{5}$/);
-  assert.equal(normalizeSyncCode(shown.toLowerCase()), code);
-  assert.equal(normalizeSyncCode(` ${shown} `), code);
+  assert.equal(normalizeSyncCode(code.toLowerCase()), code);
   assert.equal(normalizeSyncCode('ABCDE-FGHOJ-KMNPQ-RSTVI'), 'ABCDEFGH0JKMNPQRSTV1');
   assert.equal(normalizeSyncCode('too-short'), null);
   assert.equal(normalizeSyncCode('ABCDE-FGHJK-MNPQR-STVWU'), null); // U is not used
@@ -142,8 +139,8 @@ function fakeFirestore() {
   const docs = new Map();
   const calls = [];
   const fetchFn = async (url, opts = {}) => {
-    calls.push({ url, method: opts.method ?? 'GET' });
-    const code = /documents\/progress\/([^?]+)/.exec(url)[1];
+    calls.push({ url, method: opts.method ?? 'GET', auth: opts.headers?.Authorization ?? null });
+    const code = /documents\/(.+)$/.exec(url)[1];
     if ((opts.method ?? 'GET') === 'GET') {
       if (!docs.has(code)) return { ok: false, status: 404, json: async () => ({}) };
       return { ok: true, status: 200, json: async () => docs.get(code) };
@@ -154,17 +151,26 @@ function fakeFirestore() {
   return { docs, calls, fetchFn };
 }
 
-const config = { projectId: 'demo-project', apiKey: 'key-123' };
-
-test('remote URL points at one Firestore document per code', () => {
-  assert.equal(remoteUrl(config, 'ABC'),
-    'https://firestore.googleapis.com/v1/projects/demo-project/databases/(default)/documents/progress/ABC?key=key-123');
-  assert.ok(!remoteUrl({ projectId: 'p' }, 'ABC').includes('?'));
+test('each signed-in account has its own document; hand-overs use a code', () => {
+  assert.equal(docUrl('medschool-sync', accountPath('uid/1')),
+    'https://firestore.googleapis.com/v1/projects/medschool-sync/databases/(default)/documents/users/uid%2F1');
+  assert.equal(docUrl('p', handoverPath('ABC')),
+    'https://firestore.googleapis.com/v1/projects/p/databases/(default)/documents/progress/ABC');
 });
 
-test('two devices syncing through the same code end up with the same progress', async () => {
+test('only progress worth keeping is carried to the new site', () => {
+  assert.equal(hasProgress(emptyState()), false);
+  const s = emptyState();
+  s.exams = [{ type: 'nbme', date: '2026-12-01' }];
+  assert.equal(hasProgress(s), true);
+  const t = emptyState();
+  t.history = [answer('q1', '2026-11-01')];
+  assert.equal(hasProgress(t), true);
+});
+
+test('two devices signed in to the same account end up with the same progress', async () => {
   const fs = fakeFirestore();
-  const code = 'ABCDEFGHJKMNPQRSTVWX';
+  const url = docUrl('demo', accountPath('elissa-uid'));
   const phone = emptyState();
   phone.cards.q1 = card('2026-11-01', 1);
   phone.history = [answer('q1', '2026-11-01')];
@@ -174,19 +180,23 @@ test('two devices syncing through the same code end up with the same progress', 
   laptop.history = [answer('q2', '2026-11-02', false)];
   addXp(laptop, 'laptop', 4);
 
-  assert.equal(await pullRemote(fs.fetchFn, config, code), null);
-  const phone1 = await syncOnce(fs.fetchFn, config, code, phone);
-  const laptop1 = await syncOnce(fs.fetchFn, config, code, laptop);
-  const phone2 = await syncOnce(fs.fetchFn, config, code, phone1);
+  assert.equal(await pullRemote(fs.fetchFn, url, 'tok'), null);
+  const phone1 = await syncOnce(fs.fetchFn, url, phone, 'tok');
+  const laptop1 = await syncOnce(fs.fetchFn, url, laptop, 'tok');
+  const phone2 = await syncOnce(fs.fetchFn, url, phone1, 'tok');
   assert.deepEqual(phone2, laptop1);
   assert.equal(phone2.xp, 14);
   assert.deepEqual(Object.keys(phone2.cards).sort(), ['q1', 'q2']);
   assert.equal(phone2.history.length, 2);
   assert.ok(fs.calls.some((c) => c.method === 'PATCH'));
+  // Every request carries the signed-in account's token.
+  assert.ok(fs.calls.every((c) => c.auth === 'Bearer tok'));
 });
 
 test('a failed upload or download throws so the caller keeps local progress', async () => {
   const down = async () => ({ ok: false, status: 503, json: async () => ({}) });
-  await assert.rejects(pullRemote(down, config, 'X'), /503/);
-  await assert.rejects(pushRemote(down, config, 'X', emptyState()), /503/);
+  await assert.rejects(pullRemote(down, 'u'), /503/);
+  await assert.rejects(pushRemote(down, 'u', emptyState()), /503/);
+  const denied = async () => ({ ok: false, status: 403, json: async () => ({}) });
+  await assert.rejects(pullRemote(denied, 'u', 't'), (e) => e instanceof SyncError && e.status === 403);
 });
