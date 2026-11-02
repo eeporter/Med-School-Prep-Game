@@ -45,7 +45,7 @@ Step 2. Install the Claude desktop app (me)
 
 Step 3. Check Claude can read the folder (me)
 - If this chat is in the desktop app and already has the folder attached (you can list it), this step is done: mark it done and move on.
-- In the desktop app, start a new chat. Attach the "Handoff documentation" folder with the + or folder button by the message box (the menu may look slightly different). If it asks for permission to open the folder, click Allow.
+- In the desktop app, start a new chat. Attach the "Handoff documentation" folder: click "Work in a folder" in the message box, or the + or folder button there (the menu may look slightly different). If it asks for permission to open the folder, click Allow.
 - Type: "List the files in study-guides."
 - Then type: "Add the line Setup test to the end of struggle-log.md, read it back to me, then remove it." If Claude asks permission, click Allow.
 - Test: Claude lists the study guides (01-acid-base.md and so on), and adds and then removes the Setup test line.
@@ -53,11 +53,11 @@ Step 3. Check Claude can read the folder (me)
 - Fine to skip for now: no.
 
 Step 4. Make the "Med School" project (me)
-- In the desktop app, open Projects in the left sidebar (on the web: https://claude.ai/projects ) → New project (or "Create project") → name it "Med School" → create it.
-- Open the project and find its instructions (often "Set project instructions" or a pencil icon). In the claude-prompts-for-elissa.md file in the folder, find the section "Study buddy", copy everything inside its grey box, paste it into the instructions, and save.
+- In the desktop app, find Projects in the left sidebar and click the + next to it (or New project). If it offers "Use an existing folder", choose that and pick the Handoff documentation folder. Name it "Med School" and create it. (The menu may look slightly different. Stay in the desktop app for this: only the app can use the folder on my computer.)
+- Open the project and find its instructions (often "Set project instructions" or a pencil icon). Claude: open the section "Study buddy" in claude-prompts-for-elissa.md yourself and show me everything between its two lines of four backticks, word for word, in one block in this chat, so I can copy it with the block's copy button (don't send me into that file to find it). Me: copy it, paste it into the instructions, and save.
 - Attach the "Handoff documentation" folder to the project if the project offers that.
 - Test: start a new chat inside the "Med School" project and type "List the files in study-guides." Claude lists the guides.
-- If it fails: the project may not keep the folder. That's fine: in each new chat in the project, attach the folder with the + or folder button first.
+- If it fails: the project may not keep the folder. That's fine: in each new chat in the project, attach the folder with "Work in a folder" (or the + or folder button) first.
 - Fine to skip for now: no. This is the study buddy I'll use every day.
 
 Step 5. Connect Google Drive (me)
@@ -67,10 +67,10 @@ Step 5. Connect Google Drive (me)
 - Fine to skip for now: yes, if I want, but the weekly automatic questions (step 10) need it.
 
 Step 6. Make a GitHub account (me) and get Emily's invite (Emily, then me)
-- Me: go to https://github.com/signup , enter my email, a password and a username, and enter the code GitHub emails me. Send Emily my username.
-- Emily: open https://github.com/eeporter/Med-School-Prep-Game/settings/access → Add people → type my username → add them to the repository.
+- Me: first, ask me whether I already have a GitHub account. Emily has already added the account eoporter to the game: if that is mine, I do not make another one, and I go straight to the invitation below. If I have no account, go to https://github.com/signup , enter my email, a password and a username, and enter the code GitHub emails me. Send Emily my username.
+- Emily (only for a new account): open https://github.com/eeporter/Med-School-Prep-Game/settings/access → Add people → type my username → add them to the repository.
 - Me: open the email from GitHub ("invited you to collaborate") → View invitation → Accept invitation. If the email is lost, open https://github.com/eeporter/Med-School-Prep-Game/invitations while signed in.
-- Test: https://github.com/eeporter/Med-School-Prep-Game/invitations no longer shows an invitation, and Emily sees my username under Collaborators at https://github.com/eeporter/Med-School-Prep-Game/settings/access .
+- Test: https://github.com/eeporter/Med-School-Prep-Game/invitations no longer shows an invitation (no invitation at all also means it was already accepted), and Emily sees my username under Collaborators at https://github.com/eeporter/Med-School-Prep-Game/settings/access .
 - If it fails: check I'm signed in to the GitHub account whose username I sent Emily; ask Emily to re-send the invite.
 - Fine to skip for now: yes, if I only want the study buddy and guides today. It's needed for anything that changes the game (steps 7 and 10).
 
