@@ -78,7 +78,7 @@ Step 6. Make a GitHub account (me) and get Emily's invite (Emily, then me)
 Step 7. Connect claude.ai/code to the game (me)
 - Go to https://claude.ai/code and sign in with the same Claude account. When it asks to connect GitHub, follow it (or open https://claude.ai/connect-github ) and sign in to GitHub. If GitHub asks which repositories Claude may use, allow eeporter/Med-School-Prep-Game.
 - Test: in https://claude.ai/code , pick the Med-School-Prep-Game repository, and type "How many questions are in data/questions.json? Please just answer, don't change anything." Claude answers with a number.
-- If it fails: if claude.ai/code asks me to upgrade, tell Emily (it needs a Claude plan that includes it). If the repository isn't in the list, check step 6 is done. If GitHub says an owner must approve, ask Emily to approve it (Emily: https://github.com/apps/claude/installations/select_target ).
+- If it fails: if claude.ai/code asks me to upgrade, tell Emily (it needs a Claude plan that includes it). If the repository isn't in the list, check step 6 is done. If GitHub says an owner must approve, or Claude says the GitHub app on eeporter isn't connected and only eeporter can connect it, I can't fix that myself: send Emily that message. Emily, signed in as eeporter, installs the Claude GitHub app for this repository (https://github.com/apps/claude → Install → eeporter → Only select repositories → Med-School-Prep-Game), or checks it at https://github.com/settings/installations if it is already there. Then I try again. If I still see the message, I disconnect and reconnect GitHub in Claude under Customize → Connectors.
 - Fine to skip for now: same as step 6.
 
 Step 8. Open the game and bookmark it (me)
