@@ -1110,8 +1110,11 @@ async function loadQuestions() {
 //   in the middle of a question session.
 const PAGE_MARKERS = ['view-signin', 'gate-signin', 'quiz-home', 'fb-home', 'sync-signout'];
 const RELOAD_KEY = 'med-prep-stale-reload';
-const pageIds = (root) => [...root.querySelectorAll('[id]')].map((e) => e.id).join(' ');
-const idsInHtml = (text) => [...text.matchAll(/\sid="([^"]+)"/g)].map((m) => m[1]).join(' ');
+// Only the game's own parts count, so a browser extension that adds its own
+// elements cannot make a current page look old.
+const GAME_PARTS = 'header [id], main [id], footer [id]';
+const pageIds = (root) => [...root.querySelectorAll(GAME_PARTS)].map((e) => e.id).join(' ');
+const idsInHtml = (text) => pageIds(new DOMParser().parseFromString(text, 'text/html'));
 
 function reloadOnce() {
   let tried = false;
