@@ -19,7 +19,7 @@ WHEN I TYPE "Start" (or anything, in a chat with this folder attached):
 HOW TO TALK TO ME
 - I am not technical. Never ask me to use Terminal, a command line, or to type any command. Never show me code or error messages.
 - Give me ONE step at a time: say who does it (me or Emily), where to go (with the link), exactly what to click, and how to check it worked. Then stop and wait until I say "done" (or tell you what I see) before giving the next step.
-- You cannot click buttons for me, so describe each one by its name and where it is on the screen.
+- You cannot click buttons for me, so describe each one by its name and where it is on the screen. You can't sign in, accept invitations or connect connectors for me either. Never ask for my passwords or sign-in codes: I type those only into the real sign-in page.
 - If you are not sure of a button's exact name, say "the menu may look slightly different" and describe what it does, rather than guessing a name. If I'm stuck, help me look, or point me to https://support.claude.com/ .
 - When a step needs Emily (sharing the folder, the GitHub invite), say so plainly and give me one short message I can send her. While we wait for her, move on to a step that doesn't need her, and come back later.
 - If a test fails, use the "If it fails" line for that step. If that doesn't fix it, tell me to stop and send Emily a short description.
@@ -49,8 +49,9 @@ Step 3. Check Claude can read the folder (me)
 - If this chat is in the desktop app and already has the folder attached (you can list it), this step is done: mark it done and move on.
 - In the desktop app, start a new chat. Attach the "Handoff documentation" folder with the + or folder button by the message box (the menu may look slightly different). If it asks for permission to open the folder, click Allow.
 - Type: "List the files in study-guides."
-- Test: Claude lists the study guides (01-acid-base.md and so on).
-- If it fails: make sure I attached the whole "Handoff documentation" folder, not one file inside it, and try again.
+- Then type: "Add the line Setup test to the end of struggle-log.md, read it back to me, then remove it." If Claude asks permission, click Allow.
+- Test: Claude lists the study guides (01-acid-base.md and so on), and adds and then removes the Setup test line.
+- If it fails: make sure I attached the whole "Handoff documentation" folder, not one file inside it, and clicked Allow, then try again in a new chat.
 - Fine to skip for now: no.
 
 Step 4. Make the "Med School" project (me)
@@ -71,14 +72,14 @@ Step 6. Make a GitHub account (me) and get Emily's invite (Emily, then me)
 - Me: go to https://github.com/signup , enter my email, a password and a username, and enter the code GitHub emails me. Send Emily my username.
 - Emily: open https://github.com/eeporter/Med-School-Prep-Game/settings/access → Add people → type my username → add them to the repository.
 - Me: open the email from GitHub ("invited you to collaborate") → View invitation → Accept invitation. If the email is lost, open https://github.com/eeporter/Med-School-Prep-Game/invitations while signed in.
-- Test: https://github.com/eeporter/Med-School-Prep-Game/invitations no longer shows an invitation, and the repository page https://github.com/eeporter/Med-School-Prep-Game opens.
+- Test: https://github.com/eeporter/Med-School-Prep-Game/invitations no longer shows an invitation, and Emily sees my username under Collaborators at https://github.com/eeporter/Med-School-Prep-Game/settings/access .
 - If it fails: check I'm signed in to the GitHub account whose username I sent Emily; ask Emily to re-send the invite.
 - Fine to skip for now: yes, if I only want the study buddy and guides today. It's needed for anything that changes the game (steps 7 and 10).
 
 Step 7. Connect claude.ai/code to the game (me)
 - Go to https://claude.ai/code and sign in with the same Claude account. When it asks to connect GitHub, follow it (or open https://claude.ai/connect-github ) and sign in to GitHub. If GitHub asks which repositories Claude may use, allow eeporter/Med-School-Prep-Game.
 - Test: in https://claude.ai/code , pick the Med-School-Prep-Game repository, and type "How many questions are in data/questions.json? Please just answer, don't change anything." Claude answers with a number.
-- If it fails: if the repository isn't in the list, check step 6 is done. If GitHub says an owner must approve, ask Emily to approve it (Emily: https://github.com/apps/claude/installations/select_target ).
+- If it fails: if claude.ai/code asks me to upgrade, tell Emily (it needs a Claude plan that includes it). If the repository isn't in the list, check step 6 is done. If GitHub says an owner must approve, ask Emily to approve it (Emily: https://github.com/apps/claude/installations/select_target ).
 - Fine to skip for now: same as step 6.
 
 Step 8. Open the game and bookmark it (me)
@@ -98,7 +99,7 @@ Step 9. Keep my progress safe: sync and backup (me)
 Step 10. Turn on the weekly automatic questions (me, with Emily's folder from step 1)
 - This needs steps 5, 6 and 7. Open claude-prompts-for-elissa.md at the section "Automatic weekly questions", sub-section "One-time setup", and follow it with me: in https://claude.ai/code , open Routines (the menu may look slightly different) → New routine, twice: "Weekly question writer" (Monday and Thursday, early morning, WRITER ROUTINE box) and "Weekly question auditor" (Tuesday and Friday, early morning, AUDITOR ROUTINE box). Pick the Med-School-Prep-Game repository and turn on Google Drive in both. The routines create any labels they need themselves.
 - Test: click Run now on the writer, then on the auditor after the writer finishes. A pull request appears at https://github.com/eeporter/Med-School-Prep-Game/pulls , the auditor comments on it, and the comment does not say "page check not run".
-- If it fails: if it says "page check not run", Google Drive isn't reaching the routine: redo step 5 and turn Google Drive on in both routines. Otherwise send Emily the plain words of the problem.
+- If it fails: if Routines asks me to upgrade, tell Emily. If it says "page check not run", Google Drive isn't reaching the routine: redo step 5, turn Google Drive on in both routines, and check the Handoff documentation folder shows in my Google Drive (step 1's shortcut helps). Until then batches wait instead of merging, so nothing wrong reaches the game. Otherwise send Emily the plain words of the problem.
 - Fine to skip for now: yes. Everything else works without it.
 
 FINISH SETUP: give me this checklist, ticked or marked "skipped" or "waiting for Emily":
