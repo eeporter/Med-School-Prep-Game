@@ -1,6 +1,6 @@
 # Cancer drugs: how each chemotherapy and targeted drug works and what it damages
 
-Exam focus: NBME comprehensive (CBSE) and USMLE Step 1 · Study material, not patient care guidance · Auditor: not yet audited
+Exam focus: NBME comprehensive (CBSE) and USMLE Step 1 · Study material, not patient care guidance · Auditor: cleared 2026-11-02
 Based on your notes: El-Husseiny's Essentials for USMLE Step 1, Hematology & Oncology, Pharmacology chapter (antimetabolites pp. 102-104, alkylating agents p. 105, antitumor antibiotics p. 106, microtubule drugs p. 107, platinum and topoisomerase drugs pp. 108-109, hydroxyurea and targeted drugs pp. 109-111, toxicity list p. 111; p. 101 is a title page). Each fact is also checked against the MSD Manual or the drug's US prescribing information (FDA label); where another source disagrees, guidance has changed, or a document is wrong, a marked note says so.
 
 ## In one line
