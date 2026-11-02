@@ -164,3 +164,6 @@ details.howto .row { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items:
 .account button.small { min-height: 32px; }
 .sync-status { max-width: 820px; margin: 8px auto 0; padding: 0 16px; }
 .sync-status:empty { display: none; }
+
+/* Home section titles match the study-mode titles. */
+details.section > summary h2 { font-size: 1.1rem; }

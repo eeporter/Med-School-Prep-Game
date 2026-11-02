@@ -75,3 +75,11 @@ test('Sign out sits at the top of the screen; My exams and My weak spots come ri
   assert.ok(at('data-section="exams"') < at('data-section="weak"'));
   assert.ok(at('data-section="weak"') < at('class="cards"'));
 });
+
+test('an old copy of the page is found by comparing its parts with the server copy', () => {
+  assert.match(app, /checkPageIsFresh\(ids\)/);
+  assert.match(app, /const ids = pageIds\(document\); \/\/ before any code changes the page/);
+  // Ids appear once each in the page, so the comparison is exact.
+  const ids = [...html.matchAll(/\sid="([^"]+)"/g)].map((m) => m[1]);
+  assert.equal(new Set(ids).size, ids.length);
+});
