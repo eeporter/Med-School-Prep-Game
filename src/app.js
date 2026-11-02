@@ -104,7 +104,7 @@ function renderWeakSpots() {
     list.appendChild(li);
   }
   $('weak-summary').textContent = spots.length
-    ? `The topics you miss most, weakest first${spots.length > WEAK_SHOWN ? ` (top ${WEAK_SHOWN} of ${spots.length})` : ''}. Copy them for your Claude to make study guides, or send them to Emily so new questions get written.`
+    ? `The topics you miss most, weakest first${spots.length > WEAK_SHOWN ? ` (top ${WEAK_SHOWN} of ${spots.length})` : ''}. Copy them for your Claude: it adds them to your struggle log, offers study guides, and gets new questions written.`
     : 'Nothing yet. Topics you miss, or only get right by guessing, will show up here.';
   $('weak-actions').hidden = !spots.length;
   $('weak-status').textContent = '';
@@ -114,7 +114,7 @@ function renderWeakSpots() {
 function renderReports() {
   const n = state.reports.length;
   $('reports-box').hidden = n === 0;
-  $('reports-summary').textContent = `${n} question report${n === 1 ? '' : 's'} saved on this device. Send them to Emily so the questions get fixed, then clear them.`;
+  $('reports-summary').textContent = `${n} question report${n === 1 ? '' : 's'} saved on this device. Tap Copy for my Claude and paste it into your Claude chat. Your Claude checks each one and fixes the question if you are right. Clear them once they are sent.`;
   $('reports-status').textContent = '';
   $('reports-fallback').hidden = true;
 }
@@ -131,26 +131,6 @@ async function copyText(text, status, fallback, done) {
     fallback.focus();
     fallback.select();
     status.textContent = 'Copy the selected text below (press and hold on a phone, then Copy).';
-  }
-}
-
-// Phone: the share menu (Messages, Mail...). Computer: an email draft.
-async function sendText(subject, text, status, fallback) {
-  if (navigator.share) {
-    try {
-      await navigator.share({ title: subject, text });
-      status.textContent = 'Sent.';
-      return;
-    } catch (err) {
-      if (err?.name === 'AbortError') return;
-    }
-  }
-  const href = `mailto:?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(text)}`;
-  if (href.length < 1800) {
-    window.location.href = href;
-    status.textContent = 'An email draft should open. Add Emily as the recipient and send it.';
-  } else {
-    await copyText(text, status, fallback, 'Copied. Paste it into a text or email to Emily.');
   }
 }
 
@@ -595,20 +575,18 @@ function wire() {
   $('report-save').addEventListener('click', () => {
     const q = session?.current?.q;
     if (!q) return;
-    state.reports = addReport(state.reports, { id: q.id, day: today(), reason: reasonSel.value, note: $('report-note').value.trim() });
+    state.reports = addReport(state.reports, {
+      id: q.id, day: today(), reason: reasonSel.value, note: $('report-note').value.trim(), choice: session.current.choice,
+    });
     persist();
-    $('report-status').textContent = 'Thanks, saved. Send your reports to Emily from the home screen.';
+    $('report-status').textContent = 'Thanks, saved. On the home screen, tap Copy for my Claude and paste it into your Claude chat.';
     $('report-note').value = '';
   });
   $('weak-copy').addEventListener('click', () => copyText(
     weakSpotsText(weakSpots(state.history, questions), questions, today()),
-    $('weak-status'), $('weak-fallback'), 'Copied. Paste it into your study Claude.'));
-  $('weak-send').addEventListener('click', () => sendText('My weak spots from the study game',
-    weakSpotsText(weakSpots(state.history, questions), questions, today()), $('weak-status'), $('weak-fallback')));
+    $('weak-status'), $('weak-fallback'), 'Copied. Paste it into your Claude chat.'));
   $('reports-copy').addEventListener('click', () => copyText(reportsText(state.reports, questions),
-    $('reports-status'), $('reports-fallback'), 'Copied. Paste it into a text or email to Emily.'));
-  $('reports-send').addEventListener('click', () => sendText('Question reports from the study game',
-    reportsText(state.reports, questions), $('reports-status'), $('reports-fallback')));
+    $('reports-status'), $('reports-fallback'), 'Copied. Paste it into your Claude chat.'));
   $('reports-clear').addEventListener('click', () => {
     if (!window.confirm(`Clear ${state.reports.length} saved report(s)? Do this after you have sent them.`)) return;
     state.reports = [];

@@ -81,7 +81,12 @@ export function sanitizeReports(raw) {
   return raw
     .filter((r) => r && typeof r === 'object' && typeof r.id === 'string' && r.id.length <= 100
       && typeof r.day === 'string' && Object.hasOwn(REPORT_REASONS, r.reason))
-    .map((r) => ({ id: r.id, day: r.day, reason: r.reason, note: typeof r.note === 'string' ? r.note.slice(0, MAX_NOTE) : '' }))
+    .map((r) => {
+      const clean = { id: r.id, day: r.day, reason: r.reason, note: typeof r.note === 'string' ? r.note.slice(0, MAX_NOTE) : '' };
+      // The option id in the question file, not the shuffled on-screen letter.
+      if (typeof r.choice === 'string' && r.choice.length <= 100) clean.choice = r.choice;
+      return clean;
+    })
     .slice(-MAX_REPORTS);
 }
 
@@ -89,12 +94,26 @@ export function addReport(reports, report) {
   return sanitizeReports([...reports, report]);
 }
 
+// A ready-to-paste report for Elissa's own Claude (the "Fix a reported
+// question" prompt in docs/claude-prompts.md), which checks each question and
+// fixes it in the game if she is right. Options are named by their id in the
+// question file because on-screen letters are shuffled.
 export function reportsText(reports, questions) {
   const byId = new Map(questions.map((q) => [q.id, q]));
-  const lines = [`Question reports from the Med School Prep study game (${reports.length}):`, ''];
-  for (const r of reports) {
+  const n = reports.length;
+  const optionLine = (q, id) => `${q.options.find((o) => o.id === id)?.text ?? '(option not found)'} (option ${id} in the question file)`;
+  const blocks = reports.map((r, i) => {
     const q = byId.get(r.id);
-    lines.push(`- ${r.day} | ${r.id}${q ? ` (${q.topic})` : ''} | ${REPORT_REASONS[r.reason]}${r.note ? ` | "${r.note}"` : ''}`);
-  }
-  return lines.join('\n');
+    const lines = [`Report ${i + 1} of ${n}`, `Date: ${r.day}`, `Question id: ${r.id}`];
+    const mine = (text) => `My answer: ${r.choice ? text : 'not saved (reported before this update)'}`;
+    if (q) {
+      lines.push(`Question starts: ${q.stem.split(/(?<=[.?!])\s/)[0]}`, mine(r.choice && optionLine(q, r.choice)),
+        `Keyed answer: ${optionLine(q, q.answer)}`);
+    } else {
+      lines.push('Question starts: (not found in the current question bank)', mine(`option ${r.choice} in the question file`));
+    }
+    lines.push(`Problem: ${REPORT_REASONS[r.reason]}`, `My note: ${r.note || '(none)'}`);
+    return lines.join('\n');
+  });
+  return [`Question report from my Med School Prep study game (${n} report${n === 1 ? '' : 's'})`, '', blocks.join('\n\n')].join('\n');
 }
