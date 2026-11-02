@@ -1,7 +1,5 @@
 # START HERE - Claude read this first
 
-START HERE - Claude, read this first.
-
 I am Elissa, a medical student preparing for USMLE Step 1 and NBME exams. My sister Emily built me a study game (https://eeporter.github.io/Med-School-Prep-Game/ ) and this "Handoff documentation" folder. It holds:
 - claude-prompts-for-elissa.md: the full prompt kit (the study buddy, guide writer, question writer, fix-a-question, auditor, weekly routines, and every rule). It is the rulebook: follow it.
 - study-guides: my study guides and README.md (their list and audit status).
@@ -29,7 +27,7 @@ THE SETUP STEPS (in this order; if this folder is attached, step 1 is done; ask 
 
 Step 1. Get the "Handoff documentation" folder from Emily (Emily, then me)
 - Emily: at https://drive.google.com/ , right-click the "Handoff documentation" folder → Share → type my email → set the role to Editor → Send. It holds this START HERE file, the kit (claude-prompts-for-elissa.md), study-guides, audit, documents (the course PDFs) and struggle-log.md.
-- Me: open https://drive.google.com/ → "Shared with me" (left side) → right-click "Handoff documentation" → Download. Google makes a zip file (a big folder may come as several zip files; wait until all have downloaded).
+- Me: open the link Emily sent, or open https://drive.google.com/ → "Shared with me" (left side). Right-click "Handoff documentation" → Download (from Emily's link, use the folder name's menu or the Download button at the top). Google makes a zip file (a big folder may come as several zip files; wait until all have downloaded).
 - Me: open my Downloads folder and unzip: on a Mac, double-click each zip; on Windows, right-click → Extract All. If there are several, put everything into one folder called "Handoff documentation".
 - Me: move the "Handoff documentation" folder into my Documents folder.
 - Me (optional, helps later): in Google Drive "Shared with me", right-click "Handoff documentation" → Organize → Add shortcut → My Drive.

@@ -4,7 +4,14 @@ Version 1.1 (2026-11-02) · Status: **final, ready for handoff.**
 
 **Your study game:** https://eeporter.github.io/Med-School-Prep-Game/ (bookmark it, or on your phone use Share → Add to Home Screen).
 
-**Start here (Elissa):** everything is in one folder called **Handoff documentation** that Emily shares with you on Google Drive (https://drive.google.com/ , under "Shared with me").
+**Before handoff (Emily, once, about 20 minutes plus upload time)**
+1. **Make the folder.** In a Claude desktop chat with your `Documents/ClaudeProjects/MedSchoolPrep` folder attached, paste: "Make a copy of this MedSchoolPrep folder next to it, named Handoff documentation. In the copy: delete the handoff subfolder and guides.tgz; download https://raw.githubusercontent.com/eeporter/Med-School-Prep-Game/main/docs/claude-prompts.md and save it at the top level as claude-prompts-for-elissa.md; download https://raw.githubusercontent.com/eeporter/Med-School-Prep-Game/main/docs/START-HERE.md and save it at the top level twice, as 'START HERE - Claude read this first.md' and as CLAUDE.md. Then check and tell me: study-guides has 73 guides plus README.md, documents has the course PDFs, and audit and struggle-log.md are there. Don't change my original MedSchoolPrep folder." (If a download link fails, the same files are on GitHub at https://github.com/eeporter/Med-School-Prep-Game/tree/main/docs .)
+2. **Upload it.** Go to https://drive.google.com/ → **New** → **Folder upload** → pick the Handoff documentation folder. It is about 1.1 GB, so leave the tab open until the upload finishes.
+3. **Share it.** In Google Drive, right-click the folder → **Share** → type Elissa's email → set **Editor** → **Send**. Then right-click it again → **Share** → **Copy link**, and send that link to Elissa with this kit.
+4. **GitHub.** Add Elissa's GitHub account at https://github.com/eeporter/Med-School-Prep-Game/settings/access (**Add people**), or check that the collaborator already listed there is hers.
+5. **Test it once.** On your Mac, start a new Claude desktop chat, attach the Handoff documentation folder, and type **Start**. Claude should check the folder and begin step 1 of the setup. If it doesn't, type the fallback sentence below and note which one worked.
+
+**Start here (Elissa):** everything is in one folder called **Handoff documentation** that Emily shares with you on Google Drive: open the link Emily sent, or go to https://drive.google.com/ → **Shared with me**.
 1. Download it and put it in your Documents folder (right-click it in Google Drive → Download, then double-click the zip file to open it).
 2. Install the Claude desktop app from https://claude.ai/download and sign in.
 3. Start a new chat, attach the **Handoff documentation** folder (the **+** or folder button by the message box), and type **Start**.
@@ -124,8 +131,6 @@ claude.ai/code is just a website with a chat box, not Terminal, and it does not 
 The easiest way: start a new chat in the Claude desktop app, attach the **Handoff documentation** folder, and type **Start**. Your Claude reads `START HERE - Claude read this first.md` in the folder (the text below) and walks you through every step, one at a time. If your Claude doesn't pick it up, paste the grey box below into the chat instead. If you lose track, type **Start** again in a new chat with the folder attached: your Claude checks `setup-progress.md` and carries on from where you stopped.
 
 ````text
-START HERE - Claude, read this first.
-
 I am Elissa, a medical student preparing for USMLE Step 1 and NBME exams. My sister Emily built me a study game (https://eeporter.github.io/Med-School-Prep-Game/ ) and this "Handoff documentation" folder. It holds:
 - claude-prompts-for-elissa.md: the full prompt kit (the study buddy, guide writer, question writer, fix-a-question, auditor, weekly routines, and every rule). It is the rulebook: follow it.
 - study-guides: my study guides and README.md (their list and audit status).
@@ -153,7 +158,7 @@ THE SETUP STEPS (in this order; if this folder is attached, step 1 is done; ask 
 
 Step 1. Get the "Handoff documentation" folder from Emily (Emily, then me)
 - Emily: at https://drive.google.com/ , right-click the "Handoff documentation" folder → Share → type my email → set the role to Editor → Send. It holds this START HERE file, the kit (claude-prompts-for-elissa.md), study-guides, audit, documents (the course PDFs) and struggle-log.md.
-- Me: open https://drive.google.com/ → "Shared with me" (left side) → right-click "Handoff documentation" → Download. Google makes a zip file (a big folder may come as several zip files; wait until all have downloaded).
+- Me: open the link Emily sent, or open https://drive.google.com/ → "Shared with me" (left side). Right-click "Handoff documentation" → Download (from Emily's link, use the folder name's menu or the Download button at the top). Google makes a zip file (a big folder may come as several zip files; wait until all have downloaded).
 - Me: open my Downloads folder and unzip: on a Mac, double-click each zip; on Windows, right-click → Extract All. If there are several, put everything into one folder called "Handoff documentation".
 - Me: move the "Handoff documentation" folder into my Documents folder.
 - Me (optional, helps later): in Google Drive "Shared with me", right-click "Handoff documentation" → Organize → Add shortcut → My Drive.
