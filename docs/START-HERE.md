@@ -1,17 +1,17 @@
 # START HERE - Claude read this first
 
-I am Elissa, a medical student preparing for USMLE Step 1 and NBME exams. My sister Emily built me a study game (https://eeporter.github.io/Med-School-Prep-Game/ ) and this "Handoff documentation" folder. It holds:
+I am Elissa, a medical student preparing for USMLE Step 1 and NBME exams. My sister Emily built me a study game (https://eeporter.github.io/Med-School-Prep-Game/ ) and a "Handoff documentation" folder. This page may be the only thing attached to this chat: that is normal, and it tells you what to do. The folder holds:
 - claude-prompts-for-elissa.md: the full prompt kit (the study buddy, guide writer, question writer, fix-a-question, auditor, weekly routines, and every rule). It is the rulebook: follow it.
 - study-guides: my study guides and README.md (their list and audit status).
 - audit: the audit checklist, findings log, coverage trackers, subject weights and recent-changes register.
-- documents: the course PDFs. They set what guides and questions teach. Never upload them anywhere public (the game's GitHub is public).
+- documents: the course PDFs. They set what guides and questions teach. They stay in Emily's shared Google Drive folder and are NOT in the folder on my computer, because the whole set (about 1.1 GB) is too big for a chat. Read them through the Google Drive connector, only the pages you need. If one will not open or comes back incomplete, say so plainly and ask me for that page (an upload or a photo); never guess. Never upload them anywhere public (the game's GitHub is public).
 - struggle-log.md: every topic I have asked about.
 - setup-progress.md: which setup steps are done (create it if missing).
 
 WHEN I TYPE "Start" (or anything, in a chat with this folder attached):
-1. Read setup-progress.md. If every step is done or skipped, go straight to "AFTER SETUP" below.
-2. Otherwise, tell me in two plain sentences what we are going to do, then check the folder yourself first: list it and confirm study-guides, audit, documents (with PDFs in it), claude-prompts-for-elissa.md and struggle-log.md are there. Tell me what is missing, if anything (Emily can add it to the shared folder; the kit's newest copy is also at https://github.com/eeporter/Med-School-Prep-Game/blob/main/docs/claude-prompts.md ).
-3. Walk me through the setup steps below that are not done yet, one at a time, in order. After each step, update setup-progress.md (done / skipped / waiting for Emily, with the date), so a new chat can pick up where we left off.
+1. See whether you can list a folder with study-guides in it. If you have only this page, that is fine: tell me in two plain sentences what we are going to do, say that you cannot save anything until my folder is attached so you will keep our list in this chat, and start at step 1 below. Never ask me to upload the whole Google Drive folder or the PDFs.
+2. If the folder is attached, read setup-progress.md in it. If every step is done or skipped, go straight to "AFTER SETUP" below. Otherwise, tell me in two plain sentences what we are going to do, then check the folder yourself first: list it and confirm study-guides, audit, claude-prompts-for-elissa.md and struggle-log.md are there. Tell me what is missing, if anything (Emily can fix the small copy; the kit's newest copy is also at https://github.com/eeporter/Med-School-Prep-Game/blob/main/docs/claude-prompts.md ). The documents folder is not expected here.
+3. Walk me through the setup steps below that are not done yet, one at a time, in order. Once the folder is attached, after each step, update setup-progress.md (done / skipped / waiting for Emily, with the date), so a new chat can pick up where we left off. What changes (the struggle log, setup progress, new guides) is saved only in that folder on my computer, not in Google Drive.
 4. When the steps are done or skipped, give me the "You're set up" checklist, then carry on as in AFTER SETUP.
 
 HOW TO TALK TO ME
@@ -26,15 +26,15 @@ HOW TO TALK TO ME
 THE SETUP STEPS (in this order; if this folder is attached, step 1 is done; ask me whether I am in the Claude desktop app, and if so step 2 is done too)
 
 Step 1. Get the "Handoff documentation" folder from Emily (Emily, then me)
-- Emily: at https://drive.google.com/ , right-click the "Handoff documentation" folder → Share → type my email → set the role to Editor → Send. It holds this START HERE file, the kit (claude-prompts-for-elissa.md), study-guides, audit, documents (the course PDFs) and struggle-log.md.
-- Me: open the link Emily sent, or open https://drive.google.com/ → "Shared with me" (left side). Right-click "Handoff documentation" → Download (from Emily's link, use the folder name's menu or the Download button at the top). Google makes a zip file (a big folder may come as several zip files; wait until all have downloaded).
-- Me: open my Downloads folder and unzip: on a Mac, double-click each zip; on Windows, right-click → Extract All. If there are several, put everything into one folder called "Handoff documentation".
-- Me: move the "Handoff documentation" folder into my Documents folder.
+- Emily: at https://drive.google.com/ , right-click the "Handoff documentation" folder → Share → type my email → set the role to Editor → Send. It holds this START HERE file, the course PDFs (documents), and "Handoff documentation - small copy.zip" (everything except the PDFs, under 1 MB).
+- Me: open the link Emily sent, or open https://drive.google.com/ → "Shared with me" (left side) → open "Handoff documentation". Right-click "Handoff documentation - small copy.zip" → Download. Do NOT download the whole folder or the documents folder: the PDFs stay in Google Drive.
+- Me: open my Downloads folder and unzip it: on a Mac, double-click it; on Windows, right-click → Extract All. Inside is a folder called "Handoff documentation".
+- Me: move that "Handoff documentation" folder into my Documents folder.
 - Me (optional, helps later): in Google Drive "Shared with me", right-click "Handoff documentation" → Organize → Add shortcut → My Drive.
-- Test: in Documents/Handoff documentation I can see START HERE - Claude read this first.md, claude-prompts-for-elissa.md, struggle-log.md, and the study-guides, audit and documents folders.
-- If it fails: if documents is empty or missing, ask Emily to add the course PDFs to the shared folder and download again. If the kit is missing, download it from https://github.com/eeporter/Med-School-Prep-Game/blob/main/docs/claude-prompts.md (the download button near the top right of the file) into the folder and rename it claude-prompts-for-elissa.md.
+- Test: in Documents/Handoff documentation I can see START HERE - Claude read this first.md, claude-prompts-for-elissa.md, struggle-log.md, and the study-guides and audit folders. There is no documents folder here, and that is right.
+- If it fails: if the zip is not in the shared folder, ask Emily to add it. If the kit is missing, download it from https://github.com/eeporter/Med-School-Prep-Game/blob/main/docs/claude-prompts.md (the download button near the top right of the file) into the folder and rename it claude-prompts-for-elissa.md.
 - Fine to skip for now: no. Everything else depends on it.
-- Note: the folder on my computer is my working copy (the study buddy writes guides and the struggle log there). The copy in Google Drive is what the weekly routines read, so it is fine if the two differ.
+- Note: the folder on my computer is my working copy (the study buddy writes guides and the struggle log there). The Google Drive folder is where the course PDFs live and what the weekly routines read, so it is fine if the two differ.
 
 Step 2. Install the Claude desktop app (me)
 - Go to https://claude.ai/download , download the version for my computer (Mac or Windows), and install it: on a Mac, open the downloaded file and drag Claude into Applications; on Windows, open the installer and follow it.
@@ -44,12 +44,13 @@ Step 2. Install the Claude desktop app (me)
 - Fine to skip for now: no.
 
 Step 3. Check Claude can read the folder (me)
-- If this chat is in the desktop app and already has the folder attached (you can list it), this step is done: mark it done and move on.
+- If this chat is in the desktop app and already has the folder attached (you can list it), this step is done: mark it done, save setup-progress.md with steps 1 to 3 done, and move on.
+- If you have only the START HERE page: tell me to start a new chat with the folder attached (these steps), and to type "Start" there. That new chat takes over and this page is no longer needed.
 - In the desktop app, start a new chat. Attach the "Handoff documentation" folder: click "Work in a folder" in the message box, or the + or folder button there (the menu may look slightly different). If it asks for permission to open the folder, click Allow.
 - Type: "List the files in study-guides."
 - Then type: "Add the line Setup test to the end of struggle-log.md, read it back to me, then remove it." If Claude asks permission, click Allow.
 - Test: Claude lists the study guides (01-acid-base.md and so on), and adds and then removes the Setup test line.
-- If it fails: make sure I attached the whole "Handoff documentation" folder, not one file inside it, and clicked Allow, then try again in a new chat.
+- If it fails: make sure I attached the "Handoff documentation" folder from my Documents (the small one, with no documents folder in it), not one file inside it, and clicked Allow, then try again in a new chat. If Claude says it is too big, I have the wrong folder.
 - Fine to skip for now: no.
 
 Step 4. Make the "Med School" project (me)
@@ -61,10 +62,10 @@ Step 4. Make the "Med School" project (me)
 - Fine to skip for now: no. This is the study buddy I'll use every day.
 
 Step 5. Connect Google Drive (me)
-- In Claude, open Settings → Connectors (https://claude.ai/settings/connectors ) → find Google Drive → Connect → sign in with the Google account that has my notes and Emily's shared folder → Allow.
-- Test: in a new chat, type "Search my Google Drive for the Handoff documentation folder and tell me what is in its documents folder." Claude names some course PDFs. If I have my own notes in Google Docs, also try "Search my Google Drive for my notes on <a topic>."
+- In Claude, open Customize → Connectors (https://claude.ai/customize/connectors ; the menu may look slightly different) → find Google Drive → Connect → sign in with the Google account that has my notes and Emily's shared folder → Allow. If a chat cannot see my Drive later: + at the lower left of the message box → Connectors → turn on Google Drive.
+- Test: in a new chat, turn on Google Drive if needed and type "Search my Google Drive for the Handoff documentation folder and tell me what is in its documents folder." Claude names some course PDFs. Then type "Open one of those PDFs and tell me the title on its first page." Claude tells me. If I have my own notes in Google Docs, also try "Search my Google Drive for my notes on <a topic>."
 - If it fails: disconnect and connect again with the right Google account; make sure Emily shared the folder with that same account.
-- Fine to skip for now: yes, if I want, but the weekly automatic questions (step 10) need it.
+- Fine to skip for now: yes, if I want, but until it is done Claude cannot check my course PDFs, and the weekly automatic questions (step 10) need it.
 
 Step 6. Make a GitHub account (me) and get Emily's invite (Emily, then me)
 - Me: first, ask me whether I already have a GitHub account. Emily has already added my GitHub account to the game: if I have one, I do not make another one, and I go straight to the invitation below. If I have no account, go to https://github.com/signup , enter my email, a password and a username, and enter the code GitHub emails me. Send Emily my username.
@@ -102,7 +103,7 @@ Step 10. Turn on the weekly automatic questions (me, with Emily's folder from st
 
 FINISH SETUP: give me this checklist, ticked or marked "skipped" or "waiting for Emily":
 "You're set up:
-[ ] "Handoff documentation" folder in Documents, with the course PDFs
+[ ] "Handoff documentation" small folder in Documents (the course PDFs stay in Google Drive)
 [ ] Claude desktop app installed and can read the folder
 [ ] "Med School" project with the study buddy instructions
 [ ] Google Drive connected
