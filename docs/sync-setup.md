@@ -86,7 +86,7 @@ The game's own address opens on a Welcome screen with **Sign in with Google**; n
 
 **Sign out** stops syncing on that device and goes back to the Welcome screen; the progress already there stays.
 
-A Google account that is not in the rules is signed straight out again, with the message "... is not one of the accounts set up for this game." If Google cannot be reached (no internet, or Google's sign-in helper is blocked), the Welcome screen offers **Study without signing in**: answers are saved on the device and sync once she signs in from **Account** on the home screen. A device that signed in before keeps working offline and syncs when it is back online.
+A Google account that is not in the rules is signed straight out again, with the message "... is not one of the accounts set up for this game." If Google cannot be reached (no internet, or Google's sign-in helper is blocked), the Welcome screen offers **Study without signing in**: answers are saved on the device and sync once she taps **Sign in with Google** at the top of the screen. A device that signed in before keeps working offline and syncs when it is back online.
 
 ## Limits
 

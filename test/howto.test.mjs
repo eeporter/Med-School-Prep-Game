@@ -36,7 +36,7 @@ test('How to play starts collapsed, with no saved state that could open it', () 
 test('every home section can collapse, under a unique name', () => {
   const home = html.slice(html.indexOf('id="view-home"'), html.indexOf('id="view-quiz"'));
   const names = [...home.matchAll(/<details class="section" data-section="([a-z]+)" open>\s*<summary>/g)].map((m) => m[1]);
-  assert.deepEqual(names, ['rounds', 'block', 'focus', 'exams', 'weak', 'reports', 'progress', 'mastery']);
+  assert.deepEqual(names, ['exams', 'weak', 'rounds', 'block', 'focus', 'reports', 'mastery']);
   assert.equal(new Set(names).size, names.length);
 });
 

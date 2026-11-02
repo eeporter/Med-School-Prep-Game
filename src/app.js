@@ -184,11 +184,12 @@ async function syncNow() {
 }
 
 function renderSync() {
-  $('sync-elsewhere').hidden = Boolean(settings);
-  $('sync-off').hidden = !settings || Boolean(user);
+  // The Welcome screen has its own sign-in button, so the top bar shows one
+  // only when she chose to study without signing in.
+  $('sync-off').hidden = !settings || Boolean(user) || gateOn();
   $('sync-on').hidden = !settings || !user;
   $('sync-user').textContent = user ? (user.email || 'your Google account') : '';
-  $('sync-when').textContent = lastSynced ? ` Last synced at ${lastSynced}.` : '';
+  $('sync-when').textContent = lastSynced ? ` Progress synced at ${lastSynced}.` : '';
 }
 
 // On the game's own address, nothing shows until she is signed in (or chose
