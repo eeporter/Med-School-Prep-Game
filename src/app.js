@@ -119,10 +119,9 @@ async function syncNow({ quiet = true } = {}) {
 }
 
 function renderSync() {
-  $('sync-box').hidden = !settings;
-  if (!settings) return;
-  $('sync-off').hidden = Boolean(user);
-  $('sync-on').hidden = !user;
+  $('sync-elsewhere').hidden = Boolean(settings);
+  $('sync-off').hidden = !settings || Boolean(user);
+  $('sync-on').hidden = !settings || !user;
   $('sync-user').textContent = user ? (user.email || 'your Google account') : '';
 }
 

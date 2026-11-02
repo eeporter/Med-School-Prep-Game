@@ -29,6 +29,7 @@ test('the hand-over code is read from the address and checked', () => {
   assert.equal(readHandoverCode('#x=1&move=abcdefghjkmnpqrstvwx'), 'ABCDEFGHJKMNPQRSTVWX');
   assert.equal(readHandoverCode('#move=short'), null);
   assert.equal(readHandoverCode('#move=%3Cscript%3E'), null);
+  assert.equal(readHandoverCode('#move=%E0%A4%A'), null); // malformed escape
   assert.equal(readHandoverCode(''), null);
 });
 

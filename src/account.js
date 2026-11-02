@@ -30,7 +30,12 @@ export async function loadFirebaseSettings(fetchFn, host) {
 // "#move=CODE" in the address carries progress from the old site.
 export function readHandoverCode(hash) {
   const m = /(?:^#|&)move=([^&]+)/.exec(hash || '');
-  return m ? normalizeSyncCode(decodeURIComponent(m[1])) : null;
+  if (!m) return null;
+  try {
+    return normalizeSyncCode(decodeURIComponent(m[1]));
+  } catch {
+    return null; // a mangled link is ignored, never fatal
+  }
 }
 
 // Plain-language messages for sign-in errors. Returns null for ones to ignore.

@@ -42,7 +42,7 @@
         <ul>
           <li><strong>My exams</strong>: choose the test and its date, then tap <strong>Add exam</strong>. New questions in Daily Rounds then aim at your next exam, reviews are spaced to come back before it, and Exam Block offers "My next exam".</li>
           <li><strong>My weak spots</strong>: the topics you miss, or only get right by guessing. About once a week, tap <strong>Copy for my Claude</strong> and paste it into your study buddy chat.</li>
-          <li><strong>Sync and backup</strong>: to play on more than one device, tap <strong>Sign in with Google</strong> once on each device, with the same Google account. Your progress then syncs by itself. Tap <strong>Save a backup file</strong> now and then, too.</li>
+          <li><strong>Sync and backup</strong>: to play on more than one device, tap <strong>Sign in with Google</strong> once on each device, with the same Google account, and your progress syncs by itself. If that button is not shown, use <strong>Save a backup file</strong> on one device and <strong>Restore from a backup file</strong> on the other. A backup file now and then is a good idea anyway.</li>
         </ul>
         <div class="row">
           <button type="button" id="howto-hide">Hide this</button>
@@ -144,9 +144,10 @@
         <h2 id="progress-head">Sync and backup</h2>
         <p class="meta">Your progress (which questions are due, what you missed, XP and streak) is saved in this browser on this device.</p>
 
-        <div id="sync-box" hidden>
+        <div id="sync-box">
           <h3>Sync</h3>
-          <div id="sync-off">
+          <p class="meta" id="sync-elsewhere">Sign-in sync works at the game's own address, <a href="https://medschool-sync.web.app/">medschool-sync.web.app</a>. Here, use a backup file (below) to move progress between devices.</p>
+          <div id="sync-off" hidden>
             <p class="meta">Sign in with your Google account on each of your devices. Your progress then stays the same on all of them by itself.</p>
             <div class="row">
               <button type="button" id="sync-signin" class="primary">Sign in with Google</button>
