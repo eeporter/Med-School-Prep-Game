@@ -227,7 +227,7 @@ Step 9. Keep my progress safe: sync and backup (me)
 - Fine to skip for now: sync, yes, if I use one device; still save a backup file now and then.
 
 Step 10. Turn on the weekly automatic questions (me, with Emily's folder from step 1)
-- This needs steps 5, 6 and 7. Open claude-prompts-for-elissa.md at the section "Automatic weekly questions", sub-section "One-time setup", and follow it with me: in https://claude.ai/code , open Routines (the menu may look slightly different) → New routine, twice: "Weekly question writer" (Monday and Thursday, early morning, WRITER ROUTINE box) and "Weekly question auditor" (Tuesday and Friday, early morning, AUDITOR ROUTINE box). Pick the Med-School-Prep-Game repository and turn on Google Drive in both. The routines create any labels they need themselves.
+- This needs steps 5, 6 and 7. Open claude-prompts-for-elissa.md at the section "Automatic weekly questions", sub-section "One-time setup", and follow it with me: show me both boxes word for word so I can copy them, then in the Code tab click Scheduled in the sidebar (or open https://claude.ai/code/routines ) → New task or New routine (if asked, choose Cloud, then Set up manually), twice: "Weekly question writer" (WRITER ROUTINE box) and "Weekly question auditor" (AUDITOR ROUTINE box). Pick the Med-School-Prep-Game repository, choose Weekly, keep Google Drive on under Connectors, and click Create. Weekly runs on one day only, so then open the menu next to the task's name → Edit → change the schedule to Custom and paste 0 11 * * 1,4 for the writer (Monday and Thursday mornings) or 0 11 * * 2,5 for the auditor (Tuesday and Friday mornings) → Save changes. The routines create any labels they need themselves.
 - Test: click Run now on the writer, then on the auditor after the writer finishes. A pull request appears at https://github.com/eeporter/Med-School-Prep-Game/pulls , the auditor comments on it, and the comment does not say "page check not run".
 - If it fails: if Routines asks me to upgrade, tell Emily. If it says "page check not run", Google Drive isn't reaching the routine: redo step 5, turn Google Drive on in both routines, and check the Handoff documentation folder shows in my Google Drive (step 1's shortcut helps). Until then batches wait instead of merging, so nothing wrong reaches the game. Otherwise send Emily the plain words of the problem.
 - Fine to skip for now: yes. Everything else works without it.
@@ -328,19 +328,21 @@ You can do that whenever you like (once a week is plenty). If the inbox is empty
 Menu names in Claude change from time to time. If a button below looks different, look for the closest match, or ask Claude in a claude.ai/code chat "how do I create a scheduled routine?"
 
 1. **(Required for automatic merging, Emily)** Put the course PDFs in a private Google Drive folder shared with Elissa: **Handoff documentation**, in its `documents` folder. Never put them in the game's repository: it is public and the PDFs are copyrighted. The routines read them through Elissa's Google Drive connector, cite them by page, and check that no question copies them. Without the folder, the auditor cannot run those checks, so it holds every batch for a person instead of merging.
-2. Go to https://claude.ai/code and open **Routines** (sometimes shown as scheduled tasks; the menu may look slightly different, and https://support.claude.com/ has help). Click **New routine**.
+2. In the Code tab, click **Scheduled** in the sidebar, or go to https://claude.ai/code/routines (the menu may look slightly different, and https://support.claude.com/ has help). Click **New task** or **New routine**. If asked, choose **Cloud**, then **Set up manually**.
 3. **Writer routine:**
    - Name it "Weekly question writer".
    - Pick the **Med-School-Prep-Game** repository.
-   - Set the schedule to **Monday and Thursday, early morning**.
-   - Turn on the **Google Drive** connector if it is offered.
-   - Paste the WRITER ROUTINE prompt below and save.
+   - Choose **Weekly** for now.
+   - Keep the **Google Drive** connector on.
+   - Paste the WRITER ROUTINE prompt below and click **Create**.
+   - Open the menu next to its name → **Edit** → change the schedule to **Custom**, paste `0 11 * * 1,4` (Monday and Thursday mornings), and click **Save changes**.
 4. **Auditor routine:**
    - Click **New routine** again and name it "Weekly question auditor".
    - Pick the same repository.
-   - Set the schedule to **Tuesday and Friday, early morning**.
-   - Turn on Google Drive if offered.
-   - Paste the AUDITOR ROUTINE prompt below and save.
+   - Choose **Weekly** for now.
+   - Keep Google Drive on.
+   - Paste the AUDITOR ROUTINE prompt below and click **Create**.
+   - Open the menu next to its name → **Edit** → change the schedule to **Custom**, paste `0 11 * * 2,5` (Tuesday and Friday mornings), and click **Save changes**.
 5. **Test:** on each routine, click **Run now** once, writer first, then auditor after it finishes. Check that a pull request appears at https://github.com/eeporter/Med-School-Prep-Game/pulls and that the auditor comments on it, and that the auditor's comment does not say "page check not run". If it does, the routines can't reach Google Drive: tell Emily.
 
 To pause: open Routines and switch them off. Each run uses your Claude plan's usage, so a large weekly batch may need a plan with higher limits.
@@ -756,7 +758,7 @@ When asked to re-check fixes, verify each finding ID one by one against the upda
 
 ## Changelog
 
-- 1.4 (2026-11-02), from Elissa's setup: Emily installs the Claude GitHub app before handoff; step 7 tells Elissa to ask Emily if Claude says the GitHub app on eeporter isn't connected. Also from her Windows setup: the Code tab now counts as a way to attach the folder, be the study buddy (no Projects needed) and reach the game (Cloud session); a documents folder in her copy is used if present; a "create a workspace" page means stop and send Emily a screenshot; game-question requests wait in question-requests-waiting.md until claude.ai/code works.
+- 1.4 (2026-11-02), from Elissa's setup: Emily installs the Claude GitHub app before handoff; step 7 tells Elissa to ask Emily if Claude says the GitHub app on eeporter isn't connected. Also from her Windows setup: the Code tab now counts as a way to attach the folder, be the study buddy (no Projects needed) and reach the game (Cloud session); a documents folder in her copy is used if present; a "create a workspace" page means stop and send Emily a screenshot; game-question requests wait in question-requests-waiting.md until claude.ai/code works. Routine steps now match Anthropic's scheduled-task screens: the presets have no two-day week, so each routine gets a Custom schedule.
 - 1.3 (2026-11-02), Emily: the full folder was too big for Elissa's Claude. Elissa now drops in only START HERE and types "Start". She downloads a small zip (everything except the PDFs) and attaches that folder for saving; the course PDFs stay in Google Drive and are read through the connector, which per Anthropic's page reads PDFs and creates files but does not list editing existing ones. Connector link updated to Customize → Connectors.
 - 1.2 (2026-11-02), after testing "attach the folder and type Start" on a copy: named the "Work in a folder" button and the + next to Projects; Claude now shows the study buddy text to copy in step 4, because the grey box is not grey in the file on her computer; step 6 no longer sends Elissa to make a second GitHub account, since hers is already added.
 - 1.1 (2026-11-02), Emily's handoff requests: one "Handoff documentation" folder (was MedSchoolPrep) with a "START HERE - Claude read this first.md" file (and a CLAUDE.md copy): Elissa attaches the folder, types "Start", and her Claude walks her through setup step by step (who, where, exact buttons, a test and a fix for each step, what can wait, progress kept in setup-progress.md), then acts as her study buddy; the same text is in the new "Setup guide" section and docs/START-HERE.md; "How to play the game" section (modes, confidence and review timing, XP, reports, mastery, sync and backup, keyboard); "All the links in one place" list and links added where pages and sources are named. Audit K13: "Before handoff (Emily, once)" list at the top (build the folder, upload it to Google Drive, share as Editor and send Elissa the link, GitHub, test Start); START HERE step 1 opens Emily's link; one START HERE title.
