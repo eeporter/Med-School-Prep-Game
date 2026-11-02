@@ -1,7 +1,7 @@
 # Pemphigus vulgaris vs bullous pemphigoid, and mycophenolate
 
 Exam focus: USMLE Step 1 and NBME · Study material, not patient care guidance · Auditor: cleared 2026-10-27
-From Elissa's question log: "immunopathological features and microscopic findings in Pemphigus Vulgaris vs Bullous Pemphigoid" and "mechanism, adverse effects and uses of immunosuppressive drugs such as mycophenolate mofetil".
+From the question log: "immunopathological features and microscopic findings in Pemphigus Vulgaris vs Bullous Pemphigoid" and "mechanism, adverse effects and uses of immunosuppressive drugs such as mycophenolate mofetil".
 Based on your notes: El-Husseiny's Essentials of MSK (pemphigus vulgaris pp. 176-177, bullous pemphigoid p. 178), El-Husseiny's Essentials of Microbiology and Immunology (type II hypersensitivity pp. 453, 461; immunosuppressants p. 483) and El-Husseiny's Essentials of Biochemistry (nucleotide-synthesis drugs p. 229). Each fact is also checked against the MSD Manual and the CellCept label; where a different source disagrees with your notes, a marked note says so.
 
 ## In one line

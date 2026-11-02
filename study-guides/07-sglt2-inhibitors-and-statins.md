@@ -1,7 +1,7 @@
 # SGLT2 inhibitors and statins: how they protect the heart and kidney
 
 Exam focus: USMLE Step 1 and NBME · Study material, not patient care guidance · Auditor: cleared 2026-10-27
-From Elissa's question log: "How do SGLT2 inhibitors and HMG-CoA reductase inhibitors (statins) exert their cardioprotective and renoprotective effects?"
+From the question log: "How do SGLT2 inhibitors and HMG-CoA reductase inhibitors (statins) exert their cardioprotective and renoprotective effects?"
 Based on your notes: El-Husseiny's Essentials of Cardiovascular (statins pp. 212-213), Essentials of Nephrology (glucose threshold p. 39) and Pharmacology High Yield (SGLT2 blockers, PDF p. 152). Each fact is also checked against StatPearls and the MSD Manual; where a different source disagrees with your notes, or newer guidance has changed, a marked note says so.
 
 ## In one line

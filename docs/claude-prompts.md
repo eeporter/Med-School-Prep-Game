@@ -88,7 +88,7 @@ Nothing here involves Terminal. Tick each box once.
 | Merge (after the auditor clears it and you say "merge") | claude.ai/code, in the chat that made the change | Same reason |
 | Weekly automatic questions (routines) | claude.ai/code, Routines, set up once | Routines live there |
 
-claude.ai/code is just a website with a chat box, not Terminal, and it does not touch your computer. Connecting GitHub to the regular desktop chat mainly lets Claude *read* the game; it cannot run the game's checks there, so the game prompts always go to claude.ai/code. If a claude.ai/code chat needs something from your folder (struggle log, a document page), it will ask you to attach or paste it. If the study buddy can't add its question request to the game itself, it gives you one line to paste into claude.ai/code.
+claude.ai/code is just a website with a chat box, not Terminal, and it does not touch your computer. Connecting GitHub to the regular desktop chat mainly lets Claude *read* the game; it cannot run the game's checks there, so the game prompts always go to claude.ai/code. If a claude.ai/code chat needs something from your folder (struggle log, a document page), it will ask you to attach or paste it. The desktop chat can't start or direct a claude.ai/code chat for you, so the hand-off between the two is simple: if the study buddy can't add its question request to the game's inbox itself, it gives you one line to paste into claude.ai/code. Once it is in the inbox, the weekly routines pick it up on their own.
 
 ## Your daily routine
 

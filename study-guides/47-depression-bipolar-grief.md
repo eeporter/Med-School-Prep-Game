@@ -28,7 +28,7 @@ Mood disorders are built from **episodes**. Learn the three episodes (**major de
 | **Bipolar II** | **At least one hypomanic episode + at least one major depressive episode** | **Never a manic episode** | pp. 139, 150 |
 | **Cyclothymic disorder** | **2 years** (1 year in youth) of many hypomanic-type and depressive-type periods that never reach full episodes; symptoms present at least half the time, never gone > 2 months | Never met criteria for a major depressive, manic or hypomanic episode | p. 159 |
 | **Major depressive disorder** | At least one MDE | **Never a manic or hypomanic episode** | pp. 183-184 |
-| **Persistent depressive disorder** | Depressed mood more days than not for **2 years** (1 year in youth, when mood can be irritable), with **2 or more** of: appetite change, sleep change, low energy, low self-esteem, poor concentration, hopelessness; **never symptom-free > 2 months** | Never manic or hypomanic. Full MDEs may also occur, and then both are diagnosed | pp. 193-194 |
+| **Persistent depressive disorder** | Low mood on most days for **2 years** (1 year in children and teens, when irritability can stand in for low mood), plus **at least 2** of: appetite change, sleep change, low energy, low self-esteem, poor concentration, hopelessness; **no symptom-free stretch > 2 months** | Never manic or hypomanic. Full MDEs may also occur, and then both are diagnosed | pp. 193-194 |
 | **Premenstrual dysphoric disorder** | In most cycles, **at least 5 symptoms in the last week before menses** that improve within days of menses and are minimal the week after. At least one is a core mood symptom (mood swings, irritability, depressed mood, anxiety) | Must be confirmed by **prospective daily ratings over at least 2 cycles** (diagnosis is "provisional" until then) | pp. 197-198 |
 | **DMDD** | Severe temper outbursts **3 or more times a week** with **irritable mood between** outbursts, for **12 months or more**, in 2 of 3 settings | **First diagnosed only between ages 6 and 18; onset before age 10**. Cannot coexist with ODD, intermittent explosive disorder or bipolar disorder (if both DMDD and ODD fit, diagnose only DMDD) | p. 178 |
 
@@ -79,7 +79,7 @@ Mood disorders are built from **episodes**. Learn the three episodes (**major de
 ## Suicide risk (pp. 148, 190)
 - **Depression:** a **17-fold** higher suicide risk than the general population (p. 190).
 - **Bipolar disorder:** lifetime suicide risk **20-30 times** the general population; an estimated **5-6%** die by suicide (p. 148).
-- **The most consistently described risk factor is a past suicide attempt or threat**, although most suicide deaths are **not** preceded by a non-fatal attempt (p. 190).
+- **A previous suicide attempt or threat is the risk factor reported most consistently**, yet most people who die by suicide had **no** earlier non-fatal attempt (p. 190).
 - **Other risk factors (p. 190):** being single or living alone, social disconnection, early adversity, **access to a firearm**, sleep problems, **hopelessness**, anhedonia, and coexisting borderline personality disorder or substance use.
 - **Women attempt suicide more often; men die by suicide more often** (pp. 148, 190).
 - **Alcohol use disorder** affects nearly half of people with bipolar disorder and raises suicide risk (p. 148).
@@ -159,7 +159,7 @@ A 24-year-old graduate student is brought in by her roommate. For 8 days she has
 
 3. A 42-year-old accountant says she has "always been a gloomy person". For at least the past 3 years she has felt down most days, with low energy, poor self-esteem and trouble making decisions. She has never felt normal for more than a few weeks at a time. She has never had 2 weeks with enough symptoms for a major depressive episode, and she has never had elevated mood. Which is the most likely diagnosis?
    - **Answer:** **persistent depressive disorder**.
-   - **Why:** depressed mood more days than not for at least 2 years, with 2 or more associated symptoms, never symptom-free for more than 2 months (pp. 193-194).
+   - **Why:** low mood on most days for 2 years or longer, plus at least 2 associated symptoms, with no symptom-free stretch longer than 2 months (pp. 193-194).
    - **Trap:** **major depressive disorder**, which requires a 2-week episode with at least 5 symptoms.
 
 4. A 29-year-old woman has felt depressed for 2 months. She sleeps 11-12 hours a day, has gained 6 kg from eating more, and says her arms and legs feel "heavy as lead". Her mood lifts for a while when friends visit. She has always been very hurt by perceived rejection. Which specifier best describes her depressive episode?

@@ -1,7 +1,7 @@
 # How steroid and thyroid hormones are made, and the drugs and defects that block them
 
 Exam focus: USMLE Step 1 and NBME · Study material, not patient care guidance · Auditor: cleared 2026-10-27
-From Elissa's question log: "key steroidogenesis pathways and thyroid hormone regulation mechanisms".
+From the question log: "key steroidogenesis pathways and thyroid hormone regulation mechanisms".
 Based on your notes: El-Husseiny's Essentials of Endocrinology (adrenal zones p. 36, thyroid synthesis and transport pp. 62-65, Wolff-Chaikoff p. 74, thyroid storm p. 77, Jod-Basedow p. 78, antithyroid drugs and radioactive iodine pp. 146-148) and Osmosis HY Physiology (adrenocortical hormone synthesis pp. 276-277). Each fact is also checked against StatPearls, the MSD Manual and a review article; where a different source disagrees with your notes, newer guidance has changed, or a document is wrong, a marked note says so.
 
 ## In one line

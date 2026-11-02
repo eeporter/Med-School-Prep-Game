@@ -1,7 +1,7 @@
 # Renal formulas: osmolal gap, clearance, GFR, FENa, corrected sodium
 
 Exam focus: USMLE Step 1 and NBME · Study material, not patient care guidance · Auditor: cleared 2026-10-27
-From Elissa's question log: "essential nephrology formulas for anion gap, osmolar gap, renal clearance, and corrected sodium". The anion gap is covered in [01-acid-base.md](01-acid-base.md).
+From the question log: "essential nephrology formulas for anion gap, osmolar gap, renal clearance, and corrected sodium". The anion gap is covered in [01-acid-base.md](01-acid-base.md).
 Based on your notes: El-Husseiny's Essentials of Nephrology (osmolality p. 23, filtration and clearance pp. 27-36 and 44, acute kidney injury pp. 112-114, ethylene glycol p. 119) and Osmosis HY Pathology Vol. 2 (hyponatremia, p. 810). Each fact is also checked against StatPearls and the MSD Manual; where a different source disagrees with your notes, a marked note says so.
 
 ## In one line

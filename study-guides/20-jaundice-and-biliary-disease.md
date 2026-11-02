@@ -1,7 +1,7 @@
 # Jaundice and bile duct disease: bilirubin, liver tests, gallstones, PBC and PSC
 
 Exam focus: USMLE Step 1 and NBME · Study material, not patient care guidance · Auditor: cleared 2026-10-27
-From Elissa's question log: "hepatobiliary pathologies".
+From the question log: "hepatobiliary pathologies".
 Based on your notes: Osmosis High-Yield Gastrointestinal Pathology (biliary tract diseases pp. 1-13, congenital liver and gallbladder conditions pp. 90-94, cirrhosis p. 105, primary biliary cirrhosis pp. 120-121) and Osmosis High-Yield Physiology (bilirubin synthesis p. 332). Each fact is also checked against the MSD Manual; where a different source disagrees with your notes, newer guidance has changed, or a document is wrong, a marked note says so.
 
 ## In one line

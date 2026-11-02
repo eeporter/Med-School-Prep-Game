@@ -185,7 +185,7 @@ A 30-year-old woman in her first labor at 40 weeks is 8 cm dilated with an epidu
 3. A 26-year-old woman with type 1 diabetes at 35 weeks has a nonstress test. In 20 minutes there are no accelerations; the baseline is 140/min with moderate variability and no decelerations. Which is the most appropriate next step?
    - **Answer:** **vibroacoustic stimulation and continued monitoring.**
    - **Why:** a nonreactive NST is often due to fetal sleep; vibroacoustic stimulation is the next step, then a BPP or CST if still nonreactive (El-Husseiny OB p. 92).
-   - **Trap:** **immediate delivery**. A nonreactive NST has a high false-positive rate and cannot by itself diagnose acidemia (p. 92).
+   - **Trap:** **immediate delivery**. Many nonreactive NSTs are false alarms (high false-positive rate), so this result alone does not prove fetal acidemia (p. 92).
 
 4. A 35-year-old woman at 38 weeks with chronic hypertension reports decreased fetal movement. A biophysical profile scores 4/10: the NST is nonreactive, there are no breathing movements, and the deepest fluid pocket is 1.5 cm; tone and body movements are present. Which is the most appropriate management?
    - **Answer:** **prompt delivery.**

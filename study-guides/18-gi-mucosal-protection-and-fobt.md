@@ -1,7 +1,7 @@
 # Gastric mucosal protection, ulcer drugs and fecal occult blood testing
 
 Exam focus: USMLE Step 1 and NBME · Study material, not patient care guidance · Auditor: cleared 2026-10-27
-From Elissa's question log: "primary mucosal protection mechanisms ... and gastrointestinal pharmacological interventions" and "clinical utility, procedure, and interpretation of Fecal Occult Blood Testing (FOBT)".
+From the question log: "primary mucosal protection mechanisms ... and gastrointestinal pharmacological interventions" and "clinical utility, procedure, and interpretation of Fecal Occult Blood Testing (FOBT)".
 Based on your notes: Osmosis High-Yield Gastrointestinal Pathology (GERD drugs p. 30, gastritis and H. pylori pp. 38-41, peptic ulcer pp. 42-43, colorectal cancer pp. 49-50) and Pharmacology High Yield (ulcer drugs PDF pp. 160-161, prostaglandin analogs PDF p. 165). Each fact is also checked against StatPearls, the MSD Manual and the 2024 ACG guideline; where a different source disagrees with your notes, newer guidance has changed, or a document is wrong, a marked note says so.
 
 ## In one line

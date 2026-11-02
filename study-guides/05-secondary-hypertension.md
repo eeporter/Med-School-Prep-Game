@@ -1,7 +1,7 @@
 # Secondary hypertension: young vs elderly
 
 Exam focus: USMLE Step 1 and NBME · Study material, not patient care guidance · Auditor: cleared 2026-10-27
-From Elissa's question log: "differential diagnosis and diagnostic workup for secondary hypertension in young versus elderly patients".
+From the question log: "differential diagnosis and diagnostic workup for secondary hypertension in young versus elderly patients".
 Based on your notes: El-Husseiny's Essentials of Cardiovascular (hypertension pp. 116-122) and Endocrinology (hyperaldosteronism pp. 52-54, pheochromocytoma pp. 59-60), and Osmosis HY Cardiovascular ("Hypertension"). Each fact is also checked against StatPearls and the MSD Manual; where a different source disagrees with your notes, or newer guidance has changed, a marked note says so.
 
 ## In one line

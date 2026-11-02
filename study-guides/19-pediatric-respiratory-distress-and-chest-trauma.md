@@ -1,7 +1,7 @@
 # Breathing trouble in children: croup, epiglottitis, bronchiolitis, foreign body and chest trauma
 
 Exam focus: USMLE Step 1 and NBME · Study material, not patient care guidance · Auditor: cleared 2026-10-27
-From Elissa's question log: "differential diagnosis for acute respiratory distress and trauma in pediatric patients".
+From the question log: "differential diagnosis for acute respiratory distress and trauma in pediatric patients".
 Based on your notes: El-Husseiny's Essentials of Respiratory System (aspiration p. 7, surfactant and L/S ratio p. 10, epiglottitis and croup pp. 72-73) and Essentials of Microbiology and Immunology (croup and RSV pp. 289-290). Your notes do not cover pediatric chest trauma, so that part rests on the cited pages. Where a different source disagrees with your notes, or newer guidance has changed, a marked note says so.
 
 ## In one line

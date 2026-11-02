@@ -1,7 +1,7 @@
 # Antimicrobial mechanisms and resistance (MRSA, VRE, antifungals, acyclovir)
 
 Exam focus: USMLE Step 1 and NBME · Study material, not patient care guidance · Auditor: cleared 2026-10-27
-From Elissa's question log: "molecular mechanisms of antimicrobial resistance, such as altered penicillin-binding proteins in MRSA" and "mechanism of action, resistance pathways of antibacterial, antifungal, and antiviral agents".
+From the question log: "molecular mechanisms of antimicrobial resistance, such as altered penicillin-binding proteins in MRSA" and "mechanism of action, resistance pathways of antibacterial, antifungal, and antiviral agents".
 Based on your notes: El-Husseiny's Essentials of Microbiology and Immunology (penicillins p. 327, vancomycin and daptomycin pp. 333-334, antifungals pp. 353-357, antivirals pp. 360-362 and 367). Each fact is also checked against StatPearls and the MSD Manual; where a different source disagrees with your notes, or a document is wrong, a marked note says so.
 
 ## In one line

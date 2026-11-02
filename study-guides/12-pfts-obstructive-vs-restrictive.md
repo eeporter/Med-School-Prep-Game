@@ -1,7 +1,7 @@
 # Pulmonary function tests: obstructive vs restrictive, plus ABGs
 
 Exam focus: USMLE Step 1 and NBME · Study material, not patient care guidance · Auditor: cleared 2026-10-27
-From Elissa's question log: "How are restrictive and obstructive lung diseases differentiated using pulmonary function tests (PFTs) and arterial blood gas (ABG) analysis?"
+From the question log: "How are restrictive and obstructive lung diseases differentiated using pulmonary function tests (PFTs) and arterial blood gas (ABG) analysis?"
 Based on your notes: El-Husseiny's Essentials of Respiratory System (PFTs pp. 19-24, diffusion p. 41, alveolar gas equation p. 43, A-a gradient p. 59, COPD pp. 89-90, restrictive disease p. 97). Each fact is also checked against StatPearls and the MSD Manual; where a different source disagrees with your notes, a marked note says so.
 
 ## In one line

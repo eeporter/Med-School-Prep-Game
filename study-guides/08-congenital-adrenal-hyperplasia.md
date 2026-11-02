@@ -1,7 +1,7 @@
 # Congenital adrenal hyperplasia (CAH)
 
 Exam focus: USMLE Step 1 and NBME · Study material, not patient care guidance · Auditor: cleared 2026-10-27
-From Elissa's question log: "pathophysiology and clinical presentation of CAH across its different enzyme deficiencies" and "key steroidogenesis pathways".
+From the question log: "pathophysiology and clinical presentation of CAH across its different enzyme deficiencies" and "key steroidogenesis pathways".
 Based on your notes: El-Husseiny's Essentials of Endocrinology (congenital adrenal hyperplasia pp. 55-57). Each fact is also checked against StatPearls and the MSD Manual; where a different source disagrees with your notes, a marked note says so.
 
 ## In one line

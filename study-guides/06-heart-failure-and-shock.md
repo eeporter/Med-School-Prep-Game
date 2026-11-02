@@ -1,7 +1,7 @@
 # Acute decompensated heart failure and cardiogenic shock
 
 Exam focus: USMLE Step 1 and NBME (taught at Step 1 depth: pathophysiology, hemodynamics, drug mechanisms) · Study material, not patient care guidance · Auditor: cleared 2026-10-27
-From Elissa's question log: "pathophysiology and step-wise management of acute decompensated heart failure and cardiogenic shock".
+From the question log: "pathophysiology and step-wise management of acute decompensated heart failure and cardiogenic shock".
 Based on your notes: El-Husseiny's Essentials of Cardiovascular (heart failure pp. 157-161, shock p. 162, heart failure drugs pp. 203-209, natriuretic peptides p. 78) and Osmosis HY Cardiovascular (heart failure pp. 55-57). Each fact is also checked against StatPearls and the MSD Manual; where a different source disagrees with your notes, or newer guidance has changed, a marked note says so.
 
 ## In one line
