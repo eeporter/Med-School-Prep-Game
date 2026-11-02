@@ -145,3 +145,14 @@ details.howto ul { padding-left: 20px; margin: 0; }
 details.howto li { margin-bottom: 6px; }
 details.howto .row { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; margin-top: 12px; }
 .notice { background: var(--ok-bg); border: 1px solid var(--ok); border-radius: 8px; padding: 10px 14px; }
+
+/* Sign-in screen: the first thing on the game's own address. */
+.gate { max-width: 32rem; margin: 32px auto; display: flex; flex-direction: column; gap: 12px; }
+.gate h2 { margin: 0; }
+.gate #gate-ready { display: flex; flex-direction: column; gap: 12px; align-items: flex-start; }
+.gate p { margin: 0; }
+.gate #gate-offline { display: flex; flex-direction: column; gap: 8px; align-items: flex-start; }
+/* Home, from any question. */
+.quiz-head { align-items: center; }
+.home-btn { min-height: 36px; }
+.fb-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }

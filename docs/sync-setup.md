@@ -58,7 +58,7 @@ The workflow `.github/workflows/deploy.yml` publishes the game to Firebase Hosti
 1. `npx firebase-tools login` (Emily clicks **Allow** in the browser that opens).
 2. In a copy of the repository: `npx firebase-tools init hosting:github`, choose the repository `eeporter/Med-School-Prep-Game`. It asks GitHub for permission (Emily clicks **Authorize**), creates a deploy key and saves it as the secret above. Answer **No** if it asks to overwrite `firebase.json`, and do not commit the workflow files it offers to write; `deploy.yml` already does that job.
 3. Let Google accept sign-ins that return to the game's own address. In the Google Cloud console for `medschool-sync`, open **APIs & Services** > **Credentials**, click the OAuth client named **Web client (auto created by Google Service)**, and under **Authorized redirect URIs** add `https://medschool-sync.web.app/__/auth/handler`, then **Save**. (The game runs sign-in from its own address so Safari's cookie blocking cannot break it; without this entry Google shows "Error 400: redirect_uri_mismatch".)
-4. Run the **Deploy to Firebase Hosting** workflow once from the repository's **Actions** tab (or merge any pull request), then open https://medschool-sync.web.app and check that **Sync and backup** shows **Sign in with Google**.
+4. Run the **Deploy to Firebase Hosting** workflow once from the repository's **Actions** tab (or merge any pull request), then open https://medschool-sync.web.app and check that it opens on the Welcome screen with **Sign in with Google**.
 
 `firebase.json` publishes only the game itself (`index.html`, `styles.css`, `src/`, `data/`). The docs, study guides, tests and scripts are not put on the website.
 
@@ -78,7 +78,7 @@ and click **Publish**. Then, in **Firestore Database** > **Data**, open the `pro
 
 ## Using sync (Elissa)
 
-On each device, open https://medschool-sync.web.app, scroll to **Sync and backup**, tap **Sign in with Google**, and pick the same Google account every time. After that it is automatic: the game syncs when it opens, when she comes back to it, and a few seconds after she answers questions. **Sync now** forces it. Progress from every device is merged, so nothing is lost if she studied on two devices before they synced:
+The game's own address opens on a Welcome screen with **Sign in with Google**; nothing else shows until she signs in. On each device she taps it once and picks the same Google account every time. After that the game opens straight to the home screen, and syncing is automatic, with no button: it syncs when the game opens, when she comes back to it, when she leaves it (switches app, locks the phone or closes the tab), and 3 seconds after she answers. An answer given while a sync is on its way is merged into the next one, never overwritten. Progress from every device is merged, so nothing is lost if she studied on two devices before they synced:
 
 - each question keeps its most recent review;
 - every answer is kept once in her history;
@@ -86,7 +86,9 @@ On each device, open https://medschool-sync.web.app, scroll to **Sync and backup
 - the streak follows the most recent study day;
 - exams and question reports are combined, and anything removed or cleared on one device stays removed everywhere.
 
-**Sign out** stops syncing on that device; the progress already there stays.
+**Sign out** stops syncing on that device and goes back to the Welcome screen; the progress already there stays.
+
+A Google account that is not in the rules is signed straight out again, with the message "... is not one of the accounts set up for this game." If Google cannot be reached (no internet, or Google's sign-in helper is blocked), the Welcome screen offers **Study without signing in**: answers are saved on the device and sync once she signs in from **Sync and backup**. A device that signed in before keeps working offline and syncs when it is back online.
 
 ## Limits
 

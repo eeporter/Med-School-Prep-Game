@@ -20,7 +20,9 @@ const NEW_PER_ROUNDS = 10;
 const FOCUS_KEY = 'med-prep-focus';
 const DEVICE_KEY = 'med-study-game:device';
 // After a change, wait this long before syncing, so a run of answers goes up together.
-const SYNC_DELAY_MS = 8000;
+const SYNC_DELAY_MS = 3000;
+// If Google's sign-in check has not answered by then, offer the sign-in button anyway.
+const GATE_WAIT_MS = 10000;
 // A question missed again and again is re-asked at most this many extra times
 // per session, so one stubborn item cannot trap the learner.
 const MAX_RELEARN_TRIES = 3;
@@ -41,8 +43,15 @@ const deviceId = loadDeviceId();
 let settings = null; // Firebase settings, when this site has them
 let account = null; // signed-in helpers from startAccount
 let user = null; // the signed-in Google user, or null
+// The sign-in screen: 'checking' (waiting for Google), 'ready' (show the
+// button) or 'unreachable' (Google cannot be reached; she may study offline).
+let gateMode = 'checking';
+let skipped = false; // studying on this device without signing in, this visit only
+let refused = null; // the email of an account the rules turned away
+let lastSynced = null;
 let syncTimer = null;
 let syncing = null;
+let changes = 0; // counts saved changes, so a sync can tell if more came in meanwhile
 let questions = [];
 let session = null;
 let focus = loadFocus();
@@ -50,6 +59,7 @@ let focusChecks = [];
 
 function persist() {
   if (!save(storage, state)) console.warn('Progress could not be saved (storage unavailable).');
+  changes += 1;
   scheduleSync();
 }
 
@@ -91,21 +101,35 @@ const timeNow = () => new Date().toLocaleTimeString([], { hour: 'numeric', minut
 
 // Pull, merge, push. Only one sync runs at a time; a failure leaves this
 // device's progress untouched and the next change or visit tries again.
-async function syncNow({ quiet = true } = {}) {
-  if (!user || syncing) return syncing;
+async function syncNow() {
+  if (!user) return null;
+  if (syncing) {
+    // A change made while a sync is on its way goes up in the next one.
+    scheduleSync();
+    return syncing;
+  }
   clearTimeout(syncTimer);
   const status = $('sync-status');
-  if (!quiet) status.textContent = 'Syncing...';
+  const before = changes;
   syncing = (async () => {
     try {
       const token = await account.token();
       const merged = await syncOnce(fetch, docUrl(settings.projectId, accountPath(user.uid)), state, token);
-      adoptState(merged);
-      status.textContent = `Synced at ${timeNow()}.`;
+      // Answers given while the sync was on its way are merged in, never
+      // overwritten by the copy that left before them.
+      adoptState(mergeStates(state, merged));
+      if (changes !== before) scheduleSync();
+      lastSynced = timeNow();
+      status.textContent = '';
+      renderSync();
     } catch (err) {
       console.warn(err);
       if (err instanceof SyncError && err.status === 403) {
-        status.textContent = 'This Google account is not allowed to sync here. Sign out, then sign in with the account Emily set up.';
+        // Only the accounts listed in the Firestore rules can sync. Send anyone else back to
+        // the sign-in screen with a plain reason.
+        refused = user?.email || 'That Google account';
+        clearTimeout(syncTimer);
+        await account.signOut().catch((e) => console.warn(e));
       } else {
         status.textContent = navigator.onLine === false
           ? 'Offline. Your progress is saved on this device and will sync when you are back online.'
@@ -123,22 +147,67 @@ function renderSync() {
   $('sync-off').hidden = !settings || Boolean(user);
   $('sync-on').hidden = !settings || !user;
   $('sync-user').textContent = user ? (user.email || 'your Google account') : '';
+  $('sync-when').textContent = lastSynced ? ` Last synced at ${lastSynced}.` : '';
+}
+
+// On the game's own address, nothing shows until she is signed in (or chose
+// to study offline because Google could not be reached).
+const gateOn = () => Boolean(settings) && !user && !skipped;
+
+function renderGate() {
+  $('gate-checking').hidden = gateMode !== 'checking';
+  $('gate-ready').hidden = gateMode === 'checking';
+  $('gate-offline').hidden = gateMode !== 'unreachable';
+  if (refused) {
+    $('gate-status').textContent = `${refused} is not one of the accounts set up for this game. Sign in with the Google account this game is set up for.`;
+  }
+}
+
+function setGate(mode) {
+  gateMode = mode;
+  renderGate();
+}
+
+async function signIn(status) {
+  status.textContent = '';
+  if (!account) return;
+  try {
+    await account.signIn();
+    refused = null;
+  } catch (err) {
+    console.warn(err);
+    const msg = signInProblem(err?.code);
+    if (msg) status.textContent = msg;
+    if (err?.code === 'auth/network-request-failed' && gateOn()) setGate('unreachable');
+  }
 }
 
 async function startSync() {
-  settings = await loadFirebaseSettings(fetch, location.hostname);
   if (!settings) return renderSync();
+  renderGate();
+  const wait = setTimeout(() => { if (gateMode === 'checking') setGate(account ? 'ready' : 'unreachable'); }, GATE_WAIT_MS);
   try {
     account = await startAccount(settings, (u) => {
       const was = user?.uid;
       user = u;
+      clearTimeout(wait);
+      if (u) {
+        refused = null;
+        $('gate-status').textContent = '';
+        if (!$('view-signin').hidden) renderHome();
+        if (u.uid !== was) syncNow();
+      } else {
+        clearTimeout(syncTimer);
+        lastSynced = null;
+        setGate('ready');
+        if (!session) renderHome();
+      }
       renderSync();
-      if (u && u.uid !== was) syncNow({ quiet: false });
-      if (!u) clearTimeout(syncTimer);
     });
   } catch (err) {
     console.warn(err);
-    settings = null;
+    clearTimeout(wait);
+    setGate('unreachable');
   }
   return renderSync();
 }
@@ -186,7 +255,7 @@ async function receiveHandover() {
       // The one-time copy is no longer needed; blank it out.
       await pushRemote(fetch, url, emptyState()).catch((err) => console.warn(err));
     }
-    note.textContent = 'Welcome to the game\'s new address. Your progress from the old one is here. Bookmark this page, and sign in with Google below to sync your devices.';
+    note.textContent = 'Welcome to the game\'s new address. Your progress from the old one is here. Bookmark this page.';
   } catch (err) {
     console.warn(err);
     note.textContent = 'Your progress from the old address could not be brought over just now. Open the old address again to retry, or use a backup file.';
@@ -194,7 +263,7 @@ async function receiveHandover() {
 }
 
 function show(view) {
-  for (const v of ['home', 'quiz', 'summary']) $(`view-${v}`).hidden = v !== view;
+  for (const v of ['signin', 'home', 'quiz', 'summary']) $(`view-${v}`).hidden = v !== view;
   window.scrollTo(0, 0);
 }
 
@@ -247,7 +316,7 @@ function renderHome() {
   renderWeakSpots();
   renderReports();
   renderSync();
-  show('home');
+  show(gateOn() ? 'signin' : 'home');
 }
 
 const WEAK_SHOWN = 10;
@@ -503,6 +572,7 @@ function startSession(mode) {
     mode, queue, index: 0, answers: [], xpEarned: 0, tries: new Map(), relearned: new Set(),
     deadline: mode === 'block' ? Date.now() + queue.length * SECONDS_PER_QUESTION * 1000 : null,
   };
+  pushSessionEntry();
   if (session.deadline) tickTimer();
   showQuestion();
 }
@@ -538,6 +608,7 @@ function showQuestion() {
     input.addEventListener('change', () => {
       session.current.choice = opt.id;
       $('confidence').hidden = false;
+      $('confidence').scrollIntoView({ block: 'nearest' });
     });
     label.appendChild(input);
     label.appendChild(el('span', `${opt.label}. `, 'opt-label'));
@@ -671,13 +742,45 @@ function renderFeedback(q, presented, choice, correct, confidence, gained, note 
     else if (id === choice) label.classList.add('wrong');
   }
   $('feedback').hidden = false;
-  $('next-btn').focus();
+  // Show the right/wrong line first; Next keeps the keyboard focus without
+  // scrolling the result off a phone screen.
+  $('next-btn').focus({ preventScroll: true });
+  $('feedback').scrollIntoView({ block: 'start' });
 }
 
 function advance() {
   session.index += 1;
   if (session.index >= session.queue.length) return finishSession();
   showQuestion();
+}
+
+// Home, from any question (the Home buttons, the title, or the phone's Back).
+// Every answer is saved the moment it is given, so leaving loses nothing. A
+// timed block asks first, then shows the review of what was answered.
+function leaveSession() {
+  if (session?.mode === 'block' && session.answers.length) {
+    if (!window.confirm('End this exam block now? Your answers are saved, and you will see the review of the ones you answered.')) return false;
+    finishSession();
+    return true;
+  }
+  if (session) clearTimeout(session.timer);
+  session = null;
+  renderHome();
+  return true;
+}
+
+// The phone's Back button returns to home instead of leaving the game: a
+// session adds one history entry, and going back from it ends the session.
+function pushSessionEntry() {
+  if (history.state?.session) return;
+  history.pushState({ session: true }, '');
+}
+
+function leaveViaButton() {
+  if (!leaveSession()) return;
+  // Back to home: drop the session's history entry too. (A block's review
+  // keeps it, so Back from the review also goes home.)
+  if (history.state?.session && $('view-summary').hidden) history.back();
 }
 
 function finishSession() {
@@ -780,7 +883,10 @@ function wire() {
     persist();
     renderReports();
   });
-  $('sum-home').addEventListener('click', renderHome);
+  $('sum-home').addEventListener('click', () => {
+    renderHome();
+    if (history.state?.session) history.back();
+  });
   wireProgress();
   const typeSel = $('exam-type');
   for (const [id, { name }] of Object.entries(EXAM_TYPES)) {
@@ -824,10 +930,17 @@ function wire() {
   });
   $('home-link').addEventListener('click', (e) => {
     e.preventDefault();
-    if (session && !confirm('Leave this session? Answers so far are saved.')) return;
-    if (session) clearTimeout(session.timer);
-    session = null;
-    renderHome();
+    if (session) leaveViaButton();
+    else if (!gateOn()) renderHome();
+  });
+  for (const id of ['quiz-home', 'fb-home']) $(id).addEventListener('click', leaveViaButton);
+  window.addEventListener('popstate', () => {
+    if (!session) {
+      if (!$('view-summary').hidden) renderHome();
+      return;
+    }
+    // Cancelled: stay in the session, and put its history entry back.
+    if (!leaveSession()) pushSessionEntry();
   });
   document.addEventListener('keydown', (e) => {
     // Typing a report note (or toggling the report box) must not answer or advance.
@@ -879,29 +992,26 @@ function wireProgress() {
     $('backup-status').textContent = `Restored. The backup was added to this device's progress${added > 0 ? ` (${added} more question${added === 1 ? '' : 's'} with saved progress)` : ''}.`;
   });
 
-  $('sync-signin').addEventListener('click', async () => {
-    $('sync-status').textContent = '';
-    try {
-      await account.signIn();
-    } catch (err) {
-      console.warn(err);
-      const msg = signInProblem(err?.code);
-      if (msg) $('sync-status').textContent = msg;
-    }
+  $('gate-signin').addEventListener('click', () => signIn($('gate-status')));
+  $('gate-skip').addEventListener('click', () => {
+    skipped = true;
+    renderHome();
   });
-  $('sync-now').addEventListener('click', () => syncNow({ quiet: false }));
+  $('sync-signin').addEventListener('click', () => signIn($('sync-status')));
   $('sync-signout').addEventListener('click', async () => {
     if (!window.confirm('Sign out on this device? Progress already here stays here, but it stops syncing until you sign in again.')) return;
     await syncNow();
+    skipped = false;
     await account.signOut();
-    $('sync-status').textContent = 'Signed out. This device keeps its progress but no longer syncs.';
   });
-  document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') syncNow(); });
+  // Sync when she comes back to the game, and straight away when she leaves
+  // it (switches app, locks the phone, closes the tab), so the other device
+  // has her latest answers.
+  document.addEventListener('visibilitychange', () => syncNow());
   window.addEventListener('online', () => syncNow());
 }
 
-async function main() {
-  wire();
+async function loadQuestions() {
   try {
     const res = await fetch('data/questions.json', { cache: 'no-cache' });
     questions = usableQuestions(await res.json());
@@ -909,6 +1019,13 @@ async function main() {
     console.error(err);
     $('due-summary').textContent = 'Could not load the question bank. If you opened this file directly, serve it over HTTP (see README).';
   }
+}
+
+async function main() {
+  wire();
+  // Firebase settings first, so the game's own address opens on the sign-in
+  // screen and never flashes the home screen before it.
+  [settings] = await Promise.all([loadFirebaseSettings(fetch, location.hostname), loadQuestions()]);
   renderHome();
   if (nextExam(state.exams, today())) {
     $('exam-select').value = 'next';
